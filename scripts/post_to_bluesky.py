@@ -177,6 +177,24 @@ def extract_fields(record: dict) -> dict | None:
     action_date_raw = action.get("date") or ""
     action_date = action_date_raw[:10] if action_date_raw else ""
 
+    # Fall back to the record-level timestamp ("YYYYMMDDTHHMMSSZ") when the
+    # log's action.date is missing. Without a date, format_action_line returns
+    # nothing, so the post collapses to "<emoji> <state> <id> — <title>" and
+    # multiple date-less records for the same bill all look like the same
+    # post.
+    if not action_date:
+        ts = record.get("timestamp") or ""
+        m = re.match(r"^(\d{4})(\d{2})(\d{2})", ts)
+        if m:
+            action_date = f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+
+    # If we still have no date AND no action description, there's nothing
+    # actionable to say beyond the bill's static title — skip rather than
+    # emit a bare post that's indistinguishable from other date-less updates
+    # of the same bill.
+    if not action_date and not action_desc:
+        return None
+
     dedup_key = f"{state}|{identifier}|{action_date}|{action_desc[:40]}"
     same_day_key = f"{state}|{identifier}|{action_date}"
 
