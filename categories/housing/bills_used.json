@@ -1,13 +1,15 @@
 {
   "posted": [
     "AL|HB55|2026-04-09|Delivered to Governor",
+    "AL|HB55|2026-04-09|Enrolled",
     "AL|HB55|2026-04-09|Ready to Enroll",
     "AL|HB55|2026-04-09|Signature Requested",
     "AL|HB55|2026-04-16|Enacted",
+    "MS|HB1075|2026-02-03|DR - TSDP: WM To BB",
     "RI|HB7565|2026-04-03|04/03/2026 Scheduled for hearing and/or ",
     "RI|HB7565|2026-04-07|04/07/2026 Committee recommended measure",
     "RI|HB8105|2026-03-13|03/13/2026 Scheduled for hearing and/or ",
     "RI|HB8105|2026-03-13|03/13/2026 Withdrawn at sponsor's reques"
   ],
-  "last_run": "2026-05-05T01:28:51.425521+00:00"
+  "last_run": "2026-05-05T07:55:48.802316+00:00"
 }

@@ -13,6 +13,7 @@
     "NJ|A2311|2026-01-13|WITHDRAWN APP P.L.2025, c.256.",
     "NJ|S1806|2026-01-13|WITHDRAWN APP P.L.2025, c.256.",
     "NJ|SJR41|2026-01-13|WITHDRAWN APP P.L.2025, JR-22.",
+    "TN|SB 6002|2025-01-27|Placed on Senate Finance, Ways, and Mean",
     "TN|SB 6002|2025-01-29|Amendment tabled (Amendment 3 - SA6010)",
     "TN|SB 6002|2025-01-29|Failed to adopt, Ayes 6, Nays 27 (Amendm",
     "TN|SB 6002|2025-01-29|Passed Senate as amended, Ayes 26, Nays ",
@@ -23,6 +24,7 @@
     "TN|SB 6002|2025-02-25|Pub. Ch. 1",
     "WA|SB 5104|2025-03-21|Executive action taken in the House Comm",
     "WA|SB 5104|2025-03-21|LAWS - Majority; do pass.",
+    "WA|SB 5104|2025-03-21|Minority; do not pass.",
     "WA|SB 5104|2025-03-21|Minority; without recommendation.",
     "WA|SB 5104|2025-04-05|APP - Majority; do pass.",
     "WA|SB 5104|2025-04-05|Executive action taken in the House Comm",
@@ -37,5 +39,5 @@
     "WV|HB 4059|2026-01-14|To Health and Human Resources",
     "WV|HB 4148|2026-01-14|To Government Organization"
   ],
-  "last_run": "2026-05-05T01:29:11.207480+00:00"
+  "last_run": "2026-05-05T07:56:07.911267+00:00"
 }

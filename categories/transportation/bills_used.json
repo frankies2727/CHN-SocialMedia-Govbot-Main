@@ -11,6 +11,7 @@
     "AK|HB55|2025-07-30|(H) LINE ITEM VETO AND REDUCTIONS",
     "AL|SB94|2026-04-07|Motion to Read a Third Time and Pass as ",
     "AL|SJR91|2026-03-31|Delivered to Governor",
+    "AR|HB 1567|2025-05-05|Died in House Committee at Sine Die adjo",
     "CO|SJR 011|2026-02-10|Senate Third Reading Laid Over to 02/12/",
     "FL|HB 919|2026-03-30|Approved by Governor",
     "HI|HB368|2025-12-08|Carried over to 2026 Regular Session.",
@@ -62,6 +63,7 @@
     "NC|SB 257|2025-05-21|Amend Failed A30",
     "NC|SB 257|2025-05-21|Amend Failed A32",
     "NC|SB 257|2025-05-21|Amend Failed A35",
+    "NC|SB 257|2025-05-21|Amend Failed A36",
     "NC|SB 257|2025-05-21|Amend Failed A44",
     "NC|SB 257|2025-05-21|Amend Tabled A41",
     "NC|SB 257|2025-05-22|Amend Adopted A46",
@@ -115,5 +117,5 @@
     "WV|SB 221|2026-01-14|To Economic Development",
     "WV|SB 238|2026-01-14|To Transportation and Infrastructure"
   ],
-  "last_run": "2026-05-05T01:29:36.036837+00:00"
+  "last_run": "2026-05-05T07:56:34.758573+00:00"
 }
