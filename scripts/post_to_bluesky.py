@@ -807,6 +807,50 @@ def _b_wv(session, ident):  # verified — wvlegislature.gov Bill_Status form
             f"?input={num}&year={year}&sessiontype={sessiontype}&btype={btype}")
 
 
+def _b_ms(session, ident):  # verified — billstatus.ls.state.ms.us history page
+    # Mississippi bill action-history pages live at:
+    #   https://billstatus.ls.state.ms.us/<seg>/pdf/history/<TYPE>/<TYPE><NUM4>.xml
+    # NUM4 is zero-padded to 4 digits. <seg> is the calendar year for regular
+    # sessions ("2026") or year + extraordinary-session code ("20251E" = 2025
+    # 1st Extraordinary). The .xml file renders as a styled HTML page in
+    # browsers, with the bill's full action log.
+    year = _first_year(session)
+    typ, num = _split_ident(ident)
+    if not (year and typ and num):
+        return None
+    seg = year
+    cleaned = (session or "").strip().upper()
+    # OpenStates / govbot encode regular sessions as just the year and
+    # specials with an alphanumeric suffix ("20251E"). Pass through any
+    # year-prefixed compact identifier; otherwise fall back to bare year.
+    if re.fullmatch(r"\d{4}[A-Z\d]+", cleaned):
+        seg = cleaned
+    return (f"https://billstatus.ls.state.ms.us/{seg}/pdf/history/"
+            f"{typ}/{typ}{num.zfill(4)}.xml")
+
+
+def _b_al(session, ident):  # best-effort — alison.legislature.state.al.us PDF
+    # Alabama redesigned its Alison site in 2025 around opaque internal bill
+    # IDs that OpenStates no longer captures (instrumentUrl was dropped from
+    # the GraphQL API on 2025-01-20). The next-best stable per-bill URL is
+    # the introduced-text PDF, served from a predictable path:
+    #   /files/pdf/SearchableInstruments/<SESSION>/<TYPE><NUM>-int.pdf
+    # SESSION = year + session-type code: "2026RS" (Regular), "2026FS" (First
+    # Special), "2025SS1" (1st Special), etc. OpenStates encodes these in
+    # lowercase ("2026rs"); upper-case for the URL.
+    year = _first_year(session)
+    typ, num = _split_ident(ident)
+    if not (year and typ and num):
+        return None
+    code = "RS"
+    cleaned = (session or "").strip().upper()
+    m = re.fullmatch(r"\d{4}([A-Z]+\d?)", cleaned)
+    if m:
+        code = m.group(1)
+    return ("https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/"
+            f"{year}{code}/{typ}{num}-int.pdf")
+
+
 def _b_ri(session, ident):  # verified — webserver.rilegislature.gov BillText
     # RI's per-bill landing page is the bill text view, served at:
     #   https://webserver.rilegislature.gov/BillText{YY}/{Chamber}Text{YY}/{TYP}{NUM}.htm
@@ -836,7 +880,8 @@ STATE_BILL_URL_BUILDERS = {
     "MA": _b_ma, "OH": _b_oh, "WI": _b_wi, "NC": _b_nc, "NJ": _b_nj,
     "CT": _b_ct, "MO": _b_mo, "MN": _b_mn, "NM": _b_nm, "HI": _b_hi,
     "KS": _b_ks, "WV": _b_wv, "PA": _b_pa, "AK": _b_ak, "OR": _b_or,
-    "CO": _b_co, "WA": _b_wa, "TN": _b_tn, "RI": _b_ri,
+    "CO": _b_co, "WA": _b_wa, "TN": _b_tn, "RI": _b_ri, "MS": _b_ms,
+    "AL": _b_al,
 }
 
 
