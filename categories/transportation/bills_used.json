@@ -89,6 +89,7 @@
     "NY|S7760|2025-05-21|2ND REPORT CAL.",
     "NY|S7760|2025-06-09|ORDERED TO THIRD READING RULES CAL.528",
     "NY|S7760|2025-09-05|DELIVERED TO GOVERNOR",
+    "OH|HB 50|2025-06-11|",
     "OH|HB 50|2025-06-18|",
     "OH|HB 50|2025-06-18|Passed",
     "OH|HB 50|2025-06-24|Sent To The Governor",
@@ -114,6 +115,7 @@
     "PA|HB 1364|2025-06-16|Re-reported as committed",
     "PA|HB 1364|2025-06-17|Third consideration and final passage",
     "PA|HB 257|2025-06-24|Re-reported as committed",
+    "PA|HB 257|2025-08-12|",
     "PA|HB 257|2025-08-12|Final passage",
     "PA|HB 257|2025-08-12|Third consideration, with amendments",
     "PA|HB 257|2025-08-13|",
@@ -123,5 +125,5 @@
     "WV|SB 221|2026-01-14|To Economic Development",
     "WV|SB 238|2026-01-14|To Transportation and Infrastructure"
   ],
-  "last_run": "2026-05-06T01:28:26.941547+00:00"
+  "last_run": "2026-05-06T13:28:45.855475+00:00"
 }
