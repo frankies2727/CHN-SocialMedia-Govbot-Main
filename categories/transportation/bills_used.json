@@ -61,6 +61,7 @@
     "NC|SB 257|2025-05-21|Amend Failed A14",
     "NC|SB 257|2025-05-21|Amend Failed A15",
     "NC|SB 257|2025-05-21|Amend Failed A16",
+    "NC|SB 257|2025-05-21|Amend Failed A20",
     "NC|SB 257|2025-05-21|Amend Failed A21",
     "NC|SB 257|2025-05-21|Amend Failed A25",
     "NC|SB 257|2025-05-21|Amend Failed A30",
@@ -114,6 +115,7 @@
     "OR|HB3991|2025-11-13|Chapter 1, (2025 Laws): Effective date D",
     "PA|HB 1364|2025-06-10|Removed from table",
     "PA|HB 1364|2025-06-11|Second consideration, with amendments",
+    "PA|HB 1364|2025-06-16|",
     "PA|HB 1364|2025-06-16|Re-reported as committed",
     "PA|HB 1364|2025-06-17|",
     "PA|HB 1364|2025-06-17|Third consideration and final passage",
@@ -129,5 +131,5 @@
     "WV|SB 221|2026-01-14|To Economic Development",
     "WV|SB 238|2026-01-14|To Transportation and Infrastructure"
   ],
-  "last_run": "2026-05-07T01:33:12.263321+00:00"
+  "last_run": "2026-05-07T08:15:38.873188+00:00"
 }
