@@ -890,6 +890,22 @@ def _b_al(session, ident):  # best-effort — alison.legislature.state.al.us PDF
             f"{year}{code}/{typ}{num}-int.pdf")
 
 
+def _b_nh(session, ident):  # best-effort — legiscan.com per-bill page
+    # New Hampshire's gencourt.state.nh.us bill_status pages key off opaque
+    # internal sequential IDs (e.g. billinfo.aspx?id=2098) that aren't
+    # computable from the (year, bill-number) pair govbot/OpenStates gives us,
+    # and the search-results endpoint only renders its form on GET — the
+    # actual lookup happens via ASP.NET postback. With no stable deep-link
+    # path on the official site, fall back to LegiScan, whose per-bill URL
+    # is /NH/bill/<TYPE><NUM>/<YEAR> and resolves reliably for both years of
+    # NH's biennial session.
+    year = _first_year(session)
+    typ, num = _split_ident(ident)
+    if not (year and typ and num):
+        return None
+    return f"https://legiscan.com/NH/bill/{typ}{num}/{year}"
+
+
 def _b_ri(session, ident):  # verified — webserver.rilegislature.gov BillText
     # RI's per-bill landing page is the bill text view, served at:
     #   https://webserver.rilegislature.gov/BillText{YY}/{Chamber}Text{YY}/{TYP}{NUM}.htm
@@ -920,7 +936,7 @@ STATE_BILL_URL_BUILDERS = {
     "CT": _b_ct, "MO": _b_mo, "MN": _b_mn, "NM": _b_nm, "HI": _b_hi,
     "KS": _b_ks, "WV": _b_wv, "PA": _b_pa, "AK": _b_ak, "OR": _b_or,
     "CO": _b_co, "WA": _b_wa, "TN": _b_tn, "RI": _b_ri, "MS": _b_ms,
-    "AL": _b_al, "ND": _b_nd,
+    "AL": _b_al, "ND": _b_nd, "NH": _b_nh,
 }
 
 
