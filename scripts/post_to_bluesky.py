@@ -890,20 +890,20 @@ def _b_al(session, ident):  # best-effort — alison.legislature.state.al.us PDF
             f"{year}{code}/{typ}{num}-int.pdf")
 
 
-def _b_nh(session, ident):  # best-effort — legiscan.com per-bill page
-    # New Hampshire's gencourt.state.nh.us bill_status pages key off opaque
-    # internal sequential IDs (e.g. billinfo.aspx?id=2098) that aren't
-    # computable from the (year, bill-number) pair govbot/OpenStates gives us,
-    # and the search-results endpoint only renders its form on GET — the
-    # actual lookup happens via ASP.NET postback. With no stable deep-link
-    # path on the official site, fall back to LegiScan, whose per-bill URL
-    # is /NH/bill/<TYPE><NUM>/<YEAR> and resolves reliably for both years of
-    # NH's biennial session.
-    year = _first_year(session)
+def _b_nh(session, ident):  # verified — gc.nh.gov results.aspx renders bill inline
+    # NH's billinfo.aspx pages key off opaque internal IDs we can't compute,
+    # but results.aspx with adv=2 + txtbillno + txtsessionyear renders the
+    # bill row inline (number, title, status) and links to the internal-ID
+    # page. Falls back to LegiScan if we don't have a year — keeps readers
+    # off the bare gencourt homepage.
     typ, num = _split_ident(ident)
-    if not (year and typ and num):
+    if not (typ and num):
         return None
-    return f"https://legiscan.com/NH/bill/{typ}{num}/{year}"
+    year = _first_year(session)
+    if year:
+        return ("https://gc.nh.gov/bill_status/results.aspx"
+                f"?adv=2&txtbillno={typ}{num}&txtsessionyear={year}")
+    return f"https://legiscan.com/NH/bill/{typ}{num}"
 
 
 def _b_ri(session, ident):  # verified — webserver.rilegislature.gov BillText
