@@ -3,6 +3,7 @@
     "IA|HF 2799|2026-05-02|Fiscal note.",
     "MI|HB 4119|2025-11-04|placed on third reading",
     "MI|HB 4119|2025-11-04|read a second time",
+    "MO|HJR 8|2025-09-07|Referred: Special Committee on Property ",
     "MO|HJR 8|2025-09-09|Public Hearing Completed (H)",
     "MS|HB1364|2026-02-03|Died In Committee",
     "NJ|A3835|2026-01-13|WITHDRAWN APP P.L.2025, c.274.",
@@ -15,6 +16,7 @@
     "OH|HB 335|2025-11-20|",
     "OR|HB3991|2025-09-29|Motion to suspend the rules to amend the",
     "OR|HB3991|2025-09-29|Thatcher declared potential conflict of ",
+    "OR|HB3991|2025-09-29|Third reading.  Carried by Pham.  Passed",
     "OR|HB3991|2025-10-02|Speaker signed.",
     "OR|HB3991|2025-10-09|President signed.",
     "OR|HB3991|2025-11-08|Governor signed.",
@@ -33,5 +35,5 @@
     "WV|SB 76|2026-01-14|To Energy, Industry, and Mining",
     "WV|SB 99|2026-01-14|To Health and Human Resources"
   ],
-  "last_run": "2026-05-08T01:35:33.328156+00:00"
+  "last_run": "2026-05-08T07:17:54.568751+00:00"
 }
