@@ -17,6 +17,7 @@
     "HI|HB368|2025-12-08|Carried over to 2026 Regular Session.",
     "HI|HB59|2025-12-08|Carried over to 2026 Regular Session.",
     "HI|SB1088|2025-12-08|Carried over to 2026 Regular Session.",
+    "IA|HF 395|2025-04-29|Message from Senate.",
     "IA|HF 395|2025-05-08|Immediate message.",
     "IA|HF 395|2025-05-08|Passed House, yeas 64, nays 20.",
     "IA|HF 395|2025-05-09|Message from House.",
@@ -53,6 +54,7 @@
     "MS|SB2461|2026-02-03|Died In Committee",
     "MS|SB2736|2026-02-03|Died In Committee",
     "MS|SB2831|2026-02-03|Died In Committee",
+    "NC|SB 257|2025-05-14|Serial Referral To Pensions and Retireme",
     "NC|SB 257|2025-05-19|Reptd Fav Com Substitute",
     "NC|SB 257|2025-05-19|Ruled Material",
     "NC|SB 257|2025-05-20|Reptd Fav Com Sub 2",
@@ -145,5 +147,5 @@
     "WV|SB 221|2026-01-14|To Economic Development",
     "WV|SB 238|2026-01-14|To Transportation and Infrastructure"
   ],
-  "last_run": "2026-05-09T01:33:09.768375+00:00"
+  "last_run": "2026-05-09T07:34:37.952847+00:00"
 }
