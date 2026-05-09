@@ -232,6 +232,18 @@ def _format_date(yyyy_mm_dd: str) -> str:
     return f"{abbrev[d.month]} {d.day}, {d.year}"
 
 
+# Some sources (e.g. Rhode Island) prefix action descriptions with their own
+# MM/DD/YYYY date, which would otherwise duplicate the formatted date we
+# prepend in format_action_line.
+_LEADING_DATE_RE = re.compile(
+    r"^\s*(?:\d{1,2}[/-]\d{1,2}[/-]\d{2,4}|\d{4}-\d{1,2}-\d{1,2})\s*[:\-–—]?\s+"
+)
+
+
+def _strip_leading_date(s: str) -> str:
+    return _LEADING_DATE_RE.sub("", s or "", count=1)
+
+
 def _smart_case(s: str) -> str:
     s = s.strip().rstrip(".")
     if not s:
@@ -248,7 +260,7 @@ def _smart_case(s: str) -> str:
 
 
 def format_action_line(action_desc: str, date_yyyy_mm_dd: str) -> str:
-    desc = _smart_case(action_desc)
+    desc = _smart_case(_strip_leading_date(action_desc))
     nice_date = _format_date(date_yyyy_mm_dd)
     if desc and nice_date:
         desc_with_period = desc if desc.endswith((".", "!", "?")) else desc + "."
