@@ -1,6 +1,7 @@
 {
   "posted": [
     "DE|HB 240|2025-08-12|Passed By Senate. Votes: 18 YES 3 ABSENT",
+    "DE|HB 240|2025-08-12|Signed by Governor",
     "DE|HB 240|2025-08-12|Suspension of Rules in House",
     "DE|HB 240|2025-08-12|Suspension of Rules in Senate",
     "IA|HF 2799|2026-05-02|Fiscal note.",
@@ -20,6 +21,7 @@
     "OH|HB 335|2025-11-19|Passed",
     "OH|HB 335|2025-11-20|",
     "OR|HB3991|2025-09-01|Recommendation: Do pass with amendments ",
+    "OR|HB3991|2025-09-01|Third reading. Carried by McLain. Passed",
     "OR|HB3991|2025-09-02|Recommendation: Do pass the A-Eng. bill.",
     "OR|HB3991|2025-09-02|Second reading.",
     "OR|HB3991|2025-09-29|Motion to suspend the rules to amend the",
@@ -45,5 +47,5 @@
     "WV|SB 76|2026-01-14|To Energy, Industry, and Mining",
     "WV|SB 99|2026-01-14|To Health and Human Resources"
   ],
-  "last_run": "2026-05-09T12:50:26.698844+00:00"
+  "last_run": "2026-05-09T18:45:56.379189+00:00"
 }
