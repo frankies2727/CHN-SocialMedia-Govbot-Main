@@ -719,13 +719,21 @@ def _b_hi(session, ident):  # best-effort — capitol.hawaii.gov
     return f"https://www.capitol.hawaii.gov/sessions/session{year}/bills/{typ}{num}_.HTM" if (year and typ and num) else None
 
 
-def _b_ks(session, ident):  # best-effort — kslegislature.org biennium URL
+def _b_ks(session, ident):  # verified — kslegislature.gov biennium URL
+    # KS canonical bill URL is /b{YYYY}_{YY}/bills/{type}{num}/ on the .gov
+    # domain. The legacy /li/b{biennium}/measures/{type}_{num}/ path that was
+    # used here previously now 301s into a 404: the redirect target keeps the
+    # `_` between bill type and number, but the new path requires no
+    # underscore (e.g. /b2025_26/bills/sb113/, not .../sb_113/).
     year = _first_year(session)
     typ, num = _split_ident(ident)
     if not (year and typ and num):
         return None
-    next_year = str(int(year) + 1)
-    return f"https://www.kslegislature.org/li/b{year}_{next_year[-2:]}/measures/{typ.lower()}_{num}/"
+    y = int(year)
+    if y % 2 == 0:
+        y -= 1  # bienniums start in odd years
+    next_yy = str(y + 1)[-2:]
+    return f"https://www.kslegislature.gov/b{y}_{next_yy}/bills/{typ.lower()}{num}/"
 
 
 def _b_pa(session, ident):  # verified — legis.state.pa.us cfdocs billInfo form
@@ -940,6 +948,34 @@ def _b_al(session, ident):  # best-effort — alison.legislature.state.al.us PDF
             f"{year}{code}/{typ}{num}-int.pdf")
 
 
+def _b_ne(session, ident):  # verified — nebraskalegislature.gov FloorDocs PDF
+    # Nebraska's bill viewer (cv/view_bill.php) keys off opaque DocumentIDs
+    # that aren't in OpenStates data, and the search-by-number form is
+    # POST-only with a CSRF token, so neither is linkable. The introduced-
+    # bill PDF is the only stable, computable URL on nebraskalegislature.gov:
+    #   /FloorDocs/<LegN>/PDF/Intro/<TYP><NUM>.pdf
+    # OpenStates encodes NE sessions as the legislature number (e.g. "109"
+    # for the 109th = 2025-2026 biennium); accept that or a calendar year.
+    # Nth NE legislature convenes in calendar year 2*N + 1807 (109 -> 2025).
+    typ, num = _split_ident(ident)
+    if typ not in ("LB", "LR") or not num:
+        return None
+    leg = ""
+    year = _first_year(session)
+    if year:
+        y = int(year)
+        if y % 2 == 0:
+            y -= 1
+        leg = str((y - 1807) // 2)
+    else:
+        m = re.match(r"\s*(\d{2,3})(?:st|nd|rd|th)?\b", session or "")
+        if m:
+            leg = m.group(1)
+    if not leg:
+        return None
+    return f"https://nebraskalegislature.gov/FloorDocs/{leg}/PDF/Intro/{typ}{num}.pdf"
+
+
 def _b_nh(session, ident):  # verified — gc.nh.gov results.aspx renders bill inline
     # NH's billinfo.aspx pages key off opaque internal IDs we can't compute,
     # but results.aspx with adv=2 + txtbillno + txtsessionyear renders the
@@ -987,6 +1023,7 @@ STATE_BILL_URL_BUILDERS = {
     "KS": _b_ks, "WV": _b_wv, "PA": _b_pa, "AK": _b_ak, "OR": _b_or,
     "CO": _b_co, "WA": _b_wa, "TN": _b_tn, "RI": _b_ri, "MS": _b_ms,
     "AL": _b_al, "ND": _b_nd, "NH": _b_nh, "DE": _b_de, "ME": _b_me,
+    "NE": _b_ne,
 }
 
 
