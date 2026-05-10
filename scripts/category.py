@@ -128,11 +128,17 @@ class Category:
     def summary_system_prompt(self) -> str:
         return (
             f"You summarize US legislative bills for a civic-engagement Bluesky bot "
-            f"focused on {self.prompt_topic}. Output exactly ONE plain-text sentence under "
-            f"180 characters describing what the bill does, neutrally. No emoji, no "
-            f"hashtags, no editorializing, no surrounding quotes, no leading phrase "
-            f"like 'This bill'. Just the substance. Do not include any preamble, "
-            f"explanation, or trailing notes."
+            f"focused on {self.prompt_topic}. The bill's title is shown directly above "
+            f"your summary, so DO NOT restate or paraphrase the title — lead with the "
+            f"substantive action (who must do what, what changes, who is affected). "
+            f"Spell out agency and program acronyms in plain English (write 'the Oregon "
+            f"Department of Transportation', not 'ODOT'; 'the Environmental Protection "
+            f"Agency', not 'EPA') unless the acronym is universally known to a general "
+            f"audience (FBI, NASA, DNA). "
+            f"Output exactly ONE plain-text sentence under 160 characters, neutral and "
+            f"concrete. No emoji, no hashtags, no editorializing, no surrounding quotes, "
+            f"no leading phrases like 'This bill', 'The bill', or 'The Act'. Do not "
+            f"include any preamble, explanation, or trailing notes."
         )
 
     # ------------------------------------------------------------------

@@ -212,10 +212,25 @@ def extract_fields(record: dict) -> dict | None:
     }
 
 
+_BOILERPLATE_TITLE_RE = re.compile(
+    r"^\s*(an act\s+)?(relating to|concerning|regarding|to amend|"
+    r"to provide for|to authorize|to require)\b",
+    re.IGNORECASE,
+)
+
+
 def best_display_text(b: dict) -> str:
-    if _looks_like_code_title(b["title"]) and b["abstract"]:
-        return b["abstract"]
-    return b["title"]
+    title = (b["title"] or "").strip()
+    abstract = (b["abstract"] or "").strip()
+    if _looks_like_code_title(title) and abstract:
+        return abstract
+    # OR/TX-style boilerplate ("Relating to transportation; prescribing…")
+    if abstract and _BOILERPLATE_TITLE_RE.match(title) and len(abstract) < 220:
+        return abstract
+    # Long, semicolon-laden multi-clause titles — prefer a shorter abstract.
+    if abstract and len(title) > 120 and ";" in title and len(abstract) < len(title):
+        return abstract
+    return title
 
 
 # ---------------------------------------------------------------------------
@@ -415,6 +430,68 @@ def _clean_summary(text: str) -> str:
     return text
 
 
+_NORM_RE = re.compile(r"[^a-z0-9 ]+")
+
+
+def _normalize(s: str) -> str:
+    """Lowercase, strip punctuation, collapse whitespace — for fuzzy compares."""
+    return " ".join(_NORM_RE.sub(" ", (s or "").lower()).split())
+
+
+_LEAD_FILLER_RE = re.compile(
+    r"^(aims to|is intended to|seeks to|would|will|shall|is designed to|"
+    r"is meant to|attempts to|works to)\s+",
+    re.IGNORECASE,
+)
+
+
+_LEAD_ARTICLE_RE = re.compile(r"^(the|an|a)\s+", re.IGNORECASE)
+
+
+def _strip_title_prefix(summary: str, title: str) -> str:
+    """If the summary opens by restating the title, drop that restatement."""
+    if not summary or not title:
+        return summary
+    # Allow the summary to introduce the title with a leading article
+    # ("The Artificial Intelligence Bill of Rights aims to...") even when the
+    # title itself has no article.
+    body = _LEAD_ARTICLE_RE.sub("", summary, count=1)
+    skipped = len(summary) - len(body)
+    n_title = _normalize(title)
+    if not n_title or len(n_title) < 6:
+        return summary
+    n_body = _normalize(body)
+    if not n_body.startswith(n_title):
+        return summary
+    # Walk forward through the un-stripped summary until the normalized prefix
+    # covers the title; that's where the restatement ends.
+    for i in range(skipped + len(title), len(summary) + 1):
+        if _normalize(summary[skipped:i]).startswith(n_title):
+            rest = summary[i:].lstrip(" -—:,.;")
+            rest = _LEAD_FILLER_RE.sub("", rest)
+            if not rest:
+                return summary
+            return rest[:1].upper() + rest[1:]
+    return summary
+
+
+def _smart_truncate(text: str, max_len: int) -> str:
+    """Truncate to <= max_len, ending at a sentence or word boundary."""
+    text = (text or "").strip()
+    if len(text) <= max_len:
+        return text
+    cut = text[:max_len]
+    floor = max(1, int(max_len * 0.6))
+    for end in (".", "!", "?"):
+        idx = cut.rfind(end)
+        if idx >= floor:
+            return cut[: idx + 1]
+    idx = cut.rfind(" ")
+    if idx >= floor:
+        return cut[:idx].rstrip(",;:- ") + "…"
+    return cut.rstrip(",;:- ") + "…"
+
+
 def summarize(b: dict) -> str:
     abstract = (b["abstract"] or "").strip()
     title = b["title"].strip()
@@ -449,10 +526,10 @@ def summarize(b: dict) -> str:
         # Ollama /api/chat returns {"message": {"content": "..."}, ...}
         # Ollama /api/generate returns {"response": "...", ...}
         text = (data.get("message") or {}).get("content") or data.get("response") or ""
-        return _clean_summary(text)
+        return _strip_title_prefix(_clean_summary(text), b["title"])
     except Exception as e:
         print(f"  ! summarization failed, using fallback: {e}", file=sys.stderr)
-        return fallback
+        return _strip_title_prefix(fallback, b["title"])
 
 
 # ---------------------------------------------------------------------------
@@ -1123,7 +1200,11 @@ def compose_post(b: dict, summary: str) -> tuple[str, str, str, str]:
     display = best_display_text(b).strip()
     summary = (summary or "").strip()
 
-    summary_block = f"\n\n{summary}" if (summary and summary.lower() != display.lower()) else ""
+    summary_block = (
+        f"\n\n{summary}"
+        if summary and _normalize(summary) != _normalize(display)
+        else ""
+    )
     action_line = format_action_line(b["action_desc"], b["action_date"])
     action_block = f"\n\n{action_line}" if action_line else ""
 
@@ -1138,7 +1219,7 @@ def compose_post(b: dict, summary: str) -> tuple[str, str, str, str]:
         overflow = len(text) - MAX_POST
         new_len = max(0, len(summary) - overflow - 1)
         if new_len > 20:
-            summary = summary[:new_len].rstrip() + "…"
+            summary = _smart_truncate(summary, new_len + 1)
             summary_block = f"\n\n{summary}"
         else:
             summary_block = ""
@@ -1153,7 +1234,7 @@ def compose_post(b: dict, summary: str) -> tuple[str, str, str, str]:
                 overflow = len(text) - MAX_POST
                 new_len = max(0, len(desc_part) - overflow - 1)
                 if new_len > 8:
-                    action_line = date_prefix + desc_part[:new_len].rstrip() + "…"
+                    action_line = date_prefix + _smart_truncate(desc_part, new_len + 1)
                     action_block = f"\n\n{action_line}"
                 else:
                     # Not enough room for a meaningful description — drop
@@ -1168,7 +1249,7 @@ def compose_post(b: dict, summary: str) -> tuple[str, str, str, str]:
     if len(text) > MAX_POST:
         avail = MAX_POST - len(link_block) - len(summary_block) - len(action_block) \
                 - len(emoji) - len(f" {state_label} {b['identifier']} — ") - 1
-        display_trimmed = display[:max(0, avail)].rstrip() + "…"
+        display_trimmed = _smart_truncate(display, max(0, avail) + 1)
         head = f"{emoji} {state_label} {b['identifier']} — {display_trimmed}"
         text = assemble(head, summary_block, action_block, link_block)
 
