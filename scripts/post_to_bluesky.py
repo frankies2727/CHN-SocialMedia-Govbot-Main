@@ -1368,15 +1368,18 @@ def main() -> int:
 
     # Round-robin pick across states so one state with a big batch of updates
     # (e.g. all bills "withdrawn" on the same day a session ends) can't
-    # monopolize the run. Each pass picks at most one bill per state, ordered
-    # by which state has the freshest pending bill. If there aren't enough
-    # distinct states to fill POST_LIMIT, later passes pick a second per state.
+    # monopolize the run. Each pass picks at most one bill per state. States
+    # with the fewest pending bills are ordered first so quieter states get
+    # surfaced before noisier ones drown them out; freshness breaks ties.
     by_state: dict[str, list[dict]] = {}
     for b in candidates:
         by_state.setdefault(b["state"] or "?", []).append(b)
     for bills in by_state.values():
         bills.sort(key=sort_key, reverse=True)
+    # Stable sort: order by freshness first, then by ascending count so the
+    # final order is "fewest bills first, freshest first within each tier".
     state_order = sorted(by_state.keys(), key=lambda s: sort_key(by_state[s][0]), reverse=True)
+    state_order.sort(key=lambda s: len(by_state[s]))
 
     to_post: list[dict] = []
     while len(to_post) < POST_LIMIT and any(by_state[s] for s in state_order):
