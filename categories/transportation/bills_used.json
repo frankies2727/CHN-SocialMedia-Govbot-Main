@@ -29,6 +29,7 @@
     "IA|HF 395|2025-05-19|Reported correctly enrolled, signed by S",
     "IA|HF 395|2025-06-06|Signed by Governor.",
     "IA|SF 2088|2026-01-22|Committee report, approving bill.",
+    "KS|HB2647|2026-03-11|Committee Report recommending bill be pa",
     "KS|HB2647|2026-03-17|Committee of the Whole - Committee Repor",
     "KS|HB2647|2026-03-18|Final Action - Passed as amended; Yea 40",
     "KS|HB2647|2026-03-19|Nonconcurred with amendments; Conference",
@@ -100,6 +101,7 @@
     "NC|SB 257|2025-06-03|",
     "NC|SB 257|2025-06-03|Failed Concur In H Com Sub",
     "ND|SB 2308|2025-04-24|Reported back from conference committee,",
+    "ND|SB 2308|2025-04-24|Second reading, passed, yeas 27 nays 19",
     "ND|SB 2308|2025-04-28|Laid over one legislative day",
     "ND|SB 2308|2025-04-29|",
     "ND|SB 2308|2025-04-29|Conference committee report adopted",
@@ -165,5 +167,5 @@
     "WV|SB 221|2026-01-14|To Economic Development",
     "WV|SB 238|2026-01-14|To Transportation and Infrastructure"
   ],
-  "last_run": "2026-05-11T14:28:49.677450+00:00"
+  "last_run": "2026-05-11T19:29:20.983294+00:00"
 }
