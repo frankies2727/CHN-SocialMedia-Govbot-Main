@@ -1,0 +1,22 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Amends the Illinois Highway Code. Makes a technical change in a Section concerning the short title."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB857",
+    "legislative_session": "104th",
+    "title": "TRANSPORTATION-TECH"
+  },
+  "id": "SB857",
+  "log": {
+    "bill_id": "SB857"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/SB857/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/SB857/logs/20250319T000000Z.vote_event.pass.upper.json"
+  },
+  "timestamp": "20250319T000000Z.vote"
+}

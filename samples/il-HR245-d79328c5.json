@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Congratulates Kevin J. Coleman on the occasion of his retirement as Village President of the Village of Hennepin. Thanks him for his more than 32 years of service to his community. Wishes him the best in his future endeavors."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR245",
+    "legislative_session": "104th",
+    "title": "CONGRATS-KEVIN J. COLEMAN"
+  },
+  "id": "HR245",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2025-04-10",
+      "description": "Resolution Adopted",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HR245"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/HR245/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/HR245/logs/20250410T000000Z.classification.passage.lower.json"
+  }
+}
