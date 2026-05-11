@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Amends the Government Electronic Records Act. Makes a technical change in a Section concerning the short title."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB901",
+    "legislative_session": "104th",
+    "title": "STATE GOVERNMENT-TECH"
+  },
+  "id": "HB901",
+  "log": {
+    "action": {
+      "date": "2025-04-11",
+      "description": "Third Reading Deadline Extended-Rule May 31, 2025",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB901"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/HB901/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/HB901/logs/20250411T000000Z_third_reading_deadline_extendedrule_may_31_2025.json"
+  },
+  "timestamp": "20250411T000000Z"
+}

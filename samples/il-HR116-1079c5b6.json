@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Condemns President Donald Trump's cruel and lawless efforts to block lifesaving services that help people access healthcare, put food on the table, afford housing, and more. Urges the United States Congress to take clear and unequivocal action to check the undemocratic actions of the Trump Administration that violate the constitutional separation of power. Renews the commitment to helping Illinois families get ahead by supporting the services they need to be their best, expanding access to affordable healthcare, and reining in the cost of living."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR116",
+    "legislative_session": "104th",
+    "title": "CONDEMNS-SPENDING FREEZE"
+  },
+  "id": "HR116",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage-favorable"
+      ],
+      "date": "2025-02-05",
+      "description": "Recommends Be Adopted Rules Committee;  003-002-000",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HR116"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/HR116/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/HR116/logs/20250205T000000Z_recommends_be_adopted_rules_committee_003002000.json"
+  },
+  "timestamp": "20250205T000000Z"
+}

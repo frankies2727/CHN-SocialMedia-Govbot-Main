@@ -1,0 +1,22 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Amends the Environmental Protection Act. Specifies that the Act shall not apply to non-community water supplies, except for purposes of: (1) the Environmental Protection Agency's implementation of the Safe Drinking Water Act; (2) the Pollution Control Board's adoption of rules that expressly pertain to non-community water supplies or all public water supplies; or (3) any provisions of the Act or rules adopted by the Board under the Act that are referenced in, or applicable to, non-community water supplies under the Illinois Groundwater Protection Act and rules adopted by the Department of Public Health under that Act. Amends the Illinois Groundwater Protection Act. Authorizes the imposition of administrative and civil penalties. Effective immediately."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB3739",
+    "legislative_session": "104th",
+    "title": "EPA-WATER SUPPLIES"
+  },
+  "id": "HB3739",
+  "log": {
+    "bill_id": "HB3739"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/HB3739/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/HB3739/logs/20250318T000000Z.vote_event.pass.lower.json"
+  },
+  "timestamp": "20250318T000000Z.vote"
+}

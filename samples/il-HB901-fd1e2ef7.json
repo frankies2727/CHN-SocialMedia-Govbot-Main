@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Amends the Government Electronic Records Act. Makes a technical change in a Section concerning the short title."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB901",
+    "legislative_session": "104th",
+    "title": "STATE GOVERNMENT-TECH"
+  },
+  "id": "HB901",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-2"
+      ],
+      "date": "2025-03-27",
+      "description": "Held on Calendar Order of Second Reading - Short Debate **",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB901"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/HB901/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/HB901/logs/20250327T000000Z_held_on_calendar_order_of_second_reading_short_debate.json"
+  },
+  "timestamp": "20250327T000000Z"
+}

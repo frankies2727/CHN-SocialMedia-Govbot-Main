@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Amends the Access to Justice Act. Makes a technical change in a Section concerning the short title."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB363",
+    "legislative_session": "104th",
+    "title": "COURTS-TECH"
+  },
+  "id": "SB363",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-2"
+      ],
+      "date": "2025-03-20",
+      "description": "Second Reading",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB363"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/SB363/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/SB363/logs/20250320T000000Z_second_reading.json"
+  },
+  "timestamp": "20250320T000000Z"
+}
