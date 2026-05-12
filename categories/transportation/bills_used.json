@@ -53,6 +53,7 @@
     "MA|HD4590|2025-05-01|Placed on file",
     "MA|HD5283|2025-11-17|Placed on file",
     "MA|SD3290|2025-10-16|Placed on file",
+    "MD|SB0015|2025-04-07|Favorable Adopted",
     "MD|SB0015|2025-04-07|Favorable Report by Judicial Proceedings",
     "MD|SB0015|2025-04-07|Second Reading Passed",
     "MD|SB0015|2025-04-07|Third Reading Passed",
@@ -168,10 +169,11 @@
     "PA|HR 68|2025-06-18|Laid on the table (Pursuant to House Rul",
     "WI|SB6|2025-02-18|Report adoption of Senate Amendment 1 re",
     "WI|SB6|2025-02-18|Report adoption of Senate Amendment 2 re",
+    "WI|SB6|2025-02-18|Report passage as amended recommended by",
     "WV|HB 4263|2026-01-14|To Government Organization",
     "WV|SB 178|2026-01-14|To Transportation and Infrastructure",
     "WV|SB 221|2026-01-14|To Economic Development",
     "WV|SB 238|2026-01-14|To Transportation and Infrastructure"
   ],
-  "last_run": "2026-05-12T13:35:17.129058+00:00"
+  "last_run": "2026-05-12T19:30:38.125417+00:00"
 }
