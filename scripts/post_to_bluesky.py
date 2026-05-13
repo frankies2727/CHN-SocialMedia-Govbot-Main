@@ -1439,29 +1439,16 @@ def main() -> int:
         except (ValueError, TypeError):
             return datetime.min
 
-    # Round-robin pick across states so one state with a big batch of updates
-    # (e.g. all bills "withdrawn" on the same day a session ends) can't
-    # monopolize the run. Each pass picks at most one bill per state. States
-    # with the fewest pending bills are ordered first so quieter states get
-    # surfaced before noisier ones drown them out; freshness breaks ties.
-    by_state: dict[str, list[dict]] = {}
-    for b in candidates:
-        by_state.setdefault(b["state"] or "?", []).append(b)
-    for bills in by_state.values():
-        bills.sort(key=sort_key, reverse=True)
-    # Stable sort: order by freshness first, then by ascending count so the
-    # final order is "fewest bills first, freshest first within each tier".
-    state_order = sorted(by_state.keys(), key=lambda s: sort_key(by_state[s][0]), reverse=True)
-    state_order.sort(key=lambda s: len(by_state[s]))
-
-    to_post: list[dict] = []
-    while len(to_post) < POST_LIMIT and any(by_state[s] for s in state_order):
-        for s in state_order:
-            if not by_state[s]:
-                continue
-            to_post.append(by_state[s].pop(0))
-            if len(to_post) >= POST_LIMIT:
-                break
+    # Sort all candidates by freshness (most recent action first) and post the
+    # top POST_LIMIT. An earlier version did per-state round-robin to prevent
+    # any one state from monopolizing a run, but that ordering was dominated
+    # by state-queue length and ended up surfacing stale single-bill states
+    # (e.g. NY|S751 from 2025-02-14, ME|LD 1500 from 2025-06) ahead of states
+    # with many fresh updates. Pure recency is preferred: if a hot state
+    # contributes both posts in a given run, that's fine — the next run picks
+    # up wherever it left off.
+    candidates.sort(key=sort_key, reverse=True)
+    to_post: list[dict] = candidates[:POST_LIMIT]
 
     distinct_states = len({b["state"] or "?" for b in to_post})
     print(f"Will post up to {POST_LIMIT}: posting {len(to_post)} from {distinct_states} state(s).")
