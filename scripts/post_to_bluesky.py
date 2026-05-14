@@ -1202,6 +1202,38 @@ def _b_wy(session, ident):  # verified — wyoleg.gov Legislation/<year>/<TYP><N
     return f"https://www.wyoleg.gov/Legislation/{year}/{typ}{num.zfill(4)}"
 
 
+def _b_ar(session, ident):  # verified — arkleg.state.ar.us Bills/Detail?id=...&ddBienniumSession=...
+    # Arkansas bill detail URLs are
+    #   /Bills/Detail?id=<TYPE><NUM>&ddBienniumSession=<B>%2F<YEAR><CODE>
+    # <B> is the odd start year of the biennium (2025-2026 -> 2025).
+    # <CODE> is R (regular, odd year), F (fiscal, even year), or EX<n>
+    # (extraordinary session #n). OpenStates/govbot encode AR sessions as
+    # the year for regulars ("2025"), year+F for fiscals ("2024F",
+    # "2026F"), and year+S<n> or year+ES<n> for specials ("2023S1",
+    # "2023ES1"). The slash between biennium and session is URL-encoded.
+    typ, num = _split_ident(ident)
+    year = _first_year(session)
+    if not (typ and num and year):
+        return None
+    y = int(year)
+    biennium = y if y % 2 == 1 else y - 1  # bienniums start in odd years
+    cleaned = (session or "").strip().upper()
+    # Match EX1 / ES1 / S1 (extraordinary sessions) before falling back to
+    # F / R / parity default. The trailing \d+ keeps plain "2025" from
+    # being misread as a special session.
+    m = re.search(r"(?:EX|ES|S)(\d+)", cleaned)
+    if m:
+        code = f"EX{m.group(1)}"
+    elif "F" in cleaned:
+        code = "F"
+    elif "R" in cleaned:
+        code = "R"
+    else:
+        code = "R" if y % 2 == 1 else "F"
+    return ("https://www.arkleg.state.ar.us/Bills/Detail"
+            f"?id={typ}{num}&ddBienniumSession={biennium}%2F{year}{code}")
+
+
 STATE_BILL_URL_BUILDERS = {
     "FL": _b_fl, "IN": _b_in, "IA": _b_ia, "MI": _b_mi, "NY": _b_ny,
     "MA": _b_ma, "OH": _b_oh, "WI": _b_wi, "NC": _b_nc, "NJ": _b_nj,
@@ -1210,7 +1242,7 @@ STATE_BILL_URL_BUILDERS = {
     "CO": _b_co, "WA": _b_wa, "TN": _b_tn, "RI": _b_ri, "MS": _b_ms,
     "AL": _b_al, "ND": _b_nd, "NH": _b_nh, "DE": _b_de, "ME": _b_me,
     "NE": _b_ne, "SC": _b_sc, "MD": _b_md, "ID": _b_id, "GA": _b_ga,
-    "WY": _b_wy,
+    "WY": _b_wy, "AR": _b_ar,
 }
 
 
