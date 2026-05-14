@@ -1,5 +1,6 @@
 {
   "posted": [
+    "AR|SB 263|2025-03-12|Read the third time and passed and order",
     "AR|SB 263|2025-03-13|DELIVERED TO GOVERNOR.",
     "AR|SB 263|2025-03-13|Reported correctly enrolled and ordered ",
     "AR|SB 263|2025-03-18|Notification that SB263 is now Act 330",
@@ -22,6 +23,7 @@
     "MI|HB 4119|2025-05-06|reported with recommendation without ame",
     "MI|HB 4119|2025-11-04|placed on third reading",
     "MI|HB 4119|2025-11-04|read a second time",
+    "MI|HB 4186|2025-03-18|placed on third reading",
     "MI|HB 4186|2025-03-18|referred to second reading",
     "MI|HB 4186|2025-03-18|reported with recommendation with substi",
     "MI|HB 4186|2025-03-18|substitute (H-1) adopted",
@@ -85,5 +87,5 @@
     "WY|HB0252|2025-01-20|H Received for Introduction",
     "WY|HB0252|2025-02-03|H Did not Consider for Introduction"
   ],
-  "last_run": "2026-05-14T08:27:30.821639+00:00"
+  "last_run": "2026-05-14T13:27:23.819523+00:00"
 }

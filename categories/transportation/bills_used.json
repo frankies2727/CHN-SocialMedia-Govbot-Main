@@ -74,8 +74,10 @@
     "MS|SB2461|2026-02-03|Died In Committee",
     "MS|SB2736|2026-02-03|Died In Committee",
     "MS|SB2831|2026-02-03|Died In Committee",
+    "NC|SB 257|2025-04-15|Com Amend Adopted A1",
     "NC|SB 257|2025-04-15|Reptd Fav Com Sub with Unengrossed Amend",
     "NC|SB 257|2025-04-16|Amend Adopted A18",
+    "NC|SB 257|2025-04-16|Amend Adopted A23",
     "NC|SB 257|2025-04-16|Amend Adopted A32",
     "NC|SB 257|2025-04-16|Amendment Withdrawn A44",
     "NC|SB 257|2025-04-16|Amendment Withdrawn A9",
@@ -189,5 +191,5 @@
     "WV|SB 221|2026-01-14|To Economic Development",
     "WV|SB 238|2026-01-14|To Transportation and Infrastructure"
   ],
-  "last_run": "2026-05-14T08:27:35.847875+00:00"
+  "last_run": "2026-05-14T13:27:28.857953+00:00"
 }
