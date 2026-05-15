@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law requires certain businesses or establishments to post a notice relating to slavery and human trafficking, including hotlines and available services and support information. Existing law requires certain businesses or establishments to provide certain employees at least 20 minutes of training on human trafficking, as specified. Under existing law, the training must cover certain subjects, including how to recognize human trafficking, and may also include private nonprofit organizations that represent the interests of human trafficking victims, among other things.\n\nThis bill would additionally require body art facilities to post the above-described notice and to provide the human trafficking training to their employees and registered practitioners, as specified. The bill would instead authorize the training to include evidence-based, trauma-informed curriculum developed by the above-described nonprofit organizations.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1918",
+    "legislative_session": "20252026",
+    "subject": [
+      "Humantrafficking",
+      "bodyartpractitioners"
+    ],
+    "title": "Human trafficking: body art practitioners."
+  },
+  "id": "AB1918",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2026-05-05",
+      "description": "In Senate. Read first time. To Com. on RLS. for assignment.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "AB1918"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1918/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1918/logs/20260505T000000Z_in_senate_read_first_time_to_com_on_rls_for_assignment.json"
+  },
+  "timestamp": "20260505T000000Z"
+}

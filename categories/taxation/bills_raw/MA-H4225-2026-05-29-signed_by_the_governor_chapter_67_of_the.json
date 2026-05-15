@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Armini of Marblehead and Senator Crighton, a joint petition (accompanied by bill, House, No. 4225) of Jennifer Balinsky Armini and Brendan P. Crighton (by vote of the town) that the town of Marblehead be authorized to establish a means-tested senior citizen property tax exemption in said town.  Revenue.  [Local Approval Received.]",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H4225",
+    "legislative_session": "194th",
+    "title": "An Act authorizing the town of Marblehead to establish a means-tested senior citizen property tax exemption"
+  },
+  "id": "H4225",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-05-29",
+      "description": "Signed by the Governor, Chapter 67 of the Acts of 2026",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "H4225"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4225/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4225/logs/20260529T000000Z_signed_by_the_governor_chapter_67_of_the_acts_of_2026.json"
+  },
+  "timestamp": "20260529T000000Z"
+}

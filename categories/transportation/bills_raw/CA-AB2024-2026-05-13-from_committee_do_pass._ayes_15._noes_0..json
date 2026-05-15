@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "The Outdoor Advertising Act regulates placement of advertising displays adjacent to and within specified distances of highways that are part of the national system of interstate and defense highways and federal-aid highways. The act prohibits a person, as defined, from placing an advertising display within the areas affected by the act without a permit. The act prohibits the Department of Transportation from denying or delaying the acceptance of a permit application for a new advertising display along a portion of a new alignment of an interstate or primary highway on the basis that the highway project has not been accepted as complete if the section of highway is open to the use of the public for vehicular travel within 1,000 feet of the location specified in the permit application.\n\nThis bill would also prohibit the department from denying or delaying the review, processing, or determination of a permit application described above.\n\nThe act prohibits, except as provided, placing or maintaining an advertising display on property adjacent to a portion of a freeway that has a specified coverage area of landscaping or trees at the same or elevated grade of the main-traveled way, as provided. The act authorizes removal of an advertising display that violates that prohibition, as provided.\n\nThis bill would instead authorize the relocation or removal, with payment of compensation, of an advertising display that violates that prohibition, as specified.\n\nThe act does not prohibit a local governmental entity from entering into an agreement to relocate an advertising display for any purpose. The act requires the department to issue a permit without any additional consideration for a display that is being placed pursuant to a relocation agreement with another governmental entity, as provided.\n\nThis bill would instead not prohibit any governmental entity from entering into a relocation agreement and would require the department to issue a permit, without any additional consideration and without requiring a local entity or state agency to pay compensation, for a display that is being placed pursuant to a relocation agreement with another governmental entity, as specified.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2024",
+    "legislative_session": "20252026",
+    "subject": [
+      "Outdooradvertisingdisplays",
+      "landscapedfreeways",
+      "permits",
+      "relocationagreements"
+    ],
+    "title": "Outdoor advertising displays: permits: landscaped freeways: relocation agreements."
+  },
+  "id": "AB2024",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "date": "2026-05-13",
+      "description": "From committee: Do pass. (Ayes 15. Noes 0.) (May 13).",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB2024"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2024/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2024/logs/20260513T000000Z_from_committee_do_pass_ayes_15_noes_0_may_13.json"
+  },
+  "timestamp": "20260513T000000Z"
+}

@@ -19,6 +19,7 @@
     "AL|HB55|2026-04-09|Ready to Enroll",
     "AL|HB55|2026-04-09|Signature Requested",
     "AL|HB55|2026-04-16|Enacted",
+    "CA|AB2185|2026-05-13|From committee: Do pass. (Ayes 15. Noes ",
     "HI|SB1200|2025-02-04|The committee(s) on  HOU recommend(s) th",
     "HI|SB1200|2025-02-12|Report adopted; Passed Second Reading, a",
     "HI|SB1200|2025-02-12|Reported from HOU (Stand. Com. Rep. No. ",
@@ -51,6 +52,7 @@
     "ME|LD 1500|2025-06-25|Sent for concurrence. ORDERED SENT FORTH",
     "ME|LD 1500|2025-06-25|The House RECEDED and CONCURRED to PASSA",
     "ME|LD 1500|2025-07-08|HELD BY THE GOVERNOR.",
+    "MO|SB 973|2026-05-11|CCS S offered & withdrawn (4981S.06S)",
     "MS|HB1075|2026-02-02|DR - TSDP: BB To WM",
     "MS|HB1075|2026-02-03|DR - TSDP: WM To BB",
     "MS|HB1075|2026-02-03|Title Suff Do Pass",
@@ -89,5 +91,5 @@
     "WA|HB 2359|2026-01-09|Prefiled for introduction.",
     "WV|SB 101|2026-01-14|To Education"
   ],
-  "last_run": "2026-05-15T01:53:43.836233+00:00"
+  "last_run": "2026-05-15T08:47:47.069977+00:00"
 }
