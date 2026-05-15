@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law prohibits an employer or any other person from engaging in, or directing another person to engage in, an unfair immigration-related practice against a person for the purpose of, or with the intent of, retaliating against any person for exercising a right protected under state labor and employment laws or under a local ordinance applicable to employees, as specified.\n\nExisting law authorizes a civil action for equitable relief and damages or penalties, as specified, by an employee or other person who is the subject of an unfair immigration-related practice.\n\nThis bill would expand the above-described prohibition to include retaliating against any person for exercising any right under any local, state, or federal statute or regulation applicable to employees and would prohibit preventing a person from exercising such a right. The bill would also prohibit an employer or any other person from engaging in any other conduct, related to any person's actual or perceived immigration status, that would dissuade a reasonable person from engaging in conduct that the person has a legal right to engage in under any local, state, or federal statute or regulation applicable to employees, or to induce a reasonable person to engage in conduct that the person has a legal right to abstain from under any local, state, or federal statute or regulation applicable to employees. The bill would make an employer or other person who violates these provisions liable for a civil penalty not exceeding $10,000 per employee or person for each violation, as specified. The bill would also make related and conforming changes to these provisions.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2495",
+    "legislative_session": "20252026",
+    "subject": [
+      "Unlawfulimmigration-relatedpractices"
+    ],
+    "title": "Unlawful immigration-related practices."
+  },
+  "id": "AB2495",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "date": "2026-05-14",
+      "description": "From committee: Do pass. (Ayes 11. Noes 4.) (May 14).",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB2495"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2495/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2495/logs/20260514T000000Z_from_committee_do_pass_ayes_11_noes_4_may_14.json"
+  },
+  "timestamp": "20260514T000000Z"
+}

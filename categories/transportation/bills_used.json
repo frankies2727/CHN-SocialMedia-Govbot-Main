@@ -14,6 +14,7 @@
     "AR|HB 1567|2025-05-05|Died in House Committee at Sine Die adjo",
     "CA|AB2024|2026-05-13|From committee: Do pass. (Ayes 15. Noes ",
     "CA|SB1072|2026-05-12|Read second time. Ordered to consent cal",
+    "CA|SB1072|2026-05-14|Read third time. Passed. (Ayes 35. Noes ",
     "CO|SJR 011|2026-02-10|Senate Third Reading Laid Over to 02/12/",
     "FL|HB 919|2026-03-30|Approved by Governor",
     "GA|HB 257|2025-02-10|House Withdrawn, Recommitted",
@@ -70,6 +71,7 @@
     "MI|SB 0174|2025-05-13|RULES SUSPENDED",
     "MN|SF 3514|2026-02-17|Chief author added Holmstrom",
     "MO|SB 1083|2026-05-14|S Bills with H Amendments",
+    "MO|SB 1083|2026-05-15|S Bills with H Amendments",
     "MO|SB 1544|2026-05-14|S Bills with H Amendments",
     "MS|HB1725|2026-02-03|Died In Committee",
     "MS|HB436|2026-02-02|Title Suff Do Pass",
@@ -199,5 +201,5 @@
     "WV|SB 221|2026-01-14|To Economic Development",
     "WV|SB 238|2026-01-14|To Transportation and Infrastructure"
   ],
-  "last_run": "2026-05-15T13:36:31.856796+00:00"
+  "last_run": "2026-05-15T19:26:53.996464+00:00"
 }

@@ -1,6 +1,7 @@
 {
   "posted": [
     "CA|AB1918|2026-05-05|In Senate. Read first time. To Com. on R",
+    "CA|AB2495|2026-05-14|From committee: Do pass. (Ayes 11. Noes ",
     "CA|SB915|2026-05-04|May 4 hearing: Placed on APPR. suspense ",
     "CO|SJR 006|2026-01-29|Senate Third Reading Laid Over to 02/02/",
     "MA|SD13|2025-01-06|Placed on file",
@@ -14,6 +15,7 @@
     "MN|HF 1|2025-06-14|Secretary of State, Filed 06/14/2025",
     "MO|SB 1083|2026-05-13|HCS H adopted--(4018H.04C)",
     "MO|SB 1083|2026-05-14|S Bills with H Amendments",
+    "MO|SB 1083|2026-05-15|S Bills with H Amendments",
     "NJ|A2311|2026-01-13|WITHDRAWN APP P.L.2025, c.256.",
     "NJ|S1806|2026-01-13|WITHDRAWN APP P.L.2025, c.256.",
     "NJ|SJR41|2026-01-13|WITHDRAWN APP P.L.2025, JR-22.",
@@ -55,5 +57,5 @@
     "WV|HB 4059|2026-01-14|To Health and Human Resources",
     "WV|HB 4148|2026-01-14|To Government Organization"
   ],
-  "last_run": "2026-05-15T13:34:31.712240+00:00"
+  "last_run": "2026-05-15T19:24:54.272195+00:00"
 }

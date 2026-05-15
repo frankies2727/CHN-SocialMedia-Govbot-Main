@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This measure would declare Monday, April 13, 2026, to Friday, April 24, 2026, inclusive, as High School Voter Education Weeks and would strongly encourage local educational agencies to dedicate at least one of those 2 weeks to educating pupils in grades 9 to 12, inclusive, on the electoral process, as provided. The measure would encourage local educational agencies to provide digital and physical resources necessary to provide this information and would encourage the governing boards or bodies of local educational agencies to contract with third-party nonprofit organizations, as provided, to accomplish this endeavor.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SCR128",
+    "legislative_session": "20252026",
+    "subject": [
+      "HighSchoolVoterEducationWeeks"
+    ],
+    "title": "Relative to High School Voter Education Weeks."
+  },
+  "id": "SCR128",
+  "log": {
+    "action": {
+      "date": "2026-05-14",
+      "description": "In Senate. Ordered to engrossing and enrolling.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SCR128"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SCR128/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SCR128/logs/20260514T000000Z_in_senate_ordered_to_engrossing_and_enrolling.json"
+  },
+  "timestamp": "20260514T000000Z"
+}
