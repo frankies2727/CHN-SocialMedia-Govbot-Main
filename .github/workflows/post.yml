@@ -72,7 +72,7 @@ jobs:
           echo " $SKIPPED"
           echo "=========================================="
 
-          govbot logs > bills.jsonl
+          govbot logs --limit 8000 > bills.jsonl
           echo "bills.jsonl is $(wc -l < bills.jsonl) lines"
 
       - name: Cache Ollama model
