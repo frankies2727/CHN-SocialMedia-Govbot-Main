@@ -20,6 +20,18 @@ on:
         description: "Space-separated state codes to fetch (e.g. 'il in mi')"
         required: false
         default: "il in mi wi oh ia mn mo"
+      from_month:
+        description: "Earliest action month, MM-YYYY (e.g. '04-2025'). Empty = no lower bound."
+        required: false
+        default: ""
+      to_month:
+        description: "Latest action month, MM-YYYY (e.g. '07-2025'). Empty = no upper bound. Inclusive."
+        required: false
+        default: ""
+      categories:
+        description: "Space-separated category folder names to filter by (e.g. 'transportation housing'). Empty = no filter."
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -53,9 +65,12 @@ jobs:
       - name: Save sample records into samples/ (no overwrite)
         env:
           SAMPLE_COUNT: ${{ github.event.inputs.sample_count }}
+          FROM_MONTH: ${{ github.event.inputs.from_month }}
+          TO_MONTH: ${{ github.event.inputs.to_month }}
+          CATEGORIES: ${{ github.event.inputs.categories }}
         run: |
           python <<'PY'
-          import hashlib, json, os, random, re
+          import hashlib, json, os, random, re, sys
           from pathlib import Path
 
           SAMPLES_DIR = Path("samples")
@@ -79,6 +94,82 @@ jobs:
                   return ""
               return walk(rec) or "unknown"
 
+          MONTH_RE = re.compile(r"^(\d{2})-(\d{4})$")
+
+          def parse_month(label, raw):
+              raw = (raw or "").strip()
+              if not raw:
+                  return None
+              m = MONTH_RE.match(raw)
+              if not m:
+                  raise SystemExit(f"{label} must be MM-YYYY (got {raw!r})")
+              mm, yyyy = int(m.group(1)), int(m.group(2))
+              if not (1 <= mm <= 12):
+                  raise SystemExit(f"{label} month out of range: {raw!r}")
+              return (yyyy, mm)
+
+          def record_year_month(rec):
+              # Match post_to_bluesky.py:182-194 — prefer log.action.date,
+              # fall back to top-level timestamp (YYYYMMDDTHHMMSSZ).
+              date_raw = (((rec.get("log") or {}).get("action") or {}).get("date") or "")[:10]
+              if len(date_raw) >= 7 and date_raw[4] == "-":
+                  try:
+                      return (int(date_raw[:4]), int(date_raw[5:7]))
+                  except ValueError:
+                      pass
+              ts = (rec.get("timestamp") or "")[:8]
+              if len(ts) == 8 and ts.isdigit():
+                  return (int(ts[:4]), int(ts[4:6]))
+              return None
+
+          from_ym = parse_month("from_month", os.environ.get("FROM_MONTH"))
+          to_ym = parse_month("to_month", os.environ.get("TO_MONTH"))
+
+          def in_range(rec):
+              if from_ym is None and to_ym is None:
+                  return True
+              ym = record_year_month(rec)
+              if ym is None:
+                  return False
+              if from_ym is not None and ym < from_ym:
+                  return False
+              if to_ym is not None and ym > to_ym:
+                  return False
+              return True
+
+          # Optional category filter — uses scripts/category.py:Category.matches()
+          cat_names = (os.environ.get("CATEGORIES") or "").split()
+          categories = []
+          if cat_names:
+              sys.path.insert(0, "scripts")
+              from category import Category, list_categories  # type: ignore
+              available = list_categories()
+              unknown = [n for n in cat_names if n not in available]
+              if unknown:
+                  raise SystemExit(
+                      f"Unknown categor{'y' if len(unknown)==1 else 'ies'}: "
+                      f"{', '.join(unknown)}. Available: {', '.join(available)}"
+                  )
+              categories = [Category.load(n) for n in cat_names]
+
+          def category_for(rec):
+              # Returns the first selected category whose keyword regex matches
+              # this record's bill, or None if no category fits.
+              bill = rec.get("bill") or {}
+              subjects_raw = bill.get("subjects")
+              if subjects_raw is None:
+                  subj_list = bill.get("subject") or []
+                  subjects_raw = " ".join(subj_list) if isinstance(subj_list, list) else str(subj_list)
+              probe = {
+                  "title": bill.get("title") or "",
+                  "abstract": bill.get("abstract") or "",
+                  "subjects": subjects_raw or "",
+              }
+              for cat in categories:
+                  if cat.matches(probe):
+                      return cat.name
+              return None
+
           # Read all records
           records = []
           with open("bills.jsonl", encoding="utf-8") as f:
@@ -96,24 +187,68 @@ jobs:
 
           target = int(os.environ.get("SAMPLE_COUNT", "30") or "30")
 
-          # Bucket by state and shuffle each bucket
           random.seed()  # use real randomness so re-runs collect variety
-          by_state = {}
-          for r in records:
-              by_state.setdefault(find_state(r), []).append(r)
-          for items in by_state.values():
-              random.shuffle(items)
 
-          # Round-robin pull across states until we have `target` picks (or run out)
+          # Apply date filter first (cheap), then category bucketing.
+          dated = [r for r in records if in_range(r)]
+          dropped_date = len(records) - len(dated)
+          if from_ym or to_ym:
+              print(f"Date filter kept {len(dated)} of {len(records)} records "
+                    f"(dropped {dropped_date}).")
+
           picks = []
-          state_keys = sorted(by_state.keys())
-          while len(picks) < target and any(by_state[s] for s in state_keys):
-              for s in state_keys:
-                  if not by_state[s]:
+          if categories:
+              # buckets[cat_name][state] = [records]
+              buckets = {c.name: {} for c in categories}
+              kept = 0
+              for r in dated:
+                  cname = category_for(r)
+                  if cname is None:
                       continue
-                  picks.append(by_state[s].pop())
-                  if len(picks) >= target:
+                  buckets[cname].setdefault(find_state(r), []).append(r)
+                  kept += 1
+              for st_map in buckets.values():
+                  for items in st_map.values():
+                      random.shuffle(items)
+              print(f"Category filter kept {kept} of {len(dated)} records "
+                    f"across {len(categories)} categor"
+                    f"{'y' if len(categories)==1 else 'ies'}.")
+
+              # Round-robin: outer loop categories (in user order), inner
+              # loop states within each category. One pick per (cat, state)
+              # tick.
+              while len(picks) < target and any(
+                  any(st_map[s] for s in st_map) for st_map in buckets.values()
+              ):
+                  progressed = False
+                  for cat in categories:
+                      st_map = buckets[cat.name]
+                      for s in sorted(st_map.keys()):
+                          if not st_map[s]:
+                              continue
+                          picks.append(st_map[s].pop())
+                          progressed = True
+                          if len(picks) >= target:
+                              break
+                      if len(picks) >= target:
+                          break
+                  if not progressed:
                       break
+          else:
+              # No category filter — keep the original per-state round-robin.
+              by_state = {}
+              for r in dated:
+                  by_state.setdefault(find_state(r), []).append(r)
+              for items in by_state.values():
+                  random.shuffle(items)
+              state_keys = sorted(by_state.keys())
+              while len(picks) < target and any(by_state[s] for s in state_keys):
+                  for s in state_keys:
+                      if not by_state[s]:
+                          continue
+                      picks.append(by_state[s].pop())
+                      if len(picks) >= target:
+                          break
 
           # Existing filenames so we know what to skip
           existing = {p.name for p in SAMPLES_DIR.iterdir() if p.is_file()}
