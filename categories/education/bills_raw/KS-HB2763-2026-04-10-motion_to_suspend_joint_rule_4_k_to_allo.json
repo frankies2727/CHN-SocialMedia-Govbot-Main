@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB2763",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Compacts",
+      "Health Professions and Practices",
+      "Licenses and Licensure"
+    ],
+    "title": "Requiring school districts to provide elementary students with a certain amount of daily recess, prohibiting limiting or withholding recess for disciplinary reasons, requiring a Kansas state fitness test and designating required recess time as part of the school term."
+  },
+  "id": "HB2763",
+  "log": {
+    "action": {
+      "date": "2026-04-10",
+      "description": "Motion to suspend Joint Rule 4 (k) to allow consideration adopted; —",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB2763"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2763/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2763/logs/20260410T000000Z_motion_to_suspend_joint_rule_4_k_to_allow_consideration_adopted.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

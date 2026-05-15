@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "LD 1500",
+    "legislative_session": "132",
+    "subject": [
+      "COMMUNITY DEVELOPMENT FUND",
+      "ECONOMIC DEVELOPMENT",
+      "PLANNING"
+    ],
+    "title": "An Act To Establish The Maine Community Development Financial Institution Fund To Support Small Businesses, Rural Economic Development And Affordable Housing"
+  },
+  "id": "LD 1500",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2025-06-03",
+      "description": "READ ONCE.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "LD 1500"
+  },
+  "sources": {
+    "bill": "me-legislation/country:us/state:me/sessions/132/bills/LD1500/metadata.json",
+    "log": "me-legislation/country:us/state:me/sessions/132/bills/LD1500/logs/20250603T000000Z_read_once.json"
+  },
+  "timestamp": "20250603T000000Z"
+}

@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative MacGregor of Boston, a petition (accompanied by bill, House, No. 4740) of William F. MacGregor (with the approval of the mayor and city council) for legislation to authorize the appointment of Ryan Cazeau as a police officer in the city of Boston, notwithstanding the maximum age requirement.  Public Service.  [Local Approval Received.]",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H4740",
+    "legislative_session": "194th",
+    "title": "An Act directing the city of Boston police department to waive the maximum age requirement for police officers for Ryan Cazeau"
+  },
+  "id": "H4740",
+  "log": {
+    "action": {
+      "date": "2026-03-26",
+      "description": "Taken out of the Orders of the Day",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "H4740"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4740/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4740/logs/20260326T000000Z_taken_out_of_the_orders_of_the_day.json"
+  },
+  "timestamp": "20260326T000000Z"
+}

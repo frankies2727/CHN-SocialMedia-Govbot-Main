@@ -1,0 +1,22 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 263",
+    "legislative_session": "2025",
+    "title": "TO INCREASE THE HOMESTEAD PROPERTY TAX CREDIT."
+  },
+  "id": "SB 263",
+  "log": {
+    "action": {
+      "date": "2025-03-12T19:14:20+00:00",
+      "description": "Returned to the Senate as passed.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB 263"
+  },
+  "sources": {
+    "bill": "ar-legislation/country:us/state:ar/sessions/2025/bills/SB263/metadata.json",
+    "log": "ar-legislation/country:us/state:ar/sessions/2025/bills/SB263/logs/20250312T191420Z_returned_to_the_senate_as_passed.json"
+  },
+  "timestamp": "20250312T191420Z"
+}

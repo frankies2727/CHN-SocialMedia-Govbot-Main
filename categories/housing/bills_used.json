@@ -28,6 +28,7 @@
     "MA|HD4262|2025-01-21|Placed on file",
     "ME|LD 1500|2025-06-03|CONSENT CALENDAR - FIRST DAY",
     "ME|LD 1500|2025-06-03|Committee Amendment \"A\" (H-446) READ and",
+    "ME|LD 1500|2025-06-03|READ ONCE.",
     "ME|LD 1500|2025-06-03|Report READ and ACCEPTED, in concurrence",
     "ME|LD 1500|2025-06-03|Reported Out - OTP-AM",
     "ME|LD 1500|2025-06-03|Sent for concurrence. ORDERED SENT FORTH",
@@ -60,6 +61,7 @@
     "NC|SB 257|2025-05-21|Amend Failed A15",
     "NC|SB 257|2025-05-21|Amend Failed A16",
     "NC|SB 257|2025-05-21|Amend Failed A21",
+    "NC|SB 257|2025-05-21|Amend Failed A25",
     "NC|SB 257|2025-05-21|Amend Failed A30",
     "NC|SB 257|2025-05-21|Amend Failed A35",
     "NC|SB 257|2025-05-21|Amend Failed A44",
@@ -87,5 +89,5 @@
     "WA|HB 2359|2026-01-09|Prefiled for introduction.",
     "WV|SB 101|2026-01-14|To Education"
   ],
-  "last_run": "2026-05-14T19:29:28.924752+00:00"
+  "last_run": "2026-05-15T01:53:43.836233+00:00"
 }
