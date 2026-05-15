@@ -1587,18 +1587,35 @@ def main() -> int:
             d = datetime.min
         return (has_desc, d)
 
-    # Sort by (description-present, freshness) descending and post the top
-    # POST_LIMIT. An earlier version did per-state round-robin to prevent any
-    # one state from monopolizing a run, but that ordering was dominated by
-    # state-queue length and ended up surfacing stale single-bill states (e.g.
-    # NY|S751 from 2025-02-14, ME|LD 1500 from 2025-06) ahead of states with
-    # many fresh updates. Recency is preferred — except that a description-
-    # less stub (e.g. a govbot log entry where action.description came through
-    # empty) loses to any descriptive candidate, no matter how much older,
-    # since posting a stub crowds out genuinely substantive updates with a
-    # title-only post that conveys no new information.
+    # Sort by (description-present, freshness) descending, then pick at most
+    # one bill per state on the first pass before falling back to fill any
+    # remaining POST_LIMIT slots from already-used states. This prevents a
+    # single state with several fresh descriptive bills from monopolizing a
+    # run, while still letting recency drive the order — unlike the old
+    # per-state round-robin (which was dominated by state-queue length and
+    # surfaced stale single-bill states like NY|S751 from 2025-02-14 ahead of
+    # states with many fresh updates), the diversity rule only kicks in as a
+    # tiebreak on top of the global sort, so stale states still can't leapfrog
+    # fresh ones. Stubs (real action_date but empty action_desc) still lose to
+    # any descriptive candidate regardless of state, since posting a stub
+    # crowds out substantive updates with a title-only post.
     candidates.sort(key=sort_key, reverse=True)
-    to_post: list[dict] = candidates[:POST_LIMIT]
+
+    to_post: list[dict] = []
+    leftovers: list[dict] = []
+    used_states: set[str] = set()
+    for b in candidates:
+        if len(to_post) >= POST_LIMIT:
+            break
+        st = b["state"] or "?"
+        if st in used_states:
+            leftovers.append(b)
+            continue
+        to_post.append(b)
+        used_states.add(st)
+
+    if len(to_post) < POST_LIMIT:
+        to_post.extend(leftovers[: POST_LIMIT - len(to_post)])
 
     distinct_states = len({b["state"] or "?" for b in to_post})
     print(f"Will post up to {POST_LIMIT}: posting {len(to_post)} from {distinct_states} state(s).")
