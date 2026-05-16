@@ -918,10 +918,36 @@ def _b_oh(session, ident):  # verified — uses GA number, identifier lowercase
     return f"https://www.legislature.ohio.gov/legislation/{ga}/{typ.lower()}{num}" if (ga and typ and num) else None
 
 
+# Wisconsin special sessions get a per-session URL slug of the form
+# <2-letter month><last digit of year> (May 2026 -> "my6", January 2018 ->
+# "jr8"). The month can't be derived from OpenStates' "YYYYSn" session id, so
+# known special sessions are listed here, mapping that id to the biennium's
+# odd start year and the slug. Add an entry when a new special session occurs.
+_WI_SPECIAL_SESSIONS = {
+    "2026S1": ("2025", "my6"),  # May 2026 Special Session
+}
+
+
 def _b_wi(session, ident):  # verified — docs.legis.wisconsin.gov
-    year = _first_year(session)
     typ, num = _split_ident(ident)
-    return f"https://docs.legis.wisconsin.gov/{year}/related/proposals/{typ.lower()}{num}" if (year and typ and num) else None
+    if not (typ and num):
+        return None
+    s = (session or "").strip().upper()
+    # A bare biennium year ("2025") is a regular session; a trailing letter
+    # ("2026S1") marks a special session, which lives under a separate slug.
+    if re.search(r"\d{4}\s*[A-Z]", s):
+        special = _WI_SPECIAL_SESSIONS.get(s)
+        if not special:
+            return None  # unknown special session — fall back to homepage
+        year, code = special
+        return f"https://docs.legis.wisconsin.gov/{year}/related/proposals/{code}_{typ.lower()}{num}"
+    year = _first_year(s)
+    if not year:
+        return None
+    y = int(year)
+    if y % 2 == 0:
+        y -= 1  # bienniums are named by their odd start year
+    return f"https://docs.legis.wisconsin.gov/{y}/related/proposals/{typ.lower()}{num}"
 
 
 def _b_nc(session, ident):  # verified — ncleg.gov BillLookUp
@@ -1481,6 +1507,33 @@ def _b_il(session, ident):  # best-effort -- LegiScan fallback
     return f"https://legiscan.com/IL/bill/{typ}{num}"
 
 
+def _b_ky(session, ident):  # verified — apps.legislature.ky.gov record page
+    # KY session strings are "<year><code>", e.g. "2025RS" (Regular Session)
+    # or "2025SS" (Special Session). The record URL keys off the 2-digit year
+    # plus the lowercased code: 2025RS -> 25rs, identifier lowercase.
+    year = _first_year(session)
+    typ, num = _split_ident(ident)
+    if not (year and typ and num):
+        return None
+    m = re.search(r"[A-Za-z]+", session or "")
+    code = (m.group(0) if m else "RS").lower()
+    return f"https://apps.legislature.ky.gov/record/{year[-2:]}{code}/{typ.lower()}{num}.html"
+
+
+def _b_ok(session, ident):  # verified — oklegislature.gov BillInfo
+    # OK's Session param is a 4-digit code: 2-digit year + 2-digit session
+    # number, "00" for the regular session (2025 -> 2500). OpenStates marks
+    # extraordinary sessions with a trailing letter ("2017A" -> 1701).
+    year = _first_year(session)
+    typ, num = _split_ident(ident)
+    if not (year and typ and num):
+        return None
+    m = re.search(r"\d{4}\s*([A-Za-z])", session or "")
+    sess_no = f"{ord(m.group(1).upper()) - 64:02d}" if m else "00"
+    return ("https://www.oklegislature.gov/BillInfo.aspx"
+            f"?Bill={typ}{num}&Session={year[-2:]}{sess_no}")
+
+
 STATE_BILL_URL_BUILDERS = {
     "CA": _b_ca,
     "FL": _b_fl, "IN": _b_in, "IA": _b_ia, "MI": _b_mi, "NY": _b_ny,
@@ -1491,6 +1544,7 @@ STATE_BILL_URL_BUILDERS = {
     "AL": _b_al, "ND": _b_nd, "NH": _b_nh, "DE": _b_de, "ME": _b_me,
     "NE": _b_ne, "SC": _b_sc, "MD": _b_md, "ID": _b_id, "GA": _b_ga,
     "WY": _b_wy, "AR": _b_ar, "VT": _b_vt, "IL": _b_il,
+    "KY": _b_ky, "OK": _b_ok,
 }
 
 
