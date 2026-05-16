@@ -64,11 +64,11 @@ keywords:
   - language access
   - LEP
   - limited english proficient
-  - smuggling
 
 # Broad terms that only count as a match alongside a core keyword above.
 context_keywords:
   - human trafficking
+  - smuggling
 
 emojis:
   - emoji: "🌎"
