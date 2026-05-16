@@ -39,6 +39,8 @@ class Category:
     thread_title: str
     topic_phrase: str
     _keyword_re: re.Pattern = field(repr=False)
+    context_keywords: list[str] = field(default_factory=list)
+    _context_re: re.Pattern | None = field(repr=False, default=None)
 
     # ------------------------------------------------------------------
     # Loading
@@ -80,6 +82,14 @@ class Category:
             re.IGNORECASE,
         )
 
+        context_keywords = list(data.get("context_keywords") or [])
+        context_re = None
+        if context_keywords:
+            context_re = re.compile(
+                r"\b(" + "|".join(re.escape(k) for k in context_keywords) + r")\b",
+                re.IGNORECASE,
+            )
+
         return cls(
             name=name,
             display_name=display_name,
@@ -90,6 +100,8 @@ class Category:
             thread_title=thread_title,
             topic_phrase=topic_phrase,
             _keyword_re=keyword_re,
+            context_keywords=context_keywords,
+            _context_re=context_re,
         )
 
     # ------------------------------------------------------------------
@@ -108,7 +120,15 @@ class Category:
             return True
         body = " ".join([b.get("abstract", ""), b.get("subjects", "")]).lower()
         distinct = {m.group(1).lower() for m in self._keyword_re.finditer(body)}
-        return len(distinct) >= 2
+        if len(distinct) >= 2:
+            return True
+        # Context keywords (e.g. "human trafficking") are too broad to stand on
+        # their own — they only count when a core category keyword co-occurs.
+        if self._context_re is not None:
+            full = title + " " + body
+            if self._context_re.search(full) and self._keyword_re.search(full):
+                return True
+        return False
 
     def emoji_for(self, b: dict) -> str:
         s = " ".join([b.get("title", ""), b.get("abstract", ""), b.get("subjects", "")]).lower()

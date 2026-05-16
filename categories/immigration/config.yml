@@ -1,5 +1,10 @@
 # Immigration bot — best-effort seed. Tune keywords after a week of dry-run
 # output by inspecting which bills get matched and which don't.
+#
+# `keywords` are core terms — a single hit in a bill title is enough to match.
+# `context_keywords` are broad terms that show up in unrelated bills (e.g.
+# "human trafficking" in transit-safety bills); they only count toward a match
+# when a core keyword also appears in the bill.
 
 name: immigration
 display_name: "Immigration"
@@ -43,7 +48,10 @@ keywords:
   - deport
   - deported
   - removal proceedings
-  - detention
+  - immigration detention
+  - immigration detention center
+  - ICE detention
+  - civil detention
   - detainee
   - detainees
   - work authorization
@@ -56,6 +64,9 @@ keywords:
   - language access
   - LEP
   - limited english proficient
+
+# Broad terms that only count as a match alongside a core keyword above.
+context_keywords:
   - human trafficking
   - smuggling
 
