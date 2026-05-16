@@ -957,16 +957,19 @@ def _b_ct(session, ident):  # verified — search by year + bill number
     return None
 
 
-def _b_mo(session, ident):  # best-effort -- LegiScan fallback
+def _b_mo(session, ident):  # best-effort -- senate.mo.gov search; LegiScan fallback
     # Missouri rebuilt both chambers' trackers around opaque internal numeric
-    # bill IDs (senate.mo.gov/BillTracking BillInformation?billid=NNN; the
-    # house tracker likewise keys off internal IDs) that OpenStates doesn't
-    # carry. The old senate.mo.gov/<YY>info/BTS_Web/Bill.aspx?BillID=<TYPE><NUM>
-    # deep link now 404s. LegiScan has stable per-bill pages for every MO bill,
-    # so use it as the canonical deep link.
+    # bill IDs (BillInformation?billid=NNN), so there's no per-bill URL we can
+    # compute from the bill number. The senate bill-tracking search resolves a
+    # senate bill number to a single-result page for the current session; it
+    # doesn't index House bills, so those fall back to LegiScan, which has
+    # stable per-bill pages for every MO bill.
     typ, num = _split_ident(ident)
     if not (typ and num):
         return None
+    if typ.startswith("S"):
+        return ("https://www.senate.mo.gov/Billtracking/bills/billSearch"
+                f"?Term={typ}{num}&Submit=Submit&handler=BillSearch")
     year = _first_year(session)
     if year:
         return f"https://legiscan.com/MO/bill/{typ}{num}/{year}"
