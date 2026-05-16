@@ -18,6 +18,7 @@ from __future__ import annotations
 import io
 import json
 import os
+import random
 import re
 import sys
 import time
@@ -1686,53 +1687,72 @@ def main() -> int:
     top = state_counts.most_common(15)
     print(f"  by state: {', '.join(f'{s}={n}' for s,n in top)}")
 
-    def sort_key(b: dict):
-        # Stub records (real action_date but empty action_desc) produce a post
-        # with no body action line — format_action_line returns "" unless both
-        # fields are present — so the reader sees only "<emoji> <state> <id> —
-        # <title>" with no indication of what just happened. Rank stubs
-        # strictly below any descriptive candidate so they only surface when
-        # nothing better is left in the pool. Within each group, freshness
-        # wins; missing/unparseable dates fall back to datetime.min and so
-        # land at the very bottom under reverse=True.
-        has_desc = bool((b["action_desc"] or "").strip())
+    # Selection: keep each state's single most-recent bill, then run a
+    # weighted random draw across those per-state representatives. Recency
+    # only decides which bill represents a state — it does NOT decide which
+    # states win the run. The draw is weighted toward states we haven't
+    # posted recently (tracked in state["state_last_posted"]), so coverage
+    # rotates across all states over time instead of the freshest states
+    # monopolizing every run.
+    def recency(b: dict) -> datetime:
         try:
-            d = datetime.strptime(b["action_date"], "%Y-%m-%d")
+            return datetime.strptime(b["action_date"], "%Y-%m-%d")
         except (ValueError, TypeError):
-            d = datetime.min
-        return (has_desc, d)
+            return datetime.min
 
-    # Sort by (description-present, freshness) descending, then pick at most
-    # one bill per state on the first pass before falling back to fill any
-    # remaining POST_LIMIT slots from already-used states. This prevents a
-    # single state with several fresh descriptive bills from monopolizing a
-    # run, while still letting recency drive the order — unlike the old
-    # per-state round-robin (which was dominated by state-queue length and
-    # surfaced stale single-bill states like NY|S751 from 2025-02-14 ahead of
-    # states with many fresh updates), the diversity rule only kicks in as a
-    # tiebreak on top of the global sort, so stale states still can't leapfrog
-    # fresh ones. Stubs (real action_date but empty action_desc) still lose to
-    # any descriptive candidate regardless of state, since posting a stub
-    # crowds out substantive updates with a title-only post.
-    candidates.sort(key=sort_key, reverse=True)
+    def has_desc(b: dict) -> bool:
+        # Stub records (real action_date but empty action_desc) produce a
+        # post with no body action line, so the reader sees only the title
+        # with no indication of what just happened. Keep them out of the
+        # draw unless there aren't enough descriptive bills to fill the run.
+        return bool((b["action_desc"] or "").strip())
 
-    to_post: list[dict] = []
-    leftovers: list[dict] = []
-    used_states: set[str] = set()
+    # One representative per state: prefer a descriptive bill over a stub,
+    # then the most recent. (b["state"] is "" for unknown — bucket as "?".)
+    by_state: dict[str, dict] = {}
     for b in candidates:
-        if len(to_post) >= POST_LIMIT:
-            break
         st = b["state"] or "?"
-        if st in used_states:
-            leftovers.append(b)
-            continue
-        to_post.append(b)
-        used_states.add(st)
+        cur = by_state.get(st)
+        if cur is None or (has_desc(b), recency(b)) > (has_desc(cur), recency(cur)):
+            by_state[st] = b
+    reps = list(by_state.values())
 
+    descriptive = [b for b in reps if has_desc(b)]
+    stubs = [b for b in reps if not has_desc(b)]
+
+    # Weight each state by how long since we last posted it: never-posted
+    # states get the max weight, recently-posted states get the least. The
+    # 180-day cap keeps one ancient state from dwarfing every other.
+    last_posted: dict[str, str] = state.get("state_last_posted", {})
+    now = datetime.now(timezone.utc)
+
+    def state_weight(b: dict) -> float:
+        ts = last_posted.get(b["state"] or "?")
+        if not ts:
+            days = 180
+        else:
+            try:
+                days = (now - datetime.fromisoformat(ts)).days
+            except ValueError:
+                days = 180
+        return min(max(days, 0), 180) + 1
+
+    def weighted_draw(pool: list[dict], k: int) -> list[dict]:
+        pool = list(pool)
+        picked: list[dict] = []
+        while pool and len(picked) < k:
+            weights = [state_weight(b) for b in pool]
+            idx = random.choices(range(len(pool)), weights=weights, k=1)[0]
+            picked.append(pool.pop(idx))
+        return picked
+
+    to_post = weighted_draw(descriptive, POST_LIMIT)
     if len(to_post) < POST_LIMIT:
-        to_post.extend(leftovers[: POST_LIMIT - len(to_post)])
+        to_post.extend(weighted_draw(stubs, POST_LIMIT - len(to_post)))
 
     distinct_states = len({b["state"] or "?" for b in to_post})
+    print(f"Pool: {len(descriptive)} state(s) with descriptive bills, "
+          f"{len(stubs)} stub-only.")
     print(f"Will post up to {POST_LIMIT}: posting {len(to_post)} from {distinct_states} state(s).")
 
     client = None if DRY_RUN else BlueskyClient(BSKY_HANDLE, BSKY_PASSWORD)
@@ -1779,12 +1799,14 @@ def main() -> int:
                 continue
 
         seen.add(b["dedup_key"])
+        last_posted[b["state"] or "?"] = now.isoformat()
         try:
             save_raw_record(b)
         except OSError as e:
             print(f"  ! raw-record save failed: {e}", file=sys.stderr)
 
     state["posted"] = sorted(seen)
+    state["state_last_posted"] = last_posted
     state["last_run"] = datetime.now(timezone.utc).isoformat()
     save_state(state)
     print(f"\nDone. State saved to {STATE_FILE.relative_to(ROOT)}.")
