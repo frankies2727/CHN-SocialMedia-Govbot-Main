@@ -1,0 +1,98 @@
+# Elections / Voting Rights bot — best-effort seed. Tune keywords after a
+# week of dry-run output by inspecting which bills get matched and which don't.
+
+name: elections_voting_rights
+display_name: "Elections & Voting Rights"
+prompt_topic: "elections and voting rights, including voter access, registration, mail-in and early voting, voter ID, redistricting, and election administration"
+default_emoji: "🗳️"
+
+keywords:
+  # Voting access / methods
+  - voting rights
+  - right to vote
+  - voter access
+  - ballot access
+  - early voting
+  - in-person voting
+  - mail-in voting
+  - mail-in ballot
+  - vote by mail
+  - vote-by-mail
+  - absentee voting
+  - absentee ballot
+  - drop box
+  - ballot drop box
+  - provisional ballot
+  - ballot curing
+  - signature verification
+  - same-day registration
+  - election day registration
+
+  # Registration / rolls
+  - voter registration
+  - automatic voter registration
+  - online voter registration
+  - voter roll
+  - voter rolls
+  - voter purge
+  - voter list maintenance
+  - proof of citizenship
+  - noncitizen voting
+
+  # Voter ID / restrictions
+  - voter ID
+  - voter identification
+  - voter suppression
+  - poll tax
+  - polling place
+  - polling location
+  - poll worker
+  - poll workers
+  - election worker
+
+  # Districting / structure
+  - redistricting
+  - gerrymandering
+  - gerrymander
+  - independent redistricting commission
+  - ranked-choice voting
+  - ranked choice voting
+  - electoral college
+  - at-large districts
+
+  # Direct democracy / campaign
+  - ballot initiative
+  - ballot measure
+  - ballot question
+  - referendum
+  - recall election
+  - campaign finance
+  - dark money
+  - election security
+  - election administration
+  - election official
+  - election integrity
+  - felony disenfranchisement
+  - voting rights restoration
+
+emojis:
+  - emoji: "🗳️"
+    match: ["early voting", "in-person voting", "polling place", "polling location", "ballot access", "election day registration"]
+  - emoji: "✉️"
+    match: ["mail-in voting", "mail-in ballot", "vote by mail", "vote-by-mail", "absentee voting", "absentee ballot", "drop box", "ballot drop box"]
+  - emoji: "📝"
+    match: ["voter registration", "automatic voter registration", "online voter registration", "same-day registration", "voter roll", "voter rolls", "voter purge", "voter list maintenance"]
+  - emoji: "🆔"
+    match: ["voter ID", "voter identification", "proof of citizenship"]
+  - emoji: "🗺️"
+    match: ["redistricting", "gerrymandering", "gerrymander", "independent redistricting commission", "at-large districts"]
+  - emoji: "⚖️"
+    match: ["voting rights", "right to vote", "voter suppression", "poll tax", "felony disenfranchisement", "voting rights restoration"]
+  - emoji: "💰"
+    match: ["campaign finance", "dark money"]
+  - emoji: "🏛️"
+    match: ["electoral college", "ranked-choice voting", "ranked choice voting", "ballot initiative", "ballot measure", "ballot question", "referendum", "recall election", "election administration", "election security", "election integrity"]
+
+digest:
+  thread_title: "🗳️ Elections & Voting Rights Bills Weekly Digest"
+  topic_phrase: "elections and voting rights"

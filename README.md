@@ -2,7 +2,7 @@
 
 A multi-category Bluesky bot platform that posts new state-legislative bill activity with AI summaries, powered by [chihacknight/govbot](https://github.com/chihacknight/govbot). Runs on GitHub Actions for free.
 
-Each **category** (transportation, immigration, taxation, AI/data centers, housing, education, criminal justice/policing, LGBTQ, healthcare, labor/workers' rights, reproductive rights, …) is its own Bluesky account with its own keyword list, emoji map, summary focus, and dedup state. All categories share the same workflow run, so adding a new bot doesn't multiply CI minutes.
+Each **category** (transportation, immigration, taxation, AI/data centers, housing, education, criminal justice/policing, LGBTQ, healthcare, labor/workers' rights, reproductive rights, elections/voting rights, …) is its own Bluesky account with its own keyword list, emoji map, summary focus, and dedup state. All categories share the same workflow run, so adding a new bot doesn't multiply CI minutes.
 
 ## How it works
 
@@ -127,6 +127,9 @@ categories/
     config.yml
     bills_used.json
   reproductive_rights/
+    config.yml
+    bills_used.json
+  elections_voting_rights/
     config.yml
     bills_used.json
 ```
