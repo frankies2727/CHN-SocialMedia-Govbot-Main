@@ -33,6 +33,7 @@
     "HI|SB1200|2025-12-08|Carried over to 2026 Regular Session.",
     "IA|HF 973|2025-05-13|Amendment H-1339 filed.",
     "IA|HF 973|2025-05-15|Rereferred to Ways and Means.",
+    "IA|SF 2435|2026-02-23|Committee report, approving bill.",
     "IA|SF 2438|2026-02-23|Committee report, approving bill.",
     "MA|HD4262|2025-01-21|Placed on file",
     "MA|S2652|2026-05-07|Enacted and laid before the Governor",
@@ -98,6 +99,7 @@
     "NJ|S732|2026-01-13|WITHDRAWN APP P.L.2025, c.265.",
     "NY|S751|2025-02-14|SIGNED CHAP.77",
     "PA|HB 1492|2025-11-17|Re-reported as committed",
+    "PR|RCS0134|2026-03-27|Comisi\u00f3n no recomienda aprobaci\u00f3n de la ",
     "RI|HB7565|2026-04-03|04/03/2026 Scheduled for hearing and/or ",
     "RI|HB7565|2026-04-07|04/07/2026 Committee recommended measure",
     "RI|HB8105|2026-03-13|03/13/2026 Scheduled for hearing and/or ",
@@ -107,7 +109,7 @@
     "WA|SB 5940|2026-01-21|Executive action taken in the Senate Com",
     "WV|SB 101|2026-01-14|To Education"
   ],
-  "last_run": "2026-05-16T18:54:24.546515+00:00",
+  "last_run": "2026-05-17T01:57:05.626481+00:00",
   "state_last_posted": {
     "MS": "2026-05-16T02:58:27.650333+00:00",
     "PA": "2026-05-16T02:58:27.650333+00:00",
@@ -116,8 +118,9 @@
     "GA": "2026-05-16T07:54:41.599552+00:00",
     "WA": "2026-05-16T07:54:41.599552+00:00",
     "MN": "2026-05-16T13:00:14.029827+00:00",
-    "IA": "2026-05-16T13:00:14.029827+00:00",
+    "IA": "2026-05-17T01:56:38.067114+00:00",
     "AL": "2026-05-16T18:53:05.336567+00:00",
-    "FL": "2026-05-16T18:53:05.336567+00:00"
+    "FL": "2026-05-16T18:53:05.336567+00:00",
+    "PR": "2026-05-17T01:56:38.067114+00:00"
   }
 }

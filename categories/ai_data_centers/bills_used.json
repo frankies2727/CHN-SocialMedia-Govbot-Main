@@ -1,6 +1,7 @@
 {
   "posted": [
     "AL|SB270|2026-04-17|Enacted",
+    "CA|AB2392|2026-04-23|Read second time and amended.",
     "CA|AB2392|2026-05-14|From committee: Do pass. (Ayes 14. Noes ",
     "CA|AB2545|2026-05-14|From committee: Do pass. (Ayes 15. Noes ",
     "CO|SB 004|2025-08-28|Governor Signed",
@@ -32,6 +33,7 @@
     "MI|HB 4668|2025-09-18|motion to discharge committee approved",
     "MI|HB 4668|2025-09-18|placed on second reading",
     "MI|HB 4668|2025-09-18|rule suspended",
+    "MO|SB 1012|2026-05-08|H Second Read",
     "MO|SB 1012|2026-05-08|Referred H Emerging Issues",
     "MO|SB 1012|2026-05-12|Hearing Conducted H Emerging Issues",
     "MO|SB 1012|2026-05-12|Hearing Scheduled H Emerging Issues--(4:",
@@ -42,7 +44,7 @@
     "WA|SB 5956|2026-03-12|By resolution, returned to Senate Rules ",
     "WY|SF0065|2025-03-01|H COW:H Did not consider for COW"
   ],
-  "last_run": "2026-05-16T18:51:45.724748+00:00",
+  "last_run": "2026-05-17T01:54:06.435302+00:00",
   "state_last_posted": {
     "WY": "2026-05-16T02:53:56.286279+00:00",
     "CO": "2026-05-16T02:53:56.286279+00:00",
@@ -53,6 +55,8 @@
     "NJ": "2026-05-16T12:57:12.636966+00:00",
     "MS": "2026-05-16T12:57:12.636966+00:00",
     "WA": "2026-05-16T18:50:51.290158+00:00",
-    "GA": "2026-05-16T18:50:51.290158+00:00"
+    "GA": "2026-05-16T18:50:51.290158+00:00",
+    "CA": "2026-05-17T01:51:15.817868+00:00",
+    "MO": "2026-05-17T01:51:15.817868+00:00"
   }
 }

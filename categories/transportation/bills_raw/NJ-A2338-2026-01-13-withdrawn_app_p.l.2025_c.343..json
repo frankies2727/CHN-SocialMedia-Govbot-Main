@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A2338",
+    "legislative_session": "222",
+    "subject": [
+      "JUDICIARY",
+      "PUBLIC TRANS"
+    ],
+    "title": "Requires public transportation employees and certain motorbus operators to complete training course on handling and responding to suspected human trafficking; requires inclusion of certain content in certain courses."
+  },
+  "id": "A2338",
+  "log": {
+    "action": {
+      "date": "2026-01-13T05:00:00+00:00",
+      "description": "WITHDRAWN APP P.L.2025, c.343.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "A2338"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A2338/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A2338/logs/20260113T050000Z_withdrawn_app_pl2025_c343.json"
+  },
+  "timestamp": "20260113T050000Z"
+}

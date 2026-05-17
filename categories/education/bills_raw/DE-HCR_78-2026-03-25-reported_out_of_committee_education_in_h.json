@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Concurrent Resolution directs the Public Education Funding Commission (Commission) to make findings and recommendations to achieve the equitable collection and distribution of property tax revenue to support the needs of public schools, and submit a report with the recommendations no later than January 1, 2026. \r\n\r\nThis Concurrent Resolution provides that the House and Senate Education committees will hold a joint meeting in January 2026 where the Commission will present for discussion the recommendations that are due October 1, 2025, and from this Concurrent Resolution.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HCR 78",
+    "legislative_session": "153",
+    "title": "DIRECTING THE PUBLIC EDUCATION FUNDING COMMISSION TO SUBMIT A REPORT WITH RECOMMENDATIONS FOR THE EQUITABLE COLLECTION AND DISTRIBUTION OF PROPERTY TAX REVENUE IN DELAWARE."
+  },
+  "id": "HCR 78",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-03-25",
+      "description": "Reported Out of Committee (Education) in House with 13 On Its Merits",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Education"
+        }
+      ]
+    },
+    "bill_id": "HCR 78"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HCR78/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HCR78/logs/20260325T000000Z_reported_out_of_committee_education_in_house_with_13_on_its_merits.json"
+  },
+  "timestamp": "20260325T000000Z"
+}

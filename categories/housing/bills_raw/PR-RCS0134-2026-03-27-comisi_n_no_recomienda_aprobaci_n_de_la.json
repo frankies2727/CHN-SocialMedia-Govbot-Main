@@ -1,0 +1,22 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "RCS0134",
+    "legislative_session": "2025-2028",
+    "title": "Para ordenar al Departamento de Desarrollo Económico y Comercio (DDEC) en\ncoordinación con el Departamento de la Vivienda, el Departamento de Justicia, la\nCompañía de Turismo de Puerto Rico y los municipios, la realización de un estudio\nintegral sobre el impacto de los alquileres a corto plazo (incluyendo plataformas\ncomo Airbnb, VRBO y similares) en las comunidades residenciales de Puerto Rico;\nevaluar aspectos socioeconómicos, de vivienda asequible, calidad de vida,\ngentrificación, desplazamiento poblacional y sobrecarga en servicios municipales; y\npresentar recomendaciones para políticas públicas equilibradas que protejan tanto\nel desarrollo turístico como los derechos de los residentes, sin incurrir en gastos\nadicionales significativos al erario; y para otros fines relacionados."
+  },
+  "id": "RCS0134",
+  "log": {
+    "action": {
+      "date": "2026-03-27T04:00:00+00:00",
+      "description": "Comisión no recomienda aprobación de la medida",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "RCS0134"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RCS0134/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RCS0134/logs/20260327T040000Z_comisión_no_recomienda_aprobación_de_la_medida.json"
+  },
+  "timestamp": "20260327T040000Z"
+}

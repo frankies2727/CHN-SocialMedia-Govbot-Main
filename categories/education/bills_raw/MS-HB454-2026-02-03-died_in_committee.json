@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB454",
+    "legislative_session": "2026",
+    "subject": [
+      "Education"
+    ],
+    "title": "Public schools; require a brief period of quiet reflection at the opening of every school day."
+  },
+  "id": "HB454",
+  "log": {
+    "action": {
+      "date": "2026-02-03T06:00:00+00:00",
+      "description": "Died In Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB454"
+  },
+  "sources": {
+    "bill": "ms-legislation/country:us/state:ms/sessions/2026/bills/HB454/metadata.json",
+    "log": "ms-legislation/country:us/state:ms/sessions/2026/bills/HB454/logs/20260203T060000Z_died_in_committee.json"
+  },
+  "timestamp": "20260203T060000Z"
+}

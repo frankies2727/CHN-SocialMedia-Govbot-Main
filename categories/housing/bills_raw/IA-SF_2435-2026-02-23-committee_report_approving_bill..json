@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 2435",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "abandoned property",
+      "county boards of supervisors",
+      "county government",
+      "county treasurers",
+      "disasters",
+      "homesteads",
+      "local government",
+      "manufactured homes",
+      "mobile homes",
+      "parcels (real property)",
+      "personal property",
+      "property taxes",
+      "rental property",
+      "residential property",
+      "rural areas",
+      "tax credits",
+      "tax sales",
+      "titles (property)"
+    ],
+    "title": "A bill for an act relating to local government by modifying property tax credits and rent reimbursements, provisions governing abandoned mobile homes and personal property in rural areas, and tax sales."
+  },
+  "id": "SF 2435",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-02-23",
+      "description": "Committee report, approving bill.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 2435"
+  },
+  "sources": {
+    "bill": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2435/metadata.json",
+    "log": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2435/logs/20260223T000000Z_committee_report_approving_bill.json"
+  },
+  "timestamp": "20260223T000000Z"
+}

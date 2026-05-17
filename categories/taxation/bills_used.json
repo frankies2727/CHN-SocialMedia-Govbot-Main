@@ -1,5 +1,6 @@
 {
   "posted": [
+    "AL|HB341|2026-04-17|Enacted",
     "AR|SB 263|2025-03-11|Returned by the Committee Do Pass",
     "AR|SB 263|2025-03-12|Read the third time and passed and order",
     "AR|SB 263|2025-03-12|Returned from the House as passed.",
@@ -16,6 +17,7 @@
     "DE|HB 240|2025-08-12|Signed by Governor",
     "DE|HB 240|2025-08-12|Suspension of Rules in House",
     "DE|HB 240|2025-08-12|Suspension of Rules in Senate",
+    "DE|SB 219|2026-03-25|Reported Out of Committee (Executive) in",
     "FL|SB 280|2026-03-13|Died in Finance and Tax",
     "GA|HB 1544|2026-05-11|House Date Signed by Governor",
     "GA|HB 90|2027-01-01|Effective Date",
@@ -109,7 +111,7 @@
     "WY|HB0252|2025-01-20|H Received for Introduction",
     "WY|HB0252|2025-02-03|H Did not Consider for Introduction"
   ],
-  "last_run": "2026-05-16T18:56:06.351549+00:00",
+  "last_run": "2026-05-17T01:59:13.630879+00:00",
   "state_last_posted": {
     "MI": "2026-05-16T03:00:10.016608+00:00",
     "RI": "2026-05-16T03:00:10.016608+00:00",
@@ -120,6 +122,8 @@
     "GA": "2026-05-16T13:00:45.028570+00:00",
     "NJ": "2026-05-16T13:00:45.028570+00:00",
     "FL": "2026-05-16T18:55:38.595457+00:00",
-    "IA": "2026-05-16T18:55:38.595457+00:00"
+    "IA": "2026-05-16T18:55:38.595457+00:00",
+    "DE": "2026-05-17T01:57:48.507606+00:00",
+    "AL": "2026-05-17T01:57:48.507606+00:00"
   }
 }

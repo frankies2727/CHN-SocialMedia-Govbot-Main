@@ -37,6 +37,7 @@
     "IA|HF 395|2025-05-19|Reported correctly enrolled, signed by S",
     "IA|HF 395|2025-06-06|Signed by Governor.",
     "IA|SF 2088|2026-01-22|Committee report, approving bill.",
+    "IA|SF 2214|2026-02-05|Committee report, approving bill.",
     "ID|H 0440|2025-03-24|Reported Printed and Referred to Local G",
     "IL|HB4182|2025-10-28|First Reading",
     "KS|HB2647|2026-03-11|Committee Report recommending bill be pa",
@@ -150,6 +151,7 @@
     "NE|LB600|2025-06-06|Provisions/portions of LB600 amended int",
     "NJ|A1391|2026-01-13|WITHDRAWN APP P.L.2025, c.198.",
     "NJ|A1525|2026-01-13|WITHDRAWN APP P.L.2025, c.241.",
+    "NJ|A2338|2026-01-13|WITHDRAWN APP P.L.2025, c.343.",
     "NJ|A927|2026-01-13|WITHDRAWN APP P.L.2025, c.176.",
     "NJ|S1180|2026-01-13|WITHDRAWN APP P.L.2025, c.301.",
     "NJ|S190|2026-01-13|WITHDRAWN APP P.L.2025, c.300.",
@@ -213,7 +215,7 @@
     "WV|SB 221|2026-01-14|To Economic Development",
     "WV|SB 238|2026-01-14|To Transportation and Infrastructure"
   ],
-  "last_run": "2026-05-16T18:57:40.164598+00:00",
+  "last_run": "2026-05-17T01:59:30.478508+00:00",
   "state_last_posted": {
     "IL": "2026-05-16T03:01:17.694974+00:00",
     "SC": "2026-05-16T03:01:17.694974+00:00",
@@ -224,6 +226,8 @@
     "GA": "2026-05-16T13:01:30.489281+00:00",
     "CA": "2026-05-16T13:01:30.489281+00:00",
     "DE": "2026-05-16T18:56:18.738815+00:00",
-    "KS": "2026-05-16T18:56:18.738815+00:00"
+    "KS": "2026-05-16T18:56:18.738815+00:00",
+    "IA": "2026-05-17T01:59:26.021833+00:00",
+    "NJ": "2026-05-17T01:59:26.021833+00:00"
   }
 }
