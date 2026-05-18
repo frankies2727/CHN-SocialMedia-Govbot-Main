@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representatives Williams of Springfield and Garcia of Chelsea, a petition (accompanied by bill, House, No. 1416) of Bud L. Williams, Judith A. Garcia and others for legislation to establish the executive office of health equity and for an investigation by a special commission (including members of the General Court) relative to health inequities.  Health Care Financing.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H1416",
+    "legislative_session": "194th",
+    "title": "An Act to advance health equity"
+  },
+  "id": "H1416",
+  "log": {
+    "action": {
+      "date": "2026-04-21",
+      "description": "Accompanied by H1417",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "H1416"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H1416/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H1416/logs/20260421T000000Z_accompanied_by_h1417.json"
+  },
+  "timestamp": "20260421T000000Z"
+}

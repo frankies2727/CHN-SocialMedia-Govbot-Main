@@ -2,7 +2,9 @@
   "posted": [
     "AL|HB361|2026-04-17|Enacted",
     "CA|AB1582|2026-05-14|From committee: Amend, and do pass as am",
+    "GA|HB 1128|2026-05-06|House Date Signed by Governor",
     "IA|SF 2087|2026-01-22|Committee report, approving bill.",
+    "KS|SB189|2026-04-10|Died in Committee",
     "MA|H2111|2026-02-26|Committee reported that the matter be pl",
     "NJ|S704|2026-01-13|WITHDRAWN APP P.L.2025, c.355.",
     "TN|SB 1655|2026-01-21|Passed on Second Consideration, refer to",
@@ -17,7 +19,9 @@
     "WI": "2026-05-18T02:09:56.063472+00:00",
     "IA": "2026-05-18T02:09:56.063472+00:00",
     "TN": "2026-05-18T09:46:07.589765+00:00",
-    "MA": "2026-05-18T09:46:07.589765+00:00"
+    "MA": "2026-05-18T09:46:07.589765+00:00",
+    "GA": "2026-05-18T15:03:41.850190+00:00",
+    "KS": "2026-05-18T15:03:41.850190+00:00"
   },
-  "last_run": "2026-05-18T09:46:56.847013+00:00"
+  "last_run": "2026-05-18T15:04:49.689575+00:00"
 }

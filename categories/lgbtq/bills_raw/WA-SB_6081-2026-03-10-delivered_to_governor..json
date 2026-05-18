@@ -1,0 +1,24 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 6081",
+    "legislative_session": "2025-2026",
+    "title": "Protecting Washingtonians from invasion of privacy, including the unauthorized disclosure of sex designation information and historic sex designation changes in official government records."
+  },
+  "id": "SB 6081",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-receipt"
+      ],
+      "date": "2026-03-10",
+      "description": "Delivered to Governor.",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "SB 6081"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB6081/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB6081/logs/20260310T000000Z.classification.executive-receipt.executive.json"
+  }
+}

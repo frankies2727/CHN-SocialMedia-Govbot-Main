@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes the Employment Development Department (EDD) , which is administered by the Director of Employment Development. Under existing law, the Director of Employment Development is vested with specified duties, purposes, responsibilities, and jurisdiction related to job creation activity functions, among other things.\n\nThis bill would establish the California Artificial Intelligence Worker Impact Data Assessment Project and would establish the California Artificial Intelligence Worker Impact Data Assessment Project Advisory Panel in the EDD. The bill would require the advisory panel to consist of 13 members, appointed as prescribed. The bill would require the EDD, in consultation with the advisory panel, to perform an assessment of data sources and collection methods regarding the use and impact of advanced artificial intelligence systems on the labor force, as specified. The bill would require the advisory panel to submit a report to the Legislature by January 1, 2028, with the results of the assessment and would require the report to provide policy recommendations to the Legislature, including, but not limited to, how to effectively support workers impacted by artificial intelligence. The bill would require the advisory panel to post the report on its internet website. The bill would require that the advisory panel be dissolved upon submission of the report to the Legislature and would repeal these provisions on January 1, 2029.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2545",
+    "legislative_session": "20252026",
+    "subject": [
+      "Report",
+      "artificialintelligence",
+      "laborforceimpact"
+    ],
+    "title": "Report: labor force impact: artificial intelligence."
+  },
+  "id": "AB2545",
+  "log": {
+    "action": {
+      "classification": [
+        "amendment-introduction",
+        "amendment-passage",
+        "reading-1",
+        "reading-2"
+      ],
+      "date": "2026-04-14",
+      "description": "From committee chair, with author's amendments: Amend, and re-refer to Com. on P. & C.P. Read second time and amended.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB2545"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2545/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2545/logs/20260414T000000Z_from_committee_chair_with_authors_amendments_amend_and_rerefer_to_com_on_p_cp_read_second_time_and_a.json"
+  },
+  "timestamp": "20260414T000000Z"
+}

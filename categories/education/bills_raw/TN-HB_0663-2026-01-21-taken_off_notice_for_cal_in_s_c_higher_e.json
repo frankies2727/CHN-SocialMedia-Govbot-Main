@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 0663",
+    "legislative_session": "114",
+    "subject": [
+      "Education"
+    ],
+    "title": "Education - As introduced, deletes a pilot program, which was established to improve parent-teacher engagement in any grade from kindergarten through grade two in public schools, that expired in 2021. - Amends TCA Title 49."
+  },
+  "id": "HB 0663",
+  "log": {
+    "action": {
+      "date": "2026-01-21",
+      "description": "Taken off notice for cal in s/c  Higher Education Subcommittee of  Education Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 0663"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HB0663/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HB0663/logs/20260121T000000Z_taken_off_notice_for_cal_in_sc_higher_education_subcommittee_of_education_committee.json"
+  },
+  "timestamp": "20260121T000000Z"
+}

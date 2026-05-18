@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB2471",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Roads and Highways"
+    ],
+    "title": "Designating a portion of I-35 as the deputy Sam Smith memorial highway and redesignating a current portion of the 35th infantry division memorial highway for I-35."
+  },
+  "id": "HB2471",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died on Calendar",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB2471"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2471/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2471/logs/20260410T000000Z_died_on_calendar.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

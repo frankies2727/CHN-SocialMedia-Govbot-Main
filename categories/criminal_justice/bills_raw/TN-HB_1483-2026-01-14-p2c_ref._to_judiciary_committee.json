@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1483",
+    "legislative_session": "114",
+    "subject": [
+      "Tort Liability and Reform"
+    ],
+    "title": "Tort Liability and Reform - As introduced, creates a cause of action through which a victim can recover from a person, other than a professional bondsman or person with a bailable interest, who posts bail for a defendant and the defendant is subsequently convicted for a criminal offense that occurred while the defendant was on bail; allows the victim to recover for damage to property, injury, or death arising from the subsequent criminal offense. - Amends TCA Title 40."
+  },
+  "id": "HB 1483",
+  "log": {
+    "action": {
+      "classification": [
+        "referral-committee"
+      ],
+      "date": "2026-01-14",
+      "description": "P2C, ref. to Judiciary Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1483"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1483/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1483/logs/20260114T000000Z_p2c_ref_to_judiciary_committee.json"
+  },
+  "timestamp": "20260114T000000Z"
+}
