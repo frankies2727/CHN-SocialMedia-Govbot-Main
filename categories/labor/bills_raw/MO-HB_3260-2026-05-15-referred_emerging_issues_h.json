@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 3260",
+    "legislative_session": "2026",
+    "subject": [
+      "CHILDREN AND MINORS",
+      "EDUCATION, ELEMENTARY AND SECONDARY",
+      "ELEMENTARY AND SECONDARY EDUCATION, DEPT. OF",
+      "EMPLOYEES - EMPLOYERS",
+      "LABOR AND MANAGEMENT",
+      "TAX CREDITS",
+      "TAX INCENTIVES",
+      "TAXATION AND REVENUE - INCOME"
+    ],
+    "title": "Establishes a program for providing paid leave for parents working in a child's school and authorizes a tax credit for fifty percent of the hourly wage paid to a participant in the program"
+  },
+  "id": "HB 3260",
+  "log": {
+    "action": {
+      "classification": [
+        "referral-committee"
+      ],
+      "date": "2026-05-15T05:00:00+00:00",
+      "description": "Referred: Emerging Issues(H)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 3260"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB3260/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB3260/logs/20260515T050000Z_referred_emerging_issuesh.json"
+  },
+  "timestamp": "20260515T050000Z"
+}

@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to provide for a homestead exemption from Cherokee County school district ad valorem taxes for educational purposes, through tax year 2031, in an amount equal to the amount by which the current year assessed value of a homestead exceeds the adjusted base year assessed value of such homestead; to provide for definitions; to specify the terms and conditions of the exemption and the procedures relating thereto; to provide for related matters; to provide for applicability; to provide for compliance with constitutional requirements; to provide for a referendum, effective dates, automatic repeal, mandatory execution of election, and judicial remedies regarding failure to comply; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 407",
+    "legislative_session": "2025_26",
+    "subject": [
+      "REVENUE AND TAXATION"
+    ],
+    "title": "Homestead Exemption; Cherokee County school district ad valorem taxes for educational purposes; provide"
+  },
+  "id": "SB 407",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-05-12",
+      "description": "Senate Date Signed by Governor",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 407"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB407/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB407/logs/20260512T000000Z_senate_date_signed_by_governor.json"
+  },
+  "timestamp": "20260512T000000Z"
+}

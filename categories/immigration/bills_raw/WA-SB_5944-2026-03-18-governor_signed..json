@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 5944",
+    "legislative_session": "2025-2026",
+    "title": "Concerning language access providers' collective bargaining."
+  },
+  "id": "SB 5944",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-03-18",
+      "description": "Governor signed.",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "SB 5944"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB5944/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB5944/logs/20260318T000000Z_governor_signed.json"
+  },
+  "timestamp": "20260318T000000Z"
+}

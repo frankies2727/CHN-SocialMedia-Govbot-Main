@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Under existing law, a person between 6 and 18 years of age who is not exempted by law is subject to compulsory full-time education. Existing law excludes a child under 6 years of age from the public schools, subject to specified exceptions.\n\nExisting law requires a school district maintaining a kindergarten to admit a child who will have their 5th birthday on or before September 1 of the school year. Existing law also requires a child who will have their 6th birthday on or before September 1 of the school year to be admitted to the first grade of an elementary school. Existing law authorizes a child who has been lawfully admitted to a public school kindergarten or a private school kindergarten in California and who is judged by the administration of the school district to be ready for first-grade work to be admitted to the first grade, as specified.\n\nThis bill would require a public elementary school, including a charter school, to ensure that a child is not admitted to the first grade unless the child has completed one year of kindergarten if the child will have their 6th birthday (1) between July 1, 2028, and September 1, 2028, inclusive, for the 2028–29 school year, (2) between May 1, 2029, and September 1, 2029, inclusive, for the 2029–30 school year, (3) between March 1, 2030, and September 1, 2030, inclusive, for the 2030–31 school year, and (4) on or before September 1 for the 2031–32 school year and each school year thereafter, except for a child who has been lawfully admitted to a public school kindergarten or a private school kindergarten in California, but has not yet completed one school year, and is judged to be ready for first-grade work, as specified. By imposing additional duties on local educational agencies, the bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1631",
+    "legislative_session": "20252026",
+    "subject": [
+      "Elementaryeducation",
+      "kindergarten"
+    ],
+    "title": "Elementary education: kindergarten."
+  },
+  "id": "AB1631",
+  "log": {
+    "action": {
+      "date": "2026-05-14",
+      "description": "In committee: Held under submission.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB1631"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1631/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1631/logs/20260514T000000Z_in_committee_held_under_submission.json"
+  },
+  "timestamp": "20260514T000000Z"
+}

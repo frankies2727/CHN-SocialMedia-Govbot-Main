@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Like House Bill No. 183, House Substitute No. 1 for House Bill No. 183 (Substitute) provides for special primary elections when there are special elections for vacancies in either house of the General Assembly. \r\n\r\nThis Substitute differs from HB 183 because there is only 1 writ of election and this writ includes the dates for both the special primary election and the special general election. Under this Substitute, the procedure for special elections to fill a vacancy in the General Assembly is as follows:\r\n• The writ of election (writ) must be issued within 5 days of the creation of the vacancy and must provide the date of the special primary election, the date of the special general election, and the deadlines for candidates to file and withdraw.\r\n• The date of the special primary election must be between 35 and 40 days after the date of the writ and the date of the special general election must be between 35 and 40 days after the date of the special primary election.\r\n• If the special primary election is not necessary, the State Election Commissioner will provide notice in the same manner as when there is no contest for a regular primary election under § 3105 of Title 15.\r\n• Candidates have 5 days to file and must schedule the appointment necessary for a criminal history background check no more than 24 hours after the filing deadline.\r\n\r\nLike HB 183, this Substitute shortens the time between some steps in the current process. Under this Substitute, the special general election will only be between 35 and 40 days later than when the special election is held under current law. These time periods accommodate 10 days of early voting before the day of each special election and are feasible with current technology and practices. Early voting and absentee voting requirements and procedures remain the same as for regular elections.\r\n\r\nIn addition, this Substitute modifies the procedure for special elections during a year with a general election. These modifications are consistent with current law and are necessary to avoid holding a special election that is too close to either the regular primary or general election to be feasible for the Department of Elections or to avoid holding multiple elections for the same office within a few months. Under this Substitute, in a year with a general election, special elections are modified as follows:\r\n• If the vacancy is for an office that is on the general election ballot and the date for the special primary election would otherwise be on or after May 15, special elections are not held and the vacancy is filled by that year’s primary and general elections. May 14 is the last day that there would be time to hold a special general election before the end of the regular legislative session.\r\n• If the vacancy occurs in a year with a general election but the vacancy is for an office that is not on the general election ballot, the dates for special elections are modified as follows:\r\n1. If the date of the special primary election would be on or after May 15 and on or before the date of the primary election, the date of the special primary election is the same as the primary election and the date of the special general election is the same as the general election.\r\n2. If the date of the special primary election would be after the date of the primary election, the date of the special primary election is 35 to 40 days after the general election and the special general election is held 35 to 40 days later.\r\n\r\nThis Substitute also differs from HB 183 as follows:\r\n• During a year with a general election, May 14 is the last day a special primary election is held before the regular primary if the office being filled is not on the general election ballot. This date is changed from June 30 to be the same as when the office being filled is on the general election ballot.\r\n• Changes the deadline for a candidate's criminal history background check appointment from 48 to 24 hours after the filing deadline.\r\n• Fills a gap in current law by addressing the nomination of a candidate if no candidates of a party have filed for a legislative district that includes area in 2 counties and 1 of those counties does not have a county committee.\r\n• Revises the notice requirements to align with those requirements for regular primary and general elections.\r\n• Adds references to the general election laws applicable to special elections under § 7106 of Title 15.\r\n• Makes additional technical corrections to conform existing law to the standards of the Delaware Legislative Drafting Manual.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 183",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 15 OF THE DELAWARE CODE RELATING TO SPECIAL ELECTIONS FOR GENERAL ASSEMBLY."
+  },
+  "id": "HB 183",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "date": "2026-01-14",
+      "description": "Reported Out of Committee (Elections & Government Affairs) in House with 4 Favorable, 2 On Its Merits",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Elections & Government Affairs"
+        }
+      ]
+    },
+    "bill_id": "HB 183"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB183/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB183/logs/20260114T000000Z_reported_out_of_committee_elections_government_affairs_in_house_with_4_favorable_2_on_its_merits.json"
+  },
+  "timestamp": "20260114T000000Z"
+}

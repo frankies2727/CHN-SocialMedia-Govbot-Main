@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act requires tattoo parlors to post signs raising awareness about human trafficking. This Act also requires the Department of Health and Social Services to encourage tattoo parlors and body piercing establishments to have individuals working for them complete training on recognizing, responding, and reporting signs of human trafficking, as well as referring clients to resources for victims of human trafficking. The Department must provide or make available to tattoo parlors and body piercing establishments a list of nonprofit organizations that provide this training, which must be available at no cost to any person who works at a tattoo parlor or body piercing establishment. This Act takes effect 1 year after its enactment into law.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 324",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO TATTOO PARLORS, BODY PIERCING ESTABLISHMENTS, AND HUMAN TRAFFICKING."
+  },
+  "id": "HB 324",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "date": "2026-03-25",
+      "description": "Reported Out of Committee (Health & Human Development) in House with 5 Favorable, 4 On Its Merits",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Health & Human Development"
+        }
+      ]
+    },
+    "bill_id": "HB 324"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB324/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB324/logs/20260325T000000Z_reported_out_of_committee_health_human_development_in_house_with_5_favorable_4_on_its_merits.json"
+  },
+  "timestamp": "20260325T000000Z"
+}

@@ -30,6 +30,7 @@
     "FL|HB 1483|2026-03-13|Died in Budget Committee",
     "FL|HB 313|2026-03-13|Died in Intergovernmental Affairs Subcom",
     "GA|HB 1116|2026-03-31|Senate Passed/Adopted By Substitute",
+    "GA|HB 1116|2026-03-31|Senate Third Read",
     "GA|HB 1116|2026-04-02|House Agreed Senate Amend or Sub As Amen",
     "HI|SB1200|2025-02-04|The committee(s) on  HOU recommend(s) th",
     "HI|SB1200|2025-02-12|Report adopted; Passed Second Reading, a",
@@ -106,6 +107,7 @@
     "NJ|A1725|2026-01-13|WITHDRAWN APP P.L.2025, c.251.",
     "NJ|A2094|2026-01-13|WITHDRAWN APP P.L.2025, c.348.",
     "NJ|A3458|2026-01-13|WITHDRAWN APP P.L.2025, c.297.",
+    "NJ|S3177|2026-01-13|WITHDRAWN APP P.L.2025, c.348.",
     "NJ|S732|2026-01-13|WITHDRAWN APP P.L.2025, c.265.",
     "NY|S751|2025-02-14|SIGNED CHAP.77",
     "PA|HB 1492|2025-11-17|Re-reported as committed",
@@ -121,13 +123,13 @@
     "WA|SB 5940|2026-01-21|Minority; without recommendation.",
     "WV|SB 101|2026-01-14|To Education"
   ],
-  "last_run": "2026-05-18T19:31:32.283511+00:00",
+  "last_run": "2026-05-19T02:07:12.564014+00:00",
   "state_last_posted": {
     "MS": "2026-05-16T02:58:27.650333+00:00",
     "PA": "2026-05-16T02:58:27.650333+00:00",
     "AK": "2026-05-16T04:27:30.223995+00:00",
     "VT": "2026-05-16T04:27:30.223995+00:00",
-    "GA": "2026-05-18T15:00:16.853047+00:00",
+    "GA": "2026-05-19T02:06:37.149818+00:00",
     "WA": "2026-05-18T19:30:57.395724+00:00",
     "MN": "2026-05-18T09:44:51.052129+00:00",
     "IA": "2026-05-17T01:56:38.067114+00:00",
@@ -138,7 +140,7 @@
     "DE": "2026-05-17T08:14:23.320722+00:00",
     "KS": "2026-05-17T12:57:30.040966+00:00",
     "MA": "2026-05-18T15:00:16.853047+00:00",
-    "NJ": "2026-05-18T02:09:03.612489+00:00",
+    "NJ": "2026-05-19T02:06:37.149818+00:00",
     "MO": "2026-05-18T02:09:03.612489+00:00"
   }
 }
