@@ -61,14 +61,17 @@ keywords:
   - mixed-status family
   - mixed status family
   - in-state tuition
-  - language access
-  - LEP
-  - limited english proficient
 
 # Broad terms that only count as a match alongside a core keyword above.
+# "language access"/"LEP" describe a service population that also covers
+# labor bills about interpreters — they only signal immigration alongside a
+# core keyword.
 context_keywords:
   - human trafficking
   - smuggling
+  - language access
+  - LEP
+  - limited english proficient
 
 emojis:
   - emoji: "🌎"
