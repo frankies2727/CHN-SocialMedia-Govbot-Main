@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This House Concurrent Resolution designates January 23, 2026, as \"Maternal Health Awareness Day\" in the State of Delaware.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HCR 83",
+    "legislative_session": "153",
+    "title": "DESIGNATING JANUARY 23, 2026, AS \"MATERNAL HEALTH AWARENESS DAY\" IN THE STATE OF DELAWARE."
+  },
+  "id": "HCR 83",
+  "log": {
+    "action": {
+      "date": "2026-01-21",
+      "description": "Rescinded in House",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HCR 83"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HCR83/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HCR83/logs/20260121T000000Z_rescinded_in_house.json"
+  },
+  "timestamp": "20260121T000000Z"
+}

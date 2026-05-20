@@ -1,0 +1,22 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 5832",
+    "legislative_session": "2025-2026",
+    "title": "Updating the arbitration fee collected for the new motor vehicle arbitration account."
+  },
+  "id": "SB 5832",
+  "log": {
+    "action": {
+      "date": "2026-02-27",
+      "description": "Executive action taken in the House Committee on Appropriations at 10:30 AM.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB 5832"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB5832/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB5832/logs/20260227T000000Z_executive_action_taken_in_the_house_committee_on_appropriations_at_1030_am.json"
+  },
+  "timestamp": "20260227T000000Z"
+}

@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law generally provides various benefits, including grant programs and tax credits. Existing law, the California Values Act, generally prohibits California law enforcement agencies from using their moneys or personnel for immigration enforcement purposes, except as specified.\n\nThis bill would prohibit a business entity that contracts with the federal government for immigration enforcement purposes, as specified, from receiving any state-provided grant, loan, or tax credit, as specified. The bill would establish the Due Process for All Fund and would require the Controller to transfer each year from the General Fund to the Due Process for All Fund the amount of tax collected that is attributable to business entities being made ineligible for tax credits by this bill. The bill would make moneys in the fund available upon appropriation by the Legislature for immigration-related services and programs.\n\nThis bill would include a change in state statute that would result in a taxpayer paying a higher tax within the meaning of Section 3 of Article XIIIA of the California Constitution, and thus would require for passage the approval of 23 of the membership of each house of the Legislature.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2465",
+    "legislative_session": "20252026",
+    "subject": [
+      "Stategovernment",
+      "benefits"
+    ],
+    "title": "State government: benefits."
+  },
+  "id": "AB2465",
+  "log": {
+    "action": {
+      "classification": [
+        "amendment-passage",
+        "reading-1",
+        "reading-3"
+      ],
+      "date": "2026-05-18",
+      "description": "Read third time and amended. Ordered to third reading.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB2465"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2465/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2465/logs/20260518T000000Z_read_third_time_and_amended_ordered_to_third_reading.json"
+  },
+  "timestamp": "20260518T000000Z"
+}

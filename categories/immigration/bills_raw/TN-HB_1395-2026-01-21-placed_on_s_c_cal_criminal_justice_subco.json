@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1395",
+    "legislative_session": "114",
+    "subject": [
+      "Criminal Procedure"
+    ],
+    "title": "Criminal Procedure - As introduced, restores the right of suffrage for persons convicted of an infamous crime after expiration of the sentence imposed for the infamous crime; removes requirement that the person pay restitution and court costs and be current in all child support obligations before having the person's right of suffrage restored; permits a person to have the right of suffrage restored without having the person's full rights of citizenship restored. - Amends TCA Title 2 and Title 40."
+  },
+  "id": "HB 1395",
+  "log": {
+    "action": {
+      "date": "2026-01-21",
+      "description": "Placed on s/c cal Criminal Justice Subcommittee for 1/28/2026",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1395"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1395/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1395/logs/20260121T000000Z_placed_on_sc_cal_criminal_justice_subcommittee_for_1282026.json"
+  },
+  "timestamp": "20260121T000000Z"
+}

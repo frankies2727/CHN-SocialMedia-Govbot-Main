@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Code Section 40-2-86 of the Official Code of Georgia Annotated, relating to license plates promoting or supporting certain agencies, funds, or nonprofit corporations with proceeds disbursed to the general fund and the agency, fund, or nonprofit corporation, so as to establish a specialty license plate benefitting the Georgia Veterans Service Foundation; to provide for related matters; to provide for compliance with constitutional requirements; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 76",
+    "legislative_session": "2025_26",
+    "subject": [
+      "MOTOR VEHICLES AND TRAFFIC"
+    ],
+    "title": "License Plates; specialty license plate benefitting the Georgia Veterans Service Foundation; establish"
+  },
+  "id": "SB 76",
+  "log": {
+    "action": {
+      "date": "2027-07-01",
+      "description": "Effective Date",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "SB 76"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB76/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB76/logs/20270701T000000Z_effective_date.json"
+  },
+  "timestamp": "20270701T000000Z"
+}

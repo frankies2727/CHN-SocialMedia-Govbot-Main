@@ -11,6 +11,7 @@
     "DE|HB 201|2026-03-25|Reported Out of Committee (Judiciary) in",
     "DE|HB 277|2026-03-26|Passed By Senate. Votes: 20 YES 1 ABSENT",
     "DE|HB 324|2026-03-25|Reported Out of Committee (Health & Huma",
+    "FL|HB 4019|2026-03-31|Signed by Officers and presented to Gove",
     "FL|HB 4019|2026-04-14|Approved by Governor",
     "FL|SB 506|2026-04-21|Signed by Officers and presented to Gove",
     "GA|HB 1128|2026-04-06|House Sent to Governor",
@@ -44,6 +45,7 @@
     "MO|SB 905|2026-05-14|S Bills with H Amendments",
     "MS|HB1347|2026-02-03|Died In Committee",
     "MS|SB2794|2026-02-03|Title Suff Do Pass Comm Sub",
+    "NJ|S1286|2026-01-13|WITHDRAWN APP P.L.2025, c.332.",
     "NJ|S678|2026-01-13|WITHDRAWN APP P.L.2025, c.259.",
     "RI|SB2308|2026-05-08|05/08/2026 Scheduled for hearing and/or ",
     "RI|SB2308|2026-05-12|05/12/2026 Committee recommended measure",
@@ -53,14 +55,14 @@
     "WA|SB 5925|2026-03-30|Governor signed.",
     "WY|HB0327|2025-03-04|H:Died in Committee Returned Bill Pursua"
   ],
-  "last_run": "2026-05-20T09:47:28.330897+00:00",
+  "last_run": "2026-05-20T15:36:27.686202+00:00",
   "state_last_posted": {
     "DE": "2026-05-19T09:03:06.308248+00:00",
     "AK": "2026-05-16T02:55:29.130660+00:00",
     "CA": "2026-05-19T09:03:06.308248+00:00",
     "WY": "2026-05-16T04:25:25.886287+00:00",
     "MA": "2026-05-19T14:34:16.402946+00:00",
-    "FL": "2026-05-19T19:38:49.208342+00:00",
+    "FL": "2026-05-20T15:35:59.594124+00:00",
     "IA": "2026-05-20T09:47:24.061370+00:00",
     "GA": "2026-05-19T19:38:49.208342+00:00",
     "KS": "2026-05-18T19:27:48.498588+00:00",
@@ -69,7 +71,7 @@
     "WA": "2026-05-19T02:01:33.666318+00:00",
     "MS": "2026-05-20T09:47:24.061370+00:00",
     "MO": "2026-05-18T09:42:00.873877+00:00",
-    "NJ": "2026-05-17T12:54:48.881341+00:00",
+    "NJ": "2026-05-20T15:35:59.594124+00:00",
     "TN": "2026-05-18T14:56:26.265782+00:00"
   }
 }

@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the Medical Practice Act, establishes the Medical Board of California to license and regulate the practice of medicine. Existing law establishes within the act the Licensed Physicians from Mexico Program, which authorizes the board to issue a limited number of nonrenewable 3-year physician's and surgeon's licenses to physicians from Mexico who are licensed, certified, or recertified and in good standing in their medical specialty in Mexico and who meet specified other requirements.\n\nThis bill would establish the Doctors from El Salvador Program for the purpose of permitting licensed physicians from El Salvador to practice medicine in California for up to 3 years. The bill would require the program to be developed in consultation with representatives from a community health clinic in California that has an established partnership and framework with specified universities in El Salvador and would require the program to, among other things, recruit and vet candidates and assist candidates for the program in El Salvador to meet all program requirements. The bill would require the board to issue a nonrenewable 3-year physician and surgeon's license to a person who is licensed, certified, or recertified, and in good standing in the applicable medical specialty in El Salvador and who meets other requirements of the program.\n\n This bill would require a licensee in the program to practice only in the nonprofit community health center that offered the licensee employment and the corresponding hospital. The bill would require a federally qualified health center employing a licensee in the program to take certain actions, including creating and maintaining medical quality assurance protocols for those licensees. The bill would also require the federally qualified health centers to work with a California medical school or residency program to conduct 10 secondary reviews of randomly selected patient encounters with each of those licensees every 6 months, as specified. The bill would also require the faculty from the medical school or residency program and federally qualified health center chief medical officers to jointly develop 2 quality assurance seminars to be attended by the licensees.\n\n This bill would require an evaluation of the program to be conducted 12 months after the program has commenced by one of specified universities in El Salvador and an unspecified medical school in southern California, except that if the evaluation does not begin within 18 months of commencement of the program, the bill would require the Director of Consumer Affairs to select an independent consultant to conduct the evaluation. The bill would require progress reports to be provided to the Legislature on achievable time intervals beginning in the 2nd year of implementation of the program. The bill would require the board to coordinate with the community health center, as specified, to ensure that the number of program participants that are issued a license does not exceed a certain number of licensees, based on the year in which the applicant applies. The bill would establish various fees to be deposited in the Contingent Fund of the Medical Board of California or the CURES Fund, as specified.\n\nThis bill would make legislative findings and declarations as to the necessity of a special statute.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1179",
+    "legislative_session": "20252026",
+    "subject": [
+      "DoctorsfromElSalvadorProgram"
+    ],
+    "title": "Doctors from El Salvador Program."
+  },
+  "id": "SB1179",
+  "log": {
+    "action": {
+      "date": "2026-05-14",
+      "description": "May 14 hearing: Held in committee and under submission.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB1179"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1179/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1179/logs/20260514T000000Z_may_14_hearing_held_in_committee_and_under_submission.json"
+  },
+  "timestamp": "20260514T000000Z"
+}

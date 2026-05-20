@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes the California Interagency Council on Homelessness to oversee the implementation of Housing First guidelines and regulations, and, among other things, identify resources, benefits, and services that can be accessed to prevent and end homelessness in California. Existing law requires a state agency or department that funds, implements, or administers a state program that provides housing or housing-related services to people experiencing homelessness or who are at risk of homelessness to revise or adopt guidelines and regulations to include enumerated Housing First policies. Existing law specifies the core components of Housing First, including services that are informed by a harm-reduction philosophy that recognizes drug and alcohol use and addiction as a part of tenants' lives and where tenants are engaged in nonjudgmental communication regarding drug and alcohol use.\n\nThis bill would require a recovery residence, defined as a residence that, among other things, satisfies the core components of Housing First as described above, to meet specified requirements in order to be eligible for state funding, including that residency is initiated by the resident and the resident is additionally offered at least one harm-reduction housing placement option, relapse is not cause for eviction and residents receive relapse support, the residence provides emergency preparedness and overdose prevention and response training to staff and residents and makes overdose reversal medication available and readily accessible to staff and residents onsite, the residence has consent and confidentiality protections for its residents consistent with state and federal law, and the residence adopts and maintains a written return to use policy, as specified. The bill would make related findings and declarations.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1556",
+    "legislative_session": "20252026",
+    "subject": [
+      "Recoveryresidences",
+      "funding"
+    ],
+    "title": "Recovery residences: funding."
+  },
+  "id": "AB1556",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "date": "2026-05-14",
+      "description": "From committee: Do pass. (Ayes 15. Noes 0.) (May 14).",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB1556"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1556/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1556/logs/20260514T000000Z_from_committee_do_pass_ayes_15_noes_0_may_14.json"
+  },
+  "timestamp": "20260514T000000Z"
+}

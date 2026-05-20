@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1485",
+    "legislative_session": "114",
+    "subject": [
+      "Process",
+      "Service of"
+    ],
+    "title": "Process, Service of - As introduced, clarifies that the name and address required pursuant to the receipt of a deed of conveyance of real property may be used as the basis for obtaining service of process upon either party as an agent thereof, for failure to pay real property taxes. - Amends TCA Title 66, Chapter 24."
+  },
+  "id": "SB 1485",
+  "log": {
+    "action": {
+      "classification": [
+        "withdrawal"
+      ],
+      "date": "2026-01-22",
+      "description": "Withdrawn.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1485"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1485/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1485/logs/20260122T000000Z_withdrawn.json"
+  },
+  "timestamp": "20260122T000000Z"
+}
