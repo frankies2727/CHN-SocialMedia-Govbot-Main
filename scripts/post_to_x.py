@@ -1,165 +1,327 @@
 #!/usr/bin/env python3
 """
-X/Twitter version of the poster.
-Reuses ALL existing logic from category.py, Ollama, dedup, etc.
-Just posts to X instead of Bluesky.
+X/Twitter version of the poster. Mirrors post_to_bluesky.py's pipeline
+(state detection, abstract/subjects extraction, freshness gate, same-day
+dedup, weighted state selection, Ollama summary + headline) and posts to
+X via tweepy. Uses a separate dedup file (bills_used_x.json) so X dedup
+is independent of Bluesky's.
 """
 
+from __future__ import annotations
+
+import json
 import os
+import random
 import sys
+from collections import Counter
+from datetime import datetime, timezone
 from pathlib import Path
 
 import tweepy
-from category import Category, load_active_category
 
-# ------------------------------------------------------------------
-# Load category config (exactly like your Bluesky script)
-# ------------------------------------------------------------------
-CATEGORY: Category = load_active_category()
+from category import load_active_category
+from post_to_bluesky import (
+    _format_date,
+    _normalize,
+    _smart_truncate,
+    best_display_text,
+    extract_fields,
+    format_action_line,
+    link_for,
+    load_bills,
+    shorten_title,
+    summarize,
+)
+
 ROOT = Path(__file__).resolve().parent.parent
 JSONL_PATH = ROOT / "bills.jsonl"
 
-POST_LIMIT = int(os.environ.get("POST_LIMIT", "3"))   # Start conservative for X costs
-DRY_RUN = os.environ.get("DRY_RUN") == "1"
+CATEGORY = load_active_category()
+STATE_FILE = ROOT / "categories" / CATEGORY.name / "bills_used_x.json"
+
+POST_LIMIT = int(os.environ.get("POST_LIMIT", "2"))
 MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "150"))
+DRY_RUN = os.environ.get("DRY_RUN") == "1"
 
-# X credentials from GitHub Secrets
-X_API_KEY = os.environ.get("X_API_KEY")
-X_API_SECRET = os.environ.get("X_API_SECRET")
-X_ACCESS_TOKEN = os.environ.get("X_ACCESS_TOKEN")
-X_ACCESS_TOKEN_SECRET = os.environ.get("X_ACCESS_TOKEN_SECRET")
+# X budgets every URL at 23 t.co chars regardless of actual length.
+MAX_TWEET = 280
+X_URL_LEN = 23
 
-print("🔍 Checking X credentials...")
-print(f"X_API_KEY present: {bool(X_API_KEY) and len(X_API_KEY) > 10}")
-print(f"X_API_SECRET present: {bool(X_API_SECRET) and len(X_API_SECRET) > 10}")
-print(f"X_ACCESS_TOKEN present: {bool(X_ACCESS_TOKEN) and len(X_ACCESS_TOKEN) > 10}")
-print(f"X_ACCESS_TOKEN_SECRET present: {bool(X_ACCESS_TOKEN_SECRET) and len(X_ACCESS_TOKEN_SECRET) > 10}")
+X_API_KEY = os.environ.get("X_API_KEY", "")
+X_API_SECRET = os.environ.get("X_API_SECRET", "")
+X_ACCESS_TOKEN = os.environ.get("X_ACCESS_TOKEN", "")
+X_ACCESS_TOKEN_SECRET = os.environ.get("X_ACCESS_TOKEN_SECRET", "")
 
-if not all([X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN, X_ACCESS_TOKEN_SECRET]):
-    print("❌ ERROR: Missing X API credentials")
-    sys.exit(1)
-
-print("✅ All X credentials loaded successfully!")
+print("Checking X credentials...")
+print(f"  X_API_KEY present:             {bool(X_API_KEY) and len(X_API_KEY) > 10}")
+print(f"  X_API_SECRET present:          {bool(X_API_SECRET) and len(X_API_SECRET) > 10}")
+print(f"  X_ACCESS_TOKEN present:        {bool(X_ACCESS_TOKEN) and len(X_ACCESS_TOKEN) > 10}")
+print(f"  X_ACCESS_TOKEN_SECRET present: {bool(X_ACCESS_TOKEN_SECRET) and len(X_ACCESS_TOKEN_SECRET) > 10}")
 
 
-# Initialize Tweepy client (X's official way)
-client = tweepy.Client(
-    consumer_key=X_API_KEY,
-    consumer_secret=X_API_SECRET,
-    access_token=X_ACCESS_TOKEN,
-    access_token_secret=X_ACCESS_TOKEN_SECRET,
-    wait_on_rate_limit=True
-)
+# ---------------------------------------------------------------------------
+# State persistence (X-specific file)
+# ---------------------------------------------------------------------------
 
-# ------------------------------------------------------------------
-# Reuse your existing functions (we import what we need)
-# ------------------------------------------------------------------
-# Copy-paste only the parts we need from post_to_bluesky.py to keep it clean
+def load_state() -> dict:
+    if STATE_FILE.exists():
+        try:
+            return json.loads(STATE_FILE.read_text())
+        except json.JSONDecodeError:
+            pass
+    return {"posted": []}
 
-def load_bills(path: Path):
-    import json
-    if not path.exists():
-        print(f"ERROR: {path} not found", file=sys.stderr)
-        return []
-    bills = []
-    with path.open(encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if line:
-                try:
-                    bills.append(json.loads(line))
-                except:
-                    continue
-    print(f"Loaded {len(bills)} bills")
-    return bills
 
-def extract_fields(record: dict):
-    # Minimal version - you can copy more from your original if needed
-    bill = record.get("bill") or {}
-    log = record.get("log") or {}
-    identifier = bill.get("identifier") or ""
-    title = bill.get("title") or ""
-    if not identifier or not title:
-        return None
-    state = ""  # your detect_state function if you want full power
-    action = log.get("action") or {}
-    action_desc = action.get("description") or ""
-    action_date = (action.get("date") or "")[:10]
-    dedup_key = f"{state}|{identifier}|{action_date}|{action_desc[:40]}"
-    return {
-        "state": state,
-        "identifier": identifier,
-        "title": title,
-        "action_desc": action_desc,
-        "action_date": action_date,
-        "dedup_key": dedup_key,
-    }
+def save_state(state: dict) -> None:
+    STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    STATE_FILE.write_text(json.dumps(state, indent=2))
 
-# ------------------------------------------------------------------
-# X Posting Function
-# ------------------------------------------------------------------
-def post_to_x(text: str, reply_to_id: str = None):
-    if DRY_RUN:
-        print(f"🔹 [DRY RUN] Would post to X:\n{text[:500]}...\n")
-        return "DRY_RUN_ID"
 
+# ---------------------------------------------------------------------------
+# Composition
+# ---------------------------------------------------------------------------
+
+def compose_x_post(b: dict, summary: str, headline: str = "") -> tuple[str, str]:
+    emoji = CATEGORY.emoji_for(b)
+    url = link_for(b)
+    url_block = f"\n\n{url}" if url else ""
+
+    state_label = b["state"] or "?"
+    display = best_display_text(b, headline=headline).strip()
+    summary = (summary or "").strip()
+
+    summary_block = (
+        f"\n\n{summary}"
+        if summary and _normalize(summary) != _normalize(display)
+        else ""
+    )
+    action_line = format_action_line(b["action_desc"], b["action_date"])
+    action_block = f"\n\n{action_line}" if action_line else ""
+
+    prefix = f"{emoji} {state_label} {b['identifier']} — "
+    prefix_len = len(prefix)
+    head = f"{prefix}{display}"
+
+    def assemble(h: str, s: str, a: str, u: str) -> str:
+        return h + s + a + u
+
+    text = assemble(head, summary_block, action_block, url_block)
+
+    # The URL costs exactly X_URL_LEN in X's budget; the rest counts normally.
+    url_cost = X_URL_LEN + 2 if url else 0  # +2 for the "\n\n" separator
+    non_url_len = lambda t: len(t) - len(url_block) if url else len(t)
+
+    # Trim order matches Bluesky: summary → display in head → action desc.
+    if non_url_len(text) + url_cost > MAX_TWEET and summary_block:
+        overflow = non_url_len(text) + url_cost - MAX_TWEET
+        new_len = max(0, len(summary) - overflow - 1)
+        if new_len > 20:
+            summary = _smart_truncate(summary, new_len + 1)
+            summary_block = f"\n\n{summary}"
+        else:
+            summary_block = ""
+        text = assemble(head, summary_block, action_block, url_block)
+
+    if non_url_len(text) + url_cost > MAX_TWEET:
+        avail = MAX_TWEET - url_cost - len(summary_block) - len(action_block) - prefix_len - 1
+        if avail > 0:
+            display_trimmed = _smart_truncate(display, avail + 1)
+        else:
+            display_trimmed = ""
+        head = f"{prefix}{display_trimmed}".rstrip(" —")
+        text = assemble(head, summary_block, action_block, url_block)
+
+    if non_url_len(text) + url_cost > MAX_TWEET and action_block and action_line:
+        nice_date = _format_date(b["action_date"])
+        if nice_date:
+            date_prefix = f"{nice_date}: "
+            if action_line.startswith(date_prefix):
+                desc_part = action_line[len(date_prefix):].rstrip(".!?")
+                overflow = non_url_len(text) + url_cost - MAX_TWEET
+                new_len = max(0, len(desc_part) - overflow - 1)
+                if new_len > 8:
+                    action_line = date_prefix + _smart_truncate(desc_part, new_len + 1)
+                    action_block = f"\n\n{action_line}"
+                else:
+                    action_line = ""
+                    action_block = ""
+            else:
+                action_block = f"\n\n{action_line}"
+        text = assemble(head, summary_block, action_block, url_block)
+
+    return text, url
+
+
+# ---------------------------------------------------------------------------
+# Posting
+# ---------------------------------------------------------------------------
+
+def build_client() -> tweepy.Client:
+    return tweepy.Client(
+        consumer_key=X_API_KEY,
+        consumer_secret=X_API_SECRET,
+        access_token=X_ACCESS_TOKEN,
+        access_token_secret=X_ACCESS_TOKEN_SECRET,
+        wait_on_rate_limit=True,
+    )
+
+
+def post_tweet(client: tweepy.Client | None, text: str) -> bool:
+    if DRY_RUN or client is None:
+        print(f"  [DRY RUN] would tweet ({len(text)} chars):\n{text}\n")
+        return True
     try:
-        response = client.create_tweet(
-            text=text,
-            in_reply_to_tweet_id=reply_to_id
-        )
-        tweet_id = response.data['id']
-        print(f"✅ Posted to X! https://x.com/i/web/status/{tweet_id}")
-        return tweet_id
+        resp = client.create_tweet(text=text)
+        tweet_id = resp.data["id"]
+        print(f"  posted: https://x.com/i/web/status/{tweet_id}")
+        return True
     except Exception as e:
-        print(f"❌ Failed to post: {e}")
-        return None
+        print(f"  ! tweet failed: {e}", file=sys.stderr)
+        return False
 
-# ------------------------------------------------------------------
-# Main Logic (simplified starter version)
-# ------------------------------------------------------------------
-if __name__ == "__main__":
+
+# ---------------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------------
+
+def main() -> int:
+    missing = [
+        n for n, v in (
+            ("X_API_KEY", X_API_KEY),
+            ("X_API_SECRET", X_API_SECRET),
+            ("X_ACCESS_TOKEN", X_ACCESS_TOKEN),
+            ("X_ACCESS_TOKEN_SECRET", X_ACCESS_TOKEN_SECRET),
+        ) if not v
+    ]
+    if missing and not DRY_RUN:
+        print(f"ERROR: missing X credentials: {', '.join(missing)}", file=sys.stderr)
+        return 1
+
     print(f"=== X GovBot running for category: {CATEGORY.name} ===")
-    
-    bills = load_bills(JSONL_PATH)
-    posted_count = 0
-    state_file = CATEGORY.state_file_path()  # reuses your bills_used.json
+    records = load_bills(JSONL_PATH)
+    if not records:
+        return 0
 
-    # Load already posted keys
-    import json
-    if state_file.exists():
-        with state_file.open() as f:
-            used = json.load(f).get("posted", [])
-    else:
-        used = []
+    state = load_state()
+    seen = set(state.get("posted", []))
 
-    for record in bills:
-        b = extract_fields(record)
+    candidates: list[dict] = []
+    for r in records:
+        b = extract_fields(r)
         if not b:
             continue
-        if b["dedup_key"] in used:
+        if not CATEGORY.matches(b):
             continue
-        if not CATEGORY.matches(b):   # your keyword filter
+        if b["dedup_key"] in seen:
             continue
+        candidates.append(b)
 
-        # Build nice post (you can make this fancier later)
-        emoji = CATEGORY.emoji_for(b) if hasattr(CATEGORY, 'emoji_for') else "📜"
-        title = b["title"][:180] + "..." if len(b["title"]) > 180 else b["title"]
-        action = b.get("action_desc", "")[:120]
+    cutoff = datetime.now(timezone.utc).date()
 
-        post_text = f"{emoji} {b['identifier']} — {title}\n\n{action}\n\n#StateBills #DataForGood"
+    def _fresh(b: dict) -> bool:
+        try:
+            d = datetime.strptime(b["action_date"], "%Y-%m-%d").date()
+        except (ValueError, TypeError):
+            return False
+        return (cutoff - d).days <= MAX_ACTION_AGE_DAYS
 
-        post_id = post_to_x(post_text)
-        if post_id and not DRY_RUN:
-            used.append(b["dedup_key"])
-            posted_count += 1
+    before = len(candidates)
+    candidates = [b for b in candidates if _fresh(b)]
+    dropped = before - len(candidates)
+    if dropped:
+        print(f"  dropped {dropped} stale update(s) older than {MAX_ACTION_AGE_DAYS} days.")
 
-        if posted_count >= POST_LIMIT:
-            break
+    # Same-day dedup: collapse multiple log entries for same bill on same day.
+    unique_by_day: dict[str, dict] = {}
+    for b in candidates:
+        existing = unique_by_day.get(b["same_day_key"])
+        if existing is None or len(b["action_desc"]) > len(existing["action_desc"]):
+            unique_by_day[b["same_day_key"]] = b
+    candidates = list(unique_by_day.values())
 
-    # Save updated dedup state
-    state_file.parent.mkdir(parents=True, exist_ok=True)
-    with state_file.open("w") as f:
-        json.dump({"posted": used}, f, indent=2)
+    print(f"Found {len(candidates)} new {CATEGORY.topic_phrase} bill update(s).")
+    if not candidates:
+        return 0
 
-    print(f"Finished. Posted {posted_count} updates.")
+    state_counts = Counter(b["state"] or "?" for b in candidates)
+    top = state_counts.most_common(15)
+    print(f"  by state: {', '.join(f'{s}={n}' for s, n in top)}")
+
+    def recency(b: dict) -> datetime:
+        try:
+            return datetime.strptime(b["action_date"], "%Y-%m-%d")
+        except (ValueError, TypeError):
+            return datetime.min
+
+    def has_desc(b: dict) -> bool:
+        return bool((b["action_desc"] or "").strip())
+
+    by_state: dict[str, dict] = {}
+    for b in candidates:
+        st = b["state"] or "?"
+        cur = by_state.get(st)
+        if cur is None or (has_desc(b), recency(b)) > (has_desc(cur), recency(cur)):
+            by_state[st] = b
+    reps = list(by_state.values())
+
+    descriptive = [b for b in reps if has_desc(b)]
+    stubs = [b for b in reps if not has_desc(b)]
+
+    last_posted: dict[str, str] = state.get("state_last_posted", {})
+    now = datetime.now(timezone.utc)
+
+    def state_weight(b: dict) -> float:
+        ts = last_posted.get(b["state"] or "?")
+        if not ts:
+            days = 180
+        else:
+            try:
+                days = (now - datetime.fromisoformat(ts)).days
+            except ValueError:
+                days = 180
+        return min(max(days, 0), 180) + 1
+
+    def weighted_draw(pool: list[dict], k: int) -> list[dict]:
+        pool = list(pool)
+        picked: list[dict] = []
+        while pool and len(picked) < k:
+            weights = [state_weight(b) for b in pool]
+            idx = random.choices(range(len(pool)), weights=weights, k=1)[0]
+            picked.append(pool.pop(idx))
+        return picked
+
+    to_post = weighted_draw(descriptive, POST_LIMIT)
+    if len(to_post) < POST_LIMIT:
+        to_post.extend(weighted_draw(stubs, POST_LIMIT - len(to_post)))
+
+    distinct_states = len({b["state"] or "?" for b in to_post})
+    print(f"Pool: {len(descriptive)} state(s) with descriptive bills, {len(stubs)} stub-only.")
+    print(f"Will post up to {POST_LIMIT}: posting {len(to_post)} from {distinct_states} state(s).")
+
+    client = None if DRY_RUN else build_client()
+
+    posted = 0
+    for b in to_post:
+        summary_text = summarize(b)
+        headline = shorten_title(b)
+        text, _url = compose_x_post(b, summary_text, headline=headline)
+
+        print(f"\n--- {b['state'] or '?'} {b['identifier']} ({b['action_date']}) ---")
+        print(text)
+        print("---")
+
+        if post_tweet(client, text):
+            seen.add(b["dedup_key"])
+            last_posted[b["state"] or "?"] = now.isoformat()
+            posted += 1
+
+    state["posted"] = sorted(seen)
+    state["state_last_posted"] = last_posted
+    state["last_run"] = datetime.now(timezone.utc).isoformat()
+    save_state(state)
+    print(f"\nDone. Posted {posted} update(s). State saved to {STATE_FILE.relative_to(ROOT)}.")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
