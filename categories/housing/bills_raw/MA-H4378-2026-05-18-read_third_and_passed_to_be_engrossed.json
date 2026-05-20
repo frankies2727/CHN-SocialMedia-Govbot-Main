@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Moakley of Falmouth and Senator Cyr, a joint petition (accompanied by bill, House, No. 4378) of Thomas W. Moakley (by vote of the town) relative to the affordable housing trust fund of the town of West Tisbury.  Housing.  [Local Approval Received.]",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H4378",
+    "legislative_session": "194th",
+    "title": "An Act relative to affordable housing trust fund of the town of West Tisbury"
+  },
+  "id": "H4378",
+  "log": {
+    "action": {
+      "classification": [
+        "passage",
+        "reading-3"
+      ],
+      "date": "2026-05-18",
+      "description": "Read third and passed to be engrossed",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "H4378"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4378/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4378/logs/20260518T000000Z.classification.passage.lower.json"
+  }
+}

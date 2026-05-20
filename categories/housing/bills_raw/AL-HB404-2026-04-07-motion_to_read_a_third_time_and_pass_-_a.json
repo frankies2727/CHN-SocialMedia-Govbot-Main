@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Counties & Municipalities",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB404",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Counties & Municipalities"
+    ],
+    "title": "Class 1 municipalities; authorization to establish community land trusts, affordable housing"
+  },
+  "id": "HB404",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-04-07T04:00:00+00:00",
+      "description": "Motion to Read a Third Time and Pass - Adopted Roll Call 1163",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB404"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB404/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB404/logs/20260407T040000Z.classification.passage.upper.json"
+  }
+}

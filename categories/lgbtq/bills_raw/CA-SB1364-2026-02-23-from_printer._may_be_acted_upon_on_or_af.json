@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law governs the determination of child custody and visitation in contested proceedings and requires the court, for purposes of deciding custody, to determine the best interests of the child based on certain factors, including, among other things, the health, safety, and welfare of the child and a history of abuse by a parent or another person seeking custody against specified individuals, including the other parent. As a prerequisite to considering an allegation of abuse, existing law authorizes the court to consider written reports from specified entities, including law enforcement and child protective services. Existing law prohibits the court from considering a person's sex, gender identity, gender expression, or sexual orientation when determining the best interests of the child.\n\nThe bill would also require the court to consider abuse that resulted in the conception of the child when determining the best interests of the child.\n\nExisting law prohibits a person from being granted physical or legal custody of, or visitation with, a child if the person has been convicted of rape and the child was conceived as a result of that violation.\n\nThis bill, instead, would prohibit a person from being granted custody of, or visitation with, a child if the person has been convicted of an act of sexual assault, as defined, and the child was conceived as a result of, or born within 300 days after, that act against the mother. Upon a finding by the court, by clear and convincing evidence, that a party seeking custody of a child perpetrated an act of sexual assault that resulted in the conception of the child, the bill would create a rebuttable presumption that an award of sole or joint physical or legal custody of the child is detrimental to the best interests of the child, which may only be rebutted by clear and convincing evidence to the contrary.\n\nExisting law, the Uniform Parentage Act, prescribes various circumstances under which an action may be brought for the purpose of determining the existence or nonexistence of a parent and child relationship and specifies when and by whom the action may be brought.\n\nThis bill would authorize an action to be brought to declare the nonexistence of the parent and child relationship to be brought at any time if the child was conceived as a result of a sexual assault and the father was convicted of that violation.\n\nThe Uniform Parentage Act defines the \"parent and child relationship\" as the legal relationship existing between a child and the child's parents, including determining who is a presumed parent. Under existing law, a person is presumed to be the natural parent of a child if they satisfy certain criteria, including, among other things, that the presumed parent and the child's natural mother are, or have been, married to each other and the child is born during the marriage or within 300 days after the marriage is terminated. Existing law specifies exceptions to those presumptions, including if the child was conceived as a result of rape or unlawful intercourse, as specified.\n\nThis bill would instead make that presumption inapplicable if the father was convicted of, or is found by clear and convincing evidence to have committed, a sexual assault against the child's mother and the child was conceived as a result of, or born within 300 days after, the sexual assault unless, after the date of the sexual assault, the child's natural mother and the father voluntarily share the rights and responsibilities of rearing the child.\n\nExisting law permits a proceeding to be brought for the purpose of having a child under 18 years of age declared free from the custody and control of either or both parents if the child's parent or parents have been convicted of a felony of a nature that proves the unfitness of the parent or parents to have future custody and control of the child. Existing law authorizes the court to consider the parent's criminal record prior to the felony conviction for these purposes. Existing law authorizes the mother of a child to bring a proceeding for these purposes against the father of the child if the child was conceived as a result of rape and the father was convicted of that violation.\n\nThis bill would instead authorize the mother of a child to bring a proceeding for these purposes against the father of the child if the child was conceived as a result of an act of rape or sexual assault, as specified. The bill would create a presumption that the father of the child is unfit to have custody or control of the child if the father is convicted of rape. The bill would also create that presumption if the father is found, by clear and convincing evidence, to have committed an act of sexual assault, except as specified.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1364",
+    "legislative_session": "20252026",
+    "subject": [
+      "Childcustody"
+    ],
+    "title": "Child custody."
+  },
+  "id": "SB1364",
+  "log": {
+    "action": {
+      "date": "2026-02-23",
+      "description": "From printer. May be acted upon on or after March 23.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB1364"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1364/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1364/logs/20260223T000000Z_from_printer_may_be_acted_upon_on_or_after_march_23.json"
+  },
+  "timestamp": "20260223T000000Z"
+}

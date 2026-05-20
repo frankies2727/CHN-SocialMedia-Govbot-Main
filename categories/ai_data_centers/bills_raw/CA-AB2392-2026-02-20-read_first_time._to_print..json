@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes the California Community Colleges, under the administration of the Board of Governors of the California Community Colleges, the California State University, under the administration of the Trustees of the California State University, and the University of California, under the administration of the Regents of the University of California as the 3 segments of public postsecondary education in the state.\n\nThis bill would require the California Community Colleges and the California State University, and would request the University of California, before providing a generative artificial intelligence (GenAI) system to students, faculty, or staff, to (1) as specified, convene a joint working group to present recommendations for procurement standards and training, which the bill would require to be submitted on or before January 1, 2028, and (2) provide the training to students, faculty, or staff, as applicable. The bill would require the California Community Colleges and the California State University, and would request the University of California, to review the training developed by the working group at least once per academic year, update the training as necessary, and maintain records of completed trainings for each student, faculty member, and staff member who receives a training, as provided. The bill would require the California Community Colleges and the California State University, and would request the University of California, before executing a contract to procure a GenAI system and until procurement standards are adopted, to submit a written report to the Legislature and certain legislative policy committees with a description of, among other things, the process used in evaluating and selecting the GenAI system, as provided.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2392",
+    "legislative_session": "20252026",
+    "subject": [
+      "Publicpostsecondaryeducation",
+      "generativeartificialintelligencesystems",
+      "procurementstandards",
+      "training"
+    ],
+    "title": "Public postsecondary education: generative artificial intelligence systems: procurement standards: training."
+  },
+  "id": "AB2392",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2026-02-20",
+      "description": "Read first time. To print.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB2392"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2392/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2392/logs/20260220T000000Z_read_first_time_to_print.json"
+  },
+  "timestamp": "20260220T000000Z"
+}

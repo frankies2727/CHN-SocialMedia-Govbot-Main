@@ -6,11 +6,13 @@
     "DE|HCR 83|2026-01-21|Passed By House. Votes: 34 YES 7 ABSENT.",
     "DE|HCR 83|2026-01-21|Passed By Senate. Votes: 20 YES 1 ABSENT",
     "DE|HCR 83|2026-01-21|Passed In House by Voice Vote",
+    "DE|HCR 83|2026-01-21|Reconsidered in House",
     "DE|SB 236|2026-03-25|Reported Out of Committee (Health & Soci",
     "DE|SB 236|2026-03-26|Passed By Senate. Votes: 18 YES 3 ABSENT",
     "DE|SB 250|2026-03-25|Reported Out of Committee (Health & Soci",
     "FL|HB 1029|2026-03-13|Died in Health Professions & Programs Su",
     "FL|HB 331|2026-03-13|Died in Education Administration Subcomm",
+    "FL|SB 1456|2026-01-22|Introduced",
     "FL|SB 1456|2026-03-13|Died in Commerce and Tourism",
     "KS|HB2010|2026-04-10|Died in Committee",
     "KS|HB2353|2026-04-10|Died in Committee",
@@ -25,12 +27,12 @@
   ],
   "state_last_posted": {
     "KS": "2026-05-19T09:12:00.564618+00:00",
-    "FL": "2026-05-20T02:08:52.343789+00:00",
+    "FL": "2026-05-20T09:54:44.968495+00:00",
     "CA": "2026-05-19T14:43:59.777460+00:00",
-    "DE": "2026-05-20T02:08:52.343789+00:00",
+    "DE": "2026-05-20T09:54:44.968495+00:00",
     "MA": "2026-05-18T02:10:44.609283+00:00",
     "MO": "2026-05-19T19:47:50.464164+00:00",
     "MS": "2026-05-19T02:09:34.502977+00:00"
   },
-  "last_run": "2026-05-20T02:09:28.064719+00:00"
+  "last_run": "2026-05-20T09:55:19.171333+00:00"
 }

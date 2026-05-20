@@ -1,0 +1,22 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "PC1062",
+    "legislative_session": "2025-2028",
+    "title": "Para declarar y reconocer a la Sociedad Pro Hospital del Niño, conocida comúnmente como “Hospital del Niño”, Patrimonio del Pueblo puertorriqueño, en reconocimiento a su trayectoria de más de cien (100) años brindando servicios médicos, terapéuticos, educativos dirigidos a atender condiciones crónicas o severas de la niñez en Puerto Rico."
+  },
+  "id": "PC1062",
+  "log": {
+    "action": {
+      "date": "2026-04-13T04:00:00+00:00",
+      "description": "En el Calendario de Ordenes Especiales de la Cámara",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "PC1062"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PC1062/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PC1062/logs/20260413T040000Z_en_el_calendario_de_ordenes_especiales_de_la_cámara.json"
+  },
+  "timestamp": "20260413T040000Z"
+}

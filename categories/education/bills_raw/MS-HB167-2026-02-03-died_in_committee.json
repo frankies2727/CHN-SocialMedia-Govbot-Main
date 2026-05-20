@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB167",
+    "legislative_session": "2026",
+    "subject": [
+      "Education"
+    ],
+    "title": "Prekindergarten; require State Department of Education to create the \"ABC Program\" to provide instruction via Internet."
+  },
+  "id": "HB167",
+  "log": {
+    "action": {
+      "date": "2026-02-03T06:00:00+00:00",
+      "description": "Died In Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB167"
+  },
+  "sources": {
+    "bill": "ms-legislation/country:us/state:ms/sessions/2026/bills/HB167/metadata.json",
+    "log": "ms-legislation/country:us/state:ms/sessions/2026/bills/HB167/logs/20260203T060000Z_died_in_committee.json"
+  },
+  "timestamp": "20260203T060000Z"
+}

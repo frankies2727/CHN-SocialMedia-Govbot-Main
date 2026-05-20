@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HF 4467",
+    "legislative_session": "2025-2026",
+    "title": "Provider disenrollment, premium payment requirements, and physician-directed clinic staff services coverage modified; enrollment for county-administered rural medical assistance program modified; language recodified; and report required."
+  },
+  "id": "HF 4467",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-2"
+      ],
+      "date": "2026-03-26",
+      "description": "Second reading",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HF 4467"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF4467/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF4467/logs/20260326T000000Z_second_reading.json"
+  },
+  "timestamp": "20260326T000000Z"
+}
