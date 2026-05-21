@@ -191,6 +191,14 @@ class Category:
     def bills_raw_dir(self) -> Path:
         return CATEGORIES_DIR / self.name / "bills_raw"
 
+    # X/Twitter state lives in its own x/ subfolder so its dedup file and
+    # raw artifacts sit beside — but never collide with — Bluesky's.
+    def x_state_file_path(self) -> Path:
+        return CATEGORIES_DIR / self.name / "x" / "bills_used.json"
+
+    def x_bills_raw_dir(self) -> Path:
+        return CATEGORIES_DIR / self.name / "x" / "bills_raw"
+
     def _secret_suffix(self) -> str:
         return self.name.upper()
 
