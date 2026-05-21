@@ -3,8 +3,8 @@
 X/Twitter version of the poster. Mirrors post_to_bluesky.py's pipeline
 (state detection, abstract/subjects extraction, freshness gate, same-day
 dedup, weighted state selection, Ollama summary + headline) and posts to
-X via tweepy. Uses a separate dedup file (bills_used_x.json) so X dedup
-is independent of Bluesky's.
+X via tweepy. All X state lives under categories/<name>/x/ (bills_used.json
+plus a bills_raw/ artifact folder) so X dedup is independent of Bluesky's.
 """
 
 from __future__ import annotations
@@ -21,8 +21,10 @@ import tweepy
 
 from category import load_active_category
 from post_to_bluesky import (
+    _FILENAME_UNSAFE_RE,
     _format_date,
     _normalize,
+    _slug,
     _smart_truncate,
     best_display_text,
     extract_fields,
@@ -37,7 +39,7 @@ ROOT = Path(__file__).resolve().parent.parent
 JSONL_PATH = ROOT / "bills.jsonl"
 
 CATEGORY = load_active_category()
-STATE_FILE = ROOT / "categories" / CATEGORY.name / "bills_used_x.json"
+STATE_FILE = CATEGORY.x_state_file_path()
 
 POST_LIMIT = int(os.environ.get("POST_LIMIT", "2"))
 MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "150"))
@@ -75,6 +77,26 @@ def load_state() -> dict:
 def save_state(state: dict) -> None:
     STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
     STATE_FILE.write_text(json.dumps(state, indent=2))
+
+
+def save_raw_record(b: dict) -> None:
+    """Write the verbatim bills.jsonl record for a posted bill to
+    categories/<name>/x/bills_raw/<STATE>-<id>-<date>-<action_slug>.json so
+    every X-posted action has a self-contained raw artifact alongside the
+    dedup key in x/bills_used.json. Mirrors post_to_bluesky.save_raw_record."""
+    raw = b.get("_raw")
+    if not raw:
+        return
+    state = (b.get("state") or "XX")
+    ident_raw = (b.get("identifier") or "unknown").strip()
+    ident = _FILENAME_UNSAFE_RE.sub("_", ident_raw).strip("_")[:24] or "unknown"
+    date = b.get("action_date") or "no-date"
+    action_slug = _slug(b.get("action_desc") or "no-action", max_len=40) or "no-action"
+    fname = f"{state}-{ident}-{date}-{action_slug}.json"
+    out_dir = CATEGORY.x_bills_raw_dir()
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_path = out_dir / fname
+    out_path.write_text(json.dumps(raw, indent=2, ensure_ascii=False) + "\n")
 
 
 # ---------------------------------------------------------------------------
@@ -214,6 +236,9 @@ def main() -> int:
             continue
         if b["dedup_key"] in seen:
             continue
+        # Stash the source record so save_raw_record() can dump the verbatim
+        # JSONL artifact once the bill is posted.
+        b["_raw"] = r
         candidates.append(b)
 
     cutoff = datetime.now(timezone.utc).date()
@@ -314,6 +339,10 @@ def main() -> int:
             seen.add(b["dedup_key"])
             last_posted[b["state"] or "?"] = now.isoformat()
             posted += 1
+            try:
+                save_raw_record(b)
+            except Exception as e:
+                print(f"  ! raw-record save failed: {e}", file=sys.stderr)
 
     state["posted"] = sorted(seen)
     state["state_last_posted"] = last_posted
