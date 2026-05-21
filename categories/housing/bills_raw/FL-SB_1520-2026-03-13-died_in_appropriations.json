@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Affordable Housing Property Tax Exemption;  Revising a specified finding that a taxing authority must make in order to elect not to exempt certain property from certain ad valorem taxation; authorizing certain property owners in a multifamily project to apply for and continue to receive an exemption, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1520",
+    "legislative_session": "2026",
+    "subject": [
+      "taxation and finance"
+    ],
+    "title": "Affordable Housing Property Tax Exemption"
+  },
+  "id": "SB 1520",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in Appropriations",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1520"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB1520/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB1520/logs/20260313T000000Z_died_in_appropriations.json"
+  },
+  "timestamp": "20260313T000000Z"
+}

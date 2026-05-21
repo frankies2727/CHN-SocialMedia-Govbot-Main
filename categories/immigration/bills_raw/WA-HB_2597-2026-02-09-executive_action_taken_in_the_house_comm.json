@@ -1,0 +1,22 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2597",
+    "legislative_session": "2025-2026",
+    "title": "Concerning remedies for violations of federal constitutional rights occurring during immigration enforcement."
+  },
+  "id": "HB 2597",
+  "log": {
+    "action": {
+      "date": "2026-02-09",
+      "description": "Executive action taken in the House Committee on Appropriations at 10:30 AM.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 2597"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2597/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2597/logs/20260209T000000Z_executive_action_taken_in_the_house_committee_on_appropriations_at_1030_am.json"
+  },
+  "timestamp": "20260209T000000Z"
+}

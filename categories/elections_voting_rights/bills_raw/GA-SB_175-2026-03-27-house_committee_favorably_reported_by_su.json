@@ -1,0 +1,40 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Article 1 of Chapter 2 of Title 21 of the Official Code of Georgia Annotated, relating to general provisions regarding elections and primaries, so as to prohibit the use of ranked-choice voting; to provide for certain exceptions; to provide for a definition; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 175",
+    "legislative_session": "2025_26",
+    "subject": [
+      "ELECTIONS"
+    ],
+    "title": "Elections and Primaries; use of ranked-choice voting; prohibit"
+  },
+  "id": "SB 175",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage-favorable"
+      ],
+      "date": "2026-03-27",
+      "description": "House Committee Favorably Reported By Substitute",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Governmental Affairs"
+        }
+      ]
+    },
+    "bill_id": "SB 175"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB175/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB175/logs/20260327T000000Z_house_committee_favorably_reported_by_substitute.json"
+  },
+  "timestamp": "20260327T000000Z"
+}

@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act removes the 10% increase in school property tax revenue and replaces it with a school district that can demonstrate that it will suffer a loss of projected revenue resulting from the general reassessment being allowed to increase its rate of taxation up to 2% per year for 5 years or until the district's projected revenue loss per year has been fully realized, whichever comes first.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 246",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO LIMITATION ON PUBLIC SCHOOLS' TAX RATE AFTER GENERAL REASSESSMENT."
+  },
+  "id": "HB 246",
+  "log": {
+    "action": {
+      "date": "2026-03-25",
+      "description": "Tabled in Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 246"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB246/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB246/logs/20260325T000000Z_tabled_in_committee.json"
+  },
+  "timestamp": "20260325T000000Z"
+}

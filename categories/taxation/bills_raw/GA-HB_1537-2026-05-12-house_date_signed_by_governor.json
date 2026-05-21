@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to provide a homestead exemption from Bibb County school district ad valorem taxes for educational purposes in the amount of $17,000.00 of the assessed value of the homestead for residents of that school district who are between the ages of 65 and 74; to provide a homestead exemption from Bibb County school district ad valorem taxes for educational purposes in the amount of $32,000.00 of the assessed value of the homestead for residents of that school district who are between the ages of 75 and 84; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1537",
+    "legislative_session": "2025_26",
+    "title": "Bibb County; ad valorem tax for educational purposes; provide a homestead exemption"
+  },
+  "id": "HB 1537",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-05-12",
+      "description": "House Date Signed by Governor",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1537"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1537/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1537/logs/20260512T000000Z_house_date_signed_by_governor.json"
+  },
+  "timestamp": "20260512T000000Z"
+}

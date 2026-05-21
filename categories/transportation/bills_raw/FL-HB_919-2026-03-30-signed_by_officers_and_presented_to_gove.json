@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Commercial Service Airports;  Preempts naming of major commercial service airports to state; provides names for major commercial service airports; provides that renaming specified airport is subject to approval of FAA & execution of certain agreement; provides that such airport names continue to be valid under certain circumstances; requires DOT to annually review provisions naming major commercial service airports for certain purpose; requires DOT to provide certain notice to Legislature; provides requirements for such notice; requires that certain government records created on or after certain date use such airport names; specifies that airport names are branding designations; provides that political subdivision is in compliance with certain provisions under specified circumstances.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 919",
+    "legislative_session": "2026",
+    "subject": [
+      "aviation"
+    ],
+    "title": "Commercial Service Airports"
+  },
+  "id": "HB 919",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-receipt"
+      ],
+      "date": "2026-03-30",
+      "description": "Signed by Officers and presented to Governor",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "HB 919"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB919/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB919/logs/20260330T000000Z.classification.executive-receipt.legislature.json"
+  }
+}

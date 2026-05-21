@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Criminal Procedure",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB254",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Criminal Procedure"
+    ],
+    "title": "Board of Pardons and Paroles; discretion whether to grant or deny parole, further provided; review of parole violations, procedure further provided to require consideration of totality of circumstances; penalties for certain parole-violations, increased"
+  },
+  "id": "SB254",
+  "log": {
+    "action": {
+      "date": "2026-04-07T04:00:00+00:00",
+      "description": "Third Reading in Second House",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB254"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/SB254/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/SB254/logs/20260407T040000Z_third_reading_in_second_house.json"
+  },
+  "timestamp": "20260407T040000Z"
+}

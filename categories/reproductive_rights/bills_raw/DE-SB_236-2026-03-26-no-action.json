@@ -1,0 +1,23 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act adopts a portion of the 2017 updates to the Uniform Parentage Act (\"Uniform Act\") authored by the Uniform Law Commission. The Uniform Law Commission “provides states with non-partisan, well-conceived and well-drafted legislation that brings clarity and stability to critical areas of state statutory law.” \r\n\r\nSpecifically, this Act adopts provisions setting forth requirements and procedures regarding access to non-identifying medical history and identifying information regarding gamete providers by children born through assisted reproduction and their parents. \r\n\r\nBased on data from 2015, the CDC reports that “approximately 1.6% of all infants born in the United States every year are conceived using ART.” Data suggest that this percentage continues to increase. Gaia Bernstein, Unintended Consequences: Prohibitions on Gamete Donor Anonymity and the Fragile Practice of Surrogacy, 10 Ind. Health L. Rev. 291, 298 (2013) (noting that “from 2004 to 2008 the number of IVF cycles used for gestational surrogacy grew by 60%, the number of births by gestational surrogates grew by 53% and the number of babies born to gestational surrogates grew by 89%”). Accordingly, it is increasingly important for states to address these issues. \r\n\r\nThese provisions of the Uniform Act do the following:\r\n(1) Require gamete banks and fertility clinics to collect and retain both identifying information and nonidentifying medical history about gamete donors. \r\n(2) Provide that gamete banks and fertility centers shall provide non-identifying medical history to parents on request at any time and on request by the donor-conceived child who attains 18 years of age. \r\n(3) With regard to identifying information, provide that a gamete bank or fertility center shall provide this information to the donor conceived child who attains 18 years of age on their request.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 236",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 13 OF THE DELAWARE CODE RELATING TO PARENTAGE."
+  },
+  "id": "SB 236",
+  "log": {
+    "bill_id": "SB 236"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB236/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB236/logs/20260326T000000Z.vote_event.pass.upper.json"
+  },
+  "timestamp": "20260326T000000Z.vote"
+}

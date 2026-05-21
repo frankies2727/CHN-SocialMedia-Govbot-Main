@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2646",
+    "legislative_session": "2026",
+    "subject": [
+      "MOTOR VEHICLES",
+      "REVENUE, DEPARTMENT OF",
+      "TAX CREDITS",
+      "TAX INCENTIVES",
+      "TAXATION AND REVENUE - GENERAL",
+      "TAXATION AND REVENUE - INCOME"
+    ],
+    "title": "Authorizes the \"Missouri No Tax on Car Loan Interest Tax Credit\", relating to a tax credit for certain new motor vehicle loan interest payments"
+  },
+  "id": "HB 2646",
+  "log": {
+    "action": {
+      "classification": [
+        "referral-committee"
+      ],
+      "date": "2026-05-15T05:00:00+00:00",
+      "description": "Referred: Emerging Issues(H)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 2646"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB2646/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB2646/logs/20260515T050000Z_referred_emerging_issuesh.json"
+  },
+  "timestamp": "20260515T050000Z"
+}
