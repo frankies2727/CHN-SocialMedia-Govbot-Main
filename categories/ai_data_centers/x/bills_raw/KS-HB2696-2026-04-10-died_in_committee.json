@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB2696",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Counties",
+      "Real Estate"
+    ],
+    "title": "Providing for the modernization of notarization and the notary public process with respect to real estate documents for the purpose of mitigation of real estate document-related fraud, requiring the development, implementation and administration of a two-tiered authentication system for notarization of real estate documents and requiring use of a 3D biometric antifraud system by all notaries public by December 31, 2027."
+  },
+  "id": "HB2696",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died in Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB2696"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2696/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2696/logs/20260410T000000Z_died_in_committee.json"
+  },
+  "timestamp": "20260410T000000Z"
+}
