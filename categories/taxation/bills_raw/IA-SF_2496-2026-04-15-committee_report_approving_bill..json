@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 2496",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "emergency medical care",
+      "property taxes",
+      "public funds",
+      "special districts",
+      "tax increment financing",
+      "tax levies",
+      "taxation",
+      "urban renewal"
+    ],
+    "title": "A bill for an act relating to Iowa’s urban renewal law by modifying the division of revenue for certain emergency medical services property tax levies, and including effective date and applicability provisions."
+  },
+  "id": "SF 2496",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-04-15",
+      "description": "Committee report, approving bill.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 2496"
+  },
+  "sources": {
+    "bill": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2496/metadata.json",
+    "log": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2496/logs/20260415T000000Z_committee_report_approving_bill.json"
+  },
+  "timestamp": "20260415T000000Z"
+}

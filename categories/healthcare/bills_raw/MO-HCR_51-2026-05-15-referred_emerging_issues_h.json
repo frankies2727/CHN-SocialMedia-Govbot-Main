@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HCR 51",
+    "legislative_session": "2026",
+    "subject": [
+      "HEALTH CARE",
+      "NURSING HOMES AND LONG-TERM CARE FACILITIES",
+      "VETERANS"
+    ],
+    "title": "Urges Congress to pass HR 1970, providing reimbursement to veterans homes for medications and treatments for veterans"
+  },
+  "id": "HCR 51",
+  "log": {
+    "action": {
+      "classification": [
+        "referral-committee"
+      ],
+      "date": "2026-05-15T05:00:00+00:00",
+      "description": "Referred: Emerging Issues(H)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HCR 51"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/HCR51/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/HCR51/logs/20260515T050000Z_referred_emerging_issuesh.json"
+  },
+  "timestamp": "20260515T050000Z"
+}

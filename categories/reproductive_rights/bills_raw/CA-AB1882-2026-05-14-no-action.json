@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes the Department of Health Care Access and Information to oversee and administer various health programs, including, among others, the California Reproductive Health Equity Program. Under existing law, this program provides grant funding to safety net providers of abortion and contraception services to offset the costs of providing uncompensated care to patients with low incomes who would otherwise lack access to care. Existing law establishes the California Reproductive Health Equity Fund, and, within the limits of funds available, authorizes the department to award grants that, in the department's judgment, best promote the purposes of the program.\n\nThis bill would establish the Safe Delivery Fund Pilot Program, until January 1, 2030, which would be administered by the department to provide funding to hospitals to offset uncompensated standby costs associated with maintaining specialty physician coverage, advanced practice provider coverage, and hospital staffing necessary to safely provide deliveries and related inpatient specialty services. The bill would require a hospital to meet specified requirements to qualify for the program, including, among other things, that the hospital can demonstrate that the hospital serves a geographically isolated population and that loss of obstetric services would significantly impact access to maternity care.\n\nThis bill would establish the Safe Delivery Fund, and would require moneys in the fund to be available, upon appropriation by the Legislature, to the department for the purposes of the program. The bill would require the hospital to use the funds from the program for salaries, benefits, insurance, contracted physician compensation, contracted advanced practice provider compensation, or other expenses attributable to maintaining standby clinical capacity. The bill would require the program to reimburse a hospital quarterly based on the number of deliveries performed per day using a specified schedule. The bill would prohibit the department from awarding a hospital more than $5,000,000 per year.\n\nThis bill would require a participating hospital, by April 1, 2027, and quarterly thereafter, to submit to the department specified data, including, among other things, maintenance of specialty staffing and service availability. The bill would authorize the department to conduct annual audits or program reviews, as specified. The bill would require a hospital to meet all of the program requirements for continued participation in the program.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1882",
+    "legislative_session": "20252026",
+    "subject": [
+      "SafeDeliveryFundPilotProgram"
+    ],
+    "title": "Safe Delivery Fund Pilot Program."
+  },
+  "id": "AB1882",
+  "log": {
+    "bill_id": "AB1882"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1882/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1882/logs/20260514T070000Z.vote_event.pass.lower.json"
+  },
+  "timestamp": "20260514T070000Z.vote"
+}

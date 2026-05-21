@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "In Delaware, all individual health insurance policies, all group and blanket health insurance policies, the State employee health insurance plan, and Medicaid are required to cover chiropractic and physical therapy treatment for chronic back pain without annual or lifetime numerical limits on physical therapy or chiropractic care visits. To evaluate the effectiveness of this coverage requirement, the Patient Centered Care Subcommittee of the Addiction Action Committee, under the Delaware Department of Health and Social Services, sent a survey to chiropractic therapy and physical therapy providers in Delaware. Although the survey showed that the coverage requirement has improved treatment of chronic pain patients, the survey also showed that the coverage requirement provides supportive chronic pain treatment for only the thoracic region of the spine, which is the middle of the spine from the base of the neck to the bottom of the ribs, and the lumbar region of the spine, which is the lower back. The treatment of chronic pain through chiropractic supportive care, physical therapy, or both, can prevent a patient from requiring opioid pain medications or more expensive treatments, but excluding vital areas of the spine and body from coverage may limit the effectiveness of chiropractic therapy and physical therapy treatment and limits a chronic pain patient’s potential for improvement. \r\n\r\nThis Act encourages treatment of chronic pain patients without opioids by updating the required health insurance coverage to prohibit annual or lifetime numerical visits on physical therapy or chiropractic care visits that are for the purpose of treating the spine and other neuromusculoskeletal structures, including extremities.  \r\n\r\nThe updated coverage required under this Act applies to all policies, contracts, or certificates issued, renewed, modified, altered, amended, or reissued after December 31, 2026. \r\n\r\nThis Act also makes technical corrections to conform existing law to the standards of the Delaware Legislative Drafting Manual.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 238",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 24, TITLE 29, AND TITLE 31 OF THE DELAWARE CODE RELATING TO INSURANCE COVERAGE FOR CHIROPRACTIC THERAPY AND PHYSICAL THERAPY."
+  },
+  "id": "SB 238",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-03-26",
+      "description": "Passed By Senate. Votes: 20 YES 1 ABSENT",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 238"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB238/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB238/logs/20260326T000000Z.classification.passage.upper.json"
+  }
+}

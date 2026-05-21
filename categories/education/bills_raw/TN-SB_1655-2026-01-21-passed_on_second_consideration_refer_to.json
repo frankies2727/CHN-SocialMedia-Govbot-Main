@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1655",
+    "legislative_session": "114",
+    "subject": [
+      "Criminal Offenses"
+    ],
+    "title": "Criminal Offenses - As introduced, enacts \"Matthew Davenport's Law,\" which creates a Class D felony offense of knowingly possessing Kratom; creates a Class B felony offense of knowingly manufacturing, delivering, or selling Kratom, or of knowingly possessing Kratom with intent to manufacture, deliver, or sell Kratom; punishes a violation of the offense as a Class A felony if the offense involved the delivery or sale of Kratom to a minor; requires toxicology tests in certain circumstances to include testing for Kratom; requires the commissioner of labor and workforce development to promulgate a rule to add Kratom to the definition of a drug in regard to workers' compensation claims. - Amends TCA Title 33, Chapter 2; Title 38; Title 39; Title 50; Title 63 and Title 68."
+  },
+  "id": "SB 1655",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-01-21",
+      "description": "Passed on Second Consideration, refer to Senate Judiciary Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1655"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1655/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1655/logs/20260121T000000Z.classification.passage.upper.json"
+  }
+}

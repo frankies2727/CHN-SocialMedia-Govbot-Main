@@ -1,0 +1,24 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2165",
+    "legislative_session": "2025-2026",
+    "title": "Concerning false identification as a peace officer."
+  },
+  "id": "HB 2165",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-03-19",
+      "description": "Effective date 6/11/2026.",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "HB 2165"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2165/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2165/logs/20260319T000000Z.classification.became-law.executive.json"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Mr. Cronin and Ms.Scarsdale of Pepperell, a joint petition (accompanied by bill, Senate, No.        ) (subject to Joint Rule 12) of John J. Cronin and Margaret R. Scarsdale for legislation to establish a sick leave bank for Greg Pinkerton, an employee of the department of corrections.  Public Service.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SD3402",
+    "legislative_session": "194th",
+    "title": "An Act establishing a sick leave bank for Greg Pinkerton, an employee of the department of corrections"
+  },
+  "id": "SD3402",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage-favorable"
+      ],
+      "date": "2026-04-30",
+      "description": "Bill reported favorably by committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SD3402"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/SD3402/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/SD3402/logs/20260430T000000Z_bill_reported_favorably_by_committee.json"
+  },
+  "timestamp": "20260430T000000Z"
+}

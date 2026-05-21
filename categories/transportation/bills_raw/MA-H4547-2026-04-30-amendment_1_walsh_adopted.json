@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Cruz of Salem, a petition (accompanied by bill, House, No. 4547) of Manny Cruz (with the approval of the mayor and city council) relative to excise upon the transfer of parking spaces in the city of Salem.  Revenue.  [Local Approval Received.]",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H4547",
+    "legislative_session": "194th",
+    "title": "An Act relative to excise upon the transfer of parking spaces in the city of Salem"
+  },
+  "id": "H4547",
+  "log": {
+    "action": {
+      "classification": [
+        "amendment-passage"
+      ],
+      "date": "2026-04-30",
+      "description": "Amendment #1 (Walsh) adopted",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "H4547"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4547/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4547/logs/20260430T000000Z_amendment_1_walsh_adopted.json"
+  },
+  "timestamp": "20260430T000000Z"
+}

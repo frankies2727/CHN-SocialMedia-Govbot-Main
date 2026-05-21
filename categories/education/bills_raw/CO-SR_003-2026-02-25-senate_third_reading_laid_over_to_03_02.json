@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SR 003",
+    "legislative_session": "2026A",
+    "subject": [
+      "General Assembly"
+    ],
+    "title": "Designate March Arts Education Month"
+  },
+  "id": "SR 003",
+  "log": {
+    "action": {
+      "date": "2026-02-25",
+      "description": "Senate Third Reading Laid Over to 03/02/2026 - No Amendments",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SR 003"
+  },
+  "sources": {
+    "bill": "co-legislation/country:us/state:co/sessions/2026A/bills/SR003/metadata.json",
+    "log": "co-legislation/country:us/state:co/sessions/2026A/bills/SR003/logs/20260225T000000Z_senate_third_reading_laid_over_to_03022026_no_amendments.json"
+  },
+  "timestamp": "20260225T000000Z"
+}
