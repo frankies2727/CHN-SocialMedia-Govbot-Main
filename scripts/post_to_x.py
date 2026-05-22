@@ -26,6 +26,7 @@ from post_to_bluesky import (
     _normalize,
     _slug,
     _smart_truncate,
+    _strip_act_name_echo,
     best_display_text,
     extract_fields,
     format_action_line,
@@ -111,6 +112,8 @@ def compose_x_post(b: dict, summary: str, headline: str = "") -> tuple[str, str]
     state_label = b["state"] or "?"
     display = best_display_text(b, headline=headline).strip()
     summary = (summary or "").strip()
+    # Drop a leading act name from the summary when it just echoes the headline.
+    summary = _strip_act_name_echo(summary, display)
 
     summary_block = (
         f"\n\n{summary}"
