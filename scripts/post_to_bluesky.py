@@ -541,6 +541,51 @@ def _clean_for_llm(text: str) -> str:
     return " ".join(text.split())
 
 
+def _collect_sections(text: str) -> tuple[str, list[tuple[str, str]]]:
+    """Split a structured bill abstract on its ALL-CAPS section headers.
+    Returns (intro_prose, [(section_title, section_body), ...]), preserving
+    the order. Returns ("", []) when there are no headers."""
+    text = (text or "").replace("\r\n", "\n").replace("\r", "\n")
+    text = _BILL_NUMBER_PREFIX_RE.sub("", text.strip(), count=1)
+
+    intro_lines: list[str] = []
+    sections: list[tuple[str, list[str]]] = []
+
+    for raw in text.split("\n"):
+        line = raw.strip()
+        if not line:
+            continue
+        if _is_allcaps_line(line) and not line.endswith((".", "!", "?")):
+            sections.append((line, []))
+        elif sections:
+            sections[-1][1].append(line)
+        else:
+            intro_lines.append(line)
+
+    intro = " ".join(" ".join(intro_lines).split())
+    out = [(t, " ".join(" ".join(body).split())) for t, body in sections]
+    return intro, out
+
+
+def _omnibus_digest(text: str) -> str:
+    """Compact table-of-contents digest for omnibus bills (3+ titled sections).
+    Without this, `_clean_for_llm` strips the ALL-CAPS section headers and the
+    2000-char window we send to the model is dominated by the first section,
+    so the headline ends up naming the whole bill after that one sub-section
+    (e.g. an 8-section Missouri real-estate omnibus turning into "Independence
+    Nuisance Property Sale Act"). Returns "" when the abstract isn't an
+    omnibus."""
+    intro, sections = _collect_sections(text)
+    # Sections with no body are usually a trailing drafter name caught by the
+    # ALL-CAPS rule (e.g. "SCOTT SVAGERA"), not a real topic.
+    sections = [(t, b) for t, b in sections if b]
+    if len(sections) < 3:
+        return ""
+    titles = [_smart_case(t) for t, _ in sections]
+    head = intro or "This act modifies multiple provisions."
+    return head + " Sections covered: " + "; ".join(titles) + "."
+
+
 _NORM_RE = re.compile(r"[^a-z0-9 ]+")
 
 
@@ -692,7 +737,9 @@ def summarize(b: dict) -> str:
     if not blob and abstract.lower() == title.lower():
         return ""
 
-    clean_abstract = _clean_for_llm(abstract)
+    # Multi-section omnibus bills get a table-of-contents digest so the model
+    # sees every topic, not just whatever fits in the 2000-char window.
+    clean_abstract = _omnibus_digest(abstract) or _clean_for_llm(abstract)
     if not clean_abstract:
         return ""
 
@@ -759,7 +806,9 @@ def shorten_title(b: dict) -> str:
 
     # Blob bills: the title is the same legalese as the abstract. Ground the
     # rewrite on the cleaned body rather than echoing the raw title back.
-    body = _clean_for_llm(abstract or title)
+    # For omnibus bills (3+ titled sections) use a table-of-contents digest
+    # so the headline reflects the full bill, not just the first section.
+    body = _omnibus_digest(abstract or title) or _clean_for_llm(abstract or title)
     if not body:
         return ""
 
