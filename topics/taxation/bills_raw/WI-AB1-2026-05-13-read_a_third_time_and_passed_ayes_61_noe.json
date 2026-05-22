@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1",
+    "legislative_session": "2026S1",
+    "title": "Relating to: an income tax subtraction for qualified tips and for qualified overtime compensation; state aid for school districts; surplus refund payments; increasing funding for special education and school age parents programs; state aid to technical colleges and the technical college district revenue limit; and making an appropriation. (FE)"
+  },
+  "id": "AB1",
+  "log": {
+    "action": {
+      "classification": [
+        "passage",
+        "reading-3"
+      ],
+      "date": "2026-05-13T05:00:00+00:00",
+      "description": "Read a third time and passed, Ayes 61, Noes 32, Paired 2",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB1"
+  },
+  "sources": {
+    "bill": "wi-legislation/country:us/state:wi/sessions/2026S1/bills/AB1/metadata.json",
+    "log": "wi-legislation/country:us/state:wi/sessions/2026S1/bills/AB1/logs/20260513T050000Z.classification.passage.lower.json"
+  }
+}

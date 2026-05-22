@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act requires that a contract relating to a public works project executed after December 31, 2026, must include a project labor agreement with the Delaware Building and Construction Trades Council if the project is for a school district or charter school, unless there was only 1 bid for the craft under the contract. A project labor agreement is a type of collective bargaining agreement in the construction industry that is generally negotiated before construction begins. Project labor agreements are intended to provide a legally binding and enforceable contract primarily related to labor conditions and labor-management relations.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 197",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 14 AND TITLE 29 OF THE DELAWARE CODE RELATING TO PROJECT LABOR AGREEMENTS FOR SCHOOL PUBLIC WORKS CONTRACTS."
+  },
+  "id": "SB 197",
+  "log": {
+    "action": {
+      "date": "2026-02-26",
+      "description": "Stricken in Senate",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 197"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB197/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB197/logs/20260226T000000Z_stricken_in_senate.json"
+  },
+  "timestamp": "20260226T000000Z"
+}

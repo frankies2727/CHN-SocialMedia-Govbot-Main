@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB2372",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Attorney General",
+      "Boards, Commissions and Task Forces",
+      "Counties",
+      "Immigration and Naturalization",
+      "Law Enforcement",
+      "State"
+    ],
+    "title": "Senate Substitute for HB 2372 by Committee on Federal and State Affairs - Creating the crime of unlawful approach of a first responder and providing penalties therefore, requiring traffic laws that apply to local and state law enforcement to apply to federal law enforcement; including federal law enforcement in the definitions used in the crime of interference with law enforcement; including buildings owned by the United States in the crime of interference with the conduct of public business of public buildings; including enforcement of federal laws and executive orders in the exceptions from liability in the tort claims act, relating to the enforcement of detainers issued by the United States immigration and customs enforcement by a county sheriff operating a county jail; requiring municipal insurance pools to provide coverage of law enforcement agencies enforcing federal law; requiring the state to pay certain judgements in federal civil actions and provide legal representation by the attorney general, exempting section 287(g) federal immigration agreements from certain provisions of the interlocal cooperation act."
+  },
+  "id": "HB2372",
+  "log": {
+    "action": {
+      "date": "2026-03-26",
+      "description": "Conference Committee Report was adopted; Yea 30, Nay 9, Absent 1",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB2372"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2372/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2372/logs/20260326T000000Z_conference_committee_report_was_adopted_yea_30_nay_9_absent_1.json"
+  },
+  "timestamp": "20260326T000000Z"
+}

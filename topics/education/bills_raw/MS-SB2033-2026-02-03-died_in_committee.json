@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB2033",
+    "legislative_session": "2026",
+    "subject": [
+      "Medicaid"
+    ],
+    "title": "Medicaid; delete repealer on provision requiring payments to border city university-affiliated pediatric teaching hospital."
+  },
+  "id": "SB2033",
+  "log": {
+    "action": {
+      "date": "2026-02-03T06:00:00+00:00",
+      "description": "Died In Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB2033"
+  },
+  "sources": {
+    "bill": "ms-legislation/country:us/state:ms/sessions/2026/bills/SB2033/metadata.json",
+    "log": "ms-legislation/country:us/state:ms/sessions/2026/bills/SB2033/logs/20260203T060000Z_died_in_committee.json"
+  },
+  "timestamp": "20260203T060000Z"
+}

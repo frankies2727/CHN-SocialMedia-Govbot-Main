@@ -26,6 +26,7 @@
     "CA|AB1556|2026-05-14|From committee: Do pass. (Ayes 15. Noes ",
     "CA|AB2020|2026-05-14|From committee: Do pass. (Ayes 15. Noes ",
     "CA|AB2185|2026-05-13|From committee: Do pass. (Ayes 15. Noes ",
+    "CA|AB2185|2026-05-21|Read third time. Passed. Ordered to the ",
     "CA|SB1072|2026-05-14|In Assembly. Read first time. Held at De",
     "CA|SB1072|2026-05-14|Read third time. Passed. (Ayes 35. Noes ",
     "CA|SB1085|2026-05-18|Read third time. Passed. (Ayes 35. Noes ",
@@ -94,6 +95,7 @@
     "MN|SF 4306|2026-03-11|Author stricken Hoffman",
     "MO|HB 2491|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HR 3876|2026-05-15|Referred: Emerging Issues(H)",
+    "MO|SB 1001|2026-04-23|Referred H Emerging Issues",
     "MO|SB 1001|2026-05-05|Hearing Scheduled H Emerging Issues--(9:",
     "MO|SB 973|2026-05-11|CCS S offered & withdrawn (4981S.06S)",
     "MO|SB 973|2026-05-11|In Conference",
@@ -149,7 +151,7 @@
     "WA|SB 5940|2026-01-21|Minority; without recommendation.",
     "WV|SB 101|2026-01-14|To Education"
   ],
-  "last_run": "2026-05-22T14:57:43.368324+00:00",
+  "last_run": "2026-05-22T20:06:24.358044+00:00",
   "state_last_posted": {
     "MS": "2026-05-20T02:03:48.911912+00:00",
     "PA": "2026-05-16T02:58:27.650333+00:00",
@@ -162,11 +164,11 @@
     "AL": "2026-05-21T15:44:31.305173+00:00",
     "FL": "2026-05-21T20:07:40.146930+00:00",
     "PR": "2026-05-18T09:44:51.052129+00:00",
-    "CA": "2026-05-22T09:43:21.174260+00:00",
+    "CA": "2026-05-22T20:04:13.050755+00:00",
     "DE": "2026-05-17T08:14:23.320722+00:00",
     "KS": "2026-05-21T04:10:21.718241+00:00",
     "MA": "2026-05-22T14:55:46.264483+00:00",
     "NJ": "2026-05-19T02:06:37.149818+00:00",
-    "MO": "2026-05-22T14:55:46.264483+00:00"
+    "MO": "2026-05-22T20:04:13.050755+00:00"
   }
 }

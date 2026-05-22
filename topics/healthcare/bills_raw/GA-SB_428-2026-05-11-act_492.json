@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Article 7 of Chapter 4 of Title 49 of the Official Code of Georgia Annotated, relating to medical assistance generally, so as to direct the Department of Community Health to submit a waiver request to the federal Centers for Medicare and Medicaid Services to authorize the qualification for Medicaid reimbursement of certain home and community based services; to provide for implementation upon approval; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 428",
+    "legislative_session": "2025_26",
+    "subject": [
+      "SOCIAL SERVICES"
+    ],
+    "title": "Medical Assistance; Department of Community Health to submit a waiver request to the federal Centers for Medicare and Medicaid Services; direct"
+  },
+  "id": "SB 428",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-05-11",
+      "description": "Act 492",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 428"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB428/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB428/logs/20260511T000000Z_act_492.json"
+  },
+  "timestamp": "20260511T000000Z"
+}

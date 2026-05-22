@@ -56,6 +56,7 @@
     "MS|HB1347|2026-02-03|Died In Committee",
     "MS|SB2327|2026-02-03|Died In Committee",
     "MS|SB2794|2026-02-03|Title Suff Do Pass Comm Sub",
+    "NJ|A2338|2026-01-13|WITHDRAWN APP P.L.2025, c.343.",
     "NJ|S1286|2026-01-13|WITHDRAWN APP P.L.2025, c.332.",
     "NJ|S678|2026-01-13|WITHDRAWN APP P.L.2025, c.259.",
     "RI|SB2308|2026-05-08|05/08/2026 Scheduled for hearing and/or ",
@@ -63,13 +64,14 @@
     "TN|HB 1483|2026-01-14|Assigned to s/c Civil Justice Subcommitt",
     "TN|HB 1483|2026-01-14|P2C, ref. to Judiciary Committee",
     "TN|HR 0141|2026-01-14|Enrolled; ready for sig. of H. Speaker.",
+    "WA|HB 2165|2026-03-12|Delivered to Governor.",
     "WA|HB 2165|2026-03-19|Effective date 6/11/2026.",
     "WA|HB 2165|2026-03-19|Governor signed.",
     "WA|SB 5925|2026-03-30|Effective date 6/11/2026.",
     "WA|SB 5925|2026-03-30|Governor signed.",
     "WY|HB0327|2025-03-04|H:Died in Committee Returned Bill Pursua"
   ],
-  "last_run": "2026-05-22T14:52:02.017893+00:00",
+  "last_run": "2026-05-22T19:59:08.859370+00:00",
   "state_last_posted": {
     "DE": "2026-05-19T09:03:06.308248+00:00",
     "AK": "2026-05-16T02:55:29.130660+00:00",
@@ -82,10 +84,10 @@
     "KS": "2026-05-22T04:01:36.459007+00:00",
     "MN": "2026-05-22T04:01:36.459007+00:00",
     "AL": "2026-05-21T09:53:16.978001+00:00",
-    "WA": "2026-05-21T20:03:36.049237+00:00",
+    "WA": "2026-05-22T19:59:01.963797+00:00",
     "MS": "2026-05-22T14:51:34.251295+00:00",
     "MO": "2026-05-18T09:42:00.873877+00:00",
-    "NJ": "2026-05-20T15:35:59.594124+00:00",
+    "NJ": "2026-05-22T19:59:01.963797+00:00",
     "TN": "2026-05-22T09:39:21.407976+00:00"
   }
 }

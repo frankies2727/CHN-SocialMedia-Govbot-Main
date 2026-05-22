@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Data Centers;  Prohibits agency from entering into nondisclosure agreement or other contract that restricts agency from disclosing certain information to public; specifies that local governments maintain authority to exercise power & responsibility over comprehensive planning & land development regulations related to large load customers; prohibits large load customer from being considered electric substation; requires applicants for construction permits for certain new data center in specified areas to demonstrate that operation of data center will comply with certain provisions & submit specified study in support of such application; requires PSC to develop minimum tariff & service requirements for large load customers; prohibits governing board of water management district or DEP from issuing permit for consumptive use of water to large-scale data center; requires governing board or DEP to require use of reclaimed water for large-scale data center applicant's allocation when certain requirements are met.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1007",
+    "legislative_session": "2026",
+    "subject": [
+      "municipalities",
+      "public business",
+      "public health",
+      "public transportation",
+      "railroads and other regulated utilities",
+      "reclamation, and use",
+      "relations",
+      "subject index"
+    ],
+    "title": "Data Centers"
+  },
+  "id": "HB 1007",
+  "log": {
+    "action": {
+      "date": "2026-03-02",
+      "description": "Reported out of Commerce Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1007"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB1007/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB1007/logs/20260302T000000Z_reported_out_of_commerce_committee.json"
+  },
+  "timestamp": "20260302T000000Z"
+}

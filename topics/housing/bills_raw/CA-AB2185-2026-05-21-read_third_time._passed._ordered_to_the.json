@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the Governor's Reorganization Plan No. 1 of 2025 (GRP) , which became effective on July 5, 2025, reorganized specified state agencies and departments, including eliminating the Business, Consumer Services, and Housing Agency as of July 1, 2026, and instead establishing the Business and Consumer Services Agency and the California Housing and Homelessness Agency. The GRP, as of July 1, 2026, sets forth the general responsibilities and roles of the California Housing Homelessness Agency, the Department of Housing and Community Development, the Housing Development and Finance Committee, and the California Housing Finance Agency in carrying out state housing policies and programs. Existing law establishes programs providing assistance for, among other things, multifamily housing, farmworker housing, and veteran housing.\n\nThis bill would require the California Housing and Homelessness Agency, the California Housing Finance Agency, the California Debt Limit Allocation Committee, and the California Tax Credit Allocation Committee, no later than July 1, 2027, when administering a multifamily affordable housing program, as specified, to, among other things, review, analyze, and make any changes necessary to their guidelines and regulations to facilitate the production and use of factory-built housing.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2185",
+    "legislative_session": "20252026",
+    "subject": [
+      "Housing",
+      "multifamilyaffordablehousingprograms"
+    ],
+    "title": "Housing: multifamily affordable housing programs."
+  },
+  "id": "AB2185",
+  "log": {
+    "action": {
+      "classification": [
+        "passage",
+        "reading-1",
+        "reading-3"
+      ],
+      "date": "2026-05-21",
+      "description": "Read third time. Passed. Ordered to the Senate. (Ayes 74. Noes 0.)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB2185"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2185/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2185/logs/20260521T000000Z.classification.passage.lower.json"
+  }
+}

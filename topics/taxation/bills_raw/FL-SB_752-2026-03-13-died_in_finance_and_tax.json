@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Taxation of First-time Buyers;  Specifying that documentary stamp taxes do not apply to deeds, transfers, or conveyances of residential property to first-time homebuyers; defining the term “first-time homebuyer”; specifying that documentary stamp taxes do not apply to certain documents executed by a first-time homebuyer in connection with the purchase of a principal residence, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 752",
+    "legislative_session": "2026",
+    "subject": [
+      "subject index"
+    ],
+    "title": "Taxation of First-time Buyers"
+  },
+  "id": "SB 752",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in Finance and Tax",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 752"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB752/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB752/logs/20260313T000000Z_died_in_finance_and_tax.json"
+  },
+  "timestamp": "20260313T000000Z"
+}
