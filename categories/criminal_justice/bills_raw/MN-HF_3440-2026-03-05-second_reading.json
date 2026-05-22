@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HF 3440",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Law Enforcement",
+      "Public Safety Department"
+    ],
+    "title": "Availability of funds appropriated for law enforcement use of force training extended."
+  },
+  "id": "HF 3440",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-2"
+      ],
+      "date": "2026-03-05",
+      "description": "Second reading",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HF 3440"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF3440/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF3440/logs/20260305T000000Z_second_reading.json"
+  },
+  "timestamp": "20260305T000000Z"
+}

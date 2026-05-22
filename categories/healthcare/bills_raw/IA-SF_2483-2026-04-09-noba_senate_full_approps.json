@@ -1,0 +1,50 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 2483",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "adoptions",
+      "aging and disability resource centers",
+      "appropriations",
+      "behavioral health service system",
+      "child abuse",
+      "child care",
+      "disabilities",
+      "diseases",
+      "expenditures",
+      "families",
+      "family investment program",
+      "family support programs",
+      "grants",
+      "health",
+      "health and human services appropriations",
+      "health and human services department",
+      "home ownership",
+      "inspections, appeals, and licensing department",
+      "juvenile justice",
+      "medical assistance",
+      "mental health",
+      "older persons",
+      "public assistance",
+      "supplementary assistance",
+      "veterans affairs department",
+      "veterans home"
+    ],
+    "title": "A bill for an act relating to and making appropriations to the department of veterans affairs and the department of health and human services, including aging and disability services, behavioral health, public health, and community access and eligibility; the medical assistance program, state supplementary assistance, Hawki, and other health-related programs; family well-being and protection; state-operated specialty care; administration and compliance; prior appropriations; child welfare and juvenile justice decategorization; commitment or hospitalization of certain persons with mental illness or substance abuse disorders; child abuse prevention; creation of a comprehensive family support program; and repeal of expenditure projections for state child care assistance and adoption subsidy programs; and including effective date and retroactive applicability provisions."
+  },
+  "id": "SF 2483",
+  "log": {
+    "action": {
+      "date": "2026-04-09",
+      "description": "NOBA: Senate Full Approps",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "SF 2483"
+  },
+  "sources": {
+    "bill": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2483/metadata.json",
+    "log": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2483/logs/20260409T000000Z_noba_senate_full_approps.json"
+  },
+  "timestamp": "20260409T000000Z"
+}

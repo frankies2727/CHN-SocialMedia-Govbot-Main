@@ -31,6 +31,7 @@
     "FL|HB 919|2026-03-31|Chapter No. 2026-15",
     "GA|HB 257|2025-02-10|House Withdrawn, Recommitted",
     "GA|SB 160|2028-07-01|Effective Date",
+    "GA|SB 76|2026-05-11|Act 485",
     "GA|SB 76|2026-05-11|Senate Date Signed by Governor",
     "GA|SB 76|2027-07-01|Effective Date",
     "HI|HB368|2025-12-08|Carried over to 2026 Regular Session.",
@@ -239,6 +240,7 @@
     "UT|HB 11|2026-02-18|House/ to Governor",
     "UT|HB 11|2026-02-27|Governor Signed",
     "WA|SB 5832|2026-02-27|Executive action taken in the House Comm",
+    "WA|SB 5832|2026-02-27|Minority; without recommendation.",
     "WA|SB 5832|2026-03-12|By resolution, returned to Senate Rules ",
     "WI|SB6|2025-02-18|Available for scheduling",
     "WI|SB6|2025-02-18|Report adoption of Senate Amendment 1 re",
@@ -249,7 +251,7 @@
     "WV|SB 221|2026-01-14|To Economic Development",
     "WV|SB 238|2026-01-14|To Transportation and Infrastructure"
   ],
-  "last_run": "2026-05-21T20:16:42.470316+00:00",
+  "last_run": "2026-05-22T04:14:09.469014+00:00",
   "state_last_posted": {
     "IL": "2026-05-16T03:01:17.694974+00:00",
     "SC": "2026-05-16T03:01:17.694974+00:00",
@@ -257,7 +259,7 @@
     "OK": "2026-05-16T04:28:55.538129+00:00",
     "MS": "2026-05-21T15:51:46.669134+00:00",
     "MA": "2026-05-21T20:16:16.850325+00:00",
-    "GA": "2026-05-20T15:47:01.377455+00:00",
+    "GA": "2026-05-22T04:13:23.590497+00:00",
     "CA": "2026-05-20T02:09:56.077186+00:00",
     "DE": "2026-05-19T19:49:02.556191+00:00",
     "KS": "2026-05-20T09:56:41.653712+00:00",
@@ -269,6 +271,6 @@
     "FL": "2026-05-21T10:05:30.953537+00:00",
     "AL": "2026-05-20T09:56:41.653712+00:00",
     "MO": "2026-05-21T10:05:30.953537+00:00",
-    "WA": "2026-05-20T15:47:01.377455+00:00"
+    "WA": "2026-05-22T04:13:23.590497+00:00"
   }
 }

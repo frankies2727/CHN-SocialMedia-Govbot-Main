@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Insurance",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB63",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Insurance"
+    ],
+    "title": "Health care plans; to regulate the use of artificial intelligence in determinations of coverage"
+  },
+  "id": "SB63",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-receipt"
+      ],
+      "date": "2026-04-09T04:00:00+00:00",
+      "description": "Delivered to Governor",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB63"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/SB63/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/SB63/logs/20260409T040000Z.classification.executive-receipt.upper.json"
+  }
+}

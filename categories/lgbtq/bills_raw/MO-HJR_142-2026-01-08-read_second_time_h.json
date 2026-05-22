@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HJR 142",
+    "legislative_session": "2026",
+    "subject": [
+      "CONSTITUTIONAL AMENDMENTS",
+      "HEALTH CARE"
+    ],
+    "title": "Proposes a constitutional amendment establishing the right to make medical decisions, including decisions on gender-affirming care"
+  },
+  "id": "HJR 142",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-2"
+      ],
+      "date": "2026-01-08T06:00:00+00:00",
+      "description": "Read Second Time (H)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HJR 142"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/HJR142/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/HJR142/logs/20260108T060000Z_read_second_time_h.json"
+  },
+  "timestamp": "20260108T060000Z"
+}
