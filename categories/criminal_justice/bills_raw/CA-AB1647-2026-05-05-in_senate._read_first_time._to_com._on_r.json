@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, as amended by the Public Safety and Rehabilitation Act of 2016, enacted by Proposition 57 at the November 8, 2016, statewide general election, authorizes the district attorney to make a motion to transfer a minor from juvenile court to a court of criminal jurisdiction in a case in which a minor is alleged to have committed a felony when the minor was 16 years of age or older, or in a case in which a specified serious offense is alleged to have been committed by a minor when the minor was 14 or 15 years of age, but the minor was not apprehended prior to the end of juvenile court jurisdiction. Existing case law prohibits the use of a minor's statements made at a transfer hearing or to a probation officer from being used during a criminal prosecution of the minor transferred to the court of criminal jurisdiction.\n\nThis bill would codify existing case law to prohibit the use of the minor's statements made during a transfer hearing or to the minor's probation officer from being used against the minor during subsequent juvenile proceedings or subsequent criminal proceedings, as specified. This bill would state that the provisions of this bill are declaratory of existing law.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1647",
+    "legislative_session": "20252026",
+    "subject": [
+      "Juveniles",
+      "criminalprocedure",
+      "transfertocriminalcourt"
+    ],
+    "title": "Juveniles: transfer to criminal court: criminal procedure."
+  },
+  "id": "AB1647",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2026-05-05",
+      "description": "In Senate. Read first time. To Com. on RLS. for assignment.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "AB1647"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1647/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1647/logs/20260505T000000Z_in_senate_read_first_time_to_com_on_rls_for_assignment.json"
+  },
+  "timestamp": "20260505T000000Z"
+}

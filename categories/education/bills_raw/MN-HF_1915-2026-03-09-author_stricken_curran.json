@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HF 1915",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Children-Child Care and Facilities"
+    ],
+    "title": "Child care centers required to use video security cameras to monitor infants and toddlers, and money appropriated."
+  },
+  "id": "HF 1915",
+  "log": {
+    "action": {
+      "date": "2026-03-09",
+      "description": "Author stricken Curran",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HF 1915"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF1915/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF1915/logs/20260309T000000Z_author_stricken_curran.json"
+  },
+  "timestamp": "20260309T000000Z"
+}

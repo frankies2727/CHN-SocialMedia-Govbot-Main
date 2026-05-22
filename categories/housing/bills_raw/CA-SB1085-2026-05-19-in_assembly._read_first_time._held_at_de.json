@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "The California Environmental Quality Act (CEQA) requires a lead agency, as defined, to be responsible for determining whether a project is exempt from CEQA and whether an environmental impact report, a negative declaration, or a mitigated negative declaration is required. Existing law requires a city or county that determines a certain type of project is subject to the requirements of CEQA to identify any public water system that may supply water for the project and to request those public water systems to prepare a specified water supply assessment, as provided.\n\nThis bill, among other things, would instead require a city or county, upon receipt of a preliminary application for a housing development project that meets certain conditions, or upon a development application for certain projects being determined as complete or deemed complete, to make that identification of public water systems. The bill would require a city or county, within 15 days of receiving an application that meets either of the above-mentioned criteria, to request each identified public water system to determine whether the projected water demand associated with the proposed project was included in the most recently adopted urban water management plan. By imposing additional duties on a city or county, the bill would impose a state-mandated local program.\n\nExisting law requires the governing body of each identified public water system to submit the requested water supply assessment not later than 90 days from the date that the request was received. Existing law requires that the assessment be approved at a regular or special meeting, as provided.\n\nThis bill would require, for certain housing development projects, a public water system to submit the requested water supply assessment to the city or county no later than 45 days from the date that the request was received. The bill would provide that those water supply assessments do not need to be approved at a public meeting. The bill would also authorize a city or county to seek a writ of mandamus to compel a public water system that fails to submit the water supply assessment to comply with the requirements relating to the submission of the water supply assessment.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1085",
+    "legislative_session": "20252026",
+    "subject": [
+      "Watersupplyplanning",
+      "housingdevelopments"
+    ],
+    "title": "Water supply planning: housing developments."
+  },
+  "id": "SB1085",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2026-05-19",
+      "description": "In Assembly. Read first time. Held at Desk.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB1085"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1085/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1085/logs/20260519T000000Z_in_assembly_read_first_time_held_at_desk.json"
+  },
+  "timestamp": "20260519T000000Z"
+}

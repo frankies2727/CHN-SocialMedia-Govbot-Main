@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 0141",
+    "legislative_session": "114",
+    "subject": [
+      "Death",
+      "Memorials"
+    ],
+    "title": "Memorials, Death - Lieutenant Gordon Gwathney, Knoxville Police Department -"
+  },
+  "id": "HR 0141",
+  "log": {
+    "action": {
+      "classification": [
+        "enrolled"
+      ],
+      "date": "2026-01-14",
+      "description": "Enrolled; ready for sig. of H. Speaker.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HR 0141"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HR0141/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HR0141/logs/20260114T000000Z_enrolled_ready_for_sig_of_h_speaker.json"
+  },
+  "timestamp": "20260114T000000Z"
+}

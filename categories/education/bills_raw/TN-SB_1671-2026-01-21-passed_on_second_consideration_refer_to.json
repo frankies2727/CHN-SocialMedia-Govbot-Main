@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1671",
+    "legislative_session": "114",
+    "subject": [
+      "Education",
+      "Higher"
+    ],
+    "title": "Education, Higher - As introduced, increases, from 30 to 45 days before the start of the academic term, the time by which a state government entity that establishes a scholarship using an educational investment plan must select the scholarship beneficiary and notify the board of trustees of the college savings trust fund program of the beneficiary. - Amends TCA Title 4; Title 8; Title 9; Title 10; Title 12; Title 49 and Title 50."
+  },
+  "id": "SB 1671",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-01-21",
+      "description": "Passed on Second Consideration, refer to Senate Education Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1671"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1671/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1671/logs/20260121T000000Z.classification.passage.upper.json"
+  }
+}

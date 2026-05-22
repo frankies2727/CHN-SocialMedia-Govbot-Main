@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law permits a United States citizen who is 18 years of age, a resident of California, and not imprisoned for a felony to register to vote and to vote. Existing law provides procedures for the Secretary of State and a county elections official to register a person to vote, and to update and to cancel the person's voter registration.\n\nExisting law provides criteria that disqualify a person from serving on a jury, including if the person is not a United States citizen or not a resident of the jurisdiction where they are summoned. Existing law requires prospective jurors to be selected at random from sources that represent cross sections of the population of the area served by the court. Existing law provides that voter registration lists are appropriate source lists for the selection of jurors.\n\nThis bill would require a jury commissioner to provide notice to the Secretary of State and the county elections official if the jury commissioner receives information from a juror affidavit that contains an attestation by the prospective juror under penalty of perjury that they are not qualified for jury service because they are not a United States citizen or not a resident of the county. The bill would require the elections official who receives this information and determines the person is ineligible to vote to inactivate the person's voter registration and send notice to the person that provides them an opportunity to confirm their eligibility, as specified. The bill would require an elections official to update the voter registration for a person who is registered to vote if the jury commissioner provides a current residence address for the person that is in a county other than the county in which they were summoned.\n\nBy establishing new duties for local elections officials, the bill would create a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1310",
+    "legislative_session": "20252026",
+    "subject": [
+      "Voterregistration",
+      "prospectivejurors"
+    ],
+    "title": "Voter registration: prospective jurors."
+  },
+  "id": "SB1310",
+  "log": {
+    "action": {
+      "classification": [
+        "introduction"
+      ],
+      "date": "2026-02-20",
+      "description": "Introduced. To Com. on RLS. for assignment. To print.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB1310"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1310/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1310/logs/20260220T000000Z.classification.introduction.upper.json"
+  }
+}

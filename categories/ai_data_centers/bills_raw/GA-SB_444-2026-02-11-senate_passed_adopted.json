@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Chapter 46 of Title 33 of the Official Code of Georgia Annotated, relating to certification of private review agents, so as to provide that certain decisions with regard to the provision of insurance coverage for healthcare services shall not be based solely on artificial intelligence systems, artificial intelligence, or other software tools; to provide for definitions; to provide for related matters; to provide for an effective date; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 444",
+    "legislative_session": "2025_26",
+    "subject": [
+      "INSURANCE"
+    ],
+    "title": "Private Review Agents; certain decisions with regard to the provision of insurance coverage for healthcare services shall not be based solely on artificial intelligence systems; provide"
+  },
+  "id": "SB 444",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-02-11",
+      "description": "Senate Passed/Adopted",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 444"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB444/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB444/logs/20260211T000000Z.classification.passage.upper.json"
+  }
+}
