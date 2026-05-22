@@ -2,7 +2,7 @@ name: govbot-x-post-ai-data-centers
 
 on:
   schedule:
-    - cron: "0 */8 * * *"   # Every 6 hours
+    - cron: "27 */10 * * *"   # Every 10 hours
   workflow_dispatch:
 
 permissions:
