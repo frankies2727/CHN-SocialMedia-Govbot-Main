@@ -36,7 +36,6 @@ keywords:
   - voter rolls
   - voter purge
   - voter list maintenance
-  - proof of citizenship
   - noncitizen voting
 
   # Voter ID / restrictions
@@ -74,6 +73,12 @@ keywords:
   - election integrity
   - felony disenfranchisement
   - voting rights restoration
+
+context_keywords:
+  # Too broad on its own (also fires on occupational licensing, benefits,
+  # and immigration bills). Only counts when a core elections keyword
+  # co-occurs.
+  - proof of citizenship
 
 emojis:
   - emoji: "🗳️"
