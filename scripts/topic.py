@@ -208,6 +208,12 @@ class Topic:
     def bills_raw_dir(self) -> Path:
         return TOPICS_DIR / self.name / "bills_raw"
 
+    # Weekly-digest highlights live in their own weekly_digest/ subfolder so
+    # the raw artifacts for bills featured in the Sunday thread don't mix
+    # with the daily feed's bills_raw/.
+    def weekly_digest_bills_raw_dir(self) -> Path:
+        return TOPICS_DIR / self.name / "weekly_digest" / "bills_raw"
+
     # X/Twitter state lives in its own x/ subfolder so its dedup file and
     # raw artifacts sit beside — but never collide with — Bluesky's.
     def x_state_file_path(self) -> Path:

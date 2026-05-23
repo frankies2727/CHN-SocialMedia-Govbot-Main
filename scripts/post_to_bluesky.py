@@ -1882,12 +1882,14 @@ def _slug(text: str, max_len: int = 40) -> str:
     return s[:max_len].rstrip("_")
 
 
-def save_raw_record(b: dict) -> None:
+def save_raw_record(b: dict, out_dir: Path | None = None) -> None:
     """Write the verbatim bills.jsonl record for a posted bill to
     topics/<name>/bills_raw/<STATE>-<id>-<date>-<action_slug>.json so
     every posted action has a self-contained raw artifact alongside the
-    dedup key in bills_used.json. One file per posted action, kept
-    forever — pruning is a manual repo-hygiene decision."""
+    dedup key in bills_used.json. Pass ``out_dir`` to redirect the file
+    elsewhere (e.g. the weekly digest's own raw-record folder). One file
+    per posted action, kept forever — pruning is a manual repo-hygiene
+    decision."""
     raw = b.get("_raw")
     if not raw:
         return
@@ -1899,7 +1901,8 @@ def save_raw_record(b: dict) -> None:
     date = b.get("action_date") or "no-date"
     action_slug = _slug(b.get("action_desc") or "no-action", max_len=40) or "no-action"
     fname = f"{state}-{ident}-{date}-{action_slug}.json"
-    out_dir = TOPIC.bills_raw_dir()
+    if out_dir is None:
+        out_dir = TOPIC.bills_raw_dir()
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / fname
     out_path.write_text(json.dumps(raw, indent=2, ensure_ascii=False) + "\n")

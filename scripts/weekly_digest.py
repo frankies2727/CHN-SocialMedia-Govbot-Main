@@ -39,6 +39,7 @@ from post_to_bluesky import (
     fetch_og_image,
     load_bills,
     prepare_image_for_bluesky,
+    save_raw_record,
     summarize,
 )
 
@@ -133,6 +134,9 @@ def collect_topic_bills(records: list[dict]) -> list[dict]:
     for r in records:
         b = extract_fields(r)
         if b and TOPIC.matches(b):
+            # Stash the source record so save_raw_record() can dump the
+            # verbatim bills.jsonl line for any bill featured in the digest.
+            b["_raw"] = r
             out.append(b)
     return out
 
@@ -351,6 +355,20 @@ def post_thread(client: BlueskyClient | None, root_text: str,
             continue
 
 
+def _save_digest_raw_records(bills: list[dict]) -> None:
+    """Dump the verbatim bills.jsonl record for every bill featured in the
+    digest to topics/<name>/weekly_digest/bills_raw/. Saved up front so the
+    artifact lands even if an individual reply post fails partway through
+    the thread."""
+    out_dir = TOPIC.weekly_digest_bills_raw_dir()
+    for b in bills:
+        try:
+            save_raw_record(b, out_dir=out_dir)
+        except OSError as e:
+            print(f"  ! weekly digest raw-record save failed for "
+                  f"{b.get('state')} {b.get('identifier')}: {e}", file=sys.stderr)
+
+
 def _build_highlight_replies(client: BlueskyClient | None,
                              highlights: list[dict]) -> list[tuple[str, str, str, str, dict | None]]:
     replies: list[tuple[str, str, str, str, dict | None]] = []
@@ -426,6 +444,7 @@ def main() -> int:
                   f"({b['action_date']}): {b['action_desc'][:70]}")
 
         root_text = compose_root(today, unique_count, distinct_states, chosen_window)
+        _save_digest_raw_records(highlights)
         replies = _build_highlight_replies(client, highlights)
         post_thread(client, root_text, replies)
         print(f"\nDone. Posted thread with {len(highlights)} highlight(s) (window={chosen_window}d).")
@@ -448,6 +467,7 @@ def main() -> int:
               f"{b['action_desc'][:70]}")
 
     root_text = compose_landscape_root(today, unique_bills, state_counts)
+    _save_digest_raw_records(recent_bills)
     bill_replies = _build_highlight_replies(client, recent_bills)
     closing = _landscape_closing_reply()
     replies = bill_replies + [(closing, "", "", "", None)]
