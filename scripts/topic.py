@@ -41,6 +41,8 @@ class Topic:
     _keyword_re: re.Pattern = field(repr=False)
     context_keywords: list[str] = field(default_factory=list)
     _context_re: re.Pattern | None = field(repr=False, default=None)
+    negative_keywords: list[str] = field(default_factory=list)
+    _negative_re: re.Pattern | None = field(repr=False, default=None)
 
     # ------------------------------------------------------------------
     # Loading
@@ -90,6 +92,14 @@ class Topic:
                 re.IGNORECASE,
             )
 
+        negative_keywords = list(data.get("negative_keywords") or [])
+        negative_re = None
+        if negative_keywords:
+            negative_re = re.compile(
+                r"\b(" + "|".join(re.escape(k) for k in negative_keywords) + r")\b",
+                re.IGNORECASE,
+            )
+
         return cls(
             name=name,
             display_name=display_name,
@@ -102,6 +112,8 @@ class Topic:
             _keyword_re=keyword_re,
             context_keywords=context_keywords,
             _context_re=context_re,
+            negative_keywords=negative_keywords,
+            _negative_re=negative_re,
         )
 
     # ------------------------------------------------------------------
@@ -116,6 +128,11 @@ class Topic:
         # the transportation feed). Require at least two distinct keyword hits
         # there before counting a match without title support.
         title = (b.get("title") or "").lower()
+        # Negative keywords disqualify a title outright — used to filter out
+        # local-advisory referenda on highways, SPLOST, alcohol, etc. from the
+        # elections feed even when "referendum" matches a core keyword.
+        if self._negative_re is not None and self._negative_re.search(title):
+            return False
         if self._keyword_re.search(title):
             return True
         body = " ".join([b.get("abstract", ""), b.get("subjects", "")]).lower()

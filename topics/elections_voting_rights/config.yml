@@ -62,8 +62,6 @@ keywords:
   # Direct democracy / campaign
   - ballot initiative
   - ballot measure
-  - ballot question
-  - referendum
   - recall election
   - campaign finance
   - dark money
@@ -79,6 +77,23 @@ context_keywords:
   # and immigration bills). Only counts when a core elections keyword
   # co-occurs.
   - proof of citizenship
+  # "referendum" and "ballot question" pull in local advisory votes on
+  # roads, SPLOST, annexation, alcohol sales, etc. — common in southern
+  # state legislatures. Only count them when another elections term is
+  # present (e.g. "voter", "voting", "election").
+  - referendum
+  - ballot question
+
+# Disqualifiers: if a title mentions any of these, the bill is not an
+# elections bill regardless of keyword hits. Targets the local-advisory-
+# referendum false positives ("nonbinding referendum on the Waycross
+# bypass", SPLOST referenda, annexation referenda, Sunday-sales referenda).
+negative_keywords:
+  - highway
+  - SPLOST
+  - annexation
+  - alcohol
+  - Sunday sales
 
 emojis:
   - emoji: "🗳️"
