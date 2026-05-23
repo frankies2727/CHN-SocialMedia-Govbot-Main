@@ -407,8 +407,15 @@ def main() -> int:
     client = None if DRY_RUN else BlueskyClient(BSKY_HANDLE, BSKY_PASSWORD)
 
     if candidates:
-        distinct_states = len({b["state"] or "?" for b in candidates})
-        state_counts = Counter(b["state"] or "?" for b in candidates)
+        # Collapse repeated action-log entries to one per bill so the root copy
+        # reflects how many distinct bills moved, not how many log rows were
+        # written. Otherwise three actions on each of two bills reads as
+        # "6 bill updates" while the thread only shows 2 replies.
+        unique_bills = {(b["state"], b["identifier"]) for b in candidates}
+        unique_count = len(unique_bills)
+        distinct_states = len({s or "?" for s, _ in unique_bills})
+        state_counts = Counter(s or "?" for s, _ in unique_bills)
+        print(f"  unique bills: {unique_count} (from {len(candidates)} action entries)")
         print(f"  by state: {', '.join(f'{s}={n}' for s,n in state_counts.most_common(15))}")
 
         highlights = select_highlights(candidates)
@@ -418,7 +425,7 @@ def main() -> int:
             print(f"  [{b['_score']:>3}] {b['state']} {b['identifier']} "
                   f"({b['action_date']}): {b['action_desc'][:70]}")
 
-        root_text = compose_root(today, len(candidates), distinct_states, chosen_window)
+        root_text = compose_root(today, unique_count, distinct_states, chosen_window)
         replies = _build_highlight_replies(client, highlights)
         post_thread(client, root_text, replies)
         print(f"\nDone. Posted thread with {len(highlights)} highlight(s) (window={chosen_window}d).")
