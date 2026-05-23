@@ -231,12 +231,19 @@ def main() -> int:
     seen = set(state.get("posted", []))
 
     candidates: list[dict] = []
+    # Map same_day_key -> every dedup_key we saw for it, so when we post one
+    # action we can burn its same-day siblings too. Without this, a bill with
+    # N floor amendments on one day produces N distinct dedup_keys that leak
+    # through one per run, letting a single bill monopolize its state slot
+    # for N consecutive runs.
+    same_day_siblings: dict[str, set[str]] = {}
     for r in records:
         b = extract_fields(r)
         if not b:
             continue
         if not TOPIC.matches(b):
             continue
+        same_day_siblings.setdefault(b["same_day_key"], set()).add(b["dedup_key"])
         if b["dedup_key"] in seen:
             continue
         # Stash the source record so save_raw_record() can dump the verbatim
@@ -340,6 +347,7 @@ def main() -> int:
 
         if post_tweet(client, text):
             seen.add(b["dedup_key"])
+            seen.update(same_day_siblings.get(b["same_day_key"], ()))
             last_posted[b["state"] or "?"] = now.isoformat()
             posted += 1
             try:
