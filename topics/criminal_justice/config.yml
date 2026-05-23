@@ -56,7 +56,6 @@ keywords:
   - prosecutors
   - district attorney
   - state's attorney
-  - attorney general
   - public defender
   - public defenders
   - indigent defense
@@ -123,6 +122,13 @@ keywords:
   - drug possession
   - controlled substance
   - decriminalization
+
+# Context keywords are too generic to stand alone — the attorney general is
+# cited as the enforcement authority in housing, consumer-protection,
+# antitrust, and many other non-criminal bills, so it only counts when a core
+# criminal-justice keyword also appears in the bill.
+context_keywords:
+  - attorney general
 
 emojis:
   - emoji: "👮"
