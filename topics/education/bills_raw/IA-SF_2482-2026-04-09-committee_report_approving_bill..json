@@ -1,0 +1,50 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 2482",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "appropriations",
+      "blind, department for the",
+      "boards, commissions, and councils",
+      "career and technical education",
+      "college student aid commission",
+      "community colleges",
+      "education",
+      "education appropriations",
+      "education department",
+      "educational examiners board",
+      "iowa reading research center",
+      "iowa state university",
+      "literacy",
+      "midwestern higher education compact",
+      "private education",
+      "public broadcasting",
+      "regents board",
+      "school for the deaf",
+      "special education",
+      "student achievement and teacher quality program",
+      "university of iowa",
+      "university of northern iowa",
+      "work-based learning"
+    ],
+    "title": "A bill for an act relating to and making appropriations to the education system, including the funding and operation of the department for the blind, department of education, and state board of regents."
+  },
+  "id": "SF 2482",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-04-09",
+      "description": "Committee report, approving bill.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 2482"
+  },
+  "sources": {
+    "bill": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2482/metadata.json",
+    "log": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2482/logs/20260409T000000Z_committee_report_approving_bill.json"
+  },
+  "timestamp": "20260409T000000Z"
+}

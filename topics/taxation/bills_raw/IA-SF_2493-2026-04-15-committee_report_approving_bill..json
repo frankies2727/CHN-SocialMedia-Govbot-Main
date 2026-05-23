@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 2493",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "agriculture",
+      "ethanol",
+      "excise taxes",
+      "farming",
+      "fuel taxes",
+      "gallonage taxes",
+      "gasoline",
+      "implements of husbandry",
+      "processing and production",
+      "revenue department",
+      "tax exemptions"
+    ],
+    "title": "A bill for an act relating to the excise tax on certain ethanol blended gasoline purchased exclusively for use in an implement of husbandry used in agricultural production."
+  },
+  "id": "SF 2493",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-04-15",
+      "description": "Committee report, approving bill.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 2493"
+  },
+  "sources": {
+    "bill": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2493/metadata.json",
+    "log": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2493/logs/20260415T000000Z_committee_report_approving_bill.json"
+  },
+  "timestamp": "20260415T000000Z"
+}

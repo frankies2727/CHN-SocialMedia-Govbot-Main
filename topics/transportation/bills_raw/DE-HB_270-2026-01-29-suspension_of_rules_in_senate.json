@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act amends the Fiscal Year 2026 Bond and Capital Improvements Act to (1) add the Department of Labor, Sussex Facility, to the Transfer to the State Treasurer’s Agency Bond Reversion Account; (2) add the Delaware Veterans Cemetery Expansion to the list of OMB Projects in the Transfer from the State Treasurer’s Agency Bond Reversion Account; (3) allow the Legislative Building Committee to develop design standards and plans for Legislative Hall; (4) authorize the Office of Management and Budget, Division of Facilities Management, to utilize residual funds for the Delaware State Police Firing Range Improvements; (5) allow for funds appropriated to the Department of Natural Resources and Environmental Control to be used for the construction of a mixed-species exhibit; (6) authorize the Department of Transportation to use Community Transportation Funds for one-time reimbursements for various projects; (7) reprogram funding from the Community Redevelopment/Reinvestment Fund from Downtown Milford, Inc. to the City of Milford, Delaware Nature Society, Kent Sussex Industries, the Milford District Fee Public Library Commission, and the Milford Housing Development Corporation; (8) update Delaware Code to make a language change from a stationary source reporting propane and ammonium nitrate to a stationary source reporting propane or ammonium nitrate; (9) require the Diamond State Port Corporation and the Department of Transportation to conduct a study of rerouting truck traffic on Hay Road; (10) correct a reference to the Historic Tax Credit; (11) allows that the activation timing of amber warning lights shall not apply to Red Clay School District school buses equipped with, and operating stop arm cameras; (12) authorize the Office of Management and Budget, Division of Facilities Management, to utilize residual funds from the Ferris Window project for the Cleveland White project, (13) authorize the Office of Management and Budget, Division of Facilities Management, to utilize any residual funds from the Department of Correction for the W1 Building HVAC project at James T. Vaughn Correctional Center (14) authorize the transfer of Warwick School No. 203 to Indian Mission Properties, Inc.; (15) amend Delaware Code to require the Diamond State Port Corporation Executive Director to be selected by majority vote of the Board.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 270",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND THE LAWS OF DELAWARE RELATING TO THE BOND AND CAPITAL IMPROVEMENTS ACT OF THE STATE OF DELAWARE AND CERTAIN OF THEIR AUTHORITIES FOR THE FISCAL YEAR ENDING JUNE 30, 2026."
+  },
+  "id": "HB 270",
+  "log": {
+    "action": {
+      "date": "2026-01-29",
+      "description": "Suspension of Rules in Senate",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB 270"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB270/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB270/logs/20260129T000000Z_suspension_of_rules_in_senate.json"
+  },
+  "timestamp": "20260129T000000Z"
+}

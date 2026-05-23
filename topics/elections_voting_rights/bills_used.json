@@ -11,9 +11,11 @@
     "CA|SB1310|2026-02-23|Read first time.",
     "CA|SB1310|2026-04-22|April 21 set for first hearing. Failed p",
     "DE|HB 183|2026-01-14|Reported Out of Committee (Elections & G",
+    "FL|HB 991|2026-03-12|CS passed as amended; YEAS 77, NAYS 28",
     "FL|HB 991|2026-03-31|Signed by Officers and presented to Gove",
     "FL|HB 991|2026-04-01|Approved by Governor",
     "FL|HB 991|2026-04-02|Chapter No. 2026-26",
+    "GA|HB 1093|2026-03-19|Act 373",
     "GA|HB 1093|2026-03-19|House Date Signed by Governor",
     "GA|HB 1093|2026-03-19|House Sent to Governor",
     "GA|SB 175|2026-03-27|House Committee Favorably Reported By Su",
@@ -45,15 +47,15 @@
   ],
   "state_last_posted": {
     "MO": "2026-05-22T20:00:14.083807+00:00",
-    "GA": "2026-05-23T03:39:32.105523+00:00",
+    "GA": "2026-05-23T13:50:32.304786+00:00",
     "NJ": "2026-05-19T09:05:43.656146+00:00",
     "MN": "2026-05-19T19:41:22.112282+00:00",
     "CA": "2026-05-23T03:39:32.105523+00:00",
     "KS": "2026-05-23T08:31:05.725219+00:00",
     "AL": "2026-05-22T20:00:14.083807+00:00",
-    "FL": "2026-05-22T04:03:09.948423+00:00",
+    "FL": "2026-05-23T13:50:32.304786+00:00",
     "MS": "2026-05-23T08:31:05.725219+00:00",
     "DE": "2026-05-19T02:03:53.788289+00:00"
   },
-  "last_run": "2026-05-23T08:31:27.667109+00:00"
+  "last_run": "2026-05-23T13:51:53.429232+00:00"
 }

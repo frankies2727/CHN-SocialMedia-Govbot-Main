@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act updates the requirements for Department of Education’s regulations for personnel records to include charter schools. \r\n\r\nThis Act also makes technical corrections to conform existing law to the standards of the Delaware Legislative Drafting Manual.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 223",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO THE RETENTION OF PERSONNEL RECORDS."
+  },
+  "id": "SB 223",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-03-18",
+      "description": "Reported Out of Committee (Education) in House with 12 On Its Merits",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Education"
+        }
+      ]
+    },
+    "bill_id": "SB 223"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB223/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB223/logs/20260318T000000Z_reported_out_of_committee_education_in_house_with_12_on_its_merits.json"
+  },
+  "timestamp": "20260318T000000Z"
+}

@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Resolutions",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HJR237",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Resolutions"
+    ],
+    "title": "Naming the bridge on United States Highway 45 that spans the B.N. Railroad between Sports Plex Road and Bell Grayson Road in Marengo County as the Fred Armstead, Sr. Memorial Bridge"
+  },
+  "id": "HJR237",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-04-09T04:00:00+00:00",
+      "description": "Enacted",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HJR237"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/HJR237/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/HJR237/logs/20260409T040000Z.classification.became-law.lower.json"
+  }
+}

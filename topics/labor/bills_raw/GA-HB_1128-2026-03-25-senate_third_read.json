@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Code Section 34-9-26 of the O.C.G.A., relating to required notice regarding injured peace officers, so as to provide that the State Board of Workers' Compensation shall provide for notice of eligibility for compensation to an injured employee to his or her legal guardian; to amend Code Section 35-1-24 of the O.C.G.A., relating to peace officers eligible for indemnification or disability compensation and notifications, so as to provide that law enforcement agencies shall provide notice of eligibility for compensation to an injured employee to his or her legal guardian; to amend Part 1 of Article 5 of Chapter 9 of Title 45 of the O.C.G.A., relating to the Georgia State Indemnification Fund, so as to provide for an application window for eligible individuals incapacitated by organic brain damage sustained in the line of duty on or before July 1, 2024; to provide for automatic repeal; to provide for related matters; to provide for an effective date; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1128",
+    "legislative_session": "2025_26",
+    "subject": [
+      "LABOR AND INDUSTRIAL RELATIONS",
+      "LAW ENFORCEMENT OFFICERS AND AGENCIES",
+      "PUBLIC OFFICERS AND EMPLOYEES"
+    ],
+    "title": "State Board of Workers' Compensation; notice of eligibility for compensation to an injured employee to his or her legal guardian; provide"
+  },
+  "id": "HB 1128",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-3"
+      ],
+      "date": "2026-03-25",
+      "description": "Senate Third Read",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB 1128"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1128/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1128/logs/20260325T000000Z_senate_third_read.json"
+  },
+  "timestamp": "20260325T000000Z"
+}

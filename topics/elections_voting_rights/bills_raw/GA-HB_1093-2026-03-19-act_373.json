@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to provide for a nonbinding advisory referendum for the purpose of ascertaining whether the electors of Ware County support a perimeter highway bypass around Waycross; to provide for legislative purposes and findings; to provide for a referendum; to provide for mandatory execution of election and judicial remedies regarding failure to comply; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1093",
+    "legislative_session": "2025_26",
+    "title": "Ware County; nonbinding advisory referendum for the purpose of ascertaining whether the electors support a perimeter highway bypass around Waycross; provide"
+  },
+  "id": "HB 1093",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-03-19",
+      "description": "Act 373",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB 1093"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1093/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1093/logs/20260319T000000Z_act_373.json"
+  },
+  "timestamp": "20260319T000000Z"
+}

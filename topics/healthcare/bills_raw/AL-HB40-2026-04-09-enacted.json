@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Insurance",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB40",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Insurance"
+    ],
+    "title": "Health care insurance; to eliminate cost-sharing for screening of men who are at high risk for prostate cancer"
+  },
+  "id": "HB40",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-04-09T04:00:00+00:00",
+      "description": "Enacted",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB40"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB40/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB40/logs/20260409T040000Z.classification.became-law.lower.json"
+  }
+}

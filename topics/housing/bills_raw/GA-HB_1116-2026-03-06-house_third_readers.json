@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Chapters 5 and 8 of Title 48 of the Official Code of Georgia Annotated, relating to ad valorem taxation of property and sales and use taxes, respectively, so as to provide for the acceptance of tax digests in the event of a publication error made by a newspaper; to amend Part 4 of Article 6 of Chapter 2 of Title 20 of the Official Code of Georgia Annotated, relating to financing under the \"Quality Basic Education Act,\" so as to exclude amounts attributable to certain exemptions from ad valorem taxation from the equalized adjusted school property tax digest for the purpose of calculating the local five mill share and equalization grants; to amend Article 1 of Chapter 81 of Title 36 of the Official Code of Georgia Annotated, relating to local government budgets and audits; to provide for a short title; to provide for an effective date and applicability; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1116",
+    "legislative_session": "2025_26",
+    "subject": [
+      "EDUCATION",
+      "PROPERTY",
+      "REVENUE AND TAXATION"
+    ],
+    "title": "Homeownership Opportunity and Market Equalization Act of 2026; enact"
+  },
+  "id": "HB 1116",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-3"
+      ],
+      "date": "2026-03-06",
+      "description": "House Third Readers",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1116"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1116/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1116/logs/20260306T000000Z_house_third_readers.json"
+  },
+  "timestamp": "20260306T000000Z"
+}

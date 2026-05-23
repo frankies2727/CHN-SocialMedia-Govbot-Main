@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Telecommunications & Utilities",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB270",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Telecommunications & Utilities"
+    ],
+    "title": "Electric Utilities; review by Public Service Commission of certain contracts with large load data centers further provided for"
+  },
+  "id": "SB270",
+  "log": {
+    "action": {
+      "date": "2026-04-08T04:00:00+00:00",
+      "description": "Gudger Motion to Concur In and Adopt House Amendment - Adopted Roll Call 1258",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB270"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/SB270/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/SB270/logs/20260408T040000Z_gudger_motion_to_concur_in_and_adopt_house_amendment_adopted_roll_call_1258.json"
+  },
+  "timestamp": "20260408T040000Z"
+}

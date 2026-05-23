@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act raises the Senior property tax credit cap from $500 to $1000.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 73",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 14 AND 29 OF THE DELAWARE CODE RELATING TO THE SENIOR PROPERTY TAX CREDIT."
+  },
+  "id": "HB 73",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-03-11",
+      "description": "Reported Out of Committee (Administration) in House with 5 On Its Merits",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Administration"
+        }
+      ]
+    },
+    "bill_id": "HB 73"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB73/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB73/logs/20260311T000000Z_reported_out_of_committee_administration_in_house_with_5_on_its_merits.json"
+  },
+  "timestamp": "20260311T000000Z"
+}

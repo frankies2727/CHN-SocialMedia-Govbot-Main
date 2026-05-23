@@ -1,6 +1,7 @@
 {
   "posted": [
     "AK|HJR13|2025-07-30|(H) 12:05 P.M. 6/17/25 Transmitted to Go",
+    "CA|AB1807|2026-02-10|Read first time. To print.",
     "CA|AB1807|2026-03-16|From committee chair, with author's amen",
     "CA|AB1807|2026-04-09|Read second time and amended.",
     "CA|AB1807|2026-04-23|Coauthors revised.",
@@ -27,6 +28,7 @@
     "IA|SF 2187|2026-02-04|Committee report, approving bill.",
     "IA|SF 2412|2026-02-19|Committee report, approving bill.",
     "IA|SF 2422|2026-02-23|Committee report, approving bill.",
+    "KS|HB2372|2026-03-24|Motion to accede adopted; Sen. Mike Thom",
     "KS|HB2372|2026-03-26|Conference Committee Report agree to dis",
     "KS|HB2372|2026-03-26|Conference Committee Report was adopted;",
     "KS|HB2372|2026-03-26|Conference committee report now availabl",
@@ -116,7 +118,7 @@
     "WV|HB 4059|2026-01-14|To Health and Human Resources",
     "WV|HB 4148|2026-01-14|To Government Organization"
   ],
-  "last_run": "2026-05-23T08:34:46.306236+00:00",
+  "last_run": "2026-05-23T13:55:03.387468+00:00",
   "state_last_posted": {
     "VT": "2026-05-16T02:59:09.026935+00:00",
     "AK": "2026-05-16T02:59:09.026935+00:00",
@@ -128,11 +130,11 @@
     "MN": "2026-05-16T13:00:29.493996+00:00",
     "GA": "2026-05-18T09:45:29.649265+00:00",
     "NJ": "2026-05-18T02:09:21.287696+00:00",
-    "KS": "2026-05-23T08:33:13.843019+00:00",
+    "KS": "2026-05-23T13:54:01.555630+00:00",
     "WA": "2026-05-23T03:42:49.230565+00:00",
     "DE": "2026-05-17T08:16:18.878412+00:00",
     "MO": "2026-05-19T19:45:01.795603+00:00",
-    "CA": "2026-05-23T08:33:13.843019+00:00",
+    "CA": "2026-05-23T13:54:01.555630+00:00",
     "FL": "2026-05-19T09:08:38.149339+00:00",
     "TN": "2026-05-20T15:40:25.661860+00:00"
   }

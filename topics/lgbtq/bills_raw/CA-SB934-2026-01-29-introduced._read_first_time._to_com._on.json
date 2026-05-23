@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law requires that specified actions for recovery of damages suffered as a result of childhood sexual assault, as defined, be commenced within 22 years of the date the plaintiff attains the age of majority or within 5 years of the date the plaintiff discovers or reasonably should have discovered that psychological injury or illness occurring after the age of majority was caused by the sexual assault, whichever period expires later. Existing law imposes various procedural requirements for such claims.\n\nThis bill would require specified actions for recovery of damages suffered as a result of sexual orientation or gender identity change efforts, as defined, be commenced (1) within 22 years of the date the plaintiff attains the age of majority if the plaintiff was under the age of 18 when at the time of conduct, (2) within 10 years if the plaintiff was 18 years of age or older at the time of conduct, (3) or within 5 years of the date the plaintiff discovers that psychological injury or illness occurring after the conduct was caused by sexual orientation or gender identity change efforts, as specified. The bill would define \"sexual orientation or gender identity change efforts\" to include efforts to direct a patient toward a particular sexual orientation or a particular gender identity, as specified. The bill would apply to actions for damages commencing after January 1, 2027, against licensed mental health providers, as defined, and against persons and entities that employed or negligently hired, supervised, or retained a licensed mental health provider who engaged in sexual orientation or gender identity change efforts. The bill would make specified types of evidence, including certain expert testimony, admissible to establish causation and harm for these actions. The bill would revive certain actions arising from conduct that occurred on or after January 1, 2009 that have not been litigated to finality and that would otherwise be barred as of January 1, 2027, because the applicable statute of limitations or any other time limit had expired. The bill would provide that its provisions are severable.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB934",
+    "legislative_session": "20252026",
+    "subject": [
+      "Sexualorientationorgenderidentitychangeefforts",
+      "actionsforrecoveryofdamages",
+      "statuteoflimitations"
+    ],
+    "title": "Sexual orientation or gender identity change efforts: actions for recovery of damages: statute of limitations."
+  },
+  "id": "SB934",
+  "log": {
+    "action": {
+      "classification": [
+        "introduction",
+        "reading-1"
+      ],
+      "date": "2026-01-29",
+      "description": "Introduced. Read first time. To Com. on RLS. for assignment. To print.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB934"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB934/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB934/logs/20260129T000000Z.classification.introduction.upper.json"
+  }
+}
