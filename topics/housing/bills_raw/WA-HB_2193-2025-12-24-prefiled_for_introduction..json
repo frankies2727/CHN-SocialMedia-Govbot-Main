@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2193",
+    "legislative_session": "2025-2026",
+    "title": "Concerning the mortgage lending fraud prosecution account."
+  },
+  "id": "HB 2193",
+  "log": {
+    "action": {
+      "classification": [
+        "filing"
+      ],
+      "date": "2025-12-24",
+      "description": "Prefiled for introduction.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 2193"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2193/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2193/logs/20251224T000000Z_prefiled_for_introduction.json"
+  },
+  "timestamp": "20251224T000000Z"
+}

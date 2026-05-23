@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 2283",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "airports",
+      "criminal offenders",
+      "law enforcement",
+      "law enforcement officers",
+      "law enforcement vehicles",
+      "local government",
+      "prosecutions",
+      "unmanned aerial vehicles"
+    ],
+    "title": "A bill for an act relating to the use of unmanned aerial vehicles by law enforcement officers."
+  },
+  "id": "SF 2283",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-02-11",
+      "description": "Committee report, approving bill.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 2283"
+  },
+  "sources": {
+    "bill": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2283/metadata.json",
+    "log": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2283/logs/20260211T000000Z_committee_report_approving_bill.json"
+  },
+  "timestamp": "20260211T000000Z"
+}

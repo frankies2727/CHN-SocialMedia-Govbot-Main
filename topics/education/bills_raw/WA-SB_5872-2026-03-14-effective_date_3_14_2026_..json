@@ -1,0 +1,24 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 5872",
+    "legislative_session": "2025-2026",
+    "title": "Establishing the preK promise account."
+  },
+  "id": "SB 5872",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-03-14",
+      "description": "Effective date 3/14/2026*.",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "SB 5872"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB5872/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB5872/logs/20260314T000000Z.classification.became-law.executive.json"
+  }
+}

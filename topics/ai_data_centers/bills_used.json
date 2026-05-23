@@ -63,6 +63,7 @@
     "MN|SF 1857|2026-02-26|Withdrawn and re-referred to Judiciary a",
     "MN|SF 1857|2026-03-04|Author stricken Mitchell",
     "MN|SF 1886|2026-02-26|Withdrawn and re-referred to Judiciary a",
+    "MO|SB 1012|2026-04-30|SA 1 to SS#2 for SCS S offered & adopted",
     "MO|SB 1012|2026-04-30|SA 2 to SS#2 for SCS S offered & adopted",
     "MO|SB 1012|2026-04-30|SA 3 to SS#2 for SCS S offered & defeate",
     "MO|SB 1012|2026-05-04|Reported Truly Perfected S Rules, Joint ",
@@ -80,6 +81,7 @@
     "NJ|A1401|2026-01-13|WITHDRAWN APP P.L.2025, c.367.",
     "NJ|A3611|2026-01-13|WITHDRAWN APP P.L.2025, c.335.",
     "NJ|S2956|2026-01-13|WITHDRAWN APP P.L.2025, c.367.",
+    "WA|SB 5956|2026-02-10|1st substitute bill substituted (EDU 26)",
     "WA|SB 5956|2026-02-10|Third reading, passed; yeas, 35; nays, 1",
     "WA|SB 5956|2026-02-24|ED - Majority; do pass with amendment(s)",
     "WA|SB 5956|2026-02-24|Executive action taken in the House Comm",
@@ -88,7 +90,7 @@
     "WA|SB 5956|2026-03-12|By resolution, returned to Senate Rules ",
     "WY|SF0065|2025-03-01|H COW:H Did not consider for COW"
   ],
-  "last_run": "2026-05-23T03:36:20.236197+00:00",
+  "last_run": "2026-05-23T08:30:09.197130+00:00",
   "state_last_posted": {
     "WY": "2026-05-16T02:53:56.286279+00:00",
     "CO": "2026-05-16T02:53:56.286279+00:00",
@@ -98,10 +100,10 @@
     "KS": "2026-05-20T02:00:10.240098+00:00",
     "NJ": "2026-05-19T14:33:03.387287+00:00",
     "MS": "2026-05-18T02:01:03.190151+00:00",
-    "WA": "2026-05-22T14:50:14.877366+00:00",
+    "WA": "2026-05-23T08:29:27.861272+00:00",
     "GA": "2026-05-22T14:50:14.877366+00:00",
     "CA": "2026-05-21T09:52:12.308527+00:00",
-    "MO": "2026-05-23T03:35:35.583115+00:00",
+    "MO": "2026-05-23T08:29:27.861272+00:00",
     "MN": "2026-05-23T03:35:35.583115+00:00"
   }
 }

@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the Medicinal and Adult-Use Cannabis Regulation and Safety Act (MAUCRSA) , among other things, consolidates the licensure and regulation of commercial medicinal and adult-use cannabis activities. Existing law gives the Department of Cannabis Control the power, duty, purpose, responsibility, and jurisdiction to regulate commercial cannabis activity in the state. Existing law authorizes the department to take disciplinary actions against a licensee, as provided. Existing law requires the department to prepare and disseminate, as specified, an annual report relating to the department's activities, including, among other things, the amount of funds allocated and spent by the department for cannabis licensing, enforcement, and administration, and the number of state licenses issued, renewed, denied, suspended, and revoked.\n\nThis bill, the Cannabis Enforcement Accountability and Public Health Prioritization Act of 2026, would require the department to prioritize its enforcement of MAUCRSA in a manner consistent with an enforcement prioritization policy, as defined, based on specified categories, that are listed from highest to lowest priority, based on conduct or conditions, as specified, that create a risk of harm, as described. The bill would define \"risk of harm\" as the likelihood of, among other things, interference with enforcement of state law. The bill would require the department to adopt and publish an enforcement prioritization policy, as specified, and would require the department to include in the above-described annual report the number, geographic distribution, and, as applicable, dollar amount of specified enforcement activities in relation to the risk-based enforcement framework, as provided.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2537",
+    "legislative_session": "20252026",
+    "subject": [
+      "CannabisEnforcementAccountabilityandPublicHealthPrioritizationActof2026"
+    ],
+    "title": "Cannabis Enforcement Accountability and Public Health Prioritization Act of 2026."
+  },
+  "id": "AB2537",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "date": "2026-05-14",
+      "description": "From committee: Do pass. (Ayes 15. Noes 0.) (May 14).",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB2537"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2537/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2537/logs/20260514T000000Z_from_committee_do_pass_ayes_15_noes_0_may_14.json"
+  },
+  "timestamp": "20260514T000000Z"
+}

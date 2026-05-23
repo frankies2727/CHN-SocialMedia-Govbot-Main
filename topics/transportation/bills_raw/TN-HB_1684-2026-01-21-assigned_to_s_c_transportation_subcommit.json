@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1684",
+    "legislative_session": "114",
+    "subject": [
+      "Traffic Safety"
+    ],
+    "title": "Traffic Safety - As introduced, allows personal delivery devices to be operated on bicycle paths, shoulders, parking lots, and the area adjacent to the right-hand edge or curb of the roadway; removes the authority of local governments to prohibit the operation of personal delivery devices. - Amends TCA Title 55, Chapter 8."
+  },
+  "id": "HB 1684",
+  "log": {
+    "action": {
+      "classification": [
+        "referral-committee"
+      ],
+      "date": "2026-01-21",
+      "description": "Assigned to s/c Transportation Subcommittee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1684"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1684/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1684/logs/20260121T000000Z_assigned_to_sc_transportation_subcommittee.json"
+  },
+  "timestamp": "20260121T000000Z"
+}

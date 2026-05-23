@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Of the 41 states with a state income tax, 27 states fully exempt military retirement pay from state income taxes and 12 states partially exempt military retirement pay.\r\n\r\nIn 2022, Delaware increased the pension exclusion for military pensioners under 60 to $12,500, and in 2024, Delaware expanded the definition of a United States military pension to include a pension received for an individual’s service in the commissioned corps of the National Oceanic and Atmospheric Administration and the commissioned corps of the Public Health Service and clarified that the armed forces of the United States includes the Space Force and Coast Guard. \r\n\r\nThis Act phases in, over 3 years, an increased exemption for military pensions from state income taxation, regardless of age, which is currently $12,500, so that in taxable years beginning on or after January 1, 2029, the exemption will be $25,000 for all military pensioners.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 219",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 30 OF THE DELAWARE CODE RELATING TO EXCLUSION OF MILITARY PENSIONS FROM TAXABLE INCOME."
+  },
+  "id": "SB 219",
+  "log": {
+    "action": {
+      "classification": [
+        "amendment-introduction"
+      ],
+      "date": "2026-03-24",
+      "description": "Amendment SA 1 to SB 219 - Introduced and Placed With Bill",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 219"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB219/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB219/logs/20260324T000000Z_amendment_sa_1_to_sb_219_introduced_and_placed_with_bill.json"
+  },
+  "timestamp": "20260324T000000Z"
+}

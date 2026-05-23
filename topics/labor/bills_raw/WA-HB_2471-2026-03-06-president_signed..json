@@ -1,0 +1,24 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2471",
+    "legislative_session": "2025-2026",
+    "title": "Concerning collective bargaining for employees not covered by the national labor relations act."
+  },
+  "id": "HB 2471",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-03-06",
+      "description": "President signed.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB 2471"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2471/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2471/logs/20260306T000000Z.classification.passage.upper.json"
+  }
+}

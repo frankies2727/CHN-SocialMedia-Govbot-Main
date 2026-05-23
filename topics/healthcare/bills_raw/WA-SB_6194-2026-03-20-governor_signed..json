@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 6194",
+    "legislative_session": "2025-2026",
+    "title": "Allowing payments to be made based on allowable costs for services provided by any rural hospital that is located on a federally recognized Indian reservation."
+  },
+  "id": "SB 6194",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-03-20",
+      "description": "Governor signed.",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "SB 6194"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB6194/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB6194/logs/20260320T000000Z_governor_signed.json"
+  },
+  "timestamp": "20260320T000000Z"
+}

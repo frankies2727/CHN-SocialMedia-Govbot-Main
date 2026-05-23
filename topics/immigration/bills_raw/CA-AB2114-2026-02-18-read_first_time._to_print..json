@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes the California Community Colleges, under the administration of the Board of Governors of the California Community Colleges, the California State University, under the administration of the Trustees of the California State University, and the University of California, under the administration of the Regents of the University of California, as the 3 segments of public postsecondary education in the state. Existing law establishes uniform residency requirements for purposes of ascertaining the amount of tuition and fees to be paid by students of public postsecondary educational institutions. Existing law requires a student classified as a nonresident to pay nonresident tuition, in addition to other fees required by the institution, except as provided. These provisions apply to the University of California only to the extent that the regents, by appropriate resolution, make them applicable.\n\nThis bill would authorize a participating public postsecondary educational institution to administer an educational asylum program, in collaboration with the Regents of the University of California, the Trustees of the California State University, and the Board of Governors of the California Community Colleges. The bill would require a participating institution to grant educational asylum status to a transfer student who meets specified requirements, including residing in a restricted state, as defined. The bill, commencing with the 2027–28 school year, would exempt a transfer student who is granted educational asylum status from paying nonresident tuition at a participating institution and would require the transfer student to only pay resident tuition and fees.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2114",
+    "legislative_session": "20252026",
+    "subject": [
+      "Publicpostsecondaryeducation",
+      "educationalasylumprogram",
+      "nonresidenttuitionfeeexemption"
+    ],
+    "title": "Public postsecondary education: nonresident tuition fee exemption: educational asylum program."
+  },
+  "id": "AB2114",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2026-02-18",
+      "description": "Read first time. To print.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB2114"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2114/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2114/logs/20260218T000000Z_read_first_time_to_print.json"
+  },
+  "timestamp": "20260218T000000Z"
+}
