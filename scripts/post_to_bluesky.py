@@ -1287,7 +1287,7 @@ def _b_tn(session, ident):  # verified — wapp.capitol.tn.gov BillInfo form
     if not ga:
         return None
     return ("https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx"
-            f"?BillNumber={typ}{num}&GA={ga}")
+            f"?BillNumber={typ}{num.zfill(4)}&GA={ga}")
 
 
 def _b_wv(session, ident):  # verified — wvlegislature.gov Bill_Status form
