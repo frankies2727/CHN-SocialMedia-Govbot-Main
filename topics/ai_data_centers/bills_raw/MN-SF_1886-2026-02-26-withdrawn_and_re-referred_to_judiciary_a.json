@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 1886",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Commerce and Commerce Department",
+      "Legal Proceedings",
+      "Telecommunications and Information Technology"
+    ],
+    "title": "Individual communication with artificial intelligence disclosure requirement provision"
+  },
+  "id": "SF 1886",
+  "log": {
+    "action": {
+      "date": "2026-02-26",
+      "description": "Withdrawn and re-referred to Judiciary and Public Safety",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 1886"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF1886/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF1886/logs/20260226T000000Z_withdrawn_and_rereferred_to_judiciary_and_public_safety.json"
+  },
+  "timestamp": "20260226T000000Z"
+}

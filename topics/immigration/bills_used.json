@@ -11,6 +11,7 @@
     "CA|AB2114|2026-04-23|Read second time and amended.",
     "CA|AB2114|2026-05-14|In committee: Held under submission.",
     "CA|AB2465|2026-05-14|From committee: Do pass. (Ayes 11. Noes ",
+    "CA|AB2495|2026-02-20|Read first time. To print.",
     "CA|AB2495|2026-04-06|From committee chair, with author's amen",
     "CA|AB2495|2026-04-20|From committee chair, with author's amen",
     "CA|AB2495|2026-05-14|From committee: Do pass. (Ayes 11. Noes ",
@@ -81,6 +82,7 @@
     "VT|S 44|2025-05-23|Senate Message: Signed by Governor May 2",
     "WA|HB 2597|2026-02-04|CRJ - Majority; 1st substitute bill be s",
     "WA|HB 2597|2026-02-04|Executive action taken in the House Comm",
+    "WA|HB 2597|2026-02-04|Minority; do not pass.",
     "WA|HB 2597|2026-02-09|APP - Majority; do pass 1st substitute b",
     "WA|HB 2597|2026-02-09|Executive action taken in the House Comm",
     "WA|HB 2597|2026-02-09|Minority; do not pass.",
@@ -112,7 +114,7 @@
     "WV|HB 4059|2026-01-14|To Health and Human Resources",
     "WV|HB 4148|2026-01-14|To Government Organization"
   ],
-  "last_run": "2026-05-22T20:07:08.649260+00:00",
+  "last_run": "2026-05-23T03:43:32.574009+00:00",
   "state_last_posted": {
     "VT": "2026-05-16T02:59:09.026935+00:00",
     "AK": "2026-05-16T02:59:09.026935+00:00",
@@ -125,10 +127,10 @@
     "GA": "2026-05-18T09:45:29.649265+00:00",
     "NJ": "2026-05-18T02:09:21.287696+00:00",
     "KS": "2026-05-22T20:06:36.933837+00:00",
-    "WA": "2026-05-22T20:06:36.933837+00:00",
+    "WA": "2026-05-23T03:42:49.230565+00:00",
     "DE": "2026-05-17T08:16:18.878412+00:00",
     "MO": "2026-05-19T19:45:01.795603+00:00",
-    "CA": "2026-05-22T04:06:20.981791+00:00",
+    "CA": "2026-05-23T03:42:49.230565+00:00",
     "FL": "2026-05-19T09:08:38.149339+00:00",
     "TN": "2026-05-20T15:40:25.661860+00:00"
   }

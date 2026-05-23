@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Transportation;  Revising the membership composition of the Florida Transportation Research Institute; requiring the Department of Transportation to coordinate with the Department of Commerce, specified ports, and the Federal Government for a certain purpose; revising the visible signals given by an approaching emergency vehicle upon which a driver must yield the right-of-way; prohibiting a personal delivery device from operating as otherwise authorized unless the personal delivery device meets certain criteria and a human operator is capable of controlling and monitoring its navigation and operation; revising a limitation on the number of times a person may elect to attend a basic driver improvement course under certain circumstances, etc.\r\n    \r\n        APPROPRIATION:\r\n        $300,000",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1220",
+    "legislative_session": "2026",
+    "subject": [
+      "aviation",
+      "ports and harbors",
+      "public business",
+      "public lands and property",
+      "railroads and other regulated utilities",
+      "subject index"
+    ],
+    "title": "Transportation"
+  },
+  "id": "SB 1220",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in returning Messages",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB 1220"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB1220/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB1220/logs/20260313T000000Z_died_in_returning_messages.json"
+  },
+  "timestamp": "20260313T000000Z"
+}

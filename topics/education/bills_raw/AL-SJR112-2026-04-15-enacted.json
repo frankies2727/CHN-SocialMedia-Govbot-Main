@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Resolutions",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SJR112",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Resolutions"
+    ],
+    "title": "The University of Alabama Women's Wheelchair Basketball Team, commended"
+  },
+  "id": "SJR112",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-04-15T04:00:00+00:00",
+      "description": "Enacted",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SJR112"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/SJR112/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/SJR112/logs/20260415T040000Z.classification.became-law.upper.json"
+  }
+}

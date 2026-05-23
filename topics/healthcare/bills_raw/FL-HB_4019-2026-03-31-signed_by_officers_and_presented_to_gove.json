@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Compensation for Health Care Services for Inmates in Lake County;  Limits compensation to health care provider & to hospital designated as trauma center that provide medical services for inmate housed in Lake County detention center if provider & hospital do not have contract with county to provide such services; limits compensation to entity that provides emergency medical transportation services for inmate housed in Lake County detention center if entity does not have contract with county to provide such services.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 4019",
+    "legislative_session": "2026",
+    "subject": [
+      "local bills"
+    ],
+    "title": "Compensation for Health Care Services for Inmates in Lake County"
+  },
+  "id": "HB 4019",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-receipt"
+      ],
+      "date": "2026-03-31",
+      "description": "Signed by Officers and presented to Governor",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "HB 4019"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB4019/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB4019/logs/20260331T000000Z.classification.executive-receipt.legislature.json"
+  }
+}

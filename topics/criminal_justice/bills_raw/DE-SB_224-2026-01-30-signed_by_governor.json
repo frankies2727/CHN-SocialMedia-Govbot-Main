@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Last session, the General Assembly enacted the Richard \"Mouse\" Smith Compassionate Release Act (Senate Substitute No. 1 for Senate Bill No. 10), which revised the process for sentence modifications.\r\n\r\nThis Act makes a change to that Act. Specifically, Senate Substitute No. 1 for Senate Bill No. 10 required the Department of Correction (\"Department\") to adopt regulations to implement the revised sentence modification process. The Department does not believe regulations are necessary for the Department to successfully implement the revised sentence modification process. Therefore, this Act authorizes the Department to adopt regulations, rather than requires it.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 224",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 11 OF THE DELAWARE CODE RELATING TO THE DEPARTMENT OF CORRECTION'S REGULATORY AUTHORITY RELATED TO MODIFICATION OF SENTENCES OF INCARCERATION."
+  },
+  "id": "SB 224",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-01-30",
+      "description": "Signed by Governor",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "SB 224"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB224/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB224/logs/20260130T000000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260130T000000Z"
+}

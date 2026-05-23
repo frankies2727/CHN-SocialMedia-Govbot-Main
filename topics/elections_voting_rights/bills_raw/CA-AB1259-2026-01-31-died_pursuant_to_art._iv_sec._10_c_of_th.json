@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law requires the Secretary of State to test and examine remote accessible vote by mail systems that are proposed for use or sale in the state in order to determine their accuracy and efficiency and grant them certification or conditional approval. Existing law requires the Secretary of State to make a report stating whether a system has been certified, conditionally approved, or denied certification publicly available within 60 days after the completion of an examination.\n\nThis bill would additionally require the Secretary of State to publish that report on the Secretary of State's internet website.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1259",
+    "legislative_session": "20252026",
+    "subject": [
+      "Remoteaccessiblevotebymailsystems",
+      "report",
+      "testingandexamination"
+    ],
+    "title": "Remote accessible vote by mail systems: testing and examination: report."
+  },
+  "id": "AB1259",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-01-31",
+      "description": "Died pursuant to Art. IV, Sec. 10(c) of the Constitution.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB1259"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1259/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1259/logs/20260131T000000Z_died_pursuant_to_art_iv_sec_10c_of_the_constitution.json"
+  },
+  "timestamp": "20260131T000000Z"
+}

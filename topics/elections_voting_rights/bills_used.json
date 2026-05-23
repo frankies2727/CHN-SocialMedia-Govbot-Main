@@ -4,6 +4,7 @@
     "AL|SB24|2026-04-09|Enrolled",
     "AL|SB24|2026-04-09|Signature Requested",
     "AL|SB24|2026-04-16|Enacted",
+    "CA|AB1259|2026-01-31|Died pursuant to Art. IV, Sec. 10(c) of ",
     "CA|AB1259|2026-02-02|From committee: Filed with the Chief Cle",
     "CA|SB1310|2026-02-20|Introduced. To Com. on RLS. for assignme",
     "CA|SB1310|2026-02-23|From printer. May be acted upon on or af",
@@ -14,6 +15,7 @@
     "FL|HB 991|2026-04-01|Approved by Governor",
     "FL|HB 991|2026-04-02|Chapter No. 2026-26",
     "GA|HB 1093|2026-03-19|House Date Signed by Governor",
+    "GA|HB 1093|2026-03-19|House Sent to Governor",
     "GA|SB 175|2026-03-27|House Committee Favorably Reported By Su",
     "GA|SB 175|2026-03-31|House Third Readers",
     "GA|SB 175|2026-03-31|House Third Reading Lost",
@@ -41,15 +43,15 @@
   ],
   "state_last_posted": {
     "MO": "2026-05-22T20:00:14.083807+00:00",
-    "GA": "2026-05-21T15:42:45.259881+00:00",
+    "GA": "2026-05-23T03:39:32.105523+00:00",
     "NJ": "2026-05-19T09:05:43.656146+00:00",
     "MN": "2026-05-19T19:41:22.112282+00:00",
-    "CA": "2026-05-22T14:53:29.420666+00:00",
+    "CA": "2026-05-23T03:39:32.105523+00:00",
     "KS": "2026-05-22T09:40:57.912068+00:00",
     "AL": "2026-05-22T20:00:14.083807+00:00",
     "FL": "2026-05-22T04:03:09.948423+00:00",
     "MS": "2026-05-22T04:03:09.948423+00:00",
     "DE": "2026-05-19T02:03:53.788289+00:00"
   },
-  "last_run": "2026-05-22T20:02:17.546060+00:00"
+  "last_run": "2026-05-23T03:40:46.272288+00:00"
 }

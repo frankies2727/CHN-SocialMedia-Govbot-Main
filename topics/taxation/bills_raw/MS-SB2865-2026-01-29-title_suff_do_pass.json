@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB2865",
+    "legislative_session": "2026",
+    "subject": [
+      "Finance"
+    ],
+    "title": "Income tax; authorize credit for added tax revenue from certain nongaming capital investment projects at casinos."
+  },
+  "id": "SB2865",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-01-29T06:00:00+00:00",
+      "description": "Title Suff Do Pass",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB2865"
+  },
+  "sources": {
+    "bill": "ms-legislation/country:us/state:ms/sessions/2026/bills/SB2865/metadata.json",
+    "log": "ms-legislation/country:us/state:ms/sessions/2026/bills/SB2865/logs/20260129T060000Z_title_suff_do_pass.json"
+  },
+  "timestamp": "20260129T060000Z"
+}

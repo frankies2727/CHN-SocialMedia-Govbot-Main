@@ -79,6 +79,7 @@
     "MN|SF 3778|2026-03-09|Author stricken Drazkowski",
     "MO|HB 2646|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HB 2941|2026-05-15|Referred: Emerging Issues(H)",
+    "MO|HJR 131|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HJR 138|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HJR 8|2025-09-05|Introduced and Read First Time (H)",
     "MO|HJR 8|2025-09-07|Read Second Time (H)",
@@ -90,6 +91,7 @@
     "MS|HB1160|2026-02-03|Died In Committee",
     "MS|HB1364|2026-02-03|Died In Committee",
     "MS|SB2506|2026-02-03|Died In Committee",
+    "MS|SB2865|2026-01-29|Title Suff Do Pass",
     "NC|HB 59|2025-06-23|Serial Referral To Rules, Calendar, and ",
     "NC|HB 59|2025-06-25|Reptd Fav Com Substitute",
     "NE|LB117|2025-02-18|Conrad name added",
@@ -153,14 +155,14 @@
     "WY|HB0252|2025-01-20|H Received for Introduction",
     "WY|HB0252|2025-02-03|H Did not Consider for Introduction"
   ],
-  "last_run": "2026-05-22T20:11:31.081653+00:00",
+  "last_run": "2026-05-23T03:48:06.775681+00:00",
   "state_last_posted": {
     "MI": "2026-05-16T03:00:10.016608+00:00",
     "RI": "2026-05-16T03:00:10.016608+00:00",
     "MD": "2026-05-16T04:28:39.041182+00:00",
     "MN": "2026-05-21T20:15:41.196955+00:00",
     "CA": "2026-05-22T04:11:47.051908+00:00",
-    "MS": "2026-05-18T02:11:51.678850+00:00",
+    "MS": "2026-05-23T03:47:59.787844+00:00",
     "GA": "2026-05-21T10:03:57.592813+00:00",
     "NJ": "2026-05-20T02:09:39.226191+00:00",
     "FL": "2026-05-22T20:10:45.071976+00:00",
@@ -171,7 +173,7 @@
     "MA": "2026-05-22T09:51:04.926110+00:00",
     "WI": "2026-05-22T20:10:45.071976+00:00",
     "KS": "2026-05-21T04:18:00.605720+00:00",
-    "MO": "2026-05-22T15:03:08.842545+00:00",
+    "MO": "2026-05-23T03:47:59.787844+00:00",
     "TN": "2026-05-22T15:03:08.842545+00:00"
   }
 }
