@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 1856",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Commerce and Commerce Department",
+      "Insurance-Health",
+      "Telecommunications and Information Technology"
+    ],
+    "title": "Usage of artificial intelligence in the utilization review process prohibition provision"
+  },
+  "id": "SF 1856",
+  "log": {
+    "action": {
+      "date": "2026-03-04",
+      "description": "Author stricken Mitchell",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 1856"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF1856/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF1856/logs/20260304T000000Z_author_stricken_mitchell.json"
+  },
+  "timestamp": "20260304T000000Z"
+}
