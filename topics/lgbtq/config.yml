@@ -31,9 +31,15 @@ keywords:
   - queer
   - intersex
   - two-spirit
-  - sexual orientation
-  - gender identity
-  - gender expression
+  # "sexual orientation", "gender identity", and "gender expression" are
+  # below in context_keywords — they trip on background-only enumerations
+  # ("Existing law prohibits the court from considering a person's sex,
+  # gender identity, gender expression, or sexual orientation...") in
+  # bills that aren't actually about LGBTQ rights. The "or" enumerations
+  # below catch genuine LGBTQ anti-discrimination bills directly.
+  - sexual orientation or gender identity
+  - gender identity or gender expression
+  - gender identity or expression
 
   # Gender-affirming care / transition
   - gender-affirming care
@@ -61,6 +67,10 @@ keywords:
   # Discrimination / protections / restrictions
   - conversion therapy
   - anti-discrimination
+  - nondiscrimination act
+  - non-discrimination act
+  - act against discrimination
+  - law against discrimination
   - sexual orientation discrimination
   - gender identity discrimination
   - bathroom bill
@@ -77,6 +87,19 @@ context_keywords:
   - hate crime
   - hate crimes
   - discrimination
+  # These three are the "protected class enumeration" terms — state
+  # statutes routinely list them as background ("...shall not consider
+  # a person's sex, gender identity, gender expression, or sexual
+  # orientation when determining...") in bills about child custody,
+  # family court, education, healthcare, and licensing that aren't
+  # actually about LGBTQ rights. Demoted to context so they only count
+  # when paired with another core LGBTQ term. Real LGBTQ
+  # anti-discrimination bills are caught by the "X or Y" enumeration
+  # phrases ("sexual orientation or gender identity",
+  # "gender identity or expression") in the keywords list above.
+  - sexual orientation
+  - gender identity
+  - gender expression
 
 emojis:
   - emoji: "🏳️‍⚧️"
