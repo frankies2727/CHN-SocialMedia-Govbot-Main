@@ -47,6 +47,15 @@ DRY_RUN = os.environ.get("DRY_RUN") == "1"
 # link card — just without the image.
 FETCH_OG_IMAGE = os.environ.get("FETCH_OG_IMAGE", "0") == "1"
 
+# Force-mode: when both FORCE_STATE and FORCE_BILL_ID are set, skip the random
+# weighted draw and the topic-keyword/freshness gates and post exactly that one
+# bill to the active topic's Bluesky account. Driven by the post_specific_bill
+# workflow. FORCE_REPOST=1 bypasses the dedup gate so an already-posted bill
+# can be re-posted.
+FORCE_STATE = (os.environ.get("FORCE_STATE") or "").strip().lower()
+FORCE_BILL_ID = (os.environ.get("FORCE_BILL_ID") or "").strip()
+FORCE_REPOST = os.environ.get("FORCE_REPOST") == "1"
+
 BSKY_HANDLE = TOPIC.bluesky_handle()
 BSKY_PASSWORD = TOPIC.bluesky_password()
 
@@ -1912,6 +1921,131 @@ def save_raw_record(b: dict, out_dir: Path | None = None) -> None:
 # Main
 # ---------------------------------------------------------------------------
 
+def _norm_ident(s: str) -> str:
+    return re.sub(r"\s+", "", (s or "")).upper()
+
+
+def _post_forced_bill(records: list[dict]) -> int:
+    target_ident = _norm_ident(FORCE_BILL_ID)
+    state_matches: list[dict] = []
+    bill_matches: list[dict] = []
+    for r in records:
+        b = extract_fields(r)
+        if not b:
+            continue
+        if (b["state"] or "").lower() != FORCE_STATE:
+            continue
+        state_matches.append(b)
+        if _norm_ident(b["identifier"]) == target_ident:
+            b["_raw"] = r
+            bill_matches.append(b)
+
+    if not bill_matches:
+        seen_idents = sorted({b["identifier"] for b in state_matches})
+        print(
+            f"ERROR: no bill matching state={FORCE_STATE!r} "
+            f"identifier={FORCE_BILL_ID!r} in {JSONL_PATH.name}.",
+            file=sys.stderr,
+        )
+        if seen_idents:
+            preview = ", ".join(seen_idents[:20])
+            more = "" if len(seen_idents) <= 20 else f" (+{len(seen_idents) - 20} more)"
+            print(f"  identifiers seen for {FORCE_STATE}: {preview}{more}",
+                  file=sys.stderr)
+        else:
+            print(f"  no records at all for state {FORCE_STATE} in bills.jsonl.",
+                  file=sys.stderr)
+        return 2
+
+    def _recency(b: dict) -> datetime:
+        try:
+            return datetime.strptime(b["action_date"], "%Y-%m-%d")
+        except (ValueError, TypeError):
+            return datetime.min
+
+    def _has_desc(b: dict) -> bool:
+        return bool((b["action_desc"] or "").strip())
+
+    bill_matches.sort(key=lambda b: (_has_desc(b), _recency(b)), reverse=True)
+    b = bill_matches[0]
+
+    state = load_state()
+    seen = set(state.get("posted", []))
+    if not FORCE_REPOST and b["dedup_key"] in seen:
+        print(
+            f"Bill {b['state']} {b['identifier']} action "
+            f"{b['action_date']!r} is already in {STATE_FILE.name}. "
+            f"Pass force_repost=true to re-post."
+        )
+        return 0
+
+    if not TOPIC.matches(b):
+        print(
+            f"  NOTE: bill does not match topic '{TOPIC.name}' keywords — "
+            f"posting anyway because force mode was requested."
+        )
+
+    print(f"Force-posting 1 bill to topic '{TOPIC.name}':")
+    print(f"  {b['state']} {b['identifier']} ({b['action_date']})  "
+          f"dedup_key={b['dedup_key']}")
+
+    client = None if DRY_RUN else BlueskyClient(BSKY_HANDLE, BSKY_PASSWORD)
+
+    summary = summarize(b)
+    headline = shorten_title(b)
+    text, link, ec_title, ec_desc = compose_post(b, summary, headline=headline)
+
+    thumb_blob = None
+    if link and FETCH_OG_IMAGE:
+        print(f"  IMG: fetching og:image for {link}")
+        fetched = fetch_og_image(link)
+        if fetched:
+            img_bytes_raw, mime_raw = fetched
+            print(f"  IMG: downloaded {len(img_bytes_raw)//1024} KB ({mime_raw})")
+            prepared = prepare_image_for_bluesky(img_bytes_raw, mime_raw)
+            if prepared:
+                img_bytes, img_mime = prepared
+                if client:
+                    thumb_blob = client.upload_blob(img_bytes, img_mime)
+                    if thumb_blob:
+                        print(f"  IMG: ✓ attached ({len(img_bytes)//1024} KB, {img_mime})")
+                    else:
+                        print(f"  IMG: ✗ blob upload failed")
+                else:
+                    print(f"  IMG: [dry-run] would attach ({len(img_bytes)//1024} KB)")
+            else:
+                print(f"  IMG: ✗ couldn't fit under size cap")
+        else:
+            print(f"  IMG: ✗ no usable og:image found")
+
+    print(f"\n--- {b['state'] or '?'} {b['identifier']} ({b['action_date']}) ---")
+    print(text)
+    print("---")
+
+    if client:
+        try:
+            client.post(text, link, ec_title, ec_desc, thumb_blob=thumb_blob)
+        except requests.HTTPError as e:
+            print(f"  ! post failed: {e.response.status_code} {e.response.text}",
+                  file=sys.stderr)
+            return 1
+
+    seen.add(b["dedup_key"])
+    last_posted = state.get("state_last_posted", {})
+    last_posted[b["state"] or "?"] = datetime.now(timezone.utc).isoformat()
+    try:
+        save_raw_record(b)
+    except OSError as e:
+        print(f"  ! raw-record save failed: {e}", file=sys.stderr)
+
+    state["posted"] = sorted(seen)
+    state["state_last_posted"] = last_posted
+    state["last_run"] = datetime.now(timezone.utc).isoformat()
+    save_state(state)
+    print(f"\nDone. State saved to {STATE_FILE.relative_to(ROOT)}.")
+    return 0
+
+
 def main() -> int:
     if not DRY_RUN and (not BSKY_HANDLE or not BSKY_PASSWORD):
         print(f"ERROR: {TOPIC.bluesky_handle_env()} and "
@@ -1921,6 +2055,9 @@ def main() -> int:
     records = load_bills(JSONL_PATH)
     if not records:
         return 0
+
+    if FORCE_STATE and FORCE_BILL_ID:
+        return _post_forced_bill(records)
 
     state = load_state()
     seen = set(state.get("posted", []))
