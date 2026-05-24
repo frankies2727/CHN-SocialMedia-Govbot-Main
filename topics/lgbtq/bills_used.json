@@ -31,7 +31,9 @@
     "MO|SB 1085|2026-04-13|SS for SCS S offered (Nicola)--(4425S.04",
     "MO|SB 1085|2026-04-14|Informal Calendar S Bills for Perfection",
     "NJ|A2748|2026-01-13|WITHDRAWN APP P.L.2025, c.307.",
+    "NJ|S2773|2026-01-13|WITHDRAWN APP P.L.2025, c.307.",
     "WA|SB 6081|2026-01-23|Executive action taken in the Senate Com",
+    "WA|SB 6081|2026-01-23|Minority; do not pass.",
     "WA|SB 6081|2026-01-23|Minority; without recommendation.",
     "WA|SB 6081|2026-01-23|SGTE - Majority; do pass.",
     "WA|SB 6081|2026-02-05|Executive action taken in the Senate Com",
@@ -52,11 +54,11 @@
     "WA|SB 6081|2026-03-16|Governor signed."
   ],
   "state_last_posted": {
-    "WA": "2026-05-23T20:59:02.917758+00:00",
+    "WA": "2026-05-24T02:51:34.499116+00:00",
     "MO": "2026-05-22T20:08:46.105841+00:00",
     "KS": "2026-05-18T02:10:29.271757+00:00",
     "CA": "2026-05-23T13:56:36.430110+00:00",
-    "NJ": "2026-05-23T20:59:02.917758+00:00"
+    "NJ": "2026-05-24T02:51:34.499116+00:00"
   },
-  "last_run": "2026-05-23T20:59:08.661930+00:00"
+  "last_run": "2026-05-24T02:51:39.330889+00:00"
 }

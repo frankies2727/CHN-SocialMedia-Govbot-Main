@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Discrimination & Civil Protections",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB361",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Discrimination & Civil Protections"
+    ],
+    "title": "Living organ donors; to prohibit discrimination in obtaining insurance coverage, provide paid medical leave for public employees who donate organs and a tax credit to private sector employers that provide similar paid leave to their employees"
+  },
+  "id": "HB361",
+  "log": {
+    "action": {
+      "date": "2026-04-09T04:00:00+00:00",
+      "description": "Ready to Enroll",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB361"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB361/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB361/logs/20260409T040000Z_ready_to_enroll.json"
+  },
+  "timestamp": "20260409T040000Z"
+}

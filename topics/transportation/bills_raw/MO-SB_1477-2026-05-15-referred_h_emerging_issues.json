@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "SB 1477 - This act modifies provisions relating to accessories of motor vehicles.\r\n\r\nPROFESSIONAL SPORTS TEAM SPECIAL LICENSE PLATES (Section 301.472)\r\n\tThis act modifies the professional sports teams for which a person can receive a special license plate to include the National Women's Soccer League and the Women's National Basketball Association. The Kansas City Current shall forward all emblem-use fees received, less an amount not in excess of five percent of the costs of administration to the Kansas City Current Foundation or a team designated nonprofit that benefits youth in the Kansas City area.\r\n\r\nThis act contains provisions similar to HB 2446 (2026).\r\n\r\nMOTORCYCLE AUXILIARY LIGHTING (Section 307.128)\r\n\tThis act provides that motorcycles may be equipped with and use auxiliary lighting of any color, rather than only amber and white.\r\n\r\n\tThis act contains provisions identical to SB 711 (2025), HB 2123 (2022), HB 996 (2021), a provision in the truly agreed to and finally passed SS#2/HB 661 (2021), a provision in HCS/SS/SCS/SB 4 (2021), a provision in HCS/SB 38 (2021), a provision in HCS/SS/SB 46 (2021), and a provision in HCS/SS/SB 89 (2021).\r\nTAYLOR MIDDLETON",
+        "note": "abstract"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1477",
+    "legislative_session": "2026",
+    "title": "SB 1477 - This act modifies provisions relating to accessories of motor vehicles.\r\n\r\nPROFESSIONAL SPORTS TEAM SPECIAL LICENSE PLATES (Section 301.472)\r\n\tThis act modifies the professional sports teams for which a person can receive a special license plate to include the National Women's Soccer League and the Women's National Basketball Association. The Kansas City Current shall forward all emblem-use fees received, less an amount not in excess of five percent of the costs of administration to the Kansas City Current Foundation or a team designated nonprofit that benefits youth in the Kansas City area.\r\n\r\nThis act contains provisions similar to HB 2446 (2026).\r\n\r\nMOTORCYCLE AUXILIARY LIGHTING (Section 307.128)\r\n\tThis act provides that motorcycles may be equipped with and use auxiliary lighting of any color, rather than only amber and white.\r\n\r\n\tThis act contains provisions identical to SB 711 (2025), HB 2123 (2022), HB 996 (2021), a provision in the truly agreed to and finally passed SS#2/HB 661 (2021), a provision in HCS/SS/SCS/SB 4 (2021), a provision in HCS/SB 38 (2021), a provision in HCS/SS/SB 46 (2021), and a provision in HCS/SS/SB 89 (2021).\r\nTAYLOR MIDDLETON"
+  },
+  "id": "SB 1477",
+  "log": {
+    "action": {
+      "classification": [
+        "referral-committee"
+      ],
+      "date": "2026-05-15T05:00:00+00:00",
+      "description": "Referred H Emerging Issues",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB 1477"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB1477/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB1477/logs/20260515T050000Z_referred_h_emerging_issues.json"
+  },
+  "timestamp": "20260515T050000Z"
+}

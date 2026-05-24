@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law provides a district attorney with the discretion to file criminal charges against an individual. Existing law requires a preliminary examination to be conducted, as specified, before an information is filed. Upon completion of a preliminary hearing, existing law requires the district attorney to file an information against the defendant charging the defendant with either the offense or offenses named in the order of commitment or any offense or offenses shown by the evidence taken before the magistrate to have been committed. Under existing law, when an action is dismissed by a magistrate, as specified, the prosecutor may make a motion in the superior court within 15 days to compel the magistrate to reinstate the complaint or a portion of the complaint and to reinstate the custodial status of the defendant under the same terms and conditions as when the defendant last appeared before the magistrate. \n\nThis bill, the Respect Judicial Decisions Act, would instead only allow the information to charge the defendant with the offense or offenses named in the order of commitment. The bill would require the district attorney to make a motion to reinstate an offense or offenses dismissed at the preliminary hearing before the district attorney can file an information charging the dismissed offense or offenses. The bill would authorize the district attorney to file an amended information that includes the reinstated offenses if that motion is granted. The bill would also authorize the district attorney to make that motion to reinstate the complaint or a portion of the complaint when an individual count or counts alleging an offense were dismissed. By placing new duties on prosecutors, this bill would impose a state-mandated local program. \n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1917",
+    "legislative_session": "20252026",
+    "subject": [
+      "Criminalprocedure",
+      "information"
+    ],
+    "title": "Criminal procedure: information."
+  },
+  "id": "AB1917",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2026-05-05",
+      "description": "In Senate. Read first time. To Com. on RLS. for assignment.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "AB1917"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1917/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1917/logs/20260505T000000Z_in_senate_read_first_time_to_com_on_rls_for_assignment.json"
+  },
+  "timestamp": "20260505T000000Z"
+}

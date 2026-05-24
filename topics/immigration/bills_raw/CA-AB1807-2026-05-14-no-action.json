@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law includes various provisions limiting how state and local entities may use their resources for immigration enforcement purposes.\n\nThis bill would prohibit the use of state-owned property for purposes of immigration enforcement, as specified. In this regard, the bill would prohibit, among other uses, staging, assembling, mobilizing, or deploying vehicles, equipment, or personnel for immigration enforcement purposes. The bill would require the Department of General Services to identify state-owned property previously or likely to be used for immigration enforcement purposes. The bill would require state agencies to post signage at those properties regarding the prohibition and to use physical barriers limiting access, as provided. The bill would require state agencies to develop procedures for mandatory reporting by a state employee who learns of an actual or attempted use of state-owned property for immigration enforcement. The bill would direct state agencies to make educational materials available regarding the rights of employees, tenants, and security staff if federal agents enter state-owned property. The bill would further require the Attorney General's office to design standardized signage and to make the signage available to download free of charge on the Attorney General's internet website.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1807",
+    "legislative_session": "20252026",
+    "subject": [
+      "Immigrationenforcement",
+      "useofstate-ownedproperty"
+    ],
+    "title": "Immigration enforcement: use of state-owned property."
+  },
+  "id": "AB1807",
+  "log": {
+    "bill_id": "AB1807"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1807/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1807/logs/20260514T070000Z.vote_event.pass.lower.json"
+  },
+  "timestamp": "20260514T070000Z.vote"
+}

@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act updates the language establishing the board of directors for the Delaware Institute for Dental Education and Research. This Act adjusts the composition of the voting and non-voting members of the board, the term limits of any board members, and procedures for how the Chair and Vice Chair are selected. The Act clarifies that any member of the board must complete a training on diversity. Any consultant from a university asked to assist the board with its official business does not vote. The Act makes minor changes pertaining to the purpose and duties of the board.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 191",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO THE DELAWARE INSTITUTE FOR DENTAL EDUCATION AND RESEARCH."
+  },
+  "id": "SB 191",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-03-16",
+      "description": "Signed by Governor",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "SB 191"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB191/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB191/logs/20260316T000000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260316T000000Z"
+}

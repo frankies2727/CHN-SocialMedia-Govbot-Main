@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S1465",
+    "legislative_session": "222",
+    "subject": [
+      "GAMBLING",
+      "HIGHER ED"
+    ],
+    "title": "Requires public institution of higher education to invite Council on Compulsive Gambling of New Jersey on institution's campus."
+  },
+  "id": "S1465",
+  "log": {
+    "action": {
+      "date": "2026-01-13T05:00:00+00:00",
+      "description": "WITHDRAWN APP P.L.2025, c.197.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "S1465"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S1465/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S1465/logs/20260113T050000Z_withdrawn_app_pl2025_c197.json"
+  },
+  "timestamp": "20260113T050000Z"
+}

@@ -40,6 +40,7 @@
     "FL|HB 313|2026-03-13|Died in Intergovernmental Affairs Subcom",
     "FL|SB 1520|2026-03-13|Died in Appropriations",
     "FL|SB 1550|2026-03-13|Died in Regulated Industries",
+    "GA|HB 1116|2026-03-04|House Postponed",
     "GA|HB 1116|2026-03-06|House Passed/Adopted By Substitute",
     "GA|HB 1116|2026-03-06|House Third Readers",
     "GA|HB 1116|2026-03-06|House Withdrawn, Recommitted",
@@ -101,6 +102,10 @@
     "MN|SF 3596|2026-03-11|Third reading Passed as amended",
     "MN|SF 4306|2026-03-11|Author stricken Hoffman",
     "MO|HB 2491|2026-05-15|Referred: Emerging Issues(H)",
+    "MO|HB 2722|2026-04-21|",
+    "MO|HB 2722|2026-04-21|Executive Session Completed (H)",
+    "MO|HB 2722|2026-04-21|Reported Do Pass (H) - AYES: 11 NOES: 0 ",
+    "MO|HB 2722|2026-04-21|Voted Do Pass (H)",
     "MO|HR 3876|2026-05-15|Referred: Emerging Issues(H)",
     "MO|SB 1001|2026-04-23|Referred H Emerging Issues",
     "MO|SB 1001|2026-05-05|Hearing Scheduled H Emerging Issues--(9:",
@@ -159,13 +164,13 @@
     "WA|SB 5940|2026-01-21|Minority; without recommendation.",
     "WV|SB 101|2026-01-14|To Education"
   ],
-  "last_run": "2026-05-23T20:55:59.382329+00:00",
+  "last_run": "2026-05-24T02:49:14.650122+00:00",
   "state_last_posted": {
     "MS": "2026-05-20T02:03:48.911912+00:00",
     "PA": "2026-05-16T02:58:27.650333+00:00",
     "AK": "2026-05-16T04:27:30.223995+00:00",
     "VT": "2026-05-16T04:27:30.223995+00:00",
-    "GA": "2026-05-23T13:52:58.978783+00:00",
+    "GA": "2026-05-24T02:48:38.597662+00:00",
     "WA": "2026-05-23T08:32:36.742891+00:00",
     "MN": "2026-05-23T03:41:59.994798+00:00",
     "IA": "2026-05-19T09:07:41.504084+00:00",
@@ -177,6 +182,6 @@
     "KS": "2026-05-23T20:55:26.423068+00:00",
     "MA": "2026-05-23T08:32:36.742891+00:00",
     "NJ": "2026-05-19T02:06:37.149818+00:00",
-    "MO": "2026-05-22T20:04:13.050755+00:00"
+    "MO": "2026-05-24T02:48:38.597662+00:00"
   }
 }

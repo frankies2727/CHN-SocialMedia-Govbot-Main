@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S2773",
+    "legislative_session": "222",
+    "subject": [
+      "VETERANS"
+    ],
+    "title": "Enhances protections under Law Against Discrimination for persons serving in military and military veterans."
+  },
+  "id": "S2773",
+  "log": {
+    "action": {
+      "date": "2026-01-13T05:00:00+00:00",
+      "description": "WITHDRAWN APP P.L.2025, c.307.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "S2773"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S2773/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S2773/logs/20260113T050000Z_withdrawn_app_pl2025_c307.json"
+  },
+  "timestamp": "20260113T050000Z"
+}

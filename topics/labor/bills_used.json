@@ -1,6 +1,8 @@
 {
   "posted": [
     "AL|HB361|2026-04-09|Delivered to Governor",
+    "AL|HB361|2026-04-09|Enrolled",
+    "AL|HB361|2026-04-09|Ready to Enroll",
     "AL|HB361|2026-04-09|Signature Requested",
     "AL|HB361|2026-04-17|Enacted",
     "CA|AB1582|2026-05-14|From committee: Amend, and do pass as am",
@@ -41,6 +43,7 @@
     "WA|HB 2471|2026-03-23|Effective date 6/11/2026.",
     "WA|HB 2471|2026-03-23|Governor signed.",
     "WA|SB 5944|2026-03-05|President signed.",
+    "WA|SB 5944|2026-03-05|Speaker signed.",
     "WA|SB 5944|2026-03-09|Delivered to Governor.",
     "WA|SB 5944|2026-03-18|Effective date 6/11/2026.",
     "WA|SB 5944|2026-03-18|Governor signed.",
@@ -52,8 +55,8 @@
     "WI|SB1|2026-05-13|Rules suspended to give bill its third r"
   ],
   "state_last_posted": {
-    "WA": "2026-05-23T13:55:15.182723+00:00",
-    "AL": "2026-05-22T04:07:34.136017+00:00",
+    "WA": "2026-05-24T02:50:40.046982+00:00",
+    "AL": "2026-05-24T02:50:40.046982+00:00",
     "NJ": "2026-05-21T15:46:35.839204+00:00",
     "CA": "2026-05-22T14:58:37.260365+00:00",
     "WI": "2026-05-23T03:43:44.228664+00:00",
@@ -66,5 +69,5 @@
     "DE": "2026-05-22T20:07:20.379448+00:00",
     "MO": "2026-05-23T20:57:11.033138+00:00"
   },
-  "last_run": "2026-05-23T20:58:52.241175+00:00"
+  "last_run": "2026-05-24T02:51:20.943168+00:00"
 }

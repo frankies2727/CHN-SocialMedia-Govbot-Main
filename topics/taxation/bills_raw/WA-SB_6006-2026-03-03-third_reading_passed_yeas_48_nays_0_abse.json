@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 6006",
+    "legislative_session": "2025-2026",
+    "title": "Exempting food banks from the retail sales tax imposed on certain services."
+  },
+  "id": "SB 6006",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-3"
+      ],
+      "date": "2026-03-03",
+      "description": "Third reading, passed; yeas, 48; nays, 0; absent, 0; excused, 1.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 6006"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB6006/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB6006/logs/20260303T000000Z_third_reading_passed_yeas_48_nays_0_absent_0_excused_1.json"
+  },
+  "timestamp": "20260303T000000Z"
+}

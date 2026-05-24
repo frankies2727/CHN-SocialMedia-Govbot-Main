@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2722",
+    "legislative_session": "2026",
+    "subject": [
+      "CHILDREN AND MINORS",
+      "EDUCATION, HIGHER"
+    ],
+    "title": "Establishes the \"Success for Homeless and Foster Youth in Higher Education Act\""
+  },
+  "id": "HB 2722",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-04-21T05:00:00+00:00",
+      "description": "Reported Do Pass (H) - AYES: 11 NOES: 0 PRESENT: 0",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 2722"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB2722/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB2722/logs/20260421T050000Z_reported_do_pass_h_ayes_11_noes_0_present_0.json"
+  },
+  "timestamp": "20260421T050000Z"
+}

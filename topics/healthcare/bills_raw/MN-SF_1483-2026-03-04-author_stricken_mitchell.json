@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 1483",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Bonds",
+      "Zoos"
+    ],
+    "title": "Minnesota Zoo new animal hospital and asset preservation bond issue and appropriation"
+  },
+  "id": "SF 1483",
+  "log": {
+    "action": {
+      "date": "2026-03-04",
+      "description": "Author stricken Mitchell",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 1483"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF1483/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF1483/logs/20260304T000000Z_author_stricken_mitchell.json"
+  },
+  "timestamp": "20260304T000000Z"
+}

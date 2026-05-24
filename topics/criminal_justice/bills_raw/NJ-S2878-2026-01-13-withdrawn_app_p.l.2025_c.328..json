@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S2878",
+    "legislative_session": "222",
+    "subject": [
+      "CRIM PROCED",
+      "CRIMES"
+    ],
+    "title": "Establishes new mitigating factor, reduced sentencing, and resentencing for certain defendants who are victims of abuse."
+  },
+  "id": "S2878",
+  "log": {
+    "action": {
+      "date": "2026-01-13T05:00:00+00:00",
+      "description": "WITHDRAWN APP P.L.2025, c.328.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "S2878"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S2878/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S2878/logs/20260113T050000Z_withdrawn_app_pl2025_c328.json"
+  },
+  "timestamp": "20260113T050000Z"
+}
