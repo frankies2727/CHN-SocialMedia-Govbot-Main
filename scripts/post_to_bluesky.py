@@ -49,9 +49,9 @@ FETCH_OG_IMAGE = os.environ.get("FETCH_OG_IMAGE", "0") == "1"
 
 # Force-mode: when both FORCE_STATE and FORCE_BILL_ID are set, skip the random
 # weighted draw and the topic-keyword/freshness gates and post exactly that one
-# bill to the active topic's Bluesky account. Driven by the post_specific_bill
-# workflow. FORCE_REPOST=1 bypasses the dedup gate so an already-posted bill
-# can be re-posted.
+# bill to the active topic's Bluesky account. Driven by the
+# post_bluesky_specific_bill workflow. FORCE_REPOST=1 bypasses the dedup gate
+# so an already-posted bill can be re-posted.
 FORCE_STATE = (os.environ.get("FORCE_STATE") or "").strip().lower()
 FORCE_BILL_ID = (os.environ.get("FORCE_BILL_ID") or "").strip()
 FORCE_REPOST = os.environ.get("FORCE_REPOST") == "1"
