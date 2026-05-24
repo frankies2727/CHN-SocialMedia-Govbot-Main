@@ -1,0 +1,134 @@
+name: govbot-bluesky-post-specific-bill
+
+on:
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: "Topic / Bluesky account to post to"
+        required: true
+        type: choice
+        options:
+          - ai_data_centers
+          - criminal_justice
+          - education
+          - elections_voting_rights
+          - healthcare
+          - housing
+          - immigration
+          - labor
+          - lgbtq
+          - reproductive_rights
+          - taxation
+          - transportation
+      state:
+        description: "Two-letter state code (e.g. il, ca, ny)"
+        required: true
+        type: string
+      bill_id:
+        description: "Bill identifier (e.g. HB123, SB 45)"
+        required: true
+        type: string
+      dry_run:
+        description: "Dry-run: compose the post but skip publishing to Bluesky"
+        required: false
+        type: boolean
+        default: false
+      force_repost:
+        description: "Bypass the bills_used.json dedup gate (allows re-posting)"
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: govbot-bluesky-post-specific-bill
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      LLM_MODEL: "gemma3:4b"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install Python deps
+        run: pip install -r requirements.txt
+
+      - name: Verify script exists
+        run: |
+          ls -la scripts/
+          test -f scripts/post_to_bluesky.py && echo "OK" || (echo "MISSING" && exit 1)
+
+      - name: Install govbot, fetch all supported states, dump JSONL
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/chihacknight/govbot/main/actions/govbot/scripts/install-nightly.sh | bash
+          export PATH="$HOME/.govbot/bin:$PATH"
+          govbot --version || true
+
+          STATES="al ak az ar ca co ct de fl ga hi id il in ia ks ky la me md ma mi mn ms mo mt ne nv nh nj nm ny nc nd oh ok or pa ri sc sd tn tx ut vt va wa wv wi wy dc pr"
+          for state in $STATES; do
+            echo "--- Cloning $state ---"
+            govbot clone "$state" 2>&1 || echo "  SKIPPED $state (not supported by govbot)"
+          done
+
+          govbot logs --limit 2200 > bills.jsonl
+          echo "bills.jsonl is $(wc -l < bills.jsonl) lines"
+
+      - name: Cache Ollama model
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama/models
+          key: ollama-models-${{ env.LLM_MODEL }}-v1
+
+      - name: Install Ollama and pull the LLM model
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          nohup ollama serve > /tmp/ollama.log 2>&1 &
+          for i in $(seq 1 30); do
+            if curl -fsS http://localhost:11434/api/tags > /dev/null 2>&1; then
+              echo "Ollama is ready."
+              break
+            fi
+            sleep 1
+          done
+          ollama pull "$LLM_MODEL"
+          ollama list
+
+      - name: Post specific bill to Bluesky
+        env:
+          ALL_SECRETS: ${{ toJSON(secrets) }}
+          LLM_API_URL: "http://localhost:11434/api/chat"
+          BOT_TOPIC: ${{ inputs.topic }}
+          FORCE_STATE: ${{ inputs.state }}
+          FORCE_BILL_ID: ${{ inputs.bill_id }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+          FORCE_REPOST: ${{ inputs.force_repost && '1' || '0' }}
+        run: python scripts/post_to_bluesky.py
+
+      - name: Commit state changes
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name  "govbot-bluesky[bot]"
+          git config user.email "govbot-bluesky[bot]@users.noreply.github.com"
+          git add topics/*/bills_used.json topics/*/bills_raw || true
+          if git diff --cached --quiet; then
+            echo "No state changes to commit."
+          else
+            git commit -m "chore: post specific bill ${{ inputs.state }} ${{ inputs.bill_id }} to ${{ inputs.topic }} [skip ci]"
+            git push
+          fi
