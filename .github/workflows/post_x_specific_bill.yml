@@ -74,19 +74,26 @@ jobs:
           ls -la scripts/
           test -f scripts/post_to_x.py && echo "OK" || (echo "MISSING" && exit 1)
 
-      - name: Install govbot, fetch all supported states, dump JSONL
+      - name: Install govbot, fetch requested state, dump JSONL
+        env:
+          INPUT_STATE: ${{ inputs.state }}
         run: |
           curl -fsSL https://raw.githubusercontent.com/chihacknight/govbot/main/actions/govbot/scripts/install-nightly.sh | bash
           export PATH="$HOME/.govbot/bin:$PATH"
           govbot --version || true
 
-          STATES="al ak az ar ca co ct de fl ga hi id il in ia ks ky la me md ma mi mn ms mo mt ne nv nh nj nm ny nc nd oh ok or pa ri sc sd tn tx ut vt va wa wv wi wy dc pr"
-          for state in $STATES; do
-            echo "--- Cloning $state ---"
-            govbot clone "$state" 2>&1 || echo "  SKIPPED $state (not supported by govbot)"
-          done
+          state="$(echo "$INPUT_STATE" | tr '[:upper:]' '[:lower:]' | tr -d '[:space:]')"
+          if [ -z "$state" ]; then
+            echo "ERROR: state input is empty." >&2
+            exit 1
+          fi
+          echo "--- Cloning $state ---"
+          govbot clone "$state"
 
-          govbot logs --limit 2200 > bills.jsonl
+          # Only one state is cloned, so a higher per-run cap gives us full
+          # historical coverage for that state instead of the old ~44 actions
+          # /state slice we got when 50 states shared --limit 2200.
+          govbot logs --limit 10000 > bills.jsonl
           echo "bills.jsonl is $(wc -l < bills.jsonl) lines"
 
       - name: Cache Ollama model
