@@ -90,10 +90,12 @@ jobs:
           echo "--- Cloning $state ---"
           govbot clone "$state"
 
-          # Only one state is cloned, so a higher per-run cap gives us full
-          # historical coverage for that state instead of the old ~44 actions
-          # /state slice we got when 50 states shared --limit 2200.
-          govbot logs --limit 10000 > bills.jsonl
+          # `govbot logs --limit` is a PER-REPO cap and `--filter default`
+          # applies a per-repo AI relevance filter. For a forced-bill run we
+          # need every action for the state (the user typed the bill ID, so
+          # don't let the AI filter decide if it's "relevant"). --filter none
+          # turns the filter off; --limit none returns the full history.
+          govbot logs --limit none --filter none > bills.jsonl
           echo "bills.jsonl is $(wc -l < bills.jsonl) lines"
 
       - name: Cache Ollama model
