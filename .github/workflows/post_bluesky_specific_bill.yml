@@ -38,6 +38,16 @@ on:
         required: false
         type: boolean
         default: false
+      update_state_file:
+        description: "Append the posted bill to bills_used.json (uncheck for a one-off post that won't block future runs)"
+        required: false
+        type: boolean
+        default: true
+      save_raw_record:
+        description: "Write the verbatim bill record to bills_raw/"
+        required: false
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -127,6 +137,8 @@ jobs:
           FORCE_BILL_ID: ${{ inputs.bill_id }}
           DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
           FORCE_REPOST: ${{ inputs.force_repost && '1' || '0' }}
+          SAVE_STATE: ${{ inputs.update_state_file && '1' || '0' }}
+          SAVE_RAW: ${{ inputs.save_raw_record && '1' || '0' }}
         run: python scripts/post_to_bluesky.py
 
       - name: Commit state changes

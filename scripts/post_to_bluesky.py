@@ -47,6 +47,14 @@ DRY_RUN = os.environ.get("DRY_RUN") == "1"
 # link card — just without the image.
 FETCH_OG_IMAGE = os.environ.get("FETCH_OG_IMAGE", "0") == "1"
 
+# Persistence knobs. Default both ON so the daily scheduler keeps its dedup
+# guarantees and raw-artifact trail. The post_bluesky_specific_bill workflow
+# exposes these as checkboxes so an operator can post a one-off without
+# polluting the state file or without leaving a bills_raw artifact. DRY_RUN
+# forces both off (nothing was published, so nothing should be recorded).
+SAVE_STATE = os.environ.get("SAVE_STATE", "1") == "1"
+SAVE_RAW = os.environ.get("SAVE_RAW", "1") == "1"
+
 # Force-mode: when both FORCE_STATE and FORCE_BILL_ID are set, skip the random
 # weighted draw and the topic-keyword/freshness gates and post exactly that one
 # bill to the active topic's Bluesky account. Driven by the
@@ -2067,19 +2075,31 @@ def _post_forced_bill(records: list[dict]) -> int:
                   file=sys.stderr)
             return 1
 
-    seen.add(b["dedup_key"])
-    last_posted = state.get("state_last_posted", {})
-    last_posted[b["state"] or "?"] = datetime.now(timezone.utc).isoformat()
-    try:
-        save_raw_record(b)
-    except OSError as e:
-        print(f"  ! raw-record save failed: {e}", file=sys.stderr)
+    if DRY_RUN:
+        print(f"\nDone. Dry run — no state written to "
+              f"{STATE_FILE.relative_to(ROOT)}.")
+        return 0
 
-    state["posted"] = sorted(seen)
-    state["state_last_posted"] = last_posted
-    state["last_run"] = datetime.now(timezone.utc).isoformat()
-    save_state(state)
-    print(f"\nDone. State saved to {STATE_FILE.relative_to(ROOT)}.")
+    if SAVE_RAW:
+        try:
+            save_raw_record(b)
+        except OSError as e:
+            print(f"  ! raw-record save failed: {e}", file=sys.stderr)
+    else:
+        print("  SAVE_RAW=0 — skipping bills_raw artifact.")
+
+    if SAVE_STATE:
+        seen.add(b["dedup_key"])
+        last_posted = state.get("state_last_posted", {})
+        last_posted[b["state"] or "?"] = datetime.now(timezone.utc).isoformat()
+        state["posted"] = sorted(seen)
+        state["state_last_posted"] = last_posted
+        state["last_run"] = datetime.now(timezone.utc).isoformat()
+        save_state(state)
+        print(f"\nDone. State saved to {STATE_FILE.relative_to(ROOT)}.")
+    else:
+        print(f"\nDone. SAVE_STATE=0 — {STATE_FILE.relative_to(ROOT)} "
+              f"left unchanged.")
     return 0
 
 
@@ -2269,19 +2289,36 @@ def main() -> int:
                 print(f"  ! post failed: {e.response.status_code} {e.response.text}", file=sys.stderr)
                 continue
 
-        seen.add(b["dedup_key"])
-        seen.update(same_day_siblings.get(b["same_day_key"], ()))
-        last_posted[b["state"] or "?"] = now.isoformat()
-        try:
-            save_raw_record(b)
-        except OSError as e:
-            print(f"  ! raw-record save failed: {e}", file=sys.stderr)
+        if DRY_RUN:
+            continue
 
-    state["posted"] = sorted(seen)
-    state["state_last_posted"] = last_posted
-    state["last_run"] = datetime.now(timezone.utc).isoformat()
-    save_state(state)
-    print(f"\nDone. State saved to {STATE_FILE.relative_to(ROOT)}.")
+        if SAVE_STATE:
+            seen.add(b["dedup_key"])
+            seen.update(same_day_siblings.get(b["same_day_key"], ()))
+            last_posted[b["state"] or "?"] = now.isoformat()
+        if SAVE_RAW:
+            try:
+                save_raw_record(b)
+            except OSError as e:
+                print(f"  ! raw-record save failed: {e}", file=sys.stderr)
+
+    if DRY_RUN:
+        print(f"\nDone. Dry run — no state written to "
+              f"{STATE_FILE.relative_to(ROOT)}.")
+        return 0
+
+    if not SAVE_RAW:
+        print("  SAVE_RAW=0 — bills_raw artifacts not written.")
+
+    if SAVE_STATE:
+        state["posted"] = sorted(seen)
+        state["state_last_posted"] = last_posted
+        state["last_run"] = datetime.now(timezone.utc).isoformat()
+        save_state(state)
+        print(f"\nDone. State saved to {STATE_FILE.relative_to(ROOT)}.")
+    else:
+        print(f"\nDone. SAVE_STATE=0 — {STATE_FILE.relative_to(ROOT)} "
+              f"left unchanged.")
     return 0
 
 
