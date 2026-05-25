@@ -47,6 +47,14 @@ POST_LIMIT = int(os.environ.get("POST_LIMIT", "2"))
 MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "150"))
 DRY_RUN = os.environ.get("DRY_RUN") == "1"
 
+# Persistence knobs. Default both ON so existing schedules keep their dedup
+# guarantees and raw-artifact trail. The post_x_specific_bill workflow exposes
+# these as checkboxes so an operator can post a one-off without polluting the
+# state file or without leaving a bills_raw artifact. DRY_RUN forces both off
+# (nothing was published, so nothing should be recorded).
+SAVE_STATE = os.environ.get("SAVE_STATE", "1") == "1"
+SAVE_RAW = os.environ.get("SAVE_RAW", "1") == "1"
+
 # Force-mode: when both FORCE_STATE and FORCE_BILL_ID are set, skip the random
 # weighted draw and the topic-keyword/freshness gates and tweet exactly that
 # one bill to the active topic's X account. Driven by the
@@ -303,19 +311,26 @@ def _post_forced_bill(records: list[dict], client: tweepy.Client | None) -> int:
               f"{STATE_FILE.relative_to(ROOT)}.")
         return 0
 
-    seen.add(b["dedup_key"])
-    last_posted = state.get("state_last_posted", {})
-    last_posted[b["state"] or "?"] = datetime.now(timezone.utc).isoformat()
-    try:
-        save_raw_record(b)
-    except OSError as e:
-        print(f"  ! raw-record save failed: {e}", file=sys.stderr)
+    if SAVE_RAW:
+        try:
+            save_raw_record(b)
+        except OSError as e:
+            print(f"  ! raw-record save failed: {e}", file=sys.stderr)
+    else:
+        print("  SAVE_RAW=0 — skipping bills_raw artifact.")
 
-    state["posted"] = sorted(seen)
-    state["state_last_posted"] = last_posted
-    state["last_run"] = datetime.now(timezone.utc).isoformat()
-    save_state(state)
-    print(f"\nDone. State saved to {STATE_FILE.relative_to(ROOT)}.")
+    if SAVE_STATE:
+        seen.add(b["dedup_key"])
+        last_posted = state.get("state_last_posted", {})
+        last_posted[b["state"] or "?"] = datetime.now(timezone.utc).isoformat()
+        state["posted"] = sorted(seen)
+        state["state_last_posted"] = last_posted
+        state["last_run"] = datetime.now(timezone.utc).isoformat()
+        save_state(state)
+        print(f"\nDone. State saved to {STATE_FILE.relative_to(ROOT)}.")
+    else:
+        print(f"\nDone. SAVE_STATE=0 — {STATE_FILE.relative_to(ROOT)} "
+              f"left unchanged.")
     return 0
 
 
@@ -462,24 +477,34 @@ def main() -> int:
         if post_tweet(client, text):
             posted += 1
             if not DRY_RUN:
-                seen.add(b["dedup_key"])
-                seen.update(same_day_siblings.get(b["same_day_key"], ()))
-                last_posted[b["state"] or "?"] = now.isoformat()
-                try:
-                    save_raw_record(b)
-                except Exception as e:
-                    print(f"  ! raw-record save failed: {e}", file=sys.stderr)
+                if SAVE_STATE:
+                    seen.add(b["dedup_key"])
+                    seen.update(same_day_siblings.get(b["same_day_key"], ()))
+                    last_posted[b["state"] or "?"] = now.isoformat()
+                if SAVE_RAW:
+                    try:
+                        save_raw_record(b)
+                    except Exception as e:
+                        print(f"  ! raw-record save failed: {e}", file=sys.stderr)
 
     if DRY_RUN:
         print(f"\nDone. Dry run — composed {posted} update(s), no state "
               f"written to {STATE_FILE.relative_to(ROOT)}.")
         return 0
 
-    state["posted"] = sorted(seen)
-    state["state_last_posted"] = last_posted
-    state["last_run"] = datetime.now(timezone.utc).isoformat()
-    save_state(state)
-    print(f"\nDone. Posted {posted} update(s). State saved to {STATE_FILE.relative_to(ROOT)}.")
+    if not SAVE_RAW:
+        print("  SAVE_RAW=0 — bills_raw artifacts not written.")
+
+    if SAVE_STATE:
+        state["posted"] = sorted(seen)
+        state["state_last_posted"] = last_posted
+        state["last_run"] = datetime.now(timezone.utc).isoformat()
+        save_state(state)
+        print(f"\nDone. Posted {posted} update(s). State saved to "
+              f"{STATE_FILE.relative_to(ROOT)}.")
+    else:
+        print(f"\nDone. Posted {posted} update(s). SAVE_STATE=0 — "
+              f"{STATE_FILE.relative_to(ROOT)} left unchanged.")
     return 0
 
 
