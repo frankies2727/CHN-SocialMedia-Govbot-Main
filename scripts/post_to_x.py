@@ -203,7 +203,7 @@ def build_client() -> tweepy.Client:
 
 def post_tweet(client: tweepy.Client | None, text: str) -> bool:
     if DRY_RUN or client is None:
-        print(f"  [DRY RUN] would tweet ({len(text)} chars):\n{text}\n")
+        print(f"  [DRY RUN] skipping tweet ({len(text)} chars)")
         return True
     try:
         resp = client.create_tweet(text=text)
@@ -297,6 +297,11 @@ def _post_forced_bill(records: list[dict], client: tweepy.Client | None) -> int:
 
     if not post_tweet(client, text):
         return 1
+
+    if DRY_RUN:
+        print(f"\nDone. Dry run — no state written to "
+              f"{STATE_FILE.relative_to(ROOT)}.")
+        return 0
 
     seen.add(b["dedup_key"])
     last_posted = state.get("state_last_posted", {})
@@ -455,14 +460,20 @@ def main() -> int:
         print("---")
 
         if post_tweet(client, text):
-            seen.add(b["dedup_key"])
-            seen.update(same_day_siblings.get(b["same_day_key"], ()))
-            last_posted[b["state"] or "?"] = now.isoformat()
             posted += 1
-            try:
-                save_raw_record(b)
-            except Exception as e:
-                print(f"  ! raw-record save failed: {e}", file=sys.stderr)
+            if not DRY_RUN:
+                seen.add(b["dedup_key"])
+                seen.update(same_day_siblings.get(b["same_day_key"], ()))
+                last_posted[b["state"] or "?"] = now.isoformat()
+                try:
+                    save_raw_record(b)
+                except Exception as e:
+                    print(f"  ! raw-record save failed: {e}", file=sys.stderr)
+
+    if DRY_RUN:
+        print(f"\nDone. Dry run — composed {posted} update(s), no state "
+              f"written to {STATE_FILE.relative_to(ROOT)}.")
+        return 0
 
     state["posted"] = sorted(seen)
     state["state_last_posted"] = last_posted
