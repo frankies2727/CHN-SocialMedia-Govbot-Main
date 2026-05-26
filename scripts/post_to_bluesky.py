@@ -2000,20 +2000,55 @@ def format_no_match_error(
     target_ident: str,
     state_matches: list[dict],
     source_filename: str,
+    raw_records: list[dict] | None = None,
 ) -> None:
     """Diagnostic for force-mode when no record matches the requested bill.
 
     Default sorting of the seen-identifier preview was alphabetical, which
     buried the requested bill behind thousands of amendment records (IL's
-    AM1030xxx etc.). This surfaces totals, a per-chamber-prefix breakdown,
-    and the bills that share the user's typed prefix — so an operator who
-    asked for 'SB3392' sees whether SB3392 is actually missing or just got
-    truncated out of the preview."""
+    AM1030xxx etc.). This surfaces:
+      - totals and a per-chamber-prefix breakdown,
+      - the numeric range of bills sharing the typed prefix and a
+        +/- 50 numeric neighborhood window so an operator can see whether
+        the requested number is above the clone's max or sitting in a gap,
+      - and (if raw_records is provided) a check for the typed identifier
+        in the raw JSONL before extract_fields() filters records lacking a
+        title or action data, so a bill that exists in govbot's clone but
+        has no qualifying log entries doesn't read as "missing"."""
     print(
         f"ERROR: no bill matching state={state!r} "
         f"identifier={target_ident!r} in {source_filename}.",
         file=sys.stderr,
     )
+
+    norm_target = _norm_ident(target_ident)
+    target_prefix = _ident_prefix(target_ident)
+    target_key = _ident_sort_key(target_ident)
+    target_num = target_key[1]
+
+    if raw_records is not None:
+        raw_idents: set[str] = set()
+        state_upper = state.upper()
+        for r in raw_records:
+            if detect_state(r) != state_upper:
+                continue
+            bill = r.get("bill") or {}
+            raw_id = bill.get("identifier") or r.get("id") or ""
+            if raw_id:
+                raw_idents.add(raw_id)
+        target_in_raw = next(
+            (i for i in raw_idents if _norm_ident(i) == norm_target),
+            None,
+        )
+        if target_in_raw:
+            print(
+                f"  NOTE: {target_in_raw!r} IS present in {source_filename}, "
+                f"but extract_fields() dropped every record for it. Likely "
+                f"empty bill.title or no log entries with action.description "
+                f"/ action.date yet.",
+                file=sys.stderr,
+            )
+
     if not state_matches:
         print(f"  no records at all for state {state} in {source_filename}.",
               file=sys.stderr)
@@ -2030,28 +2065,52 @@ def format_no_match_error(
     )
     print(f"  prefix breakdown: {breakdown}", file=sys.stderr)
 
-    target_prefix = _ident_prefix(target_ident)
-    if target_prefix:
-        same_prefix = sorted(
-            (i for i in all_idents if _ident_prefix(i) == target_prefix),
-            key=_ident_sort_key,
-        )
-        if same_prefix:
-            preview = ", ".join(same_prefix[:20])
-            more = ("" if len(same_prefix) <= 20
-                    else f" (+{len(same_prefix) - 20} more)")
-            print(f"  identifiers starting with {target_prefix!r} "
-                  f"(first 20): {preview}{more}", file=sys.stderr)
-        else:
-            print(f"  no identifiers starting with {target_prefix!r} in "
-                  f"{state.upper()}.", file=sys.stderr)
-    else:
+    if not target_prefix:
         sorted_idents = sorted(all_idents, key=_ident_sort_key)
         preview = ", ".join(sorted_idents[:20])
         more = ("" if len(sorted_idents) <= 20
                 else f" (+{len(sorted_idents) - 20} more)")
         print(f"  identifiers seen (first 20): {preview}{more}",
               file=sys.stderr)
+        return
+
+    same_prefix = [i for i in all_idents if _ident_prefix(i) == target_prefix]
+    if not same_prefix:
+        print(f"  no identifiers starting with {target_prefix!r} in "
+              f"{state.upper()}.", file=sys.stderr)
+        return
+
+    same_prefix_sorted = sorted(same_prefix, key=_ident_sort_key)
+    nums = [n for n in (_ident_sort_key(i)[1] for i in same_prefix) if n > 0]
+    if nums:
+        lo, hi = min(nums), max(nums)
+        print(f"  {target_prefix} range: {target_prefix}{lo} – "
+              f"{target_prefix}{hi} ({len(same_prefix)} distinct)",
+              file=sys.stderr)
+        if target_num > 0 and target_num > hi:
+            print(f"  ! {target_ident} is above the clone's highest "
+                  f"{target_prefix} ({target_prefix}{hi}) — likely a "
+                  f"different session/GA than what govbot cloned.",
+                  file=sys.stderr)
+
+    if target_num > 0:
+        window = sorted(
+            (i for i in same_prefix
+             if abs(_ident_sort_key(i)[1] - target_num) <= 50),
+            key=_ident_sort_key,
+        )
+        if window:
+            print(f"  {target_prefix} numbers within ±50 of "
+                  f"{target_ident}: {', '.join(window)}", file=sys.stderr)
+        else:
+            print(f"  no {target_prefix} bills within ±50 of "
+                  f"{target_ident} — sits in a gap.", file=sys.stderr)
+
+    preview = ", ".join(same_prefix_sorted[:10])
+    more = ("" if len(same_prefix_sorted) <= 10
+            else f" (+{len(same_prefix_sorted) - 10} more)")
+    print(f"  {target_prefix} identifiers (first 10): {preview}{more}",
+          file=sys.stderr)
 
 
 def _post_forced_bill(records: list[dict]) -> int:
@@ -2075,6 +2134,7 @@ def _post_forced_bill(records: list[dict]) -> int:
             target_ident=FORCE_BILL_ID,
             state_matches=state_matches,
             source_filename=JSONL_PATH.name,
+            raw_records=records,
         )
         return 2
 

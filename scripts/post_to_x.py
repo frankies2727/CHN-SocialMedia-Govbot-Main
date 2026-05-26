@@ -253,6 +253,7 @@ def _post_forced_bill(records: list[dict], client: tweepy.Client | None) -> int:
             target_ident=FORCE_BILL_ID,
             state_matches=state_matches,
             source_filename=JSONL_PATH.name,
+            raw_records=records,
         )
         return 2
 
