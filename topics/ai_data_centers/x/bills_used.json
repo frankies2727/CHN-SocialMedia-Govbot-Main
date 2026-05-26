@@ -16,6 +16,7 @@
     "GA|SB 444|2026-05-05|Senate Date Signed by Governor",
     "GA|SB 444|2027-01-01|Effective Date",
     "IA|SF 2421|2026-02-23|Committee report, approving bill.",
+    "IL|HB2264|2025-04-11|House Floor Amendment No. 1 Rule 19(c) /",
     "KS|HB2696|2026-04-10|Died in Committee",
     "KS|SB467|2026-04-10|Died in Committee",
     "MN|SF 1856|2026-03-04|Author stricken Mitchell",
@@ -46,7 +47,8 @@
     "MO": "2026-05-25T21:50:15.290021+00:00",
     "AL": "2026-05-24T11:56:18.208819+00:00",
     "FL": "2026-05-25T05:09:27.755334+00:00",
-    "NJ": "2026-05-25T13:52:42.308588+00:00"
+    "NJ": "2026-05-25T13:52:42.308588+00:00",
+    "IL": "2026-05-26T01:08:56.456572+00:00"
   },
-  "last_run": "2026-05-25T21:51:23.413731+00:00"
+  "last_run": "2026-05-26T01:08:56.456600+00:00"
 }

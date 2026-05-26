@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Amends the Illinois Vehicle Code. Makes a technical change in a Section concerning the short title."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB2264",
+    "legislative_session": "104th",
+    "title": "TRANSPORTATION-TECH"
+  },
+  "id": "HB2264",
+  "log": {
+    "action": {
+      "date": "2025-04-11",
+      "description": "House Floor Amendment No. 1 Rule 19(c) / Re-referred to Rules Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB2264"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/HB2264/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/HB2264/logs/20250411T000000Z_house_floor_amendment_no_1_rule_19c_rereferred_to_rules_committee.json"
+  },
+  "timestamp": "20250411T000000Z"
+}
