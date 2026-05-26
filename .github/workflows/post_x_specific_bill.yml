@@ -29,7 +29,7 @@ on:
         required: true
         type: string
       dry_run:
-        description: "Dry-run: skip publishing to X only — update_state_file and save_raw_record still apply"
+        description: "Dry-run: create post but skip publishing to X"
         required: false
         type: boolean
         default: true
