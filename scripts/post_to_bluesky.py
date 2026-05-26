@@ -22,6 +22,7 @@ import random
 import re
 import sys
 import time
+from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse, urljoin
@@ -1971,6 +1972,88 @@ def _norm_ident(s: str) -> str:
     return re.sub(r"\s+", "", (s or "")).upper()
 
 
+_IDENT_PREFIX_RE = re.compile(r"^([A-Z]+)")
+_IDENT_SPLIT_RE = re.compile(r"^([A-Z]+)(\d*)")
+
+
+def _ident_prefix(ident: str) -> str:
+    """Leading alpha chars of a bill identifier (e.g. 'SB' from 'SB3392').
+    Returns '' when the ident has no leading letters."""
+    m = _IDENT_PREFIX_RE.match(_norm_ident(ident))
+    return m.group(1) if m else ""
+
+
+def _ident_sort_key(ident: str) -> tuple:
+    """Natural-sort key so SB1 < SB2 < SB10 < SB100 (rather than the
+    string sort that interleaves them as SB1, SB10, SB100, SB2)."""
+    norm = _norm_ident(ident)
+    m = _IDENT_SPLIT_RE.match(norm)
+    if not m:
+        return ("", 0, norm)
+    prefix = m.group(1)
+    num = int(m.group(2)) if m.group(2) else 0
+    return (prefix, num, norm)
+
+
+def format_no_match_error(
+    state: str,
+    target_ident: str,
+    state_matches: list[dict],
+    source_filename: str,
+) -> None:
+    """Diagnostic for force-mode when no record matches the requested bill.
+
+    Default sorting of the seen-identifier preview was alphabetical, which
+    buried the requested bill behind thousands of amendment records (IL's
+    AM1030xxx etc.). This surfaces totals, a per-chamber-prefix breakdown,
+    and the bills that share the user's typed prefix — so an operator who
+    asked for 'SB3392' sees whether SB3392 is actually missing or just got
+    truncated out of the preview."""
+    print(
+        f"ERROR: no bill matching state={state!r} "
+        f"identifier={target_ident!r} in {source_filename}.",
+        file=sys.stderr,
+    )
+    if not state_matches:
+        print(f"  no records at all for state {state} in {source_filename}.",
+              file=sys.stderr)
+        return
+
+    all_idents = {b["identifier"] for b in state_matches}
+    print(f"  {state.upper()} has {len(all_idents)} distinct identifiers "
+          f"across {len(state_matches)} records.", file=sys.stderr)
+
+    prefix_counts = Counter(_ident_prefix(i) for i in all_idents)
+    breakdown = ", ".join(
+        f"{p or '(none)'}={n}"
+        for p, n in prefix_counts.most_common()
+    )
+    print(f"  prefix breakdown: {breakdown}", file=sys.stderr)
+
+    target_prefix = _ident_prefix(target_ident)
+    if target_prefix:
+        same_prefix = sorted(
+            (i for i in all_idents if _ident_prefix(i) == target_prefix),
+            key=_ident_sort_key,
+        )
+        if same_prefix:
+            preview = ", ".join(same_prefix[:20])
+            more = ("" if len(same_prefix) <= 20
+                    else f" (+{len(same_prefix) - 20} more)")
+            print(f"  identifiers starting with {target_prefix!r} "
+                  f"(first 20): {preview}{more}", file=sys.stderr)
+        else:
+            print(f"  no identifiers starting with {target_prefix!r} in "
+                  f"{state.upper()}.", file=sys.stderr)
+    else:
+        sorted_idents = sorted(all_idents, key=_ident_sort_key)
+        preview = ", ".join(sorted_idents[:20])
+        more = ("" if len(sorted_idents) <= 20
+                else f" (+{len(sorted_idents) - 20} more)")
+        print(f"  identifiers seen (first 20): {preview}{more}",
+              file=sys.stderr)
+
+
 def _post_forced_bill(records: list[dict]) -> int:
     target_ident = _norm_ident(FORCE_BILL_ID)
     state_matches: list[dict] = []
@@ -1987,20 +2070,12 @@ def _post_forced_bill(records: list[dict]) -> int:
             bill_matches.append(b)
 
     if not bill_matches:
-        seen_idents = sorted({b["identifier"] for b in state_matches})
-        print(
-            f"ERROR: no bill matching state={FORCE_STATE!r} "
-            f"identifier={FORCE_BILL_ID!r} in {JSONL_PATH.name}.",
-            file=sys.stderr,
+        format_no_match_error(
+            state=FORCE_STATE,
+            target_ident=FORCE_BILL_ID,
+            state_matches=state_matches,
+            source_filename=JSONL_PATH.name,
         )
-        if seen_idents:
-            preview = ", ".join(seen_idents[:20])
-            more = "" if len(seen_idents) <= 20 else f" (+{len(seen_idents) - 20} more)"
-            print(f"  identifiers seen for {FORCE_STATE}: {preview}{more}",
-                  file=sys.stderr)
-        else:
-            print(f"  no records at all for state {FORCE_STATE} in bills.jsonl.",
-                  file=sys.stderr)
         return 2
 
     def _recency(b: dict) -> datetime:
@@ -2169,7 +2244,6 @@ def main() -> int:
         return 0
 
     # Print a state-distribution summary so we can see coverage.
-    from collections import Counter
     state_counts = Counter(b["state"] or "?" for b in candidates)
     top = state_counts.most_common(15)
     print(f"  by state: {', '.join(f'{s}={n}' for s,n in top)}")

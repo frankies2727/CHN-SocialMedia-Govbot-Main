@@ -31,6 +31,7 @@ from post_to_bluesky import (
     best_display_text,
     extract_fields,
     format_action_line,
+    format_no_match_error,
     link_for,
     load_bills,
     shorten_title,
@@ -247,20 +248,12 @@ def _post_forced_bill(records: list[dict], client: tweepy.Client | None) -> int:
             bill_matches.append(b)
 
     if not bill_matches:
-        seen_idents = sorted({b["identifier"] for b in state_matches})
-        print(
-            f"ERROR: no bill matching state={FORCE_STATE!r} "
-            f"identifier={FORCE_BILL_ID!r} in {JSONL_PATH.name}.",
-            file=sys.stderr,
+        format_no_match_error(
+            state=FORCE_STATE,
+            target_ident=FORCE_BILL_ID,
+            state_matches=state_matches,
+            source_filename=JSONL_PATH.name,
         )
-        if seen_idents:
-            preview = ", ".join(seen_idents[:20])
-            more = "" if len(seen_idents) <= 20 else f" (+{len(seen_idents) - 20} more)"
-            print(f"  identifiers seen for {FORCE_STATE}: {preview}{more}",
-                  file=sys.stderr)
-        else:
-            print(f"  no records at all for state {FORCE_STATE} in bills.jsonl.",
-                  file=sys.stderr)
         return 2
 
     def _recency(b: dict) -> datetime:
