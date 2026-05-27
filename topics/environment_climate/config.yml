@@ -1,0 +1,163 @@
+# Environment & Climate bot — covers climate change, emissions, clean
+# energy, conservation, pollution, water/air quality, and environmental
+# justice. Tune keywords after a week of dry-run output by inspecting
+# which bills match and which don't.
+
+name: environment_climate
+display_name: "Environment & Climate"
+prompt_topic: "environmental and climate policy, including greenhouse gas emissions, clean and renewable energy, conservation, pollution, water and air quality, and environmental justice"
+default_emoji: "🌎"
+
+keywords:
+  # Climate / emissions
+  - climate change
+  - climate
+  - climate action
+  - climate resilience
+  - climate adaptation
+  - climate mitigation
+  - greenhouse gas
+  - greenhouse gases
+  - greenhouse gas emissions
+  - carbon emissions
+  - carbon dioxide
+  - carbon pricing
+  - carbon tax
+  - cap and trade
+  - cap-and-trade
+  - emissions reduction
+  - net zero
+  - net-zero
+  - decarbonization
+  - methane
+  - methane emissions
+  - global warming
+
+  # Energy / clean energy
+  - renewable energy
+  - renewable portfolio standard
+  - clean energy
+  - clean energy standard
+  - solar energy
+  - solar power
+  - wind energy
+  - wind power
+  - offshore wind
+  - geothermal
+  - hydroelectric
+  - hydropower
+  - energy storage
+  - battery storage
+  - grid modernization
+  - utility-scale solar
+  - rooftop solar
+  - community solar
+  - net metering
+  - energy efficiency
+  - building electrification
+  - heat pump
+  - heat pumps
+  - fossil fuel
+  - fossil fuels
+  - coal plant
+  - natural gas pipeline
+  - oil and gas
+  - oil and gas drilling
+  - fracking
+  - hydraulic fracturing
+  - pipeline
+
+  # Air / water / pollution
+  - air quality
+  - air pollution
+  - clean air act
+  - water quality
+  - clean water
+  - drinking water
+  - safe drinking water
+  - lead pipe
+  - lead pipes
+  - lead service line
+  - PFAS
+  - forever chemicals
+  - per- and polyfluoroalkyl
+  - microplastic
+  - microplastics
+  - plastic pollution
+  - plastic bag ban
+  - single-use plastic
+  - extended producer responsibility
+  - recycling
+  - waste reduction
+  - landfill
+  - hazardous waste
+  - toxic waste
+  - superfund
+
+  # Conservation / land / wildlife
+  - conservation
+  - public lands
+  - state parks
+  - wildlife
+  - endangered species
+  - biodiversity
+  - wetland
+  - wetlands
+  - watershed
+  - forest management
+  - wildfire
+  - wildfire prevention
+  - prescribed burn
+  - drought
+  - flood mitigation
+  - flood resilience
+  - sea level rise
+  - coastal resilience
+  - stormwater
+
+  # Environmental justice / oversight
+  - environmental justice
+  - environmental protection
+  - department of environmental
+  - environmental review
+  - environmental impact
+
+emojis:
+  - emoji: "🌡️"
+    match: ["climate change", "global warming", "climate adaptation", "climate resilience", "climate mitigation"]
+  - emoji: "💨"
+    match: ["greenhouse gas", "carbon emissions", "carbon dioxide", "methane", "emissions reduction", "decarbonization", "net zero", "net-zero"]
+  - emoji: "💰"
+    match: ["carbon tax", "carbon pricing", "cap and trade", "cap-and-trade"]
+  - emoji: "☀️"
+    match: ["solar energy", "solar power", "rooftop solar", "community solar", "utility-scale solar", "net metering"]
+  - emoji: "💨"
+    match: ["wind energy", "wind power", "offshore wind"]
+  - emoji: "⚡"
+    match: ["renewable energy", "clean energy", "clean energy standard", "renewable portfolio standard", "grid modernization", "energy storage", "battery storage"]
+  - emoji: "🔥"
+    match: ["fossil fuel", "fossil fuels", "coal plant", "natural gas pipeline", "oil and gas", "fracking", "hydraulic fracturing", "pipeline"]
+  - emoji: "🏠"
+    match: ["energy efficiency", "building electrification", "heat pump", "heat pumps"]
+  - emoji: "💧"
+    match: ["water quality", "clean water", "drinking water", "safe drinking water", "stormwater", "watershed", "lead pipe", "lead pipes", "lead service line", "PFAS", "forever chemicals"]
+  - emoji: "🌫️"
+    match: ["air quality", "air pollution", "clean air act"]
+  - emoji: "♻️"
+    match: ["recycling", "waste reduction", "plastic pollution", "plastic bag ban", "single-use plastic", "extended producer responsibility", "microplastic", "microplastics"]
+  - emoji: "☠️"
+    match: ["hazardous waste", "toxic waste", "superfund", "landfill"]
+  - emoji: "🌲"
+    match: ["public lands", "state parks", "forest management", "conservation", "wetland", "wetlands"]
+  - emoji: "🦅"
+    match: ["wildlife", "endangered species", "biodiversity"]
+  - emoji: "🔥"
+    match: ["wildfire", "wildfire prevention", "prescribed burn"]
+  - emoji: "🌊"
+    match: ["flood mitigation", "flood resilience", "sea level rise", "coastal resilience", "drought"]
+  - emoji: "⚖️"
+    match: ["environmental justice", "environmental review", "environmental impact"]
+
+digest:
+  thread_title: "🌎 Environment & Climate Bills Weekly Digest"
+  topic_phrase: "environment and climate"
