@@ -24,8 +24,8 @@ jobs:
     env:
       LLM_MODEL: "gemma3:4b"
       BOT_TOPIC: "ai_data_centers"
-      POST_LIMIT: "6"
-      DRY_RUN: "1"
+      POST_LIMIT: "2"
+      DRY_RUN: "0"
 
     steps:
       - name: Checkout
