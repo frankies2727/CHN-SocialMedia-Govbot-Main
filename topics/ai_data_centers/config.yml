@@ -129,6 +129,92 @@ emojis:
   - emoji: "🔒"
     match: ["data privacy", "consumer data", "personal data", "crypto custody", "digital asset custody"]
 
+# Sub-topic buckets used by post_to_x.py to balance each run across AI/data
+# center vs crypto bills. When POST_LIMIT >= 2 the X poster guarantees one
+# slot per non-empty bucket before the unrestricted weighted draw fills the
+# rest, so every multi-post run includes at least one of each kind whenever
+# candidates exist. Bills matching keywords in both buckets are classified
+# into the FIRST matching bucket — crypto is listed first so dual-match
+# bills count toward the smaller crypto pool and protect it from starvation.
+keyword_groups:
+  crypto:
+    - cryptocurrency
+    - cryptocurrencies
+    - crypto asset
+    - crypto-asset
+    - digital asset
+    - digital assets
+    - virtual currency
+    - virtual currencies
+    - stablecoin
+    - stablecoins
+    - blockchain
+    - distributed ledger
+    - smart contract
+    - decentralized finance
+    - DeFi
+    - crypto exchange
+    - cryptocurrency exchange
+    - digital asset exchange
+    - virtual asset service provider
+    - VASP
+    - money transmitter
+    - bitcoin
+    - ethereum
+    - non-fungible token
+    - NFT
+    - NFTs
+    - Web3
+    - central bank digital currency
+    - CBDC
+    - crypto custody
+    - digital asset custody
+    - cryptocurrency mining
+    - bitcoin mining
+    - crypto mining
+    - proof-of-work
+    - proof of work
+  ai_data_centers:
+    - artificial intelligence
+    - generative AI
+    - generative artificial intelligence
+    - machine learning
+    - deepfake
+    - deepfakes
+    - synthetic media
+    - algorithmic
+    - algorithmic accountability
+    - algorithmic discrimination
+    - automated decision
+    - automated decision-making
+    - automated decisionmaking
+    - automated decision system
+    - facial recognition
+    - biometric
+    - biometrics
+    - chatbot
+    - chatbots
+    - large language model
+    - LLM
+    - foundation model
+    - AI governance
+    - AI safety
+    - AI act
+    - generative content
+    - synthetic content
+    - AI-generated
+    - AI generated
+    - data center
+    - data centers
+    - hyperscale
+    - hyperscaler
+    - colocation facility
+    - server farm
+    - data processing facility
+    - cloud computing facility
+    - GPU cluster
+    - high-performance computing facility
+
 digest:
   thread_title: "🤖 AI, Data Center & Crypto Bills Weekly Digest"
   topic_phrase: "AI, data center, and crypto"

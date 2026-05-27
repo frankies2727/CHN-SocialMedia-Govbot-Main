@@ -48,6 +48,14 @@ class Topic:
     # rebranded (e.g. ai_data_centers uses "x-including-Crypto" to flag that
     # the X bot also tweets crypto-related bills).
     x_subdir: str = "x"
+    # Optional named keyword buckets used by the X poster to balance the daily
+    # draw across sub-topics (e.g. ai_data_centers splits its keywords into
+    # an "ai_data_centers" bucket and a "crypto" bucket so each X run posts at
+    # least one of each when POST_LIMIT permits). Order matters: a bill that
+    # matches multiple buckets is classified into the first matching bucket,
+    # so put the bucket you want to protect from starvation first.
+    keyword_groups: dict[str, list[str]] = field(default_factory=dict)
+    _keyword_group_res: dict[str, re.Pattern] = field(repr=False, default_factory=dict)
 
     # ------------------------------------------------------------------
     # Loading
@@ -107,6 +115,19 @@ class Topic:
 
         x_subdir = (data.get("x_subdir") or "x").strip() or "x"
 
+        raw_groups = data.get("keyword_groups") or {}
+        keyword_groups: dict[str, list[str]] = {}
+        keyword_group_res: dict[str, re.Pattern] = {}
+        for group_name, group_kws in raw_groups.items():
+            kws = [k for k in (group_kws or []) if k]
+            if not kws:
+                continue
+            keyword_groups[str(group_name)] = list(kws)
+            keyword_group_res[str(group_name)] = re.compile(
+                r"\b(" + "|".join(re.escape(k) for k in kws) + r")\b",
+                re.IGNORECASE,
+            )
+
         return cls(
             name=name,
             display_name=display_name,
@@ -122,6 +143,8 @@ class Topic:
             negative_keywords=negative_keywords,
             _negative_re=negative_re,
             x_subdir=x_subdir,
+            keyword_groups=keyword_groups,
+            _keyword_group_res=keyword_group_res,
         )
 
     # ------------------------------------------------------------------
@@ -165,6 +188,25 @@ class Topic:
             if any(p.lower() in s for p in patterns):
                 return emoji
         return self.default_emoji
+
+    def primary_group_for(self, b: dict) -> str | None:
+        """Classify a bill into one of the named keyword_groups buckets.
+        Returns the first bucket whose keyword regex matches the bill's
+        title / abstract / subjects, or None if no bucket matches (or no
+        buckets are configured). Iteration order follows config order, so
+        a bill matching multiple buckets is assigned to the first one —
+        put the bucket you want to protect from starvation first."""
+        if not self._keyword_group_res:
+            return None
+        text = " ".join([
+            b.get("title", ""),
+            b.get("abstract", ""),
+            b.get("subjects", ""),
+        ])
+        for name, pattern in self._keyword_group_res.items():
+            if pattern.search(text):
+                return name
+        return None
 
     # ------------------------------------------------------------------
     # Prompts and copy

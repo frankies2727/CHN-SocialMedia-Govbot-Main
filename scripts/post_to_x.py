@@ -462,9 +462,44 @@ def main() -> int:
             picked.append(pool.pop(idx))
         return picked
 
-    to_post = weighted_draw(descriptive, POST_LIMIT)
+    # Balanced draw across topic.keyword_groups: when the topic defines named
+    # sub-buckets (e.g. ai_data_centers splits "ai_data_centers" vs "crypto")
+    # and POST_LIMIT can cover at least one per bucket, guarantee one slot per
+    # non-empty bucket before the unrestricted weighted draw fills the rest.
+    # If a bucket has no candidates this run, its slot falls through to the
+    # general pool rather than being skipped, so the run still posts
+    # POST_LIMIT bills whenever there are enough candidates total.
+    groups = TOPIC.keyword_groups
+    to_post: list[dict] = []
+    if groups and POST_LIMIT >= len(groups):
+        by_group: dict[str, list[dict]] = {g: [] for g in groups}
+        for b in descriptive:
+            g = TOPIC.primary_group_for(b)
+            if g in by_group:
+                by_group[g].append(b)
+        bucket_summary = ", ".join(f"{g}={len(by_group[g])}" for g in groups)
+        print(f"  keyword_groups buckets (descriptive): {bucket_summary}")
+        picked_ids: set[str] = set()
+        for g in groups:
+            bucket = [b for b in by_group[g] if b["dedup_key"] not in picked_ids]
+            if not bucket:
+                print(f"  bucket {g!r} empty — slot will fall through to general pool.")
+                continue
+            for b in weighted_draw(bucket, 1):
+                to_post.append(b)
+                picked_ids.add(b["dedup_key"])
+        if len(to_post) < POST_LIMIT:
+            rest = [b for b in descriptive if b["dedup_key"] not in picked_ids]
+            for b in weighted_draw(rest, POST_LIMIT - len(to_post)):
+                to_post.append(b)
+                picked_ids.add(b["dedup_key"])
+    else:
+        to_post = weighted_draw(descriptive, POST_LIMIT)
+
     if len(to_post) < POST_LIMIT:
-        to_post.extend(weighted_draw(stubs, POST_LIMIT - len(to_post)))
+        picked_ids = {b["dedup_key"] for b in to_post}
+        stub_pool = [b for b in stubs if b["dedup_key"] not in picked_ids]
+        to_post.extend(weighted_draw(stub_pool, POST_LIMIT - len(to_post)))
 
     distinct_states = len({b["state"] or "?" for b in to_post})
     print(f"Pool: {len(descriptive)} state(s) with descriptive bills, {len(stubs)} stub-only.")
