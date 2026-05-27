@@ -65,9 +65,12 @@ FORCE_STATE = (os.environ.get("FORCE_STATE") or "").strip().lower()
 FORCE_BILL_ID = (os.environ.get("FORCE_BILL_ID") or "").strip()
 FORCE_REPOST = os.environ.get("FORCE_REPOST") == "1"
 
-# X budgets every URL at 23 t.co chars regardless of actual length.
 MAX_TWEET = 280
-X_URL_LEN = 23
+
+# Posted at the end of the bill tweet so readers know to look for the bill
+# URL in the reply. Plain ASCII so Python len() matches X's weighted count.
+REPLY_NOTICE = "Link to bill in reply."
+REPLY_NOTICE_BLOCK = f"\n\n{REPLY_NOTICE}"
 
 X_API_KEY = os.environ.get("X_API_KEY", "")
 X_API_SECRET = os.environ.get("X_API_SECRET", "")
@@ -124,9 +127,13 @@ def save_raw_record(b: dict) -> None:
 # ---------------------------------------------------------------------------
 
 def compose_x_post(b: dict, summary: str, headline: str = "") -> tuple[str, str]:
+    """Return (main_tweet_text, bill_url). The bill URL is NOT in the main
+    text — it's intended to be posted as a reply so the main tweet doesn't
+    spend ~25 chars of t.co budget on a link. The main text gets a
+    ``Link to bill in reply.`` notice when a URL is available."""
     emoji = TOPIC.emoji_for(b)
     url = link_for(b)
-    url_block = f"\n\n{url}" if url else ""
+    notice_block = REPLY_NOTICE_BLOCK if url else ""
 
     state_label = b["state"] or "?"
     display = best_display_text(b, headline=headline).strip()
@@ -146,42 +153,38 @@ def compose_x_post(b: dict, summary: str, headline: str = "") -> tuple[str, str]
     prefix_len = len(prefix)
     head = f"{prefix}{display}"
 
-    def assemble(h: str, s: str, a: str, u: str) -> str:
-        return h + s + a + u
+    def assemble(h: str, s: str, a: str, n: str) -> str:
+        return h + s + a + n
 
-    text = assemble(head, summary_block, action_block, url_block)
-
-    # The URL costs exactly X_URL_LEN in X's budget; the rest counts normally.
-    url_cost = X_URL_LEN + 2 if url else 0  # +2 for the "\n\n" separator
-    non_url_len = lambda t: len(t) - len(url_block) if url else len(t)
+    text = assemble(head, summary_block, action_block, notice_block)
 
     # Trim order matches Bluesky: summary → display in head → action desc.
-    if non_url_len(text) + url_cost > MAX_TWEET and summary_block:
-        overflow = non_url_len(text) + url_cost - MAX_TWEET
+    if len(text) > MAX_TWEET and summary_block:
+        overflow = len(text) - MAX_TWEET
         new_len = max(0, len(summary) - overflow - 1)
         if new_len > 20:
             summary = _smart_truncate(summary, new_len + 1)
             summary_block = f"\n\n{summary}"
         else:
             summary_block = ""
-        text = assemble(head, summary_block, action_block, url_block)
+        text = assemble(head, summary_block, action_block, notice_block)
 
-    if non_url_len(text) + url_cost > MAX_TWEET:
-        avail = MAX_TWEET - url_cost - len(summary_block) - len(action_block) - prefix_len - 1
+    if len(text) > MAX_TWEET:
+        avail = MAX_TWEET - len(notice_block) - len(summary_block) - len(action_block) - prefix_len - 1
         if avail > 0:
             display_trimmed = _smart_truncate(display, avail + 1)
         else:
             display_trimmed = ""
         head = f"{prefix}{display_trimmed}".rstrip(" —")
-        text = assemble(head, summary_block, action_block, url_block)
+        text = assemble(head, summary_block, action_block, notice_block)
 
-    if non_url_len(text) + url_cost > MAX_TWEET and action_block and action_line:
+    if len(text) > MAX_TWEET and action_block and action_line:
         nice_date = _format_date(b["action_date"])
         if nice_date:
             date_prefix = f"{nice_date}: "
             if action_line.startswith(date_prefix):
                 desc_part = action_line[len(date_prefix):].rstrip(".!?")
-                overflow = non_url_len(text) + url_cost - MAX_TWEET
+                overflow = len(text) - MAX_TWEET
                 new_len = max(0, len(desc_part) - overflow - 1)
                 if new_len > 8:
                     action_line = date_prefix + _smart_truncate(desc_part, new_len + 1)
@@ -191,7 +194,7 @@ def compose_x_post(b: dict, summary: str, headline: str = "") -> tuple[str, str]
                     action_block = ""
             else:
                 action_block = f"\n\n{action_line}"
-        text = assemble(head, summary_block, action_block, url_block)
+        text = assemble(head, summary_block, action_block, notice_block)
 
     return text, url
 
@@ -210,18 +213,32 @@ def build_client() -> tweepy.Client:
     )
 
 
-def post_tweet(client: tweepy.Client | None, text: str) -> bool:
+def post_tweet(client: tweepy.Client | None, text: str, reply_url: str = "") -> bool:
+    """Post the main tweet, then (if ``reply_url`` is given) post a reply
+    containing just that URL. Returns True iff the main tweet was posted —
+    a failed reply is logged but does not flip the result, so the bill is
+    still recorded as posted and the URL ends up only missing from the
+    thread (better than re-posting the whole bill on the next run)."""
     if DRY_RUN or client is None:
         print(f"  [DRY RUN] skipping tweet ({len(text)} chars)")
+        if reply_url:
+            print(f"  [DRY RUN] skipping link reply: {reply_url}")
         return True
     try:
         resp = client.create_tweet(text=text)
         tweet_id = resp.data["id"]
         print(f"  posted: https://x.com/i/web/status/{tweet_id}")
-        return True
     except Exception as e:
         print(f"  ! tweet failed: {e}", file=sys.stderr)
         return False
+    if reply_url:
+        try:
+            reply = client.create_tweet(text=reply_url, in_reply_to_tweet_id=tweet_id)
+            reply_id = reply.data["id"]
+            print(f"  link reply: https://x.com/i/web/status/{reply_id}")
+        except Exception as e:
+            print(f"  ! link reply failed: {e}", file=sys.stderr)
+    return True
 
 
 # ---------------------------------------------------------------------------
@@ -291,13 +308,15 @@ def _post_forced_bill(records: list[dict], client: tweepy.Client | None) -> int:
 
     summary_text = summarize(b)
     headline = shorten_title(b)
-    text, _url = compose_x_post(b, summary_text, headline=headline)
+    text, url = compose_x_post(b, summary_text, headline=headline)
 
     print(f"\n--- {b['state'] or '?'} {b['identifier']} ({b['action_date']}) ---")
     print(text)
+    if url:
+        print(f"  ↳ reply: {url}")
     print("---")
 
-    if not post_tweet(client, text):
+    if not post_tweet(client, text, reply_url=url):
         return 1
 
     if SAVE_RAW:
@@ -457,13 +476,15 @@ def main() -> int:
     for b in to_post:
         summary_text = summarize(b)
         headline = shorten_title(b)
-        text, _url = compose_x_post(b, summary_text, headline=headline)
+        text, url = compose_x_post(b, summary_text, headline=headline)
 
         print(f"\n--- {b['state'] or '?'} {b['identifier']} ({b['action_date']}) ---")
         print(text)
+        if url:
+            print(f"  ↳ reply: {url}")
         print("---")
 
-        if post_tweet(client, text):
+        if post_tweet(client, text, reply_url=url):
             posted += 1
             if SAVE_STATE:
                 seen.add(b["dedup_key"])
