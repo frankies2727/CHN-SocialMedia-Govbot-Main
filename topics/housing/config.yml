@@ -12,7 +12,6 @@ keywords:
   - housing affordability
   - public housing
   - subsidized housing
-  - section 8
   - housing voucher
   - housing vouchers
   - housing choice voucher
@@ -92,6 +91,13 @@ keywords:
   - housing discrimination
   - lead paint
   - habitable
+
+# Context keywords are too broad to stand alone — they only count as a match
+# when a core keyword above also appears. "section 8" lives here because the
+# word-boundary regex matches statute citations like "TCA Section 8-23-203"
+# (e.g. TN HB 1399's minimum-wage bill) as the federal housing program.
+context_keywords:
+  - section 8
 
 emojis:
   - emoji: "🏘️"

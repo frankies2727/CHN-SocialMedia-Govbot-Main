@@ -72,7 +72,6 @@ keywords:
   - school board
   - school boards
   - superintendent
-  - principal
   - paraprofessional
   - paraeducator
   - school counselor
@@ -126,6 +125,14 @@ keywords:
   - school safety
   - school shooting
   - school threat assessment
+
+# Context keywords are too broad to stand alone — they only count as a match
+# when a core keyword above also appears. "principal" lives here because it
+# is the Spanish word for "main/primary" (e.g. "diagnostico principal" in
+# PR PC1007's mental-health bill), and Puerto Rico bill titles are matched
+# before translation to English.
+context_keywords:
+  - principal
 
 emojis:
   - emoji: "🏫"
