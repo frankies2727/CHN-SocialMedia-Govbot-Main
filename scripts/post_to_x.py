@@ -127,6 +127,35 @@ def save_raw_record(b: dict) -> None:
 # Composition
 # ---------------------------------------------------------------------------
 
+def x_summary_budget(b: dict, headline: str) -> int:
+    """Character budget available for the summary block inside an X post,
+    given the head (emoji + state + id + display), the action line, and
+    the ``Link to bill in reply.`` notice that will sit alongside it.
+    Returned so the caller can ask the LLM for a summary that fits
+    cleanly instead of relying on compose_x_post's post-hoc trim — when
+    the trim fires it just lops off the tail of the model's sentence at
+    a word boundary, which usually drops the most concrete clause."""
+    emoji = TOPIC.emoji_for(b)
+    state_label = b["state"] or "?"
+    display = best_display_text(b, headline=headline).strip()
+    prefix = f"{emoji} {state_label} {b['identifier']} — "
+    head_len = len(prefix) + len(display)
+    action_line = format_action_line(b["action_desc"], b["action_date"])
+    action_block_len = len(f"\n\n{action_line}") if action_line else 0
+    url = link_for(b)
+    notice_block_len = len(REPLY_NOTICE_BLOCK) if url else 0
+    # The summary itself is preceded by "\n\n" (2 chars). Anything below
+    # MIN_SUMMARY_CHARS isn't worth asking the model for — drop the block.
+    summary_sep_len = 2
+    return MAX_TWEET - head_len - action_block_len - notice_block_len - summary_sep_len
+
+
+# Below this floor the summary block is too short to add useful detail
+# beyond the headline — return "" from the caller so the LLM round-trip
+# is skipped and the post composes without a summary block at all.
+MIN_SUMMARY_CHARS = 60
+
+
 def compose_x_post(b: dict, summary: str, headline: str = "") -> tuple[str, str]:
     """Return (main_tweet_text, bill_url). The bill URL is NOT in the main
     text — it's intended to be posted as a reply so the main tweet doesn't
@@ -308,8 +337,9 @@ def _post_forced_bill(records: list[dict], client: tweepy.Client | None) -> int:
           f"dedup_key={b['dedup_key']}")
 
     ensure_english_fields(b)
-    summary_text = summarize(b)
     headline = shorten_title(b)
+    budget = x_summary_budget(b, headline)
+    summary_text = summarize(b, max_chars=budget) if budget >= MIN_SUMMARY_CHARS else ""
     text, url = compose_x_post(b, summary_text, headline=headline)
 
     print(f"\n--- {b['state'] or '?'} {b['identifier']} ({b['action_date']}) ---")
@@ -512,8 +542,9 @@ def main() -> int:
     posted = 0
     for b in to_post:
         ensure_english_fields(b)
-        summary_text = summarize(b)
         headline = shorten_title(b)
+        budget = x_summary_budget(b, headline)
+        summary_text = summarize(b, max_chars=budget) if budget >= MIN_SUMMARY_CHARS else ""
         text, url = compose_x_post(b, summary_text, headline=headline)
 
         print(f"\n--- {b['state'] or '?'} {b['identifier']} ({b['action_date']}) ---")

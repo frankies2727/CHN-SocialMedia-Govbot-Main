@@ -212,7 +212,7 @@ class Topic:
     # Prompts and copy
     # ------------------------------------------------------------------
 
-    def summary_system_prompt(self) -> str:
+    def summary_system_prompt(self, max_chars: int = 160) -> str:
         return (
             f"You summarize US legislative bills for a civic-engagement Bluesky bot "
             f"focused on {self.prompt_topic}. The bill's title is shown directly above "
@@ -226,7 +226,7 @@ class Topic:
             f"The description may be a long statute containing bill-number prefixes, "
             f"section and chapter citations, and a drafter's name — ignore those and "
             f"summarize the bill's substantive policy change. "
-            f"Output exactly ONE plain-text sentence under 160 characters, neutral and "
+            f"Output exactly ONE plain-text sentence under {max_chars} characters, neutral and "
             f"concrete. No emoji, no hashtags, no editorializing, no surrounding quotes, "
             f"no leading phrases like 'This bill', 'The bill', or 'The Act'. Do not "
             f"include any preamble, explanation, or trailing notes."
