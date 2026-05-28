@@ -114,9 +114,27 @@ jobs:
           path: ~/.ollama/models
           key: ollama-models-${{ env.LLM_MODEL }}-v1
 
+      - name: Cache Ollama binary
+        # Bump the -v1 suffix to force a fresh install (e.g. to pick up a
+        # new Ollama release).
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama-bin
+          key: ollama-bin-v1-linux-amd64
+
       - name: Install Ollama and pull the LLM model
         run: |
-          curl -fsSL https://ollama.com/install.sh | sh
+          if [ -f "$HOME/.ollama-bin/usr-local.tar" ]; then
+            echo "Restoring Ollama binary from cache."
+            sudo tar -C / -xf "$HOME/.ollama-bin/usr-local.tar"
+          else
+            curl -fsSL https://ollama.com/install.sh | sh
+            mkdir -p "$HOME/.ollama-bin"
+            PATHS="usr/local/bin/ollama"
+            [ -d /usr/local/lib/ollama ] && PATHS="$PATHS usr/local/lib/ollama"
+            sudo tar -C / -cf "$HOME/.ollama-bin/usr-local.tar" $PATHS
+            sudo chown -R "$USER:$USER" "$HOME/.ollama-bin"
+          fi
           nohup ollama serve > /tmp/ollama.log 2>&1 &
           for i in $(seq 1 30); do
             if curl -fsS http://localhost:11434/api/tags > /dev/null 2>&1; then
@@ -125,7 +143,11 @@ jobs:
             fi
             sleep 1
           done
-          ollama pull "$LLM_MODEL"
+          if ollama list | awk 'NR>1 {print $1}' | grep -qx "$LLM_MODEL"; then
+            echo "$LLM_MODEL already present, skipping pull."
+          else
+            ollama pull "$LLM_MODEL"
+          fi
           ollama list
 
       - name: Post specific bill to Bluesky

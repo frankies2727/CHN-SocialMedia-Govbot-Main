@@ -96,9 +96,28 @@ jobs:
           path: ~/.ollama/models
           key: ollama-models-${{ env.LLM_MODEL }}-v1
 
+      - name: Cache Ollama binary
+        # Bump the -v1 suffix to force a fresh install (e.g. to pick up a
+        # new Ollama release).
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama-bin
+          key: ollama-bin-v1-linux-amd64
+
       - name: Install Ollama and pull the LLM model
         run: |
-          curl -fsSL https://ollama.com/install.sh | sh
+          if [ -f "$HOME/.ollama-bin/usr-local.tar" ]; then
+            echo "Restoring Ollama binary from cache."
+            sudo tar -C / -xf "$HOME/.ollama-bin/usr-local.tar"
+          else
+            curl -fsSL https://ollama.com/install.sh | sh
+            mkdir -p "$HOME/.ollama-bin"
+            # Snapshot binary + libs so the next run skips the ~600 MB download.
+            PATHS="usr/local/bin/ollama"
+            [ -d /usr/local/lib/ollama ] && PATHS="$PATHS usr/local/lib/ollama"
+            sudo tar -C / -cf "$HOME/.ollama-bin/usr-local.tar" $PATHS
+            sudo chown -R "$USER:$USER" "$HOME/.ollama-bin"
+          fi
           # Start Ollama in the background; logs to /tmp for debugging.
           nohup ollama serve > /tmp/ollama.log 2>&1 &
           # Wait for the server to come up.
@@ -109,9 +128,13 @@ jobs:
             fi
             sleep 1
           done
-          # Cheap no-op when the model is already on disk (cache hit);
-          # otherwise does the full ~1 GB download.
-          ollama pull "$LLM_MODEL"
+          # Skip the pull entirely if the model is already on disk (cache hit);
+          # otherwise do the full ~3.3 GB download.
+          if ollama list | awk 'NR>1 {print $1}' | grep -qx "$LLM_MODEL"; then
+            echo "$LLM_MODEL already present, skipping pull."
+          else
+            ollama pull "$LLM_MODEL"
+          fi
           ollama list
 
       - name: Filter, summarize, and post to Bluesky (all topics)
