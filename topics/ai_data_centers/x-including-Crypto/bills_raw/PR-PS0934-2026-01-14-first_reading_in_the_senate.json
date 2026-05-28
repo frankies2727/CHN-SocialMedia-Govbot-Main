@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "PS0934",
+    "legislative_session": "2025-2028",
+    "title": "“Para crear la Ley de Educación en Blockchain y Criptomonedas para Jóvenes Emprendedores en Puerto Rico; integrar cursos obligatorios y optativos en currículos de escuelas secundarias públicas, universidades del sistema público y programas vocacionales; ofrecer certificados gratuitos de competencia básica y avanzada; fomentar la creación de startups en finanzas digitales y tecnologías descentralizadas; promover el desarrollo de talento local en la industria blockchain; y para otros fines relacionados.”"
+  },
+  "id": "PS0934",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2026-01-14T04:00:00+00:00",
+      "description": "Aparece en Primera Lectura del Senado",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "PS0934"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PS0934/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PS0934/logs/20260114T040000Z_aparece_en_primera_lectura_del_senado.json"
+  },
+  "timestamp": "20260114T040000Z"
+}

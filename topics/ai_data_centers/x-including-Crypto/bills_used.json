@@ -5,6 +5,9 @@
     "AL|SB270|2026-04-09|Enrolled",
     "AL|SB270|2026-04-09|Signature Requested",
     "AL|SB270|2026-04-17|Enacted",
+    "AL|SB63|2026-04-09|Delivered to Governor",
+    "AL|SB63|2026-04-09|Enrolled",
+    "AL|SB63|2026-04-09|Signature Requested",
     "AL|SB63|2026-04-17|Enacted",
     "CA|AB2392|2026-05-14|From committee: Do pass. (Ayes 14. Noes ",
     "FL|SB 2D|2026-04-28|",
@@ -45,6 +48,7 @@
     "NJ|A1401|2026-01-13|WITHDRAWN APP P.L.2025, c.367.",
     "NJ|A3611|2026-01-13|WITHDRAWN APP P.L.2025, c.335.",
     "NJ|S2956|2026-01-13|WITHDRAWN APP P.L.2025, c.367.",
+    "PR|PS0934|2026-01-14|Aparece en Primera Lectura del Senado",
     "WA|SB 5956|2026-02-24|ED - Majority; do pass with amendment(s)",
     "WA|SB 5956|2026-02-24|Executive action taken in the House Comm",
     "WA|SB 5956|2026-02-24|Minority; do not pass.",
@@ -62,10 +66,11 @@
     "CA": "2026-05-21T18:08:47.914991+00:00",
     "MS": "2026-05-27T03:05:58.226214+00:00",
     "MO": "2026-05-27T03:05:58.226214+00:00",
-    "AL": "2026-05-27T03:05:58.226214+00:00",
+    "AL": "2026-05-28T02:01:41.125292+00:00",
     "FL": "2026-05-25T05:09:27.755334+00:00",
     "NJ": "2026-05-27T03:05:58.226214+00:00",
-    "IL": "2026-05-26T01:08:56.456572+00:00"
+    "IL": "2026-05-26T01:08:56.456572+00:00",
+    "PR": "2026-05-28T02:01:41.125292+00:00"
   },
-  "last_run": "2026-05-27T23:07:41.407386+00:00"
+  "last_run": "2026-05-28T02:03:02.571571+00:00"
 }
