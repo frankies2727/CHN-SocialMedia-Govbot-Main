@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HF 1567",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Courts",
+      "Data Practices and Privacy",
+      "Police and Peace Officers"
+    ],
+    "title": "Personal information protections provided to public safety officers."
+  },
+  "id": "HF 1567",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-02-23",
+      "description": "Committee report, to adopt as amended",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HF 1567"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF1567/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF1567/logs/20260223T000000Z_committee_report_to_adopt_as_amended.json"
+  },
+  "timestamp": "20260223T000000Z"
+}

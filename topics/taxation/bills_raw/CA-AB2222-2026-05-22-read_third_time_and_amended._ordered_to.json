@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "The Personal Income Tax Law and the Corporation Tax Law allow various credits against the taxes imposed by those laws, including a credit for specified new hiring and employment. Existing law establishes the continuously appropriated Tax Relief and Refund Account and provides that payments required to be made to taxpayers or other persons from the Personal Income Tax Fund are to be paid from that account. Existing law also establishes the continuously appropriated Corporation Tax Fund in the State Treasury for the purpose of making refunds pursuant to existing law.\n\nThis bill would, for taxable years beginning on or after January 1, 2027, and before January 1, 2032, allow a credit against those taxes to a qualified taxpayer, as defined, equal to $20,000 for each qualifying journalist, as defined, employed by the taxpayer, not to exceed 5 qualifying journalists. The bill would also allow a credit of $15,000 for each qualifying journalist employed by the taxpayer in excess of 5 qualifying journalists, and a credit of $7,500 for each qualifying part-time journalist, as defined, employed by the taxpayer. The bill would allow an additional credit of $15,000 for each qualifying journalist in a new journalism position, as defined. The bill would require the amount of the credit exceeding the taxpayer's liability to be credited against other amounts due, if any, and would require the balance to be paid from the Tax Relief and Refund Account or the Corporation Tax Fund, as specified, and refunded to the taxpayer. By increasing the payments from the Tax Relief and Refund Account and the Corporation Tax Fund, which are continuously appropriated funds, the bill would make an appropriation.\n\nExisting law requires any bill authorizing a new tax expenditure, as defined, to include tax credits, to contain, among other things, specific goals that the tax credit will achieve, detailed performance indicators, and data collection requirements.\n\nThis bill also would include additional information required for any bill authorizing a new tax expenditure. The bill would also require the Franchise Tax Board to publish a report on its internet website listing the qualified taxpayers allowed a credit, the amount of credits awarded to each qualified taxpayer, the total number of qualifying journalists whose positions were supported by the credits, the geographic distribution of credits by county within the state, and the total dollar amount of credits allowed.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2222",
+    "legislative_session": "20252026",
+    "subject": [
+      "PersonalIncomeTaxLawandCorporationTaxLaw",
+      "credits",
+      "localnewsorganizations"
+    ],
+    "title": "Personal Income Tax Law and Corporation Tax Law: credits: local news organizations."
+  },
+  "id": "AB2222",
+  "log": {
+    "action": {
+      "classification": [
+        "amendment-passage",
+        "reading-1",
+        "reading-3"
+      ],
+      "date": "2026-05-22",
+      "description": "Read third time and amended. Ordered to third reading.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB2222"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2222/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2222/logs/20260522T000000Z_read_third_time_and_amended_ordered_to_third_reading.json"
+  },
+  "timestamp": "20260522T000000Z"
+}

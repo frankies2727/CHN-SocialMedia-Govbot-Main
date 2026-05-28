@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB372",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Attorney General",
+      "Children and Minors",
+      "Consumer Protection",
+      "Named Acts"
+    ],
+    "title": "Enacting the app store accountability act to regulate app store and developer operations with respect to minors, create requirements for age verification and parental consent and provide for enforcement under the Kansas consumer protection act and through a private cause of action."
+  },
+  "id": "SB372",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died on House Calendar",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB372"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB372/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB372/logs/20260410T000000Z_died_on_house_calendar.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

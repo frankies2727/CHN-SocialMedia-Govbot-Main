@@ -1,0 +1,24 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 5820",
+    "legislative_session": "2025-2026",
+    "title": "Concerning the responsibility of certain counties to include freight rail dependent use overlay as part of the transportation element of their comprehensive plan."
+  },
+  "id": "SB 5820",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-03-30",
+      "description": "Effective date 6/11/2026.",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "SB 5820"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB5820/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB5820/logs/20260330T000000Z.classification.became-law.executive.json"
+  }
+}

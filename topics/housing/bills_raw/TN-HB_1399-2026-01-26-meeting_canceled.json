@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1399",
+    "legislative_session": "114",
+    "subject": [
+      "Salaries and Benefits"
+    ],
+    "title": "Salaries and Benefits - As introduced, increases, from $7.25 to $20, the minimum hourly wage for employees within this state. - Amends TCA Section 8-23-203; Title 12 and Title 50, Chapter 2."
+  },
+  "id": "HB 1399",
+  "log": {
+    "action": {
+      "date": "2026-01-26",
+      "description": "Meeting Canceled",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1399"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1399/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1399/logs/20260126T000000Z_meeting_canceled.json"
+  },
+  "timestamp": "20260126T000000Z"
+}

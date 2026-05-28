@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act adds optometrists as health care providers who are eligible for the Health Care Provider Loan Repayment Program and limits the number of health care loan provider repayment grants to 2 optometrists per year.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 260",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO THE DELAWARE HEALTH CARE COMMISSION HEALTH CARE PROVIDER LOAN REPAYMENT PROGRAM."
+  },
+  "id": "HB 260",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-03-24",
+      "description": "Passed By Senate. Votes: 21 YES",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB 260"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB260/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB260/logs/20260324T000000Z.classification.passage.upper.json"
+  }
+}

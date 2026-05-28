@@ -79,6 +79,8 @@
     "NJ|S1465|2026-01-13|WITHDRAWN APP P.L.2025, c.197.",
     "NJ|S2797|2026-01-13|WITHDRAWN APP P.L.2025, c.284.",
     "NJ|S671|2026-01-13|WITHDRAWN APP P.L.2025, c.298.",
+    "PR|PC1007|2026-05-21|1er Informe Comisi\u00f3n rendido con enmiend",
+    "PR|PC1007|2026-05-21|Entirillado del Informe",
     "RI|HB7680|2026-04-24|04/24/2026 Scheduled for hearing and/or ",
     "RI|HB7680|2026-04-28|04/28/2026 Committee recommended measure",
     "TN|HB 0663|2026-01-21|Taken off notice for cal in s/c  Higher ",
@@ -87,6 +89,8 @@
     "TN|SB 1655|2026-01-21|Passed on Second Consideration, refer to",
     "TN|SB 1662|2026-01-21|Passed on Second Consideration, refer to",
     "TN|SB 1671|2026-01-21|Passed on Second Consideration, refer to",
+    "WA|SB 5841|2026-03-20|Effective date 6/11/2026.",
+    "WA|SB 5841|2026-03-20|Governor signed.",
     "WA|SB 5872|2026-03-14|Effective date 3/14/2026*.",
     "WA|SB 5994|2026-03-16|Effective date 3/16/2026.",
     "WA|SB 5994|2026-03-16|Governor signed.",
@@ -102,7 +106,7 @@
     "WI|SB1|2026-05-13|Read a third time",
     "WI|SB1|2026-05-13|Rules suspended to give bill its third r"
   ],
-  "last_run": "2026-05-27T16:25:56.916297+00:00",
+  "last_run": "2026-05-28T10:53:37.202636+00:00",
   "state_last_posted": {
     "HI": "2026-05-16T02:57:07.992280+00:00",
     "NH": "2026-05-16T02:57:07.992280+00:00",
@@ -119,9 +123,10 @@
     "IA": "2026-05-23T20:53:29.693570+00:00",
     "CA": "2026-05-24T20:53:19.888156+00:00",
     "NJ": "2026-05-26T16:24:27.821781+00:00",
-    "WA": "2026-05-23T08:30:50.386261+00:00",
+    "WA": "2026-05-28T10:49:41.741890+00:00",
     "AL": "2026-05-24T20:53:19.888156+00:00",
     "FL": "2026-05-27T16:25:30.929876+00:00",
-    "GA": "2026-05-22T14:52:23.294678+00:00"
+    "GA": "2026-05-22T14:52:23.294678+00:00",
+    "PR": "2026-05-28T10:49:41.741890+00:00"
   }
 }

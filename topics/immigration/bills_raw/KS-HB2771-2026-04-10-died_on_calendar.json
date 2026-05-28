@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB2771",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Attorney General",
+      "Counties",
+      "Immigration and Naturalization",
+      "Law Enforcement"
+    ],
+    "title": "Establishing requirements for the county sheriff operating a jail for the enforcement of United States immigration and customs enforcement detainers, requiring municipal insurance pools to provide coverage for law enforcement that enforces federal laws, requiring the state to pay certain judgements in a federal court action, requiring the attorney general to provide representation in certain civil actions and authorizing county sheriffs to enter into certain interlocal cooperation agreements without the approval of the board of county commissioners."
+  },
+  "id": "HB2771",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died on Calendar",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB2771"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2771/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2771/logs/20260410T000000Z_died_on_calendar.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HCR5027",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Constitutional Amendments (Kansas)",
+      "Elections",
+      "Governor",
+      "Resolutions"
+    ],
+    "title": "Proposing to amend article 1 of the constitution of the state of Kansas by adding a new section establishing a system of electing the governor and the lieutenant governor by creating a state electoral college whereby each state senatorial district would have a vote in selection of the governor and the lieutenant governor."
+  },
+  "id": "HCR5027",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died in Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HCR5027"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HCR5027/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HCR5027/logs/20260410T000000Z_died_in_committee.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

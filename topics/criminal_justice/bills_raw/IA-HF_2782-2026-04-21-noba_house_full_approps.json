@@ -1,0 +1,40 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HF 2782",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "appropriations",
+      "block grants",
+      "children",
+      "disabilities",
+      "families",
+      "health",
+      "health and human services department",
+      "juvenile justice",
+      "maternity",
+      "medical assistance",
+      "mental health",
+      "narcotics",
+      "older persons",
+      "substance use disorder",
+      "supplementary assistance",
+      "veterans affairs department"
+    ],
+    "title": "A bill for an act relating to and making appropriations to the department of veterans affairs and the department of health and human services, including aging and disability services, behavioral health, public health, and community access and eligibility; the medical assistance program, state supplementary assistance, Hawki, and other health-related programs; family well-being and protection; state-operated specialty care; administration and compliance; transfers, cash flow, and nonreversions; report on nonreversion of moneys; more options for maternal support program; reimbursement rates review; mental diseases exclusion waiver; community health centers reimbursement; full-time equivalent dashboard; comprehensive family support program; federal community mental health services block grant; child welfare and juvenile justice decategorization; commitment or hospitalization of certain persons with substance abuse disorders or mental illness; behavioral health expenditure report; and opioid settlement fund; and including effective date and retroactive applicability provisions."
+  },
+  "id": "HF 2782",
+  "log": {
+    "action": {
+      "date": "2026-04-21",
+      "description": "NOBA: House Full Approps",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "HF 2782"
+  },
+  "sources": {
+    "bill": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/HF2782/metadata.json",
+    "log": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/HF2782/logs/20260421T000000Z_noba_house_full_approps.json"
+  },
+  "timestamp": "20260421T000000Z"
+}

@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Doula Support for Healthy Births Pilot Program;  Establishes pilot program in Broward, Miami-Dade, & Palm Beach Counties for specified purpose; requires DOH, in collaboration with its maternal & child health section, to implement & oversee pilot program; requires pilot program to target specified populations for enrollment; specifies services that must be provided under pilot program; requires department to collaborate with specified entities to integrate doula services into existing maternal health programs & facilitate outreach & service delivery; authorizes department to integrate doula services into existing maternal & child health programs as expansion of pilot program, subject to certain requirements; creates Doula Certification Task Force within department for specified purpose; requires department to oversee & provide administrative support to task force; requires task force to submit final report of its findings & recommendations to Governor & Legislature by specified date.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 515",
+    "legislative_session": "2026",
+    "subject": [
+      "subject index",
+      "t"
+    ],
+    "title": "Doula Support for Healthy Births Pilot Program"
+  },
+  "id": "HB 515",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in Health Professions & Programs Subcommittee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 515"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB515/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB515/logs/20260313T000000Z_died_in_health_professions_programs_subcommittee.json"
+  },
+  "timestamp": "20260313T000000Z"
+}

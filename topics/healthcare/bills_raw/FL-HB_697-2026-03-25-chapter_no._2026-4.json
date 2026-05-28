@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Drug Prices and Coverage ;  Revises definition of term \"pharmacy benefits plan or program\" to exclude plan or program that exclusively serves PACE organization; requires contracts between pharmacy benefit managers & participating pharmacies to allow specified option in administrative appeal procedure; provides pharmacy benefit manager prohibited practices relating to pharmacies & pharmacists.\r\n    \r\n        APPROPRIATION:\r\n        $30,901,933",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 697",
+    "legislative_session": "2026",
+    "subject": [
+      "and solicitations",
+      "appropriations",
+      "regulation of professions and occupations",
+      "subject index"
+    ],
+    "title": "Drug Prices and Coverage"
+  },
+  "id": "HB 697",
+  "log": {
+    "action": {
+      "date": "2026-03-25",
+      "description": "Chapter No. 2026-4",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "HB 697"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB697/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB697/logs/20260325T000000Z_chapter_no_20264.json"
+  },
+  "timestamp": "20260325T000000Z"
+}

@@ -17,8 +17,10 @@
     "CA|SB934|2026-05-19|",
     "CA|SB934|2026-05-19|Read third time. Passed. (Ayes 30. Noes ",
     "CA|SB934|2026-05-20|In Assembly. Read first time. Held at De",
+    "KS|HB2267|2026-04-10|Died in Committee",
     "KS|HB2407|2026-04-10|Died in Committee",
     "KS|HB2741|2026-04-10|Died in Committee",
+    "MO|HB 1672|2026-01-28|HCS Reported Do Pass (H)",
     "MO|HJR 142|2026-01-07|Read First Time (H)",
     "MO|HJR 142|2026-01-08|Read Second Time (H)",
     "MO|HJR 142|2026-05-15|Referred: Emerging Issues(H)",
@@ -60,10 +62,10 @@
   ],
   "state_last_posted": {
     "WA": "2026-05-24T21:01:19.732360+00:00",
-    "MO": "2026-05-22T20:08:46.105841+00:00",
-    "KS": "2026-05-18T02:10:29.271757+00:00",
+    "MO": "2026-05-28T10:57:58.645947+00:00",
+    "KS": "2026-05-28T10:57:58.645947+00:00",
     "CA": "2026-05-25T13:12:01.545933+00:00",
     "NJ": "2026-05-24T02:51:34.499116+00:00"
   },
-  "last_run": "2026-05-25T13:13:29.509579+00:00"
+  "last_run": "2026-05-28T10:58:03.085831+00:00"
 }

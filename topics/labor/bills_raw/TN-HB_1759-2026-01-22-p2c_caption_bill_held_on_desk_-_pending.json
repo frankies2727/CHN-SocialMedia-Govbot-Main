@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1759",
+    "legislative_session": "114",
+    "subject": [
+      "Dept. of",
+      "Education"
+    ],
+    "title": "Education, Dept. of - As introduced, changes from September 1 to December 1 the date by which the department must compile and publish to its website a directory of the name and contact information for the apprenticeship training program contact for each public high school. - Amends TCA Title 4 and Title 49."
+  },
+  "id": "HB 1759",
+  "log": {
+    "action": {
+      "date": "2026-01-22",
+      "description": "P2C, caption bill, held on desk - pending amdt.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1759"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1759/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1759/logs/20260122T000000Z_p2c_caption_bill_held_on_desk_pending_amdt.json"
+  },
+  "timestamp": "20260122T000000Z"
+}

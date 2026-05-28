@@ -1,0 +1,24 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 5841",
+    "legislative_session": "2025-2026",
+    "title": "Concerning the completion of postsecondary financial aid applications."
+  },
+  "id": "SB 5841",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-03-20",
+      "description": "Effective date 6/11/2026.",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "SB 5841"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB5841/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB5841/logs/20260320T000000Z.classification.became-law.executive.json"
+  }
+}

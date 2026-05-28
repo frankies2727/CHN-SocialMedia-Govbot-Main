@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HF 3707",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Courts",
+      "Employment and Economic Development Department",
+      "Unemployment Insurance"
+    ],
+    "title": "Unemployment insurance judges and paid leave judges designated as judicial officials."
+  },
+  "id": "HF 3707",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-03-05",
+      "description": "Committee report, to adopt and re-refer to Judiciary Finance and Civil Law",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HF 3707"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF3707/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF3707/logs/20260305T000000Z_committee_report_to_adopt_and_rerefer_to_judiciary_finance_and_civil_law.json"
+  },
+  "timestamp": "20260305T000000Z"
+}
