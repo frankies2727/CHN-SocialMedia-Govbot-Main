@@ -1,13 +1,19 @@
 name: collect-samples
 
 # A standalone workflow that fetches govbot data and saves a batch of full
-# bill records into the samples/ folder. Does NOT post anything to Bluesky.
-# Does NOT overwrite existing samples — each run adds new files alongside
-# whatever is already there.
+# bill records into the samples/ folder.
 #
-# Filenames include a short hash of the record's contents, so re-running
-# this workflow won't duplicate identical records but WILL save new variations
+# By default it does NOT post anything — it just saves samples. It never
+# overwrites existing samples: each run adds new files alongside whatever is
+# already there. Filenames include a short hash of the record's contents, so
+# re-running won't duplicate identical records but WILL save new variations
 # (e.g. the same bill with a newer log action) as separate files.
+#
+# Optionally (publish=true) the bills picked this run can ALSO be published to
+# one designated topic's account — on Bluesky, X, or both — reusing the same
+# force-post path as the post_*_specific_bill workflows. Publishing is fully
+# independent of sample-saving: the picked bills are always written to samples/
+# regardless of what you choose here.
 
 on:
   workflow_dispatch:
@@ -33,6 +39,61 @@ on:
         required: false
         default: ""
 
+      # --- Optional publishing knobs ---------------------------------------
+      publish:
+        description: "Publish the bills picked this run to a topic account (samples are saved either way)"
+        required: false
+        type: boolean
+        default: false
+      publish_topic:
+        description: "Designated topic / account to publish the picked bills to (only used when publish=true)"
+        required: false
+        type: choice
+        default: ai_data_centers
+        options:
+          - ai_data_centers
+          - criminal_justice
+          - education
+          - elections_voting_rights
+          - environment_climate
+          - healthcare
+          - housing
+          - immigration
+          - labor
+          - lgbtq
+          - reproductive_rights
+          - taxation
+          - transportation
+      publish_target:
+        description: "Where to publish (only used when publish=true)"
+        required: false
+        type: choice
+        default: bluesky
+        options:
+          - bluesky
+          - x
+          - both
+      dry_run:
+        description: "Dry-run: compose posts but skip actually publishing (defaults ON for safety)"
+        required: false
+        type: boolean
+        default: true
+      force_repost:
+        description: "Bypass the bills_used.json dedup gate (allows re-posting already-posted bills)"
+        required: false
+        type: boolean
+        default: false
+      update_state_file:
+        description: "Append the posted bills to the topic's bills_used.json"
+        required: false
+        type: boolean
+        default: true
+      save_raw_record:
+        description: "Write the verbatim bill record to the topic's bills_raw/"
+        required: false
+        type: boolean
+        default: true
+
 permissions:
   contents: write
 
@@ -43,8 +104,25 @@ defaults:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
+    env:
+      LLM_MODEL: "gemma3:4b"
     steps:
+      - name: Free disk space
+        # Only needed when publishing, since that pulls the Ollama LLM (~3.3 GB)
+        # on top of the govbot clones. Strip out preinstalled tooling we never
+        # use to avoid "No space left on device".
+        if: ${{ inputs.publish }}
+        uses: jlumbroso/free-disk-space@v1.3.1
+        with:
+          tool-cache: false
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: false
+          docker-images: true
+          swap-storage: true
+
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -52,6 +130,13 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: "pip"
+
+      - name: Install Python deps
+        # Required so scripts/topic.py (and post_to_*.py) can import PyYAML,
+        # tweepy, atproto, etc. Without this the topic filter / publish steps
+        # crash with "ModuleNotFoundError: No module named 'yaml'".
+        run: pip install -r requirements.txt
 
       - name: Install govbot, fetch data, dump JSONL
         run: |
@@ -250,6 +335,22 @@ jobs:
                       if len(picks) >= target:
                           break
 
+          # Emit the bills picked this run as a manifest so an optional publish
+          # step can force-post each one. One "state<TAB>identifier" line per
+          # pick. We list every pick (not just newly-saved sample files) so
+          # publishing covers the full set selected this run.
+          with open("picked_bills.tsv", "w", encoding="utf-8") as mf:
+              written = 0
+              for rec in picks:
+                  st = find_state(rec).lower()
+                  ident = (rec.get("bill") or {}).get("identifier") or rec.get("id") or ""
+                  ident = str(ident).strip()
+                  if not st or st == "unknown" or not ident:
+                      continue
+                  mf.write(f"{st}\t{ident}\n")
+                  written += 1
+          print(f"Wrote picked_bills.tsv with {written} publishable pick(s).")
+
           # Existing filenames so we know what to skip
           existing = {p.name for p in SAMPLES_DIR.iterdir() if p.is_file()}
 
@@ -280,13 +381,104 @@ jobs:
           print(f"\nAdded {new_files} new file(s). samples/ now has {total} total.")
           PY
 
-      - name: Commit new samples
+      # --- Optional publishing -----------------------------------------------
+      # Ollama (local LLM) is only needed to summarize bills for posting, so
+      # these steps run only when publish=true.
+      - name: Cache Ollama model
+        if: ${{ inputs.publish }}
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama/models
+          key: ollama-models-${{ env.LLM_MODEL }}-v1
+
+      - name: Cache Ollama binary
+        if: ${{ inputs.publish }}
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama-bin
+          key: ollama-bin-v1-linux-amd64
+
+      - name: Install Ollama and pull the LLM model
+        if: ${{ inputs.publish }}
+        run: |
+          if [ -f "$HOME/.ollama-bin/usr-local.tar" ]; then
+            echo "Restoring Ollama binary from cache."
+            sudo tar -C / -xf "$HOME/.ollama-bin/usr-local.tar"
+          else
+            curl -fsSL https://ollama.com/install.sh | sh
+            mkdir -p "$HOME/.ollama-bin"
+            PATHS="usr/local/bin/ollama"
+            [ -d /usr/local/lib/ollama ] && PATHS="$PATHS usr/local/lib/ollama"
+            sudo tar -C / -cf "$HOME/.ollama-bin/usr-local.tar" $PATHS
+            sudo chown -R "$USER:$USER" "$HOME/.ollama-bin"
+          fi
+          nohup ollama serve > /tmp/ollama.log 2>&1 &
+          for i in $(seq 1 30); do
+            if curl -fsS http://localhost:11434/api/tags > /dev/null 2>&1; then
+              echo "Ollama is ready."
+              break
+            fi
+            sleep 1
+          done
+          if ollama list | awk 'NR>1 {print $1}' | grep -qx "$LLM_MODEL"; then
+            echo "$LLM_MODEL already present, skipping pull."
+          else
+            ollama pull "$LLM_MODEL"
+          fi
+          ollama list
+
+      - name: Publish picked bills to the designated topic
+        if: ${{ inputs.publish }}
+        env:
+          # toJSON(secrets) exposes the whole secret map so post_to_bluesky.py
+          # can read BLUESKY_HANDLE_<NAME> / BLUESKY_APP_PASSWORD_<NAME> for the
+          # chosen topic at runtime.
+          ALL_SECRETS: ${{ toJSON(secrets) }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          LLM_API_URL: "http://localhost:11434/api/chat"
+          BOT_TOPIC: ${{ inputs.publish_topic }}
+          PUBLISH_TARGET: ${{ inputs.publish_target }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+          FORCE_REPOST: ${{ inputs.force_repost && '1' || '0' }}
+          SAVE_STATE: ${{ inputs.update_state_file && '1' || '0' }}
+          SAVE_RAW: ${{ inputs.save_raw_record && '1' || '0' }}
+        run: |
+          if [ ! -s picked_bills.tsv ]; then
+            echo "No publishable bills were picked this run; nothing to publish."
+            exit 0
+          fi
+          echo "Publishing $(wc -l < picked_bills.tsv) bill(s) to '$BOT_TOPIC' "
+          echo "(target=$PUBLISH_TARGET, dry_run=$DRY_RUN, force_repost=$FORCE_REPOST, "
+          echo " save_state=$SAVE_STATE, save_raw=$SAVE_RAW)"
+          failures=0
+          while IFS=$'\t' read -r st bill || [ -n "$st" ]; do
+            [ -z "$st" ] && continue
+            echo "=== $st $bill -> $BOT_TOPIC ==="
+            export FORCE_STATE="$st"
+            export FORCE_BILL_ID="$bill"
+            if [ "$PUBLISH_TARGET" = "bluesky" ] || [ "$PUBLISH_TARGET" = "both" ]; then
+              python scripts/post_to_bluesky.py || { echo "  ! bluesky publish failed for $st $bill"; failures=$((failures+1)); }
+            fi
+            if [ "$PUBLISH_TARGET" = "x" ] || [ "$PUBLISH_TARGET" = "both" ]; then
+              python scripts/post_to_x.py || { echo "  ! X publish failed for $st $bill"; failures=$((failures+1)); }
+            fi
+          done < picked_bills.tsv
+          echo "Publishing done with $failures failure(s)."
+
+      - name: Commit new samples (and any published state)
         run: |
           git config user.name  "samples-bot"
           git config user.email "samples-bot@users.noreply.github.com"
           git add samples/ || true
+          if [ "${{ inputs.publish }}" = "true" ] && [ "${{ inputs.dry_run }}" != "true" ]; then
+            git add topics/*/bills_used.json topics/*/bills_raw || true
+            git add topics/*/x*/bills_used.json topics/*/x*/bills_raw || true
+          fi
           if git diff --cached --quiet; then
-            echo "No new samples to commit."
+            echo "Nothing to commit."
           else
             git commit -m "samples: add new bill records [skip ci]"
             git push
