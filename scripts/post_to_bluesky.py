@@ -1299,6 +1299,8 @@ def _b_ks(session, ident):  # verified — kslegislature.gov biennium URL
     # used here previously now 301s into a 404: the redirect target keeps the
     # `_` between bill type and number, but the new path requires no
     # underscore (e.g. /b2025_26/bills/sb113/, not .../sb_113/).
+    # Resolutions (HCR, SCR, HR, SR, HJR, SJR) live under /resolutions/ on the
+    # same domain — /bills/hcr5027/ 404s while /resolutions/hcr5027/ resolves.
     year = _first_year(session)
     typ, num = _split_ident(ident)
     if not (year and typ and num):
@@ -1307,7 +1309,8 @@ def _b_ks(session, ident):  # verified — kslegislature.gov biennium URL
     if y % 2 == 0:
         y -= 1  # bienniums start in odd years
     next_yy = str(y + 1)[-2:]
-    return f"https://www.kslegislature.gov/b{y}_{next_yy}/bills/{typ.lower()}{num}/"
+    path = "resolutions" if typ.upper() in {"HR", "SR", "HCR", "SCR", "HJR", "SJR"} else "bills"
+    return f"https://www.kslegislature.gov/b{y}_{next_yy}/{path}/{typ.lower()}{num}/"
 
 
 def _b_pr(session, ident):  # best-effort — openstates.org canonical PR bill URL
