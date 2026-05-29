@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Amends the Illinois Municipal Code and the Open Space Lands Acquisition and Development Act. Provides that the use of open space for temporary stormwater storage is allowed and does not constitute a change in use. Provides that temporary stormwater storage does not interfere with a requirement that the property must be open to the public for recreation use. Defines \"temporary stormwater storage\"."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB3590",
+    "legislative_session": "104th",
+    "title": "MUN CD-TEMP STORMWATER RUNOFF"
+  },
+  "id": "HB3590",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2025-02-18",
+      "description": "First Reading",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB3590"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/HB3590/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/HB3590/logs/20250218T000000Z_first_reading.json"
+  },
+  "timestamp": "20250218T000000Z"
+}

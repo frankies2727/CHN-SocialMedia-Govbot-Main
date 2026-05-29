@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Amends the Wildlife Code. Authorizes the taking of deer with a wildlife rifle (rather than a single shot centerfire rifle). Defines the term \"wildlife rifle\" as a centerfire rifle that can hold up to 3 rounds in the magazine and chamber combined. Defines the term \"straight-walled centerfire cartridge\" as a cartridge that is used as ammunition in a centerfire and that has a diameter that is the same across its length and a metallic casing that extends to the projectile. Repeals the definition of and references to \"single shot\"."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB3219",
+    "legislative_session": "104th",
+    "title": "WILDLIFE-RIFLE/AMMO LIMIT"
+  },
+  "id": "HB3219",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2025-02-18",
+      "description": "First Reading",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB3219"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/HB3219/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/HB3219/logs/20250218T000000Z_first_reading.json"
+  },
+  "timestamp": "20250218T000000Z"
+}
