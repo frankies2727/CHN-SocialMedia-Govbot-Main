@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 3887",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Commerce and Commerce Department",
+      "Government-Local",
+      "Insurance-Health"
+    ],
+    "title": "Watershed districts, watershed management organizations, and towns permission to self-insure for certain employee health benefits"
+  },
+  "id": "SF 3887",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-2"
+      ],
+      "date": "2026-03-05",
+      "description": "Second reading",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 3887"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF3887/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF3887/logs/20260305T000000Z_second_reading.json"
+  },
+  "timestamp": "20260305T000000Z"
+}
