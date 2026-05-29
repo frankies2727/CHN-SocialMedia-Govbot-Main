@@ -9,11 +9,13 @@ name: collect-samples
 # re-running won't duplicate identical records but WILL save new variations
 # (e.g. the same bill with a newer log action) as separate files.
 #
-# Optionally (publish=true) the bills picked this run can ALSO be published to
-# one designated topic's account — on Bluesky, X, or both — reusing the same
-# force-post path as the post_*_specific_bill workflows. Publishing is fully
-# independent of sample-saving: the picked bills are always written to samples/
-# regardless of what you choose here.
+# Optionally the bills picked this run can ALSO be composed for one designated
+# topic's account — on Bluesky, X, or both — reusing the same force-post path as
+# the post_*_specific_bill workflows. Set publish=true to actually post them, or
+# leave publish off and turn dry_run on to compose a preview without posting.
+# Either way a specific topic (not 'all') must be selected. Composing/publishing
+# is independent of sample-saving: the picked bills are always written to
+# samples/ regardless of what you choose here.
 
 on:
   workflow_dispatch:
@@ -35,7 +37,7 @@ on:
         required: false
         default: ""
       topic:
-        description: "Topic to filter samples by (and publish to when publish=true). 'all' = no topic filter."
+        description: "Topic to filter samples by (and to compose/publish for when publish or dry_run is on). 'all' = no topic filter; a specific topic is required to compose or publish."
         required: false
         type: choice
         default: all
@@ -59,12 +61,12 @@ on:
 
       # --- Optional publishing knobs ---------------------------------------
       publish:
-        description: "Publish the bills picked this run to the selected topic's account (samples are saved either way; requires a specific topic, not 'all')"
+        description: "Actually publish the bills picked this run to the selected topic's account (samples are saved either way; requires a specific topic, not 'all'). Leave off + turn dry_run on to compose a preview without posting."
         required: false
         type: boolean
         default: false
       publish_target:
-        description: "Where to publish (only used when publish=true)"
+        description: "Where to publish / which account to compose for (used when publish or dry_run is on)"
         required: false
         type: choice
         default: bluesky
@@ -73,10 +75,10 @@ on:
           - x
           - both
       dry_run:
-        description: "Dry-run: compose posts but skip actually publishing (defaults ON for safety)"
+        description: "Compose posts for the selected topic but skip actually publishing. Turn this on (with publish off) to preview composed posts without posting."
         required: false
         type: boolean
-        default: true
+        default: false
       force_repost:
         description: "Bypass the bills_used.json dedup gate (allows re-posting already-posted bills)"
         required: false
@@ -108,10 +110,10 @@ jobs:
       LLM_MODEL: "gemma3:4b"
     steps:
       - name: Free disk space
-        # Only needed when publishing, since that pulls the Ollama LLM (~3.3 GB)
-        # on top of the govbot clones. Strip out preinstalled tooling we never
-        # use to avoid "No space left on device".
-        if: ${{ inputs.publish }}
+        # Only needed when composing/publishing, since that pulls the Ollama LLM
+        # (~3.3 GB) on top of the govbot clones. Strip out preinstalled tooling
+        # we never use to avoid "No space left on device".
+        if: ${{ inputs.publish || inputs.dry_run }}
         uses: jlumbroso/free-disk-space@v1.3.1
         with:
           tool-cache: false
@@ -384,21 +386,21 @@ jobs:
       # Ollama (local LLM) is only needed to summarize bills for posting, so
       # these steps run only when publish=true.
       - name: Cache Ollama model
-        if: ${{ inputs.publish }}
+        if: ${{ inputs.publish || inputs.dry_run }}
         uses: actions/cache@v4
         with:
           path: ~/.ollama/models
           key: ollama-models-${{ env.LLM_MODEL }}-v1
 
       - name: Cache Ollama binary
-        if: ${{ inputs.publish }}
+        if: ${{ inputs.publish || inputs.dry_run }}
         uses: actions/cache@v4
         with:
           path: ~/.ollama-bin
           key: ollama-bin-v1-linux-amd64
 
       - name: Install Ollama and pull the LLM model
-        if: ${{ inputs.publish }}
+        if: ${{ inputs.publish || inputs.dry_run }}
         run: |
           if [ -f "$HOME/.ollama-bin/usr-local.tar" ]; then
             echo "Restoring Ollama binary from cache."
@@ -426,8 +428,8 @@ jobs:
           fi
           ollama list
 
-      - name: Publish picked bills to the designated topic
-        if: ${{ inputs.publish }}
+      - name: Compose (and, unless dry-run, publish) picked bills for the topic
+        if: ${{ inputs.publish || inputs.dry_run }}
         env:
           # toJSON(secrets) exposes the whole secret map so post_to_bluesky.py
           # can read BLUESKY_HANDLE_<NAME> / BLUESKY_APP_PASSWORD_<NAME> for the
@@ -446,14 +448,14 @@ jobs:
           SAVE_RAW: ${{ inputs.save_raw_record && '1' || '0' }}
         run: |
           if [ "$BOT_TOPIC" = "all" ]; then
-            echo "publish=true requires a specific topic, but topic is 'all'. Select a topic to publish to."
+            echo "Composing/publishing requires a specific topic, but topic is 'all'. Select a topic to compose or publish for."
             exit 1
           fi
           if [ ! -s picked_bills.tsv ]; then
-            echo "No publishable bills were picked this run; nothing to publish."
+            echo "No publishable bills were picked this run; nothing to compose or publish."
             exit 0
           fi
-          echo "Publishing $(wc -l < picked_bills.tsv) bill(s) to '$BOT_TOPIC' "
+          echo "Composing $(wc -l < picked_bills.tsv) bill(s) for '$BOT_TOPIC' "
           echo "(target=$PUBLISH_TARGET, dry_run=$DRY_RUN, force_repost=$FORCE_REPOST, "
           echo " save_state=$SAVE_STATE, save_raw=$SAVE_RAW)"
           failures=0
