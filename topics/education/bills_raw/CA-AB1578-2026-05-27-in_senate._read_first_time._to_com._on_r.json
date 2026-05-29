@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "The California Fair Employment and Housing Act makes specified employment practices unlawful, including the harassment of an employee directly by the employer or indirectly by agents of the employer with the employer's knowledge. Under existing law, the Civil Rights Department administers these provisions. Existing law requires a specified employer with 5 or more employees to, by January 1, 2021, provide at least 2 hours of classroom or other effective interactive training and education regarding sexual harassment to all supervisory employees and at least one hour of classroom or other effective interactive training and education regarding sexual harassment to all nonsupervisory employees in California and, after that date, once every 2 years. Existing law requires an employer to include prevention of abusive conduct as a component of that training and education.\n\nThis bill would additionally require, beginning on January 1, 2028, for an employer that is a state agency or local agency that the above-described training and education include, as a component of the training and education for elected officials, anti-hate speech training, as described.\n\nExisting law requires an employee who has received the above-described training and education within the prior 2 years as specified, to be given, and be required to read and to acknowledge receipt of, the employer's anti-harassment policy within 6 months of assuming the employee's new position. Existing law requires the employee then be put on a 2-year tracking schedule based on the employee's last training. Under existing law, the current employer has the burden of establishing that the prior training was legally compliant with the act.\n\nThis bill would specify that a state official or local official who serves more than one state agency or local agency only be required to receive the above-described training once every 2 years without regard to the number of state agencies or local agencies the official serves.\n\nExisting law requires local agency officials, as defined, to receive sexual harassment prevention training and education if the local agency provides any type of compensation, salary, or stipend to those officials. Existing law requires the training and education to include practical examples aimed at instructing the local agency official in the prevention of sexual harassment, discrimination, and retaliation.\n\nThis bill would additionally require, beginning on January 1, 2028, the above-described training and education include for any elected state or local official, as a component of the training and education, anti-hate speech training, as described.\n\nBy imposing new requirements on local agencies, this bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1578",
+    "legislative_session": "20252026",
+    "subject": [
+      "Stateandlocalofficials",
+      "anti-hatespeechtraining",
+      "sexualharassmenttrainingandeducation"
+    ],
+    "title": "State and local officials: sexual harassment training and education: anti-hate speech training."
+  },
+  "id": "AB1578",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2026-05-27",
+      "description": "In Senate. Read first time. To Com. on RLS. for assignment.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "AB1578"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1578/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1578/logs/20260527T000000Z_in_senate_read_first_time_to_com_on_rls_for_assignment.json"
+  },
+  "timestamp": "20260527T000000Z"
+}

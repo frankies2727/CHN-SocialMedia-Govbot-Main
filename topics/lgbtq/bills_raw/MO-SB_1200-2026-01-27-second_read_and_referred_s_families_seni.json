@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Removes the expiration date on certain provisions relating to gender transition",
+        "note": "abstract"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1200",
+    "legislative_session": "2026",
+    "title": "Removes the expiration date on certain provisions relating to gender transition"
+  },
+  "id": "SB 1200",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-2",
+        "referral-committee"
+      ],
+      "date": "2026-01-27T06:00:00+00:00",
+      "description": "Second Read and Referred S Families, Seniors and Health Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1200"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB1200/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB1200/logs/20260127T060000Z_second_read_and_referred_s_families_seniors_and_health_committee.json"
+  },
+  "timestamp": "20260127T060000Z"
+}

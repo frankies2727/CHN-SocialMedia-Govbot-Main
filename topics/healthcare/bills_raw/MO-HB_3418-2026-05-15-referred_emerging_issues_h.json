@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 3418",
+    "legislative_session": "2026",
+    "subject": [
+      "DRUGS AND CONTROLLED SUBSTANCES",
+      "PHARMACY"
+    ],
+    "title": "Modifies provisions relating to prescription drug coverage"
+  },
+  "id": "HB 3418",
+  "log": {
+    "action": {
+      "classification": [
+        "referral-committee"
+      ],
+      "date": "2026-05-15T05:00:00+00:00",
+      "description": "Referred: Emerging Issues(H)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 3418"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB3418/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB3418/logs/20260515T050000Z_referred_emerging_issuesh.json"
+  },
+  "timestamp": "20260515T050000Z"
+}

@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A RESOLUTION creating the Senate Study Committee on the Impact of Artificial Intelligence; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SR 789",
+    "legislative_session": "2025_26",
+    "title": "Senate Study Committee on the Impact of Artificial Intelligence; create"
+  },
+  "id": "SR 789",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-03-31",
+      "description": "Senate Passed/Adopted By Substitute",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SR 789"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SR789/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SR789/logs/20260331T000000Z.classification.passage.upper.json"
+  }
+}

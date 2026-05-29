@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Mr. Barrett, a petition (accompanied by bill) (subject to Joint Rule 12) of Michael J. Barrett for legislation to exempt municipal solar facilities from regional limits on net metering.  Telecommunications, Utilities and Energy.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SD3238",
+    "legislative_session": "194th",
+    "title": "An Act to exempt municipal solar facilities from regional limits on net metering"
+  },
+  "id": "SD3238",
+  "log": {
+    "action": {
+      "date": "2026-04-01",
+      "description": "Rules suspended",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SD3238"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/SD3238/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/SD3238/logs/20260401T000000Z_rules_suspended.json"
+  },
+  "timestamp": "20260401T000000Z"
+}

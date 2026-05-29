@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "RKC0032",
+    "legislative_session": "2025-2028",
+    "title": "Para ordenar al Departamento de Recursos Naturales y Ambientales (DRNA) y a la Autoridad de Acueductos y Alcantarillados (AAA) a realizar un estudio exhaustivo sobre la contaminación de sustancias perfluoradas y polifluoradas (PFAS, por sus siglas en inglés) en el agua, con el fin de desarrollar e implementar medidas correctivas para mitigar los efectos nocivos de estas sustancias."
+  },
+  "id": "RKC0032",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2026-01-12T04:00:00+00:00",
+      "description": "Aparece en Primera Lectura de la Cámara",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "RKC0032"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RKC0032/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RKC0032/logs/20260112T040000Z_aparece_en_primera_lectura_de_la_cámara.json"
+  },
+  "timestamp": "20260112T040000Z"
+}

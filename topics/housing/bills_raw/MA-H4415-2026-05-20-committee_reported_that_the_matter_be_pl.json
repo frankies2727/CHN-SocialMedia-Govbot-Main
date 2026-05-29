@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Michael J. Moran of Boston, a petition (accompanied by bill, House, No. 4415) of Michael J. Moran (with the approval of the mayor and city council) relative to the procurement and award of contracts for construction of a certain affordable housing and cultural space in the Brighton section of the city of Boston.  State Administration and Regulatory Oversight.  [Local Approval Received.]",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H4415",
+    "legislative_session": "194th",
+    "title": "An Act relative to certain affordable housing and cultural space in the Brighton section of the city of Boston"
+  },
+  "id": "H4415",
+  "log": {
+    "action": {
+      "date": "2026-05-20",
+      "description": "Committee reported that the matter be placed in the Orders of the Day for the next sitting for a second reading with the amendment pending",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "H4415"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4415/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4415/logs/20260520T000000Z_committee_reported_that_the_matter_be_placed_in_the_orders_of_the_day_for_the_next_sitting_for_a_sec.json"
+  },
+  "timestamp": "20260520T000000Z"
+}

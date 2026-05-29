@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HCR5034",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Boards, Commissions and Task Forces",
+      "Constitutional Amendments (Kansas)",
+      "Funds",
+      "Resolutions",
+      "Taxation"
+    ],
+    "title": "Proposing to amend the constitution of the state of Kansas by revising article 11 by establishing the freedom from taxes fund, establishing the Kansas citizens freedom review board, authorizing the board to review tax exemptions and approve or eliminate such exemptions and eliminating the motor vehicle property taxes and fees, state-mandated and state-imposed property taxes and state-imposed income and privilege taxes."
+  },
+  "id": "HCR5034",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died in Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HCR5034"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HCR5034/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HCR5034/logs/20260410T000000Z_died_in_committee.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

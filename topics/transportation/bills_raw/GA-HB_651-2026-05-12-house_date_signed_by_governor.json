@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Article 2 of Chapter 14 of Title 40 of the O.C.G.A., relating to speed detection devices, so as to revise provisions relative to the use of automated traffic enforcement safety devices in school zones; to amend Title 15 of the O.C.G.A., relating to courts, so as to authorize district attorneys, solicitors-general, and prosecuting attorneys to enforce civil monetary penalties relative to the enforcement of laws regarding speeding in a school zone using recorded images; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 651",
+    "legislative_session": "2025_26",
+    "subject": [
+      "EDUCATION",
+      "MOTOR VEHICLES AND TRAFFIC"
+    ],
+    "title": "Motor vehicles; use of automated traffic enforcement safety devices in school zones; revise provisions"
+  },
+  "id": "HB 651",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-05-12",
+      "description": "House Date Signed by Governor",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 651"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB651/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB651/logs/20260512T000000Z_house_date_signed_by_governor.json"
+  },
+  "timestamp": "20260512T000000Z"
+}

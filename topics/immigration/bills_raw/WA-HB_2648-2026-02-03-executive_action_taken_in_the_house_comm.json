@@ -1,0 +1,22 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2648",
+    "legislative_session": "2025-2026",
+    "title": "Concerning state and local law enforcement interactions with federal immigration enforcement officials."
+  },
+  "id": "HB 2648",
+  "log": {
+    "action": {
+      "date": "2026-02-03",
+      "description": "Executive action taken in the House Committee on Community Safety at 4:00 PM.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 2648"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2648/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2648/logs/20260203T000000Z_executive_action_taken_in_the_house_committee_on_community_safety_at_400_pm.json"
+  },
+  "timestamp": "20260203T000000Z"
+}

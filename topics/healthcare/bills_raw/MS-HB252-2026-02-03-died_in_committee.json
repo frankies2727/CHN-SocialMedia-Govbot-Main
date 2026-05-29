@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB252",
+    "legislative_session": "2026",
+    "subject": [
+      "Appropriations A",
+      "Medicaid"
+    ],
+    "title": "Medicaid; expand eligibility under federal Affordable Care Act."
+  },
+  "id": "HB252",
+  "log": {
+    "action": {
+      "date": "2026-02-03T06:00:00+00:00",
+      "description": "Died In Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB252"
+  },
+  "sources": {
+    "bill": "ms-legislation/country:us/state:ms/sessions/2026/bills/HB252/metadata.json",
+    "log": "ms-legislation/country:us/state:ms/sessions/2026/bills/HB252/logs/20260203T060000Z_died_in_committee.json"
+  },
+  "timestamp": "20260203T060000Z"
+}

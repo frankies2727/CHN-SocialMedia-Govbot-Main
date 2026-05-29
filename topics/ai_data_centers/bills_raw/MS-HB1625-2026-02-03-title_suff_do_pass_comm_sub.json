@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB1625",
+    "legislative_session": "2026",
+    "subject": [
+      "Banking and Financial Services"
+    ],
+    "title": "Virtual currency kiosks; require licensure in accordance with Money Transmission Modernization Act."
+  },
+  "id": "HB1625",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-02-03T06:00:00+00:00",
+      "description": "Title Suff Do Pass Comm Sub",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB1625"
+  },
+  "sources": {
+    "bill": "ms-legislation/country:us/state:ms/sessions/2026/bills/HB1625/metadata.json",
+    "log": "ms-legislation/country:us/state:ms/sessions/2026/bills/HB1625/logs/20260203T060000Z_title_suff_do_pass_comm_sub.json"
+  },
+  "timestamp": "20260203T060000Z"
+}

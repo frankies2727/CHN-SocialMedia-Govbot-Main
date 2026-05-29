@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Assessment of Inherited Homestead Property;  Proposes State Constitutional amendment authorizing Legislature to provide that transfer of homestead property by inheritance is not considered change of ownership for purposes of homestead property assessment.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HJR 793",
+    "legislative_session": "2026",
+    "subject": [
+      "(adopted)",
+      "constitutional amendments"
+    ],
+    "title": "Assessment of Inherited Homestead Property"
+  },
+  "id": "HJR 793",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in Ways & Means Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HJR 793"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HJR793/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HJR793/logs/20260313T000000Z_died_in_ways_means_committee.json"
+  },
+  "timestamp": "20260313T000000Z"
+}

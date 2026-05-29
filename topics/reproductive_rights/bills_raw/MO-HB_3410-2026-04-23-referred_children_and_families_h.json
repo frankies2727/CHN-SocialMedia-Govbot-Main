@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 3410",
+    "legislative_session": "2026",
+    "subject": [
+      "ABORTION",
+      "CHILDREN AND MINORS"
+    ],
+    "title": "Establishes and modifies provisions relating to the definition of abortion"
+  },
+  "id": "HB 3410",
+  "log": {
+    "action": {
+      "classification": [
+        "referral-committee"
+      ],
+      "date": "2026-04-23T05:00:00+00:00",
+      "description": "Referred: Children and Families(H)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 3410"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB3410/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB3410/logs/20260423T050000Z_referred_children_and_familiesh.json"
+  },
+  "timestamp": "20260423T050000Z"
+}

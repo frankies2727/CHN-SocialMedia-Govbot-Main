@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act makes various changes related to Juvenile Probation and Parole Officers employed by the Department of Services for Children, Youth, and Their Families (DSCYF) in the Division of Youth Rehabilitative Services’ Serious Juvenile Offender (SJO) Unit. Juvenile Probation and Parole Officers in the SJO Unit are specialized staff who are responsible for monitoring the highest-risk youth. Unlike the majority of the Division’s Community Services staff monitoring youth on pretrial supervision or aftercare, the officers in the SJO Unit are sworn law enforcement officers authorized to carry a firearm and enforce warrants. This Act does not change the existing powers and duties of DSCYF Juvenile Probation and Parole Officers, but instead updates Delaware Code to align with their position classification.\r\nThis Act adds Juvenile Probation and Parole Officers employed by DSCYF to the Police Officers’ and Firefighters’ Employment Relations Act (POFERA). This will allow the officers in the SJO Unit to seek union representation under the Fraternal Order of Police like the Department of Correction’s Probation and Parole Officers, the DSCYF Juvenile Probation and Parole Officers’ closest state agency counterparts. This Act also adds DSCYF employees to the existing statute that enables Department of Correction employees to receive a service pension after 25 years if they internally promote after 20 years of credited service. This Act also changes references throughout Delaware Code to be consistent with the position classification name and makes technical corrections to existing code to conform to the standards of the Delaware Legislative Drafting Manual.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 303",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 11, TITLE 19, AND TITLE 29 OF THE DELAWARE CODE RELATING TO JUVENILE PROBATION AND PAROLE OFFICERS AND OTHER EMPLOYEES OF THE DIVISION OF CHILDREN, YOUTH, AND THEIR FAMILIES."
+  },
+  "id": "HB 303",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-03-25",
+      "description": "Reported Out of Committee (Judiciary) in House with 9 On Its Merits",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Judiciary"
+        }
+      ]
+    },
+    "bill_id": "HB 303"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB303/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB303/logs/20260325T000000Z_reported_out_of_committee_judiciary_in_house_with_9_on_its_merits.json"
+  },
+  "timestamp": "20260325T000000Z"
+}
