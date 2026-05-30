@@ -196,14 +196,13 @@ def compose_root(today: datetime, total_updates: int, distinct_states: int,
     range_str = f"{_format_short(start)}–{_format_short(end)}, {end.year}"
     if window_days <= DIGEST_LOOKBACK_DAYS:
         framing = (
-            f"{total_updates} bill updates tracked across {distinct_states} state(s) "
-            "this week. Top highlights 🧵"
+            "Catching up on this week's bill activity across the states. "
+            "Top highlights 🧵"
         )
     else:
         framing = (
-            f"Quieter past 7 days, so we widened the lens. {total_updates} bill "
-            f"update(s) across {distinct_states} state(s) over the last "
-            f"{window_days} days. Top highlights 🧵"
+            "Quieter past 7 days, so we widened the lens — here's the recent "
+            "bill activity across the states. Top highlights 🧵"
         )
     text = (
         f"{TOPIC.thread_title}\n"
@@ -241,8 +240,8 @@ def _landscape_unique_bills(all_bills: list[dict]) -> list[dict]:
 
 def _format_jurisdictions_line(state_counts: Counter) -> str:
     """One-line summary of who's being tracked, sorted by count desc.
-    Renders counts only when >1 to keep the line short:
-        'NJ (3), WV (2), CO, MA, MN, TN, WA'
+    Lists jurisdictions without counts to keep the line clean:
+        'NJ, WV, CO, MA, MN, TN, WA'
     """
     parts: list[str] = []
     for s, n in state_counts.most_common():
@@ -261,9 +260,8 @@ def compose_landscape_root(today: datetime, unique_bills: list[dict],
         f"{TOPIC.thread_title}\n"
         f"Week of {_format_short(today)}, {today.year}\n\n"
         "Quiet stretch — no notable floor or executive action to flag from the "
-        f"past month. Tracking {total_bills} {TOPIC.topic_phrase} bill(s) "
-        f"across {distinct_states} jurisdiction(s): {juris_line}. A landscape "
-        "check-in 🧵"
+        f"past month. Still tracking {TOPIC.topic_phrase} bills in "
+        f"{juris_line}. A landscape check-in 🧵"
     )
     # If the jurisdictions line pushes us over the cap, fall back to the
     # un-enriched copy rather than truncating mid-state-list.
@@ -272,9 +270,8 @@ def compose_landscape_root(today: datetime, unique_bills: list[dict],
             f"{TOPIC.thread_title}\n"
             f"Week of {_format_short(today)}, {today.year}\n\n"
             "Quiet stretch — no notable floor or executive action to flag from "
-            f"the past month. But we're still tracking {total_bills} "
-            f"{TOPIC.topic_phrase} bill(s) across {distinct_states} "
-            "jurisdiction(s). A landscape check-in 🧵"
+            f"the past month. But we're still tracking {TOPIC.topic_phrase} "
+            "bills across the states. A landscape check-in 🧵"
         )
     if len(text) > MAX_POST:
         text = text[:MAX_POST - 1] + "…"
