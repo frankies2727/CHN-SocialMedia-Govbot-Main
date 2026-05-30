@@ -244,10 +244,10 @@ def _format_jurisdictions_line(state_counts: Counter) -> str:
         'NJ, WV, CO, MA, MN, TN, WA'
     """
     parts: list[str] = []
-    for s, n in state_counts.most_common():
+    for s, _ in state_counts.most_common():
         if not s:
             s = "?"
-        parts.append(f"{s} ({n})" if n > 1 else s)
+        parts.append(s)
     return ", ".join(parts)
 
 
