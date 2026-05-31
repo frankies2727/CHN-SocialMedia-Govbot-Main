@@ -385,6 +385,13 @@ jobs:
       # --- Optional publishing -----------------------------------------------
       # Ollama (local LLM) is only needed to summarize bills for posting, so
       # these steps run only when publish=true.
+      - name: Install poppler-utils (pdftotext)
+        # Only needed when composing/publishing, since that's the only path
+        # that summarizes bills and therefore extracts full bill text from
+        # PDFs. Mirrors the daily post + weekly-digest workflows.
+        if: ${{ inputs.publish || inputs.dry_run }}
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+
       - name: Cache Ollama model
         if: ${{ inputs.publish || inputs.dry_run }}
         uses: actions/cache@v4
@@ -479,7 +486,7 @@ jobs:
           git config user.email "samples-bot@users.noreply.github.com"
           git add samples/ || true
           if [ "${{ inputs.publish }}" = "true" ] && [ "${{ inputs.dry_run }}" != "true" ]; then
-            git add topics/*/bills_used.json topics/*/bills_raw || true
+            git add topics/*/bills_used.json topics/*/bills_raw topics/*/bills_full_text || true
             git add topics/*/x*/bills_used.json topics/*/x*/bills_raw || true
           fi
           if git diff --cached --quiet; then
