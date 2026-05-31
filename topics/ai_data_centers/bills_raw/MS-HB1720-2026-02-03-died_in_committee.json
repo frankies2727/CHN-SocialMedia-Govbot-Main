@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB1720",
+    "legislative_session": "2026",
+    "subject": [
+      "Public Health and Human Services"
+    ],
+    "title": "Artificial intelligence; prohibit use in provision of professional mental and behaioral health care."
+  },
+  "id": "HB1720",
+  "log": {
+    "action": {
+      "date": "2026-02-03T06:00:00+00:00",
+      "description": "Died In Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB1720"
+  },
+  "sources": {
+    "bill": "ms-legislation/country:us/state:ms/sessions/2026/bills/HB1720/metadata.json",
+    "log": "ms-legislation/country:us/state:ms/sessions/2026/bills/HB1720/logs/20260203T060000Z_died_in_committee.json"
+  },
+  "timestamp": "20260203T060000Z"
+}

@@ -30,6 +30,7 @@
     "CO|SJR 006|2026-01-29|Senate Third Reading Laid Over to 02/02/",
     "DE|SB 233|2026-03-20|Amendment SA 1 to SB 233 - Introduced an",
     "FL|HB 1273|2026-03-13|Died in Education Administration Subcomm",
+    "FL|SB 328|2026-01-13|Introduced",
     "FL|SB 328|2026-03-13|Died in Commerce and Tourism",
     "FL|SB 882|2026-01-13|Introduced",
     "FL|SB 882|2026-03-13|Died in Education Postsecondary",
@@ -69,6 +70,7 @@
     "MN|HF 1|2025-06-12|Presentment date 06/12/25",
     "MN|HF 1|2025-06-14|Secretary of State, Filed 06/14/2025",
     "MN|SF 4176|2026-03-09|Withdrawn and re-referred to State and L",
+    "MO|HB 3301|2026-02-16|Read Second Time (H)",
     "MO|HB 3301|2026-05-15|Referred: Emerging Issues(H)",
     "MO|SB 1083|2026-05-04|HCS Referred H Rules - Administrative",
     "MO|SB 1083|2026-05-05|HCS Reported Do Pass H Rules - Administr",
@@ -138,7 +140,7 @@
     "WV|HB 4059|2026-01-14|To Health and Human Resources",
     "WV|HB 4148|2026-01-14|To Government Organization"
   ],
-  "last_run": "2026-05-30T09:17:31.742632+00:00",
+  "last_run": "2026-05-31T17:59:17.012164+00:00",
   "state_last_posted": {
     "VT": "2026-05-16T02:59:09.026935+00:00",
     "AK": "2026-05-16T02:59:09.026935+00:00",
@@ -153,9 +155,9 @@
     "KS": "2026-05-30T09:16:34.825494+00:00",
     "WA": "2026-05-29T10:48:23.244075+00:00",
     "DE": "2026-05-17T08:16:18.878412+00:00",
-    "MO": "2026-05-28T10:56:06.238550+00:00",
+    "MO": "2026-05-31T17:58:47.177810+00:00",
     "CA": "2026-05-29T10:48:23.244075+00:00",
-    "FL": "2026-05-30T09:16:34.825494+00:00",
+    "FL": "2026-05-31T17:58:47.177810+00:00",
     "TN": "2026-05-20T15:40:25.661860+00:00"
   }
 }

@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Under existing law, a person who deprives or violates the personal liberty of another with the intent to obtain forced labor or services, or for the purpose of prostitution or sexual exploitation, is guilty of the crime of human trafficking and subject to imprisonment.\n\nThis bill would, upon appropriation by the Legislature, establish the California Multidisciplinary Alliance to Stop Trafficking Act (California MAST) task force to review collaborative models between governmental and nongovernmental organizations for protecting victims and survivors of trafficking, among other related duties. The task force would be composed of specified state officials or their designees and specified individuals who have expertise in human trafficking or providing services to victims of human trafficking, as specified. The bill would require the task force to hold its first meeting no later than July 1, 2027, and would require the task force to meet at least 4 times. The bill would require the task force to, on or before January 1, 2029, and annually thereafter, report its findings and recommendations to the Office of Emergency Services, the Governor, the Attorney General, and the Legislature. The bill would make related findings and declarations.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1022",
+    "legislative_session": "20252026",
+    "subject": [
+      "CaliforniaMultidisciplinaryAlliancetoStopTraffickingAct",
+      "Humantrafficking"
+    ],
+    "title": "Human trafficking: California Multidisciplinary Alliance to Stop Trafficking Act."
+  },
+  "id": "SB1022",
+  "log": {
+    "action": {
+      "classification": [
+        "passage",
+        "reading-1",
+        "reading-3"
+      ],
+      "date": "2026-05-28",
+      "description": "Read third time. Passed. (Ayes 39. Noes 0.) Ordered to the Assembly.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB1022"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1022/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1022/logs/20260528T000000Z.classification.passage.upper.json"
+  }
+}

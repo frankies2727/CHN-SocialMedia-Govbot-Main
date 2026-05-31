@@ -20,6 +20,7 @@
     "FL|HB 1029|2026-03-13|Died in Health Professions & Programs Su",
     "FL|HB 331|2026-03-13|Died in Education Administration Subcomm",
     "FL|HB 515|2026-03-13|Died in Health Professions & Programs Su",
+    "FL|SB 1308|2026-01-22|Introduced",
     "FL|SB 1308|2026-03-13|Died in Health Policy",
     "FL|SB 1456|2026-01-22|Introduced",
     "FL|SB 1456|2026-03-13|Died in Commerce and Tourism",
@@ -52,6 +53,7 @@
     "MO|SB 841|2026-04-28|SS for SCS S offered (Bernskoetter)--(48",
     "MO|SB 841|2026-04-28|SSA 1 for SA 2 to SS for SCS S offered &",
     "MO|SB 841|2026-04-29|Informal Calendar S Bills for Perfection",
+    "MS|HB1453|2026-02-03|Died In Committee",
     "MS|HB1623|2026-02-03|Died In Committee",
     "MS|HB719|2026-02-03|Died In Committee",
     "MS|HB812|2026-02-03|Died In Committee",
@@ -60,12 +62,12 @@
   ],
   "state_last_posted": {
     "KS": "2026-05-28T10:58:12.419677+00:00",
-    "FL": "2026-05-30T09:18:32.165897+00:00",
+    "FL": "2026-05-31T17:59:55.141322+00:00",
     "CA": "2026-05-27T16:31:34.541804+00:00",
     "DE": "2026-05-21T20:13:35.693015+00:00",
     "MA": "2026-05-18T02:10:44.609283+00:00",
     "MO": "2026-05-29T10:50:08.365954+00:00",
-    "MS": "2026-05-30T09:18:32.165897+00:00"
+    "MS": "2026-05-31T17:59:55.141322+00:00"
   },
-  "last_run": "2026-05-30T09:19:00.059094+00:00"
+  "last_run": "2026-05-31T18:00:23.383949+00:00"
 }

@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HJR 145",
+    "legislative_session": "2026",
+    "subject": [
+      "CONSTITUTIONAL AMENDMENTS",
+      "REVENUE, DEPARTMENT OF",
+      "TAXATION AND REVENUE - GENERAL",
+      "TAXATION AND REVENUE - PROPERTY",
+      "VETERANS"
+    ],
+    "title": "Proposes a constitutional amendment granting property tax exemptions to certain disabled veterans"
+  },
+  "id": "HJR 145",
+  "log": {
+    "action": {
+      "classification": [
+        "referral-committee"
+      ],
+      "date": "2026-05-15T05:00:00+00:00",
+      "description": "Referred: Emerging Issues(H)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HJR 145"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/HJR145/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/HJR145/logs/20260515T050000Z_referred_emerging_issuesh.json"
+  },
+  "timestamp": "20260515T050000Z"
+}

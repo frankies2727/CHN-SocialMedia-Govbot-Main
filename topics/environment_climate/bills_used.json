@@ -1,9 +1,11 @@
 {
   "posted": [
+    "AL|HJR316|2026-04-17|Enacted",
     "CO|SJR 022|2026-04-13|Senate Third Reading Laid Over to 04/22/",
     "DE|SB 239|2026-03-17|",
     "DE|SB 239|2026-03-17|Passed By Senate. Votes: 18 YES 3 ABSENT",
     "IA|SF 2490|2026-04-14|Committee report, approving bill.",
+    "KS|HB2147|2026-04-10|Died in Committee",
     "MA|SD3238|2026-04-01|Rules suspended",
     "MO|HB 2578|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HB 3504|2026-05-15|Referred: Emerging Issues(H)",
@@ -16,7 +18,9 @@
     "MA": "2026-05-29T10:45:32.375297+00:00",
     "PR": "2026-05-29T10:45:32.375297+00:00",
     "CO": "2026-05-30T09:11:56.754802+00:00",
-    "DE": "2026-05-30T09:11:56.754802+00:00"
+    "DE": "2026-05-30T09:11:56.754802+00:00",
+    "KS": "2026-05-31T17:56:38.433033+00:00",
+    "AL": "2026-05-31T17:56:38.433033+00:00"
   },
-  "last_run": "2026-05-30T09:12:38.336655+00:00"
+  "last_run": "2026-05-31T17:57:02.417736+00:00"
 }

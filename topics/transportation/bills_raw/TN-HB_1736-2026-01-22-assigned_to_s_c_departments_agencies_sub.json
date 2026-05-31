@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1736",
+    "legislative_session": "114",
+    "subject": [
+      "Alcoholic Beverages"
+    ],
+    "title": "Alcoholic Beverages - As introduced, authorizes a retail alcohol licensee in a terminal building of a commercial air carrier airport to offer complimentary tastings for samples of the products it sells. - Amends TCA Title 57."
+  },
+  "id": "HB 1736",
+  "log": {
+    "action": {
+      "classification": [
+        "referral-committee"
+      ],
+      "date": "2026-01-22",
+      "description": "Assigned to s/c Departments & Agencies Subcommittee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1736"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1736/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1736/logs/20260122T000000Z_assigned_to_sc_departments_agencies_subcommittee.json"
+  },
+  "timestamp": "20260122T000000Z"
+}

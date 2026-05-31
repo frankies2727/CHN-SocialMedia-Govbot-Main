@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Immigration, Law Enforcement, and State-issued Identification;  Citing this act as the “Florida Economic Prosperity and Immigration Act”; requiring proof of a specified identification number for certain applicants for a driver license; prohibiting the Department of Highway Safety and Motor Vehicles from disclosing or making accessible certain photographs and related information to any agency that primarily enforces immigration law or to any employee or agent of such agency; deleting the requirement for certain private employers to use the E-Verify system; providing that discrimination based on a person’s immigration status is unlawful; requiring covered immigration officers to wear specified visible identification during public immigration enforcement functions, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 328",
+    "legislative_session": "2026",
+    "subject": [
+      "civil rights",
+      "regulation of professions and occupations",
+      "subject index"
+    ],
+    "title": "Immigration, Law Enforcement, and State-issued Identification"
+  },
+  "id": "SB 328",
+  "log": {
+    "action": {
+      "classification": [
+        "introduction"
+      ],
+      "date": "2026-01-13",
+      "description": "Introduced",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 328"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB328/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB328/logs/20260113T000000Z.classification.introduction.upper.json"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 5941",
+    "legislative_session": "2025-2026",
+    "title": "Allowing limited exemptions to renewable energy systems requirements for certain school districts."
+  },
+  "id": "SB 5941",
+  "log": {
+    "action": {
+      "date": "2026-03-12",
+      "description": "By resolution, returned to Senate Rules Committee for third reading.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB 5941"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB5941/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB5941/logs/20260312T000000Z_by_resolution_returned_to_senate_rules_committee_for_third_reading.json"
+  },
+  "timestamp": "20260312T000000Z"
+}

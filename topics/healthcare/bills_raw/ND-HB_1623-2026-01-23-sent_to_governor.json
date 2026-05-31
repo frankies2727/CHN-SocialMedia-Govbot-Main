@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Relating to a rural health loan program under the medical facility infrastructure loan fund; to provide an exemption; to provide for a legislative management report; to provide for application; to provide a report; and to provide an effective date.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1623",
+    "legislative_session": "69",
+    "title": "AN ACT to provide an appropriation to the department of health and human services for federal rural health transformation program grant funds; to provide an appropriation to the Bank of North Dakota to administer a loan program; to provide for a transfer; to amend and reenact section 6-09-47 of the North Dakota Century Code, relating to a rural health loan program under the medical facility infrastructure loan fund; to provide an exemption; to provide for a legislative management report; to provide for application; to provide a report; and to provide an effective date."
+  },
+  "id": "HB 1623",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-receipt"
+      ],
+      "date": "2026-01-23",
+      "description": "Sent to Governor",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1623"
+  },
+  "sources": {
+    "bill": "nd-legislation/country:us/state:nd/sessions/69/bills/HB1623/metadata.json",
+    "log": "nd-legislation/country:us/state:nd/sessions/69/bills/HB1623/logs/20260123T000000Z.classification.executive-receipt.lower.json"
+  }
+}
