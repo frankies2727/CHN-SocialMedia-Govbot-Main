@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Mobile Home Park Lot Tenancies;  Revises provisions relating to mobile home park lot tenancies, including factors used to determine rent increases, proof required for lot rental increases, electronic billing or payment systems, changes in lot rental amount, termination of tenancy, payment of lot rental amount, & the Florida Mobile Home Relocation Corporation; revises powers & duties of Division of Florida Condominiums, Timeshares, & Mobile Homes; authorizes persons to file complaint with DLA for certain reasons; provides DLA authority to enforce compliance with state law.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 703",
+    "legislative_session": "2026",
+    "subject": [
+      "real and personal property"
+    ],
+    "title": "Mobile Home Park Lot Tenancies"
+  },
+  "id": "HB 703",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in Housing, Agriculture & Tourism Subcommittee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 703"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB703/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB703/logs/20260313T000000Z_died_in_housing_agriculture_tourism_subcommittee.json"
+  },
+  "timestamp": "20260313T000000Z"
+}

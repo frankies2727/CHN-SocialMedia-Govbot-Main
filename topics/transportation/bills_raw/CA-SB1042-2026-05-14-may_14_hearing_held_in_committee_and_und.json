@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law prohibits a person from operating, as specified, any motor vehicle unless it is registered and the appropriate fees have been paid. Under existing law, the Director of Motor Vehicles is authorized to establish a registration year for any vehicle consisting of any period from 7 months to 18 months, inclusive, with subsequent renewals being required at yearly intervals thereafter. Existing law requires current month and year tabs to be attached to the rear license plate assigned to a vehicle for the last preceding registration year in which license plates were issued.\n\nThis bill would request the Milton Marks \"Little Hoover\" Commission on California State Government Organization and Economy to conduct a study on modernizing vehicle registration in the state, including, at a minimum, an analysis of the effect of eliminating physical registration stickers, authorizing the department to issue or renew a motor vehicle registration for 2 years, and authorizing installment payments for vehicle registration. The bill would request the commission to submit a report to the Legislature on the study no later than January 1, 2028.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1042",
+    "legislative_session": "20252026",
+    "subject": [
+      "Vehicleregistrationmodernizationstudy"
+    ],
+    "title": "Vehicle registration modernization study."
+  },
+  "id": "SB1042",
+  "log": {
+    "action": {
+      "date": "2026-05-14",
+      "description": "May 14 hearing: Held in committee and under submission.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB1042"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1042/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1042/logs/20260514T000000Z_may_14_hearing_held_in_committee_and_under_submission.json"
+  },
+  "timestamp": "20260514T000000Z"
+}

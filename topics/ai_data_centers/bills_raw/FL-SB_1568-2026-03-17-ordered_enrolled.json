@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Use of Digital Currency by the Department of Financial Services;  Establishing the Florida Stablecoin Pilot Program within the Department of Financial Services; authorizing the department to accept payment stablecoins; authorizing the department to conduct examinations, audits, and investigations of permitted payment stablecoin issuers; requiring the department to monitor and evaluate the pilot program and collect certain data, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1568",
+    "legislative_session": "2026",
+    "subject": [
+      "subject index"
+    ],
+    "title": "Use of Digital Currency by the Department of Financial Services"
+  },
+  "id": "SB 1568",
+  "log": {
+    "action": {
+      "classification": [
+        "enrolled"
+      ],
+      "date": "2026-03-17",
+      "description": "Ordered enrolled",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1568"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB1568/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB1568/logs/20260317T000000Z_ordered_enrolled.json"
+  },
+  "timestamp": "20260317T000000Z"
+}

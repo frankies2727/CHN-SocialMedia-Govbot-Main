@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1664",
+    "legislative_session": "114",
+    "subject": [
+      "Health Care"
+    ],
+    "title": "Health Care - As introduced, prohibits a healthcare provider from asking certain listed gender-related questions to a minor unless a parent is physically present and fully informed and provides written consent to such questions and the questions are directly related to the diagnosis or treatment of a specific medical or psychological condition currently being evaluated; makes other related changes.  - Amends TCA Title 4; Title 33; Title 47; Title 56; Title 63; Title 68 and Title 71."
+  },
+  "id": "SB 1664",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-01-21",
+      "description": "Passed on Second Consideration, refer to Senate Commerce and Labor Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1664"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1664/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1664/logs/20260121T000000Z.classification.passage.upper.json"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act is a substitute for Senate Bill No. 3. This Act differs from Senate Bill No. 3. in that it incorporates technical corrections made to the Delaware Constitution by House Bill No. 10 (153rd General Assembly).\r\n\r\nLike Senate Bill No. 3, this Act is the first leg of a constitutional amendment to eliminate the limitations on when an individual may vote absentee and provide an absolute right to vote by absentee ballot without an excuse. This Act is in response to the Supreme Court’s decision in Albence v. Higgins, 2022 Del. LEXIS 377 (Del. 2022).\r\n\r\nAlthough Section 1 of this Act creates an absolute right to vote by absentee ballot without an excuse, a qualified voter who desires to cast an absentee ballot must request an absentee ballot from the Department of Elections for each election cycle, unless the qualified voter is granted permanent absentee status. This State’s current absentee voting law authorizes permanent absentee status for various reasons (see § 5503(k) of Title 15 of the Delaware Code) and this Act adopts those reasons. For each election in which a qualified voter votes by absentee ballot under a permanent absentee status, the qualified voter must take an oath or affirmation that the qualified voter remains eligible for permanent absentee status.\r\n\r\nSection 2 of this Act requires all absentee ballots to include an oath or affirmation that the qualified voter’s vote is free from improper influence. This oath or affirmation is in lieu of the oath or affirmation otherwise required under Section 3 of Article V of the Delaware Constitution.\r\n\r\nAmending the Delaware Constitution requires not only the passing of the changes in this Act, but also passage of the same changes after the next general election by the next General Assembly.\r\n\r\nThis Act requires a greater than majority vote for passage because § 1 of Article XVI of the Delaware Constitution requires the affirmative vote of two-thirds of the members elected to each house of the General Assembly to amend the Delaware Constitution.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 3",
+    "legislative_session": "153",
+    "title": "AN ACT PROPOSING AN AMENDMENT TO ARTICLE V OF THE DELAWARE CONSTITUTION RELATING TO VOTING."
+  },
+  "id": "SB 3",
+  "log": {
+    "action": {
+      "classification": [
+        "amendment-introduction"
+      ],
+      "date": "2026-03-25",
+      "description": "Amendment HA 1 to SS 1 - Introduced and Placed With Bill",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 3"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB3/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB3/logs/20260325T000000Z_amendment_ha_1_to_ss_1_introduced_and_placed_with_bill.json"
+  },
+  "timestamp": "20260325T000000Z"
+}

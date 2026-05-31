@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 3301",
+    "legislative_session": "2026",
+    "subject": [
+      "IMMIGRATION",
+      "LAW ENFORCEMENT OFFICERS AND AGENCIES",
+      "STATE DEPARTMENTS"
+    ],
+    "title": "Establishes provisions relating to immigration enforcement"
+  },
+  "id": "HB 3301",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-2"
+      ],
+      "date": "2026-02-16T06:00:00+00:00",
+      "description": "Read Second Time (H)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 3301"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB3301/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB3301/logs/20260216T060000Z_read_second_time_h.json"
+  },
+  "timestamp": "20260216T060000Z"
+}

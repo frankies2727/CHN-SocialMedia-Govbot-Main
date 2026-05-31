@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SR 0269",
+    "legislative_session": "114",
+    "subject": [
+      "Memorials",
+      "Professional Achievement"
+    ],
+    "title": "Memorials, Professional Achievement - Hattie Starks, Haywood High School Teacher of the Year  -"
+  },
+  "id": "SR 0269",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-01-22",
+      "description": "Passed on Second Consideration, refer to Senate Calendar Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SR 0269"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/SR0269/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/SR0269/logs/20260122T000000Z.classification.passage.upper.json"
+  }
+}

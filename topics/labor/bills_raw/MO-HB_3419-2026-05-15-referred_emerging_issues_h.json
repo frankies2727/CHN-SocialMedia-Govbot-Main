@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 3419",
+    "legislative_session": "2026",
+    "subject": [
+      "EMPLOYEES - EMPLOYERS",
+      "HEALTH CARE",
+      "LABOR AND INDUSTRIAL RELATIONS, DEPARTMENT OF",
+      "LABOR AND MANAGEMENT",
+      "SALARIES"
+    ],
+    "title": "Creates new provisions relating to employee compensation, reinstating certain minimum wage adjustments, implementing earned paid sick leave, and bereavement leave"
+  },
+  "id": "HB 3419",
+  "log": {
+    "action": {
+      "classification": [
+        "referral-committee"
+      ],
+      "date": "2026-05-15T05:00:00+00:00",
+      "description": "Referred: Emerging Issues(H)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 3419"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB3419/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB3419/logs/20260515T050000Z_referred_emerging_issuesh.json"
+  },
+  "timestamp": "20260515T050000Z"
+}

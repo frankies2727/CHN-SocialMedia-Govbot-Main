@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Code Section 42-8-38 of the Official Code of Georgia Annotated, relating to arrest or graduated sanctions for probationers violating terms, hearing, disposition of charge, and  procedure when probation revoked in county other than that of conviction, so as to provide for credit for time served regarding probation revocation sentencing; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 535",
+    "legislative_session": "2025_26",
+    "subject": [
+      "PENAL INSTITUTIONS"
+    ],
+    "title": "Penal institutions; credit for time served regarding probation revocation sentencing; provide"
+  },
+  "id": "HB 535",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-05-05",
+      "description": "House Date Signed by Governor",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 535"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB535/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB535/logs/20260505T000000Z_house_date_signed_by_governor.json"
+  },
+  "timestamp": "20260505T000000Z"
+}

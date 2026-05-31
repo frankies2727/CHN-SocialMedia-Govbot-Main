@@ -51,6 +51,7 @@
     "FL|HB 1483|2026-03-13|Died in Budget Committee",
     "FL|HB 313|2026-03-13|Died in Intergovernmental Affairs Subcom",
     "FL|HB 657|2026-03-13|Died in Rules",
+    "FL|HB 703|2026-03-13|Died in Housing, Agriculture & Tourism S",
     "FL|SB 1520|2026-03-13|Died in Appropriations",
     "FL|SB 1550|2026-03-13|Died in Regulated Industries",
     "GA|HB 1116|2026-03-03|House Committee Favorably Reported By Su",
@@ -134,6 +135,7 @@
     "MN|SF 3596|2026-03-11|Special Order: Amended",
     "MN|SF 3596|2026-03-11|Third reading Passed as amended",
     "MN|SF 4306|2026-03-11|Author stricken Hoffman",
+    "MO|HB 2399|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HB 2491|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HB 2722|2026-04-09|Referred: Rules - Administrative(H)",
     "MO|HB 2722|2026-04-21|",
@@ -202,7 +204,7 @@
     "WA|SB 6027|2026-03-27|Governor signed.",
     "WV|SB 101|2026-01-14|To Education"
   ],
-  "last_run": "2026-05-30T09:16:24.133542+00:00",
+  "last_run": "2026-05-31T09:46:56.175220+00:00",
   "state_last_posted": {
     "MS": "2026-05-20T02:03:48.911912+00:00",
     "PA": "2026-05-16T02:58:27.650333+00:00",
@@ -213,14 +215,14 @@
     "MN": "2026-05-29T10:47:25.285415+00:00",
     "IA": "2026-05-19T09:07:41.504084+00:00",
     "AL": "2026-05-27T16:28:10.304491+00:00",
-    "FL": "2026-05-24T20:57:11.555545+00:00",
+    "FL": "2026-05-31T09:46:26.648516+00:00",
     "PR": "2026-05-18T09:44:51.052129+00:00",
     "CA": "2026-05-25T21:13:28.762037+00:00",
     "DE": "2026-05-30T09:15:12.419719+00:00",
     "KS": "2026-05-26T16:27:26.445742+00:00",
     "MA": "2026-05-29T10:47:25.285415+00:00",
     "NJ": "2026-05-19T02:06:37.149818+00:00",
-    "MO": "2026-05-26T16:27:26.445742+00:00",
+    "MO": "2026-05-31T09:46:26.648516+00:00",
     "TN": "2026-05-30T09:15:12.419719+00:00"
   }
 }

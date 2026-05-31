@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB394",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Elections"
+    ],
+    "title": "House Substitute for SB 394 by Committee on Elections - Relating to signature verification for advance voting ballots, concerning court orders that invalidate or enjoin signature verification triggering a return to allowing advance voting only if certain conditions exist, establishing venue in the district court in Shawnee county for all constitutional challenges to election laws."
+  },
+  "id": "SB394",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died on House Calendar",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB394"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB394/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB394/logs/20260410T000000Z_died_on_house_calendar.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

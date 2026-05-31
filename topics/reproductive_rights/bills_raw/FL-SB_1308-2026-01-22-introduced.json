@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Reproductive Freedom;  Creating the “Reproductive Freedom Act”; establishing the fundamental right to reproductive health care; providing that every individual has a fundamental right to make autonomous decisions about the individual’s own reproductive health; prohibiting the state from denying or interfering with an individual’s right to access reproductive health care; prohibiting such state and local entities from penalizing, prosecuting, or otherwise taking adverse action against an individual for exercising specified rights, or against an individual for assisting another in exercising such rights, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1308",
+    "legislative_session": "2026",
+    "subject": [
+      "civil rights",
+      "subject index"
+    ],
+    "title": "Reproductive Freedom"
+  },
+  "id": "SB 1308",
+  "log": {
+    "action": {
+      "classification": [
+        "introduction"
+      ],
+      "date": "2026-01-22",
+      "description": "Introduced",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1308"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB1308/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB1308/logs/20260122T000000Z.classification.introduction.upper.json"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A2319",
+    "legislative_session": "222",
+    "subject": [
+      "MOTOR VEHICL"
+    ],
+    "title": "Changes certain requirements for inspection of records of motor vehicle sales."
+  },
+  "id": "A2319",
+  "log": {
+    "action": {
+      "date": "2026-01-13T05:00:00+00:00",
+      "description": "WITHDRAWN APP P.L.2025, c.311.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "A2319"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A2319/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A2319/logs/20260113T050000Z_withdrawn_app_pl2025_c311.json"
+  },
+  "timestamp": "20260113T050000Z"
+}
