@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A RESOLUTION recognizing and commending the transformative impact of blockchain technology; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 2121",
+    "legislative_session": "2025_26",
+    "title": "The transformative impact of blockchain technology; commend"
+  },
+  "id": "HR 2121",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-04-02",
+      "description": "House Read and Adopted",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HR 2121"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HR2121/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HR2121/logs/20260402T000000Z.classification.passage.lower.json"
+  }
+}
