@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 2824",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Government-Local",
+      "Land Use and Zoning",
+      "Taxation-Tax Increment Financing"
+    ],
+    "title": "Certain increment usage to covert vacant or underused commercial or industrial buildings to residential purposes authorization and certain increment calculations and findings required for a district converting vacant or underused property modification"
+  },
+  "id": "SF 2824",
+  "log": {
+    "action": {
+      "date": "2026-03-11",
+      "description": "Withdrawn and returned to author",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 2824"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF2824/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF2824/logs/20260311T000000Z_withdrawn_and_returned_to_author.json"
+  },
+  "timestamp": "20260311T000000Z"
+}

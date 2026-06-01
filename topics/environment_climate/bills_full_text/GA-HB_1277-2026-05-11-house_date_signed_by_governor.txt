@@ -1,0 +1,531 @@
+House Bill 1277 (AS PASSED HOUSE AND SENATE)
+By: Representatives Barton of the 5th, Jasperse of the 11th, Campbell of the 171st, Hagan of
+the 156th, and McDonald III of the 26th
+
+A BILL TO BE ENTITLED
+AN ACT
+
+To amend Article 1 of Chapter 16 of Title 12 and Title 32 of the Official Code of Georgia
+
+Annotated, relating to environmental policy and highways, bridges, and ferries, respectively,
+
+so as to increase the project cost threshold for public roads or airports requiring
+
+environmental evaluations; to authorize annual adjustments to such thresholds based upon
+
+inflation; to revise various reporting requirements relating to projects of and contracts
+
+awarded by the Department of Transportation; to provide for publication of such reports; to
+
+repeal a limit on the amount of design-build projects that may be awarded by such
+
+department; to increase the property value threshold for requirements relating to the sale of
+
+property no longer needed for public road purposes; to authorize annual adjustments to such
+
+threshold based upon inflation; to provide for conforming changes; to amend Code
+
+Section 46-2-20.1 of the Official Code of Georgia Annotated, relating to electric vehicle
+
+charging services and operation, so as to provide for definitions; to amend an Act relating to
+
+regulation and taxation of electricity used as motor fuel and electric vehicle charging stations,
+
+approved May 2, 2023 (Ga. L. 2023, p. 376/SB 146), as amended, so as to extend the
+
+effective date of provisions relative to regulatory authority of the Department of Agriculture
+
+and revenue and taxation; to provide for related matters; to repeal conflicting laws; and for
+
+other purposes.
+
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF GEORGIA:
+
+SECTION 1.
+
+Article 1 of Chapter 16 of Title 12 of the Official Code of Georgia Annotated, relating to
+
+environmental policy, is amended by revising Code Section 12-16-9, relating to limitation
+
+on requirement for environmental evaluation, as follows:
+
+"12-16-9.
+
+When a project of a department, municipality, county, or authority to construct or improve
+
+a public road or airport does not exceed $100 $200 million in costs, such project shall not
+
+constitute a proposed governmental action which may significantly adversely affect the
+
+quality of the environment and the requirements of this article shall not be applicable,
+
+except that an environmental evaluation shall be considered in the decision-making
+
+process, consistent with paragraph (3) of Code Section 12-16-2, when it is probable to
+
+expect significant adverse impact on historical sites or buildings and cultural resources.
+
+On July 1, 2027, and each July 1 thereafter, the division shall be authorized to annually
+
+adjust the cost threshold established in this Code section; provided, however, that such
+
+adjustment shall not result in an increase by more than the annual rate of inflation as
+
+measured by the Consumer Price Index as reported by the Bureau of Labor Statistics of the
+
+United States Department of Labor."
+
+SECTION 2.
+
+Title 32 of the Official Code of Georgia Annotated relating to highways, bridges, and ferries,
+
+is amended by revising Code Section 32-2-41.2, relating to development of benchmarks,
+
+reports, and value engineering studies, as follows:
+
+"32-2-41.2.
+
+(a) The commissioner shall develop and publish in print or electronically benchmarks,
+
+based upon the type and scope of a construction project, that detail a realistic time frame
+
+for completion of each stage of a construction project, including preliminary engineering
+
+and design, environmental permitting and review, and right of way acquisition The
+
+department shall develop and publish an annual fiscal year report accounting for the
+
+investment of public funds in transportation during the previous fiscal year. Such report
+
+shall be made available to the Governor and the General Assembly by January 15 of each
+
+year.
+
+(b) The director shall submit an annual report to the Governor, the Lieutenant Governor,
+
+the Speaker of the House of Representatives, and the chairpersons of the House and Senate
+
+Transportation Committees detailing the progress of every construction project valued at
+
+$10 million or more against the benchmarks. This report shall include an analysis
+
+explaining the discrepancies between the benchmarks and actual performance on each
+
+project as well as an explanation for delays. This report shall also be published on the
+
+website of the department The department shall maintain on its website a detailed status
+
+report for each programmed project, including a project description, projected schedule by
+
+programmed phases, and projected cost by programmed phases.
+
+(c) The department shall create and maintain on its website a detailed status report on each
+
+project under planning or construction. This status report shall include, but not be limited
+
+to, the name and contact information of the project manager, if applicable.
+
+(d) Value engineering studies shall be performed on all projects whose costs exceed $50
+
+million, except for any project procured in accordance with Code Sections 32-2-79,
+
+32-2-80, and 32-2-81, and the director shall submit an annual report to the Governor, the
+
+Lieutenant Governor, the Speaker of the House of Representatives, and the chairpersons
+
+of the House and Senate Transportation Committees detailing the amount saved due to the
+
+value engineering studies. This report shall also be published on the website of the
+
+department."
+
+SECTION 3.
+
+Said title is further amended in Code Section 32-2-43, relating to director of planning,
+
+appointment, and responsibilities, by revising subsection (b) as follows:
+
+"(b) The director of planning's principal responsibility shall be the development of
+
+transportation plans, including the development of the state-wide strategic transportation
+
+plan, state-wide transportation improvement program, state-wide freight and logistics
+
+implementation plan, and other comprehensive plans pursuant to the provisions of Code
+
+Section Sections 32-2-3 and Code Section 32-2-22, and strategic transportation plans
+
+pursuant to the provisions of Code Section 32-2-41.1, and benchmarks and value
+
+engineering studies pursuant to the provisions of Code Section 32-2-41.2, in consultation
+
+with the board, the Governor, and the commissioner. The director shall also be responsible
+
+for the duties and activities assigned to the director in Article 5 of Chapter 8 of Title 48.
+
+The director shall be the director of the Planning Division of the department and shall
+
+possess, exercise, and perform all the duties, powers, and authority which may be vested
+
+in such division by law and are necessary or appropriate for such purpose, except those
+
+duties, powers, and authority which are expressly reserved by law to the board or the
+
+commissioner."
+
+SECTION 4.
+
+Said title is further amended in Code Section 32-2-69, relating to bidding process and award
+
+of contract, by revising subsection (a) as follows:
+
+"(a) Except as authorized by Code Sections 32-2-79, 32-2-80, and 32-2-82, the department
+
+shall award contracts to the lowest reliable bidder, provided that the department shall have
+
+the right to reject any and all such bids whether such right is reserved in the public notice
+
+or not and, in such case, the department may readvertise republish the advertisement,
+
+perform the work itself, or abandon the project."
+
+SECTION 5.
+
+Said title is further amended by repealing and reserving Code Section 32-2-79, relating to
+
+biennial reporting of potential undertakings best suited for public-private partnership.
+
+SECTION 6.
+
+Said title is further amended in Code Section 32-2-80, relating to public-private partnerships
+
+(P3s), by revising subsection (d) as follows:
+
+"(d) The department shall be authorized to promulgate reasonable rules or regulations to
+
+assist in proposal evaluations and to implement the purposes of this Code section. The
+
+department shall report the content of such rules or regulations to the Transportation
+
+Committees of the Senate and House of Representatives for their approval by majority vote
+
+prior to the promulgation thereof and shall make quarterly reports to the same chairpersons
+
+of all of its activities undertaken pursuant to the provisions of this Code section annual
+
+reports to the same chairpersons on the status of the projects undertaken pursuant to this
+
+Code section in relation to the annual fiscal year report required by subsection (a) of Code
+
+Section 32-2-41.2."
+
+SECTION 7.
+
+Said title is further amended in Code Section 32-2-81, relating to design-build procedure, by
+
+revising subsections (e) and (f) as follows:
+
+"(e) In contracting for design-build projects, the department shall be limited to contracting
+
+for no more than 50 percent of the total amount of construction projects awarded in the
+
+previous fiscal year.
+
+(f) Not later than 90 days after Following the end of the fiscal year, the department shall
+
+provide to the Governor, Lieutenant Governor President of the Senate, Speaker of the
+
+House of Representatives, and chairpersons of the House and Senate Transportation
+
+Committees a summary containing all the projects awarded during the fiscal year using the
+
+design-build contracting method. Included in the report shall be Such report shall
+
+include an explanation for any projects awarded to based upon anything other than the
+
+low-bid proposal, the considerations for any project awarded on a best value basis, and a
+
+summary of projects undertaken pursuant to this Code section in relation to the annual
+
+fiscal year report required by subsection (a) of Code Section 32-2-41.2. This The report
+
+required by this Code section shall be made available for public information to the public."
+
+SECTION 8.
+
+Said title is further amended in Code Section 32-2-82, relating to alternative contracting
+
+method, by revising subsection (g) as follows:
+
+"(g) Not later than 90 days after Following the end of a fiscal year in which the department
+
+has executed a contract to deliver a project using an alternative contracting method, the
+
+department shall provide to the Governor, Lieutenant Governor President of the Senate,
+
+Speaker of the House of Representatives, and chairpersons of the House and Senate
+
+Transportation Committees a summary report containing a summary of all contracts that
+
+utilized an alternative contracting method. Such report shall include a comparative benefit
+
+analysis of projects undertaken under this Code section. The department shall include a
+
+summary of projects undertaken utilizing the contracting methods provided for in this Code
+
+section in the annual fiscal year report required by subsection (a) of Code Section
+
+32-2-41.2. This The report required by this Code section shall be made available to the
+
+public."
+
+SECTION 9.
+
+Said title is further amended in Code Section 32-7-4, relating to procedure for disposition of
+
+property, by revising paragraph (2) of subsection (a) and subsection (b) as follows:
+
+"(2)(A) When an entire parcel acquired by the department, a county, or a municipality,
+
+or any interest therein, is being disposed of, it may be acquired under the right created
+
+in paragraph (1) of this subsection at such price as may be agreed upon, but in no event
+
+less than the price paid for its acquisition. When only remnants or portions of the
+
+original acquisition are being disposed of, they may be acquired for a price no less than
+
+percent under the market value thereof at the time the department, county, or
+
+municipality decides the property is no longer needed. The department shall use a real
+
+estate appraiser with knowledge of the local real estate market who is licensed in
+
+Georgia to establish the fair market value of the property prior to listing such property.
+
+(B) The provisions of subparagraph (A) of this paragraph notwithstanding, if the value
+
+of the property to be disposed is $75,000.00 $150,000.00 or less as determined by
+
+department estimate, the department, county, or municipality may negotiate the sale.
+
+On July 1, 2027, and each July 1 thereafter, the department shall be authorized to
+
+annually adjust the value threshold established in this subparagraph; provided, however,
+
+that such adjustment shall not result in an increase by more than the annual rate of
+
+inflation as measured by the Consumer Price Index as reported by the Bureau of Labor
+
+Statistics of the United States Department of Labor.
+
+(C) The provisions of this paragraph to the contrary notwithstanding, the department
+
+shall be authorized to negotiate the sale of the property to be disposed with an adjacent
+
+property owner, provided that such property is acquired for a price no less than 15
+
+percent under the market value thereof at the time the department decides the property
+
+is no longer needed."
+
+"(b)(1)(A) Unless a sale of the property is made pursuant to paragraph (2) or (3) of this
+
+subsection, such sale of property no longer needed by the department shall be made to
+
+the bidder submitting the highest of the sealed bids received after public advertisement
+
+for such bids for two weeks. If the highest of the sealed bids received is less than but
+
+within 15 percent of the established market value, the department may accept that bid
+
+and convey the property in accordance with the provisions of subsection (c) of this
+
+Code section. The department or the county or municipality shall have the right to
+
+reject any and all bids, in its discretion, to readvertise, republish the advertisement or
+
+to abandon the sale.
+
+(B) Such The public advertisement required by this subsection shall be inserted
+
+published once a week in such newspapers or other publication, or both, as will ensure
+
+adequate publicity, the first insertion publication to be at least two weeks prior to the
+
+opening of bids, the second to follow one week after the first publication. Such
+
+advertisement shall include but not be limited to the following items:
+
+(i) A description sufficient to enable the public to identify the property;
+
+(ii) The time and place for submission and opening of sealed bids;
+
+(iii) The right of the department or the county or municipality to reject any one or all
+
+of the bids;
+
+(iv) All the conditions of sale; and
+
+(v) Such further information as the department or the county or municipality may
+
+deem advisable as in the public interest.
+
+(2)(A) Such Any sale of property pursuant to this subsection may be made by the
+
+department or a county or municipality by listing the property through a real estate
+
+broker licensed under Chapter 40 of Title 43 who has a place of business located in the
+
+state. Property Any such property shall be listed for a period of at least 30 days. The
+
+department shall use a real estate appraiser with knowledge of the local real estate
+
+market who is licensed in Georgia to establish the fair market value of the property
+
+prior to listing such property. If the highest offer received to purchase such property
+
+is less than the appraised value but within 15 percent of such value, the department,
+
+county, or municipality may accept such offer and convey the property in accordance
+
+with the provisions of subsection (c) of this Code section. All sales shall be approved
+
+by the commissioner on behalf of the department or shall be approved by the governing
+
+authority of the county or municipality at a regular meeting that shall be open to the
+
+public, and public comments shall be allowed at such meeting and that allows for public
+
+comment regarding such sale.
+
+(B)
+
+subparagraph (A) of this paragraph, the department, county, or municipality shall
+
+provide for a notice to be inserted published once a week for two weeks in the legal
+
+Commencing at the time of the listing of the property as provided in
+
+organ of the county indicating the names of real estate brokers listing the property for
+
+the department or political subdivision. The department, county, or municipality may
+
+advertise publish such advertisement in newspapers, on the Internet internet, or in
+
+magazines relating to the sale of real estate or similar publications.
+
+(C) The department, county, or municipality shall have the right to reject any and all
+
+offers, in its discretion, and to sell such property pursuant to the provisions of
+
+paragraph (1) of this subsection.
+
+(D) The department shall be authorized to sell property pursuant to this paragraph to
+
+the highest bidder utilizing an online public auction after meeting the requirements set
+
+forth in this paragraph. If the highest offer received to purchase any property is less
+
+than the appraised value but within 15 percent of such value, the department may accept
+
+such offer and convey the property in accordance with the provisions of section (c) of
+
+this Code section.
+
+(3)(A) Such Any sale of property pursuant to this subsection may be made by the
+
+department, a county, or a municipality to the highest bidder at a public auction
+
+conducted by an auctioneer licensed under Chapter 6 of Title 43. If the highest offer
+
+received to purchase such property is less than the appraised value of the property but
+
+within 15 percent of such value, the department, county, or municipality may accept
+
+such offer and convey the property in accordance with the provisions of subsection (c)
+
+of this Code section.
+
+(B) The department, county, or municipality shall provide for a notice to be inserted
+
+published once a week for the two weeks immediately preceding the auction in the legal
+
+organ of the county where such property is located including, at a minimum, the
+
+following items:
+
+(i) A description sufficient to enable the public to identify the property;
+
+(ii) The time and place of the public auction;
+
+(iii) The right of the department or the county or municipality to reject any one or all
+
+of the bids;
+
+(iv) All the conditions of sale; and
+
+(v) Such further information as the department or the county or municipality may
+
+deem advisable as in the public interest.
+
+The department, county, or municipality may advertise publish such advertisement in
+
+magazines relating to the sale of real estate or similar publications.
+
+(C) The department, county, or municipality shall have the right to reject any and all
+
+offers for such property, in its discretion, and to sell such property pursuant to the
+
+provisions of paragraph (1) or (2) of this subsection.
+
+(D) The department shall be authorized to sell property pursuant to this paragraph to
+
+the highest bidder utilizing an online public auction after meeting the requirements set
+
+forth in this paragraph. If the highest offer received to purchase any property is less
+
+than the appraised value but within 15 percent of such value, the department may accept
+
+such offer and convey the property in accordance with the provisions of section (c) of
+
+this Code section."
+
+SECTION 10.
+
+Code Section 46-2-20.1 of the Official Code of Georgia Annotated, relating to electric
+
+vehicle charging services and operation, is amended by revising paragraphs (3) and (5) of
+
+subsection (a) as follows:
+
+"(3) 'Electric vehicle' shall have the same meaning as set forth in Code Section 10-1-220
+
+means a vehicle that is propelled by one or more electric motors fueled by energy stored
+
+in the form of a rechargeable battery."
+
+"(5) 'Electric vehicle charging station' shall have the same meaning as set forth in Code
+
+Section 10-1-220 means any device or group of devices that delivers electricity from a
+
+power source outside an electric vehicle into one or more electric vehicles and that is
+
+located somewhere other than a residence."
+
+SECTION 11.
+
+An Act relating to regulation and taxation of electricity used as motor fuel and electric
+
+vehicle charging stations, approved May 2, 2023 (Ga. L. 2023, p. 376/SB 146), as amended,
+
+is amended by revising subsection (b) of Section 5-1 to read as follows:
+
+"(b) Part II of this Act, which provides for the regulatory authority of the Department of
+
+Agriculture, and Part III of this Act, relating to revenue and taxation, shall become
+
+effective on January 1, 2028."
+
+SECTION 12.
+All laws and parts of laws in conflict with this Act are repealed.

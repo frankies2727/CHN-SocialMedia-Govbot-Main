@@ -1,6 +1,8 @@
 {
   "posted": [
     "AK|HB174|2025-07-30|(H) 12:05 P.M. 6/17/25 Transmitted to Go",
+    "AL|HB404|2026-04-01|Pending Committee Action in Second House",
+    "AL|HB404|2026-04-01|Third Reading in House of Origin",
     "AL|HB404|2026-04-02|Read for the Second Time and placed on t",
     "AL|HB404|2026-04-02|Reported Out of Committee Second House",
     "AL|HB404|2026-04-07|Delivered to Governor",
@@ -37,6 +39,8 @@
     "CA|AB2176|2026-05-22|Read third time. Passed. Ordered to the ",
     "CA|AB2185|2026-05-13|From committee: Do pass. (Ayes 15. Noes ",
     "CA|AB2185|2026-05-21|Read third time. Passed. Ordered to the ",
+    "CA|AB2296|2026-05-28|",
+    "CA|AB2296|2026-05-28|In Senate. Read first time. To Com. on R",
     "CA|SB1072|2026-05-14|In Assembly. Read first time. Held at De",
     "CA|SB1072|2026-05-14|Read third time. Passed. (Ayes 35. Noes ",
     "CA|SB1085|2026-05-18|Read third time. Passed. (Ayes 35. Noes ",
@@ -190,7 +194,7 @@
     "NY|S751|2025-02-14|SIGNED CHAP.77",
     "PA|HB 1492|2025-11-17|Re-reported as committed",
     "PR|RCS0134|2026-02-05|Aparece en Primera Lectura del Senado",
-    "PR|RCS0134|2026-03-27|Comisión no recomienda aprobación de la ",
+    "PR|RCS0134|2026-03-27|Comisi\u00f3n no recomienda aprobaci\u00f3n de la ",
     "RI|HB7565|2026-04-03|04/03/2026 Scheduled for hearing and/or ",
     "RI|HB7565|2026-04-07|04/07/2026 Committee recommended measure",
     "RI|HB8105|2026-03-13|03/13/2026 Scheduled for hearing and/or ",
@@ -210,7 +214,7 @@
     "WA|SB 6027|2026-03-27|Governor signed.",
     "WV|SB 101|2026-01-14|To Education"
   ],
-  "last_run": "2026-06-01T00:29:23.230488+00:00",
+  "last_run": "2026-06-01T12:46:21.019776+00:00",
   "state_last_posted": {
     "MS": "2026-06-01T00:28:26.047546+00:00",
     "PA": "2026-05-16T02:58:27.650333+00:00",
@@ -220,10 +224,10 @@
     "WA": "2026-06-01T00:28:26.047546+00:00",
     "MN": "2026-05-31T20:05:04.455305+00:00",
     "IA": "2026-05-19T09:07:41.504084+00:00",
-    "AL": "2026-05-27T16:28:10.304491+00:00",
+    "AL": "2026-06-01T12:43:37.870775+00:00",
     "FL": "2026-05-31T17:58:07.137288+00:00",
     "PR": "2026-05-18T09:44:51.052129+00:00",
-    "CA": "2026-05-25T21:13:28.762037+00:00",
+    "CA": "2026-06-01T12:43:37.870775+00:00",
     "DE": "2026-05-31T20:05:04.455305+00:00",
     "KS": "2026-05-31T17:58:07.137288+00:00",
     "MA": "2026-05-29T10:47:25.285415+00:00",

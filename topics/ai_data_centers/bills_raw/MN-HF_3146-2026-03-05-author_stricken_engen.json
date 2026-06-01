@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HF 3146",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Data Practices and Privacy",
+      "Public Safety Department",
+      "Telecommunications and Information Technology"
+    ],
+    "title": "Acquisition and use of facial recognition technology by government entities prohibited."
+  },
+  "id": "HF 3146",
+  "log": {
+    "action": {
+      "date": "2026-03-05",
+      "description": "Author stricken Engen",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HF 3146"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF3146/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF3146/logs/20260305T000000Z_author_stricken_engen.json"
+  },
+  "timestamp": "20260305T000000Z"
+}

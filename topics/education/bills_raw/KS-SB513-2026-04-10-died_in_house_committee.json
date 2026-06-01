@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB513",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Children and Families, Department for",
+      "State Agencies"
+    ],
+    "title": "Directing the Kansas department for children and families to develop, procure and implement software to provide direct child care subsidy payments to child care providers."
+  },
+  "id": "SB513",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died in House Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB513"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB513/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB513/logs/20260410T000000Z_died_in_house_committee.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

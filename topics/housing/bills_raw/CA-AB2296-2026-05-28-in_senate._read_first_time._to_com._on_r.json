@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "(1) Existing law, the Planning and Zoning Law, requires each county and city to adopt a comprehensive, long-term general plan for the physical development of the county or city, which includes, among other mandatory elements, a housing element. For the 4th and subsequent revisions of the housing element, existing law requires the Department of Housing and Community Development, in consultation with each council of governments, to determine each region's existing and projected need for housing, and requires the appropriate council of governments, or the department for cities and counties without a council of governments, to adopt a final regional housing plan that allocates a share of the regional housing need to each city, county, or city and county, as provided.\n\nExisting law authorizes at least 2 or more cities and a county, or counties, at least 28 months prior to the scheduled housing element revision, to form a subregional entity to allocate the subregion's existing and projected housing need among its members. If the council of governments does not receive a notification of this formation at least 28 months prior to the update, existing law requires the council of governments to implement specified requirements regarding the regional housing need process. Existing law requires the council of governments to determine the share of regional housing need assigned to each delegate subregion at least 25 months prior to the scheduled revision.\n\nThis bill would extend the above-described timeline for cities and counties to form a subregional entity to allocate the subregion's housing need, as provided, from 28 months to 34 months, and the above-described timeline for the council of governments to determine the share of regional housing need assigned to each subregion from 25 months to 31 months, respectively.\n\n(2) Existing law, at least 2 years before a scheduled revision of the housing element, as specified, requires each council of governments, or delegate subregion as applicable, to develop, in consultation with the department, a proposed methodology for distributing the existing and projected regional housing need to jurisdictions, as specified. Existing law, at least 112 years before a scheduled revision of the housing element, as specified, requires each council of governments and delegate subregion, as applicable, to distribute a draft allocation of regional housing needs to each local government in the region or subregion, where applicable, and the department, as specified.\n\nThis bill, except with respect to the 7th housing element cycle for councils of governments with a housing element revision due date during the 2027 calendar year, would instead require that the above-described methodology be developed from at least 212 years before a scheduled revision of the housing element, and that the distribution of the draft allocation plan be made at least 2 years before a scheduled revision of the housing element, respectively.\n\n(3) This bill states that it is the intent of the Legislature to enact legislation that would assign housing element revision deadlines based on smaller regional groupings and local jurisdiction size, as recommended by the California State Auditor, as described.\n\n(4) By requiring local officials to provide a higher level of service, the bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2296",
+    "legislative_session": "20252026",
+    "subject": [
+      "Planningandzoning",
+      "housingelement",
+      "regionalhousingneedsallocation"
+    ],
+    "title": "Planning and zoning: housing element: regional housing needs allocation."
+  },
+  "id": "AB2296",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2026-05-28",
+      "description": "In Senate. Read first time. To Com. on RLS. for assignment.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "AB2296"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2296/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2296/logs/20260528T000000Z_in_senate_read_first_time_to_com_on_rls_for_assignment.json"
+  },
+  "timestamp": "20260528T000000Z"
+}

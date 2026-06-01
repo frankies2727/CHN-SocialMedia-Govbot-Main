@@ -1,0 +1,71 @@
+As Amended by Senate Committee
+Session of 2026
+
+SENATE BILL No. 513
+By Committee on Ways and Means
+2-17
+
+AN ACT concerning child care subsidy; relating to the Kansas department
+for children and families and the Kansas office of early childhood;
+directing such department, in consultation with such office, to issue a
+request for information and a request for proposal for the development,
+procurement and implementation of software to provide child care
+subsidy payments to child care providers; requiring reports to the
+legislature on such development, procurement and implementation.
+Be it enacted by the Legislature of the State of Kansas:
+Section 1. (a) The Kansas department for children and families, in
+coordination with the Kansas office of early childhood, shall administer
+the child care subsidy program, in accordance with K.S.A. 39-709, and
+amendments thereto, through the development, procurement and
+implementation of a modern child care subsidy management and payment
+system capable of supporting the direct payment of child care subsidy to
+eligible child care providers participating in the Kansas child care subsidy
+program and providing care to eligible child care subsidy recipients. Such
+system shall include, but not be limited to:
+(1) A child care provider login and portal that permits such providers
+to manage service records and payments;
+(2) capability for integration with existing state eligibility
+determination, licensing and financial systems;
+(3) secure communication tools for child care providers and state
+agency staff;
+(4) a help desk or customer assistance function for child care
+providers; and
+(5) program monitoring and integrity functionality for state program
+administrators.
+(b) On or before January 1, 2027, the Kansas department for children
+and families, in coordination with the Kansas office of early childhood,
+shall issue a request for information from private vendors on a modern
+child care subsidy management and payment system. Such request for
+information issued by such department shall seek information on:
+(1) System functionality and technical specifications;
+(2) options for modular or phased implementation;
+(3) estimated one-time and ongoing costs;
+
+SB 513—Am. by SC
+
+(4) experience with federal child care and development fund
+requirements; and
+(5) an estimated timeline for statewide implementation.
+(c) On or before June 30, 2027, the Kansas department for children
+and families shall submit a written report to the legislative coordinating
+council and the house of representatives committees on appropriations and
+health and human services and the senate committees on ways and means
+and public health and welfare, or any successor committee. Such report
+shall include:
+(1) A summary of responses to the request for information;
+(2) estimated costs for procurement, implementation and
+maintenance;
+(3) recommendations regarding issuance of a request for proposal
+including a procurement timeline not to exceed one calendar year from the
+submission of the report;
+(4) a proposed implementation timeline; and
+(5) any statutory changes necessary to support direct-to-provider
+payments.
+(d) Upon submission of such report required in subsection (c) and
+subject to appropriations and applicable federal funds, or a combination
+thereof, the Kansas department for children and families, in coordination
+with the Kansas office of early childhood, shall issue a request for
+proposal for the development, procurement and implementation of such
+system described in subsection (a).
+Sec. 2. This act shall take effect and be in force from and after its
+publication in the statute book Kansas register.

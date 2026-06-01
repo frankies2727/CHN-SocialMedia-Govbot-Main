@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Gordon of Bedford, a petition (accompanied by bill, House, No. 1180) of Kenneth I. Gordon relative to life insurance coverage while taking Paid Family and Medical Leave.  Financial Services.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H1180",
+    "legislative_session": "194th",
+    "title": "An Act ensuring life insurance coverage while taking Paid Family and Medical Leave"
+  },
+  "id": "H1180",
+  "log": {
+    "action": {
+      "date": "2026-01-15",
+      "description": "Reported from the committee on House Rules",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "H1180"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H1180/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H1180/logs/20260115T000000Z_reported_from_the_committee_on_house_rules.json"
+  },
+  "timestamp": "20260115T000000Z"
+}

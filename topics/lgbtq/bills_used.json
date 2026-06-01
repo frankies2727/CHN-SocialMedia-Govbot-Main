@@ -20,6 +20,7 @@
     "KS|HB2267|2026-04-10|Died in Committee",
     "KS|HB2407|2026-04-10|Died in Committee",
     "KS|HB2741|2026-04-10|Died in Committee",
+    "MO|HB 1672|2026-01-07|Read First Time (H)",
     "MO|HB 1672|2026-01-08|Read Second Time (H)",
     "MO|HB 1672|2026-01-08|Referred: Emerging Issues(H)",
     "MO|HB 1672|2026-01-20|Public Hearing Completed (H)",
@@ -67,10 +68,10 @@
     "WA|SB 6081|2026-03-16|Effective date 3/16/2026.",
     "WA|SB 6081|2026-03-16|Governor signed."
   ],
-  "last_run": "2026-06-01T00:35:57.160406+00:00",
+  "last_run": "2026-06-01T12:52:14.594876+00:00",
   "state_last_posted": {
     "WA": "2026-05-24T21:01:19.732360+00:00",
-    "MO": "2026-06-01T00:34:04.634323+00:00",
+    "MO": "2026-06-01T12:50:22.672999+00:00",
     "KS": "2026-05-28T10:57:58.645947+00:00",
     "CA": "2026-05-25T13:12:01.545933+00:00",
     "NJ": "2026-05-24T02:51:34.499116+00:00"

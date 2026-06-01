@@ -1,0 +1,1012 @@
+MS/EN​
+
+as introduced​
+
+SENATE​
+STATE OF MINNESOTA​
+NINETY-FOURTH SESSION​
+(SENATE AUTHORS: PAPPAS)​
+DATE​
+D-PG​
+03/20/2025​
+932​ Introduction and first reading​
+Referred to Taxes​
+03/11/2026​
+6602​ Withdrawn and returned to author​
+
+S.F. No. 2824​
+
+OFFICIAL STATUS​
+
+1.1
+
+A bill for an act​
+
+1.2
+1.3
+1.4
+1.5
+1.6
+1.7
+
+relating to taxation; tax increment financing; authorizing use of certain increment​
+to convert vacant or underused commercial or industrial buildings to residential​
+purposes; modifying calculation of certain increment and findings required for a​
+district converting vacant or underused property; amending Minnesota Statutes​
+2024, sections 469.174, subdivision 10; 469.175, subdivision 3; 469.177,​
+subdivision 1.​
+
+1.8
+
+BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:​
+
+1.9
+
+Section 1. Minnesota Statutes 2024, section 469.174, subdivision 10, is amended to read:​
+
+1.10
+
+Subd. 10. Redevelopment district. (a) "Redevelopment district" means a type of tax​
+
+1.11
+
+increment financing district consisting of a project, or portions of a project, within which​
+
+1.12
+
+the authority finds by resolution that one or more of the following conditions, reasonably​
+
+1.13
+
+distributed throughout the district, exists:​
+
+1.14
+
+(1) parcels consisting of 70 percent of the area of the district are occupied by buildings,​
+
+1.15
+
+streets, utilities, paved or gravel parking lots, or other similar structures and more than 50​
+
+1.16
+
+percent of the buildings, not including outbuildings, are structurally substandard to a degree​
+
+1.17
+
+requiring substantial renovation or clearance;​
+
+1.18
+
+(2) the property consists of vacant, unused, underused, inappropriately used, or​
+
+1.19
+
+infrequently used rail yards, rail storage facilities, or excessive or vacated railroad​
+
+1.20
+
+rights-of-way;​
+(3) tank facilities, or property whose immediately previous use was for tank facilities,​
+
+1.21
+1.22
+
+as defined in section 115C.02, subdivision 15, if the tank facilities:​
+
+1.23
+
+(i) have or had a capacity of more than 1,000,000 gallons;​
+
+Section 1.​
+
+1​
+
+MS/EN​
+
+as introduced​
+
+2.1
+
+(ii) are located adjacent to rail facilities; and​
+
+2.2
+
+(iii) have been removed or are unused, underused, inappropriately used, or infrequently​
+
+2.3
+
+used; or​
+
+2.4
+
+(4) a qualifying disaster area, as defined in subdivision 10b.; or​
+
+2.5
+
+(5) the property consists of vacant, unused, underused, inappropriately used, or​
+
+2.6
+
+infrequently used property intended or recently occupied for commercial or industrial​
+
+2.7
+
+purposes, and the property is located within the city of Minneapolis or St. Paul.​
+
+2.8
+
+(b) For purposes of this subdivision, "structurally substandard" shall mean containing​
+
+2.9
+
+defects in structural elements or a combination of deficiencies in essential utilities and​
+
+2.10
+
+facilities, light and ventilation, fire protection including adequate egress, layout and condition​
+
+2.11
+
+of interior partitions, or similar factors, which defects or deficiencies are of sufficient total​
+
+2.12
+
+significance to justify substantial renovation or clearance.​
+
+2.13
+
+(c) A building is not structurally substandard if it is in compliance with the building​
+
+2.14
+
+code applicable to new buildings or could be modified to satisfy the building code at a cost​
+
+2.15
+
+of less than 15 percent of the cost of constructing a new structure of the same square footage​
+
+2.16
+
+and type on the site. The municipality may find that a building is not disqualified as​
+
+2.17
+
+structurally substandard under the preceding sentence on the basis of reasonably available​
+
+2.18
+
+evidence, such as the size, type, and age of the building, the average cost of plumbing,​
+
+2.19
+
+electrical, or structural repairs, or other similar reliable evidence. The municipality may not​
+
+2.20
+
+make such a determination without an interior inspection of the property, but need not have​
+
+2.21
+
+an independent, expert appraisal prepared of the cost of repair and rehabilitation of the​
+
+2.22
+
+building. An interior inspection of the property is not required, if the municipality finds that​
+
+2.23
+
+(1) the municipality or authority is unable to gain access to the property after using its best​
+
+2.24
+
+efforts to obtain permission from the party that owns or controls the property; and (2) the​
+
+2.25
+
+evidence otherwise supports a reasonable conclusion that the building is structurally​
+
+2.26
+
+substandard. Items of evidence that support such a conclusion include recent fire or police​
+
+2.27
+
+inspections, on-site property tax appraisals or housing inspections, exterior evidence of​
+
+2.28
+
+deterioration, or other similar reliable evidence. Written documentation of the findings and​
+
+2.29
+
+reasons why an interior inspection was not conducted must be made and retained under​
+
+2.30
+
+section 469.175, subdivision 3, clause (1). Failure of a building to be disqualified under the​
+
+2.31
+
+provisions of this paragraph is a necessary, but not a sufficient, condition to determining​
+
+2.32
+
+that the building is substandard.​
+
+Section 1.​
+
+2​
+
+MS/EN​
+
+as introduced​
+
+3.1
+
+(d) A parcel is deemed to be occupied by a structurally substandard building for purposes​
+
+3.2
+
+of the finding under paragraph (a) or by the improvements described in paragraph (e) if all​
+
+3.3
+
+of the following conditions are met:​
+
+3.4
+
+(1) the parcel was occupied by a substandard building or met the requirements of​
+
+3.5
+
+paragraph (e), as the case may be, within three years of the filing of the request for​
+
+3.6
+
+certification of the parcel as part of the district with the county auditor;​
+
+3.7
+
+(2) the substandard building or the improvements described in paragraph (e) were​
+
+3.8
+
+demolished or removed by the authority or the demolition or removal was financed by the​
+
+3.9
+
+authority or was done by a developer under a development agreement with the authority;​
+
+3.10
+
+(3) the authority found by resolution before the demolition or removal that the parcel​
+
+3.11
+
+was occupied by a structurally substandard building or met the requirements of paragraph​
+
+3.12
+
+(e) and that after demolition and clearance the authority intended to include the parcel within​
+
+3.13
+
+a district; and​
+
+3.14
+
+(4) upon filing the request for certification of the tax capacity of the parcel as part of a​
+
+3.15
+
+district, the authority notifies the county auditor that the original tax capacity of the parcel​
+
+3.16
+
+must be adjusted as provided by section 469.177, subdivision 1, paragraph (f).​
+
+3.17
+
+(e) For purposes of this subdivision, a parcel is not occupied by buildings, streets, utilities,​
+
+3.18
+
+paved or gravel parking lots, or other similar structures unless 15 percent of the area of the​
+
+3.19
+
+parcel contains buildings, streets, utilities, paved or gravel parking lots, or other similar​
+
+3.20
+
+structures.​
+
+3.21
+
+(f) For districts consisting of two or more noncontiguous areas, each area must qualify​
+
+3.22
+
+as a redevelopment district under paragraph (a) to be included in the district, and the entire​
+
+3.23
+
+area of the district must satisfy paragraph (a).​
+
+3.24
+3.25
+
+3.26
+3.27
+
+EFFECTIVE DATE. This section is effective for districts for which the request for​
+certification was made after June 30, 2025.​
+Sec. 2. Minnesota Statutes 2024, section 469.175, subdivision 3, is amended to read:​
+Subd. 3. Municipality approval. (a) A county auditor shall not certify the original net​
+
+3.28
+
+tax capacity of a tax increment financing district until the tax increment financing plan​
+
+3.29
+
+proposed for that district has been approved by the municipality in which the district is​
+
+3.30
+
+located. If an authority that proposes to establish a tax increment financing district and the​
+
+3.31
+
+municipality are not the same, the authority shall apply to the municipality in which the​
+
+3.32
+
+district is proposed to be located and shall obtain the approval of its tax increment financing​
+
+3.33
+
+plan by the municipality before the authority may use tax increment financing. The​
+Sec. 2.​
+
+3​
+
+MS/EN​
+
+as introduced​
+
+4.1
+
+municipality shall approve the tax increment financing plan only after a public hearing​
+
+4.2
+
+thereon after published notice in a newspaper of general circulation in the municipality at​
+
+4.3
+
+least once not less than ten days nor more than 30 days prior to the date of the hearing. The​
+
+4.4
+
+published notice must include a map of the area of the district from which increments may​
+
+4.5
+
+be collected and, if the project area includes additional area, a map of the project area in​
+
+4.6
+
+which the increments may be expended. The hearing may be held before or after the approval​
+
+4.7
+
+or creation of the project or it may be held in conjunction with a hearing to approve the​
+
+4.8
+
+project.​
+
+4.9
+
+(b) Before or at the time of approval of the tax increment financing plan, the municipality​
+
+4.10
+
+shall make the following findings, and shall set forth in writing the reasons and supporting​
+
+4.11
+
+facts for each determination:​
+
+4.12
+
+(1) that the proposed tax increment financing district is a redevelopment district, a​
+
+4.13
+
+renewal or renovation district, a housing district, a soils condition district, or an economic​
+
+4.14
+
+development district; if the proposed district is a redevelopment district or a renewal or​
+
+4.15
+
+renovation district, the reasons and supporting facts for the determination that the district​
+
+4.16
+
+meets the criteria of section 469.174, subdivision 10, paragraph (a), clauses (1) and (2), or​
+
+4.17
+
+subdivision 10a, must be documented in writing and retained and made available to the​
+
+4.18
+
+public by the authority until the district has been terminated;​
+
+4.19
+
+(2) that, in the opinion of the municipality:​
+
+4.20
+
+(i) the proposed development or redevelopment would not reasonably be expected to​
+
+4.21
+
+occur solely through private investment within the reasonably foreseeable future; and​
+
+4.22
+
+(ii) the increased market value of the site that could reasonably be expected to occur​
+
+4.23
+
+without the use of tax increment financing would be less than the increase in the market​
+
+4.24
+
+value estimated to result from the proposed development after subtracting the present value​
+
+4.25
+
+of the projected tax increments for the maximum duration of the district permitted by the​
+
+4.26
+
+plan. The requirements of this item do not apply if the district is a housing district or if the​
+
+4.27
+
+district is a redevelopment district determined to meet the criteria of section 469.174,​
+
+4.28
+
+subdivision 10, paragraph (a), clause (5);​
+
+4.29
+4.30
+
+(3) that the tax increment financing plan conforms to the general plan for the development​
+or redevelopment of the municipality as a whole;​
+
+4.31
+
+(4) that the tax increment financing plan will afford maximum opportunity, consistent​
+
+4.32
+
+with the sound needs of the municipality as a whole, for the development or redevelopment​
+
+4.33
+
+of the project by private enterprise;​
+
+Sec. 2.​
+
+4​
+
+5.1
+5.2
+
+MS/EN​
+
+as introduced​
+
+(5) that the municipality elects the method of tax increment computation set forth in​
+section 469.177, subdivision 3, paragraph (b), if applicable.​
+
+5.3
+
+(c) When the municipality and the authority are not the same, the municipality shall​
+
+5.4
+
+approve or disapprove the tax increment financing plan within 60 days of submission by​
+
+5.5
+
+the authority. When the municipality and the authority are not the same, the municipality​
+
+5.6
+
+may not amend or modify a tax increment financing plan except as proposed by the authority​
+
+5.7
+
+pursuant to subdivision 4. Once approved, the determination of the authority to undertake​
+
+5.8
+
+the project through the use of tax increment financing and the resolution of the governing​
+
+5.9
+
+body shall be conclusive of the findings therein and of the public need for the financing.​
+
+5.10
+
+(d) For a district that is subject to the requirements of paragraph (b), clause (2), item​
+
+5.11
+
+(ii), the municipality's statement of reasons and supporting facts must include all of the​
+
+5.12
+
+following:​
+
+5.13
+5.14
+5.15
+5.16
+5.17
+5.18
+5.19
+5.20
+
+(1) an estimate of the amount by which the market value of the site will increase without​
+the use of tax increment financing;​
+(2) an estimate of the increase in the market value that will result from the development​
+or redevelopment to be assisted with tax increment financing; and​
+(3) the present value of the projected tax increments for the maximum duration of the​
+district permitted by the tax increment financing plan.​
+(e) For purposes of this subdivision, "site" means the parcels on which the development​
+or redevelopment to be assisted with tax increment financing will be located.​
+
+5.21
+
+(f) Before or at the time of approval of the tax increment financing plan for a district to​
+
+5.22
+
+be used to fund a workforce housing project under section 469.176, subdivision 4c, paragraph​
+
+5.23
+
+(d), the municipality shall make the following findings and set forth in writing the reasons​
+
+5.24
+
+and supporting facts for each determination:​
+
+5.25
+5.26
+
+(1) the city is located outside of the metropolitan area, as defined in section 473.121,​
+subdivision 2;​
+
+5.27
+
+(2) the average vacancy rate for rental housing located in the municipality and in any​
+
+5.28
+
+statutory or home rule charter city located within 15 miles or less of the boundaries of the​
+
+5.29
+
+municipality has been three percent or less for at least the immediately preceding two-year​
+
+5.30
+
+period;​
+
+5.31
+
+(3) at least one business located in the municipality or within 15 miles of the municipality​
+
+5.32
+
+that employs a minimum of 20 full-time equivalent employees in aggregate has provided a​
+
+Sec. 2.​
+
+5​
+
+MS/EN​
+
+as introduced​
+
+6.1
+
+written statement to the municipality indicating that the lack of available rental housing has​
+
+6.2
+
+impeded the ability of the business to recruit and hire employees; and​
+
+6.3
+
+(4) the municipality and the development authority intend to use increments from the​
+
+6.4
+
+district for the development of rental housing to serve employees of businesses located in​
+
+6.5
+
+the municipality or surrounding area.​
+
+6.6
+
+(g) The county auditor may not certify the original tax capacity of an economic​
+
+6.7
+
+development tax increment financing district for a workforce housing project if the request​
+
+6.8
+
+for certification is made after June 30, 2027.​
+
+6.9
+6.10
+
+6.11
+
+EFFECTIVE DATE. This section is effective for districts for which the request for​
+certification was made after June 30, 2025.​
+Sec. 3. Minnesota Statutes 2024, section 469.177, subdivision 1, is amended to read:​
+
+6.12
+
+Subdivision 1. Original net tax capacity. (a) Upon or after adoption of a tax increment​
+
+6.13
+
+financing plan, the auditor of any county in which the district is situated shall, upon request​
+
+6.14
+
+of the authority, certify the original net tax capacity of the tax increment financing district​
+
+6.15
+
+and that portion of the district overlying any subdistrict as described in the tax increment​
+
+6.16
+
+financing plan and shall certify in each year thereafter the amount by which the original net​
+
+6.17
+
+tax capacity has increased or decreased as a result of a change in tax exempt status of​
+
+6.18
+
+property within the district and any subdistrict, reduction or enlargement of the district or​
+
+6.19
+
+changes pursuant to subdivision 4. The auditor shall certify the amount within 30 days after​
+
+6.20
+
+receipt of the request and sufficient information to identify the parcels included in the district.​
+
+6.21
+
+The certification relates to the taxes payable year as provided in subdivision 6.​
+
+6.22
+
+(b) If the classification under section 273.13 of property located in a district changes to​
+
+6.23
+
+a classification that has a different assessment ratio, the original net tax capacity of that​
+
+6.24
+
+property must be redetermined at the time when its use is changed as if the property had​
+
+6.25
+
+originally been classified in the same class in which it is classified after its use is changed.​
+
+6.26
+
+(c) The amount to be added to the original net tax capacity of the district as a result of​
+
+6.27
+
+previously tax exempt real property within the district becoming taxable equals the net tax​
+
+6.28
+
+capacity of the real property as most recently assessed pursuant to information reported to​
+
+6.29
+
+the commissioner under section 270C.85, subdivision 2, clause (4), or, if that assessment​
+
+6.30
+
+was made more than one year prior to the date of title transfer rendering the property taxable,​
+
+6.31
+
+the net tax capacity assessed by the assessor at the time of the transfer. If improvements are​
+
+6.32
+
+made to tax exempt property after the municipality approves the district and before the​
+
+6.33
+
+parcel becomes taxable, the assessor shall, at the request of the authority, separately assess​
+
+Sec. 3.​
+
+6​
+
+MS/EN​
+
+as introduced​
+
+7.1
+
+the estimated market value of the improvements. If the property becomes taxable, the county​
+
+7.2
+
+auditor shall add to original net tax capacity, the net tax capacity of the parcel, excluding​
+
+7.3
+
+the separately assessed improvements. If substantial taxable improvements were made to​
+
+7.4
+
+a parcel after certification of the district and if the property later becomes tax exempt, in​
+
+7.5
+
+whole or part, as a result of the authority acquiring the property through foreclosure or​
+
+7.6
+
+exercise of remedies under a lease or other revenue agreement or as a result of tax forfeiture,​
+
+7.7
+
+the amount to be added to the original net tax capacity of the district as a result of the​
+
+7.8
+
+property again becoming taxable is the amount of the parcel's value that was included in​
+
+7.9
+
+original net tax capacity when the parcel was first certified. The amount to be added to the​
+
+7.10
+
+original net tax capacity of the district as a result of enlargements equals the net tax capacity​
+
+7.11
+
+of the added real property as most recently certified by the commissioner of revenue as of​
+
+7.12
+
+the date of modification of the tax increment financing plan pursuant to section 469.175,​
+
+7.13
+
+subdivision 4.​
+
+7.14
+
+(d) If the net tax capacity of a property increases because the property no longer qualifies​
+
+7.15
+
+under the Minnesota Agricultural Property Tax Law, section 273.111; the Minnesota Open​
+
+7.16
+
+Space Property Tax Law, section 273.112; or the Metropolitan Agricultural Preserves Act,​
+
+7.17
+
+chapter 473H, the Rural Preserve Property Tax Program under section 273.114, or because​
+
+7.18
+
+platted, unimproved property is improved or market value is increased after approval of the​
+
+7.19
+
+plat under section 273.11, subdivision 14a or 14b, the increase in net tax capacity must be​
+
+7.20
+
+added to the original net tax capacity. If the net tax capacity of a property increases because​
+
+7.21
+
+the property no longer qualifies for the homestead market value exclusion under section​
+
+7.22
+
+273.13, subdivision 35, the increase in net tax capacity must be added to original net tax​
+
+7.23
+
+capacity if the original construction of the affected home was completed before the date the​
+
+7.24
+
+assessor certified the original net tax capacity of the district.​
+
+7.25
+
+(e) The amount to be subtracted from the original net tax capacity of the district as a​
+
+7.26
+
+result of previously taxable real property within the district becoming tax exempt or​
+
+7.27
+
+qualifying in whole or part for an exclusion from taxable market value, or a reduction in​
+
+7.28
+
+the geographic area of the district, shall be the amount of original net tax capacity initially​
+
+7.29
+
+attributed to the property becoming tax exempt, being excluded from taxable market value,​
+
+7.30
+
+or being removed from the district. If the net tax capacity of property located within the tax​
+
+7.31
+
+increment financing district is reduced by reason of a court-ordered abatement, stipulation​
+
+7.32
+
+agreement, voluntary abatement made by the assessor or auditor or by order of the​
+
+7.33
+
+commissioner of revenue, the reduction shall be applied to the original net tax capacity of​
+
+7.34
+
+the district when the property upon which the abatement is made has not been improved​
+
+7.35
+
+since the date of certification of the district and to the captured net tax capacity of the district​
+
+Sec. 3.​
+
+7​
+
+MS/EN​
+
+as introduced​
+
+8.1
+
+in each year thereafter when the abatement relates to improvements made after the date of​
+
+8.2
+
+certification. The county auditor may specify reasonable form and content of the request​
+
+8.3
+
+for certification of the authority and any modification thereof pursuant to section 469.175,​
+
+8.4
+
+subdivision 4.​
+
+8.5
+
+(f) If a parcel of property contained a substandard building or improvements described​
+
+8.6
+
+in section 469.174, subdivision 10, paragraph (e), that were demolished or removed and if​
+
+8.7
+
+the authority elects to treat the parcel as occupied by a substandard building under section​
+
+8.8
+
+469.174, subdivision 10, paragraph (b), or by improvements under section 469.174,​
+
+8.9
+
+subdivision 10, paragraph (e), the auditor shall certify the original net tax capacity of the​
+
+8.10
+
+parcel using the greater of (1) the current net tax capacity of the parcel, or (2) the estimated​
+
+8.11
+
+market value of the parcel for the year in which the building or other improvements were​
+
+8.12
+
+demolished or removed, but applying the classification rates for the current year.​
+
+8.13
+
+(g) For a redevelopment district qualifying under section 469.174, subdivision 10,​
+
+8.14
+
+paragraph (a), clause (4), as a qualified disaster area, the auditor shall certify the value of​
+
+8.15
+
+the land as the original tax capacity for any parcel in the district that contains a building​
+
+8.16
+
+that suffered substantial damage as a result of the disaster or emergency.​
+
+8.17
+
+(h) For a redevelopment district qualifying under section 469.174, subdivision 10,​
+
+8.18
+
+paragraph (a), clause (5), as a property with vacant or underused commercial or industrial​
+
+8.19
+
+buildings, the auditor shall certify the value of the land as the original tax capacity for any​
+
+8.20
+
+parcel in the district that contains a commercial or industrial building determined to be​
+
+8.21
+
+vacant or underused.​
+
+8.22
+8.23
+
+EFFECTIVE DATE. This section is effective for districts for which the request for​
+certification was made after June 30, 2025.​
+
+Sec. 3.​
+
+8​

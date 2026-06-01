@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Notice of Restoration of Voting Rights Information on Sentencing Scoresheets;  Specifies information to be provided on sentencing scoresheets concerning restoration of voting rights; requires that scoresheet be provided to defendant before sentence is imposed.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 467",
+    "legislative_session": "2026",
+    "subject": [
+      "subject index"
+    ],
+    "title": "Notice of Restoration of Voting Rights Information on Sentencing Scoresheets"
+  },
+  "id": "HB 467",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in Criminal Justice Subcommittee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 467"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB467/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB467/logs/20260313T000000Z_died_in_criminal_justice_subcommittee.json"
+  },
+  "timestamp": "20260313T000000Z"
+}

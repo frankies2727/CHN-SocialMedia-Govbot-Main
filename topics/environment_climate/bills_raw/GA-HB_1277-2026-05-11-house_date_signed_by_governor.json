@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Article 1 of Chapter 16 of Title 12 and Title 32 of the Official Code of Georgia Annotated, relating to environmental policy and highways, bridges, and ferries, respectively, so as to increase the project cost threshold for public roads or airports requiring environmental evaluations; to provide for conforming changes; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1277",
+    "legislative_session": "2025_26",
+    "subject": [
+      "CONSERVATION AND NATURAL RESOURCES",
+      "HIGHWAYS, BRIDGES, AND FERRIES"
+    ],
+    "title": "Conservation and natural resources; increase project cost threshold for public roads or airports requiring environmental evaluations"
+  },
+  "id": "HB 1277",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-05-11",
+      "description": "House Date Signed by Governor",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1277"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1277/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1277/logs/20260511T000000Z_house_date_signed_by_governor.json"
+  },
+  "timestamp": "20260511T000000Z"
+}

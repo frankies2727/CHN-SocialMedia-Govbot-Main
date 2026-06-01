@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 6231",
+    "legislative_session": "2025-2026",
+    "title": "Removing a tax exemption for the replacement of equipment for data centers."
+  },
+  "id": "SB 6231",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-3"
+      ],
+      "date": "2026-03-12",
+      "description": "Third reading, passed; yeas, 51; nays, 46; absent, 0; excused, 1.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB 6231"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB6231/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB6231/logs/20260312T000000Z_third_reading_passed_yeas_51_nays_46_absent_0_excused_1.json"
+  },
+  "timestamp": "20260312T000000Z"
+}

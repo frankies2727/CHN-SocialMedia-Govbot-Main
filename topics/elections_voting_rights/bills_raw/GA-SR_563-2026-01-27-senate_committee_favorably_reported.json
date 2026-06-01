@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A RESOLUTION urging the Georgia Secretary of State to immediately and fully comply with the request of the United States Department of Justice to securely produce Georgia's voter registration list, in compliance with Georgia's obligations under the National Voter Registration Act, the Help America Vote Act, and the Civil Rights Act of 1960; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SR 563",
+    "legislative_session": "2025_26",
+    "title": "Georgia Secretary of State; request of the United States Department of Justice to securely produce Georgia's voter registration list; urge"
+  },
+  "id": "SR 563",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage-favorable"
+      ],
+      "date": "2026-01-27",
+      "description": "Senate Committee Favorably Reported",
+      "organization_id": "~{\"classification\": \"upper\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Ethics"
+        }
+      ]
+    },
+    "bill_id": "SR 563"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SR563/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SR563/logs/20260127T000000Z_senate_committee_favorably_reported.json"
+  },
+  "timestamp": "20260127T000000Z"
+}

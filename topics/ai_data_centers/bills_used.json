@@ -91,6 +91,7 @@
     "MI|HB 4668|2025-09-18|motion to discharge committee approved",
     "MI|HB 4668|2025-09-18|placed on second reading",
     "MI|HB 4668|2025-09-18|rule suspended",
+    "MN|HF 3146|2026-03-05|Author stricken Engen",
     "MN|SF 1856|2026-02-26|Withdrawn and re-referred to Judiciary a",
     "MN|SF 1856|2026-03-04|Author stricken Mitchell",
     "MN|SF 1857|2026-02-26|Withdrawn and re-referred to Judiciary a",
@@ -140,12 +141,16 @@
     "WA|SB 5956|2026-02-24|Minority; do not pass.",
     "WA|SB 5956|2026-02-24|Minority; without recommendation.",
     "WA|SB 5956|2026-03-12|By resolution, returned to Senate Rules ",
+    "WA|SB 6231|2026-03-12|",
+    "WA|SB 6231|2026-03-12|President signed.",
+    "WA|SB 6231|2026-03-12|Speaker signed.",
+    "WA|SB 6231|2026-03-12|Third reading, passed; yeas, 51; nays, 4",
     "WA|SB 6231|2026-03-13|Delivered to Governor.",
     "WA|SB 6231|2026-04-01|Effective date 6/11/2026*.",
     "WA|SB 6231|2026-04-01|Governor signed.",
     "WY|SF0065|2025-03-01|H COW:H Did not consider for COW"
   ],
-  "last_run": "2026-06-01T00:11:38.130477+00:00",
+  "last_run": "2026-06-01T12:26:30.668722+00:00",
   "state_last_posted": {
     "WY": "2026-05-16T02:53:56.286279+00:00",
     "CO": "2026-05-16T02:53:56.286279+00:00",
@@ -155,10 +160,10 @@
     "KS": "2026-05-20T02:00:10.240098+00:00",
     "NJ": "2026-05-19T14:33:03.387287+00:00",
     "MS": "2026-05-31T17:53:39.166665+00:00",
-    "WA": "2026-05-31T09:37:51.728870+00:00",
+    "WA": "2026-06-01T12:24:47.886151+00:00",
     "GA": "2026-05-30T09:08:07.932821+00:00",
     "CA": "2026-05-27T16:23:28.833655+00:00",
     "MO": "2026-06-01T00:08:39.228924+00:00",
-    "MN": "2026-05-30T09:08:07.932821+00:00"
+    "MN": "2026-06-01T12:24:47.886151+00:00"
   }
 }

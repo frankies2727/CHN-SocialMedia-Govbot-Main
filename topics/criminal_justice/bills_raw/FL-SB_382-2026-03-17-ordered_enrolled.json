@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Micromobility Device;  Providing requirements for the operation of electric bicycles; prohibiting the operation of an electric bicycle above a certain speed under certain circumstances; creating the Micromobility Device Safety Task Force adjunct to the Department of Highway Safety and Motor Vehicles; requiring the Florida Highway Patrol and each police department and sheriff’s office to maintain a certain list, beginning on a certain date, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 382",
+    "legislative_session": "2026",
+    "subject": [
+      "banks and banking",
+      "subject index",
+      "t"
+    ],
+    "title": "Micromobility Device"
+  },
+  "id": "SB 382",
+  "log": {
+    "action": {
+      "classification": [
+        "enrolled"
+      ],
+      "date": "2026-03-17",
+      "description": "Ordered enrolled",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 382"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB382/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB382/logs/20260317T000000Z_ordered_enrolled.json"
+  },
+  "timestamp": "20260317T000000Z"
+}

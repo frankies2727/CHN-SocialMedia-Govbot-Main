@@ -1,0 +1,184 @@
+03/21/25 ​
+
+REVISOR
+
+This Document can be made available​
+in alternative formats upon request​
+
+State of Minnesota​
+
+KLL/RC
+
+25-05094​
+
+HOUSE OF REPRESENTATIVES​
+NINETY-FOURTH SESSION​
+04/07/2025​
+
+H. F. No.
+
+3146​
+
+Authored by Gomez, Feist, Liebling, Pursell, Xiong and others​
+The bill was read for the first time and referred to the Committee on Public Safety Finance and Policy​
+
+1.1
+
+A bill for an act​
+
+1.2
+1.3
+1.4
+
+relating to public safety; prohibiting the acquisition and use of facial recognition​
+technology by government entities; proposing coding for new law in Minnesota​
+Statutes, chapter 626.​
+
+1.5
+
+1.6
+1.7
+1.8
+
+BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:​
+Section 1. [626.191] FACIAL RECOGNITION TECHNOLOGY.​
+Subdivision 1. Definitions. For purposes of this section, the following terms have the​
+meanings given:​
+
+1.9
+
+(1) "face surveillance" means an automated or semiautomated process that assists in​
+
+1.10
+
+identifying an individual or capturing information about an individual, based on the physical​
+
+1.11
+
+characteristics of an individual's face;​
+
+1.12
+1.13
+1.14
+1.15
+
+(2) "face surveillance system" means a computer software or an application that performs​
+face surveillance;​
+(3) "government entity" means a state or local unit of government or law enforcement​
+agency; and​
+
+1.16
+
+(4) "government official" means a person acting on behalf of a government entity.​
+
+1.17
+
+Subd. 2. Ban on government use of face surveillance. A government entity or​
+
+1.18
+1.19
+1.20
+
+Section 1.​
+
+government official may not:​
+(1) obtain, retain, access, or use a face surveillance system or information obtained from​
+a face surveillance system; or​
+
+1​
+
+03/21/25 ​
+
+REVISOR
+
+KLL/RC
+
+25-05094​
+
+2.1
+
+(2) enter into an agreement or arrangement with a private entity to obtain, retain, access,​
+
+2.2
+
+or use a face surveillance system or information obtained from a face surveillance system.​
+
+2.3
+
+Subd. 3. Enforcement. (a) No data collected or derived from any use of face surveillance​
+
+2.4
+
+in violation of this section and no evidence derived from its use may be received in evidence​
+
+2.5
+
+in a trial, hearing, or other proceeding in or before a court, grand jury, department, officer,​
+
+2.6
+
+agency, regulatory body, legislative committee, or other authority subject to state law. Face​
+
+2.7
+
+surveillance data collected or derived in violation of this section is considered unlawfully​
+
+2.8
+
+obtained and must be deleted upon discovery.​
+
+2.9
+
+(b) A violation of this section constitutes an injury and a person may institute proceedings​
+
+2.10
+
+for injunctive relief, declaratory relief, or writ of mandate in a court of competent jurisdiction.​
+
+2.11
+
+An action instituted under this paragraph may be brought against the respective government​
+
+2.12
+
+entity and, if necessary to effectuate compliance with this section, any other government​
+
+2.13
+
+entity with possession, custody, or control of data subject to this section.​
+
+2.14
+
+(c) A person who has been subjected to face recognition in violation of this section, or​
+
+2.15
+
+about whom information has been obtained, retained, accessed, or used in violation of this​
+
+2.16
+
+section, may institute proceedings in a court of competent jurisdiction against the government​
+
+2.17
+
+entity and shall be entitled to recover actual damages, but not less than liquidated damages​
+
+2.18
+
+of $1,000 or $100 for each violation, whichever is greater.​
+
+2.19
+2.20
+2.21
+2.22
+2.23
+
+(d) A court must award costs and reasonable attorney fees to a plaintiff who is the​
+prevailing party in an action brought under paragraph (b) or (c).​
+(e) Violations of this section by a government official may be addressed through​
+retraining, suspension, or termination, subject to due process requirements.​
+EFFECTIVE DATE. This section is effective August 1, 2025.​
+
+Section 1.​
+
+2​

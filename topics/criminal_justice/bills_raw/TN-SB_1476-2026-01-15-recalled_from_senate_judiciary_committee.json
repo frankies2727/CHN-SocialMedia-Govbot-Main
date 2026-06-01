@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1476",
+    "legislative_session": "114",
+    "subject": [
+      "Dept. of",
+      "Finance and Administration"
+    ],
+    "title": "Finance and Administration, Dept. of - As introduced, creates a law enforcement officer recruitment fund and grant program administered by the department for the purpose of assisting eligible law enforcement agencies in officer recruitment. - Amends TCA Title 4; Title 8; Title 9 and Title 38."
+  },
+  "id": "SB 1476",
+  "log": {
+    "action": {
+      "date": "2026-01-15",
+      "description": "Recalled from Senate Judiciary Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1476"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1476/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1476/logs/20260115T000000Z_recalled_from_senate_judiciary_committee.json"
+  },
+  "timestamp": "20260115T000000Z"
+}
