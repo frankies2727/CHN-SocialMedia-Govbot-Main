@@ -1,0 +1,24 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2192",
+    "legislative_session": "2025-2026",
+    "title": "Updating the role of the Washington traffic safety commission in identifying the risk factors that lead to roadway fatalities."
+  },
+  "id": "HB 2192",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-03-23",
+      "description": "Effective date 6/11/2026.",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "HB 2192"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2192/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2192/logs/20260323T000000Z.classification.became-law.executive.json"
+  }
+}

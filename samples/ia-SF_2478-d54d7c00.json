@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 2478",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "administrative services department",
+      "appropriations",
+      "auditor of state",
+      "management department",
+      "money",
+      "motor vehicle registration",
+      "primary road fund",
+      "road use tax fund",
+      "transportation",
+      "transportation department",
+      "transportation, infrastructure, and capitals appropriations",
+      "unemployment compensation"
+    ],
+    "title": "A bill for an act relating to transportation and other infrastructure-related appropriations to the department of transportation, including allocation and use of moneys from the road use tax fund and the primary road fund."
+  },
+  "id": "SF 2478",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-04-02",
+      "description": "Committee report, approving bill.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 2478"
+  },
+  "sources": {
+    "bill": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2478/metadata.json",
+    "log": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2478/logs/20260402T000000Z_committee_report_approving_bill.json"
+  },
+  "timestamp": "20260402T000000Z"
+}

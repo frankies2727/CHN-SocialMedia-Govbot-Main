@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 1678",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Health and Health Department",
+      "Occupations and Professions",
+      "Wages and Salaries"
+    ],
+    "title": "Health care worker platforms registration with the commissioner of health requirement provision and appropriation"
+  },
+  "id": "SF 1678",
+  "log": {
+    "action": {
+      "date": "2026-02-17",
+      "description": "Authors stricken Abeler; Boldon; Hoffman",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 1678"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF1678/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF1678/logs/20260217T000000Z_authors_stricken_abeler_boldon_hoffman.json"
+  },
+  "timestamp": "20260217T000000Z"
+}

@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Businesses & Financial Institutions",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB303",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Businesses & Financial Institutions"
+    ],
+    "title": "Cryptocurrency; measures to prevent fraud by cryptocurrency kiosk operators imposed, penalties established, Alabama Securities Commission authorized to enforce"
+  },
+  "id": "HB303",
+  "log": {
+    "action": {
+      "date": "2026-03-31T04:00:00+00:00",
+      "description": "Bedsole Concur In and Adopt - Adopted Roll Call 1115",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB303"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB303/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB303/logs/20260331T040000Z_bedsole_concur_in_and_adopt_adopted_roll_call_1115.json"
+  },
+  "timestamp": "20260331T040000Z"
+}

@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1747",
+    "legislative_session": "2026",
+    "subject": [
+      "CIVIL PROCEDURE",
+      "INTERNET AND E-MAIL",
+      "SCIENCE AND TECHNOLOGY"
+    ],
+    "title": "Allows a person to bring a cause of action against another person or entity for damages for failing to state certain content is generated or modified using artificial intelligence"
+  },
+  "id": "HB 1747",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-04-09T05:00:00+00:00",
+      "description": "HCS Reported Do Pass (H) - AYES: 5 NOES: 3 PRESENT: 2",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1747"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB1747/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB1747/logs/20260409T050000Z_hcs_reported_do_pass_h_ayes_5_noes_3_present_2.json"
+  },
+  "timestamp": "20260409T050000Z"
+}

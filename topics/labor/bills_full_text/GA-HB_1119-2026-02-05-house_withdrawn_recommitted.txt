@@ -1,0 +1,256 @@
+House Bill 1119
+By: Representatives Carpenter of the 4th, Bonner of the 73rd, Stephens of the 164th, Gullett
+of the 19th, and Yearta of the 152nd
+
+A BILL TO BE ENTITLED
+AN ACT
+
+To amend Chapter 9 of Title 34 of the Official Code of Georgia Annotated, relating to
+
+workers' compensation, so as to provide for pharmacy care guidelines and pharmacy
+
+management networks under workers' compensation; to provide limitations for providers
+
+prescribing certain medications; to provide for limitations for providers dispensing certain
+
+medications; to provide for reimbursement; to provide for pharmacy management networks;
+
+to provide for notice; to provide for any willing dispensing provider to join a network; to
+
+provide for registration; to provide for a registration fee; to provide for requirements; to
+
+provide for exemption; to provide for definitions; to provide for rules and regulations; to
+
+provide for related matters; to provide for an effective date; to repeal conflicting laws; and
+
+for other purposes.
+
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF GEORGIA:
+
+SECTION 1.
+
+Chapter 9 of Title 34 of the Official Code of Georgia Annotated, relating to workers'
+
+compensation, is amended in Part 1 of Article 6, relating to medical attention for payment
+
+of compensation, by adding new Code sections to read as follows:
+
+"34-9-201.1.
+
+(a) As used in this Code section, the term:
+
+(1) 'Compounded medication' means a custom made prescription drug prepared by a
+
+pharmacist or dispensing provider by mixing or altering ingredients to fit a patient's
+
+unique needs.
+
+(2) 'Dispensing provider' means an individual who is a licensed pharmacist or licensed
+
+physician.
+
+(3) 'Off-label medication' means a prescription drug used for a condition, age group,
+
+dosage, or route not listed in its official label.
+
+(4) 'Pharmacy care' means those services related to the interpretation, evaluation, or
+
+dispensing of prescription drug orders; the participation in drug and device selection,
+
+drug administration, and drug regimen reviews; and the provision of related patient
+
+counseling.
+
+(5) 'Pharmacy management network' means a group or groups of participating dispensing
+
+providers contracted by an employer to provide pharmacy care to injured workers
+
+receiving benefits under workers' compensation.
+
+(b) An employer may provide pharmacy care to injured employees receiving benefits
+
+under workers' compensation through a pharmacy management network or through such
+
+employee's choice of pharmacy or dispensing provider.
+
+(c) Any prescribing provider providing pharmacy care to an injured employee applying
+
+for or receiving benefits under workers' compensation shall prescribe medications in
+
+accordance with the provisions of this chapter and board rules. Such provider shall:
+
+(1) Document medical necessity, obtain prior authorization, and be limited to prescribing
+
+a 30 day supply for any off-label medication; and
+
+(2) Document consideration of commercially available drugs that are approved by the
+
+federal Food and Dug Administration and medical reasons for any compounded
+
+medication, obtain prior authorization for such medication, and be limited to prescribing
+
+a 90 day supply total to be provided in 30 day supply increments for such medication.
+
+(d) Any dispensing provider providing pharmacy care to an injured employee applying for
+
+or receiving workers' compensation benefits in the first seven days following the date of
+
+injury shall dispense medications in accordance with the provisions of this chapter and
+
+board rules. Dispensing shall be limited to:
+
+(1) A single five-day supply for Schedule II and Schedule III drugs; and
+
+(2) A single 14 day supply for all other medications.
+
+(e) Reimbursement for a dispensing provider shall be in accordance with the fee schedule
+
+established by the board; provided, however, that dispensing providers contracted with a
+
+pharmacy management network shall not be subject to the limitations or reimbursement
+
+standards provided in this Code section and may dispense medications to injured
+
+employees based on the provisions in the pharmacy management network contract.
+
+(f) The board is authorized to promulgate rules necessary for the administration of this
+
+Code section.
+
+34-9-201.2.
+
+(a) As used in this Code section, the term:
+
+(1)
+
+Section 34-9-201.1.
+
+(2) 'Pharmacy care' shall have the same meaning as set forth in Code Section 34-9-201.1.
+
+(3) 'Pharmacy management network' shall have the same meaning as set forth in Code
+
+Section 34-9-201.1.
+
+(b) An employer may establish or contract with a pharmacy management network to
+
+provide pharmacy care to injured employees receiving benefits under workers'
+
+compensation; provided, however, that, if such employer requires such care to be provided
+
+exclusively through such network, such employer shall provide notice as follows:
+
+'Dispensing provider' shall have the same meaning as set forth in Code
+
+(1) When the pharmacy management network is first established, the employer shall
+
+provide notice to all employees, either by posting in a prominent location in the
+
+workplace or by providing in paper or electronic format, information about and processes
+
+for filling a prescription through such network; and
+
+(2) When a reported injury occurs, the employer shall provide notice to the employee,
+
+either by providing in paper or electronic format, information about the requirements to
+
+use such network and information on dispensing providers participating in such network.
+
+(c) If an employer complies with the provisions of subsection (b) of this Code section, any
+
+injured employee can obtain medications that are medically necessary, compliant with
+
+pharmacy care guidelines provided for in Code Section 34-9-201.1, and related to a
+
+compensable claim from his or her choice of dispensing provider or a dispensing provider
+
+participating in the pharmacy management network; provided, however, that, if such
+
+medications are obtained from a dispensing provider that is not part of such network, they
+
+shall be reimbursed at the fee schedule amount established by the board until such
+
+dispensing provider is provided notice by the employer or the pharmacy management
+
+network that:
+
+(1) The injured employee is required to obtain pharmacy care through a dispensing
+
+provider participating in the pharmacy management network;
+
+(2) Future pharmacy care through such dispensing provider shall not be reimbursed; and
+
+(3) The dispensing provider is invited to join such network, provided that such network
+
+shall accept as part of the network any dispensing provider that is licensed, in good
+
+standing, and willing to contract with such network and abide by the contract terms with
+
+such network.
+
+(d) Any pharmacy management networks providing pharmacy care for injured employees
+
+pursuant to this Code section shall register with the board and pay a licensing fee in an
+
+amount established by the board sufficient to cover administration of the provisions of this
+
+Code section.
+
+(e) A pharmacy management network shall:
+
+(1) Provide a timely process for participating dispensing providers to dispute a denial or
+
+the amount of reimbursement of a pharmacy bill;
+
+(2)
+
+reimbursement amounts different from the fee schedule amount established by the board;
+
+(3) Not charge participating dispensing providers any fees, direct or indirect, associated
+
+with dispensing, processing, or billing for a prescription drug dispensed to an injured
+
+employee or any fee related to the enrollment or annual reenrollment of a participating
+
+dispensing provider in such network;
+
+(4) Offer a mail order option for injured employees to obtain medications;
+
+(5) Perform any audits of dispensing providers in accordance with the audit provisions
+
+in Code Section 26-4-118, 'The Pharmacy Audit Bill of Rights'; and
+
+(6) Reimburse pharmacy processing agents or third-party billers accepting assignment
+
+of bills from participating dispensing providers at the contractual amount agreed upon
+
+with the assigning dispensing provider.
+
+(f) For claims that are controverted or being disputed for compensability, any injured
+
+employee shall not be required to use a dispensing provider in the pharmacy management
+
+network until such time as compensability is established and notice of compensability is
+
+provided to such employee.
+
+(g) Registered pharmacy management networks providing pharmacy care under this Code
+
+section are exempt from the provisions of Article 2 of Chapter 23 of Title 33, relating to
+
+licensing of administrators, and the provisions of Chapter 64 of Title 33, relating to the
+
+regulation and licensure of pharmacy benefit managers.
+
+(h) The board is authorized to promulgate rules necessary for the administration of this
+
+Code section."
+
+Reimburse participating dispensing providers promptly but may contract for
+
+SECTION 2.
+
+This Act shall become effective on January 1, 2027.
+
+SECTION 3.
+
+All laws and parts of laws in conflict with this Act are repealed.

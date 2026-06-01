@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law requires a refinery-related community air monitoring system to be installed near each refinery, as provided, and requires the monitoring system to include equipment capable of measuring compounds emitted to the atmosphere from refinery processes. Existing law requires owners or operators of petroleum refineries to develop, install, operate, and maintain a fence-line monitoring system in accordance with guidance developed by the appropriate regional air pollution control district or regional air quality management district.\n\nThis bill would require guidance adopted to implement the fence-line monitoring system to include a process for a petroleum refinery to provide substantial evidence to the appropriate air district to exclude a pollutant for monitoring in a fence-line monitoring system and would authorize the air district to exclude a pollutant for monitoring at a petroleum refinery fence-line monitoring system if the air district determines that substantial evidence supports certain considerations. Because the bill would require air districts to revise their guidance related to the fence-line monitoring system, this bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1039",
+    "legislative_session": "20252026",
+    "subject": [
+      "Airresources",
+      "refinery-relatedcommunityairmonitoringsystem"
+    ],
+    "title": "Air resources: refinery-related community air monitoring system."
+  },
+  "id": "SB1039",
+  "log": {
+    "action": {
+      "date": "2026-05-14",
+      "description": "May 14 hearing: Held in committee and under submission.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB1039"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1039/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1039/logs/20260514T000000Z_may_14_hearing_held_in_committee_and_under_submission.json"
+  },
+  "timestamp": "20260514T000000Z"
+}

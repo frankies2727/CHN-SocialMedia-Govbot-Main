@@ -1,0 +1,22 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2004",
+    "legislative_session": "2026",
+    "title": "Appropriates money for the expenses, grants, refunds, and distributions of the Department of Revenue and Department of Transportation"
+  },
+  "id": "HB 2004",
+  "log": {
+    "action": {
+      "date": "2026-05-28T05:00:00+00:00",
+      "description": "Signed by President Pro Tem (S)",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB 2004"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB2004/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB2004/logs/20260528T050000Z_signed_by_president_pro_tem_s.json"
+  },
+  "timestamp": "20260528T050000Z"
+}

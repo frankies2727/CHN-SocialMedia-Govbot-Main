@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 3599",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Housing and Housing Finance Agency",
+      "Landlords and Tenants",
+      "Legal Proceedings"
+    ],
+    "title": "Eviction action for nonpayment of rent redemption provisions modifications"
+  },
+  "id": "SF 3599",
+  "log": {
+    "action": {
+      "date": "2026-03-09",
+      "description": "Withdrawn and re-referred to Judiciary and Public Safety",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 3599"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF3599/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF3599/logs/20260309T000000Z_withdrawn_and_rereferred_to_judiciary_and_public_safety.json"
+  },
+  "timestamp": "20260309T000000Z"
+}

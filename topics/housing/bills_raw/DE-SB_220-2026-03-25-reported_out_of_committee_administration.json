@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Among other changes, this Act is a substitute for Senate Bill No. 220 and does all the following related to the Charter of the Village of Arden:\r\n\r\n(1) Adds a preamble to the Charter.\r\n(2) Amends the boundaries of the Village to include the Sherwood Forest Addition and the Mill Race Addition and, in Section 2 of this Act, makes clear the General Assembly’s inherent power to set the boundaries of a municipality. \r\n(3) Adds definitions of certain terms. \r\n(4) Provides that regular meetings of the Town Assembly are to be held at the Gild Hall or other suitable public physical or virtual venue in the village.\r\n(5) Clarifies and amends the procedures for Special Town Meetings.\r\n(6) Clarifies and revises the procedures for enacting, amending, and repealing ordinances.\r\n(7) Provides that a referendum may be called by a majority vote at a Town Assembly Meeting. \r\n(8) Adds a non-voting, alternate member to the Board of Assessors; removes a provision for the election of the Board of Assessors, which is transferred to an ordinance.\r\n(9) Requires the Board of Assessors to assess the community standard of living, in addition to the full rental value of leased lands.\r\n(10) Removes provisions for the election of the Budget Committee and the budget referendum voting process, which are transferred to an ordinance.\r\n(11) Updates language relating to responsibilities of the Budget Committee.\r\n(12) Provides that if a budget referendum fails, then the town will use the previous year's budget until a new budget can be approved.\r\n(13) Removes provisions relating to the election of the Registration Committee, which are transferred to an ordinance.\r\n(14) Revises the fines and penalties that may be imposed by a Justice of the Peace for violations of the Charter or village ordinances and revises the appeals process for convictions thereof.\r\n(15) Simplifies the Charter's provisions for town law enforcement officials.\r\n(16) Requires that town contracts must be witnessed by a second Village official, in addition to signed by the Chair of the Town Assembly.\r\n(17) Deletes the section of the Charter relating to fire, zoning, and housing codes, as those subjects are already handled by New Castle County.\r\n(18) Replaces gender-specific language with gender-neutral language.\r\n(19) Makes other, minor changes to the language of the Charter.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 220",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND THE CHARTER OF THE VILLAGE OF ARDEN."
+  },
+  "id": "SB 220",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "committee-passage-unfavorable"
+      ],
+      "date": "2026-03-25",
+      "description": "Reported Out of Committee (Administration) in House with 4 On Its Merits, 1 Unfavorable",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Administration"
+        }
+      ]
+    },
+    "bill_id": "SB 220"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB220/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB220/logs/20260325T000000Z_reported_out_of_committee_administration_in_house_with_4_on_its_merits_1_unfavorable.json"
+  },
+  "timestamp": "20260325T000000Z"
+}

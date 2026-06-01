@@ -212,7 +212,12 @@ class Topic:
     # Prompts and copy
     # ------------------------------------------------------------------
 
-    def summary_system_prompt(self, max_chars: int = 160) -> str:
+    def summary_system_prompt(self, max_chars: int = 160, max_sentences: int = 1) -> str:
+        sentence_rule = (
+            f"Output one or two plain-text sentences totaling under {max_chars} characters"
+            if max_sentences > 1
+            else f"Output exactly ONE plain-text sentence under {max_chars} characters"
+        )
         return (
             f"You summarize US legislative bills for a civic-engagement Bluesky bot "
             f"focused on {self.prompt_topic}. The bill's title is shown directly above "
@@ -225,12 +230,15 @@ class Topic:
             f"citations, or states. "
             f"The description may be a long statute containing bill-number prefixes, "
             f"section and chapter citations, and a drafter's name — ignore those and "
-            f"summarize the bill's substantive policy change. "
-            f"Output exactly ONE plain-text sentence under {max_chars} characters, neutral and "
+            f"summarize the bill's substantive policy change. When two sentences are "
+            f"allowed, use the second only to add a concrete, substantive detail (who is "
+            f"affected, key requirement, penalty, or effective date) — never filler. "
+            f"{sentence_rule}, neutral and "
             f"concrete. No emoji, no hashtags, no editorializing, no surrounding quotes, "
             f"no leading phrases like 'This bill', 'The bill', or 'The Act'. Do not "
             f"include any preamble, explanation, or trailing notes."
         )
+
 
     def headline_system_prompt(self) -> str:
         return (
@@ -258,6 +266,12 @@ class Topic:
     def bills_raw_dir(self) -> Path:
         return TOPICS_DIR / self.name / "bills_raw"
 
+    # Full bill text extracted from each posted bill's PDF lives here as plain
+    # .txt files (one per posted action), so the actual legislative body is
+    # readable without digging through the raw JSON record.
+    def bills_full_text_dir(self) -> Path:
+        return TOPICS_DIR / self.name / "bills_full_text"
+
     # Weekly-digest highlights live in their own weekly_digest/ subfolder so
     # the raw artifacts for bills featured in the Sunday thread don't mix
     # with the daily feed's bills_raw/.
@@ -272,6 +286,9 @@ class Topic:
 
     def x_bills_raw_dir(self) -> Path:
         return TOPICS_DIR / self.name / self.x_subdir / "bills_raw"
+
+    def x_bills_full_text_dir(self) -> Path:
+        return TOPICS_DIR / self.name / self.x_subdir / "bills_full_text"
 
     def _secret_suffix(self) -> str:
         return self.name.upper()

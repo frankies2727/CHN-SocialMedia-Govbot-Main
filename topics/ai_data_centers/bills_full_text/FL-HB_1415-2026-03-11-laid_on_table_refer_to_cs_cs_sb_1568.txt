@@ -1,0 +1,568 @@
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+V
+
+E
+
+A bill to be entitled
+
+An act relating to the use of digital currency by the
+
+Department of Financial Services; creating s. 17.72,
+
+F.S.; establishing the Florida Stablecoin Pilot
+
+Program within the Department of Financial Services;
+
+providing legislative intent; defining terms;
+
+authorizing the department to accept eligible payment
+
+stablecoins for the payment of licensing fees,
+
+application fees, renewal fees, and other regulatory
+
+fees; providing eligibility requirements for payment
+
+stablecoins; authorizing the department to designate
+
+an eligible payment stablecoin and compatible digital
+
+wallet addresses; providing for conversion of
+
+stablecoins to United States currency; authorizing
+
+examinations, audits, and investigations of stablecoin
+
+issuers; requiring monitoring and annual reporting to
+
+the Governor and Legislature; authorizing rulemaking;
+
+providing an effective date.
+
+Be It Enacted by the Legislature of the State of Florida:
+
+Section 1.
+
+Section 17.72, Florida Statutes, is created to
+
+read:
+17.72
+
+Florida Stablecoin Pilot Program.—There is
+
+established within the Department of Financial Services the
+CODING: Words stricken are deletions; words underlined are additions.
+hb1415-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+Florida Stablecoin Pilot Program. It is the intent of the
+
+Legislature that the Florida Stablecoin Pilot Program yield
+
+critical insights into the operational feasibility, user
+
+adoption, cybersecurity risks, regulatory compliance, and
+
+economic benefits of accepting eligible payment stablecoins for
+
+governmental fees.
+
+(1)
+
+As used in this section, the term:
+
+(a)
+
+"Compatible digital wallet address" means the address
+
+of a software application that securely stores private keys for
+
+accessing and completing transactions with eligible payment
+
+stablecoins.
+
+(b)
+
+Services.
+
+(c)
+
+"Department" means the Department of Financial
+"Eligible payment stablecoin" means a stablecoin that
+
+meets all of the following requirements:
+1.
+
+The stablecoin is fully backed by at least $1 billion
+
+in reserve assets. This requirement does not apply to a
+
+stablecoin created by the department.
+
+2.
+
+The stablecoin is redeemable through the issuer or its
+
+agent at all times for United States dollars.
+
+3.
+
+stablecoin.
+
+4.
+
+E
+
+V
+
+The issuer does not charge a fee to mint or create the
+The issuer does not charge withdrawal or redemption
+
+fees.
+5.
+
+The stablecoin meets any additional criteria for a
+
+CODING: Words stricken are deletions; words underlined are additions.
+hb1415-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+permitted payment stablecoin under federal law.
+6.
+
+The term does not include a central bank digital
+
+currency issued directly or indirectly by a central bank,
+
+monetary authority, or other governmental agency, whether
+
+foreign or domestic. An eligible payment stablecoin is not a
+
+security as defined in s. 517.021.
+(d)
+
+"Licensing fee" means any fee, assessment, application
+
+fee, renewal fee, or other charge imposed by the department for
+
+licensure, registration, certification, or regulatory oversight.
+
+(2)(a)
+
+The department may allow the acceptance of eligible
+
+payment stablecoins as a form of payment for licensing fees,
+
+application fees, renewal fees, other regulatory fees
+
+administered by the department, or any other money or fee owed
+
+to the department. The department may send eligible payment
+
+stablecoins for refunds, reimbursements, or other disbursements
+
+provided by the department.
+
+(b)
+
+Participation in the pilot program is voluntary. An
+
+applicant, licensee, or other participant may submit eligible
+
+payment stablecoin to a compatible digital wallet address
+
+designated by the department as valid payment to the department.
+
+A participant receiving funds from the department may also elect
+
+to receive refunds, reimbursements, or other disbursements in
+
+eligible payment stablecoins to a compatible digital wallet
+
+address provided by the recipient.
+
+E
+
+V
+
+(3)(a)
+
+The department shall provide a compatible digital
+
+CODING: Words stricken are deletions; words underlined are additions.
+hb1415-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+wallet address for the receipt of eligible payment stablecoins
+
+for licensing fees. Upon receipt of payment, the department may
+
+convert the eligible payment stablecoins into United States
+
+currency and credit the applicable licensing account in the same
+
+manner as a payment made by other authorized means.
+
+(b)
+
+The department may accept, hold, or create eligible
+
+payment stablecoins for use in the pilot program.
+
+(c)
+
+Any earnings on reserves associated with stablecoin
+
+issued by the state must be credited to the benefit of the
+
+state.
+
+(d)
+
+The department shall ensure that the issuer of the
+
+eligible payment stablecoin designated for use in the pilot
+
+program is licensed as a money services business under chapter
+
+or registered as a payment stablecoin issuer under federal
+
+law.
+
+E
+
+V
+
+(e)
+
+The department may conduct examinations, audits, and
+
+investigations of the issuer of an eligible payment stablecoin
+
+designated for use in the pilot program to verify asset backing,
+
+redeemability, and adherence to consumer protection standards,
+
+including standards related to fraud prevention and dispute
+
+resolution.
+
+(4)(a)
+
+The department shall monitor and evaluate the pilot
+
+program, collecting data on transaction volume, cost savings,
+
+security incidents, regulatory compliance, and economic impacts,
+
+as well as any instances of fraud or disputes.
+CODING: Words stricken are deletions; words underlined are additions.
+hb1415-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+(b)
+
+Beginning February 1, 2027, and annually thereafter,
+
+the department shall submit a report to the Governor, the
+
+President of the Senate, and the Speaker of the House of
+
+Representatives. The report must include findings,
+
+recommendations for expansion or termination of the pilot
+
+program, and proposed statutory changes, if appropriate.
+(5)
+
+This section does not alter or supersede any existing
+
+statutory fee obligations, licensing requirements, or
+
+enforcement authority of the department. Acceptance of eligible
+
+payment stablecoins is an optional payment method and does not
+
+require acceptance of any other digital asset.
+
+(6)
+
+section.
+
+E
+
+V
+
+The department may adopt rules to implement this
+
+Section 2.
+
+This act shall take effect upon becoming a law.
+
+CODING: Words stricken are deletions; words underlined are additions.
+hb1415-00
+
+S

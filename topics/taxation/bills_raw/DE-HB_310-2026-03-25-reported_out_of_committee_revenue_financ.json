@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act excludes large energy use facilities from the definition of a qualified facility for purposes of determining eligibility for a tax credit or license fee reduction for the creation of employment and qualified investment in business facilities.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 310",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 30 OF THE DELAWARE CODE RELATING TO BUSINESS TAX CREDITS AND DEDUCTIONS."
+  },
+  "id": "HB 310",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-03-25",
+      "description": "Reported Out of Committee (Revenue & Finance) in House with 8 On Its Merits",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Revenue & Finance"
+        }
+      ]
+    },
+    "bill_id": "HB 310"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB310/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB310/logs/20260325T000000Z_reported_out_of_committee_revenue_finance_in_house_with_8_on_its_merits.json"
+  },
+  "timestamp": "20260325T000000Z"
+}

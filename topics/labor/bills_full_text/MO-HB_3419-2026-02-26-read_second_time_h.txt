@@ -1,0 +1,630 @@
+SECOND REGULAR SESSION
+
+HOUSE BILL NO. 3419
+103RD GENERAL ASSEMBLY
+INTRODUCED BY REPRESENTATIVE FOGLE.
+6186H.01I
+
+JOSEPH ENGLER, Chief Clerk
+
+AN ACT
+To repeal section 290.502, RSMo, and to enact in lieu thereof seventeen new sections relating
+to employee compensation, with penalty provisions.
+
+Be it enacted by the General Assembly of the state of Missouri, as follows:
+
+Section A. Section 290.502, RSMo, is repealed and seventeen new sections enacted
+in lieu thereof, to be known as sections 290.502, 290.601, 290.604, 290.605, 290.607,
+290.610, 290.613, 290.616, 290.619, 290.622, 290.625, 290.628, 290.631, 290.634, 290.637,
+290.640, and 290.643, to read as follows:
+290.502. 1. Except as may be otherwise provided pursuant to sections 290.500 to
+290.530, effective January 1, 2007, every employer shall pay to each employee wages at the
+rate of $6.50 per hour, or wages at the same rate or rates set under the provisions of federal
+law as the prevailing federal minimum wage applicable to those covered jobs in interstate
+commerce, whichever rate per hour is higher.
+2. The minimum wage shall be increased or decreased on January 1, 2008, and on
+January 1 of successive years [but ending December 31, 2024], by the increase or decrease in
+the cost of living. On September 30, 2007, and on each September 30 of each successive year
+[but ending December 31, 2024], the director shall measure the increase or decrease in the
+cost of living by the percentage increase or decrease as of the preceding July over the level as
+of July of the immediately preceding year of the Consumer Price Index for Urban Wage
+Earners and Clerical Workers (CPI-W) or successor index as published by the U.S.
+Department of Labor or its successor agency, with the amount of the minimum wage increase
+or decrease rounded to the nearest five cents.
+
+EXPLANATION — Matter enclosed in bold-faced brackets [thus] in the above bill is not enacted and is
+intended to be omitted from the law. Matter in bold-face type in the above bill is proposed language.
+
+3. Except as may be otherwise provided pursuant to sections 290.500 to 290.530, and
+notwithstanding subsection 1 of this section, effective January 1, 2025, every employer shall
+pay to each employee wages at the rate of not less than $13.75 per hour, or wages at the same
+rate or rates set under the provisions of federal law as the prevailing federal minimum wage
+applicable to those covered jobs in interstate commerce, whichever rate per hour is higher.
+Thereafter, the minimum wage established by this subsection shall be increased by $1.25 per
+hour, to $15.00 per hour, effective January 1, 2026. Thereafter, the minimum wage
+established by this subsection shall be increased or decreased on January 1, 2027, and
+on January first of successive years, per the method set forth in subsection 2 of this
+section. If at any time the federal minimum wage rate is above or is thereafter increased
+above the minimum wage then in effect under this subsection, the minimum wage required
+by this subsection shall continue to be increased pursuant to this subsection, but the
+higher federal rate shall immediately become the minimum wage required by this subsection
+and shall be increased or decreased per the method set forth in subsection 2 for so long
+as it remains higher than the state minimum wage required and increased pursuant to
+this subsection.
+4. For purposes of this section, the term "public employer" means an employer that is
+the state or a political subdivision of the state, including a department, agency, officer, bureau,
+division, board, commission, or instrumentality of the state, or a city, county, town, village,
+school district, or other political subdivision of the state. [Beginning on August 28, 2025, the
+provisions] Subsection 3 of this section shall not apply to a public employer with respect to
+its employees. Any public employer that is subject to subsections 1 and 2 of this section
+shall continue to be subject to those subsections.
+290.601. As used in sections 290.601 to 290.643:
+(1) "Department", department of labor and industrial relations;
+(2) "Director", director of the department of labor and industrial relations;
+(3) "Domestic violence", as such term is defined in section 455.010;
+(4) "Earned paid sick time", time that is compensated at the same hourly rate
+and with the same benefits, including health care benefits, as the employee normally
+earns during hours worked and is provided by an employer to an employee for the
+purposes described in section 290.607, but in no case shall this hourly amount be less
+than that provided under section 290.502;
+(5) "Employee", any individual employed in this state by an employer, but does
+not include:
+(a) Any individual engaged in the activities of an educational, charitable,
+religious, or nonprofit organization where the employer-employee relationship does not,
+in fact, exist or where the services rendered to the organization are on a voluntary basis;
+
+(b) Any individual standing in loco parentis to foster children in their care;
+(c) Any individual employed for less than four months in any year in a resident
+or day camp for children or youth, or any individual employed by an educational
+conference center operated by an educational, charitable, or not-for-profit organization;
+(d) Any individual engaged in the activities of an educational organization where
+employment by the organization is in lieu of the requirement that the individual pay the
+cost of tuition, housing or other educational fees of the organization or where earnings
+of the individual employed by the organization are credited toward the payment of the
+cost of tuition, housing, or other educational fees of the organization;
+(e) Any individual employed on or about a private residence on an occasional
+basis for six hours or less on each occasion;
+(f) Any individual employed on a casual basis to provide baby-sitting services;
+(g) Any individual employed by an employer subject to the provisions of Part A
+of Subtitle IV of Title 49, United States Code, 49 U.S.C. Section 10101 et seq.;
+(h) Any individual employed on a casual or intermittent basis as a golf caddy,
+newsboy, or in a similar occupation;
+(i) Any individual who is employed in any government position defined in 29
+U.S.C. Section 203(e)(2)(C)(i)-(ii);
+(j) Any individual employed by a retail or service business whose annual gross
+volume sales made or business done is less than five hundred thousand dollars;
+(k) Any individual who is an offender, as defined in section 217.010, who is
+incarcerated in any correctional facility operated by the department of corrections,
+including offenders who provide labor or services on the grounds of such correctional
+facility pursuant to section 217.550; or
+(l) Any individual described by the provisions of section 29 U.S.C. 213(a)(8);
+(6) "Employer", any person acting directly or indirectly in the interest of an
+employer in relation to an employee; provided, however, that for the purposes of
+sections 290.601 to 290.643 "employer" does not include the United States government,
+the state, or a political subdivision of the state, including a department, agency, officer,
+bureau, division, board, commission, or instrumentality of the state, or a city, county,
+town, village, school district, public higher education institution, or other political
+subdivision of the state;
+(7) "Family member", any of the following individuals:
+(a) Regardless of age, a biological, adopted, or foster child, stepchild or legal
+ward, a child of a domestic partner, a child to whom the employee stands in loco
+parentis, or an individual to whom the employee stood in loco parentis when the
+individual was a minor;
+
+(b) A biological, foster, stepparent or adoptive parent or legal guardian of an
+employee or an employee's spouse or domestic partner or an individual who stood in
+loco parentis when the employee or employee's spouse or domestic partner was a minor
+child;
+(c) An individual to whom the employee is legally married under the laws of any
+state, or a domestic partner who is registered as such under the laws of any state or
+political subdivision, or an individual with whom the employee is in a continuing social
+relationship of a romantic or intimate nature;
+(d) A grandparent, grandchild, or sibling, whether of a biological, foster,
+adoptive, or step relationship, of the employee or the employee's spouse or domestic
+partner; or
+(e) A person for whom the employee is responsible for providing or arranging
+health or safety-related care including, but not limited to, helping that individual obtain
+diagnostic, preventive, routine, or therapeutic health treatment or ensuring the person is
+safe following domestic violence, sexual assault, or stalking;
+(8) "Health care professional", any individual licensed under federal or any
+state law to provide medical or emergency services including, but not limited to, doctors,
+nurses, certified nurse midwives, mental health professionals, and emergency room
+personnel;
+(9) "Person", any individual, partnership, association, corporation, business,
+business trust, legal representative, or any organized group of persons;
+(10) "Retaliatory personnel action", denial of any right guaranteed under
+sections 290.601 to 290.643, or any threat, discharge, suspension, demotion, reduction of
+hours, or any other adverse action against an employee for the exercise of any right
+guaranteed herein. "Retaliatory personnel action" shall also include interference with
+or punishment for, in any manner, participating in or assisting an investigation,
+proceeding, or hearing under sections 290.601 to 290.643;
+(11) "Same hourly rate", means the following:
+(a) For employees paid on the basis of a single hourly rate, the same hourly rate
+shall be the employee's regular hourly rate;
+(b) For employees who are paid multiple hourly rates of pay from the same
+employer, the same hourly rate shall be either:
+a. The wages the employee would have been paid for the hours absent during use
+of earned paid sick time if the employee had worked; or
+b. The weighted average of all hourly rates of pay during the previous pay
+period.
+
+Whatever method the employer uses, the employer shall use a consistent method for
+each employee throughout a year;
+(c) For employees who are paid a salary, the same hourly rate shall be
+determined by dividing the wages the employee earns in the previous pay period by the
+total number of hours worked during the previous pay period. For determining total
+number of hours worked during the previous pay period, employees who are exempt
+from overtime requirements under 29 U.S.C. Section 213(a)(1), the Fair Labor
+Standards Act, shall be assumed to work forty hours in each work week unless their
+normal work week is less than forty hours, in which case earned paid sick time shall
+accrue and the same hourly rate shall be calculated based on the employee's normal
+work week. Regardless of the basis used, the same hourly rate shall not be less than the
+effective minimum wage specified in section 290.502;
+(d) For employees paid on a piece rate or a fee-for-service basis, the same hourly
+rate shall be a reasonable calculation of the wages or fees the employee would have
+received for the piece work, service, or part thereof, if the employee had worked.
+Regardless of the basis used, the same hourly rate shall not be less than the effective
+minimum wage specified in section 290.502;
+(e) For employees who are paid on a commission basis, whether base wage plus
+commission or commission only, the same hourly rate shall be the greater of the base
+wage or the effective minimum wage specified in section 290.502;
+(f) For employees who receive and retain compensation in the form of gratuities
+in addition to wages, the same hourly rate shall be the greater of the employee's regular
+hourly rate or one hundred percent of the effective minimum wage specified in section
+290.502 without deduction of any tips as a credit;
+(12) "Sexual assault", as such term is defined in section 455.010;
+(13) "Stalking", as such term is defined in section 455.010;
+(14) "Year", a regular and consecutive twelve-month period as determined by
+the employer;, except that for the purposes of section 290.616 and section 290.628,
+"year" shall mean a calendar year.
+290.604. 1. Employees of an employer with fifteen or more employees shall
+accrue a minimum of one hour of earned paid sick time for every thirty hours worked,
+but such employees shall not be entitled to use more than fifty-six hours of earned paid
+sick time per year, unless the employer selects a higher limit.
+2. Employees of an employer with fewer than fifteen employees shall accrue a
+minimum of one hour of earned paid sick time for every thirty hours worked, but such
+employees shall not be entitled to use more than forty hours of earned paid sick time per
+year, unless the employer selects a higher limit.
+
+3. In determining the number of employees of an employer, all employees
+performing work in the state for an employer for compensation on a full-time, parttime, or temporary basis shall be counted. In situations in which the number of
+employees performing work in the state for an employer for compensation per week
+fluctuates above and below fifteen employees per week over the course of a year, an
+employer is required to provide earned paid sick time pursuant to subsection 1 of this
+section if it maintained fifteen or more employees in the state on the payroll for some
+portion of a working day in each of twenty or more different calendar weeks, including
+any periods of leave, and whether the weeks were consecutive, in either the current or
+the preceding year, irrespective of whether the same individuals were in employment in
+each working day.
+4. All employees shall accrue earned paid sick time as follows:
+(1) Earned paid sick time as provided in this section shall begin to accrue at the
+commencement of employment or January 1, 2027, whichever is later. An employee
+shall be entitled to use earned paid sick time as it is accrued. An employer may provide
+all earned paid sick time that an employee is expected to accrue in a year at the
+beginning of the year;
+(2) Employees who are exempt from overtime requirements under 29 U.S.C.
+Section 213(a)(1) of the Federal Fair Labor Standards Act will be assumed to work forty
+hours in each work week for purposes of earned paid sick time accrual unless their
+normal work week is less than forty hours, in which case earned paid sick time accrues
+based upon that normal work week;
+(3) Up to eighty hours of earned paid sick time shall be carried over to the
+following year if the employee has any unused accrued earned paid sick time at the end
+of the year, but this law does not require an employer to permit an employee to use more
+than the applicable number of hours of earned paid sick time per year as set forth in
+subsections 1 and 2 of this section. Alternatively, in lieu of carryover of unused earned
+paid sick time from one year to the next, an employer may pay an employee for unused
+earned paid sick time at the end of a year that could be carried over and provide the
+employee with an amount of paid sick time that meets or exceeds the requirements of
+sections 290.601 to 290.643 that is available for the employee's immediate use at the
+beginning of the subsequent year;
+(4) If an employee is transferred to a separate division, entity, or location, but
+remains employed by the same employer, the employee is entitled to all earned paid sick
+time accrued at the prior division, entity, or location and is entitled to use all earned
+paid sick time as provided in this section. When there is a separation from employment
+and the employee is rehired within nine months of separation by the same employer,
+
+previously accrued earned paid sick time that had not been used shall be reinstated.
+Further, the employee shall be entitled to use accrued earned paid sick time and accrue
+additional earned paid sick time at the recommencement of employment;
+(5) When a different employer succeeds or takes the place of an existing
+employer, all employees of the original employer who remain employed by the successor
+employer are entitled to all earned paid sick time they accrued when employed by the
+original employer, and are entitled to use earned paid sick time previously accrued; and
+(6) At its discretion, an employer may loan earned paid sick time to an employee
+in advance of accrual by such employee.
+5. Any employer with a paid leave policy, such as a paid time off policy, who
+makes available an amount of paid leave sufficient to meet the accrual requirements of
+this section that may be used for the same purposes and under the same conditions as
+earned paid sick time under sections 290.601 to 290.643 is not required to provide
+additional paid sick time under this section.
+6. Except as specifically provided in this section, nothing in this section shall be
+construed as requiring financial or other reimbursement to an employee from an
+employer upon the employee's termination, resignation, retirement, or other separation
+from employment for accrued earned paid sick time that has not been used.
+7. Employees shall not accrue earned paid sick time before January 1, 2027.
+Employees who are employed or who commence employment on or after January 1,
+2027, shall accrue earned paid sick time and be entitled to use earned paid sick time as it
+is accrued in accordance with sections 290.601 to 290.643. The department may develop
+model posters and notices, engage in rulemaking, initiate outreach programs, and
+engage in other activities for implementation of the provisions of sections 290.601 to
+290.643 as authorized by those sections before January 1, 2027.
+290.605. 1. For purposes of this section, the term "earned paid bereavement
+time" means time that is compensated at the same hourly rate and with the same
+benefits, including health care benefits, as the employee normally earns during hours
+worked and is provided by an employer to an employee for the purposes described in
+section 290.607, but in no case shall this hourly amount be less than that provided under
+section 290.502, that is taken in connection with the death of a family member or for the
+grieving of a reproductive loss. "Reproductive loss" includes a miscarriage, an
+unsuccessful round of intrauterine insemination or of an assisted reproductive
+technology procedure, a failed adoption match or an adoption that is not finalized
+because it is contested by another party, a failed surrogacy agreement, a diagnosis that
+negatively impacts pregnancy or fertility, or a stillbirth.
+
+2. Employees of an employer with fifteen or more employees shall accrue a
+minimum of one hour of earned paid bereavement time for every thirty hours worked,
+but such employees shall not be entitled to use more than fifty-six hours of earned paid
+bereavement time per year, unless the employer selects a higher limit.
+3. Employees of an employer with fewer than fifteen employees shall accrue a
+minimum of one hour of earned paid bereavement time for every thirty hours worked,
+but such employees shall not be entitled to use more than forty hours of earned paid
+bereavement time per year, unless the employer selects a higher limit.
+4. In determining the number of employees of an employer, all employees
+performing work in the state for an employer for compensation on a full-time, parttime, or temporary basis shall be counted. In situations in which the number of
+employees performing work in the state for an employer for compensation per week
+fluctuates above and below fifteen employees per week over the course of a year, an
+employer is required to provide earned paid bereavement time pursuant to subsection 2
+of this section if it maintained fifteen or more employees in the state on the payroll for
+some portion of a working day in each of twenty or more different calendar weeks,
+including any periods of leave, and whether the weeks were consecutive, in either the
+current or the preceding year, irrespective of whether the same individuals were in
+employment in each working day.
+5. All employees shall accrue earned paid bereavement time as follows:
+(1) Earned paid bereavement time as provided in this section shall begin to
+accrue at the commencement of employment or January 1, 2027, whichever is later. An
+employee shall be entitled to use earned paid bereavement time as it is accrued. An
+employer may provide all earned paid bereavement time that an employee is expected to
+accrue in a year at the beginning of the year;
+(2) Employees who are exempt from overtime requirements under 29 U.S.C.
+Section 213(a)(1) of the Federal Fair Labor Standards Act will be assumed to work forty
+hours in each work week for purposes of earned paid bereavement time accrual unless
+their normal work week is less than forty hours, in which case earned paid bereavement
+time accrues based upon that normal work week;
+(3) Up to eighty hours of earned paid bereavement time shall be carried over to
+the following year if the employee has any unused accrued earned paid bereavement
+time at the end of the year, but this section does not require an employer to permit an
+employee to use more than the applicable number of hours of earned paid bereavement
+time per year as set forth in subsections 2 and 3 of this section. Alternatively, in lieu of
+carryover of unused earned paid bereavement time from one year to the next, an
+employer may pay an employee for unused earned paid bereavement time at the end of
+
+a year which could be carried over and provide the employee with an amount of paid
+bereavement time that meets or exceeds the requirements of sections 290.601 to 290.643
+that is available for the employee's immediate use at the beginning of the subsequent
+year;
+(4) If an employee is transferred to a separate division, entity, or location, but
+remains employed by the same employer, the employee is entitled to all earned paid
+bereavement time accrued at the prior division, entity, or location and is entitled to use
+all earned paid bereavement time as provided in this section. When there is a separation
+from employment and the employee is rehired within nine months of separation by the
+same employer, previously accrued earned paid bereavement time that had not been
+used shall be reinstated. Further, the employee shall be entitled to use accrued earned
+paid bereavement time and accrue additional earned paid bereavement time at the
+recommencement of employment;
+(5) When a different employer succeeds or takes the place of an existing
+employer, all employees of the original employer who remain employed by the successor
+employer are entitled to all earned paid bereavement time they accrued when employed
+by the original employer, and are entitled to use earned paid bereavement time
+previously accrued;
+(6) At its discretion, an employer may loan earned paid bereavement time to an
+employee in advance of accrual by such employee; and
+(7) Earned paid bereavement leave shall be taken within ninety calendar days of
+the family member's death or of the event resulting in reproductive loss.
+6. Any employer with a bereavement policy who makes available an amount of
+paid bereavement leave sufficient to meet the accrual requirements of this section that
+may be used for the same purposes and under the same conditions as under this section
+is not required to provide additional paid bereavement time under this section.
+7. Except as specifically provided in this section, nothing in this section shall be
+construed as requiring financial or other reimbursement to an employee from an
+employer upon the employee's termination, resignation, retirement, or other separation
+from employment for accrued earned bereavement paid sick time that has not been
+used.
+8. Employees shall not accrue earned bereavement paid sick time before
+January 1, 2027. Employees who are employed or who commence employment on or
+after January 1, 2027, shall accrue earned bereavement paid sick time and be entitled to
+use earned bereavement paid sick time as it is accrued in accordance with sections
+290.601 to 290.643.
+
+290.607. 1. Earned paid sick time shall be provided to an employee by an
+employer for:
+(1) An employee's mental or physical illness, injury, or health condition; an
+employee's need for medical diagnosis, care, or treatment of a mental or physical illness,
+injury, or health condition; and an employee's need for preventive medical care;
+(2) Care of a family member with a mental or physical illness, injury, or health
+condition; care of a family member who needs medical diagnosis, care, or treatment of a
+mental or physical illness, injury, or health condition; and care of a family member who
+needs preventive medical care;
+(3) Closure of the employee's place of business by order of a public official due to
+a public health emergency, an employee's need to care for a child whose school or place
+of care has been closed by order of a public official due to a public health emergency, or
+care for oneself or a family member when it has been determined by the health
+authorities having jurisdiction or by a health care provider that the employee's or
+family member's presence in the community may jeopardize the health of others
+because of his or her exposure to a communicable disease, whether the employee or
+family member has actually contracted the communicable disease; or
+(4) Absence necessary due to domestic violence, sexual assault, or stalking,
+provided the leave is to allow the employee to obtain for the employee or the employee's
+family member:
+(a) Medical attention needed to recover from physical or psychological injury or
+disability caused by domestic violence, sexual assault, or stalking;
+(b) Services from a victim services organization;
+(c) Psychological or other counseling;
+(d) Relocation or taking steps to secure an existing home due to the domestic
+violence, sexual assault, or stalking; or
+(e) Legal services, including preparing for or participating in any civil or
+criminal legal proceeding related to or resulting from the domestic violence, sexual
+assault, or stalking.
+2. Earned paid sick time shall be provided upon the request of an employee.
+Such request may be made orally, in writing, by electronic means, or by any other
+means acceptable to the employer. When practicable, the request shall include the
+expected duration of the absence.
+3. When the use of earned paid sick time is foreseeable, the employee shall make
+a good faith effort to provide notice of the need for such time to the employer in advance
+of the use of the earned paid sick time and shall make a reasonable effort to schedule the
+use of earned paid sick time in a manner that does not unduly disrupt the operations of
+
+the employer. Where such need is not foreseeable, an employer may require an
+employee to provide notice of the need for the use of earned paid sick time as soon as
+practicable.
+4. An employer that requires notice of the need to use earned paid sick time
+where the need is not foreseeable shall provide a written policy that contains procedures
+for the employee to provide notice. An employer that has not provided to the employee
+a copy of its written policy for providing such notice shall not deny earned paid sick
+time to the employee based on noncompliance with such a policy.
+5. An employer shall not require, as a condition of an employee's taking earned
+paid sick time, that the employee search for or find a replacement worker to cover the
+hours during which the employee is using earned paid sick time.
+6. Earned paid sick time may be used in the smaller of hourly increments or the
+smallest increment that the employer's payroll system uses to account for absences or
+use of other time.
+7. For earned paid sick time of three or more consecutive work days, an
+employer may require reasonable documentation that the earned paid sick time has
+been used for a purpose covered by subsection 1 of this section.
+(1) Documentation signed by a health care professional indicating that earned
+paid sick time is necessary shall be considered reasonable documentation for purposes
+of this section.
+(2) In cases of domestic violence, sexual assault, or stalking, if the employer
+requests, one of the following types of documentation selected by the employee shall be
+considered reasonable documentation:
+(a) A police report indicating that the employee or the employee's family
+member was a victim of domestic violence, sexual assault, or stalking;
+(b) A written statement from an employee or agent of a victim service provider
+affirming that the employee or employee's family member is or was receiving services
+from a victim service provider;
+(c) Documentation signed by a health care professional from whom the employee
+or employee's family member sought assistance relating to domestic violence, sexual
+assault, or stalking or the effects thereof;
+(d) A court document indicating that an employee or employee's family member
+is or was involved in a legal action related to domestic violence, sexual assault, or
+stalking; or
+(e) A written statement from the employee affirming that the employee or
+employee's family member is taking or took earned paid sick time for a qualifying
+purpose of subsection 1 of this section.
+
+(3) An employer shall not require that the documentation explain the nature of
+the illness, details of the underlying health needs, or the details of the domestic violence,
+sexual assault, or stalking, unless otherwise required by law.
+290.610. 1. It shall be unlawful for an employer or any other person to interfere
+with, restrain, or deny the exercise of, or the attempt to exercise, any right protected
+under sections 290.601 to 290.643.
+2. An employer shall not take retaliatory personnel action or discriminate
+against an employee or former employee because the individual has exercised rights
+protected under sections 290.601 to 290.643. Such rights include, but are not limited to,
+the right to request or use earned paid sick time or earned bereavement time pursuant
+to sections 290.601 to 290.643; the right to file a complaint or inform any person about
+any employer's alleged violation of sections 290.601 to 290.643; the right to participate
+in any investigation, hearing, or proceeding or cooperate with or assist the department
+in any investigations of alleged violations of sections 290.601 to 290.643; and the right to
+inform any person of his or her potential rights under sections 290.601 to 290.643.
+3. It shall be unlawful for an employer's absence control policy to count earned
+paid sick time or earned bereavement time taken under sections 290.601 to 290.643 as
+an absence that may lead to or result in discipline, discharge, demotion, suspension, or
+any other adverse action.
+4. Protections of this section shall apply to any individual who mistakenly but in
+good faith alleges violations of sections 290.601 to 290.643.
+290.613. 1. Employers shall give employees a written notice about earned paid
+sick time and earned paid bereavement time within fourteen calendar days of the
+commencement of employment or on December 15, 2026, whichever is later, which shall
+include the following information:
+(1) Beginning January 1, 2027, employees accrue and are entitled to earned paid
+sick time at the rate one hour of earned paid sick time for every thirty hours of work,
+and may use earned paid sick time, subject to the limits and terms under sections
+290.601 to 290.643;
+(2) It is prohibited for an employer to take retaliatory personnel action against
+employees who request or use earned paid sick time or earned paid bereavement time as
+allowed by law;
+(3) Each employee has the right to bring a civil action if earned paid sick time or
+earned paid bereavement time as required by sections 290.601 to 290.643 is denied by
+the employer or the employee is subjected to retaliatory personnel action by the
+employer for exercising the employee's rights under sections 290.601 to 290.643; and
+(4) The contact information for the department.
+
+Notice shall be provided by the employer to the employee on a single piece of paper, at
+least 8.5 x 11 inches, in no less than 14-point font.
+2. Beginning December 15, 2026, employers shall display a poster that contains
+the information required in subsection 1 of this section in a conspicuous and accessible
+place in each establishment where such employees are employed, provided that such
+poster has been made available by the department.
+3. The department may create and make available to employers model notices
+and posters that contain the information required under subsection 1 of this section for
+employers' use in complying with subsections 1 and 2 of this section. Nothing in this
+subsection shall be interpreted or applied, either expressly or through practical
+necessity, to require the department to create or make available notices or posters if it
+requires the appropriation of funds to cover the costs of such acts.
+290.616. 1. Employers shall retain records documenting hours worked by
+employees and earned paid sick time and earned paid bereavement time taken by
+employees, for a period of not less than three years, and shall allow the department
+access to such records, with appropriate notice and at a mutually agreeable time, to
+monitor compliance with the requirements of sections 290.601 to 290.643.
+2. To the extent permitted by law, the director may inspect such records, and the
+records shall be open for inspection by the director by appointment. Where the records
+required under this section are kept outside the state, the records shall be made
+available to the director upon demand. Every such employer shall furnish to the
+director on demand a sworn statement of time records and information upon forms
+prescribed or approved by the director. All the records and information obtained by the
+department are confidential and shall be disclosed only on order of a court of competent
+jurisdiction.
+3. Nothing in this section shall be interpreted or applied, either expressly or
+through practical necessity, to require the department or director to access or inspect
+records or to create forms relating to the inspection of records if it requires the
+appropriation of funds to cover the costs of such acts.
+290.619. 1. The department may, in accordance with chapter 536, promulgate
+rules for the implementation, enforcement, and administration of sections 290.601 to
+290.643. Any rule or portion of a rule, as that term is defined in section 536.010, that is
+created under the authority delegated in this section shall become effective only if it
+complies with and is subject to all of the provisions of chapter 536 and, if applicable,
+section 536.028. This section and chapter 536 are nonseverable and if any of the powers
+vested with the general assembly pursuant to chapter 536 to review, to delay the
+
+effective date, or to disapprove and annul a rule are subsequently held unconstitutional,
+then the grant of rulemaking authority and any rule proposed or adopted after the
+effective date of this act, shall be invalid and void.
+2. Nothing in this section shall be interpreted or applied, either expressly or
+through practical necessity, to require the promulgation or adoption of rules if it
+requires the appropriation of funds to cover the costs of such acts.
+290.622. 1. The department may investigate and ascertain compliance with
+sections 290.601 to 290.643, establish and implement a system to receive complaints
+regarding noncompliance with sections 290.601 to 290.643 and to investigate and
+attempt to resolve complaints between the complainant and the subject of the complaint,
+and establish additional means of enforcement, including requiring by subpoena the
+testimony of witnesses and production of books, records, and other evidence relative to
+any matter under investigation or hearing, issuing notices of violation, holding hearings
+on notices of violation, making determinations, recovering unpaid earned sick time,
+recovering unpaid earned bereavement time, and imposing fines for willful violations of
+up to five hundred dollars per day of each day of a continuing violation. A final decision
+of the department is subject to review in accordance with the provisions of chapter 536.
+2. The department may develop and implement an outreach program to inform
+employees, parents, and persons who are under the care of a health care provider about
+the availability of earned paid sick time and earned paid bereavement time under
+sections 290.601 to 290.643. This program may include the distribution of notices and
+other written materials to child care and elder care providers, domestic violence
+shelters, schools, hospitals, community health centers, and other health care providers
+in Missouri.
+3. A municipality, county, city, town, or village may adopt ordinances, rules, and
+regulations to investigate and ascertain compliance with sections 290.601 to 290.643,
+establish and implement a system to receive complaints regarding noncompliance with
+sections 290.601 to 290.643 and to investigate and attempt to resolve complaints between
+the complainant and the subject of the complaint, and establish additional means of
+enforcement, with respect to employers within, or employees performing work while
+physically present in, the geographic boundaries of the municipality, county, city, town,
+or village. Any such ordinance, rule, or regulation shall be consistent with this law and
+any department rules or regulations and system for compliance and enforcement. The
+municipality, county, city, town, or village may exercise such powers as allowed by any
+applicable charter or ordinance, including requiring by subpoena the testimony of
+witnesses and production of books, records, and other evidence relative to any matter
+under investigation or hearing, issuing notices of violation, holding hearings on notices
+
+of violation, making determinations, recovering unpaid earned sick time, recovering
+unpaid earned bereavement time, and imposing fines for willful violations of up to the
+maximum allowed for an ordinance violation. Before investigating or seeking to resolve
+any complaint between the complainant and the subject of the complaint, the
+municipality, county, city, town, or village shall give notice to the department with a
+copy of the complaint and, within fourteen days of such notice, the department may
+intervene as of right and participate in the matter to ensure that the complaint is being
+investigated and resolved in the interest of effective enforcement of sections 290.601 to
+290.643 or, alternatively, the department may institute its own proceedings in which case
+the municipality, county, city, town, or village shall refrain from acting on the matter so
+long as the complaint is being investigated and resolved in the interest of effective
+enforcement of sections 290.601 to 290.643. If the department does not, within fourteen
+days, intervene or instigate its own proceedings, the municipality, county, city, town, or
+village may, without the department, investigate and attempt to resolve the complaint
+and take other additional means within its power to enforce sections 290.601 to 290.643
+against the subject of the complaint. In no event shall an employer be subject to
+compliance proceedings arising out of a single set of facts after having already been
+subjected to a final compliance order by another governmental entity.
+4. Nothing in this section shall be interpreted or applied, either expressly or
+through practical necessity, to require the department, a municipality, county, city,
+town, or village to conduct investigations and ascertain compliance with sections
+290.601 to 290.643, to establish and implement a system to receive or resolve complaints,
+to establish additional means of enforcement, or to conduct outreach and education,
+including the creation of notices and other written materials, concerning sections
+290.601 to 290.643, if it requires the appropriation of funds to cover the costs of such
+acts.
+290.625. 1. Any employer who willfully violates or fails to comply with any of
+the provisions and requirements of sections 290.601 to 290.643 shall be guilty of a class
+C misdemeanor; provided, however, that an employer who willfully violates the notice
+and posting requirements of section 290.613 shall be guilty of an infraction.
+2. For purposes of this section, each day of violation or failure to comply and
+each employee affected shall constitute a separate offense.
+290.628. 1. Any individual who claims to have been aggrieved by a failure of an
+employer to comply with any portion of sections 290.601 to 290.643, including, but not
+limited to, the failure to provide earned paid sick time or earned paid bereavement time
+or to allow employees to use such time consistent with sections 290.601 to 290.643, or
+who claims to have suffered a retaliatory personnel action, shall have a right of action
+
+and may commence a civil action in the appropriate court of jurisdiction within three
+years of the accrual of the cause of action, to obtain appropriate relief with respect to
+such unlawful violation. Such action may be brought without first filing an
+administrative complaint.
+2. In a civil action under this section, if the court finds a violation has occurred,
+the court may grant as relief, as it deems appropriate and to the extent permitted by law,
+any permanent or temporary injunction, the full amount of any unpaid earned sick time
+or unpaid bereavement time plus any actual damages suffered as the result of the
+employer's violation of sections 290.601 to 290.643, an additional amount equal to twice
+any unpaid earned sick time as liquidated damages, costs, and reasonable attorney's fees
+as may be allowed by the court, and other legal or equitable relief as may be appropriate
+to remedy the violation, including, but not limited to, reinstatement to employment and
+back pay.
+290.631. 1. Except as otherwise required by law, an employer shall not require
+disclosure of details relating to an employee's or an employee's family member's health
+information, domestic violence, sexual assault, or stalking as a condition of providing
+earned paid sick time or earned paid bereavement time under sections 290.601 to
+290.643.
+2. Unless as otherwise required by law, any health or safety information
+possessed by an employer regarding an employee or employee's family member shall:
+(1) Be maintained on a separate form and in a separate file from other personnel
+information;
+(2) Be treated as confidential medical records; and
+(3) Not be disclosed except to the affected employee or with the express written
+permission of the affected employee.
+290.634. 1. With respect to employees covered by a valid collective bargaining
+agreement in effect on January 1, 2027, no provisions of sections 290.601 to 290.643 shall
+apply until the stated expiration date in the collective bargaining agreement; however,
+the provisions of sections 290.601 to 290.643 shall apply upon any such agreement's
+renewal, extension, amendment, or modification in any respect after January 1, 2027.
+2. Nothing in sections 290.601 to 290.643 shall be deemed to interfere, impede, or
+otherwise diminish the right of employees to bargain collectively through
+representatives of their own choosing in order to establish earned paid sick time,
+earned paid bereavement time, or other conditions of work in excess of the applicable
+minimum standards under the provisions of sections 290.601 to 290.643.
+3. Any waiver by an employee of rights under sections 290.601 to 290.643 shall
+be deemed contrary to public policy and shall be void.
+
+290.637. 1. Nothing in sections 290.601 to 290.643 shall be construed to
+discourage or prohibit an employer from the adoption or retention of an earned paid
+sick time policy, or earned paid bereavement time policy, or both, that is more generous
+than the one required herein.
+2. Nothing in sections 290.601 to 290.643 shall be construed as diminishing the
+obligation of an employer to comply with any contract, collective bargaining agreement,
+employment benefit plan, or other agreement providing more generous paid sick time or
+earned paid bereavement time to an employee than required herein. Nothing in sections
+290.601 to 290.643 shall be construed as diminishing the rights of public employees
+regarding paid sick time or earned paid bereavement time or use of paid sick time or
+earned paid bereavement time as provided in the laws of Missouri and ordinances of
+political subdivisions pertaining to public employees.
+290.640. 1. Sections 290.601 to 290.643 provide minimum requirements
+pertaining to earned paid sick time and earned paid bereavement time and shall not be
+construed to preempt, limit, or otherwise affect the applicability of any other law,
+regulation, requirement, policy, or standard that provides for greater accrual or use by
+employees of earned paid sick time and earned paid bereavement time or that extends
+other protections to employees.
+2. Nothing in sections 290.601 to 290.643 shall be interpreted or applied to create
+a power or obligation contrary to any federal law, rule, or regulation.
+290.643. Except as detailed in section 290.619, all of the provisions of sections
+290.601 to 290.643 are severable, and if any provision, including any section, subsection,
+subdivision, paragraph, sentence, or clause, or the application thereof to any person or
+circumstance, is found by a court of competent jurisdiction to be invalid,
+unconstitutional, or unconstitutionally enacted, such decision shall not affect other
+provisions or applications of sections 290.601 to 290.643 that can be given effect without
+the invalid, unconstitutional, or unconstitutionally enacted provision or application, and
+to this end the provisions of sections 290.601 to 290.643 are declared severable.
+✔

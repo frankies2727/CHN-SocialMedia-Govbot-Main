@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Victims of Domestic Violence and Dating Violence;  Requiring the Division of Telecommunications within the Department of Management Services to consult with certain entities to conduct a feasibility study regarding a specified alert system; providing requirements for such alert system; authorizing victims of dating violence to apply to participate in the Attorney General’s address confidentiality program; requiring the Attorney General to designate certain entities to assist victims of dating violence applying to be address confidentiality program participants, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 296",
+    "legislative_session": "2026",
+    "subject": [
+      "subject index"
+    ],
+    "title": "Victims of Domestic Violence and Dating Violence"
+  },
+  "id": "SB 296",
+  "log": {
+    "action": {
+      "classification": [
+        "enrolled"
+      ],
+      "date": "2026-03-17",
+      "description": "Ordered enrolled",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 296"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB296/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB296/logs/20260317T000000Z_ordered_enrolled.json"
+  },
+  "timestamp": "20260317T000000Z"
+}

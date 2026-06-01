@@ -1,0 +1,238 @@
+MISSISSIPPI LEGISLATURE
+
+REGULAR SESSION 2026
+
+By:
+
+To:
+
+Representative Hurst
+
+Judiciary A
+
+COMMITTEE SUBSTITUTE
+FOR
+HOUSE BILL NO. 745
+
+AN ACT TO REQUIRE WIRELESS SERVICE PROVIDERS TO PROVIDE CALL
+LOCATION INFORMATION CONCERNING A TELECOMMUNICATIONS DEVICE OF A
+USER TO A REQUESTING LAW ENFORCEMENT AGENCY OR PUBLIC SAFETY
+ANSWERING POINT WHEN REQUESTED FOR THE PURPOSE OF RESPONDING TO A
+CALL FOR EMERGENCY SERVICES OR IN AN EMERGENCY SITUATION THAT
+INVOLVES THE RISK OF DEATH OR SERIOUS PHYSICAL HARM; TO AUTHORIZE
+WIRELESS SERVICE PROVIDERS TO ESTABLISH PROTOCOLS BY WHICH THE
+PROVIDER VOLUNTARILY DISCLOSES CALL LOCATION INFORMATION; TO
+PROHIBIT A CLAIM FOR RELIEF IN ANY COURT AGAINST ANY WIRELESS
+SERVICE PROVIDER OR ANY OTHER PERSON FOR PROVIDING CALL LOCATION
+INFORMATION IF ACTING IN GOOD FAITH UNDER THIS ACT; TO REQUIRE THE
+DEPARTMENT OF PUBLIC SAFETY TO OBTAIN AND DISSEMINATE CONTACT
+INFORMATION FROM ALL WIRELESS SERVICE PROVIDERS AUTHORIZED TO DO
+BUSINESS IN THIS STATE; TO BRING FORWARD SECTION 19-5-319,
+MISSISSIPPI CODE OF 1972, FOR THE PURPOSE OF POSSIBLE AMENDMENT;
+AND FOR RELATED PURPOSES.
+
+BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MISSISSIPPI:
+
+SECTION 1.
+
+(1)
+
+For the purposes of this section, "public
+
+safety answering point" means that term as defined in Section
+
+19-5-383.
+
+(2)
+
+Upon request of a law enforcement agency or a public
+
+safety answering point, on behalf of a law enforcement agency, a
+
+wireless service provider shall provide call location information
+
+concerning the telecommunications device of a user to the
+
+requesting law enforcement agency or public safety answering
+H. B. No. 745
+PAGE 1 (GT\KP)
+
+*HR43/R1840CS*
+
+~ OFFICIAL ~
+
+G1/2
+
+point.
+
+may only request information under this section for the purposes
+
+of responding to a call for emergency services or in an emergency
+
+situation that involves the risk of death or serious physical
+
+harm.
+
+(3)
+
+A law enforcement agency or public safety answering point
+
+A wireless service provider may establish protocols by
+
+which the provider voluntarily discloses call location
+
+information.
+
+(4)
+
+A claim for relief may not be brought in any court
+
+against any wireless service provider or any other person for
+
+providing call location information if acting in good faith under
+
+this section.
+
+(5)
+
+The Department of Public Safety shall obtain contact
+
+information from all wireless service providers authorized to do
+
+business in this state to facilitate a request from a law
+
+enforcement agency or a public safety answering point on behalf of
+
+a law enforcement agency for call location information under this
+
+section.
+
+to each public safety answering point in this state.
+
+The department shall disseminate the contact information
+
+SECTION 2.
+
+Section 19-5-319, Mississippi Code of 1972, is
+
+brought forward as follows:
+19-5-319.
+
+(1)
+
+Automatic number identification (ANI),
+
+automatic location identification (ALI) and geographic automatic
+
+location identification (GeoALI) information that consist of the
+
+name, address and telephone number of telephone or wireless
+H. B. No. 745
+PAGE 2 (GT\KP)
+
+*HR43/R1840CS*
+
+~ OFFICIAL ~
+
+subscribers shall be confidential, and the dissemination of the
+
+information contained in the 911 automatic number and location
+
+database is prohibited except for the following purpose:
+
+information will be provided to the Public Safety Answering Point
+
+(PSAP) on a call-by-call basis only for the purpose of handling
+
+emergency calls or for training, and any permanent record of the
+
+information shall be secured by the Public Safety Answering Point
+
+(PSAP) and disposed of in a manner which will retain that
+
+security, except upon court order or subpoena from a court of
+
+competent jurisdiction or as otherwise provided by law.
+
+(2)
+
+The
+
+All emergency telephone calls and telephone call
+
+transmissions received pursuant to Section 19-5-301 et seq., and
+
+all recordings of the emergency telephone calls, shall remain
+
+confidential and shall be used only for the purposes as may be
+
+needed for law enforcement, fire, medical rescue or other
+
+emergency services.
+
+other parties without court order or subpoena from a court of
+
+competent jurisdiction.
+
+(3)
+
+These recordings shall not be released to any
+
+PSAP and emergency response entities shall maintain and,
+
+upon request, release a record of the date of call, time of call,
+
+the time the emergency response entity was notified, and the
+
+identity of the emergency response entity.
+
+entity shall maintain and, upon request, release a record of the
+
+date and time the call was received by the emergency response
+
+entity and the time the emergency response entity arrived on the
+H. B. No. 745
+PAGE 3 (GT\KP)
+
+*HR43/R1840CS*
+
+The emergency response
+
+~ OFFICIAL ~
+
+scene.
+
+and must specify the information desired.
+
+the cost of providing the information requested in accordance with
+
+the Mississippi Public Records Act of 1983, Section 25-61-1 et
+
+seq.
+
+subject of any call, or the address, phone number or other
+
+identifying information about any such person, shall not be
+
+released except as provided in subsection (2) of this section.
+
+Requests for release of records must be made in writing
+Requestors shall pay
+
+The identity of any caller or person or persons who are the
+
+SECTION 3.
+
+This act shall take effect and be in force from
+
+and after July 1, 2026, and shall stand repealed on June 30, 2026.
+
+H. B. No. 745
+PAGE 4 (GT\KP)
+
+~ OFFICIAL ~
+ST: Cell location information; require wireless
+service providers to disclose to law enforcement
+under certain circumstances.
+
+*HR43/R1840CS*

@@ -1,17 +1,22 @@
 {
   "posted": [
+    "AL|HJR316|2026-04-17|Enacted",
+    "CA|SB1039|2026-05-14|May 14 hearing: Held in committee and un",
     "CO|SJR 022|2026-04-13|Senate Third Reading Laid Over to 04/22/",
     "DE|SB 239|2026-03-17|",
     "DE|SB 239|2026-03-17|Passed By Senate. Votes: 18 YES 3 ABSENT",
     "IA|SF 2490|2026-04-14|Committee report, approving bill.",
+    "KS|HB2147|2026-04-10|Died in Committee",
     "MA|SD3238|2026-04-01|Rules suspended",
     "MO|HB 2578|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HB 3504|2026-05-15|Referred: Emerging Issues(H)",
     "MS|HB1623|2026-02-03|Died In Committee",
     "NJ|S1221|2026-01-13|WITHDRAWN APP P.L.2025, c.202.",
-    "PR|RKC0032|2026-01-12|Aparece en Primera Lectura de la C\u00e1mara",
-    "PR|RKC0032|2026-01-12|Retirada por su Autor"
+    "PR|RKC0032|2026-01-12|Aparece en Primera Lectura de la Cámara",
+    "PR|RKC0032|2026-01-12|Retirada por su Autor",
+    "UT|HB 11|2026-02-27|Governor Signed"
   ],
+  "last_run": "2026-06-01T00:24:12.677920+00:00",
   "state_last_posted": {
     "IA": "2026-05-29T02:44:08.748117+00:00",
     "MO": "2026-05-29T02:44:11.130935+00:00",
@@ -19,8 +24,11 @@
     "PR": "2026-05-29T10:45:32.375297+00:00",
     "CO": "2026-05-30T09:11:56.754802+00:00",
     "DE": "2026-05-30T09:11:56.754802+00:00",
-    "NJ": "2026-05-31T09:44:14.226523+00:00",
-    "MS": "2026-05-31T09:44:14.226523+00:00"
-  },
-  "last_run": "2026-05-31T09:44:19.367633+00:00"
+    "KS": "2026-05-31T17:56:38.433033+00:00",
+    "AL": "2026-05-31T17:56:38.433033+00:00",
+    "UT": "2026-05-31T20:00:27.055804+00:00",
+    "NJ": "2026-05-31T20:00:27.055804+00:00",
+    "CA": "2026-06-01T00:21:48.756550+00:00",
+    "MS": "2026-06-01T00:21:48.756550+00:00"
+  }
 }

@@ -1,0 +1,117 @@
+(Corrected)
+Session of 2026
+
+House Substitute for SENATE BILL No. 394
+By Committee on Elections
+3-18
+
+AN ACT concerning elections; relating to signature verification for
+advance voting ballots; concerning court order that invalidate or enjoin
+signature verification triggering a limitation on advance voting;
+establishing the district court in Shawnee county as the proper venue
+for bringing all constitutional challenges of election laws; amending
+K.S.A. 25-1119 and 25-1121 and repealing the existing sections.
+Be it enacted by the Legislature of the State of Kansas:
+New Section 1. The secretary of state shall monitor all litigation
+challenging the validity of the signature verification requirements
+contained in K.S.A. 25-1124(h), and amendments thereto. Except as
+otherwise provided, if any state or federal court of competent jurisdiction
+enters an order or judgment that invalidates or enjoins the enforcement of
+the signature verification requirements contained in K.S.A. 25-1124(h),
+and amendments thereto, then the secretary of state shall cause notice of
+such order or judgment to be published in the Kansas register at the time
+of the next regular publication of the Kansas register following the date
+such order or judgment is issued. If such order or judgment is issued
+within 45 days prior to the date of an election or at any time from the date
+of such election until the date the results of such election are certified by
+the secretary of state, the secretary of state shall cause notice of such order
+or judgment to be published in the Kansas register at the time of the next
+regular publication of the Kansas register following the date the results of
+such election are certified by the secretary. Upon such publication in the
+Kansas register, the statutory authorization for advance voting by mail in
+Kansas shall be amended as provided in K.S.A. 25-1119, and amendments
+thereto.
+New Sec. 2. (a) Any action alleging that a state law related to
+elections that has statewide application, or any rule and regulation adopted
+pursuant thereto, violates one or more provisions of the constitution of the
+United States or the constitution of the state of Kansas shall be brought in
+the district court of Shawnee county. This venue requirement shall apply to
+any such action regardless of the form of relief sought.
+(b) If an action described in subsection (a) is brought in any district
+court other than the district court of Shawnee county, such court shall,
+upon its own motion or the motion of any party, transfer such action to the
+
+H Sub for SB 394
+
+district court of Shawnee county.
+(c) Nothing in this section shall be construed to limit the jurisdiction
+of the district court of Shawnee county or the appellate jurisdiction of the
+supreme court or the court of appeals.
+Sec. 3. On July 1, 2026, and the date of publication in the Kansas
+register of the notice prescribed in section 1 of this act, K.S.A. 25-1119 is
+hereby amended to read as follows: 25-1119. (a) Any registered voter is
+eligible to vote by advance voting ballot on all offices and to vote by
+advance voting ballot on questions submitted on which such elector would
+otherwise be entitled to vote.
+(b)
+The votes of such electors shall be cast and received and
+canvassed as provided in this act.
+(b) It shall be lawful for any registered elector of this state who is to
+be absent from the county in which the elector resides or in which the
+elector is authorized by law to vote as a former precinct resident as
+defined by K.S.A. 25-3701, and amendments thereto, upon the day of any
+primary, general or question submitted election, and who is actually so
+absent during all of the time that polls are open on such day, to vote an
+advance ballot on all offices, other than precinct committeeman and
+committeewoman, and questions submitted on which such elector would
+otherwise be entitled to vote.
+(c) It shall be lawful for any registered elector of this state who,
+because of sickness or physical disability or because of religious belief or
+practice, is unable to vote at such elector's voting place on the day of any
+primary, general or question submitted election to vote an advance ballot
+on all offices, other than precinct committeeman or committeewoman, and
+to vote an advance ballot on questions submitted on which such elector
+would otherwise be entitled to vote.
+(d) It shall be lawful for any registered elector of this state who,
+because of service as a judge or clerk on an election board, is unable to
+vote at such elector's voting place on the day of any primary, general or
+question submitted election to vote an advance ballot on all offices, other
+than precinct committeeman or committeewoman, and to vote an advance
+ballot on questions submitted on which such elector would otherwise be
+entitled to vote.
+(e) It shall be lawful for any registered elector to vote an advance
+ballot as authorized by K.S.A. 25-1214 et seq., and amendments thereto.
+Sec. 4. K.S.A. 25-1121 is hereby amended to read as follows: 251121. (a) The secretary of state shall prescribe the general forms of
+advance voting ballots to be used in all primary and general elections and
+the form of the printed instructions to voters containing a statement of all
+the requirements of this act, to enable voters to comply with the
+requirements of this act. The prescribed forms shall be transmitted to the
+
+H Sub for SB 394
+
+county election officers 35 days before each primary and general election.
+(b) The secretary of state shall prescribe the general format of
+advance voting ballot envelopes. The envelopes shall include signature
+blocks for the advance voter;, a signature block for the person, if any,
+assisting the advance voter; and a signature block for a person, if any, who
+signs the advance voting ballot envelope on behalf of the advance voter in
+situations when the advance voter is physically unable to sign the envelope
+or unable to sign the envelope consistent with a signature of the voter on
+file in the voter registration database.
+(c) The advance ballot envelope shall contain the following statement
+after the signature block provided for the person who signs the advance
+ballot envelope on behalf of a person who is either physically unable to
+sign such envelope or unable to sign the envelope consistent with a
+signature of the voter on file in the voter registration database:
+"My signature constitutes an affidavit that the person for whom I
+signed the envelope is a person who is physically unable to sign such
+envelope or unable to sign the envelope consistent with the signature of
+the voter on file in the voter registration database. By signing this
+envelope, I swear that this information is true and correct, and I
+acknowledge that signing an advance ballot envelope under false pretenses
+shall constitute the crime of perjury."
+Sec. 5. K.S.A. 25-1121 are hereby repealed.
+Sec. 6. K.S.A. 25-1119 is hereby repealed upon publication of the
+notice by the secretary of state as provided in section 1.
+Sec. 7. This act shall take effect and be in force from and after its
+publication in the Kansas register.

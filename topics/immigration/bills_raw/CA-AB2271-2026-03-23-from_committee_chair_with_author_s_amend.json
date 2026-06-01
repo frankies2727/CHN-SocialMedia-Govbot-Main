@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law requires the Employment Development Department to implement and administer the unemployment insurance program within this state, and provides for the payment of unemployment compensation benefits to eligible individuals who are unemployed through no fault of their own.\n\n Under existing federal law, a state may provide state or local public benefits, including unemployment benefits, to otherwise ineligible aliens or immigrants, as specified, only through a state law enacted after August 22, 1996, which affirmatively provides for such eligibility.\n\nThis bill would establish the Immigration Enforcement Emergency Relief Program administered by the department, as specified. The bill would establish the Immigration Enforcement Emergency Fund within the State Treasury for the purposes of the program and would make all moneys in the fund available, upon appropriation by the Legislature, for purposes of the program. This bill would declare that it is a state law enacted to provide benefits to otherwise ineligible aliens or immigrants as set forth in the above-referenced federal law.\n\nThis bill would require the department, by July 1, 2027, to promulgate regulations to implement the program, including regulations to establish, among other things, a process by which individuals or qualifying beneficiaries may apply for program benefits. The bill would authorize a regulation adopted as described above to be adopted as an emergency regulation, as specified. The bill would require the department to begin accepting applications for program benefits, as defined, as soon as is practicable following the above-described promulgation of regulations.\n\nThis bill would impose specified requirements on the collection and use of personal information, as defined, for purposes of the program, including, but not limited to, requiring that the department establish procedures and safeguards against unauthorized access to, and use of, that personal information, as specified. The bill would make personal information and documents collected for purposes of the program confidential and exempt from disclosure, as specified. The bill would require an individual, as defined, filing a new claim for program benefits to be advised of certain information, including that the program benefits are subject to federal income taxation.\n\nThis bill would entitle an individual eligible to receive program benefits to payment every 14 days for each week during which the individual qualified, calculated as prescribed, not to exceed 20 cumulative weeks. The bill would base the determination of an individual's eligibility for program benefits for each week on the presence of certain conditions, including, but not limited to, that the individual suffered a loss of earned income, as defined, caused by certain actions by the United States Department of Homeland Security.\n\nThis bill would condition implementation of the program upon an appropriation by the Legislature. The bill would declare its provisions severable and would make various findings and declarations related to the necessity and purpose of the program. The bill would make findings and declarations related to a gift of public funds.\n\nExisting constitutional provisions require that a statute that limits the right of access to the meetings of public bodies or the writings of public officials and agencies be adopted with findings demonstrating the interest protected by the limitation and the need for protecting that interest.\n\nThis bill would make legislative findings to that effect.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2271",
+    "legislative_session": "20252026",
+    "subject": [
+      "Immigrantbenefits",
+      "federalDHSenforcement",
+      "lossofincome"
+    ],
+    "title": "Immigrant benefits: loss of income: federal DHS enforcement."
+  },
+  "id": "AB2271",
+  "log": {
+    "action": {
+      "classification": [
+        "amendment-introduction",
+        "amendment-passage",
+        "reading-1",
+        "reading-2"
+      ],
+      "date": "2026-03-23",
+      "description": "From committee chair, with author's amendments: Amend, and re-refer to Com. on INS. Read second time and amended.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB2271"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2271/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2271/logs/20260323T000000Z_from_committee_chair_with_authors_amendments_amend_and_rerefer_to_com_on_ins_read_second_time_and_am.json"
+  },
+  "timestamp": "20260323T000000Z"
+}

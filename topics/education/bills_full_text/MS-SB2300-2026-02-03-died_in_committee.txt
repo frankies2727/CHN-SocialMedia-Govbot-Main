@@ -1,0 +1,5047 @@
+MISSISSIPPI LEGISLATURE
+
+REGULAR SESSION 2026
+
+By:
+
+To:
+
+Senator(s) Fillingane
+
+Education
+
+SENATE BILL NO. 2300
+
+AN ACT TO AMEND SECTION 37-28-5, MISSISSIPPI CODE OF 1972, TO
+REVISE CERTAIN DEFINITIONS AND DEFINE "CHARTER MANAGEMENT
+ORGANIZATION" AND "SPECIAL PURPOSE CHARTER SCHOOL"; TO AMEND
+SECTION 37-28-7, MISSISSIPPI CODE OF 1972, TO REMOVE THE MAXIMUM
+OF FIFTEEN QUALIFIED CHARTER SCHOOLS PER FISCAL YEAR; TO PROVIDE
+FOR SPECIAL PURPOSE CHARTER SCHOOLS; TO CREATE NEW SECTION
+37-28-7.1, MISSISSIPPI CODE OF 1972, TO PRESCRIBE WHO MAY
+AUTHORIZE SPECIAL PURPOSE CHARTER SCHOOLS; TO AMEND SECTION
+37-28-9, MISSISSIPPI CODE OF 1972, TO DESCRIBE THE POWERS AND
+DUTIES OF AUTHORIZERS OF SPECIAL PURPOSE CHARTER SCHOOLS; TO AMEND
+SECTION 37-28-11, MISSISSIPPI CODE OF 1972, TO PROVIDE FOR FUNDING
+OF SPECIAL PURPOSE CHARTER SCHOOLS; TO AMEND SECTION 37-28-13,
+MISSISSIPPI CODE OF 1972, TO CONFORM; TO AMEND SECTION 37-28-15,
+MISSISSIPPI CODE OF 1972, TO CONFORM; TO PROVIDE FOR EXPANSION OF
+CHARTER SCHOOLS; TO BRING FORWARD SECTION 37-28-17, MISSISSIPPI
+CODE OF 1972, FOR PURPOSES OF POSSIBLE AMENDMENT; TO AMEND SECTION
+37-28-19, MISSISSIPPI CODE OF 1972, TO ALLOW APPLICANTS FOR
+CHARTERS TO ACCOUNT FOR UNUSUAL CIRCUMSTANCES, SUCH AS A GLOBAL
+PANDEMIC OR OTHER DISASTER; TO AMEND SECTION 37-28-21, MISSISSIPPI
+CODE OF 1972, TO PROVIDE FOR CHARTER SCHOOL CONTRACTS, INCLUDING
+THOSE CONTRACTS THAT INCLUDE MORE THAN ONE CHARTER SCHOOL; TO
+AMEND SECTION 37-28-23, MISSISSIPPI CODE OF 1972, TO PROVIDE FOR
+ENROLLMENT IN CHARTER SCHOOLS AND SPECIAL PURPOSE CHARTER SCHOOLS;
+TO ALLOW CERTAIN ENROLLMENT PREFERENCES; TO AMEND SECTIONS
+37-28-25, 37-28-27 AND 37-28-29, MISSISSIPPI CODE OF 1972, TO
+CONFORM; TO AMEND SECTION 37-28-31, MISSISSIPPI CODE OF 1972, TO
+ALLOW AUTHORIZERS TO ISSUE NOTICES OF CONCERN OR BREACH OF
+CONTRACT TO INDIVIDUAL CHARTER SCHOOLS OR SPECIAL PURPOSE CHARTER
+SCHOOLS WITHOUT IMPLICATING OR ADVERSELY AFFECTING ALL SCHOOLS
+LISTED IN THAT CONTRACT; TO AMEND SECTION 37-28-33, MISSISSIPPI
+CODE OF 1972, TO PROVIDE FOR RENEWAL OR NONRENEWAL OF CHARTERS
+ACCORDING TO LETTER RATINGS UNDER THE SCHOOL ACCREDITATION RATING
+SYSTEM; TO AMEND SECTION 37-28-35, MISSISSIPPI CODE OF 1972, TO
+PROVIDE FOR CLOSURE OF CHARTER SCHOOLS AND SPECIAL PURPOSE CHARTER
+S. B. No. 2300
+PAGE 1 (aa\tb)
+
+*SS26/R876*
+
+~ OFFICIAL ~
+
+G1/2
+
+SCHOOLS; TO BRING FORWARD SECTION 37-28-37, MISSISSIPPI CODE OF
+1972, FOR PURPOSES OF POSSIBLE AMENDMENT; TO AMEND SECTION
+37-28-39, MISSISSIPPI CODE OF 1972, TO CONFORM; TO PROVIDE FOR
+PAYMENT OF SERVICES TO STUDENTS WITH DISABILITIES ATTENDING
+CHARTER SCHOOLS; TO AMEND SECTION 37-28-41, MISSISSIPPI CODE OF
+1972, TO AUTHORIZE CERTAIN CONTRACT POWERS; TO BRING FORWARD
+SECTION 37-28-43, 37-28-45, 37-28-47, 37-28-49, 37-28-51,
+37-28-53, AND 37-28-55, MISSISSIPPI CODE OF 1972, FOR PURPOSES OF
+POSSIBLE AMENDMENT; TO AMEND SECTION 37-28-57, MISSISSIPPI CODE OF
+1972, TO PROVIDE FOR ACCOUNTING AND FINANCIAL AUDIT REPORTS; TO
+BRING FORWARD SECTIONS 37-28-59 AND 37-28-61, MISSISSIPPI CODE OF
+1972, FOR PURPOSES OF POSSIBLE AMENDMENT; TO AMEND SECTION
+37-179-1, MISSISSIPPI CODE OF 1972, TO DEFINE "SPECIAL PURPOSE
+SCHOOL" AND PROVIDE FOR THEIR ADMINISTRATION; TO AMEND SECTION
+37-179-3, MISSISSIPPI CODE OF 1972, TO CREATE ADDITIONAL GOALS AND
+PERFORMANCE TARGETS FOR PROPOSALS FOR DISTRICTS OF INNOVATION OR
+SPECIAL PURPOSE SCHOOLS; AND FOR RELATED PURPOSES.
+
+BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MISSISSIPPI:
+
+SECTION 1.
+
+amended as follows:
+
+37-28-5.
+
+Section 37-28-5, Mississippi Code of 1972, is
+
+As used in this chapter, the following words and
+
+phrases have the meanings ascribed in this section unless the
+
+context clearly indicates otherwise:
+
+(a)
+
+"Applicant" means any person * * *, group or
+
+nonprofit entity that develops and submits an application for a
+
+charter school to the authorizer.
+
+(b)
+
+"Application" means a proposal from an applicant to
+
+the authorizer to enter into a charter contract whereby the
+
+proposed school obtains charter school status.
+
+(c)
+
+"Authorizer" means the Mississippi Charter School
+
+Authorizer Board established under Section 37-28-7 * * *, unless
+
+otherwise specified in this chapter.
+
+(d)
+
+"Charter contract" means a fixed-term, renewable
+
+contract between the governing board of a Mississippi nonprofit
+S. B. No. 2300
+PAGE 2 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+entity with an approved application for a charter school and the
+
+authorizer which establishes the charter school and outlines the
+
+roles, powers, responsibilities and performance expectations for
+
+each party to the contract.
+
+(e)
+
+"Charter management organization" means a nonprofit
+
+entity which operates, or which has applied to operate, more than
+
+one (1) charter school in Mississippi and which holds one or more
+
+charter contract(s) that include(s) one or more of its authorized
+
+schools.
+
+( * * *f)
+
+"Charter school" means a public school that
+
+is established and operating under the terms of charter
+
+contract * * *.
+
+charter school and start-up charter school.
+
+The term "charter school" includes a conversion
+
+( * * *g)
+
+"Conversion charter school" means a charter
+
+school that existed as a noncharter public school before becoming
+
+a charter school.
+
+( * * *h)
+
+"Education service provider" means a * * *
+
+partner entity with which * * * the governing board intends to
+
+contract for * * * full or substantial educational services.
+
+education service provider does not itself hold a charter contract
+
+as defined in this section.
+
+operating its own schools shall not be considered an education
+
+service provider.
+
+( * * *i)
+
+An
+
+A charter management organization
+
+"Governing board" means the independent board
+
+of a charter school which is party to the charter contract with
+S. B. No. 2300
+PAGE 3 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+the authorizer and whose members have been elected or selected
+
+pursuant to the school's application.
+
+( * * *j)
+
+"Noncharter public school" means a public
+
+school that is under the direct management, governance and control
+
+of a school board or the state.
+
+( * * *k)
+
+"Parent" means a parent, guardian or other
+
+person or entity having legal custody of a child.
+
+( * * *l)
+
+"School board" or "local school board" means
+
+a school board exercising management and control over a local
+
+school district and the schools of that district pursuant to the
+
+State Constitution and state statutes.
+
+( * * *m)
+
+"School district" or "district" means a
+
+governmental entity that establishes and supervises one or more
+
+public schools within its geographical limits pursuant to state
+
+statutes.
+
+(n)
+
+"Special purpose charter school" means a public
+
+charter school established to operate in a manner that differs
+
+from a traditional public school by providing a specialized or
+
+innovative educational service designed to meet distinct student
+
+needs or community priorities.
+
+not limited to, schools with a focus on:
+
+Such schools may include, but are
+
+(i)
+
+Career and technical education;
+
+(ii)
+
+Science, technology, engineering and
+
+mathematics (STEM);
+
+S. B. No. 2300
+PAGE 4 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(iii)
+
+Special education services or targeted
+
+supports for students with disabilities or learning differences,
+
+including students with autism or dyslexia; or
+
+(iv)
+
+Other specialized instructional models that
+
+promote individualized learning or workforce readiness.
+A special purpose charter school shall be subject to all
+requirements established by its authorizer.
+
+( * * *o)
+
+"Start-up charter school" means a charter
+
+school that did not exist as a noncharter public school before
+
+becoming a charter school.
+
+( * * *p)
+
+"Student" means any child who is eligible for
+
+attendance in a public school in the state.
+
+( * * *q)
+
+"Underserved students" means students
+
+qualifying as low-income or qualifying for a special education
+
+program under Section 37-151-201.
+
+SECTION 2.
+
+Section 37-28-7, Mississippi Code of 1972, is
+
+amended as follows:
+
+37-28-7.
+
+(1)
+
+(a)
+
+There is created the Mississippi Charter
+
+School Authorizer Board * * *.
+
+( * * *b)
+
+The mission of the Mississippi Charter School
+
+Authorizer Board is to authorize high-quality charter schools,
+
+particularly schools designed to expand opportunities for
+
+underserved students, consistent with the purposes of this
+
+chapter.
+
+this subsection, the Mississippi Charter School Authorizer Board
+
+Subject to the restrictions and conditions prescribed in
+
+S. B. No. 2300
+PAGE 5 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+may authorize charter schools within the geographical boundaries
+
+of any school district.
+
+* * *
+
+(c)
+
+In any school district designated as an "A," "B" or
+
+"C" school district by the State Board of Education under the
+
+accreditation rating system at the time of application, the
+
+Mississippi Charter School Authorizer Board may authorize charter
+
+schools only if a majority of the members of the local school
+
+board votes at a public meeting to endorse the application or to
+
+initiate the application on its own initiative.
+
+(d)
+
+Notwithstanding the provisions of paragraph (c) of
+
+this subsection, the Mississippi Charter School Authorizer Board
+
+may approve a charter application for a special purpose charter
+
+school, as defined in this chapter, in any district.
+
+(e)
+
+A charter school approved in accordance with this
+
+subsection may operate thereafter in the same manner as any other
+
+charter school regardless of the performance classification of the
+
+school district in which the charter school is located.
+
+( * * *2)
+
+The Mississippi Charter School Authorizer Board
+
+shall consist of seven (7) members, to be appointed as follows:
+(a)
+
+Three (3) members appointed by the Governor, with
+
+one (1) member being from each of the Mississippi Supreme Court
+
+Districts.
+
+S. B. No. 2300
+PAGE 6 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(b)
+
+Three (3) members appointed by the Lieutenant
+
+Governor, with one (1) member being from each of the Mississippi
+
+Supreme Court Districts.
+
+(c)
+
+One (1) member appointed by the State
+
+Superintendent of Public Education.
+All appointments must be made with the advice and consent of
+
+the Senate.
+
+shall ensure diversity among members of the Mississippi Charter
+
+School Authorizer Board.
+
+In making the appointments, the appointing authority
+
+( * * *3)
+
+Members appointed to the Mississippi Charter
+
+School Authorizer Board collectively must possess strong
+
+experience and expertise in public and nonprofit governance,
+
+management and finance, public school leadership, assessment,
+
+curriculum and instruction, and public education law.
+
+of the Mississippi Charter School Authorizer Board must have
+
+demonstrated an understanding of and commitment to charter
+
+schooling as a strategy for strengthening public education.
+
+( * * *4)
+
+Each member
+
+To establish staggered terms of office, the
+
+initial term of office for the three (3) Mississippi Charter
+
+School Authorizer Board members appointed by the Governor shall be
+
+four (4) years and thereafter shall be three (3) years; the
+
+initial term of office for the three (3) members appointed by the
+
+Lieutenant Governor shall be three (3) years and thereafter shall
+
+be three (3) years; and the initial term of office for the member
+
+appointed by the State Superintendent of Public Education shall be
+S. B. No. 2300
+PAGE 7 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+two (2) years and thereafter shall be three (3) years.
+
+may serve more than two (2) consecutive terms.
+
+appointments must be made before September 1, 2013.
+
+( * * *5)
+
+No member
+
+The initial
+
+The Mississippi Charter School Authorizer Board
+
+shall meet as soon as practical after September 1, 2013, upon the
+
+call of the Governor, and shall organize for business by selecting
+
+a chairman and adopting bylaws.
+
+called by the chairman.
+
+( * * *6)
+
+Subsequent meetings shall be
+
+An individual member of the Mississippi Charter
+
+School Authorizer Board may be removed by the board if the
+
+member's personal incapacity renders the member incapable or unfit
+
+to discharge the duties of the office or if the member is absent
+
+from a number of meetings of the board, as determined and
+
+specified by the board in its bylaws.
+
+Mississippi Charter School Authorizer Board exists, the original
+
+appointing authority shall appoint a member for the remaining
+
+portion of the term.
+
+( * * *7)
+
+Whenever a vacancy on the
+
+No member of the Mississippi Charter School
+
+Authorizer Board or employee, agent or representative of the board
+
+may serve simultaneously as an employee, trustee, agent,
+
+representative, vendor or contractor of a charter school
+
+authorized by the board.
+
+( * * *8)
+
+The Mississippi Charter School Authorizer Board
+
+shall appoint an individual to serve as the Executive Director of
+
+the Mississippi Charter School Authorizer Board.
+S. B. No. 2300
+PAGE 8 (aa\tb)
+
+The executive
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+director shall possess the qualifications established by the board
+
+which are based on national best practices, and shall possess an
+
+understanding of state and federal education law.
+
+director, who shall serve at the will and pleasure of the board,
+
+shall devote his full time to the proper administration of the
+
+board and the duties assigned to him by the board and shall be
+
+paid a salary established by the board, subject to the approval of
+
+the State Personnel Board.
+
+funding, the executive director may employ such administrative
+
+staff as may be necessary to assist the director and board in
+
+carrying out the duties and directives of the Mississippi Charter
+
+School Authorizer Board.
+
+( * * *9)
+
+The executive
+
+Subject to the availability of
+
+The Mississippi Charter School Authorizer Board is
+
+authorized to obtain suitable office space for administrative
+
+purposes.
+
+board shall adhere to all policies and procedures required by the
+
+Department of Finance and Administration and the Public
+
+Procurement Review Board.
+
+SECTION 3.
+
+The following shall be codified as Section
+
+37-28-7.1, Mississippi Code of 1972:
+
+In acquiring a facility or office space, the authorizer
+
+37-28-7.1.
+
+Special purpose charter schools may be authorized
+
+by:
+(a)
+
+The Mississippi Charter School Authorizer Board
+
+created under Section 37-28-7;
+
+S. B. No. 2300
+PAGE 9 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(b)
+
+An office of a state institution of higher learning
+
+or public community or junior college in this state which has been
+
+created by the president of that institution or college, the board
+
+of such an institution, or the Mississippi Community College
+
+Board, specifically for the purpose of authorizing one or more
+
+charter schools.
+
+be a board created by the initiator of the office or the board of
+
+the affiliated entity, including the Mississippi Community College
+
+Board, as designated at the time of the office's creation.
+
+created, such office may only be closed by the governing authority
+
+pursuant to its policy for closure or by the Legislature;
+
+(c)
+
+The governing authority of such an office shall
+
+Once
+
+Any local school board of a school district rated
+
+"A," "B" or "C" under the state accountability system;
+
+(d)
+
+The State Board of Education; or
+
+(e)
+
+The Mississippi Office of Workforce Development.
+
+SECTION 4.
+
+Section 37-28-9, Mississippi Code of 1972, is
+
+amended as follows:
+
+37-28-9.
+
+(1)
+
+The * * * Mississippi Charter School
+
+Authorizer Board established under Section 37-28-7 of this chapter
+
+is responsible for exercising * * * the following powers and
+
+duties:
+
+(a)
+
+Developing chartering policies and maintaining
+
+practices consistent with nationally recognized principles and
+
+standards for quality charter authorizing in all major areas of
+
+authorizing responsibility, including:
+S. B. No. 2300
+PAGE 10 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(i)
+
+Organizational capacity and infrastructure;
+
+(ii)
+
+Solicitation and evaluation of charter
+
+(iii)
+
+Performance contracting;
+
+(iv)
+
+Ongoing charter school oversight and
+
+(v)
+
+Charter renewal decision-making;
+
+applications;
+
+evaluation; and
+
+(b)
+
+Approving quality charter applications that meet
+
+identified educational needs and promote a diversity of
+
+educational choices;
+
+(c)
+
+applications;
+
+(d)
+
+approved charter schools;
+
+(e)
+
+Negotiating and executing charter contracts with
+
+Monitoring, in accordance with charter contract
+
+terms, the performance and legal compliance of charter schools;
+
+Declining to approve weak or inadequate charter
+
+(f)
+
+Determining whether each charter contract merits
+
+renewal, nonrenewal or revocation; * * *
+
+(g)
+
+Revocation of a charter contract when appropriate;
+
+( * * *h)
+
+Applying for any federal funds that may be
+
+available for the implementation of charter school programs * * *;
+
+and
+
+(i)
+
+Complying with the provisions of the Open Meetings
+
+Act, established under Section 25-41-1 et seq., the Mississippi
+
+Public Records Act of 1983, and any other provision of state law
+S. B. No. 2300
+PAGE 11 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+pertaining to the conduct of public bodies, including the
+
+Mississippi Administrative Procedures Law.
+
+(2)
+
+(a)
+
+A special purpose charter school authorizer shall
+
+adopt policies and procedures, which shall be approved by its
+
+governing body and made available to the public, to carry out its
+
+duties as prescribed in this chapter.
+
+(b)
+
+A special purpose charter school authorizer shall
+
+create an application and selection process that ensures
+
+high-quality educational opportunities for students, as well as
+
+performance and accountability reporting for the schools that it
+
+authorizes.
+
+(c)
+
+A special purpose charter school authorizer is
+
+empowered to make all decisions related to schools it has
+
+authorized with respect to approvals and denials of applications,
+
+curriculum, expansion of grades, probationary actions and closure
+
+if deemed necessary by the authorizer.
+
+( * * *3) * * *
+
+Each authorizer shall carry out all its
+
+duties under this chapter in a manner consistent with nationally
+
+recognized principles and standards and with the spirit and intent
+
+of this act.
+
+( * * *4)
+
+The * * * Mississippi Charter School Authorizer
+
+Board may delegate its duties to the executive director * * *.
+( * * *5)
+
+Regulation by the * * * Mississippi Charter School
+
+Authorizer Board shall be limited to those powers and duties
+
+S. B. No. 2300
+PAGE 12 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+prescribed in this section and all others prescribed by law,
+
+consistent with the spirit and intent of this chapter.
+
+( * * *6)
+
+Except in the case of gross negligence or reckless
+
+disregard of the safety and well-being of another person, * * *
+
+each authorizer, members of * * * that authorizer board in their
+
+official capacity, and employees of * * * that authorizer in their
+
+official capacity are immune from civil liability with respect to
+
+all activities related to a charter school approved by the
+
+authorizer.
+
+SECTION 5.
+
+Section 37-28-11, Mississippi Code of 1972, is
+
+amended as follows:
+
+37-28-11. * * *
+
+( * * *1) * * *
+
+Any authorizer may receive appropriate
+
+gifts, grants and donations of any kind from any public or private
+
+entity to carry out the purposes of this chapter, subject to all
+
+lawful terms and conditions under which the gifts, grants or
+
+donations are given.
+
+( * * *2) * * *
+
+Each authorizer may expend its resources,
+
+seek grant funds and establish partnerships to support its charter
+
+school authorizing activities.
+
+(3)
+
+The Legislature may fund the Mississippi Charter School
+
+Authorizer Board through specific appropriation thereof.
+
+Legislature may appropriate funds to any authorizer established
+
+under Section 37-28-7.1 to carry out the duties prescribed in this
+
+chapter.
+S. B. No. 2300
+PAGE 13 (aa\tb)
+
+The
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+SECTION 6.
+
+Section 37-28-13, Mississippi Code of 1972, is
+
+amended as follows:
+
+37-28-13.
+
+(1)
+
+Upon request, the State Department of
+
+Education shall assist the Mississippi Charter School Authorizer
+
+Board and any special purpose charter school authorizer with
+
+implementing the authorizer's decisions by providing such
+
+technical assistance and information as may be necessary for the
+
+implementation of this chapter.
+
+(2)
+
+Before July 1 of each year, the authorizer shall publish
+
+a pamphlet, which may be in electronic form, containing:
+(a)
+
+All statutes in Title 37, Mississippi Code of 1972,
+
+which are applicable to the charter schools;
+(b)
+
+Any rules, regulations and policies adopted by the
+
+State Superintendent of Public Education, the State Board of
+
+Education or the State Department of Education with which charter
+
+schools must comply by virtue of the applicability to charter
+
+schools, as well as other public schools, of the state law to
+
+which those relevant rules, regulations and policies pertain; and
+
+(c)
+
+Any other state and federal laws and matters that
+
+are relevant to the establishment and operation of charter schools
+
+in the State of Mississippi.
+
+The Mississippi Charter School Authorizer Board shall make
+
+the pamphlet available to the public on the board's website and
+
+shall notify all prospective applicants of the pamphlet.
+
+S. B. No. 2300
+PAGE 14 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+SECTION 7.
+
+Section 37-28-15, Mississippi Code of 1972, is
+
+amended as follows:
+
+37-28-15.
+
+(1)
+
+To solicit, encourage and guide the
+
+development of quality charter school applications, the * * *
+
+Mississippi Charter School Authorizer Board shall issue and
+
+publicize a request for proposals before September 1 of each year;
+
+however, during 2013, the authorizer shall issue and publicize a
+
+request for proposals before December 1.
+
+dissemination of the request for proposals must be consistent with
+
+the purposes and requirements of this chapter.
+
+(2)
+
+The content and
+
+The authorizer annually shall establish and disseminate
+
+a statewide timeline for charter approval or denial decisions.
+(3)
+
+The authorizer's request for proposals must include the
+
+following:
+
+(a)
+
+A clear statement of any preferences the authorizer
+
+wishes to grant to applications intended to help underserved
+
+students;
+
+(b)
+
+A description of the performance framework that the
+
+authorizer has developed for charter school oversight and
+
+evaluation in accordance with Section 37-28-29;
+
+(c)
+
+The criteria that will guide the authorizer's
+
+decision to approve or deny a charter application; and
+(d)
+
+A clear statement of appropriately detailed
+
+questions, as well as guidelines, concerning the format and
+
+S. B. No. 2300
+PAGE 15 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+content essential for applicants to demonstrate the capacities
+
+necessary to establish and operate a successful charter school.
+
+(4)
+
+In addition to all other requirements, the request for
+
+proposals must require charter applications to provide or describe
+
+thoroughly all of the following mandatory elements of the proposed
+
+school plan:
+
+(a)
+
+An executive summary;
+
+(b)
+
+The mission and vision of the proposed charter
+
+school, including identification of the targeted student
+
+population and the community the school hopes to serve;
+
+(c)
+
+The location or geographic area proposed for the
+
+(d)
+
+The grades to be served each year for the full term
+
+of the charter contract;
+
+(e)
+
+school;
+
+Minimum, planned and maximum enrollment per grade
+
+per year for the term of the charter contract;
+
+(f)
+
+Evidence of need and community support for the
+
+proposed charter school;
+
+(g)
+
+Background information, including proof of United
+
+States citizenship, on the applicants, the proposed founding
+
+governing board members and, if identified, members of the
+
+proposed school leadership and management team.
+
+information must include annual student achievement data,
+
+disaggregated by subgroup, for every school under the current or
+
+prior management of each board member and leadership team member;
+S. B. No. 2300
+PAGE 16 (aa\tb)
+
+The background
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(h)
+
+The school's proposed calendar, including the
+
+proposed opening and closing dates for the school term, and a
+
+sample daily schedule.
+
+than the minimum number of school days established for all public
+
+schools in Section 37-13-63;
+
+(i)
+
+The school must be kept in session no less
+
+A description of the school's academic program,
+
+aligned with state standards;
+(j)
+
+A description of the school's instructional design,
+
+including the type of learning environment (such as
+
+classroom-based or independent study), class size and structure,
+
+curriculum overview and teaching methods;
+
+(k)
+
+The school's plan for using internal and external
+
+assessments to measure and report student progress on the
+
+performance framework developed by the authorizer in accordance
+
+with Section 37-28-29;
+
+(l)
+
+The school's plan for identifying and successfully
+
+serving students with disabilities (including all of the school's
+
+proposed policies pursuant to the Individuals with Disabilities
+
+Education Improvement Act of 2004, 20 USCS Section 1400 et seq.,
+
+Section 504 of the Rehabilitation Act of 1973, 29 USCS Section
+
+794, and Title 11 of the Americans with Disabilities Act, 42 USCS
+
+Section 12101 et seq., and the school's procedures for securing
+
+and providing evaluations and related services pursuant to federal
+
+law), students who are English language learners, students who are
+
+S. B. No. 2300
+PAGE 17 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+academically behind, and gifted students, including, but not
+
+limited to, compliance with any applicable laws and regulations;
+
+(m)
+
+A description of cocurricular or extracurricular
+
+programs and how those programs will be funded and delivered;
+(n)
+
+Plans and timelines for student recruitment and
+
+enrollment, including lottery policies and procedures that ensure
+
+that every student has an equal opportunity to be considered in
+
+the lottery and that the lottery is equitable, randomized,
+
+transparent and impartial so that students are accepted in a
+
+charter school without regard to disability, income level, race,
+
+religion or national origin;
+
+(o)
+
+The school's student discipline policies, including
+
+those for special education students;
+(p)
+
+An organizational chart that clearly presents the
+
+school's organizational structure, including lines of authority
+
+and reporting between the governing board, charter management
+
+organization staff or education service provider, if applicable,
+
+staff, related bodies (such as advisory bodies or parent and
+
+teacher councils), and all other external organizations that will
+
+play a role in managing the school;
+
+(q)
+
+A clear description of the roles and
+
+responsibilities of the governing board, charter management
+
+organization staff or education service provider, if applicable,
+
+school leadership team, management team and all other entities
+
+shown in the organizational chart;
+S. B. No. 2300
+PAGE 18 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(r)
+
+A staffing chart for the school's first year, and a
+
+staffing plan for the term of the charter;
+
+(s)
+
+Plans for recruiting and developing school
+
+leadership and staff, which may not include utilization of
+
+nonimmigrant foreign worker visa programs;
+
+(t)
+
+The school's leadership and teacher employment
+
+policies, including performance evaluation plans;
+
+(u)
+
+Proposed governing bylaws;
+
+(v)
+
+Explanations of any partnerships or contractual
+
+relationships central to the school's operations or mission;
+
+(w)
+
+The school's plans for providing transportation,
+
+food service and all other significant operational or ancillary
+
+services;
+
+(x)
+
+involvement;
+
+(y)
+
+Opportunities and expectations for parent
+
+A detailed school start-up plan, identifying tasks,
+
+timelines and responsible individuals;
+(z)
+
+A description of the school's financial plans and
+
+policies, including financial controls and audit requirements;
+(aa)
+
+A description of the insurance coverage the school
+
+will obtain;
+(bb)
+
+Start-up and five-year budgets with clearly stated
+
+assumptions;
+(cc)
+
+Start-up and first-year cash flow projections with
+
+clearly stated assumptions;
+S. B. No. 2300
+PAGE 19 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(dd)
+
+A disclosure of all sources of private funding and
+
+all funds from foreign sources, including gifts from foreign
+
+governments, foreign legal entities and domestic entities
+
+affiliated with either foreign governments or foreign legal
+
+entities.
+
+means a country or jurisdiction outside of any state or territory
+
+of the United States;
+
+(ee)
+
+Evidence of anticipated fundraising contributions,
+
+if claimed in the application; and
+
+For the purposes of this paragraph, the term "foreign"
+
+(ff)
+
+A sound facilities plan, including backup or
+
+contingency plans if appropriate.
+(5)
+
+In the case of an application to establish a charter
+
+school by converting an existing noncharter public school to
+
+charter school status, the request for proposals additionally
+
+shall require the applicant to demonstrate support for the
+
+proposed charter school conversion by a petition signed by a
+
+majority of teachers or a majority of parents of students in the
+
+existing noncharter public school, or by a majority vote of the
+
+local school board or, in the case of schools in districts under
+
+state conservatorship, by the State Board of Education.
+
+(6)
+
+In the case of a proposed charter school that intends to
+
+contract with an education service provider for substantial
+
+educational services, management services or both types of
+
+services, the request for proposals additionally shall require the
+
+applicant to:
+S. B. No. 2300
+PAGE 20 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(a)
+
+Provide evidence of the education service
+
+provider's success in serving student populations similar to the
+
+targeted population, including demonstrated academic achievement
+
+as well as successful management of nonacademic school functions,
+
+if applicable;
+
+(b)
+
+Provide a term sheet setting forth:
+
+the proposed
+
+duration of the service contract; roles and responsibilities of
+
+the governing board, the school staff and the education service
+
+provider; the scope of services and resources to be provided by
+
+the education service provider; performance evaluation measures
+
+and timelines; the compensation structure, including clear
+
+identification of all fees to be paid to the education service
+
+provider; methods of contract oversight and enforcement;
+
+investment disclosure; and conditions for renewal and termination
+
+of the contract;
+
+(c)
+
+Disclose and explain any existing or potential
+
+conflicts of interest between the school governing board and
+
+proposed service provider or any affiliated business entities; and
+
+(d)
+
+Background information, including proof of United
+
+States citizenship, on the principal individuals affiliated with
+
+the education service provider.
+
+(7)
+
+In the case of a charter school proposal from an
+
+applicant that currently operates one or more schools in any state
+
+or nation, the request for proposals additionally shall require
+
+the applicant to provide evidence of past performance and current
+S. B. No. 2300
+PAGE 21 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+capacity for growth.
+
+clear evidence that it has produced * * * sustained improvement in
+
+student achievement or * * * proficiency levels as measured on
+
+state achievement tests.
+
+(8)
+
+The applicant shall be required to submit
+
+In the case of a governing board of an operating charter
+
+school or special purpose charter school, including a school
+
+within a charter management organization, seeking to expand the
+
+purview of the school to include new age groups beyond those
+
+originally authorized, the authorizer may consider a plan for
+
+expansion as a material contract amendment that shall not require
+
+a new application.
+
+SECTION 8.
+
+brought forward as follows:
+37-28-17.
+
+application:
+
+(a)
+
+(b)
+
+The following are the purposes of a charter
+
+To present the proposed charter school's academic
+
+To demonstrate the applicant's capacities to
+
+execute the proposed vision and plans; and
+
+(1)
+
+and operational vision and plans;
+
+Section 37-28-17, Mississippi Code of 1972, is
+
+(c)
+
+To provide the authorizer a clear basis for
+
+assessing the applicant's plans and capacities.
+(2)
+
+An approved charter application may not serve as the
+
+school's charter contract.
+
+SECTION 9.
+
+amended as follows:
+S. B. No. 2300
+PAGE 22 (aa\tb)
+
+Section 37-28-19, Mississippi Code of 1972, is
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+37-28-19.
+
+(1)
+
+In reviewing and evaluating charter
+
+applications, the authorizer shall employ procedures, practices
+
+and criteria consistent with nationally recognized principles and
+
+standards for quality charter authorizing.
+
+process must include thorough evaluation of each written charter
+
+application and in-person interview with the applicant group.
+
+(2)
+
+The application review
+
+In deciding whether to approve charter applications, the
+
+authorizer must:
+
+(a)
+
+Grant charters only to applicants that have
+
+provided evidence of competence in each element of the
+
+authorizer's published approval criteria, and in the case of an
+
+applicant that currently operates one or more schools in any state
+
+or nation, clear evidence that the management or leadership team
+
+of the charter school or schools currently operated by the
+
+applicant has produced * * * sustained improvement in student
+
+achievement or * * * proficiency levels as measured on state
+
+achievement test, although unusual circumstances, such as a global
+
+pandemic or other disaster, may be taken into account;
+
+(b)
+
+Base decisions on documented evidence collected
+
+through the application review process; and
+
+(c)
+
+Follow charter-granting policies and practices that
+
+are transparent, based on merit and avoid conflicts of interest or
+
+any appearance thereof.
+
+(3)
+
+Before the expiration of one hundred eighty (180) days
+
+after the filing of a charter application, the authorizer must
+S. B. No. 2300
+PAGE 23 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+approve or deny the charter application; however, an application
+
+submitted by a public historically black college or university
+
+(HBCU), in partnership with a national nonprofit public HBCU
+
+support organization, for a charter school to be operated on or
+
+near the campus of the HBCU must be considered for expedited
+
+approval by the authorizer.
+
+resolution all charter approval or denial decisions in an open
+
+meeting of the authorizer board.
+
+(4)
+
+The authorizer shall adopt by
+
+An approval decision may include, if appropriate,
+
+reasonable conditions that the charter applicant must meet before
+
+a charter contract may be executed pursuant to Section 37-28-21.
+
+(5)
+
+For a charter denial, the authorizer shall state
+
+clearly, for public record, its reasons for denial.
+
+applicant may reapply subsequently with the authorizer.
+
+(6)
+
+A denied
+
+Before the expiration of ten (10) days after taking
+
+action to approve or deny a charter application, the authorizer
+
+shall provide a report to the applicant.
+
+a copy of the authorizer's resolution setting forth the action
+
+taken and reasons for the decision and assurances as to compliance
+
+with all of the procedural requirements and application elements
+
+set forth in this chapter.
+
+SECTION 10.
+
+amended as follows:
+
+37-28-21.
+
+The report must include
+
+Section 37-28-21, Mississippi Code of 1972, is
+
+(1) * * *
+
+An authorizer shall grant * * * initial
+
+charter * * * contracts for a term of five (5) operating years.
+S. B. No. 2300
+PAGE 24 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+The term of the charter contract shall commence on the charter
+
+school's first day of operation.
+
+delay its opening for one (1) school year in order to plan and
+
+prepare for the school's opening.
+
+opening delay of more than one (1) school year, the school must
+
+request an extension from * * * its authorizer.
+
+may grant or deny the extension depending on the particular
+
+school's circumstances.
+
+(2)
+
+(a) * * *
+
+An approved charter school may
+
+If the school requires an
+
+The authorizer
+
+An authorizer and the governing board
+
+of * * * a nonprofit entity with one or more approved charter
+
+schools or special purpose charter schools shall execute a charter
+
+contract that clearly sets forth the academic and operational
+
+performance expectations and measures by which the charter school
+
+will be judged and the administrative relationship between the
+
+authorizer, the governing board and each charter school, including
+
+each party's rights and duties.
+
+that includes more than one (1) school, the contract shall contain
+
+a separate addendum for each school listing the school's approved
+
+term of operation.
+
+forth in the charter contract must include, but need not be
+
+limited to, applicable federal and state accountability
+
+requirements.
+
+amended by mutual agreement after the charter school is operating
+
+and has collected baseline achievement data for its enrolled
+
+students.
+S. B. No. 2300
+PAGE 25 (aa\tb)
+
+In the case of a charter contract
+
+The performance expectations and measures set
+
+The performance provisions may be refined or
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(b)
+
+The charter contract must be signed by the chairman
+
+of * * * its authorizer board and the * * * chairperson of the
+
+charter school's governing board.
+
+(c)
+
+A charter school or special purpose charter school
+
+may not commence operations without a charter contract executed in
+
+accordance with this section and approved in an open meeting
+
+of * * * its authorizer board.
+
+(3) * * *
+
+An authorizer may establish reasonable preopening
+
+requirements or conditions to monitor the start-up progress
+
+of * * * each of its newly approved charter schools and to ensure
+
+that * * * each school is prepared to open smoothly on the date
+
+agreed and that the school meets all building, health, safety,
+
+insurance and other legal requirements before the school's
+
+opening.
+
+(4)
+
+A nonprofit entity or charter management organization
+
+may complete one (1) annual consolidated audit in which each of
+
+its approved charter schools is reported as a separate program
+
+under the nonprofit entity or charter management organization.
+
+Any such audit shall include all financial information necessary
+
+for the authorizer to analyze metrics for the performance
+
+framework.
+
+SECTION 11.
+
+amended as follows:
+
+37-28-23.
+
+Section 37-28-23, Mississippi Code of 1972, is
+
+(1)
+
+A charter school or special purpose charter
+
+school must be open to:
+S. B. No. 2300
+PAGE 26 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(a)
+
+Any student residing in the geographical boundaries
+
+of the school district in which the charter school is located; and
+
+(b)
+
+Any student who resides in the geographical
+
+boundaries of a school district that was rated "C," "D" or "F" at
+
+the time the charter school was approved by the authorizer board,
+
+or who resides in the geographical boundaries of a school district
+
+rated "C," or "D" or "F" at the time the student enrolls.
+
+(2)
+
+Notwithstanding the provisions of paragraph (b) of
+
+subsection (1), a student in any district shall be eligible to
+
+enroll in a special purpose charter school.
+
+( * * *3)
+
+A school district may not require any student
+
+enrolled in the school district to attend a charter school or
+
+special purpose charter school.
+
+( * * *4)
+
+Except as otherwise provided under subsection
+
+(8)(d) of this section, a charter school may not limit admission
+
+based on ethnicity, national origin, religion, gender, income
+
+level, disabling condition, proficiency in the English language,
+
+or academic or athletic ability.
+
+authorizer that a charter school or special purpose charter school
+
+is operating in a discriminatory manner justifies the revocation
+
+of a charter.
+
+(4)
+
+A finding by a school's
+
+Notwithstanding any provision of this section, a charter
+
+school or special purpose charter school may:
+(a)
+
+Limit admission to students within a given age
+
+group or grade level, including pre-kindergarten students * * *;
+S. B. No. 2300
+PAGE 27 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(b)
+
+Be organized around a special emphasis, theme or
+
+concept as stated in the school's application * * *; or
+
+(c)
+
+Provide a specialized or innovative educational
+
+service designed to meet distinct student needs or community
+
+priorities, including special education services or targeted
+
+supports for students with disabilities or learning differences,
+
+including students with autism or dyslexia.
+
+* * *
+
+( * * *5)
+
+A charter school or special purpose charter school
+
+must enroll all students who wish to attend the school unless the
+
+number of students exceeds the capacity of a program, class, grade
+
+level or building.
+
+( * * *6)
+
+If capacity is insufficient to enroll all students
+
+who wish to attend the school based on initial application, the
+
+charter school or special purpose charter school must select
+
+students through a lottery.
+
+( * * *7)
+
+(a)
+
+Any noncharter public school or part of a
+
+noncharter public school converting to a charter school or special
+
+purpose charter school shall adopt and maintain a policy giving an
+
+enrollment preference to students who reside within the former
+
+attendance area of that public school.
+
+special purpose charter school has excess capacity after enrolling
+
+students residing within the former attendance area of the school,
+
+students outside of the former attendance area of the school, but
+
+within the geographical boundaries of the school district in which
+S. B. No. 2300
+PAGE 28 (aa\tb)
+
+If the charter school or
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+the charter school or special purpose charter school is located,
+
+are eligible for enrollment.
+
+for admission exceeds the capacity of a program, class, grade
+
+level or building of the charter school or special purpose charter
+
+school, the * * * school must admit students on the basis of a
+
+lottery.
+
+(b)
+
+If the number of students applying
+
+A charter school or special purpose charter school
+
+must give an enrollment preference to students enrolled in the
+
+charter school during the preceding school year and to siblings of
+
+students already enrolled in the charter school.
+
+preference for returning students excludes those students from
+
+entering into a lottery.
+
+(c)
+
+An enrollment
+
+A charter school or special purpose charter school
+
+may give an enrollment preference to children of the charter
+
+school's applicant, governing board members and full-time
+
+employees, so long as those children constitute no more than ten
+
+percent (10%) of the charter school's total student population.
+
+(d)
+
+A charter school or special purpose charter school
+
+shall give an enrollment preference to underserved children as
+
+defined in Section 37-28-5 * * *.
+
+(e)
+
+A charter school or special purpose charter school
+
+may give an enrollment preference to children transferring from a
+
+charter school under the same contract or whose contract is held
+
+by the same governing board, such as schools under the operation
+
+of the same charter management organization.
+S. B. No. 2300
+PAGE 29 (aa\tb)
+
+This enrollment
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+preference includes children who have completed the final grade of
+
+their current school and are transferring to a higher grade in a
+
+different school.
+
+excludes those students from entering into a lottery.
+
+An enrollment preference for such students
+
+( * * *f) * * *
+
+Nothing in this section shall preclude
+
+the formation of a special purpose charter school or any charter
+
+school whose mission is focused on serving students with
+
+disabilities, students of the same gender, students who pose such
+
+severe disciplinary problems that they warrant a specific
+
+educational program, or students who are at risk of academic
+
+failure.
+
+wish to attend the school, the charter school must select students
+
+through a lottery.
+
+If capacity is insufficient to enroll all students who
+
+SECTION 12.
+
+Section 37-28-25, Mississippi Code of 1972, is
+
+amended as follows:
+
+37-28-25.
+
+If a student previously enrolled in a charter
+
+school or special purpose charter school enrolls in another public
+
+school in this state, the student's new school must accept credits
+
+earned by the student in courses or instructional programs at the
+
+charter school in a uniform and consistent manner and according to
+
+the same criteria that are used to accept academic credits from
+
+other public schools.
+
+SECTION 13.
+
+amended as follows:
+
+S. B. No. 2300
+PAGE 30 (aa\tb)
+
+Section 37-28-27, Mississippi Code of 1972, is
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+37-28-27.
+
+A school district must provide or publicize to
+
+parents and the general public information about charter schools
+
+or special purpose charter school as an enrollment option within
+
+the district to the same extent and through the same means that
+
+the district provides and publicizes information about noncharter
+
+public schools in the district.
+
+SECTION 14.
+
+Section 37-28-29, Mississippi Code of 1972, is
+
+amended as follows:
+
+37-28-29.
+
+(1)
+
+The performance provisions within a charter
+
+contract for each charter school or special purpose charter school
+
+must be based on a performance framework that clearly sets forth
+
+the academic and operational performance indicators, measures and
+
+metrics that will guide * * * each authorizer's evaluations of the
+
+charter school.
+
+indicators, measures and metrics, at a minimum, for the following:
+
+The performance framework must include
+
+(a)
+
+Student academic proficiency;
+
+(b)
+
+Student academic growth;
+
+(c)
+
+Achievement gaps in * * * proficiency * * * between
+
+major student subgroups, as applicable;
+
+(d)
+
+Attendance;
+
+(e)
+
+Recurrent enrollment from year to year;
+
+(f)
+
+In-school and out-of-school suspension rates and
+
+expulsion rates;
+(g)
+
+For each charter high * * * school, postsecondary
+
+readiness, including the percentage of graduates submitting
+S. B. No. 2300
+PAGE 31 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+applications to postsecondary institutions, graduation and high
+
+school completion rates, postsecondary admission and postsecondary
+
+enrollment or employment;
+
+(h)
+
+Financial performance and sustainability; and
+
+(i)
+
+Board performance and stewardship, including
+
+compliance with all applicable laws, regulations and terms of the
+
+charter contract.
+
+(2)
+
+The charter contract of each charter school or special
+
+purpose charter school serving Grades 9-12 must include a
+
+provision ensuring that graduation requirements meet or exceed
+
+those set by the Mississippi Department of Education for a regular
+
+high school diploma.
+
+competency-based satisfaction of graduation requirements.
+
+(3)
+
+Nothing in this section shall preclude
+
+Annual performance targets must be set by the governing
+
+board of each charter school or special purpose charter school in
+
+conjunction with * * * its authorizer and must be designed to help
+
+each school meet applicable federal, state and authorizer
+
+expectations.
+
+(4)
+
+The performance framework must allow the inclusion of
+
+additional rigorous, valid and reliable indicators proposed by the
+
+governing board of a charter school or special purpose charter
+
+school to augment external evaluations of * * * school and
+
+organizational performance; however, * * * each authorizer must
+
+approve the quality and rigor of any indicators proposed by the
+
+governing board of a charter school or special purpose charter
+S. B. No. 2300
+PAGE 32 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+school it has authorized, which indicators must be consistent with
+
+the purposes of this chapter.
+
+(5)
+
+The performance framework must require the
+
+disaggregation of all student performance data by major student
+
+subgroups (gender, race, poverty status, special education status,
+
+English learner status and gifted status).
+
+(6) * * *
+
+Each authorizer shall collect, analyze and report
+
+all data from state assessments and any other necessary sources in
+
+accordance with the performance framework for each charter school.
+
+Multiple schools overseen by a single governing board must report
+
+their performance as separate, individual schools, and each school
+
+must be held independently accountable for its performance.
+
+(7)
+
+Information needed by * * * each authorizer from the
+
+charter school governing board for the authorizer's reports must
+
+be required and included as a material part of the charter
+
+contract.
+
+SECTION 15.
+
+Section 37-28-31, Mississippi Code of 1972, is
+
+amended as follows:
+
+37-28-31.
+
+(1) * * *
+
+Each authorizer shall monitor annually
+
+the performance and legal compliance of each charter school or
+
+special purpose charter school it oversees, including collecting
+
+and analyzing data to support the school's evaluation according to
+
+the charter contract. * * *
+
+require oversight activities that enable the authorizer to fulfill
+
+its responsibilities under this chapter, including conducting
+S. B. No. 2300
+PAGE 33 (aa\tb)
+
+Such authorizer may conduct or
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+appropriate inquiries and investigations, so long as those
+
+activities are consistent with the intent of this act, adhere to
+
+the terms of the charter contract and do not unduly inhibit the
+
+autonomy granted to charter schools.
+
+(2)
+
+As part of its annual report to the Legislature, * * *
+
+each authorizer shall publish and provide a performance report for
+
+each charter school it oversees in accordance with the performance
+
+framework set forth in the charter contract.
+
+made available to the public at the same time as it is submitted
+
+to the Legislature. * * *
+
+charter school it oversees to submit an annual report to assist
+
+the authorizer in gathering complete information about each
+
+school, consistent with the performance framework.
+
+(3)
+
+The report must be
+
+Such authorizer may require each
+
+If a charter school's or special purpose charter
+
+school's performance or legal compliance is unsatisfactory, * * *
+
+its authorizer shall notify promptly the charter school of the
+
+problem and provide reasonable opportunity for the school to
+
+remedy the problem unless the problem warrants revocation, in
+
+which case the revocation timeframes will apply.
+
+(4) * * *
+
+Each authorizer may take appropriate corrective
+
+actions or exercise sanctions in response to apparent deficiencies
+
+in a charter school's performance or legal compliance.
+
+warranted, the actions or sanctions may include requiring a
+
+charter school to develop and execute a corrective action plan
+
+within a specified timeframe.
+S. B. No. 2300
+PAGE 34 (aa\tb)
+
+If
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(5)
+
+The authorizer may issue notices of concern or breach of
+
+contract to an individual charter school or special purpose
+
+charter school listed within a charter contract that consists of
+
+multiple schools without implicating or adversely affecting the
+
+remaining schools listed in the contract.
+
+SECTION 16.
+
+Section 37-28-33, Mississippi Code of 1972, is
+
+amended as follows:
+
+37-28-33.
+
+(1)
+
+A charter may be renewed for successive
+
+five-year terms of duration.
+
+with specific conditions for necessary improvements to a charter
+
+school or special purpose charter school and may lessen the
+
+renewal term based on the performance, demonstrated capacities and
+
+particular circumstances of each charter school.
+
+(2)
+
+The authorizer may grant renewal
+
+Before September 30, * * * each authorizer shall issue a
+
+charter school performance report and charter renewal application
+
+guidance to any charter school or special purpose charter school
+
+whose charter will expire the following year.
+
+report must summarize the charter school's performance record to
+
+date, based on the data required by this chapter and the charter
+
+contract, and must provide notice of any weaknesses or concerns
+
+perceived by the authorizer which may jeopardize the charter
+
+school's position in seeking renewal if not timely rectified.
+
+charter school or special purpose charter school must respond and
+
+submit any corrections or clarifications for the performance
+
+report within ninety (90) days after receiving the report.
+S. B. No. 2300
+PAGE 35 (aa\tb)
+
+The performance
+
+The
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(3)
+
+The charter renewal application guidance must provide,
+
+at a minimum, an opportunity for the charter school to:
+
+(a)
+
+Present additional evidence, beyond the data
+
+contained in the performance report, supporting its case for
+
+charter renewal;
+
+(b)
+school; and
+
+Describe improvements undertaken or planned for the
+
+(c)
+
+Detail the school's plans for the next charter
+
+term.
+(4)
+
+The charter renewal application guidance must include or
+
+refer explicitly to the criteria that will guide the authorizer's
+
+renewal decision, which must be based on the performance framework
+
+set forth in the charter contract and consistent with this
+
+chapter.
+
+(5)
+
+Before February 1, the governing board of a charter
+
+school seeking renewal shall submit a renewal application to * * *
+
+its authorizer pursuant to the charter renewal application
+
+guidance issued by * * * that authorizer.
+
+adopt a resolution ruling on the renewal application no later than
+
+ninety (90) days after the filing of the renewal application.
+
+(6)
+
+The authorizer shall
+
+In making each charter renewal decision, * * * each
+
+authorizer must:
+(a)
+
+Ground its decision in evidence of the school's
+
+performance over the term of the charter contract in accordance
+
+with the performance framework set forth in the charter contract;
+S. B. No. 2300
+PAGE 36 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(b)
+
+decision is available to the school and the public; and
+
+Ensure that data used in making the renewal
+
+(c)
+
+Provide a public report summarizing the evidence
+
+that is the basis for the renewal decision.
+(7)
+
+A charter contract must be revoked at any time or not
+
+renewed if the authorizer determines that the charter school has
+
+done any of the following or otherwise failed to comply with the
+
+provisions of this chapter:
+
+(a)
+
+Committed a material and substantial violation of
+
+any of the terms, conditions, standards or procedures required
+
+under this chapter or the charter contract;
+
+(b)
+
+Failed to meet or make sufficient progress toward
+
+the performance expectations set forth in the charter contract;
+
+(c)
+
+fiscal management; or
+
+(d)
+
+Failed to meet generally accepted standards of
+
+Substantially violated any material provision of
+
+law which is applicable to the charter school.
+
+(8)
+
+processes that:
+
+The authorizer shall develop revocation and nonrenewal
+
+(a)
+
+Provide the governing board of a charter school
+
+with a timely notification of the prospect of revocation or
+
+nonrenewal and of the reasons for such possible closure;
+
+(b)
+
+Allow the governing board a reasonable amount of
+
+time in which to prepare a response;
+
+S. B. No. 2300
+PAGE 37 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(c)
+
+Provide the governing board with an opportunity to
+
+submit documents and give testimony challenging the rationale for
+
+closure and in support of the continuation of the school at an
+
+orderly proceeding held for that purpose;
+
+(d)
+
+Allow the governing board access to representation
+
+by counsel and to call witnesses on the school's behalf;
+
+(e)
+
+Permit the recording of such proceedings; and
+
+(f)
+
+After a reasonable period for deliberation, require
+
+a final determination to be made and conveyed in writing to the
+
+governing board.
+
+(9)
+
+Notwithstanding any provision to the contrary, * * * an
+
+authorizer may not renew the charter of any charter school * * *
+
+or special purpose charter school that has been given a rating of
+
+"F" under the school accreditation rating system for three (3)
+
+consecutive years or has been given a rating of "D" or "F" under
+
+the school accreditation rating system for five (5) consecutive
+
+years, unless:
+
+(a)
+
+The rating of the charter school matched or
+
+exceeded the rating of the district in which the charter school is
+
+located during the same period;
+
+(b)
+
+The rating of the charter school matched or
+
+exceeded more than half of the comparable schools in the district
+
+in which the charter school is located; or
+
+(c)
+
+The charter school is rated an "A," "B," or "C"
+
+school under the school accreditation rating system during the
+S. B. No. 2300
+PAGE 38 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+school's final operating year under the term of the charter
+
+contract.
+
+(10)
+
+If * * * an authorizer revokes or does not renew a
+
+charter, the authorizer must state clearly, in a resolution of
+
+adopted by * * * that authorizer board, the reasons for the
+
+revocation or nonrenewal.
+
+(11)
+
+Within ten (10) days after taking action to renew, not
+
+renew or revoke a charter, the authorizer shall provide a report
+
+to the charter school or special purpose charter school.
+
+report must include a copy of the authorizer board's resolution
+
+setting forth the action taken, reasons for the board's decision
+
+and assurances as to compliance with all of the requirements set
+
+forth in this chapter.
+
+SECTION 17.
+
+amended as follows:
+
+37-28-35.
+
+The
+
+Section 37-28-35, Mississippi Code of 1972, is
+
+(1)
+
+Before implementing a charter school closure
+
+decision, * * * each authorizer must develop a charter school
+
+closure protocol to ensure timely notification to parents, orderly
+
+transition of students and student records to new schools, and
+
+proper disposition of school funds, property and assets in
+
+accordance with the requirements of this chapter.
+
+must specify tasks, timelines and responsible parties, including
+
+delineating the respective duties of the school, its governing
+
+board and nonprofit entity, and the authorizer.
+
+school or special purpose charter school is to be closed for any
+S. B. No. 2300
+PAGE 39 (aa\tb)
+
+The protocol
+
+If a charter
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+reason, * * * its authorizer shall oversee and work with the
+
+closing school and its governing board and nonprofit entity to
+
+ensure a smooth and orderly closure and transition for students
+
+and parents, as guided by the closure protocol.
+
+or special purpose charter school shall be closed by its
+
+authorizer before the end of the school year in which the decision
+
+for closure is made, unless the authorizer determines that the
+
+health and safety of the students in such school warrant its
+
+immediate closure.
+
+(2)
+
+No charter school
+
+If a charter school or special purpose charter
+
+school closes, all unspent government funds, unspent earnings from
+
+those funds and assets purchased with government funds must revert
+
+to the local school district in which the charter school is
+
+located.
+
+contract, a debt instrument or grant agreement, unspent funds from
+
+nongovernmental sources, unspent earnings from those funds, assets
+
+purchased with those funds and debts of the school must revert to
+
+the nonprofit entity * * * whose governing board held the charter
+
+contract for the school and may be used, retained or disposed of
+
+according to applicable laws for nonprofit corporations.
+
+Unless otherwise provided for in the charter * * *
+
+SECTION 18.
+
+Section 37-28-37, Mississippi Code of 1972, is
+
+brought forward as follows:
+37-28-37.
+
+(1)
+
+Before October 1 of each year, beginning in
+
+the year that the state has had at least one (1) charter school
+
+operating for a full school year, the Mississippi Charter School
+S. B. No. 2300
+PAGE 40 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+Authorizer Board shall issue to the Governor, Legislature, State
+
+Board of Education and the public an annual report on the state's
+
+charter schools for the preceding school year.
+
+include a comparison of the performance of charter school students
+
+with the performance of academically, ethnically and economically
+
+comparable groups of students in the school district in which a
+
+charter school is located.
+
+the authorizer's assessment of the successes, challenges and areas
+
+for improvement in meeting the purposes of this chapter.
+
+report also must include an assessment on whether the number and
+
+size of operating charter schools are sufficient to meet demand,
+
+as calculated according to admissions data and the number of
+
+students denied enrollment based on lottery results.
+
+due from the authorizer under this section must be coordinated
+
+with reports due from charter school governing boards, as near as
+
+possible, to decrease or eliminate duplication.
+
+(2)
+
+The report must
+
+In addition, the report must include
+
+The
+
+The report
+
+The Joint Legislative Committee on Performance
+
+Evaluation and Expenditure Review (PEER) shall prepare an annual
+
+report assessing the sufficiency of funding for charter schools,
+
+the efficacy of the state formula for authorizer funding, and any
+
+suggested changes in state law or policy necessary to strengthen
+
+the state's charter schools.
+
+SECTION 19.
+
+amended as follows:
+
+S. B. No. 2300
+PAGE 41 (aa\tb)
+
+Section 37-28-39, Mississippi Code of 1972, is
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+37-28-39.
+
+(1)
+
+Notwithstanding any provision of law to the
+
+contrary, to the extent that any provision of this chapter is
+
+inconsistent with any other state or local law, rule or
+
+regulation, the provisions of this act govern and are controlling.
+
+(2) * * *
+
+The entity whose governing board holds a charter
+
+contract, including a charter management organization, and any
+
+education service provider which provides comprehensive management
+
+for a charter school must be a nonprofit education organization.
+
+(3)
+
+A charter school or special purpose charter school is
+
+subject to all federal laws and authorities specified in this
+
+chapter or agreed upon with the authorizer in the charter
+
+contract, where such contracting is consistent with applicable
+
+laws, rules and regulations.
+
+(4)
+
+To the extent approved by the authorizer, a charter
+
+contract may consist of one or more schools.
+
+or special purpose charter school that is part of a charter
+
+contract must be separate and distinct from any other charter
+
+school.
+
+(5)
+
+Each charter school
+
+A single governing board may hold one or more charter
+
+contracts.
+(6)
+
+A charter school or special purpose charter school must
+
+function as a local educational agency, and as such, a charter
+
+school or special purpose charter school is responsible for
+
+meeting the requirements of local educational agencies under
+
+applicable federal laws, including those relating to special
+S. B. No. 2300
+PAGE 42 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+education, receipt of funds and compliance with funding
+
+requirements.
+
+not preclude the governing board of a charter school or special
+
+purpose charter school from developing, by mutual agreement or
+
+formal contract, links with the local school district for
+
+services, resources and programs.
+
+purpose charter school shall pay to a local school district any
+
+federal or state aid attributable to a student with a disability
+
+attending the charter school in proportion to the level of
+
+services the local school district provides directly or indirectly
+
+for that student.
+
+SECTION 20.
+
+amended as follows:
+
+37-28-41. * * *
+
+Status as a local educational agency, however, does
+
+A charter school or special
+
+Section 37-28-41, Mississippi Code of 1972, is
+
+The governing board of the nonprofit entity
+
+holding a charter contract may exercise those powers necessary for
+
+carrying out the terms of its charter contract, including, but not
+
+limited to, the following powers:
+
+(a)
+
+To receive and disburse funds authorized by law for
+
+school purposes;
+
+(b)
+
+To secure appropriate insurance and to enter into
+
+contracts and leases;
+
+(c)
+
+To contract with an education service provider for
+
+the management and operation of the charter school so long as the
+
+school's governing board retains oversight authority over the
+
+school;
+S. B. No. 2300
+PAGE 43 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(d)
+
+To contract with a school district or private
+
+provider to provide transportation to the school's students;
+(e)
+
+To negotiate and enter into a contract for the
+
+provision of and payment for special education services with a
+
+local school district, including, but not limited to, a reasonable
+
+reserve not to exceed five percent (5%) of the local school
+
+district's total special education services budget.
+
+may be used by the local school district only to offset excess
+
+costs of providing services to students with disabilities enrolled
+
+in the charter school;
+
+(f)
+
+The reserve
+
+To contract with an accredited online course
+
+provider for the delivery of virtual courses to students enrolled
+
+in the charter school;
+
+( * * *g)
+
+To solicit and accept any gifts or grants for
+
+school purposes subject to applicable laws and the terms of its
+
+charter contract;
+
+( * * *h)
+
+To acquire real property for use as its
+
+facility or facilities, from public or private sources; and
+( * * *i)
+SECTION 21.
+
+To sue and be sued in its own name.
+
+Section 37-28-43, Mississippi Code of 1972, is
+
+brought forward as follows:
+37-28-43.
+
+(1)
+
+A charter school may not discriminate against
+
+any person on the basis of race, creed, color, sex, disability,
+
+national origin or any other category that would be unlawful if
+
+done by a noncharter public school.
+S. B. No. 2300
+PAGE 44 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(2)
+
+A charter school may not engage in any sectarian
+
+practices in its educational program, admissions or employment
+
+policies or operations.
+
+(3)
+
+A charter school may not discriminate against any
+
+student on the basis of national origin, minority status or
+
+limited proficiency in English.
+
+rights laws, charter schools must provide limited English
+
+proficient students with appropriate services designed to teach
+
+them English and the general curriculum.
+
+Consistent with federal civil
+
+(4)
+
+A charter school may not charge tuition.
+
+(5)
+
+The terms of each charter school must include a
+
+transportation plan for students attending the charter school.
+(6)
+
+Subject to the approval of the authorizer, a charter
+
+school may contract with an accredited online course provider for
+
+the delivery of virtual courses to students enrolled in the
+
+charter school.
+
+(7)
+
+Except to the extent authorized under paragraph (c) of
+
+Section 37-28-41, the powers, obligations and responsibilities set
+
+forth in the charter contract may not be delegated or assigned by
+
+either party.
+
+SECTION 22.
+
+Section 37-28-45, Mississippi Code of 1972, is
+
+brought forward as follows:
+37-28-45.
+
+(1)
+
+Charter schools are subject to the same civil
+
+rights, health and safety requirements applicable to noncharter
+
+S. B. No. 2300
+PAGE 45 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+public schools in the state, except as otherwise specifically
+
+provided in this chapter.
+
+(2)
+
+Charter schools are subject to the student assessment
+
+and accountability requirements applicable to noncharter public
+
+schools in the state; however, this requirement does not preclude
+
+a charter school from establishing additional student assessment
+
+measures that go beyond state requirements if the authorizer
+
+approves those measures.
+
+(3)
+
+Although a charter school is geographically located
+
+within the boundaries of a particular school district and enrolls
+
+students who reside within the school district, the charter school
+
+may not be considered a school within that district under the
+
+purview of the school district's school board.
+
+regulations, policies and procedures established by the school
+
+board for the noncharter public schools that are in the school
+
+district in which the charter school is geographically located do
+
+not apply to the charter school unless otherwise required under
+
+the charter contract or any contract entered into between the
+
+charter school governing board and the local school board.
+
+(4)
+
+The rules,
+
+Whenever the provisions of Title 37, Mississippi Code of
+
+1972, relating to the elementary and secondary education of public
+
+school students establish a requirement for or grant authority to
+
+local school districts, their school boards and the schools within
+
+the respective school districts, the language "school districts,"
+
+"school boards," "boards of trustees," "the schools within a
+S. B. No. 2300
+PAGE 46 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+school district," or any other similar phraseology does not
+
+include a charter school and the governing board of a charter
+
+school unless the statute specifically is made applicable to
+
+charter schools as well as noncharter public schools.
+
+(5)
+
+A charter school is not subject to any rule, regulation,
+
+policy or procedure adopted by the State Board of Education or the
+
+State Department of Education unless otherwise required by the
+
+authorizer or in the charter contract.
+
+(6)
+
+statutes:
+
+Charter schools are not exempt from the following
+
+(a)
+
+Chapter 41, Title 25, Mississippi Code of 1972,
+
+which relate to open meetings of public bodies.
+(b)
+
+Chapter 61, Title 25, Mississippi Code of 1972,
+
+which relate to public access to public records.
+(c)
+
+Section 37-3-51, which requires notice by the
+
+district attorney of licensed school employees who are convicted
+
+of certain sex offenses.
+
+(d)
+
+Section 37-3-53, which requires publication of the
+
+Mississippi Report Card by the State Board of Education.
+(e)
+
+Section 37-11-18, which requires the automatic
+
+expulsion of a student possessing a weapon or controlled substance
+
+on educational property.
+
+(f)
+
+Section 37-11-18.1, which requires expulsion of
+
+certain habitually disruptive students.
+
+S. B. No. 2300
+PAGE 47 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(g)
+
+expulsion of a student who damages school property.
+(h)
+
+(i)
+
+school staff.
+
+(j)
+
+Section 37-11-20, which prohibits acts of
+
+intimidation intended to keep a student from attending school.
+
+Section 37-11-19, which requires suspension or
+
+Section 37-11-21, which prohibits parental abuse of
+
+Section 37-11-23, which prohibits the willful
+
+disruption of school and school meetings.
+(k)
+
+Sections 37-11-29 and 37-11-31, which relate to
+
+reporting requirements regarding unlawful or violent acts on
+
+school property.
+
+(l)
+
+Section 37-11-67, which prohibits bullying or
+
+harassing behavior in public schools.
+(m)
+
+Section 37-13-3, which prohibits doctrinal,
+
+sectarian or denominational teaching in public schools.
+(n)
+
+Sections 37-13-5 and 37-13-6, which require the
+
+flags of the United States and the State of Mississippi to be
+
+displayed near the school building.
+
+(o)
+
+Section 37-13-63(1), which prescribes the minimum
+
+number of days which public schools must be kept in session during
+
+a scholastic year.
+
+(p)
+
+Section 37-13-91, which is the Mississippi
+
+Compulsory School Attendance Law.
+
+S. B. No. 2300
+PAGE 48 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(q)
+
+Section 37-13-171(2) and (4), which requires any
+
+course containing sex-related education to include instruction in
+
+abstinence-only or abstinence-plus education.
+
+(r)
+
+Section 37-13-173, which requires notice to parents
+
+before instruction on human sexuality is provided in public
+
+classrooms.
+
+(s)
+
+Section 37-13-193, which relates to civil rights
+
+and human rights education in the public schools.
+
+(t)
+
+Sections 37-15-1 and 37-15-3, which relate to the
+
+maintenance and transfer of permanent student records in public
+
+schools.
+
+(u)
+
+Section 37-15-6, which requires the State
+
+Department of Education to maintain a record of expulsions from
+
+the public schools.
+
+(v)
+
+Section 37-15-9, which establishes minimum age
+
+requirements for kindergarten and first grade enrollment in public
+
+schools.
+
+(w)
+
+Section 37-15-11, which requires a parent, legal
+
+guardian or custodian to accompany a child seeking enrollment in a
+
+public school.
+
+(x)
+
+Sections 37-16-1, 37-16-3, 37-16-4 and 37-16-9,
+
+which relate to the statewide assessment testing program.
+(y)
+
+Section 37-18-1, which establishes the
+
+Superior-Performing Schools Program and Exemplary Schools Program
+
+to recognize public schools that improve.
+S. B. No. 2300
+PAGE 49 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+SECTION 23.
+
+Section 37-28-47, Mississippi Code of 1972, is
+
+brought forward as follows:
+37-28-47.
+
+(1)
+
+(a)
+
+Charter schools must comply with
+
+applicable federal laws, rules and regulations regarding the
+
+qualification of teachers and other instructional staff.
+
+than twenty-five percent (25%) of teachers in a charter school may
+
+be exempt from state teacher licensure requirements.
+
+Administrators of charter schools are exempt from state
+
+administrator licensure requirements.
+
+administrators must have a bachelor's degree as a minimum
+
+requirement, and teachers must have demonstrated subject-matter
+
+competency.
+
+charter school, the teacher must have, at a minimum, alternative
+
+licensure approved by the Commission on Teacher and Administrator
+
+Education, Certification and Licensure and Development.
+
+No more
+
+However, teachers and
+
+Within three (3) years of a teacher's employment by a
+
+(b)
+
+A charter school may not staff positions for
+
+teachers, administrators, ancillary support personnel or other
+
+employees by utilizing or otherwise relying on nonimmigrant
+
+foreign worker visa programs.
+
+submit a request to the authorizer for an exception allowing the
+
+employment of a nonimmigrant foreign worker before the worker is
+
+employed.
+
+of the nonimmigrant foreign worker only if the charter school
+
+makes a satisfactory showing of efforts to recruit lawful
+
+However, a charter school may
+
+The authorizer may grant permission for the employment
+
+S. B. No. 2300
+PAGE 50 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+permanent residents of the United States to fill the position and
+
+a lack of qualified applicants to fill the position.
+
+(2)
+
+Employees in charter schools must have the same general
+
+rights and privileges as other public school employees, except
+
+such employees are not:
+
+(a)
+
+Law (Section 37-9-103); and
+
+Covered under the Education Employment Procedures
+
+(b)
+
+Subject to the state salary requirements prescribed
+
+in Section 37-19-7.
+(3)
+
+For the purpose of eligibility for participation in the
+
+Public Employees' Retirement System, a public charter school is
+
+considered to be a political subdivision of the state.
+
+in public charter schools are eligible for participation in other
+
+benefits programs if the public charter school governing board
+
+chooses to participate.
+
+SECTION 24.
+
+Employees
+
+Section 37-28-49, Mississippi Code of 1972, is
+
+brought forward as follows:
+37-28-49.
+
+(1)
+
+Charter school teachers and other school
+
+personnel, as well as members of the governing board and any
+
+education service provider with whom a charter school contracts,
+
+are subject to criminal history record checks and fingerprinting
+
+requirements applicable to employees of other public schools.
+
+authorizer shall require that current criminal records background
+
+checks and current child abuse registry checks are obtained, and
+
+that the criminal record information and registry checks are on
+S. B. No. 2300
+PAGE 51 (aa\tb)
+
+The
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+file at the charter school for any new hires applying for
+
+employment.
+
+employment, the applicant must be fingerprinted.
+
+disqualifying record is identified at the state level, the
+
+fingerprints must be forwarded by the Department of Public Safety
+
+to the Federal Bureau of Investigation for a national criminal
+
+history record check.
+
+Mississippi Charter School Authorizer Board, member of the charter
+
+school governing board or any individual other than the subject of
+
+the criminal history record checks disseminate information
+
+received through the checks except as may be required to fulfill
+
+the purposes of this section.
+
+applicant has a disqualifying crime, as set forth in subsection
+
+(2) of this section, must be made by the appropriate state or
+
+federal governmental authority, which must notify the charter
+
+school whether a disqualifying crime exists.
+
+(2)
+
+In order to determine an applicant's suitability for
+If no
+
+Under no circumstances may a member of the
+
+The determination whether the
+
+If the fingerprinting or criminal record checks disclose
+
+a felony conviction, guilty plea or plea of nolo contendere to a
+
+felony of possession or sale of drugs, murder, manslaughter, armed
+
+robbery, rape, sexual battery, sex offense listed in Section
+
+45-33-23(g), child abuse, arson, grand larceny, burglary,
+
+gratification of lust or aggravated assault which has not been
+
+reversed on appeal or for which a pardon has not been granted, the
+
+new hire is not eligible to be employed at the charter school.
+
+However, the charter school, in its discretion, may allow any
+S. B. No. 2300
+PAGE 52 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+applicant aggrieved by the employment decision under this section
+
+to show mitigating circumstances that exist and may allow, subject
+
+to the approval of the Mississippi Charter School Authorizer
+
+Board, the new hire to be employed at the school.
+
+may approve the employment depending on the mitigating
+
+circumstances, which may include, but need not be limited to:
+
+age at which the crime was committed; (b) circumstances
+
+surrounding the crime; (c) length of time since the conviction and
+
+criminal history since the conviction; (d) work history; (e)
+
+current employment and character references; and (f) other
+
+evidence demonstrating the ability of the person to perform the
+
+employment responsibilities competently and that the person does
+
+not pose a threat to the health or safety of children.
+
+(3)
+
+The authorizer
+
+(a)
+
+No charter school, charter school employee, member of
+
+the charter school governing board, the Mississippi Charter School
+
+Authorizer Board or member or employee of the Mississippi Charter
+
+School Authorizer Board employee may be held liable in any
+
+employment discrimination suit in which an allegation of
+
+discrimination is made regarding an employment decision authorized
+
+under this section.
+
+(4)
+
+A charter school shall terminate any teacher or
+
+administrator for committing one or more of the following acts:
+(a)
+
+Engaging in unethical conduct relating to an
+
+educator-student relationship as identified by the Mississippi
+
+Charter School Authorizer Board;
+S. B. No. 2300
+PAGE 53 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(b)
+
+Fondling a student as described in Section 97-5-23
+
+or engaging in any type of sexual involvement with a student as
+
+described in Section 97-3-95; or
+
+(c)
+
+Failure to report sexual involvement of a charter
+
+school employee with a student as required by Section 97-5-24.
+SECTION 25.
+
+Section 37-28-51, Mississippi Code of 1972, is
+
+brought forward as follows:
+37-28-51.
+
+A charter school is eligible to participate in
+
+state-sponsored or district-sponsored athletic and academic
+
+interscholastic leagues, competitions, awards, scholarships and
+
+recognition programs for students, educators, administrators and
+
+schools to the same extent as noncharter public schools.
+
+SECTION 26.
+
+Section 37-28-53, Mississippi Code of 1972, is
+
+brought forward as follows:
+37-28-53.
+
+(1)
+
+Each charter school shall certify annually to
+
+the State Department of Education its student enrollment, net
+
+enrollment and student participation in federal programs.
+
+(2)
+
+Each charter school shall certify annually to the school
+
+board of the school district in which the charter school is
+
+located the number of enrolled charter school students residing in
+
+the school district.
+
+SECTION 27.
+
+Section 37-28-55, Mississippi Code of 1972, is
+
+brought forward as follows:
+37-28-55.
+
+(1)
+
+(a)
+
+The State Department of Education shall
+
+make payments to charter schools for each student in net
+S. B. No. 2300
+PAGE 54 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+enrollment at the charter school, as determined under Section
+
+37-151-207, equal to the state share of total funding formula
+
+payments for each student, as determined under Section 37-151-211.
+
+(b)
+
+Payments made pursuant to this subsection by the
+
+State Department of Education must be made at the same time and in
+
+the same manner as total funding formula payments are made to
+
+school districts under Sections 37-151-101 and 37-151-103.
+
+Amounts payable to a charter school must be determined by the
+
+State Department of Education pursuant to this section and the
+
+total funding formula.
+
+37-151-207 to determine the net enrollment of a charter school for
+
+calculating the state share payment must be reconciled with a
+
+charter school's net enrollment using months two (2) and three (3)
+
+for the year for which total funding formula funds are being
+
+appropriated, and any necessary adjustments must be made to
+
+payments during the school's following year of operation.
+
+necessary adjustment must be based on the state share of the per
+
+pupil amount in effect for the year for which net membership did
+
+not meet enrollment projections and not any new amount
+
+appropriated for the year in which the adjustment will be made.
+
+If a charter school is closed by the authorizer before the
+
+following year, it must pay to the state any amounts due before
+
+completion of the closure.
+
+(2)
+
+(a)
+
+Enrollment projections made under Section
+
+Any
+
+For students attending a charter school located in
+
+the school district in which the student resides, the school
+S. B. No. 2300
+PAGE 55 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+district in which the charter school is located shall pay directly
+
+to the charter school an amount as follows:
+
+pro rata amount, as calculated by the State Department of
+
+Education in accordance with Section 37-151-211(2)(b) (local
+
+contribution), and the local pro rata amount, as calculated by the
+
+State Department of Education in accordance with Section 37-57-105
+
+(school district operational levy), multiplied by the number of
+
+resident students enrolled in the charter school, based on the
+
+charter school's months two (2) and three (3) net enrollment of
+
+resident students for the current school year.
+
+amount to the charter school may not include any taxes levied for
+
+the retirement of the local school district's bonded indebtedness
+
+or short-term notes or any taxes levied for the support of
+
+vocational-technical education programs.
+
+(b)
+
+the sum of the local
+
+However, the
+
+The amount must be paid by the school district to
+
+the charter school before January 16 of the current fiscal year.
+
+If the local school district does not pay the required amount to
+
+the charter school before January 16, the State Department of
+
+Education shall reduce the local school district's January
+
+transfer of total funding formula funds by the amount owed to the
+
+charter school and shall redirect that amount to the charter
+
+school.
+
+Department of Education to a charter school must be made at the
+
+same time and in the same manner as total funding formula payments
+
+Any such payments made under this paragraph by the State
+
+S. B. No. 2300
+PAGE 56 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+are made to school districts under Sections 37-151-101 and
+
+37-151-103.
+
+(3)
+
+(a)
+
+For students attending a charter school located in
+
+a school district in which the student does not reside, the State
+
+Department of Education shall pay to the charter school in which
+
+the students are enrolled an amount as follows:
+
+local pro rata amount, as calculated by the State Department of
+
+Education in accordance with Section 37-151-211(2)(b) (local
+
+contribution), and the local pro rata amount, as calculated by the
+
+State Department of Education in accordance with Section 37-57-105
+
+(school district operational levy), multiplied by the number of
+
+students enrolled in the charter school but residing in that
+
+district, based on the charter school's months two (2) and three
+
+(3) net enrollment of these students for the current school year.
+
+However, the amount to the charter school may not include any
+
+taxes levied for the retirement of the local school district's
+
+bonded indebtedness or short-term notes or any taxes levied for
+
+the support of vocational-technical education programs.
+
+(b)
+
+the sum of the
+
+The State Department of Education shall reduce the
+
+school district's January transfer of total funding formula funds
+
+by the amount owed to the charter school and shall redirect that
+
+amount to the charter school.
+
+subsection (3) by the State Department of Education to a charter
+
+school must be made at the same time and in the same manner as
+
+S. B. No. 2300
+PAGE 57 (aa\tb)
+
+Any such payments made under this
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+total funding formula payments are made to school districts under
+
+Sections 37-151-101 and 37-151-103.
+
+(4)
+
+(a)
+
+The State Department of Education shall direct the
+
+proportionate share of monies generated under federal programs,
+
+including, but not limited to, special education, vocational,
+
+English Language Learner, and other programs, to charter schools
+
+serving students eligible for such funding.
+
+ensure that charter schools with rapidly expanding enrollments are
+
+treated equitably in the calculation and disbursement of all
+
+federal program dollars.
+
+who may be eligible to receive services provided through such
+
+programs shall comply with all reporting requirements to receive
+
+the aid.
+
+(b)
+
+The department shall
+
+Each charter school that serves students
+
+A charter school shall pay to a local school
+
+district any federal or state aid attributable to a student with a
+
+disability attending the charter school in proportion to the level
+
+of services for that student which the local school district
+
+provides directly or indirectly.
+
+(c)
+
+Subject to the approval of the authorizer, a
+
+charter school and a local school district may negotiate and enter
+
+into a contract for the provision of and payment for special
+
+education services, including, but not necessarily limited to, a
+
+reasonable reserve not to exceed five percent (5%) of the local
+
+school district's total budget for providing special education
+
+services.
+
+The reserve may be used by the local school district
+
+S. B. No. 2300
+PAGE 58 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+only to offset excess costs of providing services to students with
+
+disabilities enrolled in the charter school.
+
+(5)
+
+(a)
+
+The State Department of Education shall disburse
+
+state transportation funding to a charter school on the same basis
+
+and in the same manner as it is paid to school districts.
+
+(b)
+
+A charter school may enter into a contract with a
+
+school district or private provider to provide transportation to
+
+the school's students.
+
+(6)
+
+The State Department of Education shall disburse
+
+Education Enhancement Funds for classroom supplies, instructional
+
+materials and equipment, including computers and computer software
+
+to all eligible charter school teachers on the same basis and in
+
+the same manner as it is paid to school districts under Section
+
+37-61-33(3)(a)(iii) for the purpose of issuing procurement cards
+
+or credentials for a digital solution to eligible teachers.
+
+SECTION 28.
+
+amended as follows:
+
+37-28-57.
+
+Section 37-28-57, Mississippi Code of 1972, is
+
+(1)
+
+A charter school must adhere to generally
+
+accepted accounting principles.
+(2) * * *
+
+The governing board of a nonprofit entity holding
+
+a charter contract for one or more charter schools or special
+
+purpose charter schools shall have its financial records audited
+
+annually, with each school reported as a program under the entity
+
+at the end of each fiscal year, either by the State Auditor or by
+
+a certified public accountant approved by the State Auditor.
+S. B. No. 2300
+PAGE 59 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+However, a certified public accountant may not be selected to
+
+perform the annual audit of a charter school if that accountant
+
+previously has audited the charter school for more than three (3)
+
+consecutive years.
+
+in a manner determined by the State Auditor. * * *
+
+audit reports and accompanying management letters shall be filed
+
+with the authorizer before October 1 of the calendar year during
+
+which the audit is conducted.
+
+SECTION 29.
+
+Certified public accountants must be selected
+Financial
+
+Section 37-28-59, Mississippi Code of 1972, is
+
+brought forward as follows:
+37-28-59.
+
+(1)
+
+Any monies received by a charter school from
+
+any source remaining in the charter school's accounts at the end
+
+of a budget year must remain in the charter school's accounts for
+
+use by the charter school during subsequent budget years.
+
+(2)
+
+Nothing in this chapter may be construed to prohibit any
+
+person or organization from providing funding or other assistance
+
+to the establishment or operation of a charter school.
+
+governing board of a charter school may accept gifts, donations
+
+and grants of any kind made to the charter school and may expend
+
+or use such gifts, donations and grants in accordance with the
+
+conditions prescribed by the donor; however, a gift, donation or
+
+grant may not be accepted if it is subject to a condition that is
+
+contrary to any provision of law or term of the charter contract.
+
+(3)
+
+The
+
+A charter school must disclose publicly all sources of
+
+private funding and all funds received from foreign sources,
+S. B. No. 2300
+PAGE 60 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+including gifts from foreign governments, foreign legal entities
+
+and domestic entities affiliated with either foreign governments
+
+or foreign legal entities.
+
+the term "foreign" means a country or jurisdiction outside of any
+
+state or territory of the United States.
+
+SECTION 30.
+
+For the purposes of this subsection,
+
+Section 37-28-61, Mississippi Code of 1972, is
+
+brought forward as follows:
+37-28-61.
+
+(1)
+
+A charter school has a right of first refusal
+
+to purchase or lease at or below fair market value a closed public
+
+school facility or property or unused portions of a public school
+
+facility or property in the school district in which the charter
+
+school is located if the school district decides to sell or lease
+
+the public school facility or property.
+
+school application is successful, the local school district owning
+
+the conversion charter school's facility must offer to lease or
+
+sell the building to the conversion charter school at or below
+
+fair market value.
+
+(2)
+
+If a conversion charter
+
+A charter school may negotiate and contract at or below
+
+fair market value with a school district, state institution of
+
+higher learning, public community or junior college, or any other
+
+public or for-profit or nonprofit private entity for the use of a
+
+facility for a school building.
+
+(3)
+
+Public entities, including, but not limited to,
+
+libraries, community service organizations, museums, performing
+
+arts venues, theatres, cinemas, churches, community and junior
+S. B. No. 2300
+PAGE 61 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+colleges, colleges and universities, may provide space to charter
+
+schools within their facilities under their preexisting zoning and
+
+land use designations.
+
+SECTION 31.
+
+amended as follows:
+
+37-179-1.
+
+Section 37-179-1, Mississippi Code of 1972, is
+
+(1)
+
+For purposes of this chapter, the following
+
+terms shall have the meaning ascribed herein, unless the context
+
+clearly indicates otherwise:
+
+(a)
+
+"District of innovation" means a district that has
+
+developed a plan of innovation in compliance with this section and
+
+has been approved by the State Board of Education to be exempted
+
+from certain administrative regulations and statutory provisions
+
+to improve the educational performance of students within the
+
+district;
+
+(b)
+
+"Innovation" means a new or creative alternative to
+
+existing instructional and administrative practices intended to
+
+improve student learning and student performance of all students;
+
+(c)
+
+"School of innovation" means a school that
+
+voluntarily participates in a district of innovation plan to
+
+improve instruction, including waivers and exemptions from local
+
+school board policies, selected provisions of rules and
+
+regulations promulgated by the State Board of Education, and
+
+selected sections of the Mississippi Code of 1972, as permitted
+
+under this section and Section 37-179-3;
+
+(d)
+S. B. No. 2300
+PAGE 62 (aa\tb)
+
+"Board" means the State Board of Education;
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(e)
+
+"Department" means the State Department of
+
+Education * * *; and
+
+(f)
+
+"Special purpose school" means a public school
+
+established to operate in a manner that differs from a traditional
+
+public school by providing a specialized or innovative educational
+
+service designed to meet distinct student needs or community
+
+priorities.
+
+schools with a focus on:
+
+(i)
+
+Career and technical education;
+
+(ii)
+
+Science, technology, engineering and
+
+(iii)
+
+Special education services or targeted
+
+Such schools may include, but are not limited to,
+
+mathematics (STEM);
+
+supports for students with disabilities, including students with
+
+autism or dyslexia; or
+
+(iv)
+
+Other specialized instructional models
+
+that promote individualized learning or workforce readiness.
+A special purpose school shall be subject to all requirements
+established by the State Board of Education.
+(2)
+
+The State Board of Education is authorized to approve
+
+districts of innovation and special purpose schools for the
+
+purposes of improving students' educational performance.
+
+Districts of innovation or special purpose schools shall be
+
+provided flexibility from selected board regulations, Title 37,
+
+Mississippi Code of 1972, and local school board policies for
+
+school administrators, teachers and staff to meet the diverse
+S. B. No. 2300
+PAGE 63 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+needs of students.
+
+innovation or special purpose school shall be for a five-year
+
+period.
+
+purpose school shall not exceed five (5) years and shall comply
+
+with administrative regulations promulgated by the board pursuant
+
+to subsection (4) of this section.
+
+(3)
+
+The initial approval of a district of
+
+Each renewal of a district of innovation or special
+
+The board shall promulgate administrative rules and
+
+regulations to prescribe the conditions and procedures to be used
+
+by a local school board to be approved as a district of innovation
+
+and shall publish the same on or before December 31, 2015.
+
+(4)
+
+The board shall promulgate administrative rules and
+
+regulations prescribing the conditions and procedures to be met by
+
+a local school board prior to approving the local school board's
+
+operation of a special purpose school.
+
+shall be published on or before December 31, 2026.
+
+( * * *5)
+
+Such rules and regulations
+
+Administrative rules and regulations promulgated
+
+by the board under subsections (3) and (4) of this section shall
+
+specify:
+
+(a)
+
+The regulatory areas which may be exempted or
+
+modified if approved by the board, except as provided in Section
+
+37-179-3(2), and in addition to those areas identified in Section
+
+37-179-3(3);
+
+(b)
+
+The application, plan review, approval and
+
+amendment process for a district;
+
+S. B. No. 2300
+PAGE 64 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(c)
+
+Timelines for initial approval as a district of
+
+innovation or special purpose school, the renewal process and
+
+ongoing evaluative procedures required of the district;
+
+(d)
+
+Acceptable documentation of a critical mass of
+
+parental, community, educator and business support and capacity to
+
+effect a change;
+
+(e)
+
+Evidence of teacher collaboration and shared
+
+leadership within the district and the schools to be designated as
+
+schools of innovation or special purpose school;
+
+(f)
+
+The process of revocation of the designation of
+
+district of innovation * * *, school of innovation or special
+
+purpose school;
+
+(g)
+
+district and the State Department of Education;
+
+Reporting and oversight responsibilities of the
+
+(h)
+
+The financial detail relating to budgets of schools
+
+and evidence of sound fiscal management practices;
+
+(i)
+
+Acceptable areas of emphasis for innovation;
+
+(j)
+
+Acceptable documentation of job-embedded
+
+professional development within the proposed innovation design;
+
+and
+
+(k)
+
+Other components deemed necessary to implement this
+
+section and Section 37-179-3.
+
+SECTION 32.
+
+amended as follows:
+
+S. B. No. 2300
+PAGE 65 (aa\tb)
+
+Section 37-179-3, Mississippi Code of 1972, is
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+37-179-3.
+
+(1)
+
+A district which is an applicant to be
+
+designated as a district of innovation or to operate a special
+
+purpose school under Section 37-179-1 shall:
+
+(a)
+
+Establish goals and performance targets for
+
+the * * * proposal, which may include, but are not limited to:
+
+(i)
+
+Reducing achievement gaps among groups of
+
+public school students by expanding learning experiences for
+
+students who are identified as academically low-achieving;
+
+(ii)
+
+Increasing pupil learning through the
+
+implementation of high, rigorous standards for pupil performance;
+
+(iii)
+
+Increasing the participation of students in
+
+various curriculum components and instructional components within
+
+selected schools to enhance at each grade level;
+
+(iv)
+
+Increasing the number of students who are
+
+college and/or career-ready;
+
+(v)
+
+Motivating students at different grade levels
+
+by offering more curriculum choices and student learning
+
+opportunities to parents and students within the district;
+
+(vi)
+
+Improving educational outcomes for students
+
+with disabilities or learning differences, including those with
+
+autism or dyslexia, by providing special education services or
+
+targeted supports for such students;
+
+(b)
+
+Identify changes needed in the district and schools
+
+to lead to better prepared students for success in life and work;
+
+S. B. No. 2300
+PAGE 66 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(c)
+
+Have a district wide plan of innovation that
+
+describes and justifies which schools and innovative practices
+
+will be incorporated;
+
+(d)
+
+Provide documentation of community, educator,
+
+parental, and the local board's support of the proposed
+
+innovations;
+
+(e)
+
+Provide detailed information regarding the
+
+rationale of requests for waivers from Title 37, Mississippi Code
+
+of 1972, which relate to the elementary and secondary education of
+
+public school students, and administrative regulations, and
+
+exemptions for selected schools regarding waivers of local school
+
+board policies;
+
+(f)
+
+Document the fiscal and human resources the board
+
+will provide throughout the term of the implementation of the
+
+innovations within its plan; and
+
+(g)
+
+Provide other materials as required by the
+
+department in compliance with the board's administrative
+
+regulations and application procedures.
+
+(2)
+
+The district and all schools participating in a
+
+district's innovation plan shall:
+
+(a)
+
+Ensure the same health, safety, civil rights, and
+
+disability rights requirements as are applied to all public
+
+schools;
+
+(b)
+
+Ensure students meet compulsory attendance
+
+requirements under Sections 37-13-91 and 37-13-92;
+S. B. No. 2300
+PAGE 67 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(c)
+
+Ensure that high school course offerings meet or
+
+exceed the minimum required under Sections 37-16-7 and 37-3-49,
+
+for high school graduation or meet early graduation requirements
+
+that may be enacted by the Mississippi Legislature;
+
+(d)
+
+Ensure the student performance standards meet or
+
+exceed those adopted by the State Board of Education * * *;
+
+(e)
+
+Adhere to the same financial audits, audit
+
+procedures, and audit requirements as are applied under Section
+
+7-7-211(e);
+
+(f)
+
+Require state and criminal background checks for
+
+staff and volunteers as required of all public school employees
+
+and volunteers within the public schools and specified in Section
+
+37-9-17;
+
+(g)
+
+Comply with open records and open meeting
+
+requirements under Sections 25-41-1 et seq. and 25-61-1 et seq.;
+(h)
+
+Comply with purchasing requirements and limitations
+
+under Chapter 39, Title 37, Mississippi Code of 1972;
+(i)
+
+Provide overall instructional time that is
+
+equivalent to or greater than that required under Sections 37-1-11
+
+and 37-13-67, but which may include on-site instruction, distance
+
+learning, online courses, and work-based learning on
+
+nontraditional school days or hours; and
+
+(j)
+
+Provide data to the department as deemed necessary
+
+to generate school and district reports.
+
+S. B. No. 2300
+PAGE 68 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(3)
+
+(a)
+
+Only schools that choose to be designated as
+
+schools of innovation or special purpose schools shall be included
+
+in a district's application;
+
+(b)
+
+As used in this paragraph, "eligible employees"
+
+means employees that are regularly employed at the school and
+
+those employees whose primary job duties will be affected by the
+
+plan; and
+
+(c)
+
+Notwithstanding the provisions of paragraph (a) of
+
+this subsection, the State Board of Education or a local school
+
+board may require a school that has been identified as a
+
+persistently low-achieving school under provisions of Section
+
+37-17-6 to participate in the district's plan of innovation.
+
+(4)
+
+Notwithstanding any statutes to the contrary, the board
+
+may approve the requests of districts * * *, as it specifically
+
+relates to districts of innovation or special purpose schools, to:
+
+(a)
+
+Use capital outlay funds for operational costs;
+
+(b)
+
+Hire persons for classified positions in
+
+nontraditional school and district assignments who have bachelors
+
+and advanced degrees from postsecondary education institutions
+
+accredited by a regional accrediting association (Southern
+
+Association of Colleges and Schools) or by an organization
+
+affiliated with the National Commission on Accrediting;
+
+(c)
+
+Employ teachers on extended employment contracts or
+
+extra duty contracts and compensate them on a salary schedule
+
+other than the single salary schedule;
+S. B. No. 2300
+PAGE 69 (aa\tb)
+
+~ OFFICIAL ~
+ST: Charter schools and districts of
+innovation; amend certain provisions concerning.
+
+*SS26/R876*
+
+(d)
+
+Extend the school days as is appropriate within the
+
+district with compensation for the employees as determined
+
+locally;
+
+(e)
+
+Establish alternative education programs and
+
+services that are delivered in nontraditional hours and which may
+
+be jointly provided in cooperation with another school district or
+
+consortia of districts;
+
+(f)
+
+Establish online classes within the district for
+
+delivering alternative classes in a blended environment to meet
+
+high school graduation requirements;
+
+(g)
+
+Use a flexible school calendar;
+
+(h)
+
+Convert existing schools into schools of
+
+innovation; and
+(i)
+
+Modify the formula under Chapter 151, Title 37,
+
+Mississippi Code of 1972, for distributing total funding formula
+
+funds for students in net enrollment in nontraditional programming
+
+time, including alternative programs and virtual programs.
+
+granted to a district shall not exceed those that would have
+
+otherwise been distributed based on net enrollment during regular
+
+instructional days.
+
+SECTION 33.
+
+and after July 1, 2026.
+
+S. B. No. 2300
+PAGE 70 (aa\tb)
+
+Funds
+
+This act shall take effect and be in force from
+
+*SS26/R876*
+
+~ OFFICIAL ~

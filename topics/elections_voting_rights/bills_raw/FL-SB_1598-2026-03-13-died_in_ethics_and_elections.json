@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Elections;  Requiring that the Secretary of State be elected, rather than appointed, and serve a specified term; requiring the Florida Commission on Offender Review to develop and maintain a database for a specified purpose; authorizing a person who meets certain requirements to register to vote for the early voting period or election day at an early voting site or his or her polling place and cast a ballot immediately thereafter; authorizing the Department of Highway Safety and Motor Vehicles to preregister certain individuals to vote; revising the information a third-party voter registration organization is required to provide to the Division of Elections of the Department of State, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1598",
+    "legislative_session": "2026",
+    "subject": [
+      "electors and elections",
+      "subject index"
+    ],
+    "title": "Elections"
+  },
+  "id": "SB 1598",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in Ethics and Elections",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1598"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB1598/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB1598/logs/20260313T000000Z_died_in_ethics_and_elections.json"
+  },
+  "timestamp": "20260313T000000Z"
+}

@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HF 2500",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Commerce Department",
+      "Health and Health Department",
+      "Insurance-Health",
+      "Telecommunications and Information Technology"
+    ],
+    "title": "Algorithm and AI use prohibited during health insurance prior authorization request review."
+  },
+  "id": "HF 2500",
+  "log": {
+    "action": {
+      "date": "2026-02-23",
+      "description": "Author changed Bahner",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HF 2500"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF2500/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF2500/logs/20260223T000000Z_author_changed_bahner.json"
+  },
+  "timestamp": "20260223T000000Z"
+}

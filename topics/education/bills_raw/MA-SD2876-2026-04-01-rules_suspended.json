@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Mr. Kennedy, a petition (accompanied by bill) (subject to Joint Rule 12) of Edward J. Kennedy for legislation to reimburse school districts of unforeseen busing costs.  Education.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SD2876",
+    "legislative_session": "194th",
+    "title": "An Act to reimburse school districts of unforeseen busing costs"
+  },
+  "id": "SD2876",
+  "log": {
+    "action": {
+      "date": "2026-04-01",
+      "description": "Rules suspended",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SD2876"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/SD2876/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/SD2876/logs/20260401T000000Z_rules_suspended.json"
+  },
+  "timestamp": "20260401T000000Z"
+}

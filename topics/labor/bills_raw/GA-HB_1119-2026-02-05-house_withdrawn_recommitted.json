@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Chapter 9 of Title 34 of the Official Code of Georgia Annotated, relating to workers' compensation, so as to provide for pharmacy care guidelines and pharmacy management networks under workers' compensation; to provide limitations for providers prescribing certain medications; to provide for limitations for providers dispensing certain medications; to provide for reimbursement; to provide for pharmacy management networks; to provide for notice; to provide for any willing dispensing provider to join a network; to provide for registration; to provide for a registration fee; to provide for requirements; to provide for exemption; to provide for definitions; to provide for rules and regulations; to provide for related matters; to provide for an effective date; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1119",
+    "legislative_session": "2025_26",
+    "title": "Labor and industrial relations; pharmacy care guidelines and pharmacy management networks under workers' compensation; provide"
+  },
+  "id": "HB 1119",
+  "log": {
+    "action": {
+      "classification": [
+        "referral-committee",
+        "withdrawal"
+      ],
+      "date": "2026-02-05",
+      "description": "House Withdrawn, Recommitted",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Industry and Labor"
+        }
+      ]
+    },
+    "bill_id": "HB 1119"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1119/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1119/logs/20260205T000000Z_house_withdrawn_recommitted.json"
+  },
+  "timestamp": "20260205T000000Z"
+}

@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Use of Digital Currency by the Department of Financial Services;  Establishes Florida Stablecoin Pilot Program within DFS; authorizes DFS to engage in certain activities, designate one or more payment stablecoins for certain activities, & accept payment stablecoins; requires that certain payment stablecoins meet specified criteria; authorizes program participants to elect to voluntarily participate in program & remit payment stablecoins to compatible digital wallet address; requires certain participants to provide DFS with such address; requires DFS to comply with certain requirements & provide such address for specified purpose; authorizes DFS to conduct examinations, audits, & investigations of permitted payment stablecoin issuers; requires DFS to coordinate with OFR under certain circumstances; requires DFS to monitor & evaluate pilot program & collect certain data; requires DFS to submit annual report containing certain information to Governor & Legislature beginning on specified date & annually thereafter; authorizes DFS to adopt rules.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1415",
+    "legislative_session": "2026",
+    "subject": [
+      "subject index"
+    ],
+    "title": "Use of Digital Currency by the Department of Financial Services"
+  },
+  "id": "HB 1415",
+  "log": {
+    "action": {
+      "classification": [
+        "deferral"
+      ],
+      "date": "2026-03-11",
+      "description": "Laid on Table, refer to CS/CS/SB 1568",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1415"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB1415/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB1415/logs/20260311T000000Z_laid_on_table_refer_to_cscssb_1568.json"
+  },
+  "timestamp": "20260311T000000Z"
+}

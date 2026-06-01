@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2926",
+    "legislative_session": "2026",
+    "subject": [
+      "CONTRACTS AND CONTRACTORS",
+      "LIABILITY",
+      "POLITICAL SUBDIVISIONS",
+      "SOVEREIGN OR OFFICIAL IMMUNITY",
+      "STATE DEPARTMENTS"
+    ],
+    "title": "Provides certain immunity for private contractors, subcontractors, and employees of such contractors and subcontractors acting within the scope of a government contract awarded by the Missouri department of transportation"
+  },
+  "id": "HB 2926",
+  "log": {
+    "action": {
+      "date": "2026-03-10T05:00:00+00:00",
+      "description": "Executive Session Completed (H)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 2926"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB2926/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB2926/logs/20260310T050000Z_executive_session_completed_h.json"
+  },
+  "timestamp": "20260310T050000Z"
+}

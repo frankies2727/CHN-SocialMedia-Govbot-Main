@@ -38,6 +38,11 @@ jobs:
           python-version: "3.12"
           cache: "pip"
 
+      - name: Install poppler-utils (pdftotext)
+        # Lets scripts/bill_text.py extract full bill text from PDFs for the
+        # digest summaries; degrades gracefully to abstract-only if absent.
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+
       - name: Install Python deps
         run: pip install -r requirements.txt
 

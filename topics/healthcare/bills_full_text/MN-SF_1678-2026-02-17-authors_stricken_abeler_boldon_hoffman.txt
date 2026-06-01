@@ -1,0 +1,758 @@
+SGS/ES​
+
+as introduced​
+
+SENATE​
+STATE OF MINNESOTA​
+NINETY-FOURTH SESSION​
+
+S.F. No. 1678​
+
+(SENATE AUTHORS: KUPEC and Utke)​
+DATE​
+D-PG​
+OFFICIAL STATUS​
+02/20/2025​
+451​ Introduction and first reading​
+Referred to Health and Human Services​
+02/17/2026​
+6323​ Authors stricken Abeler; Boldon; Hoffman​
+
+1.1
+
+A bill for an act​
+
+1.2
+1.3
+1.4
+1.5
+
+relating to health; requiring health care worker platforms to register with the​
+commissioner of health; appropriating money; amending Minnesota Statutes 2024,​
+section 144A.74; proposing coding for new law in Minnesota Statutes, chapter​
+144A.​
+
+1.6
+
+BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:​
+Section 1. Minnesota Statutes 2024, section 144A.74, is amended to read:​
+
+1.7
+1.8
+
+144A.74 MAXIMUM CHARGES.​
+
+1.9
+
+A supplemental nursing services agency or a health care worker platform as defined in​
+
+1.10
+
+section 144A.761, subdivision 5, must not bill or receive payments from a nursing home​
+
+1.11
+
+licensed under this chapter at a rate higher than 150 percent of the sum of the weighted​
+
+1.12
+
+average wage rate, plus a factor determined by the commissioner to incorporate payroll​
+
+1.13
+
+taxes as defined in section 256R.02, subdivision 37, for the applicable employee classification​
+
+1.14
+
+for the geographic group specified in section 256R.23, subdivision 4. The weighted average​
+
+1.15
+
+wage rates must be determined by the commissioner of human services and reported to the​
+
+1.16
+
+commissioner of health on an annual basis. Wages are defined as hourly rate of pay and​
+
+1.17
+
+shift differential, including weekend shift differential and overtime. Facilities shall provide​
+
+1.18
+
+information necessary to determine weighted average wage rates to the commissioner of​
+
+1.19
+
+human services in a format requested by the commissioner. The maximum rate must include​
+
+1.20
+
+all charges for administrative fees, contract fees, or other special charges in addition to the​
+
+1.21
+
+hourly rates for the temporary nursing pool personnel supplied to a nursing home or for the​
+
+1.22
+
+health care workers who book and work shifts at a nursing home via a health care worker​
+
+1.23
+
+platform. A nursing home: (1) that pays for the actual travel and housing costs for​
+
+1.24
+
+supplemental nursing services agency staff working at the facility or for health care workers​
+
+Section 1.​
+
+1​
+
+SGS/ES​
+
+as introduced​
+
+2.1
+
+who book and work shifts via a health care worker platform while the workers are working​
+
+2.2
+
+at the facility; and (2) that pays these costs to the employee or worker, the agency, or another​
+
+2.3
+
+vendor, is not violating the limitation on charges described in this section.​
+
+2.4
+2.5
+2.6
+
+Sec. 2. [144A.761] DEFINITIONS.​
+Subdivision 1. Scope. For purposes of sections 144A.761 to 144A.764, the following​
+terms have the meanings given.​
+
+2.7
+
+Subd. 2. Commissioner. "Commissioner" means the commissioner of health.​
+
+2.8
+
+Subd. 3. Health care facility. "Health care facility" means a hospital, boarding care​
+
+2.9
+
+home, or outpatient surgical center licensed under sections 144.50 to 144.58; a nursing​
+
+2.10
+
+home or home care provider licensed under this chapter; an assisted living facility licensed​
+
+2.11
+
+under chapter 144G; or a board and lodging establishment registered under section 157.17​
+
+2.12
+
+to provide supportive services or health supervision services.​
+
+2.13
+
+Subd. 4. Health care worker. "Health care worker" means a worker who provides​
+
+2.14
+
+services on a temporary basis at one or more health care facilities. Health care worker​
+
+2.15
+
+includes a licensed health professional, a worker who provides health services to patients​
+
+2.16
+
+for which a license is not required, and a worker who provides dietary, housekeeping, or​
+
+2.17
+
+administrative services.​
+
+2.18
+
+Subd. 5. Health care worker platform. "Health care worker platform" means a person,​
+
+2.19
+
+corporation, partnership, or association that operates or offers an electronic platform, system,​
+
+2.20
+
+or application through which health care workers can accept one or more shifts to provide​
+
+2.21
+
+services on a temporary basis at a health care facility. A health care worker platform is not​
+
+2.22
+
+a supplemental nursing services agency as defined in section 144A.70, subdivision 6.​
+
+2.23
+
+Sec. 3. [144A.762] REGISTRATION OF HEALTH CARE WORKER PLATFORMS.​
+
+2.24
+
+Subdivision 1. Oversight. The commissioner is responsible for ensuring compliance​
+
+2.25
+2.26
+2.27
+
+with sections 144A.761 to 144A.764.​
+Subd. 2. Registration required. (a) A health care worker platform must register with​
+the commissioner prior to operating in the state and annually thereafter.​
+
+2.28
+
+(b) Notwithstanding paragraph (a), a health care worker platform operating in Minnesota​
+
+2.29
+
+as of July 1, 2025, must submit a registration application to the commissioner by October​
+
+2.30
+
+1, 2025, and may continue to operate in Minnesota while its application is pending.​
+
+Sec. 3.​
+
+2​
+
+3.1
+
+SGS/ES​
+
+as introduced​
+
+Subd. 3. Application for initial registration. The commissioner must establish​
+
+3.2
+
+application forms for initial registration and procedures for processing applications for initial​
+
+3.3
+
+registration. An application for initial registration must include at least the following:​
+
+3.4
+3.5
+3.6
+3.7
+3.8
+3.9
+3.10
+3.11
+3.12
+3.13
+3.14
+3.15
+
+(1) the name of each of the health care worker platform's shareholders and owners with​
+an ownership interest of greater than five percent;​
+(2) the name of each of the health care worker platform's officers and directors or the​
+names of each of the health care worker platform's members and partners;​
+(3) the health care worker platform's certificate of good standing issued under section​
+5.12;​
+(4) the health care worker platform's articles of incorporation or other establishing​
+documents;​
+(5) an attestation by the health care worker platform that it acknowledges and will operate​
+in compliance with sections 144A.74 and 144A.761 to 144A.764;​
+(6) proof of compliance with section 144A.763, subdivision 2, paragraphs (a) and (b),​
+regarding proof of insurance;​
+
+3.16
+
+(7) an initial registration application fee in the amount specified in subdivision 4; and​
+
+3.17
+
+(8) other information the commissioner determines is necessary to evaluate the initial​
+
+3.18
+3.19
+
+registration application.​
+Subd. 4. Registration fees. (a) An applicant for initial registration must submit with the​
+
+3.20
+
+application an initial registration application fee of $........ An applicant for registration​
+
+3.21
+
+renewal must submit with the application a registration renewal application fee of $........​
+
+3.22
+
+(b) Fees collected under this subdivision must be deposited in the state treasury and​
+
+3.23
+
+credited to the state government special revenue fund.​
+
+3.24
+
+Subd. 5. Consideration of application; period of validity. (a) The commissioner must​
+
+3.25
+
+review and issue a decision on each application for initial registration within 30 days after​
+
+3.26
+
+the application is submitted.​
+
+3.27
+
+(b) The commissioner must approve a health care worker platform's application and​
+
+3.28
+
+issue a registration if the applicant submitted a complete application, paid the initial​
+
+3.29
+
+registration application fee, and meets the registration requirements in sections 144A.761​
+
+3.30
+
+to 144A.764.​
+
+Sec. 3.​
+
+3​
+
+SGS/ES​
+
+as introduced​
+
+4.1
+
+(c) If an applicant fails to submit to the commissioner the information or fee required​
+
+4.2
+
+under subdivision 3, the commissioner may refuse to issue a registration to the health care​
+
+4.3
+
+worker platform.​
+(d) A registration issued under this section is effective for one year from the date of​
+
+4.4
+4.5
+
+issuance, unless:​
+
+4.6
+
+(1) the registration is revoked or suspended under subdivision 8; or​
+
+4.7
+
+(2) the health care worker platform is sold or the ownership or management of the health​
+
+4.8
+
+care worker platform is transferred.​
+
+4.9
+
+Subd. 6. Renewal. (a) The commissioner must establish application forms for registration​
+
+4.10
+
+renewal and procedures for processing applications for registration renewal. A health care​
+
+4.11
+
+worker platform that holds a current registration and through which health care workers​
+
+4.12
+
+accepted shifts at health care facilities in the state during the year preceding the registration​
+
+4.13
+
+renewal date may apply for registration renewal by:​
+(1) submitting to the commissioner an application for registration renewal in which the​
+
+4.14
+4.15
+
+applicant either:​
+(i) certifying that there are no changes to the information on the applicant's most recent​
+
+4.16
+4.17
+
+application submitted to the commissioner; or​
+(ii) updating information that changed since the applicant's most recent application​
+
+4.18
+4.19
+
+submitted to the commissioner; and​
+(2) submitting a registration renewal application fee in the amount specified in subdivision​
+
+4.20
+4.21
+
+4.​
+
+4.22
+
+A health care worker platform that holds a current registration, through which health care​
+
+4.23
+
+workers did not accept shifts at health care facilities in the state during the year preceding​
+
+4.24
+
+the registration renewal date, and that wishes to renew its registration must apply for​
+
+4.25
+
+registration according to subdivision 3.​
+
+4.26
+
+(b) The commissioner must review and issue a decision on each application for​
+
+4.27
+
+registration renewal within 30 days after the application is submitted. The commissioner​
+
+4.28
+
+must renew the applicant's registration if the applicant submitted a complete application,​
+
+4.29
+
+paid the registration renewal application fee, and continues to meet the registration​
+
+4.30
+
+requirements in sections 144A.761 to 144A.764. A registered health care worker platform​
+
+4.31
+
+may continue to operate in the state while the platform's registration renewal application is​
+
+4.32
+
+pending.​
+
+Sec. 3.​
+
+4​
+
+SGS/ES​
+
+as introduced​
+
+5.1
+
+Subd. 7. Appeals. An entity that applied for registration or a registered health care​
+
+5.2
+
+worker platform may appeal the commissioner's decision to not approve an application for​
+
+5.3
+
+registration, to suspend a registration, to revoke a registration, or to not renew a registration.​
+
+5.4
+
+A registered health care worker platform may continue to operate in the state while the​
+
+5.5
+
+platform's appeal of the decision to not renew the platform's registration is pending.​
+Subd. 8. Denials, suspensions, and revocations. The commissioner may deny, refuse​
+
+5.6
+5.7
+
+to renew, revoke, or suspend the registration of a health care worker platform for:​
+
+5.8
+
+(1) lack of financial solvency or suitability;​
+
+5.9
+
+(2) failing to submit the information or fee required for initial registration or registration​
+
+5.10
+
+renewal;​
+
+5.11
+
+(3) failing to meet the requirements in sections 144A.761 to 144A.764; or​
+
+5.12
+
+(4) knowingly providing a health care worker with an illegally or fraudulently obtained​
+
+5.13
+
+or issued diploma; registration, license, or certificate to practice as a health care worker; or​
+
+5.14
+
+criminal records check result.​
+
+5.15
+
+Subd. 9. Registration not transferable. When a health care worker platform is sold or​
+
+5.16
+
+ownership or management of a health care worker platform is transferred, the registration​
+
+5.17
+
+must be voided no later than 90 days after the transfer, and the new owner or operator may​
+
+5.18
+
+apply for a new registration.​
+
+5.19
+5.20
+
+Sec. 4. [144A.763] OPERATIONAL REQUIREMENTS FOR HEALTH CARE​
+WORKER PLATFORMS.​
+Subdivision 1. Prohibited acts. (a) In operating the platform, a health care worker​
+
+5.21
+5.22
+
+platform is prohibited from:​
+(1) requiring a health care worker to enter into a covenant not to compete. This clause​
+
+5.23
+5.24
+
+shall not be construed to limit the protections in section 181.988;​
+
+5.25
+
+(2) requiring a health care worker or health care facility to pay a fee or compensation​
+
+5.26
+
+to the health care worker platform if a health care worker accepts an offer of employment​
+
+5.27
+
+from a health care facility;​
+
+5.28
+
+(3) restricting a health care worker from engaging in another occupation or business,​
+
+5.29
+
+including but not limited to other health care work or other work in a health care facility;​
+
+5.30
+
+or​
+
+5.31
+
+(4) restricting a health care worker from accepting shifts through another health care​
+
+5.32
+
+worker platform or from a health care facility that does not offer shifts on this health care​
+Sec. 4.​
+
+5​
+
+SGS/ES​
+
+as introduced​
+
+6.1
+
+worker platform, except that a health care worker platform may remove from the platform​
+
+6.2
+
+a health care worker who accepts simultaneous shifts on two different health care worker​
+
+6.3
+
+platforms.​
+
+6.4
+6.5
+
+(b) A health care worker must not accept shifts through a health care worker platform​
+at a single health care facility for 90 or more consecutive days.​
+
+6.6
+
+(c) Nothing in sections 144A.761 to 144A.764 shall be construed to prohibit a health​
+
+6.7
+
+care worker platform from generally advertising to the public that the health care worker​
+
+6.8
+
+platform is seeking health care workers to accept shifts through the platform.​
+
+6.9
+
+Subd. 2. Insurance coverage and liability for payment of taxes. (a) A health care​
+
+6.10
+
+worker platform must maintain occupational accident insurance that applies to the work of​
+
+6.11
+
+health care workers who accept shifts through the platform.​
+
+6.12
+6.13
+
+(b) A health care worker platform must maintain general liability insurance and​
+professional liability insurance.​
+
+6.14
+
+(c) A health care worker platform must notify health care workers that the health care​
+
+6.15
+
+worker is responsible for the payment of all federal and state individual income taxes owed​
+
+6.16
+
+on the health care worker's earnings for shifts accepted through the platform.​
+
+6.17
+6.18
+6.19
+
+Subd. 3. Record keeping. (a) A health care worker platform must retain records​
+demonstrating that each health care worker using the platform:​
+(1) meets at least the minimum applicable licensing, training, and continuing education​
+
+6.20
+
+requirements for the position for which the health care worker is seeking to accept shifts​
+
+6.21
+
+through the platform;​
+
+6.22
+
+(2) has completed and passed a criminal records check;​
+
+6.23
+
+(3) has completed an exclusion check from the United States Department of Health and​
+
+6.24
+
+Human Services Office of the Inspector General;​
+
+6.25
+
+(4) has professional references; and​
+
+6.26
+
+(5) meets all pertinent requirements relating to the health and other qualifications of​
+
+6.27
+
+personnel working in health care facilities.​
+
+6.28
+
+(b) A health care worker platform must retain the records required under paragraph (a)​
+
+6.29
+
+until five years after the date the health care worker last accepted a shift through the platform.​
+
+6.30
+
+Upon request by the commissioner, a health care platform must make available to the​
+
+6.31
+
+commissioner the records required under paragraph (a).​
+
+Sec. 4.​
+
+6​
+
+7.1
+7.2
+
+SGS/ES​
+
+as introduced​
+
+Sec. 5. [144A.764] APPLICATION OF SUPPLEMENTAL NURSING SERVICES​
+AGENCY LAWS.​
+
+7.3
+
+A health care worker platform registered under sections 144A.761 to 144A.764 is not​
+
+7.4
+
+a supplemental nursing services agency as defined in section 144A.70, subdivision 6. A​
+
+7.5
+
+supplemental nursing services agency is prohibited from registering as a health care worker​
+
+7.6
+
+platform under sections 144A.761 to 144A.764.​
+
+7.7
+
+Sec. 6. APPROPRIATIONS.​
+
+7.8
+
+$....... in fiscal year 2026 and $....... in fiscal year 2027 are appropriated from the state​
+
+7.9
+
+government special revenue fund to the commissioner of health for the registration of health​
+
+7.10
+
+care worker platforms under Minnesota Statutes, sections 144A.761 to 144A.764.​
+
+Sec. 6.​
+
+7​

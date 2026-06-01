@@ -1,0 +1,2582 @@
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+V
+
+E
+
+A bill to be entitled
+
+An act relating to drug prices and coverage; providing
+
+a short title; creating s. 381.02036, F.S.; requiring
+
+the Agency for Health Care Administration to contract
+
+with an entity to designate reference price source
+
+countries and analyze certain data; defining the term
+
+"real gross domestic product per capita"; providing
+
+duties for the contracted entity; requiring the agency
+
+to publish annually prescription drug reference
+
+prices; amending s. 465.0244, F.S.; requiring
+
+pharmacies to charge cash-paying customers up to
+
+reference prices for prescribed drugs and biological
+
+products; providing applicability; creating s.
+
+499.044, F.S.; providing legislative intent; defining
+
+the terms "prescription drug" and "drug"; requiring
+
+prescription drug manufacturer permitholders to
+
+annually report to the agency international drug price
+
+data beginning on a specified date; providing
+
+reporting requirements and penalties; amending s.
+
+626.8825, F.S.; providing definitions; requiring
+
+contracts between pharmacy benefit managers and
+
+pharmacy benefits plans and programs to prohibit
+
+pharmacy benefit managers from offering and
+
+implementing certain formularies; requiring contracts
+
+between pharmacy benefit managers and participating
+CODING: Words stricken are deletions; words underlined are additions.
+hb697-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+V
+
+E
+
+pharmacies to allow a specified option in the
+
+administrative appeal procedure; amending s. 626.8827,
+
+F.S.; providing pharmacy benefit manager prohibited
+
+practices relating to pharmacies and pharmacists;
+
+creating s. 627.4231, F.S.; defining the terms "health
+
+insurer," "prescription drug," and "drug"; requiring
+
+certain health insurers to limit covered prescription
+
+drug reimbursement to reference prices; requiring
+
+savings from such reimbursement limits to be used for
+
+certain purposes; providing documentation, assessment,
+
+and reporting requirements for such health insurers;
+
+providing applicability; requiring the office and the
+
+agency to submit an annual report to the Governor and
+
+the Legislature; creating s. 627.42398, F.S.;
+
+requiring health insurance policies to limit changes
+
+to prescription drug formularies under certain
+
+circumstances; providing applicability; amending s.
+
+627.6699, F.S.; requiring small employer carriers to
+
+limit changes to prescription drug formularies;
+
+amending s. 641.30, F.S.; requiring health maintenance
+
+organizations to comply with requirements on limits on
+
+prescription drug reimbursement and on the uses of
+
+savings from such limits; amending s. 641.31, F.S.;
+
+requiring health maintenance organizations to limit
+
+changes to prescription drug formularies under certain
+CODING: Words stricken are deletions; words underlined are additions.
+hb697-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+V
+
+E
+
+circumstances; providing applicability; requiring the
+
+office to adopt rules; providing findings of an
+
+important state interest; providing an effective date.
+
+Be It Enacted by the Legislature of the State of Florida:
+
+Section 1.
+
+This act may be cited as the "Prescription
+
+Reduction Incentives and Competition Enhancement Act."
+Section 2.
+
+Section 381.02036, Florida Statutes, is created
+
+to read:
+381.02036
+
+International drug reference pricing.—The Agency
+
+for Health Care Administration shall contract with an entity to
+
+designate reference price source countries and analyze the data
+
+submitted under s. 499.044 to establish the reference price for
+
+each prescribed drug.
+
+(1)(a)
+
+Reference price source countries must include only
+
+countries with a real gross domestic product per capita of at
+
+least 60 percent of the United States gross domestic product per
+
+capita, using international sales, volume, and pricing data for
+
+each country. For the purposes of this paragraph, "real gross
+
+domestic product per capita" means a country's most recent
+
+estimate based on purchasing power parity for that country
+
+available in the most recent edition of the United States
+
+Central Intelligence Agency World Factbook. Countries with
+
+single-payer health systems, which include whole-market
+CODING: Words stricken are deletions; words underlined are additions.
+hb697-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+government price-setting for prescription drugs, shall be
+
+excluded. The agency contractor shall reevaluate the designated
+
+reference price source countries annually and shall revise as
+
+needed.
+
+(b)
+
+The agency contractor shall weight the reference price
+
+benchmark value of the selected reference price source countries
+
+and sort the countries into two or more tiers, using an
+
+established index measuring the level of health care system
+
+market orientation in each country.
+(2)(a)
+
+The agency contractor shall analyze the data
+
+submitted under s. 499.044 to compare prices among source
+
+countries using a publicly available, reliable, and consistent
+
+exchange rate source. The agency contractor shall establish the
+
+reference price for each prescribed drug, which must be the
+
+lowest price, after adjusting for volume and difference in
+
+national gross domestic product, identified in the source
+
+countries. A reference price is not required to be established
+
+for a drug that has domestic price that is determined by the
+
+contractor to be competitive with foreign prices; however, the
+
+agency contractor shall identify and report such drugs and their
+
+reference prices to the agency.
+
+E
+
+V
+
+(b)
+
+The agency contractor shall prioritize drugs that have
+
+little or no competition in the domestic market or have domestic
+
+prices that are the greatest differences between the domestic
+
+price and the reference price, including, but not limited to,
+CODING: Words stricken are deletions; words underlined are additions.
+hb697-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+brand name and single-source drugs.
+(3)
+
+The agency contractor shall update the reference
+
+prices annually and may reevaluate and update a specific
+
+reference price at any time based on a significant change
+
+documented by supplemental pricing data submitted by a
+
+manufacturer under s. 499.044(3).
+(4)
+
+The agency contractor shall provide to the agency the
+
+reference prices no later than January 1 each year, and the
+
+agency shall publish the reference prices online within 10 days
+
+after receipt of the reference prices.
+
+Section 3.
+
+Subsection (3) is added to section 465.0244,
+
+Florida Statutes, to read:
+
+465.0244
+
+(3)
+
+Information disclosure; reference prices.—
+
+A pharmacy shall charge a cash-paying customer an
+
+amount no greater than the reference price established under s.
+
+381.02036 for a prescribed drug or biological product. The limit
+
+on a drug or biological product charge applies only to the drug
+
+or biological product itself, and does not apply to any
+
+dispensing fee.
+
+Section 4.
+
+E
+
+V
+
+Section 499.044, Florida Statutes, is created
+
+to read:
+
+499.044
+
+(1)
+
+International drug reference pricing.—
+
+It is the intent of the Legislature that patients and
+
+third-party payors in this state should not pay more for
+
+prescription drugs than those in international markets.
+CODING: Words stricken are deletions; words underlined are additions.
+hb697-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+(2)
+
+As used in this section, the term "prescription drug"
+
+or "drug" has the same meaning as the term "prescription drug"
+
+in s. 499.003 and includes biological products. The term is
+
+limited to those prescription drugs and biological products
+
+intended for human use.
+(3)
+
+Beginning October 1, 2026, each prescription drug
+
+manufacturer permitholder and nonresident prescription drug
+
+manufacturer permitholder shall annually report international
+
+prescription drug price data to the Agency for Health Care
+
+Administration.
+
+(a)
+
+Permitholders shall annually report the actual
+
+outpatient payment or reimbursement amounts for each prescribed
+
+drug in each reference price source country identified pursuant
+
+to s. 381.02036, including amounts paid by both third-party
+
+payors such as insurers and public health coverage programs and
+
+by individual consumers not using third-party payors, net of
+
+rebates and other forms of discounts. Permitholders may report
+
+the average payment amounts for each drug for a reference price
+
+source country, if weighted by utilization volume and fully
+
+documented, to the agency.
+
+(b)
+
+Permitholders may provide supplemental price data at
+
+any time during the year, based on price changes in a reference
+
+price source country.
+
+E
+
+V
+
+(c)
+
+Permitholders shall report the data in a format
+
+established by the agency in consultation with the contractor
+CODING: Words stricken are deletions; words underlined are additions.
+hb697-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+established under s. 381.02036.
+(d)
+
+Failure to timely report required data shall result in
+
+a fine of $10,000 a day for the first 30 days, and permit
+
+suspension thereafter until compliance is achieved.
+Section 5.
+
+Paragraphs (b), (c) through (f), (g) through
+
+(j), and (k) through (x) of subsection (1) of section 626.8825,
+
+Florida Statutes, are redesignated as paragraph (c), (f) through
+
+(i), and (p) through (cc), respectively, paragraph (h) of
+
+subsection (2) and paragraph (h) of subsection (3) are amended,
+
+and new paragraphs (b), (d), (e), (j), and (o) are added to
+
+subsection (1) of that section, to read:
+
+626.8825
+
+accountability.—
+
+Pharmacy benefit manager transparency and
+
+(1)
+
+DEFINITIONS.—As used in this section, the term:
+
+(b)
+
+"Affiliated manufacturer" means a drug or biological
+
+product manufacturer that, either directly or indirectly through
+
+one or more intermediaries:
+
+1.
+
+Has an investment or ownership interest in a pharmacy
+
+benefit manager holding a certificate of authority issued under
+
+this part;
+
+2.
+
+E
+
+V
+
+Shares common ownership with a pharmacy benefit manager
+
+holding a certificate of authority issued under this part; or
+3.
+
+Has an investor or a holder of an ownership interest
+
+which is a pharmacy benefit manager holding a certificate of
+
+authority issued under this part.
+CODING: Words stricken are deletions; words underlined are additions.
+hb697-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+(d)
+
+"Biological product" has the same meaning as in s. 351
+
+of the federal Public Health Service Act, 42 U.S.C. s. 262.
+(e)
+
+"Biosimilar" has the same meaning as in s. 351 of the
+
+federal Public Health Service Act, 42 U.S.C. s. 262.
+(j)
+
+"Drug" has the same meaning as in s. 499.003.
+
+(o)
+
+"Interchangeable" has the same meaning as in s. 351 of
+
+E
+
+V
+
+the federal Public Health Service Act, 42 U.S.C. s. 262.
+(2)
+
+CONTRACTS BETWEEN A PHARMACY BENEFIT MANAGER AND A
+
+PHARMACY BENEFITS PLAN OR PROGRAM.—In addition to any other
+
+requirements in the Florida Insurance Code, all contractual
+
+arrangements executed, amended, adjusted, or renewed on or after
+
+July 1, 2023, which are applicable to pharmacy benefits covered
+
+on or after January 1, 2024, between a pharmacy benefit manager
+
+and a pharmacy benefits plan or program must include, in
+
+substantial form, terms that ensure compliance with all of the
+
+following requirements and that, except to the extent not
+
+allowed by law, shall supersede any contractual terms to the
+
+contrary:
+
+(h)1.
+
+At a minimum, require the pharmacy benefit manager
+
+or pharmacy benefits plan or program to, upon revising its
+
+formulary of covered prescription drugs during a plan year,
+
+provide a 60-day continuity-of-care period in which the covered
+
+prescription drug that is being revised from the formulary
+
+continues to be provided at the same cost for the patient for a
+
+period of 60 days. The 60-day continuity-of-care period
+CODING: Words stricken are deletions; words underlined are additions.
+hb697-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+commences upon notification to the patient. This requirement
+
+does not apply if the covered prescription drug:
+a.
+
+Has been approved and made available over the counter
+
+by the United States Food and Drug Administration and has
+
+entered the commercial market as such;
+
+b.
+
+Has been removed or withdrawn from the commercial
+
+market by the manufacturer; or
+c.
+
+Is subject to an involuntary recall by state or federal
+
+authorities and is no longer available on the commercial market.
+2.
+
+Prohibit the pharmacy benefit manager from offering or
+
+implementing a formulary that requires a covered person to
+
+receive a drug or biological product manufactured by an
+
+affiliated manufacturer when there is an available generically
+
+equivalent drug, or an available biological product that is
+
+biosimilar to and interchangeable for the prescribed biological
+
+product.
+
+3.2.
+
+Beginning January 1, 2024, and annually thereafter,
+
+the pharmacy benefits plan or program shall submit to the
+
+office, under the penalty of perjury, a statement attesting to
+
+its compliance with the requirements of this subsection.
+
+E
+
+V
+
+(3)
+
+CONTRACTS BETWEEN A PHARMACY BENEFIT MANAGER AND A
+
+PARTICIPATING PHARMACY.—In addition to other requirements in the
+
+Florida Insurance Code, a participation contract executed,
+
+amended, adjusted, or renewed on or after July 1, 2023, that
+
+applies to pharmacist services on or after January 1, 2024,
+CODING: Words stricken are deletions; words underlined are additions.
+hb697-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+E
+
+between a pharmacy benefit manager and one or more pharmacies or
+
+pharmacists, must include, in substantial form, terms that
+
+ensure compliance with all of the following requirements, and
+
+that, except to the extent not allowed by law, shall supersede
+
+any contractual terms in the participation contract to the
+
+contrary:
+
+(h)
+
+The pharmacy benefit manager shall provide a
+
+reasonable administrative appeal procedure to allow a pharmacy
+
+or pharmacist to challenge the maximum allowable cost pricing
+
+information and the reimbursement made under the maximum
+
+allowable cost as defined in s. 627.64741 for a specific drug as
+
+being below the acquisition cost available to the challenging
+
+pharmacy or pharmacist.
+
+V
+
+1.
+
+The administrative appeal procedure must include a
+
+telephone number and e-mail address, or a website, for the
+
+purpose of submitting the administrative appeal. The appeal may
+
+be submitted by the pharmacy or an agent of the pharmacy
+
+directly to the pharmacy benefit manager or through a pharmacy
+
+service administration organization. The administrative appeal
+
+procedure must allow a pharmacy or pharmacist the option to
+
+submit a consolidated administrative appeal representing
+
+multiple substantially similar claims. The pharmacy or
+
+pharmacist must be given at least 30 business days after a
+
+maximum allowable cost update or after an adjudication for an
+
+electronic claim or reimbursement for a nonelectronic claim to
+CODING: Words stricken are deletions; words underlined are additions.
+hb697-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+file the administrative appeal.
+2.
+
+The pharmacy benefit manager must respond to the
+
+administrative appeal within 30 business days after receipt of
+
+the appeal.
+
+3.
+
+If the appeal is upheld, the pharmacy benefit manager
+
+must:
+a.
+
+Update the maximum allowable cost pricing information
+
+to at least the acquisition cost available to the pharmacy;
+b.
+
+Permit the pharmacy or pharmacist to reverse and rebill
+
+the claim in question;
+c.
+
+Provide to the pharmacy or pharmacist the national drug
+
+code on which the increase or change is based; and
+d.
+
+Make the increase or change effective for each
+
+similarly situated pharmacy or pharmacist who is subject to the
+
+applicable maximum allowable cost pricing information.
+
+4.
+
+If the appeal is denied, the pharmacy benefit manager
+
+must provide to the pharmacy or pharmacist the national drug
+
+code and the name of the national or regional pharmaceutical
+
+wholesalers operating in this state which have the drug
+
+currently in stock at a price below the maximum allowable cost
+
+pricing information.
+
+E
+
+V
+
+5.
+
+Every 90 days, a pharmacy benefit manager shall report
+
+to the office the total number of appeals received and denied in
+
+the preceding 90-day period, with an explanation or reason for
+
+each denial, for each specific drug for which an appeal was
+CODING: Words stricken are deletions; words underlined are additions.
+hb697-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+submitted pursuant to this paragraph.
+Section 6.
+
+Subsections (8) and (9) are added to section
+
+626.8827, Florida Statutes, to read:
+626.8827
+
+Pharmacy benefit manager prohibited practices.—In
+
+addition to other prohibitions in this part, a pharmacy benefit
+
+manager may not do any of the following:
+(8)
+
+Prohibit or restrict a pharmacy or pharmacist from
+
+declining to dispense a drug if the reimbursement rate is less
+
+than the actual acquisition cost incurred or would be incurred
+
+by the pharmacy or pharmacist.
+
+(9)
+
+Reimburse a pharmacy or pharmacist less than it
+
+reimburses an affiliated pharmacy or pharmacist, as those terms
+
+are defined in s. 626.8825.
+
+Section 7.
+
+Section 627.4231, Florida Statutes, is created
+
+to read:
+
+627.4231
+
+reference prices.—
+
+Insurance reimbursement of prescribed drugs at
+
+(1)
+
+As used in this section, the term:
+
+(a)
+
+"Health insurer" means an authorized insurer offering
+
+health insurance as defined in s. 624.603, a managed care plan
+
+as defined in s. 409.962(10), a health maintenance organization
+
+as defined in s. 641.19, or the state group insurance program as
+
+established in part I of chapter 110.
+
+E
+
+V
+
+(b)
+
+"Prescription drug" or "drug" has the same meaning as
+
+the term "prescription drug" in s. 499.003 and includes
+CODING: Words stricken are deletions; words underlined are additions.
+hb697-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+biological products. The term is limited to those prescription
+
+drugs and biological products intended for human use.
+
+(c)
+
+"Biological product" has the same meaning as in s. 351
+
+of the federal Public Health Service Act, 42 U.S.C. s. 262.
+(2)
+
+A health insurer that provides coverage for outpatient
+
+prescription drugs shall provide reimbursement for a covered
+
+prescription drug for which there is a reference price under s.
+
+381.02036 in an amount no greater than the reference price. This
+
+subsection applies to drug reimbursement, and does not apply to
+
+any covered dispensing or administration fee established under
+
+the terms of the provider contract.
+
+(3)(a)
+
+Savings generated by subsection (2) must be used to
+
+reduce policyholder premiums and cost sharing as defined in s.
+
+627.42391(1). Each health insurer shall document anticipated
+
+savings and premium reductions in rate filings beginning with
+
+the first rate filing following the availability of reference
+
+prices under s. 381.02036.
+
+E
+
+V
+
+(b)
+
+Each health insurer shall assess the actuarial effect
+
+of the reference pricing under s. 381.02036 for each insurer
+
+product for each plan year. Beginning April 1 following the
+
+first full plan year in which reference prices under s.
+
+381.02036 apply to prescription drug reimbursement, each health
+
+insurer shall submit an annual report on the assessed effect to
+
+the Office of Insurance Regulation or the Agency for Health Care
+
+Administration, as applicable.
+CODING: Words stricken are deletions; words underlined are additions.
+hb697-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+(4)
+
+The requirements of this section apply to prescription
+
+drug coverage in the Medicaid program established in chapter 409
+
+to the extent a reference price established under s. 381.02036
+
+generates greater savings for the program than that provided by
+
+the state supplemental rebate program established under s.
+
+409.912.
+
+(5)
+
+Beginning January 1, 2027, and annually thereafter,
+
+the Office of Insurance Regulation and the Agency for Health
+
+Care Administration shall submit a joint report to the Governor,
+
+the President of the Senate, and the Speaker of the House of
+
+Representatives detailing the impact of subsections (2), (3),
+
+and (4) in the preceding year, including savings realized
+
+compared to prescription drug pricing in the United States not
+
+using this pricing model, any problems encountered, any barriers
+
+to access to prescription drugs, the domestic and foreign
+
+prescription drug market response, the monitoring and evaluation
+
+of the impact on prescription drug program or plan beneficiary
+
+access, the quality of care, and the program costs.
+
+E
+
+V
+
+Section 8.
+
+Section 627.42398, Florida Statutes, is created
+
+to read:
+627.42398
+
+Insurance policies; limiting changes to
+
+prescription drug formularies.—
+(1)
+
+Other than at the time of coverage renewal, an
+
+individual or group insurance policy that is delivered, issued
+
+for delivery, renewed, amended, or continued in this state and
+CODING: Words stricken are deletions; words underlined are additions.
+hb697-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+that provides medical, major medical, or similar comprehensive
+
+coverage may not, while the insured is taking a prescription
+
+drug:
+(a)
+
+Remove the prescription drug from its list of covered
+
+drugs during the policy year unless the United States Food and
+
+Drug Administration has issued a statement about the drug which
+
+calls into question the clinical safety of the drug; the
+
+manufacturer of the drug has notified the United States Food and
+
+Drug Administration of a manufacturing discontinuance or
+
+potential discontinuance of the drug as required by s. 506C of
+
+the Federal Food, Drug, and Cosmetic Act, 21 U.S.C. s. 356c; or
+
+the drug has been approved and made available over the counter
+
+by the United States Food and Drug Administration and has
+
+entered the commercial market as such.
+
+E
+
+V
+
+(b)
+
+Reclassify the drug to a more restrictive drug tier or
+
+increase the amount that an insured must pay for a copayment,
+
+coinsurance, or deductible for prescription drug benefits, or
+
+reclassify the drug to a higher cost-sharing tier during the
+
+policy year.
+
+This subsection applies to drugs for which an insurer negotiates
+
+a single acquisition price that will be in effect for the entire
+
+plan year.
+
+(2)
+
+This section does not:
+
+(a)
+
+Prohibit the addition of prescription drugs to the
+
+CODING: Words stricken are deletions; words underlined are additions.
+hb697-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+list of drugs covered under the policy during the policy year.
+(b)
+
+Apply to a grandfathered health plan as defined in s.
+
+627.402 or to benefits set forth in s. 627.6513(1)-(14).
+(c)
+
+Alter or amend s. 465.025, which provides conditions
+
+under which a pharmacist may substitute a generically equivalent
+
+drug product for a brand name drug product.
+(d)
+
+Alter or amend s. 465.0252, which provides conditions
+
+under which a pharmacist may dispense a substitute biological
+
+product for the prescribed biological product.
+
+(e)
+
+chapter 409.
+
+Apply to a Medicaid managed care plan under part IV of
+
+Section 9.
+
+Paragraph (e) of subsection (5) of section
+
+627.6699, Florida Statutes, is amended to read:
+
+627.6699
+
+(5)
+
+AVAILABILITY OF COVERAGE.—
+
+(e)
+
+All health benefit plans issued under this section
+
+Employee Health Care Access Act.—
+
+must comply with the following conditions:
+1.
+
+For employers who have fewer than two employees, a late
+
+enrollee may be excluded from coverage for no longer than 24
+
+months if he or she was not covered by creditable coverage
+
+continually to a date not more than 63 days before the effective
+
+date of his or her new coverage.
+
+E
+
+V
+
+2.
+
+Any requirement used by a small employer carrier in
+
+determining whether to provide coverage to a small employer
+
+group, including requirements for minimum participation of
+CODING: Words stricken are deletions; words underlined are additions.
+hb697-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+E
+
+eligible employees and minimum employer contributions, must be
+
+applied uniformly among all small employer groups having the
+
+same number of eligible employees applying for coverage or
+
+receiving coverage from the small employer carrier, except that
+
+a small employer carrier that participates in, administers, or
+
+issues health benefits pursuant to s. 381.0406 which do not
+
+include a preexisting condition exclusion may require as a
+
+condition of offering such benefits that the employer has had no
+
+health insurance coverage for its employees for a period of at
+
+least 6 months. A small employer carrier may vary application of
+
+minimum participation requirements and minimum employer
+
+contribution requirements only by the size of the small employer
+
+group.
+
+3.
+
+In applying minimum participation requirements with
+
+respect to a small employer, a small employer carrier shall not
+
+consider as an eligible employee employees or dependents who
+
+have qualifying existing coverage in an employer-based group
+
+insurance plan or an ERISA qualified self-insurance plan in
+
+determining whether the applicable percentage of participation
+
+is met. However, a small employer carrier may count eligible
+
+employees and dependents who have coverage under another health
+
+plan that is sponsored by that employer.
+
+V
+
+4.
+
+A small employer carrier shall not increase any
+
+requirement for minimum employee participation or any
+
+requirement for minimum employer contribution applicable to a
+CODING: Words stricken are deletions; words underlined are additions.
+hb697-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+small employer at any time after the small employer has been
+
+accepted for coverage, unless the employer size has changed, in
+
+which case the small employer carrier may apply the requirements
+
+that are applicable to the new group size.
+5.
+
+If a small employer carrier offers coverage to a small
+
+employer, it must offer coverage to all the small employer's
+
+eligible employees and their dependents. A small employer
+
+carrier may not offer coverage limited to certain persons in a
+
+group or to part of a group, except with respect to late
+
+enrollees.
+
+6.
+
+A small employer carrier may not modify any health
+
+benefit plan issued to a small employer with respect to a small
+
+employer or any eligible employee or dependent through riders,
+
+endorsements, or otherwise to restrict or exclude coverage for
+
+certain diseases or medical conditions otherwise covered by the
+
+health benefit plan.
+
+7.
+
+An initial enrollment period of at least 30 days must
+
+be provided. An annual 30-day open enrollment period must be
+
+offered to each small employer's eligible employees and their
+
+dependents. A small employer carrier must provide special
+
+enrollment periods as required by s. 627.65615.
+
+E
+
+V
+
+8.
+
+A small employer carrier must limit changes to
+
+prescription drug formularies as required by s. 627.42398.
+Section 10.
+
+Subsection (6) is added to section 641.30,
+
+Florida Statutes, to read:
+CODING: Words stricken are deletions; words underlined are additions.
+hb697-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+641.30
+
+(6)
+
+s. 627.4231.
+
+Construction and relationship to other laws.—
+
+Every health maintenance organization must comply with
+
+Section 11.
+
+Subsection (36) of section 641.31, Florida
+
+Statutes, is amended to read:
+
+641.31
+
+(36)
+
+Health maintenance contracts.—
+A health maintenance organization may increase the
+
+copayment for any benefit, or delete, amend, or limit any of the
+
+benefits to which a subscriber is entitled under the group
+
+contract only, upon written notice to the contract holder at
+
+least 45 days in advance of the time of coverage renewal. The
+
+health maintenance organization may amend the contract with the
+
+contract holder, with such amendment to be effective immediately
+
+at the time of coverage renewal. The written notice to the
+
+contract holder must shall specifically identify any deletions,
+
+amendments, or limitations to any of the benefits provided in
+
+the group contract during the current contract period which will
+
+be included in the group contract upon renewal. This subsection
+
+does not apply to any increases in benefits. The 45-day notice
+
+requirement does shall not apply if benefits are amended,
+
+deleted, or limited at the request of the contract holder.
+
+E
+
+V
+
+(a)
+
+Other than at the time of coverage renewal, a health
+
+maintenance contract that is delivered, issued for delivery,
+
+renewed, amended, or continued in this state and that provides
+
+medical, major medical, or similar comprehensive coverage may
+CODING: Words stricken are deletions; words underlined are additions.
+hb697-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+E
+
+not, while the subscriber is taking a prescription drug:
+1.
+
+Remove the prescription drug from its list of covered
+
+drugs during the policy year or contract year unless the United
+
+States Food and Drug Administration has issued a statement about
+
+the drug which calls into question the clinical safety of the
+
+drug; the manufacturer of the drug has notified the United
+
+States Food and Drug Administration of a manufacturing
+
+discontinuance or potential discontinuance of the drug as
+
+required by s. 506C of the Federal Food, Drug, and Cosmetic Act,
+
+U.S.C. s. 356c; or the drug has been approved and made
+
+available over the counter by the United States Food and Drug
+
+Administration and has entered the commercial market as such.
+
+V
+
+2.
+
+Reclassify the drug to a more restrictive drug tier or
+
+increase the amount that a subscriber must pay for a copayment,
+
+coinsurance, or deductible for prescription drug benefits, or
+
+reclassify the drug to a higher cost-sharing tier during the
+
+policy year or contract year.
+
+This paragraph applies to drugs for which a health maintenance
+
+organization negotiates a single acquisition price that will be
+
+in effect for the entire plan year.
+
+(b)
+
+This subsection does not:
+
+1.
+
+Prohibit the addition of prescription drugs to the list
+
+of drugs covered during the policy year or contract year.
+2.
+
+Apply to a grandfathered health plan as defined in s.
+
+CODING: Words stricken are deletions; words underlined are additions.
+hb697-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+627.402 or to benefits set forth in s. 627.6513(1)-(14).
+3.
+
+Alter or amend s. 465.025, which provides conditions
+
+under which a pharmacist may substitute a generically equivalent
+
+drug product for a brand name drug product.
+4.
+
+Alter or amend s. 465.0252, which provides conditions
+
+under which a pharmacist may dispense a substitute biological
+
+product for the prescribed biological product.
+
+5.
+
+chapter 409.
+
+Apply to a Medicaid managed care plan under part IV of
+
+Section 12.
+
+The Office of Insurance Regulation shall adopt
+
+rules to implement sections 4 and 5 of this act by January 1,
+
+2027.
+
+Section 13.
+
+The Legislature finds that this act fulfills
+
+an important state interest in:
+(1)
+
+Increasing medication adherence and reducing the
+
+likelihood that Floridians would choose to forgo, substitute, or
+
+ration prescribed medication and therapies due to high cost, by
+
+helping cost-burdened Floridians acquire prescribed medication
+
+and therapies at competitive, market-based prices.
+
+E
+
+V
+
+(2)
+
+Ensuring that Floridians do not have to spend more for
+
+the same quantity of a prescription drug than residents of other
+
+countries, by regulating, even-handedly and prospectively, in a
+
+historically regulated industry, both resident and nonresident
+
+drug manufacturers with regard to international price
+
+transparency and international reference-based upper-payment
+CODING: Words stricken are deletions; words underlined are additions.
+hb697-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+limits.
+
+(3)
+
+Ensuring that Floridians are not at a competitive
+
+disadvantage compared to residents of other countries, by
+
+countering monopolistic and anticompetitive market conditions
+
+using international reference-based upper-payment limits
+
+regardless of the incidental effect that may be experienced if
+
+other states adopt similar legislation.
+(4)
+
+Maximizing the number of Floridians with commercial
+
+health plan coverage who can access competitive, market-based
+
+prices without interfering with nationally uniform plan
+
+administration.
+
+(5)
+
+Regulating state-licensed activity and establishing a
+
+competitive market without depriving drug manufacturers of
+
+reasonable opportunities to profit from their investments, by
+
+normalizing both the drug prices paid by Floridians with those
+
+the manufacturers accept in other countries and the profit they
+
+benefit from in those countries.
+
+E
+
+V
+
+Section 14.
+
+This act shall take effect July 1, 2026.
+
+CODING: Words stricken are deletions; words underlined are additions.
+hb697-00
+
+S

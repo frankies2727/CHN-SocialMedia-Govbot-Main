@@ -1,0 +1,56 @@
+HOUSE BILL 1685
+By Hawk
+
+SENATE BILL 1579
+By Walley
+AN ACT to amend Tennessee Code Annotated, Title 50,
+Chapter 6, relative to workers' compensation.
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF THE STATE OF TENNESSEE:
+SECTION 1. Tennessee Code Annotated, Title 50, Chapter 6, Part 9, is amended by
+adding the following as a new section:
+(a) This section is known and may be cited as the "Zero Estimated Exposure
+Policy Act."
+(b) As used in this section, "zero estimated exposure policy" means a policy of
+insurance that a construction services provider obtains to cover the construction services
+provider's liability to pay compensation under this chapter after reporting the total
+estimated exposure is zero (0).
+(c)
+(1) If a construction services provider obtains a zero estimated exposure
+policy, the construction services provider must provide written notification to all
+entities it directly contracts with to provide or perform building construction or
+improvement services of the construction services provider's total estimated
+exposure of zero (0) and provide a copy of the policy.
+(2) When an entity receives the notification required by subdivision (c)(1),
+the entity must maintain the written notification and policy provided for three (3)
+years from the date the notification and policy were received.
+(3) A homeowner contracting for the construction of a single-family
+residence or improvements to the homeowner's primary residence is not required
+to retain the written notification required by subdivision (c)(1).
+
+SB1579
+010413
+
+(d) Each insurer shall require with or as part of each completed application for a
+zero estimated exposure policy a statement signed by the applicant attesting to the
+accuracy of the information on the application, including the applicant's absence of
+employees and estimated exposure of zero (0). The attestation must include the
+following statement:
+I attest that all information provided on this application is current, true, correct,
+accurate, and complete to the best of my knowledge and belief. I further attest
+that I have no employees and an estimated exposure of zero (0). If during the
+policy period I employ any employees or otherwise have an exposure greater
+than zero (0), I must provide within sixty (60) days of such change written
+notification to my workers' compensation insurer that includes estimated payroll
+and classification codes. I understand that omissions or misrepresentations with
+intent to defraud on this application are a crime under Tennessee Code
+Annotated, Section 56-47-103 and a violation of Tennessee Code Annotated,
+Section 56-47-104.
+SECTION 2. Tennessee Code Annotated, Section 50-6-421(b), is amended by adding
+the following as a new subdivision:
+(4) For construction services providers as defined in § 50-6-901, the construction
+services provider's total estimated exposure amount for a zero estimated exposure
+policy and the construction services provider's reported classification codes for a zero
+estimated exposure policy.
+SECTION 3. This act takes effect July 1, 2027, the public welfare requiring it.
+
+010413

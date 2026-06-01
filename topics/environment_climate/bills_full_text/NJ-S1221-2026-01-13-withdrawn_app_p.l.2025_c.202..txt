@@ -1,0 +1,563 @@
+SENATE, No. 1221
+
+STATE OF NEW JERSEY
+222nd LEGISLATURE
+PRE-FILED FOR INTRODUCTION IN THE 2026 SESSION
+
+Sponsored by:
+Senator LINDA R. GREENSTEIN
+District 14 (Mercer and Middlesex)
+Senator BOB SMITH
+District 17 (Middlesex and Somerset)
+Co-Sponsored by:
+Senators Diegnan, Singleton and Turner
+
+SYNOPSIS
+"Protecting Against Forever Chemicals Act"; establishes requirements,
+prohibitions, and programs for regulation of perfluoroalkyl and polyfluoroalkyl
+substances (PFAS).
+CURRENT VERSION OF TEXT
+Introduced Pending Technical Review by Legislative Counsel.
+
+AN ACT concerning perfluoroalkyl and polyfluoroalkyl substances,
+supplementing Title 13 of the Revised Statutes, and making an
+appropriation.
+BE IT ENACTED by the Senate and General Assembly of the State
+of New Jersey:
+1. This act shall be known and may be cited as the “Protecting
+Against Forever Chemicals Act.”
+2. The Legislature finds and declares: that perfluoroalkyl and
+polyfluoroalkyl substances, or PFAS, are man-made chemical
+compounds that have multiple fluorine atoms bonded to a chain of
+carbon atoms; that there are several thousand different types of
+PFAS, and new types are invented on a nearly daily basis; that since
+the 1930s, PFAS have been widely used in countless consumer
+products because they repel oil, water, and grease; and that PFAS
+continue to be used across a variety of industries for a variety of
+purposes and are ultimately contained in many of the products sold
+in the State.
+The Legislature further finds and declares: that the carbonfluorine bond used to make PFAS is one of the strongest chemical
+bonds and does not break down under typical environmental
+conditions; that PFAS are nicknamed “forever chemicals” because
+they accumulate in the environment, rather than break down, over
+time; that PFAS enters the environment through manufacturing
+processes and waste streams, and humans are exposed through
+contaminated food, dust, air, drinking water, and certain consumer
+products; that human exposure to these chemicals has been linked to
+endocrine disruption, cancer, immuno-toxicity, and developmental
+impacts; and that PFAS have been detected in the blood serum of 98
+percent of humans tested.
+The Legislature further finds and declares: that contamination of
+air, soil, and water in the State from PFAS poses a significant threat
+to the environment of the State and to the health of its citizens; that
+the full extent of PFAS contamination in the State is not presently
+known, but is anticipated to be widespread and to require a
+significant expenditure of resources to identify and remediate; and
+that, to address the imminent threat of further contamination of air,
+soil, and water in the State and protect the public health of citizens
+in the State, it is imperative to conduct PFAS-related research
+within the State and to phase out the sale of certain nonessential
+products containing PFAS.
+The Legislature therefore determines that it is in the best interest
+of the residents of New Jersey for PFAS to be prohibited from
+being intentionally added to certain products being manufactured
+and sold within the State, for manufacturers of cookware products
+containing PFAS to notify consumers about the presence of PFAS
+
+in their products, and for educational programming and research
+concerning PFAS to be available to residents in the State.
+3. As used in this act:
+“Carpet” means a rug or fabric marketed or intended for use as a
+floor covering.
+“Commissioner” means the Commissioner of Environmental
+Protection.
+“Cookware” means durable houseware items that are used to
+prepare, dispense, or store food, foodstuffs, or beverages, that are
+intended for direct food contact, and that are items to which heat is
+transferred or which come into direct contact with a heat source,
+including pots, pans, skillets, grills, baking sheets, baking molds,
+trays, bowls, and cooking utensils. “Cookware” does not include
+products that are intended for commercial use only.
+“Cosmetic” means (1) articles intended to be rubbed, poured,
+sprinkled, or sprayed on, introduced into, or otherwise applied to
+the human body or any part thereof for cleansing, beautifying,
+promoting attractiveness, or altering the appearance, and (2) articles
+intended for use as a component of any such articles; except that
+such term shall not include soap.
+“Department” means the Department of Environmental
+Protection.
+“Fabric treatment” means a substance applied to fabric to give
+the fabric one or more characteristics, including, but not limited to,
+stain resistance or water resistance.
+“Food packaging” means a nondurable package, packaging
+component, or food service ware that is intended to contain, serve,
+store, handle, protect, or market food, foodstuffs, or beverages, and
+is composed, in substantial part, of paper, paperboard, or other
+materials originally derived from plant fibers. “Food packaging”
+includes food or beverage containers, take-out food containers, unit
+product boxes, liners, wrappers, serving vessels, eating utensils,
+straws, food boxes, and disposable plates, bowls, or trays.
+“Intentionally added PFAS” means PFAS added to a product or
+intentionally used during the development of a product or one of its
+product components to provide a specific characteristic, appearance,
+or quality or to perform a specific function. “Intentionally added
+PFAS” also includes any degradation byproducts of PFAS.
+“Intentionally added PFAS” shall not include a technically
+unavoidable trace quantity of PFAS which stems from impurities of
+natural or synthetic ingredients or the manufacturing process,
+storage, or migration from packaging of the product or product
+component.”
+“Internal component” means an internal part of a product,
+whether permanently affixed or removable, that is designed and
+intended to not be touched by a person during the intended use or
+handling of the product. “Internal component” includes parts of a
+
+product used for holding batteries, regardless of whether the parts
+are touched when replacing batteries.
+“Manufacturer” means the person that manufactures a product or
+whose brand name is affixed to the product. In the case of a
+product imported into the United States, “manufacturer” includes
+the importer or first domestic distributor of the product if the person
+that manufactured or assembled the product or whose brand name is
+affixed to the product does not have a presence in the United States.
+“Perfluoroalkyl and polyfluoroalkyl substances” or “PFAS”
+means substances that include any member of the class of
+fluorinated organic chemicals containing at least one fully
+fluorinated carbon atom.
+“Product” means an item manufactured, assembled, packaged, or
+otherwise prepared for sale to consumers, including its product
+components, which is sold or distributed for personal, residential,
+commercial, or industrial use, including for use in making other
+products.
+“Product component” means an identifiable component of a
+product, regardless of whether the manufacturer of the product is
+the manufacturer of the component.
+“Product label” means a display of written, printed, or graphic
+material that appears on, or is affixed to, the exterior of a product,
+or its exterior container or wrapper that is visible to a consumer, if
+the product has an exterior container or wrapper.
+4. a. Beginning two years after the effective date of this act, no
+person shall sell, offer for sale, or distribute for sale in the State any
+cosmetic product that contains intentionally added PFAS.
+b. If a cosmetic product contains a technically unavoidable trace
+quantity of PFAS, which stems from impurities of natural or synthetic
+ingredients or the manufacturing process, storage, or migration from
+packaging of the cosmetic product, that trace quantity shall not cause
+the product to be in violation of this section.
+c. The provisions of this section shall not apply to a product that
+contains intentionally added PFAS only in electronic components or
+internal components of the product.
+5. a. Beginning two years after the effective date of this act, no
+person shall sell, offer for sale, or distribute for sale in the State a
+carpet or fabric treatment that contains intentionally added PFAS.
+This prohibition shall not apply to the sale or resale of a used carpet
+or fabric treatment.
+b. If a carpet or fabric treatment contains a technically
+unavoidable trace quantity of PFAS, which stems from impurities of
+natural or synthetic ingredients or the manufacturing process,
+storage, or migration from packaging of the product, that trace
+quantity shall not cause the product to be in violation of this
+section.
+
+6. a. Beginning two years after the effective date of this act, no
+person shall sell, offer for sale, or distribute for sale in the State any
+food packaging that contains intentionally added PFAS.
+b.
+If a food packaging product contains a technically
+unavoidable trace quantity of PFAS, which stems from impurities of
+natural or synthetic ingredients or the manufacturing process,
+storage, or migration from packaging of the product, that trace
+quantity shall not cause the product to be in violation of this
+section.
+7. a. Beginning two years after the effective date of this act, a
+manufacturer of cookware sold in the State that contains 2an2
+intentionally added PFAS in the handle of the product or in any
+product surface that comes into contact with food, foodstuffs, or
+beverages shall list the presence of the intentionally added PFAS on
+the product label.
+b. The product label of a cookware product containing PFAS
+shall include a statement, in both English and Spanish, that reads:
+“This product contains PFAS.”
+c. A manufacturer of cookware sold in the State shall ensure that
+the statement required on the product label pursuant to subsection b.
+of this section is visible and legible to the consumer, including on
+the product listing for online sales.
+d. Beginning two years after the effective date of this act, a
+manufacturer shall not make a claim, on the product label or
+Internet website for the cookware product, that the cookware is free
+of PFAS if PFAS was intentionally added to the cookware.
+e. Cookware that meets both of the following requirements shall
+be exempt from the labeling requirements of this section:
+(1) the surface area of the cookware cannot fit a product label of
+at least two square inches; and
+(2) the cookware does not have either of the following:
+(a) an exterior container or wrapper on which a product label can
+appear or be affixed; or
+(b) a tag or other attachment with information about the product
+attached to the cookware.
+f. The provisions of this section shall not apply to a product that
+contains intentionally added PFAS only in electronic components or
+internal components of the product.
+g. Notwithstanding the provisions of this section to the contrary,
+any cookware product with a product label that lists the presence of
+PFAS or a PFAS chemical pursuant to another state or federal law
+shall be deemed in compliance with the requirements of this
+section.
+8. a. Beginning two years after the effective date of this act, no
+person shall sell, offer for sale, or distribute for sale within the State
+cookware that contains PFAS unless the cookware and the
+
+manufacturer of the cookware have complied with the labeling
+requirements established pursuant to section 7 of this act.
+b. If a cookware product contains a technically unavoidable
+trace quantity of PFAS, which stems from impurities of natural or
+synthetic ingredients or the manufacturing process, storage, or
+migration from packaging of the product, that trace quantity shall
+not cause the product to be in violation of this section.
+9. a. As used in this section, “consumer product” means an item
+manufactured, assembled, packaged, or otherwise prepared for sale
+to consumers, including its product components, which is sold or
+distributed for personal, residential, or commercial use. “Consumer
+product” shall not include the following: (1) drugs, dietary
+supplements, medical devices, or cosmetics as those terms are
+defined in the Federal Food, Drug, and Cosmetic Act (21 U.S.C.
+s.301 et seq.); (2) products regulated under the “Federal Insecticide,
+Fungicide, and Rodenticide Act” (7 U.S.C. s.136 et seq.); (3)
+medical food, as that term is defined in 21 U.S.C. s.360ee(b)(3); (4)
+drugs, biological products, parasiticides, medical devices, or in
+vitro diagnostics that are used to treat, or that are administered to,
+animals, and are regulated by the United States Food and Drug
+Administration pursuant to the Federal Food, Drug, and Cosmetic
+Act (21 U.S.C. s.301 et seq.), or by the United States Department of
+Agriculture pursuant to 21 U.S.C. ss.151-159, known as the VirusSerum-Toxin Act; (5) medical equipment and products, and the
+packaging or packaging components thereof, which are used in
+healthcare settings, including hospitals and clinics that are regulated
+by the United States Food and Drug Administration, or which are
+used for the dispensing of medication; (6) medical equipment or
+products, and the packaging or packaging components thereof,
+which are intended for “Research Use Only,” as defined in the
+Federal Food, Drug, and Cosmetic Act (21 U.S.C. s.301 et seq.);
+and (7) products made with or containing fluoropolymers,
+consisting of polymeric substances for which the backbone of the
+polymer is either a perfluorinated or polyfluorinated carbon-only
+backbone or perfluorinated polyether backbone that is a solid at
+standard temperature and pressure.
+b.
+In determining which additional consumer products
+containing PFAS the department shall recommend, pursuant to
+subsection c. of this section, to be prohibited for sale or distribution
+within the State, the department shall prioritize consumer product
+categories or uses that, in the department’s judgment, pose the
+greatest risk to public health or are most likely to cause
+contamination of the State’s air, land, or water resources if they
+contain intentionally added PFAS.
+c. The department shall recommend to the Legislature consumer
+products, in addition to those prohibited from being sold, offered
+for sale, or distributed pursuant to this act, by category or use, that
+
+should not be sold, offered for sale, or distributed for sale in this
+State if they contain intentionally added PFAS. Notwithstanding
+the provisions of paragraph (7) of subsection a. of this section to the
+contrary, the department may make a recommendation concerning a
+product that contains a fluoropolymer, if the recommendation is
+based on the presence of an intentionally added PFAS that is not a
+fluoropolymer.
+10. The department may audit or investigate a manufacturer of a
+product covered under the provisions of this act to assess the
+manufacturer’s compliance with the requirements of this act. Each
+year, the department may audit, or cause to be audited, a random
+sample of manufacturers of products covered under the provisions of
+this act in order to determine compliance with this act.
+A
+manufacturer shall cooperate fully with any audit or investigation
+conducted pursuant to this section. The department may require a
+manufacturer to pay the costs of an audit conducted pursuant to this
+section.
+11. a. Whenever the Commissioner of Environmental Protection
+finds that a person has violated any provision of this act, or any rule
+or regulation adopted pursuant thereto, including violating the
+provisions of subsection d. of section 7 of this act by making a false
+claim on the product label or Internet website for a cookware
+product, the commissioner may:
+(1) issue an order requiring the person found to be in violation
+to comply in accordance with subsection b. of this section;
+(2) bring a civil action in accordance with subsection c. of this
+section;
+(3) levy a civil administrative penalty in accordance with
+subsection d. of this section;
+(4) bring an action for a civil penalty in accordance with
+subsection e. of this section;
+(5) direct a manufacturer or other person that is not in
+compliance with the requirements of this act to stop offering for
+sale or distributing certain products that contain intentionally-added
+PFAS; or
+(6) notify the public of a manufacturer that is not in compliance
+with the requirements of this act.
+The exercise of any of the remedies provided in this section shall
+not preclude the seeking of any other remedy specified.
+b. Whenever the commissioner finds that a person has violated
+this act, or any rule or regulation adopted pursuant thereto, the
+commissioner may issue an administrative enforcement order
+specifying the provision or provisions of this act, or the rule or
+regulation adopted pursuant thereto, of which the person is in
+violation, citing the action that constituted the violation, requiring
+compliance with the provision violated, and giving notice to the
+
+person of the person's right to a hearing on the matters contained in
+the administrative enforcement order. The ordered person shall
+have 20 calendar days from receipt of the order within which to
+deliver to the commissioner a written request for a hearing. After
+the hearing and upon finding that a violation has occurred, the
+commissioner may issue a final order. If no hearing is requested,
+the order shall become final after the expiration of the 20-day
+period. A request for hearing shall not automatically stay the effect
+of the order.
+c. The commissioner is authorized to institute a civil action in
+Superior Court for appropriate relief from any violation of the
+provisions of this act, or any rule or regulation adopted pursuant
+thereto. This relief may include an assessment against the violator
+for the costs of any investigation, inspection, or audit that led to the
+discovery and establishment of the violation, and for the reasonable
+costs of preparing and litigating the case under this subsection.
+d.
+The commissioner is authorized to impose a civil
+administrative penalty of not less than $1,000 nor more than
+$20,000 for each violation, provided that each day during which the
+violation continues shall constitute an additional, separate and
+distinct offense. In assessing a civil administrative penalty, the
+commissioner shall consider the severity of the violation, the
+measures taken to prevent further violations, and whether the
+penalty will maintain an appropriate deterrent. Prior to assessment
+of a civil administrative penalty, the person committing the
+violation shall be notified by certified mail or personal service that
+the penalty is being assessed. The notice shall identify the section
+of the statute, rule, regulation, or order violated; recite the facts
+alleged to constitute a violation; state the basis for the amount of
+the civil administrative penalties to be assessed; and affirm the
+rights of the alleged violator to a hearing. The ordered party shall
+have 35 days from receipt of the notice within which to deliver to
+the commissioner a written request for a hearing. After the hearing
+and upon finding that a violation has occurred, the commissioner
+may issue a final order after assessing the amount of the fine
+specified in the notice. If no hearing is requested, the notice shall
+become a final order after the expiration of the 35-day period.
+Payment of the assessment is due when a final order is issued or the
+notice becomes a final order.
+The authority to levy an
+administrative order is in addition to all other enforcement
+provisions in this act, and the payment of any assessment shall not
+be deemed to affect the availability of any other enforcement
+provisions in connection with the violation for which the
+assessment is levied. The department may compromise any civil
+administrative penalty assessed under this section in an amount and
+with conditions the department determines appropriate.
+e. A person who violates any provision of this act, or any rule or
+regulation adopted pursuant thereto, or an administrative order
+
+issued pursuant to subsection b. of this section, or a court order
+issued pursuant to subsection c. of this section, or who fails to pay a
+civil administrative penalty in full pursuant to subsection d. of this
+section, or who knowingly makes any false or misleading statement
+on any application, record, report, or other document required to be
+submitted to the department, shall be subject, upon order of a court,
+to a civil penalty not to exceed $25,000 per day of the violation, and
+each day during which the violation continues shall constitute an
+additional, separate, and distinct offense. Any civil penalty
+imposed pursuant to this subsection may be collected with costs in a
+summary proceeding pursuant to the "Penalty Enforcement Law of
+1999," P.L.1999, c.274 (C.2A:58-10 et seq.), or may be collected in
+a civil action commenced by the commissioner. In addition to any
+penalties, costs or interest charges, the Superior Court, or the
+municipal court as the case may be, may assess against the violator
+the amount of economic benefit accruing to the violator from the
+violation.
+12. a. No later than one year after the effective date of this act,
+the department shall establish and implement a source reduction
+program to reduce the presence of PFAS in the State’s air, water,
+and soil by encouraging the proper management of materials that
+contain PFAS and the use of safer alternatives. The program shall
+include, at a minimum:
+(1) informational resources targeted to industrial and commercial
+users of PFAS;
+(2) education of the general public concerning PFAS and its
+environmental and health impacts;
+(3) to the extent funds are available, grants to operators of
+publicly owned treatment works for the purposes of developing,
+expanding, or implementing pretreatment standards for PFAS and
+education of users on sources of PFAS and proper management;
+(4) to the extent funds are available, grants to municipalities for
+the purposes of educating solid waste disposal users on sources of
+PFAS and its proper management; and
+(5) any other information and efforts that are determined by the
+department to be beneficial in reducing the presence and impact of
+PFAS in the State.
+b. No later than two years after the effective date of this act, and
+annually thereafter until 10 years after the effective date of this act,
+the department shall submit a report to the Governor and the
+Legislature, pursuant to section 2 of P.L.1991, c.164 (C.52:1419.1), on the effectiveness of the program in reducing PFAS
+discharges to air, water, and soil within the State, and educating
+industrial and commercial users of PFAS and residents of the State
+on PFAS and its proper management.
+
+13. a. The department shall conduct PFAS-related research and
+comprehensive monitoring and testing of the presence and impact of
+PFAS on the environmental media within the State, including air,
+ground and surface water, biota, sediment, and soil. The purpose of
+the department’s research shall be to gain knowledge surrounding the
+subject of PFAS, provide insight into the proper management and
+mitigation of PFAS within the State, and to protect the environment
+from the adverse impacts of PFAS.
+b. The department’s research shall include, at a minimum:
+(1) the collection of soil samples from throughout the State for
+monitoring and testing for PFAS;
+(2) the collection of water samples from throughout the State for
+monitoring and testing for PFAS;
+(3) the collection of air samples from throughout the State for
+monitoring and testing for PFAS;
+(4) the collection of biosolids from throughout the State for
+monitoring and testing for PFAS;
+(5) the collection of fish, plant, and animal samples from
+throughout the State for monitoring and testing for PFAS;
+(6) the comparison of PFAS samples gathered across the State in
+an effort to measure levels of PFAS contamination and also determine
+if there are any hotspots of PFAS contamination in the State;
+(7) research concerning the impact of PFAS on the State’s air,
+water, and soil quality and ways to mitigate the negative impacts of
+PFAS;
+(8) data collection of research findings and mitigation efforts
+concerning PFAS in other States and countries; and
+(9) any other data collection and research that the department
+deems necessary to improve the current foundation of knowledge on
+the subject of PFAS.
+c. No later than two years after the effective date of this act, and
+annually thereafter, the department shall provide a report to the
+Governor and the Legislature, pursuant to section 2 of P.L.1991, c.164
+(C.52:14-19.1), summarizing their research findings and activities and
+providing recommendations for programs, policies, and legislation to
+address the presence of PFAS in the State.
+14. a. There is appropriated from the General Fund to the
+department the sum of $5 million to implement the provisions of this
+act. The department shall utilize $2.5 million for the purposes of
+carrying out the source reduction program pursuant to section 12 of
+this act and $2.5 million for the purposes of conducting PFAS-related
+research, monitoring, and testing pursuant to section 13 of this act.
+b. Each year after the date of enactment of this act, the department
+shall submit as a part of its annual budget, a request for sufficient
+funds to conduct the air, water, and soil testing and PFAS-related
+research required pursuant section 13 of this act.
+
+15. a. Any proprietary information or trade secrets included in
+any written notification, certification, or any other record submitted
+to the department pursuant to this act shall not be made available to
+the general public pursuant to P.L.1963, c.73 (C.47:1A-1 et seq.),
+commonly known as the open public records act.
+b. In order to identify the proprietary information or trade
+secrets to be protected from public disclosure pursuant to
+subsection a. of this section, a manufacturer shall file a trade secret
+claim to the department, in a form and manner determined by the
+department. No later than 90 days after receipt of a trade secret
+claim, the department shall make a determination on the validity of
+the trade secret claim. Upon making a determination on the validity
+of a trade secret claim, the department shall inform the
+manufacturer of the determination by certified mail. If the
+department determines that the manufacturer's trade secret claim is
+not valid, the manufacturer shall have 45 days from the receipt of
+the department's determination to file with the department a written
+request for an administrative hearing on the determination. If the
+manufacturer does not file such a request within 45 days, the
+department may take action to disclose the information for which
+the trade secret claim was made, pursuant to the provisions of this
+act. If an manufacturer requests an administrative hearing pursuant
+to the provisions of this subsection, the department shall refer the
+matter to the Office of Administrative Law, for a hearing thereon.
+At the hearing the manufacturer shall have the burden to show that
+the trade secret claim is valid. Within 45 days of receipt of the
+administrative law judge's recommendation, the department shall
+affirm, reject, or modify the recommendation. The department's
+action shall be considered the final agency action for the purposes
+of the "Administrative Procedure Act," P.L.1968, c. 410 (C.
+52:14B-1 et seq.), and shall be subject only to judicial review as
+provided in the Rules of Court. The department shall inform the
+manufacturer of its decision on the administrative law judge's
+recommendation by certified mail.
+c. The subject of any trade secret claim pending or approved
+shall be treated as confidential information. The department shall
+not disclose any confidential information to any person except an
+officer or employee of the State in connection with the official
+duties of the officer or employee under any law for the protection of
+public health or the environment. Any officer or employee of the
+State who has access to any confidential information, and who
+willingly and knowingly discloses the confidential information to
+any person not authorized to receive it, shall be guilty of a crime of
+the third degree.
+d. Any written notification containing information for which a
+trade secret claim is pending or has been approved may be made
+available to the public with that information concealed.
+
+16. The department may, pursuant to the “Administrative
+Procedure Act,” P.L.1968, c.410 (C.52:14B-1 et seq.), adopt rules
+or regulations necessary to implement the provisions of this act.
+17. This act shall take effect immediately.
+
+STATEMENT
+This bill would prohibit the sale of certain products containing
+intentionally added perfluoroalkyl and polyfluoroalkyl substances
+(PFAS), require greater transparency in the labeling of cookware
+products containing PFAS, establish a source reduction program
+concerning the proper management of PFAS, and appropriate
+money for PFAS-related research. As defined in the bill, “PFAS”
+means substances that include any member of the class of
+fluorinated organic chemicals containing at least one fully
+fluorinated carbon atom.
+Specifically, the bill would prohibit, beginning two years after
+the bill’s effective date, the sale, offer for sale, or distribution of
+cosmetics, carpets, fabric treatment, and food packaging that
+contain intentionally added PFAS. In addition, the bill would
+require, beginning two years after the bill’s effective date,
+manufacturers of certain cookware sold in the State that contains
+intentionally added PFAS in the handle of the product or in any
+product surface that comes into contact with food, foodstuffs, or
+beverages to list the presence of PFAS on the product label.
+Beginning two years after the bill’s effective date, the sale, offer for
+sale, and distribution of cookware that contains PFAS would be
+prohibited unless the cookware product and the manufacturer of the
+cookware has complied with the bill’s cookware labeling
+requirements. Under the bill, any cookware product with a product
+label that lists the presence of PFAS pursuant to another state or
+federal law would be deemed in compliance with the bill’s labeling
+requirements.
+The bill would also require the DEP to recommend to the
+Legislature consumer products, in addition to those prohibited from
+being sold, offered for sale, or distributed pursuant to the bill, by
+category or use that should not be sold, offered for sale, or
+distributed for sale in this State if they contain intentionally added
+PFAS. Under the bill, the DEP would have the authority to audit or
+investigate a manufacturer of a product covered under the bill to
+assess the 2 manufacturer's compliance with the bill’s provisions.
+The bill would provide that any proprietary information or trade
+secrets included in any written notification, certification, or any
+other record submitted to the DEP pursuant to the bill would be
+required to be kept confidential from the general public pursuant to
+
+P.L.1963, c.73 (C.47:1A-1 et seq.), commonly known as the open
+public records act.
+The bill would require the DEP to establish, no later than one
+year after the bill’s effective date, a source reduction program to
+reduce the presence of PFAS in the State’s air, water, and soil by
+encouraging the proper management of materials that contain PFAS
+and the use of safer alternatives. The program would be required to
+include certain items enumerated in subsection a. of section 12 of
+the bill. The bill would also require the DEP to conduct PFASrelated research and comprehensive monitoring and testing of the
+presence and impact of PFAS on the environmental media within
+the State, including air, water, biota, sediment, and soil. The DEP’s
+research would be required to include certain items enumerated in
+subsection b. of section 13 of the bill. No later than two years after
+the bill’s effective date, and annually thereafter, the DEP would be
+required to submit a report to the Governor and the Legislature
+summarizing their research findings and activities and providing
+recommendations for programs, policies, and legislation to address
+the presence of PFAS in the State.
+Finally, the bill would appropriate $5 million to the DEP for the
+purposes of implementing the source reduction program, conducting
+PFAS-related research, and monitoring and testing environmental
+media, such as air, water, and soil, for PFAS pursuant to the bill.

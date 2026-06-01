@@ -47,6 +47,13 @@ jobs:
           python-version: "3.12"
           cache: "pip"
 
+      - name: Install poppler-utils (pdftotext)
+        # pdftotext extracts the full bill text from each bill's PDF so
+        # summaries are grounded in the real legislation. It's a system
+        # binary, not a pip package; scripts/bill_text.py degrades gracefully
+        # to abstract-only if it's missing.
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+
       - name: Install Python deps
         run: pip install -r requirements.txt
 
@@ -163,7 +170,7 @@ jobs:
         run: |
           git config user.name  "govbot-bluesky[bot]"
           git config user.email "govbot-bluesky[bot]@users.noreply.github.com"
-          git add topics/*/bills_used.json topics/*/bills_raw || true
+          git add topics/*/bills_used.json topics/*/bills_raw topics/*/bills_full_text || true
           if git diff --cached --quiet; then
             echo "No state changes to commit."
           else

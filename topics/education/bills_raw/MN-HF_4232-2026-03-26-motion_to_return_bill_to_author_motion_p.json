@@ -1,0 +1,22 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HF 4232",
+    "legislative_session": "2025-2026",
+    "title": "Postsecondary institutions required to notify a pupil's school of the pupil's grades, and number of college credits granted each school year for postsecondary course enrollment limited."
+  },
+  "id": "HF 4232",
+  "log": {
+    "action": {
+      "date": "2026-03-26",
+      "description": "Motion to return bill to author, motion prevailed",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HF 4232"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF4232/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF4232/logs/20260326T000000Z_motion_to_return_bill_to_author_motion_prevailed.json"
+  },
+  "timestamp": "20260326T000000Z"
+}

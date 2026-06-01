@@ -35,6 +35,7 @@ from post_to_bluesky import (
     format_no_match_error,
     link_for,
     load_bills,
+    save_full_text,
     shorten_title,
     summarize,
 )
@@ -354,6 +355,7 @@ def _post_forced_bill(records: list[dict], client: tweepy.Client | None) -> int:
     if SAVE_RAW:
         try:
             save_raw_record(b)
+            save_full_text(b, out_dir=TOPIC.x_bills_full_text_dir())
         except OSError as e:
             print(f"  ! raw-record save failed: {e}", file=sys.stderr)
     else:
@@ -562,6 +564,7 @@ def main() -> int:
             if SAVE_RAW:
                 try:
                     save_raw_record(b)
+                    save_full_text(b, out_dir=TOPIC.x_bills_full_text_dir())
                 except Exception as e:
                     print(f"  ! raw-record save failed: {e}", file=sys.stderr)
 

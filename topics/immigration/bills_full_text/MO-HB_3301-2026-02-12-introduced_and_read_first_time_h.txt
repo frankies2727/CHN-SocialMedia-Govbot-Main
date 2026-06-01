@@ -1,0 +1,298 @@
+SECOND REGULAR SESSION
+
+HOUSE BILL NO. 3301
+103RD GENERAL ASSEMBLY
+INTRODUCED BY REPRESENTATIVE DOLL.
+7050H.01I
+
+JOSEPH ENGLER, Chief Clerk
+
+AN ACT
+To amend chapter 650, RSMo, by adding thereto five new sections relating to immigration
+enforcement.
+
+Be it enacted by the General Assembly of the state of Missouri, as follows:
+
+Section A. Chapter 650, RSMo, is amended by adding thereto five new sections, to be
+known as sections 650.3000, 650.3004, 650.3006, 650.3008, and 650.3010, to read as
+follows:
+650.3000. 1. The provisions of sections 650.3000 to 650.3010 shall be known and
+may be cited as the "Missouri Values Act".
+2. For purposes of sections 650.3000 to 650.3010, the following terms mean:
+(1) "Civil immigration warrant", any warrant for a violation of federal civil
+immigration law including civil immigration warrants entered in the National Crime
+Information Center database;
+(2) "Dangerous felony", as such term is defined under section 556.061 including
+any offense committed in another state that, if committed in Missouri, would be
+punishable as a dangerous felony under such definition;
+(3) "Department", the department of public safety;
+(4) "Director", the director of the department of public safety;
+(5) "Eligible for release from custody", may be established when one of the
+following conditions has occurred:
+(a) All criminal charges against the individual have been dropped or dismissed;
+(b) The person has been acquitted of all criminal charges filed against him or
+her;
+EXPLANATION — Matter enclosed in bold-faced brackets [thus] in the above bill is not enacted and is
+intended to be omitted from the law. Matter in bold-face type in the above bill is proposed language.
+
+(c) The person has served all the time required for his or her sentence;
+(d) The person has posted a bond; and
+(e) The person is otherwise eligible for release under state or local law, or local
+
+policy;
+(6) "Health care facility", as such term is defined in section 197.366;
+(7) "Hold request", "notification request", and "transfer request", include
+requests issued by the United States Immigration and Customs Enforcement or the
+United States Customs and Border Protection as well as any other immigration
+authorities;
+(8) "Immigration authority", any federal, state, or local officer, employee, or
+person performing immigration enforcement duties;
+(9) "Immigration enforcement", any and all efforts to investigate, enforce, or
+assist in the investigation or enforcement of any federal civil immigration law, and also
+includes any and all efforts to investigate, enforce, or assist in the investigation or
+enforcement of any federal criminal immigration law that penalizes a person's presence
+in, entry, or reentry to, or employment in, the United States;
+(10) "Joint law enforcement task force", at least one Missouri law enforcement
+agency collaborating, engaging, or partnering with at least one federal law enforcement
+agency in investigating federal or state crimes;
+(11) "Judicial probable cause determination", a determination made by a
+federal judge or federal magistrate that probable cause exists that a person has violated
+federal criminal immigration law and that authorizes a law enforcement officer to arrest
+and take into custody the person;
+(12) "Judicial warrant", a warrant based on probable cause for a violation of
+federal criminal immigration law and issued by a federal judge or federal magistrate
+judge that authorizes a law enforcement officer to arrest and take into custody the
+person who is the subject of the warrant;
+(13) "Law enforcement official", any local agency or officer of a local agency
+authorized to enforce criminal statutes, regulations, or local ordinances or to operate
+jails or to maintain custody of persons in jails, and any person or local agency
+authorized to operate juvenile detention facilities or to maintain custody of persons in
+juvenile detention facilities;
+(14) "Local agency", any city, county, city and county, special district, or other
+political subdivision of the state;
+(15) "Missouri law enforcement agency", a state or local law enforcement
+agency, including school police or security departments. Such term shall not include the
+department of corrections;
+
+(16) "Public schools", public elementary and secondary schools and public
+institutions of higher education in the state;
+(17) "School police and security departments", includes police and security
+departments of public institutions of higher education in the state, charter schools,
+county offices of education, schools, and school districts.
+650.3004. 1. Missouri law enforcement agencies shall not:
+(1) Use agency or department moneys or personnel to investigate, interrogate,
+detain, detect, or arrest persons for immigration purpose including, but not limited to,
+any of the following:
+(a) Inquiring into a person's immigration status;
+(b) Detaining a person on the basis of a hold request;
+(c) Providing information regarding a person's release date or responding to
+requests for notification by providing release dates or other information unless that
+information is available to the public or is in response to a notification request from
+immigration authorities in accordance with section 650.3010. Responses are never
+required, but are permitted under this paragraph, provided that they do not violate any
+local law or policy;
+(d) Providing personal information about a person including, but not limited to,
+the person's home address or work address unless that information is available to the
+public;
+(e) Making or intentionally participating in arrests based on civil immigration
+warrants;
+(f) Assisting immigration authorities in the activities described in Section 1357
+(a)(3) of Title 8 of the United States Code; or
+(g) Performing the functions of an immigration officer, whether under Section
+1357(g) of Title 8 of the United States Code or any other law, regulation, or policy,
+whether formal or informal;
+(2) Place peace officers under the supervision of federal agencies or employ
+peace officers deputized as special federal officers or special federal deputies for
+purposes of immigration enforcement. All peace officers remain subject to Missouri law
+governing conduct of peace officers and the policies of the employing agency;
+(3) Use immigration authorities as interpreters for law enforcement matters
+relating to persons in agency or department custody;
+(4) Transfer a person to immigration authorities unless authorized by a judicial
+warrant or judicial probable cause determination, or in accordance with section
+650.3010;
+
+(5) Provide office space exclusively dedicated for immigration authorities for use
+within a city or county law enforcement facility; or
+(6) Contract with the federal government for use of Missouri law enforcement
+agency facilities to house persons as federal detainees.
+2. Notwithstanding the provisions of subsection 1 of this section, this section does
+not prevent any Missouri law enforcement agency from doing any of the following that
+does not violate any policy of the law enforcement agency or any local law or policy of
+the jurisdiction in which the agency is operating:
+(1) Investigating, enforcing, or detaining upon reasonable suspicion of, or
+arresting for a violation of, Section 1326(a) of Title 8 of the United States Code that may
+be subject to the enhancement specified in Section 1326(b)(2) of Title 8 of the United
+States Code and that is detected during an unrelated law enforcement activity.
+Transfers to immigration authorities are permitted under this section only in
+accordance with subdivision (4) of subsection 1 of this section;
+(2) Responding to a request from immigration authorities for information about
+a specific person's criminal history including, but not limited to, previous criminal
+arrests, convictions, or similar criminal history information accessed through the
+Missouri uniform law enforcement system (MULES), where otherwise permitted by
+state law; or
+(3) Conducting enforcement or investigative duties associated with a joint law
+enforcement task force including, but not limited to, the sharing of confidential
+information with other law enforcement agencies for purposes of task force
+investigations, so long as the following conditions are met:
+(a) The primary purpose of the joint law enforcement task force is not
+immigration enforcement, as defined in section 650.3000;
+(b) The enforcement or investigative duties are primarily related to a violation of
+state or federal law unrelated to immigration enforcement;
+(c) Participation in the task force by a Missouri law enforcement agency does not
+violate any local law or policy to which it is otherwise subject;
+(d) Making inquiries into information necessary to certify a person who has been
+identified as a potential crime or trafficking victim for a T or U Visa under Section 1101
+(a)(15)(T) or 1101(a)(15)(U) of Title 8 of the United States Code or to comply with
+Section 922(d)(5) of Title 18 of the United States Code; and
+(e) Giving immigration authorities access to interview a person in agency or
+department custody.
+3. (1) If a Missouri law enforcement agency chooses to participate in a joint law
+enforcement task force, for which a Missouri law enforcement agency has agreed to
+
+dedicate personnel or resources on an ongoing basis, it shall submit a report annually to
+the department of public safety, as specified by the director of the department of public
+safety. The law enforcement agency shall report the following information, if known,
+for each task force of which it is a member:
+(a) The purpose of the task force;
+(b) The federal, state, and local law enforcement agencies involved;
+(c) The total number of arrests made during the reporting period; and
+(d) The number of people arrested for immigration enforcement purposes.
+(2) All law enforcement agencies shall report annually to the department of
+public safety, in a manner specified by the director of the department of public safety,
+the number of transfers under subdivision (4) of subsection 1 of this section, and the
+offense that allowed for the transfer.
+(3) All records described in this subsection shall be public records for purposes
+of chapter 610 and personal identifying information may be redacted prior to public
+disclosure. To the extent that disclosure of a particular item of information would
+endanger the safety of a person involved in an investigation, or would endanger the
+successful completion of the investigation or a related investigation, that information
+shall not be disclosed.
+(4) If more than one Missouri law enforcement agency is participating in a joint
+task force that meets the reporting requirement under this section, the joint task force
+shall designate a local or state agency responsible for completing the reporting
+requirement.
+4. The director, by March 1, 2028, and annually thereafter, shall report on the
+total number of arrests made by joint law enforcement task forces, and the total number
+of arrests made for the purpose of immigration enforcement by all task force
+participants, including federal law enforcement agencies. To the extent that disclosure
+of a particular item of information would endanger the safety of a person involved in an
+investigation, or would endanger the successful completion of the investigation or a
+related investigation, that information shall not be included in the director's report. The
+director shall post the reports required by this subsection on the department's website.
+5. This section does not prohibit or restrict any government entity or official
+from sending to, or receiving from, federal immigration authorities, information
+regarding the citizenship or immigration status, lawful or unlawful, of a person, or from
+requesting from federal immigration authorities immigration status information, lawful
+or unlawful, of any person, or maintaining or exchanging that information with any
+other federal, state, or local government entity, under Sections 1373 and 1644 of Title 8
+of the United States Code.
+
+6. Nothing in this section shall prohibit a Missouri law enforcement agency from
+asserting its own jurisdiction over criminal law enforcement matters.
+650.3006. 1. The director of the department of public safety, by October 1, 2027,
+in consultation with the appropriate stakeholders, shall publish model policies limiting
+assistance with immigration enforcement to the fullest extent practicable consistent with
+federal and state law at public schools, public libraries, health facilities operated by the
+state or a political subdivision of the state, courthouses, division of labor standards
+enforcement facilities, the division of workers compensation, and shelters, and ensuring
+that they remain safe and accessible to all Missouri residents, regardless of immigration
+status. All public schools, health facilities operated by the state or a political subdivision
+of the state, and courthouses shall implement the model policy or an equivalent policy.
+The division of workers compensation, the division of labor standards enforcement,
+shelters, libraries, and all other organizations and entities that provide services related
+to physical or mental health and wellness, education, or access to justice, including the
+University of Missouri, are encouraged to adopt the model policy.
+2. For any databases operated by state and local law enforcement agencies,
+including databases maintained for the agency by private vendors, the director shall, by
+October 1, 2027, in consultation with appropriate stakeholders, publish guidance, audit
+criteria, and training recommendations aimed at ensuring that those databases are
+governed in a manner that limits the availability of information therein to the fullest
+extent practicable and consistent with federal and state law, to anyone or any entity for
+the purpose of immigration enforcement. All state and local law enforcement agencies
+are encouraged to adopt necessary changes to database governance policies consistent
+with that guidance.
+3. The director may promulgate all necessary rules and regulations for the
+administration of this section. Any rule or portion of a rule, as that term is defined in
+section 536.010, that is created under the authority delegated in this section shall
+become effective only if it complies with and is subject to all of the provisions of chapter
+536 and, if applicable, section 536.028. This section and chapter 536 are nonseverable
+and if any of the powers vested with the general assembly pursuant to chapter 536 to
+review, to delay the effective date, or to disapprove and annul a rule are subsequently
+held unconstitutional, then the grant of rulemaking authority and any rule proposed or
+adopted after August 28, 2026, shall be invalid and void.
+650.3008. 1. The department of corrections shall:
+(1) In advance of any interview between the United States Immigration and
+Customs Enforcement (ICE) and a person in department custody regarding civil
+immigration violations, provide the person with a written consent form that explains the
+
+purpose of the interview, that the interview is voluntary, and that he or she may decline
+to be interviewed or may choose to be interviewed only with his or her attorney present.
+The written consent form shall be available in English and Spanish; and
+(2) Upon receiving any ICE hold, notification, or transfer request, provide a
+copy of the request to the person and inform him or her whether the department intends
+to comply with the request.
+2. The department of corrections shall not:
+(1) Restrict access to any in-prison educational or rehabilitative programming,
+or credit-earning opportunity on the sole basis of citizenship or immigration status
+including, but not limited to, whether the person is in removal proceedings, or whether
+immigration authorities have issued a hold request, transfer request, notification
+request, or civil immigration warrant against the person; or
+(2) Consider citizenship and immigration status as a factor in determining a
+person’s custodial classification level including, but not limited to, whether the person is
+in removal proceedings, or whether immigration authorities have issued a hold request,
+transfer request, notification request, or civil immigration warrant against the person.
+650.3010. A law enforcement official shall have discretion to cooperate with
+immigration authorities only if doing so would not violate any federal, state, or local law,
+or local policy, and where permitted under sections 650.3000 to 650.3010. The activities
+described under paragraph (c) of subdivision (1) of subsection 1 and subdivision (4) of
+subsection 1 of section 650.3004 shall occur only under the following circumstances:
+(1) The person has been convicted of a serious or dangerous felony, as such
+terms are defined under section 650.3000;
+(2) The person has been convicted of a felony punishable by imprisonment in the
+department of corrections;
+(3) The person has been convicted within the past five years of a misdemeanor
+for a crime that is punishable as either a misdemeanor or a felony for, or has been
+convicted within the last fifteen years of a felony for, any of the following offenses:
+(a) Assault;
+(b) Battery;
+(c) Harassment;
+(d) Sexual abuse, sexual exploitation, or crimes endangering children;
+(e) Child abuse or endangerment;
+(f) Burglary, robbery, theft, fraud, forgery, or embezzlement;
+(g) Driving under the influence of alcohol or drugs, but only for a conviction that
+is a felony;
+(h) Obstruction of justice;
+
+(i) Bribery;
+(j) Escape from custody;
+(k) Unlawful possession or use of a weapon, firearm, explosive device, or weapon
+of mass destruction;
+(l) An offense involving the felony possession, sale, distribution, manufacture, or
+trafficking of controlled substances;
+(m) Institutional vandalism;
+(n) Gang-related offenses;
+(o) An attempt or a conspiracy to commit an offense specified in this subdivision;
+(p) A crime resulting in death, or serious physical injury;
+(q) Possession or use of a firearm in the commission of an offense;
+(r) An offense that would require the individual to register as a sex offender
+under sections 589.400 to 589.425;
+(s) False imprisonment, slavery, and human trafficking;
+(t) Money laundering;
+(u) Elder abuse;
+(v) A hate crime;
+(w) Stalking;
+(x) Soliciting the commission of a crime;
+(y) An offense committed while on bail or released on his or her own
+recognizance;
+(z) Rape, sodomy, or deviate sexual intercourse;
+(aa) Kidnapping; or
+(bb) Involuntary manslaughter while operating a motor vehicle;
+(4) The person is a current registrant on the Missouri sex offender registry
+under sections 589.400 to 589.425; or
+(5) The person has been convicted of a federal crime that meets the definition of
+an aggravated felony as set forth in subparagraphs (A) to (P), inclusive of paragraph
+(43) of subsection (a) of Section 101 of the federal Immigration and Nationality Act (8
+U.S.C. Sec. 1101), or is identified by the United States Department of Homeland
+Security's Immigration and Customs Enforcement as the subject of an outstanding
+federal felony arrest warrant.
+✔

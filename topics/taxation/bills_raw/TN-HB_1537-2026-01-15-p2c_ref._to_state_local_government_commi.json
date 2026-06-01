@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1537",
+    "legislative_session": "114",
+    "subject": [
+      "Assessors"
+    ],
+    "title": "Assessors - As introduced, creates the Tennessee assessor of property certification board to review qualifications for the county office of assessor of property; creates new qualifications for such office. - Amends TCA Title 2; Title 4; Title 8, Chapter 18 and Title 67, Chapter 1."
+  },
+  "id": "HB 1537",
+  "log": {
+    "action": {
+      "classification": [
+        "referral-committee"
+      ],
+      "date": "2026-01-15",
+      "description": "P2C, ref. to State & Local Government Committee- Government Operations for Review",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1537"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1537/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1537/logs/20260115T000000Z_p2c_ref_to_state_local_government_committee_government_operations_for_review.json"
+  },
+  "timestamp": "20260115T000000Z"
+}

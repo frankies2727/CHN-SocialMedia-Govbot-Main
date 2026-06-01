@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend an Act provide for residents of specified ages a homestead exemption from certain ad valorem taxes levied by Fayette County for county purposes and to provide a homestead exemption from certain Fayette County School District ad valorem taxes for educational purposes, approved April 15, 1996 (Ga. L. 1996, p. 4453), so as to provide a new exemption in a floating proportional amount based upon any increased property tax collections that exceed the value of property taxes collected in tax year 2025 to each resident of the county from ad valorem taxes for county purposes; to provide for compliance with constitutional requirements; to provide for a referendum, effective dates, automatic repeal, mandatory execution of election, and judicial remedies regarding failure to comply; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1583",
+    "legislative_session": "2025_26",
+    "title": "Fayette County; ad valorem tax; floating proportional amount based upon any increased property tax collections; provide new exemption"
+  },
+  "id": "HB 1583",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-05-12",
+      "description": "House Date Signed by Governor",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1583"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1583/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1583/logs/20260512T000000Z_house_date_signed_by_governor.json"
+  },
+  "timestamp": "20260512T000000Z"
+}
