@@ -2499,6 +2499,8 @@ def _post_forced_bill(records: list[dict]) -> int:
 
     print(f"\n--- {b['state'] or '?'} {b['identifier']} ({b['action_date']}) ---")
     print(text)
+    if link:
+        print(f"    link: {link}")
     print("---")
 
     if client:
@@ -2709,6 +2711,8 @@ def main() -> int:
         print(f"\n--- {b['state'] or '?'} {b['identifier']} ({b['action_date']}) ---")
         print(f"    same_day_key: {b['same_day_key']}")
         print(text)
+        if link:
+            print(f"    link: {link}")
         print("---")
 
         if client:
