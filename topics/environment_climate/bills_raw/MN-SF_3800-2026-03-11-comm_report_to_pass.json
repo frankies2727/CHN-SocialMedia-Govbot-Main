@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 3800",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Energy"
+    ],
+    "title": "Community solar garden program named for Melissa Hortman"
+  },
+  "id": "SF 3800",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-03-11",
+      "description": "Comm report: To pass",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 3800"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF3800/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF3800/logs/20260311T000000Z_comm_report_to_pass.json"
+  },
+  "timestamp": "20260311T000000Z"
+}

@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Tyler of Boston, a petition (accompanied by bill, House, No. 3576) of Chynah Tyler relative to the transition to clean energy and the training of employees on alternative energy generation and distribution.  Telecommunications, Utilities and Energy.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H3576",
+    "legislative_session": "194th",
+    "title": "An Act relative to a just transition to clean energy"
+  },
+  "id": "H3576",
+  "log": {
+    "action": {
+      "date": "2026-03-23",
+      "description": "Accompanied by H3522",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "H3576"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H3576/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H3576/logs/20260323T000000Z_accompanied_by_h3522.json"
+  },
+  "timestamp": "20260323T000000Z"
+}

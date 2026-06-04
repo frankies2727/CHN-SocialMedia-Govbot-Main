@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB69",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Economic Development",
+      "Taxation"
+    ],
+    "title": "Extending the time period for eligibility for the loan repayment program and the income tax credit for rural opportunity zones, adding down payment assistance and child care reimbursement as program benefit options and expanding eligibility for the income tax credit."
+  },
+  "id": "SB69",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died in House Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB69"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB69/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB69/logs/20260410T000000Z_died_in_house_committee.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

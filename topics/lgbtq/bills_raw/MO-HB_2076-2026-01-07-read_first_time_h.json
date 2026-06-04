@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2076",
+    "legislative_session": "2026",
+    "subject": [
+      "LICENSES - DRIVER'S",
+      "REVENUE, DEPARTMENT OF"
+    ],
+    "title": "Modifies provisions relating to sex designation on driver's licenses, nondriver's licenses, and permits"
+  },
+  "id": "HB 2076",
+  "log": {
+    "action": {
+      "date": "2026-01-07T06:00:00+00:00",
+      "description": "Read First Time (H)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 2076"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB2076/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB2076/logs/20260107T060000Z_read_first_time_h.json"
+  },
+  "timestamp": "20260107T060000Z"
+}

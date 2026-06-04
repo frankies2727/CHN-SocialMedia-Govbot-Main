@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB2542",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Roads and Highways"
+    ],
+    "title": "Designating a portion of United States highway 56 as the Bill Tucker memorial highway."
+  },
+  "id": "HB2542",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died on Calendar",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB2542"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2542/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2542/logs/20260410T000000Z_died_on_calendar.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

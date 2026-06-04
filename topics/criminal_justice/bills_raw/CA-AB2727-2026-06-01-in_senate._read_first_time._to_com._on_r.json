@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes the Elderly Parole Program for the purpose of reviewing parole suitability of inmates who are 50 years of age or older and who have served a minimum of 20 years of continuous incarceration on their sentence. Existing law requires the Board of Parole Hearings, when considering the release of qualifying inmates, to give special consideration to whether certain criteria have reduced the elderly inmate's risk for future violence. Existing law excludes various persons from these provisions, including persons sentenced pursuant to existing sentencing provisions commonly known as the 3 strikes law. Under an existing court order, although statutorily excluded, an individual may be eligible for parole under the Elderly Parole Program when they are 60 years of age or older and have been continuously incarcerated for at least 25 years.\n\nThis bill would instead specify that persons convicted of various sexual offenses, including rape, sodomy, or aggravated sexual assault of a child, or sentenced pursuant to a provision applicable where the crimes involved had multiple victims, as specified, are not suitable for parole under the Elderly Parole Program, unless the person is 65 years of age or older and has served a minimum of 25 years of continuous incarceration on their current sentence.\n\nExisting law defines a sexually violent predator to mean a person who has been convicted of a sexually violent offense against one or more victims and who has a diagnosed mental disorder that makes the person a danger to the health and safety of others in that it is likely that the person will engage in sexually violent criminal behavior. For purposes of this definition, a conviction for a sexually violent offense includes convictions that resulted in either a determinate or an indeterminate prison sentence, as specified. Existing law requires the Secretary of the Department of Corrections and Rehabilitation to refer a person who is in custody under that department's jurisdiction, and who is serving a determinate sentence or whose parole has been revoked, for evaluation by the State Department of State Hospitals at least 6 months prior to that individual's scheduled date for release from prison if the secretary determines that the person may be a sexually violent predator. Existing law requires a petition for commitment as a sexually violent predator to be filed in the county in which the person was convicted of the sexual offense for which the person was committed to the jurisdiction of the Department of Corrections and Rehabilitation.\n\nThis bill would also require the Executive Officer of the Board of Parole Hearings to make that referral and revise the criteria for referral to additionally apply to a person who is serving an indeterminate prison sentence. The bill would also authorize the secretary, or the Executive Officer of the Board of Parole Hearings, to refer the person for evaluation if the person's scheduled release date is less than 4 months after the date of the decision to grant parole, or if the person will be scheduled for a parole hearing in the next 6 months. By imposing additional duties on counties regarding commitment of persons as sexually violent predators, this bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2727",
+    "legislative_session": "20252026",
+    "subject": [
+      "Corrections",
+      "paroleandprereleasetreatment"
+    ],
+    "title": "Corrections: parole and prerelease treatment."
+  },
+  "id": "AB2727",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2026-06-01",
+      "description": "In Senate. Read first time. To Com. on RLS. for assignment.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "AB2727"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2727/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2727/logs/20260601T000000Z_in_senate_read_first_time_to_com_on_rls_for_assignment.json"
+  },
+  "timestamp": "20260601T000000Z"
+}

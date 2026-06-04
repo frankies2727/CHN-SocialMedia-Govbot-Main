@@ -1,0 +1,24 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2689",
+    "legislative_session": "2025-2026",
+    "title": "Concerning the working connections child care program."
+  },
+  "id": "HB 2689",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-04-01",
+      "description": "Effective date 4/1/2026*.",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "HB 2689"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2689/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2689/logs/20260401T000000Z.classification.became-law.executive.json"
+  }
+}

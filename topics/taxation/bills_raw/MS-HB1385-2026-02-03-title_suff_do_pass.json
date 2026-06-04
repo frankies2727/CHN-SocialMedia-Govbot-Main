@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB1385",
+    "legislative_session": "2026",
+    "subject": [
+      "Ways and Means"
+    ],
+    "title": "Homestead exemption; delete requirement that counties submit paper original of application for the DOR."
+  },
+  "id": "HB1385",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-02-03T06:00:00+00:00",
+      "description": "Title Suff Do Pass",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB1385"
+  },
+  "sources": {
+    "bill": "ms-legislation/country:us/state:ms/sessions/2026/bills/HB1385/metadata.json",
+    "log": "ms-legislation/country:us/state:ms/sessions/2026/bills/HB1385/logs/20260203T060000Z_title_suff_do_pass.json"
+  },
+  "timestamp": "20260203T060000Z"
+}

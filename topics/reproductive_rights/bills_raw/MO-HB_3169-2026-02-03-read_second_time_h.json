@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 3169",
+    "legislative_session": "2026",
+    "subject": [
+      "HEALTH CARE",
+      "MEDICAID/MO HEALTHNET",
+      "SOCIAL SERVICES, DEPARTMENT OF"
+    ],
+    "title": "Creates provisions relating to insurance coverage of doula services"
+  },
+  "id": "HB 3169",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-2"
+      ],
+      "date": "2026-02-03T06:00:00+00:00",
+      "description": "Read Second Time (H)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 3169"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB3169/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB3169/logs/20260203T060000Z_read_second_time_h.json"
+  },
+  "timestamp": "20260203T060000Z"
+}

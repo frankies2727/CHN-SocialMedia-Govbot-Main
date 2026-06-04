@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB489",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Taxation"
+    ],
+    "title": "Providing for a universal homestead exemption from ad valorem property taxation."
+  },
+  "id": "SB489",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died in Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB489"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB489/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB489/logs/20260410T000000Z_died_in_committee.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

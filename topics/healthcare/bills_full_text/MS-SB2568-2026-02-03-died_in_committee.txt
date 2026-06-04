@@ -1,0 +1,3661 @@
+MISSISSIPPI LEGISLATURE
+
+REGULAR SESSION 2026
+
+By:
+
+To:
+
+Senator(s) Blackmon
+
+Medicaid; Insurance
+
+SENATE BILL NO. 2568
+
+AN ACT TO AMEND SECTION 43-13-117, MISSISSIPPI CODE OF 1972,
+TO REQUIRE MEDICAID AND PRIVATE INSURANCE COMPANIES REGULATED BY
+THE STATE TO COVER ESSENTIAL DISABILITY-RELATED SUPPORTS FOR
+CHILDREN AND TO PRESCRIBE REQUIRED COVERED SERVICES; AND FOR
+RELATED PURPOSES.
+
+BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MISSISSIPPI:
+
+SECTION 1.
+
+All health benefit plans, contracts or agreements
+
+shall provide coverage for essential disability-related services
+
+and supports, including, but not limited to, augmentative and
+
+alternative communication devices, in-home nursing care,
+
+behavioral therapy, developmental resources and services, diapers,
+
+and necessary medical supplies for disabled children age eighteen
+
+(18) or under, as determined by a physician.
+
+standards shall be required, and repeated or unsupported denials
+
+shall be prohibited, under this section.
+
+SECTION 2.
+
+amended as follows:
+
+43-13-117.
+
+Timely authorization
+
+Section 43-13-117, Mississippi Code of 1972, is
+
+(A)
+
+Medicaid as authorized by this article shall
+
+include payment of part or all of the costs, at the discretion of
+S. B. No. 2568
+PAGE 1 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+G1/2
+
+the division, with approval of the Governor and the Centers for
+
+Medicare and Medicaid Services, of the following types of care and
+
+services rendered to eligible applicants who have been determined
+
+to be eligible for that care and services, within the limits of
+
+state appropriations and federal matching funds:
+
+(1)
+
+Inpatient hospital services.
+(a)
+
+The division is authorized to implement an All
+
+Patient Refined Diagnosis Related Groups (APR-DRG) reimbursement
+
+methodology for inpatient hospital services.
+
+(b)
+
+No service benefits or reimbursement
+
+limitations in this subsection (A)(1) shall apply to payments
+
+under an APR-DRG or Ambulatory Payment Classification (APC) model
+
+or a managed care program or similar model described in subsection
+
+(H) of this section unless specifically authorized by the
+
+division.
+
+(2)
+
+Outpatient hospital services.
+
+(a)
+
+Emergency services.
+
+(b)
+
+Other outpatient hospital services.
+
+The
+
+division shall allow benefits for other medically necessary
+
+outpatient hospital services (such as chemotherapy, radiation,
+
+surgery and therapy), including outpatient services in a clinic or
+
+other facility that is not located inside the hospital, but that
+
+has been designated as an outpatient facility by the hospital, and
+
+that was in operation or under construction on July 1, 2009,
+
+provided that the costs and charges associated with the operation
+S. B. No. 2568
+PAGE 2 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+of the hospital clinic are included in the hospital's cost report.
+
+In addition, the Medicare thirty-five-mile rule will apply to
+
+those hospital clinics not located inside the hospital that are
+
+constructed after July 1, 2009.
+
+reimbursed as clinic services, the division may revise the rate or
+
+methodology of outpatient reimbursement to maintain consistency,
+
+efficiency, economy and quality of care.
+
+(c)
+
+Where the same services are
+
+The division is authorized to implement an
+
+Ambulatory Payment Classification (APC) methodology for outpatient
+
+hospital services.
+
+have fifty (50) or fewer licensed beds the option to not be
+
+reimbursed for outpatient hospital services using the APC
+
+methodology, but reimbursement for outpatient hospital services
+
+provided by those hospitals shall be based on one hundred one
+
+percent (101%) of the rate established under Medicare for
+
+outpatient hospital services.
+
+reimbursed under the APC methodology shall remain under cost-based
+
+reimbursement for a two-year period.
+
+(d)
+
+The division shall give rural hospitals that
+
+Those hospitals choosing to not be
+
+No service benefits or reimbursement
+
+limitations in this subsection (A)(2) shall apply to payments
+
+under an APR-DRG or APC model or a managed care program or similar
+
+model described in subsection (H) of this section unless
+
+specifically authorized by the division.
+
+(3)
+
+Laboratory and x-ray services.
+
+(4)
+
+Nursing facility services.
+
+S. B. No. 2568
+PAGE 3 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+(a)
+
+The division shall make full payment to
+
+nursing facilities for each day, not exceeding forty-two (42) days
+
+per year, that a patient is absent from the facility on home
+
+leave.
+
+addition to the forty-two-day limitation:
+
+before Christmas, the day after Christmas, Thanksgiving, the day
+
+before Thanksgiving and the day after Thanksgiving.
+
+Payment may be made for the following home leave days in
+
+(b)
+
+Christmas, the day
+
+From and after July 1, 1997, the division
+
+shall implement the integrated case-mix payment and quality
+
+monitoring system, which includes the fair rental system for
+
+property costs and in which recapture of depreciation is
+
+eliminated.
+
+leave and therapeutic home leave days to the lower of the case-mix
+
+category as computed for the resident on leave using the
+
+assessment being utilized for payment at that point in time, or a
+
+case-mix score of 1.000 for nursing facilities, and shall compute
+
+case-mix scores of residents so that only services provided at the
+
+nursing facility are considered in calculating a facility's per
+
+diem.
+
+The division may reduce the payment for hospital
+
+(c)
+
+From and after July 1, 1997, all state-owned
+
+nursing facilities shall be reimbursed on a full reasonable cost
+
+basis.
+
+(d)
+
+On or after January 1, 2015, the division
+
+shall update the case-mix payment system resource utilization
+
+grouper and classifications and fair rental reimbursement system.
+S. B. No. 2568
+PAGE 4 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+The division shall develop and implement a payment add-on to
+
+reimburse nursing facilities for ventilator-dependent resident
+
+services.
+
+(e)
+
+The division shall develop and implement, not
+
+later than January 1, 2001, a case-mix payment add-on determined
+
+by time studies and other valid statistical data that will
+
+reimburse a nursing facility for the additional cost of caring for
+
+a resident who has a diagnosis of Alzheimer's or other related
+
+dementia and exhibits symptoms that require special care.
+
+such case-mix add-on payment shall be supported by a determination
+
+of additional cost.
+
+as part of the fair rental reimbursement system for nursing
+
+facility beds, an Alzheimer's resident bed depreciation enhanced
+
+reimbursement system that will provide an incentive to encourage
+
+nursing facilities to convert or construct beds for residents with
+
+Alzheimer's or other related dementia.
+
+(f)
+
+Any
+
+The division shall also develop and implement
+
+The division shall develop and implement an
+
+assessment process for long-term care services.
+
+The division may
+
+provide the assessment and related functions directly or through
+
+contract with the area agencies on aging.
+
+The division shall apply for necessary federal waivers to
+
+assure that additional services providing alternatives to nursing
+
+facility care are made available to applicants for nursing
+
+facility care.
+
+S. B. No. 2568
+PAGE 5 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+(5)
+
+Periodic screening and diagnostic services for
+
+individuals under age twenty-one (21) years as are needed to
+
+identify physical and mental defects and to provide health care
+
+treatment and other measures designed to correct or ameliorate
+
+defects and physical and mental illness and conditions discovered
+
+by the screening services, regardless of whether these services
+
+are included in the state plan.
+
+periodic screening and diagnostic program those discretionary
+
+services authorized under the federal regulations adopted to
+
+implement Title XIX of the federal Social Security Act, as
+
+amended.
+
+occupational therapy services, and services for individuals with
+
+speech, hearing and language disorders, may enter into a
+
+cooperative agreement with the State Department of Education for
+
+the provision of those services to handicapped students by public
+
+school districts using state funds that are provided from the
+
+appropriation to the Department of Education to obtain federal
+
+matching funds through the division.
+
+medical and mental health assessments, treatment, care and
+
+services for children who are in, or at risk of being put in, the
+
+custody of the Mississippi Department of Human Services may enter
+
+into a cooperative agreement with the Mississippi Department of
+
+Human Services for the provision of those services using state
+
+funds that are provided from the appropriation to the Department
+
+The division may include in its
+
+The division, in obtaining physical therapy services,
+
+S. B. No. 2568
+PAGE 6 (rdd\tb)
+
+*SS26/R348*
+
+The division, in obtaining
+
+~ OFFICIAL ~
+
+of Human Services to obtain federal matching funds through the
+
+division.
+
+(6)
+
+Physician services.
+
+Fees for physician's services
+
+that are covered only by Medicaid shall be reimbursed at ninety
+
+percent (90%) of the rate established on January 1, 2018, and as
+
+may be adjusted each July thereafter, under Medicare.
+
+division may provide for a reimbursement rate for physician's
+
+services of up to one hundred percent (100%) of the rate
+
+established under Medicare for physician's services that are
+
+provided after the normal working hours of the physician, as
+
+determined in accordance with regulations of the division.
+
+division may reimburse eligible providers, as determined by the
+
+division, for certain primary care services at one hundred percent
+
+(100%) of the rate established under Medicare.
+
+reimburse obstetricians and gynecologists for certain primary care
+
+services as defined by the division at one hundred percent (100%)
+
+of the rate established under Medicare.
+
+(7)
+
+(a)
+
+The
+
+The
+
+The division shall
+
+Home health services for eligible persons, not
+
+to exceed in cost the prevailing cost of nursing facility
+
+services.
+
+by the division.
+
+nurse practitioners, physician assistants and clinical nurse
+
+specialists are authorized to prescribe or order home health
+
+services and plans of care, sign home health plans of care,
+
+certify and recertify eligibility for home health services and
+
+All home health visits must be precertified as required
+
+S. B. No. 2568
+PAGE 7 (rdd\tb)
+
+In addition to physicians, certified registered
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+conduct the required initial face-to-face visit with the recipient
+
+of the services.
+
+(b)
+(8)
+
+[Repealed]
+
+Emergency medical transportation services as
+
+determined by the division.
+(9)
+
+Prescription drugs and other covered drugs and
+
+services as determined by the division.
+The division shall establish a mandatory preferred drug list.
+
+Drugs not on the mandatory preferred drug list shall be made
+
+available by utilizing prior authorization procedures established
+
+by the division.
+
+The division may seek to establish relationships with other
+
+states in order to lower acquisition costs of prescription drugs
+
+to include single-source and innovator multiple-source drugs or
+
+generic drugs.
+
+regulation, the division may seek to establish relationships with
+
+and negotiate with other countries to facilitate the acquisition
+
+of prescription drugs to include single-source and innovator
+
+multiple-source drugs or generic drugs, if that will lower the
+
+acquisition costs of those prescription drugs.
+
+In addition, if allowed by federal law or
+
+The division may allow for a combination of prescriptions for
+
+single-source and innovator multiple-source drugs and generic
+
+drugs to meet the needs of the beneficiaries.
+
+S. B. No. 2568
+PAGE 8 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+The executive director may approve specific maintenance drugs
+
+for beneficiaries with certain medical conditions, which may be
+
+prescribed and dispensed in three-month supply increments.
+
+Drugs prescribed for a resident of a psychiatric residential
+
+treatment facility must be provided in true unit doses when
+
+available.
+
+Medicare Part D for a resident of a long-term care facility be
+
+provided in true unit doses when available.
+
+originally billed to the division but are not used by a resident
+
+in any of those facilities shall be returned to the billing
+
+pharmacy for credit to the division, in accordance with the
+
+guidelines of the State Board of Pharmacy and any requirements of
+
+federal law and regulation.
+
+recipient and only one (1) dispensing fee per month may be
+
+charged.
+
+for restocked drugs, which shall include a restock fee as
+
+determined by the division not exceeding Seven Dollars and
+
+Eighty-two Cents ($7.82).
+
+The division may require that drugs not covered by
+
+Those drugs that were
+
+Drugs shall be dispensed to a
+
+The division shall develop a methodology for reimbursing
+
+Except for those specific maintenance drugs approved by the
+
+executive director, the division shall not reimburse for any
+
+portion of a prescription that exceeds a thirty-one-day supply of
+
+the drug based on the daily dosage.
+
+The division is authorized to develop and implement a program
+
+of payment for additional pharmacist services as determined by the
+
+division.
+S. B. No. 2568
+PAGE 9 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+All claims for drugs for dually eligible Medicare/Medicaid
+
+beneficiaries that are paid for by Medicare must be submitted to
+
+Medicare for payment before they may be processed by the
+
+division's online payment system.
+
+The division shall develop a pharmacy policy in which drugs
+
+in tamper-resistant packaging that are prescribed for a resident
+
+of a nursing facility but are not dispensed to the resident shall
+
+be returned to the pharmacy and not billed to Medicaid, in
+
+accordance with guidelines of the State Board of Pharmacy.
+
+The division shall develop and implement a method or methods
+
+by which the division will provide on a regular basis to Medicaid
+
+providers who are authorized to prescribe drugs, information about
+
+the costs to the Medicaid program of single-source drugs and
+
+innovator multiple-source drugs, and information about other drugs
+
+that may be prescribed as alternatives to those single-source
+
+drugs and innovator multiple-source drugs and the costs to the
+
+Medicaid program of those alternative drugs.
+
+Notwithstanding any law or regulation, information obtained
+
+or maintained by the division regarding the prescription drug
+
+program, including trade secrets and manufacturer or labeler
+
+pricing, is confidential and not subject to disclosure except to
+
+other state agencies.
+
+The dispensing fee for each new or refill prescription,
+
+including nonlegend or over-the-counter drugs covered by the
+
+S. B. No. 2568
+PAGE 10 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+division, shall be not less than Three Dollars and Ninety-one
+
+Cents ($3.91), as determined by the division.
+
+The division shall not reimburse for single-source or
+
+innovator multiple-source drugs if there are equally effective
+
+generic equivalents available and if the generic equivalents are
+
+the least expensive.
+
+It is the intent of the Legislature that the pharmacists
+
+providers be reimbursed for the reasonable costs of filling and
+
+dispensing prescriptions for Medicaid beneficiaries.
+
+The division shall allow certain drugs, including
+
+physician-administered drugs, and implantable drug system devices,
+
+and medical supplies, with limited distribution or limited access
+
+for beneficiaries and administered in an appropriate clinical
+
+setting, to be reimbursed as either a medical claim or pharmacy
+
+claim, as determined by the division.
+
+It is the intent of the Legislature that the division and any
+
+managed care entity described in subsection (H) of this section
+
+encourage the use of Alpha-Hydroxyprogesterone Caproate (17P) to
+
+prevent recurrent preterm birth.
+
+(10)
+
+Dental and orthodontic services to be determined
+
+by the division.
+
+The division shall increase the amount of the reimbursement
+
+rate for diagnostic and preventative dental services for each of
+
+the fiscal years 2022, 2023 and 2024 by five percent (5%) above
+
+the amount of the reimbursement rate for the previous fiscal year.
+S. B. No. 2568
+PAGE 11 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+The division shall increase the amount of the reimbursement rate
+
+for restorative dental services for each of the fiscal years 2023,
+
+and 2025 by five percent (5%) above the amount of the
+
+reimbursement rate for the previous fiscal year.
+
+of the Legislature that the reimbursement rate revision for
+
+preventative dental services will be an incentive to increase the
+
+number of dentists who actively provide Medicaid services.
+
+dental services reimbursement rate revision shall be known as the
+
+"James Russell Dumas Medicaid Dental Services Incentive Program."
+
+The Medical Care Advisory Committee, assisted by the Division
+
+of Medicaid, shall annually determine the effect of this incentive
+
+by evaluating the number of dentists who are Medicaid providers,
+
+the number who and the degree to which they are actively billing
+
+Medicaid, the geographic trends of where dentists are offering
+
+what types of Medicaid services and other statistics pertinent to
+
+the goals of this legislative intent.
+
+presented to the Chair of the Senate Medicaid Committee and the
+
+Chair of the House Medicaid Committee.
+
+It is the intent
+
+This
+
+This data shall annually be
+
+The division shall include dental services as a necessary
+
+component of overall health services provided to children who are
+
+eligible for services.
+
+(11)
+
+Eyeglasses for all Medicaid beneficiaries who have
+
+(a) had surgery on the eyeball or ocular muscle that results in a
+
+vision change for which eyeglasses or a change in eyeglasses is
+
+medically indicated within six (6) months of the surgery and is in
+S. B. No. 2568
+PAGE 12 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+accordance with policies established by the division, or (b) one
+
+(1) pair every five (5) years and in accordance with policies
+
+established by the division.
+
+must be prescribed by a physician skilled in diseases of the eye
+
+or an optometrist, whichever the beneficiary may select.
+
+(12)
+
+In either instance, the eyeglasses
+
+Intermediate care facility services.
+(a)
+
+The division shall make full payment to all
+
+intermediate care facilities for individuals with intellectual
+
+disabilities for each day, not exceeding sixty-three (63) days per
+
+year, that a patient is absent from the facility on home leave.
+
+Payment may be made for the following home leave days in addition
+
+to the sixty-three-day limitation:
+
+Christmas, the day after Christmas, Thanksgiving, the day before
+
+Thanksgiving and the day after Thanksgiving.
+
+(b)
+
+Christmas, the day before
+
+All state-owned intermediate care facilities
+
+for individuals with intellectual disabilities shall be reimbursed
+
+on a full reasonable cost basis.
+
+(c)
+
+Effective January 1, 2015, the division shall
+
+update the fair rental reimbursement system for intermediate care
+
+facilities for individuals with intellectual disabilities.
+
+(13)
+
+Family planning services, including drugs,
+
+supplies and devices, when those services are under the
+
+supervision of a physician or nurse practitioner.
+
+(14)
+
+Clinic services.
+
+Preventive, diagnostic,
+
+therapeutic, rehabilitative or palliative services that are
+S. B. No. 2568
+PAGE 13 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+furnished by a facility that is not part of a hospital but is
+
+organized and operated to provide medical care to outpatients.
+
+Clinic services include, but are not limited to:
+
+(a)
+
+centers (ASCs) as defined in Section 41-75-1(a); and
+
+Services provided by ambulatory surgical
+
+(b)
+(15)
+
+Dialysis center services.
+
+Home- and community-based services for the elderly
+
+and disabled, as provided under Title XIX of the federal Social
+
+Security Act, as amended, under waivers, subject to the
+
+availability of funds specifically appropriated for that purpose
+
+by the Legislature.
+
+(16)
+
+Mental health services.
+
+Certain services provided
+
+by a psychiatrist shall be reimbursed at up to one hundred percent
+
+(100%) of the Medicare rate.
+
+management services (a) provided by an approved regional mental
+
+health/intellectual disability center established under Sections
+
+41-19-31 through 41-19-39, or by another community mental health
+
+service provider meeting the requirements of the Department of
+
+Mental Health to be an approved mental health/intellectual
+
+disability center if determined necessary by the Department of
+
+Mental Health, using state funds that are provided in the
+
+appropriation to the division to match federal funds, or (b)
+
+provided by a facility that is certified by the State Department
+
+of Mental Health to provide therapeutic and case management
+
+services, to be reimbursed on a fee for service basis, or (c)
+S. B. No. 2568
+PAGE 14 (rdd\tb)
+
+*SS26/R348*
+
+Approved therapeutic and case
+
+~ OFFICIAL ~
+
+provided in the community by a facility or program operated by the
+
+Department of Mental Health.
+
+facility described in subparagraph (b) must have the prior
+
+approval of the division to be reimbursable under this section.
+
+(17)
+
+Any such services provided by a
+
+Durable medical equipment services and medical
+
+supplies.
+
+Precertification of durable medical equipment and
+
+medical supplies must be obtained as required by the division.
+
+The Division of Medicaid may require durable medical equipment
+
+providers to obtain a surety bond in the amount and to the
+
+specifications as established by the Balanced Budget Act of 1997.
+
+A maximum dollar amount of reimbursement for noninvasive
+
+ventilators or ventilation treatments properly ordered and being
+
+used in an appropriate care setting shall not be set by any health
+
+maintenance organization, coordinated care organization,
+
+provider-sponsored health plan, or other organization paid for
+
+services on a capitated basis by the division under any managed
+
+care program or coordinated care program implemented by the
+
+division under this section.
+
+to durable medical equipment suppliers for home use of noninvasive
+
+and invasive ventilators shall be on a continuous monthly payment
+
+basis for the duration of medical need throughout a patient's
+
+valid prescription period.
+
+(18)
+
+(a)
+
+Reimbursement by these organizations
+
+Notwithstanding any other provision of this
+
+section to the contrary, as provided in the Medicaid state plan
+
+amendment or amendments as defined in Section 43-13-145(10), the
+S. B. No. 2568
+PAGE 15 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+division shall make additional reimbursement to hospitals that
+
+serve a disproportionate share of low-income patients and that
+
+meet the federal requirements for those payments as provided in
+
+Section 1923 of the federal Social Security Act and any applicable
+
+regulations.
+
+division shall draw down all available federal funds allotted to
+
+the state for disproportionate share hospitals.
+
+after January 1, 1999, public hospitals participating in the
+
+Medicaid disproportionate share program may be required to
+
+participate in an intergovernmental transfer program as provided
+
+in Section 1903 of the federal Social Security Act and any
+
+applicable regulations.
+
+It is the intent of the Legislature that the
+
+(b)
+
+(i)
+
+1.
+
+However, from and
+
+The division may establish a Medicare
+
+Upper Payment Limits Program, as defined in Section 1902(a)(30) of
+
+the federal Social Security Act and any applicable federal
+
+regulations, or an allowable delivery system or provider payment
+
+initiative authorized under 42 CFR 438.6(c), for hospitals,
+
+nursing facilities and physicians employed or contracted by
+
+hospitals.
+
+2.
+
+The division shall establish a
+
+Medicaid Supplemental Payment Program, as permitted by the federal
+
+Social Security Act and a comparable allowable delivery system or
+
+provider payment initiative authorized under 42 CFR 438.6(c), for
+
+emergency ambulance transportation providers in accordance with
+
+this subsection (A)(18)(b).
+S. B. No. 2568
+PAGE 16 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+(ii)
+
+The division shall assess each hospital,
+
+nursing facility, and emergency ambulance transportation provider
+
+for the sole purpose of financing the state portion of the
+
+Medicare Upper Payment Limits Program or other program(s)
+
+authorized under this subsection (A)(18)(b).
+
+assessment shall be as provided in Section 43-13-145(4)(a), and
+
+the nursing facility and the emergency ambulance transportation
+
+assessments, if established, shall be based on Medicaid
+
+utilization or other appropriate method, as determined by the
+
+division, consistent with federal regulations.
+
+will remain in effect as long as the state participates in the
+
+Medicare Upper Payment Limits Program or other program(s)
+
+authorized under this subsection (A)(18)(b).
+
+hospital assessment provided in Section 43-13-145(4)(a), hospitals
+
+with physicians participating in the Medicare Upper Payment Limits
+
+Program or other program(s) authorized under this subsection
+
+(A)(18)(b) shall be required to participate in an
+
+intergovernmental transfer or assessment, as determined by the
+
+division, for the purpose of financing the state portion of the
+
+physician UPL payments or other payment(s) authorized under this
+
+subsection (A)(18)(b).
+
+(iii)
+
+The hospital
+
+The assessments
+
+In addition to the
+
+Subject to approval by the Centers for
+
+Medicare and Medicaid Services (CMS) and the provisions of this
+
+subsection (A)(18)(b), the division shall make additional
+
+reimbursement to hospitals, nursing facilities, and emergency
+S. B. No. 2568
+PAGE 17 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+ambulance transportation providers for the Medicare Upper Payment
+
+Limits Program or other program(s) authorized under this
+
+subsection (A)(18)(b), and, if the program is established for
+
+physicians, shall make additional reimbursement for physicians, as
+
+defined in Section 1902(a)(30) of the federal Social Security Act
+
+and any applicable federal regulations, provided the assessment in
+
+this subsection (A)(18)(b) is in effect.
+
+(iv)
+
+Notwithstanding any other provision of
+
+this article to the contrary, effective upon implementation of the
+
+Mississippi Hospital Access Program (MHAP) provided in
+
+subparagraph (c)(i) below, the hospital portion of the inpatient
+
+Upper Payment Limits Program shall transition into and be replaced
+
+by the MHAP program.
+
+develop and implement an alternative fee-for-service Upper Payment
+
+Limits model in accordance with federal laws and regulations if
+
+necessary to preserve supplemental funding.
+
+division, in consultation with the hospital industry shall develop
+
+alternative models for distribution of medical claims and
+
+supplemental payments for inpatient and outpatient hospital
+
+services, and such models may include, but shall not be limited to
+
+the following:
+
+services; creating a low-income utilization pool of funds to
+
+reimburse hospitals for the costs of uncompensated care, charity
+
+care and bad debts as permitted and approved pursuant to federal
+
+regulations and the Centers for Medicare and Medicaid Services;
+S. B. No. 2568
+PAGE 18 (rdd\tb)
+
+However, the division is authorized to
+
+Further, the
+
+increasing rates for inpatient and outpatient
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+supplemental payments based upon Medicaid utilization, quality,
+
+service lines and/or costs of providing such services to Medicaid
+
+beneficiaries and to uninsured patients.
+
+payment models shall be to ensure access to inpatient and
+
+outpatient care and to maximize any federal funds that are
+
+available to reimburse hospitals for services provided.
+
+documents required to achieve the goals described in this
+
+paragraph shall be submitted to the Centers for Medicare and
+
+Medicaid Services, with a proposed effective date of July 1, 2019,
+
+to the extent possible, but in no event shall the effective date
+
+of such payment models be later than July 1, 2020.
+
+of the Senate and House Medicaid Committees shall be provided a
+
+copy of the proposed payment model(s) prior to submission.
+
+Effective July 1, 2018, and until such time as any payment
+
+model(s) as described above become effective, the division, in
+
+consultation with the hospital industry, is authorized to
+
+implement a transitional program for inpatient and outpatient
+
+payments and/or supplemental payments (including, but not limited
+
+to, MHAP and directed payments), to redistribute available
+
+supplemental funds among hospital providers, provided that when
+
+compared to a hospital's prior year supplemental payments,
+
+supplemental payments made pursuant to any such transitional
+
+program shall not result in a decrease of more than five percent
+
+(5%) and shall not increase by more than the amount needed to
+
+maximize the distribution of the available funds.
+S. B. No. 2568
+PAGE 19 (rdd\tb)
+
+*SS26/R348*
+
+The goals of such
+
+~ OFFICIAL ~
+
+Any such
+
+The Chairmen
+
+(v)
+
+1.
+
+To preserve and improve access to
+
+ambulance transportation provider services, the division shall
+
+seek CMS approval to make ambulance service access payments as set
+
+forth in this subsection (A)(18)(b) for all covered emergency
+
+ambulance services rendered on or after July 1, 2022, and shall
+
+make such ambulance service access payments for all covered
+
+services rendered on or after the effective date of CMS approval.
+
+2.
+
+The division shall calculate the
+
+ambulance service access payment amount as the balance of the
+
+portion of the Medical Care Fund related to ambulance
+
+transportation service provider assessments plus any federal
+
+matching funds earned on the balance, up to, but not to exceed,
+
+the upper payment limit gap for all emergency ambulance service
+
+providers.
+
+3.
+
+a.
+
+Except for ambulance services
+
+exempt from the assessment provided in this paragraph (18)(b), all
+
+ambulance transportation service providers shall be eligible for
+
+ambulance service access payments each state fiscal year as set
+
+forth in this paragraph (18)(b).
+
+b.
+
+paid to ambulance transportation service providers for emergency
+
+medical services provided to Medicaid beneficiaries, each eligible
+
+ambulance transportation service provider shall receive ambulance
+
+service access payments each state fiscal year equal to the
+
+ambulance transportation service provider's upper payment limit
+S. B. No. 2568
+PAGE 20 (rdd\tb)
+
+*SS26/R348*
+
+In addition to any other funds
+
+~ OFFICIAL ~
+
+gap.
+
+Subject to approval by the Centers for Medicare and Medicaid
+
+Services, ambulance service access payments shall be made no less
+
+than on a quarterly basis.
+
+c.
+
+As used in this paragraph
+
+(18)(b)(v), the term "upper payment limit gap" means the
+
+difference between the total amount that the ambulance
+
+transportation service provider received from Medicaid and the
+
+average amount that the ambulance transportation service provider
+
+would have received from commercial insurers for those services
+
+reimbursed by Medicaid.
+
+4.
+
+An ambulance service access payment
+
+shall not be used to offset any other payment by the division for
+
+emergency or nonemergency services to Medicaid beneficiaries.
+
+(c)
+
+(i)
+
+Not later than December l, 2015, the
+
+division shall, subject to approval by the Centers for Medicare
+
+and Medicaid Services (CMS), establish, implement and operate a
+
+Mississippi Hospital Access Program (MHAP) for the purpose of
+
+protecting patient access to hospital care through hospital
+
+inpatient reimbursement programs provided in this section designed
+
+to maintain total hospital reimbursement for inpatient services
+
+rendered by in-state hospitals and the out-of-state hospital that
+
+is authorized by federal law to submit intergovernmental transfers
+
+(IGTs) to the State of Mississippi and is classified as Level I
+
+trauma center located in a county contiguous to the state line at
+
+the maximum levels permissible under applicable federal statutes
+S. B. No. 2568
+PAGE 21 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+and regulations, at which time the current inpatient Medicare
+
+Upper Payment Limits (UPL) Program for hospital inpatient services
+
+shall transition to the MHAP.
+
+(ii)
+
+Subject to approval by the Centers for
+
+Medicare and Medicaid Services (CMS), the MHAP shall provide
+
+increased inpatient capitation (PMPM) payments to managed care
+
+entities contracting with the division pursuant to subsection (H)
+
+of this section to support availability of hospital services or
+
+such other payments permissible under federal law necessary to
+
+accomplish the intent of this subsection.
+
+(iii)
+
+The intent of this subparagraph (c) is
+
+that effective for all inpatient hospital Medicaid services during
+
+state fiscal year 2016, and so long as this provision shall remain
+
+in effect hereafter, the division shall to the fullest extent
+
+feasible replace the additional reimbursement for hospital
+
+inpatient services under the inpatient Medicare Upper Payment
+
+Limits (UPL) Program with additional reimbursement under the MHAP
+
+and other payment programs for inpatient and/or outpatient
+
+payments which may be developed under the authority of this
+
+paragraph.
+
+(iv)
+
+The division shall assess each hospital
+
+as provided in Section 43-13-145(4)(a) for the purpose of
+
+financing the state portion of the MHAP, supplemental payments and
+
+such other purposes as specified in Section 43-13-145.
+
+S. B. No. 2568
+PAGE 22 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+The
+
+assessment will remain in effect as long as the MHAP and
+
+supplemental payments are in effect.
+
+(19)
+
+(a)
+
+Perinatal risk management services.
+
+The
+
+division shall promulgate regulations to be effective from and
+
+after October 1, 1988, to establish a comprehensive perinatal
+
+system for risk assessment of all pregnant and infant Medicaid
+
+recipients and for management, education and follow-up for those
+
+who are determined to be at risk.
+
+include case management, nutrition assessment/counseling,
+
+psychosocial assessment/counseling and health education.
+
+division shall contract with the State Department of Health to
+
+provide services within this paragraph (Perinatal High Risk
+
+Management/Infant Services System (PHRM/ISS)).
+
+Department of Health shall be reimbursed on a full reasonable cost
+
+basis for services provided under this subparagraph (a).
+
+(b)
+
+Services to be performed
+
+The
+
+The State
+
+Early intervention system services.
+
+The
+
+division shall cooperate with the State Department of Health,
+
+acting as lead agency, in the development and implementation of a
+
+statewide system of delivery of early intervention services, under
+
+Part C of the Individuals with Disabilities Education Act (IDEA).
+
+The State Department of Health shall certify annually in writing
+
+to the executive director of the division the dollar amount of
+
+state early intervention funds available that will be utilized as
+
+a certified match for Medicaid matching funds.
+
+shall be used to provide expanded targeted case management
+S. B. No. 2568
+PAGE 23 (rdd\tb)
+
+*SS26/R348*
+
+Those funds then
+
+~ OFFICIAL ~
+
+services for Medicaid eligible children with special needs who are
+
+eligible for the state's early intervention system.
+
+Qualifications for persons providing service coordination shall be
+
+determined by the State Department of Health and the Division of
+
+Medicaid.
+
+(20)
+
+Home- and community-based services for physically
+
+disabled approved services as allowed by a waiver from the United
+
+States Department of Health and Human Services for home- and
+
+community-based services for physically disabled people using
+
+state funds that are provided from the appropriation to the State
+
+Department of Rehabilitation Services and used to match federal
+
+funds under a cooperative agreement between the division and the
+
+department, provided that funds for these services are
+
+specifically appropriated to the Department of Rehabilitation
+
+Services.
+
+(21)
+
+Nurse practitioner services.
+
+Services furnished
+
+by a registered nurse who is licensed and certified by the
+
+Mississippi Board of Nursing as a nurse practitioner, including,
+
+but not limited to, nurse anesthetists, nurse midwives, family
+
+nurse practitioners, family planning nurse practitioners,
+
+pediatric nurse practitioners, obstetrics-gynecology nurse
+
+practitioners and neonatal nurse practitioners, under regulations
+
+adopted by the division.
+
+not exceed ninety percent (90%) of the reimbursement rate for
+
+comparable services rendered by a physician.
+S. B. No. 2568
+PAGE 24 (rdd\tb)
+
+Reimbursement for those services shall
+
+*SS26/R348*
+
+The division may
+
+~ OFFICIAL ~
+
+provide for a reimbursement rate for nurse practitioner services
+
+of up to one hundred percent (100%) of the reimbursement rate for
+
+comparable services rendered by a physician for nurse practitioner
+
+services that are provided after the normal working hours of the
+
+nurse practitioner, as determined in accordance with regulations
+
+of the division.
+
+(22)
+
+Ambulatory services delivered in federally
+
+qualified health centers, rural health centers and clinics of the
+
+local health departments of the State Department of Health for
+
+individuals eligible for Medicaid under this article based on
+
+reasonable costs as determined by the division.
+
+qualified health centers shall be reimbursed by the Medicaid
+
+prospective payment system as approved by the Centers for Medicare
+
+and Medicaid Services.
+
+qualified health centers (FQHCs), rural health clinics (RHCs) and
+
+community mental health centers (CMHCs) as both an originating and
+
+distant site provider for the purposes of telehealth
+
+reimbursement.
+
+reimburse FQHCs, RHCs and CMHCs for both distant site and
+
+originating site services when such services are appropriately
+
+provided by the same organization.
+
+(23)
+
+Federally
+
+The division shall recognize federally
+
+The division is further authorized and directed to
+
+Inpatient psychiatric services.
+(a)
+
+Inpatient psychiatric services to be
+
+determined by the division for recipients under age twenty-one
+
+(21) that are provided under the direction of a physician in an
+S. B. No. 2568
+PAGE 25 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+inpatient program in a licensed acute care psychiatric facility or
+
+in a licensed psychiatric residential treatment facility, before
+
+the recipient reaches age twenty-one (21) or, if the recipient was
+
+receiving the services immediately before he or she reached age
+
+twenty-one (21), before the earlier of the date he or she no
+
+longer requires the services or the date he or she reaches age
+
+twenty-two (22), as provided by federal regulations.
+
+after January 1, 2015, the division shall update the fair rental
+
+reimbursement system for psychiatric residential treatment
+
+facilities.
+
+treatment days must be obtained as required by the division.
+
+and after July 1, 2009, all state-owned and state-operated
+
+facilities that provide inpatient psychiatric services to persons
+
+under age twenty-one (21) who are eligible for Medicaid
+
+reimbursement shall be reimbursed for those services on a full
+
+reasonable cost basis.
+
+From and
+
+Precertification of inpatient days and residential
+
+(b)
+
+From
+
+The division may reimburse for services
+
+provided by a licensed freestanding psychiatric hospital to
+
+Medicaid recipients over the age of twenty-one (21) in a method
+
+and manner consistent with the provisions of Section 43-13-117.5.
+
+(24)
+
+[Deleted]
+
+(25)
+
+[Deleted]
+
+(26)
+
+Hospice care.
+
+As used in this paragraph, the term
+
+"hospice care" means a coordinated program of active professional
+
+medical attention within the home and outpatient and inpatient
+S. B. No. 2568
+PAGE 26 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+care that treats the terminally ill patient and family as a unit,
+
+employing a medically directed interdisciplinary team.
+
+program provides relief of severe pain or other physical symptoms
+
+and supportive care to meet the special needs arising out of
+
+physical, psychological, spiritual, social and economic stresses
+
+that are experienced during the final stages of illness and during
+
+dying and bereavement and meets the Medicare requirements for
+
+participation as a hospice as provided in federal regulations.
+
+(27)
+
+The
+
+Group health plan premiums and cost-sharing if it
+
+is cost-effective as defined by the United States Secretary of
+
+Health and Human Services.
+
+(28)
+
+Other health insurance premiums that are
+
+cost-effective as defined by the United States Secretary of Health
+
+and Human Services.
+
+before other insurance premiums can be paid.
+
+(29)
+
+Medicare eligible must have Medicare Part B
+
+The Division of Medicaid may apply for a waiver
+
+from the United States Department of Health and Human Services for
+
+home- and community-based services for developmentally disabled
+
+people using state funds that are provided from the appropriation
+
+to the State Department of Mental Health and/or funds transferred
+
+to the department by a political subdivision or instrumentality of
+
+the state and used to match federal funds under a cooperative
+
+agreement between the division and the department, provided that
+
+funds for these services are specifically appropriated to the
+
+S. B. No. 2568
+PAGE 27 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+Department of Mental Health and/or transferred to the department
+
+by a political subdivision or instrumentality of the state.
+
+(30)
+
+Pediatric skilled nursing services as determined
+
+by the division and in a manner consistent with regulations
+
+promulgated by the Mississippi State Department of Health.
+
+(31)
+
+Targeted case management services for children
+
+with special needs, under waivers from the United States
+
+Department of Health and Human Services, using state funds that
+
+are provided from the appropriation to the Mississippi Department
+
+of Human Services and used to match federal funds under a
+
+cooperative agreement between the division and the department.
+
+(32)
+
+Care and services provided in Christian Science
+
+Sanatoria listed and certified by the Commission for Accreditation
+
+of Christian Science Nursing Organizations/Facilities, Inc.,
+
+rendered in connection with treatment by prayer or spiritual means
+
+to the extent that those services are subject to reimbursement
+
+under Section 1903 of the federal Social Security Act.
+
+(33)
+
+Podiatrist services.
+
+(34)
+
+Assisted living services as provided through
+
+home- and community-based services under Title XIX of the federal
+
+Social Security Act, as amended, subject to the availability of
+
+funds specifically appropriated for that purpose by the
+
+Legislature.
+
+(35)
+
+Services and activities authorized in Sections
+
+43-27-101 and 43-27-103, using state funds that are provided from
+S. B. No. 2568
+PAGE 28 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+the appropriation to the Mississippi Department of Human Services
+
+and used to match federal funds under a cooperative agreement
+
+between the division and the department.
+
+(36)
+
+Nonemergency transportation services for
+
+Medicaid-eligible persons as determined by the division.
+
+Committee shall conduct a performance evaluation of the
+
+nonemergency transportation program to evaluate the administration
+
+of the program and the providers of transportation services to
+
+determine the most cost-effective ways of providing nonemergency
+
+transportation services to the patients served under the program.
+
+The performance evaluation shall be completed and provided to the
+
+members of the Senate Medicaid Committee and the House Medicaid
+
+Committee not later than January 1, 2019, and every two (2) years
+
+thereafter.
+
+(37)
+
+[Deleted]
+
+(38)
+
+Chiropractic services.
+
+The PEER
+
+A chiropractor's manual
+
+manipulation of the spine to correct a subluxation, if x-ray
+
+demonstrates that a subluxation exists and if the subluxation has
+
+resulted in a neuromusculoskeletal condition for which
+
+manipulation is appropriate treatment, and related spinal x-rays
+
+performed to document these conditions.
+
+chiropractic services shall not exceed Seven Hundred Dollars
+
+($700.00) per year per beneficiary.
+
+(39)
+
+Reimbursement for
+
+Dually eligible Medicare/Medicaid beneficiaries.
+
+The division shall pay the Medicare deductible and coinsurance
+S. B. No. 2568
+PAGE 29 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+amounts for services available under Medicare, as determined by
+
+the division.
+
+reimburse crossover claims for inpatient hospital services and
+
+crossover claims covered under Medicare Part B in the same manner
+
+that was in effect on January 1, 2008, unless specifically
+
+authorized by the Legislature to change this method.
+
+From and after July 1, 2009, the division shall
+
+(40)
+
+[Deleted]
+
+(41)
+
+Services provided by the State Department of
+
+Rehabilitation Services for the care and rehabilitation of persons
+
+with spinal cord injuries or traumatic brain injuries, as allowed
+
+under waivers from the United States Department of Health and
+
+Human Services, using up to seventy-five percent (75%) of the
+
+funds that are appropriated to the Department of Rehabilitation
+
+Services from the Spinal Cord and Head Injury Trust Fund
+
+established under Section 37-33-261 and used to match federal
+
+funds under a cooperative agreement between the division and the
+
+department.
+
+(42)
+
+[Deleted]
+
+(43)
+
+The division shall provide reimbursement,
+
+according to a payment schedule developed by the division, for
+
+smoking cessation medications for pregnant women during their
+
+pregnancy and other Medicaid-eligible women who are of
+
+child-bearing age.
+
+(44)
+
+Nursing facility services for the severely
+
+disabled.
+S. B. No. 2568
+PAGE 30 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+(a)
+
+Severe disabilities include, but are not
+
+limited to, spinal cord injuries, closed-head injuries and
+
+ventilator-dependent patients.
+
+(b)
+
+Those services must be provided in a long-term
+
+care nursing facility dedicated to the care and treatment of
+
+persons with severe disabilities.
+
+(45)
+
+Physician assistant services.
+
+Services furnished
+
+by a physician assistant who is licensed by the State Board of
+
+Medical Licensure and is practicing with physician supervision
+
+under regulations adopted by the board, under regulations adopted
+
+by the division.
+
+exceed ninety percent (90%) of the reimbursement rate for
+
+comparable services rendered by a physician.
+
+provide for a reimbursement rate for physician assistant services
+
+of up to one hundred percent (100%) or the reimbursement rate for
+
+comparable services rendered by a physician for physician
+
+assistant services that are provided after the normal working
+
+hours of the physician assistant, as determined in accordance with
+
+regulations of the division.
+
+(46)
+
+Reimbursement for those services shall not
+
+The division may
+
+The division shall make application to the federal
+
+Centers for Medicare and Medicaid Services (CMS) for a waiver to
+
+develop and provide services for children with serious emotional
+
+disturbances as defined in Section 43-14-1(1), which may include
+
+home- and community-based services, case management services or
+
+managed care services through mental health providers certified by
+S. B. No. 2568
+PAGE 31 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+the Department of Mental Health.
+
+provide services under this waivered program only if funds for
+
+these services are specifically appropriated for this purpose by
+
+the Legislature, or if funds are voluntarily provided by affected
+
+agencies.
+
+(47)
+
+(a)
+
+The division may implement and
+
+The division may develop and implement
+
+disease management programs for individuals with high-cost chronic
+
+diseases and conditions, including the use of grants, waivers,
+
+demonstrations or other projects as necessary.
+
+(b)
+
+Participation in any disease management
+
+program implemented under this paragraph (47) is optional with the
+
+individual.
+
+in the disease management program in order to participate, and may
+
+elect to discontinue participation in the program at any time.
+
+An individual must affirmatively elect to participate
+
+(48)
+
+Pediatric long-term acute care hospital services.
+(a)
+
+Pediatric long-term acute care hospital
+
+services means services provided to eligible persons under
+
+twenty-one (21) years of age by a freestanding Medicare-certified
+
+hospital that has an average length of inpatient stay greater than
+
+twenty-five (25) days and that is primarily engaged in providing
+
+chronic or long-term medical care to persons under twenty-one (21)
+
+years of age.
+
+(b)
+
+The services under this paragraph (48) shall
+
+be reimbursed as a separate category of hospital services.
+
+S. B. No. 2568
+PAGE 32 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+(49)
+
+The division may establish copayments and/or
+
+coinsurance for any Medicaid services for which copayments and/or
+
+coinsurance are allowable under federal law or regulation.
+
+(50)
+
+Services provided by the State Department of
+
+Rehabilitation Services for the care and rehabilitation of persons
+
+who are deaf and blind, as allowed under waivers from the United
+
+States Department of Health and Human Services to provide home-
+
+and community-based services using state funds that are provided
+
+from the appropriation to the State Department of Rehabilitation
+
+Services or if funds are voluntarily provided by another agency.
+
+(51)
+
+Upon determination of Medicaid eligibility and in
+
+association with annual redetermination of Medicaid eligibility,
+
+beneficiaries shall be encouraged to undertake a physical
+
+examination that will establish a base-line level of health and
+
+identification of a usual and customary source of care (a medical
+
+home) to aid utilization of disease management tools.
+
+physical examination and utilization of these disease management
+
+tools shall be consistent with current United States Preventive
+
+Services Task Force or other recognized authority recommendations.
+
+This
+
+For persons who are determined ineligible for Medicaid, the
+
+division will provide information and direction for accessing
+
+medical care and services in the area of their residence.
+
+(52)
+
+Notwithstanding any provisions of this article,
+
+the division may pay enhanced reimbursement fees related to trauma
+
+care, as determined by the division in conjunction with the State
+S. B. No. 2568
+PAGE 33 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+Department of Health, using funds appropriated to the State
+
+Department of Health for trauma care and services and used to
+
+match federal funds under a cooperative agreement between the
+
+division and the State Department of Health.
+
+conjunction with the State Department of Health, may use grants,
+
+waivers, demonstrations, enhanced reimbursements, Upper Payment
+
+Limits Programs, supplemental payments, or other projects as
+
+necessary in the development and implementation of this
+
+reimbursement program.
+
+(53)
+
+The division, in
+
+Targeted case management services for high-cost
+
+beneficiaries may be developed by the division for all services
+
+under this section.
+
+(54)
+
+[Deleted]
+
+(55)
+
+Therapy services.
+
+The plan of care for therapy
+
+services may be developed to cover a period of treatment for up to
+
+six (6) months, but in no event shall the plan of care exceed a
+
+six-month period of treatment.
+
+must be indicated on the initial plan of care and must be updated
+
+with each subsequent revised plan of care.
+
+necessity, the division shall approve certification periods for
+
+less than or up to six (6) months, but in no event shall the
+
+certification period exceed the period of treatment indicated on
+
+the plan of care.
+
+services shall be consistent with the appeal process in federal
+
+regulations.
+S. B. No. 2568
+PAGE 34 (rdd\tb)
+
+The projected period of treatment
+
+Based on medical
+
+The appeal process for any reduction in therapy
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+(56)
+
+Prescribed pediatric extended care centers
+
+services for medically dependent or technologically dependent
+
+children with complex medical conditions that require continual
+
+care as prescribed by the child's attending physician, as
+
+determined by the division.
+
+(57)
+
+No Medicaid benefit shall restrict coverage for
+
+medically appropriate treatment prescribed by a physician and
+
+agreed to by a fully informed individual, or if the individual
+
+lacks legal capacity to consent by a person who has legal
+
+authority to consent on his or her behalf, based on an
+
+individual's diagnosis with a terminal condition.
+
+paragraph (57), "terminal condition" means any aggressive
+
+malignancy, chronic end-stage cardiovascular or cerebral vascular
+
+disease, or any other disease, illness or condition which a
+
+physician diagnoses as terminal.
+
+(58)
+
+As used in this
+
+Treatment services for persons with opioid
+
+dependency or other highly addictive substance use disorders.
+
+division is authorized to reimburse eligible providers for
+
+treatment of opioid dependency and other highly addictive
+
+substance use disorders, as determined by the division.
+
+related to these conditions shall not count against any physician
+
+visit limit imposed under this section.
+
+(59)
+
+Treatment
+
+The division shall allow beneficiaries between the
+
+ages of ten (10) and eighteen (18) years to receive vaccines
+
+through a pharmacy venue.
+S. B. No. 2568
+PAGE 35 (rdd\tb)
+
+The
+
+The division and the State Department
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+of Health shall coordinate and notify OB-GYN providers that the
+
+Vaccines for Children program is available to providers free of
+
+charge.
+
+(60)
+
+Border city university-affiliated pediatric
+
+teaching hospital.
+
+(a)
+
+Payments may only be made to a border city
+
+university-affiliated pediatric teaching hospital if the Centers
+
+for Medicare and Medicaid Services (CMS) approve an increase in
+
+the annual request for the provider payment initiative authorized
+
+under 42 CFR Section 438.6(c) in an amount equal to or greater
+
+than the estimated annual payment to be made to the border city
+
+university-affiliated pediatric teaching hospital.
+
+shall be based on the hospital's prior year Mississippi managed
+
+care utilization.
+
+(b)
+
+The estimate
+
+As used in this paragraph (60), the term
+
+"border city university-affiliated pediatric teaching hospital"
+
+means an out-of-state hospital located within a city bordering the
+
+eastern bank of the Mississippi River and the State of Mississippi
+
+that submits to the division a copy of a current and effective
+
+affiliation agreement with an accredited university and other
+
+documentation establishing that the hospital is
+
+university-affiliated, is licensed and designated as a pediatric
+
+hospital or pediatric primary hospital within its home state,
+
+maintains at least five (5) different pediatric specialty training
+
+programs, and maintains at least one hundred (100) operated beds
+S. B. No. 2568
+PAGE 36 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+dedicated exclusively for the treatment of patients under the age
+
+of twenty-one (21) years.
+
+(c)
+
+The cost of providing services to Mississippi
+
+Medicaid beneficiaries under the age of twenty-one (21) years who
+
+are treated by a border city university-affiliated pediatric
+
+teaching hospital shall not exceed the cost of providing the same
+
+services to individuals in hospitals in the state.
+
+(d)
+
+It is the intent of the Legislature that
+
+payments shall not result in any in-state hospital receiving
+
+payments lower than they would otherwise receive if not for the
+
+payments made to any border city university-affiliated pediatric
+
+teaching hospital.
+
+(e)
+
+July 1, 2024.
+
+(61)
+
+This paragraph (60) shall stand repealed on
+
+Services described in Section 41-140-3 that are
+
+provided by certified community health workers employed and
+
+supervised by a Medicaid provider.
+
+services shall be provided only if the division has received
+
+approval from the Centers for Medicare and Medicaid Services for a
+
+state plan amendment, waiver or alternative payment model for
+
+services delivered by certified community health workers.
+
+(62)
+
+Reimbursement for these
+
+Essential disability-related services and supports
+
+for disabled children age eighteen (18) or under.
+
+shall provide coverage and reimbursement, in a manner as
+
+determined by the division, for essential disability-related
+S. B. No. 2568
+PAGE 37 (rdd\tb)
+
+*SS26/R348*
+
+The division
+
+~ OFFICIAL ~
+
+services and supports, including, but not limited to, augmentative
+
+and alternative communication devices, in-home nursing care,
+
+behavioral therapy, developmental resources and services, diapers,
+
+and necessary medical supplies for disabled children age eighteen
+
+(18) or under.
+
+for coverage and reimbursement, and repeated or unsupported
+
+denials shall be prohibited, under this paragraph (62).
+
+(B)
+
+Timely authorization standards shall be required
+
+Planning and development districts participating in the
+
+home- and community-based services program for the elderly and
+
+disabled as case management providers shall be reimbursed for case
+
+management services at the maximum rate approved by the Centers
+
+for Medicare and Medicaid Services (CMS).
+
+(C)
+
+The division may pay to those providers who participate
+
+in and accept patient referrals from the division's emergency room
+
+redirection program a percentage, as determined by the division,
+
+of savings achieved according to the performance measures and
+
+reduction of costs required of that program.
+
+health centers may participate in the emergency room redirection
+
+program, and the division may pay those centers a percentage of
+
+any savings to the Medicaid program achieved by the centers'
+
+accepting patient referrals through the program, as provided in
+
+this subsection (C).
+
+(D)
+
+(1)
+
+Federally qualified
+
+As used in this subsection (D), the following terms
+
+shall be defined as provided in this paragraph, except as
+
+otherwise provided in this subsection:
+S. B. No. 2568
+PAGE 38 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+(a)
+
+"Committees" means the Medicaid Committees of
+
+the House of Representatives and the Senate, and "committee" means
+
+either one of those committees.
+
+(b)
+
+"Rate change" means an increase, decrease or
+
+other change in the payments or rates of reimbursement, or a
+
+change in any payment methodology that results in an increase,
+
+decrease or other change in the payments or rates of
+
+reimbursement, to any Medicaid provider that renders any services
+
+authorized to be provided to Medicaid recipients under this
+
+article.
+
+(2)
+
+Whenever the Division of Medicaid proposes a rate
+
+change, the division shall give notice to the chairmen of the
+
+committees at least thirty (30) calendar days before the proposed
+
+rate change is scheduled to take effect.
+
+furnish the chairmen with a concise summary of each proposed rate
+
+change along with the notice, and shall furnish the chairmen with
+
+a copy of any proposed rate change upon request.
+
+also shall provide a summary and copy of any proposed rate change
+
+to any other member of the Legislature upon request.
+
+(3)
+
+The division shall
+
+The division
+
+If the chairman of either committee or both
+
+chairmen jointly object to the proposed rate change or any part
+
+thereof, the chairman or chairmen shall notify the division and
+
+provide the reasons for their objection in writing not later than
+
+seven (7) calendar days after receipt of the notice from the
+
+division.
+
+The chairman or chairmen may make written
+
+S. B. No. 2568
+PAGE 39 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+recommendations to the division for changes to be made to a
+
+proposed rate change.
+
+(4)
+
+(a)
+
+The chairman of either committee or both
+
+chairmen jointly may hold a committee meeting to review a proposed
+
+rate change.
+
+meeting, they shall notify the division of their intention in
+
+writing within seven (7) calendar days after receipt of the notice
+
+from the division, and shall set the date and time for the meeting
+
+in their notice to the division, which shall not be later than
+
+fourteen (14) calendar days after receipt of the notice from the
+
+division.
+
+If either chairman or both chairmen decide to hold a
+
+(b)
+
+After the committee meeting, the committee or
+
+committees may object to the proposed rate change or any part
+
+thereof.
+
+and the reasons for their objection in writing not later than
+
+seven (7) calendar days after the meeting.
+
+committees may make written recommendations to the division for
+
+changes to be made to a proposed rate change.
+
+The committee or committees shall notify the division
+
+(5)
+
+The committee or
+
+If both chairmen notify the division in writing
+
+within seven (7) calendar days after receipt of the notice from
+
+the division that they do not object to the proposed rate change
+
+and will not be holding a meeting to review the proposed rate
+
+change, the proposed rate change will take effect on the original
+
+date as scheduled by the division or on such other date as
+
+specified by the division.
+S. B. No. 2568
+PAGE 40 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+(6)
+
+(a)
+
+If there are any objections to a proposed rate
+
+change or any part thereof from either or both of the chairmen or
+
+the committees, the division may withdraw the proposed rate
+
+change, make any of the recommended changes to the proposed rate
+
+change, or not make any changes to the proposed rate change.
+
+(b)
+
+If the division does not make any changes to
+
+the proposed rate change, it shall notify the chairmen of that
+
+fact in writing, and the proposed rate change shall take effect on
+
+the original date as scheduled by the division or on such other
+
+date as specified by the division.
+
+(c)
+
+If the division makes any changes to the
+
+proposed rate change, the division shall notify the chairmen of
+
+its actions in writing, and the revised proposed rate change shall
+
+take effect on the date as specified by the division.
+
+(7)
+
+Nothing in this subsection (D) shall be construed
+
+as giving the chairmen or the committees any authority to veto,
+
+nullify or revise any rate change proposed by the division.
+
+authority of the chairmen or the committees under this subsection
+
+shall be limited to reviewing, making objections to and making
+
+recommendations for changes to rate changes proposed by the
+
+division.
+
+(E)
+
+The
+
+Notwithstanding any provision of this article, no new
+
+groups or categories of recipients and new types of care and
+
+services may be added without enabling legislation from the
+
+Mississippi Legislature, except that the division may authorize
+S. B. No. 2568
+PAGE 41 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+those changes without enabling legislation when the addition of
+
+recipients or services is ordered by a court of proper authority.
+
+(F)
+
+The executive director shall keep the Governor advised
+
+on a timely basis of the funds available for expenditure and the
+
+projected expenditures.
+
+this article, if current or projected expenditures of the division
+
+are reasonably anticipated to exceed the amount of funds
+
+appropriated to the division for any fiscal year, the Governor,
+
+after consultation with the executive director, shall take all
+
+appropriate measures to reduce costs, which may include, but are
+
+not limited to:
+
+(1)
+
+Notwithstanding any other provisions of
+
+Reducing or discontinuing any or all services that
+
+are deemed to be optional under Title XIX of the Social Security
+
+Act;
+
+(2)
+
+Reducing reimbursement rates for any or all service
+
+(3)
+
+Imposing additional assessments on health care
+
+providers; or
+
+(4)
+
+types;
+
+Any additional cost-containment measures deemed
+
+appropriate by the Governor.
+
+To the extent allowed under federal law, any reduction to
+
+services or reimbursement rates under this subsection (F) shall be
+
+accompanied by a reduction, to the fullest allowable amount, to
+
+the profit margin and administrative fee portions of capitated
+
+S. B. No. 2568
+PAGE 42 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+payments to organizations described in paragraph (1) of subsection
+
+(H).
+
+Beginning in fiscal year 2010 and in fiscal years thereafter,
+
+when Medicaid expenditures are projected to exceed funds available
+
+for the fiscal year, the division shall submit the expected
+
+shortfall information to the PEER Committee not later than
+
+December 1 of the year in which the shortfall is projected to
+
+occur.
+
+report its findings to the Legislative Budget Office not later
+
+than January 7 in any year.
+
+(G)
+
+PEER shall review the computations of the division and
+
+Notwithstanding any other provision of this article, it
+
+shall be the duty of each provider participating in the Medicaid
+
+program to keep and maintain books, documents and other records as
+
+prescribed by the Division of Medicaid in accordance with federal
+
+laws and regulations.
+
+(H)
+
+(1)
+
+Notwithstanding any other provision of this
+
+article, the division is authorized to implement (a) a managed
+
+care program, (b) a coordinated care program, (c) a coordinated
+
+care organization program, (d) a health maintenance organization
+
+program, (e) a patient-centered medical home program, (f) an
+
+accountable care organization program, (g) provider-sponsored
+
+health plan, or (h) any combination of the above programs.
+
+condition for the approval of any program under this subsection
+
+(H)(1), the division shall require that no managed care program,
+
+coordinated care program, coordinated care organization program,
+S. B. No. 2568
+PAGE 43 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+As a
+
+health maintenance organization program, or provider-sponsored
+
+health plan may:
+
+(a)
+
+Pay providers at a rate that is less than the
+
+Medicaid All Patient Refined Diagnosis Related Groups (APR-DRG)
+
+reimbursement rate;
+
+(b)
+
+Override the medical decisions of hospital
+
+physicians or staff regarding patients admitted to a hospital for
+
+an emergency medical condition as defined by 42 US Code Section
+
+1395dd.
+
+review of the appropriateness of the determination that an
+
+emergency medical condition exists by chart review or coding
+
+algorithm, nor does it prohibit prior authorization for
+
+nonemergency hospital admissions;
+
+(c)
+
+normal Medicaid reimbursement rate.
+
+Legislature that all managed care entities described in this
+
+subsection (H), in collaboration with the division, develop and
+
+implement innovative payment models that incentivize improvements
+
+in health care quality, outcomes, or value, as determined by the
+
+division.
+
+care, coordinated care, provider-sponsored health plan, or similar
+
+contractor shall not be conditioned on the provider's agreement to
+
+accept such alternative payment models;
+
+This restriction (b) does not prohibit the retrospective
+
+It is the intent of the
+
+Participation in the provider network of any managed
+
+Pay providers at a rate that is less than the
+
+(d)
+
+Implement a prior authorization and
+
+utilization review program for medical services, transportation
+S. B. No. 2568
+PAGE 44 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+services and prescription drugs that is more stringent than the
+
+prior authorization processes used by the division in its
+
+administration of the Medicaid program.
+
+2, 2021, the contractors that are receiving capitated payments
+
+under a managed care delivery system established under this
+
+subsection (H) shall submit a report to the Chairmen of the House
+
+and Senate Medicaid Committees on the status of the prior
+
+authorization and utilization review program for medical services,
+
+transportation services and prescription drugs that is required to
+
+be implemented under this subparagraph (d);
+
+Not later than December
+
+(e)
+
+[Deleted]
+
+(f)
+
+Implement a preferred drug list that is more
+
+stringent than the mandatory preferred drug list established by
+
+the division under subsection (A)(9) of this section;
+
+(g)
+
+Implement a policy which denies beneficiaries
+
+with hemophilia access to the federally funded hemophilia
+
+treatment centers as part of the Medicaid Managed Care network of
+
+providers.
+
+Each health maintenance organization, coordinated care
+
+organization, provider-sponsored health plan, or other
+
+organization paid for services on a capitated basis by the
+
+division under any managed care program or coordinated care
+
+program implemented by the division under this section shall use a
+
+clear set of level of care guidelines in the determination of
+
+medical necessity and in all utilization management practices,
+S. B. No. 2568
+PAGE 45 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+including the prior authorization process, concurrent reviews,
+
+retrospective reviews and payments, that are consistent with
+
+widely accepted professional standards of care.
+
+participating in a managed care program or coordinated care
+
+program implemented by the division may not use any additional
+
+criteria that would result in denial of care that would be
+
+determined appropriate and, therefore, medically necessary under
+
+those levels of care guidelines.
+
+(2)
+
+Organizations
+
+Notwithstanding any provision of this section, the
+
+recipients eligible for enrollment into a Medicaid Managed Care
+
+Program authorized under this subsection (H) may include only
+
+those categories of recipients eligible for participation in the
+
+Medicaid Managed Care Program as of January 1, 2021, the
+
+Children's Health Insurance Program (CHIP), and the CMS-approved
+
+Section 1115 demonstration waivers in operation as of January 1,
+
+2021.
+
+be implemented by the division without enabling legislation from
+
+the Mississippi Legislature.
+
+No expansion of Medicaid Managed Care Program contracts may
+
+(3)
+
+(a)
+
+Any contractors receiving capitated payments
+
+under a managed care delivery system established in this section
+
+shall provide to the Legislature and the division statistical data
+
+to be shared with provider groups in order to improve patient
+
+access, appropriate utilization, cost savings and health outcomes
+
+not later than October 1 of each year.
+
+contractor shall disclose to the Chairmen of the Senate and House
+S. B. No. 2568
+PAGE 46 (rdd\tb)
+
+*SS26/R348*
+
+Additionally, each
+
+~ OFFICIAL ~
+
+Medicaid Committees the administrative expenses costs for the
+
+prior calendar year, and the number of full-equivalent employees
+
+located in the State of Mississippi dedicated to the Medicaid and
+
+CHIP lines of business as of June 30 of the current year.
+
+(b)
+
+The division and the contractors participating
+
+in the managed care program, a coordinated care program or a
+
+provider-sponsored health plan shall be subject to annual program
+
+reviews or audits performed by the Office of the State Auditor,
+
+the PEER Committee, the Department of Insurance and/or independent
+
+third parties.
+
+(c)
+
+limited to, at least two (2) of the following items:
+
+Those reviews shall include, but not be
+
+(i)
+
+The financial benefit to the State of
+
+Mississippi of the managed care program,
+
+(ii)
+
+The difference between the premiums paid
+
+to the managed care contractors and the payments made by those
+
+contractors to health care providers,
+
+(iii)
+
+required under the contracts,
+
+Administrative expense allocation
+
+(v)
+
+Whether nonprovider payments assigned as
+
+medical expenses are appropriate,
+
+(iv)
+methodologies,
+
+Compliance with performance measures
+
+(vi)
+
+Capitated arrangements with related
+
+party subcontractors,
+S. B. No. 2568
+PAGE 47 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+Reasonableness of corporate
+
+(viii)
+
+Value-added benefits and the extent to
+
+allocations,
+
+(vii)
+
+which they are used,
+
+(ix)
+
+oversight, including subcontractor review,
+
+(x)
+
+Whether health care outcomes have been
+
+(xi)
+
+The most common claim denial codes to
+
+improved, and
+
+The effectiveness of subcontractor
+
+determine the reasons for the denials.
+The audit reports shall be considered public documents and
+shall be posted in their entirety on the division's website.
+(4)
+
+All health maintenance organizations, coordinated
+
+care organizations, provider-sponsored health plans, or other
+
+organizations paid for services on a capitated basis by the
+
+division under any managed care program or coordinated care
+
+program implemented by the division under this section shall
+
+reimburse all providers in those organizations at rates no lower
+
+than those provided under this section for beneficiaries who are
+
+not participating in those programs.
+
+(5)
+
+No health maintenance organization, coordinated
+
+care organization, provider-sponsored health plan, or other
+
+organization paid for services on a capitated basis by the
+
+division under any managed care program or coordinated care
+
+program implemented by the division under this section shall
+S. B. No. 2568
+PAGE 48 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+require its providers or beneficiaries to use any pharmacy that
+
+ships, mails or delivers prescription drugs or legend drugs or
+
+devices.
+
+(6)
+
+(a)
+
+Not later than December 1, 2021, the
+
+contractors who are receiving capitated payments under a managed
+
+care delivery system established under this subsection (H) shall
+
+develop and implement a uniform credentialing process for
+
+providers.
+
+who meets the criteria for credentialing will be credentialed with
+
+all of those contractors and no such provider will have to be
+
+separately credentialed by any individual contractor in order to
+
+receive reimbursement from the contractor.
+
+December 2, 2021, those contractors shall submit a report to the
+
+Chairmen of the House and Senate Medicaid Committees on the status
+
+of the uniform credentialing process for providers that is
+
+required under this subparagraph (a).
+
+Under that uniform credentialing process, a provider
+
+(b)
+
+Not later than
+
+If those contractors have not implemented a
+
+uniform credentialing process as described in subparagraph (a) by
+
+December 1, 2021, the division shall develop and implement, not
+
+later than July 1, 2022, a single, consolidated credentialing
+
+process by which all providers will be credentialed.
+
+division's single, consolidated credentialing process, no such
+
+contractor shall require its providers to be separately
+
+credentialed by the contractor in order to receive reimbursement
+
+from the contractor, but those contractors shall recognize the
+S. B. No. 2568
+PAGE 49 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+Under the
+
+credentialing of the providers by the division's credentialing
+
+process.
+
+(c)
+
+The division shall require a uniform provider
+
+credentialing application that shall be used in the credentialing
+
+process that is established under subparagraph (a) or (b).
+
+contractor or division, as applicable, has not approved or denied
+
+the provider credentialing application within sixty (60) days of
+
+receipt of the completed application that includes all required
+
+information necessary for credentialing, then the contractor or
+
+division, upon receipt of a written request from the applicant and
+
+within five (5) business days of its receipt, shall issue a
+
+temporary provider credential/enrollment to the applicant if the
+
+applicant has a valid Mississippi professional or occupational
+
+license to provide the health care services to which the
+
+credential/enrollment would apply.
+
+shall not issue a temporary credential/enrollment if the applicant
+
+has reported on the application a history of medical or other
+
+professional or occupational malpractice claims, a history of
+
+substance abuse or mental health issues, a criminal record, or a
+
+history of medical or other licensing board, state or federal
+
+disciplinary action, including any suspension from participation
+
+in a federal or state program.
+
+credential/enrollment shall be effective upon issuance and shall
+
+remain in effect until the provider's credentialing/enrollment
+
+application is approved or denied by the contractor or division.
+S. B. No. 2568
+PAGE 50 (rdd\tb)
+
+*SS26/R348*
+
+If the
+
+The contractor or the division
+
+The temporary
+
+~ OFFICIAL ~
+
+The contractor or division shall render a final decision regarding
+
+credentialing/enrollment of the provider within sixty (60) days
+
+from the date that the temporary provider credential/enrollment is
+
+issued to the applicant.
+
+(d)
+
+If the contractor or division does not render
+
+a final decision regarding credentialing/enrollment of the
+
+provider within the time required in subparagraph (c), the
+
+provider shall be deemed to be credentialed by and enrolled with
+
+all of the contractors and eligible to receive reimbursement from
+
+the contractors.
+
+(7)
+
+(a)
+
+Each contractor that is receiving capitated
+
+payments under a managed care delivery system established under
+
+this subsection (H) shall provide to each provider for whom the
+
+contractor has denied the coverage of a procedure that was ordered
+
+or requested by the provider for or on behalf of a patient, a
+
+letter that provides a detailed explanation of the reasons for the
+
+denial of coverage of the procedure and the name and the
+
+credentials of the person who denied the coverage.
+
+shall be sent to the provider in electronic format.
+
+(b)
+
+The letter
+
+After a contractor that is receiving capitated
+
+payments under a managed care delivery system established under
+
+this subsection (H) has denied coverage for a claim submitted by a
+
+provider, the contractor shall issue to the provider within sixty
+
+(60) days a final ruling of denial of the claim that allows the
+
+provider to have a state fair hearing and/or agency appeal with
+S. B. No. 2568
+PAGE 51 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+the division.
+
+denial within sixty (60) days as required by this subparagraph
+
+(b), the provider's claim shall be deemed to be automatically
+
+approved and the contractor shall pay the amount of the claim to
+
+the provider.
+
+If a contractor does not issue a final ruling of
+
+(c)
+
+After a contractor has issued a final ruling
+
+of denial of a claim submitted by a provider, the division shall
+
+conduct a state fair hearing and/or agency appeal on the matter of
+
+the disputed claim between the contractor and the provider within
+
+sixty (60) days, and shall render a decision on the matter within
+
+thirty (30) days after the date of the hearing and/or appeal.
+
+(8)
+
+It is the intention of the Legislature that the
+
+division evaluate the feasibility of using a single vendor to
+
+administer pharmacy benefits provided under a managed care
+
+delivery system established under this subsection (H).
+
+of pharmacy benefits shall cooperate with the division in any
+
+transition to a carve-out of pharmacy benefits under managed care.
+
+(9)
+
+Providers
+
+The division shall evaluate the feasibility of
+
+using a single vendor to administer dental benefits provided under
+
+a managed care delivery system established in this subsection (H).
+
+Providers of dental benefits shall cooperate with the division in
+
+any transition to a carve-out of dental benefits under managed
+
+care.
+
+(10)
+
+It is the intent of the Legislature that any
+
+contractor receiving capitated payments under a managed care
+S. B. No. 2568
+PAGE 52 (rdd\tb)
+
+*SS26/R348*
+
+~ OFFICIAL ~
+
+delivery system established in this section shall implement
+
+innovative programs to improve the health and well-being of
+
+members diagnosed with prediabetes and diabetes.
+
+(11)
+
+It is the intent of the Legislature that any
+
+contractors receiving capitated payments under a managed care
+
+delivery system established under this subsection (H) shall work
+
+with providers of Medicaid services to improve the utilization of
+
+long-acting reversible contraceptives (LARCs).
+
+December 1, 2021, any contractors receiving capitated payments
+
+under a managed care delivery system established under this
+
+subsection (H) shall provide to the Chairmen of the House and
+
+Senate Medicaid Committees and House and Senate Public Health
+
+Committees a report of LARC utilization for State Fiscal Years
+
+through 2020 as well as any programs, initiatives, or efforts
+
+made by the contractors and providers to increase LARC
+
+utilization.
+
+information for subsequent state fiscal years.
+
+(12)
+
+Not later than
+
+This report shall be updated annually to include
+
+The division is authorized to make not more than
+
+one (1) emergency extension of the contracts that are in effect on
+
+July 1, 2021, with contractors who are receiving capitated
+
+payments under a managed care delivery system established under
+
+this subsection (H), as provided in this paragraph (12).
+
+maximum period of any such extension shall be one (1) year, and
+
+under any such extensions, the contractors shall be subject to all
+
+of the provisions of this subsection (H).
+S. B. No. 2568
+PAGE 53 (rdd\tb)
+
+*SS26/R348*
+
+The
+
+The extended contracts
+
+~ OFFICIAL ~
+
+shall be revised to incorporate any provisions of this subsection
+
+(H).
+
+(I)
+
+[Deleted]
+
+(J)
+
+There shall be no cuts in inpatient and outpatient
+
+hospital payments, or allowable days or volumes, as long as the
+
+hospital assessment provided in Section 43-13-145 is in effect.
+
+This subsection (J) shall not apply to decreases in payments that
+
+are a result of:
+
+under the APR-DRG or APC models, or a managed care program or
+
+similar model described in subsection (H) of this section.
+
+(K)
+
+reduced hospital admissions, audits or payments
+
+In the negotiation and execution of such contracts
+
+involving services performed by actuarial firms, the Executive
+
+Director of the Division of Medicaid may negotiate a limitation on
+
+liability to the state of prospective contractors.
+
+(L)
+
+The Division of Medicaid shall reimburse for services
+
+provided to eligible Medicaid beneficiaries by a licensed birthing
+
+center in a method and manner to be determined by the division in
+
+accordance with federal laws and federal regulations.
+
+division shall seek any necessary waivers, make any required
+
+amendments to its State Plan or revise any contracts authorized
+
+under subsection (H) of this section as necessary to provide the
+
+services authorized under this subsection.
+
+subsection, the term "birthing centers" shall have the meaning as
+
+defined in Section 41-77-1(a), which is a publicly or privately
+
+owned facility, place or institution constructed, renovated,
+S. B. No. 2568
+PAGE 54 (rdd\tb)
+
+*SS26/R348*
+
+The
+
+As used in this
+
+~ OFFICIAL ~
+
+leased or otherwise established where nonemergency births are
+
+planned to occur away from the mother's usual residence following
+
+a documented period of prenatal care for a normal uncomplicated
+
+pregnancy which has been determined to be low risk through a
+
+formal risk-scoring examination.
+
+(M)
+
+SECTION 3.
+
+This section shall stand repealed on July 1, 2028.
+This act shall take effect and be in force from
+
+and after July 1, 2026.
+
+S. B. No. 2568
+PAGE 55 (rdd\tb)
+
+~ OFFICIAL ~
+ST: Essential disability-related services for
+children; require Medicaid and private insurance
+coverage.
+
+*SS26/R348*
