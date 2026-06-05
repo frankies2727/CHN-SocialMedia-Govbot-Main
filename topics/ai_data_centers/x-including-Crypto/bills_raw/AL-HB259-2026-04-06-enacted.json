@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Consumer Protection",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB259",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Consumer Protection"
+    ],
+    "title": "Stablecoin; license required for issuance or sale of stablecoins, Alabama Securities Commission to enforce and authorize, penalties provided"
+  },
+  "id": "HB259",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-04-06T04:00:00+00:00",
+      "description": "Enacted",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB259"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB259/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB259/logs/20260406T040000Z.classification.became-law.lower.json"
+  }
+}

@@ -1,0 +1,1277 @@
+HB259
+
+HG1VL68-1
+
+By Representative Shaw
+
+RFD: Financial Services
+
+First Read: 15-Jan-26
+
+Page 0
+
+HG1VL68-1 01/15/2026 JWB (L)JWB 2025-3818
+
+SYNOPSIS:
+
+This bill would prohibit a person from issuing
+
+certain digital assets known as a payment stablecoins
+
+in the state unless the person is licensed as a
+
+permitted payment stablecoin issuer.
+
+This bill would authorize the Alabama Securities
+
+Commission to process and license applicants to become
+
+Alabama qualified payment stablecoin issuers.
+
+This bill would authorize the Alabama Securities
+
+Commission to implement and administer this act, and
+
+implement the federal Guiding and Establishing National
+
+Innovation for U.S. Stablecoins Act and any regulation
+
+adopted pursuant to that act.
+
+Beginning in 2028, this bill would prohibit the
+
+offer or sale of a payment stablecoin that is not
+
+issued by a permitted payment stablecoin issuer.
+
+This bill would authorize the Alabama Securities
+
+Commission to recognize certain payment stablecoins for
+
+use by a state governmental entity to make payments to
+
+vendors and contractors for goods and services
+
+rendered.
+
+This bill would authorize governmental entities
+
+to pay for contracts, if requested by the vendor or
+
+contractor, using payment stablecoins.
+
+This bill would require a governmental entity to
+Page 1
+
+give certain disclosures to vendors and contractors
+
+before entering a contract where a payment stablecoin
+
+is used as payment.
+
+This bill would also create civil and criminal
+penalties for violations of this act.
+
+A BILL
+
+TO BE ENTITLED
+
+AN ACT
+
+Relating to cryptocurrency; to add a new Chapter 7B to
+
+Title 8, Code of Alabama 1975; to prohibit a person from
+
+issuing digital assets as a payment stablecoin unless that
+
+person is a permitted payment stablecoin issuer; to prohibit
+
+the offer or sale of any payment stablecoin, beginning in
+
+2028, unless the payment stablecoin is issued by a permitted
+
+payment stablecoin issuer; to authorize the use of certain
+
+authorized payment stablecoins to make payments to vendors and
+
+contractors; to require payment to vendors and contractors to
+
+be made by payment stablecoin beginning in 2031; to authorize
+
+the Alabama Securities Commission to process and license
+
+applicants to become Alabama qualified payment stablecoin
+
+issuers; to authorize the Alabama Securities Commission to
+
+enforce and implement this act, the GENIUS Act, and any
+
+federal regulation adopted under that act; and to create civil
+
+and criminal penalties for violations.
+
+BE IT ENACTED BY THE LEGISLATURE OF ALABAMA:
+Page 2
+
+Section 1. Chapter 7B, commencing with Section 8-7B-1,
+
+is added to Title 8, Code of Alabama 1975, to read as follows:
+
+Chapter 7B
+
+§8-7B-1
+
+(a) This chapter shall be known and may be cited as the
+
+Financial Innovation and Market Expansion Act.
+
+(b) The intent of this chapter is to implement Section
+
+4(c) of the federal Guiding and Establishing National
+
+Innovation for U.S. Stablecoins Act, 12 U.S.C. § 5903(c),
+
+governing regulation of payement stablecoins at the state
+
+level.
+
+§8-7B-2
+
+For the purposes of this act, the following terms have
+
+the following meanings:
+
+(1) ALABAMA QUALIFIED PAYMENT STABLECOIN ISSUER. A
+
+stablecoin issuer licensed and approved by the commission
+
+through the licensing process in 8-7B-5.
+
+(2) AUTHORIZED PAYMENT STABLECOIN. A payment stablecoin
+that complies with the requirements of Section 8-7B-4.
+
+(3) COMMISSION. The Alabama Securities Commission.
+
+(4) COMPTROLLER. The Office of the Comptroller of the
+
+Currency.
+
+(5) DIGITAL ASSET SERVICE PROVIDER. A person that, in
+
+the United States and for compensation or profit, engages in
+
+the business of exchanging digital assets for monetary value,
+
+exchanging digital assets for other digital assets,
+
+transferring digital assets to a third party, acting as a
+
+digital asset custodian, or participating in financial
+Page 3
+
+services relating to digital asset insurance. The term does
+
+not include a person that engages in the business of
+
+developing or operating distributed ledger protocols,
+
+self-custodial software interfaces, or validating transactions
+
+through a distributed ledger. The term does not include a
+
+person that participates in a liquidity poll or other similar
+
+mechanism for the provisioning of liquidity for peer-to-peer
+
+transactions.
+
+(6) GENIUS ACT. The Guiding and Establishing National
+
+Innovation for U.S. Stablecoins Act, 12 U.S.C. §§ 5901-5916.
+
+(7) GOVERNMENTAL ENTITY. Any state or local agency or
+
+instrumentality thereof located in the state.
+(8) INTENTIONALLY. A person acts intentionally with
+
+respect to a result or to conduct described by a statute
+
+defining an offense, when his or her purpose is to cause that
+
+result or to engage in that conduct.
+
+(9) KNOWINGLY. A person acts knowingly with respect to
+
+conduct or to a circumstance described by a statute defining
+
+an offense when he or she is aware that his or her conduct is
+
+of that nature or that the circumstance exists.
+
+(10) OPEN, PUBLIC, OR DECENTRALIZED NETWORK. A
+
+blockchain network that is open to use by the public without
+
+permission of use by governing authorities or a network that
+
+is operated using distributed ledger technology, where the
+
+data is stored in separate physical locations.
+
+(11) PAYMENT STABLECOIN. A digital asset or assets
+
+designed to maintain a stable value that is, or is designed to
+
+be, used as a means of payment or settlement. The issuer of
+Page 4
+
+the token:
+a. Is obligated to convert, redeem, or repurchase the
+token for a fixed amount of monetary value; and
+
+b. Represents, or creates the reasonable expectation,
+
+that the token will maintain a stable value relative to the
+
+value of a fixed amount of monetary value.
+
+(12) PERMITTED PAYMENT STABLECOIN ISSUER. A person
+
+formed in the United States that is one of the following:
+
+a. A subsidiary of an insured depository institution
+
+that has been approved to issue payment stablecoins under
+
+Section 5 of the GENIUS Act, 12 U.S.C. § 5904.
+
+b. A nonbank entity approved by the comptroller,
+
+pursuant to Section 5 of the GENIUS Act, 12 U.S.C. § 5904, to
+
+issue payment stablecoins.
+
+c. An uninsured national bank that is chartered by the
+
+comptroller and is approved by the comptroller, pursuant to
+
+Section 5 of the GENIUS Act, 12 U.S.C. § 5904, to issue
+
+payment stablecoins.
+
+d. A federal branch that is approved by the
+
+comptroller, pursuant to Section 5 of the GENIUS Act, 12
+
+U.S.C. § 5904, to issue payment stablecoins.
+
+e. An entity legally established under the laws of a
+
+state and approved to issue payment stablecoins by a state
+
+payment stablecoin regulator, including Alabama qualified
+
+payment stablecoin issuers.
+
+§8-7B-3
+
+(a) No person may issue a payment stablecoin in the
+
+state, unless that person is a permitted payment stablecoin
+Page 5
+
+issuer.
+
+(b) Beginning on July 18, 2028, no digital asset
+
+service provider may offer or sell a payment stablecoin to a
+
+person in the state, unless the payment stablecoin is issued
+
+by a permitted payment stablecoin issuer.
+
+(c) This section shall not apply to the following
+transactions:
+(1) Any direct transfer of payment stablecoin between
+
+two individuals, each acting on his or her own behalf and for
+
+his or her own lawful purposes, without the involvement of an
+
+intermediary.
+
+(2) Any transaction involving the receipt of payment
+
+stablecoin by an individual between an account owned by the
+
+individual in the United States and an account owned by the
+
+individual abroad which are offered by the same parent
+
+company.
+
+(3) Any transaction by means of a software or hardware
+
+wallet that facilitates an individual's own custody of payment
+
+stablecoin.
+
+§8-7B-4
+
+(a)(1) Once the commission authorizes a payment
+
+stablecoin under subsection (b), governmental entities may use
+
+a payment stablecoin issued by a permitted payment stablecoin
+
+issuer to make payments to vendors or contractors for
+
+contracted goods or services.
+
+(2) Vendors and contractors may elect to receive
+
+payment in an authorized payment stablecoin through procedures
+
+established pursuant to Section 8-7B-9. No vendor or
+Page 6
+
+contractor shall be required to accept payment stablecoin as
+
+consideration.
+
+(3) If the vendor or contractor elects to receive
+
+payment in a payment stablecoin, the payment shall be
+
+enforceable as satisfaction of the monetary obligations owed
+
+by the state.
+
+(b) The commission may recognize and authorize any
+
+payment stablecoin that complies with the following
+
+requirements:
+
+(1) The payment stablecoin is issued by a permitted
+
+payment stablecoin issuer that is incorporated and
+
+headquartered in the United States.
+
+(2) The permitted payment stablecoin issuer has
+
+corporate founders and controlling shareholders who are United
+
+States citizens.
+
+(3) The payment stablecoin is fully backed on a
+
+one-to-one basis by the United States dollar or short-term
+
+United States Treasury obligations.
+
+(4) The permitted payment stablecoin issuer maintains
+
+reserves held in accounts with United States-chartered banks
+
+or federally regulated custodians.
+
+(5) The payment stablecoin is redeemable at par value
+on demand by holders.
+
+(6) The payment stablecoin is subject to quarterly
+
+independent attestations by an accounting firm registered with
+
+the Public Company Accounting Oversight Board.
+
+(7) The permitted payment stablecoin issuer publishes
+monthly reserve reports disclosing asset composition and
+Page 7
+
+location.
+
+(8) The permitted payment stablecoin issuer and payment
+
+stablecoin both operate in compliance with the GENIUS Act and
+
+all regulations issued thereunder.
+
+(c) The commission shall not authorize any payment
+stablecoin if the payment stablecoin is:
+(1) Issued by any entity that is headquartered outside
+of the United States;
+(2) Issued by any entity that is controlled by
+individuals who are not citizens of the United States;
+(3) Backed by synthetic assets, commodities, foreign
+currencies, or other digital assets; or
+(4) Issued by a person that is not a permitted payment
+stablecoin issuer.
+(d) The commission shall maintain a list of authorized
+
+payment stablecoins under subsection (b) and shall publish the
+
+list on the commission's website.
+
+(e) The commission shall conduct an annual review of
+
+all authorized stablecoins and may suspend or revoke
+
+recognition of any token that fails to meet the requirements
+
+in subsections (c) or (d).
+
+(f) Before entering an agreement to pay vendors and
+
+contractors with an authorized stablecoin under this section,
+
+the governmental entity shall provide a disclosure to the
+
+vendor or contractor that outlines the redemption rights and
+
+procedures of the applicable payment stablecoin, the reserve
+
+backing and audit requirements for payment stablecoins under
+
+this chapter and the GENIUS Act, and the risks that are
+Page 8
+
+associated with digital asset custody and use.
+
+§8-7B-5
+
+(a)(1) The commission shall receive, review, and
+
+consider for approval applications from any person that seeks
+
+to issue or sell payment stablecoins as an Alabama qualified
+
+payment stablecoin issuer, and the commission shall establish
+
+a process and framework for the licensing, regulation,
+
+examination, and supervision of such entities, through the
+
+adoption of rules pursuant to Section 8-7B-9.
+
+(2) The commission, upon receipt of a substantially
+
+complete application received under subdivision (1), shall
+
+evaluate and make a determination on each application based
+
+only on the criteria established under this chapter, and rules
+
+adopted pursuant to this chapter.
+
+(b) The commission shall consider the following factors
+
+when determining whether an applicant, who submitted a
+
+substantially complete application, shall be licensed as an
+
+Alabama qualified payment stablecoin issuer:
+
+(1) The ability of the applicant, based on the
+
+applicant's financial condition and resources, to meet the
+
+requirements set forth under 12 U.S.C. § 5903.
+
+(2) Whether an individual who has been convicted of a
+
+felony offense involving insider trading, embezzlement,
+
+cybercrime, money laundering, financing of terrorism, or
+
+financial fraud is serving as an officer or director of the
+
+applicant.
+
+(3) The competence, experience, and integrity of the
+officers, directors, and principal shareholders of the
+Page 9
+
+applicant, its subsidiaries, and parent company, including:
+
+a. The record of those officers, directors, and
+
+principal shareholders of compliance with laws and
+
+regulations; and
+
+b. The ability of those officers, directors, and
+
+principal shareholders to fulfill any commitments to, and any
+
+conditions imposed by, the commission in connection with the
+
+application at issue and any prior applications.
+
+(4) Whether the redemption policy of the applicant
+meets the standards under 12 U.S.C. § 5903.
+(5) Any other factors established under federal
+
+regulations pursuant to the GENIUS Act or rules adopted
+
+pursuant to this chapter which are necessary to ensure the
+
+safety and soundness of the Alabama qualified payment
+
+stablecoin issuer.
+
+(c) The commission shall render a decision on a
+
+substantially complete application submitted under subsection
+
+(a) no later than 120 days after receipt of the application.
+
+(d)(1) For purposes of this section an application
+
+shall be considered substantially complete if the application
+
+contains sufficient information for the commission to render a
+
+decision on whether the applicant satisfies the factors
+
+described in subsection (a).
+
+(2) No later than 30 days after receiving any
+
+application, the commission shall notify the applicant as to
+
+whether the commission considers the application to be
+
+substantially complete and, if the application is not
+
+substantially complete, the additional information the
+Page 10
+
+applicant must provide in order for the application to be
+
+considered substantially complete.
+
+(3) An application considered substantially complete
+
+under this subsection shall remain substantially complete
+
+unless there is a material change in circumstances that
+
+requires the commission to treat the application as a new
+
+application.
+
+(e)(1) The commission may only deny a substantially
+
+complete application received if the commission determines
+
+that the activities of the applicant would include any conduct
+
+that would authorize the commission to suspend or revoke a
+
+license under Section 8-7B-10(a).
+
+(2) The issuance of a payment stablecoin on an open,
+
+public, or decentralized network shall not be a valid ground
+
+for denial of an application.
+
+(f) If the commission denies a substantially complete
+
+application received under subsection (a), the commission no
+
+later than 30 days after the date of denial, shall provide the
+
+applicant with written notice explaining the denial with
+
+specificity, including all findings made by the commission
+
+with respect to all identified material shortcomings in the
+
+application, including actionable recommendations on how the
+
+applicant could address the identified material shortcomings.
+
+(g) The denial of an application under subsection (e)
+
+shall not prohibit the applicant from filing any subsequent
+
+application.
+
+§8-7B-6
+
+A provider is not required to obtain any other license
+Page 11
+
+or charter, except for the requirement under this chapter, to
+
+perform the activities permitted in Section 8-7B-3.
+
+§8-7B-7
+
+No later than 180 days after the approval of an
+
+application, and afterwards on an annual basis, each Alabama
+
+qualified payment stablecoin issuer shall submit to the
+
+commission a certification that the issuer has implemented
+
+anti-money laundering and economic sanctions compliance
+
+programs that are reasonably designed to prevent the Alabama
+
+qualified payment stablecoin issuer from facilitating money
+
+laundering, in particular, facilitating money laundering for
+
+cartels and organizations designated as foreign terrorist
+
+organizations under 8 U.S.C. § 1189 and the financing of
+
+terrorist activities, consistent with the requirements of the
+
+GENIUS Act.
+
+§8-7B-8
+
+(a) An Alabama qualified payment stablecoin issuer
+
+shall comply with 12 U.S.C. § 5902(a) and any regulations
+
+adopted by federal governmental entities implementing the
+
+GENIUS Act.
+
+(b) The commission, through the adoption of rules
+
+pursuant to Section 8-7B-9 or other means of notice, shall
+
+identify the federal laws and regulations applicable to
+
+Alabama qualified payment stablecoin issuers. The commission
+
+shall ensure that the minimum federal requirements apply to
+
+all Alabama qualified payment stablecoin issuers in the state.
+
+§8-7B-9
+
+(a)(1) The commission shall adopt rules to administer
+Page 12
+
+and implement this chapter. These rules may include provisions
+
+that govern the recovery of the cost of administering and
+
+enforcing this chapter by imposing and collecting fees, fines,
+
+penalties, and costs associated with applications,
+
+examinations, investigations, and other actions required to
+
+implement this chapter.
+
+(2) The rules adopted under subsection (a) shall
+include the following:
+
+a. The establishment of a secure system for processing
+payments made under Section 8-7B-4.
+
+b. The technical integration of payment stablecoin
+payment systems with state accounting and payment systems.
+
+c. Security and fraud prevention measures.
+
+d. The creation of educational material regarding the
+
+use of payment stablecoins.
+(b) The commission may conduct an examination or
+
+investigation of an Alabama qualified payment stablecoin
+
+issuer or otherwise take action authorized by this chapter or
+
+by a rule adopted or order issued under this chapter as
+
+reasonably necessary or appropriate to administer and
+
+implement this chapter, federal regulations implementing the
+
+GENIUS Act, and other applicable state and federal law. In
+
+performing the examination or investigation, the commission
+
+may:
+
+(1) Conduct an on-site or off-site examination of the
+
+Alabama qualified payment stablecoin issuer as the commission
+
+may reasonably require;
+
+(2) Conduct an examination in conjunction with other
+Page 13
+
+state agencies or federal government agencies;
+(3) Accept the examination report of another state
+
+agency or federal government agency, or a report prepared by
+
+an independent accounting firm, which, upon being accepted by
+
+the commission, shall be considered an official report of the
+
+commission; and
+
+(4) Summon and examine, under oath, individuals or
+
+employees of an Alabama qualified payment stablecoin issuer
+
+and require the individuals to produce records regarding any
+
+matter related to the condition and business of the licensee
+
+or an agent of the licensee.
+
+(c) An Alabama qualified payment stablecoin issuer
+
+shall provide, and the commission shall have full and complete
+
+access to, all records the commission may reasonably require
+
+to conduct an examination. The records must be provided at the
+
+location and in the format specified by the commission,
+
+provided the commission may utilize multistate record
+
+production standards and examination procedures when such
+
+standards will reasonably achieve the requirements of this
+
+section.
+
+(d) Unless otherwise directed by the commission, a
+
+licensee shall pay all costs reasonably incurred in connection
+
+with an examination of the licensee or the licensee's
+
+authorized delegates.
+
+(e) Information obtained during any examination under
+
+this chapter may be disclosed only as prescribed in Section
+
+8-7B-16.
+
+(f) In the course of an examination or investigation
+Page 14
+
+under subsection (b), the commission may do any of the
+
+following:
+
+(1) Make such public or private investigations within
+
+or outside of this state as it deems necessary to determine
+
+whether: (i) any license under this chapter should be granted,
+
+denied, suspended, or revoked; (ii) any person has violated or
+
+is about to violate any provision of this chapter or any rule
+
+or order issued under this chapter; or (iii) any enforcement
+
+measures are necessary to be imposed on an Alabama qualified
+
+payment stablecoin issuer under this chapter.
+
+(2) Require or permit any person to file a statement in
+
+writing, under oath, or otherwise as the commission may
+
+determine, as to all the facts and circumstances concerning
+
+the matter to be investigated.
+
+(3) Publish information concerning any violation of
+
+this chapter or any rule or order adopted or issued under this
+
+chapter.
+
+(4) Administer oaths and affirmations, subpoena
+
+witnesses, compel their attendance, take evidence, and require
+
+the production of any books, papers, correspondence,
+
+memoranda, agreements, or other documents or records which the
+
+commission deems relevant to the inquiry.
+
+(g) In case of refusal to obey a subpoena, upon
+
+application by the commission, the Circuit Court of Montgomery
+
+County may issue an order to the person failing to obey the
+
+subpoena requiring the individual to appear before the
+
+commission or the officer designated by it, to produce
+
+documentary evidence if so ordered, or to give evidence
+Page 15
+
+touching the matter under investigation or in question. The
+
+court may hold any person who fails to obey an order of the
+
+court in contempt of court.
+
+(h) No person is excused from attending and testifying
+
+or from producing any document or record before the commission
+
+or any officer designated by it, in any proceeding instituted
+
+by the commission, on the ground that the testimony or
+
+evidence, documentary or otherwise, required of the person may
+
+tend to incriminate him or her or subject him or her to a
+
+penalty or forfeiture. No individual may be prosecuted or
+
+subjected to any penalty or forfeiture using or based on
+
+information he or she offered after asserting such privilege,
+
+except that the individual so testifying shall not be exempt
+
+from prosecution and punishment for perjury committed in so
+
+testifying. Nothing in this section shall prohibit the
+
+commission from prosecuting any person compelled to testify or
+
+provide evidence, if the commission has sufficient evidence,
+
+derived from other sources not discovered, derived, or
+
+revealed from such compelled testimony or evidence, to sustain
+
+a prosecution for a violation under this chapter.
+
+(i) The commission may prescribe additional enforcement
+
+procedures under subsection (a) to ensure compliance with the
+
+GENIUS Act.
+
+(j) The commission shall submit an annual report to the
+
+Legislature which shall include the current list of authorized
+
+payment stablecoins, the volume of transactions and cost
+
+savings, assessment of risks and safeguards, and any
+
+recommendations for legislative changes. The report shall be
+Page 16
+
+made publicly available on the commission's website.
+
+(k) This chapter shall not apply to an Alabama
+
+qualified payment stablecoin issuer to the extent that federal
+
+law precludes or preempts or has been determined to preclude
+
+or preempt the application of the provisions of this chapter
+
+to any Alabama qualified payment stablecoin issuer.
+
+(l) In addition to any other exempt positions as
+
+otherwise allowed by law, the exempt positions in the
+
+commission shall include up to three highly trained, highly
+
+specialized securities professionals.
+
+§8-7B-10
+
+(a) The commission may suspend or revoke a license if
+
+the Alabama qualified payment stablecoin issuer:
+(1) Violates this chapter or a rule adopted or an order
+issued under this chapter;
+(2) Does not cooperate with an examination or
+investigation by the commission;
+(3) Engages in fraud, intentional misrepresentation, or
+gross negligence;
+(4) The competence, experience, character, or general
+
+fitness of the issuer, person in control of an issuer, key
+
+individual, or responsible individual of the authorized
+
+delegate indicates that it is not in the public interest to
+
+permit the issuer to issue a payment stablecoin;
+
+(5) Engages in an unsafe or unsound practice; or
+
+(6) Is insolvent, suspends payment of its obligations,
+
+or makes a general assignment for the benefit of its
+
+creditors.
+Page 17
+
+(b) In determining the severity of the violation, the
+
+commission may consider the size and condition of the issuer's
+
+payment stablecoin issuance, the magnitude of the loss, the
+
+gravity of the violation of this chapter, and the previous
+
+conduct of the person involved.
+
+§8-7B-11
+
+(a) If the commission determines that any person has
+
+engaged in or is about to engage in any act or practice
+
+constituting a violation of this chapter or a rule adopted or
+
+an order issued under this chapter, the commission, in its
+
+discretion, may do any of the following:
+
+(1) Issue an order, with or without a prior hearing or
+
+notice, against the person or persons engaged in the act or
+
+practice, directing them to cease and desist from engaging in
+
+the act or practice.
+
+(2) Issue an order appointing a receiver or conservator
+over a respondent or the respondent's assets.
+(3) Order restitution or disgorgement against any
+
+person who has violated this chapter or any rule adopted or
+
+order issued pursuant to this chapter.
+
+(4) Bring an action in the Circuit Court of Montgomery
+
+County to enjoin an action or practice and to enforce
+
+compliance with this chapter or any rule adopted or order
+
+issued pursuant to this chapter. Upon a proper showing, the
+
+court may issue a temporary restraining order or permanently
+
+enjoin any unlawful act or practice.
+
+(b) The commission shall not be required to post a bond
+for any actions taken pursuant to subsection (a).
+Page 18
+
+§8-7B-12
+
+(a) Any person aggrieved by an order or denial issued
+
+under this chapter shall be entitled to a hearing, as
+
+authorized for contested cases, pursuant to the Administrative
+
+Procedure Act, Chapter 22 of Title 41, if the aggrieved
+
+person, within 28 days after delivery of the order or denial,
+
+submits a written request for a hearing before the commission.
+
+The order shall disclose the right to a hearing upon written
+
+request within 28 days after delivery of the order. If no
+
+timely request for a hearing is made, the order shall
+
+constitute a final order of the commission.
+
+(b) Any appeal from any final order of the commission
+
+shall be made to the Circuit Court of Montgomery County and
+
+shall be governed by the provisions of the Administrative
+
+Procedure Act, Chapter 22 of Title 41, pertaining to judicial
+
+review.
+
+§8-7B-13
+
+The commission may enter into a consent order at any
+
+time with a person to resolve a matter arising under this
+
+chapter or a rule adopted or order issued under this chapter.
+
+A consent order must be signed by the person to whom it is
+
+issued or by the person's authorized representative, and must
+
+indicate agreement with the terms contained in the order.
+
+§8-7B-14
+
+(a) It is unlawful for any person, in connection with
+
+the offer, sale, or purchase of any stablecoin, directly or
+
+indirectly, to knowingly:
+
+(1) Employ any device, scheme, or artifice to defraud a
+Page 19
+
+person;
+
+(2) Make any untrue statement of a material fact or to
+
+omit to state a material fact necessary in order to make the
+
+statements made not misleading in the light of the
+
+circumstances under which they are made; or
+
+(3) Engage in any act, practice, or course of business
+
+that operates or would operate as a fraud or deceit upon any
+
+person.
+
+(b)(1) A person that knowingly violates subsection (a),
+(b), or (c) shall be guilty of a Class B felony.
+
+(2) The limitations period for any prosecution under
+
+this section does not commence or begin to accrue until the
+
+discovery of the facts constituting the deception, after which
+
+the prosecution shall be commenced within five years.
+
+(c) A person that intentionally makes a false
+
+statement, misrepresentation, or false certification in a
+
+record filed or required to be maintained under this chapter
+
+or intentionally makes a false entry or omits a material entry
+
+in such a record is guilty of a Class C felony.
+
+(d) A person that intentionally engages in an activity
+
+for which a license is required under this chapter without
+
+being licensed under this chapter and who receives more than
+
+five thousand dollars ($5,000) in compensation within a 30-day
+
+period from this activity is guilty of a Class C felony.
+
+(e) A person that intentionally engages in an activity
+
+for which a license is required under this chapter without
+
+being licensed under this chapter and who receives five
+
+thousand dollars ($5,000) or less in compensation within a
+Page 20
+
+30-day period from this activity is guilty of a Class D
+
+felony.
+
+(f) The enforcement of this chapter shall be vested in
+
+the commission. It is the duty of the commission to enforce
+
+this chapter and to investigate, prevent, and detect
+
+violations of this chapter. The commission is vested with the
+
+rights, privileges, and powers conferred by law upon district
+
+attorneys, including the power to appear before grand juries
+
+and to interrogate witnesses before such grand jury. A
+
+district attorney may empower the commission to proceed on his
+
+or her behalf in any proceeding under this chapter.
+
+(g) In any proceeding under this chapter, intent or
+
+knowledge need not be alleged and proved in prosecutions of
+
+violations involving unlicensed issuers.
+
+(h) A proceeding under this chapter shall not preempt
+
+or foreclose any criminal action or liability which may arise
+
+under any other criminal provision.
+
+§8-7B-15
+
+(a) The commission may assess a civil penalty against a
+
+person that violates this chapter or a rule adopted or an
+
+order issued under this chapter in an amount not to exceed one
+
+hundred thousand dollars ($100,000) per day for each day the
+
+violation is outstanding, plus the state's costs and expenses
+
+for the investigation and prosecution of the matter, including
+
+reasonable attorney fees. All assessments collected under this
+
+section shall be deposited in the State General Fund.
+
+(b) The commission may assess an administrative charge
+for the actual cost of any investigation resulting from any
+Page 21
+
+violation of this chapter, a violation of any rule or order
+
+issued under this chapter, or the cost of any examination made
+
+by the commission pursuant to this chapter, to the person or
+
+persons subject to the investigation or examination. All
+
+charges assessed for costs shall be deposited in the Alabama
+
+Securities Commission Fund in the State Treasury to be drawn
+
+upon by the commission for its use in the administration of
+
+this chapter.
+
+(c) For the purposes of determining the amount or
+
+extent of an administrative assessment, if any, to be imposed
+
+under this section, the commission shall consider among other
+
+factors, the frequency, persistence, and willfulness of the
+
+conduct constituting a violation of any provision of this
+
+chapter or any rule or order issued under this chapter, and
+
+the number of persons adversely affected by the conduct.
+
+(d) The administrative assessment under this section is
+
+in addition to any other penalty, remedy, or sanction that may
+
+be imposed under this chapter.
+
+§8-7B-16
+
+(a) Except as otherwise provided in subsection (b), all
+
+information or reports obtained by the commission from the
+
+applicant, licensee, or authorized delegate and all
+
+information contained in or related to examination,
+
+investigation, operation, or condition reports prepared by, or
+
+on behalf of, or for the use of the commission, are
+
+confidential and are not subject to disclosure under Article 3
+
+of Chapter 12, Title 36.
+
+(b) The commission may disclose information not
+Page 22
+
+otherwise subject to disclosure under subsection (a) to
+
+representatives of state and federal agencies, provided the
+
+agencies submit an undertaking to maintain the confidentiality
+
+of the information in a record.
+
+(c) This section shall not prohibit the commission from
+
+disclosing to the public a list of persons licensed under this
+
+chapter or the aggregated financial data concerning those
+
+licensees.
+
+§8-7B-17
+
+In any insolvency proceeding of an Alabama qualified
+
+payment stablecoin issuer, including any insolvency proceeding
+
+administered by the commission, the following shall apply:
+
+(1) The claim of a person holding any payment
+
+stablecoin issued by the Alabama qualified payment stablecoin
+
+issuer shall have priority, on a ratable basis with the claims
+
+of other persons holding the payment stablecoin, over the
+
+claims of the Alabama qualified payment stablecoin issuer and
+
+any other holder of claims against the Alabama qualified
+
+payment stablecoin issuer, with respect to required payment
+
+stablecoin reserves.
+
+(2) Notwithstanding any other provision of law, any
+
+person holding a payment stablecoin issued by the Alabama
+
+qualified payment stablecoin issuer shall be deemed to hold a
+
+claim.
+
+(3) The priority under subdivision (1) shall not apply
+
+to claims other than those arising directly from the holding
+
+of payment stablecoins.
+
+Section 2. This act shall become effective on October
+Page 23
+
+1, 2026.
+
+Page 24
