@@ -48,7 +48,7 @@ TOPIC = load_active_topic()
 STATE_FILE = TOPIC.x_state_file_path()
 
 POST_LIMIT = int(os.environ.get("POST_LIMIT", "2"))
-MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "150"))
+MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "62"))
 DRY_RUN = os.environ.get("DRY_RUN") == "1"
 
 # Persistence knobs, independent of DRY_RUN. Default both ON so existing
