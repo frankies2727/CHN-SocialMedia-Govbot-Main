@@ -180,14 +180,18 @@ def _weighted_truncate(text: str, max_weight: int) -> str:
     return ""
 
 
-def x_summary_budget(b: dict, headline: str) -> int:
+def x_summary_budget(b: dict, headline: str, include_link_notice: bool = True) -> int:
     """Character budget available for the summary block inside an X post,
     given the head (emoji + state + id + display), the action line, and
     the ``Link to bill in reply.`` notice that will sit alongside it.
     Returned so the caller can ask the LLM for a summary that fits
     cleanly instead of relying on compose_x_post's post-hoc trim — when
     the trim fires it just lops off the tail of the model's sentence at
-    a word boundary, which usually drops the most concrete clause."""
+    a word boundary, which usually drops the most concrete clause.
+
+    Set ``include_link_notice=False`` when the bill's URL won't be posted
+    as a same-tweet reply (e.g. the weekly digest collects every link into
+    a single final post), so the summary reclaims that ~22 chars."""
     emoji = TOPIC.emoji_for(b)
     state_label = b["state"] or "?"
     display = best_display_text(b, headline=headline).strip()
@@ -196,7 +200,7 @@ def x_summary_budget(b: dict, headline: str) -> int:
     action_line = format_action_line(b["action_desc"], b["action_date"])
     action_block_len = x_weighted_len(f"\n\n{action_line}") if action_line else 0
     url = link_for(b)
-    notice_block_len = x_weighted_len(REPLY_NOTICE_BLOCK) if url else 0
+    notice_block_len = x_weighted_len(REPLY_NOTICE_BLOCK) if (url and include_link_notice) else 0
     # The summary itself is preceded by "\n\n" (2 chars). Anything below
     # MIN_SUMMARY_CHARS isn't worth asking the model for — drop the block.
     summary_sep_len = 2
@@ -209,14 +213,20 @@ def x_summary_budget(b: dict, headline: str) -> int:
 MIN_SUMMARY_CHARS = 60
 
 
-def compose_x_post(b: dict, summary: str, headline: str = "") -> tuple[str, str]:
+def compose_x_post(b: dict, summary: str, headline: str = "",
+                   include_link_notice: bool = True) -> tuple[str, str]:
     """Return (main_tweet_text, bill_url). The bill URL is NOT in the main
     text — it's intended to be posted as a reply so the main tweet doesn't
     spend ~25 chars of t.co budget on a link. The main text gets a
-    ``Link to bill in reply.`` notice when a URL is available."""
+    ``Link to bill in reply.`` notice when a URL is available.
+
+    Set ``include_link_notice=False`` to drop that notice — used by the
+    weekly digest, which threads every bill's link into a single final
+    post rather than a per-bill reply, so the per-bill notice would be
+    misleading. The URL is still returned so the caller can collect it."""
     emoji = TOPIC.emoji_for(b)
     url = link_for(b)
-    notice_block = REPLY_NOTICE_BLOCK if url else ""
+    notice_block = REPLY_NOTICE_BLOCK if (url and include_link_notice) else ""
 
     state_label = b["state"] or "?"
     display = best_display_text(b, headline=headline).strip()

@@ -1,0 +1,150 @@
+name: govbot-x-weekly-digest
+
+on:
+  # Friday 21:30 UTC = ~4:30 pm ET (5:30 pm EDT) -- mirrors the Bluesky digest
+  # (which runs at 21:00) but a half-hour later so the two don't race the
+  # shared govbot fetch / Ollama install on the same runner pool.
+  schedule:
+    - cron: "30 21 * * FRI"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: govbot-x-weekly-digest
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+# The X feed is a single account (one set of X_* secrets), so the X digest
+# runs for the one X-enabled topic rather than looping every topics/ folder
+# the way the all-Bluesky-accounts digest does. Set BOT_TOPIC below if the X
+# bot is ever pointed at a different topic.
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    env:
+      LLM_MODEL: "gemma3:4b"
+      BOT_TOPIC: "ai_data_centers"
+      DRY_RUN: "0"
+      DIGEST_LOOKBACK_DAYS: "7"
+      DIGEST_MAX_HIGHLIGHTS: "6"
+      DIGEST_PER_STATE_CAP: "2"
+
+    steps:
+      - name: Free disk space
+        # ubuntu-latest ships with ~14 GB free; govbot clones across 50+ states
+        # plus the Ollama LLM blow past that, which makes the runner crash with
+        # "No space left on device". Strip out preinstalled tooling we never
+        # use to recover ~30 GB before anything else runs.
+        uses: jlumbroso/free-disk-space@v1.3.1
+        with:
+          tool-cache: false
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: false
+          docker-images: true
+          swap-storage: true
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install poppler-utils (pdftotext)
+        # Lets scripts/bill_text.py extract full bill text from PDFs for the
+        # digest summaries; degrades gracefully to abstract-only if absent.
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+
+      - name: Install Python deps
+        run: pip install -r requirements.txt
+
+      - name: Install govbot, fetch all supported states, dump JSONL
+        run: |
+          curl -fsSL https://raw.githubusercontent.com/chihacknight/govbot/main/actions/govbot/scripts/install-nightly.sh | bash
+          export PATH="$HOME/.govbot/bin:$PATH"
+          govbot --version || true
+
+          STATES="al ak az ar ca co ct de fl ga hi id il in ia ks ky la me md ma mi mn ms mo mt ne nv nh nj nm ny nc nd oh ok or pa ri sc sd tn tx ut vt va wa wv wi wy dc pr"
+          for state in $STATES; do
+            echo "--- Cloning $state ---"
+            govbot clone "$state" 2>&1 || echo "  SKIPPED $state (not supported by govbot)"
+          done
+
+          govbot logs --limit 6200 > bills.jsonl
+          echo "bills.jsonl is $(wc -l < bills.jsonl) lines"
+
+      - name: Cache Ollama model
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama/models
+          key: ollama-models-${{ env.LLM_MODEL }}-v1
+
+      - name: Cache Ollama binary
+        # Bump the -v1 suffix to force a fresh install (e.g. to pick up a
+        # new Ollama release).
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama-bin
+          key: ollama-bin-v1-linux-amd64
+
+      - name: Install Ollama and pull the LLM model
+        run: |
+          if [ -f "$HOME/.ollama-bin/usr-local.tar" ]; then
+            echo "Restoring Ollama binary from cache."
+            sudo tar -C / -xf "$HOME/.ollama-bin/usr-local.tar"
+          else
+            curl -fsSL https://ollama.com/install.sh | sh
+            mkdir -p "$HOME/.ollama-bin"
+            PATHS="usr/local/bin/ollama"
+            [ -d /usr/local/lib/ollama ] && PATHS="$PATHS usr/local/lib/ollama"
+            sudo tar -C / -cf "$HOME/.ollama-bin/usr-local.tar" $PATHS
+            sudo chown -R "$USER:$USER" "$HOME/.ollama-bin"
+          fi
+          nohup ollama serve > /tmp/ollama.log 2>&1 &
+          for i in $(seq 1 30); do
+            if curl -fsS http://localhost:11434/api/tags > /dev/null 2>&1; then
+              echo "Ollama is ready."
+              break
+            fi
+            sleep 1
+          done
+          if ollama list | awk 'NR>1 {print $1}' | grep -qx "$LLM_MODEL"; then
+            echo "$LLM_MODEL already present, skipping pull."
+          else
+            ollama pull "$LLM_MODEL"
+          fi
+          ollama list
+
+      - name: Build and post X weekly digest thread
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          LLM_API_URL: "http://localhost:11434/api/chat"
+        run: python scripts/weekly_digest_x.py
+
+      - name: Commit X digest artifacts
+        if: env.DRY_RUN != '1'
+        run: |
+          git config user.name  "govbot-x[bot]"
+          git config user.email "govbot-x[bot]@users.noreply.github.com"
+          git add topics/*/x*/weekly_digest/bills_raw topics/*/x*/weekly_digest/bills_full_text || true
+          if git diff --cached --quiet; then
+            echo "No X digest artifacts to commit."
+          else
+            git commit -m "chore: update X weekly-digest artifacts [skip ci]"
+            git push
+          fi

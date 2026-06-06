@@ -303,6 +303,13 @@ class Topic:
     def x_bills_full_text_dir(self) -> Path:
         return TOPICS_DIR / self.name / self.x_subdir / "bills_full_text"
 
+    # X weekly-digest highlights get their own weekly_digest/ subfolder under
+    # the X state dir so the Friday thread's raw artifacts don't mix with the
+    # daily X feed's bills_raw/. Mirrors weekly_digest_bills_raw_dir() on the
+    # Bluesky side.
+    def x_weekly_digest_bills_raw_dir(self) -> Path:
+        return TOPICS_DIR / self.name / self.x_subdir / "weekly_digest" / "bills_raw"
+
     def _secret_suffix(self) -> str:
         return self.name.upper()
 
