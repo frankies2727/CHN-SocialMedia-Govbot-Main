@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Compensation for Health Care Services for Inmates in Polk County;  Limits compensation to health care provider that provides medical services for inmate housed in Polk County detention center under certain conditions; limits compensation to entity that provides emergency medical transportation services for inmate housed in Polk County detention center if entity does not have contract with county to provide such services.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 4059",
+    "legislative_session": "2026",
+    "subject": [
+      "local bills"
+    ],
+    "title": "Compensation for Health Care Services for Inmates in Polk County"
+  },
+  "id": "HB 4059",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-04-14",
+      "description": "Approved by Governor",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "HB 4059"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB4059/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB4059/logs/20260414T000000Z_approved_by_governor.json"
+  },
+  "timestamp": "20260414T000000Z"
+}

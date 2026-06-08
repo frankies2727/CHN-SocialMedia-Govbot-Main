@@ -1,0 +1,34 @@
+SECOND REGULAR SESSION
+
+HOUSE BILL NO. 1747
+103RD GENERAL ASSEMBLY
+INTRODUCED BY REPRESENTATIVE MILLER.
+4019H.01I
+
+JOSEPH ENGLER, Chief Clerk
+
+AN ACT
+To amend chapter 537, RSMo, by adding thereto one new section relating to civil actions for
+certain damages.
+
+Be it enacted by the General Assembly of the state of Missouri, as follows:
+
+Section A. Chapter 537, RSMo, is amended by adding thereto one new section, to be
+known as section 537.041, to read as follows:
+537.041. 1. As used in this section, "artificial intelligence" means an engineered
+or machine-based system that varies in its level of autonomy and that can, for explicit or
+implicit objectives, infer from the input it receives how to generate outputs that can
+influence physical or virtual environments.
+2. Any image, video, or audio that is generated or modified using artificial
+intelligence shall contain a mark or statement that is visible or audible to users that the
+image, video, or audio is generated or modified using artificial intelligence. Such mark
+or statement shall be developed by the secretary of state, and such mark or statement
+shall be used by all persons or entities publishing or disseminating any image, video, or
+audio generated or modified using artificial intelligence.
+3. Any person who has suffered injury for a violation of subsection 2 of this
+section shall have standing to bring a cause of action against the publisher or
+disseminator of the image, video, or audio for damages.
+✔
+
+EXPLANATION — Matter enclosed in bold-faced brackets [thus] in the above bill is not enacted and is
+intended to be omitted from the law. Matter in bold-face type in the above bill is proposed language.

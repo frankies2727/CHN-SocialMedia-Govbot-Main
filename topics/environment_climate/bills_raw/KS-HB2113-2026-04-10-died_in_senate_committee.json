@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB2113",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Agriculture",
+      "Funds",
+      "Water"
+    ],
+    "title": "Establishing the state conservation fund and transferring $2,500,000 to such fund and providing for the enhanced transfer of moneys from the state general fund to the state water plan fund and from the state water plan fund to the water technical assistance fund and the water project grant fund."
+  },
+  "id": "HB2113",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died in Senate Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB2113"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2113/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2113/logs/20260410T000000Z_died_in_senate_committee.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act provides a roadmap via an observational study on a small but representative group of diabetic patients to change standard healthcare from current reactive “sick care” to proactive “well care”. This will be accomplished by using a Delaware health system combined with a technology partner to regularly test, measure and manage, and incentivize diabetic patients and their providers to improve the health outcomes for Delawareans and drive down healthcare costs. The length of the observational study will be 3 years. During that time, data analysis will track results to determine if this Pilot Program shall be renewed and expanded.\r\nThis Act requires no fiscal note in that this Pilot Program is to be federally funded through the Federal Rural Health Transformation Program.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 305",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO THE DELAWARE DIABETES WELLNESS PILOT PROGRAM WITHIN THE DEPARTMENT OF HEALTH AND SOCIAL SERVICES  TO STUDY DIABETIC WELL CARE."
+  },
+  "id": "HB 305",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-03-18",
+      "description": "Reported Out of Committee (Health & Human Development) in House with 9 On Its Merits",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Health & Human Development"
+        }
+      ]
+    },
+    "bill_id": "HB 305"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB305/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB305/logs/20260318T000000Z_reported_out_of_committee_health_human_development_in_house_with_9_on_its_merits.json"
+  },
+  "timestamp": "20260318T000000Z"
+}

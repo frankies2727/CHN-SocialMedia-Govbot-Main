@@ -1,0 +1,22 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 6074",
+    "legislative_session": "2025-2026",
+    "title": "Reinstituting parole."
+  },
+  "id": "SB 6074",
+  "log": {
+    "action": {
+      "date": "2026-02-04",
+      "description": "Passed to Rules Committee for second reading.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 6074"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB6074/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB6074/logs/20260204T000000Z_passed_to_rules_committee_for_second_reading.json"
+  },
+  "timestamp": "20260204T000000Z"
+}

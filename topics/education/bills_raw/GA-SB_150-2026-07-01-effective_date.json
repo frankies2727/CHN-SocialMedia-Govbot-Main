@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Article 7 of Chapter 3 of Title 47 of the O.C.G.A., relating to retirement allowances, disability benefits, and spouses' benefits, so as to extend the program to permit public school systems to employ certain beneficiaries of the Teachers Retirement System of Georgia as classroom teachers in a full-time capacity to June 30, 2034; to reduce the number of years worked by a beneficiary to 25 before being eligible to be hired under this Code section; to provide for related matters; to provide conditions for an effective date and automatic repeal; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 150",
+    "legislative_session": "2025_26",
+    "subject": [
+      "RETIREMENT AND PENSIONS"
+    ],
+    "title": "Retirement; permit public school systems to employ certain beneficiaries of the Teachers Retirement System of Georgia as classroom teachers; extend the program"
+  },
+  "id": "SB 150",
+  "log": {
+    "action": {
+      "date": "2026-07-01",
+      "description": "Effective Date",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "SB 150"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB150/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB150/logs/20260701T000000Z_effective_date.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

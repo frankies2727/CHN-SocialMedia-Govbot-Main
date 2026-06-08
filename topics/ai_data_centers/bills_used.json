@@ -50,6 +50,7 @@
     "FL|HB 1007|2026-03-11|Laid on Table, refer to CS/CS/SB 484",
     "FL|HB 1395|2026-03-13|Died in Information Technology Budget & ",
     "FL|HB 1415|2026-03-11|Laid on Table, refer to CS/CS/SB 1568",
+    "FL|HB 527|2026-03-13|Died in Rules",
     "FL|SB 1344|2026-03-13|Died in Commerce and Tourism",
     "FL|SB 146|2026-03-13|Died in Governmental Oversight and Accou",
     "FL|SB 1568|2026-03-17|Ordered enrolled",
@@ -110,6 +111,7 @@
     "MN|SF 3644|2026-03-02|Second reading",
     "MN|SF 3868|2026-03-12|Comm report: To pass as amended",
     "MN|SF 3868|2026-03-12|Second reading",
+    "MO|HB 1747|2026-03-30|Public Hearing Completed (H)",
     "MO|HB 1747|2026-04-08|Executive Session Completed (H)",
     "MO|HB 1747|2026-04-08|HCS Voted Do Pass (H)",
     "MO|HB 1747|2026-04-09|",
@@ -171,12 +173,12 @@
     "WA|SB 6231|2026-04-01|Governor signed.",
     "WY|SF0065|2025-03-01|H COW:H Did not consider for COW"
   ],
-  "last_run": "2026-06-07T09:56:03.538154+00:00",
+  "last_run": "2026-06-08T11:38:37.738491+00:00",
   "state_last_posted": {
     "WY": "2026-05-16T02:53:56.286279+00:00",
     "CO": "2026-05-16T02:53:56.286279+00:00",
     "AL": "2026-05-31T19:49:58.322547+00:00",
-    "FL": "2026-06-01T00:08:39.228924+00:00",
+    "FL": "2026-06-08T11:34:30.223849+00:00",
     "IA": "2026-05-16T07:52:23.217967+00:00",
     "KS": "2026-06-06T09:15:34.425025+00:00",
     "NJ": "2026-05-19T14:33:03.387287+00:00",
@@ -184,7 +186,7 @@
     "WA": "2026-06-07T09:54:31.429729+00:00",
     "GA": "2026-06-03T11:34:51.763524+00:00",
     "CA": "2026-06-05T10:43:44.308351+00:00",
-    "MO": "2026-06-06T09:15:34.425025+00:00",
+    "MO": "2026-06-08T11:34:30.223849+00:00",
     "MN": "2026-06-05T10:43:44.308351+00:00",
     "PR": "2026-06-02T11:12:31.418186+00:00"
   }
