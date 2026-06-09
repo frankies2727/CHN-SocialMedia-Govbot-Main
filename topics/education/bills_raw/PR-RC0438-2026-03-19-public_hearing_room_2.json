@@ -1,0 +1,22 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "RC0438",
+    "legislative_session": "2025-2028",
+    "title": "Para ordenar a las comisiones de Adultos Mayores y Bienestar Social; y de Recursos Naturales de la Cámara de Representantes de Puerto Rico, llevar a cabo una investigación sobre el proyecto de canalización del río Piedras, evaluando su pertinencia, alcance y posibles efectos sociales, ambientales y comunitarios, particularmente en lo relativo al acceso a información clara y a la participación de los adultos mayores residentes en sectores como Villa Nevárez, Reparto Metropolitano, Jardines Metropolitanos y University Gardens; y para otros fines relacionados."
+  },
+  "id": "RC0438",
+  "log": {
+    "action": {
+      "date": "2026-03-19T04:00:00+00:00",
+      "description": "Vista Pública:  Salón de Audiencias #2",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "RC0438"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RC0438/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RC0438/logs/20260319T040000Z_vista_pública_salón_de_audiencias_2.json"
+  },
+  "timestamp": "20260319T040000Z"
+}

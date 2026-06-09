@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Assessment of Property with Decreasing Just Valuation;  Prohibits increases in assessed value for certain property with decreasing just valuation.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HJR 1411",
+    "legislative_session": "2026",
+    "subject": [
+      "(adopted)",
+      "constitutional amendments"
+    ],
+    "title": "Assessment of Property with Decreasing Just Valuation"
+  },
+  "id": "HJR 1411",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in Ways & Means Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HJR 1411"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HJR1411/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HJR1411/logs/20260313T000000Z_died_in_ways_means_committee.json"
+  },
+  "timestamp": "20260313T000000Z"
+}

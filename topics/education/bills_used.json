@@ -95,6 +95,7 @@
     "MS|HB214|2026-02-03|Died In Committee",
     "MS|HB454|2026-02-03|Died In Committee",
     "MS|SB2033|2026-02-03|Died In Committee",
+    "MS|SB2298|2026-02-03|Died In Committee",
     "MS|SB2300|2026-02-03|Died In Committee",
     "MS|SB2607|2026-02-03|Died In Committee",
     "NH|HB676|2025-12-03|Committee Report: Inexpedient to Legisla",
@@ -108,6 +109,7 @@
     "NJ|S671|2026-01-13|WITHDRAWN APP P.L.2025, c.298.",
     "PR|PC1007|2026-05-21|1er Informe Comisi\u00f3n rendido con enmiend",
     "PR|PC1007|2026-05-21|Entirillado del Informe",
+    "PR|RC0438|2026-03-19|Vista P\u00fablica:  Sal\u00f3n de Audiencias #2",
     "PR|RC0438|2026-05-07|Informe Conjunto Final rendido",
     "PR|RC0438|2026-05-07|Informe Final Remitido a Comisi\u00f3n de Cal",
     "PR|RC0438|2026-05-12|Cuerpo aprueba informe final rendido",
@@ -143,7 +145,7 @@
     "WI|SB1|2026-05-13|Read a third time",
     "WI|SB1|2026-05-13|Rules suspended to give bill its third r"
   ],
-  "last_run": "2026-06-08T11:46:51.509411+00:00",
+  "last_run": "2026-06-09T10:29:52.632853+00:00",
   "state_last_posted": {
     "HI": "2026-05-16T02:57:07.992280+00:00",
     "NH": "2026-05-16T02:57:07.992280+00:00",
@@ -155,7 +157,7 @@
     "MA": "2026-06-04T10:38:58.464083+00:00",
     "KS": "2026-06-01T12:30:25.160395+00:00",
     "MO": "2026-06-06T09:20:24.910753+00:00",
-    "MS": "2026-06-05T10:46:49.842114+00:00",
+    "MS": "2026-06-09T10:25:58.228192+00:00",
     "DE": "2026-06-07T10:01:11.698087+00:00",
     "IA": "2026-06-07T10:01:11.698087+00:00",
     "CA": "2026-06-03T11:41:43.450258+00:00",
@@ -164,6 +166,6 @@
     "AL": "2026-06-08T11:42:03.661897+00:00",
     "FL": "2026-05-27T16:25:30.929876+00:00",
     "GA": "2026-06-08T11:42:03.661897+00:00",
-    "PR": "2026-06-06T09:20:24.910753+00:00"
+    "PR": "2026-06-09T10:25:58.228192+00:00"
   }
 }

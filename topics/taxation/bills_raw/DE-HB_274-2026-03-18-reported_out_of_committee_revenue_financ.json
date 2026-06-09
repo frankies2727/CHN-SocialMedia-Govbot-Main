@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Like House Bill No. 274, House Substitute for House Bill No. 274 increases the state child and dependent care expense tax credit from the current 50% match to a full 100% match with the federal child and dependent care expense tax credit. The substitute is different from House Bill No. 274 in that it makes this increase applicable to taxable years beginning on or after January 1, 2027.  \r\nThis Act also makes technical corrections to conform existing law to the standards of the Delaware Legislative Drafting Manual.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 274",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 30 OF THE DELAWARE CODE RELATING TO THE CHILD AND DEPENDENT CARE EXPENSE TAX CREDIT."
+  },
+  "id": "HB 274",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-03-18",
+      "description": "Reported Out of Committee (Revenue & Finance) in House with 10 On Its Merits",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Revenue & Finance"
+        }
+      ]
+    },
+    "bill_id": "HB 274"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB274/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB274/logs/20260318T000000Z_reported_out_of_committee_revenue_finance_in_house_with_10_on_its_merits.json"
+  },
+  "timestamp": "20260318T000000Z"
+}

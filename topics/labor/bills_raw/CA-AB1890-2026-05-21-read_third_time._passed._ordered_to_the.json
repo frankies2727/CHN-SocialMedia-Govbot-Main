@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law requires the Department of Housing and Community Development, through its Office of Migrant Services, to assist in the development, construction, reconstruction, rehabilitation, or operation of migrant farm labor centers and authorizes the Director of Housing and Community Development to contract with school districts, housing authorities, health agencies, and other appropriate local public and private nonprofit agencies for the procurement or construction of housing or shelter and to obtain services for migratory agricultural workers.\n\nExisting law establishes the Napa County Farmworker Centers Account to be administered by the department, as specified, to assist in the financing, maintenance, and operation of the Napa County Housing Authority's Farmworker Centers for year-round use by migrant and nonmigrant farm labor employees. Existing law requires the department to award, annually, up to $250,000 in matching funds to the Napa County Housing Authority upon demonstration that the Napa County Housing Authority is capable of continuing to effectively serve the housing needs of migrant or other farmworkers in the County of Napa and requires the Napa County Housing Authority, to be eligible for funding, to provide equal or greater funds from local sources. Existing law requires the department to use funds allocated from the Building Homes and Jobs Trust Fund, as provided.\n\nThis bill would instead require the department to award, annually, up to $500,000 in matching funds to the Napa County Housing Authority upon demonstration that the Napa County Housing Authority is capable of continuing to effectively serve the housing needs of migrant or other farmworkers in the County of Napa. The bill would require all funds awarded under its provisions to comply with specified prohibitions against state funding, loans, grants, or other state subsidies for an employer that employs certain workers, as provided, and would require that employer to reimburse the state or state agency that provided the funding, as provided. The bill would, instead of requiring the department to use specified funds allocated from the Building Homes and Jobs Trust Fund, provide that this bill is not operative until funding is appropriated by the Legislature in the Budget Act or any other measure for the purposes of the bill.\n\nThis bill would make legislative findings and declarations as to the necessity of a special statute for the County of Napa.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1890",
+    "legislative_session": "20252026",
+    "subject": [
+      "CountyofNapa",
+      "farmworkerhousing",
+      "funding"
+    ],
+    "title": "County of Napa: farmworker housing: funding."
+  },
+  "id": "AB1890",
+  "log": {
+    "action": {
+      "classification": [
+        "passage",
+        "reading-1",
+        "reading-3"
+      ],
+      "date": "2026-05-21",
+      "description": "Read third time. Passed. Ordered to the Senate. (Ayes 74. Noes 0.)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB1890"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1890/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1890/logs/20260521T000000Z.classification.passage.lower.json"
+  }
+}

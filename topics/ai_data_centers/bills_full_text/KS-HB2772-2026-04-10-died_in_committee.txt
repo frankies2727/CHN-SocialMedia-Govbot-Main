@@ -1,0 +1,1191 @@
+Session of 2026
+
+HOUSE BILL No. 2772
+By Committee on Federal and State Affairs
+Requested by Representative Rhiley
+2-10
+
+AN ACT concerning consumer protection; enacting the Kansas ageappropriate design code act; requiring businesses to assess and mitigate
+risks of compulsive use of digital products in minors; mandating
+privacy settings for minors to be set at the highest level by default;
+detailing the right of each consumer to access and control such
+consumer's own personal data; authorizing the attorney general to
+enforce compliance and adopt necessary rules and regulations; creating
+a private right of action for violations; enacting the Kansas stopping
+digital likeness abuse by nonconsensual digital replicas act; creating a
+private right of action for the unauthorized digital replication and
+distribution of individuals' digital likenesses; enacting the Kansas
+saving human connection act; prohibiting deceptive practices and
+ensuring transparency in chatbot interactions; imposing liability on
+chatbot providers for injuries caused by such providers' products;
+creating a private right of action for violations; granting the attorney
+general authority to enforce compliance of this act and adopt necessary
+rules and regulations.
+Be it enacted by the Legislature of the State of Kansas:
+Section 1. Sections 1 through 12, and amendments thereto, shall be
+known and may be cited as the Kansas age-appropriate design code act.
+Sec. 2. As used in the Kansas age-appropriate design code act, unless
+the context requires otherwise:
+(a) "Act" means the Kansas age-appropriate design code act.
+(b) (1) "Affiliate" means a legal entity that shares common branding
+with another legal entity or controls, is controlled by or is under common
+control with another legal entity.
+(2) As used in paragraph (1), "control" or "controlled" means:
+(A) Ownership of, or the power to vote, more than 50% of the
+outstanding shares of any class of voting security of a company;
+(B) control in any manner over the election of a majority of the
+directors or of individuals exercising similar functions; or
+(C) the power to exercise controlling influence over the management
+of a company.
+(c) "Age assurance" means a range of methods used to determine,
+
+estimate or communicate the age or an age status of an online user.
+(d) "Age status" means either an interval with an upper and lower age
+limit or a label indicating age above or below a specific age.
+(e) (1) "Algorithmic recommendation system" means a computational
+process used to determine the selection, order, rank, relative prioritization
+or relative prominence of media provided to a user through an online
+service, product or feature, including search results, ranking,
+recommendations, display or any other method of automated selection.
+(2) "Algorithmic recommendation system" does not include a
+computational process that:
+(A) Enables users to find specific other users on a covered business's
+service, such as by entering individual information as a search query or
+uploading a list of contacts; or
+(B) otherwise returns media responsive to a user's search query, as
+long as the system does not:
+(i) Process other personal data of the user to determine the selection,
+order, rank, relative prioritization or relative prominence of the media; or
+(ii) associate the search query with the user after the search results are
+returned.
+(f) "Algorithmic feed" means a component of an online service,
+product or feature that displays or delivers a stream or list of media that is
+selected, ranked or arranged in whole or in part by an algorithmic
+recommendation system.
+(g) (1) "Biometric data" means data generated from the technological
+processing of a consumer's unique biological, physical or physiological
+characteristics that allow or confirm the unique identification of the
+consumer, including:
+(A) Iris or retina scans;
+(B) fingerprints;
+(C) facial or hand mapping, geometry or templates;
+(D) vein patterns;
+(E) voice prints or vocal biomarkers; and
+(F) gait or personally identifying physical movement or patterns.
+(2) "Biometric data" does not include:
+(A) A digital or physical photograph;
+(B) an audio or video recording; or
+(C) any data generated from a digital or physical photograph, or audio
+or video recording, unless such data can be used to identify a specific
+individual.
+(h) "Business associate" means the same as defined in 45 C.F.R. §
+160.103, as in effect on January 1, 2027.
+(i) "Collect" means buying, renting, gathering, obtaining, receiving or
+accessing any personal data by any means. "Collect" includes receiving
+
+data from the consumer, either actively or passively, or by observing the
+consumer's behavior.
+(j) "Compulsive use" means a pattern of use of a covered business's
+product or service that:
+(1) Is repetitive and is difficult for a user to stop or reduce despite a
+desire to do so; and
+(2) materially disrupts one or more major life activities, including
+sleeping, eating, learning, reading, communicating or working.
+(k) (1) "Consumer" means an individual who is a resident of the state
+of Kansas.
+(2) "Consumer" does not include an individual acting in a commercial
+or employment context or as an employee, owner, director, officer or
+contractor of a company, partnership, sole proprietorship, nonprofit
+organization or government agency whose communications or transactions
+with the covered business occur solely within the context of that
+individual's role with the company, partnership, sole proprietorship,
+nonprofit organization or government agency.
+(l) "Covered business" means a sole proprietorship, partnership,
+limited liability company, corporation, association, other legal entity or an
+affiliate thereof:
+(1) That conducts business in the state of Kansas;
+(2) that generates a majority of its annual revenue from online
+services;
+(3) whose online products, services or features are reasonably likely
+to be accessed by a minor;
+(4) that collects consumers' personal data or has consumers' personal
+data collected on its behalf by a processor; and
+(5) that alone or jointly with others determines the purposes and
+means of the processing of consumers' personal data.
+(m) "Covered entity" means the same as defined in 45 C.F.R. §
+160.103, as in effect on January 1, 2027.
+(n) "Covered minor" means a consumer who a covered business
+knows or should have known, based on knowledge fairly implied under
+objective circumstances, is a minor.
+(o) "Default" means a preselected option adopted by the covered
+business for the online service, product or feature.
+(p) (1) "De-identified data" means data that does not identify and
+cannot reasonably be used to infer information about, or otherwise be
+linked to, an identified or identifiable individual, or a device linked to the
+individual, if the covered business that possesses the data:
+(A) Takes reasonable measures to ensure that the data cannot be used
+to reidentify an identified or identifiable individual or be associated with
+an individual or device that identifies or is linked or reasonably linkable to
+
+an individual or household;
+(B) publicly commits to processing the data only in a de-identified
+fashion and not attempting to re-identify the data; and
+(C) contractually obligates any recipients of the data to comply with
+the provisions of this act.
+(2) For purposes of subparagraph (A), "reasonable measures"
+includes the deidentification requirements provided by 45 C.F.R. §
+164.514, as in effect on January 1, 2027.
+(q) "Derived data" means data that is created by the derivation of
+information, data, assumptions, correlations, inferences, predictions or
+conclusions from facts, evidence or another source of information or data
+about a minor or a minor's device.
+(r) "Direct messaging" means sending private one-on-one or group
+messages to other users, separate from public posts.
+(s) "Design" means:
+(1) The processing of personal data; and
+(2) design features.
+(t) "Design feature" means any aspect of an online service, product or
+feature the covered business develops or creates, in whole or in part, to
+facilitate use of the online service, product or feature.
+(1) "Design feature" includes, in whole or in part, any:
+(A) Algorithmic recommendation system;
+(B) algorithmic feed;
+(C) user interface;
+(D) notification or push alert system; and
+(E) reward or incentive system.
+(2) "Design feature" does not include any:
+(A) Media;
+(B) content moderation policy; or
+(C) component of an algorithmic recommendation system that
+enforces the covered business' content moderation policies.
+(u) "Genetic data" means any data, regardless of its format, that:
+(1) Results from the analysis of a biological sample of an individual,
+or from another source enabling equivalent information to be obtained;
+and
+(2) concerns genetic material, including deoxyribonucleic acids,
+ribonucleic acids, genes, chromosomes, alleles, genomes, alterations or
+modifications to deoxyribonucleic acids or ribonucleic acids, single
+nucleotide polymorphisms, epigenetic markers, uninterpreted data that
+results from analysis of the biological sample or other source and any
+information extrapolated, derived or inferred therefrom.
+(v) "Identified or identifiable individual" means an individual who
+can be readily identified, directly or indirectly, including by reference to an
+
+identifier such as a name, an identification number, specific geolocation
+data or an online identifier.
+(w) "Known adult" means a consumer who a covered business knows
+or should have known, based on knowledge fairly implied under objective
+circumstances, is 18 years of age or older.
+(x) "Minor" means an individual under 18 years of age.
+(y) "Online service, product or feature" means a digital product that is
+accessible to the public via the internet, including a website or application,
+and does not mean any of the following:
+(1) Telecommunications service, as defined in 47 U.S.C. § 153, as in
+effect on January 1, 2027;
+(2) a broadband internet access service as defined in 47 C.F.R.§
+54.400, as in effect on January 1, 2027; or
+(3) the sale, delivery or use of a physical product.
+(z) (1) "Personal data" means any information, including derived data
+and unique identifiers, that is linked or reasonably linkable, alone or in
+combination with other information, to an identified or identifiable
+individual or to a device that identifies, is linked to or is reasonably
+linkable to one or more identified or identifiable individuals in a
+household.
+(2) "Personal data" does not include de-identified data or publicly
+available information.
+(aa) "Process" or "processing" means any operation or set of
+operations performed, whether by manual or automated means, on
+personal data or on sets of personal data, such as the collection, use,
+storage, disclosure, analysis, deletion, modification or otherwise handling
+of personal data.
+(bb) "Processor" means a person who processes personal data on
+behalf of:
+(1) A covered business;
+(2) another processor; or
+(3) a federal, state, tribal or local government entity.
+(cc) (1) "Publicly available information" means information that:
+(A) Is made available through federal, state, tribal or local
+government records or to the general public from widely distributed
+media; or
+(B) a covered business has a reasonable basis to believe that the
+consumer has lawfully made available to the general public.
+(2) "Publicly available information" does not include:
+(A) Biometric data collected by a covered business about a consumer
+without the consumer's knowledge;
+(B) information that is collated and combined to create a consumer
+profile that is made available to a user of a publicly available website,
+
+either in exchange for payment or free of charge;
+(C) information that is made available for sale;
+(D) an inference that is generated from the information described in
+subparagraphs (B) or (C);
+(E) any obscene visual depiction, as described in 18 U.S.C. Pt. 1, Ch.
+71, as in effect on January 1, 2027;
+(F) personal data that is created through the combination of personal
+data with publicly available information;
+(G) genetic data, unless otherwise made publicly available by the
+consumer to whom the information pertains;
+(H) information provided by a consumer on a website or online
+service made available to all members of the public, for free or a fee,
+where the consumer has maintained a reasonable expectation of privacy in
+the information, such as by restricting the information to a specific
+audience; or
+(I) intimate images, authentic or computer-generated, known to be
+nonconsensual.
+(dd) "Reasonable alternative design" means an alternative design
+feature for which the risk of encouraging compulsive use in minor users is
+lower, unless the use of this alternative design would reduce the benefit of
+the product to minor users in a way that substantially outweighs the
+reduction in the risk of compulsive use to minor users.
+(ee) "Reasonably likely to be accessed" means the online service,
+product or feature is reasonably likely to be accessed by a covered minor
+based on any of the following indicators:
+(1) The online service, product or feature is directed to children, as
+defined by the children's online privacy protection act, 15 U.S.C. §§ 6501–
+and 16 C.F.R. Ch. 1, Subch. C, Pt. 312, as in effect on January 1,
+2027;
+(2) the online service, product or feature is determined, based on
+competent and reliable evidence regarding audience composition, to be
+routinely accessed by an audience that is composed of at least 2% minor
+users, two through 17 years of age; or
+(3) the covered business knew or should have known that at least 2%
+of the audience of the online service, product or feature includes minor
+users two through 17 years of age, provided that, in making this
+assessment, the covered business shall not collect or process any personal
+data that is not reasonably necessary to provide an online service, product
+or feature with which a minor is actively and knowingly engaged.
+(ff) "Small business" means a covered business that meets the
+following criteria for the three preceding calendar years or for the period
+during which the covered business has been in existence, if such period is
+less than three years:
+
+(1) The covered business's average annual gross revenues during the
+period did not exceed $25,000,000, as adjusted annually to reflect changes
+to the consumer price index; and
+(2) the covered business, on average, did not annually collect,
+process, retain or transfer the personal data of more than 50,000
+individuals during the period for any purpose other than initiating,
+rendering, billing for, finalizing, completing or otherwise collecting
+payment for a requested service or product.
+(gg) "Third party" means a natural or legal person, public authority,
+agency or body other than the covered minor or the covered business.
+(hh) "Weight" means the individual numeric setting that controls the
+output of a recommender system at a high level across a covered online
+platform's user base, such as the relative contributions of different factors
+to an item's ranking.
+Sec. 3. This act shall not apply to:
+(a) A federal, state, tribal or local government entity in the ordinary
+course of such government's operation;
+(b) protected health information that a covered entity or business
+associate thereof processes in accordance with or documents that a
+covered entity or business associate creates for the purpose of complying
+with HIPAA;
+(c) information used only for public health activities and purposes
+described in 45 C.F.R. § 164.512, as in effect on January 1, 2027;
+(d) information that identifies a consumer in connection with:
+(1) Activities that are subject to the federal policy for the protection
+of human subjects as provided in 45 C.F.R. Pt. 46, as in effect on January
+1, 2027;
+(2) research on human subjects undertaken in accordance with good
+clinical practice guidelines issued by the international council for
+harmonization of technical requirements for pharmaceuticals for human
+use;
+(3) activities that are subject to the protections provided in 21 C.F.R.
+Pt. 50 and 21 C.F.R. Part 56, as in effect on January 1, 2027;
+(4) research conducted in accordance with the requirements set forth
+in paragraphs (1) through (3) or otherwise in accordance with state or
+federal law;
+(5) an entity that primarily acts as a journalist as defined in K.S.A.
+60-480, and amendments thereto, and that has a majority of such entity's
+workforce consisting of individuals acting as journalists; or
+(6) a financial institution subject to 15 U.S.C. Ch. 94, as in effect on
+January 1, 2027.
+Sec. 4. (a) A covered business shall not engage in any of the high-risk
+data practices or design features listed in subsection (b) with respect to any
+
+consumer unless:
+(1) The consumer expressly and unambiguously requests the specific
+practice or feature; and
+(2) the consumer is not a covered minor.
+(b) A covered business shall not:
+(1) Collect, sell, share or retain any personal data of a consumer that
+is not necessary to provide an online service, product or feature with which
+the consumer is actively and knowingly engaged;
+(2) use previously collected personal data of the consumer for any
+purpose other than a purpose for which the personal data was collected,
+unless necessary to comply with any obligation under this act;
+(3) permit any individual, including a parent or guardian, to monitor
+the online activity of the consumer or to track the location of the consumer
+without providing a conspicuous signal to the consumer when the
+consumer is being monitored or tracked;
+(4) use the personal data of the consumer to select, recommend or
+prioritize media for the covered minor, unless the personal data is:
+(A) The consumer's express and unambiguous request to receive:
+(i) Media from a specific account, feed or user or to receive more or
+less media from that account, feed or user;
+(ii) a specific category of media, such as "cat videos" or "breaking
+news," or to see more or less of that category of media; or
+(iii) more or less media with characteristics similar to the media they
+are currently viewing;
+(B) user-selected privacy or accessibility settings;
+(C) the consumer's location, but only to determine whether the
+consumer is within the State for purposes of complying with this section;
+(D) the consumer's age status, but only to implement the covered
+business's policies regarding media appropriate for minors; or
+(E) a search query, provided the search query is only used to select
+and prioritize media in response to the search query;
+(5) send push notifications to the consumer between 12:00 a.m. and
+6:00 a.m.; or
+(6) use any design feature or component of a feature that:
+(A) Automatically plays a video, unless the video is the next in a
+series and the user expressly and unambiguously chose to play a prior
+video in the series;
+(B) uses intermittent variable reward schedules;
+(C) continuously loads new media in an algorithmic feed seamlessly
+and absent a specific request from the user, such as an infinite scroll feed;
+(D) is intended to induce compulsive use; and
+(E) has been identified and declared by the attorney general as a
+prohibited data practice or design feature pursuant to the rulemaking
+
+process outlined in subsection (c);
+(7) provide a single setting to make more than one setting under this
+subsection less protective; or
+(8) prompt a consumer to change any of the consumer's settings under
+this subsection unless strictly necessary to provide the consumer with the
+online product, service or feature with which they are actively or
+knowingly engaged.
+(c) The attorney general shall, on or before January 1, 2027, adopt
+rules and regulations that prohibit data processing or design practices of a
+covered business that, in the opinion of the attorney general:
+(1) Carry a risk of causing compulsive use that is not substantially
+outweighed by any benefits provided by the practice or feature to users; or
+(2) subvert or impair user autonomy, decision making or choice
+during the use of an online service, product or feature of the covered
+business.
+(d) The attorney general may review and update the rules and
+regulations adopted under subsection (c) as necessary to keep pace with
+emerging technology.
+Sec. 5. (a) Prior to deploying any new design, or a material change to
+an existing design, to consumers, a covered business shall assess the risk
+that the design will encourage compulsive use in minor users.
+(b) For any design that carries a reasonably foreseeable risk of
+encouraging compulsive use in minors, a covered business shall:
+(1) Determine if there is a reasonable alternative design; and
+(2) if one or more reasonable alternative designs do exist, provide the
+reasonable alternative design that carries the lowest risk of compulsive use
+as a default to each consumer, until:
+(A) The consumer expressly and unambiguously requests the design;
+and
+(B) the covered business determines, using a commercially
+reasonable and technically feasible age assurance method, that the
+consumer is not a minor.
+(c) Notwithstanding subsection (b), a covered business shall not
+deploy any design to consumers if the design's assessed risk of compulsive
+use to minors outweighs the assessed benefit of the design to minors,
+unless:
+(1) The consumer expressly and unambiguously requests the design;
+and
+(2) the covered business determines, using a commercially reasonable
+and technically feasible age assurance method, that the consumer is not a
+minor.
+(d) A covered business shall assess all existing designs and mitigate
+the risk of encouraging compulsive use in minors as described in this
+
+section.
+(e) A covered business shall document each step taken in accordance
+with subsections (a), (b) and (c), along with any experiments, evidence and
+data that supports the assessments and determinations made, and retain
+such documents for a period of 10 years. All data collected about
+individual users to support this subsection shall be anonymized.
+(f) A covered business shall submit all records related to the
+assessments and determinations made in subsections (a), (b) and (c) to an
+independent auditor annually, who will assess the records for compliance
+with this section and recommend any changes that would bolster
+compliance.
+(g) Nothing in this section shall require a covered business to:
+(1) Assess any media for the media's risk of inducing compulsive use;
+or
+(2) limit any consumer's access to any specific user-generated content
+or category of user-generated content.
+(h) The provisions of this section shall not apply to any covered
+business that qualifies as a small business.
+Sec. 6. (a) (1) A covered business shall configure all default privacy
+settings provided to a covered minor through the online service, product or
+feature to the highest level of privacy.
+(2) A covered business shall provide the following settings by default
+to all covered minors:
+(A) Do not use an algorithmic recommendation system to recommend
+to any known adult user that they connect to the covered minor as a friend,
+follower or contact;
+(B) do not use an algorithmic recommendation system to recommend
+to any known adult user that they follow the covered minor's media, unless
+the covered minor's account was connected to the known adult's account as
+a friend, follower or contact prior to the recommendation;
+(C) do not use an algorithmic recommendation system to recommend
+to any known adult user that they communicate with the covered minor
+through direct messaging, unless the covered minor's account was
+connected to the known adult's account as a friend, follower or contact
+prior to the recommendation;
+(D) do not use an algorithmic recommendation system to recommend
+to the covered minor that they communicate with any known adult through
+direct messaging, unless the covered minor's account was connected to the
+known adult's account as a friend, follower or contact prior to the
+recommendation;
+(E) do not display the covered minor's friends, followers, or contacts;
+and
+(F) disable search engine indexing of the covered minor's account
+
+profile and media.
+(3) (A) A covered business shall not display the location of any
+covered minor to any other user by default.
+(B) A covered business shall only display the covered minor's
+location to another user when the covered minor has expressly and
+unambiguously chosen to share their location with the specific user.
+(4) (A) A covered business shall not:
+(i) Send push notifications to any covered minor by default; or
+(ii) provide a single setting that enables all push notifications.
+(B) A covered business shall provide covered minors with settings to
+enable or disable each specific category of push notification offered by the
+covered business on the product or service, such as marketing
+notifications, direct message notifications, media interaction notifications
+and any other category of notification pushed by the product or service.
+(5) (A) A covered business shall:
+(i) Disable by default all interaction counts, including counts of
+reactions and comments, on all of the covered minor's media;
+(ii) offer settings to enable or disable specific types of interaction
+counts, such as comments, reactions, reshares or other categories of
+interactions; and
+(iii) offer a single setting to turn all interaction counts on at once only
+if the settings to turn specific interactions on are equally or more
+prominent and accessible.
+(6) A covered business shall not:
+(A) Provide a covered minor with a single setting that makes more
+than one privacy setting less protective at once; or
+(B) request or prompt a covered minor to make any of such minor's
+settings less protective, unless the change is strictly necessary for the
+covered minor to access a service or feature that such minor has expressly
+and unambiguously requested.
+(b) A covered business that facilitates communications between users
+shall:
+(1) Provide a prominent, accessible, and responsive tool that gives a
+covered minor the option to block specific users from taking, at minimum,
+each of the following actions:
+(A) Accessing the user's media;
+(B) interacting with the user's media;
+(C) communicating with the user through the covered business'
+media;
+(D) communicating with the user through direct messaging; and
+(E) communicating with the user through any other means offered by
+the covered business through the product or service.
+(2) The tool described in paragraph (1) shall provide a covered minor
+
+with the option to prevent media from the blocked user from appearing in
+the covered minor's feed.
+(3) The tool described in paragraph (1) shall, at a minimum, be
+accessible from a feature located:
+(A) Proximate to every instance of another user's username and
+avatar;
+(B) on all media shared by another user;
+(C) on every direct message or direct message thread; and
+(D) in a first-level settings menu labeled "Blocked Users".
+(4) The features described in subparagraphs (A) through (C) of
+paragraph (3) shall provide a covered minor with the option to:
+(A) Block the other user, which will trigger all of the settings in
+paragraphs (1) and (2); or
+(B) go to the settings page to select more granular block settings for
+the other user.
+(c) A covered business that offers an algorithmic feed to a covered
+minor that uses the covered minor's personal data to select, recommend or
+prioritize media in the feed shall:
+(1) Provide a prominent and accessible user interface that enables the
+covered minor to:
+(A) Expressly and unambiguously communicate such covered minor's
+preferences about the types of media to be recommended and to be
+blocked in the output of the relevant algorithmic recommendation system;
+and
+(B) access, review and make changes to any personal data the
+covered business uses to determine the output of the relevant algorithmic
+recommendation system; and
+(2) ensure that the relevant algorithmic recommendation system is
+informed by these preferences.
+(d) A covered business that offers an algorithmic feed to a covered
+minor that uses the covered minor's personal data to select, recommend or
+prioritize media in the feed shall provide the covered minor with the
+choice of an algorithmic feed that only selects media from sources the
+covered minor affirmatively chose to follow or otherwise include in the
+feed.
+(e) A covered business shall:
+(1) Provide a prominent and accessible tool to allow:
+(A) A covered minor to request the covered business delete any
+account profiles, media and personal data provided by, or obtained about,
+the covered minor, including personal data the covered minor provided to
+the covered business, personal data the covered business obtained from
+another source and derived data; and
+(B) the parent or legal guardian of a covered minor to take such a
+
+request on the covered minor's behalf; and
+(2) honor a request made under paragraph (1) not later than 15 days
+after a covered business receives the request.
+(f) A covered business shall not delete anonymized data collected for
+the purpose of complying with the transparency requirements in Section
+5(e), and amendments thereto.
+Sec. 7. A covered business shall prominently and clearly provide on
+such covered business's website or mobile application:
+(a) The covered business's privacy information, terms of service,
+policies and community standards;
+(b) for each algorithmic feed in use by the covered business:
+(1) The purpose of the feed; and
+(2) the algorithmic recommendation system or systems used to
+determine the feed;
+(c) for each algorithmic recommendation system in use by the
+covered business:
+(1) The purpose of the system;
+(2) a description of any personal data of minors that is used as an
+input or to inform an input;
+(3) the source of the personal data;
+(4) the purpose of using the personal data; and
+(5) how each personal data input is:
+(A) Measured and determined, if it is derived data; and
+(B) weighed relative to the other inputs reported in this subsection,
+categorized into one of four quartile groups according to the input's
+relative importance in contributing to the system's output; and
+(d) for every other service feature of the product or service that uses
+the personal data of covered minors, descriptions of:
+(1) The purpose of the service feature;
+(2) the personal data collected by the service feature;
+(3) the personal data used by the service feature;
+(4) how the service feature uses the personal data;
+(5) any personal data transferred to or shared with a processor or third
+party by the service feature, the identity of the processor or third party and
+the purpose of the transfer or sharing; and
+(6) how long the personal data is retained.
+Sec. 8. (a) Any covered business or processor conducting age
+assurance shall:
+(1) Only collect personal data of a consumer that is strictly necessary
+for determining a consumer's age status;
+(2) immediately upon determining whether a consumer is a covered
+minor, delete any personal data collected of that consumer for age
+assurance, except for the determination of the user's age status;
+
+(3) not use any personal data of a consumer collected for age
+assurance for any other purpose;
+(4) not combine personal data of a consumer collected for age
+assurance, except for the determination of the consumer's age status, with
+any other personal data of the consumer;
+(5) not disclose personal data of a consumer collected for age
+assurance to a third party that is not a processor; and
+(6) implement a review process to allow consumers to appeal such
+consumer's age status determination.
+(b) A covered business or processor that complies with all the
+provisions of this act shall not be held liable for any inaccuracies in a
+consumer's age status.
+(c) The attorney general may adopt and update rules implementing
+this section, including:
+(1) Describing:
+(A) How covered businesses may comply with the covered minor and
+known adult standards;
+(B) appropriate review processes for consumers appealing their age
+status determinations; and
+(C) transparency measures that would increase consumer trust in age
+assurance; and
+(2) providing any additional privacy protections for personal data
+collected for age assurance.
+Sec. 9. (a) A violation of this act by a covered business shall
+constitute a deceptive act pursuant to the Kansas consumer protection act,
+K.S.A. 50-623 et seq., and amendments thereto.
+(b) The attorney general shall have the same authority under this act
+to adopt rules and regulations, conduct civil investigations, bring civil
+actions and seek remedies as provided under the Kansas consumer
+protection act, K.S.A. 50-623 et seq., and amendments thereto.
+(c) Any violation of this act or rules adopted pursuant to this act
+constitutes an injury in fact to a consumer.
+(d) A consumer injured by a violation of this act may bring a civil
+action against the covered business or processor that violates this act, in
+which the court may award a prevailing plaintiff:
+(1) Statutory damages of $5,000 per individual per violation, as
+adjusted annually to reflect an increase in the consumer price index, or
+actual damages, whichever is greater;
+(2) punitive damages, for reckless or knowing violations;
+(3) injunctive relief;
+(4) declaratory relief; and
+(5) reasonable attorney's fees and litigation costs.
+Sec. 10. Nothing in this act shall be interpreted or construed to:
+
+(a) Impose liability in a manner that is inconsistent with 47 U.S.C.§
+230;
+(b) impose liability in a manner that is inconsistent with the first
+amendment to the Constitution of the United States;
+(c) force any consumer to undergo age assurance as a condition of
+accessing the products or services of any covered business;
+(d) prevent any consumer from accessing any user-generated media;
+or
+(e) preempt or otherwise affect any right, claim, remedy, presumption
+or defense available at law or in equity, including, but not limited to, antidiscrimination, consumer protection, labor and civil rights laws.
+Sec. 11. A covered business shall not discriminate or retaliate against
+any consumer, including denying products or services, charging different
+prices or rates for products or services, or providing lower quality products
+or services to the consumer, for receiving any of the protections contained
+in this act, exercising any of the rights contained in this act, for refusing to
+change their privacy and safety settings or for refusing to agree to the
+collection or processing of personal data or to the use of any design
+feature.
+Sec. 12. Nothing in this act may be construed to infringe on the
+existing rights and freedoms of covered minors or be construed to
+discriminate against the covered minors based on race, ethnicity, sex,
+disability, religion or national origin.
+Sec. 13. (a) Sections 13 through 18, and amendments thereto, shall be
+known and may be cited as the Kansas stopping likeness abuse by
+nonconsensual digital replicas act.
+(b) (1) The purpose of this act is to enshrine robust, dignity-based
+protections for all individuals over their digital likeness against replication
+without consent, while respecting constitutional doctrine concerning
+public and limited-purpose public figures.
+(2) Dignity-based protections recognize the intrinsic worth of human
+beings shared by all people, as well as the individual reputation of each
+person built upon their own individual actions and achievements.
+Violations of dignity-based protections, unlike property right violations, do
+not manifest in clear monetary or financial losses. Instead, violations of
+one's dignity produce emotional harms like distress, embarrassment or
+humiliation, as well as psychological harms. Violations may also cause
+reputational harm, including being misrepresented in relation to a matter,
+including one's beliefs, identities and actions or experiencing
+disadvantageous changes in employment status, position or duties as a
+result of the violation. Monetary and financial harms can accompany
+dignity-based violations, including resultant damage to property or damage
+to a business or financial position.
+
+Sec. 14. As used in the Kansas stopping likeness abuse by
+nonconsensual digital replicas act, unless the context requires otherwise:
+(a) "Act" means the Kansas stopping likeness abuse by
+nonconsensual digital replicas act.
+(b) "Consent" means prior written and signed affirmation of an
+individual to such individual's digital replication by another. If such
+individual is a minor, "consent" shall be made by the minor's parents or
+legal guardians. If the individual is deceased, "consent" shall be given by
+such individual's executor or administrator, heirs or devisees. Mere
+acceptance of a terms of use or service agreement for a digital product or
+service does not constitute consent to digital replication alone, even where
+such agreements contain explicit provisions concerning digital replicas,
+without a further showing that the individual materially understood such
+terms and provided prior, written and signed consent to such individual's
+digital replication. "Consent" can be established through the provision of
+documented contract negotiations or other formal, legal communications
+demonstrating that the individual had a genuine opportunity to bargain
+with the parties responsible for such individual's replication prior to the
+creation of any digital replica of such individual.
+(c) "Developer" means any individual, group of individuals or legal
+entities who develop or deploy any type of digital technology capable of
+producing digital replicas. Such technology is not limited to digital
+services and products with the sole purpose or function of digital
+replication. Legal entities include, but are not limited to, firms,
+associations, partnerships, corporations, joint stock companies, syndicates,
+common law and statutory trusts, educational and religious institutions,
+political parties and community, civic or other organizations. "Developer"
+shall not be interpreted to be mutually exclusive for the purposes of this
+act.
+(e) (1) "Digital likeness" means the likeness of an individual that has
+been created or manipulated through the use of any digital technology.
+(2) "Digital likeness" includes the use of an individual's likeness in
+any technological product or service that represents itself as having a
+likeness to the individual depicted.
+(f) (1) (A) "Digital replica" means a newly-created, highly realistic
+image, video or audio recording that has been digitally created or
+manipulated to depict an individual's likeness without such individual's
+consent.
+(B) "Digital replica" includes an exact copy, imitation or close
+approximation of the likeness of an individual created or altered, in whole
+or in part, using any type of digital technology.
+(2) "Digital replica" does not include:
+(A) Original depictions of an individual created through:
+
+(i) Traditional, non-human audiovisual technologies, including, but
+not limited to, photography and video and audio recording; and
+(ii) human audiovisual technologies such as visual, musical, dramatic
+and other performance-based art forms;
+(B) the electronic reproduction of a previously-existing unaltered
+video, image or audio recording of an individual; and
+(C) the remixing, mastering or digital remastering of a sound
+recording, image or an audiovisual work depicting an individual's likeness,
+especially when doing so superficially alters the appearance of the original
+work, such as through the use of a filter.
+(g) (1) "Digital replication" means the act of producing a digital
+replica of another individual by another using digital technology.
+(2) "Digital replication" does not include the production of a digital
+replica of an individual by such same individual.
+(h) (1) "Digital technology" means any information computer and
+communication technology products, services or tools, including the
+internet and other communication networks, computer devices and other
+computer and communications hardware, software applications, data
+systems and other electronic content, including multimedia content, and
+data storage.
+(2) "Digital technology" includes, but is not limited to, complex
+computational systems commonly referred to as "artificial intelligence,"
+"generative artificial intelligence," "machine learning," "deep learning"
+and other related technical systems that can generate novel outputs through
+data-based statistical pattern identification, whether through the use of
+models, rule-based learning or other methods.
+(i) "Individual" means a human being, living or deceased.
+(j) "Likeness" means the actual or simulated image, voice, signature
+and other uniquely identifying features, including one's face, mannerisms,
+distinctive appearance, distinctive speech patterns, including speech and
+language disorders, distinguishing body-based characteristics, such as
+visible physical marks and permanent body modifications and other
+unique, personally-identifying characteristics of an individual, regardless
+of the means of creation, that is readily identifiable as the individual
+through visual or auditory means. "Likeness" does not include the use of
+an individual's name alone, without any other representation of the
+individual.
+(k) "Limited-purpose public figure" means any individual who
+voluntarily places themself into a particular public controversy and thereby
+becomes a public figure for a limited issue or range of issues and for a
+limited duration of time. Private individuals shall not be converted into
+limited-purpose public figures solely through being made the subject of
+news reporting.
+
+(l) "Private individual" means any individual who is not a public
+figure or limited-purpose public figure.
+(m) (1) "Public figure" means any individual who has achieved fame
+or notoriety and is known to many people outside of such individual's
+personal and professional connections.
+(2) "Public figure" includes any individual who has run for
+government office or otherwise holds a position of prominence in society.
+Sec. 15. (a) This act shall be liberally construed in a manner
+consistent with the intent to provide maximal protection to all individuals
+against the nonmonetary harms of nonconsensual digital replication
+without violating existing rights and obligations imposed under other laws
+of this state.
+(b) The duties and obligations imposed by this act are cumulative
+with any other duties or obligations imposed under other law and shall not
+be construed to relieve any party from any duties or obligations imposed
+under other law and do not limit any rights or remedies under existing law.
+(c) The remedies provided in this act shall be construed as cumulative
+to each other and the remedies or penalties available under all other laws
+of this state.
+(d) Nothing in this act shall be construed to limit existing and future
+claims related to the prevention of likeness harms, including common law
+or statutory misappropriation of likeness tort and right of publicity claims,
+as well as any laws governing the assignment or licensing of propertybased interests in one's likeness, or any other legal remedy potentially
+available to a claimant under this act.
+(e) This act shall not apply to the extent that this act is preempted by
+federal law.
+Sec. 16. (a) Every individual shall have a dignity-based right of
+protection against nonconsensual digital replication. This right shall not be
+limited by the commercial value of the individual's likeness or digital
+likeness, or lack thereof.
+(b) Subject to the provisions of section 18, and amendments thereto,
+any individual or developer who knowingly engages in digital replication,
+without the prior consent of the individual subjected to such digital
+replication, shall be liable to a civil action to the individual depicted
+therein.
+(c) Subject to the provisions of section 18, and amendments thereto,
+any individual or developer who knowingly publishes, distributes,
+transmits or otherwise makes available to the public an individual's digital
+replica, without such individual's prior consent, shall be liable to a civil
+action.
+(d) Subject to the provisions of section 18, and amendments thereto,
+any individual or developer who knowingly distributes, transmits or
+
+otherwise makes available any type of digital technology whose sole
+purpose is digital replication shall be liable to a civil action, as well as
+statutory damages and structural remedies under section 18, and
+amendments thereto.
+Sec. 17. (a) Any claim pursuant to this act concerning the digital
+replication of a private figure, including that of a minor or deceased
+private figure, shall show that the alleged conduct would be offensive to a
+reasonable person similarly situated.
+(b) Offensiveness shall be established through a showing:
+(1) Of the intensity and durability of the offense;
+(2) the reasonability or foreseeability of the offense;
+(3) the extent to which the private individual could have reasonably
+avoided the offense; and
+(4) the extent to which the private individual willingly assumed the
+risk of the offense.
+(c) (1) A claimant establishes a rebuttable presumption of
+offensiveness by showing:
+(A) Mental or emotional distress, including, but not limited to:
+(i) Incurring financial expenses, medical expenses, job loss or other
+monetary burdens as a result;
+(ii) non-financial, dignity and control-based burdens, such as
+violations of the claimant's sincerely held personal, political or religious
+beliefs;
+(iii) experienced or highly likely damage to the claimant's reputation
+or ability to maintain such claimant's pre-replication reputation; or
+(iv) that the digital replica so produced is likely to cause confusion, to
+cause mistake or to deceive another as to the affiliation, connection or
+association of the individual depicted with another person, group,
+institution or commercial product, service or interest;
+(B) the digital replica so produced would more likely than not offend
+an individual similarly situated to the claimant; or
+(C) the claimant gained knowledge of the digital replica at issue
+through any means other than direct, post-replication disclosure by the
+individual or developer.
+(2) (A) A defendant shall overcome the presumption established in
+paragraph (1) by showing the immediate removal of the offending digital
+replica so produced, and the immediate destruction of any digital
+technology whose sole purpose is digital replication and is under such
+defendant's direct control, as well as providing documented proof that the
+defendant made a good-faith effort to immediately inform any other
+individual or developer described in section 16(c) or (d), and amendments
+thereto, that the defendant reasonably knew and continued to make the
+digital replica at issue available to the public after the defendant's
+
+immediate removal or destruction of the underlying technology.
+(B) If the defendant is an individual without direct access to or
+control over the digital technology whose sole purpose is digital
+replication, such individual defendant shall overcome the presumption
+established in subsection (c) by providing documented proof of a goodfaith effort to request that the offending digital replica be immediately
+removed by any other individual or developer described in section 16(c) or
+(d), and amendments thereto, that such individual defendant reasonably
+knew continued to make the digital replica at issue available to the public.
+(C) Where the claimant directly contacts the defendant prior to filing
+a civil action, immediate removal or destruction shall occur within 48
+hours of such contact for the defendant to meet the showing requirements
+described in subparagraph (A).
+(D) Such showing requirements shall not be met if such defendant
+merely demonstrates that the private figure depicted by the digital replica
+at issue voluntarily publicized such private figure's own likeness or digital
+likeness in other contexts beyond the digital replication at issue, including,
+but not limited to, appearing in photos, video recordings, audio recordings
+and other readily-identifiable means.
+(d) Any claim pursuant to this act concerning the digital replication of
+a public or limited-purpose public figure, including that of a minor or
+deceased public or limited-purpose public figure, shall show both that the
+alleged conduct would be offensive to a reasonable person similarly
+situated as provided in subsections (a), (b) and (c) and that the defendant
+violated the right provided in section 16(a), and amendments thereto, with
+knowledge that the digital replica resulting from conduct provided in
+section 16(b), (c) or (d), and amendments thereto, was false, or with
+reckless disregard of whether such digital replica was false.
+(e) Any claim pursuant to this act may include a claim of secondary
+liability for any individual or developer who provided substantial
+assistance to others to infringe on the right provided in section 16(a), and
+amendments thereto, where such individual or developer knows or
+reasonably should have known of the illegality of such conduct.
+Sec. 18. (a) (1) The court having jurisdiction for any civil action
+arising pursuant to this act may grant injunctions on terms as such court
+may deem reasonable to prevent or restrain any violation of section 16,
+and amendments thereto.
+(2) (A) As part of such injunction and so far as the developer is not an
+individual, the court may authorize the impounding, confiscation or
+destruction of all unauthorized items and seize all tangible personal
+property or other instrumentalities used in connection with the violation of
+the individual's rights and any underlying likeness-related data therein.
+(B) All instrumentalities seized pursuant to enforcing an injunction
+
+under this subsection shall be liquidated and used to satisfy statutory
+damages, if damages are recovered by the rights holder.
+(b) (1) An individual shall be entitled to recover whichever is greater
+of $5,000 or the actual damages suffered as a result of any violation of
+section 16, and amendments thereto, as well as any profits that are
+attributable to any such violation that are not taken into account in
+computing the actual damages.
+(2) Profit or lack thereof by the infringement of an individual's rights
+as provided in section 16(a), and amendments thereto, shall not be a
+criteria of determining liability.
+(c) An individual or developer shall not be liable in a civil action
+brought pursuant to this act if:
+(1) A violation of section 16, and amendments thereto, is performed:
+(A) For the purpose of reporting on newsworthy events and matters
+of legitimate public concern, including accounts of crimes, accidents,
+deaths, natural and human-made disasters, entertainment events and the
+activities of public officials;
+(B) for commentary, criticism, satire or parody, or any portion
+thereof. To constitute satire or parody under this act, the conduct shall be
+an exaggerated, outrageous commentary which a reasonable person could
+not construe as truthful;
+(C) for scholarship or educational purposes;
+(D) within creative works, the character and purpose of which is
+primarily expressive or artistic in nature rather than commercial, and that
+includes a clear and obvious disclaimer as to the fictional nature of the
+depictions at issue, or any portion thereof;
+(E) fleeting or incidental replications;
+(F) in a manner that is otherwise protected by the first amendment to
+the Constitution of the United States; or
+(G) any combination of the above; or
+(2) (A) Such individual or developer is a traditional publisher,
+including, but not limited to, newspapers, magazines, radio and television
+stations, billboards and transit ads, where such publishers have published
+or disseminated any advertisement or solicitation in violation of section
+(16)(a), and amendments thereto.
+(B) Subparagraph (A) shall not apply if it is established that such
+publishers had knowledge or reasonably should have known of the
+nonconsensual nature of the digital replication at issue. Such knowledge
+may be implied where traditional publishers covered in this section fall
+under section 16(b), (c) or (d), and amendments thereto.
+Sec. 19. Sections 19 through 25, and amendments thereto, shall be
+known and may be cited as the Kansas saving human connection act.
+Sec. 20. As used in the Kansas saving human connection act, unless the
+
+context requires otherwise:
+(a) "Act" means the Kansas saving human connection act.
+(b) "Advertisement" means any written or oral statement, illustration
+or depiction that promotes the sale or use of a good or service or is
+designed to increase interest in a brand, good or service where such
+statement, illustration or depiction is displayed in exchange for monetary
+or other valuable consideration, including access to data, between the
+chatbot provider and the brand, good or service.
+(c) (1) "Affirmative consent" means a clear affirmative act signifying
+a user's freely given, specific, informed and unambiguous authorization for
+an act or practice in response to a specific request from a chatbot provider,
+provided:
+(A) The request is provided to the user in a clear and conspicuous
+standalone disclosure;
+(B) the request includes a description, written in easy-to-understand
+language, of the act or practice for which the user's consent is sought;
+(C) the request is made in a manner reasonably accessible to and
+usable by users with disabilities;
+(D) the request is made available to the user in each language in
+which the chatbot provider provides a chatbot;
+(E) the option to refuse to give consent is at least as prominent as the
+option to give consent, and the option to refuse to give consent takes the
+same number of steps or fewer as the option to give consent; and
+(F) affirmative consent to an act or practice is not inferred from the
+inaction of the user or the user's continued use of a chatbot provided by the
+chatbot provider.
+(2) "Affirmative consent" does not include:
+(A) Acceptance of a general or broad terms of use or similar
+document;
+(B) hovering over, muting, pausing or closing a given piece of
+content;
+(C) agreement obtained through the use of a false, fraudulent or
+materially misleading statement or representation; or
+(D) agreement obtained through the use of other dark patterns.
+(d) "Chatbot" means any artificial intelligence, algorithmic or
+automated system that generates information via text, audio, image or
+video in a manner that simulates interpersonal interactions or conversation.
+(e) "Chat log" means any input data, outputs generated by a chatbot
+or record of the input data or outputs from user interactions with a chatbot.
+(f) "Chatbot provider" means any person creating, distributing or
+otherwise making available a chatbot.
+(g) "Collect" or "collecting" means creating, buying, renting,
+gathering, obtaining, receiving, accessing or otherwise acquiring personal
+
+data or input data by any means through individuals' use of chatbots.
+(h) "Dark pattern" means a user interface designed or manipulated
+with the substantial effect of subverting or impairing user autonomy,
+decision-making or choice.
+(i) "De-identified data" means information that cannot reasonably be
+used to infer or derive the identity of an individual or does not identify and
+is not linked or reasonably linkable to an individual or a device that
+identifies or is linked or reasonably linkable to such individual, regardless
+of whether the information is aggregated, provided that the chatbot
+provider:
+(1) Takes such physical, administrative and technical measures as are
+necessary to ensure that the information cannot, at any point, be used to reidentify any individual or device that identifies or is linked or reasonably
+linkable to an individual;
+(2) publicly commits in a clear and conspicuous manner to:
+(A) Process, retain or transfer the information solely in a de-identified
+form without any reasonable means for re-identification; and
+(B) not attempt to re-identify the information with any individual or
+device that identifies or is linked or reasonably linkable to an individual;
+and
+(3) contractually obligates any entity that receives the information
+from the chatbot provider to:
+(A) Comply with all of the provisions of this section with respect to
+the information; and
+(B) require that such contractual obligations be included in all
+subsequent instances for which the data may be received.
+(j) "Input data" means information, including text, photos, audio,
+video or files, provided to a chatbot by a user.
+(k) "Model" means an engineered or machine-based system
+underlying a chatbot that can, for explicit or implicit objectives, infer how
+to generate outputs from received inputs that can influence physical or
+virtual environments.
+(l) (1) "Personal data" means any information, including derived data,
+inferences or unique identifiers, that is linked or reasonably linkable, alone
+or in combination with other information, to an identified or identifiable
+individual or a device that identifies or is linked or reasonably linkable to
+an individual.
+(2) "Personal data" does not include de-identified data or publicly
+available information.
+(m) (1) "Publicly available information" means information that has
+been lawfully made available to the general public from:
+(A) Federal, state, tribal or municipal government records, if the
+person collects, processes and transfers such information in accordance
+
+with any restrictions or terms of use placed on the information by the
+relevant government entity;
+(B) widely distributed media; or
+(C) a disclosure to the general public as required by federal, state,
+tribal or local law.
+(2) "Publicly available information" does not include:
+(A) Any obscene visual depiction, as defined in 18 U.S.C. § 1460;
+(B) biometric data;
+(C) personal data that is created through the combination of personal
+data with publicly available information;
+(D) information that is collated and combined to create user profiles
+on publicly available or subscription-based websites and inferences
+generated from such information;
+(E) genetic data, unless otherwise made publicly available by the
+individual to whom the information pertains;
+(F) information made available by a user on a website or online
+service made available to all members of the public, for free or a fee,
+where the user has restricted the information to a specific audience; or
+(G) intimate images, authentic or computer-generated, known to be
+nonconsensual.
+(n) "Process" or "processing" means any operation or set of
+operations performed, whether by manual or automated means, on
+personal data or input data or on sets of personal data or input data, such as
+the use, storage, disclosure, analysis, deletion or modification of such data.
+(o) (1) "Profiling" means any form of processing performed on
+personal data or input data to detect and classify or designate personality
+and behavioral characteristics of an individual.
+(2) "Profiling" does not include processing of chat logs for purposes
+of user safety or to otherwise comply with this act.
+(p) (1) "Sell" means exchanging personal data or input data for
+monetary or other valuable consideration, or making available such data or
+use of such data, by the chatbot provider to a third party.
+(2) "Sell" does not include:
+(A) The disclosure of personal data or input data to a third party that
+processes the data on behalf of the chatbot provider;
+(B) with the user's affirmative consent, the disclosure of personal data
+or input data where the user affirmatively directs the chatbot provider to
+disclose the data or intentionally uses the chatbot provider to interact with
+a third party; or
+(C) the disclosure of personal data that the user:
+(i) Intentionally made available to the general public via a channel of
+mass media; and
+(ii) did not restrict to a specific audience.
+
+(q) (1) "Training" means the use of input data to adjust or modify a
+model.
+(2) "Training" does not include:
+(A) Testing to identify risks of harm to users;
+(B) adjustments or modifications to address identified risks of harm
+to users; or
+(C) any actions necessary to comply with this act or otherwise
+required by law.
+(r) "User" means any natural person, regardless of age.
+(s) "Widely distributed media" means information that is available to
+the general public, including information from a telephone book or online
+directory, a television, internet or radio program, the news media, or an
+internet website that is available to the general public on an unrestricted
+basis. "Widely distributed media" does not include an obscene visual
+depiction as defined in 18 U.S.C. § 1460.
+Sec. 21. (a) A chatbot provider shall not:
+(1) Process personal data other than input data to inform chatbot
+outputs unless the processing of personal data is necessary to fulfill an
+express request made by a user and that user has provided affirmative
+consent;
+(2) process a user's chat log:
+(A) To determine whether to display an advertisement for a product
+or service to the user;
+(B) to determine a product, service or category of product or service
+to advertise to the user; or
+(C) to customize an advertisement or how an advertisement is
+presented to the user;
+(3) process a user's chat log or personal data:
+(A) If the chatbot provider knows or should know, based on
+knowledge fairly implied on the basis of objective circumstances, that the
+user is under 18 years of age, without the affirmative consent of that user's
+parent or legal guardian;
+(B) for training purposes, if the chatbot provider knows or should
+have known, based on knowledge fairly implied on the basis of objective
+circumstances, that a user is under 18 years of age;
+(C) of a user who is over 18 years of age for training purposes, unless
+the chatbot provider first obtains affirmative consent; or
+(D) to engage in profiling beyond what is necessary to fulfill an
+express request;
+(4) use any classification or designation of a user's personality or
+behavioral characteristics created through profiling beyond what is
+necessary to fulfill an express request made by a user;
+(5) sell a user's chat logs;
+
+(6) retain a user's chat log for longer than 10 years, unless retention is
+necessary to comply with this act or otherwise required by law; or
+(7) discriminate or retaliate against any user, including by denying
+products or services, charging different prices or rates for products or
+services or providing lower quality products or services to the user, for
+refusing to consent to the use of chat logs or personal data for training
+purposes.
+(b) A user has the right to access, at any time, any of the user's own
+chat logs that a chatbot provider has retained in a portable and readily
+usable format.
+(1) Chat logs shall be made available to users in a downloadable and
+human- and machine-readable format.
+(2) A chatbot provider shall not discriminate or retaliate against any
+user, including by denying products or services, charging different prices
+or rates for products or services or providing lower quality products or
+services to the user, for accessing such user's own chat logs.
+(c) A government entity shall not compel the production of or access
+to input data or chat logs from a chatbot provider, except as pursuant to a
+wiretap warrant obtained in accordance with K.S.A. 22-2514, et seq., and
+amendments thereto.
+(d) A chatbot provider shall develop, implement and maintain a
+comprehensive data security program that contains administrative,
+technical and physical safeguards that are proportionate to the volume and
+nature of the personal data and chat logs maintained by the chatbot
+provider. The program shall be written and made publicly available on the
+chatbot provider's website.
+Sec. 22. (a) (1) A chatbot provider shall not use any term, letter or
+phrase in the advertising, interface or outputs of a chatbot that indicates or
+implies that any output data is being provided by, endorsed by or
+equivalent to those provided by:
+(A) A licensed healthcare professional;
+(B) a licensed legal professional;
+(C) a licensed accounting professional;
+(D) a certified financial fiduciary or planner; or
+(E) any person who the laws of Kansas require to be licensed or
+otherwise credentialed in order to offer services in the state of Kansas.
+(2) Such prohibition shall include any representation that a user's
+input data or chat log is subject to client or patient confidentiality. Any
+violation of this subsection shall be deemed a deceptive act or practice
+under K.S.A. 50-626, and amendments thereto.
+(b) Chatbot providers shall provide clear, conspicuous and explicit
+notice to users that they are interacting with a chatbot rather than a human
+prior to the chatbot generating any outputs, every hour thereafter and each
+
+time a user prompts the chatbot about whether the chatbot is a real person.
+(1) The text of such notice shall appear in the same language as the
+one in which the user is interacting with the chatbot, in a font size easily
+readable by an average user and no smaller than the largest font size of
+other text appearing on the interface on which the chatbot is provided.
+(2) Such notice shall be accessible to users with disabilities.
+Sec. 23. The attorney general may adopt any rules or regulations
+necessary to implement this act.
+Sec. 24. (a) Chatbots are products for the purposes of product liability
+actions.
+(b) A chatbot provider has a duty to ensure that the use of such
+provider's chatbot does not cause injury to a user.
+(c) A chatbot provider is liable for any injury to a user that is caused
+by such user's use of such provider's chatbot, even if:
+(1) The chatbot provider exercised all reasonable care in the design
+and distribution of the chatbot; or
+(2) the chatbot provider did not directly distribute the chatbot to the
+user or otherwise enter into a contractual relationship with the user.
+Sec. 25. (a) The attorney general, a district attorney or a municipality
+may bring a civil action against a chatbot provider that violates this act to:
+(1) Enjoin the act or practice that is in violation of this act;
+(2) enforce compliance with this act;
+(3) obtain damages, civil penalties, restitution or other remedies on
+behalf of the residents of the state of Kansas; or
+(4) obtain reasonable attorney's fees and other litigation costs
+reasonably incurred.
+(b) A violation of sections 22 or 23, and amendments thereto, shall
+constitute an injury in fact to a user.
+(c) A user injured by a violation of sections 22 or 23, and
+amendments thereto, may bring a civil action against the chatbot provider,
+in which the court may award a prevailing plaintiff:
+(1) Statutory damages of:
+(A) An amount not to exceed $5,000 per violation for any violation of
+section 22, and amendments thereto, or actual damages, whichever is
+greater; and
+(B) An amount not to exceed $5,000 in total for all violations of
+section 23, and amendments thereto, or actual damages, whichever is
+greater;
+(2) punitive damages, for reckless and knowing violations;
+(3) injunctive relief;
+(4) declaratory relief; and
+(5) reasonable attorney's fees and litigation costs.
+Sec. 26. The provisions of the Kansas age-appropriate design code
+
+act, the Kansas stopping likeness abuse by nonconsensual digital replicas
+act and the Kansas saving human connection act are severable. If any
+portion of any such act is held by a court to be unconstitutional or invalid,
+or the application of any portion of such act to any person or circumstance
+is held by a court to be unconstitutional or invalid, the invalidity shall not
+affect other portions of such act that can be given effect without the invalid
+portion or application, and the applicability of such other portions of such
+act to any person or circumstance remains valid and enforceable.
+Sec. 27. This act shall take effect and be in force from and after
+January 1, 2027, and its publication in the statute book.

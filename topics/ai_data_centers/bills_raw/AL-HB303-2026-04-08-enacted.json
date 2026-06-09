@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Businesses & Financial Institutions",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB303",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Businesses & Financial Institutions"
+    ],
+    "title": "Cryptocurrency; measures to prevent fraud by cryptocurrency kiosk operators imposed, penalties established, Alabama Securities Commission authorized to enforce"
+  },
+  "id": "HB303",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-04-08T04:00:00+00:00",
+      "description": "Enacted",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB303"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB303/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB303/logs/20260408T040000Z.classification.became-law.lower.json"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law defines an electric bicycle and classifies electric bicycles into 3 classes with different restrictions. Under existing law, a \"class 1 electric bicycle\" is a bicycle equipped with a motor that provides assistance only when the rider is pedaling and ceases to provide assistance when the bicycle reaches the speed of 20 miles per hour. Under existing law, a \"class 2 electric bicycle\" is a bicycle equipped with a motor that may be used exclusively to propel the bicycle and is not capable of providing assistance when the bicycle reaches the speed of 20 miles per hour. Under existing law, a \"class 3 electric bicycle\" is a bicycle equipped with a speedometer and a motor that provides assistance only when the rider is pedaling, and that ceases to provide assistance when the bicycle reaches the speed of 28 miles per hour. Existing law prohibits a person under 16 years of age from operating a class 3 electric bicycle.\n\nThis bill, the San Mateo Electric Bicycle Safety Pilot Program, would, until January 1, 2031, authorize a local authority within the County of San Mateo, or the County of San Mateo in unincorporated areas, to adopt an ordinance or resolution that would prohibit a person under 12 years of age from operating a class 1 or 2 electric bicycle. For the first 60 days following the adoption of an ordinance or resolution for this purpose, the bill would make a violation of the ordinance or resolution punishable by a warning notice. After 60 days, the bill would make a violation of the ordinance or resolution punishable by a fine of $25, except as specified. This bill would make a parent or legal guardian with control or custody of an unemancipated minor who violates the ordinance or resolution jointly and severally liable with the minor for the amount of the fine imposed. The bill would, if an ordinance or resolution is adopted, require the county to, by January 1, 2030, submit a report to the Legislature that includes, among other things, the total number of traffic stops initiated for a violation of the ordinance or resolution, the results of those traffic stops, and the actions taken by a peace officer during a traffic stop, as specified. The bill would require a local authority or county to administer a public information campaign for at least 30 calendar days prior to the enactment of the ordinance or resolution, as specified.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2595",
+    "legislative_session": "20252026",
+    "subject": [
+      "Vehicles",
+      "electricbicycles"
+    ],
+    "title": "Vehicles: electric bicycles."
+  },
+  "id": "AB2595",
+  "log": {
+    "action": {
+      "date": "2026-04-23",
+      "description": "Ordered to second reading.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB2595"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2595/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2595/logs/20260423T000000Z_ordered_to_second_reading.json"
+  },
+  "timestamp": "20260423T000000Z"
+}

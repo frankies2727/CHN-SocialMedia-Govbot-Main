@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "(1) Existing law requires the governing board of a school district to give diligent care to the health and physical development of pupils and authorizes the governing board of a school district to employ properly certified persons for this purpose. Existing law requires a school of a school district or county office of education and a charter school to notify pupils and parents or guardians of pupils no less than twice during the school year on how to initiate access to available pupil mental health services on campus or in the community, or both, as provided. Existing law requires the State Department of Education, on or before June 1, 2025, to develop model referral protocols for addressing pupil behavioral health concerns, as provided.\n\nThis bill would require the department, in consultation with appropriate stakeholders, to update the model referral protocols to include guidance on providing equity-centered mental health supports in case of a local emergency related to immigration enforcement activities or deportations of pupils or their family members, and would require the department to post the updated model referral protocols on its internet website on or before July 1, 2027.\n\n(2) Existing law requires the governing board or body of a local educational agency that serves pupils in grades 7 to 12, inclusive, before January 31, 2026, to adopt a policy on referral protocols for addressing pupil behavioral health concerns in grades 7 to 12, inclusive, as provided.\n\nThis bill would require the governing boards and bodies of those local educational agencies, on or before July 1, 2028, to adopt, at a regularly scheduled public meeting, an update to that policy to include guidance on providing equity-centered mental health supports in case of a local emergency related to immigration enforcement activities or deportations of pupils or their family members. The bill would require the updated policy (A) to either be based on the updated model referral protocols developed by the department or developed in consultation with school and community stakeholders and school-linked behavioral health professionals, and (B) to, at a minimum, address procedures relating to referrals to behavioral health professionals and support services. By imposing additional duties on local educational agencies, the bill would impose a state-mandated local program.\n\n(3) The California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2460",
+    "legislative_session": "20252026",
+    "subject": [
+      "Pupilhealth",
+      "mentalhealth",
+      "modelreferralprotocols"
+    ],
+    "title": "Pupil health: mental health: model referral protocols."
+  },
+  "id": "AB2460",
+  "log": {
+    "action": {
+      "classification": [
+        "passage",
+        "reading-1",
+        "reading-3"
+      ],
+      "date": "2026-05-27",
+      "description": "Read third time. Passed. Ordered to the Senate. (Ayes 65. Noes 9.)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB2460"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2460/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2460/logs/20260527T000000Z.classification.passage.lower.json"
+  }
+}

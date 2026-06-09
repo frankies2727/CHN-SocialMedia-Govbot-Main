@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Mr. Crighton, a petition (accompanied by bill, Senate, No. 691) of Brendan P. Crighton for legislation to ensure access to healthcare and medically necessary food for children.  Financial Services.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S691",
+    "legislative_session": "194th",
+    "title": "An Act ensuring access to healthcare and medically necessary food for children"
+  },
+  "id": "S691",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage-favorable"
+      ],
+      "date": "2026-05-18",
+      "description": "Committee recommended ought to pass with an amendment, substituting a new draft see S3069",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "S691"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/S691/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/S691/logs/20260518T000000Z_committee_recommended_ought_to_pass_with_an_amendment_substituting_a_new_draft_see_s3069.json"
+  },
+  "timestamp": "20260518T000000Z"
+}
