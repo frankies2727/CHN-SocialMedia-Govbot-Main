@@ -1,0 +1,48 @@
+Session of 2026
+
+SENATE BILL No. 400
+By Committee on Utilities
+1-27
+
+AN ACT concerning data centers; relating to water consumption; requiring
+data centers to use closed-loop cooling systems to mitigate water
+consumption.
+Be it enacted by the Legislature of the State of Kansas:
+Section 1. (a) To conserve and protect Kansas from the on-site water
+consumption footprint that is associated with the operation of large data
+centers, a large load data center shall not utilize an open loop cooling or
+heat removal system that directly exposes or discharges water vapors
+created by such cooling or heat removal processes to the ambient
+atmosphere. A large load data center may use a closed-loop cooling or heat
+removal system that is designed to provide a sealed cooling or heat
+removal system in which no contact is made between any fluid that is
+being cooled or heated and the ambient atmosphere.
+(b) The attorney general, or a city, county or district attorney may
+apply to the district court for a temporary or permanent injunction, or any
+other appropriate legal or equitable remedy, to prohibit any person or
+entity from violating the provisions of this section. Such court shall have
+jurisdiction upon hearing and for cause shown to grant such injunction and
+may make and render such judgments, orders and decrees as may be
+proper to enforce the provisions of this section.
+(c) As used in this section:
+(1) "Data center" means any facility, including any buildings,
+equipment, structures or other stationary items of a facility that are:
+(A) Located on a single premises or on any contiguous and adjacent
+premises;
+(B) used by any person or entity to house computer and network
+systems and infrastructure, including, but not limited to, associated
+components such as servers, network equipment and appliances,
+communications and data storage systems, systems for monitoring and
+managing system and infrastructure performance, data communications
+connections, environmental controls, cooling or heat removal systems, fire
+protection systems and security systems and services; and
+(C) operated with the primary purpose of providing for the storage,
+management, processing and transferring of digital data.
+(2) "Large load data center" means any data center that has or is
+
+SB 400
+
+reasonably expected to have a monthly maximum electrical demand of 20
+megawatts or more.
+Sec. 2. This act shall take effect and be in force from and after its
+publication in the statute book.
