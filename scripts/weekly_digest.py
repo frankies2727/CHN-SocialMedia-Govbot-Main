@@ -351,6 +351,8 @@ def post_thread(client: BlueskyClient | None, root_text: str,
     parent_ref = root_ref
     for text, link, ec_title, ec_desc, thumb_blob in replies:
         print(f"\n--- REPLY ({len(text)} chars) ---\n{text}\n---")
+        if link:
+            print(f"    link: {link}")
         if client is None:
             continue
         try:
