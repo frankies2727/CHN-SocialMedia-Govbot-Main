@@ -20,6 +20,14 @@ jobs:
   run:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    # Split the 13 topics across two shards that run in parallel on separate
+    # runners. Each shard repeats the shared setup (govbot clone + Ollama) but
+    # only posts ~half the topics, keeping each job well under the 60-minute
+    # budget that the single sequential job kept blowing past.
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1]
     env:
       LLM_MODEL: "gemma3:4b"
     steps:
@@ -155,13 +163,20 @@ jobs:
           POST_LIMIT: "2"
         run: |
           shopt -s nullglob
+          # Assign topics to this shard by their sorted position (topics/*/
+          # globs alphabetically). index % NUM_SHARDS interleaves them into a
+          # balanced 7/6 split that auto-rebalances when topics are added.
+          SHARD="${{ matrix.shard }}"
+          NUM_SHARDS=2
+          i=0
           for topic_dir in topics/*/; do
             topic=$(basename "$topic_dir")
-            if [ ! -f "$topic_dir/config.yml" ]; then
-              echo "--- $topic: no config.yml, skipping ---"
-              continue
+            [ -f "$topic_dir/config.yml" ] || continue
+            if [ $(( i % NUM_SHARDS )) -ne "$SHARD" ]; then
+              i=$(( i + 1 )); continue
             fi
-            echo "=== Posting for topic: $topic ==="
+            i=$(( i + 1 ))
+            echo "=== Posting for topic: $topic (shard $SHARD/$NUM_SHARDS) ==="
             BOT_TOPIC="$topic" python scripts/post_to_bluesky.py \
               || echo "  $topic post failed, continuing with next topic"
           done
@@ -173,7 +188,18 @@ jobs:
           git add topics/*/bills_used.json topics/*/bills_raw topics/*/bills_full_text || true
           if git diff --cached --quiet; then
             echo "No state changes to commit."
-          else
-            git commit -m "chore: update posted state [skip ci]"
-            git push
+            exit 0
           fi
+          git commit -m "chore: update posted state (shard ${{ matrix.shard }}) [skip ci]"
+          # Both shards push to the same branch concurrently. They write disjoint
+          # topics/<name>/ folders, so rebasing onto the other shard's commit is
+          # always clean; retry with backoff until the push lands.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              break
+            fi
+            echo "Push rejected (attempt $attempt); rebasing on latest and retrying."
+            git pull --rebase --autostash origin "${{ github.ref_name }}" || true
+            sleep $(( attempt * 2 ))
+          done
