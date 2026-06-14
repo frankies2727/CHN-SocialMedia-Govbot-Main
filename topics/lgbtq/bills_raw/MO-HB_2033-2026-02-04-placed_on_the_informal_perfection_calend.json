@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2033",
+    "legislative_session": "2026",
+    "subject": [
+      "CHILDREN AND MINORS",
+      "HEALTH CARE",
+      "HEALTH CARE PROFESSIONALS"
+    ],
+    "title": "Modifies provisions relating to gender transition procedures"
+  },
+  "id": "HB 2033",
+  "log": {
+    "action": {
+      "date": "2026-02-04T06:00:00+00:00",
+      "description": "Placed on the Informal Perfection Calendar (H)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 2033"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB2033/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB2033/logs/20260204T060000Z_placed_on_the_informal_perfection_calendar_h.json"
+  },
+  "timestamp": "20260204T060000Z"
+}

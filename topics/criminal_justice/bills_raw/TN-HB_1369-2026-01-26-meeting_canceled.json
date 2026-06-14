@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1369",
+    "legislative_session": "114",
+    "subject": [
+      "Dept. of",
+      "Health"
+    ],
+    "title": "Health, Dept. of - As introduced, requires the department to make available and require blood lead level testing for students in certain schools and certain pregnant women; requires the department to provide to persons who have high blood lead levels or lead poisoning certain services to aid with such condition; requires juvenile detention facilities that are aware of a juvenile in custody with high blood lead levels or lead poisoning to provide certain services in collaboration with the department and local education agencies.  - Amends TCA Title 37; Title 49; Title 63; Title 68 and Title 71."
+  },
+  "id": "HB 1369",
+  "log": {
+    "action": {
+      "date": "2026-01-26",
+      "description": "Meeting Canceled",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1369"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1369/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1369/logs/20260126T000000Z_meeting_canceled.json"
+  },
+  "timestamp": "20260126T000000Z"
+}

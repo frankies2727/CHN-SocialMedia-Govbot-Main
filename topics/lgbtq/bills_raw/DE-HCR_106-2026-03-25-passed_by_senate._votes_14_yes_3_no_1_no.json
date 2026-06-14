@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This concurrent resolution recognizes March 31st as International Transgender Day of Visibility in the State of Delaware.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HCR 106",
+    "legislative_session": "153",
+    "title": "RECOGNIZING MARCH 31ST AS INTERNATIONAL TRANSGENDER DAY OF VISIBILITY IN THE STATE OF DELAWARE."
+  },
+  "id": "HCR 106",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-03-25",
+      "description": "Passed By Senate. Votes: 14 YES 3 NO 1 NOT VOTING 3 ABSENT",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HCR 106"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HCR106/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HCR106/logs/20260325T000000Z.classification.passage.upper.json"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1771",
+    "legislative_session": "114",
+    "subject": [
+      "Correction",
+      "Dept. of"
+    ],
+    "title": "Correction, Dept. of - As introduced, requires the department to conduct an annual education assessment of each inmate who is serving a period of confinement for committing a felony offense to ascertain the inmate's highest grade or educational level attained, as well as their interest in continuing, completing, or advancing their education; requires the department to notify such inmates of the educational programming and opportunities available. - Amends TCA Title 4; Title 41 and Title 49."
+  },
+  "id": "HB 1771",
+  "log": {
+    "action": {
+      "classification": [
+        "referral-committee"
+      ],
+      "date": "2026-01-22",
+      "description": "Assigned to s/c Departments & Agencies Subcommittee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 1771"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1771/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1771/logs/20260122T000000Z_assigned_to_sc_departments_agencies_subcommittee.json"
+  },
+  "timestamp": "20260122T000000Z"
+}

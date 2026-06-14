@@ -18,6 +18,9 @@
     "CA|SB934|2026-05-19|",
     "CA|SB934|2026-05-19|Read third time. Passed. (Ayes 30. Noes ",
     "CA|SB934|2026-05-20|In Assembly. Read first time. Held at De",
+    "DE|HCR 106|2026-03-25|",
+    "DE|HCR 106|2026-03-25|Passed By Senate. Votes: 14 YES 3 NO 1 N",
+    "DE|HCR 106|2026-03-25|Passed In House by Voice Vote",
     "GA|SB 39|2026-04-02|House Committee Favorably Reported By Su",
     "KS|HB2267|2026-04-10|Died in Committee",
     "KS|HB2407|2026-04-10|Died in Committee",
@@ -30,6 +33,7 @@
     "MO|HB 1672|2026-01-27|Executive Session Completed (H)",
     "MO|HB 1672|2026-01-27|HCS Voted Do Pass (H)",
     "MO|HB 1672|2026-01-28|HCS Reported Do Pass (H)",
+    "MO|HB 2033|2026-02-04|Placed on the Informal Perfection Calend",
     "MO|HB 2076|2026-01-07|Read First Time (H)",
     "MO|HB 2076|2026-01-08|Read Second Time (H)",
     "MO|HB 2076|2026-05-15|Referred: Emerging Issues(H)",
@@ -74,15 +78,16 @@
     "WA|SB 6081|2026-03-16|Effective date 3/16/2026.",
     "WA|SB 6081|2026-03-16|Governor signed."
   ],
-  "last_run": "2026-06-13T10:18:13.215138+00:00",
+  "last_run": "2026-06-14T16:05:06.951992+00:00",
   "state_last_posted": {
     "WA": "2026-05-24T21:01:19.732360+00:00",
-    "MO": "2026-06-04T10:57:17.901289+00:00",
+    "MO": "2026-06-14T16:01:24.801978+00:00",
     "KS": "2026-05-28T10:57:58.645947+00:00",
     "CA": "2026-05-25T13:12:01.545933+00:00",
     "NJ": "2026-05-24T02:51:34.499116+00:00",
     "MA": "2026-06-02T11:41:36.848025+00:00",
     "AL": "2026-06-13T10:15:54.264820+00:00",
-    "GA": "2026-06-13T10:15:54.264820+00:00"
+    "GA": "2026-06-13T10:15:54.264820+00:00",
+    "DE": "2026-06-14T16:01:24.801978+00:00"
   }
 }

@@ -205,6 +205,7 @@
     "TN|HB 0477|2026-01-23|Meeting Canceled",
     "TN|HB 1537|2026-01-15|Assigned to s/c Cities & Counties Subcom",
     "TN|HB 1537|2026-01-15|P2C, ref. to State & Local Government Co",
+    "TN|HB 1771|2026-01-22|Assigned to s/c Departments & Agencies S",
     "TN|SB 1485|2026-01-14|Passed on Second Consideration, refer to",
     "TN|SB 1485|2026-01-22|Withdrawn.",
     "WA|HB 2431|2026-03-16|Effective date 6/11/2026*.",
@@ -231,6 +232,9 @@
     "WI|AB1|2026-05-13|Withdrawn from Assembly message and take",
     "WI|AB38|2025-09-15|",
     "WI|AB38|2025-09-15|Report Assembly Substitute Amendment 1 a",
+    "WI|SB1|2026-05-12|",
+    "WI|SB1|2026-05-12|Available for scheduling",
+    "WI|SB1|2026-05-12|Report passage recommended by Joint Comm",
     "WI|SB1|2026-05-13|Laid on table",
     "WI|SB1|2026-05-13|Read a third time",
     "WI|SB1|2026-05-13|Rules suspended to give bill its third r",
@@ -243,7 +247,7 @@
     "WY|HB0252|2025-01-20|H Received for Introduction",
     "WY|HB0252|2025-02-03|H Did not Consider for Introduction"
   ],
-  "last_run": "2026-06-13T10:25:15.205729+00:00",
+  "last_run": "2026-06-14T16:09:10.286852+00:00",
   "state_last_posted": {
     "MI": "2026-05-16T03:00:10.016608+00:00",
     "RI": "2026-05-16T03:00:10.016608+00:00",
@@ -259,10 +263,10 @@
     "AL": "2026-06-07T10:24:28.803020+00:00",
     "WA": "2026-06-10T11:23:48.246003+00:00",
     "MA": "2026-05-30T09:19:09.726004+00:00",
-    "WI": "2026-05-24T11:28:41.710988+00:00",
+    "WI": "2026-06-14T16:05:21.736761+00:00",
     "KS": "2026-06-04T11:02:21.381139+00:00",
     "MO": "2026-06-05T11:01:46.240989+00:00",
-    "TN": "2026-05-31T18:00:33.085669+00:00",
+    "TN": "2026-06-14T16:05:21.736761+00:00",
     "PR": "2026-06-06T09:49:33.487217+00:00",
     "ME": "2026-06-13T10:22:38.281149+00:00"
   }

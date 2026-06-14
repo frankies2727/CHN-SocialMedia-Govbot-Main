@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Mr. DiDomenico, a petition (accompanied by bill, Senate, No. 507) of Sal N. DiDomenico, John F. Keenan, Bruce E. Tarr, Paul W. Mark and others for legislation to improve campaign finance reporting by state ballot question committees.  Election Laws.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S507",
+    "legislative_session": "194th",
+    "title": "An Act improving campaign finance reporting by state ballot question committees"
+  },
+  "id": "S507",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-2"
+      ],
+      "date": "2026-01-15",
+      "description": "Read second",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "S507"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/S507/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/S507/logs/20260115T000000Z_read_second.json"
+  },
+  "timestamp": "20260115T000000Z"
+}

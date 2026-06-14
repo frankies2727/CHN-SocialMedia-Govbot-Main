@@ -1,0 +1,24 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2411",
+    "legislative_session": "2025-2026",
+    "title": "Modifying shared leave provisions to authorize shared leave for victims of a hate crime and those whose absence is due to immigration enforcement actions against the employee or the employee's relative."
+  },
+  "id": "HB 2411",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-03-06",
+      "description": "Speaker signed.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 2411"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2411/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2411/logs/20260306T000000Z.classification.passage.lower.json"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Elections, Voting, & Campaigns",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB67",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Elections"
+    ],
+    "title": "Voter Information; limit cost of reproducing voter registration list; crime for misuse of personal voter information; created"
+  },
+  "id": "HB67",
+  "log": {
+    "action": {
+      "date": "2026-04-09T04:00:00+00:00",
+      "description": "Enrolled",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB67"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB67/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB67/logs/20260409T040000Z_enrolled.json"
+  },
+  "timestamp": "20260409T040000Z"
+}
