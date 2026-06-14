@@ -38,7 +38,11 @@ keywords:
   - millage
   - millage rate
   - assessor
-  - assessment
+  - tax assessment
+  - property assessment
+  - reassessment
+  - assessment ratio
+  - assessed value
   - homestead exemption
   - homestead credit
   - earned income tax credit
@@ -64,7 +68,7 @@ keywords:
 
 emojis:
   - emoji: "🏠"
-    match: ["property tax", "real estate tax", "homestead", "millage", "assessor", "assessment"]
+    match: ["property tax", "real estate tax", "homestead", "millage", "assessor", "tax assessment", "property assessment", "reassessment", "assessed value"]
   - emoji: "🛒"
     match: ["sales tax", "use tax"]
   - emoji: "🧾"
