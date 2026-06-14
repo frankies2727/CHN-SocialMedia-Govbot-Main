@@ -26,6 +26,13 @@ jobs:
   digest:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    # Split the 13 topics across two shards that run in parallel on separate
+    # runners. Each shard repeats the shared setup (govbot clone + Ollama) but
+    # only builds ~half the digests, keeping each job under the 60-minute budget.
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1]
     env:
       LLM_MODEL: "gemma3:4b"
     steps:
@@ -111,13 +118,20 @@ jobs:
           DIGEST_PER_STATE_CAP: "2"
         run: |
           shopt -s nullglob
+          # Assign topics to this shard by their sorted position (topics/*/
+          # globs alphabetically). index % NUM_SHARDS interleaves them into a
+          # balanced 7/6 split that auto-rebalances when topics are added.
+          SHARD="${{ matrix.shard }}"
+          NUM_SHARDS=2
+          i=0
           for topic_dir in topics/*/; do
             topic=$(basename "$topic_dir")
-            if [ ! -f "$topic_dir/config.yml" ]; then
-              echo "--- $topic: no config.yml, skipping ---"
-              continue
+            [ -f "$topic_dir/config.yml" ] || continue
+            if [ $(( i % NUM_SHARDS )) -ne "$SHARD" ]; then
+              i=$(( i + 1 )); continue
             fi
-            echo "=== Digest for topic: $topic ==="
+            i=$(( i + 1 ))
+            echo "=== Digest for topic: $topic (shard $SHARD/$NUM_SHARDS) ==="
             BOT_TOPIC="$topic" python scripts/weekly_digest.py \
               || echo "  $topic digest failed, continuing with next topic"
           done
