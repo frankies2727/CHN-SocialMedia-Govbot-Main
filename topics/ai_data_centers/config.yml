@@ -116,7 +116,7 @@ emojis:
     match: ["GPU cluster", "high-performance computing"]
   - emoji: "⛏️"
     match: ["cryptocurrency mining", "bitcoin mining", "crypto mining", "proof-of-work", "proof of work"]
-  - emoji: "₿"
+  - emoji: "💰"
     match: ["cryptocurrency", "cryptocurrencies", "crypto asset", "crypto-asset", "bitcoin", "ethereum", "virtual currency", "virtual currencies"]
   - emoji: "🪙"
     match: ["stablecoin", "stablecoins", "central bank digital currency", "CBDC"]
