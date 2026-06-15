@@ -1,0 +1,23 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This House Concurrent Resolution celebrates the progress of the LGBTQ+ movement and acknowledges the month of June 2026 as LGBTQ+ Pride Month in the State of Delaware.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HCR 145",
+    "legislative_session": "153",
+    "title": "RECOGNIZING JUNE 2026 AS LGBTQ+ PRIDE MONTH IN THE STATE OF DELAWARE."
+  },
+  "id": "HCR 145",
+  "log": {
+    "bill_id": "HCR 145"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HCR145/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HCR145/logs/20260609T000000Z.vote_event.pass.lower.json"
+  },
+  "timestamp": "20260609T000000Z.vote"
+}

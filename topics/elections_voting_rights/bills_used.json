@@ -27,6 +27,7 @@
     "CA|SB1310|2026-04-22|April 21 set for first hearing. Failed p",
     "CA|SB1414|2026-05-27|In Assembly. Read first time. Held at De",
     "DE|HB 183|2026-01-14|Reported Out of Committee (Elections & G",
+    "DE|HB 317|2026-06-12|Substituted in House by HS 2 for HB 317",
     "DE|SB 3|2026-03-25|Amendment HA 1 to SS 1 - Introduced and ",
     "DE|SB 3|2026-03-26|",
     "DE|SB 3|2026-03-26|Amendment HA 1 to SS 1 - Passed In House",
@@ -93,6 +94,7 @@
     "KS|HB2453|2026-04-10|Died in Senate Committee",
     "KS|HB2490|2026-04-10|Died in Committee",
     "KS|HCR5027|2026-04-10|Died in Committee",
+    "KS|SB136|2026-04-10|Died in Committee",
     "KS|SB279|2026-04-10|Died in Committee",
     "KS|SB394|2026-02-12|Committee Report recommending bill be pa",
     "KS|SB394|2026-03-05|Committee of the Whole - Committee Repor",
@@ -137,18 +139,18 @@
     "NJ|A1555|2026-01-13|WITHDRAWN APP P.L.2025, c.322.",
     "WA|SB 5840|2026-03-12|By resolution, returned to Senate Rules "
   ],
-  "last_run": "2026-06-14T15:57:36.695760+00:00",
+  "last_run": "2026-06-15T13:08:02.236997+00:00",
   "state_last_posted": {
     "MO": "2026-06-10T10:58:57.214201+00:00",
     "GA": "2026-06-01T12:33:45.913654+00:00",
     "NJ": "2026-05-19T09:05:43.656146+00:00",
     "MN": "2026-06-02T11:21:45.549047+00:00",
     "CA": "2026-06-13T10:03:36.817182+00:00",
-    "KS": "2026-06-05T10:48:37.544037+00:00",
+    "KS": "2026-06-15T13:03:54.499519+00:00",
     "AL": "2026-06-14T15:53:06.636160+00:00",
     "FL": "2026-06-09T10:30:08.898968+00:00",
     "MS": "2026-06-10T10:58:57.214201+00:00",
-    "DE": "2026-06-01T00:15:25.541521+00:00",
+    "DE": "2026-06-15T13:03:54.499519+00:00",
     "WA": "2026-06-13T10:03:36.817182+00:00",
     "MA": "2026-06-14T15:53:06.636160+00:00"
   }

@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "PS0244",
+    "legislative_session": "2025-2028",
+    "title": "Para enmendar la Sección 1052.01 (b) de la Ley 1-2011, según enmendada, conocida como “Código de Rentas Internas para un Nuevo Puerto Rico” a los fines de realizar una enmienda técnica que permita la más efectiva implementación del Crédito por Trabajo (“Earned Income Tax Credit”) del Código de Rentas Internas federal, según este fue extendido a Puerto Rico en virtud de la Ley Pública 117-2, conocida como el American Rescue Plan Act of 2021; y para otros fines relacionados."
+  },
+  "id": "PS0244",
+  "log": {
+    "action": {
+      "classification": [
+        "amendment-amendment"
+      ],
+      "date": "2026-02-20T04:00:00+00:00",
+      "description": "1er Informe Comisión rendido sin enmiendas",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "PS0244"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PS0244/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PS0244/logs/20260220T040000Z_1er_informe_comisión_rendido_sin_enmiendas.json"
+  },
+  "timestamp": "20260220T040000Z"
+}
