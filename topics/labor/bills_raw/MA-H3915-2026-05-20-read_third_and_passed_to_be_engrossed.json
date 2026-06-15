@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representatives Giannino of Revere and Turco of Winthrop, a petition (accompanied by bill, House, No. 3915) of Jessica Ann Giannino (with the approval of the mayor and city council) relative to retirement benefits for Leo MacAskill, a retired police officer of the police department of the city of Revere.  Public Service.  [Local Approval Received.]",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H3915",
+    "legislative_session": "194th",
+    "title": "An Act providing for violent act injury retirement benefits for retirement police officer Leo MacAskill"
+  },
+  "id": "H3915",
+  "log": {
+    "action": {
+      "classification": [
+        "passage",
+        "reading-3"
+      ],
+      "date": "2026-05-20",
+      "description": "Read third and passed to be engrossed",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "H3915"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H3915/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H3915/logs/20260520T000000Z.classification.passage.lower.json"
+  }
+}

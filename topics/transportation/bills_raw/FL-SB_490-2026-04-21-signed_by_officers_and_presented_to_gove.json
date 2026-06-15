@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Public Records/E-mail Addresses Collected by the Department of Highway Safety for Providing Renewal Notices ;  Expanding an exemption from public records requirements for e-mail addresses collected by the Department of Highway Safety and Motor Vehicles for providing renewal notices to include e-mail addresses collected for use as a method of notification generally and not only for the purpose of providing renewal notices; expanding the exemption to include e-mail addresses collected for use as a method of notification related to vessel registrations; providing retroactive applicability; providing for future legislative review and repeal of the exemption; providing a statement of public necessity, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 490",
+    "legislative_session": "2026",
+    "subject": [
+      "subject index"
+    ],
+    "title": "Public Records/E-mail Addresses Collected by the Department of Highway Safety for Providing Renewal Notices"
+  },
+  "id": "SB 490",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-receipt"
+      ],
+      "date": "2026-04-21",
+      "description": "Signed by Officers and presented to Governor",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "SB 490"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB490/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB490/logs/20260421T000000Z.classification.executive-receipt.legislature.json"
+  }
+}

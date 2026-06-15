@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A RESOLUTION recognizing and commending the Maternal Health Vitality Think Tank; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 1958",
+    "legislative_session": "2025_26",
+    "title": "Maternal Health Vitality Think Tank; commend"
+  },
+  "id": "HR 1958",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-03-27",
+      "description": "House Read and Adopted",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HR 1958"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HR1958/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HR1958/logs/20260327T000000Z.classification.passage.lower.json"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Title 7 of the Official Code of Georgia Annotated, relating to banking and finance, so as to provide for use of certain terms in the advertisement and place of business of licensed payment stablecoin issuers; to provide for licensing of payment stablecoin issuers; to provide for third-party examination or investigation; to provide for payment of certain fees and costs of examination and investigation; to provide for suspension or revocation of a license and procedures therefor; to provide for cease and desist orders; to provide for removal of certain officers and members; to provide for a short title; to provide for legislative purpose and intent; to provide for definitions; to provide for related matters; to provide for an effective date and applicability; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1272",
+    "legislative_session": "2025_26",
+    "subject": [
+      "BANKING AND FINANCE"
+    ],
+    "title": "Banking and finance; licensing of payment stablecoin issuers; provisions"
+  },
+  "id": "HB 1272",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-3"
+      ],
+      "date": "2026-04-02",
+      "description": "Senate Third Read",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB 1272"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1272/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1272/logs/20260402T000000Z_senate_third_read.json"
+  },
+  "timestamp": "20260402T000000Z"
+}
