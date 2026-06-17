@@ -1,0 +1,132 @@
+Session of 2026
+
+SENATE BILL No. 492
+By Committee on Judiciary
+2-5
+
+AN ACT concerning law enforcement; relating to file sharing by law
+enforcement agencies; requiring law enforcement agencies to share
+information about law enforcement officers related to criminal conduct
+or conduct giving rise to licensing or certification sanctions; amending
+K.S.A. 2025 Supp. 75-4379 and repealing the existing section.
+Be it enacted by the Legislature of the State of Kansas:
+Section 1. K.S.A. 2025 Supp. 75-4379 is hereby amended to read as
+follows: 75-4379. (a) (1) A hiring agency shall require each applicant
+interviewed by such agency for a law enforcement officer position who
+has submitted an application for a law enforcement officer position with or
+been employed in a law enforcement position by another state or local law
+enforcement agency or governmental agency to execute a written waiver
+that:
+(A) Explicitly authorizes each state or local law enforcement agency
+or governmental agency that has employed the applicant in a law
+enforcement position, received an application from the applicant for a law
+enforcement position or conducted an employment background
+investigation on the applicant to disclose the applicant's files to the hiring
+agency; and
+(B) releases the hiring agency and each state or local law enforcement
+agency or governmental agency described in subparagraph (A), or an
+employee or contractor of such agency conducting background
+investigations, from any liability related to the use and disclosure of the
+applicant's files.
+(2) An applicant who refuses to execute the written waiver shall not
+be considered for employment by the hiring agency.
+(3) The hiring agency shall include the written waiver with each
+request for information submitted to a state or local law enforcement
+agency or governmental agency.
+(b) Except as provided in subsection (c), a state or local law
+enforcement agency or governmental agency that receives a written waiver
+described in subsection (a) shall disclose the applicant's files to the hiring
+agency not more than 21 days after such receipt. Such law enforcement
+agency or governmental agency may choose to disclose the applicant's
+files by either:
+
+SB 492
+
+(1) Providing copies to the hiring agency; or
+(2) allowing the hiring agency to review the files at the law
+enforcement agency's office or governmental agency's office.
+(c) (1) A state or local law enforcement agency or governmental
+agency is not required to disclose the applicant's files pursuant to
+subsection (b) if such agency is prohibited from providing the files
+pursuant to a binding nondisclosure agreement to which such agency is a
+party, and such agreement was executed before July 1, 2018.
+(2) A state or local law enforcement agency or governmental agency
+is required to disclose the applicant's files pursuant to subsection (b) if
+such files are subject to a binding nondisclosure agreement to which such
+agency is a party, and such agreement was executed on or after July 1,
+2018, but the disclosure shall be limited to files necessary to determine the
+qualifications and fitness of the applicant for performance of duties in a
+law enforcement officer position.
+(3) A state or local law enforcement agency or governmental agency
+may redact personally identifiable information of persons other than the
+applicant in files disclosed to the hiring agency.
+(d) A state or local law enforcement agency or governmental agency,
+or an employee or contractor of such agency conducting background
+investigations, shall not be liable for complying with the provisions of this
+section in good faith or participating in an official oral interview with an
+investigator regarding the applicant.
+(e) Except as provided in subsection subsections (f) and (g), or except
+as necessary for such agency's internal hiring processes, files obtained
+pursuant to this section shall not be disclosed by the hiring agency.
+(f) Files obtained pursuant to this section shall constitute, for the
+purposes of the open records act, a record of the state or local law
+enforcement agency or governmental agency that made, maintained or
+kept such files. Such files shall not be subject to a request for inspection
+and copying under the open records act directed toward the hiring agency
+obtaining the files. The official custodian of such files, for the purposes of
+the open records act, shall be the official custodian of the records of such
+state or local law enforcement agency or governmental agency. Except in a
+civil action involving negligent hiring, such files shall not be subject to
+discovery, subpoena or other process directed toward the hiring agency
+obtaining the files.
+(g) (1) Any information acquired during the hiring process that
+would cause a reasonable person to believe that the applicant has
+committed a crime shall be provided to a state or local law enforcement
+agency with jurisdiction where the crime is alleged to have occurred.
+(2) If an applicant is a currently licensed or certified law enforcement
+officer in any jurisdiction or currently employed as a law enforcement
+
+SB 492
+
+officer, any information acquired during the hiring process that would
+cause a reasonable person to believe that the applicant has committed a
+crime or engaged in conduct that would result in a licensing or
+certification sanction shall be provided to the following agencies:
+(A) The licensing or certifying authority;
+(B) the state or local law enforcement agency where the applicant
+was employed at the time of the conduct; or
+(C) the state or local law enforcement agency where the pplicant is
+currently employed.
+(h) As used in this section:
+(1) (A) "Files" means:
+(i) All performance reviews or other files related to job performance,
+commendations, administrative files, grievances, previous personnel
+applications, personnel-related claims, disciplinary actions, internal
+investigation files, suspensions, investigation-related leave, documents
+concerning termination or other departure from employment, all
+complaints and all early warning information; and
+(ii) regardless of whether the applicant was ultimately hired, the
+employment application, background investigations, polygraph or voice
+stress analysis examination results and law enforcement-related
+psychological evaluation reports connected to the application process.
+(B) "Files" does not include nonperformance documents or data,
+including, but not limited to, medical files, psychological examination
+reports not directly related to the applicant's suitability for law
+enforcement employment or certification, schedules, pay and benefit
+information or similar administrative data or information.
+(2) "Early warning information" means information from a database
+management tool designed to identify officers who may be exhibiting
+precursors of problems on the job that can result in providing those
+officers with counseling or training to divert them away from conduct that
+may become a disciplinary matter.
+(3) "Governmental agency" means the state or subdivision of the state
+with oversight of the state or local law enforcement agency.
+(4) "Hiring agency" means a state or local law enforcement agency
+processing an application for employment, regardless of whether the
+applicant is ultimately hired.
+(5) "State or local law enforcement agency" means any public agency
+employing a law enforcement officer as defined in K.S.A. 74-5602, and
+amendments thereto.
+Sec. 2. K.S.A. 2025 Supp. 75-4379 is hereby repealed.
+Sec. 3. This act shall take effect and be in force from and after its
+publication in the statute book.
