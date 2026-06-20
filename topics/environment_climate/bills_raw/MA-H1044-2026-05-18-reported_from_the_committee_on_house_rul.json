@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Scarsdale of Pepperell, a petition (accompanied by resolve, House, No. 1044) of Margaret R. Scarsdale for legislation to establish a special commission (including members of the General Court) to study climate change staffing levels.  Environment and Natural Resources.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H1044",
+    "legislative_session": "194th",
+    "title": "Resolve establishing a special commission to study climate change staffing levels"
+  },
+  "id": "H1044",
+  "log": {
+    "action": {
+      "date": "2026-05-18",
+      "description": "Reported from the committee on House Rules",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "H1044"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H1044/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H1044/logs/20260518T000000Z_reported_from_the_committee_on_house_rules.json"
+  },
+  "timestamp": "20260518T000000Z"
+}

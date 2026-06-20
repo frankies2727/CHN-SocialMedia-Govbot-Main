@@ -1,0 +1,103 @@
+Senate Bill 116
+By: Senators Bearden of the 30th, Robertson of the 29th, Payne of the 54th, Anavitarte of the
+31st, Albers of the 56th and others
+AS PASSED SENATE
+A BILL TO BE ENTITLED
+AN ACT
+
+To amend Article 6A of Chapter 3 of Title 35 of the Official Code of Georgia Annotated,
+
+relating to DNA sampling, collection, and analysis, so as to require the collection of DNA
+
+samples from certain individuals in a detention facility charged with a misdemeanor or
+
+felony who are subject to an immigration detainer notice; to provide for related matters; to
+
+repeal conflicting laws; and for other purposes.
+
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF GEORGIA:
+
+SECTION 1.
+
+Article 6A of Chapter 3 of Title 35 of the Official Code of Georgia Annotated, relating to
+
+DNA sampling, collection, and analysis, is amended by revising Code Section 35-3-160,
+
+relating to DNA analysis in felony convictions and certain felony charges and performance
+
+of tests, as follows:
+
+"35-3-160.
+
+(a) As used in this article, the term:
+
+(1) 'Department' means the Department of Corrections.
+
+(2) 'Detention facility' means a penal institution under the jurisdiction of the department,
+
+including penal institutions operated by a private company on behalf of the department,
+
+inmate work camps, inmate boot camps, probation detention centers, parole revocation
+
+centers, and county jails, and municipal detention correctional facilities.
+
+(3) 'Division' means the Division of Forensic Sciences of the bureau.
+
+(b)(1) A sample of deoxyribonucleic acid (DNA) shall be collected by oral swab or other
+
+noninvasive procedure from any individual:
+
+(A) Who has been convicted of a felony and is currently incarcerated in a detention
+
+facility, serving a probation sentence, or serving under the jurisdiction of the State
+
+Board of Pardons and Paroles for such felony;
+
+(B) Who has been charged with a felony, and sentence for such offense has been
+
+imposed pursuant to Article 3 of Chapter 8 of Title 42 or pursuant to subsection (a)
+
+or (c) of Code Section 16-13-2; or
+
+(C) Who has been convicted of charged with a misdemeanor or felony and is subject
+
+to an immigration detainer notice as such term is defined in Code Section 42-1-11.5,
+
+provided that such individual is not taken into custody by the United States Immigration
+
+and Customs Enforcement Division of the Department of Homeland Security within 48
+
+hours of detention, excluding weekends and holidays, as required by 8 C.F.R. Section
+
+287.76(d).
+
+(2) Unless a DNA sample has already been collected by the department or another
+
+agency or entity, each DNA sample required by paragraph (1) of this subsection shall be
+
+collected by the detention facility which is detaining or the entity which is supervising
+
+such individual, and the sample shall be forwarded to the division.
+
+(3) Paragraph (1) of this subsection shall not apply to any individual for a conviction for
+
+a misdemeanor, to any individual who is charged with a misdemeanor and the sentence
+
+for such misdemeanor is imposed pursuant to Article 3 of Chapter 8 of Title 42 regarding
+
+first offenders, or because he or she has been charged with a misdemeanor.
+
+(c) DNA analysis shall be performed by the division. The division shall be authorized to
+
+contract with individuals or organizations for services to perform such analysis. The
+
+identifying characteristics of the profile resulting from the DNA analysis shall be stored
+
+and maintained by the bureau in a DNA data bank in accordance with Code
+
+Sections 35-3-162 and 35-3-163 and shall be made available only as provided in Code
+
+Section 35-3-163."
+
+SECTION 2.
+All laws and parts of laws in conflict with this Act are repealed.

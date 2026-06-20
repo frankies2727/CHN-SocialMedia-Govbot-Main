@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Finn of West Springfield and Senator Velis, a joint petition (accompanied by bill, House, No. 4380) of Michael J. Finn and Nicholas A. Boldyga (with the approval of the town council) that the city known as the town of Agawam be authorized to strike the reference to the board of appeals in the city charter.  Municipalities and Regional Government.  [Local Approval Received.]",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H4380",
+    "legislative_session": "194th",
+    "title": "An Act amending the charter of the city known as the town of Agawam to strike the reference to the board of appeals"
+  },
+  "id": "H4380",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-02-25",
+      "description": "Signed by the Governor, Chapter 31 of the Acts of 2026",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "H4380"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4380/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4380/logs/20260225T000000Z_signed_by_the_governor_chapter_31_of_the_acts_of_2026.json"
+  },
+  "timestamp": "20260225T000000Z"
+}

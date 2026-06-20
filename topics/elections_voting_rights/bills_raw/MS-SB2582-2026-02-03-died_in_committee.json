@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB2582",
+    "legislative_session": "2026",
+    "subject": [
+      "Elections"
+    ],
+    "title": "Robert G. Clark, Jr., Voting Rights Act of Mississippi; enact."
+  },
+  "id": "SB2582",
+  "log": {
+    "action": {
+      "date": "2026-02-03T06:00:00+00:00",
+      "description": "Died In Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB2582"
+  },
+  "sources": {
+    "bill": "ms-legislation/country:us/state:ms/sessions/2026/bills/SB2582/metadata.json",
+    "log": "ms-legislation/country:us/state:ms/sessions/2026/bills/SB2582/logs/20260203T060000Z_died_in_committee.json"
+  },
+  "timestamp": "20260203T060000Z"
+}

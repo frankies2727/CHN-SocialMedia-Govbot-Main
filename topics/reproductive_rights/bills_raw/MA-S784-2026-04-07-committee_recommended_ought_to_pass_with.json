@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Ms. Lovely, a petition (accompanied by bill, Senate, No. 784) of Joan B. Lovely, Susannah M. Whipps, Bruce E. Tarr, Hannah Kane and others for legislation to promote and enhance the sustainability of birth centers and the midwifery workforce.  Financial Services.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S784",
+    "legislative_session": "194th",
+    "title": "An Act promoting and enhancing the sustainability of birth centers and the midwifery workforce"
+  },
+  "id": "S784",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage-favorable"
+      ],
+      "date": "2026-04-07",
+      "description": "Committee recommended ought to pass with an amendment",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "S784"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/S784/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/S784/logs/20260407T000000Z_committee_recommended_ought_to_pass_with_an_amendment.json"
+  },
+  "timestamp": "20260407T000000Z"
+}

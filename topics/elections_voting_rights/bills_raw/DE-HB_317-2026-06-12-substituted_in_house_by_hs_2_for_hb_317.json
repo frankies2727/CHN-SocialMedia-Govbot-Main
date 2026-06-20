@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Substitute Bill requires the Division of Motor Vehicles, which is the only state agency that administers automatic voter registration, to conduct an audit of certain voter registrations that: (1) have a non-federally compliant driver's license or identification, (2) their documents predate the implementation of REAL ID, and (3) obtained a driver's license or identification card after Automatic Voter Registration took effect June 21, 2023.\r\nThe Department of Elections, in coordination with the Division of Motor Vehicles, is to report the audit's findings within 1 year of completing the audit.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 317",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 15 OF THE DELAWARE CODE RELATING TO AUTOMATIC VOTER REGISTRATION VERIFICATION AND ONGOING ELIGIBILITY REVIEW."
+  },
+  "id": "HB 317",
+  "log": {
+    "action": {
+      "date": "2026-06-12",
+      "description": "Substituted in House by HS 2 for HB 317",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 317"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB317/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB317/logs/20260612T000000Z_substituted_in_house_by_hs_2_for_hb_317.json"
+  },
+  "timestamp": "20260612T000000Z"
+}

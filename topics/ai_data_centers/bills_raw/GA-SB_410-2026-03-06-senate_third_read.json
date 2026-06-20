@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Part 1 of Article 1 of Chapter 8 of Title 48 of the Official Code of Georgia Annotated, relating to general provisions relative to state sales and use taxes, so as to repeal the data center equipment sales and use tax exemption; to allow for the continued use of certificates of exemption issued prior to the date of repeal; to provide for related matters; to provide for an effective date; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 410",
+    "legislative_session": "2025_26",
+    "subject": [
+      "REVENUE AND TAXATION"
+    ],
+    "title": "State Sales and Use Taxes; the data center equipment sales and use tax exemption; repeal"
+  },
+  "id": "SB 410",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-3"
+      ],
+      "date": "2026-03-06",
+      "description": "Senate Third Read",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 410"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB410/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB410/logs/20260306T000000Z_senate_third_read.json"
+  },
+  "timestamp": "20260306T000000Z"
+}

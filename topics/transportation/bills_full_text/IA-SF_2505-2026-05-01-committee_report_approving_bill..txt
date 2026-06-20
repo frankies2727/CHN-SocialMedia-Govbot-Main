@@ -1,0 +1,895 @@
+Senate File 2505 - Introduced
+SENATE FILE 2505
+BY COMMITTEE ON WAYS AND MEANS
+(SUCCESSOR TO SF 2445)
+(SUCCESSOR TO SSB 3057)
+(COMPANION TO HF 2756 BY
+COMMITTEE ON WAYS AND MEANS)
+
+A BILL FOR
+
+An Act relating to licensing of service companies, motor
+vehicle service contracts, and residential service
+contracts, and providing civil penalties and including
+effective date provisions.
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF THE STATE OF IOWA:
+
+TLSB 5468SZ (2) 91
+nls/ko
+
+Section 1. Section 523C.1, Code 2026, is amended by adding
+the following new subsections:
+NEW SUBSECTION. 1A. “Communicating in a verifiable
+manner” means communication by in-person delivery, first
+class mail, email, or, if there is an auditable record of the
+communication, by telephone or software application on an
+electronic device.
+NEW SUBSECTION. 1B. “Gross consideration” means the total
+value of a service contract without deducting any expenses or
+costs.
+NEW SUBSECTION. 6A. “Person” means an individual or a
+business entity.
+NEW SUBSECTION. 12A. “Service contract holder” means the
+original purchaser of a service contract or the successor in
+interest or transferee entitled to services under the service
+contract.
+NEW SUBSECTION. 12B. “Substitute part” means a part that is
+not issued by the original part manufacturer, including but not
+limited to a remanufactured part, an aftermarket part, and a
+part obtained from a salvage yard.
+NEW SUBSECTION. 12C. “Support services” means a person that
+provides services that support, or a person that works under
+the direction of, a licensed service company in connection with
+the issuance, offer for sale, sale, or administration of a
+service contract in this state, including but not limited to a
+person that provides marketing, administrative, or technical
+support to a service company.
+Sec. 2. Section 523C.1, subsection 4, Code 2026, is amended
+to read as follows:
+4. “Motor vehicle” means any vehicle that is self-propelled
+vehicle and subject to registration under chapter 321.
+Sec. 3. Section 523C.1, subsection 10, Code 2026, is amended
+to read as follows:
+10. “Residential service contract” means a contract or
+agreement between a residential customer and a service company
+
+nls/ko
+
+1/22
+
+which undertakes, for a predetermined fee and for any period
+of time, to service, maintain, repair, replace, or indemnify
+expenses for all or any part of the operational or structural
+components, appliances, or electrical, mechanical, plumbing,
+heating, cooling, or air-conditioning systems of residential
+property in the state which fails due to normal wear or tear or
+inherent defect. “Residential service contract” also includes
+a contract which provides for the service, repair, replacement,
+or maintenance of property for, or damage resulting from power
+surges, roof leakage, and or accidental damage.
+Sec. 4. Section 523C.2, Code 2026, is amended by striking
+the section and inserting in lieu thereof the following:
+523C.2 License required.
+1. A person shall not, directly or indirectly, issue,
+offer for sale, or sell, a motor vehicle service contract or
+residential service contract in this state unless the person
+is licensed under this chapter.
+2. This chapter shall not apply to any person that provides
+support services. A service company that utilizes support
+services shall ensure the support services’ compliance with the
+issuance, offer for sale, or sale of a service contract under
+this chapter.
+3. A service company shall maintain a license for the
+duration of time that the service company is contractually
+obligated to a service contract holder under the terms of a
+service contract, unless otherwise ordered by the commissioner
+after a hearing conducted pursuant to chapter 17A.
+4. A service company shall report to the commissioner
+within thirty calendar days any material change to the
+information submitted by the service company in the service
+company’s initial license application, or license renewal
+application, including a change in the service company’s
+contact information, ownership, officers, or directors
+directly responsible for the service company’s service contract
+business, or any other change that substantially affects the
+
+nls/ko
+
+2/22
+
+service company’s operations in the state.
+5. A service company shall report to the commissioner any
+final disposition of an administrative action taken against
+the service company related to the service company’s service
+contract business in another jurisdiction within thirty
+calendar days of final disposition of the administrative
+action. The report must include a copy of the order, consent
+to the order, and other relevant legal documents.
+6. Within thirty calendar days of the initial pretrial
+hearing date, a service company shall report to the
+commissioner a criminal prosecution in any jurisdiction of an
+owner with more than a ten percent ownership stake, an officer,
+or a director directly responsible for the service contract
+business of the service company, for an offense involving
+dishonesty or a false statement including but not limited
+to fraud, theft, misappropriation of funds, falsification
+of documents, deceptive acts or practices, or other related
+offenses. The report must include a copy of the initial
+complaint filed, the order resulting from the hearing, and any
+other relevant legal documents.
+7. A residential service contract and a motor vehicle
+service contract shall not be considered insurance.
+Sec. 5. Section 523C.3, Code 2026, is amended by striking
+the section and inserting in lieu thereof the following:
+523C.3 Application for license.
+1. Application for a license as a service company shall
+be filed with the commissioner on a form approved by the
+commissioner and must include all of the following information:
+a. The name and principal address of the applicant.
+b. The state of incorporation of the applicant.
+c. The name and address of the applicant’s registered agent
+for service of process in Iowa.
+d. The legal name of all of the following:
+(1) Each owner of the service company that has a greater
+than ten percent ownership stake in the service company.
+
+nls/ko
+
+3/22
+
+(2) Each officer of the service company.
+(3) Each director directly responsible for the business of
+the service company.
+e. Evidence that the applicant has obtained any necessary
+authority from the secretary of state to transact business in
+this state. An applicant whose home state is not this state
+shall provide a certification, dated not more than thirty
+calendar days after the date of submission of an application,
+from the applicant’s home state that certifies the applicant is
+in good standing in the applicant’s home state.
+f. Evidence of compliance with section 523C.5.
+g. A copy of each motor vehicle service contract form to be
+used, issued, or offered for sale in this state by the service
+company.
+h. A copy of each residential service contract form to be
+used, issued, or offered for sale in this state by the service
+company.
+i. A national association of insurance commissioners’
+biographical affidavit for the chief executive officer and
+chief financial officer of the service company, or for the
+individuals in equivalent positions.
+j. A list of any disciplinary actions taken against the
+service company, or any of the service company’s owners who
+have an ownership stake in the service company of more than
+ten percent, officers, or directors directly responsible for
+the provider’s service contract business, in the immediately
+preceding five consecutive years by a regulatory agency or
+state attorney general in any jurisdiction.
+2. The application must be accompanied by a license fee in
+the amount of five hundred dollars.
+3. If the application for a service company license contains
+the information under subsection 1, is accompanied by the
+fees under subsection 2, includes any additional information
+requested by the commissioner to verify the information in
+the application, and the commissioner has not denied the
+
+nls/ko
+
+4/22
+
+application pursuant to section 523C.9, the commissioner shall
+issue the license to the applicant.
+4. Fees collected under this section shall be deposited
+into the service company oversight fund as provided in section
+523C.24.
+Sec. 6. Section 523C.4, Code 2026, is amended by striking
+the section and inserting in lieu thereof the following:
+523C.4 License expiration and renewal.
+1. A license issued under this chapter shall be valid for a
+period of one year and shall be renewed annually on or before
+August 31. A licensee must apply for renewal at least ninety
+calendar days prior to the license expiration date. A license
+that is not renewed prior to the expiration date may be deemed
+expired.
+2. An application for license renewal must include the
+information required for an initial license as described in
+section 523C.3, subsection 1, paragraphs “a” through “f”,
+and a list of each service contract form the service company
+continues to use, offer for sale, or issue in the state,
+including the service contract form name, number, and the date
+the form was last revised.
+3. The license renewal application must be accompanied by
+all of the following:
+a. A license renewal fee in the amount of two hundred
+dollars.
+b. A fee in the amount of three percent of the aggregate
+amount of payments the service company received for the sale or
+issuance of residential service contracts in this state, less
+any refunds issued, during the immediately preceding calendar
+year, provided that such fee must be no greater than fifty
+thousand dollars.
+c. In a format prescribed by the commissioner, information
+regarding service contracts in this state for the service
+company in the immediately preceding calendar year itemized as
+follows:
+
+nls/ko
+
+5/22
+
+(1) The number of motor vehicle service contracts issued.
+(2) The number of residential service contracts issued.
+(3) The number of motor vehicle service contracts canceled.
+(4) The number of residential service contracts canceled.
+(5) The number of motor vehicle service contracts that
+expired.
+(6) The number of residential service contracts that
+expired.
+(7) The number of motor vehicle service contracts in effect
+on December 31 of the immediately preceding calendar year.
+(8) The number of residential service contracts in effect on
+December 31 of the immediately preceding calendar year.
+(9) The total dollar amount of motor vehicle service
+contract fees received by the service company.
+(10) The total dollar amount of residential service
+contract fees received by the service company.
+4. If the license renewal application complies with this
+section, includes any additional information requested by the
+commissioner to verify the information in the application, and
+the commissioner has not refused to renew the license pursuant
+to section 523C.9, the commissioner shall renew the license.
+If the commissioner refuses renewal of a license pursuant to
+section 523C.9, the refusal shall be in writing setting forth
+the grounds for the refusal.
+5. If a service company submits a license renewal
+application after the license has expired, the service company
+shall pay a reinstatement fee of eight hundred dollars, and the
+applicable fees pursuant to subsection 3.
+6. A service company whose license has expired shall not
+offer, extend, or renew a service contract until the service
+company’s license has been renewed or the service company has
+been issued a new license.
+Sec. 7. Section 523C.7, Code 2026, is amended by striking
+the section and inserting in lieu thereof the following:
+523C.7 Disclosure to service contract holders —— contract
+
+nls/ko
+
+6/22
+
+form —— required provisions.
+1. A service contract shall not be issued, sold, or offered
+for sale in this state unless the service company does all of
+the following:
+a. Provides a receipt for the purchase of the service
+contract to the service contract holder.
+b. Provides a complete sample copy of the service contract
+to the consumer prior to purchase. A service company may
+comply with this paragraph by providing the consumer with a
+complete electronic sample copy of the service contract, or
+directing the consumer to a complete sample copy of the service
+contract on an internet site.
+c. Provides a fully executed paper or electronic copy of
+the service contract to the service contract holder within ten
+business days of the date the service contract holder purchased
+the service contract. A paper copy of the executed service
+contract shall be provided to the service contract holder upon
+request of the service contract holder at the expense of the
+service company.
+2. A service contract issued, sold, or offered for sale in
+the state must comply with all of the following, as applicable:
+a. A service contract must be written in clear,
+understandable language in at least eight point type.
+b. (1) A service contract insured under a reimbursement
+insurance policy as provided in section 523C.5, subsection 1,
+must include a statement in substantially the following form:
+Obligations of the service company under this service contract
+are guaranteed under a reimbursement insurance policy. If the
+service company fails to pay or provide service on a claim
+within sixty days after proof of loss has been filed with
+the service company, the service contract holder is entitled
+to make a claim directly against the reimbursement insurance
+policy.
+(2) A service contract insured under a reimbursement
+insurance policy must conspicuously state the name and address
+
+nls/ko
+
+7/22
+
+of the issuer of the reimbursement insurance policy for that
+service contract. A claim against a reimbursement insurance
+policy must also include a claim for return of any refund due
+in accordance with paragraphs “m” and “n”.
+c. A service contract not insured under a reimbursement
+insurance policy must contain a statement in substantially the
+following form:
+Obligations of the service company under this service contract
+are backed by the full faith and credit of the service company
+and are not guaranteed under a reimbursement insurance policy.
+d. A service contract must state the name and address of
+the service company obligated to perform services under the
+contract, and must conspicuously identify the service company,
+any third-party administrator, and the service contract holder
+to the extent that the name and address of the service contract
+holder has been furnished. The identities of such parties
+shall not be required to be printed on the contract in advance
+and may be added to the contract at the time of sale.
+e. A service contract must clearly state the total purchase
+price of the service contract and the terms under which the
+service contract is sold. The total purchase price shall not
+be required to be printed on the contract in advance and may be
+added to the contract at the time of sale.
+f. If prior approval of repair work is required, a service
+contract must conspicuously describe the procedure for
+obtaining prior approval and for making a claim, including a
+toll-free telephone number for claim service, and the procedure
+for obtaining emergency repairs performed outside of normal
+business hours.
+g. A service contract must clearly state any waiting period
+applicable to coverage under the service contract.
+h. A service contract must clearly state the existence of
+any deductible amount.
+i. A service contract must specify the merchandise or
+services, or both, to be provided and any limitations,
+
+nls/ko
+
+8/22
+
+exceptions, or exclusions.
+j. A service contract must clearly state the conditions on
+which the use of substitute parts or services will be allowed.
+Such conditions must comply with applicable state and federal
+laws.
+k. A service contract must clearly state any terms,
+restrictions, or conditions governing the transferability of
+the service contract.
+l. A service contract must clearly state the instructions
+for cancellation of the service contract by the service
+contract holder. Cancellation instructions must include the
+phone number, email address, or mailing address necessary for
+the cancellation of the service contract. A service company
+shall accept cancellation of a service contract from a service
+contract holder by one or more of the following methods:
+(1) Telephone.
+(2) Email.
+(3) The method utilized by the service company to enter into
+the service contract with the service contract holder.
+m. A service contract must clearly state the terms and
+conditions governing the cancellation of the contract prior
+to the termination or expiration date of the contract by the
+service company or the service contract holder. If the service
+company cancels the contract, the service company shall mail a
+written notice of termination to the service contract holder at
+least fifteen calendar days before the date of the termination.
+Prior notice of cancellation by the service company shall not
+be required if the reason for cancellation is nonpayment of the
+purchase price, a material misrepresentation by the service
+contract holder to the service company or the support services
+for the service company, or a substantial breach of duty by the
+service contract holder relating to the covered product or use
+of the covered product. The notice of cancellation must state
+the effective date of the cancellation and the reason for the
+cancellation. If a service contract is canceled by the service
+
+nls/ko
+
+9/22
+
+company for any reason other than nonpayment of the purchase
+price, the service company shall refund the service contract
+holder in an amount equal to one hundred percent of the
+unearned purchase price paid, calculated on a pro rata basis
+based upon elapsed time or mileage, less any claims paid. The
+service company may also charge a reasonable administrative fee
+in an amount no greater than ten percent of the total purchase
+price. A penalty of ten percent of the original dollar amount
+of the refund shall be added to the refund each month if the
+refund is not paid to the service contract holder within thirty
+calendar days.
+n. (1) A service contract must permit the original service
+contract holder who purchased the contract to cancel the
+service contract within at least thirty calendar days of the
+effective date of the service contract, provided no claims
+have been paid under the service contract, or within a longer
+period of time as permitted under the service contract. If
+a claim has not been paid under the service contract prior
+to cancellation by the service contract holder, the service
+contract is void and the full purchase price of the service
+contract shall be refunded to the service contract holder. A
+penalty of ten percent of the original dollar amount of the
+refund shall be added to the refund each month if the refund is
+not paid to the service contract holder within thirty calendar
+days, unless the service contract holder fails to provide the
+information required by the service contract to complete the
+cancellation.
+(2) If the service contract holder cancels the service
+contract in violation of subparagraph (1), the service company
+shall refund the service contract holder an amount equal to one
+hundred percent of the unearned purchase price paid, calculated
+on a pro rata basis based upon elapsed time or mileage,
+less any claims paid. The service company may also charge a
+reasonable administrative fee in an amount no greater than ten
+percent of the total purchase price. A penalty of ten percent
+
+nls/ko
+
+10/22
+
+of the original dollar amount of the refund shall be added to
+a refund each month if the refund is not paid to the service
+contract holder within thirty calendar days of the service
+contract cancellation request, unless the service contract
+holder fails to provide the information required in the service
+contract to complete the cancellation.
+o. A service contract must set forth all obligations and
+duties of the service contract holder, including but not
+limited to the duty to protect against any further damage, and
+the obligation to follow an owner’s manual and to perform, or
+have performed, all required service or maintenance.
+p. A service contract must clearly state if the contract
+covers or excludes consequential damages and preexisting
+conditions, if applicable. A service contract may, but is not
+required to, cover damage resulting from rust, corrosion, or
+damage caused by a part or system not covered under the service
+contract.
+q. A service contract must clearly state the service call
+fee, if any, charged to the service contract holder.
+r. A service contract must state the name and address of
+the commissioner, the current toll-free telephone number of the
+division, and a statement that a consumer may file a complaint
+with the division, including by filing a complaint on the
+division’s internet site.
+s. A service contract must state that if the claim covered
+under a residential service contract relates to the total
+loss of heating, cooling, or plumbing, or substantial loss of
+electrical service, and the claim being made by the service
+contract holder is essential to the health and safety of the
+service contract holder or, if applicable, the service contract
+holder’s family, the service company shall ensure all of the
+following:
+(1) Repair or replacement of the essential good commences
+within forty-eight hours after the report of the claim, and is
+completed as soon as reasonably practicable.
+
+nls/ko
+
+11/22
+
+(2) Notice is provided to the service contract holder if a
+repair cannot practicably be completed within three calendar
+days after the report of the claim. The service company shall
+provide a status report to the service contract holder by
+communicating in a verifiable manner as soon as practicable,
+but no later than three calendar days after the date of the
+report of the claim. The status report must include all of the
+following:
+(a) A list of all required repairs, replacements, or
+services, and the estimated cost to the service contract holder
+if known.
+(b) The primary reason the required repair, replacement, or
+service will take longer than three calendar days, including
+the status of all parts required for the repair, replacement,
+or service.
+(c) The current estimated length of time to complete the
+repair, replacement, or service.
+(d) The telephone number of the service company in the
+event the service contract holder or the commissioner wants
+to make an inquiry concerning the claim, and a commitment by
+the service company to respond to an inquiry no later than one
+business day after the date the inquiry is received.
+Sec. 8. NEW SECTION. 523C.8 Service contract forms —— fees.
+1. A service company shall file with the division an
+accurate copy of each service contract form prior to using the
+service contract form for the sale of a service contract in
+this state.
+2. At the time of filing a new or modified motor vehicle
+service contract form with the division a service company
+shall pay a fee in the amount of thirty-five dollars for a new
+or modified motor vehicle service contract form filed with
+the division. If a service company files a modified motor
+vehicle service contract form, and the only modification to the
+motor vehicle service contract form is information required
+by section 523C.7, subsection 2, paragraph “r”, the service
+
+nls/ko
+
+12/22
+
+company shall not be required to pay a fee for filing the
+modified motor vehicle service contract form.
+3. Notwithstanding section 523C.7, a service company may
+continue to use a service contract form that is noncompliant
+with this chapter until January 1, 2028, provided no changes
+are made to the service contract form and the service contract
+form was filed with the division before January 1, 2027.
+Sec. 9. Section 523C.9, Code 2026, is amended by striking
+the section and inserting in lieu thereof the following:
+523C.9 License denial, nonrenewal, suspension, or revocation.
+1. The commissioner may, at the commissioner’s discretion
+and without advance notice or hearing, immediately suspend a
+service company’s license if the commissioner finds that any of
+the following are true:
+a. The service company is insolvent or impaired.
+b. A proceeding for receivership, conservatorship,
+rehabilitation, or other delinquency proceeding regarding the
+service company has been commenced in any state.
+c. The financial condition or business practices of the
+service company otherwise pose an imminent threat to the public
+health, safety, or welfare of the residents of this state.
+2. The commissioner may suspend or revoke the license of,
+deny an application for a license from, or refuse to renew the
+license of, a service company, or may levy a civil penalty as
+provided in section 523C.13 against a service company, for any
+of the following reasons:
+a. The service company violated this chapter, a lawful
+order, regulation, or subpoena issued by the commissioner or a
+regulatory authority of another state.
+b. The service company failed to pay a final judgment
+rendered against the service company in this state within sixty
+calendar days after the date the judgment became final.
+c. The service company, without just cause, refused
+to perform, or negligently or incompetently performed, a
+service required to be performed under the service company’s
+
+nls/ko
+
+13/22
+
+service contracts and the refusal, or negligent or incompetent
+performance, has occurred with such frequency as determined by
+the commissioner, as to indicate the general business practices
+of the service company.
+d. The service company violated section 523C.13.
+e. The service company failed to demonstrate financial
+responsibility pursuant to section 523C.5, if applicable.
+f. The service company failed to maintain a corporate
+certificate of good standing pursuant to section 523C.3,
+subsection 1.
+g. The service company provided incorrect, misleading,
+incomplete, or materially untrue information in the service
+company’s license application.
+h. The service company obtained or attempted to obtain a
+license through misrepresentation or fraud.
+i. The service company improperly withheld, misappropriated,
+or converted any money or property received in the course of
+business as a service company.
+j. The service company intentionally misrepresented the
+terms of an actual or proposed service contract.
+k. Within the immediately preceding ten consecutive years,
+an owner who has an ownership stake in the service company
+of more than ten percent, an officer, or a director directly
+responsible for the business of the service company has been
+convicted of a criminal offense involving any aspect of a
+business involving securities, commodities, investments,
+franchises, insurance, banking, or finance.
+l. An owner who has an ownership stake in the service
+company of more than ten percent, an officer, or a director
+directly responsible for the business of the service company
+has been convicted of a criminal offense involving dishonesty
+or a false statement, including but not limited to fraud,
+theft, misappropriation of funds, falsification of documents,
+deceptive acts or practices, or other related offenses.
+m. The service company admitted to committing, or was found
+
+nls/ko
+
+14/22
+
+to have committed, any unfair trade practice or fraud.
+n. The service company used fraudulent, coercive,
+or dishonest practices, or demonstrated incompetence,
+untrustworthiness, or financial irresponsibility, in conducting
+business in this state or any other state.
+o. The service company had a service company license or its
+equivalent, denied, suspended, or revoked in any other state,
+province, district, or territory.
+p. The service company failed, or refused, to cooperate in
+an investigation conducted by the commissioner of insurance.
+q. The commissioner has found the service company to be
+incompetent, untrustworthy, financially irresponsible, or not
+of good personal or business reputation.
+r. The service company has refused to be examined or to
+produce the service company’s accounts, records, or files for
+examination, or any individual responsible for the conduct
+of the affairs of the service company has refused to provide
+information with respect to the service company’s affairs or
+has refused to perform any other legal obligation as to an
+examination.
+s. The service company has engaged, directly or indirectly,
+in an unfair method of competition or unfair or deceptive act
+or practice.
+3. If the commissioner suspends or revokes the license of,
+denies the application for licensure of, or refuses to renew
+the license of, a service company pursuant to this section, the
+commissioner shall notify the service company in writing and
+provide the reason for the suspension, revocation, denial, or
+nonrenewal. The licensee or applicant may request a hearing
+on the suspension, revocation, nonrenewal, or denial, and a
+hearing shall be conducted according to chapter 17A.
+Sec. 10. Section 523C.13, Code 2026, is amended by striking
+the section and inserting in lieu thereof the following:
+523C.13 Prohibited acts or practices —— penalty —— violations
+—— contracts voided.
+
+nls/ko
+
+15/22
+
+1. A service company, or the service company’s support
+services, that offers service contracts for sale in this state
+shall not, directly or indirectly, represent in any manner,
+whether by written solicitation or telemarketing, a false,
+deceptive, or misleading statement with respect to any of the
+following:
+a. The service company’s affiliation with a motor vehicle
+manufacturer or importer.
+b. The validity or expiration of a warranty.
+c. A motor vehicle service contract holder’s coverage
+under a motor vehicle service contract, including statements
+suggesting that the service contract holder must purchase a
+new service contract in order to maintain coverage under the
+existing service contract or warranty.
+d. Descriptions of the service contract as a “policy”.
+2. A licensed service company which offers service
+contracts for sale in this state shall not, directly or
+indirectly, do any of the following:
+a. Fail to attempt, in good faith, to effectuate the prompt,
+fair, and equitable resolution of a claim made under a service
+contract.
+b. Create or use any advertising that does not include the
+name of the licensed service company or direct consumers to an
+internet site where the name of the licensed service company
+can be found.
+c. Use any method of marketing that may induce the purchase
+of a service contract through force, fear, or threats, whether
+explicit or implied.
+d. Create or use any service contract marketing materials
+that contain incorrect or misleading information.
+e. Use, offer for sale, or issue in this state a service
+contract form that has not been submitted as part of a license
+application pursuant to section 523C.3, as part of a license
+application renewal pursuant to section 523C.4, or submitted
+to the division during the service company’s current license
+
+nls/ko
+
+16/22
+
+period.
+3. The commissioner may adopt rules pursuant to
+chapter 17A that regulate service contracts to prohibit
+misrepresentation, false advertising, defamation, boycotts,
+coercion, intimidation, false statements and entries, and
+unfair discrimination or practices.
+4. After a hearing, if the commissioner finds that a person
+violated this chapter or a rule adopted under this chapter,
+the commissioner may order the person to cease and desist from
+the violation and may order the person to pay a civil penalty
+of not more than one thousand dollars for each violation, not
+to exceed an aggregate of ten thousand dollars, unless the
+person knew or reasonably should have known the person was in
+violation of this chapter, in which case the civil penalty
+shall be no more than five thousand dollars for each violation,
+not to exceed an aggregate of fifty thousand dollars in any
+one consecutive six-month period. If the commissioner finds a
+violation of this chapter was directed, encouraged, condoned,
+ignored, or ratified by the employer of such person or by a
+service company, the commissioner shall assess a penalty to the
+employer or service company. Any civil penalties collected
+under this subsection shall be deposited as provided in section
+505.7.
+5. A violation of this section or section 523C.7 constitutes
+an unlawful practice pursuant to section 714.16.
+6. A service contract issued or sold in this state by a
+service company that was not licensed as a service company at
+the time the service contract was issued or sold shall be void
+and unenforceable.
+Sec. 11. Section 523C.22, Code 2026, is amended to read as
+follows:
+523C.22 Claim procedures.
+A licensed service company shall promptly provide a written
+explanation to the service contract holder, describing the
+reasons for denying a claim or for the offer of a compromise
+
+nls/ko
+
+17/22
+
+settlement, based on all relevant facts or legal requirements
+and referring to applicable provisions of the service contract.
+The written explanation must include the process for filing a
+complaint with the division, including the division’s internet
+site for accessing the complaint form.
+Sec. 12. Section 523C.23, subsection 1, paragraph b, Code
+2026, is amended by adding the following new subparagraphs:
+NEW SUBPARAGRAPH. (4) During an investigation or
+proceeding conducted under this chapter, the commissioner or
+any designee of the commissioner may administer oaths and
+affirmations, subpoena witnesses, compel witnesses’ attendance,
+take evidence, and require the production of any records
+which the commissioner deems relevant or material to the
+investigation or proceeding.
+NEW SUBPARAGRAPH. (5) Conduct an investigation of a
+suspected violation of this chapter and enforce the provisions
+of, and impose any penalty or remedy authorized by, this
+chapter against any person who is under investigation for, or
+charged with, a violation of this chapter even if the person’s
+license has been surrendered or has lapsed by operation of law.
+Sec. 13. Section 523C.23, subsection 1, paragraph c, Code
+2026, is amended by striking the paragraph.
+Sec. 14. Section 523C.23, subsection 3, Code 2026, is
+amended by striking the subsection.
+Sec. 15. NEW SECTION. 523C.25 Confidentiality.
+1. Notwithstanding chapter 22, the commissioner shall
+maintain the confidentiality of information submitted to the
+division or obtained by the division in the course of an
+investigation, examination, or inquiry pursuant to this chapter
+or the commissioner’s licensing authority, including all notes,
+work papers, or other documents. Information obtained by
+the commissioner in the course of investigating a complaint
+or inquiry may, at the discretion of the commissioner, be
+provided to the service company that is the subject of the
+complaint or inquiry and the consumer who filed the complaint
+
+nls/ko
+
+18/22
+
+or inquiry, without waiving the confidentiality afforded to
+the commissioner or to any other person by this section. The
+commissioner may disclose or release information that is
+otherwise confidential under this subsection in the course of
+an administrative or judicial proceeding.
+2. Notwithstanding subsection 1, if the commissioner
+determines that it is necessary in the public interest, the
+commissioner may share information submitted to the division
+or obtained by the division in the course of an investigation,
+examination, or inquiry pursuant to this chapter with other
+regulatory authorities or government agencies.
+3. Notwithstanding subsection 1, if the commissioner
+determines that it is necessary in the public interest, the
+commissioner may publish service company-related data or
+information submitted to the division or obtained by the
+division in the course of an investigation, examination, or
+inquiry pursuant to this chapter. Such information may be
+redacted so that neither personally identifiable information
+nor service company identifiable information is made available.
+4. Notwithstanding subsection 1, the commissioner may
+publish on the division’s internet site the name, physical
+address, telephone number, and license status of any service
+company submitted to the division or obtained by the division
+in the course of an investigation, examination, or inquiry
+pursuant to this chapter.
+Sec. 16. Section 714.16, subsection 2, Code 2026, is amended
+by adding the following new paragraph:
+NEW PARAGRAPH. t. It is an unlawful practice for a person
+to violate section 523C.7 or 523C.13.
+Sec. 17. EFFECTIVE DATE. This Act takes effect January 1,
+2027.
+EXPLANATION
+
+The inclusion of this explanation does not constitute agreement with
+the explanation’s substance by the members of the general assembly.
+
+This bill relates to the licensing of service companies,
+
+nls/ko
+
+19/22
+
+motor vehicle service contracts, and residential service
+contracts.
+The bill prohibits a person from issuing, offering for sale,
+or selling a motor vehicle service contract or residential
+service contract in the state unless the person is a licensed
+service company. The requirements of the bill do not apply to
+any person who provides support services. “Support services”
+is defined in the bill.
+A service company shall maintain a license for the entirety
+of any service contract that the service company has entered,
+unless otherwise ordered by the commissioner of insurance
+(commissioner) after a hearing. A service company shall report
+to the commissioner within 30 calendar days any material
+change to the information submitted in the initial or renewal
+application, within 30 days of any final disposition of an
+administrative action taken against the service company related
+to the service company’s service contract business, and within
+30 days of the initial pretrial hearing date in a criminal
+prosecution against the service company as detailed in the
+bill.
+A residential service contract and motor vehicle service
+contract shall not be considered insurance.
+An application for a license as a service company shall
+be filed with the commissioner, include all information as
+described in the bill, and be accompanied by a $500 license
+fee. A license as a service company is valid for one year and
+must be renewed annually on or before August 31 of each year
+following the date of issuance. A licensee must apply for
+renewal at least 90 days prior to the license expiration date.
+An application for license renewal shall include the
+information required for an initial license, a list of each
+service contract form, any additional information requested
+by the commissioner to verify the information in the renewal
+application, and the information and fees as described in the
+bill. If the renewal application meets the requirements, the
+
+nls/ko
+
+20/22
+
+commissioner shall renew the license unless otherwise denied,
+in which case the denial shall be in writing.
+If a service company fails to renew their license on or
+before the end of the license period, the company’s license may
+be deemed expired. If a service company submits an application
+or renewal application after the license has expired, the
+service company shall file a service company license renewal
+application, including payment of applicable fees.
+A service contract shall not be issued, sold, or offered for
+sale unless the service company complies with the requirements
+of the bill.
+A service contract issued, sold, or offered for sale in
+the state shall comply with all requirements described in the
+bill. The requirements for a residential service contract that
+relates to goods that are essential to the health and safety of
+the service contract holder are detailed in the bill.
+A service company may continue to use a noncompliant service
+contract form until January 1, 2028, provided no changes are
+made to the form, and the service contract form was filed with
+the division before January 1, 2027.
+The commissioner may, at the commissioner’s discretion
+and without advanced notice or hearing, immediately suspend
+a service company’s license if the commissioner finds that
+any of the circumstances detailed in the bill are true. The
+commissioner may suspend or revoke the license of, deny an
+application for license from, or refuse to renew the license
+of a service company, or may levy a civil penalty against a
+service company, as described in the bill, and shall notify the
+service company in writing of the reason for the suspension,
+revocation, nonrenewal, or denial. The licensee or applicant
+may request a hearing.
+A service company that offers service contracts for sale,
+or the service company’s support services, shall not represent
+in any manner a false, deceptive, or misleading statement with
+respect to the service company’s affiliation with a motor
+
+nls/ko
+
+21/22
+
+vehicle manufacturer or importer, the validity or expiration
+of a warranty, or a motor vehicle service contract holder’s
+coverage under a motor vehicle service contract, and shall not
+describe the service contract as a policy.
+A service company shall not engage in a prohibited act
+or practice as detailed in the bill. The commissioner
+may adopt rules regulating service contracts to prohibit
+misrepresentation, false advertising, defamation, boycotts,
+coercion, intimidation, false statements and entries, and
+unfair discrimination or practices. After a hearing, if the
+commissioner finds that a person has violated the bill or rules
+adopted under the bill, the commissioner may order the person
+to cease and desist from the violation and may order the person
+to pay a civil penalty. A violation of the bill constitutes
+an unlawful practice. A service contract issued or sold by a
+service company that was not licensed at the time the service
+contract was issued or sold shall be void and unenforceable.
+A written explanation to a service contract holder of a
+denial of a claim or offer of a settlement shall include the
+information detailed in the bill.
+The duties of the commissioner during an investigation,
+proceeding, examination, or inquiry are detailed in the bill.
+The commissioner shall maintain the confidentiality of
+information submitted to the division or obtained by the
+division in the course of an investigation, examination, or
+inquiry, including all notes, work papers, or other documents
+and the information as described in the bill. The commissioner
+may disclose or release information that is otherwise
+confidential in the circumstances detailed in the bill.
+The bill takes effect on January 1, 2027.
+
+nls/ko
+
+22/22

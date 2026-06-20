@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2416",
+    "legislative_session": "2025-2026",
+    "title": "Concerning fair treatment of waste to energy facilities under the climate commitment act."
+  },
+  "id": "HB 2416",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-03-25",
+      "description": "Governor signed.",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "HB 2416"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2416/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2416/logs/20260325T000000Z_governor_signed.json"
+  },
+  "timestamp": "20260325T000000Z"
+}

@@ -1,0 +1,5883 @@
+MISSISSIPPI LEGISLATURE
+
+REGULAR SESSION 2026
+
+By:
+
+To: Banking and Financial
+Services
+
+Representative Aguirre
+
+HOUSE BILL NO. 1264
+
+AN ACT TO CREATE THE VIRTUAL CURRENCY KIOSK CONSUMER ACCESS
+AND PROTECTION ACT; TO DEFINE CERTAIN TERMS RELATING TO THIS ACT;
+TO REQUIRE A DIGITAL ASSET KIOSK OPERATOR TO HAVE A LICENSE TO
+OPERATE A DIGITAL ASSET KIOSK; TO REQUIRE CERTAIN REPORTING OF
+KIOSK LOCATIONS; TO REQUIRE CERTAIN DISCLOSURES AND FRAUD WARNINGS
+ON KIOSK INTERFACES; TO REQUIRE A RECEIPT TO BE GIVEN UPON
+COMPLETION OF ANY TRANSACTION AT A DIGITAL ASSET KIOSK; TO PROVIDE
+NEW CUSTOMER TRANSACTION LIMITS; TO BRING FORWARD SECTIONS 75-16-5
+THROUGH 75-16-87, WHICH RELATE TO THE MONEY TRANSMISSION
+MODERNIZATION ACT, FOR PURPOSES OF POSSIBLE AMENDMENT; AND FOR
+RELATED PURPOSES.
+
+WHEREAS, access to lawful digital asset transactions is an
+
+essential component of financial inclusion, innovation, and
+
+individual economic freedom in the modern economy; and
+
+WHEREAS, digital asset kiosks offer a vital point of access
+
+for individuals who may lack traditional banking services or
+
+prefer to engage with digital assets in a secure, in-person
+
+environment; and
+
+WHEREAS, individuals have a right to use their fiat currency
+
+to obtain digital assets lawfully, and businesses have a right to
+
+operate compliant digital asset kiosks to serve the public; and
+
+H. B. No. 1264
+PAGE 1 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+G1/2
+
+WHEREAS, clear, consistent, and narrowly tailored regulation
+
+of digital asset kiosks helps protect consumers from fraud while
+
+preserving lawful access to emerging financial technologies; and
+
+WHEREAS, it is in the public interest to ensure that
+
+consumers can engage with digital assets through kiosks in a safe,
+
+transparent, and non-discriminatory manner; Now, therefore,
+
+BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MISSISSIPPI:
+
+SECTION 1.
+
+This act shall be known and may be cited as the
+
+"Virtual Currency Kiosk Consumer Access and Protection Act".
+SECTION 2.
+
+For purposes of this act, the following words and
+
+phrases have the meanings as provided in this section unless the
+
+context clearly indicates otherwise:
+
+(a)
+
+"Department" means the state agency or office
+
+designated to administer and enforce this act.
+(b)
+
+"Digital asset" means virtual currencies,
+
+cryptocurrencies, including stablecoins, fungible tokens,
+
+non-fungible tokens, and other digital-only assets that confer
+
+economic, proprietary, or access rights or powers.
+
+(c)
+
+"Fiat currency" means Government-issued currency
+
+that is designated as legal tender in the United States and is not
+
+backed by a physical commodity.
+
+(d)
+
+"Digital asset kiosk" means an electronic terminal
+
+that enables a consumer to exchange fiat currency for digital
+
+assets, or digital assets for fiat currency.
+
+is not limited to, a machine that either connects to an external
+H. B. No. 1264
+PAGE 2 (MCL\KW)
+
+*HR26/R2229*
+
+This includes, but
+
+~ OFFICIAL ~
+
+digital asset exchange to execute the transaction or dispenses
+
+digital assets from the kiosk operator's own holdings.
+
+(e)
+
+"Digital asset kiosk operator" means a person or
+
+entity authorized to do business in this state that owns or
+
+operates one or more digital asset kiosks within this state.
+
+(f)
+
+"Individual" means a natural person.
+
+(g)
+
+"Customer" means an individual who uses a digital
+
+asset kiosk to conduct a transaction involving digital assets.
+
+(h)
+
+"New customer" means a customer during the period
+
+of three (3) calendar days following the date of that customer's
+
+first transaction with a digital asset kiosk operator.
+
+(i)
+
+"Money transmission license" means a license or
+
+other authorization issued under the laws of this state to engage
+
+in the business of money transmission.
+
+SECTION 3.
+
+No digital asset kiosk operator shall operate any
+
+digital asset kiosk in this state unless the operator holds a
+
+valid money transmission license issued by the department under
+
+applicable state law.
+
+SECTION 4.
+
+(1)
+
+Each digital asset kiosk operator shall
+
+submit to the department an annual report listing all digital
+
+asset kiosk locations operated by the operator in this state.
+
+report shall be filed in a form and by a date prescribed by the
+
+department, but not less frequently than once per calendar year.
+
+(2)
+
+location:
+
+The
+
+The report shall include, for each digital asset kiosk
+
+H. B. No. 1264
+PAGE 3 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(a)
+
+kiosk is located;
+(b)
+
+(c)
+
+location; and
+
+(d)
+
+The physical address of the location, including
+
+street address, city, and zip code;
+
+The name of the business or establishment where the
+
+The date on which the kiosk began operation at that
+
+The date on which the kiosk ceased operation at
+
+that location, if applicable.
+SECTION 5.
+
+(1)
+
+Each digital asset kiosk operator shall
+
+ensure that each kiosk's user interface prominently displays the
+
+following information to the customer before the customer commits
+
+to a transaction:
+
+(a)
+
+transaction;
+
+(b)
+
+All fees or charges the customer will incur for the
+
+The applicable exchange rate or price used to
+
+convert between fiat currency and the digital asset, if
+
+applicable;
+
+(c)
+
+A notice that transactions in digital assets are
+
+irrevocable and cannot be reversed or refunded once executed; and
+(d)
+
+A notice that digital assets and transactions
+
+conducted through the kiosk are not insured or guaranteed by the
+
+Federal Deposit Insurance Corporation or the Securities Investor
+
+Protection Corporation.
+
+SECTION 6.
+
+Each digital asset kiosk operator shall ensure
+
+that a fraud warning is displayed on the kiosk interface before a
+H. B. No. 1264
+PAGE 4 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+customer may complete any transaction.
+
+describe, in general terms, common scam tactics involving digital
+
+asset kiosks and shall advise the customer not to proceed with the
+
+transaction if they are being instructed or pressured by a third
+
+party or if they suspect fraud.
+
+no government agency or official will ever request payment using a
+
+digital asset kiosk.
+
+suspect fraud to contact the phone number displayed on the kiosk,
+
+which shall connect either to the digital asset kiosk operator or
+
+to a non-emergency law enforcement line.
+
+SECTION 7.
+
+The fraud warning shall
+
+The warning shall also state that
+
+The warning shall direct customers who
+
+Each digital asset kiosk shall display a valid
+
+telephone number that customers can call for assistance or to
+
+report issues.
+
+digital asset kiosk operator's customer service center or to a
+
+designated local law enforcement non-emergency line.
+
+must be posted prominently on the kiosk or its electronic display
+
+so that customers can easily see it before and during a
+
+transaction.
+
+SECTION 8.
+
+This contact number shall connect either to the
+
+The number
+
+Upon completion of any transaction at a digital
+
+asset kiosk, the digital asset kiosk operator shall provide the
+
+customer with a receipt in either printed or electronic form.
+
+Each receipt shall include:
+
+(a)
+
+H. B. No. 1264
+PAGE 5 (MCL\KW)
+
+The date and time of the transaction;
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(b)
+
+The type and amount of digital asset transacted,
+
+and, if applicable, the corresponding amount of fiat currency
+
+exchanged;
+
+(c)
+
+The fees charged for the transaction;
+
+(d)
+
+The exchange rate applied, if any; and
+
+(e)
+
+The name of the digital asset kiosk operator and
+
+the operator's customer service contact information.
+SECTION 9.
+
+(a)
+
+Each digital asset kiosk operator shall
+
+implement transaction limits for new customers.
+
+three (3) calendar days following a customer's initial transaction
+
+with the operator, the operator shall not permit the customer to
+
+conduct transactions totaling more than Three Thousand Dollars
+
+($3,000.00) per calendar day through a digital asset kiosk.
+
+the three (3) day period has elapsed, the limitation shall no
+
+longer apply.
+
+(b)
+
+For the first
+
+After
+
+The daily limit as provided in this act is Three
+
+Thousand Dollars ($3,000.00) as of January 1, 2026.
+(c)
+
+"CPI" means the Consumer Price Index for All Urban
+
+Consumers (CPI-U), U.S. City Average, all items, not seasonally
+
+adjusted, as published by United States Bureau of Labor
+
+Statistics.
+
+Beginning January 1, 2027, the department shall annually
+adjust the base amount for inflation.
+
+H. B. No. 1264
+PAGE 6 (MCL\KW)
+
+*HR26/R2229*
+
+The adjusted amount equals:
+
+~ OFFICIAL ~
+
+Adjusted Amount = Base Amount × (CPI for the most recent 12-month
+
+average available as of September 1 preceding the year ÷ CPI for
+
+2026).
+
+(d)
+
+The department shall round the adjusted amount up
+
+to the nearest Ten Dollars ($10.00) and publish it by November 15
+
+each year on its website.
+
+deflation.
+
+SECTION 10.
+
+(1)
+
+The amount shall not be reduced due to
+
+Each digital asset kiosk operator shall
+
+maintain complete and accurate records of all digital asset kiosk
+
+transactions and related customer information as required under
+
+applicable state and federal law.
+
+records shall be preserved for the period of time required by the
+
+department's regulations or other applicable law.
+
+(2)
+
+At a minimum, transaction
+
+A digital asset kiosk operator shall cooperate with law
+
+enforcement authorities in the investigation and prevention of
+
+fraud and other unlawful activity.
+
+is not limited to:
+
+(a)
+
+Such cooperation includes, but
+
+Promptly complying with lawful subpoenas, court
+
+orders, and other official requests for records or information
+
+relating to kiosk transactions or customers;
+
+(b)
+
+Respond in good faith to lawful requests from the
+
+department or law enforcement relating to fraud involving a
+
+digital asset kiosk;
+
+H. B. No. 1264
+PAGE 7 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(c)
+
+Designate a point of contact within the operator’s
+
+organization for communication with the department and law
+
+enforcement regarding fraud-related matters.
+
+No provision of this section shall be construed to require a
+
+digital asset kiosk operator to monitor or block transactions in
+
+real time, except as required by other applicable laws.
+
+SECTION 11.
+
+Any violations of this act are subject to the
+
+penalties as described in the Money Transmission Modernization
+
+Act.
+
+SECTION 12.
+
+A county, city, township or village, shall not
+
+enact or enforce an ordinance that restricts the use of a virtual
+
+currency kiosk in this state except as expressly authorized under
+
+this act.
+
+SECTION 13.
+
+Section 75-16-5, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-5.
+
+Definitions.
+
+For purposes of this chapter, the
+
+following definitions shall apply:
+
+(a)
+
+"Acting in concert" means persons knowingly acting
+
+together with a common goal of jointly acquiring control of a
+
+licensee whether or not pursuant to an express agreement.
+
+(b)
+
+"Authorized delegate" means a person a licensee
+
+designates to engage in money transmission on behalf of the
+
+licensee.
+
+(c)
+
+"Average daily money transmission liability" means
+
+the amount of the licensee's outstanding money transmission
+H. B. No. 1264
+PAGE 8 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+obligations in this state at the end of each day in a given period
+
+of time, added together and divided by the total number of days in
+
+the given period of time.
+
+daily money transmission liability under this chapter for any
+
+licensee required to do so, the given period of time shall be the
+
+quarters ending March 31, June 30, September 30 and December 31.
+
+(d)
+
+For purposes of calculating average
+
+"Bank Secrecy Act" means the Bank Secrecy Act, 31
+
+USC Section 5311 et seq. and its implementing regulations, as
+
+amended and recodified from time to time.
+
+(e)
+
+"Closed loop stored value" means stored value that
+
+is redeemable by the issuer only for goods or services provided by
+
+the issuer or its affiliate or franchisees of the issuer or its
+
+affiliate, except to the extent required by applicable law to be
+
+redeemable in cash for its cash value.
+
+(f)
+
+"Control" means:
+(i)
+
+1.
+
+The power to vote, directly or indirectly,
+
+at least twenty-five percent (25%) of the outstanding voting
+
+shares or voting interests of a licensee or person in control of a
+
+licensee;
+
+2.
+
+The power to elect or appoint a majority
+
+of key individuals or executive officers, managers, directors,
+
+trustees or other persons exercising managerial authority of a
+
+person in control of a licensee; or
+
+H. B. No. 1264
+PAGE 9 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+3.
+
+The power to exercise, directly or
+
+indirectly, a controlling influence over the management or
+
+policies of a licensee or person in control of a licensee;
+
+(ii)
+
+Rebuttable Presumption of Control;
+1.
+
+A person is presumed to exercise a
+
+controlling influence when the person holds the power to vote,
+
+directly or indirectly, at least ten percent (10%) of the
+
+outstanding voting shares or voting interests of a licensee or
+
+person in control of a licensee;
+
+2.
+
+A person presumed to exercise a
+
+controlling influence as defined by this paragraph (f) can rebut
+
+the presumption of control if the person is a passive investor;
+
+(iii)
+
+For purposes of determining the percentage
+
+of a person controlled by any other person, the person's interest
+
+shall be aggregated with the interest of any other immediate
+
+family member, including the person's spouse, parents, children,
+
+siblings, mothers- and fathers-in-law, sons- and daughters-in-law,
+
+brothers- and sisters-in-law, and any other person who shares such
+
+person's home.
+
+(g)
+
+"Eligible rating" means a credit rating of any of
+
+the three (3) highest rating categories provided by an eligible
+
+rating service, whereby each category may include rating category
+
+modifiers such as "plus" or "minus" for S&P, or the equivalent for
+
+any other eligible rating service.
+
+deemed eligible if the rating is equal to A- or higher by S&P, or
+H. B. No. 1264
+PAGE 10 (MCL\KW)
+
+*HR26/R2229*
+
+Long-term credit ratings are
+
+~ OFFICIAL ~
+
+the equivalent from any other eligible rating service.
+
+credit ratings are deemed eligible if the rating is equal to or
+
+higher than A-2 or SP-2 by S&P, or the equivalent from any other
+
+eligible rating service.
+
+eligible rating services, the highest rating shall apply when
+
+determining whether a security bears an eligible rating.
+
+(h)
+
+Short-term
+
+In the event that ratings differ among
+
+"Eligible rating service" means any Nationally
+
+Recognized Statistical Rating Organization (NRSRO) as defined by
+
+the U.S. Securities and Exchange Commission, and any other
+
+organization designated by the commissioner by rule, regulation or
+
+order.
+
+(i)
+
+"Federally insured depository financial
+
+institution" means a bank, credit union, savings and loan
+
+association, trust company, savings association, savings bank,
+
+industrial bank or industrial loan company organized under the
+
+laws of the United States or any state of the United States, when
+
+such bank, credit union, savings and loan association, trust
+
+company, savings association, savings bank, industrial bank or
+
+industrial loan company has federally insured deposits.
+
+(j)
+
+"In this state" means at a physical location within
+
+this state for a transaction requested in person.
+
+transaction requested electronically or by phone, the provider of
+
+money transmission may determine if the person requesting the
+
+transaction is "in this state" by relying on other information
+
+provided by the person regarding the location of the individual's
+H. B. No. 1264
+PAGE 11 (MCL\KW)
+
+*HR26/R2229*
+
+For a
+
+~ OFFICIAL ~
+
+residential address or a business entity's principal place of
+
+business or other physical address location, and any records
+
+associated with the person that the provider of money transmission
+
+may have that indicate such location, including, but not limited
+
+to, an address associated with an account.
+
+(k)
+
+"Individual" means a natural person.
+
+(l)
+
+"Key individual" means any individual ultimately
+
+responsible for establishing or directing policies and procedures
+
+of the licensee, such as an executive officer, manager, director
+
+or trustee.
+
+(m)
+
+"Licensee" means a person licensed under this
+
+(n)
+
+"Material litigation" means litigation, that
+
+chapter.
+
+according to United States generally accepted accounting
+
+principles, is significant to a person's financial health and
+
+would be required to be disclosed in the person's annual audited
+
+financial statements, report to shareholders, or similar records.
+
+(o)
+
+"Money" means a medium of exchange that is
+
+authorized or adopted by the United States or a foreign
+
+government.
+
+established by an intergovernmental organization or by agreement
+
+between two (2) or more governments.
+
+The term includes a monetary unit of account
+
+(p)
+
+"Monetary value" means a medium of exchange,
+
+whether or not redeemable in money.
+(q)
+H. B. No. 1264
+PAGE 12 (MCL\KW)
+
+"Money transmission" means any of the following:
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(i)
+
+person located in this state;
+
+(ii)
+
+Selling or issuing stored value to a person
+
+located in this state; and
+
+Selling or issuing payment instruments to a
+
+(iii)
+
+Receiving money or monetary value for
+
+transmission from a person located in this state.
+(r)
+
+"MSB accredited state" means a state agency that is
+
+accredited by the Conference of State Bank Supervisors and Money
+
+Transmitter Regulators Association for money transmission
+
+licensing and supervision.
+
+(s)
+
+"Multistate licensing process" means any agreement
+
+entered into by and among state regulators relating to coordinated
+
+processing of applications for money transmission licenses,
+
+applications for the acquisition of control of a licensee, control
+
+determinations, or notice and information requirements for a
+
+change of key individuals.
+
+(t)
+
+"NMLS" means the Nationwide Multistate Licensing
+
+System and Registry developed by the Conference of State Bank
+
+Supervisors and the American Association of Residential Mortgage
+
+Regulators and owned and operated by the State Regulatory
+
+Registry, LLC, or any successor or affiliated entity, for the
+
+licensing and registration of persons in financial services
+
+industries.
+
+H. B. No. 1264
+PAGE 13 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(u)
+
+"Outstanding money transmission obligations" shall
+
+be established and extinguished in accordance with applicable
+
+state law and shall mean:
+
+(i)
+
+Any payment instrument or stored value issued
+
+or sold by the licensee to a person located in the United States
+
+or reported as sold by an authorized delegate of the licensee to a
+
+person who is located in the United States that has not yet been
+
+paid or refunded by or for the licensee, or escheated in
+
+accordance with applicable abandoned property laws;
+
+(ii)
+
+Any money received for transmission by the
+
+licensee or an authorized delegate in the United States from a
+
+person located in the United States that has not been received by
+
+the payee or refunded to the sender, or escheated in accordance
+
+with applicable abandoned property laws; or
+
+(iii)
+
+For purposes of this paragraph (u), "in the
+
+United States" shall include, to the extent applicable, a person
+
+in any state, territory, or possession of the United States; the
+
+District of Columbia; the Commonwealth of Puerto Rico; or a U.S.
+
+military installation that is located in a foreign country.
+
+(v)
+
+"Passive investor" means a person that:
+(i)
+
+Does not have the power to elect a majority of
+
+key individuals or executive officers, managers, directors,
+
+trustees or other persons exercising managerial authority of a
+
+person in control of a licensee;
+
+H. B. No. 1264
+PAGE 14 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(ii)
+
+Is not employed by and does not have any
+
+managerial duties of the licensee or person in control of a
+
+licensee;
+
+(iii)
+
+Does not have the power to exercise,
+
+directly or indirectly, a controlling influence over the
+
+management or policies of a licensee or person in control of a
+
+licensee; and
+
+(iv)
+
+Either:
+1.
+
+Attests to subparagraphs (i), (ii) and
+
+(iii) in this paragraph, in a form and in a medium prescribed by
+
+the commissioner; or
+
+2.
+
+Commits to the passivity characteristics
+
+of subparagraphs (i), (ii) and (iii) of this paragraph, in a
+
+written document.
+
+(w)
+
+"Payment instrument" means a written or electronic
+
+check, draft, money order, traveler's check or other written or
+
+electronic instrument for the transmission or payment of money or
+
+monetary value, whether or not negotiable.
+
+include stored value or any instrument that (i) is redeemable by
+
+the issuer only for goods or services provided by the issuer or
+
+its affiliate or franchisees of the issuer or its affiliate,
+
+except to the extent required by applicable law to be redeemable
+
+in cash for its cash value; or (ii) is not sold to the public but
+
+issued and distributed as part of a loyalty, rewards, or
+
+promotional program.
+H. B. No. 1264
+PAGE 15 (MCL\KW)
+
+*HR26/R2229*
+
+The term does not
+
+~ OFFICIAL ~
+
+(x)
+
+"Person" means any individual, general partnership,
+
+limited partnership, limited liability company, corporation,
+
+trust, association, joint-stock corporation or other corporate
+
+entity identified by the commissioner.
+
+(y)
+
+"Receiving money for transmission" or "money
+
+received for transmission" means receiving money or monetary value
+
+in the United States for transmission within or outside the United
+
+States by electronic or other means.
+
+(z)
+
+"Stored value" means monetary value representing a
+
+claim against the issuer evidenced by an electronic or digital
+
+record, and that is intended and accepted for use as a means of
+
+redemption for money or monetary value, or payment for goods or
+
+services.
+
+access" as defined by 31 CFR 1010.100, as amended or recodified
+
+from time to time.
+
+"stored value" does not include a payment instrument or closed
+
+loop stored value, or stored value not sold to the public but
+
+issued and distributed as part of a loyalty, rewards or
+
+promotional program.
+
+The term includes, but is not limited to, "prepaid
+
+(aa)
+
+Notwithstanding the foregoing, the term
+
+"Tangible net worth" means the aggregate assets of
+
+a licensee excluding all intangible assets, less liabilities, as
+
+determined in accordance with United States generally accepted
+
+accounting principles.
+
+SECTION 14.
+
+Section 75-16-7, Mississippi Code of 1972, is
+
+brought forward as follows:
+H. B. No. 1264
+PAGE 16 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+75-16-7.
+
+(a)
+
+Exemptions.
+
+This chapter does not apply to:
+
+An operator of a payment system to the extent that
+
+it provides processing, clearing or settlement services, between
+
+or among persons exempted by this section or licensees, in
+
+connection with wire transfers, credit card transactions, debit
+
+card transactions, stored value transactions, automated clearing
+
+house transfers or similar funds transfers;
+
+(b)
+
+A person appointed as an agent of a payee to
+
+collect and process a payment from a payor to the payee for goods
+
+or services, other than money transmission itself, provided to the
+
+payor by the payee, provided that:
+
+(i)
+
+There exists a written agreement between the
+
+payee and the agent directing the agent to collect and process
+
+payments from payors on the payee's behalf;
+
+(ii)
+
+The payee holds the agent out to the public
+
+as accepting payments for goods or services on the payee's behalf;
+
+and
+
+(iii)
+
+Payment for the goods and services is
+
+treated as received by the payee upon receipt by the agent so that
+
+the payor's obligation is extinguished and there is no risk of
+
+loss to the payor if the agent fails to remit the funds to the
+
+payee;
+
+(c)
+
+A person who acts as an intermediary by processing
+
+payments between an entity that has directly incurred an
+
+H. B. No. 1264
+PAGE 17 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+outstanding money transmission obligation to a sender, and the
+
+sender's designated recipient, provided that the entity:
+
+(i)
+
+Is properly licensed or exempt from licensing
+
+requirements under this chapter;
+
+(ii)
+
+Provides a receipt, electronic record or
+
+other written confirmation to the sender identifying the entity as
+
+the provider of money transmission in the transaction; and
+
+(iii)
+
+Bears sole responsibility to satisfy the
+
+outstanding money transmission obligation to the sender, including
+
+the obligation to make the sender whole in connection with any
+
+failure to transmit the funds to the sender's designated
+
+recipient;
+
+(d)
+
+The United States or a department, agency, or
+
+instrumentality thereof, or its agent;
+(e)
+
+Money transmission by the United States Postal
+
+Service or by an agent of the United States Postal Service;
+(f)
+
+A state, county, city, or any other governmental
+
+agency or governmental subdivision or instrumentality of a state,
+
+or its agent;
+
+(g)
+
+A federally insured depository financial
+
+institution, bank holding company, office of an international
+
+banking corporation, foreign bank that establishes a federal
+
+branch pursuant to the International Bank Act, 12 USC 3102, as
+
+amended or recodified from time to time, corporation organized
+
+pursuant to the Bank Service Corporation Act, 12 USC 1861-1867, as
+H. B. No. 1264
+PAGE 18 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+amended or recodified from time to time, or corporation organized
+
+under the Edge Act, 12 USC 611-633, as amended or recodified from
+
+time to time, under the laws of a state or the United States;
+
+(h)
+
+Electronic funds transfer of governmental benefits
+
+for a federal, state, county or governmental agency by a
+
+contractor on behalf of the United States or a department, agency
+
+or instrumentality thereof, or on behalf of a state or
+
+governmental subdivision, agency or instrumentality thereof;
+
+(i)
+
+A board of trade designated as a contract market
+
+under the federal Commodity Exchange Act, 7 USC 1-25, as amended
+
+or recodified from time to time, or a person that, in the ordinary
+
+course of business, provides clearance and settlement services for
+
+a board of trade to the extent of its operation as or for such a
+
+board;
+
+(j)
+
+A registered futures commission merchant under the
+
+federal commodities laws to the extent of its operation as such a
+
+merchant;
+
+(k)
+
+A person registered as a securities broker-dealer
+
+under federal or state securities laws to the extent of its
+
+operation as such a broker-dealer;
+
+(l)
+
+An individual employed by a licensee, authorized
+
+delegate or any person exempted from the licensing requirements of
+
+this chapter when acting within the scope of employment and under
+
+the supervision of the licensee, authorized delegate or exempted
+
+person as an employee and not as an independent contractor;
+H. B. No. 1264
+PAGE 19 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(m)
+
+A person expressly appointed as a third-party
+
+service provider to or agent of an entity exempted under paragraph
+
+(g) of this section, solely to the extent that:
+
+(i)
+
+Such service provider or agent is engaging in
+
+money transmission on behalf of and pursuant to a written
+
+agreement with the exempt entity that sets forth the specific
+
+functions that the service provider or agent is to perform; and
+
+(ii)
+
+The exempt entity assumes all risk of loss
+
+and all legal responsibility for satisfying the outstanding money
+
+transmission obligations owed to purchasers and holders of the
+
+outstanding money transmission obligations upon receipt of the
+
+purchaser's or holder's money or monetary value by the service
+
+provider or agent;
+
+(n)
+
+A person exempt by regulation or order if the
+
+commissioner finds such exemption to be in the public interest and
+
+that the regulation of such person is not necessary for the
+
+purposes of this chapter; or
+
+(o)
+
+A payroll processing service provider, which means
+
+a person receiving money for transmission pursuant to a contract
+
+with a person to deliver wages or salaries, make payment of
+
+payroll taxes to state and federal agencies, make payments
+
+relating to employee benefit plans, or make distributions of other
+
+authorized deductions from wages or salaries.
+
+SECTION 15.
+
+Section 75-16-9, Mississippi Code of 1972, is
+
+brought forward as follows:
+H. B. No. 1264
+PAGE 20 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+75-16-9.
+
+Authority to require demonstration of exemption.
+
+The commissioner may require that any person claiming to be exempt
+
+from licensing pursuant to Section 75-16-7 provide information and
+
+documentation to the commissioner demonstrating that it qualifies
+
+for any claimed exemption.
+
+SECTION 16.
+
+Section 75-16-11, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-11.
+
+Implementation.
+
+(1)
+
+In order to carry out the
+
+purposes of this chapter, the commissioner may, subject to the
+
+provisions of Section 75-16-13(1) and (2):
+
+(a)
+
+Enter into agreements or relationships with other
+
+government officials or federal and state regulatory agencies and
+
+regulatory associations in order to improve efficiencies and
+
+reduce regulatory burden by standardizing methods or procedures,
+
+and sharing resources, records or related information obtained
+
+under this chapter;
+
+(b)
+
+Use, hire, contract or employ analytical systems,
+
+methods or software to examine or investigate any person subject
+
+to this chapter;
+
+(c)
+
+Accept, from other state or federal government
+
+agencies or officials, licensing, examination or investigation
+
+reports made by such other state or federal government agencies or
+
+officials; and
+
+(d)
+
+Accept audit reports made by an independent
+
+certified public accountant or other qualified third-party auditor
+H. B. No. 1264
+PAGE 21 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+for an applicant or licensee and incorporate the audit report in
+
+any report of examination or investigation.
+
+(2)
+
+The commissioner shall have the broad administrative
+
+authority to administer, interpret and enforce this chapter, and
+
+to promulgate rules or regulations implementing this chapter and
+
+to recover the cost of administering and enforcing this chapter by
+
+imposing and collecting proportionate and equitable fees and costs
+
+associated with applications, examinations, investigations, and
+
+other actions required to achieve the purpose of this chapter.
+
+SECTION 17.
+
+Section 75-16-13, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-13.
+
+Confidentiality.
+
+(1)
+
+Except as otherwise
+
+provided in subsection (2) of this section, all information or
+
+reports obtained by the commissioner from an applicant, licensee
+
+or authorized delegate, and all information contained in or
+
+related to an examination, investigation, operating report or
+
+condition report prepared by, on behalf of, or for the use of the
+
+commissioner, or financial statements, balance sheets or
+
+authorized delegate information, are confidential and are not
+
+subject to disclosure under this state's public records law.
+
+(2)
+
+The commissioner may disclose information not otherwise
+
+subject to disclosure under subsection (1) of this section to
+
+representatives of state or federal agencies who promise in a
+
+record that they will maintain the confidentiality of the
+
+information or where the commissioner finds that the release is
+H. B. No. 1264
+PAGE 22 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+necessary for the protection and interest of the public in
+
+accordance with state public records law.
+
+(3)
+
+This section does not prohibit the commissioner from
+
+disclosing to the public a list of all licensees or the aggregated
+
+financial or transactional data concerning those licensees.
+
+(4)
+
+Information contained in the records of department that
+
+is not confidential and may be made available to the public either
+
+on the department's website, upon receipt by the department of a
+
+written request, or in NMLS shall include:
+
+(a)
+
+unique identifier of a licensee;
+
+The name, business address, telephone number and
+
+(b)
+
+The business address of a licensee's registered
+
+agent for service;
+
+(c)
+
+The name, business address and telephone number of
+
+all authorized delegates;
+
+(d)
+
+The terms of or a copy of any bond filed by a
+
+licensee, provided that confidential information, including, but
+
+not limited to, prices and fees for such bond is redacted;
+
+(e)
+
+Copies of any nonconfidential final orders of the
+
+department relating to any violation of this chapter or
+
+regulations implementing this chapter.
+
+(5)
+
+this chapter.
+
+Imposition of an administrative fine or penalty under
+
+SECTION 18.
+
+Section 75-16-15, Mississippi Code of 1972, is
+
+brought forward as follows:
+H. B. No. 1264
+PAGE 23 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+75-16-15.
+
+Supervision.
+
+(1)
+
+The commissioner may conduct an
+
+annual examination or investigation of a licensee or authorized
+
+delegate or otherwise take independent action authorized by this
+
+chapter or by a rule or regulation adopted or order issued under
+
+this chapter at any time or times the commissioner deems proper to
+
+administer and enforce this chapter, regulations implementing this
+
+chapter, and other applicable law, including the Bank Secrecy Act
+
+and the USA PATRIOT ACT.
+
+(a)
+
+The commissioner may:
+
+Conduct an examination either on-site or off-site
+
+as the commissioner may require;
+
+(b)
+
+Conduct an examination in conjunction with an
+
+examination conducted by representatives of other state agencies
+
+or agencies of another state or of the federal government;
+
+(c)
+
+Accept the examination report of another state
+
+agency or an agency of another state or of the federal government,
+
+or a report prepared by an independent accounting firm, which on
+
+being accepted is considered for all purposes as an official
+
+report of the commissioner; and
+
+(d)
+
+Summon and examine under oath a key individual or
+
+employee of a licensee or authorized delegate and require the
+
+person to produce records regarding any matter related to the
+
+condition and business of the licensee or authorized delegate.
+
+(2)
+
+A licensee or authorized delegate shall provide, and the
+
+commissioner shall have full and complete access to, all records
+
+the commissioner may require to conduct a complete examination.
+H. B. No. 1264
+PAGE 24 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+The records must be provided at the location and in the format
+
+specified by the commissioner, provided, the commissioner may
+
+utilize multistate record production standards and examination
+
+procedures when such standards will reasonably achieve the
+
+requirements of this subsection.
+
+records by a licensee shall be cause for revocation of its
+
+license.
+
+(3)
+
+The refusal of access to such
+
+Unless otherwise directed by the commissioner, a
+
+licensee shall pay all costs actually incurred in connection with
+
+an examination of the licensee or the licensee's authorized
+
+delegates.
+
+SECTION 19.
+
+Section 75-16-17, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-17.
+
+Networked supervision.
+
+(1)
+
+To efficiently and
+
+effectively administer and enforce this chapter and to minimize
+
+regulatory burden, the commissioner is authorized and encouraged
+
+to participate in multistate supervisory processes established
+
+between states and coordinated through the Conference of State
+
+Bank Supervisors, Money Transmitter Regulators Association and
+
+affiliates and successors thereof for all licensees that hold
+
+licenses in this state and other states.
+
+multistate supervision, the commissioner will:
+
+(a)
+
+As a participant in
+
+Cooperate, coordinate and share information with
+
+other state and federal regulators in accordance with Section
+
+75-16-13;
+H. B. No. 1264
+PAGE 25 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(b)
+
+Enter into written cooperation, coordination or
+
+information-sharing contracts or agreements with organizations the
+
+membership of which is made up of state or federal governmental
+
+agencies; and
+
+(c)
+
+Cooperate, coordinate and share information with
+
+organizations the membership of which is made up of state or
+
+federal governmental agencies, provided that the organizations
+
+agree in writing to maintain the confidentiality and security of
+
+the shared information in accordance with Section 75-16-13.
+
+(2)
+
+The commissioner may not waive, and nothing in this
+
+section constitutes a waiver of, the commissioner's authority to
+
+conduct an examination or investigation or otherwise take
+
+independent action authorized by this chapter or a rule or
+
+regulation adopted, or order issued under this chapter to enforce
+
+compliance with applicable state or federal law.
+
+(3)
+
+A joint examination or investigation, or acceptance of
+
+an examination or investigation report, does not waive an
+
+examination assessment provided for in this chapter.
+
+SECTION 20.
+
+Section 75-16-19, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-19.
+
+Relationship to federal law.
+
+(1)
+
+In the event
+
+state money transmission jurisdiction is conditioned on a federal
+
+law, any inconsistencies between a provision of this chapter and
+
+the federal law governing money transmission shall be governed by
+
+the applicable federal law to the extent of the inconsistency.
+H. B. No. 1264
+PAGE 26 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(2)
+
+In the event of any inconsistencies between this chapter
+
+and a federal law that governs pursuant to subsection (1) of this
+
+section, the commissioner may provide interpretive guidance that:
+
+(a)
+
+Identifies the inconsistency; and
+
+(b)
+
+Identifies the appropriate means of compliance with
+
+federal law.
+
+SECTION 21.
+
+Section 75-16-21, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-21.
+
+License required.
+
+(1)
+
+A person may not engage in
+
+the business of money transmission or advertise, solicit or hold
+
+itself out as providing money transmission unless the person is
+
+licensed under this chapter;
+
+(2)
+
+Subsection (1) of this section does not apply to:
+(a)
+
+A person who is an authorized delegate of a person
+
+licensed under this chapter acting within the scope of authority
+
+conferred by a written contract with the licensee; or
+
+(b)
+
+A person who is exempt pursuant to Section 75-16-7
+
+and does not engage in money transmission outside the scope of
+
+such exemption.
+
+(3)
+
+A license issued under Section 75-16-29 is not
+
+transferable or assignable.
+SECTION 22.
+
+Section 75-16-23, Mississippi Code of 1972, is
+
+brought forward as follows:
+
+H. B. No. 1264
+PAGE 27 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+75-16-23.
+
+Consistent state licensing.
+
+(1)
+
+To establish
+
+consistent licensing between this state and other states, the
+
+commissioner is authorized and encouraged to:
+
+(a)
+
+Implement all licensing provisions of this chapter
+
+in a manner that is consistent with other states that have adopted
+
+this chapter or multistate licensing processes; and
+
+(b)
+
+Participate in nationwide protocols for licensing
+
+cooperation and coordination among state regulators provided that
+
+such protocols are consistent with this chapter.
+
+(2)
+
+In order to fulfill the purposes of this chapter, the
+
+commissioner is authorized and encouraged to establish
+
+relationships or contracts with NMLS or other entities designated
+
+by NMLS to enable the commissioner to:
+
+(a)
+
+Collect and maintain records;
+
+(b)
+
+Coordinate multistate licensing processes and
+
+supervision processes;
+
+(c)
+
+Process fees; and
+
+(d)
+
+Facilitate communication between state and
+
+licensees or other persons subject to this chapter.
+(3)
+
+The commissioner is authorized and encouraged to utilize
+
+NMLS for all aspects of licensing in accordance with this chapter,
+
+including, but not limited to, license applications, applications
+
+for acquisitions of control, surety bonds, reporting, criminal
+
+history background checks, credit checks, fee processing and
+
+examinations.
+H. B. No. 1264
+PAGE 28 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(4)
+
+The commissioner is authorized and encouraged to utilize
+
+NMLS forms, processes and functionalities in accordance with this
+
+chapter.
+
+or processes for a provision of this chapter, the commissioner is
+
+authorized and encouraged to strive to implement the requirements
+
+in a manner that facilitates uniformity with respect to licensing,
+
+supervision, reporting and regulation of licensees which are
+
+licensed in multiple jurisdictions.
+
+(5)
+
+In the event NMLS does not provide functionality, forms,
+
+For the purpose of participating in the Nationwide
+
+Multistate Licensing System & Registry, the commissioner is
+
+authorized to waive or modify, in whole or in part, by rule,
+
+regulation or order, any or all of the requirements and to
+
+establish new requirements as necessary to participate in the
+
+Nationwide Multistate Licensing System & Registry.
+
+SECTION 23.
+
+Section 75-16-25, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-25.
+
+Application for license.
+
+(1)
+
+Applicants for a
+
+license shall apply in a form and in a medium as prescribed by the
+
+commissioner.
+
+by rule, regulation, instruction or procedure of the commissioner
+
+and may be changed or updated by the commissioner in accordance
+
+with applicable law in order to carry out the purposes of this
+
+chapter and maintain consistency with NMLS licensing standards and
+
+practices.
+
+Each such form shall contain content as set forth
+
+The application must state or contain, as applicable:
+
+H. B. No. 1264
+PAGE 29 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(a)
+
+The legal name and residential and business
+
+addresses of the applicant and any fictitious or trade name used
+
+by the applicant in conducting its business;
+
+(b)
+
+A list of any criminal convictions of the applicant
+
+and any material litigation in which the applicant has been
+
+involved in the ten-year period next preceding the submission of
+
+the application;
+
+(c)
+
+A description of any money transmission previously
+
+provided by the applicant and the money transmission that the
+
+applicant seeks to provide in this state;
+
+(d)
+
+A list of the applicant's proposed authorized
+
+delegates and the locations in this state where the applicant and
+
+its authorized delegates propose to engage in money transmission;
+
+(e)
+
+A list of other states in which the applicant is
+
+licensed to engage in money transmission and any license
+
+revocations, suspensions or other disciplinary action taken
+
+against the applicant in another state;
+
+(f)
+
+Information concerning any bankruptcy or
+
+receivership proceedings affecting the licensee or a person in
+
+control of a licensee;
+
+(g)
+
+if applicable;
+
+(h)
+
+value, as applicable;
+
+H. B. No. 1264
+PAGE 30 (MCL\KW)
+
+A sample form of contract for authorized delegates,
+
+A sample form of payment instrument or stored
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(i)
+
+The name and address of any federally insured
+
+depository financial institution through which the applicant plans
+
+to conduct money transmission; and
+
+(j)
+
+Any other information the commissioner or NMLS
+
+requires with respect to the applicant.
+(2)
+
+If an applicant is a corporation, limited liability
+
+company, partnership or other legal entity, the applicant shall
+
+also provide:
+
+(a)
+
+The date of the applicant's incorporation or
+
+formation and state or country of incorporation or formation;
+
+(b)
+
+If applicable, a certificate of good standing from
+
+the state or country in which the applicant is incorporated or
+
+formed;
+
+(c)
+
+A brief description of the structure or
+
+organization of the applicant, including any parents or
+
+subsidiaries of the applicant, and whether any parents or
+
+subsidiaries are publicly traded;
+
+(d)
+
+The legal name, any fictitious or trade name, all
+
+business and residential addresses and the employment, as
+
+applicable, in the ten-year period next preceding the submission
+
+of the application of each key individual and person in control of
+
+the applicant;
+
+(e)
+
+A list of any criminal convictions and material
+
+litigation in which a person in control of the applicant that is
+
+H. B. No. 1264
+PAGE 31 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+not an individual has been involved in the ten-year period next
+
+preceding the submission of the application;
+
+(f)
+
+A copy of audited financial statements of the
+
+applicant for the most recent fiscal year and for the two-year
+
+period next preceding the submission of the application;
+
+(g)
+
+A certified copy of unaudited financial statements
+
+of the applicant for the most recent fiscal quarter;
+
+(h)
+
+If the applicant is a publicly traded corporation,
+
+a copy of the most recent report filed with the United States
+
+Securities and Exchange Commission under Section 13 of the U.S.
+
+Securities Exchange Act of 1934, 15 USC 78m, as amended or
+
+recodified from time to time;
+
+(i)
+
+If the applicant is a wholly owned subsidiary of:
+(i)
+
+A corporation publicly traded in the United
+
+States, a copy of audited financial statements for the parent
+
+corporation for the most recent fiscal year or a copy of the
+
+parent corporation's most recent report filed under Section 13 of
+
+the U.S. Securities Exchange Act of 1934, 15 USC 78m, as amended
+
+or recodified from time to time; or
+
+(ii)
+
+A corporation publicly traded outside the
+
+United States, a copy of similar documentation filed with the
+
+regulator of the parent corporation's domicile outside the United
+
+States;
+
+(j)
+
+agent in this state; and
+H. B. No. 1264
+PAGE 32 (MCL\KW)
+
+The name and address of the applicant's registered
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(k)
+
+Any other information the commissioner requires
+
+with respect to the applicant.
+
+(3)
+
+A nonrefundable license fee of One Thousand Five Hundred
+
+Dollars ($1,500.00) must accompany an application for a license
+
+under this section.
+
+and for each subsequent calendar year, on or before July 1 of the
+
+following year, the Mississippi Department of Banking and Consumer
+
+Finance will issue a memo authorizing a new license fee under this
+
+section.
+
+increase or decrease in the United States Bureau of Labor
+
+Statistics Consumer Price Index for All Urban Consumers (CPI-U)
+
+for the previous calendar year to the previous fee amount and
+
+rounding that amount upward to the nearest One-Hundred-Dollar
+
+increment.
+
+(4)
+
+However, beginning with calendar year 2025
+
+The new amount will be calculated by applying any
+
+The commissioner may waive one or more requirements of
+
+subsections (1) and (2) of this section or permit an applicant to
+
+submit other information in lieu of the required information.
+
+SECTION 24.
+
+Section 75-16-27, Mississippi Code of 1972, is
+
+brought forward as follows:
+
+75-16-27.
+
+Information requirements for certain individuals.
+
+(1)
+
+Any individual in control of a licensee or applicant, any
+
+individual who seeks to acquire control of a licensee and each key
+
+individual shall furnish to the commissioner through NMLS the
+
+following items:
+
+H. B. No. 1264
+PAGE 33 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(a)
+
+The individual's fingerprints for submission to the
+
+Federal Bureau of Investigation and the commissioner for purposes
+
+of a national criminal history background check unless the person
+
+currently resides outside of the United States and has resided
+
+outside of the United States for the last ten (10) years;
+
+(b)
+
+Personal history and experience in a form and in a
+
+medium prescribed by the commissioner, to obtain the following:
+
+(i)
+
+An independent credit report from a consumer
+
+reporting agency unless the individual does not have a social
+
+security number, in which case, this requirement shall be waived;
+
+(ii)
+
+Information related to any criminal
+
+convictions or pending charges; provided an applicant shall not
+
+have been convicted of a felony in any jurisdiction or a
+
+misdemeanor of fraud, theft, forgery, bribery, embezzlement, or
+
+making a fraudulent or false statement in any jurisdiction; and
+
+(iii)
+
+Information related to any regulatory or
+
+administrative action and any civil litigation involving claims of
+
+fraud, misrepresentation, conversion, mismanagement of funds,
+
+breach of fiduciary duty or breach of contract.
+
+(2)
+
+If the individual has resided outside of the United
+
+States at any time in the last ten (10) years, the individual
+
+shall also provide an investigative background report prepared by
+
+an independent search firm that meets the following requirements:
+
+(a)
+
+H. B. No. 1264
+PAGE 34 (MCL\KW)
+
+At a minimum, the search firm shall:
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(i)
+
+Demonstrate that it has sufficient knowledge,
+
+resources, and employs accepted and reasonable methodologies to
+
+conduct the research of the background report; and
+
+(ii)
+
+Not be affiliated with or have an interest
+
+with the individual it is researching.
+(b)
+
+At a minimum, the investigative background report
+
+shall be written in the English language and shall contain the
+
+following:
+
+(i)
+
+If available in the individual's current
+
+jurisdiction of residency, a comprehensive credit report, or any
+
+equivalent information obtained or generated by the independent
+
+search firm to accomplish such report, including a search of the
+
+court data in the countries, provinces, states, cities, towns, and
+
+contiguous areas where the individual resided and worked;
+
+(ii)
+
+Criminal records information for the past ten
+
+(10) years, including, but not limited to, felonies, misdemeanors,
+
+or similar convictions for violations of law in the countries,
+
+provinces, states, cities, towns, and contiguous areas where the
+
+individual resided and worked;
+
+(iii)
+
+Employment history;
+
+(iv)
+
+Media history, including an electronic search
+
+of national and local publications, wire services, and business
+
+applications; and
+
+H. B. No. 1264
+PAGE 35 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(v)
+
+Financial services-related regulatory history,
+
+including, but not limited to, money transmission, securities,
+
+banking, insurance, and mortgage-related industries.
+
+SECTION 25.
+
+Section 75-16-29, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-29.
+
+Issuance of license.
+
+(1)
+
+When an application for
+
+an original license under this chapter appears to include all the
+
+items and addresses all of the matters that are required, the
+
+application is complete and the commissioner shall promptly notify
+
+the applicant in a record of the date on which the application is
+
+determined to be complete, and:
+
+(a)
+
+The commissioner shall approve or deny the
+
+application within one hundred twenty (120) days after the
+
+completion date; or
+
+(b)
+
+If the application is not approved or denied within
+
+one hundred twenty (120) days after the completion date:
+
+(i)
+
+The application is approved;
+
+(ii)
+
+The license takes effect as of the first
+
+business day after expiration of the one-hundred-twenty-day
+
+period; and
+
+(iii)
+
+The commissioner may for good cause extend
+
+the application period.
+(2)
+
+A determination by the commissioner that an application
+
+is complete and is accepted for processing means only that the
+
+application, on its face, appears to include all of the items,
+H. B. No. 1264
+PAGE 36 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+including the Criminal Background Check response from the FBI, and
+
+address all of the matters that are required, and is not an
+
+assessment of the substance of the application or of the
+
+sufficiency of the information provided.
+
+(3)
+
+When an application is filed and considered complete
+
+under this section, the commissioner shall investigate the
+
+applicant's financial condition and responsibility, financial and
+
+business experience, character and general fitness.
+
+commissioner may conduct an on-site investigation of the
+
+applicant, the cost of which the applicant must pay.
+
+commissioner shall issue a license to an applicant under this
+
+section if the commissioner finds that all of the following
+
+conditions have been fulfilled:
+
+(a)
+
+The
+
+The
+
+The applicant has complied with Sections 75-16-25
+
+and 75-16-27; and
+
+(b)
+
+The financial condition and responsibility,
+
+financial and business experience, competence, character and
+
+general fitness of the applicant; and the competence, experience,
+
+character and general fitness of the key individuals and persons
+
+in control of the applicant indicate that it is in the interest of
+
+the public to permit the applicant to engage in money
+
+transmission.
+
+(4)
+
+If an applicant avails itself or is otherwise subject to
+
+a multistate licensing process:
+
+H. B. No. 1264
+PAGE 37 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(a)
+
+The commissioner is authorized and encouraged to
+
+accept the investigation results of a lead investigative state for
+
+the purpose of subsection (3) of this section if the lead
+
+investigative state has sufficient staffing, expertise, and
+
+minimum standards; or
+
+(b)
+
+If Mississippi is a lead investigative state, the
+
+commissioner is authorized and encouraged to investigate the
+
+applicant pursuant to subsection (3) of this section and the
+
+timeframes established by agreement through the multistate
+
+licensing process, provided, however, that in no case shall such
+
+timeframe be noncompliant with the application period in
+
+subsection (1)(a) of this section.
+
+(5)
+
+The commissioner shall issue a formal written notice of
+
+the denial of a license application.
+
+forth in the notice of denial the specific reasons for the denial
+
+of the application.
+
+the commissioner under this subsection (5) may appeal within
+
+thirty (30) days after receipt of the written notice of the
+
+denial.
+
+Judicial District of Hinds County, Mississippi.
+
+(6)
+
+The commissioner shall set
+
+An applicant whose application is denied by
+
+Such appeal shall be to the Chancery Court of the First
+
+The initial license term shall begin on the day the
+
+application is approved.
+
+of the year in which the license term began, unless the initial
+
+license date is between November 1 and December 31, in which
+
+H. B. No. 1264
+PAGE 38 (MCL\KW)
+
+The license shall expire on December 31
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+instance the initial license term shall run through December 31 of
+
+the following year.
+
+SECTION 26.
+
+Section 75-16-31, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-31.
+
+Renewal of license.
+
+(1)
+
+A license under this
+
+chapter shall be renewed annually.
+
+(a)
+
+An annual renewal fee of Eight Hundred Dollars
+
+($800.00) plus One Hundred Dollars ($100.00) for each location in
+
+excess of one in Mississippi through which the licensee plans to
+
+conduct money transmission during the license year for which the
+
+fee is paid, shall be paid, provided that in no event shall the
+
+annual renewal fee exceed Five Thousand Eight Hundred Dollars
+
+($5,800.00).
+
+(60) days before the license expiration.
+
+(b)
+
+Such renewal fee shall be paid no more than sixty
+
+The renewal term shall be for a period of one (1)
+
+year and shall begin on January 1 of each year after the initial
+
+license term and shall expire on December 31 of the year the
+
+renewal term begins.
+
+(2)
+
+A licensee shall submit a renewal report with the
+
+renewal fee, in a form and in a medium prescribed by the
+
+commissioner.
+
+description of each material change in information submitted by
+
+the licensee in its original license application which has not
+
+been reported to the commissioner.
+
+H. B. No. 1264
+PAGE 39 (MCL\KW)
+
+The renewal report must state or contain a
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(3)
+
+The commissioner, for good cause, may grant an extension
+
+of the renewal date.
+(4)
+
+The commissioner is authorized and encouraged to utilize
+
+NMLS to process license renewals provided that such functionality
+
+is consistent with this section.
+
+SECTION 27.
+
+Section 75-16-33, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-33.
+
+Maintenance of license.
+
+(1)
+
+If a licensee does
+
+not continue to meet the qualifications or satisfy the
+
+requirements that apply to an applicant for a new money
+
+transmission license, the commissioner may suspend or revoke the
+
+licensee's license in accordance with the procedures established
+
+by this chapter or other applicable state law for such suspension
+
+or revocation.
+
+(2)
+
+An applicant for a money transmission license must
+
+demonstrate that it meets or will meet, and a money transmission
+
+licensee must at all times meet, the requirements in Sections
+
+75-16-61, 75-16-63 and 75-16-65.
+
+SECTION 28.
+
+Section 75-16-35, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-35.
+
+Acquisition of control.
+
+(1)
+
+Any person, or group
+
+of persons acting in concert, seeking to acquire control of a
+
+licensee shall obtain the written approval of the commissioner
+
+prior to acquiring control.
+
+H. B. No. 1264
+PAGE 40 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(2)
+
+A person, or group of persons acting in concert, seeking
+
+to acquire control of a licensee shall, in cooperation with the
+
+licensee:
+
+(a)
+
+prescribed by the commissioner; and
+
+Submit an application in a form and in a medium
+
+(b)
+
+Submit a nonrefundable fee as required under
+
+Section 75-16-25 with the request for approval.
+(3)
+
+Upon request, the commissioner may permit a licensee or
+
+the person, or group of persons acting in concert, to submit some
+
+or all information required by the commissioner pursuant to
+
+subsection (2)(a) of this section without using NMLS.
+
+(4)
+
+The application required by subsection (2)(a) of this
+
+section shall include information required by Section 75-16-27 for
+
+any new key individuals who have not previously completed the
+
+requirements of Section 75-16-27 for a licensee.
+
+(5)
+
+When an application for acquisition of control under
+
+this section appears to include all the items and address all of
+
+the matters that are required, the application shall be considered
+
+complete, and the commissioner shall promptly notify the applicant
+
+in a record of the date on which the application was determined to
+
+be complete and:
+
+(a)
+
+The commissioner shall approve or deny the
+
+application within sixty (60) days after the completion date; or
+(b)
+
+If the application is not approved or denied within
+
+sixty (60) days after the completion date:
+H. B. No. 1264
+PAGE 41 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(i)
+
+The application is approved; and
+
+(ii)
+
+The person, or group of persons acting in
+
+concert, are not prohibited from acquiring control.
+
+(c)
+
+The commissioner may for good cause extend the
+
+application period.
+(6)
+
+A determination by the commissioner that an application
+
+is complete and is accepted for processing means only that the
+
+application, on its face, appears to include all of the items and
+
+address all of the matters that are required, and is not an
+
+assessment of the substance of the application or of the
+
+sufficiency of the information provided.
+
+(7)
+
+When an application is filed and considered complete
+
+under subsection (5) of this section, the commissioner shall
+
+investigate the financial condition and responsibility, financial
+
+and business experience, character and general fitness of the
+
+person, or group of persons acting in concert, seeking to acquire
+
+control.
+
+pursuant to this section if the commissioner finds that all of the
+
+following conditions have been fulfilled:
+
+The commissioner shall approve an acquisition of control
+
+(a)
+
+The requirements of subsections (2) and (4) of this
+
+section have been met, as applicable; and
+(b)
+
+The financial condition and responsibility,
+
+financial and business experience, competence, character and
+
+general fitness of the person, or group of persons acting in
+
+concert, seeking to acquire control; and the competence,
+H. B. No. 1264
+PAGE 42 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+experience, character and general fitness of the key individuals
+
+and persons that would be in control of the licensee after the
+
+acquisition of control indicate that it is in the interest of the
+
+public to permit the person, or group of persons acting in
+
+concert, to control the licensee.
+
+(8)
+
+If an applicant avails itself or is otherwise subject to
+
+a multistate licensing process:
+
+(a)
+
+The commissioner is authorized and encouraged to
+
+accept the investigation results of a lead investigative state for
+
+the purpose of subsection (7) of this section if the lead
+
+investigative state has sufficient staffing, expertise and minimum
+
+standards; or
+
+(b)
+
+If Mississippi is a lead investigative state, the
+
+commissioner is authorized and encouraged to investigate the
+
+applicant pursuant to subsection (7) of this section and the
+
+timeframes established by agreement through the multistate
+
+licensing process.
+
+(9)
+
+The commissioner shall issue a formal written notice of
+
+the denial of an application to acquire control.
+
+The commissioner
+
+shall set forth in the notice of denial the specific reasons for
+
+the denial of the application.
+
+denied by the commissioner under this section may appeal within
+
+thirty (30) days after receipt of the written notice of the
+
+denial.
+
+Judicial District of Hinds County, Mississippi.
+
+An applicant whose application is
+
+Such appeal shall be to the Chancery Court of the First
+
+H. B. No. 1264
+PAGE 43 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(10)
+
+The requirements of subsections (1) and (2) of this
+
+section do not apply to any of the following:
+
+(a)
+
+A person who acts as a proxy for the sole purpose
+
+of voting at a designated meeting of the shareholders or holders
+
+of voting shares or voting interests of a licensee or a person in
+
+control of a licensee;
+
+(b)
+
+A person who acquires control of a licensee by
+
+devise or descent;
+
+(c)
+
+A person who acquires control of a licensee as a
+
+personal representative, custodian, guardian, conservator or
+
+trustee, or as an officer appointed by a court of competent
+
+jurisdiction or by operation of law;
+
+(d)
+
+A person who is exempt under Section 75-16-7(7);
+
+(e)
+
+A person who the commissioner determines is not
+
+subject to subsection (1) of this section based on the public
+
+interest;
+
+(f)
+
+A public offering of securities of a licensee or a
+
+person in control of a licensee; or
+
+(g)
+
+An internal reorganization of a person in control
+
+of the licensee where the ultimate person in control of the
+
+licensee remains the same.
+
+(11)
+
+Persons in subsection (10)(b), (c), (d), (f) and (g) of
+
+this section in cooperation with the licensee shall notify the
+
+commissioner within fifteen (15) days after the acquisition of
+
+control.
+H. B. No. 1264
+PAGE 44 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(12)
+
+Streamlined Acquisition of Control.
+(a)
+
+The requirements of subsections (1) and (2) of this
+
+section do not apply to a person who has complied with and
+
+received approval to engage in money transmission under this
+
+chapter or was identified as a person in control in a prior
+
+application filed with and approved by the commissioner or by an
+
+MSB accredited state pursuant to a multistate licensing process,
+
+provided that:
+
+(i)
+
+The person has not had a license revoked or
+
+suspended or controlled a licensee that has had a license revoked
+
+or suspended while the person was in control of the licensee in
+
+the previous five (5) years;
+
+(ii)
+
+If the person is a licensee, the person is
+
+well managed and has received at least a satisfactory rating for
+
+compliance at its most recent examination by an MSB accredited
+
+state if such rating was given;
+
+(iii)
+
+The licensee to be acquired is projected to
+
+meet the requirements of Sections 75-16-61, 75-16-63 and 75-16-65
+
+after the acquisition of control is completed, and if the person
+
+acquiring control is a licensee, that licensee is also projected
+
+to meet the requirements of Sections 75-16-61, 75-16-63 and
+
+75-16-65 after the acquisition of control is completed;
+
+(iv)
+
+The licensee to be acquired will not
+
+implement any material changes to its business plan as a result of
+
+the acquisition of control, and if the person acquiring control is
+H. B. No. 1264
+PAGE 45 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+a licensee, that licensee also will not implement any material
+
+changes to its business plan as a result of the acquisition of
+
+control; and
+
+(v)
+
+The person provides notice of the acquisition
+
+in cooperation with the licensee and attests to this paragraph
+
+(a)(i), (ii), (iii) and (iv) in a form and in a medium prescribed
+
+by the commissioner.
+
+(b)
+
+If the notice is not disapproved within thirty (30)
+
+days after the date on which the notice was determined to be
+
+complete, the notice is deemed approved.
+
+(13)
+
+Before filing an application for approval to acquire
+
+control of a licensee a person may request in writing a
+
+determination from the commissioner as to whether the person would
+
+be considered a person in control of a licensee upon consummation
+
+of a proposed transaction.
+
+the person would not be a person in control of a licensee, the
+
+proposed person and transaction is not subject to the requirements
+
+of subsections (1) and (2) of this section.
+
+(14)
+
+If the commissioner determines that
+
+If a multistate licensing process includes a
+
+determination pursuant to subsection (13) of this section and an
+
+applicant avails itself or is otherwise subject to the multistate
+
+licensing process:
+
+(a)
+
+The commissioner is authorized and encouraged to
+
+accept the control determination of a lead investigative state
+
+H. B. No. 1264
+PAGE 46 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+with sufficient staffing, expertise, and minimum standards for the
+
+purpose of subsection (13) of this section; or
+
+(b)
+
+If a state is a lead investigative state, the
+
+commissioner is authorized and encouraged to investigate the
+
+applicant pursuant to subsection (13) of this section and the
+
+timeframes established by agreement through the multistate
+
+licensing process.
+
+SECTION 29.
+
+Section 75-16-37, Mississippi Code of 1972, is
+
+brought forward as follows:
+
+75-16-37.
+
+of key individuals.
+
+individual shall:
+
+(a)
+
+Notice and information requirements for a change
+(1)
+
+A licensee adding or replacing any key
+
+Provide notice in a manner prescribed by the
+
+commissioner within fifteen (15) days after the effective date of
+
+the key individual's appointment; and
+
+(b)
+
+Provide information as required by Section 75-16-27
+
+within forty-five (45) days of the effective date.
+(2)
+
+Within ninety (90) days of the date on which the notice
+
+provided pursuant to subsection (1) of this section was determined
+
+to be complete, the commissioner may issue a notice of disapproval
+
+of a key individual if the competence, experience, character or
+
+integrity of the individual would not be in the best interests of
+
+the public or the customers of the licensee to permit the
+
+individual to be a key individual of such licensee.
+
+H. B. No. 1264
+PAGE 47 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(3)
+
+A notice of disapproval shall contain a statement of the
+
+basis for disapproval and shall be sent to the licensee and the
+
+disapproved individual.
+
+disapproval within thirty (30) days after receipt of such notice
+
+of disapproval.
+
+First Judicial District of Hinds County, Mississippi.
+
+(4)
+
+A licensee may appeal a notice of
+
+Such appeal shall be to the Chancery Court of the
+
+If the notice provided pursuant to subsection (1) of
+
+this section is not disapproved within ninety (90) days after the
+
+date on which the notice was determined to be complete, the key
+
+individual is deemed approved.
+
+(5)
+
+If a multistate licensing process includes a key
+
+individual notice review and disapproval process pursuant to this
+
+section and the licensee avails itself or is otherwise subject to
+
+the multistate licensing process:
+
+(a)
+
+The commissioner is authorized and encouraged to
+
+accept the determination of another state if the investigating
+
+state has sufficient staffing, expertise, and minimum standards
+
+for the purpose of this section; or
+
+(b)
+
+If Mississippi is a lead investigative state, the
+
+commissioner is authorized and encouraged to investigate the
+
+applicant pursuant to subsection (2) of this section and the
+
+timeframes established by agreement through the multistate
+
+licensing process.
+
+SECTION 30.
+
+Section 75-16-39, Mississippi Code of 1972, is
+
+brought forward as follows:
+H. B. No. 1264
+PAGE 48 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+75-16-39.
+
+Report of condition.
+
+(1)
+
+Each licensee shall
+
+submit a report of condition (i.e. call report) within forty-five
+
+(45) days of the end of the calendar quarter, or within any
+
+extended time as the commissioner may prescribe.
+
+(2)
+
+The report of condition shall include:
+
+(a)
+
+Financial information at the licensee level;
+
+(b)
+
+Nationwide and state-specific money transmission
+
+transaction information in every jurisdiction in the United States
+
+where the licensee is licensed to engage in money transmission;
+
+(c)
+
+Permissible investments report;
+
+(d)
+
+Transaction destination country reporting for money
+
+received for transmission, if applicable; and
+
+(e)
+
+Any other information the commissioner requires
+
+with respect to the licensee.
+
+encouraged to utilize NMLS for the submission of the report
+
+required by this subsection (1) of this section and is authorized
+
+to change or update as necessary the requirements of this section
+
+to carry out the purposes of this chapter and maintain consistency
+
+with NMLS reporting.
+
+(3)
+
+The commissioner is authorized and
+
+The information required by subsection (2)(d) of this
+
+section shall only be included in a report of condition submitted
+
+within forty-five (45) days of the end of the fourth calendar
+
+quarter.
+
+SECTION 31.
+
+Section 75-16-41, Mississippi Code of 1972, is
+
+brought forward as follows:
+H. B. No. 1264
+PAGE 49 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+75-16-41.
+
+Audited financials.
+
+(1)
+
+Each licensee shall,
+
+within ninety (90) days after the end of each fiscal year, or
+
+within any extended time as the commissioner may prescribe, file
+
+with the commissioner:
+
+(a)
+
+An audited financial statement of the licensee for
+
+the fiscal year prepared in accordance with United States
+
+Generally Accepted Accounting Principles; and
+
+(b)
+
+require.
+
+(2)
+
+Any other information as the commissioner may
+
+The audited financial statements shall be prepared by an
+
+independent certified public accountant or independent public
+
+accountant who is satisfactory to the commissioner.
+
+(3)
+
+The audited financial statements shall include or be
+
+accompanied by a certificate of opinion of the independent
+
+certified public accountant or independent public accountant that
+
+is satisfactory in form and content to the commissioner.
+
+certificate or opinion is qualified, the commissioner may order
+
+the licensee to take any action as the commissioner may find
+
+necessary to enable the independent or certified public accountant
+
+or independent public accountant to remove the qualification.
+
+SECTION 32.
+
+If the
+
+Section 75-16-43, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-43.
+
+Authorized delegate reporting.
+
+(1)
+
+Each licensee
+
+shall submit a report of authorized delegates within forty-five
+
+(45) days of the end of the calendar quarter.
+H. B. No. 1264
+PAGE 50 (MCL\KW)
+
+*HR26/R2229*
+
+The commissioner is
+
+~ OFFICIAL ~
+
+authorized and encouraged to utilize NMLS for the submission of
+
+the report required by this subsection provided that such
+
+functionality is consistent with the requirements of this section.
+
+Such utilization shall include the NMLS Uniform Authorized Agent
+
+Reporting (UAAR) process, or such other similar process as
+
+designated by NMLS.
+
+(2)
+
+The authorized delegate report shall include, at a
+
+minimum, each authorized delegate's:
+
+(a)
+
+Company legal name;
+
+(b)
+
+Taxpayer employer identification number;
+
+(c)
+
+Principal provider identifier;
+
+(d)
+
+Physical address;
+
+(e)
+
+Mailing address;
+
+(f)
+
+Any business conducted in other states;
+
+(g)
+
+Any fictitious or trade name;
+
+(h)
+
+Contact person name, phone number, and email;
+
+(i)
+
+Start date as licensee's authorized delegate;
+
+(j)
+
+End date acting as licensee's authorized delegate,
+
+if applicable; and
+(k)
+
+Any other information the commissioner requires
+
+with respect to the authorized delegate.
+SECTION 33.
+
+Section 75-16-45, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-45.
+
+Reports of certain events.
+
+(1)
+
+A licensee shall
+
+file a report with the commissioner within one (1) business day
+H. B. No. 1264
+PAGE 51 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+after the licensee has reason to know of the occurrence of any of
+
+the following events:
+
+(a)
+
+The filing of a petition by or against the licensee
+
+under the United States Bankruptcy Code, 11 USC 101-110, as
+
+amended or recodified from time to time, for bankruptcy or
+
+reorganization;
+
+(b)
+
+The filing of a petition by or against the licensee
+
+for receivership, the commencement of any other judicial or
+
+administrative proceeding for its dissolution or reorganization,
+
+or the making of a general assignment for the benefit of its
+
+creditors; or
+
+(c)
+
+The commencement of a proceeding to revoke or
+
+suspend its license in a state or country in which the licensee
+
+engages in business or is licensed.
+
+(2)
+
+A licensee shall file a report with the commissioner
+
+within three (3) business day after the licensee has reason to
+
+know of the occurrence of any of the following events:
+
+(a)
+
+individual or person in control of the licensee for a felony; or
+
+(b)
+
+for a felony.
+
+A charge or conviction of the licensee or of a key
+
+A charge or conviction of an authorized delegate
+
+SECTION 34.
+
+Section 75-16-47, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-47.
+
+Bank Secrecy Act reports.
+
+A licensee and an
+
+authorized delegate shall file all reports required by federal
+H. B. No. 1264
+PAGE 52 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+currency reporting, record keeping, and suspicious activity
+
+reporting requirements as set forth in the Bank Secrecy Act and
+
+other federal and state laws pertaining to money laundering.
+
+timely filing of a complete and accurate report required under
+
+this section with the appropriate federal agency is deemed
+
+compliant with the requirements of this section.
+
+SECTION 35.
+
+Section 75-16-49, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-49.
+
+Records.
+
+(1)
+
+A licensee shall maintain the
+
+following records, for determining its compliance with this
+
+chapter for at least five (5) years:
+
+The
+
+(a)
+
+A record of each money transmission obligation
+
+(b)
+
+A general ledger posted at least monthly containing
+
+sold;
+
+all asset, liability, capital, income and expense accounts;
+
+(c)
+
+Bank statements and bank reconciliation records;
+
+(d)
+
+Records of outstanding money transmission;
+
+(e)
+
+Records of each outstanding money transmission
+
+obligation paid within the five-year period;
+(f)
+
+A list of the last-known names and addresses of all
+
+of the licensee's authorized delegates; and
+(g)
+
+Any other records the commissioner requires by
+
+rule, regulation or order.
+
+H. B. No. 1264
+PAGE 53 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(2)
+
+The items specified in subsection (1) of this section
+
+may be maintained in photographic, electronic or other similar
+
+form.
+
+(3)
+
+Records specified in subsection (1) of this section may
+
+be maintained outside this state if they are made accessible to
+
+the commissioner on seven (7) business days' notice that is sent
+
+in a record.
+
+(4)
+
+All records maintained by the licensee as required in
+
+subsections (1) through (3) of this section are open to inspection
+
+by the commissioner pursuant to Section 75-16-15(1).
+
+SECTION 36.
+
+Section 75-16-51, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-51.
+
+delegate.
+
+payments of money to a licensee or its representative authorized
+
+to receive money or to deposit money in a bank in an account
+
+specified by the licensee.
+
+(2)
+
+(1)
+
+Relationship between licensee and authorized
+In this section, "remit" means to make direct
+
+Before a licensee is authorized to conduct business
+
+through an authorized delegate or allows a person to act as the
+
+licensee's authorized delegate, the licensee must:
+
+(a)
+
+Adopt, and update as necessary, written policies
+
+and procedures designed to ensure that the licensee's authorized
+
+delegates comply with applicable state and federal law;
+
+(b)
+
+Enter into a written contract that complies with
+
+subsection (4) of this section; and
+H. B. No. 1264
+PAGE 54 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(c)
+
+Conduct a risk-based background investigation
+
+sufficient for the licensee to determine whether the authorized
+
+delegate has complied and will likely comply with applicable state
+
+and federal law.
+
+(3)
+
+An authorized delegate must operate in full compliance
+
+with this chapter.
+(4)
+
+The written contract required by subsection (2) of this
+
+section must be signed by the licensee and the authorized delegate
+
+and, at a minimum, must:
+
+(a)
+
+Appoint the person signing the contract as the
+
+licensee's authorized delegate with the authority to conduct money
+
+transmission on behalf of the licensee;
+
+(b)
+
+Set forth the nature and scope of the relationship
+
+between the licensee and the authorized delegate and the
+
+respective rights and responsibilities of the parties;
+
+(c)
+
+Require the authorized delegate to agree to fully
+
+comply with all applicable state and federal laws, rules, and
+
+regulations pertaining to money transmission, including this
+
+chapter and regulations implementing this chapter, relevant
+
+provisions of the Bank Secrecy Act and the USA PATRIOT ACT;
+
+(d)
+
+Require the authorized delegate to remit and handle
+
+money and monetary value in accordance with the terms of the
+
+contract between the licensee and the authorized delegate;
+
+H. B. No. 1264
+PAGE 55 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(e)
+
+Impose a trust on money and monetary value net of
+
+fees received for money transmission for the benefit of the
+
+licensee;
+
+(f)
+
+Require the authorized delegate to prepare and
+
+maintain records as required by this chapter or regulations
+
+implementing this chapter, or as requested by the commissioner;
+
+(g)
+
+Acknowledge that the authorized delegate consents
+
+to examination or investigation by the commissioner;
+
+(h)
+
+State that the licensee is subject to regulation by
+
+the commissioner and that, as part of that regulation, the
+
+commissioner may suspend or revoke an authorized delegate
+
+designation or require the licensee to terminate an authorized
+
+delegate designation; and
+
+(i)
+
+Acknowledge receipt of the written policies and
+
+procedures required under subsection (2)(a) of this section.
+(5)
+
+If the licensee's license is suspended, revoked,
+
+surrendered or expired, the licensee must, within five (5)
+
+business days, provide documentation to the commissioner that the
+
+licensee has notified all applicable authorized delegates of the
+
+licensee whose names are in a record filed with the commissioner
+
+of the suspension, revocation, surrender or expiration of a
+
+license.
+
+a license, applicable authorized delegates shall immediately cease
+
+to provide money transmission as an authorized delegate of the
+
+licensee.
+
+Upon suspension, revocation, surrender or expiration of
+
+H. B. No. 1264
+PAGE 56 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(6)
+
+An authorized delegate of a licensee holds in trust for
+
+the benefit of the licensee all money net of fees received from
+
+money transmission.
+
+funds received from money transmission with any other funds or
+
+property owned or controlled by the authorized delegate, all
+
+commingled funds and other property shall be considered held in
+
+trust in favor of the licensee in an amount equal to the amount of
+
+money net of fees received from money transmission.
+
+(7)
+
+If any authorized delegate commingles any
+
+An authorized delegate may not use a subdelegate to
+
+conduct money transmission on behalf of a licensee.
+SECTION 37.
+
+Section 75-16-53, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-53.
+
+Unauthorized activities.
+
+A person shall not
+
+engage in the business of money transmission on behalf of a person
+
+not licensed under this chapter or not exempt pursuant to Sections
+
+75-16-7 and 75-16-9.
+
+provides money transmission to the same extent as if the person
+
+were a licensee, and shall be jointly and severally liable with
+
+the unlicensed or nonexempt person.
+
+SECTION 38.
+
+A person who engages in such activity
+
+Section 75-16-55, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-55.
+
+Timely transmission.
+
+(1)
+
+Every licensee shall
+
+forward all money received for transmission in accordance with the
+
+terms of the agreement between the licensee and the sender unless
+
+the licensee has a reasonable belief or a reasonable basis to
+H. B. No. 1264
+PAGE 57 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+believe that the sender may be a victim of fraud or that a crime
+
+or violation of law, rule or regulation has occurred, is
+
+occurring, or may occur.
+
+(2)
+
+If a licensee fails to forward money received for
+
+transmission in accordance with this section, the licensee must
+
+respond to inquiries by the sender with the reason for the failure
+
+unless providing a response would violate a state or federal law,
+
+rule, or regulation.
+
+SECTION 39.
+
+Section 75-16-57, Mississippi Code of 1972, is
+
+brought forward as follows:
+
+75-16-57.
+
+(a)
+
+Refunds.
+
+(1)
+
+This section does not apply to:
+
+Money received for transmission subject to the
+
+federal Remittance Rule (12 CFR Part 1005, Subpart B), as amended
+
+or recodified from time to time; or
+
+(b)
+
+Money received for transmission pursuant to a
+
+written agreement between the licensee and payee to process
+
+payments for goods or services provided by the payee.
+
+(2)
+
+Every licensee shall refund to the sender within ten
+
+(10) days of receipt of the sender's written request for a refund
+
+of any and all money received for transmission unless any of the
+
+following occurs:
+
+(a)
+
+The money has been forwarded within ten (10) days
+
+of the date on which the money was received for transmission;
+(b)
+
+Instructions have been given committing an
+
+equivalent amount of money to the person designated by the sender
+H. B. No. 1264
+PAGE 58 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+within ten (10) days of the date on which the money was received
+
+for transmission;
+
+(c)
+
+The agreement between the licensee and the sender
+
+instructs the licensee to forward the money at a time that is
+
+beyond ten (10) days of the date on which the money was received
+
+for transmission.
+
+accordance with the terms of the agreement between the licensee
+
+and the sender, the licensee shall issue a refund in accordance
+
+with the other provisions of this section;
+
+(d)
+
+If funds have not yet been forwarded in
+
+The refund is requested for a transaction that the
+
+licensee has not completed based on a reasonable belief or a
+
+reasonable basis to believe that a crime or violation of law, rule
+
+or regulation has occurred, is occurring, or may occur; or
+
+(e)
+
+The refund request does not enable the licensee to:
+(i)
+
+telephone number; or
+
+(ii)
+
+Identify the sender's name and address or
+
+Identify the particular transaction to be
+
+refunded in the event the sender has multiple transactions
+
+outstanding.
+
+SECTION 40.
+
+Section 75-16-59, Mississippi Code of 1972, is
+
+brought forward as follows:
+
+75-16-59.
+
+(a)
+
+Receipts.
+
+(1)
+
+This section does not apply to:
+
+Money received for transmission subject to the
+
+federal Remittance Rule (12 CFR Part 1005, Subpart B), as amended
+
+or recodified from time to time;
+H. B. No. 1264
+PAGE 59 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(b)
+
+Money received for transmission that is not
+
+primarily for personal, family or household purposes; or
+
+(c)
+
+Money received for transmission pursuant to a
+
+written agreement between the licensee and payee to process
+
+payments for goods or services provided by the payee.
+
+(2)
+
+For purposes of this section, "receipt" means a paper
+
+receipt, electronic record or other written confirmation.
+
+transaction conducted in person, the receipt may be provided
+
+electronically if the sender requests or agrees to receive an
+
+electronic receipt.
+
+by phone, a receipt may be provided electronically.
+
+electronic receipts shall be provided in a retainable form.
+
+(3)
+
+For a transaction conducted electronically or
+All
+
+Every licensee or its authorized delegate shall provide
+
+the sender a receipt for money received for transmission.
+
+For a
+
+(a)
+
+The receipt shall contain the following
+
+information, as applicable:
+
+(i)
+
+The name of the sender;
+
+(ii)
+
+The name of the designated recipient;
+
+(iii)
+
+The date of the transaction;
+
+(iv)
+
+The unique transaction or identification
+
+(v)
+
+The name of the licensee, NMLS Unique ID, the
+
+number;
+
+licensee's business address and the licensee's customer service
+
+telephone number;
+
+H. B. No. 1264
+PAGE 60 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(vii)
+
+Any fee charged by the licensee to the
+
+sender for the transaction; and
+
+The amount of the transaction in United
+
+States dollars;
+
+(vi)
+
+(viii)
+
+Any taxes collected by the licensee from
+
+the sender for the transaction.
+
+(b)
+
+The receipt required by this section shall be in
+
+English and in the language principally used by the licensee or
+
+authorized delegate to advertise, solicit or negotiate, either
+
+orally or in writing, for a transaction conducted in person,
+
+electronically or by phone, if other than English.
+
+SECTION 41.
+
+Section 75-16-61, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-61.
+
+Net worth.
+
+(1)
+
+A licensee under this chapter
+
+shall maintain at all times a tangible net worth of the greater of
+
+One Hundred Thousand Dollars ($100,000.00) or three percent (3%)
+
+of total assets for the first One Hundred Million Dollars
+
+($100,000,000.00), two percent (2%) of additional assets for One
+
+Hundred Million Dollars ($100,000,000.00) to One Billion Dollars
+
+($1,000,000,000.00), and one-half percent (0.5%) of additional
+
+assets for over One Billion Dollars ($1,000,000,000.00).
+
+(2)
+
+Tangible net worth must be demonstrated at initial
+
+application by the applicant's most recent audited statements
+
+pursuant to Section 75-16-25(2)(f).
+
+H. B. No. 1264
+PAGE 61 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(3)
+
+Notwithstanding the foregoing provisions of this
+
+section, the commissioner shall have the authority, for good cause
+
+shown, to exempt, in part or in whole, from the requirements of
+
+this section for any applicant or licensee.
+
+SECTION 42.
+
+Section 75-16-63, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-63.
+
+Surety bond.
+
+(1)
+
+An applicant for a money
+
+transmission license must provide, and a licensee at all times
+
+must maintain, security consisting of a surety bond issued by a
+
+bonding company or insurance company authorized to do business in
+
+the State of Mississippi and in a form satisfactory to the
+
+commissioner or, with the commissioner's approval, a deposit
+
+instead of a bond in accordance with this section.
+
+(2)
+
+The amount of the required security shall be
+
+the greater of One Hundred Thousand Dollars ($100,000.00) or an
+
+amount equal to one hundred percent (100%) of the licensee's
+
+average daily money transmission liability in this state
+
+calculated for the most recently completed three-month period, up
+
+to a maximum of Five Hundred Thousand Dollars ($500,000.00).
+
+licensee that maintains a bond in the maximum amount provided for
+
+in subsection (1) of this section or in this subsection, as
+
+applicable, shall not be required to calculate its average daily
+
+money transmission liability in this state for purposes of this
+
+section.
+
+H. B. No. 1264
+PAGE 62 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+A
+
+(3)
+
+A licensee may exceed the maximum required bond amount
+
+pursuant to Section 75-16-67(1)(e).
+(4)
+
+The bond shall be in a form satisfactory to the
+
+commissioner and shall run to the state for the use and benefit of
+
+the Department of Banking and Consumer Finance and any claimants
+
+against the licensee or his agents to secure the faithful
+
+performance of the obligations of the licensee and his agents with
+
+respect to the receipt, handling, transmission and payment of
+
+money in connection with money transmissions in Mississippi.
+
+(5)
+
+Any claimants against the licensee or his agents may
+
+themselves bring suit directly on the bond, or the Attorney
+
+General may bring suit thereon in behalf of those claimants,
+
+either in one (1) action or successive actions.
+
+(6)
+
+The commissioner may increase the required amount of the
+
+bond or deposit upon the basis of the impaired financial condition
+
+of a licensee as evidenced by a reduction in net worth, financial
+
+losses or other relevant criteria.
+
+(7)
+
+Any provision in this chapter to the contrary
+
+notwithstanding, the commissioner may at any time, if in the
+
+commissioner's sole opinion the protection of the public so
+
+requires, increase the principal sum of the bond or deposit
+
+required of any applicant or licensee by this chapter but in no
+
+case shall the principal sum of the bond or deposit required
+
+exceed One Million Dollars ($1,000,000.00).
+
+H. B. No. 1264
+PAGE 63 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+SECTION 43.
+
+Section 75-16-65, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-65.
+
+Maintenance of permissible.
+
+(1)
+
+A licensee shall
+
+maintain at all times permissible investments that have a market
+
+value computed in accordance with United States Generally Accepted
+
+Accounting Principles of not less than the aggregate amount of all
+
+of its outstanding money transmission obligations.
+
+(2)
+
+Except for permissible investments enumerated in Section
+
+75-16-67(1), the commissioner, with respect to any licensee, may
+
+by rule, regulation or order limit the extent to which a specific
+
+investment maintained by a licensee within a class of permissible
+
+investments may be considered a permissible investment, if the
+
+specific investment represents undue risk to customers, not
+
+reflected in the market value of investments.
+
+(3)
+
+Permissible investments, even if commingled with other
+
+assets of the licensee, are held in trust for the benefit of the
+
+purchasers and holders of the licensee's outstanding money
+
+transmission obligations in the event of insolvency, the filing of
+
+a petition by or against the licensee under the United States
+
+Bankruptcy Code, 11 USC Sections 101-110, as amended or recodified
+
+from time to time, for bankruptcy or reorganization, the filing of
+
+a petition by or against the licensee for receivership, the
+
+commencement of any other judicial or administrative proceeding
+
+for its dissolution or reorganization, or in the event of an
+
+action by a creditor against the licensee who is not a beneficiary
+H. B. No. 1264
+PAGE 64 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+of this statutory trust.
+
+with a trust pursuant to this subsection (3) shall be subject to
+
+attachment, levy of execution or sequestration by order of any
+
+court, except for a beneficiary of this statutory trust.
+
+(4)
+
+No permissible investments impressed
+
+Upon the establishment of a statutory trust in
+
+accordance with subsection (3) of this section or when any funds
+
+are drawn on a letter of credit pursuant to Section 75-16-67(1),
+
+the commissioner shall notify the applicable regulator of each
+
+state in which the licensee is licensed to engage in money
+
+transmission, if any, of the establishment of the trust or the
+
+funds drawn on the letter of credit, as applicable.
+
+be deemed satisfied if performed pursuant to a multistate
+
+agreement or through NMLS.
+
+any other permissible investments held in trust for the benefit of
+
+the purchasers and holders of the licensee's outstanding money
+
+transmission obligations, are deemed held in trust for the benefit
+
+of such purchasers and holders on a pro rata and equitable basis
+
+in accordance with statutes pursuant to which permissible
+
+investments are required to be held in this state, and other
+
+states, as applicable.
+
+shall be terminated upon extinguishment of all of the licensee's
+
+outstanding money transmission obligations.
+
+(5)
+
+Notice shall
+
+Funds drawn on a letter of credit, and
+
+Any statutory trust established hereunder
+
+The commissioner, by rule, regulation or by order may
+
+allow other types of investments that the commissioner determines
+
+are of sufficient liquidity and quality to be a permissible
+H. B. No. 1264
+PAGE 65 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+investment.
+
+efforts with other state regulators to determine that other types
+
+of investments are of sufficient liquidity and quality to be a
+
+permissible investment.
+
+SECTION 44.
+
+The commissioner is authorized to participate in
+
+Section 75-16-67, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-67.
+
+Types of permissible investments.
+
+(1)
+
+The
+
+following investments are permissible under Section 75-16-65:
+
+(a)
+
+Cash (including demand deposits, savings deposits,
+
+and funds in such accounts held for the benefit of the licensee's
+
+customers in a federally insured depository financial institution)
+
+and cash equivalents including ACH items in transit to the
+
+licensee and ACH items or international wires in transit to a
+
+payee, cash in transit via armored car, cash in smart safes, cash
+
+in licensee-owned locations, debit card or credit card-funded
+
+transmission receivables owed by any bank, or money market mutual
+
+funds rated "AAA" by S&P, or the equivalent from any eligible
+
+rating service;
+
+(b)
+
+Certificates of deposit or senior debt obligations
+
+of an insured depository institution, as defined in Section 3 of
+
+the Federal Deposit Insurance Act, 12 USC 1813, as amended or
+
+recodified from time to time, or as defined under the federal
+
+Credit Union Act, 12 USC 1781, as amended or recodified from time
+
+to time;
+
+H. B. No. 1264
+PAGE 66 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(c)
+
+An obligation of the United States or a commission,
+
+agency, or instrumentality thereof; an obligation that is
+
+guaranteed fully as to principal and interest by the United
+
+States; or an obligation of a state or a governmental subdivision,
+
+agency, or instrumentality thereof;
+
+(d)
+
+The full drawable amount of an irrevocable standby
+
+letter of credit for which the stated beneficiary is the
+
+commissioner that stipulates that the beneficiary need only draw a
+
+sight draft under the letter of credit and present it to obtain
+
+funds up to the letter of credit amount within seven (7) days of
+
+presentation of the items required by subparagraph (iii) of this
+
+paragraph (d).
+
+(i)
+
+The letter of credit must:
+1.
+
+Be issued by a federally insured
+
+depository financial institution, a foreign bank that is
+
+authorized under federal law to maintain a federal agency or
+
+federal branch office in a state or states, or a foreign bank that
+
+is authorized under state law to maintain a branch in a state that
+
+a. bears an eligible rating or whose parent company bears an
+
+eligible rating; and b. is regulated, supervised, and examined by
+
+United States federal or state authorities having regulatory
+
+authority over banks, credit unions, and trust companies;
+
+2.
+
+Be irrevocable, unconditional and indicate
+
+that it is not subject to any condition or qualifications outside
+
+of the letter of credit;
+H. B. No. 1264
+PAGE 67 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+3.
+
+Not contain reference to any other
+
+agreements, documents or entities, or otherwise provide for any
+
+security interest in the licensee; and
+
+4.
+
+Contain an issue date and expiration date,
+
+and expressly provide for automatic extension, without a written
+
+amendment, for an additional period of one (1) year from the
+
+present or each future expiration date, unless the issuer of the
+
+letter of credit notifies the commissioner in writing by certified
+
+or registered mail or courier mail or other receipted means, at
+
+least sixty (60) days prior to any expiration date, that the
+
+irrevocable letter of credit will not be extended.
+
+(ii)
+
+In the event of any notice of expiration or
+
+nonextension of a letter of credit issued under subparagraph (i)4
+
+of this paragraph (d), the licensee shall be required to
+
+demonstrate to the satisfaction of the commissioner, fifteen (15)
+
+days prior to expiration, that the licensee maintains and will
+
+maintain permissible investments in accordance with Section
+
+75-16-65(1) upon the expiration of the letter of credit.
+
+licensee is not able to do so, the commissioner may draw on the
+
+letter of credit in an amount up to the amount necessary to meet
+
+the licensee's requirements to maintain permissible investments in
+
+accordance with Section 75-16-65(1).
+
+offset against the licensee's outstanding money transmission
+
+obligations.
+
+commissioner or the commissioner's designated agent, to the extent
+H. B. No. 1264
+PAGE 68 (MCL\KW)
+
+If the
+
+Any such draw shall be
+
+The drawn funds shall be held in trust by the
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+authorized by law, as agent for the benefit of the purchasers and
+
+holders of the licensee's outstanding money transmission
+
+obligations.
+
+(iii)
+
+The letter of credit shall provide that the
+
+issuer of the letter of credit will honor, at sight, a
+
+presentation made by the beneficiary to the issuer of the
+
+following documents on or prior to the expiration date of the
+
+letter of credit:
+
+The original letter of credit (including
+
+2.
+
+A written statement from the beneficiary
+
+any amendments); and
+
+1.
+
+stating that any of the following events have occurred:
+
+a.
+
+The filing of a petition by or
+
+against the licensee under the United States Bankruptcy Code, 11
+
+USC 101-110, as amended or recodified from time to time, for
+
+bankruptcy or reorganization;
+
+b.
+
+The filing of a petition by or
+
+against the licensee for receivership, or the commencement of any
+
+other judicial or administrative proceeding for its dissolution or
+
+reorganization;
+
+c.
+
+The seizure of assets of a licensee
+
+by a commissioner pursuant to an emergency order issued in
+
+accordance with applicable law, on the basis of an action,
+
+violation, or condition that has caused or is likely to cause the
+
+insolvency of the licensee; or
+H. B. No. 1264
+PAGE 69 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+d.
+
+The beneficiary has received notice
+
+of expiration or nonextension of a letter of credit and the
+
+licensee failed to demonstrate to the satisfaction of the
+
+beneficiary that the licensee will maintain permissible
+
+investments in accordance with Section 75-16-65(1) upon the
+
+expiration or nonextension of the letter of credit.
+
+(iv)
+
+The commissioner may designate an agent to
+
+serve on the commissioner's behalf as beneficiary to a letter of
+
+credit so long as the agent and letter of credit meet requirements
+
+established by the commissioner.
+
+serve as agent for multiple licensing authorities for a single
+
+irrevocable letter of credit if the proceeds of the drawable
+
+amount for the purposes of this paragraph (d) are assigned to the
+
+commissioner.
+
+(v)
+
+The commissioner's agent may
+
+The commissioner is authorized and encouraged
+
+to participate in multistate processes designed to facilitate the
+
+issuance and administration of letters of credit, including, but
+
+not limited to, services provided by the NMLS and State Regulatory
+
+Registry, LLC;
+
+(e)
+
+One hundred percent (100%) of the surety bond or
+
+deposit provided for under Section 75-16-63 that exceeds the
+
+average daily money transmission liability in this state;
+
+(f)
+(2)
+
+Any other investment approved by the commissioner.
+
+Unless permitted by the commissioner by rule, regulation
+
+or by order to exceed the limit as set forth herein, the following
+H. B. No. 1264
+PAGE 70 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+investments are permissible under Section 75-16-65 to the extent
+
+specified:
+
+(a)
+
+Receivables that are payable to a licensee from its
+
+authorized delegates in the ordinary course of business that are
+
+less than seven (7) days old, up to fifty percent (50%) of the
+
+aggregate value of the licensee's total permissible investments;
+
+(b)
+
+Of the receivables permissible under paragraph (a)
+
+of this subsection, receivables that are payable to a licensee
+
+from a single authorized delegate in the ordinary course of
+
+business may not exceed ten percent (10%) of the aggregate value
+
+of the licensee's total permissible investments;
+
+(c)
+
+The following investments are permissible up to
+
+twenty percent (20%) per category and combined up to fifty percent
+
+(50%) of the aggregate value of the licensee's total permissible
+
+investments:
+
+(i)
+
+A short-term (up to six (6) months) investment
+
+bearing an eligible rating;
+
+(ii)
+
+Commercial paper bearing an eligible rating;
+
+(iii)
+
+A bill, note, bond, or debenture bearing an
+
+eligible rating;
+
+(iv)
+
+United States tri-party repurchase agreements
+
+collateralized at one hundred percent (100%) or more with U.S.
+
+government or agency securities, municipal bonds, or other
+
+securities bearing an eligible rating;
+
+H. B. No. 1264
+PAGE 71 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(v)
+
+Money market mutual funds rated less than
+
+"AAA" and equal to or higher than "A-" by S&P, or the equivalent
+
+from any other eligible rating service; and
+
+(vi)
+
+A mutual fund or other investment fund
+
+composed solely and exclusively of one or more permissible
+
+investments listed in subsection (1)(a) through (c) of this
+
+section;
+
+(d)
+
+Cash (including demand deposits, savings deposits,
+
+and funds in such accounts held for the benefit of the licensee's
+
+customers) at foreign depository institutions are permissible up
+
+to ten percent (10%) of the aggregate value of the licensee's
+
+total permissible investments if the licensee has received a
+
+satisfactory rating in its most recent examination and the foreign
+
+depository institution:
+
+(i)
+
+Has an eligible rating;
+
+(ii)
+
+Is registered under the Foreign Account Tax
+
+(iii)
+
+Is not located in any country subject to
+
+Compliance Act;
+
+sanctions from the Office of Foreign Asset Control; and
+
+(iv)
+
+Is not located in a high-risk or
+
+noncooperative jurisdiction as designated by the Financial Action
+
+Task Force.
+
+SECTION 45.
+
+Section 75-16-69, Mississippi Code of 1972, is
+
+brought forward as follows:
+
+H. B. No. 1264
+PAGE 72 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+75-16-69.
+
+Suspension and revocation.
+
+(1)
+
+The commissioner
+
+may suspend or revoke a license or order a licensee to revoke the
+
+designation of an authorized delegate if:
+
+(a)
+
+The licensee or any authorized delegate, agent, or
+
+representative violates this chapter or a rule or regulation
+
+adopted or an order issued under this chapter;
+
+(b)
+
+The licensee or any authorized delegate, agent, or
+
+representative does not cooperate with an examination or
+
+investigation by the commissioner;
+
+(c)
+
+The licensee or any authorized delegate, agent, or
+
+representative engages in fraud, intentional misrepresentation, or
+
+gross negligence;
+
+(d)
+
+An authorized delegate is convicted of a violation
+
+of a state or federal anti-money laundering statute, or violates a
+
+rule or regulation adopted or an order issued under this chapter,
+
+as a result of the licensee's willful misconduct or willful
+
+blindness;
+
+(e)
+
+The competence, experience, character, or general
+
+fitness of the licensee, authorized delegate, person in control of
+
+a licensee, key individual, or responsible person of the
+
+authorized delegate indicates that it is not in the public
+
+interest to permit the person to provide money transmission;
+
+(f)
+
+The licensee or any authorized delegate, agent, or
+
+representative engages in an unsafe or unsound practice;
+
+H. B. No. 1264
+PAGE 73 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(g)
+
+The licensee is insolvent, suspends payment of its
+
+obligations, or makes a general assignment for the benefit of its
+
+creditors; or
+
+(h)
+
+The licensee does not remove an authorized delegate
+
+after the commissioner issues and serves upon the licensee a final
+
+order including a finding that the authorized delegate has
+
+violated this chapter.
+
+(2)
+
+In determining whether a licensee is engaging in an
+
+unsafe or unsound practice, the commissioner may consider the size
+
+and condition of the licensee's money transmission, the magnitude
+
+of the loss, the gravity of the violation of this chapter, and the
+
+previous conduct of the person involved.
+
+SECTION 46.
+
+Section 75-16-71, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-71.
+
+Notice and hearing.
+
+(1)
+
+Except where a license
+
+is automatically revoked without any act of the commissioner as
+
+specially provided in this section, no license shall be revoked
+
+except on ten (10) days' notice (the first day of the ten-day
+
+period to be the date stated on the notice, which shall be the day
+
+it is mailed) to the licensee by the commissioner, sent by letter
+
+by United States registered mail, return receipt requested, to the
+
+licensee's business address set forth in the application.
+
+(2)
+
+Upon receipt of the notice, as stated in the registered
+
+mail receipt, the licensee may, within five (5) days thereafter
+
+(which five-day period may be wholly or partially outside of the
+H. B. No. 1264
+PAGE 74 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+ten-day period) make written demand for a hearing by the
+
+commissioner, which demand must be accompanied by an additional
+
+surety bond or securities deposit, as hereafter provided, the
+
+principal sum or the market value thereof to be specified by the
+
+commissioner in the revocation notice.
+
+(3)
+
+The revocation notice shall not become final during the
+
+period of time in which the licensee may demand such hearing nor
+
+if licensee demands a hearing, until the matter has been finally
+
+determined by the commissioner or by the courts, provided that the
+
+licensee posts together with his written demand for hearing an
+
+additional corporate surety bond, written by the same surety that
+
+wrote the bond required under Section 75-16-63 or an additional
+
+deposit in addition to the deposit theretofore made by the
+
+licensee under Section 75-16-63 which additional surety bond or
+
+deposit shall be in a principal amount or of a market value deemed
+
+adequate by the commissioner as specified in the revocation order
+
+but not exceeding One Million Dollars ($1,000,000.00), provided
+
+that if the licensee originally deposited with his application
+
+under Section 75-16-63 a corporate surety bond, the additional
+
+deposit provided in this section must be another corporate surety
+
+bond or an increase of the first one and may not be a deposit, or
+
+if the licensee originally made a deposit, the additional deposit
+
+shall also be of the same manner and not a corporate surety bond.
+
+The bond or deposit shall secure the same obligations as does the
+
+H. B. No. 1264
+PAGE 75 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+corporate surety bond or deposit required by Section 75-16-63, but
+
+shall be in addition to the bond or deposit required thereby.
+
+(4)
+
+Upon receipt of the written demand, the commissioner
+
+shall thereafter, with reasonable promptness, hear and determine
+
+the matter as provided by law or regulation.
+
+(5)
+
+If the licensee deems himself aggrieved by the
+
+determination or order of the commissioner, he may within thirty
+
+(30) days after the determination or order, have the determination
+
+or order reviewed by an appeal to the Chancery Court of the First
+
+Judicial District of Hinds County, Mississippi, by filing a
+
+petition setting out the specific order or action or part thereof
+
+by which the person deems himself aggrieved.
+
+shall be given preferred settings and shall be heard by the court
+
+as speedily as possible.
+
+the posting of a bond for the costs of the appeal accompanied by
+
+the petition.
+
+Court of Mississippi from the decree or order of the chancery
+
+court, within thirty (30) days from the rendition of the decree or
+
+order, in the manner provided by law for appeals to the Supreme
+
+Court of Mississippi from chancery courts.
+
+(6)
+
+All those petitions
+
+Such an appeal shall be perfected upon
+
+Any party to the appeal may appeal to the Supreme
+
+Final revocation of the license, whether automatic or by
+
+final determination of the commissioner or the courts, shall
+
+cancel as of the date of final revocation all bonds or deposits
+
+theretofore deposited by the licensee under any provision of this
+
+section, provided that the licensee (and his corporate surety, if
+H. B. No. 1264
+PAGE 76 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+any) shall not be relieved of any accrued liabilities, and
+
+provided further, where the licensee made a deposit, that there
+
+shall not be returned to the licensee any of the deposit until the
+
+commissioner determines that all accrued liabilities (including,
+
+but not limited to, the principal sums thereof, accrued interest
+
+thereon, and court costs, if any, assessed to the licensee) of the
+
+licensee under this section have been satisfied in full.
+
+(7)
+
+The commissioner may at any time revoke a license, on
+
+any ground on which he might refuse to grant a license, for
+
+failure to pay an annual fee or for violation of any provision of
+
+this section, subject to the provisions of this section.
+
+(8)
+
+A license shall be automatically and finally revoked
+
+without any act or further act of the commissioner and without any
+
+right of the licensee to any hearing or further hearing by the
+
+commissioner or the courts and without any right of the licensee
+
+or the commissioner to reinstate or have reinstated the license,
+
+in the following instances:
+
+notice period, if the corporate surety gives notice of
+
+cancellation of its bond or any of them; (b) upon failure by
+
+licensee to pay when due the annual license fee required by
+
+Section 75-16-31; (c) upon failure by licensee to file when due
+
+any information required by this chapter; (d) in case of a
+
+revocation notice under subsection (1) of this section, failure by
+
+the licensee to demand hearing as provided therein or failure to
+
+deposit any additional corporate surety bond or deposit as
+H. B. No. 1264
+PAGE 77 (MCL\KW)
+
+(a) at expiration of the sixty-day
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+required by the commissioner; (e) upon a license revocation order
+
+becoming final at any stage; (f) failure by licensee to deposit
+
+when due any additional corporate surety bond or deposit required
+
+by the commissioner under Section 75-16-63(8); or (g) upon final
+
+conviction of licensee as to any offense covered by this chapter.
+
+(9)
+
+If a revocation order becomes final for any reason or in
+
+any manner, the license may not be reinstated, except upon new
+
+application as if the licensee had never been licensed before.
+
+The commissioner may deny the new application on grounds that a
+
+previous application was denied or a previous license to applicant
+
+was revoked or any ground or grounds on which he may deny an
+
+original application.
+
+SECTION 47.
+
+Section 75-16-73, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-73.
+
+Orders to cease and desist.
+
+(1)
+
+If the
+
+commissioner determines that a violation of this chapter or of a
+
+rule or regulation adopted or an order issued under this chapter
+
+by a licensee or authorized delegate is likely to cause immediate
+
+and irreparable harm to the licensee, its customers, or the public
+
+as a result of the violation, or cause insolvency or significant
+
+dissipation of assets of the licensee, the commissioner may issue
+
+an order requiring the licensee or authorized delegate to cease
+
+and desist from the violation.
+
+service of it upon the licensee or authorized delegate.
+
+H. B. No. 1264
+PAGE 78 (MCL\KW)
+
+*HR26/R2229*
+
+The order becomes effective upon
+
+~ OFFICIAL ~
+
+(2)
+
+When the commissioner has reasonable cause to believe
+
+that a person is violating any provision of this chapter, the
+
+commissioner, in addition to and without prejudice to the
+
+authority provided elsewhere in this chapter, may sue in the
+
+Chancery Court of the First Judicial District of Hinds County,
+
+Mississippi, to enjoin the person from engaging in or continuing
+
+the violation or from doing any act in furtherance of the
+
+violation.
+
+judgment awarding a preliminary or permanent injunction.
+
+(3)
+
+In such an action, the court may enter any order or
+
+An order to cease and desist remains effective until
+
+rescinded or released by the commissioner or appealed as provided
+
+in this section.
+
+(4)
+
+A licensee that is served with an order to cease and
+
+desist may petition the Chancery Court of the First Judicial
+
+District of Hinds County, Mississippi, for a judicial order
+
+setting aside, limiting, or suspending the enforcement, operation,
+
+or effectiveness of the order.
+
+SECTION 48.
+
+Section 75-16-75, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-75.
+
+Consent orders.
+
+The commissioner may enter into a
+
+consent order at any time with a person to resolve a matter
+
+arising under this chapter or a rule or regulation adopted or
+
+order issued under this chapter.
+
+by the person to whom it is issued or by the person's authorized
+
+representative, and must indicate agreement with the terms
+H. B. No. 1264
+PAGE 79 (MCL\KW)
+
+*HR26/R2229*
+
+A consent order must be signed
+
+~ OFFICIAL ~
+
+contained in the order.
+
+not constitute an admission by a person that this chapter or a
+
+rule or regulation adopted or an order issued under this chapter
+
+has been violated.
+
+SECTION 49.
+
+A consent order may provide that it does
+
+Section 75-16-77, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-77.
+
+Criminal penalties.
+
+(1)
+
+A person who
+
+intentionally makes a false statement, misrepresentation, or false
+
+certification in a record filed or required to be maintained under
+
+this chapter or that intentionally makes a false entry or omits a
+
+material entry in such a record is guilty of a felony and, upon
+
+conviction thereof, shall be fined no less than Five Hundred
+
+Dollars ($500.00) nor more than Three Thousand Dollars
+
+($3,000.00), and may also be punished by imprisonment in the
+
+custody of the Department of Corrections for a term not less than
+
+one (1) year and not more than five (5) years.
+
+(2)
+
+A person that knowingly engages in an activity for which
+
+a license is required under this chapter without being licensed
+
+under this chapter and who receives more than Five Hundred Dollars
+
+($500.00) in compensation within a thirty-day period from this
+
+activity is guilty of a felony and, upon conviction thereof, shall
+
+be fined no less than Five Hundred Dollars ($500.00) nor more than
+
+Three Thousand Dollars ($3,000.00), and may also be punished by
+
+imprisonment in the custody of the Department of Corrections for a
+
+term not less than one (1) year and not more than five (5) years.
+H. B. No. 1264
+PAGE 80 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+(3)
+
+A person that knowingly engages in an activity for which
+
+a license is required under this chapter without being licensed
+
+under this chapter and who receives no more than Five Hundred
+
+Dollars ($500.00) in compensation within a thirty-day period from
+
+this activity is guilty of a misdemeanor and, upon conviction,
+
+shall be fined not less than One Hundred Dollars ($100.00) nor
+
+more than Five Hundred Dollars ($500.00), and may also be confined
+
+to the county jail for not more than twelve (12) months.
+
+SECTION 50.
+
+Section 75-16-79, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-79.
+
+Civil penalties.
+
+(1)
+
+The commissioner may assess
+
+a civil penalty against a person that violates this chapter or a
+
+rule or regulation adopted or an order issued under this chapter
+
+in an amount not to exceed One Thousand Dollars ($1,000.00) per
+
+day for each day the violation is outstanding, plus this state's
+
+costs and expenses for the investigation and prosecution of the
+
+matter, including reasonable attorney's fees.
+
+(2)
+
+If any person engages in business as provided for in
+
+this chapter without paying the license fee provided for in this
+
+chapter before beginning business or before the expiration of the
+
+person's current license, as the case may be, then the person
+
+shall be liable for the full amount of the license fee plus a
+
+penalty in an amount not to exceed One Thousand Dollars
+
+($1,000.00) for each day that the person has engaged in the
+
+business without a license or after the expiration of a license.
+H. B. No. 1264
+PAGE 81 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+SECTION 51.
+
+Section 75-16-81, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-81.
+
+Unlicensed persons.
+
+(1)
+
+If the commissioner has
+
+reason to believe that a person has violated or is violating
+
+Section 75-16-21, the commissioner may issue an order to show
+
+cause why an order to cease and desist should not issue requiring
+
+that the person cease and desist from the violation of Section
+
+75-16-21.
+
+(2)
+
+In an emergency, the commissioner may petition the
+
+Chancery Court of the First Judicial District of Hinds County,
+
+Mississippi, for the issuance of a temporary restraining order ex
+
+parte pursuant to the Mississippi Rules of Civil Procedure.
+
+(3)
+
+An order to cease and desist becomes effective upon
+
+service of it upon the person.
+(4)
+
+An order to cease and desist remains effective and
+
+enforceable until rescinded or released by the commissioner or
+
+appealed as provided in this section.
+
+(5)
+
+A person that is served with an order to cease and
+
+desist for violating Section 75-16-21 may petition the Chancery
+
+Court of the First Judicial District of Hinds County, Mississippi,
+
+for a judicial order setting aside, limiting, or suspending the
+
+enforcement, operation, or effectiveness of the order.
+
+SECTION 52.
+
+Section 75-16-83, Mississippi Code of 1972, is
+
+brought forward as follows:
+
+H. B. No. 1264
+PAGE 82 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+75-16-83.
+
+Investigation of possible violations.
+
+In addition
+
+to and without prejudice to the authority provided elsewhere in
+
+this chapter, the commissioner, or his duly authorized
+
+representative, for the purpose of discovering violations of this
+
+chapter and for the purpose of determining whether persons are
+
+subject to the provisions of this chapter, may examine persons
+
+licensed under this chapter and persons reasonably suspected by
+
+the commissioner of conducting business that requires a license
+
+under this chapter, including all relevant books, records and
+
+papers employed by those persons in the transaction of their
+
+business, and may summon witnesses and examine them under oath
+
+concerning matters relating to the business of those persons, or
+
+such other matters as may be relevant to the discovery of
+
+violations of this chapter, including, without limitation, the
+
+conduct of business without a license as required under this
+
+chapter.
+
+SECTION 53.
+
+Section 75-16-85, Mississippi Code of 1972, is
+
+brought forward as follows:
+75-16-85.
+
+Uniformity of application and construction.
+
+In
+
+applying and construing this chapter, consideration must be given
+
+to the need to promote uniformity of the law with respect to its
+
+subject matter among states that enact it.
+
+SECTION 54.
+
+Section 75-16-87, Mississippi Code of 1972, is
+
+brought forward as follows:
+
+H. B. No. 1264
+PAGE 83 (MCL\KW)
+
+*HR26/R2229*
+
+~ OFFICIAL ~
+
+75-16-87.
+
+Transition period.
+
+(1)
+
+A person licensed in this
+
+state to engage in the business of money transmission shall not be
+
+subject to the provisions of this chapter, to the extent that they
+
+conflict with current law or establish new requirements not
+
+imposed under current law, until such time as the licensee renews
+
+its current license or for twelve (12) months after July 1, 2025,
+
+whichever is later.
+
+(2)
+
+Notwithstanding subsection (1) of this section, a
+
+licensee shall only be required to amend its authorized delegate
+
+contracts for contracts entered into or amended after the
+
+effective date or the completion of any transition period
+
+contemplated under subsection (1) of this section.
+
+shall be construed as limiting an authorized delegate's
+
+obligations to operate in full compliance with this chapter as
+
+required by Section 75-16-51(3).
+
+SECTION 55.
+
+and after July 1, 2026.
+
+H. B. No. 1264
+PAGE 84 (MCL\KW)
+
+Nothing herein
+
+This act shall take effect and be in force from
+
+~ OFFICIAL ~
+ST: Virtual Currency Kiosk Consumer Accesss
+Protection Act; create.
+
+*HR26/R2229*

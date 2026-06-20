@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Elections, Voting, & Campaigns",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB166",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Elections"
+    ],
+    "title": "Campaign finance; require preservation of campaign records for specified period of time"
+  },
+  "id": "SB166",
+  "log": {
+    "action": {
+      "date": "2026-04-08T04:00:00+00:00",
+      "description": "Signature Requested",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB166"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/SB166/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/SB166/logs/20260408T040000Z_signature_requested.json"
+  },
+  "timestamp": "20260408T040000Z"
+}

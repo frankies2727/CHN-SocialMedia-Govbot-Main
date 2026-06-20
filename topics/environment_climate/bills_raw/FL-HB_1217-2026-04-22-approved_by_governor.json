@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Prohibited Governmental Policies Regulating Greenhouse Gas Emissions;  Prohibits governmental entities from adopting certain net zero policies; prohibits governmental entities from using public funds in any manner that supports, implements, or advances certain net zero policies; prohibits governmental entities from imposing any charge to advance certain net zero policies; requires each governmental entity to annually submit to Department of Revenue certain affidavit; prohibits governmental entities from implementing, administering, or enforcing certain programs.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1217",
+    "legislative_session": "2026",
+    "subject": [
+      "municipalities",
+      "reclamation, and use",
+      "subject index"
+    ],
+    "title": "Prohibited Governmental Policies Regulating Greenhouse Gas Emissions"
+  },
+  "id": "HB 1217",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-04-22",
+      "description": "Approved by Governor",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "HB 1217"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB1217/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB1217/logs/20260422T000000Z_approved_by_governor.json"
+  },
+  "timestamp": "20260422T000000Z"
+}

@@ -1,0 +1,24 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 5892",
+    "legislative_session": "2025-2026",
+    "title": "Concerning protection of the voter registration database."
+  },
+  "id": "SB 5892",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-03-09",
+      "description": "Passed final passage; yeas, 30; nays, 19; absent, 0; excused, 0.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 5892"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB5892/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB5892/logs/20260309T000000Z.classification.passage.upper.json"
+  }
+}

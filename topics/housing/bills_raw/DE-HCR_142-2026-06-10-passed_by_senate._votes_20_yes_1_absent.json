@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This House Concurrent Resolution recognizes June 2026 as National Homeownership Month in Delaware and highlights updated housing data and program impact.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HCR 142",
+    "legislative_session": "153",
+    "title": "RECOGNIZING THE MONTH OF JUNE AS NATIONAL HOMEOWNERSHIP MONTH IN DELAWARE."
+  },
+  "id": "HCR 142",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-06-10",
+      "description": "Passed By Senate. Votes: 20 YES 1 ABSENT",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HCR 142"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HCR142/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HCR142/logs/20260610T000000Z.classification.passage.upper.json"
+  }
+}

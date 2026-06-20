@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Mr. Durant, a petition (accompanied by bill, Senate, No. 1831) of Peter J. Durant, Kimberly N. Ferguson, Donald R. Berthiaume, Jr. and Bruce E. Tarr for legislation to provide killed in the line of duty benefits to Joanne Songy, surviving spouse of Detective John D. Songy, a police officer of the town of Rutland.  Public Service.  [Local Approval Received.]",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S1831",
+    "legislative_session": "194th",
+    "title": "An Act providing killed in the line of duty benefits to Joanne Songy, surviving spouse of Detective John D. Songy, a police officer of the town of Rutland"
+  },
+  "id": "S1831",
+  "log": {
+    "action": {
+      "date": "2026-06-15",
+      "description": "Committee reported that the matter be placed in the Orders of the Day for the next sitting",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "S1831"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/S1831/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/S1831/logs/20260615T000000Z_committee_reported_that_the_matter_be_placed_in_the_orders_of_the_day_for_the_next_sitting.json"
+  },
+  "timestamp": "20260615T000000Z"
+}

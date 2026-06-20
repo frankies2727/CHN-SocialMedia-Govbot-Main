@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "The Unclaimed Property Law (UPL) prescribes the circumstances under which intangible property, including digital financial assets, escheats to the state, including how and when apparent owners must be notified that their property is at risk of escheating and the manner in which escheated property must be delivered to the State Controller. Existing law also requires that business associations holding a financial asset that is potentially subject to escheatment provide notice to the owners of that asset as specified.\n\nThe bill would create the Digital Asset Reserve Fund into which digital financial assets shall be deposited, as specified. This bill would require the Controller to convert digital financial assets escheated to the state into high-quality digital assets, as specified. The bill would require the notice provided by holders of digital assets to include a notification that, if escheated, the assets will be put into the Digital Asset Reserve Fund and will be converted into high-quality assets after the requisite holding period, as specified. The bill would create a Digital Asset Reserve Board assigned specified tasks relating to administration of the fund. The bill would authorize the Controller to take specified actions related to digital financial assets and would require the Controller to publish a quarterly report, as specified. The bill would require the Controller's conversion of digital financial assets escheated to the state into high-quality digital assets to occur not sooner than 18 months, but not later than 20 months, after the date the escheated property is reported to the Controller by the holder of the property. Under the bill, a person who makes a valid claim before the conversion by the Controller is entitled to receive the digital financial assets in their native form or in fiat currency, as specified. This bill would authorize the Controller to use assets within the Digital Asset Reserve Fund to pay for the administration and management of the fund, thereby making an appropriation.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2335",
+    "legislative_session": "20252026",
+    "subject": [
+      "Unclaimedproperty",
+      "digitalfinancialassets"
+    ],
+    "title": "Unclaimed property: digital financial assets."
+  },
+  "id": "AB2335",
+  "log": {
+    "action": {
+      "classification": [
+        "passage",
+        "reading-1",
+        "reading-3"
+      ],
+      "date": "2026-05-27",
+      "description": "Read third time. Passed. Ordered to the Senate. (Ayes 78. Noes 0.)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB2335"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2335/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2335/logs/20260527T000000Z.classification.passage.lower.json"
+  }
+}

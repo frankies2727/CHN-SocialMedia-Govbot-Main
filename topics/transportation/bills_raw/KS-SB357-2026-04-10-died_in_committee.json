@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB357",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Funds",
+      "Transportation"
+    ],
+    "title": "Establishing the intercity passenger rail service program and making transfers annually to the passenger rail service revolving fund."
+  },
+  "id": "SB357",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died in Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB357"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB357/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB357/logs/20260410T000000Z_died_in_committee.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

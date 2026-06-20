@@ -1,0 +1,24 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2225",
+    "legislative_session": "2025-2026",
+    "title": "Concerning regulation of artificial intelligence companion chatbots."
+  },
+  "id": "HB 2225",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-receipt"
+      ],
+      "date": "2026-03-12",
+      "description": "Delivered to Governor.",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "HB 2225"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2225/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2225/logs/20260312T000000Z.classification.executive-receipt.executive.json"
+  }
+}

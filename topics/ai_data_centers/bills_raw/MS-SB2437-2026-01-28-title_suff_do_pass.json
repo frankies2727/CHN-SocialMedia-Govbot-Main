@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB2437",
+    "legislative_session": "2026",
+    "subject": [
+      "Technology"
+    ],
+    "title": "Artificial intelligence; define."
+  },
+  "id": "SB2437",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-01-28T06:00:00+00:00",
+      "description": "Title Suff Do Pass",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB2437"
+  },
+  "sources": {
+    "bill": "ms-legislation/country:us/state:ms/sessions/2026/bills/SB2437/metadata.json",
+    "log": "ms-legislation/country:us/state:ms/sessions/2026/bills/SB2437/logs/20260128T060000Z_title_suff_do_pass.json"
+  },
+  "timestamp": "20260128T060000Z"
+}

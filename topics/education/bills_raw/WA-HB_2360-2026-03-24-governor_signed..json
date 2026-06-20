@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2360",
+    "legislative_session": "2025-2026",
+    "title": "Expanding access to albuterol in public and private schools."
+  },
+  "id": "HB 2360",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-03-24",
+      "description": "Governor signed.",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "HB 2360"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2360/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/HB2360/logs/20260324T000000Z_governor_signed.json"
+  },
+  "timestamp": "20260324T000000Z"
+}

@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the California Values Act, requires the Attorney General, by October 1, 2018, in consultation with the appropriate stakeholders, to publish model policies limiting assistance with immigration enforcement to the fullest extent possible consistent with federal and state law at public schools, public libraries, health facilities operated by the state or a political subdivision of the state, courthouses, Division of Labor Standards Enforcement facilities, the Agricultural Labor Relations Board, the Division of Workers' Compensation, and shelters and ensure that they remain safe and accessible to all California residents, regardless of immigration status. The act requires all public schools, health facilities operated by the state or a political subdivision of the state, and courthouses to implement the model policy or an equivalent policy.\n\nThis bill would require the Attorney General, on or before October 30, 2027, and annually thereafter, to submit to the Legislature and the Governor, and post on its internet website, a report that includes, among other things, a summary of all immigration enforcement incidents and activities conducted by a person at a designated safe location that have been reported by the designated safe location or a person who witnessed the activity to the Attorney General. The bill would authorize the Attorney General to request representatives of a designated safe location to furnish any reported immigration enforcement incidents and activities as part of compiling its annual report and would authorize the Attorney General to issue civil penalties or conduct other enforcement activity to ensure compliance with these provisions. The bill would prohibit the report from including any personally identifiable information regarding an individual stopped, detained, or arrested by an individual conducting an immigration enforcement activity. The bill would define \"designated safe location\" to mean educational institutions, health care provider entities, shelters, polling places, courthouses, public transportation property, and state and local government property. The bill would define \"immigration enforcement\" for these purposes to mean an effort to investigate, enforce, or assist in the investigation or enforcement of a federal civil or criminal immigration lawsuit. To the extent the bill would impose duties on locals, this bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1257",
+    "legislative_session": "20252026",
+    "subject": [
+      "Federalimmigrationenforcement",
+      "report"
+    ],
+    "title": "Federal immigration enforcement: report."
+  },
+  "id": "SB1257",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2026-05-26",
+      "description": "In Assembly. Read first time. Held at Desk.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB1257"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1257/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1257/logs/20260526T000000Z_in_assembly_read_first_time_held_at_desk.json"
+  },
+  "timestamp": "20260526T000000Z"
+}

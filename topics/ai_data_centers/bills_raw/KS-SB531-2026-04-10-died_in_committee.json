@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB531",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Counties",
+      "Water"
+    ],
+    "title": "Prohibiting the development or operation of any new large load data center in a county that has had a drought emergency declared for such county pursuant to the Kansas emergency management act within the preceding three years."
+  },
+  "id": "SB531",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died in Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB531"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB531/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB531/logs/20260410T000000Z_died_in_committee.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

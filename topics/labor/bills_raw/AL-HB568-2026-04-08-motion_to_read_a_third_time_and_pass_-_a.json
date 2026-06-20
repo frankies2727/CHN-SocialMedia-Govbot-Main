@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "State Government",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB568",
+    "legislative_session": "2026rs",
+    "subject": [
+      "State Government"
+    ],
+    "title": "Department of Workforce; certain child labor law fees, boiler and pressure vessel exceptions and fees,  and elevator safety standards, provided for; license renewal period extended; alterations to conveyances prohibited"
+  },
+  "id": "HB568",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-04-08T04:00:00+00:00",
+      "description": "Motion to Read a Third Time and Pass - Adopted Roll Call 1285",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB568"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB568/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB568/logs/20260408T040000Z.classification.passage.upper.json"
+  }
+}

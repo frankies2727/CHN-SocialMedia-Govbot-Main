@@ -1,0 +1,24 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 6200",
+    "legislative_session": "2025-2026",
+    "title": "Concerning renters' and mobile home occupants' ability to install portable cooling devices."
+  },
+  "id": "SB 6200",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-03-24",
+      "description": "Effective date 6/11/2026.",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "SB 6200"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB6200/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB6200/logs/20260324T000000Z.classification.became-law.executive.json"
+  }
+}

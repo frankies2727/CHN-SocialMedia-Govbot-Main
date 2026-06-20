@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB1694",
+    "legislative_session": "2026",
+    "subject": [
+      "Appropriations A",
+      "Corrections"
+    ],
+    "title": "Inmate Welfare Fund; revise committee for and increase inmate phone call commissions percentage deposited to."
+  },
+  "id": "HB1694",
+  "log": {
+    "action": {
+      "date": "2026-02-03T06:00:00+00:00",
+      "description": "DR - TSDPCS: AP To CN",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB1694"
+  },
+  "sources": {
+    "bill": "ms-legislation/country:us/state:ms/sessions/2026/bills/HB1694/metadata.json",
+    "log": "ms-legislation/country:us/state:ms/sessions/2026/bills/HB1694/logs/20260203T060000Z_dr_tsdpcs_ap_to_cn.json"
+  },
+  "timestamp": "20260203T060000Z"
+}

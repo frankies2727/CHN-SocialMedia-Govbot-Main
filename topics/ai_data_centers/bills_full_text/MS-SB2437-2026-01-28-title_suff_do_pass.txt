@@ -1,0 +1,61 @@
+MISSISSIPPI LEGISLATURE
+
+REGULAR SESSION 2026
+
+By:
+
+To:
+
+Senator(s) Williams, Blackwell
+
+Technology
+
+SENATE BILL NO. 2437
+
+AN ACT TO DEFINE "ARTIFICIAL INTELLIGENCE"; AND FOR RELATED
+PURPOSES.
+
+BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MISSISSIPPI:
+
+SECTION 1.
+
+"Artificial intelligence" means a machine-based
+
+system that can, for a given set of human-defined objectives, make
+
+predictions, recommendations or decisions influencing real or
+
+virtual environments.
+
+machine- and human-based inputs to perceive real and virtual
+
+environments; abstract such perceptions into models through
+
+analysis in an automated manner; and use model inference to
+
+formulate options for information or action.
+
+SECTION 2.
+
+Artificial intelligence systems use
+
+Section 1 of this act shall be codified in
+
+Chapter 3, Title 1, Mississippi Code of 1972.
+SECTION 3.
+
+This act shall take effect and be in force from
+
+and after July 1, 2026.
+
+S. B. No. 2437
+26/SS26/R1112
+PAGE 1 (aa\kr)
+
+~ OFFICIAL ~
+Artificial intelligence; define.
+
+*SS26/R1112*
+ST:
+
+G1/2

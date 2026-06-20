@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Elections;  Revising definitions; revising the information the uniform statewide voter registration application is designed to elicit from an applicant to include a certain acknowledgment; requiring that the online voter registration system transmit specified information to the supervisor of elections under specified circumstances; requiring that the applicant's legal status as a United States citizen be recorded in the statewide voter registration system; requiring that if the records of the Department of Highway Safety and Motor Vehicles indicate that an applicant is not a United States citizen or has not provided acceptable evidence of citizenship, the online voter registration system must notify the supervisor of the applicant's legal status and transmit the application to the supervisor; requiring that the online voter registration system populate an applicant's information and direct the applicant to perform specified actions under specified conditions; requiring supervisors to verify a voter's legal status as a United States citizen using specified sources and initiate a certain notice if applicable; requiring that the voter's legal status as United States citizen and the type of document accepted as evidence of United States citizenship be recorded in the statewide voter registration system, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 991",
+    "legislative_session": "2026",
+    "subject": [
+      "electors and elections",
+      "subject index"
+    ],
+    "title": "Elections"
+  },
+  "id": "HB 991",
+  "log": {
+    "action": {
+      "date": "2026-02-25",
+      "description": "Amendment 810467 Failed",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 991"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB991/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB991/logs/20260225T000000Z_amendment_810467_failed.json"
+  },
+  "timestamp": "20260225T000000Z"
+}

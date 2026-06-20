@@ -1,0 +1,3254 @@
+MISSISSIPPI LEGISLATURE
+
+REGULAR SESSION 2026
+
+By: Senator(s) DuPree, Blount, Butler,
+Simmons (12th), Mumford, Gillespie Isom,
+Frazier, Hickman, Norwood, Turner-Ford, Pope,
+Barnett, Jackson, Thomas, Blackmon,
+Brumfield, Simmons (13th)
+
+To:
+
+Elections
+
+SENATE BILL NO. 2582
+
+AN ACT TO CREATE THE ROBERT G. CLARK, JR., VOTING RIGHTS ACT
+OF MISSISSIPPI; TO DEFINE RELEVANT TERMS; TO PROHIBIT VOTER
+SUPPRESSION AND VOTE DILUTION; TO ESTABLISH THE MISSISSIPPI VOTING
+RIGHTS COMMISSION; TO PROVIDE THE CANDIDATE QUALIFICATIONS FOR
+NOMINATING A PERSON AS A MEMBER OF THE COMMISSION; TO PROVIDE HOW
+MEMBERS OF THE COMMISSION SHALL BE SELECTED; TO PROVIDE HOW THE
+COMMISSION WILL DETERMINE PRECLEARANCE FOR COVERED POLITICAL
+SUBDIVISIONS; TO PROVIDE THE PROCEDURES FOR OBTAINING
+PRECLEARANCE; TO ESTABLISH PROTECTIONS FOR VOTERS WHO ARE
+CLASSIFIED AS LIMITED ENGLISH PROFICIENT AND/OR DISABLED; TO
+PROVIDE WHAT ACCOMMODATIONS SHALL BE MADE AVAILABLE FOR COVERED
+INDIVIDUALS IN A PROTECTED CLASS; TO PROVIDE THE FRAMEWORK TO
+ESTABLISH THE STATE VOTING AND ELECTIONS DATABASE AND INSTITUTE;
+TO PROVIDE THE MISSION AND FUNCTIONS OF THE DATABASE AND
+INSTITUTE; TO PROHIBIT INTIMIDATION, DECEPTION OR OBSTRUCTIONS
+THAT WOULD AFFECT THE RIGHTS OF VOTERS TO PARTICIPATE IN
+ELECTIONS; TO REQUIRE PUBLIC NOTICE OF VOTING-RELATED CHANGES,
+SUCH AS GOVERNMENT BOUNDARIES, METHODS OF ELECTIONS OR DISTRICT
+MAPS; TO PROVIDE GROUNDS FOR ENFORCEMENT, ESTABLISH VENUE AND
+PROVIDE REMEDIES FOR LEGAL ACTIONS FILED UNDER RIGHTS ESTABLISHED
+BY THIS ACT; AND FOR RELATED PURPOSES.
+
+BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MISSISSIPPI:
+
+SECTION 1.
+
+(1)
+
+This act may be known and cited as the
+
+"Robert G. Clark, Jr., Voting Rights Act of Mississippi."
+(2)
+
+In order to advance the protections for the right to
+
+vote under the Mississippi Constitution and the United States
+
+Constitution; the guarantees of equal protection, freedom of
+S. B. No. 2582
+PAGE 1 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+G1/2
+
+expression, and freedom of association under the Mississippi
+
+Constitution and United States Constitution; to protect against
+
+the suppression, dilution and abridgment of voting rights on
+
+account of race, color or membership in a language minority group;
+
+and to honor and advance the legacy of Robert G. Clark, Jr., the
+
+first Black member of the Mississippi Legislature elected after
+
+Reconstruction, it is the public policy of this state to:
+
+(a)
+
+Encourage participation in the elective franchise
+
+by all eligible voters to the maximum extent; and
+(b)
+
+Ensure that eligible voters have an equal
+
+opportunity to participate in the political processes of this
+
+State and to exercise the elective franchise without denying or
+
+abridging that opportunity on account of race, color or membership
+
+in a language minority group.
+
+SECTION 2.
+(a)
+
+For the purpose of this act:
+
+"Election policy or practice" means any
+
+qualification to be a voter, prerequisite to voting, method of
+
+election, or any other law, statute, ordinance, resolution,
+
+charter or code provision, regulation, rule, policy, practice,
+
+procedure, standard, or any other action with respect to voting,
+
+electoral or jurisdictional boundaries, or the administration or
+
+schedule of elections.
+
+(b)
+
+"Governing body" means the entity with official
+
+authority to make and/or enforce decisions, policies, and laws for
+
+a political subdivision.
+S. B. No. 2582
+PAGE 2 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+(c)
+
+"Limited English proficient individuals" or "LEP
+
+individuals" means individuals who self-report speaking, reading,
+
+or understanding the English language less than "very well,"
+
+according to the United States Census Bureau data or data of
+
+comparable quality collected by a governmental entity, including
+
+as self-reported by such persons to a governmental entity.
+
+(d)
+
+"Method of election" means the manner or mechanism
+
+by which candidates are elected to a governmental body of a
+
+political subdivision, and includes any at-large, district-based,
+
+proportional, semi-proportional, or other method of election, as
+
+well as any districting or redistricting plan used to elect
+
+candidates to the governmental body.
+
+(e)
+
+"Polling location" means any location designated by
+
+the county or municipality for the casting of ballots, including,
+
+but not limited to, Election Day voting sites and absentee voting
+
+sites.
+
+(f)
+
+"Political subdivision" means any county,
+
+municipality, jurisdiction, school district, election commission,
+
+circuit clerk, or any other governmental entity in which elections
+
+are conducted or that administers elections, or any staff or
+
+agents of such entity.
+
+(g)
+
+"Protected class" means any group of individuals
+
+who are members of any race, color or language minority,
+
+including, but not limited to, a class of two (2) or more such
+
+groups, and includes individuals who are members of a minimum
+S. B. No. 2582
+PAGE 3 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+reporting category that has been officially recognized by the
+
+United States Census Bureau.
+
+(h)
+
+"Racially polarized voting" means voting in which
+
+there is a divergence in the candidate preferences, political
+
+preferences, or electoral choices of members in a protected class,
+
+including the combined preferences of a class comprised of two (2)
+
+or more groups of voters, from the candidate preferences,
+
+political preferences, or electoral choices of members of another
+
+class or set of classes.
+
+(i)
+
+"Disability" has the meaning as used in the
+
+Americans with Disabilities Act, 42 USC § 12102.
+
+(j)
+
+"Qualifying School" means a public or private
+
+school accredited by the State, in which the predominant classroom
+
+language is other than English.
+
+(k)
+
+"Vote" or "voting" means all action necessary to
+
+make a vote effective in any primary, special or general election,
+
+including, but not limited to, registration or other action
+
+required by law prerequisite to voting, casting a ballot by any
+
+method permitted by law, including any method available as a
+
+remedy under this act, and having such ballots counted properly
+
+and included in the appropriate totals of votes received.
+
+SECTION 3.
+
+(1)
+
+No political subdivision or state agency may
+
+engage in voter suppression as set forth in this section.
+(2)
+
+No political subdivision or state agency may implement,
+
+impose or enforce any election policy or practice that results in,
+S. B. No. 2582
+PAGE 4 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+is likely to result in, or is motivated in whole or in part by the
+
+intent to result in, voter suppression.
+
+(3)
+
+A violation of subsection (2) of this section, is
+
+established if the following is present:
+
+(a)
+
+A material disparity affecting protected class
+
+members in voter participation, access to voting opportunities, or
+
+the opportunity or ability to participate in any stage of the
+
+political process, as a result of the policy or practice; or
+
+(b)
+
+Based on the totality of circumstances, an
+
+impairment of the equal opportunity or ability of protected class
+
+members to participate in any stage of the political process.
+
+(4)
+
+There is no violation under subsection 3(a) of this
+
+section, if the political subdivision or state agency demonstrates
+
+by clear and convincing evidence that:
+
+(a)
+
+The election policy or practice is necessary to
+
+significantly further a compelling and particularized governmental
+
+interest; and
+
+(b)
+
+There is no reasonable alternative election policy
+
+or practice that comparably furthers the compelling and
+
+particularized governmental interest and results in a smaller
+
+disparity between protected class members and other members of the
+
+electorate.
+
+(5)
+
+A violation may also be established through direct or
+
+circumstantial evidence of intentional discrimination; however,
+
+evidence of intentional discrimination, including evidence
+S. B. No. 2582
+PAGE 5 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+concerning the intent of electors, elected officials or public
+
+officials to discriminate against protected class members, is
+
+never required under subsection 3 of this section.
+
+SECTION 4.
+
+(1)
+
+No political subdivision may engage in vote
+
+dilution as set forth in this section.
+
+may employ any method of election that has the effect, will likely
+
+have the effect, or is motivated in part by the intent, of
+
+diluting the vote of protected class members.
+
+(2)
+
+No political subdivision
+
+A violation of subsection 1 of this section is
+
+established if either:
+
+(a)
+
+Elections in the political subdivision exhibit
+
+racially polarized voting resulting in an impairment of the equal
+
+opportunity or ability of protected class members to nominate or
+
+elect candidates of their choice; or
+
+(b)
+
+Based on the totality of circumstances, the equal
+
+opportunity or ability of protected class members to nominate or
+
+elect candidates of their choice is impaired; and
+
+(c)
+
+Another method of election or change to the
+
+existing method of election exists that could be constitutionally
+
+adopted or ordered, and would likely mitigate the impairment.
+
+(3)
+
+A violation may also be established through direct or
+
+circumstantial evidence of intentional discrimination; however,
+
+evidence of intentional discrimination, including evidence
+
+concerning the intent of electors, elected officials, or public
+
+S. B. No. 2582
+PAGE 6 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+officials to discriminate against protected class members, is
+
+never required under Section 3(3) of this act.
+
+(4)
+
+No political subdivision may engage in vote dilution as
+
+set forth in this subsection.
+
+(a)
+
+As required by Section 5 of the Mississippi
+
+Constitution, which declares that "All political power is vested
+
+in, and derived from, the people; all government of right
+
+originates with the people, is founded upon their will only, and
+
+is instituted solely for the good of the whole," and Section 240
+
+of the Mississippi Constitution, which declares that "All
+
+elections by the people shall be by ballot," in any redistricting
+
+plan under Section 254 of the Mississippi Constitution, the
+
+districts shall be configured in such a way as to provide adequate
+
+representation to protected classes protected by federal and State
+
+law.
+
+Districts shall be drawn such that the redistricting plan has the
+
+effect, or is motived in part by the intent, of impairing the
+
+opportunity or ability of members of a protected class to
+
+participate in the political process and elect or nominate
+
+candidates of their choice or otherwise influence the outcome of
+
+elections as a result of diluting the vote of such protected class
+
+members.
+
+addition and subordinate to any requirements or obligations
+
+imposed by the United States Constitution, any federal law
+
+regarding redistricting Senatorial and Representative Districts,
+
+Therefore, no Senatorial Districts and Representative
+
+The requirements imposed by this subsection are in
+
+S. B. No. 2582
+PAGE 7 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+including, but not limited to, the federal Voting Rights Act of
+
+1965, and the Mississippi Constitution.
+
+(b)
+
+A redistricting plan under Section 254 of the
+
+Mississippi Constitution for Senatorial Districts and
+
+Representative Districts violates this subsection if either:
+
+(i)
+
+1.
+
+Elections in one or more Senatorial or
+
+Representative Districts exhibit racially polarized voting
+
+resulting in an impairment of the equal opportunity or ability of
+
+protected class members to nominate or elect candidates of their
+
+choice; or
+
+2.
+
+Based on the totality of the
+
+circumstances, the equal opportunity or ability of protected class
+
+members to nominate or elect candidates of their choice or
+
+otherwise influence the outcome of elections is impaired; and
+
+(ii)
+
+One or more reasonably configured alternative
+
+redistricting plans exist which would cure or mitigate the
+
+impairment described in subparagraph (i) of this paragraph by
+
+providing members of a protected class an equal opportunity or
+
+ability to nominate and elect candidates of their choice.
+
+such reasonably configured alternative redistricting plan, it is
+
+not necessary to show that members of a protected class comprise a
+
+majority in any such districts.
+
+SECTION 5.
+
+(1)
+
+Sections 4 and 5 of this act are evaluated
+
+subject to the guidelines and rules enumerated below.
+
+S. B. No. 2582
+PAGE 8 (ab\kr)
+
+For any
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+(2)
+
+To evaluate the totality of circumstances under Sections
+
+and 5 of this act, the following factors may be relevant:
+
+(a)
+
+The history of discrimination with respect to the
+
+protected class at issue;
+
+(b)
+
+The extent to which members of the relevant
+
+protected class are disadvantaged or otherwise bear the effects of
+
+public or private discrimination in areas such as education,
+
+employment, health, criminal justice, housing, transportation,
+
+land use, or environmental protection;
+
+(c)
+
+The use of any election policy or practice that may
+
+enhance the discriminatory or dilutive effects of the relevant
+
+election policy or practice or method of election in the political
+
+subdivision;
+
+(d)
+
+The extent to which members of the relevant
+
+protected class vote or register to vote at lower rates;
+(e)
+
+The extent to which members of the relevant
+
+protected class have historically made campaign contributions at
+
+lower rates;
+
+(f)
+
+The extent to which candidates who are members of
+
+the relevant protected class have faced hostility or barriers with
+
+respect to campaigning, getting on the ballot, receiving financial
+
+support or receiving any other support for an election;
+
+(g)
+
+The use of overt or subtle racial appeals, whether
+
+in the course of political campaigns or by government officials,
+
+including racial appeals made in public discourse or in connection
+S. B. No. 2582
+PAGE 9 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+with the adoption or maintenance of the election policy or
+
+practice;
+
+(h)
+
+The extent to which the members of the relevant
+
+protected class have been elected to office;
+
+(i)
+
+The lack of responsiveness by elected officials to
+
+the particular needs of members of the relevant protected class or
+
+a community of members of the relevant protected class;
+
+(j)
+
+Whether the election policy or practice is
+
+necessary to significantly further a compelling and particularized
+
+governmental interest;
+
+(k)
+
+election policy or practice; and
+
+The process that led to the adoption of the
+
+(l)
+(3)
+
+Other factors deemed relevant.
+
+No set number or combination of these factors must be
+
+met to determine that a violation occurred.
+
+requirement that evidence must affect all individuals or groups
+
+within a protected class to be relevant.
+
+(4)
+
+There is no
+
+For alleged violations pertaining to a particular
+
+political subdivision or Senatorial or Representative District,
+
+evidence of these factors may be deemed more probative if it
+
+relates to the political subdivision or Senatorial or
+
+Representative District in which the alleged violation occurred,
+
+but evidence related to the state or the geographic region in
+
+which that political subdivision or Senatorial or Representative
+
+District is located may also be probative.
+S. B. No. 2582
+PAGE 10 (ab\kr)
+
+*SS26/R1032.1*
+
+The fact that similar
+
+~ OFFICIAL ~
+
+or worse circumstances may exist in other political subdivisions
+
+or districts does not reduce the probative value of the evidence
+
+relevant to the particular political subdivision or district.
+
+(5)
+
+To determine whether elections in the political
+
+subdivision exhibit racially polarized voting under Section
+
+4(2)(a)(i) of this act:
+
+(a)
+
+Racially polarized voting is assessed based on the
+
+relevant election results, which may include, but are not limited
+
+to:
+
+(i)
+
+subdivision or Senatorial or Representative District;
+
+(ii)
+
+Elections held in the political subdivision
+
+for other offices, such as state or federal offices; and
+
+Elections for offices of the political
+
+(iii)
+
+Other electoral choices that bear on the
+
+rights and privileges of the protected class; and
+(b)
+
+No set number or combination of elections is
+
+required to establish the existence of racially polarized voting.
+
+(i)
+
+Evidence of nonpolarized voting in elections
+
+for offices outside the political subdivision or Senatorial or
+
+Representative District does not preclude a finding of racially
+
+polarized voting based on elections for offices of the political
+
+subdivision or Senatorial or Representative District.
+
+(ii)
+
+Non-statistical or nonquantitative evidence
+
+does not preclude a finding of racially polarized voting based on
+
+statistical or quantitative evidence.
+S. B. No. 2582
+PAGE 11 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+(iii)
+
+Low or high turnout or registration rates
+
+among protected class members does not preclude a finding of
+
+racially polarized voting.
+
+(6)
+
+When assessing the combined candidate preferences,
+
+political preferences or electoral choices of a protected class
+
+comprised of two (2) or more groups of voters, there is no
+
+requirement that it be statistically shown that each group or
+
+subgroup be separately polarized from those of other voters.
+
+The causes of racially polarized voting are not relevant, and the
+
+existence of alternative explanations, including partisan
+
+explanations, does not preclude a finding of racially polarized
+
+voting.
+
+(7)
+
+present:
+
+When evaluating whether a violation of this act is
+
+The following circumstances are never relevant:
+(a)
+
+The absolute number or share of protected class
+
+members on whom the election policy or practice imposes a material
+
+burden is small;
+
+(b)
+
+The degree to which the election policy or practice
+
+has a long pedigree or was in widespread use at some earlier date;
+(c)
+
+The use of an identical or similar election policy
+
+or practice in other states or political subdivisions; or
+(d)
+
+The availability of forms of voting unimpacted by
+
+the election policy or practice.
+
+S. B. No. 2582
+PAGE 12 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+(8)
+
+A governmental interest in preventing voter fraud or
+
+bolstering voter confidence in the integrity of elections is
+
+irrelevant unless there is substantial evidence that criminal
+
+activity by individual electors has occurred in the political
+
+subdivision in substantial numbers and the connection between the
+
+election policy or practice and a state interest in preventing
+
+that type of criminal activity or bolstering voter confidence in
+
+the integrity of elections is supported by substantial evidence.
+
+Whether protected class members typically elect candidates of
+
+their choice to the governing body in approximate proportion to
+
+their total number or share of the population may be relevant
+
+under Section 3(2) of this act.
+
+For the purpose of satisfying Section 3(2) of this act,
+
+including, it is not necessary for the total number or share of
+
+protected class members to exceed any numerical threshold in any
+
+district or in the political subdivision as a whole.
+
+(9)
+
+Upon finding a violation of this act, notwithstanding
+
+any other law, a court must exercise its equitable powers to
+
+fashion relief so it completely remedies the dilution or
+
+suppression, which may include, but is not limited to, altering
+
+the method of election used by the political subdivision.
+
+SECTION 6.
+
+Rights Commission.
+
+the authority to promulgate rules under the Mississippi
+
+Administrative Procedures Law.
+S. B. No. 2582
+PAGE 13 (ab\kr)
+
+(1)
+
+There is established the Mississippi Voting
+
+The Mississippi Voting Rights Commission has
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+(2)
+
+The commission shall consist of five (5) commissioners,
+
+each of whom shall serve staggered five-year terms.
+
+shall be compensated for their time spent on commission business
+
+at an hourly rate based on the rate equivalent to an Assistant
+
+Attorney General.
+
+(3)
+
+Commissioners
+
+A nominating committee shall be formed to identify
+
+qualified candidates to serve as members of the commission.
+
+nominating committee shall be comprised of nominating
+
+organizations.
+
+State to be certified as a nominating organization for five-year
+
+terms, at which point organizations may be recertified.
+
+Secretary of State must certify any organization that applies to
+
+be a nominating organization, if the organization:
+
+(a)
+
+The
+
+Organizations may apply with the Secretary of
+
+The
+
+Demonstrates commitment to the purpose of the
+
+commission by securing the voting rights of members of a protected
+
+class as defined by the commission, including, but not limited to,
+
+reference to members of a protected class in its mission
+
+statement, involvement in numerous voting rights cases brought
+
+within the state on behalf of members of protected classes, or
+
+involvement in advocacy in support of members of protected classes
+
+or the commission;
+
+(b)
+
+Secretary of State; and
+
+(c)
+
+Has registered as a nonprofit corporation with the
+
+Demonstrates continuous operation as a nonprofit
+
+organization under 26 USC § 501(c)(3) or as a nonprofit
+S. B. No. 2582
+PAGE 14 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+corporation registered with the Secretary of State for at least
+
+five (5) years.
+
+(4)
+
+If the Secretary of State fails to timely certify an
+
+organization that satisfies these qualifications following the
+
+organization's application to be certified as a nominating
+
+organization, the organization may file an action against the
+
+Secretary of State for a declaratory judgment certifying the
+
+organization as a nominating organization.
+
+(5)
+
+A nominating organization may be removed for cause by a
+
+majority vote of all of the nominating organizations.
+
+are fewer than sixteen (16) nominating organizations certified by
+
+the Secretary of State, the nominating committee shall consist of
+
+all of the nominating organizations.
+
+more nominating organizations certified by the Secretary of State,
+
+the nominating committee shall consist of sixteen (16) nominating
+
+organizations to be randomly selected from all nominating
+
+organizations on an annual basis.
+
+(6)
+
+If there
+
+If there are sixteen (16) or
+
+The nominating committee shall select its own chair to
+
+preside over meetings and voting.
+(7)
+
+Commissioners shall be selected as follows:
+(a)
+
+The nominating committee shall solicit applications
+
+to serve as a commissioner from across the state.
+
+must meet all of the following criteria:
+
+(i)
+
+S. B. No. 2582
+PAGE 15 (ab\kr)
+
+A commissioner
+
+Be a Mississippi resident;
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+(ii)
+
+at least five (5) years of legal experience;
+
+(iii)
+
+(iv)
+
+Has not served in elected office within the
+
+previous five (5) years; and
+
+Has demonstrated experience representing or
+
+advocating on behalf of members of protected classes;
+
+Be a member of the Mississippi State Bar with
+
+(v)
+
+Is not currently serving in any government
+
+office or holding any political party office.
+(b)
+
+The nominating committee shall maintain a qualified
+
+candidate pool consisting of thirty (30) qualified candidates to
+
+serve on the commission.
+
+qualified candidate pool upon a three-fifths (3/5) vote of the
+
+nominating committee.
+
+may be increased or decreased from thirty (30) qualified
+
+individuals by a three-fifths (3/5) vote of the nominating
+
+committee.
+
+Individuals shall only be added to the
+
+The size of the qualified candidate pool
+
+All commissioners shall be randomly selected from the
+
+qualified candidate pool.
+
+commission, five (5) commissioners shall be randomly selected from
+
+the qualified candidate pool and randomly assigned to term lengths
+
+of five (5) years, four (4) years, three (3) years, two (2) years,
+
+or one (1) year.
+
+(c)
+
+Upon the initial formation of the
+
+At least sixty (60) days before the conclusion of
+
+each commissioner's term, a new commissioner shall be randomly
+
+S. B. No. 2582
+PAGE 16 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+selected from the qualified candidate pool to serve a five-year
+
+term upon the conclusion of the current commissioner's term.
+
+(d)
+
+Within thirty (30) days after a vacancy occurs on
+
+the commission, a new commissioner shall be randomly selected from
+
+the qualified candidate pool to complete the vacant term.
+
+(8)
+
+The commission may hire staff and make expenditures as
+
+necessary to carry out its responsibilities.
+SECTION 7.
+
+(1)
+
+The implementation of a covered policy, as
+
+defined in subsection (6) of this section, by a covered political
+
+subdivision, as defined in subsection (7) of this section, must be
+
+subject to preclearance by the Mississippi Voting Rights
+
+Commission pursuant to this act.
+
+Commission is responsible for administering this section.
+
+(2)
+
+The Mississippi Voting Rights
+
+The Mississippi Voting Rights Commission must determine
+
+on a fixed date on an annual basis which political subdivisions
+
+are covered and publish a list of covered political subdivisions
+
+on its website no later than thirty (30) days after making such
+
+determinations.
+
+(3)
+
+All coverage determinations must be made by the
+
+Mississippi Voting Rights Commission based on data provided by the
+
+database and institute, or if no such data is available, from
+
+other reputable sources, including, but not limited to, the U.S.
+
+Census Bureau data from the American Community Survey and other
+
+federal or state offices.
+
+not available, the Mississippi Voting Rights Commission must base
+S. B. No. 2582
+PAGE 17 (ab\kr)
+
+To the extent that necessary data is
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+coverage determinations on estimates derived from available data
+
+using validated methodologies.
+
+(4)
+
+The Mississippi Voting Rights Commission must give
+
+notice directly to each covered political subdivision and the
+
+corresponding requirements accompanying such coverage.
+
+(5)
+
+The Mississippi Voting Rights Commission must promulgate
+
+rules to implement this section.
+(6)
+
+A covered policy includes the following:
+
+(a)
+
+Any new or modified election policy or practice;
+
+(b)
+
+Any change in the powers, duties, responsibilities,
+
+jurisdiction, or authority of an elected official, or any action
+
+or policy that has the purpose or effect of diminishing,
+
+reassigning, or altering the functional role or influence of an
+
+elected official; and
+
+(c)
+
+Any new or modified method of election or
+
+maintenance of a method of election following a decennial census.
+(7)
+
+(a)
+
+Covered political subdivisions include any
+
+political subdivision that, at any point in the previous
+
+twenty-five (25) years, has been subject to a court order based
+
+upon a judicial finding of a qualifying violation or its factual
+
+predicate, or subject to a consent decree or court-approved
+
+settlement agreement in which a qualifying violation was conceded
+
+or stipulated by the political subdivision.
+
+(b)
+
+A qualifying violation includes:
+(i)
+
+S. B. No. 2582
+PAGE 18 (ab\kr)
+
+A violation of this act;
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+(ii)
+
+The federal Voting Rights Act;
+
+(iii)
+
+The 15th or 24th Amendment to the United
+
+States Constitution;
+
+(iv)
+
+A voting-related violation of the 14th
+
+Amendment to the United States Constitution;
+
+(v)
+
+Any violation of any other state or federal
+
+election law, concerning discrimination against protected class
+
+members; or
+
+(vi)
+
+A violation of any state or federal civil
+
+rights law or the 14th Amendment to the United States Constitution
+
+concerning a pattern, policy or practice of discrimination against
+
+protected class members.
+
+(c)
+
+Any political subdivision that, at any point in the
+
+last twenty-five (25) years, enacted or implemented a covered
+
+policy without obtaining preclearance for that policy pursuant to
+
+this section.
+
+(d)
+
+Any political subdivision that contains at least
+
+one thousand (1,000) eligible voters of any protected class, or in
+
+which members of any protected class constitute at least ten
+
+percent (10%) of the eligible voter population of such political
+
+subdivision, and in which, at any point in the last ten (10)
+
+years, the percentage of voters of any protected class in a
+
+political subdivision which participated in any general election
+
+for any political subdivision office was at least ten (10)
+
+S. B. No. 2582
+PAGE 19 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+percentage points lower than the percentage of all voters in the
+
+political subdivision that participated in such election.
+
+(e)
+
+Any political subdivision that contains at least
+
+one thousand (1,000) eligible voters of any protected class, or in
+
+which members of any protected class constitute at least ten
+
+percent (10%) of the eligible voter population of the political
+
+subdivision, and in which, at any point in the last ten (10)
+
+years, the percentage of eligible voters of that protected class
+
+who were registered to vote was at least ten (10) percentage
+
+points lower than the percentage of all eligible voters in the
+
+political subdivision who were registered to vote.
+
+(f)
+
+Any political subdivision that contains at least
+
+one thousand (1,000) eligible voters of any protected class, or in
+
+which members of any protected class constitute at least ten
+
+percent (10%) of the eligible voter population of the political
+
+subdivision, and in which, at any point in the last ten (10)
+
+years, the poverty rate among the population of a protected class
+
+exceeded the poverty rate among the population of the political
+
+subdivision as a whole by at least ten (10) percentage points.
+
+(g)
+
+Any political subdivision that contains at least
+
+one thousand (1,000) eligible voters of any protected class, or in
+
+which members of any protected class constitute at least ten
+
+percent (10%) of the eligible voter population of the political
+
+subdivision, and in which, at any point in the last ten (10)
+
+years, the arrest rate among members of such protected class
+S. B. No. 2582
+PAGE 20 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+exceeded the arrest rate among the population of the political
+
+subdivision as a whole by at least 10 percentage points.
+
+(h)
+
+Any political subdivision that contains at least
+
+one thousand (1,000) eligible voters of any protected class, or in
+
+which members of any protected class constitute at least ten
+
+percent (10%) of the eligible voter population of the school
+
+district, and in which, at any point in the last ten (10) years,
+
+the percentage of eligible voters of that protected class who have
+
+a High School diploma was at least ten (10) percentage points
+
+lower than the percentage of all eligible voters in the political
+
+subdivision who have a high school diploma.
+
+(8)
+
+Any political subdivision that, at any point in the last
+
+three (3) years, has failed to comply with obligations to provide
+
+data or information to the statewide database.
+
+(9)
+
+Preclearance submissions must be evaluated in accordance
+
+with the standard set forth in this section.
+
+Preclearance must be
+
+denied if the covered policy is more likely than not to diminish
+
+the opportunity or ability of members of the protected class that
+
+provided a basis for preclearance to participate in the political
+
+process and, in order of priority:
+
+(a)
+
+Elect candidates of their choice;
+
+(b)
+
+Otherwise influence the outcome of elections; or
+
+(c)
+
+The covered policy is more likely than not to
+
+violate this act with respect to claims that could be brought by
+
+S. B. No. 2582
+PAGE 21 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+members of the protected class that provided a basis for
+
+preclearance.
+
+If denial is not required under subsection (9) of this
+
+section, preclearance must be granted.
+
+subdivisions bear the burden of demonstrating that preclearance
+
+must be granted under this standard.
+
+Covered political
+
+Covered political subdivisions must obtain preclearance
+
+for covered policies in accordance with this section.
+
+Covered
+
+political subdivisions must submit covered policies to the
+
+Mississippi Voting Rights Commission in writing pursuant to
+
+procedures determined by the Mississippi Voting Rights Commission.
+
+The Mississippi Voting Rights Commission must ensure that
+
+preclearance submissions and any related materials that are
+
+submitted to the Mississippi Voting Rights Commission by covered
+
+political subdivisions or other interested parties are posted in a
+
+central location on its website in a timely fashion.
+
+Mississippi Voting Rights Commission must ensure that members of
+
+the public have reasonable opportunity to review and submit
+
+comments for consideration by the Mississippi Voting Rights
+
+Commission before preclearance determinations are made.
+
+The
+
+If the Mississippi Voting Rights Commission denies
+
+preclearance to a covered policy, the covered political
+
+subdivisions may not implement the covered policy.
+
+Mississippi Voting Rights Commission must provide a written
+
+explanation for any denial.
+S. B. No. 2582
+PAGE 22 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+The
+
+If the Mississippi Voting Rights Commission grants
+
+preclearance to a covered policy, the covered political
+
+subdivision may immediately implement the covered policy.
+
+A determination by the Mississippi Voting Rights
+
+Commission to grant preclearance is not admissible in, and may not
+
+be considered by, a court in any subsequent action challenging the
+
+covered policy.
+
+any other claims that may be brought regarding the covered policy,
+
+including claims brought under other sections of this act.
+
+SECTION 8.
+
+It does not preclude, bar, or limit in any way
+
+(1)
+
+(a)
+
+The Mississippi Voting Rights
+
+Commission is responsible for administering this subsection.
+(b)
+
+The Mississippi Voting Rights Commission must
+
+determine every two (2) years which political subdivisions meet
+
+the demographic threshold for language access coverage per the
+
+parameters of Section 8(2) of this act, and publish a list of
+
+covered political subdivisions and the languages for which they
+
+are required to provide language access on its website, no later
+
+than thirty (30) days after making such determinations.
+
+(c)
+
+All coverage determinations must be made by the
+
+Mississippi Voting Rights Commission based on data produced and
+
+maintained by the database and institute, or if no such data is
+
+available, from the U.S. Census Bureau data from the American
+
+Community Survey or other data of comparable quality collected by
+
+a public office.
+
+available, the Mississippi Voting Rights Commission must base
+S. B. No. 2582
+PAGE 23 (ab\kr)
+
+To the extent that necessary data is not
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+coverage determinations on estimates derived from available data
+
+using validated methodologies.
+
+(d)
+
+The Mississippi Voting Rights Commission must give
+
+notice directly to each covered political subdivision specifying
+
+the language or languages for which the subdivision is covered,
+
+and the corresponding requirements accompanying such coverage.
+
+(e)
+
+The Mississippi Voting Rights Commission must
+
+promulgate rules to implement this subsection.
+(2)
+
+(a)
+
+Political subdivisions will be required to
+
+implement language assistance programs when found to meet certain
+
+demographic thresholds for voting-eligible LEP individuals in
+
+accordance with this subsection.
+
+The Mississippi Voting Rights Commission must designate one
+
+or more languages, other than English, for which language
+
+assistance in voting and elections must be provided Tier 1
+
+assistance as required in this section, by a state agency or a
+
+political subdivision responsible for election administration if:
+
+(i)
+
+More than two percent (2%), but in no instance
+
+fewer than two hundred (200) individuals, of the voting-eligible
+
+population of a political subdivision are members of a single
+
+language minority and are LEP individuals; or
+
+(ii)
+
+More than five percent (5%)of the
+
+voting-eligible population of such political subdivision are
+
+members of a single language minority and are LEP individuals; or
+
+S. B. No. 2582
+PAGE 24 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+(iii)
+
+In the case of a political subdivision that
+
+contains in whole or in part a Native American reservation or
+
+other Tribal land, more than two percent (2%) of the Native
+
+American voting-eligible population within the relevant Native
+
+American reservation or other Tribal land are members of a single
+
+language minority and are LEP individuals.
+
+(b)
+
+If the voting-eligible population does not meet the
+
+criteria necessary for Tier 1 assistance, the Mississippi Voting
+
+Rights Commission must designate one or more languages, other than
+
+English, for which Tier 2 language assistance in voting and
+
+elections must be provided as required in this section, by a state
+
+agency or a political subdivision responsible for election
+
+administration if it is determined that:
+
+(i)
+
+More than one percent (1%), but in no instance
+
+fewer than one hundred (100) individuals, of the voting-eligible
+
+population of a political subdivision speak a particular shared
+
+language other than English and are LEP individuals; or
+
+(ii)
+
+More than three percent (3%) of the
+
+voting-eligible population of such political subdivision speak a
+
+particular shared language other than English and are LEP
+
+individuals; or
+
+(iii)
+
+In the case of a political subdivision that
+
+contains in whole or in part a Native American reservation or
+
+other Tribal land, more than two percent (2%) of the Native
+
+American voting-eligible population within the relevant Native
+S. B. No. 2582
+PAGE 25 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+American reservation or other Tribal land speak a particular
+
+shared language other than English and are LEP individuals.
+
+(3)
+
+Political subdivisions covered under this section must
+
+provide language assistance in accordance with the relevant
+
+paragraph below.
+
+and assistance to be provided in a way designed to allow voters
+
+who speak a particular shared language other than English to be
+
+effectively informed of and participate effectively in
+
+voting-connected activities.
+
+provide Tier 1 language assistance, must ensure that each of the
+
+following forms of voting assistance is effectively translated and
+
+provided to LEP voters:
+
+(a)
+
+Compliance with this section requires materials
+
+A political subdivision required to
+
+Multilingual ballots - All official and sample
+
+ballots used on election day and for absentee or mail voting must
+
+be fully translated into the covered language and made available
+
+to voters in all voting locations and online.
+
+(b)
+
+Voter registration forms and instructions – All
+
+forms used for voter registration, including online, mail and
+
+in-person registration, along with any explanatory materials, must
+
+be provided in the covered language.
+
+(c)
+
+Voting-related notices – All public notices
+
+relating to the electoral process, including notices about
+
+registration deadlines, polling location changes, voter education
+
+materials and voting instructions that provide direction during
+
+the voting process must be fully translated and disseminated in
+S. B. No. 2582
+PAGE 26 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+the covered language to the same extent that English-language
+
+notices are made available.
+
+(d)
+
+Notice of in-language assistance availability –
+
+Signage identifying the availability of translated ballots,
+
+bilingual poll workers, and live over-the-phone interpretation
+
+services must be made available in the covered language on the
+
+political subdivision's website, at local elections offices and at
+
+polling locations.
+
+(e)
+
+In-person bilingual poll workers and interpreters –
+
+Covered political subdivisions must have sufficiently trained
+
+bilingual poll workers or interpreters available at each in-person
+
+voting site to provide effective language assistance in the
+
+covered language to any voters who need it.
+
+be easily identifiable by LEP voters through prominently displayed
+
+badges or other identifying materials indicating their bilingual
+
+capabilities.
+
+(f)
+
+Bilingual staff must
+
+Bilingual staff – Each political subdivision must
+
+have a year-round bilingual staff member who is trained in its
+
+election and voting procedures and able to respond to questions,
+
+issues and the needs of covered language speakers within the
+
+political subdivision.
+
+(g)
+
+Live interpretation services via telephone – Live
+
+language interpretation services by telephone, allowing voters to
+
+request and receive real-time assistance in the covered language
+
+S. B. No. 2582
+PAGE 27 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+during early voting, on election day and for any voter-related
+
+inquiries year-round, must be provided.
+
+(h)
+
+Website – Any information relating to voter
+
+registration, polling locations, official ballots or other
+
+voting-related materials and notifications provided on the website
+
+used by a political subdivision to share information related to
+
+elections and voting must be made available in the covered
+
+language.
+
+(4)
+
+A political subdivision required to provide Tier 2
+
+language assistance in a particular, language other than English,
+
+must provide the following physical and online voting materials in
+
+the covered language:
+
+(a)
+
+Sample ballots – Sample ballots must be translated
+
+into the covered language and made available at polling locations
+
+and online, if English-language sample ballots are provided
+
+online.
+
+(b)
+
+Voter registration forms and instructions – Voter
+
+registration forms and instructions must be provided in the
+
+covered language to the same extent and manner as made available
+
+in English, including direct mailings requested by a voter.
+
+(c)
+
+Polling location changes and relocation notices –
+
+Any notifications about polling location changes or relocations
+
+must be provided in the covered language and disseminated in the
+
+covered language to the same extent that English-language notices
+
+are made available.
+S. B. No. 2582
+PAGE 28 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+(d)
+
+Notice of in-language assistance availability –
+
+In-language signage identifying the availability of covered
+
+language sample ballots and live over-the-phone interpretation
+
+services must be made available on the political subdivision's
+
+website, a local elections office and at polling locations during
+
+voting periods.
+
+(e)
+
+Live interpretation services via telephone – The
+
+board of elections or political subdivision must provide live
+
+language interpretation services by telephone, allowing voters to
+
+request and receive real-time assistance in the covered language
+
+during early voting, on election day and for any voter-related
+
+inquiries year-round.
+
+(5)
+
+Where a state agency creates, produces or disseminates
+
+relevant physical or online electoral and voting materials for or
+
+to political subdivisions subject to the requirements of this
+
+section, the state must also comply with the requirements of this
+
+section.
+
+(6)
+
+For covered languages that do not have a written form or
+
+for which use of the written form is limited, the subdivision
+
+shall provide recordings of oral translations or provide taglines
+
+or signage indicating how to access oral translations of required
+
+written assistance.
+
+(7)
+
+No voter who has attended a qualifying School may be
+
+denied the right to vote in any state or local election because of
+
+S. B. No. 2582
+PAGE 29 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+their inability to read, write, understand or interpret any matter
+
+in the English language.
+
+(8)
+
+The Mississippi Voting Rights Commission must establish
+
+a review process under which the Mississippi Voting Rights
+
+Commission must determine, upon receipt of a request submitted
+
+under this section, whether a significant and substantial need
+
+exists in a political subdivision for a language to be designated
+
+for additional language access and assistance in voting and
+
+elections whenever such a need has not been found.
+
+(9)
+
+Such process as required in subsection (8) of this
+
+section, must include, at a minimum:
+(a)
+
+An opportunity for any individual or entity
+
+aggrieved by a failure to provide such assistance to submit a
+
+request for the Mississippi Voting Rights Commission to consider
+
+designating a new language for coverage or providing additional
+
+in-language services.
+
+failure are those who have standing as defined in this act.
+
+(b)
+
+Individuals or entities aggrieved by such
+
+A timeline specifying when requests for additional
+
+in-language services may be submitted to be considered timely for
+
+the next election; and
+
+(c)
+
+Consideration of the following:
+(i)
+
+Community-based evidence indicating the need
+
+for in-language services including, but not limited to, school
+
+enrollment data, public health or social service records,
+
+S. B. No. 2582
+PAGE 30 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+language-specific outreach from community-based organizations, and
+
+other reliable evidence;
+
+(ii)
+
+Testimony or affidavits from individuals or
+
+entities representing or serving the language minority community,
+
+including impacted voters;
+
+(iii)
+
+Evidence of structural, procedural or
+
+informational barriers that disproportionately impact LEP voters
+
+in the language group, including low turnout rates, high
+
+provisional ballot use or lack of access to translated materials.
+
+Voting Rights Commission must:
+
+(a)
+
+Respond in writing within fourteen (14) days of
+
+receipt of any such request;
+
+Upon receipt of any such request, the Mississippi
+
+(b)
+
+Provide an opportunity for public comment following
+
+the publication of a proposed determination; and
+
+(c)
+
+Issue a written decision that includes all factors
+
+considered.
+
+designated authorities website.
+
+All final decisions shall be published on the
+
+Implementation of newly granted language services must
+
+correspond to the next scheduled election in the relevant covered
+
+political subdivision.
+
+election to allow for meaningful implementation, the designation
+
+shall take effect for the following election.
+
+If a request is granted too close to an
+
+All materials and notices provided by a political
+
+subdivision as required by this section in a particular language
+S. B. No. 2582
+PAGE 31 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+other than English must be of an equal quality to the
+
+corresponding English-language materials and produced at the same
+
+time as the corresponding English-language materials.
+
+provided translated materials must convey the intent and essential
+
+meaning of the original English-language text or communication.
+
+Translated materials produced solely by automated translation
+
+services are presumed to be insufficient to completely convey
+
+intent and essential meaning.
+
+All
+
+Political subdivisions providing language services in
+
+accordance with this section must hold public meetings to solicit
+
+feedback about the quality of all materials and services provided
+
+in a particular language other than English, and barriers to
+
+voting and registration for LEP voters and communities.
+
+meetings must be advertised at least two (2) months in advance,
+
+held at a time and location generally convenient for the majority
+
+of the electorate, and include live translation services in any
+
+covered language.
+
+recruitment practices for bilingual staff and poll workers based
+
+on community feedback from such meetings.
+
+covered under this act must hold such a meeting at least twice per
+
+year.
+
+These
+
+Election administrators must develop effective
+
+Political subdivisions
+
+Any voter who requires assistance at any stage of the
+
+voting process, by reason of blindness, disability or inability to
+
+read, write or understand any aspect of the voting process, has
+
+the right to receive assistance from any person of the voter's
+S. B. No. 2582
+PAGE 32 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+choice, other than the voter's employer or agent of that employer
+
+or officer or agent of the voter's union.
+
+SECTION 9.
+
+(1)
+
+Within one (1) year of passage of this act,
+
+the Mississippi Voting Rights Commission must select and enter
+
+into an agreement with one or more universities in this state to
+
+create and administer the Mississippi Voting and Elections
+
+Database and Institute (henceforth referred to as the "database
+
+and institute").
+
+memorandum of understanding that sets forth the governance
+
+structure for the database and institute within the university or
+
+universities.
+
+(2)
+
+The parties to such agreement must enter into a
+
+The mission of the database and institute is to collect,
+
+archive, and make publicly available at no cost an accessible
+
+database pertaining to elections, voter registration and ballot
+
+access in this state; to foster, pursue, and sponsor research on
+
+existing laws and regulations; and to support and enable the
+
+development of best practices in voting and elections by
+
+leveraging data.
+
+(3)
+
+The database and institute must maintain and make
+
+publicly available in an electronic machine-readable format all
+
+relevant election and voting data and records from at least the
+
+previous twelve-year period, including, but not limited to, the
+
+following:
+
+(a)
+
+Precinct-level election results, including absentee
+
+ballots, by voters registered broken out by precinct, registration
+S. B. No. 2582
+PAGE 33 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+data and turnout data for all elections, including elections at
+
+the federal level, state level and for every political
+
+subdivision, and, where available, any such data at the
+
+sub-precinct level;
+
+(b)
+
+District, precinct and, where available,
+
+sub-precinct division maps in an electronic geospatial format
+
+designated by the database and institute for all elections
+
+conducted in the state, including federal or state elections, and
+
+for every political subdivision;
+
+(c)
+
+Current and historical data on the location, dates
+
+of availability and hours of availability of polling locations and
+
+other election offices that provide services to voters for every
+
+election in every political subdivision in this state;
+
+(d)
+
+Information concerning the elected offices and
+
+electoral structure of each political subdivision, including, but
+
+not limited to, the method of election or selection for each
+
+elected office, the name, title and contact information for each
+
+current elected official, the commencement and expiration dates of
+
+each term of office and the date on which each office is next
+
+scheduled for election, and any additional information the
+
+database and institute deems necessary to accurately describe the
+
+governing and electoral structure for each political subdivision;
+
+(e)
+
+Any notice letter received by a political
+
+subdivision pursuant to this act and any public filings, including
+
+S. B. No. 2582
+PAGE 34 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+in litigation, made by a political subdivision in connection with
+
+this act; and
+
+(f)
+
+Any other data that is maintained by the state or
+
+political subdivisions that the database and institute considers
+
+necessary to maintain in furtherance of its mission.
+
+(4)
+
+The database and institute must produce, maintain and
+
+make publicly available in an electronic machine-readable format
+
+any other data or data products in furtherance of its mission,
+
+including, but not limited to, the following:
+
+(a)
+
+Estimates of the total population, voting age
+
+population and citizen voting age population by racial, color or
+
+language-minority group, broken down to the precinct level, on a
+
+year-by-year basis, for every political subdivision in this state,
+
+based on existing sources of data from the United States Census
+
+Bureau, American Community Survey, or existing sources of data of
+
+comparable quality collected by a public office;
+
+(b)
+
+Estimates of limited English proficient
+
+populations, broken down by language spoken and by political
+
+subdivision level, on a year-by-year basis, for every political
+
+subdivision in this state, based on data from the United States
+
+Census Bureau, American Community Survey, or data of comparable
+
+quality collected by a public office;
+
+(c)
+
+Relationship files following any changes to
+
+precinct boundaries or numbers, to enable apportioning election
+
+results under past precinct boundaries to current precinct
+S. B. No. 2582
+PAGE 35 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+boundaries, analogous to relationship files provided by the U.S.
+
+Census Bureau;
+
+(d)
+
+List maintenance records, including records of
+
+voters purged or placed on the inactive list, as well as records
+
+of voter and/or state-initiated challenges to voter eligibility;
+
+(e)
+
+Post-election challenges, including, but not
+
+limited to, challenges to voter eligibility at ballot counting,
+
+challenges to ballots being counted, challenges to the
+
+certification of the election results, post-election audit reports
+
+and/or any recounts; and
+
+(f)
+
+Any data or estimates identified by the Mississippi
+
+Voting Rights Commission as necessary to make coverage
+
+determinations as required by this act.
+
+(5)
+
+In addition to maintaining the public database, the
+
+database and institute may do any of the following:
+
+(a)
+
+Conduct classes both for credit and noncredit;
+
+(b)
+
+Organize interdisciplinary groups of scholars to
+
+research voting and elections in this state;
+
+(c)
+
+Conduct seminars regarding voting and elections;
+
+(d)
+
+Assist in the dissemination of election data to the
+
+public; or
+(e)
+
+Publish reports, books and periodicals as the
+
+database and institute considers appropriate on voting and
+
+elections in this state.
+
+S. B. No. 2582
+PAGE 36 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+(6)
+
+The database and institute must prepare any estimates
+
+made under this section by applying the most advanced,
+
+peer-reviewed and validated methodologies available.
+
+any estimates under this section, the database and institute must
+
+apply validated methodologies and engage with impacted communities
+
+to adjust estimates for documented inaccuracies, errors or biases,
+
+including, but not limited to, population miscounts or exclusions,
+
+in data from the United States Census Bureau or American Community
+
+Survey.
+
+(7)
+
+In preparing
+
+The data, information and estimates maintained by the
+
+database and institute are entitled to a presumption of
+
+authenticity and constitute judicially noticeable facts.
+
+(8)
+
+All state agencies and political subdivisions must
+
+provide the database and institute with any information requested
+
+by the database and institute in the format requested by the
+
+database and institute and consistent with any deadlines imposed
+
+by the database and institute.
+
+(9)
+
+The database and institute will provide nonpartisan
+
+technical assistance to political subdivisions, scholars and the
+
+public seeking to use its resources.
+
+If any political subdivision receives a request for
+
+documents under state open records laws, the political subdivision
+
+is not required to fulfill such request if:
+
+(a)
+
+The political subdivision has provided the
+
+requested documents to the database and institute;
+S. B. No. 2582
+PAGE 37 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+(b)
+
+The requested documents have been made publicly
+
+available by the database and institute; and
+
+(c)
+
+The political subdivision informs the requestor in
+
+writing that the requested documents are available from the
+
+database and institute and provides in their written answer
+
+directions for accessing the specifically requested materials
+
+through the database and institute.
+
+No later than ninety (90) days following the end of
+
+each state fiscal year, the database and institute must publish a
+
+report on its activities.
+
+SECTION 10.
+
+(1)
+
+No person, whether acting under color of
+
+law or otherwise, may engage in or attempt to engage in acts of
+
+intimidation, deception or obstruction that affect the right of
+
+voters to participate in elections.
+
+include, but are not limited to, the following:
+
+(a)
+
+Violations of this section
+
+A person uses, threatens to use or attempts to use
+
+any force, violence, restraint, abduction or duress, or inflicts,
+
+threatens to inflict or attempts to inflict any injury, damage,
+
+harm or loss, or in any other manner practices or attempts to
+
+practice intimidation that causes or will reasonably have the
+
+effect of causing any person to vote or refrain from voting;
+
+(b)
+
+A person uses or attempts to use any deceptive or
+
+fraudulent device, contrivance or communication, regarding the
+
+time, place or manner of conducting an election or the
+
+qualifications for or restrictions on voter eligibility for an
+S. B. No. 2582
+PAGE 38 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+election, with reckless disregard for the truth, that impedes,
+
+prevents or otherwise interferes with the free exercise of the
+
+elective franchise by any person, or that causes or will
+
+reasonably have the effect of causing any person to vote or
+
+refrain from voting; or
+
+(c)
+
+A person obstructs, impedes or otherwise
+
+interferes, or attempts to obstruct, impede or otherwise interfere
+
+with access to any polling location or elections office, or with
+
+any voter in any manner that causes or would reasonably have the
+
+effect of causing any delay in voting or the voting process,
+
+including the canvassing, certification and tabulation of ballots.
+
+(2)
+
+A person who violates this section or who aids in the
+
+violation of this section shall be liable for any damages awarded
+
+by the court, including nominal damages for any violation and
+
+compensatory or punitive damages for any willful violation.
+
+(3)
+
+Nothing in this section, nor in its enforcement, shall
+
+be construed to prohibit any activity protected under the
+
+Constitution of the United States.
+
+SECTION 11.
+
+(1)
+
+All political subdivisions must provide
+
+advance notice of any new or modified election policy or practice
+
+to the Mississippi Voting Rights Commission prior to
+
+implementation as follows:
+
+(a)
+
+All political subdivisions must provide notice to
+
+Mississippi Voting Rights Commission a minimum of sixty (60) days
+
+S. B. No. 2582
+PAGE 39 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+prior to implementing any changes to government boundaries, method
+
+of election or district maps.
+
+(b)
+
+All political subdivisions must provide notice to
+
+the Mississippi Voting Rights Commission a minimum of fifteen (15)
+
+days prior to implementing any changes to the location, dates of
+
+availability and hours of availability of polling locations and
+
+other election offices that provide services to voters.
+
+(c)
+
+All political subdivisions must provide notice to
+
+the Mississippi Voting Rights Commission a minimum of thirty (30)
+
+days prior to implementing any other new or modified election
+
+policy or practice.
+
+(2)
+
+The Mississippi Voting Rights Commission must publish
+
+all advance notices provided by political subdivisions in a
+
+centralized, publicly accessible location on its website.
+
+section provides minimum notice requirements and does not supplant
+
+or override notice required by other laws or authorities.
+
+(3)
+
+This
+
+Notwithstanding subsection (2) of this section, any
+
+political subdivision that complies with subsection (1) of this
+
+section is not required to meet any local publication requirements
+
+beyond publishing notice on its own website.
+
+(4)
+
+The Mississippi Voting Rights Commission must promulgate
+
+rules under the Mississippi Administrative Procedures Law to
+
+implement this section, including, but not limited to, the minimum
+
+time period of advance notice required prior to implementation of
+
+each type of new or modified election policy or practice,
+S. B. No. 2582
+PAGE 40 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+standards and procedures for the temporary implementation of
+
+election policies and practices notwithstanding the timelines in
+
+this section in response to an officially declared emergency or
+
+disaster, the required form and manner of notice submission by
+
+political subdivisions, and civil penalties for political
+
+subdivisions that fail to comply with this section.
+
+SECTION 12.
+
+(1)
+
+Any provision of state law, regulation,
+
+charter, home rule ordinance or other enactment of the state or
+
+any political subdivision relating to voting or the right to vote
+
+must be construed liberally in favor of the factors listed below.
+
+To the extent courts are afforded discretion on any issue,
+
+including, but not limited to, questions concerning discovery,
+
+procedure, admissibility of evidence or remedies, it is the policy
+
+of the state that courts must exercise that discretion, and weigh
+
+other equitable discretion, in favor of the factors listed below:
+
+(a)
+
+Making voting, the fundamental right to vote and
+
+the ability to participate in the democratic process more
+
+accessible to eligible voters;
+
+(b)
+
+Safeguarding and vindicating, to the fullest extent
+
+possible by law, the voting rights of protected class members,
+
+including, but not limited to, equitable access to opportunities
+
+to register to vote and vote, and the equal opportunity to elect
+
+candidates of choice; and
+
+(c)
+
+Ensuring protected class members have full access
+
+to relief from discrimination in voting.
+S. B. No. 2582
+PAGE 41 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+(2)
+
+An action to cure a violation of this act may be brought
+
+by any individual or entity aggrieved by a violation of this act
+
+or by the Attorney General.
+
+this act includes, but is not limited to, any entity:
+
+(a)
+
+An entity aggrieved by a violation of
+
+Whose membership includes individuals aggrieved by
+
+a violation of this act; or
+
+(b)
+
+Whose mission would be frustrated by a violation of
+
+this act, including, but not limited to, an entity that would
+
+expend or divert resources to fulfill its mission as a result of
+
+such violation or who must expend greater resources or efforts to
+
+advocate before an elected body that is less responsive to the
+
+entity or its members due to the alleged violation.
+
+(3)
+
+An entity must not be compelled to disclose the identity
+
+of any specific member to pursue a claim on behalf of its members.
+(4)
+
+This section must be construed liberally to confer
+
+standing as broadly as the State Constitution permits.
+(5)
+
+Except as provided in paragraph (c) of this subsection,
+
+before filing an action against a political subdivision under this
+
+act, a party described in paragraph (c) of this subsection, except
+
+for the Attorney General must send a notice letter to the
+
+political subdivision identifying the potential violation(s) and
+
+the type of remedy the party believes may address the potential
+
+violation(s).
+
+days after sending the notice letter.
+
+S. B. No. 2582
+PAGE 42 (ab\kr)
+
+The party may not file an action within fifty (50)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+(a)
+
+The political subdivision may work with the party
+
+that provided notice to implement a remedy that cures the
+
+potential violation(s).
+
+subdivision adopts a resolution identifying a remedy, affirming
+
+its intent to enact and implement a remedy, and establishing a
+
+timeline and specific steps it will take to do so, the party may
+
+not file an action within one hundred twenty (120) days after
+
+sending the notice letter.
+
+(b)
+
+If the legislative body of the political
+
+In response to a notice letter, the political
+
+subdivision may adopt a resolution denying that a violation
+
+exists, or otherwise formally deny a violation, which will
+
+abrogate the fifty-day waiting period described in paragraph (b)
+
+of this subsection, and permit the party who sent a notice letter
+
+to file an action immediately.
+
+(c)
+
+If, under the laws of this state, the legislative
+
+body of a political subdivision lacks authority to enact or
+
+implement a remedy identified in such a resolution, the political
+
+subdivision may nonetheless enact and implement a proposed remedy
+
+upon approval of a court of suitable jurisdiction.
+
+(d)
+
+Following the party's submission of a notice
+
+letter, the party may file an action if the political subdivision
+
+has not enacted or implemented a remedy within the time periods
+
+designated by this subsection or the political subdivision has
+
+enacted or implemented a remedy that would not remedy the
+
+violation identified in the party's notice letter.
+S. B. No. 2582
+PAGE 43 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+(e)
+
+A party with standing pursuant to Section 11(a) of
+
+this act may file an action against a political subdivision under
+
+this act notwithstanding this subsection if:
+
+(i)
+
+The party is seeking preliminary relief with
+
+respect to an upcoming election;
+
+(ii)
+
+Another party has already submitted a notice
+
+letter alleging a substantially similar violation, and that party
+
+is eligible to file an action under this section; or
+
+(iii)
+
+The prospect of obtaining relief under
+
+Section 11(b)(i) of this act would be futile.
+(6)
+
+An action to enforce this act may be brought in trial
+
+court pursuant to the rules of civil procedure, or in the First
+
+Judicial District of Hinds County in Jackson, Mississippi.
+
+(7)
+
+Actions concerning Section 6 or 7 of this act may only
+
+be filed under the following circumstances:
+(a)
+
+A political subdivision that has been designated as
+
+a covered political subdivision under Section 6 or 7 of this act
+
+may challenge the determination within thirty (30) days of its
+
+publication in accordance with applicable state law governing
+
+challenges to agency action, including the applicable standard of
+
+review of such actions.
+
+covered political subdivision, and intervention is not permitted.
+
+(b)
+
+Such actions may only be filed by the
+
+Any party with standing as defined in this section,
+
+that is aggrieved by the exclusion of a political subdivision from
+
+the list of covered political subdivisions established in this
+S. B. No. 2582
+PAGE 44 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+act, may file an action to challenge the exclusion of a political
+
+subdivision.
+
+limitations, accruing from the date of any coverage
+
+determinations, and are subject to a de novo standard of review.
+
+(c)
+
+Such actions are subject to a three-year statute of
+
+Any denial of preclearance by the Mississippi
+
+Voting Rights Commission may be appealed only by the covered
+
+political subdivision within thirty (30) days of the denial in
+
+accordance with applicable state law governing challenges to
+
+agency action, including the applicable standard of review of such
+
+actions.
+
+subdivision and intervention is not permitted.
+
+Such actions may only be filed by the covered political
+
+(d)
+
+Any party that is aggrieved by a determination by
+
+the Mississippi Voting Rights Commission to grant preclearance to
+
+a covered policy, may file an action to challenge the
+
+determination to grant preclearance.
+
+a de novo standard of review.
+
+(e)
+
+Such actions are subject to
+
+If the Mississippi Voting Rights Commission fails
+
+to discharge any of its responsibilities under this act or any
+
+other action necessary to enforce a provision of this act, any
+
+party, as defined in Section 11(a) of this act, that is aggrieved
+
+by this failure may file an action seeking appropriate relief,
+
+including, but not limited to, any injunctive relief on the
+
+Mississippi Voting Rights Commission or any other party to the
+
+action that is necessary to enforce this act.
+
+subject to a de novo standard of review.
+S. B. No. 2582
+PAGE 45 (ab\kr)
+
+*SS26/R1032.1*
+
+Such actions are
+
+~ OFFICIAL ~
+
+(8)
+
+Actions brought pursuant to this act must be subject to
+
+expedited pretrial and trial proceedings and receive an automatic
+
+calendar preference.
+
+(9)
+
+In any action alleging a violation of this act in which
+
+a party seeks preliminary relief with respect to an upcoming
+
+election, a court must grant relief if it determines that:
+
+(a)
+
+on the merits; and
+
+The plaintiffs are more likely than not to succeed
+
+(b)
+
+It is possible to implement an appropriate remedy
+
+that would resolve the alleged violation in the upcoming election.
+
+Upon finding a violation of any provision of this act,
+
+a court must order appropriate remedies notwithstanding any other
+
+law.
+
+The court has authority to order remedies that are
+
+tailored to best mitigate the violation, including any and all
+
+forms of preliminary and injunctive relief.
+
+consider, among others, any remedy that is available to a federal
+
+court or the court of another state jurisdiction, including
+
+through a court-approved consent decree or settlement adopted in
+
+the context of similar facts or to remedy a similar violation.
+
+The court must consider proposed remedies by any parties and
+
+interested nonparties.
+
+The court may
+
+The court may not give deference or priority to a
+
+remedy proposed by the political subdivision.
+
+S. B. No. 2582
+PAGE 46 (ab\kr)
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+A remedy ordered under this section must be implemented
+
+in the next relevant election, scheduled or ordered, wherever
+
+possible.
+
+This act provides rights and remedies under state law
+
+to enforce state constitutional rights or statutory rights and
+
+does not enforce any rights established under the U.S.
+
+Constitution or federal law.
+
+to create a cause of action under federal law.
+
+relevant federal legal standards, precedents or evidentiary
+
+frameworks to aid in the interpretation or application of this act
+
+should not be construed to give rise to a federal question.
+
+Nothing in this act may be construed
+Persuasive use of
+
+Moreover, use of such federal legal standards, precedents, or
+
+evidentiary frameworks may be persuasive, but is not necessary to
+
+the interpretation or application of this act.
+
+(15)
+
+Defendants in actions under this act may not assert the
+
+doctrine of laches as a defense to claims brought under this act.
+
+Political subdivisions may not assert that plaintiffs have failed
+
+to comply with any notice, exhaustion or other procedural
+
+requirements under state law, other than the requirements in this
+
+section, as a defense to claims brought under this section.
+
+(16)
+
+In any action to enforce any provision of this act, a
+
+prevailing plaintiff party, other than the state or a political
+
+subdivision, is entitled to recover all reasonable costs and fees
+
+from the defendant party.
+
+S. B. No. 2582
+PAGE 47 (ab\kr)
+
+Costs and fees include, but are not
+
+*SS26/R1032.1*
+
+~ OFFICIAL ~
+
+limited to, attorneys' fees, expert witness fees and all other
+
+litigation or pre-litigation fees and costs.
+
+(17)
+
+A plaintiff will be deemed to have prevailed in an
+
+action when, as a result of a suit or notice letter, the defendant
+
+party yields some or all of the relief sought in the action.
+
+(18)
+
+If the state or political subdivision prevails in an
+
+action under this act, the court may not award the defendant party
+
+any fees or costs unless the court finds the action to be
+
+frivolous, unreasonable or without foundation.
+
+(19)
+
+If any provision of this act or its application to any
+
+person or circumstance is held invalid, such invalidity must be
+
+applied as narrowly as possible and the remaining provisions and
+
+applications must remain in effect to the fullest extent possible.
+
+(20)
+
+In any action under this act or any other
+
+voting-related violation of state or federal law, no sovereign,
+
+governmental, executive, legislative, or deliberative immunities
+
+and privileges, including any evidentiary privileges, may be
+
+asserted.
+
+attorney-client or attorney work-product privileges.
+
+However, this section has no effect on any
+
+SECTION 13.
+
+and after July 1, 2026.
+
+S. B. No. 2582
+PAGE 48 (ab\kr)
+
+This act shall take effect and be in force from
+
+~ OFFICIAL ~
+ST: Robert G. Clark, Jr., Voting Rights Act of
+Mississippi; enact.
+
+*SS26/R1032.1*

@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act repeals the ability of school districts to increase tax rates by up to 10% when recalculating the district’s rate of taxation after a general reassessment. This Act does not repeal the requirement under § 1916(b) of Title 14 that a school district recalculate the district’s rate of taxation after a general reassessment, but instead of the 10% maximum, limits the amount of money a district can collect as a result of increases in the fair market value of real property to an amount that is equal to or less than the sum of all of the following:\r\n1. The actual operating revenue derived by the tax levied in the fiscal year immediately preceding the general reassessment.\r\n2. A percentage that is equal to the average growth rate in taxable property in the district since the previous reassessment.\r\n\r\nThis Act also allows school districts to increase a tax approved in a referendum election under Chapter 19 of Title 14 by up to 2% annually without a referendum if the district’s operational reserve balance is not more than 10% of the district’s annual revenue and it is not the same fiscal year that the rate of taxation is recalculated after a general reassessment. This authority will allow school districts to maintain services for students by gradually adjusting to challenges such as inflation, enrollment changes, and increased student needs.\r\n\r\nUnder this Act, the new recalculation equation under § 1916(b) of Title 14 applies beginning for the fiscal year following the next general reassessment and a school district cannot begin to increase tax rates by no more than 2% without a referendum until after the next general reassessment or for fiscal year 2031, whichever is earlier.\r\n\r\nThis Act does not do any of the following:\r\n•\tAllow school districts to levy an additional tax that is more than 2% without an approved referendum. \r\n•\tChange the differences under current law for tax rates for vocational-technical districts. Under current law and this Act, vocational-technical districts are required to use the same calculations as other school districts when recalculating the rate of taxation after a general reassessment. However, the tax authority for vocational-technical districts is under Chapter 26 of Title 14, not Chapter 19, so the authority to annually increase a tax rate by 2% does not apply to vocational-technical districts.   \r\n\r\nThis Act also makes the following corresponding and technical changes to Chapter 19 of Title 14:\r\n•\tRevises the definitions in § 1901 by adding “general reassessment” and “reassessed” as defined terms and updates the definition of “district” to reflect current school district boundaries.\r\n•\tClarifies that if Chapter 26 applies to a school district, the ability of a district to levy an additional tax under § 1902(a) does not apply to that district.\r\n•\tTechnical corrections to conform existing law to the standards of the Delaware Legislative Drafting Manual.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 322",
+    "legislative_session": "153",
+    "title": "ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO LOCAL SCHOOL TAXES."
+  },
+  "id": "SB 322",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-06-11",
+      "description": "Passed By Senate. Votes: 18 YES 3 ABSENT",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 322"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB322/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB322/logs/20260611T000000Z.classification.passage.upper.json"
+  }
+}

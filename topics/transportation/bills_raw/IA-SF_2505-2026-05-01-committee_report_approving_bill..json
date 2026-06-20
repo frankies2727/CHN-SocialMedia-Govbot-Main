@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 2505",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "business entities",
+      "contracts",
+      "insurance",
+      "motor vehicles",
+      "residential care facilities",
+      "service contracts"
+    ],
+    "title": "A bill for an act relating to licensing of service companies, motor vehicle service contracts, and residential service contracts, and providing civil penalties and including effective date provisions."
+  },
+  "id": "SF 2505",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-05-01",
+      "description": "Committee report, approving bill.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 2505"
+  },
+  "sources": {
+    "bill": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2505/metadata.json",
+    "log": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2505/logs/20260501T000000Z_committee_report_approving_bill.json"
+  },
+  "timestamp": "20260501T000000Z"
+}

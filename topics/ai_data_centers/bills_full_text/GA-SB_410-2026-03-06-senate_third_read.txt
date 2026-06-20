@@ -1,0 +1,123 @@
+Senate Bill 410
+By: Senators Brass of the 6th, Anavitarte of the 31st, Hufstetler of the 52nd, Albers of the
+56th, Walker III of the 20th and others
+AS PASSED SENATE
+A BILL TO BE ENTITLED
+AN ACT
+
+To amend Chapter 2 of Title 46 and Chapter 8 of Title 48 of the Official Code of Georgia
+
+Annotated, relating to the Public Service Commission and sales and use taxes, respectively,
+
+so as to require certain contract terms and conditions between electric utilities and large load
+
+customers; to repeal the high-technology computer equipment and data center equipment
+
+sales and use tax exemptions; to allow for the continued use of certificates of exemption
+
+issued prior to the date of repeal; to provide for legislative intent; to provide for a definition;
+
+to provide for related matters; to provide for an effective date; to repeal conflicting laws; and
+
+for other purposes.
+
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF GEORGIA:
+
+PART I
+
+SECTION 1-1.
+
+It is the intent of the General Assembly that the marginal costs of providing electric service
+
+to new large-load customers will be borne by such customers and not residential or retail
+
+electricity customers.
+
+SECTION 1-2.
+
+Chapter 2 of Title 46 of the Official Code of Georgia Annotated, relating to the Public
+
+Service Commission, is amended by adding a new Code section to read as follows:
+
+"46-2-25.4.
+
+(a) As used in this Code section, the term 'large load customer' means customers with an
+
+expected total peak demand of 100 megawatts or greater at one or more premises located
+
+on one tract or contiguous tracts of land.
+
+(b) Each contract between an electric utility and a large load customer for the provision
+
+of electric service, entered into on or after the effective date of this Act, shall include terms
+
+and conditions designed to protect residential and retail electricity customers from costs
+
+associated with serving new large load customers, including, but not limited to, the
+
+following:
+
+(1) Minimum billing requirements designed to recover incremental costs associated with
+
+serving or preparing to serve a large load customer;
+
+(2) A contract term that may exceed the length of the applicable service tariff;
+
+(3) Performance and credit provisions designed to protect retail customers in the event
+
+of contract default; and
+
+(4)
+
+termination of the contract for electric service."
+
+PART II
+
+SECTION 2-1.
+
+Chapter 8 of Title 48 of the Official Code of Georgia Annotated, relating to sales and use
+
+taxes, is amended by repealing paragraphs (68) and (68.1) of Code Section 48-8-3, relating
+
+to exemptions relative to state sales and use taxes, and enacting new paragraphs to read as
+
+follows:
+
+Termination provisions designed to protect retail customers in the event of
+
+"(68) After the effective date of this Act, no new certificates of exemption from sales and
+
+use tax to a high-technology company shall be issued pursuant to the former provisions
+
+of this paragraph as they existed prior to the effective date of this Act; provided, however,
+
+that any certificate of exemption issued prior to the effective date of this Act shall
+
+continue to be governed by the provisions of this paragraph as it existed immediately
+
+prior to the effective date of this Act;
+
+(68.1) After the effective date of this Act, no new certificates of exemption from sales
+
+and use tax to a high-technology data center or a high-technology data center customer
+
+shall be issued pursuant to the former provisions of this paragraph as they existed prior
+
+to the effective date of this Act; provided, however, that any certificate of exemption
+
+issued prior to the effective date of this Act shall continue to be governed by the
+
+provisions of this paragraph as it existed immediately prior to the effective date of this
+
+Act;"
+
+PART III
+
+SECTION 3-1.
+
+This Act shall become effective upon its approval by the Governor or upon its becoming law
+
+without such approval.
+
+SECTION 3-2.
+All laws and parts of laws in conflict with this Act are repealed.

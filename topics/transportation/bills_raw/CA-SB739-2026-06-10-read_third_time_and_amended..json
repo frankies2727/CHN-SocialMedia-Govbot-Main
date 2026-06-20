@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "The Passenger Charter-party Carriers' Act provides for the regulation of charter-party carriers of passengers by the Public Utilities Commission and includes specific requirements applicable to transportation network companies, which are defined as certain organizations that, using an online-enabled application or platform, connect passengers with drivers using a personal vehicle. The act establishes the California Clean Miles Standard and Incentive Program, which requires, by January 1, 2020, that the State Air Resources Board establish a baseline for emissions of greenhouse gases for vehicles used on the online-enabled applications or platforms by transportation network companies on a per-passenger-mile basis, as provided. The act requires, by January 1, 2021, that the state board establish, and the commission implement, annual targets and goals, in accordance with specified requirements, starting in 2023 for the reduction under that baseline for emissions of greenhouse gases per passenger mile driven on behalf of a transportation network company. The act makes a violation of the act, or an order or direction of the commission pursuant to the act, a crime.\n\nThis bill would require, by January 1, 2028, the state board to adopt, and the commission to implement, updated annual targets and goals starting in 2029 for the reduction under that baseline for emissions of greenhouse gases per passenger mile driven on behalf of a transportation network company in accordance with specified requirements. The bill would prohibit the commission from adopting or enforcing any penalties against transportation network companies for the failure to meet the targets or goals adopted under the program until January 1, 2035, and would prohibit the commission from finding a transportation network company in violation of the program under specified circumstances.\n\nThe act requires the state board to delay adoption, and the commission to delay implementation, of the targets and goals adopted pursuant to the program if the state board or commission finds that unanticipated barriers exist to expanding the usage of zero-emission vehicles by transportation network companies. The act requires the state board and commission to review the available data related to barriers to expanding the usage of zero-emission vehicles by transportation network companies no less often than every 2 years.\n\nThis bill would instead require the state board to adjust the targets and goals, and the commission to delay implementation of those targets and goals, if the state board or the commission makes specified findings, including that barriers exist to expanding the usage of zero-emission vehicles by transportation network companies at the rates established by the state board. The bill would revise the above-described review requirement to instead require the state board and commission, no less often than every 2 years, to review the targets and goals adopted under the program and the available data necessary to make any of those specified findings.\n\nThe act requires moneys collected from civil or criminal penalties imposed for violations of the act to be deposited in the General Fund.\n\nThis bill would establish the Transportation Network Company Zero-Emission Fund in the State Treasury and would require any moneys collected from any penalties imposed on transportation network companies under the program to be deposited into the fund. The bill would make moneys in the fund available to the commission, upon appropriation by the Legislature, to support programs or partnerships that will catalyze the continued electrification of personal vehicles operating on transportation network company platforms.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB739",
+    "legislative_session": "20252026",
+    "subject": [
+      "CaliforniaCleanMilesStandardandIncentiveProgram",
+      "Transportationnetworkcompanies"
+    ],
+    "title": "Transportation network companies: California Clean Miles Standard and Incentive Program."
+  },
+  "id": "SB739",
+  "log": {
+    "action": {
+      "classification": [
+        "amendment-passage",
+        "reading-1",
+        "reading-3"
+      ],
+      "date": "2026-06-10",
+      "description": "Read third time and amended.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB739"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB739/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB739/logs/20260610T000000Z_read_third_time_and_amended.json"
+  },
+  "timestamp": "20260610T000000Z"
+}

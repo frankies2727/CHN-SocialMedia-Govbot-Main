@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "(1) Existing law creates the California Coastal Sanctuary and provides that it includes all state waters subject to tidal influence, except as provided. Existing law authorizes the State Lands Commission to enter into any lease for the extraction of oil or gas from state-owned tidelands and submerged lands in the California Coastal Sanctuary if the commission determines both that oil and gas deposits in the California Coastal Sanctuary are being drained by means of producing wells upon adjacent federal lands and that the lease is in the best interest of the state.\n\nThis bill would repeal that authorization. The bill would also make conforming changes.\n\n(2) Existing law prohibits the commission or a local trustee, as defined, of granted public trust lands from entering into a new lease or other conveyance authorizing new construction of oil- and gas-related infrastructure upon tidelands and submerged lands within state waters associated with Pacific Outer Continental Shelf leases issued after January 1, 2018, except as provided. Existing law requires the commission or a local trustee when approving or disapproving a lease renewal, extension, amendment, or modification authorizing new construction of oil- and gas-related infrastructure upon tidelands and submerged lands within state waters associated with Pacific Outer Continental Shelf leases issued after January 1, 2018, to follow a specified process. \n\nThis bill would additionally prohibit leases and oil- and gas-related infrastructure located upon tidelands and submerged lands within state waters from being used to support Pacific Outer Continental Shelf leases issued after January 1, 2026, except as provided. The bill would specify that the above-described requirement regarding approval or disapproval of a lease renewal, extension, amendment, or modification also applies to a lease assignment. The bill would additionally require the commission or the local trustee, in considering approval or disapproval, to consider additional factors, as specified. By imposing additional duties on local trustees in the consideration of a lease renewal, extension, amendment, assignment, or modification, this bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1448",
+    "legislative_session": "20252026",
+    "subject": [
+      "CaliforniaCoastalSanctuary",
+      "Coastalresources",
+      "oilandgasdevelopment",
+      "tidelandsandsubmergedlands"
+    ],
+    "title": "Coastal resources: California Coastal Sanctuary: tidelands and submerged lands: oil and gas development."
+  },
+  "id": "AB1448",
+  "log": {
+    "action": {
+      "date": "2026-06-16",
+      "description": "Withdrawn from committee.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "AB1448"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1448/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1448/logs/20260616T000000Z_withdrawn_from_committee.json"
+  },
+  "timestamp": "20260616T000000Z"
+}

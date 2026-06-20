@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Collective Bargaining;  Provides for resolution pursuant to specified instructions of collective bargaining issues at impasse between state & certified representatives of bargaining units for state employees.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 5201",
+    "legislative_session": "2026",
+    "subject": [
+      "conference committee"
+    ],
+    "title": "Collective Bargaining"
+  },
+  "id": "HB 5201",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-02-19",
+      "description": "Passed; YEAS 90, NAYS 16",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 5201"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB5201/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/HB5201/logs/20260219T000000Z.classification.passage.lower.json"
+  }
+}

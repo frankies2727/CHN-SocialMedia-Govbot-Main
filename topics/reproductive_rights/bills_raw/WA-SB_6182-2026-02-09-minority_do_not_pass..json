@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 6182",
+    "legislative_session": "2025-2026",
+    "title": "Establishing an abortion savings program."
+  },
+  "id": "SB 6182",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage-unfavorable"
+      ],
+      "date": "2026-02-09",
+      "description": "Minority; do not pass.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 6182"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB6182/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB6182/logs/20260209T000000Z_minority_do_not_pass.json"
+  },
+  "timestamp": "20260209T000000Z"
+}

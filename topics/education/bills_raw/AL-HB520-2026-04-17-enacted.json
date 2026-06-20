@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Education",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB520",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Education"
+    ],
+    "title": "Public K-12 education; expedited career and technical teaching certification pathway created for individual holding equivalent issued by another state"
+  },
+  "id": "HB520",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-04-17T04:00:00+00:00",
+      "description": "Enacted",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB520"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB520/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB520/logs/20260417T040000Z.classification.became-law.lower.json"
+  }
+}

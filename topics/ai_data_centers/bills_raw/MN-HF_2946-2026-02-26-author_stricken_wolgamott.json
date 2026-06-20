@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HF 2946",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Banks and Financial Institutions",
+      "Governmental Operations-State"
+    ],
+    "title": "Minnesota Bitcoin Act proposed, payments to the state by cryptocurrency allowed, State Board of Investment authorized to invest in cryptocurrency, and various tax provisions modified."
+  },
+  "id": "HF 2946",
+  "log": {
+    "action": {
+      "date": "2026-02-26",
+      "description": "Author stricken Wolgamott",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HF 2946"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF2946/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF2946/logs/20260226T000000Z_author_stricken_wolgamott.json"
+  },
+  "timestamp": "20260226T000000Z"
+}

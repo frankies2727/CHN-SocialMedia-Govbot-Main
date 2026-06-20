@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB507",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Elections"
+    ],
+    "title": "Prohibiting the enforcement of federal immigration laws at polling places and locations designated for the canvassing, auditing and recounting of ballots."
+  },
+  "id": "SB507",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died in Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB507"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB507/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB507/logs/20260410T000000Z_died_in_committee.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

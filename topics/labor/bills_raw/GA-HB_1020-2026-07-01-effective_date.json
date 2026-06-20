@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Chapter 23 of Title 47 of the Official Code of Georgia Annotated, relating to the Georgia Judicial Retirement System, so as to provide for the payment of monthly retirement benefits for creditable service as a district attorney at the age of 65 years; to provide for calculation of benefits for individuals who first become members after the effective date of this Act; to provide for calculation of survivors benefits; to provide for conforming changes; to provide for an effective date; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1020",
+    "legislative_session": "2025_26",
+    "subject": [
+      "COURTS",
+      "GENERAL PROVISIONS, OCGA",
+      "PUBLIC OFFICERS AND EMPLOYEES",
+      "RETIREMENT AND PENSIONS"
+    ],
+    "title": "Judicial Retirement System; payment of monthly retirement benefits for creditable service as a district attorney at the age of 65 years; provide"
+  },
+  "id": "HB 1020",
+  "log": {
+    "action": {
+      "date": "2026-07-01",
+      "description": "Effective Date",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "HB 1020"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1020/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1020/logs/20260701T000000Z_effective_date.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

@@ -1,0 +1,734 @@
+MISSISSIPPI LEGISLATURE
+
+REGULAR SESSION 2026
+
+By: Senator(s) Hickman, Michel, Simmons
+(13th)
+
+To:
+
+Housing; Finance
+
+SENATE BILL NO. 2257
+
+AN ACT TO AMEND SECTION 43-33-1, MISSISSIPPI CODE OF 1972, TO
+DEFINE THE TERM "MIXED-FINANCE PROJECT" FOR USE IN THE HOUSING
+AUTHORITIES LAW; TO AMEND SECTION 43-33-11, MISSISSIPPI CODE OF
+1972, TO AUTHORIZE AN AUTHORITY TO PREPARE, CARRY OUT, ACQUIRE,
+LEASE AND OPERATE HOUSING PROJECTS AND TO PROVIDE FOR THE
+CONSTRUCTION, RECONSTRUCTION, IMPROVEMENT, ALTERATION OR REPAIR OF
+ANY HOUSING PROJECT OR ANY PART THEREOF BY DIRECT SPONSORSHIP OF
+THE AUTHORITY, BY THE PURCHASE OF A MORTGAGE OR BY THE MAKING OF A
+MORTGAGE LOAN TO A NOT-FOR-PROFIT ENTITY OR CORPORATION; TO
+AUTHORIZE AN AUTHORITY TO PARTICIPATE IN MIXED-FINANCE PROJECTS TO
+PROVIDE FOR THE CONSTRUCTION, RECONSTRUCTION, REHABILITATION,
+IMPROVEMENT, ALTERATION OR REPAIR OF ANY HOUSING PROJECT OR ANY
+PART THEREOF; TO ENABLE AN AUTHORITY TO PROVIDE CERTAIN ASSISTANCE
+TO A MIXED-FINANCE PROJECT FOR THE CONSTRUCTION OR REHABILITATION
+OF A HOUSING PROJECT; TO AUTHORIZE THE FORMATION OF A
+SELF-INSURANCE POOLING ARRANGEMENT UNDER SECTION 11-46-17 WHEN ONE
+OR MORE AUTHORITIES FORM PARTNERSHIPS, LIMITED LIABILITY COMPANIES
+OR OTHER ENTITIES FOR THE PURPOSE OF UNDERTAKING A MIXED-FINANCE
+PROJECT; TO AUTHORIZE SUCH HOUSING AUTHORITY-RELATED ENTITIES TO
+ENTER INTO AGREEMENTS FOR JOINT OR COOPERATIVE ACTION TO POOL
+THEIR FINANCIAL AND ADMINISTRATIVE RESOURCES FOR CERTAIN PURPOSES
+RELATED TO LIABILITY OR INSURABILITY; TO AMEND SECTION 43-33-17,
+MISSISSIPPI CODE OF 1972, TO INCLUDE MIXED-FINANCE PROJECTS AMONG
+PROJECTS FOR WHICH TWO OR MORE AUTHORITIES MAY JOIN OR COOPERATE
+WITH ONE ANOTHER FOR CERTAIN ACTIVITIES; TO CREATE NEW SECTION
+43-33-52, MISSISSIPPI CODE OF 1972, TO PROVIDE THAT CERTAIN
+INDIVIDUALS WHO INCORPORATE OR JOIN AS A PARTNER OR MEMBER TO
+DEVELOP OR MANAGE A MIXED-FINANCE PROJECT ENJOY THE SAME
+PROTECTIONS AND IMMUNITIES PROVIDED TO HOUSING AUTHORITY
+CORPORATIONS; AND FOR RELATED PURPOSES.
+
+BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MISSISSIPPI:
+
+S. B. No. 2257
+PAGE 1 (baf\kr)
+
+*SS26/R575*
+
+~ OFFICIAL ~
+
+G1/2
+
+SECTION 1.
+
+Section 43-33-1, Mississippi Code of 1972, is
+
+amended as follows:
+
+43-33-1.
+
+Sections 43-33-1 through 43-33-53 may be referred
+
+to as the "Housing Authorities Law," and the following terms,
+
+whenever used or referred to in said sections, shall have the
+
+following respective meanings, unless a different meaning clearly
+
+appears from the context:
+
+(a)
+
+"Authority" or "housing authority" shall mean any
+
+of the public corporations created by or pursuant to this Housing
+
+Authorities Law, or any law amendatory or supplemental thereto,
+
+with power to undertake housing projects for the persons of low
+
+income.
+
+(b)
+
+"City" shall mean any city in this state. "County"
+
+shall mean any county in this state.
+
+particular city for which a particular housing authority is
+
+created.
+
+a particular housing authority is created.
+
+"The city" shall mean the
+
+"The county" shall mean the particular county for which
+
+(c)
+
+"State public body" shall mean any city, town,
+
+village, county, municipal corporation, commission, district,
+
+authority, or other subdivision or other public body of this
+
+state.
+
+(d)
+
+"Governing body" shall mean, in the case of a city,
+
+the board of aldermen, commissioners, or council; in the case of a
+
+county, the board of supervisors; and in the case of any other
+
+state public body, the board of aldermen, council, commissioners,
+S. B. No. 2257
+PAGE 2 (baf\kr)
+
+*SS26/R575*
+
+~ OFFICIAL ~
+
+board or other body having charge of the fiscal affairs of such
+
+state public body.
+
+(e)
+
+"Mayor" shall mean the mayor of the city or the
+
+officer thereof charged with the duties customarily imposed on the
+
+mayor or executive head of the city.
+
+(f)
+
+"Clerk" shall mean the clerk of the city or the
+
+clerk of the county, as the case may be, or the officer charged
+
+with the duties customarily imposed on such clerk.
+
+(g)
+
+"Area of operation," in the case of a housing
+
+authority of a city, shall include such city and the area within
+
+five (5) miles of the territorial boundaries thereof.
+
+(h)
+
+"Federal government" shall include the United
+
+States of America, the United States Housing Authority, or any
+
+other agency or instrumentality, corporate or otherwise, of the
+
+United States of America.
+
+(i)
+
+"Slum" shall mean any area where dwellings
+
+predominate which, by reason of dilapidation, overcrowding, faulty
+
+arrangement, or design, lack of ventilation, light or sanitary
+
+facilities, or any combination of these factors, are detrimental
+
+to safety, health or morals.
+
+(j)
+
+undertaking:
+
+slum area; such work or undertaking may embrace the adoption of
+
+such area to public purposes, including parks or other
+
+recreational or community purposes; or (2) to provide decent, safe
+S. B. No. 2257
+PAGE 3 (baf\kr)
+
+"Housing project" shall mean any work or
+(1) to demolish, clear or remove buildings from any
+
+*SS26/R575*
+
+~ OFFICIAL ~
+
+and sanitary urban or rural dwellings, apartments, or other living
+
+accommodations for persons of low income; such work or undertaking
+
+may include buildings, land, equipment, facilities, and other real
+
+or personal property for necessary, convenient, or desirable
+
+appurtenances, streets, sewers, water service, parks, site
+
+preparation, gardening, administrative, community, health,
+
+recreational, welfare or other purposes; or (3) to accomplish a
+
+combination of the aforegoing.
+
+may be applied to the planning of the buildings and improvements,
+
+the acquisition of property, the demolition of existing
+
+structures, the construction, reconstruction, alteration and
+
+repair of the improvements and all other work in connection
+
+therewith.
+
+(k)
+
+The term "housing project" also
+
+"Mixed-finance project" shall mean a project that
+
+is financially assisted by private resources, which may include
+
+low-income housing tax credits, in addition to an amount provided
+
+under any state or federal program.
+
+includes a project that is developed by:
+
+"Mixed-finance project"
+
+(i)
+
+An authority or an entity affiliated with an
+
+(ii)
+
+A partnership, limited liability company, or
+
+authority;
+
+other entity in which the authority, or an entity affiliated with
+
+an authority, is a general partner, managing member, or otherwise
+
+participates in the activities of the entity; or
+
+S. B. No. 2257
+PAGE 4 (baf\kr)
+
+*SS26/R575*
+
+~ OFFICIAL ~
+
+(iii)
+
+Any entity that grants to the authority the
+
+right of first refusal and first option to purchase, after the
+
+close of the compliance period, the qualified low-income building
+
+in which the public housing units exist in accordance with Section
+
+42(i)(7) of the Internal Revenue Code of 1986 (26 USC § 42(i)(7)).
+
+( * * *l)
+
+"Persons of low income" shall mean persons or
+
+families who lack the amount of income which is necessary (as
+
+determined by the authority undertaking the housing project) to
+
+enable them, without financial assistance, to live in decent, safe
+
+and sanitary dwellings, without overcrowding.
+
+( * * *m)
+
+"Bonds" shall mean any bonds, notes, interim
+
+certificates, debentures, or other obligations issued by a housing
+
+authority.
+
+( * * *n)
+
+"Real property" shall include all lands,
+
+including improvements and fixtures thereon, and property of any
+
+nature appurtenant thereto, or used in connection therewith, and
+
+every estate, interest and right, legal or equitable, therein
+
+including terms for years and liens by way of judgment, mortgage
+
+or otherwise and the indebtedness secured by such liens.
+
+( * * *o)
+
+"Obligee of the authority" or "obligee" shall
+
+include any bondholder, trustee or trustees for any bondholders,
+
+or lessor demising to the authority property used in connection
+
+with a housing project, or any assignee or assignees of such
+
+lessor's interest or any part thereof, and the federal government
+
+when it is a party to any contract with the authority.
+S. B. No. 2257
+PAGE 5 (baf\kr)
+
+*SS26/R575*
+
+~ OFFICIAL ~
+
+SECTION 2.
+
+Section 43-33-11, Mississippi Code of 1972, is
+
+amended as follows:
+
+43-33-11.
+
+An authority shall constitute a public body
+
+corporate and politic, exercising public and essential
+
+governmental functions, and having all the powers necessary or
+
+convenient to carry out and effectuate the purposes and provisions
+
+of this article, including the following powers in addition to
+
+others herein granted:
+
+(a)
+
+To sue and to be sued; to have a seal and to alter
+
+the same at pleasure; to have perpetual succession; to make and
+
+execute contracts and other instruments necessary or convenient to
+
+the exercise of the powers of the authority; and to make and from
+
+time to time amend and repeal bylaws, rules and regulations, not
+
+inconsistent with this article, to carry into effect the powers
+
+and purposes of the authority.
+
+(b)
+
+Within its area of operation:
+
+to prepare, carry
+
+out, acquire, lease and operate housing projects; to provide for
+
+the construction, reconstruction, improvement, alteration or
+
+repair of any housing project or any part thereof by direct
+
+sponsorship of the authority, by the purchase of a mortgage or by
+
+the making of a mortgage loan to a not-for-profit entity or
+
+corporation.
+
+(c)
+
+To own, operate, assist or otherwise participate in
+
+one or more mixed-finance projects to provide for the
+
+construction, reconstruction, rehabilitation, improvement,
+S. B. No. 2257
+PAGE 6 (baf\kr)
+
+*SS26/R575*
+
+~ OFFICIAL ~
+
+alteration or repair of any housing project or any part thereof.
+
+An authority may provide capital assistance, operating assistance
+
+and financing assistance to a mixed-finance project in the form of
+
+a grant, loan, guaranty, collateralization or other form of
+
+investment in the project, or other form of public or private
+
+borrowings, for the construction or rehabilitation of a housing
+
+project.
+
+( * * *d)
+
+To arrange or contract for the furnishing by
+
+any person or agency, public or private, of services, privileges,
+
+works or facilities for, or in connection with, a housing project
+
+or the occupants thereof; and (notwithstanding anything to the
+
+contrary contained in this article or in any other provision of
+
+law) to include in any contract let in connection with a project,
+
+stipulations requiring that the contractor and any subcontractors
+
+comply with requirements as to minimum wages and maximum hours of
+
+labor, and comply with any conditions which the federal government
+
+may have attached to its financial aid of the project.
+
+( * * *e)
+
+To lease or rent any dwellings, houses,
+
+accommodations, lands, buildings, structures or facilities
+
+embraced in any housing project and (subject to the limitations
+
+contained in this article) to establish and revise the rents or
+
+charges therefor; to own, hold and improve real or personal
+
+property; to purchase, lease, obtain options upon, acquire by
+
+gift, grant, bequest, devise or otherwise any real or personal
+
+property or any interest therein; to acquire by the exercise of
+S. B. No. 2257
+PAGE 7 (baf\kr)
+
+*SS26/R575*
+
+~ OFFICIAL ~
+
+the power of eminent domain any real property; to sell, lease,
+
+exchange, transfer, assign, pledge or dispose of any real or
+
+personal property or any interest therein; to insure or provide
+
+for the insurance of any real or personal property or operations
+
+of the authority against any risks or hazards; to procure or agree
+
+to the procurement of insurance or guarantees from the federal
+
+government of the payment of any bonds or parts thereof issued by
+
+an authority, including the power to pay premiums on any such
+
+insurance.
+
+(f)
+
+When one or more authorities have formed
+
+partnerships, limited liability companies, or other entities in
+
+which an authority, or an entity affiliated with an authority, is
+
+a general partner, managing member, or otherwise participates in
+
+the activities of the entity for the sake of undertaking a
+
+mixed-finance project, the housing authority-related entities may
+
+form a self-insurance pooling arrangement under Section 11-46-17.
+
+Notwithstanding any other law to the contrary, such housing
+
+authority-related entities may enter into an agreement or
+
+agreements with each other for joint or cooperative action to pool
+
+their financial and administrative resources for the purpose of
+
+providing to the participating housing authority-related entities
+
+risk management, insurance, reinsurance, self-insurance, or any
+
+combination thereof for any and all of the areas of liability or
+
+insurability, or both, for such housing authority-related
+
+entities.
+S. B. No. 2257
+PAGE 8 (baf\kr)
+
+*SS26/R575*
+
+~ OFFICIAL ~
+
+( * * *g)
+
+To invest any funds held in reserves or
+
+sinking funds, or any funds not required for immediate
+
+disbursement, in property or securities in which savings banks may
+
+legally invest funds subject to their control; to purchase its
+
+bonds at a price not more than the principal amount thereof and
+
+accrued interest, all bonds so purchased to be canceled.
+
+( * * *h)
+
+Within its area of operation:
+
+to investigate
+
+into living, dwelling and housing conditions and into the means
+
+and methods of improving such conditions; to determine where slum
+
+areas exist or where there is a shortage of decent, safe and
+
+sanitary dwelling accommodations for persons of low income; to
+
+make studies and recommendations relating to the problem of
+
+clearing, replanning and reconstructing of slum areas, and the
+
+problem of providing dwelling accommodations for persons of low
+
+income, and to cooperate with the city, the county, the state or
+
+any political subdivision thereof in action taken in connection
+
+with such problems; and to engage in research, studies and
+
+experimentation on the subject of housing.
+
+( * * *i)
+
+Acting through one or more commissioners or
+
+other person or persons designated by the authority:
+
+examinations and investigations and to hear testimony and take
+
+proof under oath at public or private hearings on any matter
+
+material to its information; to administer oaths, issue subpoenas
+
+requiring the attendance of witnesses or the production of books
+
+and papers and to issue commissions for the examination of
+S. B. No. 2257
+PAGE 9 (baf\kr)
+
+*SS26/R575*
+
+~ OFFICIAL ~
+
+to conduct
+
+witnesses who are outside of the state or unable to attend before
+
+the authority, or excused from attendance; to make available to
+
+appropriate agencies (including those charged with the duty of
+
+abating or requiring the correction of nuisances or like
+
+conditions, or of demolishing unsafe or unsanitary structures
+
+within its area of operation) its findings and recommendations
+
+with regard to any building or property where conditions exist
+
+which are dangerous to the public health, morals, safety or
+
+welfare.
+
+( * * *j)
+
+To make payments to public bodies in the
+
+state in such amounts as it finds desirable, notwithstanding any
+
+statutory limitation on the amount of such payments.
+
+( * * *k)
+
+To establish and operate a nonprofit
+
+corporation for housing and community development purposes.
+( * * *l)
+
+To exercise all or any part or combination of
+
+powers herein granted.
+
+No provisions of law with respect to the acquisition,
+
+operation or disposition of property by other public bodies shall
+
+be applicable to an authority unless the Legislature shall
+
+specifically so state.
+
+SECTION 3.
+
+amended as follows:
+
+43-33-17.
+
+Section 43-33-17, Mississippi Code of 1972, is
+
+Any two (2) or more authorities may join or
+
+cooperate with one another in the exercise, either jointly or
+
+otherwise, of any or all of their powers for the purpose of
+S. B. No. 2257
+PAGE 10 (baf\kr)
+
+*SS26/R575*
+
+~ OFFICIAL ~
+
+financing (including the issuance of bonds, notes or other
+
+obligations and giving security therefor), planning, undertaking,
+
+owning, constructing, operating or contracting with respect to a
+
+housing project or projects or a mixed-finance project located
+
+within the area of operation of any one * * * or more of said
+
+authorities.
+
+prescribe and authorize any other housing authority or
+
+authorities, so joining or cooperating with it, to act on its
+
+behalf with respect to any or all of such powers.
+
+joining or cooperating with one another may by resolutions appoint
+
+from among the commissioners of such authorities an executive
+
+committee with full power to act on behalf of such authorities
+
+with respect to any or all of their powers, as prescribed by
+
+resolutions of such authorities.
+
+For such purpose an authority may by resolution
+
+SECTION 4.
+
+Any authorities
+
+The following shall be codified as Section
+
+43-33-52, Mississippi Code of 1972:
+43-33-52.
+
+The individual commissioners, directors,
+
+supervisory employees, and supervisory agents of a housing
+
+authority, whether such housing authority is formed under this
+
+chapter or by private act, while acting in the scope of their
+
+authority, including those entities that a housing authority or
+
+entity affiliated with a housing authority may form, incorporate,
+
+or join as a partner or member to develop or manage a
+
+mixed-finance project, and the directors, supervisory employees,
+
+and supervisory agents of such entities, while acting in the scope
+S. B. No. 2257
+PAGE 11 (baf\kr)
+
+*SS26/R575*
+
+~ OFFICIAL ~
+
+of their authority for the development or management of the
+
+mixed-finance project, enjoy the same protections and immunities
+
+that are presently provided for housing authority corporations
+
+under the laws of this state, and any protections and immunities
+
+that may be provided to housing authorities in the future under
+
+the laws of this state.
+
+SECTION 5.
+
+This act shall take effect and be in force from
+
+and after July 1, 2026.
+
+S. B. No. 2257
+PAGE 12 (baf\kr)
+
+~ OFFICIAL ~
+ST: Housing authorities; enable participation
+in mixed finance projects and self-insurance
+pooling arrangements.
+
+*SS26/R575*

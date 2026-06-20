@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act provides the following support for federal workers during a government shutdown:\r\n(1) In Section 1 of this Act, interest free loans to provide financial assistance.\r\n(2) In Section 2 of this Act, free transportation on public transit.\r\n(3) In Sections 3 through 6 of this Act, deferral of certain State, county, and school tax filings, payments, and collections.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 268",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 2, TITLE 9, TITLE 19, AND TITLE 30 OF THE DELAWARE CODE RELATING TO SUPPORT FOR FEDERAL WORKERS AFFECTED BY A GOVERNMENT SHUTDOWN."
+  },
+  "id": "SB 268",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "committee-passage-unfavorable"
+      ],
+      "date": "2026-06-17",
+      "description": "Reported Out of Committee (Administration) in House with 4 On Its Merits, 1 Unfavorable",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Administration"
+        }
+      ]
+    },
+    "bill_id": "SB 268"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB268/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB268/logs/20260617T000000Z_reported_out_of_committee_administration_in_house_with_4_on_its_merits_1_unfavorable.json"
+  },
+  "timestamp": "20260617T000000Z"
+}

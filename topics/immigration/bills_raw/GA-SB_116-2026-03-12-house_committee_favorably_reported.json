@@ -1,0 +1,40 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Chapter 3 of Title 35 of the Official Code of Georgia Annotated, relating to DNA sampling, collection, and analysis, so as to require the collection of DNA samples from any individual in a detention facility charged with a misdemeanor or felony who is subject to an immigration detainer notice; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 116",
+    "legislative_session": "2025_26",
+    "subject": [
+      "LAW ENFORCEMENT OFFICERS AND AGENCIES"
+    ],
+    "title": "DNA Sampling; the collection of DNA samples from any individual in a detention facility charged with a misdemeanor or felony who is subject to an immigration detainer notice; require"
+  },
+  "id": "SB 116",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage-favorable"
+      ],
+      "date": "2026-03-12",
+      "description": "House Committee Favorably Reported",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Public Safety and Homeland Security"
+        }
+      ]
+    },
+    "bill_id": "SB 116"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB116/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB116/logs/20260312T000000Z_house_committee_favorably_reported.json"
+  },
+  "timestamp": "20260312T000000Z"
+}

@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Elections, Voting, & Campaigns",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB433",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Elections"
+    ],
+    "title": "Campaign finance statements; redaction required of residential addresses of candidates and officials"
+  },
+  "id": "HB433",
+  "log": {
+    "action": {
+      "date": "2026-04-01T04:00:00+00:00",
+      "description": "Read for the Second Time and placed on the Calendar (County and Municipal Government)",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB433"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB433/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB433/logs/20260401T040000Z_read_for_the_second_time_and_placed_on_the_calendar_county_and_municipal_government.json"
+  },
+  "timestamp": "20260401T040000Z"
+}

@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act adds virtual currency to the money laundering definition in the criminal code and gives the State legal authority to attempt to return virtual currency for victims. It also provides that if money cannot be returned to the victims of the crime, or are outside of the United States, it should be disposed of per order of the Superior Court.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 465",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 11 OF THE DELAWARE CODE RELATING TO VIRTUAL CURRENCY."
+  },
+  "id": "HB 465",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-06-11",
+      "description": "Passed By House. Votes: 38 YES 1 NO 2 ABSENT",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 465"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB465/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB465/logs/20260611T000000Z.classification.passage.lower.json"
+  }
+}

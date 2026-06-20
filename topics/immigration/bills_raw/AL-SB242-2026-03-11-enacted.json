@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Motor Vehicles & Traffic",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB242",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Motor Vehicles & Traffic"
+    ],
+    "title": "Commercial driver licenses; possession of United States work authorization for certain commercial driver license holders required, proficiency in the English language for commercial motor vehicle required, procedures for impoundment provided for, offense of presenting a false foreign commercial driver license established, offense of operating a commercial motor vehicle without proper documentation established, penalties provided for"
+  },
+  "id": "SB242",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-03-11T04:00:00+00:00",
+      "description": "Enacted",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB242"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/SB242/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/SB242/logs/20260311T040000Z.classification.became-law.upper.json"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the California AI Transparency Act, requires, among other things, a person that creates, codes, or otherwise produces a generative artificial intelligence (AI) system that has over 1,000,000 monthly visitors or users and is publicly accessible within the geographic boundaries of the state to make available an AI detection tool at no cost to the user. The act requires the AI detection tool to, among other things, allow a user to assess whether the image, video, or audio content was created or altered by that person's generative AI system. Existing law makes the act operative on August 2, 2026.\n\nThe act requires a large online platform to detect whether any provenance data that is compliant with widely adopted specifications adopted by an established standards-setting body is embedded into or attached to content distributed on the large online platform.\n\nThis bill would instead require a large online platform to detect any system provenance data that is embedded into, attached to, or associated with content, as specified.\n\nThe California AI Transparency Act requires a large online platform to provide a user interface that, among other things, makes certain information clearly and conspicuously available to users. The act requires that information to include whether provenance data or digital signatures are available.\n\nThis bill would instead require that information to include whether provenance data or digital signatures are embedded into, attached to, or otherwise associated with the content.\n\nThe California AI Transparency Act requires a large online platform to allow a user to inspect all available system provenance data that is compliant with widely adopted specifications adopted by an established standards-setting body in an easily accessible manner. The act specifies 3 means of inspection, including directly through the large online platform's user interface, allowing a user to download a version of the content with its attached system provenance data, and providing a link to the content's system provenance data displayed on an internet website or in another application either by the large online platform or a third party.\n\nThis bill would instead require a large online platform to allow a user to inspect any system provenance data that is embedded into, attached to, or associated with content, as specified. The bill would allow a large online platform to satisfy that requirement by any of the 3 means of inspection, as revised by the bill. The first would be by displaying the system provenance data directly through the large online platform's user interface. The second would be by providing a link to an internet website or other application that displays the system provenance data, including a website or application operated by a third party. The third would be by allowing a user to download any provenance data embedded into, attached to, or otherwise associated with the content, subject to any applicable federal copyright laws, in a format that cannot be easily embedded into, attached to, or associated with unrelated content.\n\nThe California AI Transparency Act prohibits a large online platform from knowingly stripping provenance data or a digital signature, as specified, from content uploaded or distributed on the large online platform.\n\nThis bill would prohibit a large online platform from knowingly stripping provenance data or a digital signature that is downloaded from the large online platform.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2713",
+    "legislative_session": "20252026",
+    "subject": [
+      "CaliforniaAITransparencyAct",
+      "systemprovenancedata"
+    ],
+    "title": "California AI Transparency Act: system provenance data."
+  },
+  "id": "AB2713",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-1"
+      ],
+      "date": "2026-05-21",
+      "description": "In Senate. Read first time. To Com. on RLS. for assignment.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "AB2713"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2713/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2713/logs/20260521T000000Z_in_senate_read_first_time_to_com_on_rls_for_assignment.json"
+  },
+  "timestamp": "20260521T000000Z"
+}

@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "(1) Existing law authorizes the State Oil and Gas Supervisor to authorize the conversion of not more than 250 wells for use as gravity-based energy storage wells to evaluate their use, including the establishment of appropriate operating conditions and physical parameters to safely store and generate energy. Existing law repeals this authorization on January 1, 2035, and would specify that authorizations issued by the supervisor terminate on that date.\n\nThis bill would correct an erroneous cross reference for that authorization.\n\n(2) Existing law defines \"task force\" as the Wildfire and Forest Resilience Task Force established by the Governor to oversee the implementation of Executive Order No. B-52-18, and required the task force to, among other things, on January 1, 2022, develop a comprehensive implementation strategy to track and ensure the achievement of the goals and key actions identified in \"California's Wildfire and Forest Resilience Action Plan\" issued by the task force in January 2021, as provided.\n\nThis bill would make nonsubstantive changes to the definition of \"task force.\"\n\n(3) Existing law requires the State Lands Commission to adopt regulations relating to ballast water, as provided. Existing law requires the commission to adopt a regulation that requires an owner or operator of a vessel carrying, or capable of carrying, ballast water that operates on the waters of the state to comply with specified federal laws, as provided. Existing law requires the commission to consult with the United States Coast Guard to attempt to identify an alternative, environmentally sound method of ballast water management under specified circumstances in accordance with specified federal laws, as provided.\n\nThis bill would require the commission to adopt a regulation that requires an owner or operator of a vessel carrying, or capable of carrying, ballast water that operates on the waters of the state to instead comply with different specified federal law. The bill would also require the commission to consult with the United States Coast Guard on an alternative, environmentally sound method of ballast water management under specified circumstances in accordance with additional federal law.\n\n(4) Existing law lifts, until February 1, 2066, the use restrictions imposed by the granting statutes and the public trust doctrine with respect to after-acquired lands, property that is not original tidelands or submerged lands, title to which was not derived from the granting statutes, that were acquired with public trust funds derived from port operations as specified, in Jack London Square and authorizes the Port of Oakland to lease these lands for any purpose subject to specified conditions. Existing law authorizes the port to lease after-acquired lands for a nontrust use only if the port finds specified conditions are met, including, among other conditions, that the nontrust uses will not impair or harm existing public access or public trust uses and are intended to attract the statewide public to Jack London Square and the waterfront to promote increased use and enjoyment of the area. Existing law requires the port to make the findings that these specified conditions are met for each proposed nontrust lease at a public meeting.\n\nThis bill would correct an erroneous cross-reference relating to that requirement.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1428",
+    "legislative_session": "20252026",
+    "subject": [
+      "Gravity-BasedEnergyStorageWellPilotProgram",
+      "WildfireandForestResilienceTaskForce",
+      "marineinvasivespecies",
+      "publiclands"
+    ],
+    "title": "Gravity-Based Energy Storage Well Pilot Program: marine invasive species: Wildfire and Forest Resilience Task Force: public lands."
+  },
+  "id": "SB1428",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "date": "2026-06-09",
+      "description": "From committee: Do pass. Ordered to consent calendar. (Ayes 13. Noes 0.) (June 8).",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB1428"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1428/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1428/logs/20260609T000000Z_from_committee_do_pass_ordered_to_consent_calendar_ayes_13_noes_0_june_8.json"
+  },
+  "timestamp": "20260609T000000Z"
+}

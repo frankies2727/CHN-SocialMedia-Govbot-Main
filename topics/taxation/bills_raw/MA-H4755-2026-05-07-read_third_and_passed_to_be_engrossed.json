@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Gentile of Sudbury, a petition (accompanied by bill, House, No. 4755) of Carmine Lawrence Gentile (by vote of the town) for legislation to further regulate the means tested senior citizen property tax exemption in the town of Sudbury.  Revenue.  [Local Approval Received.]",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H4755",
+    "legislative_session": "194th",
+    "title": "An Act amending the means tested senior citizen property tax exemption in the town of Sudbury"
+  },
+  "id": "H4755",
+  "log": {
+    "action": {
+      "classification": [
+        "passage",
+        "reading-3"
+      ],
+      "date": "2026-05-07",
+      "description": "Read third and passed to be engrossed",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "H4755"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4755/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4755/logs/20260507T000000Z.classification.passage.lower.json"
+  }
+}

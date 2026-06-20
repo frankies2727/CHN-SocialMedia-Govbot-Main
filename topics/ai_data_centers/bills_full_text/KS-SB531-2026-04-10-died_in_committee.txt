@@ -1,0 +1,190 @@
+Session of 2026
+
+SENATE BILL No. 531
+By Committee on Federal and State Affairs
+3-9
+
+AN ACT concerning data centers; relating to the siting and development of
+large load data centers; prohibiting the installation, placement,
+construction or operation of any new large load data center in any
+county that has had a drought emergency declared for such county
+pursuant to the Kansas emergency management act within the
+preceding three years; amending K.S.A. 2025 Supp. 19-101a and
+repealing the existing section.
+Be it enacted by the Legislature of the State of Kansas:
+New Section 1. (a) As used in this section and section 2, and
+amendments thereto:
+(1) "Data center" means any facility, including any buildings,
+equipment, structures or other items of a facility that are:
+(A) Located on a single premises or on any contiguous and adjacent
+premises;
+(B) used by any person or entity to house computer and network
+systems and infrastructure, including, but not limited to, associated
+components such as servers, network equipment and appliances,
+communications and data storage systems, systems for monitoring and
+managing system and infrastructure performance, data communications
+connections, environmental controls, cooling or heat removal systems, fire
+protection systems and security systems and service; and
+(C) operated for the primary purpose of providing for the storage,
+management, processing and transferring of digital data.
+(2) "Large load data center" means any data center that is reasonably
+expected to have a monthly maximum electrical demand of 10 megawatts
+or more.
+(b) A new large load data center shall not be installed, placed,
+constructed or operated within any county that has had a drought
+emergency declared for such county pursuant to the Kansas emergency
+management act, K.S.A. 48-924 et seq., and amendments thereto, within
+the preceding three calendar years. The board of county commissioners of
+any such county shall deny any installation, placement, construction or
+operation of a new large load data center during any such three-calendaryear period following the declaration of a drought emergency for such
+county. The board of county commissioners of any such county may issue
+
+a moratorium to prohibit the installation, placement, construction or
+operation of any such data center until the end of such three calendar year
+period.
+New Sec. 2. (a) Nothing in this act shall be construed to apply to any
+large load data center that:
+(1) Was installed, placed, constructed or operated on or before July 1,
+2026; or
+(2) was authorized to be installed, placed, constructed or operated by
+a county or city prior to July 1, 2026, through:
+(A) The issuance of a building, zoning or development permit that
+authorizes the installation, placement, construction or operation of the
+large load data center pursuant to zoning regulations;
+(B) the issuance of a conditional or special use permit that authorizes
+the installation, placement, construction or operation of the large load data
+center notwithstanding zoning regulations; or
+(C) the execution of a written agreement between the county or city
+and the owner or operator of a large load data center that authorizes the
+installation, placement, construction or operation of the large load data
+center.
+(b) Nothing in this act shall preempt or prohibit a county or city from
+adopting or implementing planning and land use laws and regulations
+pursuant to K.S.A. 12-741 et seq., and amendments thereto, or any other
+statute that are more restrictive than the provisions of this act.
+Sec. 3. K.S.A. 2025 Supp. 19-101a is hereby amended to read as
+follows: 19-101a. (a) The board of county commissioners may transact all
+county business and perform all powers of local legislation and
+administration it that the board deems appropriate, subject only to the
+following limitations, restrictions or prohibitions:
+(1) Counties shall be subject to all acts of the legislature which that
+apply uniformly to all counties.
+(2) Counties may not affect the courts located therein.
+(3) Counties shall be subject to acts of the legislature prescribing
+limits of indebtedness.
+(4) In the exercise of powers of local legislation and administration
+authorized under provisions of this section, the home rule power conferred
+on cities to determine their local affairs and government shall not be
+superseded or impaired without the consent of the governing body of each
+city within a county which that may be affected.
+(5) Counties may not legislate on social welfare administered under
+state law enacted pursuant to or in conformity with public law No. 271 –
+74th congress, or amendments thereof.
+(6) Counties shall be subject to all acts of the legislature concerning
+elections, election commissioners and officers and their duties as such
+
+officers and the election of county officers.
+(7) Counties shall be subject to the limitations and prohibitions
+imposed under K.S.A. 12-187 through 12-195, and amendments thereto,
+prescribing limitations upon the levy of retailers' sales taxes by counties.
+(8) Counties may not exempt from or effect changes in statutes made
+nonuniform in application solely by reason of authorizing exceptions for
+counties having adopted a charter for county government.
+(9) No county may levy ad valorem taxes under the authority of this
+section upon real property located within any redevelopment project area
+established under the authority of K.S.A. 12-1772, and amendments
+thereto, unless the resolution authorizing the same specifically authorized
+a portion of the proceeds of such levy to be used to pay the principal of
+and interest upon bonds issued by a city under the authority of K.S.A. 121774, and amendments thereto.
+(10) Counties shall have no power under this section to exempt from
+any statute authorizing or requiring the levy of taxes and providing
+substitute and additional provisions on the same subject, unless the
+resolution authorizing the same specifically provides for a portion of the
+proceeds of such levy to be used to pay a portion of the principal and
+interest on bonds issued by cities under the authority of K.S.A. 12-1774,
+and amendments thereto.
+(11) Counties may not exempt from or effect changes in the
+provisions of K.S.A. 19-4601 through 19-4625, and amendments thereto.
+(12) Except as otherwise specifically authorized by K.S.A. 12-1,101
+through 12-1,109, and amendments thereto, counties may not levy and
+collect taxes on incomes from whatever source derived.
+(13) Counties may not exempt from or effect changes in K.S.A. 19430, and amendments thereto.
+(14) Counties may not exempt from or effect changes in K.S.A. 19302, 19-502b, 19-503, 19-805 or 19-1202, and amendments thereto.
+(15) Counties may not exempt from or effect changes in K.S.A. 1915,139, 19-15,140 and 19-15,141, and amendments thereto.
+(16) Counties may not exempt from or effect changes in the
+provisions of K.S.A. 12-1223, 12-1225, 12-1225a, 12-1225b, 12-1225c
+and, 12-1226, and amendments thereto, or the provisions of K.S.A. 121260 through 12-1270 and 12-1276, and amendments thereto.
+(17) Counties may not exempt from or effect changes in the
+provisions of K.S.A. 19-211, and amendments thereto.
+(18) Counties may not exempt from or effect changes in the
+provisions of K.S.A. 19-4001 through 19-4015, and amendments thereto.
+(19) Counties may not regulate the production or drilling of any oil or
+gas well in any manner which that would result in the duplication of
+regulation by the state corporation commission and the Kansas department
+
+of health and environment pursuant to chapter 55 and chapter 65 of the
+Kansas Statutes Annotated, and amendments thereto, and any rules and
+regulations adopted pursuant thereto. Counties may not require any license
+or permit for the drilling or production of oil and gas wells. Counties may
+not impose any fee or charge for the drilling or production of any oil or gas
+well.
+(20) Counties may not exempt from or effect changes in K.S.A. 7941a04, and amendments thereto.
+(21) Counties may not exempt from or effect changes in K.S.A. 791611, and amendments thereto.
+(22) Counties may not exempt from or effect changes in K.S.A. 791494, and amendments thereto.
+(23) Counties may not exempt from or effect changes in K.S.A. 19202(b), and amendments thereto.
+(24) Counties may not exempt from or effect changes in K.S.A. 19204(b), and amendments thereto.
+(25) Counties may not levy or impose an excise, severance or any
+other tax in the nature of an excise tax upon the physical severance and
+production of any mineral or other material from the earth or water.
+(26) Counties may not exempt from or effect changes in K.S.A. 792017 or 79-2101, and amendments thereto.
+(27) Counties may not exempt from or effect changes in K.S.A. 23302, 2-3305, 2-3307, 2-3318, 17-5904, 17-5908, 47-1219, 65-171d, 651,178 through 65-1,199, or 65-3001 through 65-3028, and amendments
+thereto.
+(28) Counties may not exempt from or effect changes in K.S.A. 80121, and amendments thereto.
+(29) Counties may not exempt from or effect changes in K.S.A. 19228, and amendments thereto.
+(30) Counties may not exempt from or effect changes in the Kansas
+act.
+(31) Counties may not exempt from or effect changes in K.S.A. 26601, and amendments thereto.
+(32) (A) Counties may not exempt from or effect changes in the
+Kansas liquor control act except as provided by paragraph (B).
+(B) Counties may adopt resolutions which that are not in conflict
+with the Kansas liquor control act.
+(33) (A) Counties may not exempt from or effect changes in the
+Kansas cereal malt beverage act except as provided by paragraph (B).
+(B) Counties may adopt resolutions which that are not in conflict
+with the Kansas cereal malt beverage act.
+(34) Counties may not exempt from or effect changes in the Kansas
+lottery act.
+
+(35) Counties may not exempt from or effect changes in the Kansas
+expanded lottery act.
+(36) Counties may neither exempt from nor effect changes to the
+eminent domain procedure act.
+(37) Any county granted authority pursuant to the provisions of
+K.S.A. 19-5001 through 19-5005, and amendments thereto, shall be
+subject to the limitations and prohibitions imposed under K.S.A. 19-5001
+through 19-5005, and amendments thereto.
+(38) Except as otherwise specifically authorized by K.S.A. 19-5001
+through 19-5005, and amendments thereto, counties may not exercise any
+authority granted pursuant to K.S.A. 19-5001 through 19-5005, and
+amendments thereto, including the imposition or levy of any retailers' sales
+tax.
+(39) Counties may not exempt from or effect changes in K.S.A. 65201 and 65-202(a), (b), (d), (e) and (f), and amendments thereto.
+(40) Counties may not exempt from or effect changes in the
+provisions of section 1, and amendments thereto.
+(b) Counties shall apply the powers of local legislation granted in
+subsection (a) by resolution of the board of county commissioners. If no
+statutory authority exists for such local legislation other than that set forth
+in subsection (a) and the local legislation proposed under the authority of
+such subsection is not contrary to any act of the legislature, such local
+legislation shall become effective upon passage of a resolution of the
+board and publication in the official county newspaper. If the legislation
+proposed by the board under authority of subsection (a) is contrary to an
+act of the legislature which that is applicable to the particular county but
+not uniformly applicable to all counties, such legislation shall become
+effective by passage of a charter resolution in the manner provided in
+K.S.A. 19-101b, and amendments thereto.
+(c) Any resolution adopted by a county which that conflicts with the
+restrictions in subsection (a) is null and void.
+Sec. 4. K.S.A. 2025 Supp. 19-101a is hereby repealed.
+Sec. 5. This act shall take effect and be in force from and after its
+publication in the statute book.

@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Save our Homes from Excessive Property Taxes;  Proposes amendments to State Constitution to revise limitation on annual assessment increases for specified real property, to increase homestead exemption, to provide limitation on use of ad valorem taxes levied by counties & municipalities, & to provide an effective date.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HJR 1F",
+    "legislative_session": "2026F",
+    "subject": [
+      "concurrent)",
+      "constitutional amendments"
+    ],
+    "title": "Save our Homes from Excessive Property Taxes"
+  },
+  "id": "HJR 1F",
+  "log": {
+    "action": {
+      "date": "2026-06-02",
+      "description": "Placed on Calendar, on 2nd reading",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HJR 1F"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026F/bills/HJR1F/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026F/bills/HJR1F/logs/20260602T000000Z_placed_on_calendar_on_2nd_reading.json"
+  },
+  "timestamp": "20260602T000000Z"
+}

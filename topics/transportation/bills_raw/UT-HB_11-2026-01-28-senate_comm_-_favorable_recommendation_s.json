@@ -1,0 +1,42 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 11",
+    "legislative_session": "2026",
+    "subject": [
+      "Crimes",
+      "Department of Public Safety",
+      "Energy",
+      "Fossil Fuels",
+      "Law Enforcement and Criminal Justice",
+      "Oil and Gas",
+      "Roads/Highways",
+      "Traffic Violations",
+      "Transportation"
+    ],
+    "title": "Dyed Diesel Fuel Search Amendments"
+  },
+  "id": "HB 11",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage-favorable"
+      ],
+      "date": "2026-01-28T21:51:30+00:00",
+      "description": "Senate Comm - Favorable Recommendation [Senate Revenue and Taxation Committee]",
+      "organization_id": "~{\"classification\": \"upper\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Revenue and Taxation"
+        }
+      ]
+    },
+    "bill_id": "HB 11"
+  },
+  "sources": {
+    "bill": "ut-legislation/country:us/state:ut/sessions/2026/bills/HB11/metadata.json",
+    "log": "ut-legislation/country:us/state:ut/sessions/2026/bills/HB11/logs/20260128T215130Z_senate_comm_favorable_recommendation_senate_revenue_and_taxation_committee.json"
+  },
+  "timestamp": "20260128T215130Z"
+}

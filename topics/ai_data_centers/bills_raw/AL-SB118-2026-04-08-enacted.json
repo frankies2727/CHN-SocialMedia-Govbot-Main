@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Authorities, Boards, & Commissions",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB118",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Authorities"
+    ],
+    "title": "Alabama Justice Information Commission; collection, dissemination, and use of biometric identifiers by certain entities provided for; Alabama Background Check Service established, types, uses, and fees for certain background checks for noncriminal justice purposes authorized; Alabama Rap Back Program established, penalties provided for; existing law relating to release of criminal history information repealed"
+  },
+  "id": "SB118",
+  "log": {
+    "action": {
+      "classification": [
+        "became-law"
+      ],
+      "date": "2026-04-08T04:00:00+00:00",
+      "description": "Enacted",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB118"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/SB118/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/SB118/logs/20260408T040000Z.classification.became-law.upper.json"
+  }
+}

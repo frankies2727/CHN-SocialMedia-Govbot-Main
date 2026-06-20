@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB2044",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Insurance"
+    ],
+    "title": "Providing a income tax subtraction modification for amounts received as compensation for serving in the armed forces and providing that a person shall not lose eligibility for a homestead property tax refund claim or the selective assistance for effective senior relief (SAFESR) income tax credit if the appraised valuation of the homestead subsequently exceeds $350,000 after qualifying in a previous tax year."
+  },
+  "id": "HB2044",
+  "log": {
+    "action": {
+      "date": "2026-04-10",
+      "description": "Enrolled and presented to Governor on Friday, April 17, 2026",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB2044"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2044/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2044/logs/20260410T000000Z_enrolled_and_presented_to_governor_on_friday_april_17_2026.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

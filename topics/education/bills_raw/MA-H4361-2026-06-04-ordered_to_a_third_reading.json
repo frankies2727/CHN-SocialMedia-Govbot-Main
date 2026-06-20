@@ -1,0 +1,22 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H4361",
+    "legislative_session": "194th",
+    "title": "An Act relative to benefits for teachers"
+  },
+  "id": "H4361",
+  "log": {
+    "action": {
+      "date": "2026-06-04",
+      "description": "Ordered to a third reading",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "H4361"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4361/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4361/logs/20260604T000000Z_ordered_to_a_third_reading.json"
+  },
+  "timestamp": "20260604T000000Z"
+}

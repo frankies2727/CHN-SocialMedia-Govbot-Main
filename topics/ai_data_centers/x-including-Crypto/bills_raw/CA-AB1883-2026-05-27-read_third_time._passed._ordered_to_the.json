@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes the Division of Labor Standards Enforcement within the Department of Industrial Relations. Existing law authorizes the division, which is headed by the Labor Commissioner, to enforce the Labor Code and all labor laws of the state, the enforcement of which is not specifically vested in any other officer, board, or commission.\n\nThis bill would generally regulate the use of workplace surveillance tools and an employer's use of worker data. The bill would prohibit an employer from using a workplace surveillance tool on workers for various purposes, including preventing compliance with laws or regulations, inferring information about workers engaging in a protected activity, making inferences about an individual's emotional state or based on their gait, or collecting neural data. The bill would prohibit an employer from using facial recognition technology to make inferences about a worker for firing, deactivation, or disciplinary purposes. The bill would, with certain exceptions, also prohibit an employer from using a workplace surveillance tool to infer specified categories of information about a worker, including, among others, their veteran status, ancestral history, religious beliefs, or disability status.\n\n This bill would require the Labor Commissioner to enforce the bill's provisions, would authorize an employee to bring a civil action for specified remedies for a violation of the bill's provisions, and would authorize a public prosecutor to enforce the provisions. The bill would subject an employer who violates the bill's provisions to a civil penalty of up to $500 for each violation. The bill would define various terms for purposes of its provisions.\n\nThis bill would exempt from its provisions the use of a workplace artificial intelligence tool or a workplace surveillance tool to the extent that its use is required by, or reasonably necessary to comply with, a federal statute, federal regulation, or binding federal contract relating to the development of aircraft for use in the national airspace or the development of products or services for national security, military, space, or defense purposes.\n\nThe bill would include findings that changes proposed by this bill address a matter of statewide concern rather than a municipal affair and, therefore, apply to all cities, including charter cities.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1883",
+    "legislative_session": "20252026",
+    "subject": [
+      "Workplacesurveillancetools"
+    ],
+    "title": "Workplace surveillance tools."
+  },
+  "id": "AB1883",
+  "log": {
+    "action": {
+      "classification": [
+        "passage",
+        "reading-1",
+        "reading-3"
+      ],
+      "date": "2026-05-27",
+      "description": "Read third time. Passed. Ordered to the Senate. (Ayes 52. Noes 12.)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB1883"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1883/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1883/logs/20260527T000000Z.classification.passage.lower.json"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "PS0731",
+    "legislative_session": "2025-2028",
+    "title": "Para crear la “Ley de Subastas Públicas con Inteligencia Artificial y Transparencia\nGubernamental de Puerto Rico”; a los fines de centralizar la totalidad de las\ncompras, adquisiciones y subastas públicas bajo la Administración de Servicios\nGenerales de Puerto Rico (ASG), disponer la obligatoriedad de uso de la\nplataforma JEDI en todas las agencias, departamentos, corporaciones públicas y\ndemás instrumentalidades del Gobierno de Puerto Rico; establecer la\nincorporación de sistemas de inteligencia artificial y modelos de lenguaje de gran\ntamaño (LLM) en los procesos de adquisición; crear un Registro Público de\nAlgoritmos; fijar los deberes de la ASG, de la Oficina de Innovación y Servicios de\nTecnología (PRITS) y de las agencias; establecer sanciones por incumplimiento; y\nderogar disposiciones legales en conflicto."
+  },
+  "id": "PS0731",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-05-28T04:00:00+00:00",
+      "description": "Aprobado por el Senado en Votación Final",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "PS0731"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PS0731/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PS0731/logs/20260528T040000Z.classification.passage.upper.json"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "RCS0151",
+    "legislative_session": "2025-2028",
+    "title": "Para designar con el nombre de “Miguel A. Rodríguez Villafañe”, el Centro Educativo\nTecnológico del residencial Ponce Housing ubicado en el Municipio de Ponce,\nPuerto Rico, para reconocer su compromiso inquebrantable con la educación y su\ngran dedicación a la comunidad."
+  },
+  "id": "RCS0151",
+  "log": {
+    "action": {
+      "classification": [
+        "amendment-passage"
+      ],
+      "date": "2026-04-20T04:00:00+00:00",
+      "description": "Aprobado con enmiendas en sala",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "RCS0151"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RCS0151/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RCS0151/logs/20260420T040000Z_aprobado_con_enmiendas_en_sala.json"
+  },
+  "timestamp": "20260420T040000Z"
+}

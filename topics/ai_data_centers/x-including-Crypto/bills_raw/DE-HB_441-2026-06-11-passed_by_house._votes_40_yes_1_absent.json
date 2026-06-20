@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act prohibits cryptocurrency kiosks and mandates removal of existing cryptocurrency kiosks within 90 days of the effective date of the Act. A violation of the Act is an unlawful practice and prohibited trade practice. This Act also prohibits the circumvention of the kiosk ban through cashier-assisted or point-of-sale cryptocurrency transactions and extends liability to persons who facilitate such transactions or knowingly allow such activity to occur on their premises.  Violators are subject to injunctive relief, a civil penalty not to exceed $10,000, and a private right of action for damages caused by the violation.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 441",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 6 OF THE DELAWARE CODE RELATING TO CRYPTOCURRENCY KIOSKS."
+  },
+  "id": "HB 441",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-06-11",
+      "description": "Passed By House. Votes: 40 YES 1 ABSENT",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 441"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB441/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB441/logs/20260611T000000Z.classification.passage.lower.json"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 2416",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "child abuse",
+      "evidence",
+      "informed consent",
+      "juvenile courts",
+      "juvenile justice",
+      "law enforcement officers",
+      "reports"
+    ],
+    "title": "A bill for an act relating to interviews conducted with a child subsequent to a report of child abuse."
+  },
+  "id": "SF 2416",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-02-19",
+      "description": "Committee report, approving bill.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 2416"
+  },
+  "sources": {
+    "bill": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2416/metadata.json",
+    "log": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2416/logs/20260219T000000Z_committee_report_approving_bill.json"
+  },
+  "timestamp": "20260219T000000Z"
+}

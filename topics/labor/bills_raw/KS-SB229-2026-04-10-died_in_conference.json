@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB229",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "HB 2764",
+      "Legislature",
+      "Licenses and Licensure",
+      "Rules and Regulations, Administrative"
+    ],
+    "title": "House Substitute for SB 229 by Committee on Commerce, Labor and Economic Development - Providing amendments, suspensions or repeals of employment security law provisions should follow specified review procedures by the legislature, authorizing the secretary of labor to recognize and approve employer-sponsored supplemental unemployment benefit plans if such plans meet specific criteria and integrating such plans into the employment security law, updating and reorganizing statutory language, enhancing federal conformity by incorporating references to federal laws and guidelines, updating temporary unemployment provisions and providing for eight weeks of temporary unemployment benefits, eliminating debt relief provisions for negative balance employers and other updates to the employment security law."
+  },
+  "id": "SB229",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died in Conference",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB229"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB229/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/SB229/logs/20260410T000000Z_died_in_conference.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

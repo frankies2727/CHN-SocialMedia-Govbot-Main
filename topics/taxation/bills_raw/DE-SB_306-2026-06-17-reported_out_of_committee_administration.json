@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act amends the City of Rehoboth Beach’s Charter by making all of the following changes requested by The Commissioners of the City of Rehoboth Beach (Rehoboth Beach):\r\n1. Adds qualifications for candidates to be eligible for election or appointment to serve as a member of The Commissioners, including the Mayor, and requires a candidate to file an affidavit of eligibility attesting that the candidate meets the required qualifications. A candidate for election or appointment must meet all of the following qualifications:\r\n- The candidate is not a spouse, domestic partner, or cohabitant of a serving member of The Commissioners. \r\n- The candidate does not share a financial interest with a serving member of The Commissioners \r\n2. Eliminates mileage reimbursement for non-resident Commissioners.\r\n3. Updates the process for fixing the salaries for members of The Commissioners, including the Mayor, by allowing The Commissioners to fix the salaries by ordinance. An ordinance to increase salaries may not take effect earlier than 6 months after the ordinance is adopted.\r\n4. Eliminates the Mayor’s civil and criminal jurisdiction because Rehoboth Beach has an Alderman and Assistant Alderman with civil and criminal jurisdiction. Also eliminates the Mayor’s duty to keep a docket of official acts and to report fines the Mayor imposes because the Mayor’s Court is eliminated. The Alderman and Assistant Alderman are required to record all official acts in the Alderman’s docket. Also, information regarding actions taken by the Mayor and the other Commissioners is available on Rehoboth Beach’s public website.\r\n5. Adds a new subsection under Section 13 of the Charter to clarify that the Mayor retains the power to solemnize marriages in Rehoboth Beach, even though the Mayor’s Court is eliminated.\r\n6. Eliminates the penalties for the Mayor failing to return documents and moneys belonging to Rehoboth Beach at the end of the Mayor’s term. Due to advancements in technology, the Mayor does not physically hold moneys belonging to Rehoboth Beach and documents belonging to Rehoboth Beach are stored electronically.\r\n7. For violating an ordinance, increases the maximum fine from $500 to $2,500 and removes the penalties of imprisonment and being ordered to work while imprisoned.\r\n8. Updates the Auditors of Accounts section to do all of the following:\r\n- Require the appointment of 1 certified public accountant or accounting firm to serve as an independent Auditor of Accounts (Auditor) for a 5-year term.\r\n- Prohibit reappointment of an Auditor until the expiration of 5 years since the Auditor last served.\r\n- Remove the requirement that the Auditor to be a substantial freeholder in Rehoboth Beach.\r\n- Change publication of the auditor’s report from a newspaper to the Rehoboth Beach website.\r\n9. Removes the minimum valuation for real estate or improvements subject to assessment.\r\n10. Adds the option for Rehoboth Beach to adopt county assessments for municipal tax purposes in compliance with Chapter 11 of Title 22 of the Delaware Code.\r\n11. If Rehoboth Beach does not adopt county assessments, requires the Tax Assessor must reassess property at least every 5 years, to mirror the county reassessments required under § 8306 of Title 9 of the Delaware Code.\r\n12. Updates the deadline for certification of a quarterly supplemental tax list to match Rehoboth Beach’s fiscal year.\r\n13. Requires Rehoboth Beach to calculate the rolled-back rate and to provide notice of the difference between the rolled-back rate and the tax rate set by The Commissioners, as provided in § 1105 of Title 22 of the Delaware Code.\r\n14. Changes the deadline for preparing the City Budget from May to March and changes the deadline for levying annual taxes from June to March because Rehoboth Beach’s fiscal year begins on April 1.\r\n15. Updates the process for fixing the compensation or salary for Rehoboth Beach’s employees, officers, and agents, other than the members of the Commissioners, to conform with modern practices. Salary or compensation is fixed in the City Budget instead of at the annual meeting.\r\n16. Removes The Commissioners’ powers to do all of the following because the powers are no longer relevant  to present day and are no longer exercised by The Commissioners:\r\n- Regulate the observance of the Sabbath Day.\r\n- Establish and regulate pounds.\r\n- Prohibit or impound wild or domestic animals.\r\n- Impose taxes on dog owners.\r\n- Collect a per capita tax on all persons who are qualified to vote in the annual municipal election.\r\n17. Changes the cap on real estate taxes from $3,000,000 to 0.1% of the fully assessed value of all real estate located in Rehoboth Beach.\r\n\r\nThis Act also makes technical corrections to conform existing law to the standards of the Delaware Legislative Drafting Manual, including reorganizing paragraphs, deleting redundant language, correcting typos and misspellings, fixing tabulation, and editing outdated or unclear language. The changes to Sections 7, 29A, and 38 of the Charter are technical changes and not substantive changes. These changes to these Sections to fix typos and misspellings, correct internal references, use consistent terms, and reorganize the Sections so that the language is more clear.\r\n \r\nThis Act requires a greater than majority vote for passage because § 1 of Article IX of the Delaware Constitution requires the affirmative vote of two-thirds of the members elected to each house of the General Assembly to amend a municipal charter.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 306",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND THE CHARTER OF THE CITY OF REHOBOTH BEACH."
+  },
+  "id": "SB 306",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "committee-passage-unfavorable"
+      ],
+      "date": "2026-06-17",
+      "description": "Reported Out of Committee (Administration) in House with 3 On Its Merits, 1 Unfavorable",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Administration"
+        }
+      ]
+    },
+    "bill_id": "SB 306"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB306/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB306/logs/20260617T000000Z_reported_out_of_committee_administration_in_house_with_3_on_its_merits_1_unfavorable.json"
+  },
+  "timestamp": "20260617T000000Z"
+}

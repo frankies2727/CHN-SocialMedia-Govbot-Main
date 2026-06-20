@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HF 3739",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Highways, Roads, and Bridges",
+      "Transportation and Transportation Department"
+    ],
+    "title": "Marked Trunk Highway 610 designated as Hortman Memorial Highway."
+  },
+  "id": "HF 3739",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-03-05",
+      "description": "Committee report, to adopt and re-refer to Ways and Means",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HF 3739"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF3739/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF3739/logs/20260305T000000Z_committee_report_to_adopt_and_rerefer_to_ways_and_means.json"
+  },
+  "timestamp": "20260305T000000Z"
+}

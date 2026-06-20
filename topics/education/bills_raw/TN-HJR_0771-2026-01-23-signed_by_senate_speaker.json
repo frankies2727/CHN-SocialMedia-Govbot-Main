@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HJR 0771",
+    "legislative_session": "114",
+    "subject": [
+      "Memorials",
+      "Professional Achievement"
+    ],
+    "title": "Memorials, Professional Achievement - Stephanie Carr, Sevier County School System PreK-4 Teacher of the Year -"
+  },
+  "id": "HJR 0771",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-01-23",
+      "description": "Signed by Senate Speaker",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HJR 0771"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HJR0771/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HJR0771/logs/20260123T000000Z.classification.passage.upper.json"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "OGSR/Persons Provided Public Emergency Shelter;  Amending a provision which provides an exemption from public records requirements for the addresses and telephone numbers of persons provided public emergency shelter and held by the agency that provided the emergency shelter; deleting the scheduled repeal of the exemption, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 7000",
+    "legislative_session": "2026",
+    "subject": [
+      "military affairs and related matters",
+      "subject index"
+    ],
+    "title": "OGSR/Persons Provided Public Emergency Shelter"
+  },
+  "id": "SB 7000",
+  "log": {
+    "action": {
+      "classification": [
+        "enrolled"
+      ],
+      "date": "2026-03-17",
+      "description": "Ordered enrolled",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 7000"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB7000/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB7000/logs/20260317T000000Z_ordered_enrolled.json"
+  },
+  "timestamp": "20260317T000000Z"
+}

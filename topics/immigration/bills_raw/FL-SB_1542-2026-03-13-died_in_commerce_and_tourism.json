@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Immigration;  Revising the duties and responsibilities of the Office of Economic Accountability and Transparency within the Department of Commerce; revising penalties, including suspension and revocation of certain licenses and the imposition of fines, for violating provisions related to employing unauthorized aliens; requiring that such fines be deposited into a specified trust fund; requiring that all private employers, rather than only those employing a specified number or more of employees, use the E-Verify system to verify a new employee’s employment eligibility, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1542",
+    "legislative_session": "2026",
+    "subject": [
+      "relations",
+      "subject index"
+    ],
+    "title": "Immigration"
+  },
+  "id": "SB 1542",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in Commerce and Tourism",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1542"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB1542/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB1542/logs/20260313T000000Z_died_in_commerce_and_tourism.json"
+  },
+  "timestamp": "20260313T000000Z"
+}

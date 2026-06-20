@@ -1,0 +1,1309 @@
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+V
+
+E
+
+A bill to be entitled
+
+An act relating to prohibited governmental policies
+
+regulating greenhouse gas emissions; creating s.
+
+377.816, F.S.; providing legislative findings;
+
+providing definitions; prohibiting governmental
+
+entities from adopting certain net zero policies;
+
+prohibiting governmental entities from using
+
+government funds in any manner that supports,
+
+implements, or advances certain net zero policies;
+
+prohibiting governmental entities from imposing a tax,
+
+fee, penalty, charge, offset, or assessment to advance
+
+certain net zero policies; requiring each governmental
+
+entity to annually submit to the Department of Revenue
+
+a certain affidavit; prohibiting governmental entities
+
+from implementing, administering, or enforcing certain
+
+programs; providing applicability; amending ss.
+
+125.01, 166.021, and 166.201, F.S.; conforming
+
+provisions to changes made by the act; providing an
+
+effective date.
+
+Be It Enacted by the Legislature of the State of Florida:
+
+Section 1.
+
+Section 377.816, Florida Statutes, is created
+
+to read:
+377.816
+
+Prohibiting the adoption or implementation of net
+
+CODING: Words stricken are deletions; words underlined are additions.
+hb1217-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+zero policies by governmental entities.—
+(1)(a)
+
+The Legislature finds that net zero policies,
+
+carbon taxes and assessments, and carbon emission trading
+
+programs, commonly known as "cap-and-tax" or "cap-and-trade"
+
+programs, are detrimental to this state's energy security and
+
+economic interests.
+(b)
+
+It is the policy of this state to adopt and promote
+
+energy policy goals consistent with the energy policy of this
+
+state, as set forth in s. 377.601, and to prohibit the adoption
+
+or implementation of net zero policies by a governmental entity,
+
+including through government expenditures, taxes, assessments,
+
+or trading programs.
+
+(2)
+
+As used in this section:
+
+(a)
+
+"Business activity" means any activity, or series of
+
+activities, that:
+1.
+
+Involves the emission of a greenhouse gas, or a
+
+combination thereof.
+2.
+
+Forms a single undertaking or enterprise, taking into
+
+account any relevant circumstances.
+(b)
+
+"Carbon-intensive activity" means any business
+
+activity, or any other activity performed by any individual,
+
+which supports:
+
+E
+
+V
+
+1.
+
+The movement of individuals or goods through common
+
+methods of transportation, including automobiles, commercial
+
+vehicles, freight haulers, aircraft, vessels, pipelines,
+CODING: Words stricken are deletions; words underlined are additions.
+hb1217-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+delivery devices, and other similar transportation methods. This
+
+includes the use of energy resources to power or operate such
+
+transportation methods.
+2.
+
+The creation or transmission of energy resources for
+
+the following commercial and residential uses: electricity;
+
+manufacturing; the sustainment of human life, including, but not
+
+limited to, refrigeration and cooling in enclosed or partially
+
+enclosed spaces; waste management; and the operation of
+
+manufacturing of appliances for human use.
+
+3.
+
+The performance of activities to support the production
+
+of any carbon-intensive product, including, but not limited to,
+
+farming, agriculture, hunting and gathering, or the taking of
+
+fish and wildlife to sustain human life.
+
+E
+
+V
+
+4.
+
+The use of traditional authorized methods to take fish
+
+and wildlife resources.
+5.
+
+The mining, exploration, or manufacturing of products
+
+to support the continued livelihood of mankind.
+(c)
+
+"Carbon-intensive product" means any of the following
+
+products, including any product containing a component thereof:
+1.
+
+A product containing iron; steel; steel mill,
+
+including, but not limited to, pipes and tubes; aluminum;
+
+cement; glass, including, but not limited to, flat, container,
+
+or specialty glass, or fiberglass; oil; minerals; metals; pulp;
+
+and paper.
+
+2.
+
+Any agricultural commodity or product, whether raw or
+
+CODING: Words stricken are deletions; words underlined are additions.
+hb1217-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+processed, including any commodity or product derived from
+
+livestock that is marketed in the United States for human or
+
+animal consumption. This includes agricultural, aquacultural,
+
+horticultural, viticultural, and dairy products; livestock and
+
+the products thereof; the products of poultry and bee raising;
+
+the edible products of forestry; and all products raised or
+
+produced on farms, and processed or manufactured products
+
+thereof, transported or intended to be transported in interstate
+
+or foreign commerce.
+
+(d)
+
+"Emissions" means greenhouse gases released, by any
+
+individual or entity, into the atmosphere or air.
+
+(e)
+
+"Governmental entity" means:
+
+1.
+
+The state, and any political subdivision thereof,
+
+including the executive, legislative, and judicial branches of
+
+state government.
+
+2.
+
+A county; a municipality; a special district, including
+
+an independent community development district, a neighborhood
+
+improvement district, and an independent special district; and
+
+any authority, board, or commission of such governmental
+
+entities.
+
+E
+
+V
+
+3.
+
+A state agency, a county agency, or any other entity,
+
+however styled, that independently exercises any type of state
+
+or local governmental function, that is subject to this chapter.
+
+(f)
+
+"Government funds" means:
+
+1.
+
+State funds pursuant to s. 215.31, and any other moneys
+
+CODING: Words stricken are deletions; words underlined are additions.
+hb1217-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+of the state.
+
+2.
+
+Funds of the judicial branch, including any moneys of
+
+all officers, employees, and offices of the Supreme Court,
+
+district courts of appeal, circuit courts, county courts, and
+
+the Judicial Qualifications Commission.
+3.
+
+Local government funds, including any moneys of a
+
+county, municipality, school district, special district, and any
+
+other political subdivision, including a consolidated
+
+government, metropolitan government, town, and village.
+
+4.
+
+Funds of public officials and constitutional officers.
+
+5.
+
+State university or Florida College System institution
+
+funds.
+
+6.
+
+E
+
+V
+
+Funds of any agency, board, bureau, commission, or
+
+institution of any of the foregoing.
+
+(g)
+
+"Greenhouse gases" means:
+
+1.
+
+Carbon dioxide.
+
+2.
+
+Methane.
+
+3.
+
+Nitrous oxide.
+
+4.
+
+Hydrofluorocarbons.
+
+5.
+
+Perfluorocarbons.
+
+6.
+
+Sulphur hexafluoride.
+
+7.
+
+Nitrogen trifluoride.
+
+(h)
+
+"Net zero policies" means any target, threshold,
+
+initiative, action, framework, requirement, or policy associated
+
+with reducing the use of carbon-intensive products or
+CODING: Words stricken are deletions; words underlined are additions.
+hb1217-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+activities, including a requirement imposed by a governmental
+
+entity that requires:
+1.
+
+The governmental entity to meet a statewide, regional,
+
+or geographically specific reduction in greenhouse gas emissions
+
+in an amount equal to zero, or when annual anthropogenic
+
+emissions of greenhouse gases into the atmosphere are balanced
+
+by removal over a specific period of time.
+
+2.
+
+An individual or business activity, including any
+
+carbon-intensive activity, to:
+a.
+
+Meet a specific reduction in greenhouse gas emissions
+
+in an amount equal to zero, or when annual anthropogenic
+
+emissions of greenhouse gases into the atmosphere are balanced
+
+by removal over a specific period of time.
+
+b.
+
+Meet any goal of the Paris Agreement, defined as the
+
+resolution adopted by the United Nations Framework Convention on
+
+Climate Change's 21st Conference of Parties in Paris, France, or
+
+any similar initiative adopted by the Federal Government or any
+
+geopolitical organization affiliated with the World Bank or
+
+World Economic Forum.
+
+c.
+
+Support the goal of any regional governing authority or
+
+multistate entity that commits to a reduction in greenhouse gas
+
+emissions in an amount equal to zero, or when annual
+
+anthropogenic emissions of greenhouse gases into the atmosphere
+
+are balanced by removal over a specific period of time.
+
+E
+
+V
+
+d.
+
+Restrict any carbon-intensive activity of any
+
+CODING: Words stricken are deletions; words underlined are additions.
+hb1217-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+individual or business that would otherwise not be restricted
+
+for the sole purpose of meeting net zero policies; however, this
+
+sub-subparagraph does not legalize any activity that would
+
+otherwise be considered illegal activity.
+e.
+
+Prohibit the use, sale, purchase, or exchange of any
+
+carbon-intensive product or carbon for the sole purpose of
+
+meeting net zero policies; however, this sub-subparagraph does
+
+not legalize any activity that would otherwise be considered
+
+illegal activity.
+
+(3)
+
+A governmental entity may not adopt, or require any
+
+individual to adopt, net zero policies. This prohibition
+
+includes, but is not limited to, references to, or the inclusion
+
+of, such policies in comprehensive plans, land development
+
+regulations, transportation plans, or any published or adopted
+
+government policy, program, or procedure.
+
+(4)
+
+A governmental entity may not use government funds in
+
+any manner that supports, implements, or advances net zero
+
+policies, including, but not limited to:
+
+(a)
+
+Providing procurement or purchasing preferences for
+
+products that are not carbon-intensive products.
+(b)
+
+Providing purchasing preferences for passenger
+
+vehicles, commercial vehicles, or heavy equipment based solely
+
+on the fuel source.
+
+E
+
+V
+
+(c)
+
+Using government funds to pay dues for any
+
+nongovernmental agency or organization, including any trade
+CODING: Words stricken are deletions; words underlined are additions.
+hb1217-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+association or organization, that adopts or supports net zero
+
+policies.
+(5)(a)
+
+A governmental entity may not impose a tax, fee,
+
+penalty, charge, offset, or assessment to advance net zero
+
+policies, including, but not limited to:
+
+1.
+
+The carbon content of a fuel;
+
+2.
+
+The emission of greenhouse gases that results from the
+
+use, production, or consumption of any good or service;
+
+3.
+
+Any carbon-intensive activity; or
+
+4.
+
+The use, sale, purchase, or exchange of any carbon-
+
+intensive product or carbon-intensive activity.
+(b)
+
+Each governmental entity shall annually submit to the
+
+Department of Revenue an affidavit, signed under penalty of
+
+perjury by an authorized official of the governmental entity,
+
+attesting to compliance with this paragraph (a).
+
+(6)
+
+A governmental entity may not implement, administer,
+
+or enforce any program that has the effect of:
+(a)
+
+Establishing a statewide, regional, or geographic
+
+limit or cap on the amount of greenhouse gas emissions that
+
+results from the use, production, or consumption of any carbon-
+
+intensive product or carbon-intensive activity.
+
+(b)
+
+Providing for the allocation, auction, or transfer of
+
+emissions allowances or credits among pollutant sources as a
+
+means of compliance with greenhouse gas emission limits.
+
+E
+
+V
+
+(c)
+
+Requiring a governmental entity or any individual in
+
+CODING: Words stricken are deletions; words underlined are additions.
+hb1217-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+this state to participate in an emissions trading program.
+(7)
+
+This section applies to any proposed action by a
+
+governmental entity on or after July 1, 2026, that is not
+
+otherwise permissible by general law.
+
+Section 2.
+
+Paragraphs (g), (h), and (r) of subsection (1)
+
+of section 125.01, Florida Statutes, are amended to read:
+
+125.01
+
+(1)
+
+Powers and duties.—
+
+The legislative and governing body of a county shall
+
+have the power to carry on county government. To the extent not
+
+inconsistent with general or special law, this power includes,
+
+but is not restricted to, the power to:
+
+(g)
+
+Prepare and enforce comprehensive plans for the
+
+development of the county, to the extent such plans do not
+
+contain the prohibitions in s. 377.816.
+
+(h)
+
+Establish, coordinate, and enforce zoning and such
+
+business regulations as are necessary for the protection of the
+
+public, to the extent such zoning and business regulations do
+
+not include the prohibitions in s. 377.816.
+
+E
+
+V
+
+(r)
+
+Levy and collect taxes, both for county purposes and
+
+for the providing of municipal services within any municipal
+
+service taxing unit, and special assessments; borrow and expend
+
+money; and issue bonds, revenue certificates, and other
+
+obligations of indebtedness, excluding the prohibitions in s.
+
+377.816, which power shall be exercised in such manner, and
+
+subject to such limitations, as may be provided by general law.
+CODING: Words stricken are deletions; words underlined are additions.
+hb1217-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+A There shall be no referendum is not required for the levy by a
+
+county of ad valorem taxes, both for county purposes and for the
+
+providing of municipal services within any municipal service
+
+taxing unit.
+
+1.
+
+Notwithstanding any other provision of law, a county
+
+may not levy special assessments on lands classified as
+
+agricultural lands under s. 193.461 unless the revenue from such
+
+assessments has been pledged for debt service and is necessary
+
+to meet obligations of bonds or certificates issued by the
+
+county which remain outstanding on July 1, 2023, including
+
+refundings thereof for debt service savings where the maturity
+
+of the debt is not extended. For bonds or certificates issued
+
+after July 1, 2023, special assessments securing such bonds may
+
+not be levied on lands classified as agricultural under s.
+
+193.461.
+
+2.
+
+The provisions of Subparagraph 1. does do not apply to
+
+residential structures and their curtilage.
+Section 3.
+
+Subsection (2) of section 166.021, Florida
+
+Statutes, is amended to read:
+
+166.021
+
+(2)
+
+Powers.—
+
+"Municipal purpose" means any activity or power which
+
+may be exercised by the state or its political subdivisions. The
+
+term does not include any activity or power exercised relating
+
+to the prohibitions in s. 377.816.
+
+E
+
+V
+
+Section 4.
+
+Section 166.201, Florida Statutes, is amended
+
+CODING: Words stricken are deletions; words underlined are additions.
+hb1217-00
+
+S
+
+F
+
+L
+
+O
+
+R
+
+I
+
+D
+
+A
+
+H
+
+O
+
+U
+
+S
+
+E
+
+O
+
+F
+
+R
+
+E
+
+P
+
+R
+
+E
+
+S
+
+E
+
+N
+
+T
+
+A
+
+T
+
+I
+
+E
+
+to read:
+166.201
+
+Taxes and charges.—Subject to the prohibitions in
+
+s. 377.816, a municipality may raise, by taxation and licenses
+
+authorized by the constitution or general law, or by user
+
+charges or fees authorized by ordinance, amounts of money which
+
+are necessary for the conduct of municipal government and may
+
+enforce their receipt and collection in the manner prescribed by
+
+ordinance not inconsistent with law.
+
+V
+
+Section 5.
+
+This act shall take effect July 1, 2026.
+
+CODING: Words stricken are deletions; words underlined are additions.
+hb1217-00
+
+S

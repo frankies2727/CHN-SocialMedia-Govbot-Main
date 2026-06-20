@@ -1,0 +1,381 @@
+Session of 2026
+
+HOUSE BILL No. 2674
+By Representative Bohi
+2-3
+
+AN ACT concerning the environment; enacting the PFAS protection act;
+prohibiting certain products that contain intentionally added PFAS;
+authorizing the department of health and environment to adopt rules
+and regulations to prohibit certain products that contain intentionally
+added PFAS; requiring disclosure of information and the testing of
+products that contain intentionally added PFAS and are sold, offered for
+sale, distributed or distributed for sale in this state.
+Be it enacted by the Legislature of the State of Kansas:
+Section 1. Sections 1 through 6, and amendments thereto, shall be
+known and may be cited as the PFAS protection act.
+Sec. 2. As used in this act, unless the context requires otherwise:
+(a) "Act" means the PFAS protection act.
+(b) "Carpet" or "rug" means a fabric marketed or intended for use as a
+floor covering.
+(c) "Chemical" means a substance with a distinct molecular
+composition or a group of structurally related substances and includes the
+breakdown products of the substance or substances that form through
+decomposition, degradation or metabolism.
+(d) "Cleaning product" means a finished product used for general
+cleaning purposes, including:
+(1) A polish or floor maintenance product;
+(2) an air care product labeled for the intended use of enhancing or
+conditioning the indoor environment by eliminating unpleasant odors or
+freshening the air; or
+(3) an automotive maintenance product, other than automotive paint
+or an automotive paint repair product, that is labeled for the intended use
+of maintaining the appearance of a motor vehicle.
+(e) "Consumer product" means a tangible personal property that is
+distributed in commerce and normally used for personal, family or
+household use, including product categories that are normally used in
+households but designed for or sold to businesses, such as commercial
+carpet or floor waxes.
+(f) "Cookware" means durable houseware items intended for direct
+food contact and used to prepare, dispense or store food, foodstuffs or
+beverages.
+
+(g) "Cosmetic" means a product or product component, other than
+soap, intended to be applied to the human body for cleansing, beautifying
+or promoting attractiveness.
+(h) "Currently unavoidable use" means the use of a PFAS that the
+department has determined by rule to be essential for health, safety or the
+functioning of society and for which alternatives are not reasonably
+available.
+(i) "Department" means the department of health and environment.
+(j) "Fabric treatment" means a substance applied to fabric for stain,
+grease or water resistance or flame retardance.
+(k) "Feminine hygiene product" means a disposable or reusable
+product to collect menstruation and vaginal discharge, including, but not
+limited to, tampons, pads, sponges, menstruation underwear, discs,
+applicators and menstruation cups.
+(l) "Firefighting foam" means an aqueous film-forming foam
+containing intentionally added PFAS.
+(m) "Food packaging" means a container, unit package, intermediate
+package or shipping container applied or providing a means to market,
+protect, handle, deliver, serve, contain or store food or beverage, including
+an individual assembled part of a food package.
+(n) "Intentionally added" means PFAS that is deliberately added or
+used during the manufacture of a product in which the continued presence
+of such PFAS is desired in the final product or one of the product's
+components to perform a specific function.
+(o) (1) "Internal components" means internal parts of a product,
+whether permanently affixed or removable, that are designed and intended
+not to be touched by a person during the intended use or handling.
+(2) "Internal components" include parts of a product used for holding
+batteries, regardless of whether the parts are touched when replacing
+batteries.
+(p) (1) "Juvenile product" means a product designed or marketed for
+use by children under 12 years of age, including, but not limited to,
+children's car seats, clothing and toys.
+(2) "Juvenile product" does not include any electronic product,
+including, but not limited to:
+(A) Personal computers and any associated equipment;
+(B) audio and video equipment;
+(C) calculators;
+(D) wireless phones;
+(E) gaming consoles;
+(F) handheld devices incorporating a video screen; or
+(G) any associated peripheral device, such as a mouse, keyboard,
+power supply unit or power cord.
+
+(q) "Manufacturer" means:
+(1) A person, a firm, an association, a partnership, a corporation or an
+organization, or a combination thereof, or a joint venture that creates,
+produces or assembles a product or whose brand name is affixed to a
+product; or
+(2) in the case of a product imported into the United States, an
+importer or first domestic distributor of the product, if the person or entity
+that created, produced or assembled the product or whose brand name is
+affixed to the product does not have an office or employees in the United
+States.
+(r) "Medical device" means an instrument, an apparatus, an
+implement, a machine, an implant or an in vitro reagent, or other similar or
+related device, including any component or accessory thereof, that is a
+product regulated as a medical device by the United States pursuant to the
+federal food, drug, and cosmetic act, 21 U.S.C. § 321 et seq. and is:
+(1) Recognized in an official compendium;
+(2) intended for use in the diagnosis of disease or other conditions or
+in the cure, mitigation, treatment or prevention of disease in a human or an
+animal; or
+(3) intended to affect the structure or function of the body of a human
+or an animal, does not achieve its principal intended purposes through
+chemical action within or on the body of a human or an animal and is not
+dependent on being metabolized for achievement of its principal intended
+purpose.
+(s) "Official compendium" means a comprehensive, authoritative
+listing of recognized medical devices, including listings published by a
+federal regulatory body, that details specifications, standards and accepted
+uses of medical devices.
+(t) "PFAS" or "perfluoroalkyl or polyfluoroalkyl substance" means a
+substance in a class of fluorinated organic chemicals containing at least
+one fully fluorinated carbon atom.
+(u) "Proprietary information" means information that is a trade secret
+or a production, commercial or financial information of which disclosure
+would impair the competitive position of the submitter and make available
+information that would not otherwise be publicly available.
+(v) "Product" means an item created, produced, assembled, packaged
+or otherwise prepared for sale to a consumer, including a product
+component sold or distributed for personal, residential, commercial or
+industrial use or for use in making a product.
+(w) "Ski wax" means a lubricant applied to the bottom of a snow
+runner, including a ski or snowboard, to improve grip or glide properties.
+"Ski wax" includes associated tuning products.
+(x) "Textile" means an item made in whole or in part from a natural
+
+or synthetic fiber, yarn or fabric, including, but not limited to, leather,
+cotton, silk, jute, hemp, wool, viscose, nylon or polyester.
+(y) "Textile furnishings" means a textile product made in whole or
+part from a natural or synthetic fiber, yarn or fabric that is used as furniture
+or a decorative accessory.
+(z) "Upholstered furniture" means furniture that is wholly or partially
+stuffed with a filling material.
+Sec. 3. (a) Subsections (b) through (g) shall not apply to any:
+(1) Product for which federal law governs the presence of PFAS in
+such product in a manner that preempts state authority;
+(2) used product offered for sale or resale;
+(3) medical device or drug and the packaging of any such medical
+device or drug that is regulated by the United States food and drug
+administration, including any prosthetic and orthotic device;
+(4) cooling, heating, ventilation, air conditioning or refrigeration
+equipment that contains intentionally added PFAS or any refrigerant listed
+as acceptable, acceptable subject to use conditions or acceptable to
+narrowed use limits pursuant to the significant new alternatives policy
+program, 40 C.F.R. part 82, subpart G, and sold, offered for sale or
+distributed for sale for use according to which such refrigerant is listed
+pursuant to such program;
+(5) veterinary product, including any packaging thereof, that is
+intended for use in or on animals, including, but not limited to, diagnostic
+equipment or test kits and the veterinary product's components and any
+product that is a veterinary medical device, drug, biologic or parasiticide
+or otherwise used in a veterinary medical setting or in veterinary medical
+applications that are regulated by or under the jurisdiction of:
+(A) The United States food and drug administration;
+(B) the United States department of agriculture pursuant to the federal
+virus-serum-toxin act, 21 U.S.C. 151 et seq.; or
+(C) the United States environmental protection agency pursuant to the
+federal insecticide, fungicide, and rodenticide act, 7 U.S.C. § 136 et seq;
+(6) product developed or manufactured for the purpose of public
+health or environmental or water quality testing;
+(7) motor vehicle or motor vehicle equipment that is regulated under
+a federal motor vehicle safety standard, as defined in 49 U.S.C. § 30102(a)
+(10);
+(8) other motor vehicle, including, but not limited to, any offhighway vehicle or any specialty motor vehicle, such as an all-terrain
+vehicle, any side-by-side vehicle, farm equipment or any personal assistive
+mobility device;
+(9) watercraft, aircraft, lighter-than-air aircraft or seaplane;
+(10) semiconductor, including semiconductors incorporated in
+
+electronic equipment, and materials used in the manufacture of
+semiconductors;
+(11) nonconsumer electronics and nonconsumer laboratory equipment
+not ordinarily used for personal, family or household purposes and
+products that contain intentionally added PFAS only in electronic
+components or internal components;
+(12) product that contains intentionally added PFAS with uses that are
+currently listed as acceptable, acceptable subject to use conditions or
+acceptable subject to narrowed use limits in the United States
+environmental protection agency's rules pursuant to the significant new
+alternatives policy program if the product contains intentionally added
+PFAS that is being used as a substitute for ozone-depleting substances
+under the conditions specified in such rules;
+(13) product used for the generation, distribution or storage of
+electricity;
+(14) product that contains fluoropolymers, consisting of polymeric
+substances for which the backbone of the polymer is either a
+perfluorinated or polyfluorinated carbon-only backbone or a perfluorinated
+polyether backbone and that are solid at standard temperature and
+pressure;
+(15) pesticide that is regulated by or under the jurisdiction of the
+federal insecticide fungicide rodenticide act, 7 U.S.C. § 136 et seq.;
+(16) product for which the department has adopted a rule providing
+that the use of the PFAS in such product is a currently unavoidable use; or
+(17) equipment, parts, components or materials directly used in the
+manufacture, development, servicing or maintenance of the products
+described in paragraphs (1) through (15).
+(b) Except as provided in subsection (a), beginning on January 1,
+2027, a manufacturer shall not sell, offer for sale, distribute or distribute
+for sale in this state, directly or indirectly or through intermediaries, the
+following products, if any of such products contain intentionally added
+PFAS:
+(1) Cookware, except as specified by subsection (a)(14);
+(2) food packaging;
+(3) dental flosses;
+(4) juvenile products; and
+(5) firefighting foams.
+(c) Except as provided in subsection (a), beginning on January 1,
+2028, a manufacturer shall not sell, offer for sale, distribute or distribute
+for sale in this state, directly or indirectly or through intermediaries, the
+following products, if any of such products contain intentionally added
+PFAS:
+(1) Carpets or rugs;
+
+(2) cleaning products;
+(3) cosmetics;
+(4) fabric treatments;
+(5) feminine hygiene products;
+(6) textiles;
+(7) textile furnishings;
+(8) ski waxes; and
+(9) upholstered furniture.
+(d) Except as provided in subsection (a), the department may adopt
+rules and regulations to prohibit manufacturers from selling, offering for
+sale, distributing or distributing for sale in this state, directly or indirectly
+or through intermediaries, consumer products not enumerated in
+subsections (b) and (c) but otherwise contain intentionally added PFAS by
+category or use upon a finding of fact that a prohibition on the product is
+necessary to protect human health or the environment. The department
+shall set effective dates for a prohibition established by any such adopted
+rule and regulation. Except that the department shall not set an effective
+date for prohibiting a product that is less than six months after the adoption
+of the final rules and regulations prohibiting such product or earlier than
+January 1, 2027. The department shall prioritize prohibiting any consumer
+product containing intentionally added PFAS that is most likely to harm
+human health or contaminate the environment.
+(e) On or before January 1, 2032, the department shall submit a report
+to the legislature to recommend legislation to prohibit the sale, offering for
+sale, distribution or distribution for sale in this state of any product or
+product category containing intentionally added PFAS other than those
+enumerated under subsections (a) through (d).
+(f) The department may adopt rules and regulations to determine that
+the use of PFAS in certain products or product categories is a currently
+unavoidable use.
+(g) The department shall consult with the Kansas department of
+agriculture before adopting any rule and regulation pursuant to subsection
+(d) and (f) with respect to a pesticide, fertilizer, agricultural liming
+material or plant or soil amendment that contains intentionally added
+PFAS.
+Sec. 4. (a) The department shall adopt rules and regulations to:
+(1) Exempt from the reporting requirements established pursuant to
+section 5, and amendments thereto, any product containing intentionally
+added PFAS that is exempt pursuant to section 3(a), and amendments
+thereto, or that has been designated as a currently unavoidable use;
+(2) create a list of ranges for the amount of PFAS in a product
+containing intentionally added PFAS for reporting purposes unless
+exempted in section 3(a), and amendments thereto;
+
+(3) identify currently unavoidable uses of PFAS that are essential for
+health, safety or the functioning of society and for which alternatives are
+not reasonably available unless exempted in section 3(a), and amendments
+thereto; and
+(4) (A) (i) require a periodic inventory of firefighting foam quantities
+stored or used in the state;
+(ii) require the use of firefighting foam for emergency purposes only;
+and
+(iii) require the cleanup of discarded firefighting foam as a hazardous
+waste pursuant to K.S.A. 65-3430, and amendments thereto.
+(B) For purposes of this paragraph, "emergency purposes" does not
+include training or the use of firefighting foam in fire suppression systems.
+(b) The department may determine that a product containing
+intentionally added PFAS is a currently unavoidable use based on
+determinations made by other states.
+Sec. 5. (a) The department shall adopt rules and regulations that
+enumerate the information required of a manufacturer. The information
+required shall include, to the extent known to or reasonably ascertainable
+by the submitter:
+(1) A brief description of the product, including a universal product
+code, stock-keeping unit or other numeric code assigned to the product;
+(2) the purpose for which PFAS is used in the product;
+(3) the amount of each PFAS in the product, identified by the
+chemical abstracts service registry number or other identifier of such PFAS
+and reported as an exact quantity determined using commercially available
+analytical methods or as falling within a range approved for reporting
+purposes by the department;
+(4) the name and address of the manufacturer and the name, address
+and phone number of a contact person for the manufacturer; and
+(5) any additional information requested by the department as
+necessary, except that the department shall not require disclosure of
+records, reports or information or particular parts of records, reports or
+information that would divulge confidential business records or methods
+or processes entitled to protection as trade secret. Additionally, the
+manufacturer shall, by a preponderance of the evidence, demonstrate that
+the requested information would divulge confidential business records,
+methods or processes entitled to protection as trade secrets. Any
+proprietary information submitted by a manufacturer pursuant to the
+requirements of this section that is identified by the manufacturer as
+proprietary information is confidential and shall be handled by the
+department pursuant to the Kansas open records act, K.S.A. 45-215 et seq.,
+and amendments thereto.
+(b) On or before January 1, 2027, a manufacturer of a product sold,
+
+offered for sale, distributed or distributed for sale in the state, directly or
+indirectly or through intermediaries, that contains intentionally added
+PFAS shall submit to the department the information required by
+subsection (a).
+(c) On and after January 1, 2028, a manufacturer shall not sell, offer
+for sale, distribute or distribute for sale in this state, directly or indirectly
+or through intermediaries, a product that contains intentionally added
+PFAS as determined by a testing requested by the department and if such
+manufacturer has failed to provide the department the information required
+by subsection (a).
+(d) On and after January 1, 2028, a manufacturer shall not sell, offer
+for sale, distribute or distribute for sale in this state, directly or indirectly
+or through intermediaries, a product that contains intentionally added
+PFAS unless the manufacturer has submitted to the department the
+information required by subsection (a). A product reported pursuant to this
+subsection containing intentionally added PFAS may be prohibited from
+sale pursuant to this act.
+(e) A manufacturer shall submit a revision of the information
+provided on a product within 30 days of a significant change to the
+information that the manufacturer previously submitted or upon the
+request of the department.
+(f) Upon written approval from the department, a manufacturer may
+provide the information required by this section to the department for a
+category or type of product or product component.
+(g) The department may waive the obligation of a manufacturer to
+submit all or part of the information required by this section if the
+department determines that substantially equivalent information is publicly
+available. The department may grant a waiver to a manufacturer or a group
+of manufacturers for multiple products or a product category.
+(h) The department may enter into an agreement with one or more
+states or political subdivisions of a state to collect information and may
+accept information from a shared system as meeting the information
+requirements of this section.
+(i) The department may extend the deadline for a manufacturer to
+submit the information required by this section upon a determination by
+the department that the circumstances merit an extension of the deadline.
+(j) Within 60 days of receiving information from a manufacturer, the
+department shall notify the manufacturer that adequate information has
+been received or that additional information is required. A manufacturer
+shall submit to the department any additional information requested by the
+department within 30 days of such request.
+(k) The requirements of this section do not apply to products that are
+exempt pursuant to section 3(a), and amendments thereto.
+
+Sec. 6. (a) If the department has reason to believe that a product
+containing intentionally added PFAS is being sold, offered for sale,
+distributed or distributed for sale in the state, directly or indirectly or
+through intermediaries, the department may direct the manufacturer of the
+product to, within 30 days, provide the department with testing results that
+demonstrate the amount of each PFAS in the product, identified by the
+applicable chemical abstracts service registry number reported as an exact
+quantity determined using commercially available analytical methods or as
+falling within a range approved for reporting purposes by the department.
+(b) If a testing for PFAS demonstrates that the product does not
+contain intentionally added PFAS, the manufacturer shall provide the
+department with a certificate of compliance attesting that the product does
+not contain intentionally added PFAS, the testing results and any other
+relevant information.
+(c) If a testing for PFAS demonstrates that the product contains
+intentionally added PFAS, the manufacturer shall:
+(1) Provide to the department, within 30 days, the information
+required for a product pursuant to this act; and
+(2) notify any person that sells, offers for sale, distributes or
+distributes for sale such product in this state that such product is prohibited
+in this state and provide the department with a list of the names and
+addresses of the people so notified.
+(d) Pursuant to subsection (c)(2), the department may also notify any
+person that sells, offers for sale, distributes or distributes for sale in this
+state a product prohibited by this act that the product is prohibited in this
+state.
+(e) The provisions of this section do not apply to a medical device or
+drug or the packaging of a medical device or drug that is regulated by the
+United States food and drug administration or any other product exempted
+in section (a)(3), and amendments thereto.
+Sec. 7. This act shall take effect and be in force from and after its
+publication in the statute book.

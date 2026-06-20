@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Doula Support for Healthy Births Pilot Program;  Establishing the pilot program in Broward, Miami-Dade, and Palm Beach Counties for a specified purpose, subject to a specific appropriation in the General Appropriations Act; requiring the Department of Health, in collaboration with its maternal and child health section, to implement and oversee the pilot program; requiring the department to collaborate with specified entities to integrate doula services into existing maternal health programs and facilitate outreach and service delivery; creating the Doula Certification Task Force within the department for a specified purpose, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 514",
+    "legislative_session": "2026",
+    "subject": [
+      "subject index",
+      "t"
+    ],
+    "title": "Doula Support for Healthy Births Pilot Program"
+  },
+  "id": "SB 514",
+  "log": {
+    "action": {
+      "date": "2026-02-04",
+      "description": "CS by Health Policy read 1st time",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 514"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB514/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB514/logs/20260204T000000Z_cs_by_health_policy_read_1st_time.json"
+  },
+  "timestamp": "20260204T000000Z"
+}

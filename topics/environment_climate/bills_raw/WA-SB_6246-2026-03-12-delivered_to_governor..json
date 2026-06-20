@@ -1,0 +1,24 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 6246",
+    "legislative_session": "2025-2026",
+    "title": "Concerning emissions from emissions-intensive, trade-exposed facilities under the climate commitment act."
+  },
+  "id": "SB 6246",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-receipt"
+      ],
+      "date": "2026-03-12",
+      "description": "Delivered to Governor.",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "SB 6246"
+  },
+  "sources": {
+    "bill": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB6246/metadata.json",
+    "log": "wa-legislation/country:us/state:wa/sessions/2025-2026/bills/SB6246/logs/20260312T000000Z.classification.executive-receipt.executive.json"
+  }
+}

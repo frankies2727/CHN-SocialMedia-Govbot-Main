@@ -1,0 +1,22 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2006",
+    "legislative_session": "2026",
+    "title": "Appropriates money for the expenses, grants, refunds, and distributions of the Department of Agriculture, the Department of Natural Resources, and the Department of Conservation"
+  },
+  "id": "HB 2006",
+  "log": {
+    "action": {
+      "date": "2026-05-28T05:00:00+00:00",
+      "description": "Signed by House Speaker (H)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 2006"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB2006/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/HB2006/logs/20260528T050000Z_signed_by_house_speaker_h.json"
+  },
+  "timestamp": "20260528T050000Z"
+}

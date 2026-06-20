@@ -1,0 +1,1765 @@
+03/12/25 ​
+
+This Document can be made available​
+in alternative formats upon request​
+
+State of Minnesota​
+
+25-04785​
+
+HOUSE OF REPRESENTATIVES​
+NINETY-FOURTH SESSION​
+04/01/2025​
+
+H. F. No.
+
+2946​
+
+Authored by Perryman​
+The bill was read for the first time and referred to the Committee on State Government Finance and Policy​
+
+1.1
+
+A bill for an act​
+
+1.2
+1.3
+1.4
+1.5
+1.6
+1.7
+1.8
+1.9
+
+relating to finance; proposing the Minnesota Bitcoin Act; allowing payments to​
+the state by cryptocurrency; authorizing the State Board of Investment to invest​
+in cryptocurrency; modifying various tax provisions; amending Minnesota Statutes​
+2024, sections 11A.24, subdivision 6; 16A.626; 276.05; 279.025; 289A.02,​
+subdivision 8, by adding a subdivision; 290.01, by adding a subdivision; 290.0132,​
+by adding a subdivision; 290.0134, by adding a subdivision; 290.033; 290.091,​
+subdivision 2; 290.0921, subdivision 3; 354B.25, subdivision 2; 356A.06,​
+subdivision 7; proposing coding for new law in Minnesota Statutes, chapter 16A.​
+
+1.10
+
+BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:​
+
+1.11
+
+ARTICLE 1​
+
+1.12
+
+MINNESOTA BITCOIN ACT​
+
+1.13
+
+Section 1. CITATION.​
+
+1.14
+
+This act may be cited as the "Minnesota Bitcoin Act."​
+
+1.15
+
+EFFECTIVE DATE. This section is effective January 1, 2026.​
+
+1.16
+
+ARTICLE 2​
+
+1.17
+
+AUTHORIZING BITCOIN PAYMENTS AND INVESTMENTS​
+
+1.18
+
+Section 1. Minnesota Statutes 2024, section 11A.24, subdivision 6, is amended to read:​
+
+1.19
+
+Subd. 6. Other investments. (a) In addition to the investments authorized in subdivisions​
+
+1.20
+
+to 5, and subject to the provisions in paragraph (b), the state board is authorized to invest​
+
+1.21
+
+funds in:​
+
+Article 2 Section 1.​
+
+1​
+
+03/12/25 ​
+
+25-04785​
+
+2.1
+
+(1) equity and debt investment businesses through participation in limited partnerships,​
+
+2.2
+
+trusts, private placements, limited liability corporations, limited liability companies, limited​
+
+2.3
+
+liability partnerships, and corporations;​
+
+2.4
+
+(2) real estate ownership interests or loans secured by mortgages or deeds of trust or​
+
+2.5
+
+shares of real estate investment trusts through investment in limited partnerships,​
+
+2.6
+
+bank-sponsored collective funds, trusts, mortgage participation agreements, and insurance​
+
+2.7
+
+company commingled accounts;​
+
+2.8
+
+(3) resource investments through limited partnerships, trusts, private placements, limited​
+
+2.9
+
+liability corporations, limited liability companies, limited liability partnerships, and​
+
+2.10
+
+corporations;​
+
+2.11
+
+(4) investment vehicles that are co-investments or separate accounts;​
+
+2.12
+
+(5) liquid alternatives;​
+
+2.13
+
+(6) Bitcoin and other cryptocurrencies as defined in section 16A.278;​
+
+2.14
+
+(6) (7) bank loans; and​
+
+2.15
+
+(7) (8) international securities.​
+
+2.16
+
+(b) The investments authorized in paragraph (a) must conform to the following clauses:​
+
+2.17
+
+(1) the aggregate value of all investments made under paragraph (a), clauses (1) to (4),​
+
+2.18
+
+may not exceed 35 percent of the market value of the fund for which the state board is​
+
+2.19
+
+investing;​
+
+2.20
+2.21
+2.22
+2.23
+
+(2) there must be at least four unrelated owners of the investment other than the state​
+board for investments made under paragraph (a), clause (1), (2), or (3);​
+(3) state board participation in an investment vehicle is limited to 20 percent thereof for​
+investments made under paragraph (a), clause (1), (2), or (3); and​
+
+2.24
+
+(4) state board participation in an investment vehicle does not include a general​
+
+2.25
+
+partnership interest or other interest involving general liability. The state board may not​
+
+2.26
+
+participate in any investment vehicle in a manner which creates general liability.​
+
+2.27
+
+(c) All financial, business, or proprietary data collected, created, received, or maintained​
+
+2.28
+
+by the state board in connection with investments authorized by paragraph (a), clauses (1)​
+
+2.29
+
+to (6) (7), are nonpublic data under section 13.02, subdivision 9. As used in this paragraph,​
+
+2.30
+
+"financial, business, or proprietary data" means data, as determined by the responsible​
+
+2.31
+
+authority for the state board, that is of a financial, business, or proprietary nature, the release​
+
+2.32
+
+of which could cause competitive harm to the state board, the legal entity in which the state​
+Article 2 Section 1.​
+
+2​
+
+03/12/25 ​
+
+25-04785​
+
+3.1
+
+board has invested or has considered an investment, the managing entity of an investment,​
+
+3.2
+
+or a portfolio company in which the legal entity holds an interest. As used in this section,​
+
+3.3
+
+"business data" is data described in section 13.591, subdivision 1. Regardless of whether​
+
+3.4
+
+they could be considered financial, business, or proprietary data, the following data received,​
+
+3.5
+
+prepared, used, or retained by the state board in connection with investments authorized by​
+
+3.6
+
+paragraph (a), clauses (1) to (6) (7), are public at all times:​
+
+3.7
+3.8
+
+(1) the name and industry group classification of the legal entity in which the state board​
+has invested or in which the state board has considered an investment;​
+
+3.9
+
+(2) the state board commitment amount, if any;​
+
+3.10
+
+(3) the funded amount of the state board's commitment to date, if any;​
+
+3.11
+
+(4) the market value of the investment by the state board;​
+
+3.12
+
+(5) the state board's internal rate of return for the investment, including expenditures​
+
+3.13
+
+and receipts used in the calculation of the investment's internal rate of return; and​
+
+3.14
+
+(6) the age of the investment in years.​
+
+3.15
+
+EFFECTIVE DATE. This section is effective January 1, 2026.​
+
+3.16
+3.17
+
+Sec. 2. [16A.278] CRYPTOCURRENCY DEFINED.​
+"Cryptocurrency" means virtual currency, as defined in section 53B.69, subdivision 6,​
+
+3.18
+
+that uses cryptography to secure transactions that are digitally recorded on a distributed​
+
+3.19
+
+ledger, such as a blockchain.​
+
+3.20
+
+3.21
+
+EFFECTIVE DATE. This section is effective January 1, 2026.​
+Sec. 3. Minnesota Statutes 2024, section 16A.626, is amended to read:​
+
+3.22
+
+16A.626 ELECTRONIC PAYMENTS.​
+
+3.23
+
+(a) For purposes of this section, the terms defined in this paragraph have the meaning​
+
+3.24
+
+given them. "Agency" means a state officer, employee, board, commission, authority,​
+
+3.25
+
+department, entity, or organization of the executive branch of state government. "Government​
+
+3.26
+
+services transaction" means the conduct of business between an agency and an individual​
+
+3.27
+
+or business entity where the individual or business entity is paying a license or permit fee​
+
+3.28
+
+or tax or purchasing goods or services.​
+
+3.29
+
+(b) Notwithstanding any other provision of law, rule, or regulation to the contrary, an​
+
+3.30
+
+agency may accept credit cards, charge cards, debit cards, Bitcoin and other cryptocurrency​
+
+Article 2 Sec. 3.​
+
+3​
+
+03/12/25 ​
+
+25-04785​
+
+4.1
+
+as defined in section 16A.278, or other method of electronic funds transfer for payment in​
+
+4.2
+
+government services transactions, including electronic transactions.​
+
+4.3
+
+(c) The commissioner of management and budget shall contract with one or more entities​
+
+4.4
+
+for the purpose of enabling agencies to accept and process credit cards and other electronic​
+
+4.5
+
+financial transactions, to exchange cryptocurrency to United States currency, and to accept​
+
+4.6
+
+cryptocurrency. All agencies shall process their credit card and other electronic financial​
+
+4.7
+
+transactions and accept and exchange cryptocurrency to United States currency, as needed,​
+
+4.8
+
+through the contracts negotiated by the commissioner of management and budget, unless​
+
+4.9
+
+the commissioner of management and budget grants a waiver allowing an agency to negotiate​
+
+4.10
+
+its own contract with an entity. These contracts must be approved by the commissioner of​
+
+4.11
+
+management and budget.​
+
+4.12
+
+(d) Agencies that accept credit cards, charge cards, debit cards, cryptocurrency, or other​
+
+4.13
+
+method of electronic funds transfer for payment may impose a convenience fee to be added​
+
+4.14
+
+to each transaction, except that the Department of Revenue shall not impose a fee under​
+
+4.15
+
+this section on any payment of tax that is required by law or rule to be made by electronic​
+
+4.16
+
+funds transfer. The total amount of such convenience fee must be equal to the transaction​
+
+4.17
+
+fee charged by a processing contractor for such credit services during the most recent​
+
+4.18
+
+collection period. An agency imposing a convenience fee must notify the person using the​
+
+4.19
+
+credit services of the fee before the transaction is processed. Fees collected under this section​
+
+4.20
+
+are appropriated to the agency collecting the fee for purposes of paying the processing​
+
+4.21
+
+contractor.​
+
+4.22
+
+(e) A convenience fee imposed by an agency under this section is in addition to any tax,​
+
+4.23
+
+fee, charge, or cost otherwise imposed for a license, permit, tax, service, or good provided​
+
+4.24
+
+by the agency.​
+
+4.25
+
+(f) Credit card, charge card, debit card, Bitcoin and other cryptocurrency as defined in​
+
+4.26
+
+section 16A.278, or other method of electronic funds transfer account numbers are nonpublic​
+
+4.27
+
+data not on individuals as defined in section 13.02, subdivision 9, or private data on​
+
+4.28
+
+individuals as defined in section 13.02, subdivision 12.​
+
+4.29
+
+EFFECTIVE DATE. This section is effective January 1, 2026.​
+
+4.30
+
+Sec. 4. Minnesota Statutes 2024, section 276.05, is amended to read:​
+
+4.31
+
+276.05 RECEIPTS FOR TAX PAYMENTS.​
+
+4.32
+
+(a) The county treasurer may issue receipts showing payment of the tax. If the tax is​
+
+4.33
+
+paid in currency or cryptocurrency, or if the payer requests a receipt, the county treasurer​
+
+Article 2 Sec. 4.​
+
+4​
+
+03/12/25 ​
+
+25-04785​
+
+5.1
+
+shall give a receipt. The receipt must show the name and post office address of the person,​
+
+5.2
+
+the amount and date of payment, the land, lot, or other property on which the tax was levied,​
+
+5.3
+
+according to its description on the tax list or in some other sufficient manner, and the year​
+
+5.4
+
+or years for which the tax was levied. If for current taxes on real estate, the receipt must​
+
+5.5
+
+have written or stamped across its face, "taxes for" (giving the year in figures), or "first half​
+
+5.6
+
+of taxes for" (giving the year in figures), or "last half of taxes for" (giving the year in figures),​
+
+5.7
+
+as the case may be. If land has been sold for taxes either to a purchaser, or to the state, and​
+
+5.8
+
+the time for redemption from the sale has not expired, the receipt must have written or​
+
+5.9
+
+stamped across the face, "sold for taxes." The treasurer shall make duplicates of all receipts​
+
+5.10
+
+and return the duplicates at the end of each month to the county auditor. The auditor shall​
+
+5.11
+
+file and preserve them in the auditor's office, charging the treasurer with the amount on the​
+
+5.12
+
+receipts.​
+
+5.13
+5.14
+
+(b) For purposes of this section, "cryptocurrency" has the meaning given in section​
+16A.278.​
+
+5.15
+
+EFFECTIVE DATE. This section is effective January 1, 2026.​
+
+5.16
+
+Sec. 5. Minnesota Statutes 2024, section 279.025, is amended to read:​
+
+5.17
+5.18
+
+279.025 PAYMENT OF DELINQUENT PROPERTY TAXES, SPECIAL​
+ASSESSMENTS.​
+
+5.19
+
+Payment of delinquent property tax and related interest and penalties and special​
+
+5.20
+
+assessments shall be paid with United States currency, cryptocurrency, or by check, money​
+
+5.21
+
+order, or electronic means, including, but not limited to, automated clearinghouse transactions​
+
+5.22
+
+and federal wires drawn on a bank or other financial institution in the United States. For​
+
+5.23
+
+purposes of this section, "cryptocurrency" has the meaning given in section 16A.278.​
+
+5.24
+
+5.25
+
+EFFECTIVE DATE. This section is effective January 1, 2026.​
+Sec. 6. Minnesota Statutes 2024, section 289A.02, subdivision 8, is amended to read:​
+
+5.26
+
+Subd. 8. Electronic means. "Electronic means" refers to a method that is electronic, as​
+
+5.27
+
+defined in section 325L.02, paragraph (e), and that is prescribed by the commissioner. Where​
+
+5.28
+
+electronic means applies to payment of taxes governed by this chapter, electronic means​
+
+5.29
+
+includes cryptocurrency.​
+
+5.30
+
+EFFECTIVE DATE. This section is effective January 1, 2026.​
+
+Article 2 Sec. 6.​
+
+5​
+
+03/12/25 ​
+
+6.1
+6.2
+
+25-04785​
+
+Sec. 7. Minnesota Statutes 2024, section 289A.02, is amended by adding a subdivision to​
+read:​
+
+6.3
+
+Subd. 9. Cryptocurrency. "Cryptocurrency" has the meaning given in section 16A.278.​
+
+6.4
+
+EFFECTIVE DATE. This section is effective January 1, 2026.​
+
+6.5
+6.6
+
+Sec. 8. Minnesota Statutes 2024, section 290.01, is amended by adding a subdivision to​
+read:​
+
+6.7
+
+Subd. 34. Cryptocurrency. "Cryptocurrency" has the meaning given in section 16A.278.​
+
+6.8
+
+EFFECTIVE DATE. This section is effective for taxable years beginning after December​
+
+6.9
+
+6.10
+6.11
+6.12
+6.13
+6.14
+6.15
+
+6.16
+6.17
+6.18
+6.19
+6.20
+6.21
+
+6.22
+
+31, 2025.​
+Sec. 9. Minnesota Statutes 2024, section 290.0132, is amended by adding a subdivision​
+to read:​
+Subd. 36. Cryptocurrency. The amount of federal adjusted gross income received in​
+cryptocurrency is a subtraction.​
+EFFECTIVE DATE. This section is effective for taxable years beginning after December​
+31, 2025.​
+Sec. 10. Minnesota Statutes 2024, section 290.0134, is amended by adding a subdivision​
+to read:​
+Subd. 21. Cryptocurrency. The amount of federal adjusted gross income received in​
+cryptocurrency is a subtraction.​
+EFFECTIVE DATE. This section is effective for taxable years beginning after December​
+31, 2025.​
+Sec. 11. Minnesota Statutes 2024, section 290.033, is amended to read:​
+
+6.23
+
+290.033 NET INVESTMENT INCOME TAX.​
+
+6.24
+
+(a) For purposes of this section, "net investment income" has the meaning given in​
+
+6.25
+
+section 1411(c) of the Internal Revenue Code, excluding the net gain attributable to the​
+
+6.26
+
+disposition of property classified as class 2a under section 273.13, subdivision 23, and​
+
+6.27
+
+excluding the net gain attributable to cryptocurrency.​
+
+Article 2 Sec. 11.​
+
+6​
+
+03/12/25 ​
+
+25-04785​
+
+7.1
+
+(b) In addition to the tax computed under section 290.06, subdivision 2c, a tax is imposed​
+
+7.2
+
+on the net investment income of individuals, estates, and trusts in excess of $1,000,000 at​
+
+7.3
+
+a rate of one percent.​
+
+7.4
+
+(c) For an individual who is not a Minnesota resident for the entire taxable year, the tax​
+
+7.5
+
+under this subdivision must be calculated as if the individual is a Minnesota resident for the​
+
+7.6
+
+entire year, and that amount must be multiplied by a fraction in which:​
+
+7.7
+7.8
+
+(1) the numerator is net investment income allocable under section 290.17 to Minnesota;​
+and​
+
+7.9
+
+(2) the denominator is the total amount of net investment income for the taxable year.​
+
+7.10
+
+(d) For an estate or trust, the tax on net investment income must be computed by​
+
+7.11
+
+multiplying the net investment income tax liability by a fraction, the numerator of which is​
+
+7.12
+
+the amount of the estate or trust's net investment income allocated to the state pursuant to​
+
+7.13
+
+the provisions of sections 290.17, 290.191, and 290.20, and the denominator of which is​
+
+7.14
+
+the taxpayer's total net investment income.​
+
+7.15
+7.16
+
+EFFECTIVE DATE. This section is effective for taxable years beginning after December​
+31, 2025.​
+
+7.17
+
+Sec. 12. Minnesota Statutes 2024, section 290.091, subdivision 2, is amended to read:​
+
+7.18
+
+Subd. 2. Definitions. For purposes of the tax imposed by this section, the following​
+
+7.19
+7.20
+7.21
+7.22
+7.23
+7.24
+7.25
+
+terms have the meanings given.​
+(a) "Alternative minimum taxable income" means the sum of the following for the taxable​
+year:​
+(1) the taxpayer's federal alternative minimum taxable income as defined in section​
+55(b)(1)(D) of the Internal Revenue Code;​
+(2) the taxpayer's itemized deductions allowed in computing federal alternative minimum​
+taxable income, but excluding:​
+
+7.26
+
+(i) the charitable contribution deduction under section 170 of the Internal Revenue Code;​
+
+7.27
+
+(ii) the medical expense deduction;​
+
+7.28
+
+(iii) the casualty, theft, and disaster loss deduction; and​
+
+7.29
+
+(iv) the impairment-related work expenses of a person with a disability;​
+
+7.30
+
+(3) for depletion allowances computed under section 613A(c) of the Internal Revenue​
+
+7.31
+
+Code, with respect to each property (as defined in section 614 of the Internal Revenue Code),​
+Article 2 Sec. 12.​
+
+7​
+
+03/12/25 ​
+
+25-04785​
+
+8.1
+
+to the extent not included in federal alternative minimum taxable income, the excess of the​
+
+8.2
+
+deduction for depletion allowable under section 611 of the Internal Revenue Code for the​
+
+8.3
+
+taxable year over the adjusted basis of the property at the end of the taxable year (determined​
+
+8.4
+
+without regard to the depletion deduction for the taxable year);​
+
+8.5
+
+(4) to the extent not included in federal alternative minimum taxable income, the amount​
+
+8.6
+
+of the tax preference for intangible drilling cost under section 57(a)(2) of the Internal Revenue​
+
+8.7
+
+Code determined without regard to subparagraph (E);​
+
+8.8
+8.9
+
+(5) to the extent not included in federal alternative minimum taxable income, the amount​
+of interest income as provided by section 290.0131, subdivision 2;​
+
+8.10
+
+(6) the amount of addition required by section 290.0131, subdivisions 9, 10, and 16;​
+
+8.11
+
+(7) the deduction allowed under section 199A of the Internal Revenue Code, to the extent​
+
+8.12
+
+not included in the addition required under clause (6); and​
+
+8.13
+
+(8) to the extent not included in federal alternative minimum taxable income, the amount​
+
+8.14
+
+of foreign-derived intangible income deducted under section 250 of the Internal Revenue​
+
+8.15
+
+Code;​
+
+8.16
+
+less the sum of the amounts determined under the following:​
+
+8.17
+
+(i) interest income as defined in section 290.0132, subdivision 2;​
+
+8.18
+
+(ii) an overpayment of state income tax as provided by section 290.0132, subdivision​
+
+8.19
+8.20
+
+3, to the extent included in federal alternative minimum taxable income;​
+(iii) the amount of investment interest paid or accrued within the taxable year on​
+
+8.21
+
+indebtedness to the extent that the amount does not exceed net investment income, as defined​
+
+8.22
+
+in section 163(d)(4) of the Internal Revenue Code. Interest does not include amounts deducted​
+
+8.23
+
+in computing federal adjusted gross income;​
+
+8.24
+8.25
+8.26
+8.27
+8.28
+8.29
+8.30
+
+(iv) amounts subtracted from federal taxable or adjusted gross income as provided by​
+section 290.0132, subdivisions 7, 9 to 15, 17, 21, 24, 26 to 29, 31, 34, and 35, and 36;​
+(v) the amount of the net operating loss allowed under section 290.095, subdivision 11,​
+paragraph (c); and​
+(vi) the amount allowable as a Minnesota itemized deduction under section 290.0122,​
+subdivision 7.​
+In the case of an estate or trust, alternative minimum taxable income must be computed​
+
+8.31
+
+as provided in section 59(c) of the Internal Revenue Code, except alternative minimum​
+
+8.32
+
+taxable income must be increased by the addition in section 290.0131, subdivision 16.​
+Article 2 Sec. 12.​
+
+8​
+
+03/12/25 ​
+
+9.1
+9.2
+
+25-04785​
+
+(b) "Investment interest" means investment interest as defined in section 163(d)(3) of​
+the Internal Revenue Code.​
+
+9.3
+
+(c) "Net minimum tax" means the minimum tax imposed by this section.​
+
+9.4
+
+(d) "Regular tax" means the tax that would be imposed under this chapter (without regard​
+
+9.5
+
+to this section, section 290.033, and section 290.032), reduced by the sum of the​
+
+9.6
+
+nonrefundable credits allowed under this chapter.​
+
+9.7
+9.8
+9.9
+9.10
+
+(e) "Tentative minimum tax" equals 6.75 percent of alternative minimum taxable income​
+after subtracting the exemption amount determined under subdivision 3.​
+EFFECTIVE DATE. This section is effective for taxable years beginning after December​
+31, 2025.​
+
+9.11
+
+Sec. 13. Minnesota Statutes 2024, section 290.0921, subdivision 3, is amended to read:​
+
+9.12
+
+Subd. 3. Alternative minimum taxable income. "Alternative minimum taxable income"​
+
+9.13
+
+is Minnesota net income as defined in section 290.01, subdivision 19, and includes the​
+
+9.14
+
+adjustments and tax preference items in sections 56, 57, 58, and 59(d), (e), (f), and (h) of​
+
+9.15
+
+the Internal Revenue Code. If a corporation files a separate company Minnesota tax return,​
+
+9.16
+
+the minimum tax must be computed on a separate company basis. If a corporation is part​
+
+9.17
+
+of a tax group filing a unitary return, the minimum tax must be computed on a unitary basis.​
+
+9.18
+
+The following adjustments must be made.​
+
+9.19
+
+(1) The portion of the depreciation deduction allowed for federal income tax purposes​
+
+9.20
+
+under section 168(k) of the Internal Revenue Code that is required as an addition under​
+
+9.21
+
+section 290.0133, subdivision 11, is disallowed in determining alternative minimum taxable​
+
+9.22
+
+income.​
+
+9.23
+
+(2) The subtraction for depreciation allowed under section 290.0134, subdivision 13, is​
+
+9.24
+
+allowed as a depreciation deduction in determining alternative minimum taxable income.​
+
+9.25
+
+(3) The alternative tax net operating loss deduction under sections 56(a)(4) and 56(d)​
+
+9.26
+9.27
+9.28
+9.29
+9.30
+9.31
+9.32
+
+of the Internal Revenue Code does not apply.​
+(4) The special rule for certain dividends under section 56(g)(4)(C)(ii) of the Internal​
+Revenue Code does not apply.​
+(5) The tax preference for depletion under section 57(a)(1) of the Internal Revenue Code​
+does not apply.​
+(6) The tax preference for tax exempt interest under section 57(a)(5) of the Internal​
+Revenue Code does not apply.​
+Article 2 Sec. 13.​
+
+9​
+
+03/12/25 ​
+
+25-04785​
+
+(7) The tax preference for charitable contributions of appreciated property under section​
+
+10.1
+10.2
+
+57(a)(6) of the Internal Revenue Code does not apply.​
+
+10.3
+
+(8) For purposes of calculating the adjustment for adjusted current earnings in section​
+
+10.4
+
+56(g) of the Internal Revenue Code, the term "alternative minimum taxable income" as it​
+
+10.5
+
+is used in section 56(g) of the Internal Revenue Code, means alternative minimum taxable​
+
+10.6
+
+income as defined in this subdivision, determined without regard to the adjustment for​
+
+10.7
+
+adjusted current earnings in section 56(g) of the Internal Revenue Code.​
+
+10.8
+
+(9) For purposes of determining the amount of adjusted current earnings under section​
+
+10.9
+
+56(g)(3) of the Internal Revenue Code, no adjustment shall be made under section 56(g)(4)​
+
+10.10
+
+of the Internal Revenue Code with respect to (i) the amount of foreign dividend gross-up​
+
+10.11
+
+subtracted as provided in section 290.0134, subdivision 2, or (ii) the amount of refunds of​
+
+10.12
+
+income, excise, or franchise taxes subtracted as provided in section 290.0134, subdivision​
+
+10.13
+
+8.​
+
+10.14
+10.15
+10.16
+10.17
+
+(10) Alternative minimum taxable income excludes the income from operating in a job​
+opportunity building zone as provided under section 469.317.​
+Items of tax preference must not be reduced below zero as a result of the modifications​
+in this subdivision.​
+
+10.18
+
+(11) The subtraction for disallowed section 280E expenses under section 290.0134,​
+
+10.19
+
+subdivision 19, is allowed as a deduction in determining alternative minimum taxable​
+
+10.20
+
+income.​
+
+10.21
+10.22
+10.23
+10.24
+
+10.25
+10.26
+10.27
+10.28
+10.29
+
+(12) The subtraction for cryptocurrency allowed under section 290.0134, subdivision​
+21, is allowed as a deduction in determining alternative minimum taxable income.​
+EFFECTIVE DATE. This section is effective for taxable years beginning after December​
+31, 2025.​
+Sec. 14. Minnesota Statutes 2024, section 354B.25, subdivision 2, is amended to read:​
+Subd. 2. Investment options. (a) The plan administrator shall arrange for the purchase​
+of investment products.​
+(b) The investment products must be purchased with contributions under section 354B.23​
+or with money or assets otherwise provided by law by authority of the board.​
+
+10.30
+
+(c) Various investment accounts offered through the Minnesota supplemental investment​
+
+10.31
+
+fund established under section 11A.17 and administered by the State Board of Investment​
+
+10.32
+
+may be included as investment products for the individual retirement account plan. Direct​
+
+Article 2 Sec. 14.​
+
+10​
+
+03/12/25 ​
+
+25-04785​
+
+11.1
+
+access must also be provided to lower expense and no-load mutual funds, as those terms​
+
+11.2
+
+are defined by the federal Securities and Exchange Commission, including stock funds,​
+
+11.3
+
+bond funds, and balanced funds. Other investment products or combination of investment​
+
+11.4
+
+products which may be included are:​
+
+11.5
+
+(1) savings accounts at federally insured financial institutions;​
+
+11.6
+
+(2) life insurance contracts, fixed and variable annuity contracts from companies that​
+
+11.7
+
+are subject to regulation by the commerce commissioner;​
+
+11.8
+
+(3) investment options from open-ended investment companies registered under the​
+
+11.9
+
+federal Investment Company Act of 1940, United States Code, title 15, sections 80a-1 to​
+
+11.10
+
+80a-64;​
+
+11.11
+
+(4) investment options from a firm that is a registered investment advisor under the​
+
+11.12
+
+federal Investment Advisers Act of 1940, United States Code, title 15, sections 80b-1 to​
+
+11.13
+
+80b-21; and​
+
+11.14
+
+(5) investment options of a bank as defined in United States Code, title 15, section 80b-2,​
+
+11.15
+
+subsection (a), paragraph 2, or a bank holding company as defined in the Bank Holding​
+
+11.16
+
+Company Act of 1956, United States Code, title 12, section 1841, subsection (a), paragraph​
+
+11.17
+
+(1); and​
+
+11.18
+
+(6) Bitcoin and other cryptocurrencies as defined in section 16A.278.​
+
+11.19
+
+EFFECTIVE DATE. This section is effective January 1, 2026.​
+
+11.20
+11.21
+
+Sec. 15. Minnesota Statutes 2024, section 356A.06, subdivision 7, is amended to read:​
+Subd. 7. Expanded list of authorized investment securities. (a) Authority. A covered​
+
+11.22
+
+pension plan not described by subdivision 6, paragraph (a), is an expanded list plan and​
+
+11.23
+
+shall invest its assets as specified in this subdivision. The governing board of an expanded​
+
+11.24
+
+list plan may select and appoint investment agencies to act for or on its behalf.​
+
+11.25
+
+(b) Securities generally; investment forms. An expanded list plan is authorized to​
+
+11.26
+
+purchase, sell, lend, and exchange the investment securities authorized under this subdivision,​
+
+11.27
+
+including puts and call options and future contracts traded on a contract market regulated​
+
+11.28
+
+by a governmental agency or by a financial institution regulated by a governmental agency.​
+
+11.29
+
+These securities may be owned directly or through shares in exchange-traded or mutual​
+
+11.30
+
+funds, or as units in commingled trusts, subject to any limitations specified in this subdivision.​
+
+11.31
+
+(c) Government obligations. An expanded list plan is authorized to invest funds in​
+
+11.32
+
+governmental bonds, notes, bills, mortgages, and other evidences of indebtedness if the​
+
+Article 2 Sec. 15.​
+
+11​
+
+03/12/25 ​
+
+25-04785​
+
+12.1
+
+issue is backed by the full faith and credit of the issuer or the issue is rated among the top​
+
+12.2
+
+four quality rating categories by a nationally recognized rating agency. The obligations in​
+
+12.3
+
+which funds may be invested under this paragraph are guaranteed or insured issues of:​
+
+12.4
+12.5
+12.6
+12.7
+12.8
+12.9
+12.10
+12.11
+
+(1) the United States, one of its agencies, one of its instrumentalities, or an organization​
+created and regulated by an act of Congress;​
+(2) the Dominion of Canada or one of its provinces if the principal and interest are​
+payable in United States dollars;​
+(3) a state or one of its municipalities, political subdivisions, agencies, or​
+instrumentalities; and​
+(4) a United States government-sponsored organization of which the United States is a​
+member if the principal and interest are payable in United States dollars.​
+
+12.12
+
+(d) Investment-grade corporate obligations. An expanded list plan is authorized to​
+
+12.13
+
+invest funds in bonds, notes, debentures, transportation equipment obligations, or any other​
+
+12.14
+
+longer term evidences of indebtedness issued or guaranteed by a corporation organized​
+
+12.15
+
+under the laws of the United States or any of its states, or the Dominion of Canada or any​
+
+12.16
+
+of its provinces if:​
+
+12.17
+
+(1) the principal and interest are payable in United States dollars; and​
+
+12.18
+
+(2) the obligations are rated among the top four quality categories by a nationally​
+
+12.19
+
+recognized rating agency.​
+
+12.20
+
+(e) Below-investment-grade corporate obligations. An expanded list plan is authorized​
+
+12.21
+
+to invest in unrated corporate obligations or in corporate obligations that are not rated among​
+
+12.22
+
+the top four quality categories by a nationally recognized rating agency if:​
+
+12.23
+12.24
+12.25
+12.26
+12.27
+12.28
+
+(1) the aggregate value of these obligations does not exceed five percent of the covered​
+pension plan's market value;​
+(2) the covered pension plan's participation is limited to 50 percent of a single offering​
+subject to this paragraph; and​
+(3) the covered pension plan's participation is limited to 25 percent of an issuer's​
+obligations subject to this paragraph.​
+
+12.29
+
+(f) Other obligations. (1) An expanded list plan is authorized to invest funds in:​
+
+12.30
+
+(i) bankers acceptances and deposit notes if issued by a United States bank that is rated​
+
+12.31
+
+in the highest four quality categories by a nationally recognized rating agency;​
+
+Article 2 Sec. 15.​
+
+12​
+
+03/12/25 ​
+
+13.1
+
+25-04785​
+
+(ii) certificates of deposit if issued by a United States bank or savings institution rated​
+
+13.2
+
+in the highest four quality categories by a nationally recognized rating agency or whose​
+
+13.3
+
+certificates of deposit are fully insured by federal agencies, or if issued by a credit union in​
+
+13.4
+
+an amount within the limit of the insurance coverage provided by the National Credit Union​
+
+13.5
+
+Administration;​
+
+13.6
+
+(iii) commercial paper if issued by a United States corporation or its Canadian subsidiary​
+
+13.7
+
+and if rated in the highest two quality categories by a nationally recognized rating agency;​
+
+13.8
+
+(iv) mortgage securities and asset-backed securities if rated in the top four quality​
+
+13.9
+13.10
+13.11
+13.12
+
+categories by a nationally recognized rating agency;​
+(v) repurchase agreements and reverse repurchase agreements if collateralized with​
+letters of credit or securities authorized in this section;​
+(vi) guaranteed investment contracts if issued by an insurance company or a bank that​
+
+13.13
+
+is rated in the top four quality categories by a nationally recognized rating agency or​
+
+13.14
+
+alternative guaranteed investment contracts if the underlying assets comply with the​
+
+13.15
+
+requirements of this subdivision;​
+
+13.16
+
+(vii) savings accounts if fully insured by a federal agency; and​
+
+13.17
+
+(viii) guaranty fund certificates, surplus notes, or debentures if issued by a domestic​
+
+13.18
+
+mutual insurance company; and​
+
+13.19
+
+(ix) Bitcoin and other cryptocurrency as defined in section 16A.278.​
+
+13.20
+
+(2) Sections 16A.58, 16C.03, subdivision 4, and 16C.05 do not apply to certificates of​
+
+13.21
+
+deposit and collateralization agreements executed by the covered pension plan under clause​
+
+13.22
+
+(1), item (ii).​
+
+13.23
+
+(3) In addition to investments authorized by clause (1), item (iv), an expanded list plan​
+
+13.24
+
+is authorized to purchase from the Minnesota Housing Finance Agency all or any part of a​
+
+13.25
+
+pool of residential mortgages, not in default, that has previously been financed by the​
+
+13.26
+
+issuance of bonds or notes of the agency. The covered pension plan may also enter into a​
+
+13.27
+
+commitment with the agency, at the time of any issue of bonds or notes, to purchase at a​
+
+13.28
+
+specified future date, not exceeding 12 years from the date of the issue, the amount of​
+
+13.29
+
+mortgage loans then outstanding and not in default that have been made or purchased from​
+
+13.30
+
+the proceeds of the bonds or notes. The covered pension plan may charge reasonable fees​
+
+13.31
+
+for any such commitment and may agree to purchase the mortgage loans at a price sufficient​
+
+13.32
+
+to produce a yield to the covered pension plan comparable, in its judgment, to the yield​
+
+13.33
+
+available on similar mortgage loans at the date of the bonds or notes. The covered pension​
+
+Article 2 Sec. 15.​
+
+13​
+
+03/12/25 ​
+
+25-04785​
+
+14.1
+
+plan may also enter into agreements with the agency for the investment of any portion of​
+
+14.2
+
+the funds of the agency. The agreement must cover the period of the investment, withdrawal​
+
+14.3
+
+privileges, and any guaranteed rate of return.​
+
+14.4
+
+(g) Corporate stocks. An expanded list plan is authorized to invest in stocks or​
+
+14.5
+
+convertible issues of any corporation organized under the laws of the United States or any​
+
+14.6
+
+of its states, any corporation organized under the laws of the Dominion of Canada or any​
+
+14.7
+
+of its provinces, or any corporation listed on an exchange that is regulated by an agency of​
+
+14.8
+
+the United States or of the Canadian national government.​
+
+14.9
+
+An investment in any corporation must not exceed five percent of the total outstanding​
+
+14.10
+
+shares of that corporation, except that an expanded list plan may hold up to 20 percent of​
+
+14.11
+
+the shares of a real estate investment trust and up to 20 percent of the shares of a closed​
+
+14.12
+
+mutual fund. Purchase of shares of exchange-traded or mutual funds shall be consistent​
+
+14.13
+
+with paragraph (b).​
+
+14.14
+
+(h) Other investments. (1) In addition to the investments authorized in paragraphs (b)​
+
+14.15
+
+to (g), and subject to the provisions in clause (2), an expanded list plan is authorized to​
+
+14.16
+
+invest funds in:​
+
+14.17
+
+(i) equity and debt investment businesses through participation in limited partnerships,​
+
+14.18
+
+trusts, private placements, limited liability corporations, limited liability companies, limited​
+
+14.19
+
+liability partnerships, and corporations;​
+
+14.20
+
+(ii) real estate ownership interests or loans secured by mortgages or deeds of trust or​
+
+14.21
+
+shares of real estate investment trusts, through investment in limited partnerships,​
+
+14.22
+
+bank-sponsored collective funds, trusts, mortgage participation agreements, and insurance​
+
+14.23
+
+company commingled accounts, including separate accounts;​
+
+14.24
+
+(iii) resource investments through limited partnerships, trusts, private placements, limited​
+
+14.25
+
+liability corporations, limited liability companies, limited liability partnerships, and​
+
+14.26
+
+corporations; and​
+
+14.27
+
+(iv) international securities.​
+
+14.28
+
+(2) The investments authorized in clause (1) must conform to the following provisions:​
+
+14.29
+
+(i) the aggregate value of all investments made under clause (1), items (i), (ii), and (iii),​
+
+14.30
+
+may not exceed 35 percent of the market value of the fund for which the expanded list plan​
+
+14.31
+
+is investing;​
+
+14.32
+14.33
+
+(ii) there must be at least four unrelated owners of the investment other than the expanded​
+list plan for investments made under clause (1), item (i), (ii), or (iii);​
+Article 2 Sec. 15.​
+
+14​
+
+03/12/25 ​
+
+15.1
+15.2
+
+25-04785​
+
+(iii) the expanded list plan's participation in an investment vehicle is limited to 20 percent​
+thereof for investments made under clause (1), item (i), (ii), or (iii);​
+
+15.3
+
+(iv) the expanded list plan's participation in a limited partnership does not include a​
+
+15.4
+
+general partnership interest or other interest involving general liability. The expanded list​
+
+15.5
+
+plan may not engage in any activity as a limited partner which creates general liability;​
+
+15.6
+
+(v) the aggregate value of all unrated obligations and obligations that are not rated among​
+
+15.7
+
+the top four quality categories by a nationally recognized rating agency authorized by​
+
+15.8
+
+paragraph (e) and clause (1), item (iv), must not exceed five percent of the covered plan's​
+
+15.9
+
+market value; and​
+
+15.10
+
+(vi) for volunteer firefighter relief associations, emerging market equity and international​
+
+15.11
+
+debt investments authorized under clause (1), item (iv), must not exceed 15 percent of the​
+
+15.12
+
+association's special fund market value.​
+
+15.13
+15.14
+
+(i) Supplemental plan investments. The governing body of an expanded list plan may​
+certify assets to the State Board of Investment for investment under section 11A.17.​
+
+15.15
+
+(j) Asset mix limitations. The aggregate value of an expanded list plan's investments​
+
+15.16
+
+under paragraphs (g) and (h) and equity investments under paragraph (i), regardless of the​
+
+15.17
+
+form in which these investments are held, must not exceed 85 percent of the covered plan's​
+
+15.18
+
+market value.​
+
+15.19
+
+EFFECTIVE DATE. This section is effective January 1, 2026.​
+
+Article 2 Sec. 15.​
+
+15​
+
+APPENDIX​
+Article locations for 25-04785​
+
+ARTICLE 1​
+
+MINNESOTA BITCOIN ACT............................................................... Page.Ln 1.11​
+
+ARTICLE 2​
+
+AUTHORIZING BITCOIN PAYMENTS AND INVESTMENTS....... Page.Ln 1.16​
+1​

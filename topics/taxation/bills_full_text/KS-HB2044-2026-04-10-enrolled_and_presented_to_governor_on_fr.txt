@@ -1,0 +1,558 @@
+HOUSE BILL No. 2044
+AN ACT concerning income taxation; relating to Kansas adjusted gross income; providing
+a subtraction modification for amounts received as compensation for serving in the
+armed forces; relating to the homestead property tax refund act; providing that a
+person shall not lose eligibility for a homestead property tax refund claim or the
+selective assistance for effective senior relief (SAFESR) tax credit if the appraised
+valuation of the homestead subsequently exceeds $350,000 after qualifying in a
+previous tax year; amending K.S.A.79-4522 and K.S.A. 2025 Supp. 79-32,117 and
+repealing the existing sections.
+
+Be it enacted by the Legislature of the State of Kansas:
+Section 1. K.S.A. 2025 Supp. 79-32,117 is hereby amended to
+read as follows: 79-32,117. (a) The Kansas adjusted gross income of an
+individual means such individual's federal adjusted gross income for
+the taxable year, with the modifications specified in this section.
+(b) There shall be added to federal adjusted gross income:
+(i) Interest income less any related expenses directly incurred in
+the purchase of state or political subdivision obligations, to the extent
+that the same is not included in federal adjusted gross income, on
+obligations of any state or political subdivision thereof, but to the
+extent that interest income on obligations of this state or a political
+subdivision thereof issued prior to January 1, 1988, is specifically
+exempt from income tax under the laws of this state authorizing the
+issuance of such obligations, it shall be excluded from computation of
+Kansas adjusted gross income whether or not included in federal
+adjusted gross income. Interest income on obligations of this state or a
+political subdivision thereof issued after December 31, 1987, shall be
+excluded from computation of Kansas adjusted gross income whether
+or not included in federal adjusted gross income.
+(ii) Taxes on or measured by income or fees or payments in lieu of
+income taxes imposed by this state or any other taxing jurisdiction to
+the extent deductible in determining federal adjusted gross income and
+not credited against federal income tax. This paragraph shall not apply
+to taxes imposed under the provisions of K.S.A. 79-1107 or 79-1108,
+and amendments thereto, for privilege tax year 1995, and all such years
+thereafter.
+(iii) The federal net operating loss deduction, except that the
+federal net operating loss deduction shall not be added to an
+individual's federal adjusted gross income for tax years beginning after
+December 31, 2016.
+(iv) Federal income tax refunds received by the taxpayer if the
+deduction of the taxes being refunded resulted in a tax benefit for
+Kansas income tax purposes during a prior taxable year. Such refunds
+shall be included in income in the year actually received regardless of
+the method of accounting used by the taxpayer. For purposes hereof, a
+tax benefit shall be deemed to have resulted if the amount of the tax
+had been deducted in determining income subject to a Kansas income
+tax for a prior year regardless of the rate of taxation applied in such
+prior year to the Kansas taxable income, but only that portion of the
+refund shall be included as bears the same proportion to the total refund
+received as the federal taxes deducted in the year to which such refund
+is attributable bears to the total federal income taxes paid for such year.
+For purposes of the foregoing sentence, federal taxes shall be
+considered to have been deducted only to the extent such deduction
+does not reduce Kansas taxable income below zero.
+(v) The amount of any depreciation deduction or business expense
+deduction claimed on the taxpayer's federal income tax return for any
+capital expenditure in making any building or facility accessible to the
+handicapped, for which expenditure the taxpayer claimed the credit
+allowed by K.S.A. 79-32,177, and amendments thereto.
+(vi) Any amount of designated employee contributions picked up
+by an employer pursuant to K.S.A. 12-5005, 20-2603, 74-4919 and 744965, and amendments thereto.
+(vii) The amount of any charitable contribution made to the extent
+the same is claimed as the basis for the credit allowed pursuant to
+K.S.A. 79-32,196, and amendments thereto.
+
+HOUSE BILL No. 2044—page 2
+(viii) The amount of any costs incurred for improvements to a
+swine facility, claimed for deduction in determining federal adjusted
+gross income, to the extent the same is claimed as the basis for any
+credit allowed pursuant to K.S.A. 79-32,204, and amendments thereto.
+(ix) The amount of any ad valorem taxes and assessments paid and
+the amount of any costs incurred for habitat management or
+construction and maintenance of improvements on real property,
+claimed for deduction in determining federal adjusted gross income, to
+the extent the same is claimed as the basis for any credit allowed
+pursuant to K.S.A. 79-32,203, and amendments thereto.
+(x) Amounts received as nonqualified withdrawals, as defined by
+K.S.A. 75-643, and amendments thereto, if, at the time of contribution
+to a family postsecondary education savings account, such amounts
+were subtracted from the federal adjusted gross income pursuant to
+subsection (c)(xv) or if such amounts are not already included in the
+federal adjusted gross income.
+(xi) The amount of any contribution made to the same extent the
+same is claimed as the basis for the credit allowed pursuant to K.S.A.
+74-50,154, and amendments thereto.
+(xii) For taxable years commencing after December 31, 2004,
+amounts received as withdrawals not in accordance with the provisions
+of K.S.A. 74-50,204, and amendments thereto, if, at the time of
+contribution to an individual development account, such amounts were
+subtracted from the federal adjusted gross income pursuant to
+subsection (c)(xiii), or if such amounts are not already included in the
+federal adjusted gross income.
+(xiii) The amount of any expenditures claimed for deduction in
+determining federal adjusted gross income, to the extent the same is
+claimed as the basis for any credit allowed pursuant to K.S.A. 7932,217 through 79-32,220 or 79-32,222, and amendments thereto.
+(xiv) The amount of any amortization deduction claimed in
+determining federal adjusted gross income to the extent the same is
+claimed for deduction pursuant to K.S.A. 79-32,221, and amendments
+thereto.
+(xv) The amount of any expenditures claimed for deduction in
+determining federal adjusted gross income, to the extent the same is
+claimed as the basis for any credit allowed pursuant to K.S.A. 7932,223 through 79-32,226, 79-32,228 through 79-32,231, 79-32,233
+through 79-32,236, 79-32,238 through 79-32,241, 79-32,245 through
+79-32,248 or 79-32,251 through 79-32,254, and amendments thereto.
+(xvi) The amount of any amortization deduction claimed in
+determining federal adjusted gross income to the extent the same is
+claimed for deduction pursuant to K.S.A. 79-32,227, 79-32,232, 7932,237, 79-32,249, 79-32,250 or 79-32,255, and amendments thereto.
+(xvii) The amount of any amortization deduction claimed in
+determining federal adjusted gross income to the extent the same is
+claimed for deduction pursuant to K.S.A. 79-32,256, and amendments
+thereto.
+(xviii) For taxable years commencing after December 31, 2006,
+the amount of any ad valorem or property taxes and assessments paid to
+a state other than Kansas or local government located in a state other
+than Kansas by a taxpayer who resides in a state other than Kansas,
+when the law of such state does not allow a resident of Kansas who
+earns income in such other state to claim a deduction for ad valorem or
+property taxes or assessments paid to a political subdivision of the state
+of Kansas in determining taxable income for income tax purposes in
+such other state, to the extent that such taxes and assessments are
+claimed as an itemized deduction for federal income tax purposes.
+(xix) For taxable years beginning after December 31, 2012, and
+ending before January 1, 2017, the amount of any: (1) Loss from
+business as determined under the federal internal revenue code and
+reported from schedule C and on line 12 of the taxpayer's form 1040
+federal individual income tax return; (2) loss from rental real estate,
+royalties, partnerships, S corporations, except those with wholly owned
+
+HOUSE BILL No. 2044—page 3
+subsidiaries subject to the Kansas privilege tax, estates, trusts, residual
+interest in real estate mortgage investment conduits and net farm rental
+as determined under the federal internal revenue code and reported
+from schedule E and on line 17 of the taxpayer's form 1040 federal
+individual income tax return; and (3) farm loss as determined under the
+federal internal revenue code and reported from schedule F and on line
+of the taxpayer's form 1040 federal income tax return; all to the
+extent deducted or subtracted in determining the taxpayer's federal
+adjusted gross income. For purposes of this subsection, references to
+the federal form 1040 and federal schedule C, schedule E, and schedule
+F, shall be to such form and schedules as they existed for tax year 2011,
+and as revised thereafter by the internal revenue service.
+(xx) For taxable years beginning after December 31, 2012, and
+ending before January 1, 2017, the amount of any deduction for selfemployment taxes under section 164(f) of the federal internal revenue
+code as in effect on January 1, 2012, and amendments thereto, in
+determining the federal adjusted gross income of an individual
+taxpayer, to the extent the deduction is attributable to income reported
+on schedule C, E or F and on line 12, 17 or 18 of the taxpayer's form
+federal income tax return.
+(xxi) For taxable years beginning after December 31, 2012, and
+ending before January 1, 2017, the amount of any deduction for
+pension, profit sharing, and annuity plans of self-employed individuals
+under section 62(a)(6) of the federal internal revenue code as in effect
+on January 1, 2012, and amendments thereto, in determining the federal
+adjusted gross income of an individual taxpayer.
+(xxii) For taxable years beginning after December 31, 2012, and
+ending before January 1, 2017, the amount of any deduction for health
+insurance under section 162(l) of the federal internal revenue code as in
+effect on January 1, 2012, and amendments thereto, in determining the
+federal adjusted gross income of an individual taxpayer.
+(xxiii) For taxable years beginning after December 31, 2012, and
+ending before January 1, 2017, the amount of any deduction for
+domestic production activities under section 199 of the federal internal
+revenue code as in effect on January 1, 2012, and amendments thereto,
+in determining the federal adjusted gross income of an individual
+taxpayer.
+(xxiv) For taxable years commencing after December 31, 2013,
+that portion of the amount of any expenditure deduction claimed in
+determining federal adjusted gross income for expenses paid for
+medical care of the taxpayer or the taxpayer's spouse or dependents
+when such expenses were paid or incurred for an abortion, or for a
+health benefit plan, as defined in K.S.A. 65-6731, and amendments
+thereto, for the purchase of an optional rider for coverage of abortion in
+accordance with K.S.A. 40-2,190, and amendments thereto, to the
+extent that such taxes and assessments are claimed as an itemized
+deduction for federal income tax purposes.
+(xxv) For taxable years commencing after December 31, 2013,
+that portion of the amount of any expenditure deduction claimed in
+determining federal adjusted gross income for expenses paid by a
+taxpayer for health care when such expenses were paid or incurred for
+abortion coverage, a health benefit plan, as defined in K.S.A. 65-6731,
+and amendments thereto, when such expenses were paid or incurred for
+abortion coverage or amounts contributed to health savings accounts
+for such taxpayer's employees for the purchase of an optional rider for
+coverage of abortion in accordance with K.S.A. 40-2,190, and
+amendments thereto, to the extent that such taxes and assessments are
+claimed as a deduction for federal income tax purposes.
+(xxvi) For all taxable years beginning after December 31, 2016,
+the amount of any charitable contribution made to the extent the same
+is claimed as the basis for the credit allowed pursuant to K.S.A. 724357, and amendments thereto, and is also claimed as an itemized
+deduction for federal income tax purposes.
+(xxvii) For all taxable years commencing after December 31,
+
+HOUSE BILL No. 2044—page 4
+2020, the amount of any interest expense paid or accrued in a previous
+taxable year but allowed as a deduction pursuant to section 163 of the
+federal internal revenue code in the current taxable year by reason of
+the carryforward of disallowed business interest pursuant to section
+163(j) of the federal internal revenue code. For purposes of this
+paragraph, an interest expense is considered paid or accrued only in the
+first taxable year the deduction would have been allowable pursuant to
+section 163 of the federal internal revenue code if the limitation
+pursuant to section 163(j) of the federal internal revenue code did not
+exist.
+(xxviii) For all taxable years beginning after December 31, 2021,
+the amount of any contributions to, or earnings from, a first-time home
+buyer savings account if distributions from the account were not used
+to pay for expenses or transactions authorized pursuant to K.S.A. 584904, and amendments thereto, or were not held for the minimum
+length of time required pursuant to K.S.A. 58-4904, and amendments
+thereto. Contributions to, or earnings from, such account shall also
+include any amount resulting from the account holder not designating a
+surviving payable on death beneficiary pursuant to K.S.A. 58-4904(e),
+and amendments thereto.
+(xxix) For all taxable years beginning after December 31, 2024,
+the amount of any contributions to, or earnings from, an adoption
+savings account if distributions from the account were not used to pay
+for expenses or transactions authorized pursuant to K.S.A. 2025 Supp.
+38-2504, and amendments thereto, or were not held for the minimum
+length of time required pursuant to K.S.A. 2025 Supp. 38-2504, and
+amendments thereto. Contributions to, or earnings from, such account
+shall also include any amount resulting from the account holder not
+designating a surviving payable on death beneficiary pursuant to
+K.S.A. 2025 Supp. 38-2504(e), and amendments thereto.
+(c) There shall be subtracted from federal adjusted gross income:
+(i) Interest or dividend income on obligations or securities of any
+authority, commission or instrumentality of the United States and its
+possessions less any related expenses directly incurred in the purchase
+of such obligations or securities, to the extent included in federal
+adjusted gross income but exempt from state income taxes under the
+laws of the United States.
+(ii) Any amounts received which are included in federal adjusted
+gross income but which are specifically exempt from Kansas income
+taxation under the laws of the state of Kansas.
+(iii) The portion of any gain or loss from the sale or other
+disposition of property having a higher adjusted basis for Kansas
+income tax purposes than for federal income tax purposes on the date
+such property was sold or disposed of in a transaction in which gain or
+loss was recognized for purposes of federal income tax that does not
+exceed such difference in basis, but if a gain is considered a long-term
+capital gain for federal income tax purposes, the modification shall be
+limited to that portion of such gain which is included in federal
+adjusted gross income.
+(iv) The amount necessary to prevent the taxation under this act of
+any annuity or other amount of income or gain which was properly
+included in income or gain and was taxed under the laws of this state
+for a taxable year prior to the effective date of this act, as amended, to
+the taxpayer, or to a decedent by reason of whose death the taxpayer
+acquired the right to receive the income or gain, or to a trust or estate
+from which the taxpayer received the income or gain.
+(v) The amount of any refund or credit for overpayment of taxes
+on or measured by income or fees or payments in lieu of income taxes
+imposed by this state, or any taxing jurisdiction, to the extent included
+in gross income for federal income tax purposes.
+(vi) Accumulation distributions received by a taxpayer as a
+beneficiary of a trust to the extent that the same are included in federal
+adjusted gross income.
+(vii) Amounts received as annuities under the federal civil service
+
+HOUSE BILL No. 2044—page 5
+retirement system from the civil service retirement and disability fund
+and other amounts received as retirement benefits in whatever form
+which were earned for being employed by the federal government or
+for service in the armed forces of the United States.
+(viii) Amounts received by retired railroad employees as a
+supplemental annuity under the provisions of 45 U.S.C. §§ 228b(a) and
+228c(a)(1) et seq.
+(ix) Amounts received by retired employees of a city and by
+retired employees of any board of such city as retirement allowances
+pursuant to K.S.A. 13-14,106, and amendments thereto, or pursuant to
+any charter ordinance exempting a city from the provisions of K.S.A.
+13-14,106, and amendments thereto.
+(x) (1) For taxable years beginning after December 31, 2021, the
+amount of any federal credit disallowance under the provisions of 26
+U.S.C. § 280C(a).
+(2) For taxable years beginning after December 31, 2019, and
+ending before January 1, 2022, 50% of the amount of the federal
+employee retention credit disallowance under rules similar to the rules
+of 26 U.S.C. § 280C(a). The taxpayer shall be required to prove that
+such taxpayer previously filed Kansas income tax returns and paid
+Kansas income tax on the disallowed amount. Notwithstanding any
+other provision of law to the contrary, any claim for refund or amended
+return relating to this subparagraph shall be allowed to be filed on or
+before April 15, 2025, and no claim for refund or amended return shall
+be allowed or filed after April 15, 2025.
+(xi) For taxable years beginning after December 31, 1986,
+dividend income on stock issued by Kansas venture capital, inc.
+(xii) For taxable years beginning after December 31, 1989,
+amounts received by retired employees of a board of public utilities as
+pension and retirement benefits pursuant to K.S.A. 13-1246, 13-1246a
+and 13-1249, and amendments thereto.
+(xiii) For taxable years beginning after December 31, 2004,
+amounts contributed to and the amount of income earned on
+contributions deposited to an individual development account under
+K.S.A. 74-50,201 et seq., and amendments thereto.
+(xiv) For all taxable years commencing after December 31, 1996,
+that portion of any income of a bank organized under the laws of this
+state or any other state, a national banking association organized under
+the laws of the United States, an association organized under the
+savings and loan code of this state or any other state, or a federal
+savings association organized under the laws of the United States, for
+which an election as an S corporation under subchapter S of the federal
+internal revenue code is in effect, which accrues to the taxpayer who is
+a stockholder of such corporation and which is not distributed to the
+stockholders as dividends of the corporation. For taxable years
+beginning after December 31, 2012, and ending before January 1, 2017,
+the amount of modification under this subsection shall exclude the
+portion of income or loss reported on schedule E and included on line
+of the taxpayer's form 1040 federal individual income tax return.
+(xv) The cumulative amounts not exceeding $3,000, or $6,000 for
+a married couple filing a joint return, for each designated beneficiary
+that are contributed to: (1) A family postsecondary education savings
+account established under the Kansas postsecondary education savings
+program or a qualified tuition program established and maintained by
+another state or agency or instrumentality thereof pursuant to section
+of the internal revenue code of 1986, as amended, for the purpose
+of paying the qualified higher education expenses of a designated
+beneficiary; or (2) an achieving a better life experience (ABLE)
+account established under the Kansas ABLE savings program or a
+qualified ABLE program established and maintained by another state or
+agency or instrumentality thereof pursuant to section 529A of the
+internal revenue code of 1986, as amended, for the purpose of saving
+private funds to support an individual with a disability. The terms and
+phrases used in this paragraph shall have the meaning respectively
+
+HOUSE BILL No. 2044—page 6
+ascribed thereto by the provisions of K.S.A. 75-643 and 75-652, and
+amendments thereto, and the provisions of such sections are hereby
+incorporated by reference for all purposes thereof. For all taxable years
+beginning after December 31, 2022, contributions made to a qualified
+tuition program account or a qualified ABLE program account pursuant
+to this paragraph on and after January 1 but prior to the date required
+for filing a return pursuant to K.S.A. 79-3221, and amendments thereto,
+of the successive taxable year may be elected by the taxpayer to apply
+to the prior taxable year if such election is made at the time of filing the
+return. No contribution shall be used as a modification pursuant to this
+paragraph in more than one taxable year.
+(xvi) For all taxable years beginning after December 31, 2004,
+amounts received by taxpayers who are or were members of the armed
+forces of the United States, including service in the Kansas army and
+air national guard, as a recruitment, sign up or retention bonus received
+by such taxpayer as an incentive to join, enlist or remain in the armed
+services of the United States, including service in the Kansas army and
+air national guard, and amounts received for repayment of educational
+or student loans incurred by or obligated to such taxpayer and received
+by such taxpayer as a result of such taxpayer's service in the armed
+forces of the United States, including service in the Kansas army and
+air national guard.
+(xvii) For all taxable years beginning after December 31, 2004,
+amounts received by taxpayers who are eligible members of the Kansas
+army and air national guard as a reimbursement pursuant to K.S.A. 48281, and amendments thereto, and amounts received for death benefits
+pursuant to K.S.A. 48-282, and amendments thereto, to the extent that
+such death benefits are included in federal adjusted gross income of the
+taxpayer.
+(xviii) (A) For all taxable years beginning after December 31,
+2007, and ending before January 1, 2024, amounts received as benefits
+under the federal social security act which are included in federal
+adjusted gross income of a taxpayer with federal adjusted gross income
+of $75,000 or less, whether such taxpayer's filing status is single, head
+of household, married filing separate or married filing jointly.
+(B) For all taxable years beginning after December 31, 2023,
+amounts received as benefits under the federal social security act that
+are included in federal adjusted gross income of a taxpayer.
+(xix) Amounts received by retired employees of Washburn
+university as retirement and pension benefits under the university's
+retirement plan.
+(xx) For taxable years beginning after December 31, 2012, and
+ending before January 1, 2017, the amount of any: (1) Net profit from
+business as determined under the federal internal revenue code and
+reported from schedule C and on line 12 of the taxpayer's form 1040
+federal individual income tax return; (2) net income, not including
+guaranteed payments as defined in section 707(c) of the federal internal
+revenue code and as reported to the taxpayer from federal schedule K1, (form 1065-B), in box 9, code F or as reported to the taxpayer from
+federal schedule K-1, (form 1065) in box 4, from rental real estate,
+royalties, partnerships, S corporations, estates, trusts, residual interest
+in real estate mortgage investment conduits and net farm rental as
+determined under the federal internal revenue code and reported from
+schedule E and on line 17 of the taxpayer's form 1040 federal
+individual income tax return; and (3) net farm profit as determined
+under the federal internal revenue code and reported from schedule F
+and on line 18 of the taxpayer's form 1040 federal income tax return;
+all to the extent included in the taxpayer's federal adjusted gross
+income. For purposes of this subsection, references to the federal form
+and federal schedule C, schedule E, and schedule F, shall be to
+such form and schedules as they existed for tax year 2011 and as
+revised thereafter by the internal revenue service.
+(xxi) For all taxable years beginning after December 31, 2013,
+amounts equal to the unreimbursed travel, lodging and medical
+
+HOUSE BILL No. 2044—page 7
+expenditures directly incurred by a taxpayer while living, or a
+dependent of the taxpayer while living, for the donation of one or more
+human organs of the taxpayer, or a dependent of the taxpayer, to
+another person for human organ transplantation. The expenses may be
+claimed as a subtraction modification provided for in this section to the
+extent the expenses are not already subtracted from the taxpayer's
+federal adjusted gross income. In no circumstances shall the subtraction
+modification provided for in this section for any individual, or a
+dependent, exceed $5,000. As used in this section, "human organ"
+means all or part of a liver, pancreas, kidney, intestine, lung or bone
+marrow. The provisions of this paragraph shall take effect on the day
+the secretary of revenue certifies to the director of the budget that the
+cost for the department of revenue of modifications to the automated
+tax system for the purpose of implementing this paragraph will not
+exceed $20,000.
+(xxii) For taxable years beginning after December 31, 2012, and
+ending before January 1, 2017, the amount of net gain from the sale of:
+(1) Cattle and horses, regardless of age, held by the taxpayer for draft,
+breeding, dairy or sporting purposes, and held by such taxpayer for 24
+months or more from the date of acquisition; and (2) other livestock,
+regardless of age, held by the taxpayer for draft, breeding, dairy or
+sporting purposes, and held by such taxpayer for 12 months or more
+from the date of acquisition. The subtraction from federal adjusted
+gross income shall be limited to the amount of the additions recognized
+under the provisions of subsection (b)(xix) attributable to the business
+in which the livestock sold had been used. As used in this paragraph,
+the term "livestock" shall not include poultry.
+(xxiii) For all taxable years beginning after December 31, 2012,
+amounts received under either the Overland Park, Kansas police
+department retirement plan or the Overland Park, Kansas fire
+department retirement plan, both as established by the city of Overland
+Park, pursuant to the city's home rule authority.
+(xxiv) For taxable years beginning after December 31, 2013, and
+ending before January 1, 2017, the net gain from the sale from
+Christmas trees grown in Kansas and held by the taxpayer for six years
+or more.
+(xxv) For all taxable years commencing after December 31, 2020,
+100% of global intangible low-taxed income under section 951A of the
+federal internal revenue code of 1986, before any deductions allowed
+under section 250(a)(1)(B) of such code.
+(xxvi) (1) For all taxable years commencing after December 31,
+2020, the amount of any interest expense paid or accrued in the current
+taxable year and disallowed as a deduction pursuant to section 163(j) of
+the federal internal revenue code.
+(2) For purposes of this paragraph, an interest expense is
+considered paid or accrued only in the first taxable year the deduction
+would have been allowable pursuant to section 163 of the federal
+internal revenue code if the limitation pursuant to section 163(j) of the
+federal internal revenue code did not exist.
+(3) For tax year 2021, an amount equal to the sum of any interest
+expenses paid or accrued in tax years 2018, 2019 and 2020 less the sum
+of amounts allowed as a deduction pursuant to section 163 of the
+federal internal revenue code in tax years 2018, 2019 and 2020.
+(xxvii) For taxable years commencing after December 31, 2020,
+the amount disallowed as a deduction pursuant to section 274 of the
+federal internal revenue code of 1986 for meal expenditures shall be
+allowed to the extent such expense was deductible for determining
+federal income tax and was allowed and in effect on December 31,
+2017.
+(xxviii) For all taxable years beginning after December 31, 2021:
+(1) The amount contributed to a first-time home buyer savings account
+pursuant to K.S.A. 58-4903, and amendments thereto, in an amount not
+to exceed $3,000 for an individual or $6,000 for a married couple filing
+a joint return; or (2) amounts received as income earned from assets in
+
+HOUSE BILL No. 2044—page 8
+a first-time home buyer savings account. For all taxable years
+beginning after December 31, 2022, contributions made to a first-time
+home buyer savings account pursuant to subparagraph (1) on and after
+January 1 but prior to the date required for filing a return pursuant to
+K.S.A. 79-3221, and amendments thereto, of the successive taxable
+year may be elected by the taxpayer to apply to the prior taxable year if
+such election is made at the time of filing the return. No contribution
+shall be used as a modification pursuant to subparagraph (1) in more
+than one taxable year.
+(xxix) For taxable years beginning after December 31, 2017, for
+an individual taxpayer who carried back federal net operating losses
+arising in a taxable year beginning after December 31, 2017, and before
+January 1, 2021, pursuant to section 172(b)(1) of the federal internal
+revenue code as amended by the coronavirus aid, relief, and economic
+security act (CARES act), the amount of such federal net operating loss
+carryback for each applicable year. If the amount of such federal net
+operating loss carryback exceeds the taxpayer's Kansas adjusted gross
+income for such taxable year, the amount thereof that exceeds such
+Kansas adjusted gross income may be carried forward as a subtraction
+modification in the following taxable year or years until the total
+amount of such federal net operating loss carryback has been deducted,
+except that no such unused amount shall be carried forward for
+deduction as a subtraction modification after the 20th taxable year
+following the taxable year of the net operating loss. Notwithstanding
+any other provision of law to the contrary, an extension of time shall be
+allowed for a claim for refund or amended return for tax years 2018,
+or 2020 limited to the application of the provisions of this
+paragraph and such claim for refund or amended return must be filed
+on or before April 15, 2025.
+(xxx) For all taxable years beginning after December 31, 2024: (1)
+The amount contributed to an adoption savings account pursuant to
+K.S.A. 2025 Supp. 38-2503, and amendments thereto, in an amount not
+to exceed $6,000 for an individual or $12,000 for a married couple
+filing a joint return; or (2) amounts received as income earned from
+assets in an adoption savings account.
+(xxxi) (1) For all taxable years beginning after December 31,
+2026, amounts received as compensation by an individual for serving
+in the armed forces to the extent such compensation does not exceed
+the compensation equal to a senior enlisted member of the armed
+forces as set by the United States department of defense for the tax
+year.
+(2) As used in this paragraph:
+(A) "Compensation" means all pay, bonuses, reimbursement or
+compensation for service in the armed forces.
+(B) "Serving in the armed forces" means a person who serves on
+active duty as a uniformed member in the army, navy, air force, coast
+guard, marine corps or space force of the United States, including any
+active duty reserve or active duty national guard component thereof.
+(d) There shall be added to or subtracted from federal adjusted
+gross income the taxpayer's share, as beneficiary of an estate or trust, of
+the Kansas fiduciary adjustment determined under K.S.A. 79-32,135,
+and amendments thereto.
+(e) The amount of modifications required to be made under this
+section by a partner which relates to items of income, gain, loss,
+deduction or credit of a partnership shall be determined under K.S.A.
+79-32,131, and amendments thereto, to the extent that such items affect
+federal adjusted gross income of the partner.
+Sec. 2. K.S.A. 79-4522 is hereby amended to read as follows: 794522. (a) Except as provided in subsection (b), a person owning or
+occupying a homestead for which the appraised valuation for property
+tax purposes exceeds $350,000 in any year shall not be entitled to claim
+a refund of property taxes under the homestead property tax refund act
+for any such year.
+
+HOUSE BILL No. 2044—page 9
+(b) For tax year 2026 and all tax years thereafter, a person who
+received a refund under this act or a credit pursuant to K.S.A. 7932,263, and amendments thereto, for any previous tax year when the
+person's homestead had an appraised valuation not exceeding
+$350,000 shall not lose eligibility for any subsequent tax year in the
+event that the appraised valuation of such homestead exceeds $350,000
+for any such subsequent tax year if the person otherwise satisfies the
+statutory requirements for such a refund or credit.
+(c) The provisions of this section shall apply to claims pursuant to
+K.S.A. 79-32,263 and 79-4508, and amendments thereto, but shall not
+apply to claims pursuant to K.S.A. 2025 Supp. 79-4508a, and
+amendments thereto.
+(d) The provisions of this section shall be a part of and
+supplemental to the homestead property tax refund act.
+Sec. 3. K.S.A. 79-4522 and K.S.A. 2025 Supp. 79-32,117 are
+hereby repealed.
+Sec. 4. This act shall take effect and be in force from and after its
+publication in the statute book.
+I hereby certify that the above BILL originated in the HOUSE, and was
+adopted by that body
+
+HOUSE adopted
+Conference Committee Report
+
+Speaker of the House.
+
+Chief Clerk of the House.
+
+Passed the SENATE
+as amended
+SENATE adopted
+Conference Committee Report
+
+President of the Senate.
+
+Secretary of the Senate.
+
+APPROVED
+
+Governor.

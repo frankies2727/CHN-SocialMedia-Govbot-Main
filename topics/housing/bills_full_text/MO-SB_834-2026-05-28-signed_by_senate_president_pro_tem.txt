@@ -1,0 +1,554 @@
+SECOND REGULAR SESSION
+[TRULY AGREED TO AND FINALLY PASSED]
+SENATE SUBSTITUTE FOR
+
+SENATE BILL NO. 834
+103RD GENERAL ASSEMBLY
+
+4894S.02T
+
+AN ACT
+To amend chapters 442 and 443, RSMo, by adding thereto seven new sections relating to mortgage
+modifications, with penalty provisions and a severability clause.
+Be it enacted by the General Assembly of the State of Missouri, as follows:
+
+Section A.
+
+adding thereto seven new sections, to be known as sections
+442.920,
+
+443.920,
+
+443.921,
+
+443.925, to read as follows:
+442.920.
+
+Chapters 442 and 443, RSMo, are amended by
+
+1.
+
+443.922,
+
+443.923,
+
+443.924,
+
+and
+
+This section shall be known and may be
+
+cited as the "Missouri Residential Sale Leaseback Protection
+Act".
+
+2.
+
+For purposes of this section, the following terms
+
+(1)
+
+"Buyer", any person or entity that acquires an
+
+mean:
+
+ownership interest in residential real estate in a sale
+leaseback transaction;
+(2)
+
+"Residential real estate", real property that is
+
+improved by a building or other structure that has one to
+four dwelling units;
+(3)
+
+"Sale leaseback", a transaction or series of
+
+transactions in which a seller sells residential real estate
+that is or was the seller's residence to another party and,
+as a condition of the sale, or as part of the same or a
+
+related transaction, enters into a lease or rental agreement
+to remain in or re-occupy the property;
+(4)
+
+"Seller", any natural person who transfers an
+
+ownership interest in residential real estate in a sale
+leaseback transaction.
+3.
+
+(1)
+
+In any sale leaseback transaction, the buyer
+
+shall provide the seller with the following disclosure on a
+single page in a clear and conspicuous manner, printed in
+boldface type:
+
+If you sign a sale leaseback agreement, you
+are entering into a contract to sell your
+home. This means you will no longer own your
+home.
+
+You may be subject to eviction if you do not
+follow the lease terms.
+
+You may lose the right to buy back your home.
+
+This may affect your credit, taxes, and legal
+rights.
+
+You are encouraged to speak with:
+
+(1)
+
+An attorney;
+
+(2)
+
+A real estate agent;
+
+(3)
+
+A housing counselor;
+
+(4)
+
+A tax advisor; and
+
+(5)
+
+A real estate appraiser.
+
+No sale leaseback can be closed for at least
+thirty (30) days after signing an agreement.
+
+Do not sign unless you fully understand the
+terms.
+
+(2)
+
+The disclosure required by subdivision (1) of this
+
+subsection shall be provided to the seller not less than
+fourteen calendar days prior to execution of any sale
+
+leaseback agreement, and the disclosures shall be signed by
+both the seller and the buyer concurrently with the
+execution of the sale leaseback agreement.
+(3)
+
+A copy of the signed disclosure required by
+
+subdivision (1) of this subsection shall be provided to the
+seller within five days of the execution of the sale
+leaseback agreement.
+4.
+
+There shall be no delivery, recording, or other
+
+transfer of title from seller to buyer until thirty days
+after the execution of any sale leaseback agreement.
+5.
+
+(1)
+
+Any violation of the provisions of this
+
+section shall be subject to a civil penalty not to exceed
+ten thousand dollars per violation.
+(2)
+
+The attorney general may bring an action to
+
+enforce this section, including actions for injunctive
+relief, civil penalties, and restitution.
+(3)
+
+Any seller harmed by a violation of this section
+
+(a)
+
+Actual damages;
+
+may bring a civil action to recover:
+(b)
+
+Statutory damages of ten thousand dollars, which
+
+shall be in addition to any actual damages proven;
+(c)
+
+Attorneys' fees and costs; and
+
+6.
+
+No provision of this section shall be modified or
+
+(d)
+
+Equitable or injunctive relief.
+
+waived by any agreement.
+
+Any portion of an agreement that
+
+is executed, modified, or extended after the effective date
+of this section that modifies or waives a duty or remedy
+under this section is void ab initio and unenforceable.
+
+443.920.
+
+Sections 443.920 to 443.925 shall be known
+
+443.921.
+
+For purposes of sections 443.920 to 443.925,
+
+and may be cited as the "Uniform Mortgage Modification Act".
+the following terms mean:
+(1)
+
+"Electronic", relating to technology having
+
+electrical, digital, magnetic, wireless, optical,
+electromagnetic, or similar capabilities;
+(2)
+
+"Financial covenant", an undertaking to
+
+demonstrate an obligor's creditworthiness, or the adequacy
+of security provided by an obligor;
+(3)
+
+"Modification", includes any change, amendment,
+
+revision, correction, addition, supplementation,
+elimination, waiver, and restatement;
+(4)
+(a)
+
+"Mortgage":
+
+An agreement that creates a consensual interest in
+
+real property to secure payment or performance of an
+obligation, regardless of:
+a.
+
+How the agreement is denominated, including a
+
+mortgage, deed of trust, trust deed, security deed,
+indenture, and deed to secure debt; and
+b.
+
+Whether the agreement also creates a security
+
+(b)
+
+Does not include an agreement that creates a
+
+interest in personal property; and
+
+consensual interest to secure a liability owed by a unit
+
+owner to a condominium association, owners' association, or
+cooperative housing association for association dues, fees,
+or assessments;
+(5)
+
+"Mortgage modification", modification of:
+
+(b)
+
+An agreement that creates an obligation, including
+
+(a)
+
+A mortgage;
+
+a promissory note, loan agreement, or credit agreement; or
+
+(c)
+
+An agreement that creates other security or credit
+
+enhancement for an obligation, including an assignment of
+leases or rents or a guaranty;
+(6)
+
+"Obligation", a debt, duty, or other liability,
+
+(7)
+
+"Obligor", a person that:
+
+(b)
+
+Signs a mortgage; or
+
+secured by a mortgage;
+(a)
+
+Owes payment or performance of an obligation;
+
+(c)
+
+Is otherwise accountable, or whose property serves
+
+as collateral, for payment or performance of an obligation;
+(8)
+
+"Person", an individual, estate, business or
+
+nonprofit entity, government or governmental subdivision,
+agency, or instrumentality, or other legal entity;
+(9)
+
+"Recognized index", an index to which changes in
+
+(a)
+
+Readily available to, and verifiable by, the
+
+(b)
+
+Beyond the control of the person to whom the
+
+(10)
+
+"Record", used as a noun, means information:
+
+the interest rate may be linked that is:
+obligor; and
+
+obligation is owed;
+(a)
+(b)
+
+Inscribed on a tangible medium; or
+
+Stored in an electronic or other medium and
+
+retrievable in perceivable form;
+(11)
+
+"Sign", with present intent to authenticate or
+
+(a)
+
+Execute or adopt a tangible symbol; or
+
+adopt a record:
+(b)
+
+Attach to or logically associate with the record
+
+an electronic symbol, sound, or process.
+443.922.
+
+1.
+
+Except as provided in subsection 3 of
+
+this section, sections 443.920 to 443.925 apply to a
+mortgage modification.
+2.
+
+Sections 443.920 to 443.925 do not affect:
+
+(1)
+
+Laws governing the required content of a mortgage;
+
+(2)
+
+A statute of limitations or other law governing
+
+the expiration or termination of a right to enforce an
+obligation or a mortgage;
+(3)
+
+A recording statute;
+
+(4)
+
+A statute governing the priority of a tax lien or
+
+other governmental lien;
+(5)
+
+A statute of frauds; or
+
+(6)
+
+Except as provided in subdivision (8) of
+
+subsection 2 of section 443.923, law governing the priority
+of a future advance.
+3.
+
+Sections 443.920 to 443.925 do not apply to any of
+
+(1)
+
+A release of, or addition to, property encumbered
+
+(2)
+
+A release of, addition of, or other change in an
+
+(3)
+
+An assignment or other transfer of a mortgage or
+
+the following modifications:
+by a mortgage;
+obligor; or
+
+an obligation.
+443.923.
+
+1.
+
+For a mortgage modification described in
+
+subsection 2 of this section:
+(1)
+
+The mortgage continues to secure the obligation as
+
+(2)
+
+The priority of the mortgage is not affected by
+
+(3)
+
+The mortgage retains its priority regardless of
+
+modified;
+
+the modification;
+
+whether a record of the mortgage modification is recorded in
+the public land records; and
+(4)
+
+The modification is not a novation.
+
+2.
+
+Subsection 1 of this section applies to one or more
+
+(1)
+
+An extension of the maturity date of an obligation;
+
+of the following mortgage modifications:
+
+(2)
+
+A decrease in the interest rate of an obligation;
+
+(3)
+
+If the change does not result in an increase in
+
+the interest rate of an obligation as calculated on the date
+the modification becomes effective:
+(a)
+
+A change to a different index that is a recognized
+
+index if the previous index to which changes in the interest
+rate were linked is no longer available;
+(b)
+
+A change in the differential between the index and
+
+(c)
+
+A change from a floating or adjustable rate to a
+
+(d)
+
+A change from a fixed rate to a floating or
+
+(4)
+
+A capitalization of unpaid interest or other
+
+(5)
+
+A forgiveness, forbearance, or other reduction of
+
+(6)
+
+A modification of a requirement for maintaining an
+
+the interest rate;
+fixed rate; or
+
+adjustable rate based on a recognized index;
+unpaid monetary obligation;
+
+principal, accrued interest, or other monetary obligation;
+escrow or reserve account for payment of an obligation,
+including taxes and insurance premiums;
+(7)
+
+A modification of a requirement for acquiring or
+
+(8)
+
+A modification of an existing condition to advance
+
+(9)
+
+A modification of a financial covenant; and
+
+maintaining insurance;
+funds;
+
+(10)
+
+A modification of the payment amount or schedule
+
+resulting from another modification described in this
+subsection.
+3.
+
+The effect of a mortgage modification not described
+
+in subsection 2 of this section is governed by other law.
+443.924.
+
+Pursuant to the authority granted by the
+
+federal Electronic Signatures in Global and National
+
+Commerce Act, 15 U.S.C. Section 7002, sections 443.920 to
+443.925 modify, limit, or supersede such act, 15 U.S.C.
+
+Section 7001, et seq., as amended, but do not modify, limit,
+or supersede 15 U.S.C. Section 7001(c), or authorize
+
+electronic delivery of any of the notices described in 15
+U.S.C. Section 7003(b).
+443.925.
+
+Sections 443.920 to 443.925 apply to a
+
+mortgage modification made on or after the effective date of
+such sections regardless of when the mortgage or the
+obligation was created.
+Section B.
+
+If any provision of section A of this act
+
+or the application thereof to anyone or to any circumstance
+is held invalid, the remainder of those sections and the
+application of such provisions to others or other
+circumstances shall not be affected thereby.
+
+

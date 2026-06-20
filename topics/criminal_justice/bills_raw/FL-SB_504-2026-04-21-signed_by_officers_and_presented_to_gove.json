@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Code Inspector Body Cameras;  Requiring a governmental entity that permits its code inspectors to wear body cameras to establish certain policies and procedures; requiring such governmental entity to ensure that certain training occurs, to retain certain data in accordance with public records laws, and to perform a periodic review of actual body camera practices; providing that certain provisions relating to the interception of wire, electronic, and oral communications do not apply to body camera recordings made by code inspectors, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 504",
+    "legislative_session": "2026",
+    "subject": [
+      "relations"
+    ],
+    "title": "Code Inspector Body Cameras"
+  },
+  "id": "SB 504",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-receipt"
+      ],
+      "date": "2026-04-21",
+      "description": "Signed by Officers and presented to Governor",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "SB 504"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB504/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SB504/logs/20260421T000000Z.classification.executive-receipt.legislature.json"
+  }
+}

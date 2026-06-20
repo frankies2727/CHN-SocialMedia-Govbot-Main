@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB2674",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Environment",
+      "Health and Environment, Department of",
+      "Named Acts",
+      "Rules and Regulations, Administrative"
+    ],
+    "title": "Prohibiting certain products that contain intentionally added PFAS and requiring disclosure of information and the testing of products that contain intentionally added PFAS and are sold, offered for sale, distributed or distributed for sale in this state."
+  },
+  "id": "HB2674",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-04-10",
+      "description": "Died in Committee",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB2674"
+  },
+  "sources": {
+    "bill": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2674/metadata.json",
+    "log": "ks-legislation/country:us/state:ks/sessions/2025-2026/bills/HB2674/logs/20260410T000000Z_died_in_committee.json"
+  },
+  "timestamp": "20260410T000000Z"
+}

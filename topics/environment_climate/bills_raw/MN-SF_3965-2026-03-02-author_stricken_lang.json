@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 3965",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Government-State",
+      "Waste and Waste Management"
+    ],
+    "title": "Recycling goals and state funding distribution clarification for solid waste purposes with respect to solid waste management districts"
+  },
+  "id": "SF 3965",
+  "log": {
+    "action": {
+      "date": "2026-03-02",
+      "description": "Author stricken Lang",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 3965"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF3965/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF3965/logs/20260302T000000Z_author_stricken_lang.json"
+  },
+  "timestamp": "20260302T000000Z"
+}

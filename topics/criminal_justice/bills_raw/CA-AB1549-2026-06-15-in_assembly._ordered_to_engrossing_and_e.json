@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law requires that the terms of probation granted to a person who has been convicted of domestic violence include, among other things, successful completion of a batterer's program or, if a batterer's program is not available, another appropriate counseling program, as specified. Existing law requires the probation department to design and implement an approval and renewal process for batterer's programs and prescribes the requirements of a batterer's program. Existing law, until July 1, 2026, authorizes the Counties of Napa, San Luis Obispo, Santa Barbara, Santa Clara, Santa Cruz, and Yolo to offer an alternative program for individuals convicted of domestic violence if the program meets specified conditions.\n\nThis bill would additionally authorize the County of Sacramento to offer an alternative program for individuals convicted of domestic violence. The bill would extend the repeal date of these provisions to July 1, 2030.\n\nThis bill would declare that it is to take effect immediately as an urgency statute.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1549",
+    "legislative_session": "20252026",
+    "subject": [
+      "Alternativedomesticviolenceprogram"
+    ],
+    "title": "Alternative domestic violence program."
+  },
+  "id": "AB1549",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-06-15",
+      "description": "In Assembly. Ordered to Engrossing and Enrolling.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB1549"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1549/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1549/logs/20260615T000000Z_in_assembly_ordered_to_engrossing_and_enrolling.json"
+  },
+  "timestamp": "20260615T000000Z"
+}

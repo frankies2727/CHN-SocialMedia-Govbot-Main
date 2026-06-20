@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Joint Resolution/Fish and Wildlife Conservation Commission;  Proposing amendments to the State Constitution to declare collective responsibility for certain animal life and to revise the composition of the Fish and Wildlife Conservation Commission and appointments thereto, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SJR 1364",
+    "legislative_session": "2026",
+    "subject": [
+      "(adopted)",
+      "constitutional amendments"
+    ],
+    "title": "Joint Resolution/Fish and Wildlife Conservation Commission"
+  },
+  "id": "SJR 1364",
+  "log": {
+    "action": {
+      "classification": [
+        "failure"
+      ],
+      "date": "2026-03-13",
+      "description": "Died in Environment and Natural Resources",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SJR 1364"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026/bills/SJR1364/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026/bills/SJR1364/logs/20260313T000000Z_died_in_environment_and_natural_resources.json"
+  },
+  "timestamp": "20260313T000000Z"
+}

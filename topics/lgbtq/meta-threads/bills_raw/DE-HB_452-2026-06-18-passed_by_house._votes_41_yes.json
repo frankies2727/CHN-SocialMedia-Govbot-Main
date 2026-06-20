@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Although the Delaware Interscholastic Athletic Association is a unit of the Department of Education, officials are currently allowed to serve without completing background checks before serving. This Act provides that in the event an official for the DIAA is not an individual required to undergo a background check under the law that requires employees, contractors, and volunteers of the Department of Education to meet certain background check requirements, the DIAA must promulgate regulations requiring background checks of officials that meet the same requirements as those for employees, contractors, and volunteers of the Department.\r\n\r\nThis Act further requires that officials complete diversity and anti-discrimination training, and requires student athletes to complete annual sportsmanship and anti-harassment training.\r\n\r\nThis Act also clarifies that member schools must fully cooperate with DIAA investigations of alleged regulatory violations.\r\n\r\nFinally, this Act makes technical corrections to existing code to conform to the standards of the Delaware Legislative Drafting Manual.\r\n\r\nThis Act takes effect on the earlier of July 1, 2027 or the date of notice in the Register of Regulations that regulations implementing this Act have been promulgated.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 452",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO THE DELAWARE INTERSCHOLASTIC ATHLETIC ASSOCIATION AND BACKGROUND CHECKS FOR CHILD-SERVING ENTITIES."
+  },
+  "id": "HB 452",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-06-18",
+      "description": "Passed By House. Votes: 41 YES",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 452"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB452/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB452/logs/20260618T000000Z.classification.passage.lower.json"
+  }
+}

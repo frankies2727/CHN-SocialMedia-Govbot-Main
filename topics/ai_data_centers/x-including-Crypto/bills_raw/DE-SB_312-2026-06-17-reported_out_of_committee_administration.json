@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act prohibits state agencies, counties, and municipalities from entering into nondisclosure agreements that would restrict the public from accessing information about potential or actual large-scale data center development in this State. Large-scale data centers, defined in this Act as data centers that use or are capable of using 100 megawatts of power or more, can pose significant challenges for the communities in which they are located. When nondisclosure agreements are used to shield information about proposed or planned data centers from the public, it deprives those communities of the opportunity to understand and respond to issues that directly affect them.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 312",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 9, TITLE 22, AND TITLE 29 OF THE DELAWARE CODE RELATING TO DATA CENTERS."
+  },
+  "id": "SB 312",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-06-17",
+      "description": "Reported Out of Committee (Administration) in House with 4 On Its Merits",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Administration"
+        }
+      ]
+    },
+    "bill_id": "SB 312"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB312/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB312/logs/20260617T000000Z_reported_out_of_committee_administration_in_house_with_4_on_its_merits.json"
+  },
+  "timestamp": "20260617T000000Z"
+}

@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Subpart 2A of Part 1 of Article 16 of Chapter 2 of Title 20 of the Official Code of Georgia Annotated, relating to clubs and organizations, so as to provide for equal access to public schools for students engaging in political or philosophical expression; to authorize the organization of partisan and nonpartisan student groups and gatherings; to provide for school disclaimers of sponsorship; to prohibit discrimination based on the content of student speech within a limited open forum; to provide for the maintenance of order and discipline; to provide for a short title; to provide for definitions; to provide for related matters; to provide for an effective date; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 552",
+    "legislative_session": "2025_26",
+    "subject": [
+      "EDUCATION"
+    ],
+    "title": "\"True Patriotism and Universal Student Access (TPUSA) Act\"; enact"
+  },
+  "id": "SB 552",
+  "log": {
+    "action": {
+      "date": "2026-07-01",
+      "description": "Effective Date",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "SB 552"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB552/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB552/logs/20260701T000000Z_effective_date.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

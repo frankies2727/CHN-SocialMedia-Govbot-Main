@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law regulates the sale, manufacture, and exchange of toys in the state and prohibits the manufacture, sale, or exchange, possession with intent to sell or exchange, and exposition or offer for sale or exchange to a retailer a toy that is contaminated with a toxic substance, as provided. Violation of these provisions is punishable as a misdemeanor.\n\nExisting law requires an operator of a companion chatbot platform, as defined, to issue a clear and conspicuous notification indicating that the companion chatbot is artificially generated and not human if a reasonable person interacting with a companion chatbot would be misled to believe that the person is interacting with a human. For these purposes, existing law defines a \"companion chatbot\" to mean an artificial intelligence system with a natural language interface that provides adaptive, human-like responses to user inputs and is capable of meeting a user's social needs, including by exhibiting anthropomorphic features and being able to sustain a relationship across multiple interactions. Existing law also requires an operator to take certain actions with respect to a user the operator knows is a minor, including to disclose to the user that the user is interacting with artificial intelligence. Violation of these provisions is subject to civil liability.\n\nThis bill would, until January 1, 2031, prohibit the manufacture, sale, exchange, possession with intent to sell or exchange, and exposition or offer for sale or exchange to a retailer a toy, as defined, that includes a companion chatbot, and would make violations of the bill subject to the same civil liability as violations of the provisions applicable to operators of companion chatbots in the above-described paragraph.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB867",
+    "legislative_session": "20252026",
+    "subject": [
+      "Toys",
+      "companionchatbots"
+    ],
+    "title": "Toys: companion chatbots."
+  },
+  "id": "SB867",
+  "log": {
+    "action": {
+      "date": "2026-06-17",
+      "description": "Coauthors revised.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB867"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB867/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB867/logs/20260617T000000Z_coauthors_revised.json"
+  },
+  "timestamp": "20260617T000000Z"
+}

@@ -1439,19 +1439,19 @@ def _b_ct(session, ident):  # verified — search by year + bill number
     return None
 
 
-def _b_mo(session, ident):  # best-effort -- senate.mo.gov search; LegiScan fallback
+def _b_mo(session, ident):  # best-effort -- LegiScan per-bill page
     # Missouri rebuilt both chambers' trackers around opaque internal numeric
     # bill IDs (BillInformation?billid=NNN), so there's no per-bill URL we can
-    # compute from the bill number. The senate bill-tracking search resolves a
-    # senate bill number to a single-result page for the current session; it
-    # doesn't index House bills, so those fall back to LegiScan, which has
-    # stable per-bill pages for every MO bill.
+    # compute from the bill number. The senate bill-tracking search used to
+    # resolve a senate bill number to a single-result page, but that
+    # `billSearch?...&handler=BillSearch` endpoint is a Razor Pages AJAX handler
+    # — wrong for a shareable browser link — and now returns HTTP 503, while it
+    # also carries no session year so the link rots after sine die. So route
+    # both chambers through LegiScan, which has stable, session-scoped per-bill
+    # pages for every MO bill.
     typ, num = _split_ident(ident)
     if not (typ and num):
         return None
-    if typ.startswith("S"):
-        return ("https://www.senate.mo.gov/Billtracking/bills/billSearch"
-                f"?Term={typ}{num}&Submit=Submit&handler=BillSearch")
     year = _first_year(session)
     if year:
         return f"https://legiscan.com/MO/bill/{typ}{num}/{year}"

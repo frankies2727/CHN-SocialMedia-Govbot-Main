@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act requires that accumulated snow and ice be removed from surfaces of a vehicle before it is operated and imposes a civil penalty for a violation. This Act also creates a civil penalty for each instance where snow or ice dislodges from a moving vehicle and causes property damage or physical injury but this penalty is not an exclusive remedy for property damage or physical injury.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 233",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 21 OF THE DELAWARE CODE RELATING TO THE REMOVAL OF ICE AND SNOW FROM VEHICLES."
+  },
+  "id": "SB 233",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-05-12",
+      "description": "Passed By Senate. Votes: 21 YES",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 233"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB233/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB233/logs/20260512T000000Z.classification.passage.upper.json"
+  }
+}

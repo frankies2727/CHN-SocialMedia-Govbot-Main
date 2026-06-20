@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB2663",
+    "legislative_session": "2026",
+    "subject": [
+      "Wildlife, Fisheries and Parks"
+    ],
+    "title": "Veterans; allow free admission to state parks and museums."
+  },
+  "id": "SB2663",
+  "log": {
+    "action": {
+      "date": "2026-02-03T06:00:00+00:00",
+      "description": "Died In Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB2663"
+  },
+  "sources": {
+    "bill": "ms-legislation/country:us/state:ms/sessions/2026/bills/SB2663/metadata.json",
+    "log": "ms-legislation/country:us/state:ms/sessions/2026/bills/SB2663/logs/20260203T060000Z_died_in_committee.json"
+  },
+  "timestamp": "20260203T060000Z"
+}
