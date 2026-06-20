@@ -241,7 +241,7 @@ All knobs are env vars (set defaults in the workflow `env:` blocks or override p
 | --- | --- | --- |
 | `BOT_TOPIC` | — (required) | Which `topics/<name>/` folder this run posts for. |
 | `POST_LIMIT` | `4` (workflows set `2`) | Max posts per run **per topic** — flood protection. |
-| `MAX_ACTION_AGE_DAYS` | `150` (Bluesky), `62` (X) | Drop bill actions older than this so old news never posts as fresh. |
+| `MAX_ACTION_AGE_DAYS` | `32` (Bluesky), `62` (X) | Drop bill actions older than this so old news never posts as fresh. |
 | `DRY_RUN` | `0` | `1` composes posts and prints them without publishing. State still updates so you can iterate. |
 | `LLM_MODEL` | `gemma3:4b` | Ollama model. `gemma3:1b` = faster, `gemma3:12b` = richer (slower pull + latency). |
 | `LLM_API_URL` | `http://localhost:11434/api/chat` | Ollama endpoint — point at any Ollama-compatible host. |

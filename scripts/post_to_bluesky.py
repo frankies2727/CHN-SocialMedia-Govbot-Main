@@ -42,7 +42,7 @@ POST_LIMIT = int(os.environ.get("POST_LIMIT", "4"))  # how many bluesky posts pe
 # Drop bill actions older than this many days so the feed never posts
 # year-old news as if it were fresh. Slow topics still have thousands
 # of candidates inside this window. Override via env for tuning.
-MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "150"))
+MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "32"))
 DRY_RUN = os.environ.get("DRY_RUN") == "1"
 # og:image fetching is paused by default. Set FETCH_OG_IMAGE=1 to re-enable
 # thumbnail scraping from bill-page URLs. When off, posts still get an external
