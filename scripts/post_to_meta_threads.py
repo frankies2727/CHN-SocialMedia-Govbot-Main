@@ -4,14 +4,14 @@ Threads (Meta) version of the poster. Mirrors post_to_bluesky.py's pipeline
 (state detection, abstract/subjects extraction, freshness gate, same-day
 dedup, weighted state selection, Ollama summary + headline) and publishes to
 Threads via its Graph API. All Threads state lives under
-topics/<name>/threads/ (bills_used.json plus a bills_raw/ artifact folder) so
-Threads dedup is independent of Bluesky's and X's.
+topics/<name>/meta-threads/ (bills_used.json plus a bills_raw/ artifact folder)
+so Threads dedup is independent of Bluesky's and X's.
 
 Account model: a single Threads account (e.g. chn.govbot) dedicated to one
 topic. The topic is selected via BOT_TOPIC like the other posters, and the
 account's credentials come from two env vars / repo secrets:
 
-    THREADS_ACCESS_TOKEN   long-lived token (see scripts/refresh_threads_token.py)
+    THREADS_ACCESS_TOKEN   long-lived token (see scripts/refresh_meta_threads_token.py)
     THREADS_USER_ID        the numeric Threads user id
 
 Publishing is a two-step Graph API call: first create a media container
@@ -217,7 +217,7 @@ def compose_threads_post(b: dict, summary: str, headline: str = "") -> tuple[str
 # Posting (Threads two-step container -> publish)
 # ---------------------------------------------------------------------------
 
-def _create_container(text: str, link_url: str) -> str | None:
+def _create_container(text: str, link_url: str = "", reply_to_id: str = "") -> str | None:
     params = {
         "media_type": "TEXT",
         "text": text,
@@ -225,6 +225,10 @@ def _create_container(text: str, link_url: str) -> str | None:
     }
     if link_url:
         params["link_attachment"] = link_url
+    # reply_to_id chains this post under an existing one — used by the weekly
+    # digest to thread its highlight replies under the root post.
+    if reply_to_id:
+        params["reply_to_id"] = reply_to_id
     try:
         resp = requests.post(
             f"{THREADS_API}/{THREADS_USER_ID}/threads",
@@ -262,6 +266,16 @@ def _publish_container(creation_id: str) -> str | None:
     return None
 
 
+def publish_post(text: str, link_url: str = "", reply_to_id: str = "") -> str | None:
+    """Create a Threads container then publish it, returning the published
+    post's media id (or None on failure). Shared by the daily poster and the
+    weekly digest; reply_to_id chains the post under an existing one."""
+    creation_id = _create_container(text, link_url, reply_to_id)
+    if not creation_id:
+        return None
+    return _publish_container(creation_id)
+
+
 def post_thread(text: str, link_url: str = "") -> bool:
     """Create a Threads container then publish it. Returns True iff the post
     was published. The bill URL (link_url) is sent as link_attachment."""
@@ -270,13 +284,10 @@ def post_thread(text: str, link_url: str = "") -> bool:
         if link_url:
             print(f"  [DRY RUN] link_attachment: {link_url}")
         return True
-    creation_id = _create_container(text, link_url)
-    if not creation_id:
-        return False
-    media_id = _publish_container(creation_id)
+    media_id = publish_post(text, link_url)
     if not media_id:
         return False
-    print(f"  posted: https://www.threads.net/@{TOPIC.threads_subdir} (media id {media_id})")
+    print(f"  posted to Threads (media id {media_id})")
     return True
 
 

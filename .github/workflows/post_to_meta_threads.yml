@@ -1,4 +1,4 @@
-name: govbot-threads-post-lgbtq
+name: govbot-meta-threads-post-lgbtq
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: govbot-threads-post
+  group: govbot-meta-threads-post
   cancel-in-progress: false
 
 defaults:
@@ -24,7 +24,7 @@ jobs:
     env:
       LLM_MODEL: "gemma3:4b"
       BOT_TOPIC: "lgbtq"
-      POST_LIMIT: "2"
+      POST_LIMIT: "3"
       DRY_RUN: "0"
 
     steps:
@@ -124,14 +124,14 @@ jobs:
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
           LLM_API_URL: "http://localhost:11434/api/chat"
-        run: python scripts/post_to_threads.py
+        run: python scripts/post_to_meta_threads.py
 
       - name: Commit Threads state changes
         if: env.DRY_RUN != '1'
         run: |
-          git config user.name  "govbot-threads[bot]"
-          git config user.email "govbot-threads[bot]@users.noreply.github.com"
-          git add topics/*/threads/bills_used.json topics/*/threads/bills_raw topics/*/threads/bills_full_text || true
+          git config user.name  "govbot-meta-threads[bot]"
+          git config user.email "govbot-meta-threads[bot]@users.noreply.github.com"
+          git add topics/*/meta-threads/bills_used.json topics/*/meta-threads/bills_raw topics/*/meta-threads/bills_full_text || true
           if git diff --cached --quiet; then
             echo "No Threads state changes to commit."
           else

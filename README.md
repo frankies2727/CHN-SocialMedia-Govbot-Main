@@ -159,7 +159,7 @@ In **Settings → Secrets and variables → Actions**, add credentials for each 
 | `THREADS_USER_ID` | The account's numeric Threads user id |
 | `THREADS_REFRESH_PAT` | *(optional)* A PAT with `secrets: write` so the weekly refresh workflow can persist the rolled-forward token |
 
-> **Getting the Threads token:** create a Meta app with the *"Access the Threads API"* use case, add the `threads_basic` + `threads_content_publish` permissions, add your Threads account under **App roles → Roles → Threads Testers** (and accept the invite inside Threads → *Settings → Website permissions*). Then generate a short-lived token in the **Graph API Explorer** and exchange it for a 60-day long-lived token via `GET https://graph.threads.net/access_token?grant_type=th_exchange_token&client_secret=…&access_token=…`. The `threads-refresh-token` workflow keeps it from lapsing — see [Threads token refresh](#threads-token-refresh).
+> **Getting the Threads token:** create a Meta app with the *"Access the Threads API"* use case, add the `threads_basic` + `threads_content_publish` permissions, add your Threads account under **App roles → Roles → Threads Testers** (and accept the invite inside Threads → *Settings → Website permissions*). Then generate a short-lived token in the **Graph API Explorer** and exchange it for a 60-day long-lived token via `GET https://graph.threads.net/access_token?grant_type=th_exchange_token&client_secret=…&access_token=…`. The `meta-threads-refresh-token` workflow keeps it from lapsing — see [Threads token refresh](#threads-token-refresh).
 
 > Summarization runs entirely on the runner via a local Gemma model — **no OpenAI/Anthropic/other LLM API key is ever needed.**
 
@@ -281,8 +281,9 @@ A dry run prints the composed posts without hitting Bluesky/X. If Ollama isn't r
 | `weekly-digest.yml` | Fridays + manual | Threaded weekly digest per topic on Bluesky. Sharded ×2. |
 | `post_to_x.yml` | Daily cron + manual | Same pipeline, posting to an X account. |
 | `weekly-digest-x.yml` | Weekly + manual | Weekly digest threads on X. |
-| `post_to_threads.yml` | Daily cron + manual | Same pipeline, posting to a Threads account (currently dedicated to the `lgbtq` topic). |
-| `threads-refresh-token.yml` | Weekly + manual | Rolls the 60-day Threads token forward so it never lapses. |
+| `post_to_meta_threads.yml` | Daily cron + manual | Same pipeline, posting to a Meta Threads account (dedicated to the `lgbtq` topic; 3 posts/run). |
+| `weekly-digest-meta-threads.yml` | Fridays + manual | Weekly digest thread on Threads (root + a self-contained reply per highlight). |
+| `meta-threads-refresh-token.yml` | Weekly + manual | Rolls the 60-day Threads token forward so it never lapses. |
 | `post_bluesky_specific_bill.yml` | Manual | Force-post one specific `state` + `bill_id` to a chosen topic's Bluesky account (with dry-run / repost toggles). |
 | `post_x_specific_bill.yml` | Manual | Same one-off force-post, for X. |
 | `collect-samples.yml` | Manual | Save a batch of full bill records into `samples/` (optionally compose/post them too). Useful for prompt-tuning and tests. |
@@ -304,11 +305,12 @@ scripts/
   topic.py                     # Topic config loader + matching/emoji logic
   post_to_bluesky.py           # shared Bluesky bot (parameterized by BOT_TOPIC)
   post_to_x.py                 # shared X bot (reuses the Bluesky engine)
-  post_to_threads.py           # shared Threads bot (reuses the Bluesky engine)
+  post_to_meta_threads.py      # shared Threads bot (reuses the Bluesky engine)
   weekly_digest.py             # Bluesky weekly digest builder
   weekly_digest_x.py           # X weekly digest builder
+  weekly_digest_meta_threads.py # Threads weekly digest builder
   bill_text.py                 # full bill-text extraction from PDFs (pdftotext)
-  refresh_threads_token.py     # roll the Threads long-lived token forward
+  refresh_meta_threads_token.py # roll the Threads long-lived token forward
   sync_topic_choices.py        # keep workflow choice dropdowns in sync with topics/
 samples/                       # saved bill records for prompt-tuning / tests
 topics/
@@ -319,7 +321,7 @@ topics/
     bills_full_text/           # extracted full text of each posted bill
     weekly_digest/             # digest highlight artifacts
     x/  (or x_subdir)          # mirror of the above for the X account
-    threads/ (or threads_subdir) # mirror of the above for the Threads account
+    meta-threads/ (or threads_subdir) # mirror of the above for the Threads account
 requirements.txt               # requests, Pillow, PyYAML, tweepy
 ```
 
@@ -356,7 +358,7 @@ Repeat with `BOT_TOPIC=<name>` for each topic before enabling its workflow.
 
 ### Threads token refresh
 
-Threads access tokens differ from Bluesky app passwords: a long-lived token is valid for **60 days**, but can be *refreshed* (which rolls the 60-day window forward) any time after it's 24 hours old. The `threads-refresh-token.yml` workflow does this on a weekly cron via `scripts/refresh_threads_token.py`, so the token never lapses as long as the bot keeps running.
+Threads access tokens differ from Bluesky app passwords: a long-lived token is valid for **60 days**, but can be *refreshed* (which rolls the 60-day window forward) any time after it's 24 hours old. The `meta-threads-refresh-token.yml` workflow does this on a weekly cron via `scripts/refresh_meta_threads_token.py`, so the token never lapses as long as the bot keeps running.
 
 Persisting a refreshed token means updating the `THREADS_ACCESS_TOKEN` repo secret, which the default `GITHUB_TOKEN` can't do. To enable automatic write-back, add a **`THREADS_REFRESH_PAT`** secret — a Personal Access Token with `secrets: write` on this repo. The refresh script encrypts the new token (via PyNaCl) and writes it back through the GitHub API. Without the PAT, the workflow still refreshes and reports the new expiry but won't persist the token (and never prints it to the logs).
 
@@ -368,7 +370,7 @@ Persisting a refreshed token means updating the `THREADS_ACCESS_TOKEN` repo secr
 - **New topic missing from the manual workflow dropdown.** Run `python scripts/sync_topic_choices.py` and commit the updated YAMLs.
 - **Runner crashed with "No space left on device."** The free-disk-space step must run before the govbot clone; don't remove it.
 - **Threads: `"requires the threads_basic permission … or your user must be in the list of Threads testers."`** The account isn't enrolled as a tester. Add it under **App roles → Roles → Threads Testers**, accept the invite in Threads (*Settings → Website permissions*), then regenerate the token.
-- **Threads posts stopped after ~2 months.** The long-lived token expired. Make sure `threads-refresh-token.yml` is enabled (and ideally set `THREADS_REFRESH_PAT`), or re-run the manual token exchange.
+- **Threads posts stopped after ~2 months.** The long-lived token expired. Make sure `meta-threads-refresh-token.yml` is enabled (and ideally set `THREADS_REFRESH_PAT`), or re-run the manual token exchange.
 
 ## Contributing
 

@@ -48,10 +48,10 @@ class Topic:
     # rebranded (e.g. ai_data_centers uses "x-including-Crypto" to flag that
     # the X bot also tweets crypto-related bills).
     x_subdir: str = "x"
-    # Threads/Meta state subfolder. Defaults to "threads" so every topic keeps
-    # a predictable path; override in config.yml only if a topic's Threads feed
-    # is ever rebranded (mirrors x_subdir).
-    threads_subdir: str = "threads"
+    # Threads/Meta state subfolder. Defaults to "meta-threads" so the platform
+    # is unambiguous when browsing the repo; override in config.yml only if a
+    # topic's Threads feed is ever rebranded (mirrors x_subdir).
+    threads_subdir: str = "meta-threads"
     # Optional named keyword buckets used by the X poster to balance the daily
     # draw across sub-topics (e.g. ai_data_centers splits its keywords into
     # an "ai_data_centers" bucket and a "crypto" bucket so each X run posts at
@@ -118,7 +118,7 @@ class Topic:
             )
 
         x_subdir = (data.get("x_subdir") or "x").strip() or "x"
-        threads_subdir = (data.get("threads_subdir") or "threads").strip() or "threads"
+        threads_subdir = (data.get("threads_subdir") or "meta-threads").strip() or "meta-threads"
 
         raw_groups = data.get("keyword_groups") or {}
         keyword_groups: dict[str, list[str]] = {}
@@ -316,8 +316,8 @@ class Topic:
     def x_weekly_digest_bills_raw_dir(self) -> Path:
         return TOPICS_DIR / self.name / self.x_subdir / "weekly_digest" / "bills_raw"
 
-    # Threads/Meta state lives in its own subfolder (default "threads") so its
-    # dedup file and raw artifacts sit beside — but never collide with —
+    # Threads/Meta state lives in its own subfolder (default "meta-threads") so
+    # its dedup file and raw artifacts sit beside — but never collide with —
     # Bluesky's and X's. Mirrors the x_* helpers above.
     def threads_state_file_path(self) -> Path:
         return TOPICS_DIR / self.name / self.threads_subdir / "bills_used.json"

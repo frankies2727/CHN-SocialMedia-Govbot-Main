@@ -1,4 +1,4 @@
-name: govbot-threads-refresh-token
+name: govbot-meta-threads-refresh-token
 
 on:
   # Weekly is plenty: Threads long-lived tokens last 60 days and refreshing
@@ -13,7 +13,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: govbot-threads-refresh-token
+  group: govbot-meta-threads-refresh-token
   cancel-in-progress: false
 
 defaults:
@@ -44,4 +44,4 @@ jobs:
           # the refreshed token back into the THREADS_ACCESS_TOKEN secret. Omit
           # it and the step still refreshes + reports without leaking the token.
           THREADS_REFRESH_PAT: ${{ secrets.THREADS_REFRESH_PAT }}
-        run: python scripts/refresh_threads_token.py
+        run: python scripts/refresh_meta_threads_token.py

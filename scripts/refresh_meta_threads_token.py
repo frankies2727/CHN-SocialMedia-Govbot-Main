@@ -4,8 +4,8 @@ Refresh the long-lived Threads access token so it never lapses.
 
 Threads long-lived tokens are valid for 60 days but can be refreshed any time
 after they're 24 hours old, which rolls the 60-day window forward. Running this
-on a schedule (see .github/workflows/threads-refresh-token.yml) keeps the token
-alive as long as the workflow runs at least once every ~50 days.
+on a schedule (see .github/workflows/meta-threads-refresh-token.yml) keeps the
+token alive as long as the workflow runs at least once every ~50 days.
 
 Persisting the refreshed token back into the THREADS_ACCESS_TOKEN repo secret
 requires updating a GitHub Actions secret, which the default GITHUB_TOKEN cannot
