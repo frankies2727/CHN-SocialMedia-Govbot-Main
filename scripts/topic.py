@@ -28,6 +28,79 @@ ROOT = Path(__file__).resolve().parent.parent
 TOPICS_DIR = ROOT / "topics"
 
 
+# ---------------------------------------------------------------------------
+# Proper-noun collision guard
+#
+# Single common-word keywords (e.g. "gay", "green", "justice") routinely double
+# as people's surnames. Honorary resolutions ("Grayson Gay, commended") would
+# then match a topic on the surname alone — and because the summarizer is
+# steered by the topic, it can invent a policy angle the bill never had. These
+# helpers detect the case where a title's only keyword signal is a surname so
+# the matcher can ignore it. They are deliberately conservative: anything
+# ambiguous (Title-Cased titles, lower-case occurrences, multi-word keywords)
+# is treated as a genuine match rather than risk dropping a real bill.
+# ---------------------------------------------------------------------------
+
+# Capitalized words that lead a phrase without signaling a personal name, so a
+# keyword right after one of these isn't a surname (e.g. "The Gay community…").
+_NAME_LEAD_STOPWORDS = {
+    "the", "a", "an", "of", "for", "and", "to", "in", "on", "or", "no",
+}
+
+
+def _is_title_cased(title: str) -> bool:
+    """Heuristic: is the title written in Title Case (every content word
+    capitalized)? When it is, capitalization carries no proper-noun signal, so
+    a capitalized keyword can't be told apart from a surname — callers then skip
+    the name guard and treat the keyword as a genuine match."""
+    words = re.findall(r"[A-Za-z][A-Za-z'\-]*", title)
+    content = [w for w in words if len(w) >= 4]
+    if len(content) < 2:
+        return False
+    caps = sum(1 for w in content if w[0].isupper())
+    return caps / len(content) >= 0.8
+
+
+def _occurrence_is_personal_name(title: str, m: "re.Match") -> bool:
+    """True when this keyword occurrence reads as part of a personal name —
+    a Capitalized word (e.g. "Gay") immediately preceded by another capitalized
+    word that looks like a given name or honorific (e.g. "Grayson", "Senator")
+    rather than a sentence-leading function word."""
+    word = m.group(0)
+    if not word[:1].isupper():
+        return False  # lower-case "gay" is the common word, not a surname
+    prefix = title[: m.start()]
+    prev = re.search(r"([A-Za-z][A-Za-z.'\-]*)\W*$", prefix)
+    if not prev:
+        return False  # nothing before it (title start) — just normal capitalization
+    token = prev.group(1)
+    if not token[:1].isupper():
+        return False
+    if token.lower().strip(".") in _NAME_LEAD_STOPWORDS:
+        return False
+    return True
+
+
+def _is_proper_name_only_match(title_raw: str, title_hits: set[str]) -> bool:
+    """True when the title's keyword hits are ALL single common words appearing
+    solely as part of a personal name, so the title carries no real topical
+    signal. Multi-word keyword hits, Title-Cased titles, or any occurrence that
+    isn't a surname make this return False (treat as a genuine match)."""
+    if not title_hits:
+        return False
+    if any(" " in k or "-" in k for k in title_hits):
+        return False
+    if _is_title_cased(title_raw):
+        return False
+    for kw in title_hits:
+        occurrences = list(re.finditer(r"\b" + re.escape(kw) + r"\b", title_raw, re.IGNORECASE))
+        if not occurrences:
+            return False
+        if not all(_occurrence_is_personal_name(title_raw, m) for m in occurrences):
+            return False
+    return True
+
+
 @dataclass
 class Topic:
     name: str
@@ -164,13 +237,22 @@ class Topic:
         # mental-health budget's capital line item shouldn't pull the bill into
         # the transportation feed). Require at least two distinct keyword hits
         # there before counting a match without title support.
-        title = (b.get("title") or "").lower()
+        title_raw = b.get("title") or ""
+        title = title_raw.lower()
         # Negative keywords disqualify a title outright — used to filter out
         # local-advisory referenda on highways, SPLOST, alcohol, etc. from the
         # elections feed even when "referendum" matches a core keyword.
         if self._negative_re is not None and self._negative_re.search(title):
             return False
-        if self._keyword_re.search(title):
+        title_hits = {m.group(1).lower() for m in self._keyword_re.finditer(title)}
+        # A single common-word keyword (e.g. "gay") routinely collides with a
+        # person's surname in honorary resolutions ("Grayson Gay, commended"),
+        # which would wrongly pull the bill into a topic feed and — worse — let
+        # the topic-steered summarizer invent a policy angle the bill never had.
+        # When the title's only signal is one such keyword appearing solely as
+        # part of a proper name, don't treat the title as a match; fall through
+        # to the body/context checks, which need real corroboration.
+        if title_hits and not _is_proper_name_only_match(title_raw, title_hits):
             return True
         body = " ".join([b.get("abstract", ""), b.get("subjects", "")]).lower()
         distinct = {m.group(1).lower() for m in self._keyword_re.finditer(body)}
