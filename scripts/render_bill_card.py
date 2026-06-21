@@ -40,8 +40,10 @@ CARD_W = 1080
 CARD_H = 1350
 MARGIN = 80
 
-HEADER_H = 200          # colored accent band at the top
-EMOJI_PX = 96           # rendered emoji size inside the header
+ACCENT_STRIPE_H = 16    # thin accent rule across the very top
+HEADER_TOP = 96         # y where the emoji + state/bill-id header begins
+HEADER_BOTTOM = 250     # body is vertically centered below this
+EMOJI_PX = 92           # rendered emoji size in the header row
 
 # --- Dark-mode palette ------------------------------------------------------
 BG = (18, 18, 23)               # near-black card body
@@ -166,6 +168,14 @@ def _wrap(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.FreeTypeFont,
     return lines
 
 
+def _block_height(lines, font, line_gap, max_lines=None) -> int:
+    """Pixel height of a wrapped block as _draw_block would render it, so the
+    body can be measured up-front and vertically centered."""
+    asc, desc = font.getmetrics()
+    n = len(lines) if max_lines is None else min(len(lines), max_lines)
+    return (asc + desc + line_gap) * n
+
+
 def _draw_block(draw, lines, font, x, y, color, line_gap, max_lines=None,
                 ellipsis_after=None):
     """Draw wrapped lines top-down; returns the y below the block. If max_lines
@@ -219,48 +229,72 @@ def render_card(
 
     inner_w = CARD_W - 2 * MARGIN
 
-    # --- Header band --------------------------------------------------------
-    draw.rectangle([0, 0, CARD_W, HEADER_H], fill=accent)
-    hx = MARGIN
-    emoji_img = _render_emoji(emoji, EMOJI_PX)
-    if emoji_img is not None:
-        img.paste(emoji_img, (hx, (HEADER_H - emoji_img.height) // 2), emoji_img)
-        hx += emoji_img.width + 28
+    # --- Top accent stripe + header (header sits on the dark body, not on a
+    # colored band) ---------------------------------------------------------
+    draw.rectangle([0, 0, CARD_W, ACCENT_STRIPE_H], fill=accent)
 
     state_font = _font("bold", 52)
     id_font = _font("regular", 38)
-    draw.text((hx, HEADER_H // 2 - 56), state_name, font=state_font, fill=HEADER_TEXT)
-    draw.text((hx, HEADER_H // 2 + 6), identifier, font=id_font,
-              fill=(235, 235, 245))
+    hx = MARGIN
+    emoji_img = _render_emoji(emoji, EMOJI_PX)
+    # Center the emoji against the two stacked text lines (state + id).
+    text_block_h = 60 + id_font.getmetrics()[0]
+    if emoji_img is not None:
+        ey = HEADER_TOP + (text_block_h - emoji_img.height) // 2
+        img.paste(emoji_img, (hx, ey), emoji_img)
+        hx += emoji_img.width + 28
+    draw.text((hx, HEADER_TOP), state_name, font=state_font, fill=HEADLINE_COLOR)
+    draw.text((hx, HEADER_TOP + 60), identifier, font=id_font, fill=accent_text)
 
-    # --- Body ---------------------------------------------------------------
-    y = HEADER_H + 70
+    # --- Footer (measured first so the body can center between it and the
+    # header) ---------------------------------------------------------------
+    foot_y = CARD_H - MARGIN - 70
+
+    # --- Body: measure every block, then vertically center the whole stack
+    # between the header and the footer ------------------------------------
     headline_font = _font("bold", 60)
+    summary_font = _font("regular", 42)
+    action_font = _font("bold", 40)
+    GAP_HEAD_SUM = 36
+    GAP_SUM_DATE = 78   # extra breathing room so the date sits a little lower
+
     head_lines = _wrap(draw, display, headline_font, inner_w)
-    y = _draw_block(draw, head_lines, headline_font, MARGIN, y, HEADLINE_COLOR,
-                    line_gap=12, max_lines=4, ellipsis_after=inner_w)
+    head_h = _block_height(head_lines, headline_font, 12, max_lines=4)
 
-    if summary and summary.strip().lower() != display.strip().lower():
-        y += 36
-        summary_font = _font("regular", 42)
-        sum_lines = _wrap(draw, summary, summary_font, inner_w)
-        y = _draw_block(draw, sum_lines, summary_font, MARGIN, y, SUMMARY_COLOR,
-                        line_gap=14, max_lines=11, ellipsis_after=inner_w)
+    has_summary = bool(summary and summary.strip().lower() != display.strip().lower())
+    sum_lines = _wrap(draw, summary, summary_font, inner_w) if has_summary else []
+    sum_h = _block_height(sum_lines, summary_font, 14, max_lines=11) if has_summary else 0
 
-    # Action + date line, folded into the main copy (not the footer), styled in
-    # the accent so the legislative status reads as part of the message.
     nice_date = _format_date(bill.get("action_date", ""))
     action = (bill.get("action_desc") or "").strip().rstrip(".")
     action_line = " · ".join(p for p in (nice_date, action) if p)
+    act_lines = _wrap(draw, action_line, action_font, inner_w) if action_line else []
+    act_h = _block_height(act_lines, action_font, 10, max_lines=3) if action_line else 0
+
+    total_h = head_h
+    if has_summary:
+        total_h += GAP_HEAD_SUM + sum_h
     if action_line:
-        y += 44
-        action_font = _font("bold", 40)
-        act_lines = _wrap(draw, action_line, action_font, inner_w)
+        total_h += GAP_SUM_DATE + act_h
+
+    region_top = HEADER_BOTTOM
+    region_bottom = foot_y - 40
+    y = region_top + max(0, (region_bottom - region_top - total_h) // 2)
+
+    y = _draw_block(draw, head_lines, headline_font, MARGIN, y, HEADLINE_COLOR,
+                    line_gap=12, max_lines=4, ellipsis_after=inner_w)
+    if has_summary:
+        y += GAP_HEAD_SUM
+        y = _draw_block(draw, sum_lines, summary_font, MARGIN, y, SUMMARY_COLOR,
+                        line_gap=14, max_lines=11, ellipsis_after=inner_w)
+    # Action + date line, folded into the main copy (not the footer), styled in
+    # the accent so the legislative status reads as part of the message.
+    if action_line:
+        y += GAP_SUM_DATE
         _draw_block(draw, act_lines, action_font, MARGIN, y, accent_text,
                     line_gap=10, max_lines=3, ellipsis_after=inner_w)
 
     # --- Footer -------------------------------------------------------------
-    foot_y = CARD_H - MARGIN - 70
     draw.line([(MARGIN, foot_y), (CARD_W - MARGIN, foot_y)], fill=DIVIDER, width=2)
 
     label_font = _font("regular", 34)
