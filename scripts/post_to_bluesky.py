@@ -983,6 +983,35 @@ def _get_full_text(b: dict) -> str:
     return full_text
 
 
+# A floor-amendment sheet ("AMEND House Bill No. 444 by inserting…") is the
+# document a state surfaces for an amendment action — and sometimes even for a
+# later action like passage. It is NOT the bill's substance: its body is just
+# the one- or two-line change. Summarizing it produces a fragment about that
+# lone change ("…takes effect July 1, 2027") that reads as disconnected from a
+# headline grounded on the bill's abstract. Detect it so summarize() and
+# shorten_title() fall back to the abstract, which describes the actual
+# legislation; the post's action line still reports the amendment event.
+_AMENDMENT_DOC_RE = re.compile(
+    r"\b(?:HOUSE|SENATE)\s+AMENDMENT\s+NO\.|"
+    r"\bAMEND\b.{0,80}\bBill\s+No\.|"
+    r"\bThis\s+amendment\b",
+    re.IGNORECASE | re.DOTALL,
+)
+
+
+def _is_amendment_doc(text: str) -> bool:
+    """True when extracted "full text" is actually a floor-amendment sheet
+    rather than the bill body. Conservative on purpose: requires an explicit
+    amendment marker near the top AND a short overall length, so a substantive
+    bill that merely contains amendment language is never dropped."""
+    if not text:
+        return False
+    if not _AMENDMENT_DOC_RE.search(text[:1500]):
+        return False
+    # Real bill bodies run long; amendment sheets are short.
+    return len(text) < 2500
+
+
 def summarize(b: dict, max_chars: int = 240) -> str:
     abstract = (b["abstract"] or "").strip()
     title = b["title"].strip()
@@ -993,6 +1022,13 @@ def summarize(b: dict, max_chars: int = 240) -> str:
     # legislation instead of a short abstract. Falls back to the abstract
     # whenever extraction isn't possible.
     full_text = _get_full_text(b)
+
+    # When the fetched document is a floor-amendment sheet (not the bill body),
+    # summarizing it yields a fragment about the lone change that clashes with
+    # the headline. Drop it so the summary describes the actual bill via its
+    # abstract; the action line still reports the amendment.
+    if full_text and _is_amendment_doc(full_text):
+        full_text = ""
 
     # When the title IS a blob (the whole bill description dumped into the
     # title field — Puerto Rico does this for nearly every bill, Missouri
@@ -1098,6 +1134,10 @@ def shorten_title(b: dict) -> str:
     # safe (and necessary) to rewrite.
     abstract_usable = bool(abstract) and _normalize(abstract) != _normalize(title)
     full_text = "" if (blob or abstract_usable) else _get_full_text(b)
+    # An amendment sheet isn't the bill body — don't rewrite the headline from
+    # it (mirrors summarize()). Falls through to the raw-title fallback below.
+    if full_text and _is_amendment_doc(full_text):
+        full_text = ""
     # Without any grounding (no usable abstract, no full text) a normal title is
     # the only signal — letting a small model paraphrase a title-only record
     # invites hallucinated specifics, so bail and let the raw title stand.
