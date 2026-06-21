@@ -28,6 +28,21 @@ ROOT = Path(__file__).resolve().parent.parent
 TOPICS_DIR = ROOT / "topics"
 
 
+def _parse_hex_color(value, default: tuple[int, int, int]) -> tuple[int, int, int]:
+    """Parse a "#RRGGBB" (or "RRGGBB") string into an (R, G, B) tuple, falling
+    back to default for missing or malformed values. Used for a topic's
+    card_accent (the Instagram card header color)."""
+    if not value:
+        return default
+    s = str(value).strip().lstrip("#")
+    if len(s) != 6:
+        return default
+    try:
+        return (int(s[0:2], 16), int(s[2:4], 16), int(s[4:6], 16))
+    except ValueError:
+        return default
+
+
 # ---------------------------------------------------------------------------
 # Proper-noun collision guard
 #
@@ -125,6 +140,13 @@ class Topic:
     # is unambiguous when browsing the repo; override in config.yml only if a
     # topic's Threads feed is ever rebranded (mirrors x_subdir).
     threads_subdir: str = "meta-threads"
+    # Instagram/Meta state subfolder. Defaults to "instagram"; mirrors x_subdir
+    # and threads_subdir.
+    instagram_subdir: str = "instagram"
+    # Per-topic accent color for the Instagram card image, parsed from a
+    # "card_accent" hex string in config.yml to an (R, G, B) tuple. Defaults to
+    # govbot blue; only topics with an Instagram feed need to set it.
+    card_accent: tuple[int, int, int] = (37, 99, 235)
     # Optional named keyword buckets used by the X poster to balance the daily
     # draw across sub-topics (e.g. ai_data_centers splits its keywords into
     # an "ai_data_centers" bucket and a "crypto" bucket so each X run posts at
@@ -192,6 +214,8 @@ class Topic:
 
         x_subdir = (data.get("x_subdir") or "x").strip() or "x"
         threads_subdir = (data.get("threads_subdir") or "meta-threads").strip() or "meta-threads"
+        instagram_subdir = (data.get("instagram_subdir") or "instagram").strip() or "instagram"
+        card_accent = _parse_hex_color(data.get("card_accent"), (37, 99, 235))
 
         raw_groups = data.get("keyword_groups") or {}
         keyword_groups: dict[str, list[str]] = {}
@@ -222,6 +246,8 @@ class Topic:
             _negative_re=negative_re,
             x_subdir=x_subdir,
             threads_subdir=threads_subdir,
+            instagram_subdir=instagram_subdir,
+            card_accent=card_accent,
             keyword_groups=keyword_groups,
             _keyword_group_res=keyword_group_res,
         )
@@ -412,6 +438,23 @@ class Topic:
 
     def threads_weekly_digest_bills_raw_dir(self) -> Path:
         return TOPICS_DIR / self.name / self.threads_subdir / "weekly_digest" / "bills_raw"
+
+    # Instagram/Meta state lives in its own subfolder (default "instagram") so
+    # its dedup file, raw artifacts, and rendered card images sit beside — but
+    # never collide with — the other platforms'. Mirrors the threads_* helpers.
+    def instagram_state_file_path(self) -> Path:
+        return TOPICS_DIR / self.name / self.instagram_subdir / "bills_used.json"
+
+    def instagram_bills_raw_dir(self) -> Path:
+        return TOPICS_DIR / self.name / self.instagram_subdir / "bills_raw"
+
+    def instagram_bills_full_text_dir(self) -> Path:
+        return TOPICS_DIR / self.name / self.instagram_subdir / "bills_full_text"
+
+    # Rendered PNG cards are committed here and served via raw.githubusercontent
+    # so Instagram's Graph API can fetch them by public URL at publish time.
+    def instagram_cards_dir(self) -> Path:
+        return TOPICS_DIR / self.name / self.instagram_subdir / "cards"
 
     def _secret_suffix(self) -> str:
         return self.name.upper()

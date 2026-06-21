@@ -1,0 +1,47 @@
+name: govbot-instagram-refresh-token
+
+on:
+  # Weekly is plenty: Instagram long-lived tokens last 60 days and refreshing
+  # rolls that window forward. Runs Mondays; also triggerable by hand.
+  schedule:
+    - cron: "30 7 * * MON"
+  workflow_dispatch:
+
+# Read-only here; the refreshed token is written back via the GitHub REST API
+# using INSTAGRAM_REFRESH_PAT (a PAT with secrets:write), NOT the workflow token.
+permissions:
+  contents: read
+
+concurrency:
+  group: govbot-instagram-refresh-token
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install Python deps
+        run: pip install -r requirements.txt
+
+      - name: Refresh Instagram long-lived token
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          # Optional: a PAT with `secrets: write` on this repo enables writing
+          # the refreshed token back into the INSTAGRAM_ACCESS_TOKEN secret. Omit
+          # it and the step still refreshes + reports without leaking the token.
+          INSTAGRAM_REFRESH_PAT: ${{ secrets.INSTAGRAM_REFRESH_PAT }}
+        run: python scripts/refresh_instagram_token.py

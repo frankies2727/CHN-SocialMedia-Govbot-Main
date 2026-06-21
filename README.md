@@ -1,6 +1,6 @@
 # 🏛️ govbot-social
 
-**A free, multi-topic, multi-platform bot network that posts new U.S. state-legislative activity — each bill summarized in plain English by a local AI model — to Bluesky, X/Twitter, and Threads.**
+**A free, multi-topic, multi-platform bot network that posts new U.S. state-legislative activity — each bill summarized in plain English by a local AI model — to Bluesky, X/Twitter, Threads, and Instagram.**
 
 Powered by [chihacknight/govbot](https://github.com/chihacknight/govbot) for the raw legislative data and [Ollama](https://ollama.com/) + [Gemma](https://ai.google.dev/gemma) for on-runner summarization. Everything runs on scheduled **GitHub Actions** — no servers, no paid LLM API, no hosting bill.
 
@@ -54,7 +54,7 @@ Each **topic** is its own social account with its own keyword list, emoji map, s
 - 🆓 **Genuinely free to run.** No hosted server, no LLM API key. Summarization happens on the Actions runner with a local model. The whole thing fits in GitHub's free tier.
 - 🧠 **Grounded summaries.** Most bill bots parrot the title. This one pulls the bill's PDF, extracts the full text with `pdftotext`, and asks the model to translate the *substance* into plain layman's terms — spelling out acronyms, swapping legalese ("appropriates" → "sets aside money for") for everyday words.
 - 🧩 **Drop-in topics.** Adding a new subject area is three steps: create a folder, write a `config.yml`, add two secrets. The shared workflow auto-discovers it on the next run. No Python or YAML pipeline edits.
-- 🐦 **Three platforms, one pipeline.** The same filtering/summarization engine drives Bluesky, X, and Threads, with fully independent dedup state per platform.
+- 🐦 **Four platforms, one pipeline.** The same filtering/summarization engine drives Bluesky, X, Threads, and Instagram, with fully independent dedup state per platform.
 - 🎯 **Quality filtering.** Title hits, multi-keyword body matches, context keywords, negative keywords, and per-bucket draws keep omnibus-budget noise and off-topic referenda out of the feeds.
 - 📚 **Auditable.** Every posted bill's raw record and extracted full text is committed back to the repo, so there's a permanent trail of exactly what was posted and why.
 
@@ -160,6 +160,18 @@ In **Settings → Secrets and variables → Actions**, add credentials for each 
 | `THREADS_REFRESH_PAT` | *(optional)* A PAT with `secrets: write` so the weekly refresh workflow can persist the rolled-forward token |
 
 > **Getting the Threads token:** create a Meta app with the *"Access the Threads API"* use case, add the `threads_basic` + `threads_content_publish` permissions, add your Threads account under **App roles → Roles → Threads Testers** (and accept the invite inside Threads → *Settings → Website permissions*). Then generate a short-lived token in the **Graph API Explorer** and exchange it for a 60-day long-lived token via `GET https://graph.threads.net/access_token?grant_type=th_exchange_token&client_secret=…&access_token=…`. The `meta-threads-refresh-token` workflow keeps it from lapsing — see [Threads token refresh](#threads-token-refresh).
+
+**Instagram (Meta)** — a single dedicated Instagram **Business/Creator** account, two secrets:
+
+| Secret | Value |
+| --- | --- |
+| `INSTAGRAM_ACCESS_TOKEN` | A **long-lived** Instagram access token (see below) |
+| `INSTAGRAM_USER_ID` | The Instagram **Business account** id |
+| `INSTAGRAM_REFRESH_PAT` | *(optional)* A PAT with `secrets: write` so the weekly refresh workflow can persist the rolled-forward token |
+
+> **Instagram is image-first.** Unlike the text platforms, Instagram's Graph API has no text-only post type and fetches the post image from a *public URL*. So the Instagram poster renders each bill into a 1080×1350 card (`scripts/render_bill_card.py`, dark mode, per-topic `card_accent`), commits + pushes it, waits for it to go live on `raw.githubusercontent.com`, then publishes via the two-step container→publish Graph call. The bill link can't be clickable in an Instagram caption, so it ships as plain text and the card footer reads *"Link to the bill in the description."* **This requires the repository to be public** so Instagram's servers can fetch the card.
+
+> **Getting the Instagram token:** use the *Instagram API with Instagram Login* (`graph.instagram.com`). Create a Meta app, add the `instagram_business_basic` + `instagram_business_content_publish` permissions, connect your Instagram Business/Creator account, then exchange for a 60-day long-lived token. The `instagram-refresh-token` workflow keeps it from lapsing (same 60-day roll-forward model as Threads).
 
 > Summarization runs entirely on the runner via a local Gemma model — **no OpenAI/Anthropic/other LLM API key is ever needed.**
 
@@ -284,6 +296,8 @@ A dry run prints the composed posts without hitting Bluesky/X. If Ollama isn't r
 | `post_to_meta_threads.yml` | Daily cron + manual | Same pipeline, posting to a Meta Threads account (dedicated to the `lgbtq` topic; 3 posts/run). |
 | `weekly-digest-meta-threads.yml` | Fridays + manual | Weekly digest thread on Threads (root + a self-contained reply per highlight). |
 | `meta-threads-refresh-token.yml` | Weekly + manual | Rolls the 60-day Threads token forward so it never lapses. |
+| `post_to_instagram.yml` | Daily cron + manual | Renders each bill to a card image, pushes it, then posts to a Meta Instagram Business account (dedicated to the `lgbtq` topic; 2 posts/run). |
+| `instagram-refresh-token.yml` | Weekly + manual | Rolls the 60-day Instagram token forward so it never lapses. |
 | `post_bluesky_specific_bill.yml` | Manual | Force-post one specific `state` + `bill_id` to a chosen topic's Bluesky account (with dry-run / repost toggles). |
 | `post_x_specific_bill.yml` | Manual | Same one-off force-post, for X. |
 | `collect-samples.yml` | Manual | Save a batch of full bill records into `samples/` (optionally compose/post them too). Useful for prompt-tuning and tests. |
@@ -306,11 +320,14 @@ scripts/
   post_to_bluesky.py           # shared Bluesky bot (parameterized by BOT_TOPIC)
   post_to_x.py                 # shared X bot (reuses the Bluesky engine)
   post_to_meta_threads.py      # shared Threads bot (reuses the Bluesky engine)
+  post_to_instagram.py         # shared Instagram bot (renders + posts card images)
+  render_bill_card.py          # Pillow renderer for the Instagram bill cards
   weekly_digest.py             # Bluesky weekly digest builder
   weekly_digest_x.py           # X weekly digest builder
   weekly_digest_meta_threads.py # Threads weekly digest builder
   bill_text.py                 # full bill-text extraction from PDFs (pdftotext)
   refresh_meta_threads_token.py # roll the Threads long-lived token forward
+  refresh_instagram_token.py   # roll the Instagram long-lived token forward
   sync_topic_choices.py        # keep workflow choice dropdowns in sync with topics/
 samples/                       # saved bill records for prompt-tuning / tests
 topics/
@@ -322,12 +339,13 @@ topics/
     weekly_digest/             # digest highlight artifacts
     x/  (or x_subdir)          # mirror of the above for the X account
     meta-threads/ (or threads_subdir) # mirror of the above for the Threads account
+    instagram/ (or instagram_subdir)  # mirror for Instagram, plus cards/ (rendered PNGs)
 requirements.txt               # requests, Pillow, PyYAML, tweepy
 ```
 
 ## State, dedup & seeding the backlog
 
-- **Idempotency** is per-platform and per-topic. Bluesky dedup lives in `topics/<name>/bills_used.json`; X dedup under `topics/<name>/<x_subdir>/bills_used.json`; Threads dedup under `topics/<name>/<threads_subdir>/bills_used.json`. Keys are the RSS `<guid>` (falling back to link, then `feed_name:title`).
+- **Idempotency** is per-platform and per-topic. Bluesky dedup lives in `topics/<name>/bills_used.json`; X dedup under `topics/<name>/<x_subdir>/bills_used.json`; Threads dedup under `topics/<name>/<threads_subdir>/bills_used.json`; Instagram dedup under `topics/<name>/<instagram_subdir>/bills_used.json`. Keys are the RSS `<guid>` (falling back to link, then `feed_name:title`).
 - **First run is loud.** With an empty state file, *every* matching bill is "new." Each topic ships with `{"posted": []}`, and `POST_LIMIT` caps the blast radius — but you'll likely want to seed the backlog first.
 - **Permissions.** Posting workflows need `contents: write` to commit state back. This is set in the workflows, but org-level settings can override it — check **Settings → Actions → General → Workflow permissions** if commits aren't landing.
 
