@@ -1,0 +1,2391 @@
+House Bill 1302 (AS PASSED HOUSE AND SENATE)
+By: Representatives Gambill of the 15th, Seabaugh of the 34th, Wade of the 9th, Dubnik of the
+29th, Erwin of the 32nd, and others
+
+A BILL TO BE ENTITLED
+AN ACT
+
+To amend Titles 20, 34, and 50 of the Official Code of Georgia Annotated, relating to
+
+education, labor and industrial relations, and state government, respectively, so as to provide
+
+for the reconstitution of the Office of Student Achievement as the Office of Education and
+
+Workforce Strategy; to provide for responsibilities of the Office of Education and Workforce
+
+Strategy and the director of said office; to change the name of the High Demand
+
+Apprenticeship Program to the Top State for Talent Pre-Apprenticeship and Apprenticeship
+
+Program; to repeal provisions for the Alliance of Education Agency Heads; to repeal a sunset
+
+date relative to accessing HOPE scholarship funds for dual enrollment students; to provide
+
+for a combined Workforce Innovation and Opportunity Act Plan and Perkins State Plan; to
+
+provide for registered apprenticeship programs; to designate the Technical College System
+
+of Georgia as the state apprenticeship agency for the State of Georgia and provide for related
+
+authority and responsibilities; to revise various reporting requirements; to revise various
+
+certification requirements; to revise various requirements for rules and regulations; to
+
+establish and provide for the Education Data Governance Board; to remove references to the
+
+Office of Workforce Development; to provide for definitions; to provide for conforming
+
+changes; to provide a short title; to provide for related matters; to repeal conflicting laws; and
+
+for other purposes.
+
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF GEORGIA:
+
+SECTION 1.
+
+This Act shall be known and may be cited as the "Education and Workforce Strategy Act."
+
+SECTION 2.
+
+Titles 20, 34, and 50 of the Official Code of Georgia Annotated, relating to education, labor
+
+and industrial relations, and state government, respectively, are amended by replacing
+
+"Office of Student Achievement" and "Office of Student Achievement's" with "Office of
+
+Education and Workforce Strategy" and "Office of Education and Workforce Strategy's",
+
+respectively, wherever the former phrases occur in said titles, except for subsection (a) of
+
+Code Section 20-14-25, relating to creation, director, authority, seal, and administrative
+
+assignment relative to the Office of Student Achievement.
+
+SECTION 3.
+
+Title 20 of the Official Code of Georgia Annotated, relating to education, is amended in
+
+Article 4 of Chapter 1, relating to the Council on Literacy, by revising subsections (d) and
+
+(e) of Code Section 20-1-42, relating to membership, terms, cooperation, and Literacy
+
+Coach, as follows:
+
+"(d) The Governor shall direct the Alliance of Education Agency Heads provided for in
+
+Article 1 of Chapter 14 of this title to work with members of the council Reserved.
+
+(e) The council shall be attached for administrative purposes only to the Office of
+
+Education and Workforce Strategy Student Achievement. The Office of Education and
+
+Workforce Strategy Student Achievement shall provide staff support for the council and
+
+shall hire an individual to serve as Georgia Literacy Coach who shall be responsible for
+
+coordination of such staff support and for working in coordination with the literacy related
+
+efforts of the Alliance of Education Agency Heads. The Office of Education and
+
+Workforce Strategy Student Achievement shall use any funds specifically appropriated to
+
+support the work of the council for such purpose."
+
+SECTION 4.
+
+Said title is further amended in Part 4 of Article 6 of Chapter 2, relating to financing under
+
+the "Quality Basic Education Act," by revising Code Section 20-2-161.4, relating to
+
+accessing HOPE scholarship funds for dual enrolled students and reports, as follows:
+
+"20-2-161.4.
+
+(a)(1) Beginning July 1, 2023, each student participating in the Dual Enrollment program
+
+provided for in Code Section 20-2-161.3 who is eligible for a HOPE grant pursuant to
+
+Code Section 20-3-519.5 shall be allowed to access HOPE grant funds for eligible CTAE
+
+courses, as defined in Code Section 20-2-161.3, irrespective of whether such student has
+
+reached any maximum credit hour cap provided for in Code Section 20-2-161.3.
+
+(2)(b) For three years beginning on July 1, 2023, the The Georgia Student Finance
+
+Commission, in collaboration with the Technical College System of Georgia, shall collect
+
+and report data on:
+
+(A)(1) Student enrollment in and completion of at least one eligible CTAE course, as
+
+defined in Code Section 20-2-161.3, as part of the Dual Enrollment program provided for
+
+in Code Section 20-2-161.3;
+
+(B)(2) HOPE grant funding and Dual Enrollment program funding, including, but not
+
+limited to, the number of students who received such funding and the maximum, mean,
+
+median, and mode amounts of such funding received by students;
+
+(C)(3) Postsecondary credits earned by students who received such funding;
+
+(D)(4) The number of students who enrolled in a postsecondary degree program after
+
+completing a program of study that includes at least one eligible CTAE course, as defined
+
+in Code Section 20-2-161.3, as part of the Dual Enrollment program provided for in Code
+
+Section 20-2-161.3; and
+
+(E)(5) The number of students employed in a high-demand field after completing a
+
+focused program of study identified by the State Board of the Technical College System
+
+of Georgia as part of the High Demand Top State for Talent Pre-Apprenticeship and
+
+Apprenticeship Program provided for in Code Section 20-4-152 Article 7 of Chapter 4
+
+of this title.
+
+(c) No later than January 1 each year, the Georgia Student Finance Commission shall
+
+provide an interim the report required by subsection (b) of this Code section to the
+
+Governor, the President of the Senate, the Speaker of the House of Representatives, the
+
+director of the Office of Planning and Budget, and the chairpersons of the House
+
+Committee on Education, the Senate Education and Youth Committee, the House
+
+Committee on Higher Education, and the Senate Higher Education Committee. A final
+
+report shall be provided to the same no later than December 1, 2028.
+
+(3)(d) The Georgia Student Finance Commission, in consultation with the State Board of
+
+Education, and the State Board of the Technical College System of Georgia, and the Office
+
+of Workforce Development, shall establish rules and regulations to implement the
+
+provisions of this subsection Code section.
+
+(b) This Code section shall stand repealed on June 30, 2028."
+
+SECTION 5.
+
+Said title is further amended in said part by revising Code Section 20-2-169, relating to
+
+receipt of federal funds for career, occupational, or technical education, as follows:
+
+"20-2-169.
+
+(a) The Department of Education is designated as the sole state agency to receive federal
+
+funds allotted to Georgia under acts of Congress appropriating federal funds for career,
+
+occupational, or technical education; provided, however, that those funds appropriated for
+
+the operation and management of postsecondary technical, adult, and industrial programs
+
+shall be placed under the jurisdiction and control of the State Board of the Technical
+
+College System of Georgia; provided, further, that a proportionate share of those federal
+
+funds appropriated for planning, evaluation, program improvement, and other
+
+administrative and discretionary purposes shall be placed under the jurisdiction and control
+
+of such board.
+
+(b) The Department of Education and the Technical College System of Georgia, with
+
+assistance from the Office of Education and Workforce Strategy, shall prepare a combined
+
+Workforce Innovation and Opportunity Act Plan and Perkins State Plan in accordance with
+
+federal law.
+
+(c) The combined Workforce Innovation and Opportunity Act Plan and Perkins State Plan
+
+shall include:
+
+(1) The incorporation of coordinated data from comprehensive local needs assessments
+
+to align secondary, postsecondary, and adult workforce training programs with regional
+
+labor market requirements and federal compliance standards for the Workforce
+
+Innovation and Opportunity Act Plan and Perkins State Plan;
+
+(2) The implementation of guidance from the United States Department of Labor and
+
+United States Department of Education that recommends formal input from key
+
+stakeholders, including, but not limited to:
+
+(A)
+
+educational institutions;
+
+(B) Private sector employers and industry representatives; and
+
+(C) Community based organizations and regional economic development entities; and
+
+(3) The incorporation of additional coordinated efforts required by guidance from the
+
+United States Department of Labor and United States Department of Education to ensure
+
+the state remains eligible for federal funding, including the synchronization of
+
+performance accountability measures and the streamlining of service delivery.
+
+(d) The combined Workforce Innovation and Opportunity Act Plan and Perkins State Plan
+
+required by this Code section and any amendments thereto shall be approved by the State
+
+Local workforce development boards and secondary and postsecondary
+
+Workforce Development Board, submitted to the Governor, and distributed to the public
+
+as required by federal law.
+
+(e) Nothing in this Code section shall prohibit the Department of Education or the
+
+Technical College System of Georgia from consulting its respective boards for the purpose
+
+of preparing the combined Workforce Innovation and Opportunity Act Plan and Perkins
+
+State Plan as provided for in subsection (c) of this Code section."
+
+SECTION 6.
+
+Said title is further amended in Part 11 of said article, relating to regional educational service
+
+agencies, by revising subsections (a) and (b) of Code Section 20-2-271, relating to
+
+development of regional improvement plan, introduction of core services, instructional care
+
+teams, and establishment of alternative methods of teacher certification, as follows:
+
+"(a) Each regional educational service agency shall annually develop and submit to the
+
+Department of Education for approval, with a copy to the Alliance of Education Agency
+
+Heads Office of Education and Workforce Strategy, a regional plan for improvement of
+
+educational efficiency and cost effectiveness of its member institutions. Each plan must
+
+include the purposes and description of the services the regional educational service agency
+
+will provide to schools identified as low-performing based on the indicators adopted under
+
+Code Section 20-14-33 and to other schools.
+
+(b) Each regional educational service agency shall introduce and provide core services for
+
+member local school systems and schools and provide core services for purchase by local
+
+school systems and schools which are not members of that regional educational service
+
+agency. These core services shall include the following:
+
+(1)
+
+Section 20-2-281;
+
+(2) Assistance specifically designed for any school that is rated academically failing
+
+under Code Section 20-14-33;
+
+Training and assistance in teaching each subject area assessed under Code
+
+(3) Training and assistance to teachers, administrators, members of local boards of
+
+education, and members of local school councils on school-based decision making and
+
+control; and
+
+(4) Assistance in complying with applicable state laws and rules of the State Board of
+
+Education and the Alliance of Education Agency Heads.
+
+Nothing in this Code section shall be construed to limit the freedom of a school system or
+
+school to purchase or refuse to purchase any core service from any regional educational
+
+service agency in this state."
+
+SECTION 7.
+
+Said title is further amended in Part 15 of said article, relating to miscellaneous provisions
+
+under the "Quality Basic Education Act," by revising subsections (a), (b), and (c) of Code
+
+Section 20-2-320, relating to state-wide comprehensive educational information system and
+
+identification of data to implement Quality Basic Education Program, as follows:
+
+"(a) There shall be a state-wide comprehensive educational information system which will
+
+provide for the accurate, seamless, and timely flow of information from local and regional
+
+education agencies, units of the University System of Georgia, and technical schools and
+
+colleges to the state. The system design shall include hardware, software, data, collection
+
+methods and times, training, maintenance, communications, security of data, and
+
+installation specifications and any other relevant specifications needed for the successful
+
+implementation of the system. The state-wide comprehensive educational information
+
+system shall not use a student's social security number or an employee's social security
+
+number in violation of state or federal law to identify a student or employee. Upon
+
+approval of the boards of the respective education agencies, such boards shall issue
+
+appropriate requests for proposals to implement a state-wide comprehensive educational
+
+information system, subject to appropriation by the General Assembly. The boards of the
+
+respective education agencies, at the direction of the Alliance of Education Agency Heads,
+
+shall initiate contracts with appropriate vendors and local units of administration for the
+
+procurement of services, purchase of hardware and software, and for any other purposes
+
+upon the recommendation of the Office of Education and Workforce Strategy purpose as
+
+directed by the Alliance of Education Agency Heads, consistent with appropriation by the
+
+General Assembly.
+
+(b) The State Board of Education, the State Board of the Technical College System of
+
+Georgia, the Board of Regents of the University System of Georgia, and the Department
+
+of Early Care and Learning shall require an individual student record for each student
+
+enrolled which at a minimum includes the data specifications approved recommended by
+
+the Office of Education and Workforce Strategy Alliance of Education Agency Heads. The
+
+Professional Standards Commission shall maintain an individual data record for each
+
+certificated person employed in a public school.
+
+(c) For the purpose of this article, authorized educational agencies shall be the Department
+
+of Education; the Department of Early Care and Learning; the Board of Regents of the
+
+University System of Georgia; the Technical College System of Georgia; the Alliance of
+
+Education Agency Heads; the Professional Standards Commission; the Office of Education
+
+and Workforce Strategy Student Achievement; the education policy and research
+
+components of the office of the Governor; the Office of Planning and Budget; the Senate
+
+Budget and Evaluation Office; and the House Budget and Research Office.
+
+information collected over the state-wide comprehensive educational information system,
+
+including individual student records and individual personnel records, shall be accessible
+
+by authorized educational agencies, provided that any information which is planned for
+
+collection over the system but which is temporarily being collected by other means shall
+
+also be accessible by authorized educational agencies and provided, further, that adequate
+
+security provisions are employed to protect the privacy of individuals. All data maintained
+
+for this system shall be used for educational purposes only. In no case shall information
+
+be released by an authorized educational agency which would violate the privacy rights of
+
+Any
+
+any individual student or employee. Information released by an authorized educational
+
+agency in violation of the privacy rights of any individual student or employee shall subject
+
+the authorized educational agency to all penalties under applicable state and federal law.
+
+Any information collected over the state-wide comprehensive educational information
+
+system which is not stored in an individual student or personnel record format shall be
+
+made available to the Governor and the House and Senate Appropriations Committees, the
+
+House Committee on Education, the Senate Education and Youth Committee, the House
+
+Committee on Higher Education, and the Senate Higher Education Committee, except
+
+information otherwise prohibited by statute. Data which are included in an individual
+
+student record or individual personnel record format shall be extracted from such records
+
+and made available in nonindividual record format for use by the Governor, committees
+
+of the General Assembly, and agencies other than authorized educational agencies."
+
+SECTION 8.
+
+Said title is further amended in Part 16 of said article, relating to college and career readiness
+
+under the "Quality Basic Education Act," by revising paragraph (3) of subsection (c) of Code
+
+Section 20-2-327, relating to recognition of advanced proficiency/honors courses and
+
+counseling and development of individual college and career plans, as follows:
+
+"(3) No later than December 31, 2026, and annually thereafter, the The Georgia Student
+
+Finance Commission and the Department of Education shall annually collect and report
+
+on information to verify compliance with this Code section. The report shall include the
+
+percentage of students in ninth grade who create a GAfutures.org account and students
+
+in grades ten through 12 who utilize a GAfutures.org account and be distributed to the
+
+Office of Planning and Budget and the Office of Education and Workforce Strategy. The
+
+report shall be included in the state-wide education and workforce plan provided for in
+
+Code Section 20-14-29.2."
+
+SECTION 9.
+
+Said title is further amended in said part by revising subsection (b) of Code Section
+
+20-2-327.1, relating to industry credentialing for career, technical, and agricultural education
+
+programs and reporting, as follows:
+
+"(b) No later than December 31, 2018, and annually thereafter, the Department of
+
+Education, in coordination with the Office of Education and Workforce Strategy, shall
+
+produce a return-on-investment report to the State Workforce Development Board and the
+
+Office of Planning and Budget as related to grant funds provided for in subsection (j) of
+
+Code Section 20-2-260. Such report shall include the current and projected regional
+
+business and industry needs for the purpose of establishing annual goals and strategies to
+
+increase attainment rates of industry credentialing, including the development of additional
+
+industry credentials to enhance current industry certified programs."
+
+SECTION 10.
+
+Said title is further amended in Article 2 of Chapter 4, relating to technical and adult
+
+education, by adding a new subsection to Code Section 20-4-17, relating to agencies to
+
+receive federal funds and transfer of personnel to Department of Technical and Adult
+
+Education, now known as Technical College System of Georgia, to read as follows:
+
+"(c)(1) The Department of Education and the Technical College System of Georgia, with
+
+assistance from the Office of Education and Workforce Strategy, shall prepare a
+
+combined Workforce Innovation and Opportunity Act Plan and Perkins State Plan in
+
+accordance with federal law.
+
+(2) The combined Workforce Innovation and Opportunity Act Plan and Perkins State
+
+Plan shall include:
+
+(A)
+
+assessments to align secondary, postsecondary, and adult workforce training programs
+
+The incorporation of coordinated data from comprehensive local needs
+
+with regional labor market requirements and federal compliance standards for the
+
+Workforce Innovation and Opportunity Act Plan and Perkins State Plan;
+
+(B) The implementation of guidance from the United States Department of Labor and
+
+United States Department of Education that recommends formal input from key
+
+stakeholders, including, but not limited to:
+
+(i)
+
+educational institutions;
+
+(ii) Private sector employers and industry representatives; and
+
+(iii) Community based organizations and regional economic development entities;
+
+and
+
+(C) The incorporation of additional coordinated efforts required by guidance from the
+
+United States Department of Labor and United States Department of Education to
+
+ensure the state remains eligible for federal funding, including the synchronization of
+
+performance accountability measures and the streamlining of service delivery.
+
+Local workforce development boards and secondary and postsecondary
+
+(3) The combined Workforce Innovation and Opportunity Act Plan and Perkins State
+
+Plan required by this subsection and any amendments thereto shall be approved by the
+
+State Workforce Development Board, submitted to the Governor, and distributed to the
+
+public as required by federal law.
+
+(4) Nothing in this Code section shall prohibit the Department of Education or the
+
+Technical College System of Georgia from consulting its respective boards for the
+
+purpose of preparing the combined Workforce Innovation and Opportunity Act Plan and
+
+Perkins State Plan as provided for in subsection (c) of this Code section."
+
+SECTION 11.
+
+Said title is further amended in said article by replacing "work force" with "workforce" each
+
+time the term appears in and by revising subsections (a), (c), and (g) of Code
+
+Section 20-4-37, relating to the Office of College and Career Transitions and powers and
+
+duties, as follows:
+
+"(a)(1) It is the intent of the General Assembly to:
+
+(A) Increase high school graduation rates, potential job opportunities, and educational
+
+opportunities that will prepare students for success in college and the workplace;
+
+(B) Establish intergovernmental cooperation between postsecondary institutions and
+
+local boards of education and collaboration with business, industry, and community
+
+stakeholders to aid relevant education programs informed by the High-Demand Career
+
+List as provided in Code Section 34-14-3 and in the development and support of new
+
+and existing college and career academies in Georgia;
+
+(C) Assist in the development of academic and career ready curriculum;
+
+(D) Establish and manage support grant opportunities and awards for new and existing
+
+college and career academies;
+
+(E) Establish a process that allows for college and career academy certification; and
+
+(F) Collect and analyze data to evaluate the effectiveness of dual credit and dual
+
+enrollment programs, secondary and postsecondary partnerships, and college and career
+
+academics academies.
+
+(2) The General Assembly finds that to accomplish these goals an office should be
+
+established to coordinate the efforts of the various education agencies."
+
+"(c) The Office of College and Career Academies shall be established within the Technical
+
+College System of Georgia to coordinate the efforts by the Office of Education and
+
+Workforce Strategy, the State Board of Education, the University System of Georgia, the
+
+Technical College System of Georgia, and other not for profit postsecondary institutions
+
+accredited by the Southern Association of Colleges and Schools in the professional
+
+development, curriculum support, and development and establishment of college and career
+
+academies."
+
+"(g)(1) The office shall establish a certification process, in collaboration with the
+
+Department of Education, for approval by the board. The office shall be authorized to
+
+certify college and career academies. The State Board of Education shall accept
+
+certification by the office as one component of determining compliance with charter and
+
+strategic waivers school system or charter system contract requirements. The State Board
+
+of Education may request supplemental information from charter petitioners, strategic
+
+waivers school systems, or charter systems.
+
+(2) Any certification process established pursuant to paragraph (1) of this subsection
+
+shall require that the applicant demonstrates how the proposed or existing college and
+
+career academy will increase student achievement and technical skill attainment, provide
+
+for dual credit and dual enrollment opportunities, increase work based learning
+
+opportunities, and address work force workforce development needs; articulates how the
+
+collaboration between business, industry, and community stakeholders will advance work
+
+force workforce development; demonstrates local governance and autonomy; and shows
+
+other benefits that meet the needs of the students and community. The applicant shall
+
+also demonstrate, as applicable, how the proposed or existing college and career
+
+academy's use of the Accelerated Career Diploma Program, the Top State For Talent
+
+Pre-Apprenticeship and Apprenticeship Program, and the High-Demand Career List as
+
+provided in Code Section 34-14-3, specific to its region, will increase workforce
+
+readiness.
+
+(3) Certification by the office shall constitute a positive recommendation to the State
+
+Board of Education for renewal of a charter school or charter system pursuant to Code
+
+Section 20-2-2064.1 or an extension of a strategic waivers school system contract
+
+pursuant to Article 4 of Chapter 2 of this title. A copy of the certification report shall be
+
+provided to the State Board of Education by the office in order to communicate the
+
+certification status of the applicant."
+
+SECTION 12.
+
+Said title is further amended in Article 7 of said chapter, relating to the high demand
+
+apprenticeship program, by revising Code Section 20-4-150, relating to definitions, as
+
+follows:
+
+"20-4-150.
+
+As used in this article, the term:
+
+(1) 'Apprentice' means an individual at least 15 years of age, except where a higher
+
+minimum age standard is otherwise set by law, who is employed to learn an occupation
+
+in a registered apprenticeship program. a person who is at least 15 years of age, except
+
+where a higher minimum age is required by law, who is employed in an eligible
+
+apprenticeable occupation, and is registered in Georgia with the United States
+
+Department of Labor Office of Apprenticeship.
+
+(2) 'Apprenticeable occupation' means an occupation approved for apprenticeship by the
+
+United States Department of Labor Office of Apprenticeship.
+
+(3) 'Apprenticeship program' means a program registered with the United States
+
+Department of Labor Office of Apprenticeship that includes terms and conditions for the
+
+qualification, recruitment, selection, employment, and training of apprentices, including
+
+the requirement for a written apprenticeship agreement.
+
+(4)(3) 'Apprenticeship sponsor' means:
+
+(A) Any entity operating an apprenticeship program; or
+
+(B) Any entity in whose name an apprenticeship program is being operated that is
+
+registered with or approved by the United States Department of Labor Office of
+
+Apprenticeship.
+
+(5)(4) 'Board' means the State Board of the Technical College System of Georgia.
+
+(6)(5) 'Eligible apprenticeable occupation' means an apprenticeable occupation identified
+
+by the State Workforce Development Board pursuant to Code Section 34-14-3 as a
+
+high-demand career.
+
+(7)(6)
+
+apprenticeship sponsor and employs and trains an apprentice.
+
+(8) 'Office of Workforce Development' means the Technical College System of Georgia's
+
+Office of Workforce Development.
+
+(7) ‘Pre-apprentice' means an individual at least 15 years of age, except where a higher
+
+minimum age standard is otherwise set by law, who is employed to learn an occupation
+
+in a registered pre-apprenticeship program, who is enrolled in a public school work based
+
+learning program, and who is pursuing a technical college certificate from a unit of the
+
+Technical College System of Georgia that is aligned with a registered apprenticeship
+
+program.
+
+(8)
+
+apprenticeship program registered in accordance with 29 C.F.R. Sections 29 and 30 that
+
+possesses an approved plan containing all terms and conditions for the qualification,
+
+recruitment, selection, employment, and training of apprentices, as required under federal
+
+law, including matters such as the requirement for a written apprenticeship agreement.
+
+(9) 'Registered pre-apprenticeship program' or 'pre-apprenticeship program' means a
+
+pre-apprenticeship program approved by the Technical College System of Georgia that
+
+possesses an approved plan containing all terms and conditions for the qualification,
+
+recruitment, selection, employment, and training of pre-apprentices, including matters
+
+such as the requirement for a written pre-apprenticeship agreement."
+
+'Employer sponsor' means an employer that coordinates with or is an
+
+'Registered apprenticeship program' or 'apprenticeship program' means an
+
+SECTION 13.
+
+Said title is further amended in said article by revising Code Section 20-4-151, relating to
+
+purpose, employer or apprenticeship sponsorships, required information, contracts, awards,
+
+and limitations, as follows:
+
+"20-4-151.
+
+(a) Subject to appropriations of funds by the General Assembly for this purpose, the board,
+
+in coordination with the Department of Labor, the Department of Economic Development,
+
+the Department of Education, Office of Education and Workforce Strategy and the Office
+
+of Planning and Budget, shall establish and administer a program through the Office of
+
+Workforce Development Technical College System of Georgia to be called the High
+
+Demand Apprenticeship Program Top State for Talent Pre-Apprenticeship and
+
+Apprenticeship Program.
+
+Pre-Apprenticeship and Apprenticeship Program is to incentivize pre-apprenticeship and
+
+apprenticeship sponsors to establish new or grow existing registered pre-apprenticeship and
+
+apprenticeship programs in Georgia in order to support the growth of pre-apprenticeship
+
+or apprenticeship programs and expand high-quality work based learning experiences in
+
+high-demand fields and careers for persons in Georgia to increase program utilization.
+
+(b) An employer sponsor or pre-apprenticeship or apprenticeship sponsor may apply to the
+
+board for the opportunity to enter into a contract to perform the requirements of conducting
+
+an a pre-apprenticeship or apprenticeship program for a specific apprentice. Such contract
+
+shall require the employer sponsor's apprentice, pre-apprenticeship, or apprenticeship
+
+sponsor's apprentice to successfully complete an a pre-apprenticeship or apprenticeship
+
+program.
+
+(c) The board shall provide upon request and on the Technical College System of
+
+Georgia's public website information about the High Demand Top State for Talent
+
+Pre-Apprenticeship and Apprenticeship Program, the application, application instructions,
+
+and the application period established each year for contracts for services available under
+
+such program.
+
+(d) Upon successful completion of the requirements of a contract under this article, the
+
+board shall provide a contract completion award to the employer sponsor or
+
+pre-apprenticeship or apprenticeship sponsor. The contract completion award amount shall
+
+The purpose of the High Demand Top State for Talent
+
+be determined based on the number of hours of education and training required for the
+
+successful completion of the pre-apprenticeship or apprenticeship under such
+
+pre-apprenticeship or apprenticeship program but shall not exceed:
+
+(1) Ten thousand dollars per apprentice for contracts entered into before July 1, 2024;
+
+and
+
+(2) Five thousand dollars per apprentice for contracts entered into on or after July 1,
+
+2024.
+
+(e) Each employer sponsor or pre-apprenticeship or apprenticeship sponsor shall only be
+
+eligible to enter into contracts under this article for up to:
+
+(1) Five pre-apprentices or apprentices per year through the end of Fiscal Year 2024; and
+
+(2) Ten pre-apprentices or apprentices per year beginning with Fiscal Year 2025 and
+
+continuing each fiscal year thereafter.
+
+(f) An A pre-apprenticeship or apprenticeship sponsor may assist with the application for
+
+and completion of an a pre-apprenticeship or apprenticeship contract authorized by this
+
+article.
+
+(g)
+
+Development Technical College System of Georgia shall be authorized to:
+
+(1) Provide initial funding for up to $2,500.00 per apprentice of the amount provided for
+
+in paragraph (2) of subsection (d) of this Code section; and
+
+(2) Provide funding to award employer sponsors or apprenticeship sponsors up to
+
+$2,500.00 per apprentice 12 months after the start of his or her pre-apprenticeship or
+
+apprenticeship."
+
+Beginning July 1, 2024, and continuing thereafter, the Office of Workforce
+
+SECTION 14.
+
+Said title is further amended in said article by revising Code Section 20-4-152, relating to
+
+utilization of the High-demand Career List, as follows:
+
+"20-4-152.
+
+The board and the Office of Workforce Development shall utilize the High-demand
+
+High-Demand Career List as provided for in Code Section 34-14-3 for purposes of the
+
+High Demand Top State for Talent Pre-Apprenticeship and Apprenticeship Program."
+
+SECTION 15.
+
+Said title is further amended in said article by revising Code Section 20-4-153, relating to
+
+annual reporting and cooperation from apprenticeship sponsor, as follows:
+
+"20-4-153.
+
+(a) The Office of Workforce Development Technical College System of Georgia shall
+
+annually report on its website the following information:
+
+(1) The total amount of compensation awarded under this article;
+
+(2) The amount of compensation awarded in each field of high-demand careers identified
+
+by the State Workforce Development Board pursuant to Code Section 34-14-3;
+
+(3) The total number of contracts entered into and the number of contracts completed;
+
+(4) The total number of contracts entered per eligible occupation and the number of those
+
+completed;
+
+(5) The total amount awarded overall with respect to each eligible occupation;
+
+(6) The total number of pre-apprentices or apprentices who attended an institution of the
+
+Technical College System of Georgia during the course of his or her pre-apprenticeship
+
+or apprenticeship program; and
+
+(7) The total number of apprentices who did not attend an institution of the Technical
+
+College System of Georgia during the course of his or her pre-apprenticeship or
+
+apprenticeship program.
+
+(b) Each pre-apprenticeship and apprenticeship sponsor shall fully cooperate in providing
+
+statistical information requested by the board or, at the board's discretion, be excluded from
+
+participating in the High Demand Top State for Talent Pre-Apprenticeship and
+
+Apprenticeship Program."
+
+SECTION 16.
+
+Said title is further amended in said article by revising Code Section 20-4-154, relating to
+
+rules and regulations, as follows:
+
+"20-4-154.
+
+The board shall adopt rules and regulations deemed necessary for the implementation and
+
+administration of this article, which shall include, but shall not be limited to, rules and
+
+regulations for:
+
+(1) Establishing a staff review and application approval process;
+
+(2) Establishing an amount of funding that will place priority on the availability of
+
+awards for the pre-apprenticeship program established by this article;
+
+(2)(3) Application scoring criteria that shall include provisions that give priority to
+
+pre-apprenticeship or apprenticeship programs that hire and train apprentices who are:
+
+(A) Between 15 and 21 years of age Fifteen years of age or older in any public school
+
+work based learning program; or
+
+(B) Enrolled in an adult education program and engaged in obtaining a high school
+
+diploma;
+
+(3)(4) The minimum score necessary for approval of a contract; and
+
+(4)(5) The terms of agreement between an employer sponsor or pre-apprenticeship or
+
+apprenticeship sponsor and the board."
+
+SECTION 17.
+
+Said title is further amended in said article by revising Code Section 20-4-156, relating to
+
+repealer, as follows:
+
+"20-4-156.
+
+This article shall stand repealed and reserved on July 1, 2027 2031."
+
+SECTION 18.
+
+Said title is further amended in Article 8 of said chapter, relating to the public service
+
+apprenticeship program, by revising Code Section 20-4-160, relating to definitions, as
+
+follows:
+
+"20-4-160.
+
+As used in this article, the term:
+
+(1) 'Apprentice' means an individual at least 15 years of age, except where a higher
+
+minimum age standard is otherwise set by law, who is employed to learn an occupation
+
+in a registered apprenticeship program. a person who is at least 15 years of age, except
+
+where a higher minimum age is required by law, who is employed in an eligible
+
+apprenticeable occupation, and is registered in Georgia with the United States
+
+Department of Labor Office of Apprenticeship.
+
+(2) 'Apprenticeable occupation' means an occupation approved for apprenticeship by the
+
+United States Department of Labor Office of Apprenticeship.
+
+(3) 'Apprenticeship program' means a program registered with the United States
+
+Department of Labor Office of Apprenticeship that includes terms and conditions for the
+
+qualification, recruitment, selection, employment, and training of apprentices, including
+
+the requirement for a written apprenticeship agreement.
+
+(4)(3) 'Apprenticeship sponsor' means:
+
+(A) Any entity operating an apprenticeship program; or
+
+(B) Any entity in whose name an apprenticeship program is being operated that is
+
+registered with or approved by the United States Department of Labor Office of
+
+Apprenticeship.
+
+(5)(4) 'Board' means the State Board of the Technical College System of Georgia.
+
+(6)(5) 'Eligible apprenticeable occupation' means an apprenticeable occupation identified
+
+by the State Workforce Development Board pursuant to Code Section 34-14-3 as a
+
+high-demand career Office of Workforce Development pursuant to Code Section
+
+20-4-152 as a high-demand job.
+
+(7) 'Office of Workforce Development' means the Technical College System of Georgia's
+
+Office of Workforce Development.
+
+(8)(6) 'Public service sponsor' means a state or local government entity that coordinates
+
+with or is an apprenticeship sponsor and employs and trains an apprentice.
+
+(7) ‘Pre-apprentice' means an individual at least 15 years of age, except where a higher
+
+minimum age standard is otherwise set by law, who is employed to learn an occupation
+
+in a registered pre-apprenticeship program, who is enrolled in a public school work based
+
+learning program, and who is pursuing a technical college certificate from a unit of the
+
+Technical College System of Georgia that is aligned with a registered apprenticeship
+
+program.
+
+(8)
+
+apprenticeship program registered in accordance with 29 C.F.R. Sections 29 and 30 that
+
+possesses an approved plan containing all terms and conditions for the qualification,
+
+recruitment, selection, employment, and training of apprentices, as required under federal
+
+law, including matters such as the requirement for a written apprenticeship agreement.
+
+(9) 'Registered pre-apprenticeship program' or 'pre-apprenticeship program' means a
+
+pre-apprenticeship program approved by the Technical College System of Georgia that
+
+possesses an approved plan containing all terms and conditions for the qualification,
+
+recruitment, selection, employment, and training of pre-apprentices, including matters
+
+such as the requirement for a written pre-apprenticeship agreement."
+
+'Registered apprenticeship program' or 'apprenticeship program' means an
+
+SECTION 19.
+Said title is further amended in said chapter by adding a new article to read as follows:
+
+"ARTICLE 10
+
+20-4-200.
+
+As used in this article, the term:
+
+(1) 'Apprentice' means an individual at least 15 years of age, except where a higher
+
+minimum age standard is otherwise set by law, who is employed to learn an occupation
+
+in a registered apprenticeship program.
+
+(2) 'Apprenticeship agreement' means a written agreement between an apprentice and
+
+either the apprentice's program sponsor or an apprenticeship committee acting as an agent
+
+for the program sponsor, which contains the terms and conditions of the employment and
+
+training of the apprentice and which complies with the provisions of 29 C.F.R.
+
+Section 29.7.
+
+(3) 'Board' means the State Workforce Development Board.
+
+(4) 'Commissioner' means the commissioner of the Technical College System of
+
+Georgia.
+
+(5) 'Pre-apprentice' means an individual at least 15 years of age, except where a higher
+
+minimum age standard is otherwise set by law, who is employed to learn an occupation
+
+in a registered pre-apprenticeship program, who is enrolled in a public school work based
+
+learning program, and who is pursuing a technical college certificate from a unit of the
+
+Technical College System of Georgia that is aligned with a registered apprenticeship
+
+program.
+
+(6)
+
+apprenticeship program registered in accordance with 29 C.F.R. Sections 29 and 30 that
+
+possesses an approved plan containing all terms and conditions for the qualification,
+
+recruitment, selection, employment, and training of apprentices, as required under federal
+
+law, including matters such as the requirement for a written apprenticeship agreement.
+
+'Registered apprenticeship program' or 'apprenticeship program' means an
+
+(7) 'Registered pre-apprenticeship program' or 'pre-apprenticeship program' means a
+
+pre-apprenticeship program approved by the Technical College System of Georgia that
+
+possesses an approved plan containing all terms and conditions for the qualification,
+
+recruitment, selection, employment, and training of pre-apprentices, including matters
+
+such as the requirement for a written pre-apprenticeship agreement.
+
+(8) 'Secretary' means the United States Secretary of Labor.
+
+(9) 'Sponsor' means any employer, employer association, labor organization, joint
+
+labor-management organization, or other entity that operates or seeks to operate a
+
+registered apprenticeship program.
+
+(10) 'State apprenticeship agency' or 'registration agency' means a state apprenticeship
+
+agency recognized by the United States Department of Labor and responsible for carrying
+
+out the duties and powers of such agency pursuant to 29 C.F.R. Section 29.13 within this
+
+state.
+
+20-4-201.
+
+(a)
+
+apprenticeship agency for the state.
+
+(b) The Technical College System of Georgia shall be responsible for carrying out all
+
+duties and responsibilities of a registration agency as provided under Part 29 of Subtitle A
+
+of Title 29 of the Code of Federal Regulations, subject to approval and ongoing oversight
+
+by the United States Department of Labor.
+
+(c) The commissioner shall submit to the Secretary and the administrator of the United
+
+States Department of Labor's Office of Apprenticeship, in accordance with 29 C.F.R.
+
+Section 29.13, an application to recognize the Technical College System of Georgia as a
+
+state apprenticeship agency.
+
+(d) Upon approval by the Secretary, the Technical College System of Georgia shall have
+
+the authority within the state to:
+
+The Technical College System of Georgia is hereby designated as the state
+
+(1) Advance the establishment and growth of registered apprenticeship programs and
+
+foster enrollment in apprenticeship programs by providing technical and compliance
+
+assistance to sponsors, apprentices, employers, and apprenticeship programs;
+
+(2) Register, oversee, and, when necessary, deregister registered apprenticeship programs
+
+and related apprenticeship agreements;
+
+(3) Issue recognized certificates of registration and completion;
+
+(4) Serve as the primary state level point of contact with the United States Department
+
+of Labor's Office of Apprenticeship;
+
+(5) Develop and maintain a state policy of reciprocity with other states to ensure
+
+registration of apprenticeship programs;
+
+(6) Ensure compliance with federal and state apprenticeship standards; and
+
+(7) Perform such other functions as required of a registration agency under federal law.
+
+20-4-202.
+
+Consistent with Part 29 of Subtitle A of Title 29 of the Code of Federal Regulations, the
+
+Technical College System of Georgia as a state apprenticeship agency shall have the power
+
+and duty to:
+
+(1) Adopt, promulgate, and enforce rules and regulations necessary to implement this
+
+article;
+
+(2)
+
+completion, suspension, and deregistration;
+
+(3)
+
+compliance investigations;
+
+(4) Receive, investigate, and resolve complaints relating to registered apprenticeship
+
+programs;
+
+(5) Collect and report data required by the United States Department of Labor and the
+
+General Assembly;
+
+Establish apprenticeship standards governing program registration, operation,
+Conduct program reviews, quality assurance assessments, monitoring, and
+
+(6) Ensure that the registration of apprenticeship programs occurs only in occupations
+
+provided in 29 C.F.R. Section 29.4, and in coordination with the state's High-Demand
+
+Career List as provided in Code Section 34-14-3;
+
+(7) Develop a nationally recognized state apprenticeship completion credential, as
+
+described in 29 C.F.R. Section 29.5, for completing an apprenticeship program registered
+
+with the Technical College System of Georgia;
+
+(8) Provide technical assistance and guidance to current and prospective program
+
+sponsors; and
+
+(9) Coordinate apprenticeship activities with the board and local workforce development
+
+areas as provided in Code Section 34-14-2, technical colleges, the Department of Labor,
+
+the Department of Education, sponsors, registered apprenticeship programs, and other
+
+relevant partners.
+
+20-4-203.
+
+The board shall serve as an adviser to the Technical College System of Georgia on matters
+
+related to registered apprenticeship programs, without limiting or superseding the authority
+
+of the Technical College System of Georgia as the registration agency.
+
+20-4-204.
+
+(a) This article shall be administered in a manner fully consistent with Part 29 of
+
+Subtitle A of Title 29 of the Code of Federal Regulations and any other applicable federal
+
+law or regulation governing registered apprenticeship.
+
+(b) In the event of a conflict between this article and federal law or regulation, federal law
+
+or regulation shall control to the extent of such conflict.
+
+20-4-205.
+
+(a) Upon recognition of the Technical College System of Georgia by the United States
+
+Department of Labor as the state apprenticeship agency, all registered apprenticeship
+
+programs operating in Georgia shall be reported to the Technical College System of
+
+Georgia in accordance with a transition plan submitted by the commissioner and approved
+
+by the Secretary.
+
+(b) The state apprenticeship agency shall ensure continuity of registration and minimize
+
+disruption to sponsors and apprentices during the transition."
+
+SECTION 20.
+
+Said title is further amended in Chapter 14, relating to education accountability, by repealing
+
+and reserving Article 1, relating to Alliance of Education Agency Heads.
+
+SECTION 21.
+
+Said title is further amended in Part 1 of Article 2 of said chapter by revising Code Section
+
+20-14-20, relating to definitions relative to education accountability assessment programs,
+
+as follows:
+
+"20-14-20.
+
+As used in this article, the term:
+
+(1) 'Alliance' means the Alliance of Education Agency Heads created in Article 1 of this
+
+chapter.
+
+(2)(1) 'Board of regents' means the Board of Regents of the University System of
+
+Georgia.
+
+(3)(2) 'Director' means the director of the Office of Student Achievement Education and
+
+Workforce Strategy or, alternatively, the executive director of the Office of Education
+
+and Workforce Strategy if the individual selected to serve as director is designated with
+
+the title of executive director by the Governor.
+
+(4)(3) 'Early intervention program' means the program established under Code Section
+
+20-2-153.
+
+(5)(4) 'Office' means the Office of Student Achievement Education and Workforce
+
+Strategy."
+
+SECTION 22.
+
+Said title is further amended in Part 2 of said article, relating to the Office of Student
+
+Achievement, by revising Code Section 20-14-25, relating to creation, director, authority,
+
+seal, and administrative assignment, as follows:
+
+"20-14-25.
+
+(a) There is created Effective July 1, 2026, the Office of Student Achievement shall be
+
+reconstituted as the Office of Education and Workforce Strategy and shall retain all duties,
+
+responsibilities, functions, powers, and authority conferred upon the Office of Student
+
+Achievement as provided by law in effect on June 30, 2026.
+
+(b) The chief administrative and executive officer of the office shall be the director, who
+
+shall be appointed by the Governor with the advice and consent of the Senate. As directed
+
+by the Governor, the director shall coordinate the efforts of all state agencies and relevant
+
+entities engaged in activities related to education, student achievement, talent development,
+
+and workforce preparedness throughout the state. Subject to the general policy established
+
+by the Alliance of Education Agency Heads, the The director shall be responsible for the
+
+performance and exercise of the duties, responsibilities, functions, powers, and authority
+
+imposed conferred upon the director and the office as provided by law. The director shall
+
+receive a salary to be determined by the Governor.
+
+(c) The director shall have the authority to employ all personnel of the office, subject to
+
+the provisions of this part and all applicable provisions of other laws governing public
+
+employment.
+
+(d) The office may adopt a seal for its use and shall be authorized to enter into contracts
+
+to fulfill its duties under this article.
+
+(e) The office shall be assigned for administrative purposes only, as that term is defined
+
+in Code Section 50-4-3, to the Office of Planning and Budget."
+
+SECTION 23.
+
+Said title is further amended in said part by revising Code Section 20-14-26, relating to
+
+duties, as follows:
+
+"20-14-26.
+
+(a) The office shall have the following duties:
+
+(1)
+
+performance, rate schools and school systems, develop annual report cards for
+
+elementary, middle, and secondary schools, and formulate a system of school awards and
+
+interventions. The State Board of Education shall approve a single accountability system
+
+for local schools and school systems that incorporates federal law, rules, and regulations
+
+relating to accountability;
+
+(2) To audit and inspect or cause to be audited or inspected for the purpose of
+
+verification, research, analysis, reporting, or for other purposes related to the performance
+
+of its powers and duties as provided in this article and for the purposes of auditing
+
+pre-kindergarten, elementary, middle grades, and secondary education, postsecondary
+
+education, and education work force workforce programs and schools, local school
+
+systems, institutes, colleges, universities, regional educational service agencies, and other
+
+public education programs and entities as defined by the alliance determined by the
+
+director;
+
+(3) To serve as staff to the alliance; and To oversee the cross-agency development of a
+
+comprehensive state-wide education and workforce plan as provided in Code Section
+
+20-14-29.2;
+
+To create a single state-wide accountability system, establish indicators of
+
+(4) To exercise the powers and discharge duties of the alliance, as set forth in Code
+
+Section 20-14-8, under the supervision and oversight of the alliance. To assist the
+
+Department of Education and the Technical College System of Georgia with creating the
+
+combined Workforce Innovation and Opportunity Act Plan and Perkins State Plan as
+
+provided for in Code Sections 20-2-169 and 20-4-17; and
+
+(5) To create the navigation tool as provided in Code Section 20-14-29.3.
+
+(b) The member agencies of the alliance and other executive branch education and
+
+workforce development departments, boards, and offices of this state shall cooperate fully
+
+with the office and shall provide the office with all information that the alliance deems
+
+necessary for the office to discharge its accountability duties under this article regarding
+
+the education programs and units governed by such member agencies or other departments,
+
+boards, or offices. These agencies shall share or integrate existing agency data and
+
+technology systems to the extent permitted by state and federal law to improve alignment
+
+and coordination and reduce duplication of efforts.
+
+(c) The office shall convene and oversee regular meetings with the agencies provided for
+
+in subsection (b) of this Code section for the purpose of ensuring effective collaboration,
+
+data sharing, and alignment of duties required under this Code section."
+
+SECTION 24.
+
+Said title is further amended in said part by revising Code Section 20-14-27, relating to
+
+required reports and publication format, as follows:
+
+"20-14-27.
+
+(a) The office shall submit prepare the following reports to the alliance:
+
+(1) An annual report regarding pre-kindergarten education shall be submitted no later
+
+than December 1 of each year, commencing December 1, 2002. The pre-kindergarten
+
+report shall be an evaluation of the progress made on performance indicators identified
+
+and defined by the office and approved by the alliance for all pre-kindergarten and child
+
+care programs under the administrative control of the Department of Early Care and
+
+Learning. The pre-kindergarten report shall include information concerning results of the
+
+state's investment in each pre-kindergarten program;
+
+(2) An annual report regarding elementary and secondary education shall be submitted
+
+no later than December 1 of each year, commencing December 1, 2001. The elementary
+
+and secondary education report shall be an evaluation of the progress made on
+
+performance indicators identified and defined by the office and approved by the alliance
+
+for all elementary and secondary education programs administered by the Department of
+
+Education. The elementary and secondary education report shall include information
+
+concerning results of the state's investment in each public school and each public school
+
+system;
+
+(3) An annual report regarding postsecondary education shall be submitted no later than
+
+December 1 of each year, commencing December 1, 2002. The postsecondary education
+
+report shall be an evaluation of the progress made on performance indicators identified
+
+and defined by the office and approved by the alliance for all universities, colleges,
+
+institutes, and schools in the University System of Georgia and under the governance of
+
+the Technical College System of Georgia. The postsecondary education report shall
+
+include information concerning results of the state's investment in each university,
+
+college, institute, and school; and
+
+(4) An annual report regarding the Georgia education work force workforce shall be
+
+submitted no later than December 1 of each year, commencing December 1, 2002. The
+
+Georgia education work force workforce report shall be an evaluation of the progress
+
+made on performance indicators identified and defined by the office and approved by the
+
+alliance for the education work force workforce status under the administrative control
+
+of the Professional Standards Commission. The Georgia education work force workforce
+
+report shall contain information on the results of the state's investments in teacher
+
+preparation, educators' professional development, education leadership development,
+
+in-field teaching, geographic teacher shortages, alternative routes to teacher certification,
+
+and other general information and indicators on the quality of the education work force
+
+workforce.
+
+(b) Each report provided for in this Code section shall be published in a format that can
+
+be easily understood by parents and other members of the community who are not
+
+professional educators. Such reports shall be distributed to the Governor,; Lieutenant
+
+Governor,; the Speaker of the House of Representatives,; the chairpersons of the Higher
+
+Education committees of the Senate and House of Representatives, the House Education
+
+Committee, and the Senate Education and Youth Committee,; and members of the state
+
+education governing boards or commissions, and members of the alliance. The office shall
+
+not be required to distribute copies of such reports to the members of the General Assembly
+
+but shall notify such members of the availability of the reports in the manner which it
+
+deems to be most effective and efficient. In addition, such reports shall be posted on the
+
+website of the office."
+
+SECTION 25.
+
+Said title is further amended in said part by adding a new Code section to read as follows:
+
+"20-14-29.1.
+
+(a) The office shall develop a report detailing the alignment of policies, programs, and
+
+practices of the State Board of Education, the Department of Education, the University
+
+System of Georgia, the Technical College System of Georgia, and the Georgia Student
+
+Finance Commission that promotes and advances the objectives of serving student needs,
+
+avoiding duplication of mission, using state resources efficiently, and expanding
+
+opportunities for postsecondary credential attainment.
+
+(b) The office shall coordinate and collaborate with the Department of Education, the
+
+University System of Georgia, and the Technical College System of Georgia to create the
+
+report required by this Code section that shall include the following:
+
+(1) A list of the courses articulated from the State Board of Education to the University
+
+System of Georgia, the Technical College System of Georgia, and each private
+
+postsecondary institution that is an eligible postsecondary institution, as such term is
+
+defined in Code Section 20-3-519;
+
+(2) A list of the courses approved by the Board of Regents of the University System of
+
+Georgia and the State Board of the Technical College System of Georgia to be
+
+transferrable between institutions of the university system and units of the technical
+
+college system;
+
+(3) Of the courses listed as provided for in paragraph (2) of this subsection, identification
+
+of the university system baccalaureate degree program or programs for which each such
+
+course has been approved by the Board of Regents of the University System of Georgia
+
+to be a degree prerequisite;
+
+(4) Of the courses listed as provided for in paragraph (2) of this subsection, identification
+
+of the technical college system degree program or programs for which each such course
+
+has been approved by the State Board of the Technical College System of Georgia to be
+
+a degree prerequisite;
+
+(5) A summary of efforts undertaken by the Technical College System of Georgia in
+
+collaboration with the University System of Georgia to reduce barriers to degree
+
+completion by students who have earned course credits in the University System of
+
+Georgia, the Technical College System of Georgia, or both;
+
+(6) A list of the courses approved by each private postsecondary institution that is an
+
+eligible postsecondary institution, as such term is defined in Code Section 20-3-519, and
+
+the State Board of the Technical College System of Georgia to be transferrable between
+
+units of such private postsecondary institution and the technical college system;
+
+(7) A list of the courses approved by each private postsecondary institution that is an
+
+eligible postsecondary institution, as such term is defined in Code Section 20-3-519, and
+
+the Board of Regents of the University System of Georgia to be transferrable between
+
+units of such private postsecondary institution and the university system;
+
+(8) A summary of efforts undertaken to develop plans and procedures for reverse
+
+transfers. As used in this paragraph, the term "reverse transfer" means the process of
+
+transferring the credits a student has earned from a four-year institution to any unit of the
+
+Technical College System of Georgia from which a student has transferred so that such
+
+credits will be available to such student for purposes of his or her enrollment in or
+
+completion of programs offered by the Technical College System of Georgia;
+
+(9) A summary of the efforts undertaken on behalf of the Technical College System of
+
+Georgia, the University System of Georgia, and the State Board of Education to comply
+
+with the requirements of subsection (b) of Code Section 20-4-20;
+
+(10) A summary of efforts undertaken to align articulated, transferrable courses and
+
+degree completion to the High-Demand Career List published by the State Workforce
+
+Development Board as provided in Code Section 34-14-3, including the total number of
+
+articulation agreements aligned to such list for the State Board of Education, the
+
+University System of Georgia, and the Technical College System of Georgia;
+
+(11) The number of students enrolled in programs of study provided for in subsection (a)
+
+of Code Section 20-2-159.1 receiving articulated credit with the University System of
+
+Georgia and the Technical College System of Georgia and which credits those students
+
+receive; and
+
+(12) Of the articulation agreements listed as provided for in paragraph (1) of this
+
+subsection, identification of the number of articulated credits awarded, which institutions
+
+awarded which credits, and the local school system or public school represented by the
+
+students who earned such credits.
+
+(c) The report required by this Code section shall be included in the state-wide education
+
+and workforce plan provided for in Code Section 20-14-29.2.
+
+(d) All relevant state agencies and educational institutions included in this process shall
+
+cooperate in collecting and sharing data necessary for the preparation of the report required
+
+by this Code section, subject to applicable privacy protections, within a predetermined time
+
+frame as set by the data sharing agreement by the office."
+
+SECTION 26.
+
+Said title is further amended in said part by adding a new Code section to read as follows:
+
+"20-14-29.2.
+
+(a) As used in this Code section, the term 'participating agencies' means the Georgia
+
+Student Finance Commission, the Technical College System of Georgia, the University
+
+System of Georgia, the Department of Education, the Department of Labor, and the State
+
+Workforce Development Board.
+
+(b) The office shall develop a state-wide education and workforce plan in collaboration
+
+with the participating agencies and any other agencies necessary to support the plan's
+
+creation. The plan shall include:
+
+(1) The programs, initiatives, and activities supporting the Governor's education and
+
+workforce priorities and those outlined in this article and in the combined Workforce
+
+Innovation and Opportunity Act Plan and Perkins State Plan as provided for in Code
+
+Sections 20-2-169 and 20-4-17;
+
+(2) A report on the effectiveness of employment, wage attainment, and retention of
+
+students in programs that align with the High-Demand Career List as provided in Code
+
+Section 34-14-3 and the return on investment report as provided in Code Section 34-14-4;
+
+(3)
+
+occupational credentials that are granted, issued, funded, or governed by the state,
+
+including, but not limited to, diplomas, certificates, certifications, microcredentials,
+
+digital badges, pre-apprenticeships, apprenticeships, licenses, and degrees of all types and
+
+A comprehensive, updated collection of information on all educational and
+
+levels. Such collection of information shall also identify those credentials that are aligned
+
+to the High-Demand Career List as provided in Code Section 34-14-3; and
+
+(4) The report provided for in Code Section 20-14-91.
+
+(c) The time frame of the state-wide education and workforce plan shall coincide with the
+
+time frame required by the combined Workforce Innovation and Opportunity Act Plan and
+
+Perkins State Plan as provided for in Code Sections 20-2-169 and 20-4-17.
+
+(d) The office shall meet at least quarterly with the participating agencies and any other
+
+agencies necessary to support the state-wide education and workforce plan's creation.
+
+(e) Upon its completion, the state-wide education and workforce plan shall be presented
+
+to the State Workforce Development Board for approval. Included in such presentation
+
+shall be a report of progress made toward objectives included in the plan. Upon the plan's
+
+approval by the State Workforce Development Board, the plan shall be submitted to the
+
+Governor."
+
+SECTION 27.
+
+Said title is further amended in said part by adding a new Code section to read as follows:
+
+"20-14-29.3.
+
+(a) As used in this Code section, the term 'navigation tool' means a secure, user-friendly,
+
+online platform that connects individuals with personalized academic and training
+
+information, guidance, and resources provided by local public school systems, the
+
+Technical College System of Georgia, the University System of Georgia, the Department
+
+of Labor, the Georgia Student Finance Commission, and any other relevant entity.
+
+(b) The office shall create a navigation tool for the purpose of assisting students, parents,
+
+counselors, educators, and job seekers in identifying secondary, postsecondary, and
+
+workforce training opportunities in this state.
+
+(c) The navigation tool shall:
+
+(1) Be a comprehensive inventory of all state approved education and training assets in
+
+this state;
+
+(2) Provide clear guidance on programs of study, financial aid options, and credentialing
+
+opportunities aligned with careers, including, but not limited to, those identified on the
+
+High-Demand Career List as provided in Code Section 34-14-3;
+
+(3) Utilize existing agency data and technology systems to the extent permitted by state
+
+and federal law for the purpose of improving program coordination and reduce
+
+duplication of efforts;
+
+(4) Include annual updates and enhancements to ensure accuracy, accessibility, ease of
+
+use, and continued alignment with evolving workforce needs; and
+
+(5) Provide any other relevant guidance as needed.
+
+(d)
+
+University System of Georgia, the Department of Labor, and the Georgia Student Finance
+
+Commission shall provide the office with such data, technical assistance, program
+
+information, and promotion of user awareness as are necessary for the operation of the
+
+navigation tool and the successful implementation of this Code section. Each agency may
+
+designate a liaison to fulfill the requirements of this subsection if necessary.
+
+(e) The agencies listed in subsection (d) of this Code section shall ensure that any relevant
+
+technology systems or platforms used by the agency are compatible with, and capable of
+
+integrating with, the navigation tool."
+
+The Department of Education, the Technical College System of Georgia, the
+
+SECTION 28.
+
+Said title is further amended in said part by adding a new Code section to read as follows:
+
+"20-14-29.4.
+
+(a) As used in this Code section, the term 'board' shall mean the Education Data
+
+Governance Board.
+
+(b) There is created within the office an Education Data Governance Board for the purpose
+
+of coordinating state-wide education data governance.
+
+(c) The board shall be composed of the following agency heads, or their designees:
+
+(1) The Office of Education and Workforce Strategy;
+
+(2) The Department of Education;
+
+(3) The State Charter Schools Commission;
+
+(4) The Technical College System of Georgia;
+
+(5) The University System of Georgia;
+
+(6) The Georgia Student Finance Commission;
+
+(7) The Department of Early Care and Learning;
+
+(8) The Professional Standards Commission;
+
+(9) The Office of Planning and Budget;
+
+(10) The Department of Labor; and
+
+(11) Such other agency or entity that the board deems necessary for data collection.
+
+(d) The board shall serve as the primary interagency forum for the coordination and
+
+governance of cross-agency education and workforce data systems, including, but not
+
+limited to, the state-wide longitudinal data system, and interagency data sharing agreements
+
+and memoranda of understanding that enable the lawful sharing and appropriate use of data
+
+among such agencies. In addition, the board shall:
+
+(1) Establish shared standards, roles and responsibilities, and best practices for the
+
+collection, use, privacy, security, stewardship, and quality of education and workforce
+
+data used across agencies;
+
+(2) Develop and maintain policies and coordinated timelines for data quality standards,
+
+validation protocols, and cross-agency data collection, cleaning, sharing, and availability
+
+to ensure accurate and timely reporting for accountability, research, and policy analysis;
+
+(3) Promote alignment of data definitions, reporting standards, and interoperability
+
+across agency data systems, where appropriate;
+
+(4) Identify opportunities to reduce duplicative data collection and improve state and
+
+federal reporting efficiency;
+
+(5) Provide information and analysis to the Governor and the General Assembly on data
+
+related issues impacting education and workforce policy;
+
+(6)
+
+system-wide data systems supporting state-wide accountability;
+
+(7) Identify dependencies, sequencing, and agency-specific inputs necessary to support
+
+accurate and timely cross-agency data use and reporting;
+
+(8) Support lawful and ethical data sharing in compliance with all applicable state and
+
+federal laws, including but not limited to the federal Family Educational Rights and
+
+Privacy Act; and
+
+(9) Provide a forum for resolving cross-agency data governance issues related to data
+
+access, stewardship, and use.
+
+(e) The office shall provide necessary staffing and support for the board, including
+
+coordinating meetings and work groups related to cross-agency data systems, facilitating
+
+the development of shared data governance frameworks and documents, and supporting
+
+coordination among agencies contributing to or utilizing cross-agency data systems,
+
+including the state-wide longitudinal data system.
+
+(f) Nothing in this Code section shall be construed to:
+
+(1) Transfer statutory authority from any agency represented on the board to another
+
+agency or entity; or
+
+(2) Require the disclosure of personally identifiable information, except as otherwise
+
+permitted by law."
+
+Provide governance, coordination, and guidance related to comprehensive,
+
+SECTION 29.
+
+Said title is further amended in Part 3 of said article, relating to accountability assessment,
+
+by revising subsection (d) of Code Section 20-14-35, relating to office powers, on-site audits,
+
+reporting findings and recommendations, and authorization of other school audits, as follows:
+
+"(d) The auditors shall report to the local board of education, the local school council, and
+
+appropriate school administrators and shall report findings and recommendations
+
+concerning any necessary improvements or intervention strategies. School audit reports
+
+shall be provided to the alliance and the State Board of Education."
+
+SECTION 30.
+
+Said title is further amended in Part 4 of said article, relating to postsecondary accountability
+
+assessment program, by revising subsections (a) and (b) of Code Section 20-14-50, relating
+
+to creation, adoption of performance measures, report cards, and audit, as follows:
+
+"(a) The office shall create and the council shall adopt the rules and policies that support
+
+a postsecondary accountability assessment program that is primarily performance based.
+
+(b) The office shall develop and the council shall adopt performance measures and
+
+indicators that provide the basis for an accountability report card annually on the University
+
+System of Georgia and the Technical College System of Georgia."
+
+SECTION 31.
+
+Said title is further amended in Part 5 of said article, relating to the pre-kindergarten
+
+accountability assessment program, by revising subsection (a) of Code Section 20-14-60,
+
+relating to performance based accountability assessment program, annual accountability
+
+report card, and audits, as follows:
+
+"(a) The office, with the approval of the council, shall create and the Department of Early
+
+Care and Learning shall adopt the rules and policies that support a pre-kindergarten
+
+accountability assessment program that is primarily performance based."
+
+SECTION 32.
+
+Said title is further amended in Part 6 of said article, relating to the education work force
+
+accountability assessment program, by replacing "work force" with "workforce" each time
+
+the term appears in and by revising subsection (a) of Code Section 20-14-70, relating to
+
+creation, adoption of performance measures, report cards, and audit, as follows:
+
+"(a) The office, with the approval of the council, shall create and the Professional
+
+Standards Commission shall adopt the rules and policies that support an education work
+
+force workforce accountability assessment program that is primarily performance based."
+
+SECTION 33.
+
+Said title is further amended in Part 9 of said article, relating to the Career and Technical
+
+Education Advisory Commission, by revising paragraph (1) of subsection (b) of Code
+
+Section 20-14-91, relating to creation, membership, requirements, meetings, and
+
+reimbursement, as follows:
+
+"(b)(1) The commission shall consist of four members of the House of Representatives
+
+to be appointed by the Speaker of the House, one of whom shall be from the House
+
+Committee on Economic Development and Tourism, one of whom shall be from the
+
+House Committee on Agriculture and Consumer Affairs, one of whom shall be from the
+
+House Committee on Education, and one of whom shall be from the House Committee
+
+on Higher Education; four members of the Senate to be appointed by the President of the
+
+Senate, one of whom shall be from the Senate Economic Development and Tourism
+
+Committee, one of whom shall be from the Senate Agriculture and Consumer Affairs
+
+Committee, one of whom shall be from the Senate Education and Youth Committee, and
+
+one of whom shall be from the Senate Higher Education Committee; three members who
+
+are not members of the General Assembly to be appointed by the Governor; and three
+
+members who are not members of the General Assembly to be appointed by the State
+
+School Superintendent; the commissioner of the Technical College System of Georgia;
+
+the director; the chairperson of the State Workforce Development Board; and the
+
+chairperson of the State Board of Education."
+
+SECTION 34.
+
+Said title is further amended by replacing the term "Office of Workforce Development" with
+
+"Technical College System of Georgia" wherever the former term appears.
+
+SECTION 35.
+
+Title 34 of the Official Code of Georgia Annotated, relating to labor and industrial relations,
+
+is amended Chapter 14, relating to the State Workforce Development Board, by revising
+
+Code Section 34-14-1, relating to creation of State Workforce Development Board, federal
+
+composition requirements, meetings, promulgation of rules and regulations authorized, and
+
+administration of programs, as follows:
+
+"34-14-1.
+
+(a)(1) Pursuant to Public Law 105-220 and any subsequent amendment to such law In
+
+accordance with 29 U.S.C. Section 3111, the State Workforce Development Board is
+
+hereby created established.
+
+(2)
+
+requirements. The Lieutenant Governor and the Speaker of the House of Representatives
+
+shall each have the authority to appoint members as federal law allows. The Governor
+
+shall be responsible for selecting the remainder of the members, who shall include the
+
+following representatives of the Technical College System of Georgia and the
+
+Department of Education: the commissioner of the Technical College System of Georgia,
+
+the State School Superintendent, one member of the State Board of the Technical College
+
+System of Georgia, and one member of the State Board of Education.
+
+(3) The State Workforce Development Board's members' terms of service shall be
+
+established by the Governor and shall be at the discretion of the appointing authority.
+
+The State Workforce Development Board shall meet federal composition
+
+(4) The State Workforce Development Board shall have powers and duties as specified
+
+by the Governor and as provided for in federal law.
+
+(5) The State Workforce Development Board shall be authorized to establish, alter, or
+
+amend local workforce development areas in this state and shall be authorized to
+
+promulgate rules implementing and governing such local workforce development areas
+
+that are compliant with federal law.
+
+(6) The State Workforce Development Board shall meet quarterly or when otherwise
+
+requested by the chairperson and shall be governed by a set of bylaws which shall be
+
+voted on and approved by the State Workforce Development Board.
+
+(7) The State Workforce Development Board shall be funded by federal law.
+
+(8) The State Workforce Development Board shall be authorized to promulgate rules and
+
+regulations for purposes of implementing:
+
+(A) The the state's workforce policy that are compliant with federal law; and
+
+(B) The federal Workforce Pell Grant program, as defined by Section 83002 of
+
+P.L. 119-21, to determine whether a Pell Grant-eligible postsecondary institution that
+
+offers short-term programs in the state or enrolls students living in the state in a
+
+short-term program meets the requirements under applicable law.
+
+determination is subject to withdrawal based on criteria established by the State
+
+Workforce Development Board.
+
+Any such
+
+(9) The State Workforce Development Board shall periodically review the conditions,
+
+needs, issues, and problems related to the career and technical education program in order
+
+to collaborate with the Office of Education and Workforce Strategy to create the
+
+state-wide education and workforce plan provided for in Code Section 20-14-29.2.
+
+(10) The State Workforce Development Board shall approve the combined Workforce
+
+Innovation and Opportunity Act Plan and Perkins State Plan and any amendments thereto
+
+as provided for in Code Sections 20-2-169 and 20-4-17.
+
+(b)(1) The Technical College System of Georgia is designated as the administrator of all
+
+programs for which the state is responsible pursuant to Public Law 105-220 and any
+
+subsequent amendment to such law 29 U.S.C. Section 3111.
+
+(2) The Technical College System of Georgia shall administer such programs and their
+
+associated funds pursuant to the policies and methods of implementation which are
+
+promulgated by the State Workforce Development Board and the Governor.
+
+(3) In collaboration with the Technical College System of Georgia, the Office of
+
+Education and Workforce Strategy is designated as the agency to support the State
+
+Workforce Development Board in carrying out its responsibilities related to the
+
+High-Demand Career List as provided in Code Section 34-14-3 and the return on
+
+investment report as provided in Code Section 34-14-4.
+
+(4) The Technical College System of Georgia shall be the authorized state entity to
+
+administer the federal Workforce Pell Grant program, as defined by Section 83002 of
+
+P.L. 119-21.
+
+(c) The State Workforce Development Board shall be assigned to the Office of Education
+
+and Workforce Strategy for board operational purposes, including but not limited to staff
+
+support for fulfilling its duties. To ensure program alignment, the Technical College
+
+System of Georgia and the Department of Education shall also provide the State Workforce
+
+Development Board with the necessary resources and staff support to fulfill its duties."
+
+SECTION 36.
+
+Said title is further amended in said chapter by revising the introductory language of
+
+subsection (a) of Code Section 34-14-3, relating to the High-demand Career List, as follows:
+
+"34-14-3.
+
+(a) The State Workforce Development Board Office of Education and Workforce Strategy
+
+shall develop and approve a High-demand High-Demand Career List that shall identify
+
+those careers most critical to the state's current and future workforce needs. As directed
+
+by the Governor, the State Workforce Development Board Office of Education and
+
+Workforce Strategy shall coordinate and collaborate with the Office of Student
+
+Achievement State Workforce Development Board, the Department of Education, the
+
+Department of Labor, the Technical College System of Georgia, the University System of
+
+Georgia, and the Georgia Student Finance Commission to develop and implement a
+
+data-driven methodology to determine which careers merit inclusion on High-demand
+
+High-Demand Career List, regionally or state wide. The High-demand High-Demand
+
+Career List shall:"
+
+SECTION 37.
+
+Said title is further amended in said chapter by revising Code Section 34-14-4, relating to
+
+return of investment analysis of secondary and postsecondary programs, evaluation and
+
+reporting requirements, and cooperation, as follows:
+
+"34-14-4.
+
+(a) The State Workforce Development Board Office of Education and Workforce Strategy
+
+shall be responsible for oversight of a return on investment analysis to evaluate and report
+
+on the effectiveness of secondary and postsecondary programs aligned with the priority
+
+areas identified by the State Workforce Development Board and included on the
+
+High-demand High-Demand Career List published by the State Workforce Development
+
+Board as provided in Code Section 34-14-3.
+
+(b) As directed by the Governor, the State Workforce Development Board Office of
+
+Education and Workforce Strategy shall coordinate and collaborate with the Office of
+
+Student Achievement State Workforce Development Board, the Department of Education,
+
+the Department of Labor, the University System of Georgia, the Technical College System
+
+of Georgia, the University System of Georgia, and the Georgia Student Finance
+
+Commission to develop the return on investment methodology utilizing an analysis of data
+
+sources that include, but are not limited to, existing federal and state resources, longitudinal
+
+outcome tracking of student information, enrollment and program outcomes, and labor
+
+market analysis.
+
+(c) The evaluation and report required by this Code section shall include a comprehensive
+
+review of student participation and outcomes, program alignment with labor market needs,
+
+and recommendations for programmatic adjustments to better meet the needs of Georgia's
+
+businesses, industries, and workforce and shall address, at a minimum, the following:
+
+(1) The percentage of program graduates employed including retention rates and wage
+
+growth over time;
+
+(2) Comparison of graduates' average wages to state, national, and industry benchmarks,
+
+with wage growth assessed at two-year, five-year, and ten-year intervals post-completion
+
+postcompletion;
+
+(3) The extent to which skills, certificates, licenses, diplomas, degrees, or other
+
+credentials offered by the State Board of Education, the University System of Georgia,
+
+and the Technical College System of Georgia align with the High-demand High-Demand
+
+Career List published by the State Workforce Development Board as provided in Code
+
+Section 34-14-3;
+
+(4) The percentage of students, at both the secondary and post-secondary postsecondary
+
+levels, that are obtaining any credentials identified in paragraph (3) of this subsection;
+
+and
+
+(5)
+
+outcomes.
+
+(d) The evaluation and report required by this Code section shall be:
+
+(1) Approved by the State Workforce Development Board on or before December 1 of
+
+each even-numbered year;
+
+(2) Submitted by the State Workforce Development Board Office of Education and
+
+Workforce Strategy to the Governor; the President of the Senate; the Speaker of the
+
+House of Representatives; the respective chairs of the House Committee on Education,
+
+Transparent information to stakeholders regarding program availability and
+
+the Senate Education and Youth Committee, the House Committee on Higher Education,
+
+and the Senate Higher Education Committee; and the Office of Planning and Budget; and
+
+(3) Published on the public websites of the State Workforce Development Board, the
+
+Office of Student Achievement Office of Education and Workforce Strategy, the
+
+Department of Education, the University System of Georgia, the Technical College
+
+System of Georgia, and the Georgia Student Finance Commission on or before December
+
+of each even-numbered year.
+
+(e) All state agencies and political subdivisions of the state, including postsecondary
+
+education educational institutions and local school systems, shall cooperate in collecting
+
+and sharing all data and other pertinent information necessary for the implementation of
+
+the evaluation and preparation of the report required by this Code section, subject to
+
+applicable privacy protections, within a predetermined time frame as set by the State
+
+Workforce Development Board Office of Education and Workforce Strategy. Such
+
+agencies and political subdivisions shall use the findings of the report to recommend
+
+continuation, modification, or discontinuation of programs to better align with workforce
+
+needs.
+
+(f) The purpose of this Code section is to ensure the effective use of state resources,
+
+prepare Georgians for high-demand career pathways, and support the state's economic
+
+development by fostering a workforce aligned with employer needs."
+
+SECTION 38.
+
+Said title is further amended in said chapter by repealing Code Section 34-14-5, relating to
+
+reporting on the alignment of policies, programs, and practices of the State Board of
+
+Education, the Department of Education, the University System of Georgia, the Technical
+
+College System of Georgia, and the Georgia Student Finance Commission, requirements, and
+
+cooperation.
+
+SECTION 39.
+
+(a) Except as provided in subsection (b) of this section, this Act shall become effective on
+
+July 1, 2026.
+
+(b) Section 19 of this Act shall become effective on January 1, 2027.
+
+SECTION 40.
+All laws and parts of laws in conflict with this Act are repealed.

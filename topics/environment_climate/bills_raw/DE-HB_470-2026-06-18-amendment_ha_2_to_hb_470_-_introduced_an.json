@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act adds a definition of “utility battery energy storage system” to Chapter 10 of Title 26 of the Delaware Code. Under the definition of “utility battery energy storage system,” battery storage systems that store electricity from the electric grid and discharge the electricity at a later time are not considered generation or a generation unit for electricity when owned and operated by a public electric utility.\r\n\r\nThis Act also authorizes Delmarva Power to own and operate battery energy storage systems after appropriate review and approval by the Delaware Public Service Commission. To mitigate any cost shifts or negative impacts on ratepayers, the Act requires Delmarva Power to make best efforts to maximize all applicable value streams from any battery energy storage systems, including participating in applicable PJM markets and utilizing its battery energy storage systems to realize potential savings through distribution-level services.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 470",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 26 OF THE DELAWARE CODE RELATING TO PUBLIC UTILITIES AND BATTERY ENERGY STORAGE SYSTEMS."
+  },
+  "id": "HB 470",
+  "log": {
+    "action": {
+      "classification": [
+        "amendment-introduction"
+      ],
+      "date": "2026-06-18",
+      "description": "Amendment HA 2 to HB 470 - Introduced and Placed With Bill",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 470"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB470/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB470/logs/20260618T000000Z_amendment_ha_2_to_hb_470_introduced_and_placed_with_bill.json"
+  },
+  "timestamp": "20260618T000000Z"
+}

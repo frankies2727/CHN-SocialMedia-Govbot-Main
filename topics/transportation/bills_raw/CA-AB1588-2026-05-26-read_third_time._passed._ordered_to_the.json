@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law prohibits a person from, among other things, engaging in, aiding, or abetting a motor vehicle exhibition of speed on a highway or in an offstreet parking facility. Under existing law, a violation of this prohibition is punishable by imprisonment in a county jail for not more than 90 days, by a fine of not more than five hundred dollars ($500) , or by both that fine and imprisonment. Existing law, beginning on January 1, 2029, authorizes a court to suspend the privilege to operate a vehicle for 90 days to 6 months for a person who engages in, aids, or abets a motor vehicle exhibition of speed that occurred as part of a sideshow. For these purposes, existing law defines \"sideshow\" as an event in which 2 or more persons block or impede traffic on a highway or in an offstreet parking facility for the purpose of performing motor vehicle stunts, motor vehicle speed contests, motor vehicle exhibitions of speed, or reckless driving for spectators.\n\nThis bill would revise the definition of sideshow to include the use or operation of any motor vehicle, including, but not limited to, motorcycles or off-highway motor vehicles, as specified, to barricade, block, impede, or otherwise obstruct traffic. The bill would also provide enhanced penalties for engaging in, aiding, or abetting a motor vehicle exhibition of speed as part of a sideshow, including, as specified, increasing fines, requiring a mandatory minimum jail sentence, and making the offense punishable as a misdemeanor or felony if the offense proximately causes injury to another person. By increasing the punishment for an existing crime, the bill would create a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1588",
+    "legislative_session": "20252026",
+    "subject": [
+      "SideshowAccountabilityandCommunitySafetyAct",
+      "Vehicles"
+    ],
+    "title": "Vehicles: Sideshow Accountability and Community Safety Act."
+  },
+  "id": "AB1588",
+  "log": {
+    "action": {
+      "classification": [
+        "passage",
+        "reading-1",
+        "reading-3"
+      ],
+      "date": "2026-05-26",
+      "description": "Read third time. Passed. Ordered to the Senate. (Ayes 75. Noes 0.)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB1588"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1588/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1588/logs/20260526T000000Z.classification.passage.lower.json"
+  }
+}

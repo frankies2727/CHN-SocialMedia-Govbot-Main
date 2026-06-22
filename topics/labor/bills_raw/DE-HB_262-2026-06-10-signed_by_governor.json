@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act clarifies that paid leave for the adoption of a child may begin at one of the following times: (1) when the child is placed for adoption with the employee; (2) when the employee initiates a petition for adoption; or (3) when the adoption process is completed.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 262",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO PAID LEAVE."
+  },
+  "id": "HB 262",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-06-10",
+      "description": "Signed by Governor",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "HB 262"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB262/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB262/logs/20260610T000000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260610T000000Z"
+}

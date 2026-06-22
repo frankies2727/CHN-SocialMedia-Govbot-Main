@@ -27,6 +27,7 @@
     "CA|AB2392|2026-05-14|From committee: Do pass. (Ayes 14. Noes ",
     "CA|AB2392|2026-05-26|",
     "CA|AB2392|2026-05-26|Read third time. Passed. Ordered to the ",
+    "CA|AB2469|2026-05-27|",
     "CA|AB2545|2026-02-20|Read first time. To print.",
     "CA|AB2545|2026-03-19|From committee chair, with author's amen",
     "CA|AB2545|2026-04-14|From committee chair, with author's amen",
@@ -42,6 +43,7 @@
     "DE|HB 441|2026-06-11|Passed By House. Votes: 40 YES 1 ABSENT",
     "DE|SB 19|2026-06-18|Amendment HA 2 to SS 2 - Introduced and ",
     "DE|SB 312|2026-06-10|Reported Out of Committee (Elections & G",
+    "DE|SB 312|2026-06-17|Reported Out of Committee (Administratio",
     "FL|HB 1007|2026-02-24|1st Reading (Committee Substitute 1)",
     "FL|HB 1007|2026-02-24|Favorable with CS by State Affairs Commi",
     "FL|HB 1007|2026-02-24|Laid on Table under Rule 7.18(a)",
@@ -200,7 +202,7 @@
     "WA|SB 6231|2026-04-01|Governor signed.",
     "WY|SF0065|2025-03-01|H COW:H Did not consider for COW"
   ],
-  "last_run": "2026-06-21T10:23:35.277941+00:00",
+  "last_run": "2026-06-22T12:45:42.542843+00:00",
   "state_last_posted": {
     "WY": "2026-05-16T02:53:56.286279+00:00",
     "CO": "2026-05-16T02:53:56.286279+00:00",
@@ -212,11 +214,11 @@
     "MS": "2026-06-20T09:57:43.786401+00:00",
     "WA": "2026-06-20T09:57:43.786401+00:00",
     "GA": "2026-06-19T11:11:07.400114+00:00",
-    "CA": "2026-06-21T10:19:32.528596+00:00",
+    "CA": "2026-06-22T12:42:23.061088+00:00",
     "MO": "2026-06-19T11:11:07.400114+00:00",
     "MN": "2026-06-15T12:56:14.584301+00:00",
     "PR": "2026-06-17T11:30:05.877214+00:00",
-    "DE": "2026-06-21T10:19:32.528596+00:00",
+    "DE": "2026-06-22T12:42:23.061088+00:00",
     "TN": "2026-06-13T09:58:12.123643+00:00",
     "MA": "2026-06-14T15:50:33.642619+00:00"
   }

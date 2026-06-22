@@ -1,0 +1,46 @@
+SPONSOR: Rep. Osienski
+
+HOUSE OF REPRESENTATIVES
+153rd GENERAL ASSEMBLY
+HOUSE AMENDMENT NO. 3
+TO
+HOUSE BILL NO. 470
+
+AMEND House Bill No. 470 by deleting lines 7 and 8 in their entirety and inserting in lieu thereof the following:
+
+“energy from the grid and discharging it at a later time. U-BESS is not considered generation or a generation
+
+unit.”.
+FURTHER AMEND House Bill No. 470 by deleting lines 33 through 46 in their entirety and inserting in lieu
+thereof the following:
+
+“c. DP&L may, after appropriate review and approval of the Commission, own and operate U-BESS. The
+
+Commission’s review shall include a determination of cost-effectiveness measured by whether the U-BESS are prudent and
+
+provide net value to ratepayers. If U-BESS are approved, costs shall be distributed among the entire DP&L Delaware
+
+customer base in a manner prescribed by the Commission. To mitigate any cost shifts or negative impacts on ratepayers,
+
+DP&L shall make best efforts to maximize all applicable value streams from any U-BESS, including participating in all
+
+available PJM Interconnection markets and utilizing its U-BESS to realize potential savings, including any applicable tax
+
+credits. After approval of any U-BESS, DP&L shall submit to the Commission, on a schedule determined by the
+
+Commission, reports containing information prescribed by the Commission to determine the effectiveness of the U-BESS,
+
+including benefits and revenue generated.”.
+SYNOPSIS
+This amendment to HB 470 does the following:
+(1) Clarifies the definition of a utility battery energy storage system.
+(2) Requires any approval to include consideration of cost-effectiveness.
+(3) Removes cost recovery language more favorable to Exelon shareholders than Delmarva Power customers.
+(4) Adds language providing that cost recovery shall be in a manner approved by the Commission from the entire
+DP&L customer base.
+(5) Requires Delmarva Power to submit reports detailing cost effectiveness.
+
+HD : KL : SCD
+0131530154
+
+Released: 06/18/2026 05:50 PM

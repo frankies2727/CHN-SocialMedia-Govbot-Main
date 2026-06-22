@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law defines \"disadvantaged communities\" and requires the California Environmental Protection Agency to identify disadvantaged communities for investment opportunities from the Greenhouse Gas Reduction Fund and for other purposes.\n\nThis bill would expand the definition of \"disadvantaged communities\" by explicitly authorizing the inclusion of farmworker communities that meet certain requirements. The bill would require the agency, in consultation with the Department of Community Services and Development and the State Department of Public Health, to revise applicable screening tools and guidance documents to ensure the inclusion of farmworker communities as disadvantaged communities in all relevant program eligibility determinations and benefit calculations.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1600",
+    "legislative_session": "20252026",
+    "subject": [
+      "Disadvantagedcommunities",
+      "farmworkercommunities"
+    ],
+    "title": "Disadvantaged communities: farmworker communities."
+  },
+  "id": "AB1600",
+  "log": {
+    "action": {
+      "classification": [
+        "passage",
+        "reading-1",
+        "reading-3"
+      ],
+      "date": "2026-05-26",
+      "description": "Read third time. Passed. Ordered to the Senate. (Ayes 60. Noes 10.)",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "AB1600"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1600/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1600/logs/20260526T000000Z.classification.passage.lower.json"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the Contractors State License Law, provides for the licensure and regulation of contractors by the Contractors State License Board. Existing law prohibits contractors from performing specified acts. Existing law requires the Department of Resources Recycling and Recovery or another state agency tasked to manage contracts for wildfire debris cleanup and removal by the Office of Emergency Services to prequalify contractors to enter into contracts to perform prescribed wildfire debris cleanup and removal work in communities impacted by wildfires.\n\nNotwithstanding the prequalification requirement, this bill would prohibit a contractor from engaging in debris removal on residential property that is damaged or destroyed by a natural disaster for which an emergency or major disaster is declared, unless the contractor has one of specified license or classifications, as provided. During a declared federal or state emergency or for a declared disaster area due to a natural disaster, the bill would require any licensee authorized to perform debris removal under these provisions to have passed an approved hazardous substance certification examination and comply with hazardous waste operation and emergency response requirements, as specified.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1263",
+    "legislative_session": "20252026",
+    "subject": [
+      "Contractors",
+      "debrisremoval"
+    ],
+    "title": "Contractors: debris removal."
+  },
+  "id": "SB1263",
+  "log": {
+    "action": {
+      "date": "2026-06-09",
+      "description": "June 16 hearing postponed by committee.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB1263"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1263/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1263/logs/20260609T000000Z_june_16_hearing_postponed_by_committee.json"
+  },
+  "timestamp": "20260609T000000Z"
+}

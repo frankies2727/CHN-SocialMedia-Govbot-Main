@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act requires animal shelters that operate in this State to be licensed by the Department of Health and Social Services (Department). Licenses must be renewed annually, and the Department may charge a reasonable license and license renewal fee not to exceed the costs of administering Subchapter I of Chapter 30F of Title 16 (this subchapter). An animal shelter applying for licensure for the first time is subject to an inspection to ensure ability to comply with this subchapter. \r\n\r\nThe Department may refuse to issue or renew, or may suspend or revoke a license, if the person does any of the following:\r\n(1) In any jurisdiction that requires licensure, operates an animal shelter without a license or under a revoked or suspended license.\r\n(2) Fails to meet the requirements of this subchapter or any applicable regulation.\r\n(3) Knowingly, or with reason to know, makes a false statement of a material fact in, or falsifies, any of the following:\r\n     a. An application for a license or a license renewal.\r\n     b. Any data or document submitted to the Department.\r\n     c. Records required to be kept under this subchapter or under applicable regulation.\r\n(4) Refuses to allow representatives or agents of the Department to inspect any of the following:\r\n     a. All or any portion of the animal shelter.\r\n     b. Any documents, records, or files required to be maintained by the animal shelter.\r\n(5) Does not correct a previously identified violation. \r\n(6) Has unpaid fees or fines.\r\n(7) Has a history of noncompliance with animal welfare laws or applicable regulations.  \r\n\r\nThe Department has discretion to issue provisional licensure for an applicant seeking license renewal.\r\n\r\nAn animal shelter that fails to comply with the licensure requirement is subject to a warning or a civil penalty not to exceed $1,000 per violation. Each day that the animal shelter continues to operate without a license is another violation. \r\n\r\nThis Act moves the existing definitions section from § 3001F to § 3000F to fit the licensure requirement within the animal shelter operation subchapter. This Act also amends internal citations and word use to account for the movement of the definitions section and the addition of new definitions. This Act also makes technical corrections to conform existing law to the standards of the Delaware Legislative Drafting Manual.\r\n\r\nThis Act requires a greater-than-majority vote for passage because Article VIII, § 11 of the Delaware Constitution requires the affirmative vote of 3/5 of the members elected to each house of the General Assembly when a new tax or license fee is imposed.\r\n\r\n This Act takes effect January 1, 2027. The initial inspection requirement is not applicable to an animal shelter that has been operating in this State before January 1, 2027, so long as that animal shelter has had a satisfactory inspection under § 3008F(b) of Title 16 within the year preceding January 1, 2027.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 257",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO ANIMAL SHELTER OPERATION."
+  },
+  "id": "SB 257",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-06-18",
+      "description": "Reported Out of Committee (Health & Human Development) in House with 10 On Its Merits",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Health & Human Development"
+        }
+      ]
+    },
+    "bill_id": "SB 257"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB257/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB257/logs/20260618T000000Z_reported_out_of_committee_health_human_development_in_house_with_10_on_its_merits.json"
+  },
+  "timestamp": "20260618T000000Z"
+}

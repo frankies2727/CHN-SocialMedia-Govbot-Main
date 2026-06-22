@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Titles 20, 34, and 50 of the O.C.G.A., relating to education, labor and industrial relations, and state government, respectively, so as to provide for the reconstitution of the Office of Student Achievement as the Office of Education and Workforce Strategy; to provide for a combined Workforce Innovation and Opportunity Act Plan and Perkins State Plan; to provide for registered apprenticeship programs; to designate the Technical College System of Georgia as the state apprenticeship agency for the State of Georgia and provide for related authority and responsibilities; to provide for definitions; to provide for conforming changes; to provide a short title; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1302",
+    "legislative_session": "2025_26",
+    "subject": [
+      "EDUCATION",
+      "LABOR AND INDUSTRIAL RELATIONS",
+      "STATE GOVERNMENT"
+    ],
+    "title": "Education and Workforce Strategy Act; enact"
+  },
+  "id": "HB 1302",
+  "log": {
+    "action": {
+      "date": "2026-07-01",
+      "description": "Effective Date",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "HB 1302"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1302/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1302/logs/20260701T000000Z_effective_date.json"
+  },
+  "timestamp": "20260701T000000Z"
+}
