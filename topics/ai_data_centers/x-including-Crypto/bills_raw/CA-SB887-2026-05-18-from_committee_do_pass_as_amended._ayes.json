@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "(1) The California Environmental Quality Act (CEQA) requires a lead agency, as defined, to prepare, or cause to be prepared, and certify the completion of, an environmental impact report on a project that it proposes to carry out or approve that may have a significant effect on the environment or to adopt a negative declaration if it finds that the project will not have that effect. CEQA also requires a lead agency to prepare a mitigated negative declaration for a project that may have a significant effect on the environment if revisions in the project would avoid or mitigate that effect and there is no substantial evidence that the project, as revised, would have a significant effect on the environment.\n\nCEQA requires the Office of Land Use and Climate Innovation to prepare and propose guidelines for the implementation of CEQA by public agencies and requires the Secretary of the Natural Resources Agency to certify and adopt the guidelines. CEQA requires the guidelines to include a list of classes of projects that have been determined not to have a significant effect on the environment and that are exempt from CEQA, commonly known as categorical exemptions.\n\nThis bill would prohibit the application of categorical exemption to a project for the development and operation of a data center, as defined. By increasing the duties of a lead agency in relation to the environmental review of a data center project, this bill would impose a state-mandated local program.\n\n(2) The Jobs and Economic Improvement Through Environmental Leadership Act of 2021 authorizes the Governor, until January 1, 2032, to certify environmental leadership development projects that meet specified requirements for certain streamlining benefits related to CEQA. The act, among other things, requires a lead agency to prepare the record of proceedings for an environmental leadership development project concurrent with the administrative process and to provide a specified notice within 10 days of the Governor certifying the project. The act specifies the quantification and mitigation of impacts from emissions of greenhouse gases of certain environmental leadership projects, as provided. The act is repealed by its own terms on January 1, 2034.\n\nThis bill would authorize the Governor to certify a data center project that is certified by the lead agency to meet specified conditions as an environmental leadership development project. The bill would require the State Energy Resources Conservation and Development Commission to develop uniform statewide standards for those conditions for data centers, require regular compliance reporting by operators of data centers for those conditions, and initiate enforcement proceedings in the event of noncompliance with those conditions, as appropriate. The bill would also authorize the Governor to certify a geothermal powerplant that meets certain criteria as an environmental leadership development project. The bill would require the quantification and mitigation of impacts for emissions of greenhouse gases of a data center project in the same manner as those certain environmental leadership projects. By increasing the duties of a lead agency, the bill would impose a state-mandated local program.\n\n(3) The California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB887",
+    "legislative_session": "20252026",
+    "subject": [
+      "CaliforniaEnvironmentalQualityAct",
+      "cleanenergypowerplantprojects",
+      "datacenters",
+      "environmentalleadershipdevelopmentprojects"
+    ],
+    "title": "California Environmental Quality Act: environmental leadership development projects: data centers: clean energy powerplant projects."
+  },
+  "id": "SB887",
+  "log": {
+    "action": {
+      "classification": [
+        "amendment-passage",
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "date": "2026-05-18",
+      "description": "From committee: Do pass as amended. (Ayes 5. Noes 2.) (May 14).",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB887"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB887/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB887/logs/20260518T000000Z_from_committee_do_pass_as_amended_ayes_5_noes_2_may_14.json"
+  },
+  "timestamp": "20260518T000000Z"
+}
