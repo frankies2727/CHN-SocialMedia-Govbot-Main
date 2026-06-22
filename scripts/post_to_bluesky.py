@@ -2716,7 +2716,7 @@ def main() -> int:
     # Freshness gate: a state's newest *unposted* match can genuinely be a
     # year-old action (part-time legislatures, niche topics). Posting that as
     # news is misleading, so drop anything past the age cap. Mirrors
-    # weekly_digest.in_lookback_window.
+    # weekly_digest_bluesky.in_lookback_window.
     cutoff = datetime.now(timezone.utc).date()
 
     def _fresh(b: dict) -> bool:
