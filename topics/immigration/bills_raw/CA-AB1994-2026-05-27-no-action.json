@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, as added by Proposition 9, the Victims' Bill of Rights Act of 2008: Marsy's Law (Marsy's Law) , at the November 4, 2008, statewide general election, requires a law enforcement agency investigating a criminal act and an agency prosecuting a criminal act to, at the time of initial contact with a crime victim, during followup investigation, or as soon thereafter as deemed appropriate, provide or make available to the victim a \"Marsy Rights\" card that contains the constitutional rights of crime victims without charge or cost to the victim. Marsy's Law provides that its provisions shall not be amended by the Legislature except by a statute passed in each house by rollcall vote entered in the journal, 34 of the membership of each house concurring. Marsy's Law also provides that the Legislature may amend its provisions to expand the scope of its application, to recognize additional rights of victims of crime, or to further the rights of victims of crime by a statute passed by a majority vote of the membership of each house.\n\nExisting law requires a law enforcement agency investigating a criminal act and an agency prosecuting a criminal act to, at the time of initial contact with a crime victim, during followup investigation, or as soon thereafter as deemed appropriate by investigating officers or prosecuting attorneys, inform each victim of the rights they have under applicable law relating to the victimization and provide each victim without charge or cost a \"Victim Protections and Resources\" card. Existing law requires the Attorney General to design and make available in PDF or other imaging format this card with specified information on the card, including information about federal immigration relief available to certain victims of crime.\n\nThis bill, the Defending Immigrant Victims Act, would require a law enforcement agency investigating a criminal act and an agency prosecuting a criminal act, at the time of initial contact with a crime victim, during followup investigation, or as soon thereafter as deemed appropriate by investigating officers or prosecuting attorneys, to inform each victim, the victim's next of kin if the victim is deceased, or the victim's parent or guardian if the victim is a minor of the rights they may have under applicable law relating to immigration relief. The bill would require a law enforcement agency and a prosecuting agency to provide a victim an \"Immigrant Victims Rights and Resources\" card that would provide specified information pertaining to the victim's rights, including a statement explaining how to consult an immigration attorney to help determine eligibility for immigration relief. The bill would require the Attorney General, by January 1, 2028, to design the card and make it available in English, Spanish, and any other language in which the \"Marsy Rights\" card is currently translated, and in a PDF or other imaging format, to law enforcement agencies and agencies prosecuting crimes, as specified.\n\nBecause this bill would result in additional duties on local law enforcement and prosecuting agencies in informing victims, this bill would impose a state-mandated local program.\n\nThis bill would make a conforming change.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1994",
+    "legislative_session": "20252026",
+    "subject": [
+      "DefendingImmigrantVictimsAct"
+    ],
+    "title": "Defending Immigrant Victims Act."
+  },
+  "id": "AB1994",
+  "log": {
+    "bill_id": "AB1994"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1994/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1994/logs/20260527T174349Z.vote_event.pass.lower.json"
+  },
+  "timestamp": "20260527T174349Z.vote"
+}

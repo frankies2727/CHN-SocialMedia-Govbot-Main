@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act changes the term “child pornography” to “child sexual abuse material”. \r\n\r\nThere has been a growing national movement to ensure the correct terminology is used when identifying victims of human trafficking and sexual exploitation. Child sexual abuse material is the correct and widely accepted terminology for pornographic material depicting a child. According to the U.S. Department of Justice, child sexual abuse material is the preferred term because “it better reflects the abuse that is depicted in the images and videos and the resulting trauma to the child.” In 2016, an international working group, comprising a collection of countries and international organizations working to combat child exploitation, formally recognized ‘child sexual abuse material’ as the preferred term.\r\n\r\nThis proposed change is supported by the Office of the Child Advocate, Delaware State Police, and the Department of Justice, as well as national organizations like the National Center Against Sexual Exploitation.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 166",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 11 AND TITLE 16 OF THE DELAWARE CODE RELATING TO CHILD SEXUAL ABUSE MATERIAL."
+  },
+  "id": "HB 166",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-06-18",
+      "description": "Passed By Senate. Votes: 20 YES 1 ABSENT",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB 166"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB166/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB166/logs/20260618T000000Z.classification.passage.upper.json"
+  }
+}
