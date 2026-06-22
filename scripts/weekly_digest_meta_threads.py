@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Threads (Meta) weekly digest thread: the Threads counterpart to
-weekly_digest.py and weekly_digest_x.py.
+weekly_digest_bluesky.py and weekly_digest_x.py.
 
 A single root post + up to DIGEST_MAX_HIGHLIGHTS reply posts highlighting the
 most significant bill activity for the active topic over the past 7 days,
@@ -13,7 +13,7 @@ simplest of the three digests: root, then one self-contained reply per bill.
 
 Reuse, not duplication:
   * Significance scoring, lookback windowing, highlight selection and the
-    landscape (quiet-week) fallback all come from weekly_digest.py — the same
+    landscape (quiet-week) fallback all come from weekly_digest_bluesky.py — the same
     logic that drives the Bluesky and X digests.
   * Threads composition (500-char budgeting, the two-step publish, reply
     chaining) comes from post_to_meta_threads.py.
@@ -52,7 +52,7 @@ from post_to_meta_threads import (
     publish_post,
     threads_summary_budget,
 )
-from weekly_digest import (
+from weekly_digest_bluesky import (
     DIGEST_LANDSCAPE_CARDS,
     DIGEST_LOOKBACK_DAYS,
     DIGEST_MAX_HIGHLIGHTS,

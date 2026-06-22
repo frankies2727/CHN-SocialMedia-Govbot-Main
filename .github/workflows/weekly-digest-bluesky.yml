@@ -132,6 +132,6 @@ jobs:
             fi
             i=$(( i + 1 ))
             echo "=== Digest for topic: $topic (shard $SHARD/$NUM_SHARDS) ==="
-            BOT_TOPIC="$topic" python scripts/weekly_digest.py \
+            BOT_TOPIC="$topic" python scripts/weekly_digest_bluesky.py \
               || echo "  $topic digest failed, continuing with next topic"
           done

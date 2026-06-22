@@ -119,7 +119,7 @@ For a single topic, `scripts/post_to_bluesky.py` (and its sibling `post_to_x.py`
 8. **Posts** with a rich external link card to the official legislature page (with a state-homepage fallback when no deep link is known).
 9. **Commits** the updated dedup state and raw artifacts back to the repo.
 
-The **weekly digest** (`scripts/weekly_digest.py`) instead scores the week's actions by significance (signed → passed → vetoed → …), caps to `DIGEST_PER_STATE_CAP` bills per state to keep coverage broad, and posts a root summary plus up to `DIGEST_MAX_HIGHLIGHTS` threaded replies.
+The **weekly digest** (`scripts/weekly_digest_bluesky.py`) instead scores the week's actions by significance (signed → passed → vetoed → …), caps to `DIGEST_PER_STATE_CAP` bills per state to keep coverage broad, and posts a root summary plus up to `DIGEST_MAX_HIGHLIGHTS` threaded replies.
 
 ## Quick start
 
@@ -322,7 +322,7 @@ scripts/
   post_to_meta_threads.py      # shared Threads bot (reuses the Bluesky engine)
   post_to_instagram.py         # shared Instagram bot (renders + posts card images)
   render_bill_card.py          # Pillow renderer for the Instagram bill cards
-  weekly_digest.py             # Bluesky weekly digest builder
+  weekly_digest_bluesky.py     # Bluesky weekly digest builder
   weekly_digest_x.py           # X weekly digest builder
   weekly_digest_meta_threads.py # Threads weekly digest builder
   bill_text.py                 # full bill-text extraction from PDFs (pdftotext)

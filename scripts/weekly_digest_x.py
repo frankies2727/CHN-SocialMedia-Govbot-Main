@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-X/Twitter weekly digest thread: the X counterpart to weekly_digest.py.
+X/Twitter weekly digest thread: the X counterpart to weekly_digest_bluesky.py.
 
 A single root tweet + up to DIGEST_MAX_HIGHLIGHTS reply tweets highlighting
 the most significant bill activity for the active topic over the past 7 days,
@@ -12,7 +12,7 @@ the daily X poster (post_to_x.py) keeps links out of the main tweet.
 
 Reuse, not duplication:
   * Significance scoring, lookback windowing, highlight selection and the
-    landscape (quiet-week) fallback all come from weekly_digest.py — the same
+    landscape (quiet-week) fallback all come from weekly_digest_bluesky.py — the same
     logic that drives the Bluesky digest.
   * X composition (weighted 280-char accounting, summary budgeting, the
     tweepy client) comes from post_to_x.py.
@@ -58,7 +58,7 @@ from post_to_x import (
     x_summary_budget,
     x_weighted_len,
 )
-from weekly_digest import (
+from weekly_digest_bluesky import (
     DIGEST_LANDSCAPE_CARDS,
     DIGEST_LOOKBACK_DAYS,
     DIGEST_MAX_HIGHLIGHTS,
