@@ -98,6 +98,7 @@
     "MO|HB 1747|2026-04-09|HCS Reported Do Pass (H) - AYES: 5 NOES:",
     "MO|HB 1970|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HB 2239|2026-05-15|Referred: Emerging Issues(H)",
+    "MO|HB 3390|2026-05-15|Referred: Emerging Issues(H)",
     "MO|SB 1012|2026-04-30|SA 2 to SS#2 for SCS S offered & adopted",
     "MO|SB 1012|2026-04-30|SS for SCS S withdrawn",
     "MO|SB 1012|2026-05-06|S Third Read and Passed",
@@ -121,6 +122,7 @@
     "NJ|S2956|2026-01-13|WITHDRAWN APP P.L.2025, c.367.",
     "PR|PS0731|2026-05-28|Aprobado por el Senado en Votaci\u00f3n Final",
     "PR|PS0934|2026-01-14|Aparece en Primera Lectura del Senado",
+    "PR|PS0934|2026-06-15|Comisi\u00f3n no recomienda aprobaci\u00f3n de la ",
     "PR|PS1297|2026-05-28|Aparece en Primera Lectura del Senado",
     "WA|SB 5956|2026-02-24|ED - Majority; do pass with amendment(s)",
     "WA|SB 5956|2026-02-24|Executive action taken in the House Comm",
@@ -143,13 +145,13 @@
     "MN": "2026-06-02T12:32:48.851632+00:00",
     "CA": "2026-06-22T14:23:35.577377+00:00",
     "MS": "2026-05-30T10:31:21.713792+00:00",
-    "MO": "2026-06-19T12:42:05.147631+00:00",
+    "MO": "2026-06-23T11:55:21.211318+00:00",
     "AL": "2026-06-05T23:32:07.647880+00:00",
     "FL": "2026-06-04T11:37:54.949048+00:00",
     "NJ": "2026-05-27T03:05:58.226214+00:00",
     "IL": "2026-05-26T01:08:56.456572+00:00",
-    "PR": "2026-06-12T12:10:13.927565+00:00",
+    "PR": "2026-06-23T11:55:21.211318+00:00",
     "DE": "2026-06-22T14:23:35.577377+00:00"
   },
-  "last_run": "2026-06-22T14:28:23.771137+00:00"
+  "last_run": "2026-06-23T12:02:54.079732+00:00"
 }

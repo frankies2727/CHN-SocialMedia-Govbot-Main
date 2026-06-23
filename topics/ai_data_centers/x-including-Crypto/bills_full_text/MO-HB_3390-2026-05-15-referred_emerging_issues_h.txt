@@ -1,0 +1,269 @@
+SECOND REGULAR SESSION
+
+HOUSE BILL NO. 3390
+103RD GENERAL ASSEMBLY
+INTRODUCED BY REPRESENTATIVE CUPPS.
+7234H.01I
+
+JOSEPH ENGLER, Chief Clerk
+
+AN ACT
+To amend chapters 67, 386, 620, and 640, RSMo, by adding thereto seven new sections
+relating to the construction of data centers.
+
+Be it enacted by the General Assembly of the state of Missouri, as follows:
+
+Section A. Chapters 67, 386, 620, and 640, RSMo, are amended by adding thereto
+seven new sections, to be known as sections 67.5475, 67.5480, 67.5485, 67.5490, 386.1900,
+620.3990, and 640.640, to read as follows:
+67.5475. 1. As used in this section, the following terms mean:
+(1) "Hyperscale data center", a facility that:
+(a) Consists of one or more contiguous parcels of land including, but not limited
+to, a building, subsection, information technology, or other infrastructure, fixture, or
+personal property located on the land;
+(b) Is used to house, store, or operate equipment that receives, stores, aggregates,
+manages, processes, transforms, retrieves, researches, or transmits data, or is necessary
+for the proper operation of such equipment; and
+(c) Requires at least twenty-five megawatts of energy resources to support its
+operations;
+(2) "Real property", all lands, including improvements and fixtures thereon, and
+property of any nature appurtenant thereto, or used in connection therewith, and every
+estate, interest and right, legal or equitable, therein, including terms for years and liens
+by way of judgment, mortgage or otherwise and the indebtedness secured by such liens.
+2. On or after August 28, 2026, a hyperscale data center, shall be a prohibited
+use for all agricultural, conservation, environmental stewardship, mixed use, and
+EXPLANATION — Matter enclosed in bold-faced brackets [thus] in the above bill is not enacted and is
+intended to be omitted from the law. Matter in bold-face type in the above bill is proposed language.
+
+residential land use categories in a local government comprehensive plan and
+agricultural zoning districts within an unincorporated area.
+3. Unless a political subdivision approves a more restrictive requirement, a
+setback of at least five hundred feet between real property on which a hyperscale data
+center is located shall be maintained by the use of plants native to the state of Missouri,
+which may include an ornamental barrier that shall be the height of the tallest point of
+the hyperscale data center at the time construction of the hyperscale data center is
+completed.
+67.5480. 1. As used in this section, "hyperscale data center" has the same
+meaning as in section 67.5475.
+2. The department shall require the use of noise-control methods as part of
+hyperscale data center construction projects located adjacent to or along a highway or
+upon request of an owner of property adjacent to such a project or a political
+subdivision.
+3. All hyperscale data center construction projects shall be developed in
+conformity with federal standards for noise abatement as contained in 23 CFR 772 as
+such regulations existed on July 13, 2011. The department shall, at a minimum, comply
+with federal requirements in the following areas:
+(1) Noise abatement;
+(2) Information for local officials; and
+(3) Construction noise.
+67.5485. 1. As used in this section, the following terms mean:
+(1) "Data", information in a specific representation, usually as a sequence of
+symbols that have meaning;
+(2) "Department", the department of agriculture;
+(3) "Hyperscale data center", a facility that:
+(a) Consists of one or more contiguous parcels of land including, but not limited
+to, a building, subsection, information technology, or other infrastructure, fixture, or
+personal property located on the land;
+(b) Is used to house, store, or operate equipment that receives, stores, aggregates,
+manages, processes, transforms, retrieves, researches, or transmits data, or is necessary
+for the proper operation of such equipment; and
+(c) Requires at least twenty-five megawatts of energy resources to support its
+operations;
+(4) "Hyperscale data center property", any real property, or any tangible
+property associated with a hyperscale data center, which supports, constructs, outfits,
+
+operates, powers, cools, dehumidifies, secures, or protects a hyperscale data center and
+any related substation. The term shall include, but not be limited to:
+(a) Construction materials;
+(b) Component parts;
+(c) Machinery;
+(d) Equipment;
+(e) Computers;
+(f) Computing devices;
+(g) Information technology;
+(h) Servers; and
+(i) Installation, redundancy, and operating or enabling software, including any
+replacement, update, or new version or upgrade to or for such property, regardless of
+whether the property is a fixture or is otherwise affixed to or incorporated into the real
+property. The term also includes any energy or water resources supporting a hyperscale
+data center;
+(5) "Real property", all lands, including improvements and fixtures thereon, and
+property of any nature appurtenant thereto, or used in connection therewith, and every
+estate, interest and right, legal or equitable, therein, including terms for years and liens
+by way of judgment, mortgage or otherwise and the indebtedness secured by such liens;
+(6) "Waters of this state", has the same meaning in section 306.101, including all
+submerged lands or territorial waters that are not under the jurisdiction of this state.
+2. On or after August 28, 2026, a hyperscale data center shall not be constructed
+and operated on:
+(1) Land classified as agricultural land under section 350.010;
+(2) Land that, at the time of a proposed reclassification, siting, or construction, is
+located within ten miles of an area of agricultural, recreational, or conservation land
+use; or
+(3) Waters of this state, or any land that is located within five miles of waters of
+this state.
+3. Before the construction and operation of any hyperscale data center, in
+addition to adopting any necessary comprehensive plan amendments or land use
+changes or issuing a consumptive use permit, the governing body of a political
+subdivision shall hold a public hearing to approve the project. The public hearing for
+such approval shall be advertised in newspapers of general circulation within the
+political subdivision, and any affected political subdivision shall allow for public
+comment. Notice shall also be sent by certified mail at least thirty days before the
+hearing to each property owner located within a ten mile radius of the real property
+
+associated with the project. A true copy of the notice published shall be posted on the
+real property associated with the project.
+4. If a governing body of a political subdivision votes to approve a project for a
+hyperscale data center, the governing body of the political subdivision shall request
+approval of such project by the siting board established under section 67.5490.
+67.5490. 1. As used in this section, the following terms mean:
+(1) "Board", the siting board created under this section;
+(2) "Hyperscale data center", the same as defined in section 67.5485.
+2. There is hereby established the "Hyperscale Data Center Siting Board". The
+board shall consist of the governor, the lieutenant governor, the secretary of state, the
+state auditor, the state treasurer, and the attorney general.
+3. After August 28, 2026, upon receipt of a request by the governing body of a
+political subdivision under subsection 4 of section 67.5485, the board shall have
+published in the Missouri Register notice of the request. The board shall require the
+political subdivision seeking to construct and operate a hyperscale data center to notify,
+in writing or by email, each member of the general assembly representing the county or
+municipality in which the real property associated with the project is located when the
+notice is published.
+4. The board shall schedule and hold a hearing no later than thirty days after the
+date the notice is published in the Missouri Register and notice is provided to each
+member of the general assembly representing the county or municipality.
+5. If the board does not approve a request at a hearing held under subsection 4,
+the hyperscale data center shall not be constructed, and no appeal shall be granted.
+386.1900. In fixing rates for hyperscale data centers, as such term is defined in
+67.5475, a public utility shall not collect impact fees designed to recover capital costs for
+the construction of a new hyperscale data center from a residential customer or a
+commercial customer, unless such customer's energy use is comparable to the projected
+energy use from the hyperscale data center.
+620.3990. 1. As used in this section, the following terms mean:
+(1) "Economic incentive", unless otherwise provided by law, all programs
+administered by, or for which an applicant for the program shall seek certification,
+approval, or other action by the department of economic development; and all local
+economic development programs, grants, or financial benefits administered by a
+political subdivision or an agent thereof;
+(2) "Governmental entity", a state agency, a political subdivision, or any other
+public or private agency, person, partnership, corporation, or business entity acting on
+behalf of any public agency;
+
+(3) "Hyperscale data center", has the same meaning as in section 67.5475.
+2. A governmental entity shall not knowingly enter into an agreement or
+contract for an economic incentive with an entity to support the siting, construction,
+powering, or operation of a hyperscale data center.
+3. Before providing any economic incentive, a governmental entity shall require
+the recipient or applicant to provide the governmental entity with an affidavit signed
+under penalty of perjury attesting that the recipient or applicant is not a hyperscale
+data center.
+4. The department shall adopt rules to administer this section, including rules
+establishing the form for the affidavit required under subsection 3 of this section.
+640.640. 1. For the purposes of this section, the following terms mean:
+(1) "Applicant", any person applying for a major industrial water-user permit;
+(2) "Beneficial uses", water uses that include, but are not limited to, domestic,
+agricultural, industrial, recreational, and other legitimate beneficial uses;
+(3) "Department", the Missouri department of natural resources;
+(4) "Director", the director of the department of natural resources;
+(5) "Major industrial water user permit", a permit issued by the department
+granting the withdrawal of water from a water resource in the amount of two million
+four hundred thousand gallons per day or more;
+(6) "Person", any individual, partnership, copartnership, firm, company, public
+or private corporation, association, joint stock company, trust, estate, political
+subdivision, water district, or any agency, board, department, or bureau of the
+federal or any state government, or any other legal entity that is recognized by law as
+the subject of rights and duties;
+(7) "Water resources", any Missouri water source occurring on the surface, in
+natural or artificial channels, lakes, reservoirs, or impoundments, and in subsurface
+aquifers which are available or which may be made available.
+2. In order to protect the access, use, and enjoyment of Missouri's water
+resources, it shall be unlawful for any person to withdraw and use more than two
+million four hundred thousand gallons of water per day on average in a single month
+unless such person holds a major industrial water user permit issued by the department
+or such water is used for agricultural purposes.
+3. The director shall review each major industrial water user permit application
+and all supporting materials to ensure all the following conditions have been met prior
+to approving a major industrial water user permit application:
+(1) There are water resources available in the volumes and withdrawal rates
+requested by the applicant;
+
+(2) The volume and withdrawal rates requested by the applicant shall not exceed
+eighty percent of the capacity of the water resource;
+(3) The volume and withdrawal rates requested by the applicant shall not
+interfere with existing and projected in-state beneficial uses; and
+(4) The applicant has demonstrated that water in the amounts and rates
+requested can feasibly be withdrawn.
+4. Whenever a person applies for a major industrial water user permit or major
+industrial water user permit renewal, the department shall send a written notice to the
+county commission of the county where the water resource is located within thirty
+business days after receiving the permit application.
+5. (1) Within one hundred twenty days after the receipt of a complete
+application, the director shall determine whether the applicant complied with the
+provisions of subsection 3 of this section. The director shall, after making such
+determination, hold a thirty-day public comment period regarding the director's
+determination. Within sixty days after the comment period, the director shall approve
+or deny the permit.
+(2) To renew a valid major industrial water user permit, an applicant shall file a
+renewal application for a major industrial water user permit with the department no
+later than two hundred seventy-one days prior to the expiration of the existing permit.
+The applicant and director shall follow the same procedures and timelines as required
+for the issuance of a new major industrial water user permit under this section. The
+director may impose additional conditions to address any substantial or material change
+in factors under subsection 3 of this section or may deny a renewal application as
+necessary to comply with this section based on any such substantial or material changes
+in factors under subsection 3 of this section. If the director is in the process of reviewing
+the renewal application before the final decision is made and the existing applicant's
+major industrial water user permit expires, such applicant shall be able to operate
+under the terms of the expired permit until a final decision is made by the director on
+the renewal of such permit.
+(3) In the absence of an appeal as provided under chapter 536, the decision of the
+director shall be final.
+6. A major industrial water user permit shall be in effect for five years from the
+date of issuance. The permit holder shall annually report the water use volumes and
+withdrawal rates to the department in a manner and on timelines determined by the
+department. Such report shall be made available to the public on the department's
+website.
+
+7. The major industrial water user permit may be approved in whole or in part
+by the director.
+8. Any other major water user, as defined in section 256.400, may request the
+department to reevaluate any existing major industrial water user permit using the
+criteria under subsection 3 of this section. The department shall create a mechanism for
+a major water user to submit a request for reevaluation and shall provide the major
+water user with the director's findings within one hundred twenty days of the request
+for reevaluation. After reevaluating the permit, the director shall impose additional
+conditions necessary for the continued withdrawal if the director determines that the
+existing permit is negatively impacting the requesting major water user's beneficial use
+of his or her water resources. The director's decision to modify or to decline to modify
+the conditions in an existing permit pursuant to this subsection shall be subject to
+approval by the commission.
+9. Nothing in this section shall preclude a person from bringing any
+constitutional, statutory, or common law claim to vindicate or otherwise defend the
+person's water rights. A permit issued under this section shall not serve as a defense to
+any claim brought against a major industrial water user permit holder for the
+infringement of water rights. In addition, any person harmed by the issuance of a major
+industrial water user permit may bring an injunctive action or other appropriate action
+to enforce the provisions of this section. Suits may be brought in the county where the
+defendant's principal place of business is located or where the withdrawal of water
+occurred in violation of this section.
+10. If the attorney general receives a complaint that provisions of this section
+have been violated, or at the request of the department, the attorney general shall bring
+an injunctive action or other appropriate action in the name of the people of the state to
+enforce provisions of this section. Suit may be brought in Cole County, or in any county
+where the defendant's principal place of business is located or where the withdrawal of
+water occurred in violation of this section. Any member of the commission deemed to
+have violated any provision of this section shall forfeit their office upon such finding of a
+violation.
+11. Whenever a state of emergency is declared by the governor under section
+44.100 for all or any part of the state based on drought conditions, the department shall
+reevaluate any existing major industrial water user permit. Any reevaluation
+completed under this section shall use the criteria under subsection 3 of this section.
+After reevaluation of the permit is complete, the department shall have the authority to
+impose additional conditions or revoke the permit if necessary for the continued
+
+withdrawal of water if the director determines that the existing permit negatively
+impacts beneficial use of water resources.
+12. If any provision of subsection 3 of this section or the application thereof to
+anyone or to any circumstance is held invalid, the remainder of those sections and the
+application of such provisions to others or other circumstances shall not be affected
+thereby.
+✔
