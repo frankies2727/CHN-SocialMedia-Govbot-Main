@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "(1) Existing law, the Local Agency Public Construction Act, authorizes job order contracting, as defined, for school districts until January 1, 2027. Existing law requires job order contractors to submit a questionnaire to the school district containing specified information verified under oath, under penalty of perjury. \n\nThis bill would extend the termination date for these provisions until January 1, 2037.\n\nExisting law authorizes a school district to utilize job order contracting only if the school district has entered into a project labor agreement or agreements that will apply to all public works awarded through job order contracting and to all other public works of the school district that exceed a monetary threshold set by the school district until January 1, 2027, regardless of what contracting procedure is used to award that work.\n\nThis bill would extend the termination date for these provisions until January 1, 2037. The bill would also prohibit job order contracting by a school district if the district finds, based on criteria and methodology established by the school district, that it will increase the total cost of the project without sufficient documented justification.\n\nExisting law requires a school district to prepare an execution plan for all modernization projects that may be eligible for job order contracting. Existing law requires the school district to select from that plan a sufficient number of projects to be initiated as job order contracts during each calendar year and to determine for each selected project that job order contracting will reduce the total cost of that project, as specified.\n\nThis bill would delete the above provisions.\n\nExisting law requires school districts adopting job order contracting to, among other things, prepare an independent estimate for each individual job order developed under a job order contract. The estimate must be prepared prior to the receipt of the contractor's offer to perform work and must be compared to the contractor's proposed price to determine the reasonableness of that price before the issuance of any job order.\n\nThis bill, instead, would require that the school district's estimate be prepared prior to the receipt of the contractor's proposal. The bill would delete the requirement for the school district to compare its estimate to the contractor's proposed price, as described.\n\nExisting law also authorizes job order contracting for community college districts until January 1, 2027. Existing law requires job order contractors to submit a questionnaire to the community college district containing specified information verified under oath, under penalty of perjury.\n\nThis bill would extend the termination date for these provisions until January 1, 2037.\n\nExisting law authorizes a community college district to utilize job order contracting only if the community college district has entered into a project labor agreement or agreements that will apply to all public works awarded through job order contracting and to all other public works of the district that exceed a monetary threshold set by the district until January 1, 2027, regardless of what contracting procedure is used to award that work.\n\nThis bill would extend the termination date for these provisions until January 1, 2037.\n\nBy extending the operation of those provisions that expand the crime of perjury, this bill would impose a state-mandated local program.\n\n(2) Existing law authorizes continuing contracts for a school district to be made with an accepted vendor for work or services, or for apparatus or equipment, not to exceed 5 years, or for materials or supplies, not to exceed 3 years. \n\nThis bill would prohibit the duration of any task order procurement contract or job order contract issued pursuant to specified Public Contract Code provisions from exceeding 5 years. The bill would additionally provide that any individual task order or job order issued pursuant to those contracts shall remain valid and enforceable despite the expiration of the term of the task order procurement contract or job order contract pursuant to which the individual task order or job order was validly issued.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1809",
+    "legislative_session": "20252026",
+    "subject": [
+      "Publiccontracts",
+      "schoolandcommunitycollegedistricts"
+    ],
+    "title": "Public contracts: school and community college districts."
+  },
+  "id": "AB1809",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "reading-2"
+      ],
+      "date": "2026-06-22",
+      "description": "From committee: Be ordered to second reading pursuant to Senate Rule 28.8.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "AB1809"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1809/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1809/logs/20260622T000000Z_from_committee_be_ordered_to_second_reading_pursuant_to_senate_rule_288.json"
+  },
+  "timestamp": "20260622T000000Z"
+}

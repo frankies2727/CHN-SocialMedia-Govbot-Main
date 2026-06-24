@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Currently, if a licensed Delaware attorney pays off a mortgage in conjunction with a real-estate settlement and the lender fails to file a satisfaction piece within 60 days, the attorney may administratively satisfy that mortgage to clear the title record. Unfortunately, often other types of liens that are paid off remain unsatisfied and cloud title for the homeowner. This Act clarifies that a licensed Delaware attorney may also file an administrative satisfaction or partial release for any other type of lien that the Delaware attorney paid off.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 316",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 25 OF THE DELAWARE CODE RELATING TO THE ATTORNEY SATISFACTION OF MORTGAGES AND OTHER RECORDED LIENS PAID BY A LICENSED DELAWARE ATTORNEY."
+  },
+  "id": "SB 316",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-06-18",
+      "description": "Passed By House. Votes: 41 YES",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB 316"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB316/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB316/logs/20260618T000000Z.classification.passage.lower.json"
+  }
+}

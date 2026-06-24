@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "The Truth in E-Bike Marketing Act protects Delaware consumers from purchasing an electric moped or electric motorcycle with the belief that the device may be used in the same way as an electric bicycle, addressing a growing area of market confusion. It prohibits dealers from advertising high-powered motor vehicles using terms like \"electric bicycle\" or “e-bike” and also requires that sellers provide clear, written disclosures regarding the vehicle's legal classification, maximum power, and the necessity for registration, licensing, and insurance. The bill classifies failure to provide these disclosures as an unlawful business practice. Finally, the bill clarifies that mopeds may not be operated on public pathways, bike lanes, or sidewalks and that crashes involving electric bicycles or mopeds must be identified on the state’s crash reporting website.\r\nHouse Substitute 1 to HB 439 makes the following changes: \r\n1. Changes the term “dealer” to “commercial seller”. \r\n2. Clarifies that this Act applies to electric mopeds and electric motorcycles.\r\n3. Removes the provision requiring the DMV to approve the disclosure statement that must be provided to buyers. \r\n4. Removes the provision requiring a copy of the signed disclosure statement be provided to the DMV.  \r\n5. Places the new section of Delaware Code created in Section 3 of this Act into its own chapter.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 439",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 21 OF THE DELAWARE CODE RELATING TO THE SALE OF ELECTRIC MOPEDS AND ELECTRIC MOTORCYCLES."
+  },
+  "id": "HB 439",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-06-18",
+      "description": "Passed By House. Votes: 39 YES 1 NO 1 ABSENT",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 439"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB439/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB439/logs/20260618T000000Z.classification.passage.lower.json"
+  }
+}

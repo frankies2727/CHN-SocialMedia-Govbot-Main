@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act is a second substitute for Senate Bill No. 19. This substitute bill differs from Senate Bill No. 19 by doing the following:\r\n\r\n(1) Reorganizing the proposed \"Delaware Payment Stablecoins Act\" as Chapter 35 of Title 5, rather than Chapter 40 as originally proposed in Senate Bill No. 19.\r\n(2) Creating § 3508, which restricts non-financial public companies from issuing payment stablecoins.\r\n(3) Creating § 3518, which establishes a voluntary registration pathway for digital asset service providers rather than through the licensing process as originally proposed in Senate Bill No. 19.\r\n(4) Creating § 3556, which establishes procedures for the insolvency of a payment stablecoin issuer.\r\n(5) Creating a new definition of “control” to better align with the bill.\r\n(6) Expanding the definition of “registered public accounting firm” to include certified public accounting firms that meet the standards established by the Delaware Board of Accountancy. \r\n(7) Making appropriate technical corrections to conform to the standards of the Delaware Legislative Drafting Manual.\r\n\r\nSenate Substitute No. 2 for Senate Bill No. 19 establishes the Delaware Payment Stablecoin Act under Title 5 of the Delaware Code. It creates a licensing framework for payment stablecoin issuers and digital asset service providers operating with or on behalf of Delaware residents. The Act adopts definitions drawn from the federal Guiding and Establishing National Innovation for U.S. Stablecoins Act (GENIUS Act), Pub. L. 119-27, and from the Office of the Comptroller of the Currency's proposed rulemaking implementing that statute (Docket ID OCC-2025-0372), where those definitions do not duplicate existing Delaware law. The Act establishes reserve requirements including reserve shortfall remediation cascades, mandatory redemption timing standards, capital standards, anti-money laundering obligations, data privacy statutory floors, change-in-control notice procedures, custody safeguards, a federal-to-state charter conversion pathway, and strong preemption provisions. The State Bank Commissioner is directed to promulgate implementing regulations within specified timeframes to align Delaware's framework with evolving federal standards.\r\n\r\nThis Act requires a greater than majority vote for passage because § 1 of Article IX of the Delaware Constitution requires the affirmative vote of two-thirds of the members elected to each house of the General Assembly to enact or amend the general incorporation law.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 19",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 5 OF THE DELAWARE CODE RELATING TO STABLECOINS."
+  },
+  "id": "SB 19",
+  "log": {
+    "action": {
+      "classification": [
+        "amendment-passage"
+      ],
+      "date": "2026-06-18",
+      "description": "Amendment HA 2 to SS 2 - Passed In House by Voice Vote",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB 19"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB19/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB19/logs/20260618T000000Z_amendment_ha_2_to_ss_2_passed_in_house_by_voice_vote.json"
+  },
+  "timestamp": "20260618T000000Z"
+}

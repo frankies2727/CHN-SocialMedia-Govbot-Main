@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, until January 1, 2030, generally prohibits a person from possessing, importing, shipping, or transporting in the state, or from placing, planting, or causing to be placed or planted in any water within the state, invasive mussels, and authorizes the Director of Fish and Wildlife, or the director's designee, to engage in various enforcement activities with regard to invasive mussels. Existing law, until January 1, 2030, requires a public or private agency that operates a water supply system to cooperate with the Department of Fish and Wildlife to implement measures to avoid infestation by invasive mussels and to control or eradicate any infestation that occurs in a water supply system. Existing law requires any person, or federal, state, or local agency, district, or authority that owns or manages a reservoir, where specified activities are permitted, except as specified, to develop and implement a program designed to prevent the introduction of invasive mussel species, as provided. Existing law requires any entity that discovers invasive mussels within the state to immediately report the discovery to the department.\n\nThis bill would prohibit a public agency from prohibiting imported water deliveries for groundwater replenishment, as defined, due to invasive mussels if the importation complies with a specified invasive mussel control plan and unless there is substantial, documented evidence of a proven health and safety risk as a result of the invasive mussels.\n\nThe bill would include findings that changes proposed by this bill address a matter of statewide concern rather than a municipal affair and, therefore, apply to all cities and counties, including charter cities and charter counties.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1894",
+    "legislative_session": "20252026",
+    "subject": [
+      "Fishandwildlife",
+      "importedwater",
+      "invasivemussels"
+    ],
+    "title": "Fish and wildlife: invasive mussels: imported water."
+  },
+  "id": "AB1894",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage",
+        "reading-2"
+      ],
+      "date": "2026-06-22",
+      "description": "From committee: Be ordered to second reading pursuant to Senate Rule 28.8.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "AB1894"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1894/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1894/logs/20260622T000000Z_from_committee_be_ordered_to_second_reading_pursuant_to_senate_rule_288.json"
+  },
+  "timestamp": "20260622T000000Z"
+}

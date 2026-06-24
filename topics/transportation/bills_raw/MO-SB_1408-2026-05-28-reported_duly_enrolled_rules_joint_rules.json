@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "SB 1408 - Currently, the maximum speed limit on rural interstates and freeways of this state is seventy miles per hour.  This act increases the maximum speed limit on such roads to seventy-five miles per hour.\r\nTAYLOR MIDDLETON",
+        "note": "abstract"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1408",
+    "legislative_session": "2026",
+    "title": "SB 1408 - Currently, the maximum speed limit on rural interstates and freeways of this state is seventy miles per hour.  This act increases the maximum speed limit on such roads to seventy-five miles per hour.\r\nTAYLOR MIDDLETON"
+  },
+  "id": "SB 1408",
+  "log": {
+    "action": {
+      "date": "2026-05-28T05:00:00+00:00",
+      "description": "Reported Duly Enrolled Rules, Joint Rules, Resolutions & Ethics Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1408"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB1408/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB1408/logs/20260528T050000Z_reported_duly_enrolled_rules_joint_rules_resolutions_ethics_committee.json"
+  },
+  "timestamp": "20260528T050000Z"
+}

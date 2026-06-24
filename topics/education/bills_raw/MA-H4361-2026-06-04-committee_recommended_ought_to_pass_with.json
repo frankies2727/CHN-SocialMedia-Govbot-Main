@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H4361",
+    "legislative_session": "194th",
+    "title": "An Act relative to benefits for teachers"
+  },
+  "id": "H4361",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage-favorable"
+      ],
+      "date": "2026-06-04",
+      "description": "Committee recommended ought to pass with an amendments by striking out all after the enacting clause and inserting in place thereof the text of S3109; and by inserting before the enacting clause an emergence preamble",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "H4361"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4361/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4361/logs/20260604T000000Z_committee_recommended_ought_to_pass_with_an_amendments_by_striking_out_all_after_the_enacting_clause.json"
+  },
+  "timestamp": "20260604T000000Z"
+}

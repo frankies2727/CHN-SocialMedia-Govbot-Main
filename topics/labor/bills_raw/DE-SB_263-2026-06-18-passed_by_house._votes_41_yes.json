@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act adds minor league baseball players to the existing exemptions from state minimum wage and recordkeeping standards. After minor league players formed a union in 2022, minor league players represented by the Major League Baseball Players Association (MLBPA) signed their first collective bargaining agreement with Major League Baseball (MLB) in 2023. This exemption actualizes that existing collective bargaining agreement between the players union and MLB.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 263",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 19 OF THE DELAWARE CODE RELATING TO LABOR."
+  },
+  "id": "SB 263",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-06-18",
+      "description": "Passed By House. Votes: 41 YES",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB 263"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB263/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB263/logs/20260618T000000Z.classification.passage.lower.json"
+  }
+}
