@@ -334,7 +334,8 @@ class Topic:
     # ------------------------------------------------------------------
 
     def post_copy_system_prompt(self, max_chars: int = 240,
-                                amendatory: bool = False) -> str:
+                                amendatory: bool = False,
+                                home_state: str = "") -> str:
         """Combined prompt that produces the post's headline AND its blurb in a
         single call (see _post_copy in post_to_bluesky.py). Asking for both at
         once — with an explicit rule that the blurb must not restate the
@@ -347,6 +348,27 @@ class Topic:
             "on the specific new requirement the bill introduces, never the unchanged "
             "provisions carried over in the text. "
             if amendatory
+            else ""
+        )
+        # Bills routinely name OTHER states incidentally — recognizing another
+        # state's license, citing model legislation, comparing programs. A small
+        # model can mistake that passing mention for the bill's subject and
+        # geographically misattribute it (e.g. tagging California's stablecoin
+        # bill "…in New York" because the text recognizes New York crypto
+        # licenses). Anchor every bill to its own state so the post never frames
+        # it around a different one. The bill's own state already appears in the
+        # post header, so neither field should name it either.
+        home_state_rule = (
+            f"This is a {home_state} bill — it changes {home_state}'s own law and "
+            f"programs. Write the headline and summary about what {home_state} is "
+            f"doing. The text may mention OTHER U.S. states incidentally (for "
+            f"example, recognizing another state's license or citing another "
+            f"state's law as a model) — never present the bill as being about, "
+            f"located in, or enacted by a different state, and never put any "
+            f"other state's name in the headline. {home_state} is already shown "
+            f"in the post header, so do not put '{home_state}' in the headline "
+            f"or summary either. "
+            if home_state
             else ""
         )
         return (
@@ -380,7 +402,8 @@ class Topic:
             f"prefixes, section and chapter citations, line numbers, and a drafter's "
             f"name — ignore those and describe the substantive policy change. Do NOT "
             f"introduce facts not present in the provided text — never invent agency "
-            f"names, statute citations, dates, dollar amounts, or states. {amendatory_rule}"
+            f"names, statute citations, dates, dollar amounts, or states. "
+            f"{home_state_rule}{amendatory_rule}"
             f"No emoji, no hashtags, no surrounding quotes inside the values, no markdown, "
             f"and no text of any kind outside the single JSON object. Do not begin the "
             f"summary with 'This bill', 'The bill', or 'The Act'."

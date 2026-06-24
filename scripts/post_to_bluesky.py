@@ -1185,12 +1185,19 @@ def _post_copy(b: dict) -> dict:
         )
         amendatory_note += "\n\n"
 
+    # The bill's own state, so the prompt can anchor the copy to it and reject
+    # the incidental-other-state misattribution (e.g. a California stablecoin
+    # bill that recognizes New York crypto licenses being framed "…in New
+    # York"). Falls back to the bare code, then "" when the state is unknown.
+    state_name = STATE_FULL_NAME.get(b.get("state") or "", b.get("state") or "")
+    home_state_line = f"This is a {state_name} bill.\n" if state_name else ""
+
     # For blob bills the title is the same wall of legalese as the body, so don't
     # send it as a separate "Title:" line.
     if blob:
-        user_prompt = f"{amendatory_note}Bill text:\n{body[:char_cap]}"
+        user_prompt = f"{amendatory_note}{home_state_line}Bill text:\n{body[:char_cap]}"
     else:
-        user_prompt = f"{amendatory_note}Title: {title}\nBill text:\n{body[:char_cap]}"
+        user_prompt = f"{amendatory_note}{home_state_line}Title: {title}\nBill text:\n{body[:char_cap]}"
 
     try:
         r = requests.post(
@@ -1198,7 +1205,7 @@ def _post_copy(b: dict) -> dict:
             json={
                 "model": LLM_MODEL,
                 "messages": [
-                    {"role": "system", "content": TOPIC.post_copy_system_prompt(amendatory=amendatory)},
+                    {"role": "system", "content": TOPIC.post_copy_system_prompt(amendatory=amendatory, home_state=state_name)},
                     {"role": "user", "content": user_prompt},
                 ],
                 "stream": False,
