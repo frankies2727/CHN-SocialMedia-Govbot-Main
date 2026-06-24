@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Substitute for House Bill No. 368 is similar to the original bill in that it sets limits around the actions of law-enforcement agencies and officers, including the Department of Correction. Primarily, the bill prohibits detaining or extending the detention of any person based solely upon an immigration detainer or civil immigration warrant, with exceptions for a person who has been convicted of a violent felony, is a convicted sex offender, has 3 or more convictions for driving under the influence, or is a perpetrator of domestic violence.\r\nIt also prohibits other law-enforcement actions relating to cooperation or enforcement of civil immigration law, requires certain reports from law-enforcement agencies, and grants the Attorney General investigative and enforcement power.\r\nThis Substitute Bill is different from House Bill No. 368 in that it clarifies that law-enforcement may make limited inquiries regarding country of citizenship for purposes of complying with consular agreements, clarifies that initiating contact with federal immigration authorities is allowed only in limited circumstances set forth in this chapter, and makes technical corrections to ensure consistent terms are used throughout the chapter.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 368",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 11 OF THE DELAWARE CODE RELATING TO IMMIGRATION ENFORCEMENT AND COOPERATION."
+  },
+  "id": "HB 368",
+  "log": {
+    "action": {
+      "classification": [
+        "amendment-introduction"
+      ],
+      "date": "2026-06-04",
+      "description": "Amendment HA 1 to HS 1 - Introduced and Placed With Bill",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 368"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB368/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB368/logs/20260604T000000Z_amendment_ha_1_to_hs_1_introduced_and_placed_with_bill.json"
+  },
+  "timestamp": "20260604T000000Z"
+}

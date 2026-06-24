@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law requires the State Department of Social Services, subject to an appropriation, to provide grants to qualified nonprofit organizations through contracts, in order to provide certain immigration-related legal services to persons residing in, or formerly residing in, the state. Under existing law, those grants are aimed at obtaining certain immigration remedies and benefits, assisting with the naturalization process and an appeal arising from the process, or providing legal training and technical assistance. \n\nThis bill would establish the Immigration Legal Fellowship Project within the department for the purpose of expanding access to high-quality immigration legal services by supporting legal fellowships for qualified individuals who provide immigration legal services under the grant programs described above. The bill would require the department to award grants or enter into contracts with nonprofit entities to operate legal fellowships that include specified components, including, among other things, the recruitment, placement, coordination, and hosting of legal fellows. The bill would authorize the department to establish eligibility criteria, application requirements, and funding priorities for the program. The bill would require the department to include specified information relating to the use of funds appropriated for the purposes of the project in reports and updates provided to the Legislature regarding other immigration-related programs. The bill would provide that the implementation of these provisions is contingent on an appropriation for these purposes.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1194",
+    "legislative_session": "20252026",
+    "subject": [
+      "ImmigrationLegalFellowshipProject"
+    ],
+    "title": "Immigration Legal Fellowship Project."
+  },
+  "id": "SB1194",
+  "log": {
+    "bill_id": "SB1194"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1194/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1194/logs/20260616T070000Z.vote_event.pass.lower.json"
+  },
+  "timestamp": "20260616T070000Z.vote"
+}

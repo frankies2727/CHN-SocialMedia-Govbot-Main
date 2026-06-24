@@ -37,6 +37,7 @@
     "DE|HB 344|2026-06-11|",
     "DE|HB 344|2026-06-11|Amendment HA 1 to HB 344 - Passed In Hou",
     "DE|HB 344|2026-06-11|Passed By House. Votes: 24 YES 14 NO 1 N",
+    "DE|HB 444|2026-06-16|Reported Out of Committee (Appropriation",
     "DE|HB 444|2026-06-18|",
     "DE|HB 444|2026-06-18|Amendment HA 1 to HB 444 - Introduced an",
     "DE|HB 444|2026-06-18|Amendment HA 1 to HB 444 - Passed In Hou",
@@ -97,6 +98,7 @@
     "GA|HB 1093|2026-03-19|Act 373",
     "GA|HB 1093|2026-03-19|House Date Signed by Governor",
     "GA|HB 1093|2026-03-19|House Sent to Governor",
+    "GA|HR 43|2026-06-22|House Read and Adopted",
     "GA|SB 175|2026-03-27|House Committee Favorably Reported By Su",
     "GA|SB 175|2026-03-31|House Third Readers",
     "GA|SB 175|2026-03-31|House Third Reading Lost",
@@ -168,10 +170,10 @@
     "WA|SB 5892|2026-03-09|",
     "WA|SB 5892|2026-03-09|Passed final passage; yeas, 30; nays, 19"
   ],
-  "last_run": "2026-06-23T10:34:17.917075+00:00",
+  "last_run": "2026-06-24T10:27:14.642026+00:00",
   "state_last_posted": {
     "MO": "2026-06-17T11:35:37.227681+00:00",
-    "GA": "2026-06-01T12:33:45.913654+00:00",
+    "GA": "2026-06-24T10:24:44.602616+00:00",
     "NJ": "2026-05-19T09:05:43.656146+00:00",
     "MN": "2026-06-02T11:21:45.549047+00:00",
     "CA": "2026-06-23T10:28:03.624585+00:00",
@@ -179,7 +181,7 @@
     "AL": "2026-06-20T10:00:35.397762+00:00",
     "FL": "2026-06-17T11:35:37.227681+00:00",
     "MS": "2026-06-18T13:33:23.067061+00:00",
-    "DE": "2026-06-23T10:28:03.624585+00:00",
+    "DE": "2026-06-24T10:24:44.602616+00:00",
     "WA": "2026-06-20T10:00:35.397762+00:00",
     "MA": "2026-06-14T15:53:06.636160+00:00"
   }
