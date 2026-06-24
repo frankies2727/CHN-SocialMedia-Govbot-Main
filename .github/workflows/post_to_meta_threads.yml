@@ -74,7 +74,7 @@ jobs:
             govbot clone "$state" 2>&1 || echo "  SKIPPED $state (not supported by govbot)"
           done
 
-          govbot logs --limit 19200 > bills.jsonl
+          govbot logs --limit 69200 > bills.jsonl
           echo "bills.jsonl is $(wc -l < bills.jsonl) lines"
 
       - name: Cache Ollama model
