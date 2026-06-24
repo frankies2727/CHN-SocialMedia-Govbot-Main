@@ -467,7 +467,6 @@ def render_card(
     # ---- measure the four stacked blocks (header / hero / status / footer) so
     # they can be distributed top-to-bottom like the template's space-between --
     wordmark_font = _mono(40, semibold=True)
-    header_h = _wordmark_height(wordmark_font)
 
     eyebrow = " · ".join(p for p in (state_name, identifier) if p).upper()
     eyebrow_font = _mono(30, semibold=True)
@@ -516,9 +515,12 @@ def render_card(
         status_h = 8 + 24 + _line_h(_mono(LABEL_SIZE, semibold=True), 1.2) + 6 + _line_h(vf, 1.05) * max(sl, dl) + 24
 
     footer_font = _mono(18)
-    footer_h = _line_h(footer_font, 1.2)
+    # The footer row now carries the GOVBOT wordmark on the left (moved down from
+    # the old header) next to the caption pointer, so the row is as tall as the
+    # wordmark.
+    footer_h = max(_line_h(footer_font, 1.2), _wordmark_height(wordmark_font))
 
-    blocks = [header_h, hero_h]
+    blocks = [hero_h]
     if show_tiles:
         blocks.append(status_h)
     blocks.append(footer_h)
@@ -528,10 +530,6 @@ def render_card(
 
     # ---- draw ---------------------------------------------------------------
     y = INNER0
-
-    # Header: GOVBOT wordmark
-    _draw_wordmark(img, draw, INNER0, y, colors, spectrum, theme)
-    y += header_h + gap
 
     # Hero: eyebrow + headline (with highlighter underline on last line) + summary.
     # The topic emoji (when available) leads the eyebrow, to the left of the state.
@@ -572,22 +570,25 @@ def render_card(
         _draw_status_tile(img, draw, INNER0 + tile_w + tile_gap, ty, tile_w,
                           "DATE", date_val or "—", colors, spectrum, theme)
 
-    # Footer: @brand (left) and the caption pointer (right), pinned to the
-    # bottom of the content box.
+    # Footer: the GOVBOT wordmark (left, moved down from the old header) and the
+    # caption pointer (right), pinned to the bottom of the content box. The
+    # wordmark sets the row height; the link is vertically centered against it.
     fy = INNER0 + INNER_W - footer_h
-    handle = f"@{brand}"
-    draw.text((INNER0, fy), handle, font=footer_font, fill=theme.muted)
-    # Right side: 🔗 + "Link to the bill in the description", right-aligned.
+    _draw_wordmark(img, draw, INNER0, fy, colors, spectrum, theme)
+    # Right side: 🔗 + "Link to the bill in the description", right-aligned and
+    # vertically centered within the footer row.
     link_text = "Link to the bill in the description"
     link_w = draw.textlength(link_text, font=footer_font)
     link_emoji = _render_emoji("🔗", round(footer_font.size * 1.2))
     emoji_w = (link_emoji.width + 8) if link_emoji is not None else 0
     sx = INNER1 - link_w - emoji_w
+    link_lh = _line_h(footer_font, 1.2)
+    link_y = fy + (footer_h - link_lh) // 2
     if link_emoji is not None:
         asc, _ = footer_font.getmetrics()
-        img.paste(link_emoji, (round(sx), round(fy + asc * 0.5 - link_emoji.height / 2)),
+        img.paste(link_emoji, (round(sx), round(link_y + asc * 0.5 - link_emoji.height / 2)),
                   link_emoji)
-    draw.text((sx + emoji_w, fy), link_text, font=footer_font, fill=theme.muted)
+    draw.text((sx + emoji_w, link_y), link_text, font=footer_font, fill=theme.muted)
 
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
