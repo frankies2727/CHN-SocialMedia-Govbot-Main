@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "(1) The United States and California Constitutions guarantee all persons the right to equal protection of the laws. The California Constitution further recognizes the right of all persons to pursue and obtain safety, happiness, and privacy, guarantees an individual's reproductive freedom in their most intimate decisions, and prohibits disqualification of a person from entering or pursuing a business, profession, vocation, or employment because of, among other things, sex.\n\nThis bill would require, under all state laws, that any provision that prohibits discrimination on the basis of sex, discrimination on the basis of gender, or similar discrimination be interpreted to prohibit sex discrimination. The bill would define \"sex discrimination\" to include, among other things, discrimination based on any of specified actual or perceived characteristics or actions, including based on degree of conformity to sex or gender stereotypes.\n\nThis bill would provide that this interpretation reflects the existing protections of specified state constitutional laws, as described above. The bill would require these provisions to be liberally construed to effectuate the purposes of these constitutional protections. The bill would make related findings and declarations.\n\n(2) Existing law, the Unruh Civil Rights Act (act) , provides that all persons within the jurisdiction of this state are entitled to full and equal accommodations, advantages, facilities, privileges, or services in all business establishments regardless of their sex, race, color, religion, ancestry, national origin, disability status, medical condition, genetic information, marital status, sexual orientation, citizenship, primary language, or immigration status. That act defines \"sex\" to include, among other things, pregnancy, childbirth, or medical conditions related to pregnancy or childbirth.\n\nThis bill would further define, for purposes of the act, \"sex\" to include any characteristics set forth under the above-described definition of \"sex discrimination.\"\n\n(3) Existing law, the California Fair Employment and Housing Act (FEHA) , makes certain discriminatory employment and housing practices unlawful, and authorizes a person claiming to be aggrieved by an alleged unlawful practice to file a verified complaint with the Civil Rights Department. The FEHA defines various terms in connection with unlawful practices, including the term \"sex.\"\n\nThis bill would further define \"sex\" to include any characteristics set forth under the above-described definition of \"sex discrimination.\"",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2563",
+    "legislative_session": "20252026",
+    "subject": [
+      "Sexdiscrimination",
+      "scope"
+    ],
+    "title": "Sex discrimination: scope."
+  },
+  "id": "AB2563",
+  "log": {
+    "bill_id": "AB2563"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2563/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2563/logs/20260527T021355Z.vote_event.pass.lower.json"
+  },
+  "timestamp": "20260527T021355Z.vote"
+}

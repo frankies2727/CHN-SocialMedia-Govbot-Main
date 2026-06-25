@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law generally requires county elections officials to divide the county into precincts and designate a polling place for each precinct. As an alternative, a county elections official may conduct any election using vote centers instead of polling places. Existing law requires counties that conduct elections using vote centers to provide at least 2 ballot dropoff locations within the jurisdiction where the election is held or at least 1 ballot dropoff location for every 15,000 registered voters, whichever results in more ballot dropoff locations. Existing law requires other counties to provide at least 2 ballot dropoff locations within the jurisdiction or at least 1 ballot dropoff location for every 30,000 registered voters. Ballot dropoff locations must be open beginning at least 28 days before the election. Under existing law, a vote by mail ballot is timely cast if it is postmarked on or before election day and received in the mail by the voter's elections official no later than 7 days after election day. Existing law prohibits and makes it a misdemeanor to engage in specified electioneering activities within 100 feet of a polling place, elections official's office, satellite location, or an outdoor site at which a voter may cast or drop off a ballot.\n\nThis bill, for any regular or special election, beginning with the November 3, 2026, statewide general election, held in 2026 through 2029, inclusive, or proclaimed in 2029, would do the following: (1) require all counties to provide at least 2 ballot dropoff locations or at least 1 ballot dropoff location for every 11,250 registered voters, and require that these ballot dropoff locations be open beginning at least 30 days before the election; (2) deem vote by mail ballots timely cast if they are received by the elections official up to 10 days after election day; (3) prohibit law enforcement officers from making arrests within 200 feet of a polling place on election day, except for a crime related to disrupting the operation of the polling place or a crime against a person or property; (4) authorize a county board of supervisors to extend the prohibition on electioneering activities to up to 200 feet of the specified voting locations; (5) require law enforcement officers to notify the Secretary of State and Attorney General of a suspected, planned, or actual violation of the prohibitions on arrests or electioneering activities near polling places; (6) authorize the state and local governments to place reasonable restrictions on polling places located on their property; and (7) authorize a county elections official to extend the time for closing the polls at any polling place if the county elections official determines that voting at the polling place was disrupted as a result of a violation of the prohibitions on arrests or electioneering activities near polling places.\n\nBy increasing the duties of county elections officials, and by expanding the scope of an existing crime, this bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that with regard to certain mandates no reimbursement is required by this act for a specified reason.\n\nWith regard to any other mandates, this bill would provide that, if the Commission on State Mandates determines that the bill contains costs so mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.\n\nThis bill would declare that it is to take effect immediately as an urgency statute.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB884",
+    "legislative_session": "20252026",
+    "subject": [
+      "Electionsin2026through2029"
+    ],
+    "title": "Elections in 2026 through 2029."
+  },
+  "id": "SB884",
+  "log": {
+    "action": {
+      "date": "2026-06-22",
+      "description": "Assembly Rule 56 suspended.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "SB884"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB884/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB884/logs/20260622T000000Z_assembly_rule_56_suspended.json"
+  },
+  "timestamp": "20260622T000000Z"
+}

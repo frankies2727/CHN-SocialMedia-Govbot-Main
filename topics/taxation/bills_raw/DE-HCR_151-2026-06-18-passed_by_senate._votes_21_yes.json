@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This House Concurrent Resolution establishes a Property Tax Relief and Modernization Working Group to examine potential long-term reforms to Delaware’s property tax system following statewide reassessment efforts completed in 2024 and 2025.\r\nThe Working Group will evaluate policy approaches utilized in other states, including homestead exemptions, circuit breaker programs, property tax stabilization measures, differentiated taxation approaches, assessment caps, and other taxpayer protection mechanisms, while considering impacts on local government and school district fiscal stability.\r\nThe Working Group will examine the fiscal, legal, administrative, and economic implications of such reforms and produce recommendations and draft legislative language for consideration by the 154th General Assembly.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HCR 151",
+    "legislative_session": "153",
+    "title": "HOUSE CONCURRENT RESOLUTION ESTABLISHING A WORKING GROUP TO EXAMINE LONG-TERM PROPERTY TAX RELIEF AND MODERNIZATION STRATEGIES FOLLOWING STATEWIDE REASSESSMENT."
+  },
+  "id": "HCR 151",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-06-18",
+      "description": "Passed By Senate. Votes: 21 YES",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HCR 151"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HCR151/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HCR151/logs/20260618T000000Z.classification.passage.upper.json"
+  }
+}
