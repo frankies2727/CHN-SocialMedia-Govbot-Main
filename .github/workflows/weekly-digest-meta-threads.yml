@@ -97,6 +97,22 @@ jobs:
           path: ~/.ollama-bin
           key: ollama-bin-v1-linux-amd64
 
+      - name: Cache extracted bill text
+        # bill_text.py caches PDF-extracted text in .bill_text_cache/, keyed by
+        # a hash of the document URL — content-addressed, so entries never go
+        # stale. Persisting it across runs skips re-downloading and re-running
+        # pdftotext for bills already processed on an earlier day (bills stay in
+        # the freshness window for weeks). The run-scoped key always saves a
+        # fresh, grown cache; restore-keys pulls the most recent prior one, and
+        # the shared prefix lets every poster reuse text any other already
+        # fetched.
+        uses: actions/cache@v4
+        with:
+          path: .bill_text_cache
+          key: bill-text-cache-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            bill-text-cache-
+
       - name: Install Ollama and pull the LLM model
         run: |
           if [ -f "$HOME/.ollama-bin/usr-local.tar" ]; then
