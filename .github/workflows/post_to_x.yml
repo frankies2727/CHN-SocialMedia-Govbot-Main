@@ -76,7 +76,7 @@ jobs:
           # Per-repo log cap, standardized across all daily posters. POST_LIMIT
           # is tiny and the scripts apply their own freshness + topic filters,
           # so a larger window is just wasted dump + parse time.
-          govbot logs --limit 10200 > bills.jsonl
+          govbot logs --limit 55200 > bills.jsonl
           echo "bills.jsonl is $(wc -l < bills.jsonl) lines"
 
       - name: Cache Ollama model
