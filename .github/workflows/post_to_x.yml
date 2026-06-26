@@ -41,7 +41,7 @@ jobs:
           haskell: true
           large-packages: false
           docker-images: true
-          swap-storage: true
+          swap-storage: false  # keep swap: the LLM + full bill corpus need the RAM headroom
 
       - name: Checkout
         uses: actions/checkout@v4
@@ -123,10 +123,14 @@ jobs:
             ollama pull "$LLM_MODEL"
           fi
           ollama list
-          # Warm the model into memory now (pinned via keep_alive) so the first
-          # real summary doesn't pay the cold-load cost on the critical path.
+          # Smoke-test the model, but DON'T pin it in memory (keep_alive:0
+          # unloads it right after). Holding the 3.3GB model resident while the
+          # next step loads the full bill corpus into RAM pushed the 16GB runner
+          # over its memory limit, freezing the VM until GitHub killed the job
+          # mid-step ("runner has received a shutdown signal"). The first real
+          # summary reloads the model on demand.
           curl -fsS http://localhost:11434/api/generate \
-            -d "{\"model\":\"$LLM_MODEL\",\"prompt\":\"ok\",\"stream\":false,\"keep_alive\":\"30m\"}" \
+            -d "{\"model\":\"$LLM_MODEL\",\"prompt\":\"ok\",\"stream\":false,\"keep_alive\":\"0\"}" \
             > /dev/null 2>&1 || echo "  (warm-up failed; model will load on first summary)"
 
       - name: Post to X
