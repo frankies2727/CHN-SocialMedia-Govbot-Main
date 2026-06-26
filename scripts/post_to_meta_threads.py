@@ -36,6 +36,7 @@ from pathlib import Path
 import requests
 
 from topic import load_active_topic
+from account_ledger import AccountLedger
 from post_to_bluesky import (
     _FILENAME_UNSAFE_RE,
     _format_date,
@@ -51,6 +52,7 @@ from post_to_bluesky import (
     format_no_match_error,
     link_for,
     load_bills,
+    load_normalized_bills,
     save_full_text,
     shorten_title,
     summarize,
@@ -63,6 +65,13 @@ TOPIC = load_active_topic()
 STATE_FILE = TOPIC.threads_state_file_path()
 
 POST_LIMIT = int(os.environ.get("POST_LIMIT", "2"))
+# The Threads account now spans every topic, so the daily poster loops over all
+# topics. ACCOUNT_DAILY_LIMIT caps how many posts go to the single account per day
+# across ALL topics combined (POST_LIMIT still caps each topic's own run); once
+# the account hits this ceiling, later topics in the loop exit early.
+ACCOUNT_DAILY_LIMIT = int(os.environ.get("ACCOUNT_DAILY_LIMIT", "4"))
+# Account-level (cross-topic) ledger lives under account_state/<platform>/.
+PLATFORM = "meta-threads"
 MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "62"))
 DRY_RUN = os.environ.get("DRY_RUN") == "1"
 
@@ -337,11 +346,12 @@ def _post_forced_bill(records: list[dict]) -> int:
     b = bill_matches[0]
 
     state = load_state()
+    ledger = AccountLedger(PLATFORM)
     seen = set(state.get("posted", []))
-    if not FORCE_REPOST and b["dedup_key"] in seen:
+    if not FORCE_REPOST and b["dedup_key"] in (seen | ledger.seen):
         print(
             f"Bill {b['state']} {b['identifier']} action "
-            f"{b['action_date']!r} is already in {STATE_FILE.name}. "
+            f"{b['action_date']!r} is already posted to the {PLATFORM} account. "
             f"Pass force_repost=true to re-post."
         )
         return 0
@@ -388,6 +398,8 @@ def _post_forced_bill(records: list[dict]) -> int:
         state["state_last_posted"] = last_posted
         state["last_run"] = datetime.now(timezone.utc).isoformat()
         save_state(state)
+        ledger.record({b["dedup_key"]})
+        ledger.save()
         print(f"\nDone. State saved to {STATE_FILE.relative_to(ROOT)}.")
     else:
         print(f"\nDone. SAVE_STATE=0 — {STATE_FILE.relative_to(ROOT)} "
@@ -407,30 +419,46 @@ def main() -> int:
         return 1
 
     print(f"=== Threads GovBot running for topic: {TOPIC.name} ===")
-    records = load_bills(JSONL_PATH)
-    if not records:
-        return 0
 
     if FORCE_STATE and FORCE_BILL_ID:
+        records = load_bills(JSONL_PATH)
+        if not records:
+            return 0
         return _post_forced_bill(records)
 
+    # Normalized bills (extract_fields applied once, with _raw attached). When the
+    # workflow prebuilds BILLS_NORMALIZED, every topic in the loop loads the same
+    # array instead of re-parsing bills.jsonl + re-extracting per topic.
+    bills = load_normalized_bills()
+    if not bills:
+        return 0
+
     state = load_state()
+    # `seen` is this topic's own dedup set (persisted back to its bills_used.json).
+    # `seen_all` additionally excludes anything already posted to the account under
+    # ANY topic (cross-topic guard) — used only for filtering, never saved.
+    ledger = AccountLedger(PLATFORM)
     seen = set(state.get("posted", []))
+    seen_all = seen | ledger.seen
+
+    # Global daily cap across all topics on the single account.
+    remaining = ledger.remaining_today(ACCOUNT_DAILY_LIMIT)
+    effective_limit = min(POST_LIMIT, remaining) if SAVE_STATE else POST_LIMIT
+    if SAVE_STATE and effective_limit <= 0:
+        print(f"Account daily cap reached ({ledger.posted_today()}/{ACCOUNT_DAILY_LIMIT} "
+              f"posted today) — skipping topic '{TOPIC.name}'.")
+        return 0
 
     candidates: list[dict] = []
     # Map same_day_key -> every dedup_key we saw for it, so when we post one
     # action we can burn its same-day siblings too (mirrors post_to_x.py).
     same_day_siblings: dict[str, set[str]] = {}
-    for r in records:
-        b = extract_fields(r)
-        if not b:
-            continue
+    for b in bills:
         if not TOPIC.matches(b):
             continue
         same_day_siblings.setdefault(b["same_day_key"], set()).add(b["dedup_key"])
-        if b["dedup_key"] in seen:
+        if b["dedup_key"] in seen_all:
             continue
-        b["_raw"] = r
         candidates.append(b)
 
     cutoff = datetime.now(timezone.utc).date()
@@ -513,7 +541,7 @@ def main() -> int:
     # weighted draw fills the rest.
     groups = TOPIC.keyword_groups
     to_post: list[dict] = []
-    if groups and POST_LIMIT >= len(groups):
+    if groups and effective_limit >= len(groups):
         by_group: dict[str, list[dict]] = {g: [] for g in groups}
         for b in descriptive:
             g = TOPIC.primary_group_for(b)
@@ -530,22 +558,24 @@ def main() -> int:
             for b in weighted_draw(bucket, 1):
                 to_post.append(b)
                 picked_ids.add(b["dedup_key"])
-        if len(to_post) < POST_LIMIT:
+        if len(to_post) < effective_limit:
             rest = [b for b in descriptive if b["dedup_key"] not in picked_ids]
-            for b in weighted_draw(rest, POST_LIMIT - len(to_post)):
+            for b in weighted_draw(rest, effective_limit - len(to_post)):
                 to_post.append(b)
                 picked_ids.add(b["dedup_key"])
     else:
-        to_post = weighted_draw(descriptive, POST_LIMIT)
+        to_post = weighted_draw(descriptive, effective_limit)
 
-    if len(to_post) < POST_LIMIT:
+    if len(to_post) < effective_limit:
         picked_ids = {b["dedup_key"] for b in to_post}
         stub_pool = [b for b in stubs if b["dedup_key"] not in picked_ids]
-        to_post.extend(weighted_draw(stub_pool, POST_LIMIT - len(to_post)))
+        to_post.extend(weighted_draw(stub_pool, effective_limit - len(to_post)))
 
     distinct_states = len({b["state"] or "?" for b in to_post})
     print(f"Pool: {len(descriptive)} state(s) with descriptive bills, {len(stubs)} stub-only.")
-    print(f"Will post up to {POST_LIMIT}: posting {len(to_post)} from {distinct_states} state(s).")
+    print(f"Account has {remaining}/{ACCOUNT_DAILY_LIMIT} post(s) left today; "
+          f"will post up to {effective_limit}: posting {len(to_post)} from "
+          f"{distinct_states} state(s).")
 
     posted = 0
     for b in to_post:
@@ -564,9 +594,14 @@ def main() -> int:
         if post_thread(text, link_url=url):
             posted += 1
             if SAVE_STATE:
+                siblings = same_day_siblings.get(b["same_day_key"], ())
                 seen.add(b["dedup_key"])
-                seen.update(same_day_siblings.get(b["same_day_key"], ()))
+                seen.update(siblings)
                 last_posted[b["state"] or "?"] = now.isoformat()
+                # Mirror onto the account-wide ledger and persist immediately so
+                # the next topic in the loop sees the updated dedup set + cap.
+                ledger.record({b["dedup_key"], *siblings})
+                ledger.save()
             if SAVE_RAW:
                 try:
                     save_raw_record(b)

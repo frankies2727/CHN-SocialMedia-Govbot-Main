@@ -6,6 +6,10 @@ display_name: "Taxation"
 prompt_topic: "state and local taxation, including income, sales, property, and excise taxes, and tax credits or exemptions"
 default_emoji: "💰"
 
+# Flat accent color for the minimalist Instagram bill-card (topic tag chip,
+# headline underline, and wordmark dots).
+card_accent: "#CA8A04"
+
 keywords:
   - taxation
   - tax credit

@@ -6,6 +6,10 @@ display_name: "Transportation"
 prompt_topic: "transportation"
 default_emoji: "🚗"
 
+# Flat accent color for the minimalist Instagram bill-card (topic tag chip,
+# headline underline, and wordmark dots).
+card_accent: "#1D4ED8"
+
 keywords:
   - transportation
   - transit

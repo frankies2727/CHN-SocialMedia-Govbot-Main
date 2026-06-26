@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Instagram bill-card renderer — "Daylight" template.
+Instagram bill-card renderer — minimalist template.
 
 Instagram's Graph API has no text-only post type — every feed post needs an
 image. This module turns the same (state, bill id, headline, summary, status,
@@ -9,17 +9,18 @@ the Instagram poster has something to publish. The text is produced by the
 shared pipeline in post_to_bluesky.py exactly as for Bluesky/X/Threads; this
 file only concerns itself with laying it out as an image.
 
-The layout is the "GovBot Post" design (Direction A — Daylight): a light cream
-card sitting inside a colored frame, with the GOVBOT wordmark, a state/bill-id
-eyebrow, a serif (Newsreader) headline with a highlighter underline on its last
-line, a monospace (IBM Plex Mono) summary, side-by-side STATUS and DATE cards,
-and the GOVBOT wordmark anchored in the lower-right corner.
+The layout is intentionally simple and uncluttered (the account now spans every
+topic, so the card has to read cleanly for any of them): a flat background (no
+frame), the topic tag (emoji + topic name) pinned to the top-left, a state/bill-id
+eyebrow, a serif (Newsreader) headline with a thin accent underline, a monospace
+(IBM Plex Mono) summary, a quiet STATUS / DATE row above a hairline divider, and
+the GOVBOT wordmark anchored in the lower-right corner.
 
 Color treatment is driven by `spectrum`:
-  * spectrum=True  -> the LGBTQ+ pride rainbow is used for the frame, the
-    wordmark dots, the headline highlight, and the STATUS/DATE accent bars.
-  * spectrum=False -> the topic's single accent color (passed by the poster
-    from the topic config) is used as a two-stop gradient in those same places.
+  * spectrum=True  -> the LGBTQ+ pride rainbow is used for the headline underline
+    and the wordmark dots (the LGBTQ launch account).
+  * spectrum=False -> the topic's single flat accent color (passed by the poster
+    from the topic config) is used in those same places.
 
 Public entry point:
 
@@ -56,10 +57,8 @@ INNER_W = INNER1 - INNER0       # = 888
 # "dark" — sharing the same layout; the poster picks one per run. Each theme
 # bundles the five tones the layout needs: card body, headline/value ink, the
 # muted summary/footer tone, the tile background, and the tile label tone.
-LABEL_SIZE = 14            # STATUS/DATE tile label size
-TILE_VALUE_SIZE = 32       # STATUS/DATE tile value size
-TILE_PAD_X = 24            # STATUS/DATE tile horizontal padding
-TILE_PAD_Y = 20            # STATUS/DATE tile vertical padding
+LABEL_SIZE = 14            # STATUS/DATE label size
+TILE_VALUE_SIZE = 32       # STATUS/DATE value size
 DEFAULT_ACCENT = (37, 99, 235)  # govbot blue fallback
 
 
@@ -250,31 +249,11 @@ def _h_gradient(w: int, h: int, colors: list[tuple[int, int, int]]) -> Image.Ima
     return strip.resize((w, max(1, h)))
 
 
-def _v_gradient(w: int, h: int, colors: list[tuple[int, int, int]]) -> Image.Image:
-    """A w x h image whose color ramps vertically (top -> bottom)."""
-    h = max(1, h)
-    col = [_interp(colors, y / (h - 1) if h > 1 else 0.0) for y in range(h)]
-    strip = Image.new("RGB", (1, h))
-    strip.putdata(col)
-    return strip.resize((max(1, w), h))
-
-
-def _diagonal_gradient(size: int, colors: list[tuple[int, int, int]],
-                       angle_deg: float = 30.0) -> Image.Image:
-    """A size x size image with the color ramp running on a diagonal, so a thin
-    frame shows the first color at the top-left and the last at the bottom-right
-    (mirrors the template's 120deg frame gradient)."""
-    diag = int(size * 1.5) + 2
-    g = _h_gradient(diag, diag, colors)
-    g = g.rotate(angle_deg, resample=Image.BICUBIC, expand=False)
-    off = (diag - size) // 2
-    return g.crop((off, off, off + size, off + size))
-
-
 def _accent_colors(accent: tuple[int, int, int], spectrum: bool
                    ) -> list[tuple[int, int, int]]:
-    """The color stops used for frame/accents: the pride rainbow when spectrum,
-    otherwise a two-stop ramp built from the topic's accent."""
+    """The color stops used for the accent rule + wordmark dots: the pride
+    rainbow when spectrum, otherwise a two-stop ramp built from the topic's
+    accent."""
     return list(PRIDE) if spectrum else [accent, _lighten(accent, 0.45)]
 
 
@@ -407,38 +386,23 @@ def _draw_wordmark(img, draw, x: int, y: int, colors, spectrum: bool,
             cx = _draw_tracked(draw, cx, y, text, font, theme.ink, tracking) + tracking
 
 
-def _draw_status_tile(img, draw, x: int, y: int, w: int, label: str, value: str,
-                      colors, spectrum: bool, theme: Theme) -> int:
-    """Draw a rounded STATUS/DATE tile and return its height."""
-    pad_x, pad_y = TILE_PAD_X, TILE_PAD_Y
-    bar_h = 8
-    radius = 6
+def _draw_meta_column(draw, x: int, y: int, w: int, label: str, value: str,
+                      theme: Theme) -> None:
+    """Draw a quiet STATUS/DATE column: a small tracked uppercase label over a
+    serif value (single line, truncated to the column width). No background fill
+    or accent bar — the minimalist card keeps this row understated."""
     label_font = _mono(LABEL_SIZE, semibold=True)
     value_font = _serif(TILE_VALUE_SIZE, weight=600)
+    _draw_tracked(draw, x, y, label, label_font, theme.tile_label, tracking=3)
+    vy = y + _line_h(label_font, 1.2) + 6
+    line = _truncate(draw, _wrap(draw, value, value_font, w), value_font, 1, w)
+    draw.text((x, vy), line[0] if line else "—", font=value_font, fill=theme.ink)
 
-    text_w = w - 2 * pad_x
-    value_lines = _truncate(draw, _wrap(draw, value, value_font, text_w),
-                            value_font, max_lines=2, max_w=text_w)
-    val_lh = _line_h(value_font, 1.05)
-    label_lh = _line_h(label_font, 1.2)
 
-    tile_h = bar_h + pad_y + label_lh + 6 + val_lh * len(value_lines) + pad_y
-
-    # Tile body (rounded) then the gradient accent bar across the top.
-    draw.rounded_rectangle([x, y, x + w, y + tile_h], radius=radius, fill=theme.tile_bg)
-    bar = _h_gradient(w, bar_h, colors)
-    bar_mask = Image.new("L", (w, bar_h), 0)
-    ImageDraw.Draw(bar_mask).rounded_rectangle([0, 0, w, bar_h + radius],
-                                               radius=radius, fill=255)
-    img.paste(bar, (x, y), bar_mask)
-
-    ty = y + bar_h + pad_y
-    _draw_tracked(draw, x + pad_x, ty, label, label_font, theme.tile_label, tracking=3)
-    ty += label_lh + 6
-    for ln in value_lines:
-        draw.text((x + pad_x, ty), ln, font=value_font, fill=theme.ink)
-        ty += val_lh
-    return tile_h
+def _meta_row_height() -> int:
+    """Height of the STATUS/DATE row (label line + gap + one value line)."""
+    return _line_h(_mono(LABEL_SIZE, semibold=True), 1.2) + 6 + \
+        _line_h(_serif(TILE_VALUE_SIZE, weight=600), 1.05)
 
 
 def _draw_topic_tag(img, draw, x: int, y: int, label: str, emoji: str,
@@ -488,25 +452,21 @@ def render_card(
 ) -> Path:
     """Render a bill into a 1080x1080 PNG card and return the output Path.
 
-    The layout is the GovBot Post design; mode picks the "light" (daylight
-    cream) or "dark" theme — both share the layout and the colored frame.
+    The layout is the minimalist GovBot design; mode picks the "light" (cream)
+    or "dark" theme.
 
     bill is the dict shape produced by post_to_bluesky.extract_fields (uses
     keys: state, identifier, action_desc, action_date, title). headline and
     summary are the already-composed strings from the shared pipeline; accent is
     the topic's card color (TOPIC.card_accent) and spectrum selects the pride
-    rainbow (TOPIC.card_spectrum) over that single accent."""
+    rainbow (TOPIC.card_spectrum) over that single flat accent."""
     accent = tuple(accent)
     colors = _accent_colors(accent, spectrum)
     theme = THEMES.get(mode, THEMES["light"])
 
+    # Flat background — no frame. Minimalist by design.
     img = Image.new("RGB", (CARD, CARD), theme.bg)
-    # Colored frame: paste the diagonal gradient full-bleed, then lay the card
-    # body on top inset by FRAME so only the border shows.
-    img.paste(_diagonal_gradient(CARD, colors, angle_deg=30.0), (0, 0))
     draw = ImageDraw.Draw(img)
-    draw.rounded_rectangle([FRAME, FRAME, CARD - FRAME, CARD - FRAME],
-                           radius=2, fill=theme.bg)
 
     state = (bill.get("state") or "").upper()
     state_name = STATE_FULL_NAME.get(state, state or "Legislature")
@@ -514,17 +474,13 @@ def render_card(
     display = (headline or bill.get("title") or "").strip()
     summary = (summary or "").strip()
 
-    # ---- measure the four stacked blocks (header / hero / status / footer) so
-    # they can be distributed top-to-bottom like the template's space-between --
     wordmark_font = _mono(40, semibold=True)
-
     eyebrow = " · ".join(p for p in (state_name, identifier) if p).upper()
     eyebrow_font = _mono(30, semibold=True)
     eyebrow_h = _line_h(eyebrow_font, 1.1)
 
-    # Auto-fit the headline: keep it as large as the template's 90px when the
-    # copy is short, but step the size down so longer headlines stay within ~3
-    # lines instead of swelling the hero block and colliding with the tiles.
+    # Auto-fit the headline: as large as 90px for short copy, stepping down so
+    # longer headlines stay within ~3 lines.
     headline_font = _serif(90, weight=700)
     head_lines = _wrap(draw, display, headline_font, INNER_W)
     for size in (90, 80, 72, 64, 58):
@@ -534,64 +490,57 @@ def render_card(
             break
     head_lines = _truncate(draw, head_lines, headline_font, max_lines=4, max_w=INNER_W)
     head_lh = _line_h(headline_font, 0.98)
-    head_h = head_lh * len(head_lines)
 
     summary_font = _mono(25)
     has_summary = bool(summary and summary.lower() != display.lower())
     sum_lines = (_truncate(draw, _wrap(draw, summary, summary_font, INNER_W),
                            summary_font, max_lines=4, max_w=INNER_W) if has_summary else [])
     sum_lh = _line_h(summary_font, 1.45)
-    sum_h = sum_lh * len(sum_lines)
 
-    GAP_EYE_HEAD = 18
-    GAP_HEAD_SUM = 34
-    hero_h = eyebrow_h + GAP_EYE_HEAD + head_h + (GAP_HEAD_SUM + sum_h if has_summary else 0)
-
-    # Status / date tiles
     status_val = (bill.get("action_desc") or "").strip().rstrip(".")
     if status_val:
         status_val = status_val[0].upper() + status_val[1:]
     date_val = _format_date(bill.get("action_date", ""))
-    show_tiles = bool(status_val or date_val)
-    tile_gap = 24
-    tile_w = (INNER_W - tile_gap) // 2
-    # Measure tile height up front (height depends on the wrapped value).
-    status_h = 0
-    if show_tiles:
-        vf = _serif(TILE_VALUE_SIZE, weight=600)
-        tw = tile_w - 2 * TILE_PAD_X
-        sl = len(_truncate(draw, _wrap(draw, status_val or "—", vf, tw), vf, 2, tw))
-        dl = len(_truncate(draw, _wrap(draw, date_val or "—", vf, tw), vf, 2, tw))
-        status_h = (8 + TILE_PAD_Y + _line_h(_mono(LABEL_SIZE, semibold=True), 1.2)
-                    + 6 + _line_h(vf, 1.05) * max(sl, dl) + TILE_PAD_Y)
 
-    # The footer row carries only the GOVBOT wordmark (lower-right), so the row
-    # is as tall as the wordmark.
-    footer_h = _wordmark_height(wordmark_font)
+    GAP_EYE_HEAD = 18
+    GAP_HEAD_SUM = 34
+    GAP_TAG_HERO = 52
 
-    blocks = [hero_h]
-    if show_tiles:
-        blocks.append(status_h)
-    blocks.append(footer_h)
-    used = sum(blocks)
-    gaps = len(blocks) - 1
-    gap = max(28, (INNER_W - used) // gaps) if gaps else 0
+    # ---- bottom band: STATUS/DATE row + GOVBOT wordmark above a hairline -----
+    wm_w = _wordmark_width(draw, wordmark_font)
+    wm_h = _wordmark_height(wordmark_font)
+    meta_h = _meta_row_height()
+    band_h = max(wm_h, meta_h)
+    band_top = INNER1 - band_h
+    divider_y = band_top - 30
 
-    # ---- draw ---------------------------------------------------------------
+    # Hairline divider: a barely-there line blended between bg and ink.
+    hairline = tuple(round(theme.bg[k] + (theme.ink[k] - theme.bg[k]) * 0.16)
+                     for k in range(3))
+    draw.line([(INNER0, divider_y), (INNER1, divider_y)], fill=hairline, width=2)
+
+    # STATUS / DATE columns occupy the band to the left of the wordmark.
+    meta_area_w = INNER_W - wm_w - 48
+    status_w = round(meta_area_w * 0.56)
+    date_x = INNER0 + status_w + 24
+    date_w = INNER0 + meta_area_w - date_x
+    meta_y = band_top + (band_h - meta_h) // 2
+    _draw_meta_column(draw, INNER0, meta_y, status_w, "STATUS", status_val or "—", theme)
+    _draw_meta_column(draw, date_x, meta_y, date_w, "DATE", date_val or "—", theme)
+
+    # GOVBOT wordmark, lower-right, vertically centered in the band.
+    _draw_wordmark(img, draw, round(INNER1 - wm_w),
+                   band_top + (band_h - wm_h) // 2, colors, spectrum, theme)
+
+    # ---- top-to-bottom content: tag, eyebrow, headline, underline, summary --
     y = INNER0
-
-    # Topic tag chip (emoji + topic name) pinned to the top-left corner. The rest
-    # of the text starts below it, which also drops the whole block lower on the
-    # card for a more balanced, breathing layout.
-    GAP_TAG_HERO = 56
     if topic_label:
         _, tag_h = _draw_topic_tag(img, draw, INNER0, y, topic_label.upper(),
                                    emoji, accent, theme)
         y += tag_h + GAP_TAG_HERO
 
-    # Hero: eyebrow + headline (with highlighter underline on last line) + summary.
-    # When the topic tag carries the emoji, the eyebrow is just the state/bill id;
-    # otherwise the emoji leads the eyebrow as before.
+    # When the tag carries the emoji, the eyebrow is just state/bill id;
+    # otherwise the emoji leads the eyebrow.
     ex = INNER0
     if not topic_label:
         emoji_img = _render_emoji(emoji, round(eyebrow_font.size * 1.15))
@@ -599,20 +548,18 @@ def render_card(
             asc, _ = eyebrow_font.getmetrics()
             img.paste(emoji_img, (ex, round(y + asc * 0.5 - emoji_img.height / 2)), emoji_img)
             ex += emoji_img.width + 18
-    _draw_tracked(draw, ex, y, eyebrow, eyebrow_font, theme.ink, tracking=3)
+    _draw_tracked(draw, ex, y, eyebrow, eyebrow_font, theme.muted, tracking=3)
     y += eyebrow_h + GAP_EYE_HEAD
 
     for i, ln in enumerate(head_lines):
-        is_last = i == len(head_lines) - 1
-        if is_last and ln:
-            # Highlighter bar behind the last line's text, like the template.
-            lw = draw.textlength(ln, font=headline_font)
-            asc, _ = headline_font.getmetrics()
-            hl_h = round(head_lh * 0.24)
-            hl_y = y + round(asc * 0.74)
-            hl = _h_gradient(round(lw), hl_h, colors)
-            img.paste(hl, (INNER0, hl_y))
         draw.text((INNER0, y), ln, font=headline_font, fill=theme.ink)
+        if i == len(head_lines) - 1 and ln:
+            # Thin accent underline beneath the last line (rainbow when spectrum,
+            # otherwise the flat accent gradient).
+            lw = round(draw.textlength(ln, font=headline_font))
+            asc, _ = headline_font.getmetrics()
+            rule = _h_gradient(lw, 6, colors)
+            img.paste(rule, (INNER0, y + asc + 10))
         y += head_lh
 
     if has_summary:
@@ -620,22 +567,6 @@ def render_card(
         for ln in sum_lines:
             draw.text((INNER0, y), ln, font=summary_font, fill=theme.muted)
             y += sum_lh
-
-    # Status / date tiles, anchored above the footer but never allowed to ride
-    # up into the summary (the max() guards the long-copy edge case).
-    if show_tiles:
-        ty = max(INNER0 + INNER_W - footer_h - gap - status_h, y + 24)
-        _draw_status_tile(img, draw, INNER0, ty, tile_w, "STATUS",
-                          status_val or "—", colors, spectrum, theme)
-        _draw_status_tile(img, draw, INNER0 + tile_w + tile_gap, ty, tile_w,
-                          "DATE", date_val or "—", colors, spectrum, theme)
-
-    # Footer: the GOVBOT wordmark, pinned to the lower-right of the content box.
-    # (The "Link to the bill in the description" caption pointer was removed.)
-    fy = INNER0 + INNER_W - footer_h
-    wm_w = _wordmark_width(draw, wordmark_font)
-    wm_x = round(INNER1 - wm_w)
-    _draw_wordmark(img, draw, wm_x, fy, colors, spectrum, theme)
 
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)

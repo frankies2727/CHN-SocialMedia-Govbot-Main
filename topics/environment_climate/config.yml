@@ -8,6 +8,10 @@ display_name: "Environment & Climate"
 prompt_topic: "environmental and climate policy, including greenhouse gas emissions, clean and renewable energy, conservation, pollution, water and air quality, and environmental justice"
 default_emoji: "🌎"
 
+# Flat accent color for the minimalist Instagram bill-card (topic tag chip,
+# headline underline, and wordmark dots).
+card_accent: "#15803D"
+
 keywords:
   # Climate / emissions
   - climate change

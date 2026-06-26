@@ -6,6 +6,10 @@ display_name: "Elections & Voting Rights"
 prompt_topic: "elections and voting rights, including voter access, registration, mail-in and early voting, voter ID, redistricting, and election administration"
 default_emoji: "🗳️"
 
+# Flat accent color for the minimalist Instagram bill-card (topic tag chip,
+# headline underline, and wordmark dots).
+card_accent: "#7C3AED"
+
 keywords:
   # Voting access / methods
   - voting rights

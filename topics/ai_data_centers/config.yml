@@ -10,6 +10,10 @@ display_name: "AI, Data Centers & Crypto"
 prompt_topic: "artificial intelligence regulation, algorithmic accountability, deepfakes, automated decision-making, data center siting and energy use, and cryptocurrency / digital asset legislation"
 default_emoji: "🤖"
 
+# Flat accent color for the minimalist Instagram bill-card (topic tag chip,
+# headline underline, and wordmark dots).
+card_accent: "#6366F1"
+
 # X/Twitter state subfolder. Renamed from the default "x" to flag that this
 # topic's X feed now also tweets crypto / digital-asset bills.
 x_subdir: x-including-Crypto

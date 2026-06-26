@@ -6,6 +6,10 @@ display_name: "Criminal Justice & Policing"
 prompt_topic: "criminal justice and policing, including law enforcement, courts, sentencing, corrections, and reentry"
 default_emoji: "⚖️"
 
+# Flat accent color for the minimalist Instagram bill-card (topic tag chip,
+# headline underline, and wordmark dots).
+card_accent: "#475569"
+
 keywords:
   # Policing / law enforcement
   - police

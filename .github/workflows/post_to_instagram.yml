@@ -1,4 +1,4 @@
-name: govbot-instagram-post-lgbtq
+name: govbot-instagram-post
 
 on:
   schedule:
@@ -21,10 +21,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
 
+    # The single Instagram account now spans every topic, so this job loops over
+    # all topics/ in one sequential run (not sharded — one account, one writer to
+    # the shared account-level dedup ledger + daily cap). BOT_TOPIC is set per
+    # topic inside the post step.
     env:
       LLM_MODEL: "gemma3:4b"
-      BOT_TOPIC: "lgbtq"
-      POST_LIMIT: "2"
       DRY_RUN: "0"
 
     steps:
@@ -150,22 +152,60 @@ jobs:
             -d "{\"model\":\"$LLM_MODEL\",\"prompt\":\"ok\",\"stream\":false,\"keep_alive\":\"30m\"}" \
             > /dev/null 2>&1 || echo "  (warm-up failed; model will load on first summary)"
 
-      - name: Post to Instagram
-        # The script renders cards, pushes them (so they're reachable by URL),
-        # waits for the CDN, then publishes via the Instagram Graph API.
+      - name: Render, push cards, and post to Instagram (all topics)
+        # One account, every topic: build the normalized bill list once, then walk
+        # the topics in randomized order. Each topic's run renders + pushes its
+        # cards (so they're reachable by URL), waits for the CDN, then publishes
+        # via the Instagram Graph API. The account-level daily cap
+        # (ACCOUNT_DAILY_LIMIT) stops once enough has gone out, and the account
+        # ledger keeps a bill matched by two topics from posting twice.
         env:
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
           LLM_API_URL: "http://localhost:11434/api/chat"
-        run: python scripts/post_to_instagram.py
+          # Per-topic cap kept at 1 so the global cap (4) spreads across several
+          # different topics each day rather than being eaten by the first one.
+          POST_LIMIT: "1"
+          ACCOUNT_DAILY_LIMIT: "4"
+        run: |
+          shopt -s nullglob
+          # Build the normalized (extract_fields-applied) bill list once; every
+          # topic below reads it via BILLS_NORMALIZED instead of re-parsing
+          # bills.jsonl. Importing the module needs BOT_TOPIC, so use any topic.
+          FIRST_TOPIC=""
+          for d in topics/*/; do
+            [ -f "$d/config.yml" ] && FIRST_TOPIC=$(basename "$d") && break
+          done
+          if BOT_TOPIC="$FIRST_TOPIC" python scripts/post_to_bluesky.py --build-normalized bills_normalized.json; then
+            export BILLS_NORMALIZED="$PWD/bills_normalized.json"
+          else
+            echo "  normalized build failed; topics will parse bills.jsonl directly."
+          fi
+
+          for topic in $(ls -d topics/*/ | xargs -n1 basename | shuf); do
+            [ -f "topics/$topic/config.yml" ] || continue
+            echo "=== Instagram: topic $topic ==="
+            BOT_TOPIC="$topic" python scripts/post_to_instagram.py \
+              || echo "  $topic post failed, continuing with next topic"
+          done
 
       - name: Commit Instagram state changes
         if: env.DRY_RUN != '1'
         run: |
-          git add topics/*/instagram/bills_used.json topics/*/instagram/bills_raw topics/*/instagram/bills_full_text || true
+          git add topics/*/instagram/bills_used.json topics/*/instagram/bills_raw topics/*/instagram/bills_full_text account_state/instagram || true
           if git diff --cached --quiet; then
             echo "No Instagram state changes to commit."
-          else
-            git commit -m "chore: update Instagram posted state [skip ci]"
-            git push
+            exit 0
           fi
+          git commit -m "chore: update Instagram posted state [skip ci]"
+          # The poster pushed card commits mid-run; rebase-retry in case the
+          # remote moved underneath us before this final state push.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              break
+            fi
+            echo "Push rejected (attempt $attempt); rebasing and retrying."
+            git pull --rebase --autostash origin "${{ github.ref_name }}" || true
+            sleep $(( attempt * 2 ))
+          done

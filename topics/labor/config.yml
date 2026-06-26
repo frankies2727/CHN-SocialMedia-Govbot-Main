@@ -6,6 +6,10 @@ display_name: "Labor & Workers' Rights"
 prompt_topic: "labor and workers' rights, including wages, unions, workplace safety, employment protections, and worker benefits"
 default_emoji: "🛠️"
 
+# Flat accent color for the minimalist Instagram bill-card (topic tag chip,
+# headline underline, and wordmark dots).
+card_accent: "#B45309"
+
 keywords:
   # Wages / pay
   - minimum wage
