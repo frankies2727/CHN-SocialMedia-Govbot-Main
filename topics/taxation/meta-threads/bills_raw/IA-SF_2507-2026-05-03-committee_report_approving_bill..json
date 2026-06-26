@@ -1,0 +1,48 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 2507",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "administration and regulation appropriations",
+      "appropriations",
+      "hunting",
+      "judicial branch",
+      "litigation",
+      "loans",
+      "local government",
+      "money",
+      "nicotine",
+      "nonresidents",
+      "notification",
+      "political parties",
+      "poultry",
+      "public assistance",
+      "retirement",
+      "salaries and wages",
+      "school districts",
+      "tax credits",
+      "tax levies",
+      "vapor products",
+      "weeds"
+    ],
+    "title": "A bill for an act relating to state and local government and finances, including by making, modifying, limiting, or reducing appropriations, distributions, or transfers, authorizing expenditure of unappropriated moneys in special funds, making corrections, and providing for properly related matters including the national electrical code, local civil rights laws, political party state central committees, noxious weeds, nonresident deer hunting licenses, proprietary treatment systems, poultry associations, tax credits, alternative nicotine and vapor products, public assistance programs, judicial branch and county attorney salaries, civil litigation abuse, human trafficking, federal grants and loans notifications, quarterly payments to area education agencies, civic proficiency in higher education, charter schools under the Iowa public employees’ retirement system, school district incentives, extracurricular interscholastic eligibility, and levy increases, and including effective date, applicability, and retroactive applicability provisions."
+  },
+  "id": "SF 2507",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-05-03",
+      "description": "Committee report, approving bill.",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SF 2507"
+  },
+  "sources": {
+    "bill": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2507/metadata.json",
+    "log": "ia-legislation/country:us/state:ia/sessions/2025-2026/bills/SF2507/logs/20260503T000000Z_committee_report_approving_bill.json"
+  },
+  "timestamp": "20260503T000000Z"
+}
