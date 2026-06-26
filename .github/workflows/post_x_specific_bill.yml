@@ -96,7 +96,13 @@ jobs:
         env:
           INPUT_STATE: ${{ inputs.state }}
         run: |
-          curl -fsSL https://raw.githubusercontent.com/chihacknight/govbot/main/actions/govbot/scripts/install-nightly.sh | bash
+          # The upstream "nightly" release is deleted and recreated daily, so its
+          # tag 404s for a short window each day. Retry with backoff to ride it out.
+          for attempt in 1 2 3 4 5; do
+            curl -fsSL https://raw.githubusercontent.com/chihacknight/govbot/main/actions/govbot/scripts/install-nightly.sh | bash && break
+            echo "govbot install attempt ${attempt}/5 failed (nightly may be mid-republish); retrying..."
+            sleep $(( attempt * 10 ))
+          done
           export PATH="$HOME/.govbot/bin:$PATH"
           govbot --version || true
 

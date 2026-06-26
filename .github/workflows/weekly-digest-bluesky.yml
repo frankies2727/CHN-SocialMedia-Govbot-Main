@@ -54,18 +54,11 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Install govbot, fetch all supported states, dump JSONL
-        run: |
-          curl -fsSL https://raw.githubusercontent.com/chihacknight/govbot/main/actions/govbot/scripts/install-nightly.sh | bash
-          export PATH="$HOME/.govbot/bin:$PATH"
-          govbot --version || true
-
-          # Clone every supported repo in one parallel invocation instead of a
-          # per-state shell loop. The revamped govbot exits 0 even when an
-          # individual repo fails, so no per-state skip guard is needed.
-          govbot clone all --parallel 8
-
-          govbot logs --limit 8200 > bills.jsonl
-          echo "bills.jsonl is $(wc -l < bills.jsonl) lines"
+        # Resilient install (retries the daily-republished upstream nightly) plus
+        # a per-day shared bills.jsonl cache. See .github/actions/govbot-bills.
+        uses: ./.github/actions/govbot-bills
+        with:
+          log-limit: "8200"
 
       - name: Cache Ollama model
         uses: actions/cache@v4

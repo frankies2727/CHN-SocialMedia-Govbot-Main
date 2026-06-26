@@ -140,13 +140,13 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Install govbot, fetch data, dump JSONL
-        run: |
-          curl -fsSL https://raw.githubusercontent.com/chihacknight/govbot/main/actions/govbot/scripts/install-nightly.sh | bash
-          export PATH="$HOME/.govbot/bin:$PATH"
-          govbot --version || true
-          govbot clone ${{ github.event.inputs.states }} --parallel 8
-          govbot logs --limit 2200 > bills.jsonl
-          echo "bills.jsonl is $(wc -l < bills.jsonl) lines"
+        # Resilient install (retries the daily-republished upstream nightly).
+        # shared-cache off: ad-hoc state selections shouldn't reuse a daily dump.
+        uses: ./.github/actions/govbot-bills
+        with:
+          clone-target: ${{ github.event.inputs.states }}
+          log-limit: "2200"
+          shared-cache: "false"
 
       - name: Save sample records into samples/ (no overwrite)
         env:

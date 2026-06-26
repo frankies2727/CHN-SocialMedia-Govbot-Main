@@ -71,23 +71,10 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Install govbot, fetch all supported states, dump JSONL
-        # Clone every supported repo in one parallel invocation. `clone all`
-        # pulls the full supported set (no hardcoded state list to maintain) and
-        # `--parallel` runs the git clones concurrently instead of one-at-a-time
-        # in a shell loop. The revamped govbot exits 0 even when individual repos
-        # fail, so the old per-state skip guard is no longer needed.
-        run: |
-          curl -fsSL https://raw.githubusercontent.com/chihacknight/govbot/main/actions/govbot/scripts/install-nightly.sh | bash
-          export PATH="$HOME/.govbot/bin:$PATH"
-          govbot --version || true
-
-          govbot clone all --parallel 8
-
-          # Per-repo log cap, standardized across all daily posters. POST_LIMIT
-          # is tiny and the scripts apply their own freshness + topic filters,
-          # so a larger window is just wasted dump + parse time.
-          govbot logs --limit 55200 > bills.jsonl
-          echo "bills.jsonl is $(wc -l < bills.jsonl) lines"
+        # Resilient install (retries the daily-republished upstream nightly) plus
+        # a per-day shared bills.jsonl cache, so only the first poster of the day
+        # pays the full national clone. See .github/actions/govbot-bills.
+        uses: ./.github/actions/govbot-bills
 
       - name: Cache Ollama model
         uses: actions/cache@v4

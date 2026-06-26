@@ -1,0 +1,85 @@
+name: "govbot: fetch bills"
+description: >
+  Install the govbot CLI, clone the requested state repos, and dump the
+  legislative log to bills.jsonl. The install is resilient to the upstream
+  "nightly" release being briefly republished each day, and (by default) the
+  resulting bills.jsonl is shared across every run on the same UTC day so only
+  the first poster pays the full national clone.
+
+inputs:
+  clone-target:
+    description: "What govbot clones: 'all' or a space-separated state list."
+    required: false
+    default: "all"
+  log-limit:
+    description: "Max records dumped by 'govbot logs --limit'."
+    required: false
+    default: "55200"
+  shared-cache:
+    description: >
+      'true' shares one bills.jsonl across all runs on the same UTC day with the
+      same clone-target + log-limit (skips the clone on a hit). Set 'false' for
+      ad-hoc clones (e.g. specific states) that should not be reused.
+    required: false
+    default: "true"
+
+runs:
+  using: "composite"
+  steps:
+    - name: Resolve shared bills cache key
+      id: cachekey
+      if: ${{ inputs.shared-cache == 'true' }}
+      shell: bash
+      run: |
+        # One snapshot per UTC day, per clone-target + log-limit. Bills stay in
+        # the freshness window for weeks, so every poster on a given day can
+        # safely reuse the same dump instead of re-cloning 50+ repos each time.
+        slug=$(printf '%s' "${{ inputs.clone-target }}" | tr -c 'A-Za-z0-9' '-')
+        echo "key=bills-jsonl-$(date -u +%F)-${slug}-${{ inputs.log-limit }}" >> "$GITHUB_OUTPUT"
+
+    - name: Restore shared bills.jsonl
+      id: bills-cache
+      if: ${{ inputs.shared-cache == 'true' }}
+      uses: actions/cache@v4
+      with:
+        path: bills.jsonl
+        key: ${{ steps.cachekey.outputs.key }}
+
+    - name: Install govbot, fetch states, dump bills.jsonl
+      if: ${{ steps.bills-cache.outputs.cache-hit != 'true' }}
+      shell: bash
+      run: |
+        # The upstream "nightly" release is deleted and recreated daily, so its
+        # tag 404s for a short window each day. A bare `curl | bash` fails the
+        # whole job when it lands in that window (this is what broke the X
+        # poster). Retry with backoff to ride it out.
+        installed=0
+        for attempt in 1 2 3 4 5; do
+          if curl -fsSL https://raw.githubusercontent.com/chihacknight/govbot/main/actions/govbot/scripts/install-nightly.sh | bash; then
+            installed=1
+            break
+          fi
+          echo "govbot install attempt ${attempt}/5 failed (nightly release may be mid-republish); retrying..."
+          sleep $(( attempt * 10 ))
+        done
+        if [ "${installed}" -ne 1 ]; then
+          echo "::error::govbot install failed after 5 attempts (upstream nightly release unavailable)."
+          exit 1
+        fi
+        export PATH="$HOME/.govbot/bin:$PATH"
+        govbot --version || true
+
+        # `clone all` pulls the full supported set (no hardcoded state list to
+        # maintain) and `--parallel` runs the git clones concurrently. govbot
+        # exits 0 even when individual repos fail, so no per-state skip guard.
+        govbot clone ${{ inputs.clone-target }} --parallel 8
+
+        # POST_LIMIT is tiny and the scripts apply their own freshness + topic
+        # filters, so a larger window is just wasted dump + parse time.
+        govbot logs --limit ${{ inputs.log-limit }} > bills.jsonl
+        echo "bills.jsonl is $(wc -l < bills.jsonl) lines"
+
+    - name: Reuse cached bills.jsonl
+      if: ${{ steps.bills-cache.outputs.cache-hit == 'true' }}
+      shell: bash
+      run: echo "Reused today's shared bills.jsonl ($(wc -l < bills.jsonl) lines); skipped the full govbot clone."
