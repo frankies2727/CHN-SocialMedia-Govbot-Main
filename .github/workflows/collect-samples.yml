@@ -122,7 +122,7 @@ jobs:
           haskell: true
           large-packages: false
           docker-images: true
-          swap-storage: true
+          swap-storage: false  # keep swap: the LLM + full bill corpus need the RAM headroom
 
       - name: Checkout
         uses: actions/checkout@v4
