@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Code Section 48-5-7.4 of the Official Code of Georgia Annotated, relating to preferential assessment for bona fide conservation use property and bona fide residential transitional property, so as to increase the maximum acreage to qualify for assessment and taxation as a bona fide conservation use property; to provide for related matters; to provide for a contingent effective date and automatic repeal; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 90",
+    "legislative_session": "2025_26",
+    "title": "Revenue and taxation; increase maximum acreage to qualify for assessment and taxation as a bona fide conservation use property"
+  },
+  "id": "HB 90",
+  "log": {
+    "action": {
+      "date": "2027-01-01",
+      "description": "Effective Date",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "HB 90"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB90/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB90/logs/20270101T000000Z_effective_date.json"
+  },
+  "timestamp": "20270101T000000Z"
+}

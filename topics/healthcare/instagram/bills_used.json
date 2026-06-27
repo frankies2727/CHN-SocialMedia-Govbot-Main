@@ -1,9 +1,14 @@
 {
   "posted": [
-    "CA|AB1843|2026-06-25|From committee: Do pass and re-refer to "
+    "CA|AB1843|2026-06-25|From committee: Do pass and re-refer to ",
+    "MO|SB 999|2026-05-28|Delivered to Governor",
+    "MO|SB 999|2026-05-28|Reported Duly Enrolled Rules, Joint Rule",
+    "MO|SB 999|2026-05-28|Signed by House Speaker",
+    "MO|SB 999|2026-05-28|Signed by Senate President Pro Tem"
   ],
   "state_last_posted": {
-    "CA": "2026-06-27T04:24:34.412359+00:00"
+    "CA": "2026-06-27T04:24:34.412359+00:00",
+    "MO": "2026-06-27T13:02:47.706566+00:00"
   },
-  "last_run": "2026-06-27T04:25:57.402210+00:00"
+  "last_run": "2026-06-27T13:04:07.830492+00:00"
 }
