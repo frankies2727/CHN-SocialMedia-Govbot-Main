@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "House bill No. 4672, as changed by the committee on Bills in the Third Reading, amended and passed to be engrossed by the House. October 29, 2025.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H4683",
+    "legislative_session": "194th",
+    "title": "An Act relative to teacher preparation and student literacy"
+  },
+  "id": "H4683",
+  "log": {
+    "action": {
+      "date": "2026-06-17",
+      "description": "Reported by H5511",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "H4683"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4683/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4683/logs/20260617T000000Z_reported_by_h5511.json"
+  },
+  "timestamp": "20260617T000000Z"
+}

@@ -1,9 +1,11 @@
 {
   "posted": [
-    "CA|AB2504|2026-06-25|From committee: Do pass and re-refer to "
+    "CA|AB2504|2026-06-25|From committee: Do pass and re-refer to ",
+    "MO|HB 1970|2026-05-15|Referred: Emerging Issues(H)"
   ],
   "state_last_posted": {
-    "CA": "2026-06-26T17:49:04.170730+00:00"
+    "CA": "2026-06-26T17:49:04.170730+00:00",
+    "MO": "2026-06-27T05:00:03.590102+00:00"
   },
-  "last_run": "2026-06-26T17:50:29.289363+00:00"
+  "last_run": "2026-06-27T05:00:15.074917+00:00"
 }
