@@ -23,11 +23,14 @@ jobs:
 
     # The single Instagram account now spans every topic, so this job loops over
     # all topics/ in one sequential run (not sharded — one account, one writer to
-    # the shared account-level dedup ledger + daily cap). BOT_TOPIC is set per
+    # the shared account-level dedup ledger + per-run cap). BOT_TOPIC is set per
     # topic inside the post step.
     env:
       LLM_MODEL: "gemma3:4b"
       DRY_RUN: "0"
+      # Shared by every per-topic process so the per-run cap spans the whole loop
+      # yet starts fresh next run.
+      RUN_ID: "${{ github.run_id }}-${{ github.run_attempt }}"
 
     steps:
       - name: Free disk space
@@ -147,17 +150,17 @@ jobs:
         # One account, every topic: build the normalized bill list once, then walk
         # the topics in randomized order. Each topic's run renders + pushes its
         # cards (so they're reachable by URL), waits for the CDN, then publishes
-        # via the Instagram Graph API. The account-level daily cap
-        # (ACCOUNT_DAILY_LIMIT) stops once enough has gone out, and the account
+        # via the Instagram Graph API. The account-level per-run cap
+        # (RUN_POST_LIMIT) stops once enough has gone out, and the account
         # ledger keeps a bill matched by two topics from posting twice.
         env:
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
           LLM_API_URL: "http://localhost:11434/api/chat"
-          # Per-topic cap kept at 1 so the global cap (4) spreads across several
-          # different topics each day rather than being eaten by the first one.
+          # Per-topic cap kept at 1 so the per-run cap (4) spreads across several
+          # different topics each run rather than being eaten by the first one.
           POST_LIMIT: "1"
-          ACCOUNT_DAILY_LIMIT: "4"
+          RUN_POST_LIMIT: "4"
         run: |
           shopt -s nullglob
           # Build the normalized (extract_fields-applied) bill list once; every
