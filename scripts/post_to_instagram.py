@@ -81,10 +81,11 @@ STATE_FILE = TOPIC.instagram_state_file_path()
 
 POST_LIMIT = int(os.environ.get("POST_LIMIT", "2"))
 # The Instagram account now spans every topic, so the daily poster loops over all
-# topics. ACCOUNT_DAILY_LIMIT caps how many posts go to the single account per day
-# across ALL topics combined (POST_LIMIT still caps each topic's own run); once
-# the account hits this ceiling, later topics in the loop exit early.
-ACCOUNT_DAILY_LIMIT = int(os.environ.get("ACCOUNT_DAILY_LIMIT", "4"))
+# topics. RUN_POST_LIMIT caps how many posts go to the single account per run
+# across ALL topics combined (POST_LIMIT still caps each topic's own turn); once
+# the account hits this ceiling, later topics in the loop exit early. The next
+# run starts the count fresh.
+RUN_POST_LIMIT = int(os.environ.get("RUN_POST_LIMIT", "4"))
 # Account-level (cross-topic) ledger lives under account_state/<platform>/.
 PLATFORM = "instagram"
 MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "62"))
@@ -434,7 +435,7 @@ def _post_items(items: list[dict], sha: str, slug: str, state: dict, seen: set,
             seen.add(b["dedup_key"])
             seen.update(siblings)
             last_posted[b["state"] or "?"] = now.isoformat()
-            # Record on the account-wide ledger too (cross-topic dedup + daily
+            # Record on the account-wide ledger too (cross-topic dedup + per-run
             # cap), and persist immediately so the next topic in the loop sees it.
             if ledger is not None:
                 ledger.record({b["dedup_key"], *siblings})
@@ -553,13 +554,13 @@ def main() -> int:
     seen = set(state.get("posted", []))
     seen_all = seen | ledger.seen
 
-    # Global daily cap across all topics on the single account. Cap the run to
-    # whatever the account has left for today; bail early once it's exhausted.
-    remaining = ledger.remaining_today(ACCOUNT_DAILY_LIMIT)
+    # Per-run cap across all topics on the single account. Cap this topic to
+    # whatever the account has left this run; bail early once it's exhausted.
+    remaining = ledger.remaining_this_run(RUN_POST_LIMIT)
     effective_limit = min(POST_LIMIT, remaining) if SAVE_STATE else POST_LIMIT
     if SAVE_STATE and effective_limit <= 0:
-        print(f"Account daily cap reached ({ledger.posted_today()}/{ACCOUNT_DAILY_LIMIT} "
-              f"posted today) — skipping topic '{TOPIC.name}'.")
+        print(f"Run post limit reached ({ledger.posted_this_run()}/{RUN_POST_LIMIT} "
+              f"posted this run) — skipping topic '{TOPIC.name}'.")
         return 0
 
     candidates: list[dict] = []
@@ -652,7 +653,7 @@ def main() -> int:
 
     distinct_states = len({b["state"] or "?" for b in to_post})
     print(f"Pool: {len(descriptive)} state(s) with descriptive bills, {len(stubs)} stub-only.")
-    print(f"Account has {remaining}/{ACCOUNT_DAILY_LIMIT} post(s) left today; "
+    print(f"Account has {remaining}/{RUN_POST_LIMIT} post(s) left this run; "
           f"will post up to {effective_limit}: posting {len(to_post)} from "
           f"{distinct_states} state(s).")
 
