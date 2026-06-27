@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Fluker-Reid of Boston, a petition (accompanied by bill, House, No. 3927) of Brandy Fluker-Reid (with the approval of the mayor and city council) that the city of Boston be authorized to appoint Jean E. Roseney a police officer notwithstanding the maximum age requirement.  Public Service.  [Local Approval Received.]",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H3927",
+    "legislative_session": "194th",
+    "title": "An Act directing the city of Boston Police Department to waive the maximum age requirement for police officers for Jean E. Roseney"
+  },
+  "id": "H3927",
+  "log": {
+    "action": {
+      "description": "Taken out of the Orders of the Day",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-25",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/H3927"
+        }
+      ]
+    },
+    "bill_id": "H3927"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H3927/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H3927/logs/20260625T000000Z_taken_out_of_the_orders_of_the_day.json"
+  },
+  "timestamp": "20260625T000000Z"
+}

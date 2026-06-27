@@ -1,0 +1,52 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "The Equity in Higher Education Act establishes the policy of the state to afford all persons, regardless of specified characteristics, including gender, gender identity, gender expression, and sexual orientation, equal rights and opportunities in the postsecondary educational institutions of the state. The act requires the Trustees of the California State University and the governing board of a community colleges district, and requests the Regents of the University of California, to designate an employee at each of their respective campuses as a point of contact for the needs of lesbian, gay, bisexual, asexual, pansexual, transgender, gender-nonconforming, intersex, and two-spirit faculty, staff, and students.\n\nThis bill would require the trustees and the governing board of a community college district, and would request the regents, to also designate an employee as a point of contact for the needs of the above-described faculty, staff, and students of a branch campus, satellite location, or site other than the main campus, as specified. The bill would define \"branch campus,\" \"satellite location,\" and \"main campus\" for this purpose. To the extent the bill would impose new duties on a community college district, the bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1328",
+    "legislative_session": "20252026",
+    "subject": [
+      "EquityinHigherEducationAct",
+      "Publicpostsecondaryeducation",
+      "campuscontact"
+    ],
+    "title": "Public postsecondary education: Equity in Higher Education Act: campus contact."
+  },
+  "id": "SB1328",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "reading-1",
+        "reading-2",
+        "referral-committee"
+      ],
+      "description": "Read second time and amended. Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-25",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1328"
+        }
+      ]
+    },
+    "bill_id": "SB1328"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1328/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1328/logs/20260625T000000Z_read_second_time_and_amended_rereferred_to_com_on_appr.json"
+  },
+  "timestamp": "20260625T000000Z"
+}

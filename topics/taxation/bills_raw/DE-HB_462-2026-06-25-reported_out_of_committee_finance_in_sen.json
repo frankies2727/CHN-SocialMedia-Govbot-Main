@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "In 2025, the General Assembly passed House Bill No. 242 (now found at Chapter 135, Volume 85 of the Laws of Delaware), allowing school districts located entirely in New Castle County to use different tax rates for residential and non-residential properties. This Act amends the Delaware Code to continue the authority for non-vocational technical school districts in New Castle County to utilize a residential and non-residential tax rate for school tax purposes. Such a split rate may be established or adjusted in the year after a general reassessment or as part of a referendum. The rate must be uniform for each class of property. Under this Act, the non-residential rate must be at least equal to the residential rate and may be no more than 1.85 times the residential rate. For purposes of the split tax rate, a school district must follow the classifications of the county in which the district is located.\r\n\r\nUnder the transition provisions of this Act, a district that initially established split tax rates under the authority of House Bill No. 242, may continue to use those split rates at the same or a lower ratio between residential and non-residential tax rates established in the 2025-2026 tax year. But if a district’s non-residential tax rate for the 2025-2026 tax year was more than 1.85 times the residential tax rate, it must adjust its rates to meet the 1.85 maximum ratio permitted under this Act. The New Castle County Vocational Technical District may not continue the use of different tax rates past the 2025-2026 tax year.\r\n\r\nThe Act also changes the amount a school district must add to its tax rate to account for delinquencies and late payments to “up to 10%” rather than requiring that a school district must add exactly 10% to its tax rate for this purpose.\r\n\r\nThis Act also makes technical corrections to conform this chapter of the Delaware Code to the Delaware Legislative Drafting Manual and strikes references to the City of Wilmington School District, which no longer exists. It also revises § 1913 of Title 14 to reflect current practice. It strikes an outdated requirement in § 1918 of Title 14 that the school districts deliver a copy of the assessment list to the County along with their tax warrant. This is inconsistent with the role of the school districts and with current practice.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 462",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO SCHOOL TAXES."
+  },
+  "id": "HB 462",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported Out of Committee (Finance) in Senate with 4 On Its Merits",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-25",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Finance"
+        }
+      ],
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143439"
+        }
+      ]
+    },
+    "bill_id": "HB 462"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB462/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB462/logs/20260625T000000Z_reported_out_of_committee_finance_in_senate_with_4_on_its_merits.json"
+  },
+  "timestamp": "20260625T000000Z"
+}

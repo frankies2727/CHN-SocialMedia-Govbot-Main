@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "SS/SB 1033 - The act creates provisions relating to the regulation of air quality.\r\n\r\nEXPENDITURE OF MONEYS IN FUNDS BY THE DEPARTMENT OF NATURAL RESOURCES (Sections 640.220 and 643.350)\r\n\tUnder the act, before June 30, 2027, any unexpended balance in the subaccounts of the Natural Resources Protection Fund exceeding the preceding biennium's collections shall revert to the General Revenue Fund at the end of each biennium.\r\n\r\n\tBeginning July 1, 2027, any unexpended balance in the subaccounts of the Fund that exceeds the preceding biennium's collections shall not revert to the General Revenue Fund.\r\n\r\n\tBeginning July 1, 2027, and annually on July 1 of each succeeding year, the Commissioner of Administration shall use taxable sales reports to estimate the amount of state general revenue sales and use tax derived from electric power distribution in the immediately preceding calendar year and shall report such amount to the state treasurer. The state treasurer shall transfer certain amounts from the general revenue sales as described in the act.\r\n\r\n\tThe act repeals certain provisions relating to the transfer of funds from the Missouri Air Emission Reduction Fund.\r\n\r\n\tThese provisions are identical to the perfected SB 953 (2026), SB 120 (2025), and SB 1483 (2024).\r\n\r\nMOTOR VEHICLES EMISSION INSPECTION REQUIREMENTS (Section 643.315)\r\n\tThis act provides that motor vehicle emissions inspection requirements shall not apply to motor vehicles over 10 years old that are registered as local commercial vehicles and used for farm or farming transportation operations, or that are otherwise defined as \"covered farm vehicles\" under federal law.\r\n\r\n\tThis provision is identical to SB 200 (2025) and SB 1306 (2024).\r\n\r\nCOTTON GINS (Section 643.675)\r\n\tThe act provides that an owner or operator of a cotton gin, defined as a machine that separates cotton fibers from cotton seeds, that emits a certain amount of air contaminants, as described in the act, shall not be required to submit air dispersion modeling, as defined in the act, to the Department of Natural Resources to obtain a construction permit for the cotton gin.\r\nJULIA SHEVELEVA",
+        "note": "abstract"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1033",
+    "legislative_session": "2026",
+    "title": "SS/SB 1033 - The act creates provisions relating to the regulation of air quality.\r\n\r\nEXPENDITURE OF MONEYS IN FUNDS BY THE DEPARTMENT OF NATURAL RESOURCES (Sections 640.220 and 643.350)\r\n\tUnder the act, before June 30, 2027, any unexpended balance in the subaccounts of the Natural Resources Protection Fund exceeding the preceding biennium's collections shall revert to the General Revenue Fund at the end of each biennium.\r\n\r\n\tBeginning July 1, 2027, any unexpended balance in the subaccounts of the Fund that exceeds the preceding biennium's collections shall not revert to the General Revenue Fund.\r\n\r\n\tBeginning July 1, 2027, and annually on July 1 of each succeeding year, the Commissioner of Administration shall use taxable sales reports to estimate the amount of state general revenue sales and use tax derived from electric power distribution in the immediately preceding calendar year and shall report such amount to the state treasurer. The state treasurer shall transfer certain amounts from the general revenue sales as described in the act.\r\n\r\n\tThe act repeals certain provisions relating to the transfer of funds from the Missouri Air Emission Reduction Fund.\r\n\r\n\tThese provisions are identical to the perfected SB 953 (2026), SB 120 (2025), and SB 1483 (2024).\r\n\r\nMOTOR VEHICLES EMISSION INSPECTION REQUIREMENTS (Section 643.315)\r\n\tThis act provides that motor vehicle emissions inspection requirements shall not apply to motor vehicles over 10 years old that are registered as local commercial vehicles and used for farm or farming transportation operations, or that are otherwise defined as \"covered farm vehicles\" under federal law.\r\n\r\n\tThis provision is identical to SB 200 (2025) and SB 1306 (2024).\r\n\r\nCOTTON GINS (Section 643.675)\r\n\tThe act provides that an owner or operator of a cotton gin, defined as a machine that separates cotton fibers from cotton seeds, that emits a certain amount of air contaminants, as described in the act, shall not be required to submit air dispersion modeling, as defined in the act, to the Department of Natural Resources to obtain a construction permit for the cotton gin.\r\nJULIA SHEVELEVA"
+  },
+  "id": "SB 1033",
+  "log": {
+    "action": {
+      "date": "2026-05-28T05:00:00+00:00",
+      "description": "Reported Duly Enrolled Rules, Joint Rules, Resolutions & Ethics Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1033"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB1033/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB1033/logs/20260528T050000Z_reported_duly_enrolled_rules_joint_rules_resolutions_ethics_committee.json"
+  },
+  "timestamp": "20260528T050000Z"
+}

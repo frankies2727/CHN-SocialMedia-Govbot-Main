@@ -1,0 +1,50 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "The Donahoe Higher Education Act sets forth the missions and functions of the public institutions of higher education, including the University of California, administered by the Regents of the University of California, the California State University, administered by the Trustees of the California State University, and the California Community Colleges, administered by the Board of Governors of the California Community Colleges. The provisions of the Donahoe Higher Education Act apply to the University of California only to the extent that the Regents of the University of California, by appropriate resolution, make them applicable.\n\nThis bill would prohibit the University of California, California State University, or California Community Colleges from disqualifying a student from being hired for an employment position due to the student's failure to provide proof of federal work authorization, except where that proof is required by federal law or where that proof is required as a condition of a grant that funds the particular employment position for which the student has applied.\n\nThis bill would require the University of California, the California State University, and the California Community Colleges to treat a specified prohibition in federal law on hiring undocumented noncitizens as inapplicable because that provision does not apply to any branch of state government. The bill would further provide that, to the extent student employment is considered a \"benefit\" for purposes of federal law, the bill constitutes authorization to provide that benefit for purposes of specified federal law.\n\nThis bill would require the University of California, the California State University, and the California Community Colleges to implement the bill by January 6, 2027. The bill's provisions would apply to the University of California, unless it is found inapplicable to the University of California and then only to the extent that the Regents of the University of California, by appropriate resolution, make them applicable. By imposing new duties on community college districts, the bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB713",
+    "legislative_session": "20252026",
+    "subject": [
+      "Publicpostsecondaryeducation",
+      "studentemployment"
+    ],
+    "title": "Public postsecondary education: student employment."
+  },
+  "id": "AB713",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage",
+        "committee-passage-favorable",
+        "referral-committee"
+      ],
+      "description": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 5. Noes 2.) (June 24). Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-25",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB713"
+        }
+      ]
+    },
+    "bill_id": "AB713"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB713/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB713/logs/20260625T000000Z_from_committee_do_pass_and_rerefer_to_com_on_appr_ayes_5_noes_2_june_24_rereferred_to_com_on_appr.json"
+  },
+  "timestamp": "20260625T000000Z"
+}
