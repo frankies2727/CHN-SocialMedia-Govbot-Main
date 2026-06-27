@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Allows for sending of the notice under power of sale and rights of active military servicemembers by USPS First Class Mail and/or an overnight delivery service, instead of by USPS certified mail return receipt requested.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB7654",
+    "legislative_session": "2026",
+    "title": "AN ACT RELATING TO PROPERTY -- MORTGAGE FORECLOSURE AND SALE"
+  },
+  "id": "HB7654",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "06/24/2026 Signed by Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-06-24",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://status.rilegislature.gov/"
+        }
+      ]
+    },
+    "bill_id": "HB7654"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2026/bills/HB7654/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2026/bills/HB7654/logs/20260624T000000Z_06242026_signed_by_governor.json"
+  },
+  "timestamp": "20260624T000000Z"
+}

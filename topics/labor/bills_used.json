@@ -102,6 +102,7 @@
     "MA|H3915|2026-06-18|Read second and ordered to a third readi",
     "MA|H4380|2026-02-17|Enacted and laid before the Governor",
     "MA|H4380|2026-02-25|Signed by the Governor, Chapter 31 of th",
+    "MA|SD3273|2026-06-23|Discharged from committee and recommitte",
     "MN|HF 3707|2026-03-05|Committee report, to adopt and re-refer ",
     "MO|HB 2184|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HB 3260|2026-05-15|Referred: Emerging Issues(H)",
@@ -130,6 +131,7 @@
     "NJ|A2286|2026-01-13|WITHDRAWN APP P.L.2025, c.382.",
     "NJ|A3413|2026-01-13|WITHDRAWN APP P.L.2025, c.355.",
     "NJ|S704|2026-01-13|WITHDRAWN APP P.L.2025, c.355.",
+    "RI|HB8524|2026-06-23|06/23/2026 Signed by Governor",
     "TN|HB 1630|2026-01-21|Assigned to s/c Banking & Consumer Affai",
     "TN|HB 1759|2026-01-22|P2C, caption bill, held on desk - pendin",
     "TN|SB 1579|2026-01-14|Passed on Second Consideration, refer to",
@@ -166,7 +168,7 @@
     "WI|SB1|2026-05-13|Read a third time",
     "WI|SB1|2026-05-13|Rules suspended to give bill its third r"
   ],
-  "last_run": "2026-06-25T10:19:40.470706+00:00",
+  "last_run": "2026-06-27T09:39:15.807264+00:00",
   "state_last_posted": {
     "WA": "2026-06-14T16:08:05.274822+00:00",
     "AL": "2026-06-20T10:10:06.703065+00:00",
@@ -175,13 +177,14 @@
     "WI": "2026-06-13T10:13:42.603235+00:00",
     "IA": "2026-05-19T19:46:36.551228+00:00",
     "TN": "2026-06-14T16:08:05.274822+00:00",
-    "MA": "2026-06-23T10:48:50.865169+00:00",
+    "MA": "2026-06-27T09:37:56.974561+00:00",
     "GA": "2026-06-16T12:10:02.233029+00:00",
     "KS": "2026-06-19T11:32:19.242344+00:00",
     "MS": "2026-06-15T13:13:37.501079+00:00",
     "DE": "2026-06-24T10:27:49.583912+00:00",
     "MO": "2026-06-25T10:15:19.637108+00:00",
     "MN": "2026-05-28T10:57:02.677683+00:00",
-    "FL": "2026-06-17T11:50:29.944292+00:00"
+    "FL": "2026-06-17T11:50:29.944292+00:00",
+    "RI": "2026-06-27T09:37:56.974561+00:00"
   }
 }

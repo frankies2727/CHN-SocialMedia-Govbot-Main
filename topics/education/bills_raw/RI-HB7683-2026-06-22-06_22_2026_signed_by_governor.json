@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Increases monthly minimum benefit for a spouse, domestic partner, former spouse.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB7683",
+    "legislative_session": "2026",
+    "title": "AN ACT RELATING TO EDUCATION -- TEACHERS' RETIREMENT"
+  },
+  "id": "HB7683",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-06-22",
+      "description": "06/22/2026 Signed by Governor",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "HB7683"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2026/bills/HB7683/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2026/bills/HB7683/logs/20260622T000000Z_06222026_signed_by_governor.json"
+  },
+  "timestamp": "20260622T000000Z"
+}

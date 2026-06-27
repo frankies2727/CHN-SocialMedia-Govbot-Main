@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "SS/SB 1002 - This act requires all elections for school board members of any school district in which a majority of the district is located in St. Charles County to be held at the November general election and makes all such terms four years.  At the time of filing a declaration of candidacy, a candidate may optionally designate his or her party affiliation and consent to have such affiliation appear beside the candidate's name on the ballot. (Sections 162.082, 162.301, 162.341, 162.459, and 162.481)\r\n\r\n\tThe act further requires all proposals submitted to the voters of any school district in which a majority of the district is located in St. Charles County for the purpose of levying a new tax or renewing or increasing the levy of an existing tax, including for the issuance of bonded indebtedness, to be submitted at the November general election.  (Section 164.320)\r\n\r\n\tThis act is similar to provisions in SB 839 (2026), SB 1185 (2026), SB 485 (2025), HB 1722 (2026), HB 539 (2025), HB 2536 (2024), SB 234 (2023), SB 740 (2022), HCS/HB 2306 (2022), HB 361 (2019), and HCS/HB 1424 (2018).\r\nOLIVIA SHANNON",
+        "note": "abstract"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1002",
+    "legislative_session": "2026",
+    "title": "SS/SB 1002 - This act requires all elections for school board members of any school district in which a majority of the district is located in St. Charles County to be held at the November general election and makes all such terms four years.  At the time of filing a declaration of candidacy, a candidate may optionally designate his or her party affiliation and consent to have such affiliation appear beside the candidate's name on the ballot. (Sections 162.082, 162.301, 162.341, 162.459, and 162.481)\r\n\r\n\tThe act further requires all proposals submitted to the voters of any school district in which a majority of the district is located in St. Charles County for the purpose of levying a new tax or renewing or increasing the levy of an existing tax, including for the issuance of bonded indebtedness, to be submitted at the November general election.  (Section 164.320)\r\n\r\n\tThis act is similar to provisions in SB 839 (2026), SB 1185 (2026), SB 485 (2025), HB 1722 (2026), HB 539 (2025), HB 2536 (2024), SB 234 (2023), SB 740 (2022), HCS/HB 2306 (2022), HB 361 (2019), and HCS/HB 1424 (2018).\r\nOLIVIA SHANNON"
+  },
+  "id": "SB 1002",
+  "log": {
+    "action": {
+      "date": "2026-05-28T05:00:00+00:00",
+      "description": "Reported Duly Enrolled Rules, Joint Rules, Resolutions & Ethics Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1002"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB1002/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB1002/logs/20260528T050000Z_reported_duly_enrolled_rules_joint_rules_resolutions_ethics_committee.json"
+  },
+  "timestamp": "20260528T050000Z"
+}

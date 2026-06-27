@@ -191,6 +191,10 @@
     "MO|HB 3522|2026-05-15|Referred: Emerging Issues(H)",
     "MO|SB 1083|2026-05-14|S Bills with H Amendments",
     "MO|SB 1083|2026-05-15|S Bills with H Amendments",
+    "MO|SB 1135|2026-05-28|Delivered to Governor",
+    "MO|SB 1135|2026-05-28|Reported Duly Enrolled Rules, Joint Rule",
+    "MO|SB 1135|2026-05-28|Signed by House Speaker",
+    "MO|SB 1135|2026-05-28|Signed by Senate President Pro Tem",
     "MO|SB 1408|2026-05-28|Delivered to Governor",
     "MO|SB 1408|2026-05-28|Reported Duly Enrolled Rules, Joint Rule",
     "MO|SB 1421|2026-05-28|Delivered to Governor",
@@ -337,6 +341,7 @@
     "PA|HR 68|2025-05-05|",
     "PA|HR 68|2025-06-18|Laid on the table (Pursuant to House Rul",
     "PR|PS0339|2026-02-20|Retirada por su Autor",
+    "RI|HB8593|2026-06-23|06/23/2026 Signed by Governor",
     "SC|S 213|2025-06-05|Act No. 83",
     "TN|HB 1683|2026-01-21|P2C, ref. to Transportation Committee - ",
     "TN|HB 1684|2026-01-21|Assigned to s/c Transportation Subcommit",
@@ -381,7 +386,7 @@
     "WV|SB 221|2026-01-14|To Economic Development",
     "WV|SB 238|2026-01-14|To Transportation and Infrastructure"
   ],
-  "last_run": "2026-06-25T10:24:11.083788+00:00",
+  "last_run": "2026-06-27T09:46:47.506210+00:00",
   "state_last_posted": {
     "IL": "2026-05-16T03:01:17.694974+00:00",
     "SC": "2026-05-16T03:01:17.694974+00:00",
@@ -400,8 +405,9 @@
     "TN": "2026-06-14T16:12:40.649743+00:00",
     "FL": "2026-06-15T13:21:05.795427+00:00",
     "AL": "2026-06-13T10:25:25.994434+00:00",
-    "MO": "2026-06-24T10:32:39.091411+00:00",
+    "MO": "2026-06-27T09:45:07.972387+00:00",
     "WA": "2026-06-06T09:54:25.564847+00:00",
-    "PR": "2026-06-13T10:25:25.994434+00:00"
+    "PR": "2026-06-13T10:25:25.994434+00:00",
+    "RI": "2026-06-27T09:45:07.972387+00:00"
   }
 }

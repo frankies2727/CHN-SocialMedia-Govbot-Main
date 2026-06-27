@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Establishes the Rhode Island Maternal Health Improvement and Equity Act of 2026, to establish permanent statewide support for maternal health and to implement the maternal health strategic plan improving maternal health care and access.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB2358",
+    "legislative_session": "2026",
+    "title": "AN ACT RELATING TO HEALTH AND SAFETY -- THE RHODE ISLAND MATERNAL HEALTH IMPROVEMENT AND EQUITY ACT OF 2026"
+  },
+  "id": "SB2358",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-failure"
+      ],
+      "date": "2026-05-28",
+      "description": "05/28/2026 Committee recommended measure be held for further study",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "SB2358"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2026/bills/SB2358/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2026/bills/SB2358/logs/20260528T000000Z_05282026_committee_recommended_measure_be_held_for_further_study.json"
+  },
+  "timestamp": "20260528T000000Z"
+}

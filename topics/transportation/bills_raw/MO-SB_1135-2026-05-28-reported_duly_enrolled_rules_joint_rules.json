@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "SS/SB 1135 - This act establishes \"Bentley and Mason's Law\".  Under this act, if a person is convicted of, pled guilty to, or entered a plea of nolo contendere to the offense of driving while intoxicated or driving with excessive blood alcohol content, such offense caused the death of a parent or guardian, and a surviving parent or guardian files a petition to receive child maintenance from the convicted person, such person shall pay, pursuant to a court order, child maintenance to the child of the deceased parent or guardian in an amount and duration as specified in the act.\r\n\r\n\tIf the person ordered to pay child maintenance is unable to make maintenance because such person is imprisoned or otherwise confined, then the person shall have up to one year after release from incarceration to begin payment, including any arrearage.\r\n\r\n\tIf the surviving parent or guardian brings a civil action and obtains a judgment against the person prior to any child maintenance order under this section, no maintenance shall be ordered.  If the surviving parent or guardian brings a civil action after maintenance is ordered, the maintenance order shall offset the judgement.  If the surviving parent or guardian obtains a payment from any motor vehicle liability insurer relating to the death of the parent or parents, then the maintenance order shall be offset by the amount obtained from the insurer.  No funds received from the Crime Victims' Compensation Fund shall result in a reduction of a child maintenance order under this act.\r\n\r\n\tThis act is substantially similar to provisions in SB 235 (2025), SCS/HCS/HB 87 (2025), and HB 1958 (2024) and similar to provisions in SB 143 (2025), SB 1375 (2024), a provision in SCS/HCS/HB 2700 (2024), HCS/SS#2/SB 862 (2024), and HB 1954 (2022).\r\nSARAH HASKINS",
+        "note": "abstract"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1135",
+    "legislative_session": "2026",
+    "title": "SS/SB 1135 - This act establishes \"Bentley and Mason's Law\".  Under this act, if a person is convicted of, pled guilty to, or entered a plea of nolo contendere to the offense of driving while intoxicated or driving with excessive blood alcohol content, such offense caused the death of a parent or guardian, and a surviving parent or guardian files a petition to receive child maintenance from the convicted person, such person shall pay, pursuant to a court order, child maintenance to the child of the deceased parent or guardian in an amount and duration as specified in the act.\r\n\r\n\tIf the person ordered to pay child maintenance is unable to make maintenance because such person is imprisoned or otherwise confined, then the person shall have up to one year after release from incarceration to begin payment, including any arrearage.\r\n\r\n\tIf the surviving parent or guardian brings a civil action and obtains a judgment against the person prior to any child maintenance order under this section, no maintenance shall be ordered.  If the surviving parent or guardian brings a civil action after maintenance is ordered, the maintenance order shall offset the judgement.  If the surviving parent or guardian obtains a payment from any motor vehicle liability insurer relating to the death of the parent or parents, then the maintenance order shall be offset by the amount obtained from the insurer.  No funds received from the Crime Victims' Compensation Fund shall result in a reduction of a child maintenance order under this act.\r\n\r\n\tThis act is substantially similar to provisions in SB 235 (2025), SCS/HCS/HB 87 (2025), and HB 1958 (2024) and similar to provisions in SB 143 (2025), SB 1375 (2024), a provision in SCS/HCS/HB 2700 (2024), HCS/SS#2/SB 862 (2024), and HB 1954 (2022).\r\nSARAH HASKINS"
+  },
+  "id": "SB 1135",
+  "log": {
+    "action": {
+      "date": "2026-05-28T05:00:00+00:00",
+      "description": "Reported Duly Enrolled Rules, Joint Rules, Resolutions & Ethics Committee",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB 1135"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB1135/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB1135/logs/20260528T050000Z_reported_duly_enrolled_rules_joint_rules_resolutions_ethics_committee.json"
+  },
+  "timestamp": "20260528T050000Z"
+}
