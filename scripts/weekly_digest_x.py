@@ -36,6 +36,7 @@ from pathlib import Path
 from post_to_bluesky import (
     _FILENAME_UNSAFE_RE,
     _slug,
+    display_identifier,
     ensure_english_fields,
     link_for,
     load_bills,
@@ -161,7 +162,7 @@ def build_highlight_replies(highlights: list[dict]) -> tuple[list[str], list[tup
                                    include_link_notice=False)
         replies.append(text)
         if url:
-            label = f"{b['state'] or '?'} {b['identifier']}"
+            label = f"{b['state'] or '?'} {display_identifier(b['state'], b['identifier'])}"
             link_items.append((label, url))
         print(f"  prepared reply: {b['state']} {b['identifier']} "
               f"({b['action_date']}, score={b.get('_score', 0)}, "

@@ -31,6 +31,7 @@ from post_to_bluesky import (
     _strip_act_name_echo,
     _strip_headline_echo,
     best_display_text,
+    display_identifier,
     ensure_english_fields,
     extract_fields,
     format_action_line,
@@ -194,8 +195,9 @@ def x_summary_budget(b: dict, headline: str, include_link_notice: bool = True) -
     a single final post), so the summary reclaims that ~22 chars."""
     emoji = TOPIC.emoji_for(b)
     state_label = b["state"] or "?"
+    ident_disp = display_identifier(b["state"], b["identifier"])
     display = best_display_text(b, headline=headline).strip()
-    prefix = f"{emoji} {state_label} {b['identifier']} — "
+    prefix = f"{emoji} {state_label} {ident_disp} — "
     head_len = x_weighted_len(prefix) + x_weighted_len(display)
     action_line = format_action_line(b["action_desc"], b["action_date"])
     action_block_len = x_weighted_len(f"\n\n{action_line}") if action_line else 0
@@ -229,6 +231,7 @@ def compose_x_post(b: dict, summary: str, headline: str = "",
     notice_block = REPLY_NOTICE_BLOCK if (url and include_link_notice) else ""
 
     state_label = b["state"] or "?"
+    ident_disp = display_identifier(b["state"], b["identifier"])
     display = best_display_text(b, headline=headline).strip()
     summary = (summary or "").strip()
     # Drop a leading act name from the summary when it just echoes the headline.
@@ -245,7 +248,7 @@ def compose_x_post(b: dict, summary: str, headline: str = "",
     action_line = format_action_line(b["action_desc"], b["action_date"])
     action_block = f"\n\n{action_line}" if action_line else ""
 
-    prefix = f"{emoji} {state_label} {b['identifier']} — "
+    prefix = f"{emoji} {state_label} {ident_disp} — "
     head = f"{prefix}{display}"
 
     def assemble(h: str, s: str, a: str, n: str) -> str:

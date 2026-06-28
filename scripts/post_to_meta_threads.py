@@ -46,6 +46,7 @@ from post_to_bluesky import (
     _strip_act_name_echo,
     _strip_headline_echo,
     best_display_text,
+    display_identifier,
     ensure_english_fields,
     extract_fields,
     format_action_line,
@@ -170,12 +171,13 @@ def threads_summary_budget(b: dict, headline: str, include_topic: bool = False) 
     post-hoc trim."""
     emoji = TOPIC.emoji_for(b)
     state_label = b["state"] or "?"
+    ident_disp = display_identifier(b["state"], b["identifier"])
     display = best_display_text(b, headline=headline).strip()
     if include_topic:
         # Topic line + "\n" + clean bill line (the emoji rides the topic line).
-        head_len = len(topic_header(b)) + 1 + len(f"{state_label} {b['identifier']} — ") + len(display)
+        head_len = len(topic_header(b)) + 1 + len(f"{state_label} {ident_disp} — ") + len(display)
     else:
-        head_len = len(f"{emoji} {state_label} {b['identifier']} — ") + len(display)
+        head_len = len(f"{emoji} {state_label} {ident_disp} — ") + len(display)
     action_line = format_action_line(b["action_desc"], b["action_date"])
     action_block_len = len(f"\n\n{action_line}") if action_line else 0
     summary_sep_len = 2  # the "\n\n" before the summary block
@@ -197,6 +199,7 @@ def compose_threads_post(b: dict, summary: str, headline: str = "",
     url = link_for(b)
 
     state_label = b["state"] or "?"
+    ident_disp = display_identifier(b["state"], b["identifier"])
     display = best_display_text(b, headline=headline).strip()
     summary = (summary or "").strip()
     # Drop a leading act name / whole leading sentence that just echoes the
@@ -216,9 +219,9 @@ def compose_threads_post(b: dict, summary: str, headline: str = "",
     # line the emoji leads that line and the bill line stays clean; otherwise the
     # emoji leads the bill line as before.
     if include_topic:
-        head_lead = f"{topic_header(b)}\n{state_label} {b['identifier']} — "
+        head_lead = f"{topic_header(b)}\n{state_label} {ident_disp} — "
     else:
-        head_lead = f"{emoji} {state_label} {b['identifier']} — "
+        head_lead = f"{emoji} {state_label} {ident_disp} — "
     head = f"{head_lead}{display}"
 
     def assemble(h: str, s: str, a: str) -> str:

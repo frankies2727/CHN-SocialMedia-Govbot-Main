@@ -1453,6 +1453,30 @@ def _leading_int(s: str) -> str:
     return m.group(1) if m else ""
 
 
+_RI_BILL_IDENT_RE = re.compile(r"^([HS])B\s*(\d.*)$")
+
+
+def display_identifier(state: str, identifier: str) -> str:
+    """Human-facing bill number for posts/cards.
+
+    Rhode Island officially numbers its bills with a single-letter chamber
+    prefix — House bills are ``H####`` and Senate bills are ``S####`` — but the
+    OpenStates feed records them as ``HB####``/``SB####``. Collapse the doubled
+    letter for RI display only; resolutions (HR/SR/HJR/SJR) keep their codes.
+
+    The canonical ``identifier`` is left untouched everywhere it matters for
+    machine matching — dedup keys, the URL builders, on-disk source paths, and
+    no-match diagnostics — so this only affects what a reader sees.
+    """
+    ident = (identifier or "").strip()
+    if (state or "").upper() != "RI":
+        return ident
+    m = _RI_BILL_IDENT_RE.match(ident)
+    if m:
+        return f"{m.group(1)}{m.group(2)}"
+    return ident
+
+
 # ---------- per-state builders --------------------------------------------
 # Patterns marked "verified" follow the documented public URL format; patterns
 # marked "best-effort" are the most reasonable guess from the state's URL
@@ -2346,10 +2370,11 @@ def summary_budget(b: dict, headline: str, head_cap: int | None = None) -> int:
     fit rather than dropping the summary."""
     emoji = TOPIC.emoji_for(b)
     state_label = b["state"] or "?"
+    ident_disp = display_identifier(b["state"], b["identifier"])
     display = best_display_text(b, headline=headline).strip()
     if head_cap is not None and len(display) > head_cap:
         display = display[:head_cap]
-    prefix = f"{emoji} {state_label} {b['identifier']} — "
+    prefix = f"{emoji} {state_label} {ident_disp} — "
     head_len = len(prefix) + len(display)
     action_line = format_action_line(b["action_desc"], b["action_date"])
     action_block_len = len(f"\n\n{action_line}") if action_line else 0
@@ -2367,6 +2392,7 @@ def compose_post(b: dict, summary: str, headline: str = "",
     link_block = f"\n\n{LINK_PREFIX}{LINK_ANCHOR}" if link else ""
 
     state_label = b["state"] or "?"
+    ident_disp = display_identifier(b["state"], b["identifier"])
     display = best_display_text(b, headline=headline).strip()
     summary = (summary or "").strip()
     # Drop a leading act name from the summary when it just echoes the headline
@@ -2385,8 +2411,8 @@ def compose_post(b: dict, summary: str, headline: str = "",
     action_line = format_action_line(b["action_desc"], b["action_date"])
     action_block = f"\n\n{action_line}" if action_line else ""
 
-    prefix_len = len(emoji) + len(f" {state_label} {b['identifier']} — ")
-    head = f"{emoji} {state_label} {b['identifier']} — {display}"
+    prefix_len = len(emoji) + len(f" {state_label} {ident_disp} — ")
+    head = f"{emoji} {state_label} {ident_disp} — {display}"
 
     def assemble(h, s, a, l):
         return h + s + a + l
@@ -2401,7 +2427,7 @@ def compose_post(b: dict, summary: str, headline: str = "",
         avail = MAX_POST - len(link_block) - len(summary_block) - len(action_block) \
                 - prefix_len - 1
         display = _smart_truncate(display, avail + 1) if avail > 0 else ""
-        head = f"{emoji} {state_label} {b['identifier']} — {display}".rstrip(" —")
+        head = f"{emoji} {state_label} {ident_disp} — {display}".rstrip(" —")
         text = assemble(head, summary_block, action_block, link_block)
 
     # Trim order: summary → title in head → action description. Date+action
@@ -2423,7 +2449,7 @@ def compose_post(b: dict, summary: str, headline: str = "",
             display_trimmed = _smart_truncate(display, avail + 1)
         else:
             display_trimmed = ""
-        head = f"{emoji} {state_label} {b['identifier']} — {display_trimmed}".rstrip(" —")
+        head = f"{emoji} {state_label} {ident_disp} — {display_trimmed}".rstrip(" —")
         text = assemble(head, summary_block, action_block, link_block)
 
     # Only reached when the action description itself is so long it can't fit
@@ -2447,7 +2473,7 @@ def compose_post(b: dict, summary: str, headline: str = "",
         text = assemble(head, summary_block, action_block, link_block)
 
     state_name = STATE_FULL_NAME.get(b["state"], b["state"] or "Bill")
-    embed_title = f"{state_name} {b['identifier']}"[:300]
+    embed_title = f"{state_name} {ident_disp}"[:300]
     embed_desc = (summary or _clean_for_llm(b["abstract"]) or display)[:280]
     return text, link, embed_title, embed_desc
 

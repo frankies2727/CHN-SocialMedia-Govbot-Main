@@ -61,6 +61,7 @@ from post_to_bluesky import (
     _strip_headline_echo,
     STATE_FULL_NAME,
     best_display_text,
+    display_identifier,
     ensure_english_fields,
     extract_fields,
     format_action_line,
@@ -199,12 +200,13 @@ def compose_instagram_caption(b: dict, summary: str, headline: str = "") -> tupl
     url = link_for(b)
 
     state_label = b["state"] or "?"
+    ident_disp = display_identifier(b["state"], b["identifier"])
     display = best_display_text(b, headline=headline).strip()
     summary = (summary or "").strip()
     summary = _strip_act_name_echo(summary, display)
     summary = _strip_headline_echo(summary, display)
 
-    head = f"{emoji} {state_label} {b['identifier']} — {display}"
+    head = f"{emoji} {state_label} {ident_disp} — {display}"
     summary_block = (
         f"\n\n{summary}"
         if summary and _normalize(summary) != _normalize(display)
@@ -226,9 +228,9 @@ def compose_instagram_caption(b: dict, summary: str, headline: str = "") -> tupl
         summary_block = f"\n\n{summary}" if len(summary) > 20 else ""
         caption = assemble(head, summary_block)
     if len(caption) > MAX_CAPTION:
-        fixed = len(assemble(f"{emoji} {state_label} {b['identifier']} — ", summary_block))
+        fixed = len(assemble(f"{emoji} {state_label} {ident_disp} — ", summary_block))
         display_trimmed = _smart_truncate(display, MAX_CAPTION - fixed)
-        head = f"{emoji} {state_label} {b['identifier']} — {display_trimmed}".rstrip(" —")
+        head = f"{emoji} {state_label} {ident_disp} — {display_trimmed}".rstrip(" —")
         caption = assemble(head, summary_block)
     return caption, url
 

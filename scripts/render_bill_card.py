@@ -38,6 +38,7 @@ falls back to DejaVu so it never crashes.
 
 from __future__ import annotations
 
+import re
 import sys
 from functools import lru_cache
 from pathlib import Path
@@ -479,6 +480,15 @@ def render_card(
     state = (bill.get("state") or "").upper()
     state_name = STATE_FULL_NAME.get(state, state or "Legislature")
     identifier = (bill.get("identifier") or "").strip()
+    # Rhode Island officially numbers bills H####/S####; the OpenStates feed
+    # stores them as HB####/SB####. Show the single-letter form on the card
+    # (resolutions HR/SR/HJR/SJR keep their codes). Mirrors
+    # post_to_bluesky.display_identifier; kept inline so this module stays
+    # standalone (it deliberately doesn't import the posting pipeline).
+    if state == "RI":
+        m = re.match(r"^([HS])B\s*(\d.*)$", identifier)
+        if m:
+            identifier = f"{m.group(1)}{m.group(2)}"
     display = (headline or bill.get("title") or "").strip()
     summary = (summary or "").strip()
 
