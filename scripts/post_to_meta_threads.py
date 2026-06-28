@@ -153,28 +153,46 @@ def save_raw_record(b: dict) -> None:
 # Composition
 # ---------------------------------------------------------------------------
 
-def threads_summary_budget(b: dict, headline: str) -> int:
+def topic_header(b: dict) -> str:
+    """Topic label line shown atop each daily Threads post. The single Threads
+    account spans every topic, so the daily feed interleaves bills from Labor,
+    Healthcare, Transportation, etc. Tagging each post with its topic's display
+    name (led by the bill's emoji) tells the mixed feed apart at a glance."""
+    return f"{TOPIC.emoji_for(b)} {TOPIC.display_name}"
+
+
+def threads_summary_budget(b: dict, headline: str, include_topic: bool = False) -> int:
     """Character budget available for the summary block inside a Threads post,
-    given the head (emoji + state + id + display) and the action line. The bill
-    URL is NOT counted — it ships as link_attachment, outside the body. Returned
-    so the caller can ask the LLM for a summary that fits cleanly instead of
-    relying on compose_threads_post's post-hoc trim."""
+    given the head (emoji + state + id + display, plus an optional topic line)
+    and the action line. The bill URL is NOT counted — it ships as
+    link_attachment, outside the body. Returned so the caller can ask the LLM
+    for a summary that fits cleanly instead of relying on compose_threads_post's
+    post-hoc trim."""
     emoji = TOPIC.emoji_for(b)
     state_label = b["state"] or "?"
     display = best_display_text(b, headline=headline).strip()
-    prefix = f"{emoji} {state_label} {b['identifier']} — "
-    head_len = len(prefix) + len(display)
+    if include_topic:
+        # Topic line + "\n" + clean bill line (the emoji rides the topic line).
+        head_len = len(topic_header(b)) + 1 + len(f"{state_label} {b['identifier']} — ") + len(display)
+    else:
+        head_len = len(f"{emoji} {state_label} {b['identifier']} — ") + len(display)
     action_line = format_action_line(b["action_desc"], b["action_date"])
     action_block_len = len(f"\n\n{action_line}") if action_line else 0
     summary_sep_len = 2  # the "\n\n" before the summary block
     return MAX_THREADS - head_len - action_block_len - summary_sep_len
 
 
-def compose_threads_post(b: dict, summary: str, headline: str = "") -> tuple[str, str]:
+def compose_threads_post(b: dict, summary: str, headline: str = "",
+                         include_topic: bool = False) -> tuple[str, str]:
     """Return (post_text, bill_url). The URL is NOT in post_text — the caller
     passes it as link_attachment so it renders as a preview and costs nothing
     against the 500-char body budget. Trim order mirrors Bluesky/X:
-    summary -> display in head -> action line."""
+    summary -> display in head -> action line.
+
+    When include_topic is set, a topic label line is prepended so the post
+    declares which topic the bill belongs to — used by the daily poster, whose
+    single Threads account spans every topic. The weekly digest leaves it off
+    because its root post already names the topic for the whole thread."""
     emoji = TOPIC.emoji_for(b)
     url = link_for(b)
 
@@ -194,8 +212,14 @@ def compose_threads_post(b: dict, summary: str, headline: str = "") -> tuple[str
     action_line = format_action_line(b["action_desc"], b["action_date"])
     action_block = f"\n\n{action_line}" if action_line else ""
 
-    prefix = f"{emoji} {state_label} {b['identifier']} — "
-    head = f"{prefix}{display}"
+    # head_lead is everything before the (trimmable) display title. With a topic
+    # line the emoji leads that line and the bill line stays clean; otherwise the
+    # emoji leads the bill line as before.
+    if include_topic:
+        head_lead = f"{topic_header(b)}\n{state_label} {b['identifier']} — "
+    else:
+        head_lead = f"{emoji} {state_label} {b['identifier']} — "
+    head = f"{head_lead}{display}"
 
     def assemble(h: str, s: str, a: str) -> str:
         return h + s + a
@@ -209,9 +233,9 @@ def compose_threads_post(b: dict, summary: str, headline: str = "") -> tuple[str
         text = assemble(head, summary_block, action_block)
 
     if len(text) > MAX_THREADS:
-        fixed = len(assemble(prefix, summary_block, action_block))
+        fixed = len(assemble(head_lead, summary_block, action_block))
         display_trimmed = _smart_truncate(display, MAX_THREADS - fixed)
-        head = f"{prefix}{display_trimmed}".rstrip(" —")
+        head = f"{head_lead}{display_trimmed}".rstrip(" —")
         text = assemble(head, summary_block, action_block)
 
     if len(text) > MAX_THREADS and action_block:
@@ -369,9 +393,9 @@ def _post_forced_bill(records: list[dict]) -> int:
 
     ensure_english_fields(b)
     headline = shorten_title(b)
-    budget = threads_summary_budget(b, headline)
+    budget = threads_summary_budget(b, headline, include_topic=True)
     summary_text = summarize(b, max_chars=budget) if budget >= MIN_SUMMARY_CHARS else ""
-    text, url = compose_threads_post(b, summary_text, headline=headline)
+    text, url = compose_threads_post(b, summary_text, headline=headline, include_topic=True)
 
     print(f"\n--- {b['state'] or '?'} {b['identifier']} ({b['action_date']}) ---")
     print(text)
@@ -582,9 +606,9 @@ def main() -> int:
     for b in to_post:
         ensure_english_fields(b)
         headline = shorten_title(b)
-        budget = threads_summary_budget(b, headline)
+        budget = threads_summary_budget(b, headline, include_topic=True)
         summary_text = summarize(b, max_chars=budget) if budget >= MIN_SUMMARY_CHARS else ""
-        text, url = compose_threads_post(b, summary_text, headline=headline)
+        text, url = compose_threads_post(b, summary_text, headline=headline, include_topic=True)
 
         print(f"\n--- {b['state'] or '?'} {b['identifier']} ({b['action_date']}) ---")
         print(text)
