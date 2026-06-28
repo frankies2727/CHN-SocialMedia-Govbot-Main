@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Prohibits state or local authorities from voluntary participation in federal civil immigration enforcement. It would not prohibit compliance with a judicial warrant or court order issued by a court of competent jurisdiction.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB3116",
+    "legislative_session": "2026",
+    "title": "AN ACT RELATING TO STATE AFFAIRS AND GOVERNMENT -- RESTRICTIONS ON STATE AND MUNICIPAL COOPERATION WITH CIVIL IMMIGRATION ENFORCEMENT"
+  },
+  "id": "SB3116",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-3"
+      ],
+      "date": "2026-05-27",
+      "description": "05/27/2026 Placed on Senate Calendar  (06/03/2026)",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB3116"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2026/bills/SB3116/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2026/bills/SB3116/logs/20260527T000000Z_05272026_placed_on_senate_calendar_06032026.json"
+  },
+  "timestamp": "20260527T000000Z"
+}

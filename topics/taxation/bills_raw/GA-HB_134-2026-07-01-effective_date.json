@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Title 48 of the Official Code of Georgia Annotated, relating to revenue and taxation, so as to provide for definitions; to revise and expand a sales tax exemption for manufactured homes; to provide for a sunset date; to provide for legislative findings; to provide for related matters; to provide for an effective date; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 134",
+    "legislative_session": "2025_26",
+    "subject": [
+      "CONSERVATION AND NATURAL RESOURCES",
+      "REVENUE AND TAXATION"
+    ],
+    "title": "Sales and use tax; manufactured homes; revise and expand exemption"
+  },
+  "id": "HB 134",
+  "log": {
+    "action": {
+      "date": "2026-07-01",
+      "description": "Effective Date",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "HB 134"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB134/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB134/logs/20260701T000000Z_effective_date.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

@@ -3,6 +3,7 @@
     "AK|HJR13|2025-07-30|(H) 12:05 P.M. 6/17/25 Transmitted to Go",
     "AL|HB13|2026-04-02|Read for the Second Time and placed on t",
     "AL|SB242|2026-03-11|Enacted",
+    "CA|AB135|2026-06-26|From committee chair, with author's amen",
     "CA|AB1807|2026-02-10|Read first time. To print.",
     "CA|AB1807|2026-03-16|From committee chair, with author's amen",
     "CA|AB1807|2026-04-07|",
@@ -128,6 +129,7 @@
     "NJ|S1806|2026-01-13|WITHDRAWN APP P.L.2025, c.256.",
     "NJ|SJR41|2026-01-13|WITHDRAWN APP P.L.2025, JR-22.",
     "RI|HR8616|2026-06-04|06/04/2026 House read and passed",
+    "RI|SB3116|2026-05-27|05/27/2026 Placed on Senate Calendar  (0",
     "RI|SB3116|2026-06-03|",
     "RI|SB3116|2026-06-03|06/03/2026 Senate read and passed",
     "TN|HB 1395|2026-01-21|Placed on s/c cal Criminal Justice Subco",
@@ -184,7 +186,7 @@
     "WV|HB 4059|2026-01-14|To Health and Human Resources",
     "WV|HB 4148|2026-01-14|To Government Organization"
   ],
-  "last_run": "2026-06-27T09:31:06.070787+00:00",
+  "last_run": "2026-06-28T10:02:16.476161+00:00",
   "state_last_posted": {
     "VT": "2026-05-16T02:59:09.026935+00:00",
     "AK": "2026-05-16T02:59:09.026935+00:00",
@@ -200,10 +202,10 @@
     "WA": "2026-06-17T11:42:09.679093+00:00",
     "DE": "2026-06-26T10:25:48.031856+00:00",
     "MO": "2026-06-19T11:23:55.551242+00:00",
-    "CA": "2026-06-27T09:28:56.107891+00:00",
+    "CA": "2026-06-28T10:00:04.896943+00:00",
     "FL": "2026-06-18T13:38:20.220344+00:00",
     "TN": "2026-05-20T15:40:25.661860+00:00",
     "AL": "2026-06-16T12:01:24.706349+00:00",
-    "RI": "2026-06-27T09:28:56.107891+00:00"
+    "RI": "2026-06-28T10:00:04.896943+00:00"
   }
 }

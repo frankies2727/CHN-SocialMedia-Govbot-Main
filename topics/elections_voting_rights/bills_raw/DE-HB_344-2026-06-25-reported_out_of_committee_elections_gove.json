@@ -1,0 +1,46 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act clarifies and streamlines the disclosure and enforcement provisions of Delaware’s campaign finance laws.  Among other things, this Act does the following: \r\n(1) Requires a political committee to submit written documentation of all loans provided to the committee and requires that proceeds of a loan are deposited into the committee’s account within 3 business days.  \r\n(2) Prohibits candidates from charging interest on personal loans to a candidate committee.\r\n(3) Requires political committees to retain records for 5 years, rather than 3 years.    \r\n(4) Requires the State Election Commissioner to provide the Division of Civil Rights and Public Trust (within the DOJ) with a monthly list of alleged violations of campaign finance laws and further clarifies that the Division must investigate and prosecute violations of campaign finance laws. \r\n(5) Expands the 1-time extension permitted for filing tardy reports from 24 hours to 48 hours after the reporting deadline.  \r\n(6) Requires the Division of Civil Rights and Public Trust to submit an annual report of its activity to the Governor and the General Assembly.\r\n(7) Authorizes the Commissioner to create regulations relating to political committee audits.\r\n(8) Requires the Commissioner to create a mandatory biennial training program for candidates and treasurers.\r\n(9) Prohibits political committees from engaging in campaign finance activities 30 days after the issuance of a citation if the citation has not been resolved in that time.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 344",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLES 15 AND 29 OF THE DELAWARE CODE RELATING TO CAMPAIGN FINANCE."
+  },
+  "id": "HB 344",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "description": "Reported Out of Committee (Elections & Government Affairs) in Senate with 2 Favorable, 2 On Its Merits",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-25",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Elections & Government Affairs"
+        }
+      ],
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143047"
+        }
+      ]
+    },
+    "bill_id": "HB 344"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB344/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB344/logs/20260625T000000Z_reported_out_of_committee_elections_government_affairs_in_senate_with_2_favorable_2_on_its_merits.json"
+  },
+  "timestamp": "20260625T000000Z"
+}

@@ -41,6 +41,7 @@
     "DE|HB 344|2026-06-11|",
     "DE|HB 344|2026-06-11|Amendment HA 1 to HB 344 - Passed In Hou",
     "DE|HB 344|2026-06-11|Passed By House. Votes: 24 YES 14 NO 1 N",
+    "DE|HB 344|2026-06-25|Reported Out of Committee (Elections & G",
     "DE|HB 444|2026-06-16|Reported Out of Committee (Appropriation",
     "DE|HB 444|2026-06-18|",
     "DE|HB 444|2026-06-18|Amendment HA 1 to HB 444 - Introduced an",
@@ -171,12 +172,13 @@
     "MS|SC511|2026-02-03|Died In Committee",
     "NJ|A1196|2026-01-13|WITHDRAWN APP P.L.2025, c.204.",
     "NJ|A1555|2026-01-13|WITHDRAWN APP P.L.2025, c.322.",
+    "RI|SB3339|2026-06-18|06/18/2026 Transmitted to Governor",
     "RI|SB3339|2026-06-22|06/22/2026 Signed by Governor",
     "WA|SB 5840|2026-03-12|By resolution, returned to Senate Rules ",
     "WA|SB 5892|2026-03-09|",
     "WA|SB 5892|2026-03-09|Passed final passage; yeas, 30; nays, 19"
   ],
-  "last_run": "2026-06-27T09:24:02.343460+00:00",
+  "last_run": "2026-06-28T09:54:56.234841+00:00",
   "state_last_posted": {
     "MO": "2026-06-17T11:35:37.227681+00:00",
     "GA": "2026-06-24T10:24:44.602616+00:00",
@@ -187,9 +189,9 @@
     "AL": "2026-06-20T10:00:35.397762+00:00",
     "FL": "2026-06-17T11:35:37.227681+00:00",
     "MS": "2026-06-18T13:33:23.067061+00:00",
-    "DE": "2026-06-27T09:21:17.147593+00:00",
+    "DE": "2026-06-28T09:52:49.246755+00:00",
     "WA": "2026-06-20T10:00:35.397762+00:00",
     "MA": "2026-06-14T15:53:06.636160+00:00",
-    "RI": "2026-06-26T10:19:27.128458+00:00"
+    "RI": "2026-06-28T09:52:49.246755+00:00"
   }
 }

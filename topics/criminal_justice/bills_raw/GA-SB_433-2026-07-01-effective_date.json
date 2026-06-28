@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Article 3 of Chapter 2 of Title 40 of the Official Code of Georgia Annotated, relating to prestige license plates and special plates for certain persons and vehicles, so as to provide for special license plates for persons with autism spectrum disorder or a developmental disability and for such person's spouse, parent, or legal guardian; to amend Chapter 8 of Chapter 35 of the Official Code of Georgia Annotated, relating to employment and training of peace officers, so as to provide for training regarding encounters with persons with autism spectrum disorder or a developmental disability; to provide for collaboration with the Department of Community Health and nonprofit organizations regarding such training; to provide for a short title; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 433",
+    "legislative_session": "2025_26",
+    "subject": [
+      "LAW ENFORCEMENT OFFICERS AND AGENCIES",
+      "MOTOR VEHICLES AND TRAFFIC"
+    ],
+    "title": "\"Rio's Law\""
+  },
+  "id": "SB 433",
+  "log": {
+    "action": {
+      "date": "2026-07-01",
+      "description": "Effective Date",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "SB 433"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB433/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB433/logs/20260701T000000Z_effective_date.json"
+  },
+  "timestamp": "20260701T000000Z"
+}
