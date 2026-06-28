@@ -3073,6 +3073,16 @@ def main() -> int:
             except requests.HTTPError as e:
                 print(f"  ! post failed: {e.response.status_code} {e.response.text}", file=sys.stderr)
                 continue
+            except requests.RequestException as e:
+                # Network-level failure (read timeout, connection reset, DNS) —
+                # bsky.social is intermittently slow. Skip this bill rather than
+                # letting the exception crash the whole topic run and abort the
+                # bills queued behind it. The bill isn't marked seen, so the next
+                # scheduled run retries it. We deliberately don't retry inline:
+                # createRecord isn't idempotent, and a read timeout can mean the
+                # post already landed server-side, so a retry risks duplicates.
+                print(f"  ! post failed (network): {e}", file=sys.stderr)
+                continue
 
         if SAVE_STATE:
             seen.add(b["dedup_key"])
