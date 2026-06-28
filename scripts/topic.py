@@ -299,6 +299,47 @@ class Topic:
                 return True
         return False
 
+    def matching_excerpt(self, b: dict, max_chars: int = 300) -> str:
+        """Return the single abstract sentence that earned this topic's match —
+        the provision whose keywords pulled the bill into the feed.
+
+        Omnibus bills (e.g. a budget trailer bill touching 30+ unrelated
+        programs) can match a narrow topic on one buried line item. The
+        summarizer, handed the full bill text, then picks a different, more
+        prominent provision, so the post reads as off-topic for the feed it
+        ran in. Feeding this excerpt back to the copy prompt anchors the
+        headline and summary on the provision that actually justifies the
+        topic placement.
+
+        Returns "" when the title itself carried the topic signal (the whole
+        bill is already on-topic, so no anchoring is needed) or when no
+        keyword-bearing sentence can be isolated from the abstract."""
+        title_raw = b.get("title") or ""
+        title_hits = {m.group(1).lower() for m in self._keyword_re.finditer(title_raw.lower())}
+        if title_hits and not _is_proper_name_only_match(title_raw, title_hits):
+            return ""
+        abstract = b.get("abstract") or ""
+        if not abstract:
+            return ""
+        # Pick the sentence with the most distinct core-keyword hits; ties go to
+        # the first such sentence (earliest provision in the abstract).
+        best = ""
+        best_score = 0
+        for sentence in re.findall(r"[^.!?]*[.!?]", abstract):
+            hits = {m.group(1).lower() for m in self._keyword_re.finditer(sentence.lower())}
+            if len(hits) > best_score:
+                best_score = len(hits)
+                best = sentence
+        if best_score == 0:
+            return ""
+        best = " ".join(best.split())
+        # Drop a leading provision marker like "(29)" that prefixes each item in
+        # an enumerated omnibus abstract — it's a citation, not content.
+        best = re.sub(r"^\(\d+\)\s*", "", best)
+        if len(best) > max_chars:
+            best = best[:max_chars].rstrip() + "…"
+        return best
+
     def emoji_for(self, b: dict) -> str:
         s = " ".join([b.get("title", ""), b.get("abstract", ""), b.get("subjects", "")]).lower()
         for rule in self.emojis:
