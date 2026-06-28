@@ -1243,12 +1243,34 @@ def _post_copy(b: dict) -> dict:
     state_name = STATE_FULL_NAME.get(b.get("state") or "", b.get("state") or "")
     home_state_line = f"This is a {state_name} bill.\n" if state_name else ""
 
+    # When this bill landed in the feed because of one buried provision (an
+    # omnibus bill matching a narrow topic on a single line item), the full
+    # text the model reads is dominated by other, unrelated provisions, so the
+    # headline/summary drift off-topic for the feed they ran in. Anchor the
+    # copy on the exact provision that earned the topic placement so the post
+    # justifies why it belongs in this feed. Empty when the title itself
+    # carried the topic signal (the whole bill is already on-topic).
+    try:
+        topic_excerpt = TOPIC.matching_excerpt(b)
+    except Exception:
+        topic_excerpt = ""
+    topic_anchor_note = ""
+    if topic_excerpt:
+        topic_anchor_note = (
+            f"FEED FOCUS: This post runs in a feed about {TOPIC.prompt_topic}. "
+            f"The bill was selected for this feed because of this specific "
+            f"provision:\n\"{topic_excerpt}\"\n"
+            f"Base BOTH the headline and the summary on THAT provision — what it "
+            f"does and who it affects. The bill may also cover unrelated "
+            f"subjects; do not let them displace this one.\n\n"
+        )
+
     # For blob bills the title is the same wall of legalese as the body, so don't
     # send it as a separate "Title:" line.
     if blob:
-        user_prompt = f"{amendatory_note}{home_state_line}Bill text:\n{body[:char_cap]}"
+        user_prompt = f"{amendatory_note}{topic_anchor_note}{home_state_line}Bill text:\n{body[:char_cap]}"
     else:
-        user_prompt = f"{amendatory_note}{home_state_line}Title: {title}\nBill text:\n{body[:char_cap]}"
+        user_prompt = f"{amendatory_note}{topic_anchor_note}{home_state_line}Title: {title}\nBill text:\n{body[:char_cap]}"
 
     try:
         r = requests.post(
