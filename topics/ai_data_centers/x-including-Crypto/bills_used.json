@@ -21,6 +21,7 @@
     "CA|AB2335|2026-05-28|In Senate. Read first time. To Com. on R",
     "CA|AB2392|2026-05-14|From committee: Do pass. (Ayes 14. Noes ",
     "CA|AB2409|2026-05-27|Read third time. Passed. Ordered to the ",
+    "CA|AB2504|2026-06-25|From committee: Do pass and re-refer to ",
     "CA|AB2713|2026-05-21|In Senate. Read first time. To Com. on R",
     "CA|SB1168|2026-05-14|",
     "CA|SB1168|2026-05-14|From committee: Do pass. (Ayes 5. Noes 2",
@@ -39,6 +40,7 @@
     "DE|HB 441|2026-06-09|Reported Out of Committee (Economic Deve",
     "DE|HB 441|2026-06-11|",
     "DE|HB 441|2026-06-11|Passed By House. Votes: 40 YES 1 ABSENT",
+    "DE|HB 453|2026-06-24|Amendment HA 1 to HS 1 - Introduced and ",
     "DE|HB 453|2026-06-25|Amendment HA 2 to HS 1 - Introduced and ",
     "DE|HB 465|2026-06-11|",
     "DE|HB 465|2026-06-11|Passed By House. Votes: 38 YES 1 NO 2 AB",
@@ -106,6 +108,7 @@
     "MO|HB 1747|2026-04-09|HCS Reported Do Pass (H) - AYES: 5 NOES:",
     "MO|HB 1970|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HB 2239|2026-05-15|Referred: Emerging Issues(H)",
+    "MO|HB 3043|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HB 3369|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HB 3390|2026-05-15|Referred: Emerging Issues(H)",
     "MO|SB 1012|2026-04-30|SA 2 to SS#2 for SCS S offered & adopted",
@@ -137,6 +140,7 @@
     "PR|PS0934|2026-06-15|Comisi\u00f3n no recomienda aprobaci\u00f3n de la ",
     "PR|PS1297|2026-05-28|Aparece en Primera Lectura del Senado",
     "RI|HB7349|2026-06-22|06/22/2026 Signed by Governor",
+    "RI|HB7350|2026-06-22|06/22/2026 Signed by Governor",
     "RI|SB2197|2026-06-22|06/22/2026 Signed by Governor",
     "RI|SB2570|2026-06-22|06/22/2026 Signed by Governor",
     "WA|SB 5956|2026-02-24|ED - Majority; do pass with amendment(s)",
@@ -158,16 +162,16 @@
     "WA": "2026-06-01T18:04:50.925907+00:00",
     "GA": "2026-06-24T11:45:55.540518+00:00",
     "MN": "2026-06-02T12:32:48.851632+00:00",
-    "CA": "2026-06-28T06:13:48.214545+00:00",
+    "CA": "2026-06-28T10:44:01.298839+00:00",
     "MS": "2026-05-30T10:31:21.713792+00:00",
-    "MO": "2026-06-28T06:13:48.214545+00:00",
+    "MO": "2026-06-28T10:44:01.298839+00:00",
     "AL": "2026-06-05T23:32:07.647880+00:00",
     "FL": "2026-06-04T11:37:54.949048+00:00",
     "NJ": "2026-05-27T03:05:58.226214+00:00",
     "IL": "2026-05-26T01:08:56.456572+00:00",
     "PR": "2026-06-28T06:13:48.214545+00:00",
-    "DE": "2026-06-28T06:13:48.214545+00:00",
-    "RI": "2026-06-27T10:37:05.870630+00:00"
+    "DE": "2026-06-28T10:44:01.298839+00:00",
+    "RI": "2026-06-28T10:44:01.298839+00:00"
   },
-  "last_run": "2026-06-28T06:19:01.409676+00:00"
+  "last_run": "2026-06-28T10:48:05.827772+00:00"
 }
