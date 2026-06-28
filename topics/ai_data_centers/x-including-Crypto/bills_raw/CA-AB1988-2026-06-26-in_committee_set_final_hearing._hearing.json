@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law requires, among other things related to ensuring the safety of companion chatbots, an operator to prevent a companion chatbot on its companion chatbot platform from engaging with users unless the operator maintains a protocol for preventing the production of suicidal ideation, suicide, or self-harm content to the user, as specified.\n\nThis bill, the Preventing AI User Self Endangerment (PAUSE) Act, would require an operator to adopt and make publicly available a policy governing its protocol for identifying and responding to credible crisis expressions and, for each companion chatbot an operator makes available to users in this state, implement a system for monitoring and detecting credible crisis expressions in user conversations with companion chatbots. The bill would require, if the monitoring system detects a credible crisis expression, the operator to take certain actions, including commence a crisis interruption pause, as specified. The bill would define \"credible crisis expression\" to mean a statement by a user of a companion chatbot that reasonably indicates, as determined through contextual analysis rather than keyword detection alone, intent to harm the user or others.\n\nThis bill would require an operator of a companion chatbot to document certain information related to credible crisis expressions and crisis interruption pauses and, beginning January 1, 2028, annually report that information to the Office of Suicide Prevention. The bill would provide for its enforcement, as specified.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1988",
+    "legislative_session": "20252026",
+    "subject": [
+      "Companionchatbots",
+      "crisisinterruptionpauses"
+    ],
+    "title": "Companion chatbots: crisis interruption pauses."
+  },
+  "id": "AB1988",
+  "log": {
+    "action": {
+      "description": "In committee: Set, final hearing. Hearing canceled at the request of author.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-26",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1988"
+        }
+      ]
+    },
+    "bill_id": "AB1988"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1988/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1988/logs/20260626T000000Z_in_committee_set_final_hearing_hearing_canceled_at_the_request_of_author.json"
+  },
+  "timestamp": "20260626T000000Z"
+}

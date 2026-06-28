@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This House Substitute for House Bill No. 453 prohibits surveillance-based price discrimination by forbidding the use of automated decision systems to set individualized consumer prices based on personal data, metadata, or proxy data, such as device identifiers and digital behavioral patterns, used to infer a consumer's socioeconomic status or urgency of purchase. While the Act establishes safe harbors for discounts based on lawful, objective criteria (e.g., military, student, or senior status), it ensures that rewards and loyalty programs are not used to circumvent these protections by requiring that such discounts remain uniform across membership and are not individualized through algorithmic profiling. \r\nThis Substitute differs from the original bill by adding a definition of electronic shelving labels and provides language that protects loyalty programs. It also carves out financial services and credit to align with federal regulations, changes the language used for location-based data, discounts for service interruptions, removes the term “risk-relevant data”, and provides a safe harbor provision with an opportunity to cure and a sunset date. Finally, this Substitute also includes a severability clause and an effective date of January 1, 2027.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 453",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 6 OF THE DELAWARE CODE RELATING TO CONSUMER PROTECTION AND SURVEILLANCE BASED PRICING DISCRIMINATION."
+  },
+  "id": "HB 453",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-introduction"
+      ],
+      "description": "Amendment HA 2 to HS 1 - Introduced and Placed With Bill",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-25",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143615"
+        }
+      ]
+    },
+    "bill_id": "HB 453"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB453/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB453/logs/20260625T000000Z_amendment_ha_2_to_hs_1_introduced_and_placed_with_bill.json"
+  },
+  "timestamp": "20260625T000000Z"
+}
