@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A RESOLUTION recognizing the growing danger that artificial intelligence deepfakes pose to election integrity, public trust, and the people of Georgia; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 43",
+    "legislative_session": "2026_ss",
+    "title": "Artificial intelligence deepfakes; growing danger to election integrity, public trust, and the people of Georgia; recognize"
+  },
+  "id": "HR 43",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-06-22",
+      "description": "House Read and Adopted",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HR 43"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2026_ss/bills/HR43/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2026_ss/bills/HR43/logs/20260622T000000Z.classification.passage.lower.json"
+  }
+}

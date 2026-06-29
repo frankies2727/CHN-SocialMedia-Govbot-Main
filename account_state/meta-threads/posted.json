@@ -1,6 +1,7 @@
 {
   "posted": [
     "CA|AB135|2026-06-26|From committee chair, with author's amen",
+    "CA|AB172|2026-06-26|From committee chair, with author's amen",
     "CA|AB2361|2026-06-25|From committee: Do pass and re-refer to ",
     "CA|AB2361|2026-06-25|Re-referred to Com. on APPR.",
     "CA|AB2361|2026-06-25|Withdrawn from committee.",
@@ -10,6 +11,7 @@
     "DE|HB 368|2026-06-24|Reported Out of Committee (Judiciary) in",
     "DE|HB 444|2026-06-25|Reported Out of Committee (Elections & G",
     "GA|HB 1020|2026-07-01|Effective Date",
+    "GA|HR 43|2026-06-22|House Read and Adopted",
     "GA|SB 170|2026-05-11|Act 487",
     "GA|SB 170|2026-05-11|Effective Date",
     "GA|SB 170|2026-05-11|Senate Date Signed by Governor",
@@ -19,6 +21,9 @@
     "MA|S1122|2026-04-30|Accompanied H5316",
     "MO|HB 1970|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HCR 37|2026-05-15|Referred: Emerging Issues(H)",
+    "NH|SB500|2026-06-22|Signed by the Governor on 06/12/2026; Ch",
+    "NH|SB627|2026-06-23|Enrolled (in recess of) 06/04/2026  HJ 1",
+    "NH|SB627|2026-06-23|Enrolled Adopted, VV, (In recess 06/04/2",
     "PR|PS0934|2026-06-15|Comisi\u00f3n no recomienda aprobaci\u00f3n de la ",
     "RI|HB7349|2026-06-22|06/22/2026 Signed by Governor",
     "RI|HB8524|2026-06-23|06/23/2026 Signed by Governor",
@@ -38,7 +43,8 @@
     "28279149963-1": 4,
     "28288332860-1": 4,
     "28311100379-1": 4,
-    "28321518732-1": 4
+    "28321518732-1": 4,
+    "28379627643-1": 4
   },
-  "last_run": "2026-06-28T12:19:11.187059+00:00"
+  "last_run": "2026-06-29T14:52:33.961855+00:00"
 }
