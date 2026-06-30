@@ -46,6 +46,7 @@ from datetime import datetime, timezone
 
 from post_to_bluesky import (
     JSONL_PATH,
+    STATE_FULL_NAME,
     TOPIC,
     US_STATES,
     load_bills,
@@ -111,13 +112,16 @@ def filter_by_states(bills: list[dict], states: list[str]) -> list[dict]:
 
 
 def states_label(states: list[str]) -> str:
-    """Scope label for headers and the root post: the state letters (e.g.
-    "GA, FL"), collapsing to a count only for a very long list."""
+    """Scope label for headers and the root post: full state names (e.g.
+    "Georgia & Florida"), collapsing to a count only for a long list."""
     if not states:
         return "all states"
-    if len(states) <= 12:
-        return ", ".join(states)
-    return f"{len(states)} states"
+    names = [STATE_FULL_NAME.get(c, c) for c in states]
+    if len(names) == 1:
+        return names[0]
+    if len(names) <= 6:
+        return ", ".join(names[:-1]) + " & " + names[-1]
+    return f"{len(names)} states"
 
 
 def featured_states(highlights: list[dict]) -> list[str]:
