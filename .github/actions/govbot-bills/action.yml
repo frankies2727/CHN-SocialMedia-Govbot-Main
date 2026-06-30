@@ -12,9 +12,17 @@ inputs:
     required: false
     default: "all"
   log-limit:
-    description: "Max records dumped by 'govbot logs --limit'."
+    description: "Max records dumped by 'govbot logs --limit' ('none' for the full log)."
     required: false
     default: "55200"
+  log-filter:
+    description: >
+      Value for 'govbot logs --filter'. Empty (the default) leaves govbot's
+      built-in relevance filter on, matching the daily/digest pipelines. Set to
+      'none' to disable it and dump every action (the scripts apply their own
+      topic + freshness filters) — useful for narrow ad-hoc state pulls.
+    required: false
+    default: ""
   shared-cache:
     description: >
       'true' shares one bills.jsonl across all runs on the same UTC day with the
@@ -96,7 +104,14 @@ runs:
 
         # POST_LIMIT is tiny and the scripts apply their own freshness + topic
         # filters, so a larger window is just wasted dump + parse time.
-        govbot logs --limit ${{ inputs.log-limit }} > bills.jsonl
+        # An optional --filter (e.g. 'none') turns off govbot's built-in
+        # relevance filter so the full action log is dumped for the scripts to
+        # filter themselves.
+        FILTER_ARG=""
+        if [ -n "${{ inputs.log-filter }}" ]; then
+          FILTER_ARG="--filter ${{ inputs.log-filter }}"
+        fi
+        govbot logs --limit ${{ inputs.log-limit }} $FILTER_ARG > bills.jsonl
         echo "bills.jsonl is $(wc -l < bills.jsonl) lines"
 
     - name: Reuse cached bills.jsonl

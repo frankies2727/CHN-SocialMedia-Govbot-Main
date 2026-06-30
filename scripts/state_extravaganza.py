@@ -632,6 +632,18 @@ def main() -> int:
     print(f"Lookback {window}d: {len(candidates)} {TOPIC.topic_phrase} "
           f"bill update(s) from {scope}.")
     if not candidates:
+        # Diagnose WHY there's nothing in the window: the topic does match
+        # bills for these states across all dates, they're just older than the
+        # cutoff. Surface the total and the most-recent action date so a zero
+        # result distinguishes "out of session / stale" from "no such bills".
+        scope_unique = {(b["state"], b["identifier"]) for b in in_states}
+        latest = max((b["action_date"] for b in in_states if b["action_date"]),
+                     default="")
+        print(f"  diagnostic: {len(scope_unique)} {TOPIC.topic_phrase} bill(s) "
+              f"exist for {scope} across all dates"
+              + (f"; most recent action {latest} "
+                 f"({(today - datetime.strptime(latest, '%Y-%m-%d')).days} days "
+                 f"ago, past the {window}-day window)." if latest else "."))
         print(f"No {TOPIC.topic_phrase} activity for {scope} in the last "
               f"{window} days. Nothing to post.")
         return 0
