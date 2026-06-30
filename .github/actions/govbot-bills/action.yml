@@ -69,10 +69,30 @@ runs:
         export PATH="$HOME/.govbot/bin:$PATH"
         govbot --version || true
 
-        # `clone all` pulls the full supported set (no hardcoded state list to
-        # maintain) and `--parallel` runs the git clones concurrently. govbot
-        # exits 0 even when individual repos fail, so no per-state skip guard.
-        govbot clone ${{ inputs.clone-target }} --parallel 8
+        CLONE_TARGET="${{ inputs.clone-target }}"
+        if [ "$CLONE_TARGET" = "all" ]; then
+          # `clone all` pulls the full supported set (no hardcoded state list to
+          # maintain) and `--parallel` runs the git clones concurrently. govbot
+          # exits 0 even when individual repos fail, so no per-state skip guard.
+          govbot clone all --parallel 8
+        else
+          # An explicit state list is validated by govbot, which PANICS (exit
+          # 101) on a locale it doesn't support — e.g. `govbot clone il tx`
+          # aborts the whole clone on "tx" ("Invalid working locale"), losing
+          # the supported states too. Clone each state on its own and tolerate
+          # failures so one unsupported code just gets skipped (matching how
+          # `clone all` silently drops unsupported repos).
+          cloned=""
+          for st in $CLONE_TARGET; do
+            echo "--- Cloning $st ---"
+            if govbot clone "$st"; then
+              cloned="$cloned $st"
+            else
+              echo "::warning::govbot could not clone '$st' (unsupported locale or clone error); skipping."
+            fi
+          done
+          echo "Cloned states:${cloned:- (none)}"
+        fi
 
         # POST_LIMIT is tiny and the scripts apply their own freshness + topic
         # filters, so a larger window is just wasted dump + parse time.
