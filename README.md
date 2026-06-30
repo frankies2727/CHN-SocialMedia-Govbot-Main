@@ -264,6 +264,11 @@ All knobs are env vars (set defaults in the workflow `env:` blocks or override p
 | `DIGEST_LOOKBACK_DAYS` | `7` | Weekly digest window. |
 | `DIGEST_MAX_HIGHLIGHTS` | `6` | Max reply posts in a digest thread. |
 | `DIGEST_PER_STATE_CAP` | `2` | Cap bills per state in a digest to keep it broad. |
+| `PLATFORM` | `bluesky` | *(State Extravaganza)* Which feed to post to: `bluesky`, `x`, `threads`, or `instagram` (a carousel post). |
+| `EXTRAVAGANZA_STATES` | — | *(State Extravaganza)* Space/comma-separated 2-letter state codes to pull bills from; blank = all states. |
+| `NUM_POSTS` | `6` | *(State Extravaganza)* Number of bill posts in the thread. |
+| `EXTRAVAGANZA_LOOKBACK_DAYS` | `62` | *(State Extravaganza)* Recency window in days, **hard-capped at 62**. |
+| `EXTRAVAGANZA_PER_STATE_CAP` | `NUM_POSTS` | *(State Extravaganza)* Max bills per state; defaults to no real cap so a single-state run can fill the thread. |
 
 The cron schedules live in the `on.schedule` block at the top of each workflow file (the daily posters default to early-morning UTC; the digests run weekly). Adjust them there.
 
@@ -301,6 +306,7 @@ A dry run prints the composed posts without hitting Bluesky/X. If Ollama isn't r
 | `post_bluesky_specific_bill.yml` | Manual | Force-post one specific `state` + `bill_id` to a chosen topic's Bluesky account (with dry-run / repost toggles). |
 | `post_x_specific_bill.yml` | Manual | Same one-off force-post, for X. |
 | `collect-samples.yml` | Manual | Save a batch of full bill records into `samples/` (optionally compose/post them too). Useful for prompt-tuning and tests. |
+| `state-extravaganza.yml` | Manual | On-demand **State Extravaganza** thread: pick the platform, the state(s) to pull bills from, the topic (ignored for X), the number of posts, and a lookback window (capped at 62 days). Posts a `🏛️ State Extravaganza!! 🧵` root + one threaded reply per bill, like the weekly digest. On Instagram (no text threads) it ships a **carousel**: a cover slide + one rendered bill card per highlight (max 10 slides). |
 
 All scheduled workflows start with a **free-disk-space** step — `govbot` cloning 50+ states plus the Ollama model would otherwise overflow the runner's ~14 GB and crash with *"No space left on device."* Ollama's binary and model are cached between runs to skip the ~600 MB + ~3.3 GB downloads.
 
