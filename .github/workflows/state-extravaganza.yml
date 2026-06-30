@@ -131,9 +131,18 @@ jobs:
           if [ -z "$states" ]; then
             echo "clone_target=all"  >> "$GITHUB_OUTPUT"
             echo "shared_cache=true"  >> "$GITHUB_OUTPUT"   # a full clone can reuse the daily shared dump
+            # A national pull stays bounded + relevance-filtered like the digests,
+            # so an all-states run doesn't dump millions of unfiltered records.
+            echo "log_limit=8200" >> "$GITHUB_OUTPUT"
+            echo "log_filter=" >> "$GITHUB_OUTPUT"
           else
             echo "clone_target=$states" >> "$GITHUB_OUTPUT"
             echo "shared_cache=false" >> "$GITHUB_OUTPUT"   # an ad-hoc state subset shouldn't be cached/reused
+            # Only a few states are cloned, so load their FULL action log with
+            # govbot's relevance filter OFF and no cap — the script's own topic +
+            # 62-day filters then decide, so nothing topical gets pre-dropped.
+            echo "log_limit=none" >> "$GITHUB_OUTPUT"
+            echo "log_filter=none" >> "$GITHUB_OUTPUT"
           fi
 
           # X is a single fixed-topic account; every other platform uses the
@@ -166,7 +175,8 @@ jobs:
         with:
           clone-target: ${{ steps.cfg.outputs.clone_target }}
           shared-cache: ${{ steps.cfg.outputs.shared_cache }}
-          log-limit: "8200"
+          log-limit: ${{ steps.cfg.outputs.log_limit }}
+          log-filter: ${{ steps.cfg.outputs.log_filter }}
 
       - name: Cache Ollama model
         uses: actions/cache@v4
