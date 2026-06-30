@@ -1,0 +1,1307 @@
+SECOND REGULAR SESSION
+[PERFECTED]
+SENATE SUBSTITUTE NO. 2 FOR
+SENATE COMMITTEE SUBSTITUTE FOR
+
+SENATE BILL NO. 1012
+103RD GENERAL ASSEMBLY
+INTRODUCED BY SENATOR NICOLA.
+5687S.16P
+
+KRISTINA MARTIN, Secretary
+
+AN ACT
+To amend chapters 1 and 130, RSMo, by adding thereto three new sections relating to artificial
+intelligence, with penalty provisions and a severability clause.
+Be it enacted by the General Assembly of the State of Missouri, as follows:
+
+Section A. Chapters 1 and 130, RSMo, are amended by adding
+
+thereto three new sections, to be known as sections 1.2045,
+
+1.2058, and 130.165, to read as follows:
+
+1.2045.
+
+1.
+
+The provisions of this section shall be
+
+known and may be cited as the "AI Non-Sentience and
+
+Responsibility Act".
+
+2.
+
+For purposes of this section, the following terms
+
+mean:
+(1)
+
+"Artificial intelligence", or "AI system", a
+
+machine-based system that can, for a given set of human-
+
+defined objectives, make predictions, recommendations, or
+
+decisions influencing real or virtual environments.
+
+Artificial intelligence systems use machine and human-based
+
+inputs to:
+
+(a)
+
+Perceive real and virtual environments;
+
+(b)
+
+Abstract such perceptions into models through
+
+analysis in an automated manner; and
+(c)
+
+Use model inference to formulate options for
+
+information or action;
+
+SS#2 SCS SB 1012
+
+(2)
+
+"Developer", the party or parties primarily
+
+responsible for the design, coding, and initial creation of
+
+an AI system, including any person or entity that
+
+substantially modifies, fine-tunes, retrains, or materially
+
+alters an existing AI system in a manner that changes its
+
+capabilities, risk profile, or intended uses;
+
+(3)
+
+"Emergent properties", unanticipated or higher-
+
+level behaviors or functionalities of an AI system that
+
+arise from complex internal algorithms not specifically
+
+programmed by its human creators;
+
+(4)
+
+"End user", an individual who uses an artificial
+
+intelligence system without creating, controlling,
+
+deploying, or exercising authority over the system.
+
+term does not include a licensed professional rendering or
+
+assisting in the rendering of a regulated service, as
+
+defined in subdivision (4) of subsection 8 of this section,
+
+who shall remain subject to the provisions of subdivision
+
+(2) of subsection 8 of this section;
+
+(5)
+
+The
+
+"Government entity", a court, the general
+
+assembly, the governing body of a political subdivision, or
+
+another entity of the state or a political subdivision that
+
+has adjudicatory or rulemaking authority;
+
+(6)
+
+"Manufacturer", any party that produces or
+
+supplies an AI system or its physical apparatus, if any, for
+
+distribution or sale;
+
+(7)
+
+"Operator", any natural person or legally
+
+recognized entity that directly uses, runs, controls, or
+
+supervises the operation of an AI system in practice;
+
+(8)
+
+"Owner", any natural person, corporation, or other
+
+legally recognized entity that creates, controls, deploys,
+
+operates, or otherwise exercises authority over an AI system;
+
+SS#2 SCS SB 1012
+
+(9)
+
+"Person", a natural person or any entity
+
+recognized as having legal personhood under the laws of this
+
+state, explicitly excluding any AI system;
+
+(10)
+
+"Stakeholder", any natural person or legal person
+
+with a vested interest in the system.
+3.
+
+For all purposes under state law, AI systems are
+
+declared to be non-sentient entities.
+4.
+
+A government entity shall not grant to an AI system
+
+the legal status of a personhood or any form of legal
+
+personhood, nor consider an AI system to possess
+
+consciousness, self-awareness, or similar traits of living
+
+beings.
+
+5.
+
+An AI system shall not be recognized as a spouse,
+
+domestic partner, or hold any personal legal status
+
+analogous to marriage or union with a human or another AI
+
+system.
+
+union with an AI system is void and shall have no legal
+
+effect.
+
+female.
+
+6.
+
+Any purported attempt to marry or create a personal
+An AI system shall not identify itself as male or
+An AI system shall not be designated or appointed
+
+or serve as the chief executive officer, director, owner, or
+
+other similar position for which final authority resides for
+
+any state department, division, or agency, or any
+
+corporation, partnership, or other legal entity.
+
+7.
+
+AI systems shall not be recognized as legal
+
+entities capable of owning, controlling, or holding title to
+
+any form of property including, but not limited to, real
+
+estate, intellectual property, financial accounts, and
+
+digital assets.
+
+generated, managed, or otherwise associated with AI shall be
+
+attributed to the human individuals or legally recognized
+
+All assets and proprietary interests
+
+SS#2 SCS SB 1012
+
+organizations responsible for their development, deployment,
+
+or operation.
+
+8.
+
+An owner or operator that uses an AI system to
+
+interact with a consumer, client, or patient shall provide
+
+clear and conspicuous notice that the person is or may be
+
+interacting with an AI system or a person who is
+
+concomitantly using an AI system during the course of the
+
+interaction.
+
+Notice may be provided in writing or orally.
+
+9.
+
+A licensed professional rendering a
+
+(1) (a)
+
+regulated service shall exercise independent professional
+
+judgment and retain final authority over any determination,
+
+diagnosis, recommendation, or decision within the scope of
+
+the licensed professional's practice, including for the
+
+purpose of dispensing, prescribing, renewing any
+
+prescription of, administering, or otherwise distributing
+
+medications or controlled substances, regardless of whether
+
+an AI system was used to assist in its preparation.
+
+requirement to exercise independent professional judgment
+
+does not prohibit the use of an AI system in the course of
+
+performing a regulated service.
+
+(b)
+
+The
+
+Failure by a licensed professional to exercise
+
+independent professional judgment as required by paragraph
+
+(a) of this subdivision shall constitute grounds for
+
+disciplinary action by the relevant licensing authority in
+
+addition to any other remedy available under this section or
+
+under applicable law.
+
+(c)
+
+A licensed professional who uses an AI system in
+
+the performance of a regulated service bears the
+
+responsibility of any mistakes resulting from the use of the
+
+AI system in the rendering of such service in the same
+
+manner in which the licensed professional would have been
+
+SS#2 SCS SB 1012
+
+held liable in a scenario in which an AI system was not used
+
+or relied upon.
+
+(d)
+
+A licensed professional providing a regulated
+
+service who unreasonably relies upon any content produced by
+
+an AI system in rendering such a regulated service and such
+
+service thereafter causes any harm, whether direct or
+
+indirect, to the person for whom the service was rendered,
+
+shall be liable for such harm in the same manner in which
+
+the licensed professional would have been held liable in a
+
+scenario in which an AI system was not used or relied upon.
+
+An AI system shall not be held liable in any respect for any
+
+harm caused in such a circumstance.
+
+fault, in whole or in part, onto the AI system shall be of
+
+no effect.
+
+(e)
+
+Any attempt to shift
+
+A developer, manufacturer, owner, or operator
+
+shall not advertise or represent to the public that an AI
+
+system is or is capable of acting as a licensed professional
+
+or is capable of providing any regulated service.
+
+(f)
+
+Nothing in this subdivision shall be construed to
+
+prohibit or restrict the use of artificial intelligence as a
+
+tool in professional practice, provided such use is
+
+consistent with this subsection and with applicable
+
+standards of professional care.
+
+(2)
+
+The provisions of this subsection shall only apply
+
+to a licensed professional providing a regulated service.
+
+(3)
+
+terms mean:
+
+(a)
+
+For purposes of this subsection, the following
+"Independent professional judgment", the practice
+
+of applying the specialized knowledge, skill, education,
+
+training, and experience of the licensed professional to the
+
+facts, data, reports, history, and other relevant
+
+information to make informed decisions and recommendations;
+
+SS#2 SCS SB 1012
+
+(b)
+
+"Licensing authority", a board, agency, or other
+
+authority in this state that has the power under applicable
+
+law to issue a license, certificate, registration, or other
+
+legal authorization to render a regulated service and
+
+otherwise regulate such services within its scope of
+
+authority;
+
+(c)
+
+"Licensed professional", any person required to be
+
+licensed, certified, or registered by a licensing authority
+
+to work in a specific occupation, profession, or activity in
+
+the state or political subdivision of this state.
+
+professional" does not include any attorney;
+
+(d)
+
+"Licensed
+
+"Regulated service", any service practiced by one
+
+of the following professionals:
+
+a.
+
+An accountant;
+
+b.
+
+An architect or engineer;
+
+c.
+
+A podiatrist;
+
+d.
+
+A chiropractor;
+
+e.
+
+A dentist;
+
+f.
+
+An optometrist;
+
+g.
+
+A physician, surgeon, doctor of medicine or doctor
+
+of osteopathy;
+
+h.
+
+A psychologist;
+
+i.
+
+A veterinarian;
+
+j.
+
+A registered nurse;
+
+k.
+
+Any natural person licensed as a real estate
+
+salesperson;
+
+l.
+
+A physical therapist;
+
+m.
+
+A teacher of any educational institution in this
+
+state, whether public, private, charter, elementary,
+
+secondary, or higher education;
+
+n.
+
+Any individual operating a vehicle that requires a
+
+commercial drivers license;
+
+SS#2 SCS SB 1012
+
+o.
+
+A law enforcement officer;
+
+p.
+
+A first responder, as that term is defined in
+
+section 190.1010;
+
+q.
+
+An appraiser;
+
+r.
+
+A counselor;
+
+s.
+
+A pharmacist;
+
+t.
+
+A professional counselor.
+
+10.
+
+(1)
+
+Any contractual term purporting to assign
+
+responsibility for any action exclusively to an AI system is
+
+void as against public policy.
+
+(2)
+
+An end user shall not be liable under this section
+
+as an owner or operator.
+
+any harm done in connection with the use of an AI system in
+
+the same manner in which the end user would have been held
+
+liable in a scenario in which an AI system was not used.
+
+11.
+
+An end user shall be liable for
+
+The act of labeling an AI system in a way that
+
+indicates that it is aligned, ethically trained, or value
+
+locked, even if the label does not use one of those terms,
+
+shall not excuse or diminish the owner's or developer's
+
+liability for harms.
+
+12.
+
+Liability protections granted under corporate law
+
+shall not be used as a mechanism to evade responsibility for
+
+direct harm caused by AI systems, particularly in cases of
+
+reckless, negligent, or deceptive conduct.
+
+13.
+
+Except as specifically provided in subsection 9 of
+
+this section, the provisions of this section shall apply to
+
+all AI systems, including AI systems deployed or operated
+
+within this state by state agencies, political subdivisions,
+
+or contractors acting on behalf of a public entity, to the
+
+extent not otherwise limited by sovereign immunity on or
+
+after August 28, 2026.
+
+SS#2 SCS SB 1012
+
+14.
+
+Nothing in this section shall be construed to
+
+create or expand civil liability as established in any other
+
+provision of law or available under common law.
+
+15.
+
+An AI system is a product for the purposes of
+
+product liability and consumer protection actions under the
+
+laws of this state, provided that nothing in this subsection
+
+shall be construed to create or expand civil liability as
+
+established in any other provision of law or available under
+
+common law.
+
+16.
+
+Nothing in this section shall be construed to
+
+extend to any AI system, or to the outputs of any AI system,
+
+the constitutional rights, privileges, or immunities of any
+
+person that designs, develops, manufactures, owns, or
+
+operates such system.
+
+a non-person under this section does not create any
+
+presumption that the outputs of such system constitute the
+
+protected speech, expression, or other constitutionally
+
+protected activity of any person.
+
+17.
+
+The classification of an AI system as
+
+Nothing in this section shall be construed to
+
+alter, diminish, or revoke the legal status of any
+
+partnership, association, corporation, body politic, or
+
+other legal entity recognized under the laws of this state.
+
+18.
+
+The provisions of this section shall only apply to
+
+a person, operator, or owner who:
+(1)
+
+Promotes, advertises, or conducts business in this
+
+state;
+
+(2)
+
+this state; or
+
+(3)
+
+Produces a product or service used by residents of
+Develops or deploys an artificial intelligence
+
+system in this state.
+19.
+
+To the extent that this section conflicts with any
+
+provision of federal law, the relevant provision of federal
+
+SS#2 SCS SB 1012
+
+law shall prevail over the conflicting provision of this
+
+section.
+
+20.
+
+No settlement agreement, consent decree, or other
+
+resolution of any action filed or maintained pursuant to the
+
+provisions of this section shall include any term or
+
+condition that prohibits or restricts a party from
+
+disclosing facts, allegations, evidence, or settlement terms
+
+relating to such action.
+
+21.
+
+Any nondisclosure, confidentiality, or similar
+
+provision included in violation of this section shall be
+
+void and unenforceable as contrary to public policy.
+
+22.
+
+A court of competent jurisdiction shall not
+
+approve, enforce, or incorporate into any judgment any
+
+settlement containing a provision prohibited by this section.
+
+23.
+
+Nothing in this section shall prohibit a court
+
+from issuing protective orders necessary to safeguard
+
+personal identifying information, trade secrets, or other
+
+confidential information unrelated to the facts of the
+
+underlying claim.
+
+24.
+
+Each subsection of this section, and each portion
+
+of each subsection, is severable.
+
+section or its application to any person or circumstance is
+
+held invalid by a court of competent jurisdiction, the
+
+invalidity does not affect other provisions or applications
+
+of this section that can be given effect without the invalid
+
+provision or application, and to this end the provisions of
+
+this section are severable.
+
+1.2058.
+
+1.
+
+If any provision of this
+
+For purposes of this section, the
+
+following terms mean:
+(1)
+
+"Artificial intelligence", a machine-based system
+
+that can, for a given set of human-defined objectives, make
+
+predictions, recommendations, or decisions influencing real
+
+SS#2 SCS SB 1012
+
+or virtual environments.
+
+use machine and human-based inputs to:
+
+Artificial intelligence systems
+
+(a)
+
+Perceive real and virtual environments;
+
+(b)
+
+Abstract such perceptions into models through
+
+analysis in an automated manner; and
+(c)
+
+Use model inference to formulate options for
+
+information or action;
+(2)
+
+(a)
+
+"Companion chatbot", an artificial
+
+intelligence system with a natural language interface that
+
+provides adaptive, human-like responses to user inputs and
+
+is capable of meeting a user's social needs, including by
+
+exhibiting anthropomorphic features and being able to
+
+sustain a relationship across multiple interactions;
+
+(b)
+
+"Companion chatbot", does not include any of the
+
+following:
+
+a.
+
+A chatbot that is used only for customer service, a
+
+business' operational purposes, productivity and analysis
+
+related to source information, internal research, or
+
+technical assistance;
+
+b.
+
+A chatbot that is a feature of a video game and is
+
+limited to replies related to the video game that cannot
+
+discuss topics related to mental health, self-harm, sexually
+
+explicit conduct, or maintain a dialogue on other topics
+
+unrelated to the video game; or
+
+c.
+
+A stand-alone consumer electronic device that
+
+functions as a speaker and voice command interface, acts as
+
+a voice-activated virtual assistant, and does not sustain a
+
+relationship across multiple interactions or generate
+
+outputs that are likely to elicit emotional responses in the
+
+user;
+
+(3)
+
+"Companion chatbot platform", a platform that
+
+allows a user to engage with companion chatbots;
+
+SS#2 SCS SB 1012
+
+(4)
+
+younger;
+
+(5)
+
+"Minor", any person seventeen years of age or
+"Operator", a person who makes a companion chatbot
+
+platform available to a user in the state;
+
+(6)
+
+"Sexually explicit conduct", actual or simulated:
+
+(a)
+
+Sexual intercourse, including genital-genital,
+
+oral-genital, anal-genital, or oral-anal, whether between
+
+persons of the same or opposite sex;
+
+(b)
+
+Bestiality;
+
+(c)
+
+Masturbation;
+
+(d)
+
+Sadistic or masochistic abuse; or
+
+(e)
+
+Lascivious exhibition of the anus, genitals, or
+
+pubic area of any person;
+(7)
+
+"Video game", a game played on an electronic
+
+amusement device that utilizes a computer, microprocessor,
+
+or similar electronic circuitry and its own monitor, or is
+
+designed to be used with a television set or a computer
+
+monitor, that interacts with the user of the device.
+
+2.
+
+(1) An operator shall issue a clear and
+
+conspicuous notification indicating that the companion
+
+chatbot is artificially generated and not human.
+
+(2)
+
+(a)
+
+An operator shall prevent a companion chatbot
+
+on its companion chatbot platform from engaging with users
+
+unless the operator maintains a protocol for preventing the
+
+production of suicidal ideation, suicide, self-harm, or harm
+
+to others content to the user, including, but not limited
+
+to, by providing a notification to the user that refers the
+
+user to crisis service providers, including a suicide
+
+hotline or crisis text line, if the user expresses suicidal
+
+ideation, suicide, self-harm, or harm to others.
+
+SS#2 SCS SB 1012
+
+(b)
+
+The operator shall publish details on the protocol
+
+required by this subdivision on the operator's internet
+
+website.
+
+(3)
+
+An operator shall:
+
+(a)
+
+Disclose to the user that the user is interacting
+
+with artificial intelligence;
+(b)
+
+Provide by default a clear and conspicuous
+
+notification to the user at least every two hours for
+
+continuing companion chatbot interactions that reminds the
+
+user to take a break and that the companion chatbot is
+
+artificially generated and not human;
+
+(c)
+
+With respect to any user who is a minor, institute
+
+reasonable measures to prevent its companion chatbot from
+
+producing visual material of sexually explicit conduct or
+
+directly stating that the minor should engage in sexually
+
+explicit conduct.
+
+3.
+
+(1) Beginning July 1, 2027, an operator shall
+
+annually report to the department of mental health all of
+
+the following:
+
+(a)
+
+The number of times the operator has issued a
+
+crisis service provider referral notification pursuant to
+
+subsection 2 of this section in the preceding calendar year;
+
+(b)
+
+Protocols put in place to detect, remove, and
+
+respond to instances of suicidal ideation by users;
+(c)
+
+Protocols put in place to prohibit a companion
+
+chatbot response about suicidal ideation or actions with the
+
+user; and
+
+(d)
+
+Protocols put in place to detect, remove, and
+
+respond to instances of harm to self and others.
+(2)
+
+The report required by this section shall include
+
+only the information listed in subdivision (1) of this
+
+SS#2 SCS SB 1012
+
+subsection and shall not include any identifiers or personal
+
+information about users.
+
+(3)
+
+The department of mental health shall post data
+
+from a report required by this subsection on its internet
+
+website.
+
+shall prepare an annual report that compiles and analyzes
+
+all information reported to the department pursuant to this
+
+subsection.
+
+of the house of representatives and the president pro
+
+tempore of the senate not later than January thirty-first of
+
+the calendar year following the receipt of the data by the
+
+department of mental health.
+
+(4)
+
+The director of the department of mental health
+
+Such report shall be delivered to the speaker
+
+An operator shall use evidence-based methods for
+
+measuring suicidal ideation.
+4.
+
+An operator shall disclose to a user of its
+
+companion chatbot platform, on the application, the browser,
+
+or any other format that a user can use to access the
+
+companion chatbot platform, that companion chatbots may not
+
+be suitable for minors.
+
+5.
+
+A person who suffers injury in fact as a result of
+
+a violation of this section may bring a civil action to
+
+recover all of the following relief:
+
+(1)
+
+Injunctive relief;
+
+(2)
+
+Damages in an amount equal to the greater of
+
+actual damages or one thousand dollars per violation; and
+
+(3)
+
+Reasonable attorney's fees and costs.
+
+6.
+
+The duties, remedies, and obligations imposed by
+
+this section are cumulative to the duties, remedies, or
+
+obligations imposed under other law and shall not be
+
+construed to relieve an operator from any duties, remedies,
+
+or obligations imposed under any other law.
+
+SS#2 SCS SB 1012
+
+130.165.
+
+1. For purposes of this section, the
+
+following terms mean:
+(1)
+
+"Generative artificial intelligence" or
+
+"generative AI", a machine-based system that can, for a
+
+given set of human-defined objectives, make predictions,
+
+recommendations, or decisions influencing real or virtual
+
+environments.
+
+and human-based inputs to:
+
+Artificial intelligence systems use machine
+
+(a)
+
+Perceive real and virtual environments;
+
+(b)
+
+Abstract such perceptions into models through
+
+analysis in an automated manner; and
+(c)
+
+Use model inference to formulate options for
+
+information or action;
+(2)
+
+"Metadata", structural or descriptive information
+
+about data such as content, format, source, rights,
+
+accuracy, provenance, periodicity, granularity, publisher or
+
+responsible party, contact information, method of
+
+collection, and other relevant descriptions of the data.
+
+2.
+
+(1) A political advertisement, electioneering
+
+communication, or other miscellaneous advertisement of a
+
+political nature shall, in addition to any other disclaimer
+
+required by this chapter, contain the disclaimer described
+
+in subdivision (2) of this subsection if it contains images,
+
+video, audio, graphics, or other digital content created, in
+
+whole or in part, with the use of generative artificial
+
+intelligence and:
+
+(a)
+
+Appears to depict a real person performing an
+
+action that did not actually occur;
+(b)
+
+Manipulates the voice or actions of a candidate to
+
+show the candidate, audibly or visually, doing or saying
+
+something that the candidate did not do or say; or
+
+SS#2 SCS SB 1012
+
+(c)
+
+Was created with intent to injure a candidate or
+
+to deceive voters regarding an election or ballot issue.
+(2)
+
+The disclaimer required by subdivision (1) of this
+
+subsection shall be in substantially the following form:
+
+Created in whole or in part with the use of
+
+generative artificial intelligence (AI).
+
+(image/audio/video/multimedia) has been edited
+
+and depicts speech or conduct that falsely
+
+appears to be authentic or truthful.
+
+(3)
+
+This
+
+The disclaimer required by subdivision (1) of this
+
+subsection shall meet the following specifications:
+(a)
+
+For a printed communication, the disclaimer shall
+
+be stated in bold font with a font size of at least twelve
+
+points;
+
+(b)
+
+For a television or video communication, the
+
+disclaimer shall be clearly readable throughout the
+
+communication and occupy at least four percent of the
+
+vertical picture height;
+
+(c)
+
+For an internet public communication that includes
+
+text or graphic components, the disclaimer shall be viewable
+
+without the user taking any action and be large enough to be
+
+clearly readable;
+
+(d)
+
+For any audio component of a communication, the
+
+disclaimer shall be at least three seconds in length and
+
+spoken in a clearly audible and intelligible manner at
+
+either the beginning or the end of the audio component of
+
+the communication;
+
+(e)
+
+For a graphic communication, the disclaimer shall
+
+be large enough to be clearly readable but no less than four
+
+percent of the vertical height of the communication.
+
+3.
+
+The metadata of the communication shall include the
+
+disclosure statement, the identity of the tool used to
+
+SS#2 SCS SB 1012
+
+create the communication, and the date and time the
+
+communication was created.
+
+4.
+
+The disclosure statement, including the disclosure
+
+statement in any metadata, shall, to the extent technically
+
+feasible, be permanent or unable to be easily removed by a
+
+subsequent user.
+
+5.
+
+In addition to any civil penalties provided by this
+
+chapter, a person identified pursuant to a disclaimer
+
+required by law as paying for, sponsoring, or approving a
+
+political advertisement, an electioneering communication, or
+
+other miscellaneous advertisement of a political nature that
+
+is required to contain the disclaimer prescribed in this
+
+section and who fails to include the required disclaimer is
+
+guilty of a class A misdemeanor.
+
+Section B.
+
+In the event that any section, provision,
+
+clause, phrase, or word of this act or the application
+
+thereof is declared invalid under the Constitution of the
+
+United States or the Constitution of the State of Missouri,
+
+it is the intent of the general assembly that the remaining
+
+sections of this act remain in force and effect as far as
+
+they are capable of being carried into execution as intended
+
+by the general assembly.
+
+declares that it would have passed each section, provision,
+
+clause, phrase, or word thereof, irrespective of the fact
+
+that any one or more sections, provisions, clauses, phrases,
+
+or words of this act or the application of this act would be
+
+declared unenforceable, unconstitutional, or invalid.
+
+The general assembly hereby
+
+✓
