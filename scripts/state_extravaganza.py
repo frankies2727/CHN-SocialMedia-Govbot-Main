@@ -46,7 +46,6 @@ from datetime import datetime, timezone
 
 from post_to_bluesky import (
     JSONL_PATH,
-    STATE_FULL_NAME,
     TOPIC,
     US_STATES,
     load_bills,
@@ -112,16 +111,28 @@ def filter_by_states(bills: list[dict], states: list[str]) -> list[dict]:
 
 
 def states_label(states: list[str]) -> str:
-    """Human-readable scope line for the root post. Spells out full state names
-    for a handful of states, collapses to a count for a big list."""
+    """Scope label for headers and the root post: the state letters (e.g.
+    "GA, FL"), collapsing to a count only for a very long list."""
     if not states:
         return "all states"
-    names = [STATE_FULL_NAME.get(c, c) for c in states]
-    if len(names) == 1:
-        return names[0]
-    if len(names) <= 4:
-        return ", ".join(names[:-1]) + " & " + names[-1]
-    return f"{len(names)} states"
+    if len(states) <= 12:
+        return ", ".join(states)
+    return f"{len(states)} states"
+
+
+def featured_states(highlights: list[dict]) -> list[str]:
+    """The distinct state codes actually represented in the selected bills, in
+    order of first appearance (highlights are significance-sorted, so the most
+    significant state's letters lead). Used so the root reflects the states that
+    really made the thread — not every state that was requested."""
+    seen: set[str] = set()
+    out: list[str] = []
+    for b in highlights:
+        st = (b.get("state") or "?")
+        if st not in seen:
+            seen.add(st)
+            out.append(st)
+    return out
 
 
 def select_extravaganza(candidates: list[dict], max_posts: int,
@@ -199,6 +210,10 @@ def run_bluesky(candidates: list[dict], scope: str, today: datetime,
 
     highlights = select_extravaganza(candidates, NUM_POSTS, PER_STATE_CAP)
     _log_highlights(highlights, window)
+    # Re-derive the scope from the bills actually selected, so the root/cover
+    # names the states that really made the thread (as letters) rather than
+    # every state that was requested.
+    scope = states_label(featured_states(highlights))
 
     client = None if DRY_RUN else BlueskyClient(BSKY_HANDLE, BSKY_PASSWORD)
     _save_digest_raw_records(highlights)
@@ -242,6 +257,10 @@ def run_x(candidates: list[dict], scope: str, today: datetime,
 
     highlights = select_extravaganza(candidates, NUM_POSTS, PER_STATE_CAP)
     _log_highlights(highlights, window)
+    # Re-derive the scope from the bills actually selected, so the root/cover
+    # names the states that really made the thread (as letters) rather than
+    # every state that was requested.
+    scope = states_label(featured_states(highlights))
 
     client = None if DRY_RUN else build_client()
     _save_digest_raw_records(highlights)
@@ -280,6 +299,10 @@ def run_threads(candidates: list[dict], scope: str, today: datetime,
 
     highlights = select_extravaganza(candidates, NUM_POSTS, PER_STATE_CAP)
     _log_highlights(highlights, window)
+    # Re-derive the scope from the bills actually selected, so the root/cover
+    # names the states that really made the thread (as letters) rather than
+    # every state that was requested.
+    scope = states_label(featured_states(highlights))
 
     _save_digest_raw_records(highlights)
     replies = build_highlight_replies(highlights)
@@ -457,6 +480,10 @@ def run_instagram(candidates: list[dict], scope: str, today: datetime,
               f"using a cover + {max_bills} bill slide(s).")
     highlights = select_extravaganza(candidates, max_bills, PER_STATE_CAP)
     _log_highlights(highlights, window)
+    # Re-derive the scope from the bills actually selected, so the root/cover
+    # names the states that really made the thread (as letters) rather than
+    # every state that was requested.
+    scope = states_label(featured_states(highlights))
 
     prepared: list[dict] = []
     for b in highlights:
