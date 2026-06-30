@@ -1,0 +1,49 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the Healthy Workplaces, Healthy Families Act of 2014, entitles an employee who works in California for the same employer for 30 or more days within a year from the commencement of employment to paid sick days. Under existing law, an employee accrues paid sick days at a rate of not less than one hour per every 30 hours worked, subject to certain use, accrual, and yearly carryover limitations.\n\nThis bill would entitle active firefighting members of specified fire departments who, after 20 weeks of gestation, give birth or have a stillbirth or miscarriage to 26 weeks of fully paid postpartum and recovery leave, provided that the member has at least 1,250 hours of service with the fire department in the 12-month period before the date of the childbirth, stillbirth, or miscarriage. The bill would require the leave to be granted without regard to employment classification and to begin immediately upon the date of the childbirth, stillbirth, or miscarriage. The bill would require a firefighter on postpartum and recovery leave to be compensated at the firefighter's regular rate of pay and would require all benefits to continue to accrue during the leave, as specified. The bill would require a firefighter returning from postpartum and recovery leave to be restored to their prior position, as provided. The bill would request a fire department of the University of California to comply with these provisions.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1024",
+    "legislative_session": "20252026",
+    "subject": [
+      "Firefighterpostpartumandrecoveryleave"
+    ],
+    "title": "Firefighter postpartum and recovery leave."
+  },
+  "id": "SB1024",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage",
+        "committee-passage-favorable",
+        "referral-committee"
+      ],
+      "description": "From committee: Do pass and re-refer to Com. on APPR. with recommendation: To consent calendar. (Ayes 7. Noes 0.) (June 24). Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-25",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1024"
+        }
+      ]
+    },
+    "bill_id": "SB1024"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1024/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1024/logs/20260625T000000Z_from_committee_do_pass_and_rerefer_to_com_on_appr_with_recommendation_to_consent_calendar_ayes_7_noe.json"
+  },
+  "timestamp": "20260625T000000Z"
+}

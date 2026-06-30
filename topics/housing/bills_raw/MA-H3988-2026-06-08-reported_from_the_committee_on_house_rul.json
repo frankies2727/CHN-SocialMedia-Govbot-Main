@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Diggs of Barnstable, a petition (accompanied by bill, House, No. 3988) of Kip A. Diggs for legislation to establish the Barnstable home center for housing resources.  Housing.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H3988",
+    "legislative_session": "194th",
+    "title": "An Act relative to establishing the Barnstable home center for housing resources"
+  },
+  "id": "H3988",
+  "log": {
+    "action": {
+      "date": "2026-06-08",
+      "description": "Reported from the committee on House Rules",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "H3988"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H3988/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H3988/logs/20260608T000000Z_reported_from_the_committee_on_house_rules.json"
+  },
+  "timestamp": "20260608T000000Z"
+}

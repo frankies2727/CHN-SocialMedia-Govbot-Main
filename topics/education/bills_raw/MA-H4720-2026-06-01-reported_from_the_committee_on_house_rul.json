@@ -1,0 +1,28 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Whipps of Athol and Senator Comerford, a joint petition (subject to Joint Rule 12) of Susannah M. Whipps relative to the Athol-Royalston Regional School District Financial Stability Fund.  Education.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H4720",
+    "legislative_session": "194th",
+    "title": "An Act relative to the Athol-Royalston Regional School District Financial Stability Fund"
+  },
+  "id": "H4720",
+  "log": {
+    "action": {
+      "date": "2026-06-01",
+      "description": "Reported from the committee on House Rules",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "H4720"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4720/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4720/logs/20260601T000000Z_reported_from_the_committee_on_house_rules.json"
+  },
+  "timestamp": "20260601T000000Z"
+}

@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act requires that if public works project is for a school district and has an aggregate cost of $1 million or more, a contract relating to that public works project, advertised after December 31, 2026, must include a project labor agreement with the Delaware Building and Construction Trades Council unless there was only 1 bid for the craft under the contract. \r\n\r\nA project labor agreement is a type of collective bargaining agreement in the construction industry that is generally negotiated before construction begins. Project labor agreements are intended to provide a legally binding and enforceable contract primarily related to labor conditions and labor-management relations. \r\n\r\nThe requirements under this Act are not regulatory. Under existing law, school districts must comply with the procurement requirements for State agencies under Chapter 69 of Title 29. As such, the requirements under this Act apply only to contracts where this State is acting as a market participant and has a proprietary interest.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 272",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 14 AND TITLE 29 OF THE DELAWARE CODE RELATING TO PROJECT LABOR AGREEMENTS FOR SCHOOL DISTRICT PUBLIC WORKS CONTRACTS."
+  },
+  "id": "SB 272",
+  "log": {
+    "action": {
+      "classification": [
+        "committee-passage"
+      ],
+      "date": "2026-06-10",
+      "description": "Reported Out of Committee (Labor) in House with 8 On Its Merits",
+      "organization_id": "~{\"classification\": \"lower\"}",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Labor"
+        }
+      ]
+    },
+    "bill_id": "SB 272"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB272/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB272/logs/20260610T000000Z_reported_out_of_committee_labor_in_house_with_8_on_its_merits.json"
+  },
+  "timestamp": "20260610T000000Z"
+}

@@ -62,6 +62,7 @@
     "DE|SB 263|2026-06-18|",
     "DE|SB 263|2026-06-18|Passed By House. Votes: 41 YES",
     "DE|SB 26|2026-03-10|Reported Out of Committee (Labor) in Hou",
+    "DE|SB 272|2026-06-10|Reported Out of Committee (Labor) in Hou",
     "DE|SB 63|2026-01-28|",
     "DE|SB 63|2026-01-28|Enacted into Law",
     "DE|SB 63|2026-01-28|Veto Override Passed in the House. 25 YE",
@@ -135,6 +136,7 @@
     "NJ|A2286|2026-01-13|WITHDRAWN APP P.L.2025, c.382.",
     "NJ|A3413|2026-01-13|WITHDRAWN APP P.L.2025, c.355.",
     "NJ|S704|2026-01-13|WITHDRAWN APP P.L.2025, c.355.",
+    "RI|HB7656|2026-06-23|06/23/2026 Signed by Governor",
     "RI|HB8524|2026-06-23|06/23/2026 Signed by Governor",
     "TN|HB 1630|2026-01-21|Assigned to s/c Banking & Consumer Affai",
     "TN|HB 1759|2026-01-22|P2C, caption bill, held on desk - pendin",
@@ -172,7 +174,7 @@
     "WI|SB1|2026-05-13|Read a third time",
     "WI|SB1|2026-05-13|Rules suspended to give bill its third r"
   ],
-  "last_run": "2026-06-29T12:22:00.026618+00:00",
+  "last_run": "2026-06-30T10:46:18.234489+00:00",
   "state_last_posted": {
     "WA": "2026-06-14T16:08:05.274822+00:00",
     "AL": "2026-06-20T10:10:06.703065+00:00",
@@ -185,11 +187,11 @@
     "GA": "2026-06-16T12:10:02.233029+00:00",
     "KS": "2026-06-19T11:32:19.242344+00:00",
     "MS": "2026-06-15T13:13:37.501079+00:00",
-    "DE": "2026-06-28T10:12:24.851245+00:00",
+    "DE": "2026-06-30T10:44:40.449810+00:00",
     "MO": "2026-06-25T10:15:19.637108+00:00",
     "MN": "2026-05-28T10:57:02.677683+00:00",
     "FL": "2026-06-17T11:50:29.944292+00:00",
-    "RI": "2026-06-27T09:37:56.974561+00:00",
+    "RI": "2026-06-30T10:44:40.449810+00:00",
     "NH": "2026-06-29T12:18:56.665037+00:00"
   }
 }

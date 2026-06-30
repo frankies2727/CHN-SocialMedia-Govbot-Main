@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Mr. Fernandes, a petition (accompanied by bill, Senate, No. 2281) of Dylan A. Fernandes for legislation to bring MassSave in line with climate mandates.  Telecommunications, Utilities and Energy.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S2281",
+    "legislative_session": "194th",
+    "title": "An Act bringing Mass Save in line with climate mandates"
+  },
+  "id": "S2281",
+  "log": {
+    "action": {
+      "description": "Accompanied H5175",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-25",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/S2281"
+        }
+      ]
+    },
+    "bill_id": "S2281"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/S2281/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/S2281/logs/20260625T000000Z_accompanied_h5175.json"
+  },
+  "timestamp": "20260625T000000Z"
+}
