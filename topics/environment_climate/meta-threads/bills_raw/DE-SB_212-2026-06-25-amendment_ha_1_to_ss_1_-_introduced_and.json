@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act is a substitute for Senate Bill No. 212. Like Senate Bill No. 212, this Act is the first leg of a constitutional amendment to establish the right to hunt, fish, and trap wildlife in Delaware. Twenty-four other states have preserved the right to hunt, fish, and trap wildlife. This Act is modeled after the constitutional provisions of Idaho, Indiana, Kentucky, Louisiana, Minnesota, Tennessee, Virginia, and Vermont.\r\n\r\nThis Act specifically acknowledges Delaware’s valued, natural heritage of hunting, fishing, and trapping, and declares hunting, fishing, and trapping as the preferred methods of managing and controlling wildlife in this State.\r\n\r\nThis Act declares that it may not be applied to do any of the following:\r\n(1) Limit the application of a law relating to trespass or property rights.\r\n(2) Affect rights to divert, appropriate, or use water, or to establish a minimum amount of water in any water body.\r\n(3) Lead to a diminution or abrogation of a public or private right or of the State’s power to regulate commercial activities.\r\n(4) Prevent the suspension or revocation, under a law enacted by the General Assembly, of an individual’s hunting, fishing, or trapping license.\r\n(5) Alter a burden of proof requirement otherwise established by law for a challenge to a law or regulation pertaining to hunting, fishing, or trapping the wildlife of this State.\r\n\r\nThis Act differs from Senate Bill No. 212 by doing the following:\r\n(1) Removing language related to the use of \"traditional methods\" of hunting, fishing, or trapping.\r\n(2) Providing clarity that after passage of this Act the General Assembly, and any state agency or local government authorized by the General Assembly, may continue to establish hunting, fishing, or trapping requirements based on the best available science and wildlife management practices, including requirements for humane methods of take or requirements for licenses or permits, bag limits, or other practices for managing wildlife.\r\n\r\nAmending the Delaware Constitution requires not only the passing of the changes in this Act, but also passage of the same changes after the next general election by the next General Assembly.\r\n\r\nThis Act requires a greater than majority vote for passage because § 1 of Article XVI of the Delaware Constitution requires the affirmative vote of two-thirds of the members elected to each house of the General Assembly to amend the Delaware Constitution",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 212",
+    "legislative_session": "153",
+    "title": "AN ACT PROPOSING AN AMENDMENT TO ARTICLE I OF THE DELAWARE CONSTITUTION RELATING TO HUNTING, FISHING, AND TRAPPING WILDLIFE."
+  },
+  "id": "SB 212",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-introduction"
+      ],
+      "description": "Amendment HA 1 to SS 1 - Introduced and Placed With Bill",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-25",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143029"
+        }
+      ]
+    },
+    "bill_id": "SB 212"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB212/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB212/logs/20260625T000000Z_amendment_ha_1_to_ss_1_introduced_and_placed_with_bill.json"
+  },
+  "timestamp": "20260625T000000Z"
+}

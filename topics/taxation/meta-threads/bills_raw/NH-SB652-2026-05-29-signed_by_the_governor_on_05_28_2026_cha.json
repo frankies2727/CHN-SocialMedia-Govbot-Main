@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB652",
+    "legislative_session": "2026",
+    "title": "changing the maximum award of tax credits for overpayment of due taxes."
+  },
+  "id": "SB652",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by the Governor on 05/28/2026; Chapter 115; Effective 07/27/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-05-29",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=2467&inflect=2"
+        }
+      ]
+    },
+    "bill_id": "SB652"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB652/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB652/logs/20260529T000000Z_signed_by_the_governor_on_05282026_chapter_115_effective_07272026.json"
+  },
+  "timestamp": "20260529T000000Z"
+}
