@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Joint Resolution directs the Department of Health & Social Services to explore and consider additional solutions for tackling the State's high cost of health care and to submit a report to the General Assembly by January 1, 2027, that explores the feasibility of additional strategies to lower health care costs. The report will explore updating the current Medicaid outlier methodology, ways to ensure further cost savings for 2027, and the feasibility of a statewide adoption of a global budget or 2-sided risk models, and will evaluate options for a public option or other publicly sponsored coverage strategy.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SJR 19",
+    "legislative_session": "153",
+    "title": "DIRECTING THE DEPARTMENT OF HEALTH & SOCIAL SERVICES TO EXPLORE SOLUTIONS RELATED TO THE STATE’S HIGH HEALTH CARE COSTS."
+  },
+  "id": "SJR 19",
+  "log": {
+    "action": {
+      "description": "Lifted From Table in House",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-30",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143488"
+        }
+      ]
+    },
+    "bill_id": "SJR 19"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SJR19/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SJR19/logs/20260630T000000Z_lifted_from_table_in_house.json"
+  },
+  "timestamp": "20260630T000000Z"
+}
