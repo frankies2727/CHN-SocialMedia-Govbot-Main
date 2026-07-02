@@ -1,0 +1,51 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law defines vehicular manslaughter as, among other things, driving a vehicle in the commission of an unlawful act, not amounting to a felony, or driving a vehicle in the commission of a lawful act that might produce death, in an unlawful manner, that results in the unlawful killing of a human being without malice. Under existing law, vehicular manslaughter with gross negligence, as defined, is punishable by imprisonment in a county jail for not more than one year or by imprisonment in the state prison for 2, 4, or 6 years, and vehicular manslaughter without gross negligence is punishable by imprisonment in a county jail for not more than one year. Existing law authorizes a judge in the superior court in which a misdemeanor is being prosecuted to offer diversion to a defendant, and requires the judge, at the end of the diversion period and if the defendant has complied with the imposed terms and conditions, to dismiss the action against the defendant.\n\nExisting law imposes 2 violation points against a driver's record for purposes of the suspension or revocation of the privilege to drive if a driver is convicted of vehicular manslaughter.\n\nThis bill would impose 2 violation points against a driver's record for a misdemeanor vehicular manslaughter violation that was dismissed by a judge upon the completion of diversion.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB953",
+    "legislative_session": "20252026",
+    "subject": [
+      "Drivingrecord",
+      "points",
+      "vehicularmanslaughter"
+    ],
+    "title": "Driving record: points: vehicular manslaughter."
+  },
+  "id": "SB953",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage",
+        "committee-passage-favorable",
+        "referral-committee"
+      ],
+      "description": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 15. Noes 0.) (June 29). Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-30",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB953"
+        }
+      ]
+    },
+    "bill_id": "SB953"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB953/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB953/logs/20260630T000000Z_from_committee_do_pass_and_rerefer_to_com_on_appr_ayes_15_noes_0_june_29_rereferred_to_com_on_appr.json"
+  },
+  "timestamp": "20260630T000000Z"
+}

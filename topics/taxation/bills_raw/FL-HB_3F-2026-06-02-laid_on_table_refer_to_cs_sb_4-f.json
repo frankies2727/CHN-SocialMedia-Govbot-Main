@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Property Tax Administration;  Revises limitations on maximum millage rate that may be levied by certain units of government; conforms provision to changes made by act; authorizes ballot summary of specified proposed amendment or revision of State Constitution to exceed specified word limit; provides for construction of act in pari materia with laws enacted during 2026 Regular Session & 2026 Special Session E of Legislature.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 3F",
+    "legislative_session": "2026F",
+    "subject": [
+      "taxation and finance"
+    ],
+    "title": "Property Tax Administration"
+  },
+  "id": "HB 3F",
+  "log": {
+    "action": {
+      "classification": [
+        "deferral"
+      ],
+      "date": "2026-06-02",
+      "description": "Laid on Table, refer to CS/SB 4-F",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB 3F"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026F/bills/HB3F/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026F/bills/HB3F/logs/20260602T000000Z_laid_on_table_refer_to_cssb_4f.json"
+  },
+  "timestamp": "20260602T000000Z"
+}

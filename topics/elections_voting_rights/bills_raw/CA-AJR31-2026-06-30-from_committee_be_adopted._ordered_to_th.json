@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This measure would call on Congress to enact legislation that restores and strengthens the full protections of the Voting Rights Act of 1965, and it would call on the President to sign the legislation.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AJR31",
+    "legislative_session": "20252026",
+    "subject": [
+      "RestorationoftheVotingRightsActof1965"
+    ],
+    "title": "Relative to the restoration of the Voting Rights Act of 1965."
+  },
+  "id": "AJR31",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage",
+        "committee-passage-favorable",
+        "reading-1"
+      ],
+      "description": "From committee: Be adopted. Ordered to Third Reading. (Ayes 4. Noes 1.) (June 30).",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-30",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AJR31"
+        }
+      ]
+    },
+    "bill_id": "AJR31"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AJR31/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AJR31/logs/20260630T000000Z_from_committee_be_adopted_ordered_to_third_reading_ayes_4_noes_1_june_30.json"
+  },
+  "timestamp": "20260630T000000Z"
+}
