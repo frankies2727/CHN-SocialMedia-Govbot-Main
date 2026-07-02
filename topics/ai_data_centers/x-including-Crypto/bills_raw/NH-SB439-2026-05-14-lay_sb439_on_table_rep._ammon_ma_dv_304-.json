@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB439",
+    "legislative_session": "2026",
+    "title": "relative to municipal data center zoning."
+  },
+  "id": "SB439",
+  "log": {
+    "action": {
+      "classifications": [
+        "deferral"
+      ],
+      "description": "Lay SB439 on Table (Rep. Ammon): MA DV 304-11 05/14/2026  HJ 13",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-05-14",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=1435&inflect=2"
+        }
+      ]
+    },
+    "bill_id": "SB439"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB439/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB439/logs/20260514T000000Z_lay_sb439_on_table_rep_ammon_ma_dv_30411_05142026_hj_13.json"
+  },
+  "timestamp": "20260514T000000Z"
+}
