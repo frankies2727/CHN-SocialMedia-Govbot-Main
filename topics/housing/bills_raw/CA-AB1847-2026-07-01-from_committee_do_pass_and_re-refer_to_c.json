@@ -1,0 +1,51 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law authorizes a borrower to request forbearance on their residential mortgage loan for a period of 12 months if, among other things, the borrower affirms that they are experiencing financial hardship that prevents them from making timely payments on the loan due directly to the wildfire disaster described in the proclamation of a state of emergency issued by Governor Gavin Newsom on January 7, 2025, or the federally declared disaster, declared on January 8, 2025, related to the Eaton Wildfire, the Palisades Fire, and the Straight-line Winds. Existing law requires an applicant requesting forbearance on their residential mortgage loan to affirm that they are experiencing a financial hardship due to the wildfire disaster. Existing law requires that request to be made before the earlier of either 6 months after the date upon which the state of emergency is terminated or January 7, 2027.\n\nThis bill would extend the period of mortgage forbearance to 24 months and extend the latest possible deadline for a borrower's request for forbearance to January 7, 2029. The bill would require an applicant requesting forbearance on their residential mortgage loan to further affirm that the property securing the loan is uninhabitable due to the wildfire disaster. Because the bill would expand the crime of perjury, the bill would impose a state-mandated local program.\n\nExisting law requires a mortgage servicer to disclose to a borrower to whom a forbearance has been granted that the forborne mortgage payments are required to be repaid. Existing law prohibits requiring a borrower who was current on the residential mortgage loan when they entered forbearance to make a lump sum payment.\n\nThis bill would require a mortgage servicer to offer the borrower the option to defer repayment of forborne amounts to the end of the loan term, as specified.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1847",
+    "legislative_session": "20252026",
+    "subject": [
+      "Mortgageforbearance",
+      "stateofemergency",
+      "wildfire"
+    ],
+    "title": "Mortgage forbearance: state of emergency: wildfire."
+  },
+  "id": "AB1847",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage",
+        "committee-passage-favorable",
+        "referral-committee"
+      ],
+      "description": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 11. Noes 0.) (June 30). Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-01",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1847"
+        }
+      ]
+    },
+    "bill_id": "AB1847"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1847/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1847/logs/20260701T000000Z_from_committee_do_pass_and_rerefer_to_com_on_appr_ayes_11_noes_0_june_30_rereferred_to_com_on_appr.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

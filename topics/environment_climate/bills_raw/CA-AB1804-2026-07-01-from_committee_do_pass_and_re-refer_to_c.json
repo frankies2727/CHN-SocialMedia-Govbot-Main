@@ -1,0 +1,51 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law authorizes the Department of Parks and Recreation to collect fees, rents, and other returns for the use of any state park system area, as provided. Existing law authorizes the department to establish the California State Park Adventure Pass to be available, upon application to the department, to any child in grade 4, or grade 4 equivalent, who is a California resident and enrolled in a California public school. Existing law authorizes the department to waive the day use entrance fees to an eligible unit of the state park system for any child who holds a valid pass, as provided.\n\nThe bill would declare, among other things, that it is the policy of the state to ensure equitable and inclusive access to the state park system by empowering the department to administer programs that broaden public access to the state parks. The bill would authorize the department to work with the California State Library and individual library systems to provide park passes.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1804",
+    "legislative_session": "20252026",
+    "subject": [
+      "Stateparks",
+      "libraries",
+      "parkspasses"
+    ],
+    "title": "State parks: parks passes: libraries."
+  },
+  "id": "AB1804",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage",
+        "committee-passage-favorable",
+        "referral-committee"
+      ],
+      "description": "From committee: Do pass and re-refer to Com. on APPR. with recommendation: To Consent Calendar. (Ayes 7. Noes 0.) (July 1). Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-01",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1804"
+        }
+      ]
+    },
+    "bill_id": "AB1804"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1804/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1804/logs/20260701T000000Z_from_committee_do_pass_and_rerefer_to_com_on_appr_with_recommendation_to_consent_calendar_ayes_7_noe.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

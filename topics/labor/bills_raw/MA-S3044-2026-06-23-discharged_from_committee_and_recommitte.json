@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Mrs. Dooner and Mr.Howitt of Seekonk, a joint petition (accompanied by bill, Senate, No. 3044) (subject to Joint Rule 12) of Kelly A. Dooner, Steven S. Howitt and Adam J. Scanlon for legislation relative to retirement benefits for Alec Ciminello.  Public Service.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S3044",
+    "legislative_session": "194th",
+    "title": "An Act relative to retirement benefits for Alec Ciminello"
+  },
+  "id": "S3044",
+  "log": {
+    "action": {
+      "description": "Discharged from committee and recommitted to the committee on Public Service",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-23",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/S3044"
+        }
+      ]
+    },
+    "bill_id": "S3044"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/S3044/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/S3044/logs/20260623T000000Z_discharged_from_committee_and_recommitted_to_the_committee_on_public_service.json"
+  },
+  "timestamp": "20260623T000000Z"
+}

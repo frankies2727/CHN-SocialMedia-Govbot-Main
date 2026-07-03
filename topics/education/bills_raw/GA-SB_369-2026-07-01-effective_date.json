@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Article 31 of Chapter 2 of Title 20 of the Official Code of Georgia Annotated, the \"Charter Schools Act of 1998,\" so as to provide for completion charter schools; to provide for rules, regulations, policies, and procedures; to provide for the conversion of existing charter schools to completion charter schools; to provide for measurable objective performance standards; to provide for separate principles and standards for completion charter schools; to provide for a definition; to provide for related matters; to provide for an effective date; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 369",
+    "legislative_session": "2025_26",
+    "subject": [
+      "EDUCATION"
+    ],
+    "title": "\"Charter Schools Act of 1998\"; completion charter schools; provide"
+  },
+  "id": "SB 369",
+  "log": {
+    "action": {
+      "date": "2026-07-01",
+      "description": "Effective Date",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "SB 369"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB369/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB369/logs/20260701T000000Z_effective_date.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

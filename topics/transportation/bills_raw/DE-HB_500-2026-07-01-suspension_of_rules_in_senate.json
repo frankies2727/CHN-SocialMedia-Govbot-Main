@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Bill is the Fiscal Year 2027 Bond and Capital Improvements Act.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 500",
+    "legislative_session": "153",
+    "title": "A BOND AND CAPITAL IMPROVEMENTS ACT OF THE STATE OF DELAWARE AND CERTAIN OF ITS AUTHORITIES FOR THE FISCAL YEAR ENDING JUNE 30, 2027; AUTHORIZING THE ISSUANCE OF GENERAL OBLIGATION BONDS OF THE STATE; APPROPRIATING FUNDS FROM THE TRANSPORTATION TRUST FUND; AUTHORIZING THE ISSUANCE OF REVENUE BONDS OF THE DELAWARE TRANSPORTATION AUTHORITY; APPROPRIATING SPECIAL FUNDS OF THE DELAWARE TRANSPORTATION AUTHORITY; APPROPRIATING GENERAL FUNDS OF THE STATE; REPROGRAMMING CERTAIN FUNDS OF THE STATE; SPECIFYING CERTAIN PROCEDURES, CONDITIONS AND LIMITATIONS FOR THE EXPENDITURE OF SUCH FUNDS; AND AMENDING CERTAIN STATUTORY PROVISIONS."
+  },
+  "id": "HB 500",
+  "log": {
+    "action": {
+      "description": "Suspension of Rules in Senate",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-01",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143658"
+        }
+      ]
+    },
+    "bill_id": "HB 500"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB500/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB500/logs/20260701T000000Z_suspension_of_rules_in_senate.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

@@ -1,0 +1,863 @@
+Senate Bill 369
+By: Senators Still of the 48th, Esteves of the 35th, Kemp of the 38th and Brass of the 6th
+
+AS PASSED
+A BILL TO BE ENTITLED
+AN ACT
+
+To amend Chapter 2 of Title 20 of the Official Code of Georgia Annotated, relating to
+
+elementary and secondary education, so as to require the State Board of Education to adopt
+
+definitions, rules, regulations, policies, and procedures to govern the operation of
+
+nontraditional education programs; to revise the "Dexter Mosely Act" to allow for virtual
+
+school students from qualifying virtual schools to participate in specified extracurricular and
+
+interscholastic activities under the sponsorship, direction, and control of the student's resident
+
+public school or resident public school system; to provide for requirements of such virtual
+
+school student participation; to provide for virtual school qualifications; to provide for
+
+definitions; to provide for related matters; to require local boards of education and other
+
+public school governing bodies to consider the total cost of ownership and related factors
+
+when purchasing school technology devices; to provide for reports; to provide for locally
+
+authorized dropout recovery charter schools; to provide for the conversion of existing charter
+
+schools to dropout recovery charter schools; to provide for measurable objective performance
+
+standards; to provide for separate principles, standards, and reports for dropout recovery
+
+charter schools; to revise provisions for incentive grants for local boards of education to
+
+approve charter school petitions; to revise provisions for the Office of Charter School
+
+Compliance; to revise provisions relative to charter petitions by existing charter schools; to
+
+revise provisions relative to state charter school records; to provide for definitions; to provide
+
+for related matters; to provide for an effective date; to repeal conflicting laws; and for other
+
+purposes.
+
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF GEORGIA:
+
+SECTION 1.
+
+Chapter 2 of Title 20 of the Official Code of Georgia Annotated, relating to elementary and
+
+secondary education, is amended in Part 3 of Article 6, relating to educational programs
+
+under the "Quality Basic Education Act," by adding a new Code section to read as follows:
+
+"20-2-154.4.
+
+(a)(1) By July 1, 2027, the State Board of Education shall establish definitions, rules,
+
+regulations, policies, and procedures to govern the operation of nontraditional education
+
+programs and services, including, but not limited to:
+
+(A) Dropout prevention and academic intervention programs;
+
+(B) Programs for high school credit recovery; and
+
+(C) Opportunities for students to schedule classes outside of the traditional school day,
+
+school week, and school year.
+
+(2) The definitions, rules, regulations, policies, and procedures provided for under
+
+paragraph (1) of this subsection shall require that a nontraditional education program or
+
+school provide an explanation of:
+
+(A) The special education services to be provided pursuant to Code Section 20-2-152,
+
+the remedial education program services to be provided pursuant to Code
+
+Section 20-2-154, and other nontraditional education programs and services to be
+
+provided;
+
+(B) The measurable objective performance standards in the areas of academic
+
+achievement, student growth, and student retention to be established, monitored,
+
+evaluated, and reported; and
+
+(C) The monitoring, evaluating, and reporting procedures in meeting such performance
+
+standards.
+
+(b)
+
+Section 20-14-27, the Office of Student Achievement shall separately report on the
+
+performance of nontraditional education programs and services in local school systems."
+
+SECTION 2.
+
+Said chapter is further amended in Part 14 of Article 6, relating to other educational programs
+
+under the "Quality Basic Education Act," by revising Code Section 20-2-319.6, relating to
+
+home study student participation in resident school system extracurricular and interscholastic
+
+activities, short title, definitions, requirements for participation, impact of student
+
+withdrawal, and reporting requirements, as follows:
+
+In the annual report required by paragraph (2) of subsection (a) of Code
+
+"20-2-319.6.
+
+(a) This Code section shall be known and may be cited as the 'Dexter Mosely Act.'
+
+(b) As used in this Code section, the term:
+
+(1)
+
+organization which acts as an organizing, sanctioning, scheduling, or rule-making body
+
+for interscholastic activities in which public schools in this state participate.
+
+(2) 'Extracurricular activities' means public school-sponsored school sponsored activities
+
+in which students take part on a voluntary basis; which do not offer or provide school or
+
+course credits; which are generally conducted outside regular school hours or, if
+
+conducted in whole or in part during regular school hours, at times agreed to by the
+
+participants and approved by a school official; and which are managed and operated
+
+under the guidance of a teacher, other school employee, or other adult approved by a
+
+school official. Examples of extracurricular activities include but are not limited to
+
+intramural and interscholastic athletics; band, chorus, and other musical activities; drama
+
+'Athletic association' means any association of schools or any other similar
+
+and other theatrical activities; and clubs and organizations as defined in subsection (a) of
+
+Code Section 20-2-705.
+
+(3) 'Home study student' means any student in grades six through 12 who is in a home
+
+study program that meets the requirements of subsection (c) of Code Section 20-2-690.
+
+(4) 'Interscholastic activities' means extracurricular activities, public school-sponsored
+
+school sponsored athletic programs, and other public school-sponsored school sponsored
+
+programs that are sanctioned or supported by a state-wide interscholastic activities
+
+governing body, including but not limited to an athletic association.
+
+(5) 'Qualifying course' means a course facilitated by the home study student's resident
+
+school system:
+
+(A) By applying one or more of the mechanisms provided for in paragraphs (1)
+
+through (4) of subsection (b) of Code Section 20-2-319.4;
+
+(B) By way of a dual credit course as provided for in Code Section 20-2-161.3; or
+
+(C) By way of an on-site course required for participation in designated extracurricular
+
+and interscholastic activities.
+
+(6) 'Qualifying virtual school' means a public school in this state that provides solely
+
+virtual instruction and that does not offer to students enrolled in grades six through 12
+
+one or more school sponsored interscholastic athletic programs or other school sponsored
+
+programs that are sanctioned or supported by a state-wide interscholastic activities
+
+governing body.
+
+(6)(7) 'Resident school' means the public school in which a home study student or virtual
+
+school student would be enrolled based on his or her residence.
+
+(7)(8) 'Resident school system' means the public school system in which a home study
+
+student or virtual school student would be enrolled based on his or her residence.
+
+(9) 'Virtual school student' means a student in grades six through 12 enrolled full-time
+
+in a qualifying virtual school.
+
+(c) A home study student shall be eligible to participate in extracurricular activities and
+
+interscholastic activities under the sponsorship, direction, and control of the resident school
+
+or resident school system, provided that each of the following requirements is met:
+
+(1) At least 30 calendar days before the first school day of the semester in which a home
+
+study student will enroll in a qualifying course as provided in paragraph (2) of this
+
+subsection, a parent or guardian of the home study student provides to the principal of the
+
+resident school and the superintendent of the resident school system:
+
+(A) Written notice that the home study student intends to participate in one or more
+
+specified extracurricular or interscholastic activities as a representative of the resident
+
+school or resident school system; and
+
+(B) A copy of the home study student's most recent annual progress assessment report,
+
+as provided for in paragraph (8) of subsection (c) of Code Section 20-2-690, along with
+
+written verification by the home study program instructor that the home study student
+
+is currently receiving a passing grade in each home study program course, is
+
+maintaining satisfactory progress toward advancement, and meets the requirements for
+
+participation in the specified extracurricular or interscholastic activity;
+
+(2) For each semester of the regular school year during any part of which the home study
+
+student participates in an extracurricular or interscholastic activity, the home study
+
+student enrolls in and attempts to complete one qualifying course;
+
+(3) The home study student meets established age, academic, behavioral, conduct,
+
+disciplinary, residence, zoning, and other rules and requirements applicable to all students
+
+for participation in the specified extracurricular or interscholastic activity and provides
+
+any supporting documentation required by the resident school;
+
+(4) The home study student abides by the same student code of conduct and disciplinary
+
+measures and transportation policies as students enrolled at the resident school who are
+
+participating in the same extracurricular or interscholastic activity as the home study
+
+student;
+
+(5)
+
+participation in the specified extracurricular or interscholastic activity applicable to all
+
+students for participation in the specified extracurricular or interscholastic activity and
+
+provides any supporting documentation required by the resident school; and
+
+(6) For an extracurricular or interscholastic activity which involves a competitive
+
+selection process, the home study student is selected.
+
+(c.1) Beginning with the 2027-2028 school year, a virtual school student shall be eligible
+
+to participate in extracurricular activities and interscholastic activities under the
+
+sponsorship, direction, and control of the resident school or resident school system,
+
+provided that each of the following requirements is met:
+
+(1) At least 30 calendar days before the first school day of the semester in which a virtual
+
+school student intends to participate in one or more extracurricular or interscholastic
+
+activities, a parent or guardian of the virtual school student provides to the principal of
+
+the resident school and the superintendent of the resident school system:
+
+The home study student completes the tryout process or the equivalent for
+
+(A) Written notice that the virtual school student intends to participate in one or more
+
+specified extracurricular or interscholastic activities as a representative of the resident
+
+school or resident school system; and
+
+(B) A copy of the virtual school student's most recent report card or its equivalent,
+
+along with written verification by the virtual school that the virtual school student is
+
+currently receiving a passing grade in each course and meets the requirements for
+
+participation in the specified extracurricular or interscholastic activity;
+
+(2) The virtual school student meets established age, academic, behavioral, conduct,
+
+disciplinary, residence, zoning, and other rules and requirements applicable to all students
+
+for participation in the specified extracurricular or interscholastic activity and provides
+
+any supporting documentation required by the resident school;
+
+(3) The virtual school student abides by the same student code of conduct and
+
+disciplinary measures and transportation policies as students enrolled at the resident
+
+school who are participating in the same extracurricular or interscholastic activity as the
+
+virtual school student;
+
+(4) The virtual school student completes the tryout process or the equivalent for
+
+participation in the specified extracurricular or interscholastic activity applicable to all
+
+students for participation in the specified extracurricular or interscholastic activity and
+
+provides any supporting documentation required by the resident school; and
+
+(5) For an extracurricular or interscholastic activity which involves a competitive
+
+selection process, the virtual school student is selected.
+
+(d) A student who withdraws from a public school to participate in a home study program
+
+or enroll in a qualifying virtual school shall be ineligible for participation in any
+
+extracurricular or interscholastic activity for 12 months from the date of the declaration of
+
+intent to utilize a home study program provided to the Department of Education as
+
+provided under paragraph (2) of subsection (c) of Code Section 20-2-690 or enrollment in
+
+the qualifying virtual school.
+
+(e) For purposes of this Code section, participation in an extracurricular or interscholastic
+
+activity includes participation in the following school-sponsored school sponsored
+
+activities related to the extracurricular or interscholastic activity: tryouts; off-season
+
+practice, rehearsal, or conditioning; summer and holiday practice, rehearsal, or
+
+conditioning; in-season practice, rehearsal, or conditioning; and all exhibitions, contests,
+
+and competitions, including scrimmage, preseason, regular season, postseason, and
+
+invitational.
+
+(f) A resident school, a resident school system, or an athletic association shall not deny a
+
+home study student or a virtual school student the opportunity to try out and participate if
+
+selected in any extracurricular or interscholastic activities available at the resident school
+
+or in the resident school system if the student meets the requirements contained in
+
+subsection (c) or (c.1) of this Code section, respectively, and is not ineligible under
+
+subsection (d) of this Code section.
+
+(g) No public high school which receives funding under this article shall participate in,
+
+sponsor, or provide coaching staff for interscholastic activities which are conducted under
+
+the authority of, conducted under the rules of, or scheduled by any athletic association that
+
+does not deem eligible for participation a home study student or virtual school student who
+
+meets the requirements contained in subsection (c) or (c.1) of this Code section,
+
+respectively, and is not ineligible under subsection (d) of this Code section.
+
+(h) Home study students and virtual school students shall participate in extracurricular or
+
+interscholastic activities, as authorized under this Code section, on behalf of such home
+
+study student's resident school.
+
+(i) The specific assigned program of each home study student enrolled in a qualifying
+
+course shall be included for a one-sixth segment of the school day, or the block scheduling
+
+equivalent, by the home study student's resident school system in reports made to the
+
+Department of Education as provided in subsection (a) of Code Section 20-2-160.
+
+(j) The provisions of this Code section relating to qualifying virtual schools and virtual
+
+school students shall apply beginning with the 2027-2028 school year."
+
+SECTION 3.
+
+Said chapter is further amended in Article 19, relating to instructional materials and content,
+
+is amended by adding a new Code section to read as follows:
+
+"20-2-1018.
+
+(a) As used in this Code section, the term:
+
+(1)
+
+malfunctioning or needing repair prior to the end of the device's life cycle as stated by the
+
+manufacturer due to physical damage, hardware failure, or other breakage incidents
+
+which are not covered by insurance or a policy plan period during a school year divided
+
+by the total number of school technology devices in operation during the same school
+
+year.
+
+'Break/fix rate' means the number of school technology devices reported as
+
+(2) 'Department' means the Department of Education.
+
+(3) 'School technology device' or 'device' means electronic or computerized equipment
+
+greater than $100.00 in value provided for educational purposes in a public school,
+
+including, but not limited to, computers, tablets, and interactive whiteboards, and
+
+associated hardware, software, and technical equipment.
+
+(b) When purchasing school technology devices, each local board of education and other
+
+public school governing body shall take into consideration the following factors:
+
+(1) The long-term cost of ownership of such devices, including the costs of repairs;
+
+(2) The flexibility for innovation during the life of such devices; and
+
+(3) The anticipated resale or salvage value of such devices compared to the initial
+
+purchase cost of such devices.
+
+(c) Beginning in 2027, no later than October 15 of each year, each local board of education
+
+and other public school governing body shall submit a report to the department which
+
+includes the following information for the respective local school system or public school
+
+for the preceding school year:
+
+(1) The total number of school technology devices in operation;
+
+(2) The break/fix rate of school technology devices;
+
+(3) The total number of school technology devices which required repair and the number
+
+of such devices that underwent repair or were out of service; and
+
+(4) The total amount spent to repair or replace school technology devices.
+
+(d) Beginning in 2027, no later than December 31 each year, the department shall submit
+
+a report to the Governor, the President of the Senate, the Speaker of the House of
+
+Representatives, and the chairpersons of the House Committee on Education and the Senate
+
+Education and Youth Committee which shall include the information provided to the
+
+department pursuant to subsection (c) of this Code section."
+
+SECTION 4.
+
+Said chapter is further amended in Article 31, the "Charter Schools Act of 1998," by adding
+
+a new paragraph to Code Section 20-2-2062, relating to definitions, to read as follows:
+
+"(4.01)(A) 'Dropout recovery charter school' means a charter school authorized by a
+
+local board of education and the State Board of Education that enrolls students in any
+
+of grades six through 12 and provides:
+
+(i) Special education services as provided for in Code Section 20-2-152;
+
+(ii) Remedial education program services as provided for in Code Section 20-2-154;
+
+and
+
+(iii) Nontraditional education programs and services, including, but not limited to:
+
+(I) Dropout prevention and academic intervention programs;
+
+(II) Programs for high school credit recovery; and
+
+(III) Opportunities for students to schedule classes outside of the traditional school
+
+day, school week, and school year.
+
+(B) Such term shall not include a school that serves students in any of grades
+
+kindergarten through five."
+
+SECTION 5.
+
+Said article is further amended in Code Section 20-2-2063, relating to charter petitions, by
+
+adding a new subsection to read as follows:
+
+"(e)(1) The State Board of Education shall establish rules, regulations, policies, and
+
+procedures to govern the contents of a charter petition for a dropout recovery charter
+
+school.
+
+(2) The State Board of Education shall establish rules, regulations, policies, and
+
+procedures to provide for charter petitions for a dropout recovery charter school. Such
+
+rules, regulations, policies, and procedures shall require that a charter petition and the
+
+charter contain an explanation of:
+
+(A) The special education services to be provided pursuant to Code Section 20-2-152,
+
+the remedial education program services to be provided pursuant to Code
+
+Section 20-2-154, and other nontraditional education programs and services to be
+
+provided; and
+
+(B) The measurable objective performance standards in the areas of academic
+
+achievement, student growth, and student retention that will be established, monitored,
+
+evaluated, and reported.
+
+(3) The State Board of Education shall establish policies, rules, and regulations to
+
+provide for an existing charter school to convert its current charter to a dropout recovery
+
+charter school charter, which shall be subject to the initial term restriction provided for
+
+in subsection (b) of Code Section 20-2-2067.1."
+
+SECTION 6.
+
+Said article is further amended in Code Section 20-2-2063.3, relating to code of principles
+
+and standards for charter school authorizers, by revising subsection (a) as follows:
+
+"(a)(1) The State Board of Education and the State Charter Schools Commission shall
+
+jointly establish a code of principles and standards of charter school authorizing to guide
+
+local boards of education, the state board, and the State Charter Schools Commission in
+
+meeting high-quality authorizing practices. The principles and standards established by
+
+the state board and the State Charter Schools Commission shall, as applicable, include:
+
+(1)(A) Maintaining high standards for approving charter petitions;
+
+(2)(B) Establishing high academic, financial, and operational performance standards
+
+for charter schools;
+
+(3)(C) Annually monitoring, evaluating, and reporting charter school progress in
+
+meeting academic, financial, and operational performance standards, including ensuring
+
+that a local school system has not been designated as a high-risk local school system
+
+by the Department of Audits and Accounts pursuant to Code Section 20-2-67, or if it
+
+has been designated as a high-risk local school system, that it has a written corrective
+
+action plan in place and that local school system board members and appropriate
+
+personnel participate in required training to address the deficiencies;
+
+(4)(D)
+
+program implementation, personnel, and budgeting;
+
+(5)(E) Protecting students and holding charter schools accountable for their obligations
+
+to all students; and
+
+(6)(F) Protecting the public interest and holding charter schools accountable for their
+
+obligations of governance, management, and oversight of public funds.
+
+Upholding charter school autonomy in school governance, instructional
+
+(2) Notwithstanding any provision of paragraph (1) of this subsection to the contrary, the
+
+principles and standards established by the state board and the State Charter Schools
+
+Commission shall establish separate principles and standards for dropout recovery charter
+
+schools, which may include the same or similar principles and standards provided for in
+
+paragraph (1) of this subsection, but which shall include provisions for:
+
+(A) Establishing measurable objective performance standards in the areas of academic
+
+achievement, student growth, and student retention; and
+
+(B) Monitoring, evaluating, and reporting progress in meeting such performance
+
+standards.
+
+(3)
+
+Section 20-14-27, the Office of Student Achievement shall separately report on the
+
+performance of dropout recovery charter schools."
+
+SECTION 7.
+
+Said article is further amended by revising Code Section 20-2-2064.2, relating to promotion
+
+of approval of new local charter school petitions and incentive grants, as follows:
+
+In the annual report required by paragraph (2) of subsection (a) of Code
+
+"20-2-2064.2.
+
+(a) The State Board of Education state board, in collaboration with the State Charter
+
+Schools Commission Office of Charter School Compliance, shall establish a program for
+
+the purposes of promoting and supporting the approval of new local charter school petitions
+
+by local boards of education and to provide incentive grants to local boards of education
+
+that approve new local charter school petitions. The State Charter Schools Commission
+
+state board shall promulgate such rules and regulations as it deems necessary to carry out
+
+the provisions and intent of this Code section.
+
+(b)(1) Subject to appropriations, for each new local charter school petition approved by
+
+a local board of education after June 30, 2025, such local board of education shall receive
+
+an incentive grant of $250,000.00 by August 1 September 1 of each of the first three
+
+years of such local charter school's operation following such approval, provided that such
+
+local charter school remains authorized by such local board of education. In the event
+
+that available appropriations are not sufficient to cover the total amount of such the
+
+incentive grants provided for in this subsection, the amount of each such grant shall be
+
+reduced proportionally, providing incentive grants in equal amounts to each such local
+
+board of education.
+
+(2) Incentive grants provided for in paragraph (1) of this subsection shall be provided
+
+only for the approval of new local charter school petitions and not for the approval or
+
+renewal of an existing local charter school.
+
+(3) The total amount of incentive grants provided under this subsection shall not
+
+exceed $2.25 million in any fiscal year.
+
+(c) Incentive grants awarded pursuant to subsection (b) of this Code section may be used
+
+by the receiving local board of education for expenses incurred by the local board of
+
+education in its role as a local charter school authorizer, which may include, but shall not
+
+be limited to, hiring qualified personnel and providing for oversight, compliance
+
+monitoring, and professional development related to local charter school authorization.
+
+(d) The Department of Education shall implement and administer distribute the incentive
+
+grant program provided for in grants authorized pursuant to subsection (b) of this Code
+
+section and the Office of Charter School Compliance shall provide any technical assistance
+
+necessary to local school systems in to support of compliance with the requirements of this
+
+Code section.
+
+(e) This Code section shall stand automatically repealed on July 1, 2035."
+
+SECTION 8.
+
+Said article is further amended by revising paragraph (4) of subsection (b) of Code
+
+Section 20-2-2065, relating to waiver of provisions of this title, requirements for operating,
+
+and control and management, as follows:
+
+"(4) Organized and operated as a nonprofit corporation or company under the laws of this
+
+state; provided, however, that this paragraph shall not apply to any charter petitioner that
+
+is a local school, local school system, or state or local public entity;"
+
+SECTION 9.
+
+Said article is further amended by revising subsection (a) of Code Section 20-2-2069, relating
+
+to the Office of Charter School Compliance and Office of District Flexibility, as follows:
+
+"(a) There is established within the State Charter Schools Commission an Office of Charter
+
+School Compliance, which shall be staffed with personnel as provided for in
+
+subsection (d.1) of Code Section 20-2-2082, who shall report directly to the State Board
+
+of Education state board for purposes of this subsection. The responsibilities of such office
+
+shall be to:
+
+(1) Prepare charter school guidelines to be approved by the state board;
+
+(2) Distribute charter school petition information to inquiring parties;
+
+(3) Process all charter school petitions and coordinate with the Charter Advisory
+
+Committee established pursuant to Code Section 20-2-2063.1 to facilitate its such
+
+committee's review and recommendations to the state board;
+
+(4) Administer any state or federal charter school implementation grant program grant
+
+programs;
+
+(5) Contract with an independent party to evaluate the performance of charter schools,
+
+as such performance relates to fulfilling the terms of their charters;
+
+(6) Compile information necessary to produce the annual report required by Code
+
+Section 20-2-2070, which shall include, but shall not be limited to, information regarding
+
+the effectiveness of the incentives incentive grants and the adherence of local school
+
+systems to the requirements provided for in Code Sections 20-2-2064 and 20-2-2064.2;
+
+(7) Prepare guidelines for local boards of education for the evaluation of charter school
+
+petitions. Such guidelines shall be published on the public website of the Department of
+
+Education and shall include:
+
+(A) Criteria for evaluating the academic, operational, and financial plans of the charter
+
+petitioner;
+
+(B) Best practices for conducting a thorough and objective review of charter petitions;
+
+(C) Procedures for public hearings and community input on charter petitions; and
+
+(D) A standardized evaluation rubric for use by local boards of education during the
+
+evaluation of charter petitions; and
+
+(8) Provide technical assistance to local school systems as charter school authorizers,
+
+support local school systems as needed to implement best practices in charter school
+
+authorization, and regularly engage with local school systems to promote charter school
+
+authorization at the local level."
+
+SECTION 10.
+
+Said chapter is further amended in Article 31A, relating to state charter schools, by revising
+
+paragraph (4) of Code Section 20-2-2081, relating to definitions, as follows:
+
+"(4) 'Governing board' means the governing board of the nonprofit organization, or the
+
+parent corporation of such nonprofit organization if such parent corporation is the sole
+
+member of such nonprofit organization, which is the charter petitioner for a state charter
+
+school and which is the same as the governing board of the state charter school which is
+
+involved in school-level school level governance of the state charter school."
+
+SECTION 11.
+
+Said chapter is further amended in said article by revising Code Section 20-2-2085, relating
+
+to petitions by existing charter schools, as follows:
+
+"20-2-2085.
+
+A petition may be submitted pursuant to this Code section by an existing charter school
+
+approved by a local board of education or the State Board of Education, provided that the
+
+obligations of its charter with the local board of education or State Board of Education will
+
+expire prior to entering into a new charter with the commission. The commission shall not
+
+act on a petition submitted pursuant to this Code section unless the local board of education
+
+that authorizes the charter school has voted to terminate or nonrenew the charter contract
+
+or otherwise fails to renew the charter contract by a date established by the State Board of
+
+Education. Upon the existing charter school's request, a local board of education or the
+
+State Board of Education in the case of a state chartered special school may agree to
+
+rescind or waive the obligations of a current charter to allow a petition to be submitted by
+
+an existing charter school pursuant to this Code section. An existing charter school that is
+
+established as a state charter school pursuant to this Code section shall be allowed to
+
+continue the use of all facilities, equipment, and other assets it used prior to the expiration
+
+or rescission of its charter with a local board of education; provided, however, that the local
+
+board of education shall be authorized to charge or continue to charge a reasonable fee for
+
+use of the facilities."
+
+SECTION 12.
+
+Said chapter is further amended in said article by revising subsection (b) of Code
+
+Section 20-2-2088.1, relating to ownership and maintenance of state charter school records,
+
+as follows:
+
+"(b) In the event that a state charter school ceases operations for any reason, including, but
+
+not limited to, the termination, nonrenewal, or abandonment of the state charter school's
+
+charter, the nonprofit entity which held the charter contract shall retain ownership,
+
+including all incumbent responsibilities of an operational state charter school, of all records
+
+for a period of one year 180 days from the later of the date the charter contract expired, the
+
+date the charter contract was terminated, or the date the state charter school ceased
+
+operations. Incumbent responsibilities include, but are not limited to, transferring student
+
+records to public or private schools, schools operated by the Department of Juvenile
+
+Justice, and the local school system or schools from which the records are requested. After
+
+the one-year 180 day period, the nonprofit entity which held the charter contract shall
+
+transfer all records, including student records, to the commission in the format and manner
+
+specified by the commission."
+
+SECTION 13.
+This Act shall become effective on July 1, 2026.
+SECTION 14.
+All laws and parts of laws in conflict with this Act are repealed.

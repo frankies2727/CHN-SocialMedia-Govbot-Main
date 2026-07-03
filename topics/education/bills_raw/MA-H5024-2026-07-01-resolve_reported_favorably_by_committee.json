@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H5024",
+    "legislative_session": "194th",
+    "title": "Resolve for a foster care and child care liability insurance special commission"
+  },
+  "id": "H5024",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage-favorable",
+        "referral-committee"
+      ],
+      "description": "Resolve reported favorably by committee and referred to the committee on House Ways and Means",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-01",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "the committee on House Ways and Means"
+        },
+        {
+          "entity_type": "organization",
+          "name": "committee on House Ways and Means"
+        }
+      ],
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/H5024"
+        }
+      ]
+    },
+    "bill_id": "H5024"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H5024/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H5024/logs/20260701T000000Z_resolve_reported_favorably_by_committee_and_referred_to_the_committee_on_house_ways_and_means.json"
+  },
+  "timestamp": "20260701T000000Z"
+}
