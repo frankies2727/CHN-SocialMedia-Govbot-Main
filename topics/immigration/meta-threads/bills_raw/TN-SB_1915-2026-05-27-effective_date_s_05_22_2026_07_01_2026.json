@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1915",
+    "legislative_session": "114",
+    "subject": [
+      "Immigration"
+    ],
+    "title": "Immigration - As enacted, adds local governments to the entities that must verify that each applicant for public benefits is a United States citizen or lawfully present in the United States; authorizes certain investigations of violations of requirements for verification of citizenship or presence for public benefits; requires certain reporting related to such verification for benefits; makes other related changes. - Amends TCA Title 4, Chapter 1 and Title 4, Chapter 58."
+  },
+  "id": "SB 1915",
+  "log": {
+    "action": {
+      "description": "Effective date(s) 05/22/2026, 07/01/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-05-27",
+      "session_id": "114",
+      "sources": [
+        {
+          "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB1915&ga=114"
+        }
+      ]
+    },
+    "bill_id": "SB 1915"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1915/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1915/logs/20260527T000000Z_effective_dates_05222026_07012026.json"
+  },
+  "timestamp": "20260527T000000Z"
+}

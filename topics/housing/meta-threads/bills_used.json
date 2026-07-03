@@ -3,11 +3,16 @@
     "CA|SB1072|2026-06-30|From committee: Do pass and re-refer to ",
     "GA|SB 170|2026-05-11|Act 487",
     "GA|SB 170|2026-05-11|Effective Date",
-    "GA|SB 170|2026-05-11|Senate Date Signed by Governor"
+    "GA|SB 170|2026-05-11|Senate Date Signed by Governor",
+    "MO|SB 834|2026-05-28|Delivered to Governor",
+    "MO|SB 834|2026-05-28|Reported Duly Enrolled Rules, Joint Rule",
+    "MO|SB 834|2026-05-28|Signed by House Speaker",
+    "MO|SB 834|2026-05-28|Signed by Senate President Pro Tem"
   ],
   "state_last_posted": {
     "GA": "2026-06-28T12:14:32.065966+00:00",
-    "CA": "2026-07-02T12:44:23.690808+00:00"
+    "CA": "2026-07-02T12:44:23.690808+00:00",
+    "MO": "2026-07-03T12:41:03.579800+00:00"
   },
-  "last_run": "2026-07-02T12:45:49.295550+00:00"
+  "last_run": "2026-07-03T12:42:37.941437+00:00"
 }
