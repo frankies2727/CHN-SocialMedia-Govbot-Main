@@ -629,6 +629,16 @@ class Topic:
     def instagram_cards_dir(self) -> Path:
         return TOPICS_DIR / self.name / self.instagram_subdir / "cards"
 
+    # Instagram weekly-digest artifacts live in their own weekly_digest/ subfolder
+    # (raw records + the carousel's rendered cards) so the Friday digest's trail
+    # doesn't mix with the daily feed's bills_raw/ and cards/. Mirrors the
+    # threads_weekly_digest_bills_raw_dir() helper on the Threads side.
+    def instagram_weekly_digest_bills_raw_dir(self) -> Path:
+        return TOPICS_DIR / self.name / self.instagram_subdir / "weekly_digest" / "bills_raw"
+
+    def instagram_weekly_digest_cards_dir(self) -> Path:
+        return TOPICS_DIR / self.name / self.instagram_subdir / "weekly_digest" / "cards"
+
     def _secret_suffix(self) -> str:
         return self.name.upper()
 

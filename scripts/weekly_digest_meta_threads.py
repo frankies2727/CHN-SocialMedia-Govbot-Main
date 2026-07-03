@@ -43,13 +43,13 @@ from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+import digest_multitopic as dm
 import post_to_bluesky as pb
 import post_to_meta_threads as pmt
 from post_to_bluesky import (
     _FILENAME_UNSAFE_RE,
     _slug,
     ensure_english_fields,
-    extract_fields,
     load_bills,
     save_full_text,
     shorten_title,
@@ -66,17 +66,12 @@ from post_to_meta_threads import (
     publish_post,
     threads_summary_budget,
 )
-from topic import Topic, list_topics
+from topic import Topic
 from weekly_digest_bluesky import (
     DIGEST_LOOKBACK_DAYS,
     DIGEST_PER_STATE_CAP,
-    LOOKBACK_FALLBACK_WINDOWS,
     _format_jurisdictions_line,
     _format_short,
-    _landscape_unique_bills,
-    candidates_in_window,
-    score_action,
-    select_highlights,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -112,86 +107,6 @@ THREADS_THREAD_SLEEP = int(os.environ.get("THREADS_THREAD_SLEEP", "5"))
 def _activate_topic(topic: Topic) -> None:
     pb.TOPIC = topic
     pmt.TOPIC = topic
-
-
-# ---------------------------------------------------------------------------
-# Cross-topic selection
-# ---------------------------------------------------------------------------
-
-def _extract_all(records: list[dict]) -> list[dict]:
-    """Run extract_fields once over the corpus, stashing the source record so
-    _save_digest_raw_records can dump the verbatim bills.jsonl line later. The
-    resulting bill dicts are shared across every topic's match list (a bill can
-    match more than one topic); the final round-robin dedups by bill and stamps
-    the winning topic, so sharing is safe."""
-    out: list[dict] = []
-    for r in records:
-        b = extract_fields(r)
-        if b:
-            b["_raw"] = r
-            out.append(b)
-    return out
-
-
-def _rank_topics_in_window(matched_by_topic: dict[str, tuple[Topic, list[dict]]],
-                           today: datetime, window: int
-                           ) -> dict[str, tuple[Topic, list[dict]]]:
-    """For a given lookback window, return {topic_name: (topic, ranked_bills)}
-    for every topic with at least one bill update in the window. ranked_bills is
-    that topic's full significance-ranked, per-state-capped list (no per-topic
-    truncation — the cross-topic round-robin picks from it)."""
-    per_topic: dict[str, tuple[Topic, list[dict]]] = {}
-    for name, (topic, matched) in matched_by_topic.items():
-        cands = candidates_in_window(matched, today, window)
-        if not cands:
-            continue
-        ranked = select_highlights(
-            cands, max_highlights=None, per_state_cap=DIGEST_PER_STATE_CAP)
-        per_topic[name] = (topic, ranked)
-    return per_topic
-
-
-def _merge_across_topics(per_topic: dict[str, tuple[Topic, list[dict]]],
-                         cap: int, per_state_cap: int) -> list[dict]:
-    """Round-robin across topics for breadth: take each topic's strongest
-    remaining bill in turn until we hit ``cap``, so the thread spreads over as
-    many topics as possible before doubling up on any one. Topics are visited
-    strongest-first (by their top bill's score). Dedups by bill across topics —
-    a bill matched by two topics is claimed by whichever reaches it first — and
-    enforces a global per-state cap so one busy statehouse can't dominate. The
-    claiming topic is stamped on each pick as _topic / _topic_name."""
-    order = sorted(
-        per_topic,
-        key=lambda n: (-per_topic[n][1][0]["_score"], n),
-    )
-    iters = {n: iter(per_topic[n][1]) for n in order}
-    picked: list[dict] = []
-    seen_bills: set[tuple[str, str]] = set()
-    per_state: Counter[str] = Counter()
-
-    while len(picked) < cap:
-        progressed = False
-        for name in order:
-            if len(picked) >= cap:
-                break
-            topic = per_topic[name][0]
-            for b in iters[name]:
-                key = (b["state"], b["identifier"])
-                if key in seen_bills:
-                    continue
-                st = b["state"] or "?"
-                if per_state[st] >= per_state_cap:
-                    continue
-                seen_bills.add(key)
-                per_state[st] += 1
-                b["_topic"] = topic
-                b["_topic_name"] = name
-                picked.append(b)
-                progressed = True
-                break
-        if not progressed:
-            break
-    return picked
 
 
 # ---------------------------------------------------------------------------
@@ -347,29 +262,6 @@ def post_digest_thread(root_text: str, replies: list[tuple[str, str]]) -> None:
 
 
 # ---------------------------------------------------------------------------
-# Landscape (quiet-week) fallback
-# ---------------------------------------------------------------------------
-
-def _landscape_highlights(matched_by_topic: dict[str, tuple[Topic, list[dict]]]
-                          ) -> list[dict]:
-    """When no topic had floor activity in any window, build a cross-topic
-    landscape pick: each topic's most-recent unique bills, round-robined across
-    topics for breadth and capped at DIGEST_MAX_HIGHLIGHTS. Reuses the same
-    merge (and its global per-state cap) as the highlights path."""
-    per_topic: dict[str, tuple[Topic, list[dict]]] = {}
-    for name, (topic, matched) in matched_by_topic.items():
-        if not matched:
-            continue
-        unique = _landscape_unique_bills(matched)
-        for b in unique:
-            b["_score"] = score_action(b["action_desc"])
-        unique.sort(key=lambda b: (b["_score"], b["action_date"]), reverse=True)
-        per_topic[name] = (topic, unique)
-    return _merge_across_topics(
-        per_topic, cap=DIGEST_MAX_HIGHLIGHTS, per_state_cap=DIGEST_PER_STATE_CAP)
-
-
-# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -384,12 +276,6 @@ def main() -> int:
         print(f"ERROR: missing Threads credentials: {', '.join(missing)}", file=sys.stderr)
         return 1
 
-    topic_names = list_topics()
-    if not topic_names:
-        print("No topics found under topics/. Nothing to digest.")
-        return 0
-    print(f"=== Threads weekly digest (all topics): {', '.join(topic_names)} ===")
-
     records = load_bills(JSONL_PATH)
     if not records:
         return 0
@@ -399,16 +285,17 @@ def main() -> int:
 
     # Extract every bill once, then build each topic's match list from the shared
     # dicts (a bill can match several topics; the round-robin dedups by bill).
-    extracted = _extract_all(records)
-    matched_by_topic: dict[str, tuple[Topic, list[dict]]] = {}
-    for name in topic_names:
-        try:
-            topic = Topic.load(name)
-        except (FileNotFoundError, ValueError) as e:
-            print(f"  ! skipping topic {name!r}: {e}", file=sys.stderr)
-            continue
-        matched = [b for b in extracted if topic.matches(b)]
-        matched_by_topic[name] = (topic, matched)
+    extracted = dm.extract_all(records)
+    matched_by_topic = dm.build_matched_by_topic(
+        extracted,
+        on_skip=lambda name, e: print(f"  ! skipping topic {name!r}: {e}", file=sys.stderr),
+    )
+    if not matched_by_topic:
+        print("No topics found under topics/. Nothing to digest.")
+        return 0
+    print(f"=== Threads weekly digest (all topics): "
+          f"{', '.join(matched_by_topic)} ===")
+    for name, (_, matched) in matched_by_topic.items():
         print(f"  {name}: {len(matched)} matching bill action(s)")
 
     if not any(m for _, m in matched_by_topic.values()):
@@ -417,19 +304,12 @@ def main() -> int:
 
     # Primary 7-day window first, widening if EVERY topic is empty so a quiet
     # week doesn't kill the digest.
-    per_topic: dict[str, tuple[Topic, list[dict]]] = {}
-    chosen_window = LOOKBACK_FALLBACK_WINDOWS[0]
-    for window in LOOKBACK_FALLBACK_WINDOWS:
-        per_topic = _rank_topics_in_window(matched_by_topic, today, window)
-        active = sum(len(r) for _, r in per_topic.values())
-        print(f"Lookback {window}d: {len(per_topic)} topic(s) active, "
-              f"{active} ranked bill update(s).")
-        if per_topic:
-            chosen_window = window
-            break
+    chosen_window, per_topic = dm.choose_active_window(
+        matched_by_topic, today, DIGEST_PER_STATE_CAP)
+    print(f"Chosen lookback: {chosen_window}d ({len(per_topic)} topic(s) active).")
 
     if per_topic:
-        highlights = _merge_across_topics(
+        highlights = dm.merge_across_topics(
             per_topic, cap=DIGEST_MAX_HIGHLIGHTS, per_state_cap=DIGEST_PER_STATE_CAP)
         topics_covered = sorted({b["_topic_name"] for b in highlights})
         print(f"\nSelected {len(highlights)} highlight(s) across "
@@ -450,7 +330,8 @@ def main() -> int:
 
     # No floor activity in any window for any topic — ship a landscape thread so
     # the weekly slot still produces something informative.
-    recent_bills = _landscape_highlights(matched_by_topic)
+    recent_bills = dm.landscape_picks(
+        matched_by_topic, cap=DIGEST_MAX_HIGHLIGHTS, per_state_cap=DIGEST_PER_STATE_CAP)
     state_counts = Counter((b["state"] or "?") for b in recent_bills)
     distinct_states = len([s for s in state_counts if s])
     topics_covered = sorted({b["_topic_name"] for b in recent_bills})
