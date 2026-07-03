@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2539",
+    "legislative_session": "114",
+    "subject": [
+      "Health Care"
+    ],
+    "title": "Health Care - As enacted, makes revisions to health law, including, but not limited to, revising certain reporting requirements, requiring a person licensed by the board of examiners in psychology to complete certain suicide prevention training, defining palliative care, and clarifying certain rulemaking authority of health boards and the commissioner of health. - Amends TCA Title 4; Title 8; Title 33; Title 36; Title 37; Title 48; Title 49; Title 52; Title 53; Title 55; Title 56; Title 62; Title 63 and Title 68."
+  },
+  "id": "HB 2539",
+  "log": {
+    "action": {
+      "description": "Effective date(s) 07/01/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-05-27",
+      "session_id": "114",
+      "sources": [
+        {
+          "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB2539&ga=114"
+        }
+      ]
+    },
+    "bill_id": "HB 2539"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HB2539/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HB2539/logs/20260527T000000Z_effective_dates_07012026.json"
+  },
+  "timestamp": "20260527T000000Z"
+}

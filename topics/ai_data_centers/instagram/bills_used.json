@@ -2,6 +2,7 @@
   "posted": [
     "CA|AB1988|2026-06-26|In committee: Set, final hearing. Hearin",
     "FL|SB 2D|2026-04-29|Died in Information Technology Budget & ",
+    "MO|HB 1970|2026-05-15|Referred: Emerging Issues(H)",
     "PR|PS0934|2026-06-15|Comisi\u00f3n no recomienda aprobaci\u00f3n de la ",
     "RI|HB7349|2026-06-22|06/22/2026 Signed by Governor"
   ],
@@ -9,7 +10,8 @@
     "RI": "2026-06-26T14:05:30.733321+00:00",
     "FL": "2026-06-28T02:43:11.749253+00:00",
     "CA": "2026-06-28T06:40:58.823107+00:00",
-    "PR": "2026-06-30T13:37:16.269016+00:00"
+    "PR": "2026-06-30T13:37:16.269016+00:00",
+    "MO": "2026-07-03T13:36:55.612599+00:00"
   },
-  "last_run": "2026-06-30T13:38:49.352255+00:00"
+  "last_run": "2026-07-03T13:37:13.059386+00:00"
 }
