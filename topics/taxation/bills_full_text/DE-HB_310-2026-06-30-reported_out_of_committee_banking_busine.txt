@@ -1,0 +1,114 @@
+SPONSOR: Sen. Hansen
+
+DELAWARE STATE SENATE
+153rd GENERAL ASSEMBLY
+SENATE AMENDMENT NO. 1
+TO
+HOUSE BILL NO. 310
+
+AMEND House Bill No. 310 by deleting lines 5 through 7 in their entirety and inserting in lieu thereof the
+following:
+“(1)a. “Large energy use facility” means a facility that does any of the following:
+
+1. Uses or is projected to use a monthly maximum demand of 75 megawatts or greater at a load
+
+factor of 85% or greater.
+
+2. Uses a monthly maximum instantaneous demand of 100 megawatts or greater.
+
+3. Uses or is able to use a monthly maximum demand of 30 megawatts or greater and is
+
+primarily engaged in providing a service described under code 518210 of the 2022 North American
+
+Industry Classification System.
+
+b. Multiple facilities may be aggregated and treated as a large energy use facility for the purposes of this
+
+definition if the electric utility or the electric utility’s regulatory body determines they would pose reliability risks
+
+to the electric system because of their electricity use, proximity, and operational characteristics. Factors that may
+
+be considered include close physical proximity, common ownership or control, or ownership or control through an
+
+affiliated company, and sharing of local electrical infrastructure.
+
+c. “Large energy use facility” does not include a facility that stores, processes, refines, or transfers crude
+
+petroleum or petroleum products in bulk quantities, including refineries, and such uses shall not count toward
+
+aggregation. This exemption does not apply to a new facility that, after [the effective date of this Act] adds uses
+
+unrelated to the storage, processing, refining, or transfer of crude petroleum, petroleum products in bulk quantities,
+
+or other energy storage materials, if the energy use of the new facility meets the thresholds in paragraph (1)a. of
+
+this section.
+
+d.1. A large energy use facility will be a qualified facility if the facility produces sufficient power or
+
+procures sufficient generation to meet 100% of the large energy use facility’s annual energy needs from a facility
+
+or facilities interconnected in the State or within PJM’s DPL transmission zone or within a transmission zone
+
+SD : FJM : ALW
+2711530301
+
+Released: 06/29/2026 06:08 PM
+
+contiguous by land to the DPL transmission zone and with sufficient existing transmission infrastructure to deliver
+
+this additional electricity to Delaware.
+
+2. Procured generation must be from a facility or facilities interconnected in the State or within
+
+PJM’s DPL transmission zone or within a transmission zone contiguous by land to the DPL transmission
+
+zone, with sufficient existing transmission infrastructure to deliver this additional electricity to Delaware,
+
+and which has not been already committed in a prior PJM capacity auction. This may include newly
+
+constructed generation at an existing facility, uprates, or repowering of deactivated or retired generating
+
+units as of June 12, 2026; provided that capacity that previously participated in the PJM Base Residual
+
+Auction shall qualify only to the extent attributable to such uprate or repowering.
+
+3. All power generated must meet the renewable energy portfolio standards established under
+
+§354 of Subchapter III-A, Chapter 1 of Title 26 at the established minimum cumulative percentage at the
+
+facility’s anticipated end of operation, determined at the facility’s proposed date of interconnection, and
+
+produced by clean energy technology. A facility may use a combination of 1 or more of the following
+
+forms of acceptable clean energy technology to meet the percentage thresholds established therein:
+
+A. Generation eligible for compliance with the renewable energy portfolio standards or
+
+any successor clean energy standards and interconnecting in Delaware.
+
+B. Nuclear power.
+
+C. Energy storage interconnecting in Delaware and used for the primary purpose of
+
+storing energy generated from resources outlined in this subsection.
+
+4. Compliance with this subsection may be achieved through any combination of procurement of
+
+renewable or clean energy resources, onsite or directly interconnected generation, power purchase
+
+agreements, or other mechanism approved by the electric utility’s regulatory body.
+
+5. A single-cycle or open-cycle power generation facility is not an acceptable energy generation
+
+technology for purposes of this subsection.”.
+SYNOPSIS
+This amendment clarifies the definition of “large energy use facility” and the sets forth the circumstances under
+which a “large energy use facility” will be treated as a “qualified facility” and be eligible for a tax credit in accordance with
+Title 30 of the Delaware Code, Chapters 19 and 20
+Author: Senator Hansen
+
+SD : FJM : ALW
+2711530301
+
+Released: 06/29/2026 06:08 PM

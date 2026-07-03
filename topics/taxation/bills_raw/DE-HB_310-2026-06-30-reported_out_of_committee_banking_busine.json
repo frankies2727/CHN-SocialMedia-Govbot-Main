@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act excludes large energy use facilities from the definition of a qualified facility for purposes of determining eligibility for a tax credit or license fee reduction for the creation of employment and qualified investment in business facilities.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 310",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 30 OF THE DELAWARE CODE RELATING TO BUSINESS TAX CREDITS AND DEDUCTIONS."
+  },
+  "id": "HB 310",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported Out of Committee (Banking, Business, Insurance & Technology) in Senate with 5 On Its Merits",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-30",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Banking, Business, Insurance & Technology"
+        }
+      ],
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=142891"
+        }
+      ]
+    },
+    "bill_id": "HB 310"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB310/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB310/logs/20260630T000000Z_reported_out_of_committee_banking_business_insurance_technology_in_senate_with_5_on_its_merits.json"
+  },
+  "timestamp": "20260630T000000Z"
+}
