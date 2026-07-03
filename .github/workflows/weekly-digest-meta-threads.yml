@@ -18,10 +18,14 @@ defaults:
   run:
     shell: bash
 
-# The Threads feed is a single account (one set of THREADS_* secrets) dedicated
-# to one topic, so the digest runs for that topic rather than looping every
-# topics/ folder the way the all-Bluesky-accounts digest does. Change BOT_TOPIC
-# below if the Threads bot is ever pointed at a different topic.
+# The Threads feed is a single account (one set of THREADS_* secrets) that now
+# spans EVERY topic, so this digest covers all topics/ folders in one thread —
+# up to DIGEST_MAX_HIGHLIGHTS highlight replies drawn from a wide variety of
+# topics, each reply tagged with its topic. (The daily Threads poster already
+# interleaves all topics the same way.) BOT_TOPIC below is only an import
+# bootstrap: post_to_meta_threads.py resolves an active topic at import time, so
+# it must name a valid topic, but the digest itself iterates over all of them —
+# which one is set here no longer affects the output.
 
 jobs:
   digest:
@@ -33,7 +37,7 @@ jobs:
       BOT_TOPIC: "lgbtq"
       DRY_RUN: "0"
       DIGEST_LOOKBACK_DAYS: "7"
-      DIGEST_MAX_HIGHLIGHTS: "6"
+      DIGEST_MAX_HIGHLIGHTS: "11"
       DIGEST_PER_STATE_CAP: "2"
 
     steps:

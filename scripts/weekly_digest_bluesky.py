@@ -157,11 +157,19 @@ def candidates_in_window(bills: list[dict], today: datetime, days: int) -> list[
     return [b for b in bills if in_lookback_window(b["action_date"], today, days)]
 
 
-def select_highlights(candidates: list[dict]) -> list[dict]:
+def select_highlights(candidates: list[dict],
+                      max_highlights: int | None = DIGEST_MAX_HIGHLIGHTS,
+                      per_state_cap: int = DIGEST_PER_STATE_CAP) -> list[dict]:
     """
-    Pick the top DIGEST_MAX_HIGHLIGHTS bills, capped at DIGEST_PER_STATE_CAP
-    per state, sorted by (score desc, action_date desc).
+    Pick the top ``max_highlights`` bills, capped at ``per_state_cap`` per
+    state, sorted by (score desc, action_date desc).
     Collapses multiple actions for the same bill to the highest-scoring one.
+
+    ``max_highlights`` and ``per_state_cap`` default to the module globals so
+    the single-topic Bluesky/X digests call this unchanged. Pass
+    ``max_highlights=None`` to get the whole ranked, per-state-capped list
+    (used by the all-topics Threads digest, which then round-robins across
+    topics itself instead of truncating each topic here).
     """
     # Collapse to one entry per bill (state|identifier), keep highest score.
     best_by_bill: dict[tuple[str, str], dict] = {}
@@ -181,11 +189,11 @@ def select_highlights(candidates: list[dict]) -> list[dict]:
     per_state: Counter[str] = Counter()
     for b in bills:
         state = b["state"] or "?"
-        if per_state[state] >= DIGEST_PER_STATE_CAP:
+        if per_state[state] >= per_state_cap:
             continue
         picked.append(b)
         per_state[state] += 1
-        if len(picked) >= DIGEST_MAX_HIGHLIGHTS:
+        if max_highlights is not None and len(picked) >= max_highlights:
             break
     return picked
 
