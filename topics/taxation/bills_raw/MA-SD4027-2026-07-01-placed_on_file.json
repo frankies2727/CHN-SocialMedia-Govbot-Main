@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Report of the Office of the Comptroller (pursuant to Section 5G of Chapter 29 of the General Laws) submitting its fiscal year 2026 third quarter capital gains tax revenue transfers to the Stabilization Fund, the State Retiree Benefit Trust Fund, and the Pension Liability Fund report.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SD4027",
+    "legislative_session": "194th",
+    "title": "Fiscal Year 2026, Q3 Capital Gains Tax Revenue Transfers to the Stabilization Fund, the State Retiree Benefits Trust Fund, and the Pension Liability Fund"
+  },
+  "id": "SD4027",
+  "log": {
+    "action": {
+      "description": "Placed on file",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-01",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/SD4027"
+        }
+      ]
+    },
+    "bill_id": "SD4027"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/SD4027/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/SD4027/logs/20260701T000000Z_placed_on_file.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

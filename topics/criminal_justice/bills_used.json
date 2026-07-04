@@ -23,6 +23,8 @@
     "CA|SB1022|2026-05-28|",
     "CA|SB1022|2026-05-28|In Assembly. Read first time. Held at De",
     "CA|SB1022|2026-05-28|Read third time. Passed. (Ayes 39. Noes ",
+    "CA|SB1119|2026-07-02|Coauthors revised.",
+    "CA|SB1119|2026-07-02|From committee: Do pass and re-refer to ",
     "CA|SB1217|2026-05-11|May 11 hearing: Placed on APPR. suspense",
     "CA|SB1217|2026-05-14|May 14 hearing: Held in committee and un",
     "CA|SB884|2026-06-22|Assembly Rule 56 suspended.",
@@ -184,6 +186,8 @@
     "MS|SB2131|2026-02-03|Died In Committee",
     "MS|SB2327|2026-02-03|Died In Committee",
     "MS|SB2794|2026-02-03|Title Suff Do Pass Comm Sub",
+    "NH|SB470|2026-06-10|Enrolled (in recess of) 06/04/2026  HJ 1",
+    "NH|SB470|2026-06-10|Enrolled Adopted, VV, (In recess 06/04/2",
     "NH|SB470|2026-06-24|Signed by the Governor on 06/19/2026; Ch",
     "NH|SB617|2026-06-17|Enrolled (in recess of) 06/04/2026  HJ 1",
     "NH|SB617|2026-06-17|Enrolled Adopted, VV, (In recess 06/04/2",
@@ -223,11 +227,11 @@
     "WA|SB 6080|2026-03-12|By resolution, returned to Senate Rules ",
     "WY|HB0327|2025-03-04|H:Died in Committee Returned Bill Pursua"
   ],
-  "last_run": "2026-07-03T10:09:23.680272+00:00",
+  "last_run": "2026-07-04T09:25:55.926524+00:00",
   "state_last_posted": {
     "DE": "2026-07-02T10:05:07.388008+00:00",
     "AK": "2026-05-16T02:55:29.130660+00:00",
-    "CA": "2026-07-02T10:05:07.388008+00:00",
+    "CA": "2026-07-04T09:22:22.815974+00:00",
     "WY": "2026-05-16T04:25:25.886287+00:00",
     "MA": "2026-07-03T10:05:39.911608+00:00",
     "FL": "2026-06-16T11:51:05.348916+00:00",
@@ -242,6 +246,6 @@
     "NJ": "2026-06-03T11:38:30.906188+00:00",
     "TN": "2026-06-20T09:57:30.933015+00:00",
     "RI": "2026-06-30T10:13:22.088093+00:00",
-    "NH": "2026-07-01T10:53:23.600717+00:00"
+    "NH": "2026-07-04T09:22:22.815974+00:00"
   }
 }
