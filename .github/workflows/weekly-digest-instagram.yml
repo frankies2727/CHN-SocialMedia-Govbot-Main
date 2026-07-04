@@ -36,7 +36,11 @@ jobs:
       BOT_TOPIC: "lgbtq"
       DRY_RUN: "0"
       DIGEST_LOOKBACK_DAYS: "7"
-      DIGEST_MAX_HIGHLIGHTS: "11"
+      # The carousel is the cover slide + one bill card per topic. Instagram
+      # caps a carousel at 10 images, so with the cover that leaves 9 bill
+      # cards; the script clamps to CAROUSEL_MAX - 1 regardless, but keep this
+      # in sync so the intent is clear.
+      DIGEST_MAX_HIGHLIGHTS: "9"
       DIGEST_PER_STATE_CAP: "2"
 
     steps:
