@@ -27,9 +27,9 @@ topic; card rendering and the caption take the topic explicitly, so no other
 global is touched.
 
 Carousel size: Instagram caps a carousel at 10 images. The cover takes one, so
-at most CAROUSEL_MAX - 1 bill cards become slides even though up to
-DIGEST_MAX_HIGHLIGHTS bills are selected; any extra selected bills still appear
-(with their links) in the caption.
+the digest selects at most CAROUSEL_MAX - 1 bill cards (see bill_slots()) —
+every selected bill is both a slide and a caption entry, so the caption never
+lists a bill that isn't shown.
 
 BOT_TOPIC still has to name a valid topic so the modules import cleanly, but the
 digest iterates over all topics — which one is set no longer affects the output.
@@ -88,12 +88,22 @@ from weekly_digest_bluesky import (
 
 ROOT = Path(__file__).resolve().parent.parent
 
-# The Instagram account spans every topic, so this digest pulls its highlights
-# from a wide variety of topics. Up to this many bills are selected; the caption
-# lists them all, while the carousel shows the first CAROUSEL_MAX as slides.
-DIGEST_MAX_HIGHLIGHTS = int(os.environ.get("DIGEST_MAX_HIGHLIGHTS", "11"))
 # Instagram's hard limit on images in a single carousel.
 CAROUSEL_MAX = int(os.environ.get("CAROUSEL_MAX", "10"))
+# The Instagram account spans every topic, so this digest pulls its highlights
+# from a wide variety of topics. The carousel is the intro/cover slide plus one
+# bill card per topic, so the number of bill cards is capped at CAROUSEL_MAX - 1
+# (the cover takes one slot). DIGEST_MAX_HIGHLIGHTS can lower that further but
+# never raise it past what the carousel can hold — the caption lists exactly the
+# bills that appear as cards, so the two never disagree (see bill_slots()).
+DIGEST_MAX_HIGHLIGHTS = int(os.environ.get("DIGEST_MAX_HIGHLIGHTS", "9"))
+
+
+def bill_slots() -> int:
+    """How many bill cards the carousel can show: CAROUSEL_MAX minus the cover
+    slide, clamped by DIGEST_MAX_HIGHLIGHTS. This is the single source of truth
+    for both selection and the caption, so every featured bill is also a slide."""
+    return max(1, min(DIGEST_MAX_HIGHLIGHTS, CAROUSEL_MAX - 1))
 
 # Title/brand for the all-topics caption. Not tied to any single topic's
 # thread_title (those name one topic, e.g. "LGBTQ Bills Weekly Digest").
@@ -391,9 +401,46 @@ def _publish_container(creation_id: str) -> str | None:
     return None
 
 
+def _container_status(container_id: str) -> str | None:
+    """The Graph API status_code of a media container: FINISHED, IN_PROGRESS,
+    ERROR, EXPIRED, or PUBLISHED. None if the check itself failed."""
+    try:
+        resp = requests.get(
+            f"{IG_API}/{container_id}",
+            params={"fields": "status_code", "access_token": INSTAGRAM_ACCESS_TOKEN},
+            timeout=IG_TIMEOUT,
+        )
+        resp.raise_for_status()
+        return resp.json().get("status_code")
+    except Exception as e:
+        print(f"  ! container status check failed: {e}", file=sys.stderr)
+        return None
+
+
+def _wait_container_finished(container_id: str, timeout: int = 180) -> bool:
+    """Poll a container until it reports FINISHED (ready to publish). Carousel
+    containers are assembled asynchronously from their children, and publishing
+    one that's still IN_PROGRESS returns a generic 'internal error' (subcode
+    2207085) — so gate the publish on FINISHED rather than firing immediately."""
+    deadline = time.time() + timeout
+    delay = 3
+    while time.time() < deadline:
+        status = _container_status(container_id)
+        if status == "FINISHED":
+            return True
+        if status in ("ERROR", "EXPIRED"):
+            print(f"  ! container assembly {status}; aborting.", file=sys.stderr)
+            return False
+        time.sleep(delay)
+        delay = min(delay * 2, 20)
+    print("  ! container never reached FINISHED before timeout.", file=sys.stderr)
+    return False
+
+
 def post_carousel(slide_items: list[dict], caption: str, sha: str, slug: str) -> bool:
     """Create a child container per slide card, assemble them into one CAROUSEL
-    container with the caption, then publish. Returns True iff published."""
+    container with the caption, wait for it to finish assembling, then publish.
+    Returns True iff published."""
     children: list[str] = []
     for it in slide_items:
         image_url = raw_url_for(it["card_path"], sha, slug)
@@ -415,6 +462,10 @@ def post_carousel(slide_items: list[dict], caption: str, sha: str, slug: str) ->
 
     parent = _create_carousel_container(children, caption)
     if not parent:
+        return False
+    # Wait for Instagram to finish assembling the carousel before publishing;
+    # publishing an unfinished container is what triggers the 2207085 error.
+    if not _wait_container_finished(parent):
         return False
     media_id = _publish_container(parent)
     if not media_id:
@@ -457,13 +508,17 @@ def _select(today: datetime) -> tuple[list[dict], int, bool, Counter | None]:
         matched_by_topic, today, DIGEST_PER_STATE_CAP)
     print(f"Chosen lookback: {chosen_window}d ({len(per_topic)} topic(s) active).")
 
+    # Cap at how many bill cards the carousel can actually show (CAROUSEL_MAX
+    # minus the cover slide), so every selected bill becomes a slide AND a
+    # caption entry — the two never disagree.
+    cap = bill_slots()
     if per_topic:
         highlights = dm.merge_across_topics(
-            per_topic, cap=DIGEST_MAX_HIGHLIGHTS, per_state_cap=DIGEST_PER_STATE_CAP)
+            per_topic, cap=cap, per_state_cap=DIGEST_PER_STATE_CAP)
         return highlights, chosen_window, False, None
 
     recent = dm.landscape_picks(
-        matched_by_topic, cap=DIGEST_MAX_HIGHLIGHTS, per_state_cap=DIGEST_PER_STATE_CAP)
+        matched_by_topic, cap=cap, per_state_cap=DIGEST_PER_STATE_CAP)
     state_counts = Counter((b["state"] or "?") for b in recent)
     return recent, chosen_window, True, state_counts
 
@@ -488,7 +543,7 @@ def main() -> int:
 
     topics_covered = sorted({b["_topic_name"] for b in picks})
     print(f"\nSelected {len(picks)} bill(s) across {len(topics_covered)} topic(s) "
-          f"(cap={DIGEST_MAX_HIGHLIGHTS}, carousel-max={CAROUSEL_MAX}, "
+          f"(bill-slots={bill_slots()}, carousel-max={CAROUSEL_MAX}, "
           f"{'landscape' if landscape else f'window={window_days}d'}): "
           f"{', '.join(topics_covered)}")
     for b in picks:
@@ -501,9 +556,10 @@ def main() -> int:
     _save_digest_raw_records(items)
 
     # Slide 1 is the intro/cover (Weekly Digest, the kind of bills, date range);
-    # the bill cards follow. The caption still lists every featured bill, while
-    # the carousel shows the cover + as many bill cards as fit under Instagram's
-    # CAROUSEL_MAX hard limit.
+    # the bill cards follow. Selection is already capped at bill_slots() so every
+    # featured bill fits as a slide, and the caption lists exactly those same
+    # bills — cards and caption never disagree. The [:CAROUSEL_MAX] slice is a
+    # belt-and-suspenders guard against ever exceeding the hard limit.
     cover_item = render_cover(items, today, window_days, landscape)
     slide_items = ([cover_item] + items)[:CAROUSEL_MAX]
     header = compose_header(today, window_days, landscape, state_counts)
