@@ -4,12 +4,13 @@ Instagram weekly digest: the Instagram counterpart to the Threads/Bluesky/X
 weekly digests.
 
 Instagram has no thread/reply concept, so the digest can't be a chained thread
-like the text platforms. Instead it publishes a SINGLE weekly CAROUSEL post — a
-swipeable set of bill cards, one per topic — drawn from a WIDE VARIETY of topics
-over the past 7 days. Each card already shows the topic it belongs to (the card
-renderer stamps the topic label, emoji, and accent color), so the mixed carousel
-is legible slide by slide. The caption carries the digest framing plus every
-featured bill's (non-clickable) link.
+like the text platforms. Instead it publishes a SINGLE weekly CAROUSEL post: an
+intro/cover slide (title, the kind of bills included, and the date range)
+followed by a swipeable set of bill cards, one per topic, drawn from a WIDE
+VARIETY of topics over the past 7 days. Each bill card already shows the topic it
+belongs to (the card renderer stamps the topic label, emoji, and accent color),
+so the mixed carousel is legible slide by slide. The caption carries the digest
+framing plus every featured bill's (non-clickable) link.
 
 Like the daily Instagram poster, this works around Instagram's image-only,
 fetch-by-public-URL model: render each pick to a PNG card, commit + push the
@@ -25,9 +26,10 @@ topic per bill (see _activate_topic) so each card's copy comes from its own
 topic; card rendering and the caption take the topic explicitly, so no other
 global is touched.
 
-Carousel size: Instagram caps a carousel at 10 images, so at most CAROUSEL_MAX
-cards become slides even though up to DIGEST_MAX_HIGHLIGHTS bills are selected;
-any extra selected bills still appear (with their links) in the caption.
+Carousel size: Instagram caps a carousel at 10 images. The cover takes one, so
+at most CAROUSEL_MAX - 1 bill cards become slides even though up to
+DIGEST_MAX_HIGHLIGHTS bills are selected; any extra selected bills still appear
+(with their links) in the caption.
 
 BOT_TOPIC still has to name a valid topic so the modules import cleanly, but the
 digest iterates over all topics — which one is set no longer affects the output.
@@ -75,7 +77,7 @@ from post_to_instagram import (
     raw_url_for,
     wait_for_url,
 )
-from render_bill_card import render_card
+from render_bill_card import render_card, render_cover_card
 from topic import Topic
 from weekly_digest_bluesky import (
     DIGEST_LOOKBACK_DAYS,
@@ -97,6 +99,15 @@ CAROUSEL_MAX = int(os.environ.get("CAROUSEL_MAX", "10"))
 # thread_title (those name one topic, e.g. "LGBTQ Bills Weekly Digest").
 DIGEST_TITLE = os.environ.get(
     "INSTAGRAM_DIGEST_TITLE", "🏛️ Statehouse Weekly Digest")
+
+# The carousel's intro/cover slide is topic-neutral (the digest spans every
+# topic), so it uses a govbot accent rather than any one topic's color and lives
+# in its own account-level folder rather than under a single topic.
+DIGEST_COVER_DIR = ROOT / "account_state" / "instagram" / "weekly_digest"
+COVER_TITLE = os.environ.get("INSTAGRAM_DIGEST_COVER_TITLE", "Weekly Digest")
+COVER_SUBTITLE = os.environ.get(
+    "INSTAGRAM_DIGEST_COVER_SUBTITLE",
+    "Top state legislation from a wide range of topics")
 
 
 # ---------------------------------------------------------------------------
@@ -200,6 +211,39 @@ def compose_caption(items: list[dict], header: str) -> str:
 
     caption += f"\n\n{hashtags}"
     return caption
+
+
+def _date_range_label(today: datetime, window_days: int, landscape: bool) -> str:
+    if landscape:
+        return f"Week of {_format_short(today)}, {today.year}"
+    end = today
+    start = today - timedelta(days=window_days - 1)
+    return f"{_format_short(start)}–{_format_short(end)}, {end.year}"
+
+
+def render_cover(items: list[dict], today: datetime, window_days: int,
+                 landscape: bool) -> dict:
+    """Render the carousel's intro slide (title, the kind of bills, date range)
+    and return it as a slide pseudo-item so it can lead the carousel. The
+    'INCLUDING' line names the topics actually covered this week, in selection
+    (significance) order."""
+    topics = list(dict.fromkeys(it["topic"].display_name for it in items))
+    including = " · ".join(topics)
+    n_states = len({(it["bill"]["state"] or "?") for it in items})
+    coverage = (f"{len(topics)} topic{'s' if len(topics) != 1 else ''} · "
+                f"{n_states} state{'s' if n_states != 1 else ''}")
+    DIGEST_COVER_DIR.mkdir(parents=True, exist_ok=True)
+    path = render_cover_card(
+        title=COVER_TITLE,
+        subtitle=COVER_SUBTITLE,
+        including=including,
+        date_label=_date_range_label(today, window_days, landscape),
+        coverage_label=coverage,
+        mode=CARD_MODE,
+        out_path=DIGEST_COVER_DIR / f"cover-{CARD_MODE}.png",
+    )
+    return {"card_path": path, "topic_name": "cover",
+            "bill": {"state": "", "identifier": "(cover)"}}
 
 
 def compose_header(today: datetime, window_days: int, landscape: bool,
@@ -456,16 +500,21 @@ def main() -> int:
     items = [_prepare_item(b) for b in picks]
     _save_digest_raw_records(items)
 
-    # The caption lists every featured bill; the carousel shows the first
-    # CAROUSEL_MAX as slides (Instagram's hard limit).
-    slide_items = items[:CAROUSEL_MAX]
+    # Slide 1 is the intro/cover (Weekly Digest, the kind of bills, date range);
+    # the bill cards follow. The caption still lists every featured bill, while
+    # the carousel shows the cover + as many bill cards as fit under Instagram's
+    # CAROUSEL_MAX hard limit.
+    cover_item = render_cover(items, today, window_days, landscape)
+    slide_items = ([cover_item] + items)[:CAROUSEL_MAX]
     header = compose_header(today, window_days, landscape, state_counts)
     caption = compose_caption(items, header)
 
     print(f"\n--- CAPTION ({len(caption)} chars) ---\n{caption}\n---")
-    print(f"Carousel: {len(slide_items)} slide(s) from {len(items)} featured bill(s).")
-    for it in items:
-        print(f"  card: {it['card_path'].relative_to(ROOT)}")
+    print(f"Carousel: {len(slide_items)} slide(s) "
+          f"(1 cover + {len(slide_items) - 1} bill card(s)) "
+          f"from {len(items)} featured bill(s).")
+    for it in slide_items:
+        print(f"  slide: {it['card_path'].relative_to(ROOT)}")
 
     if DRY_RUN:
         print("\n[DRY RUN] skipping card push + carousel publish.")
