@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1946",
+    "legislative_session": "114",
+    "subject": [
+      "Consumer Protection"
+    ],
+    "title": "Consumer Protection - As enacted, requires the Tennessee advisory commission on intergovernmental relations (TACIR) to conduct a study of the potential regulation of artificial intelligence systems and generative artificial intelligence chatbots in this state. - Amends TCA Title 29; Title 37 and Title 47."
+  },
+  "id": "HB 1946",
+  "log": {
+    "action": {
+      "description": "Comp. became Pub. Ch. 1082",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-05-27",
+      "session_id": "114",
+      "sources": [
+        {
+          "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB1946&ga=114"
+        }
+      ]
+    },
+    "bill_id": "HB 1946"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1946/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1946/logs/20260527T000000Z_comp_became_pub_ch_1082.json"
+  },
+  "timestamp": "20260527T000000Z"
+}

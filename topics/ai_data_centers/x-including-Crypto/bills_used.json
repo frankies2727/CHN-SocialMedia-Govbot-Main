@@ -68,6 +68,7 @@
     "DE|SB 19|2026-06-18|Amendment HA 2 to SS 2 - Introduced and ",
     "DE|SB 19|2026-06-18|Amendment HA 2 to SS 2 - Passed In House",
     "DE|SB 19|2026-06-18|Passed By House. Votes: 36 YES 5 ABSENT",
+    "DE|SB 312|2026-06-10|Reported Out of Committee (Elections & G",
     "DE|SB 312|2026-06-11|",
     "DE|SB 312|2026-06-11|Passed By Senate. Votes: 20 YES 1 ABSENT",
     "DE|SB 312|2026-06-17|Reported Out of Committee (Administratio",
@@ -152,6 +153,7 @@
     "MS|SB2050|2026-02-03|Title Suff Do Pass",
     "NH|SB439|2026-05-14|Lay SB439 on Table (Rep. Ammon): MA DV 3",
     "NH|SB640|2026-05-14|Inexpedient to Legislate: MA VV 05/14/20",
+    "NH|SB657|2026-05-06|Committee Report: Ought to Pass  05/05/2",
     "NH|SB657|2026-05-14|Ought to Pass: MA VV 05/14/2026  HJ 13",
     "NH|SB657|2026-05-21|Sen. Gannon Moved Nonconcur with the Hou",
     "NJ|A1401|2026-01-13|WITHDRAWN APP P.L.2025, c.367.",
@@ -171,10 +173,12 @@
     "RI|HB7350|2026-06-22|06/22/2026 Signed by Governor",
     "RI|HB7538|2026-06-18|06/18/2026 Transmitted to Governor",
     "RI|HB7538|2026-06-22|06/22/2026 Signed by Governor",
+    "RI|SB2195|2026-06-18|06/18/2026 Transmitted to Governor",
     "RI|SB2195|2026-06-22|06/22/2026 Signed by Governor",
     "RI|SB2197|2026-06-22|06/22/2026 Signed by Governor",
     "RI|SB2570|2026-06-18|06/18/2026 Transmitted to Governor",
     "RI|SB2570|2026-06-22|06/22/2026 Signed by Governor",
+    "TN|HB 1946|2026-05-27|Comp. became Pub. Ch. 1082",
     "TN|SB 1700|2026-05-27|Effective date(s) 05/22/2026",
     "WA|SB 5956|2026-02-24|ED - Majority; do pass with amendment(s)",
     "WA|SB 5956|2026-02-24|Executive action taken in the House Comm",
@@ -203,10 +207,10 @@
     "NJ": "2026-05-27T03:05:58.226214+00:00",
     "IL": "2026-05-26T01:08:56.456572+00:00",
     "PR": "2026-06-30T04:03:19.176616+00:00",
-    "DE": "2026-07-02T11:11:22.935153+00:00",
-    "RI": "2026-07-03T11:13:03.395150+00:00",
-    "NH": "2026-07-02T11:11:22.935153+00:00",
-    "TN": "2026-07-03T11:13:03.395150+00:00"
+    "DE": "2026-07-04T10:38:07.146389+00:00",
+    "RI": "2026-07-04T10:38:07.146389+00:00",
+    "NH": "2026-07-04T10:38:07.146389+00:00",
+    "TN": "2026-07-04T10:38:07.146389+00:00"
   },
-  "last_run": "2026-07-03T11:17:24.527680+00:00"
+  "last_run": "2026-07-04T10:41:52.676474+00:00"
 }
