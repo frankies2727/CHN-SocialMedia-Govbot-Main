@@ -593,6 +593,112 @@ def render_card(
 
 
 # ---------------------------------------------------------------------------
+# Cover card (weekly-digest carousel intro slide)
+# ---------------------------------------------------------------------------
+
+def render_cover_card(
+    *,
+    title: str = "Weekly Digest",
+    subtitle: str = "",
+    including: str = "",
+    date_label: str = "",
+    coverage_label: str = "",
+    accent: tuple[int, int, int] = DEFAULT_ACCENT,
+    spectrum: bool = False,
+    mode: str = "light",
+    out_path: str | Path = "cover.png",
+) -> Path:
+    """Render the weekly-digest carousel's intro slide — the same 1080x1080
+    template as the bill cards (theme, fonts, GOVBOT wordmark, accent underline,
+    bottom meta band) but laid out as a cover: a GOVBOT tag chip, a big serif
+    ``title`` ("Weekly Digest"), a ``subtitle`` naming the kind of bills, an
+    "INCLUDING" list of the topics covered, and a bottom band showing the
+    ``date_label`` (the range) and ``coverage_label`` (topic/state counts).
+
+    accent/spectrum drive the underline + wordmark exactly as on a bill card;
+    the digest spans every topic, so it passes a neutral govbot accent rather
+    than any one topic's color."""
+    accent = tuple(accent)
+    colors = _accent_colors(accent, spectrum)
+    theme = THEMES.get(mode, THEMES["light"])
+
+    img = Image.new("RGB", (CARD, CARD), theme.bg)
+    draw = ImageDraw.Draw(img)
+    wordmark_font = _mono(40, semibold=True)
+
+    # ---- bottom band: a single wide DATES column + GOVBOT wordmark ----------
+    # Mirrors the STATUS/DATE band on the bill cards so the cover reads as part
+    # of the same set. Only one column (the date range) so a long "Jun 28–Jul 4,
+    # 2026" never has to share the narrow space beside the wordmark; the
+    # topic/state coverage rides the full-width eyebrow above the topic list.
+    wm_w = _wordmark_width(draw, wordmark_font, spectrum)
+    wm_h = _wordmark_height(wordmark_font)
+    meta_h = _meta_row_height()
+    band_h = max(wm_h, meta_h)
+    band_top = INNER1 - band_h
+    divider_y = band_top - 30
+    hairline = tuple(round(theme.bg[k] + (theme.ink[k] - theme.bg[k]) * 0.16)
+                     for k in range(3))
+    draw.line([(INNER0, divider_y), (INNER1, divider_y)], fill=hairline, width=2)
+    dates_w = INNER_W - wm_w - 48
+    meta_y = band_top + (band_h - meta_h) // 2
+    _draw_meta_column(draw, INNER0, meta_y, dates_w, "DATES", date_label or "—", theme)
+    _draw_wordmark(img, draw, round(INNER1 - wm_w),
+                   band_top + (band_h - wm_h) // 2, colors, spectrum, theme)
+
+    # ---- top-to-bottom content: tag, title, underline, subtitle, topics -----
+    y = INNER0
+    _, tag_h = _draw_topic_tag(img, draw, INNER0, y, "GOVBOT", "🏛️", accent, theme)
+    y += tag_h + 52
+
+    # Title, auto-fit to at most 2 lines so the cover stays roomy.
+    title_font = _serif(84, weight=700)
+    title_lines = _wrap(draw, title, title_font, INNER_W)
+    for size in (84, 76, 68, 60):
+        title_font = _serif(size, weight=700)
+        title_lines = _wrap(draw, title, title_font, INNER_W)
+        if len(title_lines) <= 2:
+            break
+    title_lines = _truncate(draw, title_lines, title_font, 2, INNER_W)
+    title_lh = _line_h(title_font, 0.98)
+    for i, ln in enumerate(title_lines):
+        draw.text((INNER0, y), ln, font=title_font, fill=theme.ink)
+        if i == len(title_lines) - 1 and ln:
+            lw = round(draw.textlength(ln, font=title_font))
+            asc, _ = title_font.getmetrics()
+            img.paste(_h_gradient(lw, 6, colors), (INNER0, y + asc + 10))
+        y += title_lh
+
+    if subtitle:
+        y += 34
+        sub_font = _mono(27)
+        for ln in _truncate(draw, _wrap(draw, subtitle, sub_font, INNER_W),
+                            sub_font, 3, INNER_W):
+            draw.text((INNER0, y), ln, font=sub_font, fill=theme.muted)
+            y += _line_h(sub_font, 1.4)
+
+    if including:
+        y += 44
+        eyebrow_font = _mono(22, semibold=True)
+        # Full-width eyebrow: the topic/state coverage when supplied, else a
+        # plain "INCLUDING" label. Sits here (not in the narrow bottom band) so
+        # a long "11 topics · 11 states" never truncates.
+        eyebrow = (coverage_label.upper() if coverage_label else "INCLUDING")
+        _draw_tracked(draw, INNER0, y, eyebrow, eyebrow_font, theme.tile_label, tracking=3)
+        y += _line_h(eyebrow_font, 1.2) + 16
+        list_font = _mono(24)
+        for ln in _truncate(draw, _wrap(draw, including, list_font, INNER_W),
+                            list_font, 6, INNER_W):
+            draw.text((INNER0, y), ln, font=list_font, fill=theme.ink)
+            y += _line_h(list_font, 1.45)
+
+    out_path = Path(out_path)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out_path, "PNG")
+    return out_path
+
+
+# ---------------------------------------------------------------------------
 # Sample (visual review)
 # ---------------------------------------------------------------------------
 
