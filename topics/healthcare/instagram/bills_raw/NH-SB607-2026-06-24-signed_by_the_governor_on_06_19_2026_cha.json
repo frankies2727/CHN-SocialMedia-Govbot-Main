@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB607",
+    "legislative_session": "2026",
+    "title": "relative to short-term, limited duration health insurance policies"
+  },
+  "id": "SB607",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by the Governor on 06/19/2026; Chapter 199; Effective 01/01/2027",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-24",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=1370&inflect=2"
+        }
+      ]
+    },
+    "bill_id": "SB607"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB607/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB607/logs/20260624T000000Z_signed_by_the_governor_on_06192026_chapter_199_effective_01012027.json"
+  },
+  "timestamp": "20260624T000000Z"
+}
