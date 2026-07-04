@@ -42,7 +42,6 @@ keywords:
   - sanctuary cities
   - sanctuary state
   - sanctuary jurisdiction
-  - ICE
   - immigration and customs enforcement
   - border
   - borderlands
@@ -79,6 +78,13 @@ context_keywords:
   # and licensure boilerplate ("citizenship or lawful presence"). Only count it
   # when a core immigration keyword also appears.
   - citizenship
+  # Bare "ICE" collides with the common word "ice" (frozen water) — matching is
+  # case-insensitive and bill titles are often ALL CAPS, so "REMOVAL OF ICE AND
+  # SNOW FROM VEHICLES" reads as an ICE (agency) hit. Demote it to a context
+  # keyword so it only counts alongside a core immigration term; the
+  # unambiguous forms "immigration and customs enforcement" and "ICE detention"
+  # stay as core keywords above and still match on their own.
+  - ICE
 
 emojis:
   - emoji: "🌎"
