@@ -13,10 +13,12 @@ so the mixed carousel is legible slide by slide. The caption carries the digest
 framing plus every featured bill's (non-clickable) link.
 
 Like the daily Instagram poster, this works around Instagram's image-only,
-fetch-by-public-URL model: render each pick to a PNG card, commit + push the
-cards so they're reachable at a raw.githubusercontent URL, wait for the CDN,
-then build the carousel via the Graph API (a child container per image, one
-parent CAROUSEL container, then publish).
+fetch-by-public-URL model: render each pick to a card (as JPEG — the carousel
+media builder is stricter than single-image posts and rejects PNG), commit +
+push the cards so they're reachable at a raw.githubusercontent URL, wait for the
+CDN, then build the carousel via the Graph API (a child container per image,
+each polled to FINISHED, one parent CAROUSEL container polled to FINISHED, then
+publish).
 
 Selection (all-topics round-robin for breadth) is shared with the Threads digest
 via digest_multitopic.py. Composition, card rendering, and the carousel publish
@@ -46,6 +48,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
+from PIL import Image
 
 import digest_multitopic as dm
 import post_to_bluesky as pb
@@ -139,6 +142,19 @@ def _activate_topic(topic: Topic) -> None:
 # Card + caption composition
 # ---------------------------------------------------------------------------
 
+def _to_jpeg(png_path: Path) -> Path:
+    """Convert a rendered PNG card to a JPEG sibling and drop the PNG. The daily
+    poster publishes single PNG images fine, but Instagram's CAROUSEL media
+    builder is stricter and rejects PNG children with a generic internal error
+    (subcode 2207085), so every carousel slide ships as JPEG. Cards are already
+    RGB, so this is a straight re-encode."""
+    jpg_path = png_path.with_suffix(".jpg")
+    with Image.open(png_path) as im:
+        im.convert("RGB").save(jpg_path, "JPEG", quality=90, optimize=True)
+    png_path.unlink(missing_ok=True)
+    return jpg_path
+
+
 def _prepare_item(b: dict) -> dict:
     """Compose one pick's copy under its OWN topic and render its card. Returns
     {bill, topic, topic_name, headline, display, url, card_path}."""
@@ -152,7 +168,7 @@ def _prepare_item(b: dict) -> dict:
 
     out_dir = topic.instagram_weekly_digest_cards_dir()
     out_dir.mkdir(parents=True, exist_ok=True)
-    card_path = render_card(
+    card_path = _to_jpeg(render_card(
         b,
         headline=headline,
         summary=summary,
@@ -162,7 +178,7 @@ def _prepare_item(b: dict) -> dict:
         spectrum=topic.card_spectrum,
         mode=CARD_MODE,
         out_path=out_dir / f"{_artifact_basename(b)}.png",
-    )
+    ))
     return {
         "bill": b, "topic": topic, "topic_name": b["_topic_name"],
         "headline": headline, "display": display, "url": url,
@@ -243,7 +259,7 @@ def render_cover(items: list[dict], today: datetime, window_days: int,
     coverage = (f"{len(topics)} topic{'s' if len(topics) != 1 else ''} · "
                 f"{n_states} state{'s' if n_states != 1 else ''}")
     DIGEST_COVER_DIR.mkdir(parents=True, exist_ok=True)
-    path = render_cover_card(
+    path = _to_jpeg(render_cover_card(
         title=COVER_TITLE,
         subtitle=COVER_SUBTITLE,
         including=including,
@@ -251,7 +267,7 @@ def render_cover(items: list[dict], today: datetime, window_days: int,
         coverage_label=coverage,
         mode=CARD_MODE,
         out_path=DIGEST_COVER_DIR / f"cover-{CARD_MODE}.png",
-    )
+    ))
     return {"card_path": path, "topic_name": "cover",
             "bill": {"state": "", "identifier": "(cover)"}}
 
@@ -429,18 +445,25 @@ def _wait_container_finished(container_id: str, timeout: int = 180) -> bool:
         if status == "FINISHED":
             return True
         if status in ("ERROR", "EXPIRED"):
-            print(f"  ! container assembly {status}; aborting.", file=sys.stderr)
+            print(f"  ! container {container_id} assembly {status}; aborting.",
+                  file=sys.stderr)
             return False
+        print(f"    container {container_id} status: {status or '(unknown)'} — waiting…")
         time.sleep(delay)
         delay = min(delay * 2, 20)
-    print("  ! container never reached FINISHED before timeout.", file=sys.stderr)
+    print(f"  ! container {container_id} never reached FINISHED before timeout.",
+          file=sys.stderr)
     return False
 
 
 def post_carousel(slide_items: list[dict], caption: str, sha: str, slug: str) -> bool:
-    """Create a child container per slide card, assemble them into one CAROUSEL
-    container with the caption, wait for it to finish assembling, then publish.
-    Returns True iff published."""
+    """Create a child container per slide card, wait for EACH child to finish
+    processing, assemble them into one CAROUSEL container with the caption, wait
+    for that to finish too, then publish. Returns True iff published.
+
+    Both waits matter: a child whose image Instagram couldn't fetch/process
+    otherwise surfaces only as a generic internal error (subcode 2207085) at
+    publish time, and publishing a still-assembling parent triggers the same."""
     children: list[str] = []
     for it in slide_items:
         image_url = raw_url_for(it["card_path"], sha, slug)
@@ -450,23 +473,29 @@ def post_carousel(slide_items: list[dict], caption: str, sha: str, slug: str) ->
             print("  ! card URL not reachable; skipping this slide.", file=sys.stderr)
             continue
         child = _create_carousel_item(image_url)
-        if child:
-            children.append(child)
-        else:
+        if not child:
             print("  ! child container failed; skipping this slide.", file=sys.stderr)
+            continue
+        # Each child must finish processing before it can go in the carousel.
+        if not _wait_container_finished(child, timeout=120):
+            print("  ! child never finished processing; skipping this slide.",
+                  file=sys.stderr)
+            continue
+        children.append(child)
 
     if len(children) < 2:
-        print(f" ! only {len(children)} slide(s) available; a carousel needs at "
+        print(f" ! only {len(children)} slide(s) ready; a carousel needs at "
               f"least 2. Aborting.", file=sys.stderr)
         return False
 
     parent = _create_carousel_container(children, caption)
     if not parent:
         return False
-    # Wait for Instagram to finish assembling the carousel before publishing;
-    # publishing an unfinished container is what triggers the 2207085 error.
+    print(f"  carousel container {parent} created from {len(children)} children; "
+          f"waiting for assembly…")
     if not _wait_container_finished(parent):
         return False
+    print(f"  carousel container {parent} FINISHED; publishing…")
     media_id = _publish_container(parent)
     if not media_id:
         return False
