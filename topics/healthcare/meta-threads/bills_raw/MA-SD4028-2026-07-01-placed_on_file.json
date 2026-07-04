@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Report of the Special Commission on Access to Behavioral Health Services for Children and Families (pursuant to line item 4000-0300 of Section 2 of Chapter 9 of the Acts of 2025) submitting its Access to Behavioral Health Services for Children and Families Special Commission report",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SD4028",
+    "legislative_session": "194th",
+    "title": "Special Commission on Access to Behavioral Health Services for Children and Families Report"
+  },
+  "id": "SD4028",
+  "log": {
+    "action": {
+      "description": "Placed on file",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-01",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/SD4028"
+        }
+      ]
+    },
+    "bill_id": "SD4028"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/SD4028/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/SD4028/logs/20260701T000000Z_placed_on_file.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

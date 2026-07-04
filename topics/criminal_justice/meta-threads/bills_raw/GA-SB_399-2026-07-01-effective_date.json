@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Article 3 of Chapter 11 of Title 31 of the Official Code of Georgia Annotated, relating to personnel of emergency medical services, so as to provide for notification to public safety answering points about the location of automated external defibrillators; to provide for rules and regulations; to provide for training; to amend Chapter 8 of Title 35 of the Official Code of Georgia Annotated, relating to employment and training of peace officers, so as to provide for training of communications officers to facilitate the use of automated external defibrillators; to provide for definitions; to provide for related matters; to provide for a short title; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 399",
+    "legislative_session": "2025_26",
+    "subject": [
+      "HEALTH",
+      "LAW ENFORCEMENT OFFICERS AND AGENCIES"
+    ],
+    "title": "\"Mason Sells AED Coordination Act\"; enact"
+  },
+  "id": "SB 399",
+  "log": {
+    "action": {
+      "date": "2026-07-01",
+      "description": "Effective Date",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "SB 399"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB399/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB399/logs/20260701T000000Z_effective_date.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

@@ -1,10 +1,12 @@
 {
   "posted": [
+    "GA|SB 399|2026-07-01|Effective Date",
     "MO|HB 2012|2026-06-30|Delivered to Secretary of State (G)",
     "MO|HB 2012|2026-06-30|Vetoed in Part by Governor (G)"
   ],
   "state_last_posted": {
-    "MO": "2026-07-03T12:30:25.900938+00:00"
+    "MO": "2026-07-03T12:30:25.900938+00:00",
+    "GA": "2026-07-04T12:01:20.647145+00:00"
   },
-  "last_run": "2026-07-03T12:30:38.476078+00:00"
+  "last_run": "2026-07-04T12:02:45.450719+00:00"
 }
