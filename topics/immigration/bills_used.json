@@ -44,6 +44,8 @@
     "CA|AB2495|2026-05-28|In Senate. Read first time. To Com. on R",
     "CA|AB2563|2026-05-27|",
     "CA|AB2563|2026-05-27|In Senate. Read first time. To Com. on R",
+    "CA|AB2624|2026-07-02|From committee: Amend, and do pass as am",
+    "CA|AB2624|2026-07-02|Read second time and amended. Re-referre",
     "CA|AB713|2026-06-25|From committee: Do pass and re-refer to ",
     "CA|SB1194|2026-06-16|",
     "CA|SB1257|2026-05-26|In Assembly. Read first time. Held at De",
@@ -203,7 +205,7 @@
     "WV|HB 4059|2026-01-14|To Health and Human Resources",
     "WV|HB 4148|2026-01-14|To Government Organization"
   ],
-  "last_run": "2026-07-04T09:36:36.044933+00:00",
+  "last_run": "2026-07-05T10:03:32.475692+00:00",
   "state_last_posted": {
     "VT": "2026-05-16T02:59:09.026935+00:00",
     "AK": "2026-05-16T02:59:09.026935+00:00",
@@ -219,7 +221,7 @@
     "WA": "2026-06-17T11:42:09.679093+00:00",
     "DE": "2026-07-02T10:18:57.623593+00:00",
     "MO": "2026-06-19T11:23:55.551242+00:00",
-    "CA": "2026-07-04T09:35:16.954133+00:00",
+    "CA": "2026-07-05T10:02:17.502625+00:00",
     "FL": "2026-06-18T13:38:20.220344+00:00",
     "TN": "2026-05-20T15:40:25.661860+00:00",
     "AL": "2026-06-16T12:01:24.706349+00:00",

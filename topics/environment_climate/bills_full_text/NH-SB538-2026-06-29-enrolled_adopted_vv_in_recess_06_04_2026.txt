@@ -1,0 +1,248 @@
+SESSION
+06/07
+SENATE BILL
+
+538-FN
+
+extending net metering eligibility terms for municipal energy projects.
+
+SPONSORS:
+
+Sen. Watters, Dist 4; Sen. Rosenwald, Dist 13; Sen. Fenton, Dist 10; Sen. Avard,
+Dist 12; Sen. Long, Dist 20; Sen. Prentiss, Dist 5; Sen. Altschiller, Dist 24; Sen.
+Perkins Kwoka, Dist 21
+
+COMMITTEE:
+
+Energy and Natural Resources
+
+─────────────────────────────────────────────────────────────────
+ANALYSIS
+This bill establishes long-term eligibility for certain customer-generators to receive net energy
+metering compensation under alternative tariffs approved by the public utilities commission. This
+bill also outlines conditions for transitioning to future tariffs.
+--------------------------------------------------------------------------Explanation:
+
+Matter added to current law appears in bold italics.
+Matter removed from current law appears [in brackets and struckthrough.]
+Matter which is either (a) all new or (b) repealed and reenacted appears in regular type.
+
+06/07
+
+STATE OF NEW HAMPSHIRE
+In the Year of Our Lord Two Thousand Twenty-Six
+
+extending net metering eligibility terms for municipal energy projects.
+
+Be it Enacted by the Senate and House of Representatives in General Court convened:
+
+Findings and Purpose. The general court finds that:
+I. Through the passage of house bill 315 in 2021, the state of New Hampshire intended to
+make the benefits of group net metering available to municipalities across the state.
+
+II.
+
+Despite strong interest from municipalities throughout New Hampshire seeking to
+
+construct
+
+interconnection delays have resulted in backlog, with many projects still waiting to come online. As
+
+the commercial operation date of these projects is pushed out, the available net metering term
+
+shrinks due to the termination of net metering in 2040 under current regulation. Without legislative
+
+intervention, many municipal net metering projects will cease to be economically viable.
+
+distributed
+
+energy resources
+
+for
+
+the
+
+benefit
+
+of
+
+their
+
+communities,
+
+unforseen
+
+III. The general court finds that a net metering term of 20 years is necessary for municipal
+
+projects to be financeable. Restoring a 20-year term for municipal net metering projects simply
+
+implements the intent of house bill 315 and ensures that cities and towns receive the benefits
+
+promised to them through that legislation.
+
+New Paragraph; Net Metering. Amend RSA 362-A:9 by inserting after paragraph II the
+following new paragraph:
+II-a.
+
+Each electric distribution utility shall make available alternative tariffs for net
+
+metering to eligible customer-generators in accordance with Order No. 26,029 dated June 23, 2017,
+
+and the net metering rules adopted by the commission. Any eligible customer-generator used to
+
+offset the electricity requirements of a group consisting exclusively of one or more customers who are
+
+political subdivisions that first receives compensation under an Order No. 26,029 alternative tariff
+
+shall remain eligible to receive that tariff for the longer of 20 years from the first year in which
+
+compensation is received, or until January 1, 2040. If, during these terms, the commission adopts
+
+new net metering tariffs through an adjudicated proceeding, any eligible customer-generator used to
+
+offset the electricity requirements of a group consisting exclusively of one or more customers who are
+
+political subdivisions that elects to participate in a new net metering tariff shall be eligible to receive
+
+that tariff for 20 years from the first year in which compensation was received under either an Order
+
+No. 26,029 alternative tariff or the new net metering tariff. Eligible customer-generators on an
+
+Order No. 26,029 alternative tariff may opt to transition to a new net metering tariff established in
+
+such a proceeding, provided however, once a customer-generator transitions to a new tariff, they may
+
+not revert to an Order No. 26,029 alternative tariff. Upon expiration of eligibility under an Order
+
+- Page 2 1
+
+No. 26,029 alternative tariff, an eligible customer-generator may transition to the tariff available at
+
+that time.
+
+Effective Date. This act shall take effect 60 days after its passage.
+
+LBA
+Revised 12/4/25
+SB 538-FN- FISCAL NOTE
+AS INTRODUCED
+
+extending net metering eligibility terms for municipal energy projects.
+
+FISCAL IMPACT: This bill does not provide funding, nor does it authorize new positions.
+
+Estimated State Impact
+FY 2026
+Revenue
+Revenue Fund(s)
+
+FY 2028
+
+FY 2029
+
+$0
+
+$0
+
+$0
+
+$0
+
+$121,000
+
+$125,000
+
+$126,000
+
+$0
+
+$0
+
+$0
+
+None
+
+Expenditures*
+Funding Source(s)
+
+FY 2027
+$0
+
+Renewable Energy Fund
+$0
+
+Appropriations*
+Funding Source(s)
+*Expenditure = Cost of bill
+
+*Appropriation = Authorized funding to cover cost of bill
+
+Estimated Political Subdivision Impact
+FY 2026
+
+FY 2027
+
+FY 2028
+
+FY 2029
+
+County Revenue
+
+$0
+
+$0
+
+$0
+
+$0
+
+County Expenditures
+
+$0
+
+$0
+
+$0
+
+$0
+
+Local Revenue
+
+$0
+
+$0
+
+$0
+
+$0
+
+Local Expenditures
+
+$0
+
+$0
+
+$0
+
+$0
+
+METHODOLOGY:
+This bill extends eligibility for certain municipal group net-metering projects to receive
+compensation under the Public Utilities Commission’s alternative net-metering tariffs for the
+longer of 20 years or until January 1, 2040. The bill also allows eligible municipal customergenerators to transition to any new net-metering tariff established by the Commission and
+receive that tariff for a 20-year term.
+The Department of Energy states this bill will result in an increase in state expenditures
+beginning in FY 2027. The bill is expected to increase the number of group net-metering and
+municipal net-metering applications requiring review and processing, which the Department
+indicates cannot be absorbed within existing staffing. The Department anticipates the need for
+one full-time Business Specialist (SOC13-07). The estimated cost for this position is $121,000 in
+
+FY 2027, $125,000 in FY 2028 and $126,000 in FY 2029. These expenditures would be paid from
+the Renewable Energy Fund (REF).
+If these positions are authorized, it is assumed the funding for these positions would be included
+in the Department's FY 2028 - FY 2029 budget request.
+The Public Utilities Commission states they could absorb the new requirements within this bill
+into their existing budget.
+
+AGENCIES CONTACTED:
+Department of Energy and Public Utilities Commission

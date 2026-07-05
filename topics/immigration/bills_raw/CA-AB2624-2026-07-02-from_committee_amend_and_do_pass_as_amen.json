@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law authorizes designated health care services providers, employees, volunteers, and patients, and individuals who face threats of violence or violence or harassment from the public because of their affiliation with a designated health care services facility, to complete an application to be approved by the Secretary of State for the purposes of enabling state and local agencies to respond to requests for public records without disclosing a program participant's residence address contained in any public record and otherwise provide for confidentiality of identity for that person, subject to specified conditions. Existing law defines \"designated health care services\" to mean gender-affirming health care services or reproductive health care services. Under existing law, any person who makes a false statement in an application is guilty of a misdemeanor.\n\nExisting law prohibits a person, business, or association from knowingly publicly posting or publicly displaying, disclosing, or distributing on internet websites or on social media, the personal information or image of any designated health care services patient, provider, or assistant, or other individuals residing at the same home address, with the intent to incite a third person to cause imminent great bodily harm to the person identified in the posting or display, or to a coresident of that person, as specified, or to threaten the person identified in the posting or display, or a coresident of that person, as specified. Existing law additionally prohibits a person, business, or association from soliciting, selling, or trading on the internet or social media the personal information or image of a designated health care services patient, provider, or assistant with the intent described above. Existing law establishes a cause of action for injunctive or declarative relief for a violation of these prohibitions.\n\nExisting law prohibits a person from posting on the internet or social media, with the intent that another person imminently use that information to commit a crime involving violence or a threat of violence against a designated health care services patient, provider, or assistant, or other individuals residing at the same home address, the personal information or image of a reproductive health care services patient, provider, or assistant, or other individuals residing at the same home address.\n\nThis bill would, commencing October 1, 2027, similarly establish an address confidentiality program for a designated immigration support services provider, employee, or volunteer, as defined, who faces threats of violence or harassment from the public because of their affiliation with a designated immigration support services facility. This bill would additionally prohibit a person, business, or association from soliciting, selling, or trading on the internet the personal information or image of a designated immigration support services provider, employee, or volunteer with the intent described above. The bill would also, among other things, prohibit a person from posting on the internet the personal information or image of a designated immigration support services provider, employee, or volunteer, or other individuals residing at the same home address, with the specific intent that another person imminently use that information to commit a crime involving violence or a threat of violence that is likely to occur against such an individual. The bill would define various terms for these purposes. By imposing new duties on local agencies and creating new crimes, this bill would create a state-mandated local program.\n\nExisting constitutional provisions require that a statute that limits the right of access to the meetings of public bodies or the writings of public officials and agencies be adopted with findings demonstrating the interest protected by the limitation and the need for protecting that interest.\n\nThis bill would make legislative findings to that effect.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that with regard to certain mandates no reimbursement is required by this act for a specified reason.\n\nWith regard to any other mandates, this bill would provide that, if the Commission on State Mandates determines that the bill contains costs so mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2624",
+    "legislative_session": "20252026",
+    "subject": [
+      "Privacyforimmigrationsupportservicesproviders"
+    ],
+    "title": "Privacy for immigration support services providers."
+  },
+  "id": "AB2624",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-introduction",
+        "amendment-passage",
+        "committee-passage",
+        "referral-committee"
+      ],
+      "description": "From committee: Amend, and do pass as amended and re-refer to Com. on APPR. (Ayes 5. Noes 1.) (June 30).",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-02",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2624"
+        }
+      ]
+    },
+    "bill_id": "AB2624"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2624/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2624/logs/20260702T000000Z_from_committee_amend_and_do_pass_as_amended_and_rerefer_to_com_on_appr_ayes_5_noes_1_june_30.json"
+  },
+  "timestamp": "20260702T000000Z"
+}

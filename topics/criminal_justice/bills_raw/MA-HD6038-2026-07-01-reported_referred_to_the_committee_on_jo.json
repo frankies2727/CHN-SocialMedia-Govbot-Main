@@ -1,0 +1,48 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Scarsdale of Pepperell, a petition (subject to Joint Rule 12) of Margaret R. Scarsdale for legislation to amend the sick leave bank for Matthew McRae, an employee of the Department of State Police.  Public Service.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HD6038",
+    "legislative_session": "194th",
+    "title": "An Act amending the sick leave bank for Matthew McRae, an employee of the department of state police"
+  },
+  "id": "HD6038",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Reported, referred to the committee on Joint Rules, reported, rules suspended and referred to the committee on Public Service",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-01",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "the committee on Joint Rules, reported, rules suspended and referred to the committee on Public Service"
+        },
+        {
+          "entity_type": "organization",
+          "name": "committee on Joint Rules, reported, rules suspended and referred to the committee on Public Service"
+        }
+      ],
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/HD6038"
+        }
+      ]
+    },
+    "bill_id": "HD6038"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/HD6038/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/HD6038/logs/20260701T000000Z_reported_referred_to_the_committee_on_joint_rules_reported_rules_suspended_and_referred_to_the_commi.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

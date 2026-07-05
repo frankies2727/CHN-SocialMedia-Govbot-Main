@@ -1,0 +1,20 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S2994",
+    "legislative_session": "222",
+    "subject": [
+      "HEALTH PROF"
+    ],
+    "title": "Creates \"Midwifery Licensing Act;\" modifies regulation of midwifery."
+  },
+  "id": "S2994",
+  "log": {
+    "bill_id": "S2994"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S2994/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S2994/logs/20260608T040000Z.vote_event.pass.upper.json"
+  },
+  "timestamp": "20260608T040000Z.vote"
+}

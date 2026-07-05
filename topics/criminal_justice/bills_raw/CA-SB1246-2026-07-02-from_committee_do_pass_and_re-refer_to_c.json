@@ -1,0 +1,49 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "(1) Existing law authorizes the operation of an autonomous vehicle on public roads for testing purposes by a driver who possesses the proper class of license for the type of vehicle operated if specified requirements are satisfied. Existing law prohibits the operation of an autonomous vehicle on public roads until the manufacturer submits an application to the Department of Motor Vehicles, as specified, and that application is approved. Existing law requires the department to adopt regulations setting forth requirements for the submission and approval of an application, including, among other things, any testing, equipment, and performance standards the department concludes are necessary to ensure the safe operation of autonomous vehicles on public roads, as specified.\n\nExisting law, commencing July 1, 2026, requires manufacturers of autonomous vehicles that operate without a human operator physically present in the vehicle, except as provided, to comply with certain requirements, including, among other things, to maintain a dedicated emergency response telephone line that is available for emergency response officials, as defined, and to equip each autonomous vehicle with a 2-way voice communication device that enables emergency response officials that are near the vehicle to communicate effectively with a remote human operator, as specified.\n\nThis bill would require remote drivers or local incident technicians, as defined, to be located within the United States and hold a valid driver's license of a state or territory of the United States of the appropriate class with any endorsements required for a human driver to lawfully operate the same vehicle in this state. The bill would require an autonomous vehicle manufacturer to ensure, through its staffing and assignments, that local incident technicians are immediately dispatched upon notification, electronically or otherwise, of an accident involving damage to persons or property, or upon receiving a request from an emergency response official or 911 dispatch center. The bill would, in the event of a fleetwide emergency or system failure, require an autonomous vehicle manufacturer to immediately notify affected local jurisdictions, including emergency dispatch, of the location and status of their fleet and deploy local incident technicians, where appropriate, whenever affected vehicles cannot be remotely recovered and create a traffic hazard or impede emergency response. The bill would also require the Department of Motor Vehicles to adopt guidelines establishing reasonable response times for local incident technicians to be present at the scene upon the request of an emergency response official or 911 dispatch center. \n\nThe bill would require any commercial autonomous vehicle operated without a human driver on a highway in this state that is equipped with controls that allow someone physically present to drive the vehicle to be equipped with a manual override system in the vehicle that allows local incident technicians, emergency response officials, tow operators, and trained personnel to readily and safely disable the vehicle, place the vehicle in neutral gear to relocate it during an emergency, and turn off the vehicle. For commercial autonomous vehicles that are not equipped with manual controls for completing the dynamic driving task, the bill would require autonomous vehicle manufacturers to ensure that remote assistants or remote drivers have the ability to place the autonomous vehicle in neutral to allow an emergency response official to move the vehicle, or to cause the autonomous vehicle to move as directed by an emergency response official, or to turn off the vehicle and have it remain stationary until otherwise directed by an emergency response official.\n\nThe bill would also require the Commission on Peace Officer Standards and Training (POST) to develop uniform guidelines and requirements for, and to provide approval of, the training and written guidance required to be provided by autonomous vehicle manufacturers. The bill would authorize POST to impose fees sufficient to cover the reasonable regulatory costs associated with administering these provisions.\n\nThe bill would require autonomous vehicle manufacturers to maintain data on response times and responses to emergency events, immobilizations, obstructions, accidents involving damage to persons or property, and requests from emergency response officials. The bill would require autonomous vehicle manufacturers to provide this data to the Department of Motor Vehicles and the Public Utilities Commission upon request.\n\nThe bill would specify that a violation of the above provisions is not a crime. The bill would authorize a city attorney or county counsel to bring a civil action on behalf of a city, county, or city and county to enforce specified violations of the above provisions and for violations of an autonomous vehicle manufacturers' permit or any regulation authorizing the autonomous vehicle manufacturers' operation. The bill would authorize a court to impose specified civil penalties payable to the jurisdiction bringing the action, as specified.\n\n(2) Existing law establishes the Commission on Peace Officer Standards and Training in the Department of Justice and requires the commission to develop guidelines and implement courses of instruction regarding specified topics, including, among others, racial profiling, handling domestic violence, and human trafficking.\n\nThe bill would require the commission to implement a course or courses of instruction for voluntary training of law enforcement officers, as defined, on commercial autonomous vehicles as it relates to public safety, and to develop related uniform minimum guidelines for voluntary use by California law enforcement agencies, as specified. The bill would require the course or courses, learning and performance objectives, training standards, and guidelines to be developed in consultation with appropriate groups and individuals that have an interest and expertise in the field of the operation of autonomous vehicles, as specified.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1246",
+    "legislative_session": "20252026",
+    "subject": [
+      "Autonomousvehicles"
+    ],
+    "title": "Autonomous vehicles."
+  },
+  "id": "SB1246",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage",
+        "committee-passage-favorable",
+        "referral-committee"
+      ],
+      "description": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 7. Noes 1.) (July 1). Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-02",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1246"
+        }
+      ]
+    },
+    "bill_id": "SB1246"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1246/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1246/logs/20260702T000000Z_from_committee_do_pass_and_rerefer_to_com_on_appr_ayes_7_noes_1_july_1_rereferred_to_com_on_appr.json"
+  },
+  "timestamp": "20260702T000000Z"
+}

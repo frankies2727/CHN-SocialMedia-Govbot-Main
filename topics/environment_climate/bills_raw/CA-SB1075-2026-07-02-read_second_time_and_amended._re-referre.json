@@ -1,0 +1,54 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law requires the State Air Resources Board to prepare a statewide strategy to reduce emissions of toxic air contaminants and criteria air pollutants in communities affected by a high cumulative exposure burden that includes an assessment and identification of those communities. Existing law requires the statewide strategy to be updated at least once every 5 years. Existing law requires the state board, based on the assessment and identification, to select locations around the state for preparation of community emissions reduction programs. Existing law requires the assessment and identification to prioritize disadvantaged communities, as defined. Existing law requires the regional air quality management district or the regional air pollution control district encompassing the location selected by the state board, within one year of selection, to adopt a community emissions reduction program to achieve emissions reductions for the location selected using cost-effective measures, as provided. Existing law requires the state board to provide grants to community-based organizations for technical assistance and to support community participation in the implementation of the statewide strategy. Under this existing regulatory authority, the state board provides grants to development and implement local community emissions reduction plans.\n\nThis bill would revise the definition of \"disadvantaged community\" to include a disadvantaged unincorporated community. By expanding the definition of \"disadvantaged community,\" the bill would expand the duties of districts in the preparation of community emissions reduction programs, thereby imposing a state-mandated local program. The bill would require the local community emissions reduction plans to be submitted to the state board for review and approval and would require the state board or the relevant air district to enforce those plans, as provided. The bill would specify that a steering committee formed by an air district to assist it in the development and implementation of a community emissions reduction program remains active until the emissions objectives identified in the program are achieved as determined by the air district or<caml:Numerator>2</caml:Numerator><caml:Denominator>3</caml:Denominator></caml:Fraction>\"?> a majority of the members of the committee vote to disband the committee. The bill would require members of the steering committee to meet certain requirements. The bill would specify eligible uses for the grants provided.\n\nThis bill would require the state board, on or before June 30, 2027, and annually thereafter, to report to the appropriate subcommittees of the budget committee of the Legislature about the progress the state board has made to implement the statewide strategy and the community emissions reduction programs, as provided. The bill would require the Secretary for Environmental Protection to periodically convene representatives of agencies and departments within the California Environmental Protection Agency with jurisdiction over pollution sources included in a community emissions reduction program to ensure coordination among those agencies and departments to address concerns raised about those pollution sources.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that with regard to certain mandates no reimbursement is required by this act for a specified reason.\n\nWith regard to any other mandates, this bill would provide that, if the Commission on State Mandates determines that the bill contains costs so mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1075",
+    "legislative_session": "20252026",
+    "subject": [
+      "Airresources",
+      "communityemissionsreductionprograms",
+      "criteriaairpollutants",
+      "localcommunityemissionsreductionplans",
+      "toxicaircontaminants"
+    ],
+    "title": "Air resources: toxic air contaminants: criteria air pollutants: community emissions reduction programs: local community emissions reduction plans."
+  },
+  "id": "SB1075",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "reading-1",
+        "reading-2",
+        "referral-committee"
+      ],
+      "description": "Read second time and amended. Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-02",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1075"
+        }
+      ]
+    },
+    "bill_id": "SB1075"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1075/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1075/logs/20260702T000000Z_read_second_time_and_amended_rereferred_to_com_on_appr.json"
+  },
+  "timestamp": "20260702T000000Z"
+}
