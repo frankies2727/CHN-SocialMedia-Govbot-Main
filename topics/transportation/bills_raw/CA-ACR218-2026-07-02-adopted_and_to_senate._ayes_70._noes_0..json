@@ -1,0 +1,42 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This measure would designate a specified portion of State Route 18 in the County of San Bernardino as the Huuc Atam Highway. The measure would request that the Department of Transportation determine the cost of appropriate signs showing this special designation and, upon receiving donations from nonstate sources sufficient to cover the cost, to erect those signs.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "ACR218",
+    "legislative_session": "20252026",
+    "subject": [
+      "TheHuucAtamHighway"
+    ],
+    "title": "Relative to the Huuc Atam Highway."
+  },
+  "id": "ACR218",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "passage"
+      ],
+      "description": "Adopted and to Senate. (Ayes 70. Noes 0.)",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-02",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260ACR218"
+        }
+      ]
+    },
+    "bill_id": "ACR218"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/ACR218/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/ACR218/logs/20260702T000000Z_adopted_and_to_senate_ayes_70_noes_0.json"
+  },
+  "timestamp": "20260702T000000Z"
+}

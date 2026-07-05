@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Prohibits ICE employees, agents or officials from being within two hundred feet (200') of any polling place during voting, including early voting and election day voting.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB3339",
+    "legislative_session": "2026",
+    "title": "AN ACT RELATING TO ELECTIONS -- CONDUCT OF ELECTION AND VOTING EQUIPMENT, AND SUPPLIES"
+  },
+  "id": "SB3339",
+  "log": {
+    "action": {
+      "classification": [
+        "reading-3"
+      ],
+      "date": "2026-06-04",
+      "description": "06/04/2026 Placed on Senate Calendar  (06/09/2026)",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SB3339"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2026/bills/SB3339/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2026/bills/SB3339/logs/20260604T000000Z_06042026_placed_on_senate_calendar_06092026.json"
+  },
+  "timestamp": "20260604T000000Z"
+}

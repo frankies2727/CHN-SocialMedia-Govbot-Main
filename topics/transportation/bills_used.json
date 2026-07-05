@@ -34,6 +34,9 @@
     "CA|ACR142|2026-04-23|Adopted and to Senate. (Ayes 74. Noes 0.",
     "CA|ACR142|2026-04-23|In Senate. To Com. on RLS.",
     "CA|ACR142|2026-06-26|Enrolled and filed with the Secretary of",
+    "CA|ACR218|2026-07-02|",
+    "CA|ACR218|2026-07-02|Adopted and to Senate. (Ayes 70. Noes 0.",
+    "CA|ACR218|2026-07-02|In Senate. To Com. on RLS.",
     "CA|SB1042|2026-05-14|May 14 hearing: Held in committee and un",
     "CA|SB1072|2026-05-12|Read second time. Ordered to consent cal",
     "CA|SB1072|2026-05-14|In Assembly. Read first time. Held at De",
@@ -358,6 +361,7 @@
     "PA|HR 68|2025-06-18|Laid on the table (Pursuant to House Rul",
     "PR|PS0339|2026-02-20|Retirada por su Autor",
     "RI|HB8593|2026-06-23|06/23/2026 Signed by Governor",
+    "RI|SB3324|2026-06-23|06/23/2026 Signed by Governor",
     "SC|S 213|2025-06-05|Act No. 83",
     "TN|HB 1683|2026-01-21|P2C, ref. to Transportation Committee - ",
     "TN|HB 1684|2026-01-21|Assigned to s/c Transportation Subcommit",
@@ -402,7 +406,7 @@
     "WV|SB 221|2026-01-14|To Economic Development",
     "WV|SB 238|2026-01-14|To Transportation and Infrastructure"
   ],
-  "last_run": "2026-07-03T10:41:28.006306+00:00",
+  "last_run": "2026-07-05T10:11:37.216004+00:00",
   "state_last_posted": {
     "IL": "2026-05-16T03:01:17.694974+00:00",
     "SC": "2026-05-16T03:01:17.694974+00:00",
@@ -411,7 +415,7 @@
     "MS": "2026-06-04T11:06:28.016810+00:00",
     "MA": "2026-06-29T12:27:45.387189+00:00",
     "GA": "2026-06-28T10:20:10.488976+00:00",
-    "CA": "2026-06-30T10:52:06.635297+00:00",
+    "CA": "2026-07-05T10:09:47.931286+00:00",
     "DE": "2026-07-03T10:38:14.512594+00:00",
     "KS": "2026-06-19T11:42:10.452967+00:00",
     "IA": "2026-06-18T11:34:39.640002+00:00",
@@ -424,7 +428,7 @@
     "MO": "2026-07-03T10:38:14.512594+00:00",
     "WA": "2026-06-06T09:54:25.564847+00:00",
     "PR": "2026-06-13T10:25:25.994434+00:00",
-    "RI": "2026-06-27T09:45:07.972387+00:00",
+    "RI": "2026-07-05T10:09:47.931286+00:00",
     "NH": "2026-06-30T10:52:06.635297+00:00"
   }
 }

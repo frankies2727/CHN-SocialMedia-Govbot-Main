@@ -1,0 +1,49 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law requires the board of supervisors of each county, following each decennial federal census, and using that census as a basis, to adjust the boundaries of any or all of the supervisorial districts of the county so that the districts are as nearly equal in population as possible and comply with applicable federal law, and specifies the procedures the board of supervisors must follow in adjusting those boundaries. Existing law establishes independent redistricting commissions in the Counties of Los Angeles, San Diego, Orange, Riverside, San Luis Obispo, Kern, Fresno, and Sacramento, which are charged with adjusting the supervisorial district boundaries for their respective counties.\n\nThis bill would establish the Citizens Redistricting Commission in the County of San Bernardino, which would be charged with adjusting the boundary lines of the districts of the Board of Supervisors of the County of San Bernardino. The commission would consist of 14 commissioners who meet specified qualifications. This bill would require the commission to adjust the boundaries of the supervisorial districts in accordance with specified criteria and adopt a redistricting plan in accordance with existing deadlines for the adoption of county supervisorial district boundaries. The bill would create specified procedures by which the commission may remove a commissioner. By increasing the duties on local officials, the bill would impose a state-mandated local program.\n\nThis bill would make legislative findings and declarations as to the necessity of a special statute for the unique circumstances facing the County of San Bernardino.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1414",
+    "legislative_session": "20252026",
+    "subject": [
+      "CountyofSanBernardinoCitizensRedistrictingCommission"
+    ],
+    "title": "County of San Bernardino Citizens Redistricting Commission."
+  },
+  "id": "SB1414",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage",
+        "committee-passage-favorable",
+        "referral-committee"
+      ],
+      "description": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 6. Noes 2.) (July 1). Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-02",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1414"
+        }
+      ]
+    },
+    "bill_id": "SB1414"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1414/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1414/logs/20260702T000000Z_from_committee_do_pass_and_rerefer_to_com_on_appr_ayes_6_noes_2_july_1_rereferred_to_com_on_appr.json"
+  },
+  "timestamp": "20260702T000000Z"
+}
