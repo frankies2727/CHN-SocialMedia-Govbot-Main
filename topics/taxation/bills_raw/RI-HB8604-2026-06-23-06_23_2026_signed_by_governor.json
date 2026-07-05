@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Provides the tax administration may prescribe regulations requiring returns of information to be made and filed on or before Feb 28 of each year consistent with applicable thresholds for information filings under the federal Internal Revenue Code.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB8604",
+    "legislative_session": "2026",
+    "title": "AN ACT RELATING TO TAXATION -- PERSONAL INCOME TAX"
+  },
+  "id": "HB8604",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "06/23/2026 Signed by Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-06-23",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://status.rilegislature.gov/"
+        }
+      ]
+    },
+    "bill_id": "HB8604"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2026/bills/HB8604/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2026/bills/HB8604/logs/20260623T000000Z_06232026_signed_by_governor.json"
+  },
+  "timestamp": "20260623T000000Z"
+}

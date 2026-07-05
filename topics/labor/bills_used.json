@@ -39,6 +39,9 @@
     "CA|AB2646|2026-05-26|",
     "CA|AB2646|2026-05-26|Read third time. Passed. Ordered to the ",
     "CA|AB2646|2026-05-27|In Senate. Read first time. To Com. on R",
+    "CA|ACR227|2026-07-02|",
+    "CA|ACR227|2026-07-02|Adopted and to Senate. (Ayes 70. Noes 0.",
+    "CA|ACR227|2026-07-02|In Senate. To Com. on RLS.",
     "CA|SB1046|2026-05-20|",
     "CA|SB1046|2026-05-20|In Assembly. Read first time. Held at De",
     "CA|SB1046|2026-05-20|Read third time. Passed. (Ayes 38. Noes ",
@@ -140,6 +143,7 @@
     "NJ|S704|2026-01-13|WITHDRAWN APP P.L.2025, c.355.",
     "RI|HB7656|2026-06-23|06/23/2026 Signed by Governor",
     "RI|HB8524|2026-06-23|06/23/2026 Signed by Governor",
+    "RI|SB3296|2026-06-23|06/23/2026 Signed by Governor",
     "TN|HB 1630|2026-01-21|Assigned to s/c Banking & Consumer Affai",
     "TN|HB 1759|2026-01-22|P2C, caption bill, held on desk - pendin",
     "TN|SB 1579|2026-01-14|Passed on Second Consideration, refer to",
@@ -176,12 +180,12 @@
     "WI|SB1|2026-05-13|Read a third time",
     "WI|SB1|2026-05-13|Rules suspended to give bill its third r"
   ],
-  "last_run": "2026-07-03T10:30:57.297289+00:00",
+  "last_run": "2026-07-05T10:04:10.650456+00:00",
   "state_last_posted": {
     "WA": "2026-06-14T16:08:05.274822+00:00",
     "AL": "2026-06-20T10:10:06.703065+00:00",
     "NJ": "2026-06-03T12:03:21.166952+00:00",
-    "CA": "2026-07-03T10:28:05.743211+00:00",
+    "CA": "2026-07-05T10:01:01.813626+00:00",
     "WI": "2026-06-13T10:13:42.603235+00:00",
     "IA": "2026-05-19T19:46:36.551228+00:00",
     "TN": "2026-06-14T16:08:05.274822+00:00",
@@ -193,7 +197,7 @@
     "MO": "2026-06-25T10:15:19.637108+00:00",
     "MN": "2026-05-28T10:57:02.677683+00:00",
     "FL": "2026-06-17T11:50:29.944292+00:00",
-    "RI": "2026-06-30T10:44:40.449810+00:00",
+    "RI": "2026-07-05T10:01:01.813626+00:00",
     "NH": "2026-06-29T12:18:56.665037+00:00"
   }
 }

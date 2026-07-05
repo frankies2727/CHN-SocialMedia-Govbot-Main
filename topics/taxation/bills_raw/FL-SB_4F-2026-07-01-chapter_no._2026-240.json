@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Property Tax Administration;  Revising the definitions of the terms \"maximum total county ad valorem taxes levied\" and \"maximum total municipal ad valorem taxes levied\" to conform to changes made by the act; revising limitations on the maximum millage rate that may be levied by certain units of government; authorizing the ballot summary of a specified proposed amendment or revision of the State Constitution to exceed a specified word limit, etc.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 4F",
+    "legislative_session": "2026F",
+    "subject": [
+      "taxation and finance"
+    ],
+    "title": "Property Tax Administration"
+  },
+  "id": "SB 4F",
+  "log": {
+    "action": {
+      "description": "Chapter No. 2026-240",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-07-01",
+      "session_id": "2026F",
+      "sources": [
+        {
+          "url": "https://flsenate.gov/Session/Bill/2026F/4F/ByCategory"
+        }
+      ]
+    },
+    "bill_id": "SB 4F"
+  },
+  "sources": {
+    "bill": "fl-legislation/country:us/state:fl/sessions/2026F/bills/SB4F/metadata.json",
+    "log": "fl-legislation/country:us/state:fl/sessions/2026F/bills/SB4F/logs/20260701T000000Z_chapter_no_2026240.json"
+  },
+  "timestamp": "20260701T000000Z"
+}
