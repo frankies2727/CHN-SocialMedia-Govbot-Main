@@ -20,14 +20,14 @@ jobs:
   run:
     runs-on: ubuntu-latest
     timeout-minutes: 60
-    # Split the 13 topics across two shards that run in parallel on separate
+    # Split the 13 topics across three shards that run in parallel on separate
     # runners. Each shard repeats the shared setup (govbot clone + Ollama) but
-    # only posts ~half the topics, keeping each job well under the 60-minute
-    # budget that the single sequential job kept blowing past.
+    # only posts ~a third of the topics, keeping each job well under the
+    # 60-minute budget that the two-shard split still occasionally blew past.
     strategy:
       fail-fast: false
       matrix:
-        shard: [0, 1]
+        shard: [0, 1, 2]
     env:
       LLM_MODEL: "gemma3:4b"
     steps:
@@ -176,9 +176,9 @@ jobs:
 
           # Assign topics to this shard by their sorted position (topics/*/
           # globs alphabetically). index % NUM_SHARDS interleaves them into a
-          # balanced 7/6 split that auto-rebalances when topics are added.
+          # balanced 5/4/4 split that auto-rebalances when topics are added.
           SHARD="${{ matrix.shard }}"
-          NUM_SHARDS=2
+          NUM_SHARDS=3
           i=0
           for topic_dir in topics/*/; do
             topic=$(basename "$topic_dir")
@@ -202,9 +202,9 @@ jobs:
             exit 0
           fi
           git commit -m "chore: update posted state (shard ${{ matrix.shard }}) [skip ci]"
-          # Both shards push to the same branch concurrently. They write disjoint
-          # topics/<name>/ folders, so rebasing onto the other shard's commit is
-          # always clean; retry with backoff until the push lands.
+          # All three shards push to the same branch concurrently. They write
+          # disjoint topics/<name>/ folders, so rebasing onto another shard's
+          # commit is always clean; retry with backoff until the push lands.
           for attempt in 1 2 3 4 5; do
             if git push; then
               echo "Pushed on attempt $attempt."
