@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Amends the apportionment and allocation of income for purposes of taxation relating to the taxation of banks.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB8611",
+    "legislative_session": "2026",
+    "title": "AN ACT RELATING TO TAXATION -- TAXATION OF BANKS"
+  },
+  "id": "HB8611",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "06/23/2026 Signed by Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-06-23",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://status.rilegislature.gov/"
+        }
+      ]
+    },
+    "bill_id": "HB8611"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2026/bills/HB8611/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2026/bills/HB8611/logs/20260623T000000Z_06232026_signed_by_governor.json"
+  },
+  "timestamp": "20260623T000000Z"
+}

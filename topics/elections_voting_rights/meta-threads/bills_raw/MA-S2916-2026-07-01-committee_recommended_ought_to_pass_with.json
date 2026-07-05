@@ -1,0 +1,49 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Senate, January 15, 2026 -- Text of the Senate Bill improving campaign finance reporting for statewide ballot questions (Senate, No. 2916) (being the text of Senate, No. 2898, printed as amended)",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S2916",
+    "legislative_session": "194th",
+    "title": "An Act improving campaign finance reporting for statewide ballot questions"
+  },
+  "id": "S2916",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage-favorable",
+        "referral-committee"
+      ],
+      "description": "Committee recommended ought to pass with an amendment, striking out all after the enacting clause and inserting the text of H5549, and referred to the committee on House Steering, Policy and Scheduling",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-01",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "the committee on House Steering, Policy and Scheduling"
+        },
+        {
+          "entity_type": "organization",
+          "name": "committee on House Steering, Policy and Scheduling"
+        }
+      ],
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/S2916"
+        }
+      ]
+    },
+    "bill_id": "S2916"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/S2916/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/S2916/logs/20260701T000000Z_committee_recommended_ought_to_pass_with_an_amendment_striking_out_all_after_the_enacting_clause_and.json"
+  },
+  "timestamp": "20260701T000000Z"
+}
