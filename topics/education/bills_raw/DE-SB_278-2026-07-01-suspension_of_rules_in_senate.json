@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Like Senate Bill No. 278, Senate Substitute No. 1 for SB 278 requires that the Department of Health and Social Services (DHSS) regulations for Purchase of Care (POC), this State's child care assistance program, provide authorization for a child care provider that a child will attend during the summer at any time after January 1 because current regulations do not provide authorization for summer care early enough for families to enroll children in summer camps before camps are full.\r\n\r\nSS 1 for SB 278 differs from SB 278 as follows:\r\n•\tDoes not codify the POC eligibility for children in the custody of the Department of Services for Children, Youth and their Families.\r\n•\tRevises the requirement that a summer child care provider must be authorized after January 1 so it clearly applies to all children receiving POC assistance.\r\n•\tClarifies that an authorization for a summer child care provider must be provided in addition to all provider authorizations for the child’s care during the school year. \r\n\r\nLike SB 278, SS 1 for SB 278 does all of the following:\r\n•\tAdds the name of this State's child care assistance program, \"Purchase of Care\" or \"POC\" to Chapter 5 of Title 31.\r\n•\tCodifies the current policy that parent copayments are determined based on household size and income.\r\n•\tRequires that parent copayments also be based on whether the child receives assistance for a full or half day of child care.\r\n•\tProvides that the authorization for a summer child care provider provided in advance of attendance may be for purposes of enrollment only and is subject to meeting eligibility requirements at the time the child attends.\r\n•\tMakes technical corrections to conform existing law to the standards of the Delaware Legislative Drafting Manual.\r\n\r\nThis Act is effective immediately because under § 10113 of Title 29, amendments that make existing regulations consistent with changes in basic law are exempt from the procedural requirements under the Administrative Procedures Act.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 278",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 31 OF THE DELAWARE CODE RELATING TO CHILD CARE ASSISTANCE."
+  },
+  "id": "SB 278",
+  "log": {
+    "action": {
+      "description": "Suspension of Rules in Senate",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-01",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143236"
+        }
+      ]
+    },
+    "bill_id": "SB 278"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB278/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB278/logs/20260701T000000Z_suspension_of_rules_in_senate.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

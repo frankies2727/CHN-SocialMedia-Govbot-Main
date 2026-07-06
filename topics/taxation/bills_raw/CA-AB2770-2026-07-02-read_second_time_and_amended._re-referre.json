@@ -1,0 +1,51 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Under existing law, there is in the Natural Resources Agency, the Department of Parks and Recreation, conducted under the control of an executive officer known as the Director of Parks and Recreation, charged with administration, protection, and development of the state park system. Existing law designates all parks, public campgrounds, monument sites, landmark sites, and sites of historical interest established or acquired by the state, or that are under its control, as the state park system, except as specified. Under existing law, the Department of Parks and Recreation controls the state park system, which is made up of units. One unit is the San Pasqual Battlefield State Park.\n\nThis bill would require the state to quitclaim forthwith to the San Pasqual Band of Mission Indians, at no cost to the tribe, and subject to specified conditions, all interests of the state in the land owned within the San Pasqual Battlefield State Park, consisting of 3 parcels of land totaling approximately 3.68 acres. The bill would exempt the land from property taxation. By imposing additional duties on locals in the administration of this exemption, the bill would impose a state-mandated local program.\n\nThis bill would provide that if the City of San Diego agrees to the transfer, the state would be required, at no cost to the tribe, to relinquish or transfer to the San Pasqual Band of Mission Indians all rights and interests that the state has in those lands through lease, permit, or otherwise, and to take any and all other actions necessary to effectuate the city's transfer of the land to the San Pasqual Band of Mission Indians.\n\nThis bill would make legislative findings and declarations as to the necessity of a special statute for the San Pasqual Band of Mission Indians.\n\nThis bill would make legislative findings and declarations related to a gift of public funds.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.\n\nExisting law requires the state to reimburse local agencies annually for certain property tax revenues lost as a result of any exemption or classification of property for purposes of ad valorem property taxation.\n\nThis bill would provide that, notwithstanding those provisions, no appropriation is made and the state shall not reimburse local agencies for property tax revenues lost by them pursuant to the bill.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2770",
+    "legislative_session": "20252026",
+    "subject": [
+      "SanPasqualBattlefieldStatePark",
+      "StateProperty"
+    ],
+    "title": "State Property: San Pasqual Battlefield State Park."
+  },
+  "id": "AB2770",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "reading-1",
+        "reading-2",
+        "referral-committee"
+      ],
+      "description": "Read second time and amended. Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-02",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2770"
+        }
+      ]
+    },
+    "bill_id": "AB2770"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2770/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2770/logs/20260702T000000Z_read_second_time_and_amended_rereferred_to_com_on_appr.json"
+  },
+  "timestamp": "20260702T000000Z"
+}

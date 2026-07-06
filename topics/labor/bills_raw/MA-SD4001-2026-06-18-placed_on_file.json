@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Report of the Department of Economic Research (pursuant to Section 14F of Chapter 151A of the General Laws) submitting its   Unemployment Insurance Trust Fund data for June 2026",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SD4001",
+    "legislative_session": "194th",
+    "title": "Unemployment Insurance Trust Fund June 2026 Report"
+  },
+  "id": "SD4001",
+  "log": {
+    "action": {
+      "description": "Placed on file",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-18",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/SD4001"
+        }
+      ]
+    },
+    "bill_id": "SD4001"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/SD4001/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/SD4001/logs/20260618T000000Z_placed_on_file.json"
+  },
+  "timestamp": "20260618T000000Z"
+}
