@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "RS0458",
+    "legislative_session": "2025-2028",
+    "title": "Para ordenar a la Comisión Planificación, Permisos, Infraestructura y Urbanismo del Senado de Puerto Rico realizar una investigación exhaustiva sobre la posible destrucción, relleno y alteración de un humedal localizado en el Barrio Bajuras del Municipio de Isabela, identificado en el Catastro Digital de Puerto Rico como la finca número 003-000-009-16, presuntamente propiedad de Hauger Martin, incluyendo la evaluación de todo trámite de permisología relacionado, particularmente el expediente 2022-471582-REA-011482 asociado a servicios de consultoría ambiental y permisología (“Scape”); examinar el cumplimiento con la Ley Núm. 161-2009, conocida como la Ley para la Reforma del Proceso de Permisos de Puerto Rico, el Reglamento 4860 del Departamento de Recursos Naturales y Ambientales, el Reglamento Conjunto de Permisos, así como con las disposiciones aplicables de la Clean Water Act de los Estados Unidos; requerir información a las agencias pertinentes del Gobierno de Puerto Rico y al Municipio de Isabela, incluyendo la Oficina de Gerencia de Permisos, la Junta de Planificación, el Departamento de Recursos Naturales y Ambientales, y cualquier otra entidad con jurisdicción, para determinar si se han expedido permisos, endosos o autorizaciones relacionadas con el movimiento de tierra, relleno, construcción o alteración del humedal; investigar si se solicitaron o concedieron permisos federales aplicables, incluyendo aquellos bajo la jurisdicción del U.S. Army Corps of Engineers, conforme a la Sección 404 de la Clean Water Act; examinar si el Municipio de Isabela otorgó autorizaciones municipales o cobró patentes municipales o arbitrios de construcción por las actividades realizadas en el predio; rendir un informe con hallazgos, conclusiones y recomendaciones dentro de un término no mayor de noventa (90) días; y para otros fines relacionados."
+  },
+  "id": "RS0458",
+  "log": {
+    "action": {
+      "description": "Cuerpo aprueba informe final rendido",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-06-30T04:00:00+00:00",
+      "session_id": "2025-2028",
+      "sources": [
+        {
+          "url": "https://sutra.oslpr.org/medidas/160700"
+        }
+      ]
+    },
+    "bill_id": "RS0458"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RS0458/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RS0458/logs/20260630T040000Z_cuerpo_aprueba_informe_final_rendido.json"
+  },
+  "timestamp": "20260630T040000Z"
+}

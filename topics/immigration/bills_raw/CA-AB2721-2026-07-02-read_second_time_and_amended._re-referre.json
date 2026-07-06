@@ -1,0 +1,51 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the Unfair Competition Law (UCL) , makes various practices unlawful and provides that a person who engages, has engaged, or proposes to engage in unfair competition is liable for a civil penalty and subject to injunction, as specified. The UCL authorizes actions prosecuted under its provisions to be brought by certain public attorneys, including by the Attorney General, a city attorney of a city having a population in excess of 750,000, or by a county counsel of any county within which a city has a population in excess of 750,000. The UCL prohibits the distribution, as provided, of any handbill, as defined, to any individual guest rooms in any hotel where the innkeeper has expressed objection to handbill distribution, as specified. The UCL provides that these provisions do not prohibit the distribution of a handbill to guest rooms in any hotel where the distribution has been requested or approved in writing by the innkeeper, or to any individual guest room when the occupant thereof has affirmatively requested or approved the distribution of the handbill during the duration of the guest's occupancy.\n\nThis bill would require, under the UCL, the operator of a hotel with actual knowledge of a reservation with the United States Customs and Border Protection or United States Immigration and Customs Enforcement to post a prescribed notice in a prominent and accessible place where it can be seen by all workers.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2721",
+    "legislative_session": "20252026",
+    "subject": [
+      "UnfairCompetitionLaw",
+      "hotels"
+    ],
+    "title": "Unfair Competition Law: hotels."
+  },
+  "id": "AB2721",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "reading-1",
+        "reading-2",
+        "referral-committee"
+      ],
+      "description": "Read second time and amended. Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-02",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2721"
+        }
+      ]
+    },
+    "bill_id": "AB2721"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2721/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2721/logs/20260702T000000Z_read_second_time_and_amended_rereferred_to_com_on_appr.json"
+  },
+  "timestamp": "20260702T000000Z"
+}

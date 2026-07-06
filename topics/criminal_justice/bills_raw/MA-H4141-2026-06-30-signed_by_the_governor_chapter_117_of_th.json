@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Barrett of North Adams, a petition (accompanied by bill, House, No. 4141) of John Barrett, III (by the approval of the mayor and city council) that the city of North Adams be authorized to appoint retired North Adams police officers as special police officers within said city for paid detail assignments.  Public Service.  [Local Approval Received.]",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H4141",
+    "legislative_session": "194th",
+    "title": "An Act authorizing the city of North Adams to appoint retired North Adams police officers as special police officers within said city for paid detail assignments"
+  },
+  "id": "H4141",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by the Governor, Chapter 117 of the Acts of 2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-06-30",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/H4141"
+        }
+      ]
+    },
+    "bill_id": "H4141"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4141/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4141/logs/20260630T000000Z_signed_by_the_governor_chapter_117_of_the_acts_of_2026.json"
+  },
+  "timestamp": "20260630T000000Z"
+}
