@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Health",
+        "note": "full subject"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB605",
+    "legislative_session": "2026rs",
+    "subject": [
+      "Health"
+    ],
+    "title": "State Health Planning and Development Agency; Rural Health Antitrust Immunity Act created, collaboration among rural health care providers authorized; certification and supervision framework established, limited immunity from state and federal antitrust laws provided"
+  },
+  "id": "HB605",
+  "log": {
+    "action": {
+      "date": "2026-05-08T04:00:00+00:00",
+      "description": "Carried Over to the Call of the Chair",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HB605"
+  },
+  "sources": {
+    "bill": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB605/metadata.json",
+    "log": "al-legislation/country:us/state:al/sessions/2026rs/bills/HB605/logs/20260508T040000Z_carried_over_to_the_call_of_the_chair.json"
+  },
+  "timestamp": "20260508T040000Z"
+}

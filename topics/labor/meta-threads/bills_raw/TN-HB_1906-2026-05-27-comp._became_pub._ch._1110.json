@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1906",
+    "legislative_session": "114",
+    "subject": [
+      "Pensions and Retirement Benefits"
+    ],
+    "title": "Pensions and Retirement Benefits - As enacted, requires retirement credit established for a period of disability for a commissioned member of the department of safety or agent of the Tennessee bureau of investigation to be at no cost to that member; authorizes political subdivisions that pass a resolution to establish retirement credit for its employees to allow the credit for a period of disability for any member who is subject to mandatory retirements to be at no cost to such person. - Amends TCA Title 8, Chapter 34, Part 6."
+  },
+  "id": "HB 1906",
+  "log": {
+    "action": {
+      "description": "Comp. became Pub. Ch. 1110",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-05-27",
+      "session_id": "114",
+      "sources": [
+        {
+          "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB1906&ga=114"
+        }
+      ]
+    },
+    "bill_id": "HB 1906"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1906/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HB1906/logs/20260527T000000Z_comp_became_pub_ch_1110.json"
+  },
+  "timestamp": "20260527T000000Z"
+}

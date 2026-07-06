@@ -1,0 +1,50 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the Lanterman-Petris-Short (LPS) Act, authorizes the involuntary commitment and treatment of a person, when the person, as a result of a mental health disorder, is a danger to themselves or others, or is gravely disabled. Existing law grants persons involuntarily detained in state hospitals as a result of developmental or mental health disabilities specified rights, including a right to dignity, privacy, and humane care, to be free from harm, to religious freedom and practice, and to physical exercise and recreational opportunities.\n\nThis bill, the Civil Detainees' Bill of Rights Act of 2026, would clarify that all persons housed or detained for purposes of civil immigration proceedings in California at any state, county, local, or private locked detention facility, including any county, local, or private locked detention facility in which an individual is housed or detained on behalf of, or pursuant to a contract with, United States Immigration and Customs Enforcement, have the legal rights and responsibilities guaranteed all other persons by the United States Constitution and federal law and the California Constitution and state law, unless specifically limited by federal or state law or regulations.\n\nThe bill would grant persons housed or detained for the purposes of civil immigration proceedings in California certain rights, including a right to dignity, privacy, and humane care, a right to clean and well-maintained facilities, and a right to safe and good-quality food.\n\nThe bill would require an operator of a facility to ensure the rights of individuals housed or civilly detained for purposes of civil immigration proceedings in California are protected. The bill would authorize the Attorney General to bring a civil action for injunctive and other relief in order to protect any of the above-described rights, and would additionally authorize the Attorney General to seek a civil penalty not to exceed $2,500 for each violation. The bill would require an operator of a facility to provide the Attorney General all necessary access for the observations necessary to effectuate enforcement of the above-described requirements.\n\nThe bill would make related findings and declarations.\n\nThe bill would declare that it is to take effect immediately as an urgency statute.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB942",
+    "legislative_session": "20252026",
+    "subject": [
+      "Civildetainees"
+    ],
+    "title": "Civil detainees."
+  },
+  "id": "SB942",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "reading-1",
+        "reading-2",
+        "referral-committee"
+      ],
+      "description": "Read second time and amended. Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-02",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB942"
+        }
+      ]
+    },
+    "bill_id": "SB942"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB942/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB942/logs/20260702T000000Z_read_second_time_and_amended_rereferred_to_com_on_appr.json"
+  },
+  "timestamp": "20260702T000000Z"
+}
