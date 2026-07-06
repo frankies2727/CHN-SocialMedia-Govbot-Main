@@ -1,0 +1,309 @@
+SENATE DOCKET, NO. 913
+
+FILED ON: 1/15/2025
+
+SENATE . . . . . . . . . . . . . . No. 731
+The Commonwealth of Massachusetts
+_________________
+PRESENTED BY:
+
+Lydia Edwards
+_________________
+To the Honorable Senate and House of Representatives of the Commonwealth of Massachusetts in General
+Court assembled:
+The undersigned legislators and/or citizens respectfully petition for the adoption of the accompanying bill:
+
+An Act regulating certain mortgages.
+_______________
+PETITION OF:
+
+NAME:
+Lydia Edwards
+Michael O. Moore
+James B. Eldridge
+
+DISTRICT/ADDRESS:
+Third Suffolk
+Second Worcester
+Middlesex and Worcester
+
+of 1
+
+9/22/2025
+1/11/2026
+
+SENATE DOCKET, NO. 913
+
+FILED ON: 1/15/2025
+
+SENATE . . . . . . . . . . . . . . No. 731
+By Ms. Edwards, a petition (accompanied by bill, Senate, No. 731) of Lydia Edwards for
+legislation to regulate shared appreciation mortgage loans. Financial Services.
+
+The Commonwealth of Massachusetts
+_______________
+
+In the One Hundred and Ninety-Fourth General Court
+(2025-2026)
+_______________
+
+An Act regulating certain mortgages.
+Be it enacted by the Senate and House of Representatives in General Court assembled, and by the authority
+of the same, as follows:
+
+Chapter 167E of the General Laws is hereby amended by adding the following section:-
+
+Section 17.
+
+(a) An entity, its successors or assigns, may originate or act as an intermediary between
+
+originators and borrowers on a shared appreciation mortgage loan, pursuant to a program for
+
+shared appreciation mortgage loans which has been submitted to and approved by the
+
+Commissioner of Banks, to the owner of real estate improved with a dwelling designed to be
+
+occupied by not more than 4 families, provided, however, that the owner shall occupy the
+
+mortgaged real estate in whole or in part.
+
+(b) Definitions:
+
+i.
+
+“shared appreciation mortgage” shall mean a mortgage loan, as defined in section
+
+of chapter 167E, containing an agreement between a mortgagor and a mortgagee that provides
+
+for the mortgagee, its successors or assigns, to share in any appreciation in value or the option to
+of 7
+
+do so, of the residential property upon the occurrence of a certain event, including but not limited
+
+to the transfer of ownership, repayment maturity date, sale of the residential property, or any
+
+other event contemplated by such loan agreement.
+
+ii. “shared appreciation payment” shall mean the amount of any appreciation in value that
+the mortgagor is required to pay to the mortgage holder.
+
+iii. “appreciation in value” shall be measured as the difference, if positive, between the
+
+gross sales proceeds of the sale of the residential property or the appraised value of the property
+
+at the time payment in full of the loan is due, and the appraised value of the residential property
+
+at the time of the original closing of the shared appreciation mortgage loan, minus the actual cost
+
+of any improvements made by the mortgagor. The appraised values in this subsection shall be
+
+determined by an appraisal by a state-certified general real estate appraiser or a state-certified
+
+residential real estate appraiser as defined by section 178 of chapter 112.
+
+iv. a shared appreciation mortgage loan is a residential mortgage loan, as defined in 15
+U.S.C.§ 1602(dd)(5).
+
+(c) The terms of the shared appreciation mortgage loan:
+
+i. shall state that the shared appreciation payment shall not exceed the lesser of:
+
+a. 15 per cent of the appreciation value; or
+
+b. 15 percent of the value of the property at the time of the consummation of the shared
+
+appreciation mortgage loan, as determined by an appraisal of comparable home values by a state-
+
+certified general real estate appraiser or a state-certified residential real estate appraiser as
+
+defined by section 178 of chapter 112.
+of 7
+
+ii. shall not include a penalty for satisfying or otherwise terminating the mortgage before
+its scheduled maturity date;
+
+iii. shall not restrict or waive the mortgagor’s substantive or procedural rights or remedies
+at law;
+iv. shall not be prohibited from refinancing at any given time for the duration of the
+mortgage;
+v. shall require the mortgage holder to agree to subordinate the shared appreciation
+mortgage upon request and if the borrower qualifies to refinance the first lien mortgage;
+vi. shall state “Any person who purchases or is otherwise assigned this obligation shall be
+
+subject to all claims and defenses that the mortgagor could assert against the original
+
+mortgagee;”
+
+vii. shall not include confidentiality provisions regarding the terms of the loan;
+
+viii. shall not include mandatory arbitration clauses; and
+
+ix. shall not become due and owing upon the death of the borrower if the borrower’s
+
+heir(s) are living in or intend to live in the property at the time of the borrower’s death. The
+
+surviving heir household member(s) shall be able to continue paying on the loan until the loan
+
+becomes due and owing in full.
+
+(d) Required pre-consummation housing counseling:
+
+i. a shared appreciation mortgage may not be consummated less than 14 calendar days
+
+after the mortgagor obtains counseling from a HUD-certified housing counselor;
+
+of 7
+
+ii. the housing counselor shall counsel the mortgagor on the terms of the shared
+appreciation mortgage loan and alternatives;
+
+iii. the mortgagee shall pay the cost of the housing counseling.
+
+(e) Notice before consummation of the shared appreciation mortgage: At least 21
+
+business days prior to consummating a shared appreciation mortgage, and no less than 3 days
+
+before the mortgagor is scheduled to attend housing counseling pursuant to subsection (d) of this
+
+section, the mortgage holder shall provide to the mortgagor, in writing, in a form that the
+
+mortgagor may keep:
+
+i. all documents to be signed or otherwise provided upon consummation of the shared
+appreciation mortgage;
+
+ii. a clear and conspicuous disclosure, with the format and content to be determined by
+the Attorney General, stating:
+
+a. the counseling requirement and telephone number and website established by the
+
+Department of Housing and Urban Development for finding a HUD-certified housing counselor
+
+setting;
+
+b. the maximum shared appreciation payment the mortgagor will be required to pay at
+maturity, in a dollar amount, and the manner and date in which it shall be paid; and
+
+c. such other information as the Attorney General may require.
+
+(e1) Additional requirements for foreclosure-related services: If a transaction subject to
+
+this section is a foreclosure rescue transaction or foreclosure-related service, as defined by 940
+
+CMR 25.01:
+of 7
+
+i. The Annual Percentage Rate, as determined pursuant to section 5 of chapter 140D, for a
+
+mortgage loan originated in connection with a shared appreciation mortgage loan may not
+
+exceed the Average Prime Offer Rate, as defined by 12 CFR 1026.35(a)(2).
+
+ii. A transaction subject to this section that includes reconveying to the mortgagor a
+
+property in which the mortgagor currently resides and in which the mortgagor had an ownership
+
+interest within the preceding three years, the sale price to be paid by the mortgagor shall not
+
+exceed the lesser of:
+
+a. the current market value of the property as determined by an appraisal of comparable
+
+home values by a state-certified general real estate appraiser or a state-certified residential real
+
+estate appraiser as defined by section 178 of chapter 112, or
+
+b. 25 percent in excess of the price the seller paid for the property.
+
+(f) Servicing of the loan
+
+i. The entity that originated a shared appreciation mortgage loan, and its successors or
+
+assigns, shall provide periodic statements to the borrower during the life of the loan. The
+
+periodic statements requirements shall be the same, and on the same schedule, as those found in
+
+the Truth in Lending Act (TILA) requirements for mortgage loans, 12 CFR § 1026.41 even if the
+
+entity is not otherwise subject to the federal TILA
+
+ii.
+
+The entity that originated a shared appreciation mortgage loan, and its successors
+
+or assigns shall provide notification of transfer of servicing and transfer of ownership of the loan
+
+to the borrower. Such requirements shall be the same and on the same timing as those found
+
+of 7
+
+under TILA and the Real Estate Settlement Procures Act (RESPA) 12 U.S.C. 2601 et seq. even if
+
+the entity is not otherwise subject to the federal TILA or RESPA.
+
+iii. The entity that originated the shared appreciation mortgage loan, and its successors or
+
+assigns, and the servicer of the shared appreciation mortgage loan shall act in good faith toward a
+
+borrower in the servicing of a shared appreciation mortgage and in any foreclosure action
+
+relating to such an obligation.
+
+(g) Notice before the shared appreciation payment becomes due to the lender
+
+i. Within 5 days of the borrower’s request at any time, and 90 days before the defined
+
+maturity date of a shared appreciation mortgage, the entity that originated a shared appreciation
+
+mortgage loan, and its successors or assigns, shall provide notification to the borrower that
+
+includes:
+
+a. An itemization of the amount of appreciation value that will be due upon the triggering
+of the right of the entity to receive a shared appreciation payment;
+
+b. The date the shared appreciation payment is due; and
+
+c. The manner in which the shared appreciation payment must be paid
+
+ii. 90 days before the defined maturity date of a shared appreciation mortgage, the entity
+
+that originated a shared appreciation mortgage loan, and its successors or assigns, shall send the
+
+borrower via first class and certified mail to the property address a questionnaire asking whether
+
+the borrower wishes to remain in the home after maturity and providing a list of all home
+
+retention options available to the borrower from the entity, if any. If the borrower responds they
+
+want to remain in the home, the mortgage holder shall refer the borrower to a HUD-certified
+of 7
+
+housing counselor, at the mortgage holder’s expense, for assistance in determining what options
+
+are available to remain in the home before any of the shared appreciation amounts can be
+
+disbursed.
+
+(h) Remedies:
+
+i. If any of the provisions of this section are violated, the contract shall be void and the
+
+mortgagor shall be entitled to actual damages and reasonable attorneys fees.
+ii. Any shared appreciation agreement which violates any of the provisions of this section
+
+is declared void, is a per se violation of the Massachusetts chapter 93A, and is grounds for
+
+license revocation.
+
+iii. Section 369 of chapter 128 of the Acts of 2024 is hereby repealed
+
+iv. The Attorney General shall promulgate regulations necessary to carry out this section
+
+and shall be entitled to enforce these regulations, including by recommending to the Division of
+
+Banks that any licensure granted to the entity be revoked and by conducting investigations into
+
+compliance with these regulations.
+
+of 7

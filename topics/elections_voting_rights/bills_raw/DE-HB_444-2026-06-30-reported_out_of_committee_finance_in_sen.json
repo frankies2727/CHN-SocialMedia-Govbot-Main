@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act amends Chapter 1 of Title 15 and adds a Part VII and Chapter 81 to Title 15 of the Delaware Code to establish a “Delaware John Lewis Voting Rights Act,” (“the Act”). \r\nSection 1 of the Act amends Chapter 1 of Title 15 to provide definitions necessary for implementation of the Act. Chapter 1 is also amended to ensure that the purpose of Title 15 includes a stated public policy of equal opportunity to participate in the political process. Section 2 adds a “democracy canon” which instructs those charged with interpreting statutes, rules and regulations and local laws or ordinances related to the elective franchise to construe the election laws in favor of protecting and making accessible the right to vote. \r\nSection 3 of the Act adds a Part VII and Chapter 81 to Title 15 of the Delaware code to establish a “Delaware Voting Rights Act,” (“the Act”).\r\nSubchapter I of Part VII lists the mechanisms to challenge voting discrimination, specifying that election policy and practices approved by the General Assembly can be invalidated if they violate the Delaware Constitution, and stating that election laws or practices of a political subdivision or of officials with authority over elections acting within their discretionary authority may be invalidated if they cause prohibited voter suppression or dilution.\r\nProhibited voter suppression prevents election policies or practices that result in, are likely to result in, or are motivated in whole or in part by the intent to result in: 1) a material disparity in voter participation, access to voting opportunities, or the opportunity or ability to participate in any stage of the political process between protected class members and other members of the electorate; or 2) based on the totality of the circumstances, an impairment of the equal opportunity or ability of protected class members to participate in any stage of the political process. A violation must be attributable to an action of the Department of Elections or a political subdivision. Voter suppression is not present where (i) the election policy or practice is necessary to significantly further an important and particularized governmental interest; and (ii) there is no alternative election policy or practice that results in a smaller disparity between protected class members and other members of the electorate. Voter suppression claims do not require evidence of intentional discrimination.\r\nProhibited vote dilution prevents methods of election that have the effect, will likely have the effect, or are motivated in part by the intent of diluting the vote of protected class members. A violation is established when elections in the political subdivision exhibit racially polarized voting resulting in an impairment of the equal opportunity or ability of protected class members to nominate or elect candidates of their choice; or based on the totality of the circumstances, the equal opportunity, or ability of protected class members to nominate or elect candidates of their choice is impaired. To establish the violation, it must be shown that another method of election or changes to the existing method of election could constitutionally be adopted or ordered and would likely mitigate the impairment.\r\nSubchapter I also includes guidelines regarding voter suppression and voter dilution determinations under the Act. It outlines that legal standing will be conferred broadly under the Act, and individuals, organizations, or the Attorney General can bring actions to enforce the prohibitions in a court of competent jurisdiction. Plaintiffs are required in most circumstances to give defendants pre-suit notice under the Act, and defendants may prevent litigation by working with the potential plaintiff to implement a remedy to the alleged violation. Subchapter I also establishes a standard for evaluating a claim where a party seeks preliminary relief. The Subchapter also includes remedies that a court of competent jurisdictionis authorized to provide upon a finding of illegal voter suppression or dilution and allows attorneys’ fees for prevailing plaintiff parties in judicial actions and recovery of costs for those who submit a pre-suit notice letter when jurisdictions voluntarily enact changes after receiving said notice letter up to a $ 60,000 cap, adjusted for inflation. When an entity plans to voluntarily adopt a new election policy or practice after the filing of a lawsuit, the entity shall hold at least one public hearing at which members of the public may provide input regarding such draft or proposal. After the adoption of any remedy, the entity must hold at least one public education event during which they explain all changes to elections resulting from the remedy.\r\nSubchapter II of the Act requires the Department of Elections (“DOE”) to designate 1 or more languages, other than English, for which assistance will be available in elections for local offices if DOE finds that a significant and substantial need exists for such assistance. A finding of significant and substantial need is mandated when more than 2%, but in no instances fewer than 100, of the citizens of voting age of such jurisdiction speak a particular shared language other than English and are limited English proficient individuals or more than 1,000 of the citizens of voting age of such jurisdiction speak a particular shared language other than English and are limited English proficient individuals. DOE shall distribute to affected jurisdictions and publish annually on its website a list of each local office in which language assistance shall be provided and the languages that assistance will be provided in. The Subchapter requires affected local offices to provide this assistance and outlines the materials that are subject to language assistance. The Subchapter also requires DOE to establish a process, which shall include public comment, whereby electors and impacted organizations may petition DOE to decide that there is significant and substantial need for language assistance in a local office that DOE has not previously determined to have such significant and substantial need. The Subchapter also makes clear that limited English proficient individuals may receive assistance from a person of the voter’s choice when voting equivalent to the allowance given to voters with blindness, disability, or illiteracy. The Subchapter also indicates that individuals, organizations, or the Attorney General may bring an action in a court of competent jurisdiction to enforce the Subchapter, and that attorneys’ fees shall be made available to prevailing plaintiff parties.\r\nSubchapter III of the Act prevents intimidation, deception, or obstruction of the right to vote. Under the Subchapter, a person, whether acting under color of state law or otherwise, shall not engage in acts of intimidation, deception or obstruction that interfere with any elector’s right to vote and provides guidance regarding activity that would be considered intimidation, deception, or obstruction of the right to vote. Individuals, organizations, or the Attorney General may bring an action to enforce the prohibitions in a court of competent jurisdiction, and upon finding a violation, the court shall implement appropriate remedies that are tailored to remedy the violation. Damages available to a prevailing plaintiff party upon a finding of a violation include nominal damages for any violation and compensatory or punitive damages for any intentional violation. Attorney’s fees shall also be available for prevailing plaintiff parties. \r\nSection 4 of the bill declares that the Act is severable.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 444",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 15 OF THE DELAWARE CODE RELATING TO THE DELAWARE JOHN LEWIS VOTING RIGHTS ACT."
+  },
+  "id": "HB 444",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported Out of Committee (Finance) in Senate with 4 On Its Merits",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-30",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Finance"
+        }
+      ],
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143415"
+        }
+      ]
+    },
+    "bill_id": "HB 444"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB444/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB444/logs/20260630T000000Z_reported_out_of_committee_finance_in_senate_with_4_on_its_merits.json"
+  },
+  "timestamp": "20260630T000000Z"
+}

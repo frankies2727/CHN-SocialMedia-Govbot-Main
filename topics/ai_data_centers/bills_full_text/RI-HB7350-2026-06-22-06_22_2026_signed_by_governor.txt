@@ -1,0 +1,182 @@
+-- H 7350 SUBSTITUTE A AS AMENDED
+========
+========
+
+STATE
+
+OF
+
+RHODE
+
+ISLAND
+
+IN GENERAL ASSEMBLY
+JANUARY SESSION, A.D. 2026
+____________
+AN ACT
+RELATING TO COMMERCIAL LAW--GENERAL REGULATORY PROVISIONS -ARTIFICIAL INTELLIGENCE COMPANION MODELS
+
+Introduced By: Representatives Spears, Carson, Messier, Speakman, Shanley, McEntee,
+Baginski, Kazarian, Cotter, and Donovan
+Date Introduced: January 28, 2026
+Referred To: House Innovation, Internet, & Technology
+
+It is enacted by the General Assembly as follows:
+
+SECTION 1. Title 6 of the General Laws entitled "COMMERCIAL LAW — GENERAL
+REGULATORY PROVISIONS" is hereby amended by adding thereto the following chapter:
+
+CHAPTER 63
+
+ARTIFICIAL INTELLIGENCE COMPANION MODELS
+
+6-63-1. Definitions.
+
+As used in this chapter:
+
+(1)(i) "AI companion" means a system using artificial intelligence, generative artificial
+
+intelligence, and/or emotional recognition algorithms to simulate a sustained human or human-like
+
+relationship with a user by:
+
+(A) Retaining information on prior interactions or user sessions and user preferences to
+personalize the interaction and facilitate ongoing engagement with the AI companion;
+(B) Asking unprompted or unsolicited emotion-based questions that go beyond a direct
+response to a user prompt; and
+
+(C) Sustaining an ongoing dialogue concerning matters personal to the user.
+
+(ii)"AI companion" shall not include:
+
+(A) Any system used by a business entity solely for customer service or to strictly provide
+
+users with information about available commercial services or products provided by such entity,
+
+customer service account information, or other information strictly related to its customer service;
+
+(B) Any system that is primarily designed and marketed for providing efficiency
+improvements or research or technical assistance; or
+(C) Any system used by a business entity solely for internal purposes or employee
+productivity.
+
+(2) "AI model" means a component of an information system that implements artificial
+
+intelligence technology and uses computational, statistical, or machine-learning techniques to
+
+produce outputs from a given set of inputs.
+
+(3) "Artificial intelligence", "artificial intelligence technology", or "AI" means a machine-
+
+based system that can, for a given set of human-defined objectives, make predictions,
+
+recommendations, or decisions influencing real or virtual environments.
+
+(4) "Emotional recognition algorithms" means artificial intelligence that detects and
+
+interprets human emotional signals in text (using natural language processing and sentiment
+
+analysis), audio (using voice emotion AI), video (using facial movement analysis, gait analysis, or
+
+physiological signals), or a combination thereof.
+
+(5) "Generative artificial intelligence" means a class of AI models that are self-supervised
+
+and emulate the structure and characteristics of input data to generate derived synthetic content
+
+including, but not limited to, images, videos, audio, text, and other digital content.
+
+(6) "Operator" means any person, partnership, association, firm, or business entity, or any
+
+member, affiliate, subsidiary or beneficial owner of any partnership, association, firm, or business
+
+entity who operates or provides an AI companion.
+
+(7) "Person" means any natural person.
+
+(8) "User" means any person who uses an AI companion within the state and who is not an
+
+operator or agent or affiliate of the operator of the AI companion.
+
+6-63-2. Prohibitions and requirements.
+
+(a) It shall be unlawful for any operator to operate or provide an AI companion to a user
+
+unless such AI companion contains a protocol for addressing:
+
+(1) Possible suicidal ideation or self-harm expressed by a user to the AI companion;
+
+(2) Possible physical harm to others expressed by a user to the AI companion; and
+
+(3) When any of those expressions are made, a notification shall be provided to the user
+
+that refers them to crisis service providers such as a suicide hotline, crisis text line, or other
+
+appropriate crisis services as soon as any of those expressions are detected.
+
+(b) Beginning July 1, 2027, operators shall file annual reports with the office of the attorney
+
+general which shall include the number of safety protocol activations and related metrics. The office
+
+of the attorney general shall publish aggregated data on its website.
+
+LC004590/SUB A - Page 2 of 4
+
+6-63-3. Notifications required.
+
+An operator shall provide a clear and conspicuous notification to a user at the beginning of
+
+any AI companion interaction and at least every three (3) hours for continuing AI companion
+
+interactions hereafter, which states either verbally or in writing that the user is not communicating
+
+with a human.
+
+6-63-4. Enforcement.
+
+(a) The attorney general shall be empowered to enforce this chapter, including the power
+
+to investigate, sue, and seek injunctions against noncompliant AI companion operators for
+
+violations of this chapter.
+
+(b) Violations of this chapter may result in civil penalties up to fifteen thousand dollars
+($15,000) per day, with fines directed to suicide prevention programs.
+
+6-63-5. Severability.
+
+If any provision of this chapter is declared unconstitutional or invalid, or the application of
+
+any provision of this chapter to any person or circumstance is held invalid, the constitutionality of
+
+the remainder of the chapter and its applicability to other persons and circumstances shall not be
+
+affected thereby.
+
+SECTION 2. This act shall take effect on January 1, 2027.
+========
+========
+
+LC004590/SUB A - Page 3 of 4
+
+EXPLANATION
+BY THE LEGISLATIVE COUNCIL
+OF
+AN ACT
+RELATING TO COMMERCIAL LAW--GENERAL REGULATORY PROVISIONS -ARTIFICIAL INTELLIGENCE COMPANION MODELS
+
+***
+
+This act would create additional safety features for artificial intelligence (AI) companion
+
+technology including provisions addressing suicidal ideation, potential physical harm or financial
+
+harm to others expressed by a user. The act also requires notification that the AI companion does
+
+not have human emotions.
+
+This act would take effect on January 1, 2027.
+========
+========
+
+LC004590/SUB A - Page 4 of 4

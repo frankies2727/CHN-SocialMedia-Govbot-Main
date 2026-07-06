@@ -1,0 +1,49 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Mr. Mark, a petition (accompanied by bill, Senate, No. 2861) (subject to Joint Rule 12) of Paul W. Mark and Lindsay N. Sabadosa for legislation to create a special commission to examine school bus safety.  Public Safety and Homeland Security.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S2861",
+    "legislative_session": "194th",
+    "title": "An Act creating a special commission to examine school bus safety"
+  },
+  "id": "S2861",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage-favorable",
+        "referral-committee"
+      ],
+      "description": "Committee recommended ought to pass and referred to the committee on Senate Ways and Means",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-01",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "the committee on Senate Ways and Means"
+        },
+        {
+          "entity_type": "organization",
+          "name": "committee on Senate Ways and Means"
+        }
+      ],
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/S2861"
+        }
+      ]
+    },
+    "bill_id": "S2861"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/S2861/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/S2861/logs/20260701T000000Z_committee_recommended_ought_to_pass_and_referred_to_the_committee_on_senate_ways_and_means.json"
+  },
+  "timestamp": "20260701T000000Z"
+}
