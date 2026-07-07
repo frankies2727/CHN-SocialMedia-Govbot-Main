@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "The Planning and Zoning Law authorizes the legislative body of any county or city to adopt ordinances that, among other things, regulate the use of buildings, structures, and land as between industry, businesses, residences, and open space, as specified.\n\nThis bill would prohibit a city, county, or city and county from approving a discretionary or ministerial permit or other entitlement that would result in the construction, or an expansion that increases the maximum peak water use, of a data center unless specified conditions are satisfied, including, among others, that the applicant provides the city, county, or city and a county prescribed information. The bill would include in this prescribed information a water scarcity plan, a water supply assessment, and a water use assessment, each as provided. The bill would also include in the specified conditions that the applicant assumes responsibility for the full cost of any required water conveyance, treatment or storage, or distribution infrastructure improvements necessary to serve the project, as determined by the Department of Water Resources or the applicable water supplier. By expanding the duties of local agencies to administer these provisions, this bill would impose a state-mandated local program.\n\nExisting law requires the Department of Water Resources to recommend, and the State Water Resources Control Board to adopt, as prescribed, performance measures for water used by commercial, industrial, institutional, and large landscape water users (CII water use) . Existing law requires each urban retail water supplier, as defined, to implement the performance measures adopted by the board under these provisions.\n\nThis bill would require the department to develop a definition and estimate of annual water consumption, no later than June 30, 2028, for CII water users that qualify as large consumptive-use facilities, including data centers and similar water consumption patterns, as provided.\n\nThe bill would include findings that changes proposed by this bill address a matter of statewide concern rather than a municipal affair and, therefore, apply to all cities, including charter cities.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2469",
+    "legislative_session": "20252026",
+    "subject": [
+      "Datacenters",
+      "waterusedisclosures"
+    ],
+    "title": "Data centers: water use disclosures."
+  },
+  "id": "AB2469",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-introduction",
+        "amendment-passage",
+        "committee-passage",
+        "referral-committee"
+      ],
+      "description": "From committee: Amend, and do pass as amended and re-refer to Com. on APPR. (Ayes 5. Noes 2.) (July 1).",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-02",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2469"
+        }
+      ]
+    },
+    "bill_id": "AB2469"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2469/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2469/logs/20260702T000000Z_from_committee_amend_and_do_pass_as_amended_and_rerefer_to_com_on_appr_ayes_5_noes_2_july_1.json"
+  },
+  "timestamp": "20260702T000000Z"
+}
