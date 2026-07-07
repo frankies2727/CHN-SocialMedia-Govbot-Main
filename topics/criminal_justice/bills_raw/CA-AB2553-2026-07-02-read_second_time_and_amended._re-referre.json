@@ -1,0 +1,51 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law generally authorizes the court to suspend a criminal sentence and make and enforce terms of probation for a period not to exceed 2 years, and in misdemeanor cases, for a period not to exceed one year. Existing law imposes various penalties for theft- or fraud-related crimes, including, among others, the abuse or neglect of an elder or dependent adult, mortgage fraud, or identity theft.\n\nThis bill would authorize the court, upon a conviction of certain felony offenses related to, among other things, the purchase or sale of real property or the recording or attempted recording of a real estate instrument, if the court grants the defendant probation, to impose up to a one-year extension to the probationary term. The bill would create a process for the court to impose the one-year extension if the defendant is on formal probation by requiring the probation department to file a petition to the court to extend the probationary period and requiring the court to make a finding that additional time is necessary for programming. By increasing the period of probation, and increasing the duties on local officials, this bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2553",
+    "legislative_session": "20252026",
+    "subject": [
+      "Realestatecrimes",
+      "probation"
+    ],
+    "title": "Real estate crimes: probation."
+  },
+  "id": "AB2553",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "reading-1",
+        "reading-2",
+        "referral-committee"
+      ],
+      "description": "Read second time and amended. Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-02",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2553"
+        }
+      ]
+    },
+    "bill_id": "AB2553"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2553/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2553/logs/20260702T000000Z_read_second_time_and_amended_rereferred_to_com_on_appr.json"
+  },
+  "timestamp": "20260702T000000Z"
+}
