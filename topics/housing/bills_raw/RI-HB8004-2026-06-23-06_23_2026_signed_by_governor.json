@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Provides technical amendments relating to comprehensive planning and land use, subdivision of land, zoning ordinances and low- and moderate-income housing.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB8004",
+    "legislative_session": "2026",
+    "title": "AN ACT RELATING TO COURTS AND CIVIL PROCEDURE--COURTS -- SUPERIOR COURT"
+  },
+  "id": "HB8004",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "06/23/2026 Signed by Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-06-23",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://status.rilegislature.gov/"
+        }
+      ]
+    },
+    "bill_id": "HB8004"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2026/bills/HB8004/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2026/bills/HB8004/logs/20260623T000000Z_06232026_signed_by_governor.json"
+  },
+  "timestamp": "20260623T000000Z"
+}

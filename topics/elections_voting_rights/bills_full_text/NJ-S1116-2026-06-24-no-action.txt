@@ -1,0 +1,889 @@
+SENATE, No. 1116
+
+STATE OF NEW JERSEY
+222nd LEGISLATURE
+PRE-FILED FOR INTRODUCTION IN THE 2026 SESSION
+
+Sponsored by:
+Senator KRISTIN M. CORRADO
+District 40 (Bergen, Essex and Passaic)
+Senator JAMES BEACH
+District 6 (Burlington and Camden)
+Co-Sponsored by:
+Senators Diegnan, Schepisi, Johnson, McKnight and Amato
+
+SYNOPSIS
+Exempts poll workers wages from affecting unemployment compensation.
+CURRENT VERSION OF TEXT
+Introduced Pending Technical Review by Legislative Counsel.
+
+(Sponsorship Updated As Of: 5/11/2026)
+
+AN ACT concerning unemployment benefits and amending
+R.S.43:21-19.
+BE IT ENACTED by the Senate and General Assembly of the State
+of New Jersey:
+1. R.S.43:21-19 is amended to read as follows:
+43:21-19. Definitions. As used in this chapter (R.S.43:21-1 et
+seq.), unless the context clearly requires otherwise:
+(a) (1) "Annual payroll" means the total amount of wages paid
+during a calendar year (regardless of when earned) by an employer
+for employment.
+(2) "Average annual payroll" means the average of the annual
+payrolls of any employer for the last three or five preceding
+calendar years, whichever average is higher, except that any year or
+years throughout which an employer has had no "annual payroll"
+because of military service shall be deleted from the reckoning; the
+"average annual payroll" in such case is to be determined on the
+basis of the prior three or five calendar years in each of which the
+employer had an "annual payroll" in the operation of his business, if
+the employer resumes his business within 12 months after
+separation, discharge or release from such service, under conditions
+other than dishonorable, and makes application to have his "average
+annual payroll" determined on the basis of such deletion within 12
+months after he resumes his business; provided, however, that
+"average annual payroll" solely for the purposes of paragraph (3) of
+subsection (e) of R.S.43:21-7 means the average of the annual
+payrolls of any employer on which he paid contributions to the
+State disability benefits fund for the last three or five preceding
+calendar years, whichever average is higher; provided further that
+only those wages be included on which employer contributions have
+been paid on or before January 31 (or the next succeeding day if
+such January 31 is a Saturday or Sunday) immediately preceding
+the beginning of the 12-month period for which the employer's
+contribution rate is computed.
+(b) "Benefits" means the money payments payable to an
+individual, as provided in this chapter (R.S.43:21-1 et seq.), with
+respect to his unemployment.
+(c) (1) "Base year" with respect to benefit years commencing on
+or after July 1, 1986, shall mean the first four of the last five
+completed calendar quarters immediately preceding an individual's
+benefit year.
+With respect to a benefit year commencing on or after July 1,
+1995, if an individual does not have sufficient qualifying weeks or
+wages in his base year to qualify for benefits, the individual shall
+EXPLANATION – Matter enclosed in bold-faced brackets [thus] in the above bill is
+not enacted and is intended to be omitted in the law.
+Matter underlined thus is new matter.
+
+have the option of designating that his base year shall be the
+"alternative base year," which means the last four completed
+calendar quarters immediately preceding the individual's benefit
+year; except that, with respect to a benefit year commencing on or
+after October 1, 1995, if the individual also does not have sufficient
+qualifying weeks or wages in the last four completed calendar
+quarters immediately preceding his benefit year to qualify for
+benefits, "alternative base year" means the last three completed
+calendar quarters immediately preceding his benefit year and, of the
+calendar quarter in which the benefit year commences, the portion
+of the quarter which occurs before the commencing of the benefit
+year.
+The division shall inform the individual of his options under this
+section as amended by P.L.1995, c.234. If information regarding
+weeks and wages for the calendar quarter or quarters immediately
+preceding the benefit year is not available to the division from the
+regular quarterly reports of wage information and the division is not
+able to obtain the information using other means pursuant to State
+or federal law, the division may base the determination of eligibility
+for benefits on the affidavit of an individual with respect to weeks
+and wages for that calendar quarter. The individual shall furnish
+payroll documentation, if available, in support of the affidavit. A
+determination of benefits based on an alternative base year shall be
+adjusted when the quarterly report of wage information from the
+employer is received if that information causes a change in the
+determination.
+(2) With respect to a benefit year commencing on or after June
+1, 1990 for an individual who immediately preceding the benefit
+year was subject to a disability compensable under the provisions of
+the "Temporary Disability Benefits Law," P.L.1948, c.110
+(C.43:21-25 et seq.), "base year" shall mean the first four of the last
+five completed calendar quarters immediately preceding the
+individual's period of disability, if the employment held by the
+individual immediately preceding the period of disability is no
+longer available at the conclusion of that period and the individual
+files a valid claim for unemployment benefits after the conclusion
+of that period. For the purposes of this paragraph, "period of
+disability" means the period defined as a period of disability by
+section 3 of the "Temporary Disability Benefits Law," P.L.1948,
+c.110 (C.43:21-27). An individual who files a claim under the
+provisions of this paragraph (2) shall not be regarded as having left
+work voluntarily for the purposes of subsection (a) of R.S.43:21-5.
+(3) With respect to a benefit year commencing on or after June
+1, 1990 for an individual who immediately preceding the benefit
+year was subject to a disability compensable under the provisions of
+the workers' compensation law (chapter 15 of Title 34 of the
+Revised Statutes), "base year" shall mean the first four of the last
+five completed calendar quarters immediately preceding the
+
+individual's period of disability, if the period of disability was not
+longer than two years, if the employment held by the individual
+immediately preceding the period of disability is no longer
+available at the conclusion of that period and if the individual files a
+valid claim for unemployment benefits after the conclusion of that
+period. For the purposes of this paragraph, "period of disability"
+means the period from the time at which the individual becomes
+unable to work because of the compensable disability until the time
+that the individual becomes able to resume work and continue work
+on a permanent basis. An individual who files a claim under the
+provisions of this paragraph (3) shall not be regarded as having left
+work voluntarily for the purposes of subsection (a) of R.S.43:21-5.
+(d) "Benefit year" with respect to any individual means the 364
+consecutive calendar days beginning with the day on, or as of,
+which he first files a valid claim for benefits, and thereafter
+beginning with the day on, or as of, which the individual next files a
+valid claim for benefits after the termination of his last preceding
+benefit year. Any claim for benefits made in accordance with
+subsection (a) of R.S.43:21-6 shall be deemed to be a "valid claim"
+for the purpose of this subsection if (1) he is unemployed for the
+week in which, or as of which, he files a claim for benefits; and (2)
+he has fulfilled the conditions imposed by subsection (e) of
+R.S.43:21-4.
+(e) (1) "Division" means the Division of Unemployment and
+Temporary Disability Insurance of the Department of Labor and
+Workforce Development, and any transaction or exercise of
+authority by the director of the division thereunder, or under this
+chapter (R.S.43:21-1 et seq.), shall be deemed to be performed by
+the division.
+(2) "Controller" means the Office of the Assistant Commissioner
+for Finance and Controller of the Department of Labor and
+Workforce Development, established by the 1982 Reorganization
+Plan of the Department of Labor.
+(f) "Contributions" means the money payments to the State
+Unemployment Compensation Fund, required by R.S.43:21-7.
+"Payments in lieu of contributions" means the money payments to
+the State Unemployment Compensation Fund by employers electing
+or required to make payments in lieu of contributions, as provided
+in section 3 or section 4 of P.L.1971, c.346 (C.43:21-7.2 or 43:217.3).
+(g) "Employing unit" means the State or any of its
+instrumentalities or any political subdivision thereof or any of its
+instrumentalities or any instrumentality of more than one of the
+foregoing or any instrumentality of any of the foregoing and one or
+more other states or political subdivisions or any individual or type
+of organization, any partnership, association, trust, estate, jointstock company, insurance company or corporation, whether
+domestic or foreign, or the receiver, trustee in bankruptcy, trustee or
+
+successor thereof, or the legal representative of a deceased person,
+which has or subsequent to January 1, 1936, had in its employ one
+or more individuals performing services for it within this State. All
+individuals performing services within this State for any employing
+unit which maintains two or more separate establishments within
+this State shall be deemed to be employed by a single employing
+unit for all the purposes of this chapter (R.S.43:21-1 et seq.). Each
+individual employed to perform or to assist in performing the work
+of any agent or employee of an employing unit shall be deemed to
+be employed by such employing unit for all the purposes of this
+chapter (R.S.43:21-1 et seq.), whether such individual was hired or
+paid directly by such employing unit or by such agent or employee;
+provided the employing unit had actual or constructive knowledge
+of the work.
+(h) "Employer" means:
+(1) Any employing unit which in either the current or the
+preceding calendar year paid remuneration for employment in the
+amount of $1,000.00 or more;
+(2) Any employing unit (whether or not an employing unit at the
+time of acquisition) which acquired the organization, trade or
+business, or substantially all the assets thereof, of another which, at
+the time of such acquisition, was an employer subject to this chapter
+(R.S.43:21-1 et seq.);
+(3) Any employing unit which acquired the organization, trade
+or business, or substantially all the assets thereof, of another
+employing unit and which, if treated as a single unit with such other
+employing unit, would be an employer under paragraph (1) of this
+subsection;
+(4) Any employing unit which together with one or more other
+employing units is owned or controlled (by legally enforceable
+means or otherwise), directly or indirectly by the same interests, or
+which owns or controls one or more other employing units (by
+legally enforceable means or otherwise), and which, if treated as a
+single unit with such other employing unit or interest, would be an
+employer under paragraph (1) of this subsection;
+(5) Any employing unit for which service in employment as
+defined in R.S.43:21-19 (i) (1) (B) (i) is performed after December
+31, 1971; and as defined in R.S.43:21-19 (i) (1) (B) (ii) is
+performed after December 31, 1977;
+(6) Any employing unit for which service in employment as
+defined in R.S.43:21-19 (i) (1) [(c)] (C) is performed after
+December 31, 1971 and which in either the current or the preceding
+calendar year paid remuneration for employment in the amount of
+$1,000.00 or more;
+(7) Any employing unit not an employer by reason of any other
+paragraph of this subsection (h) for which, within either the current
+or preceding calendar year, service is or was performed with respect
+to which such employing unit is liable for any federal tax against
+
+which credit may be taken for contributions required to be paid into
+a state unemployment fund; or which, as a condition for approval of
+the "unemployment compensation law" for full tax credit against
+the tax imposed by the Federal Unemployment Tax Act, is required
+pursuant to such act to be an employer under this chapter
+(R.S.43:21-1 et seq.);
+(8) (Deleted by amendment, P.L.1977, c.307.)
+(9) (Deleted by amendment, P.L.1977, c.307.)
+(10) (Deleted by amendment, P.L.1977, c.307.)
+(11) Any employing unit subject to the provisions of the Federal
+Unemployment Tax Act within either the current or the preceding
+calendar year, except for employment hereinafter excluded under
+paragraph (7) of subsection (i) of this section;
+(12) Any employing unit for which agricultural labor in
+employment as defined in R.S.43:21-19 (i) (1) (I) is performed after
+December 31, 1977;
+(13) Any employing unit for which domestic service in
+employment as defined in R.S.43:21-19 (i) (1) (J) is performed after
+December 31, 1977;
+(14) Any employing unit which having become an employer
+under the "unemployment compensation law" (R.S.43:21-1 et seq.),
+has not under R.S.43:21-8 ceased to be an employer; or for the
+effective period of its election pursuant to R.S.43:21-8, any other
+employing unit which has elected to become fully subject to this
+chapter (R.S.43:21-1 et seq.).
+(i) (1) "Employment" means:
+(A) Any service performed prior to January 1, 1972, which was
+employment as defined in the "unemployment compensation law"
+(R.S.43:21-1 et seq.) prior to such date, and, subject to the other
+provisions of this subsection, service performed on or after January
+1, 1972, including service in interstate commerce, performed for
+remuneration or under any contract of hire, written or oral, express
+or implied.
+(B) (i) Service performed after December 31, 1971 by an
+individual in the employ of this State or any of its instrumentalities
+or in the employ of this State and one or more other states or their
+instrumentalities for a hospital or institution of higher education
+located in this State, if such service is not excluded from
+"employment" under paragraph (D) below.
+(ii) Service performed after December 31, 1977, in the employ of
+this State or any of its instrumentalities or any political subdivision
+thereof or any of its instrumentalities or any instrumentality of more
+than one of the foregoing or any instrumentality of the foregoing
+and one or more other states or political subdivisions, if such
+service is not excluded from "employment" under paragraph (D)
+below.
+(C) Service performed after December 31, 1971 by an individual
+in the employ of a religious, charitable, educational, or other
+
+organization, which is excluded from "employment" as defined in
+the Federal Unemployment Tax Act, solely by reason of section
+(c)(8) of that act, if such service is not excluded from
+"employment" under paragraph (D) below.
+(D) For the purposes of paragraphs (B) and (C), the term
+"employment" does not apply to services performed
+(i) In the employ of (I) a church or convention or association of
+churches, or (II) an organization, or school which is operated
+primarily for religious purposes and which is operated, supervised,
+controlled or principally supported by a church or convention or
+association of churches;
+(ii) By a duly ordained, commissioned, or licensed minister of a
+church in the exercise of his ministry or by a member of a religious
+order in the exercise of duties required by such order;
+(iii) Prior to January 1, 1978, in the employ of a school which is
+not an institution of higher education, and after December 31, 1977,
+in the employ of a governmental entity referred to in R.S.43:21-19
+(i) (1) (B), if such service is performed by an individual in the
+exercise of duties
+(aa) as an elected official;
+(bb) as a member of a legislative body, or a member of the
+judiciary, of a state or political subdivision;
+(cc) as a member of the State National Guard or Air National
+Guard;
+(dd) as an employee serving on a temporary basis in case of fire,
+storm, snow, earthquake, flood or similar emergency;
+(ee) in a position which, under or pursuant to the laws of this
+State, is designated as a major nontenured policy making or
+advisory position, or a policy making or advisory position, the
+performance of the duties of which ordinarily does not require more
+than eight hours per week; [or]
+(ff) as a temporary board worker hired by a district board of
+elections to discharge election duties, which may include processing
+mail-in ballots, and who receives compensation for the discharge of
+election duties on an election day as provided in R.S.19:45-6, or for
+work pursuant to subsection d. of section 1 of P.L.2021, c.40
+(C.19:15A-1) during the early voting period, or for work during the
+period allowed for processing mail-in ballots pursuant to section 22
+of P.L.2009, c.79 (C.19:63-22); or
+(iv) By an individual receiving rehabilitation or remunerative
+work in a facility conducted for the purpose of carrying out a
+program of rehabilitation of individuals whose earning capacity is
+impaired by age or physical or mental deficiency or injury or
+providing remunerative work for individuals who because of their
+impaired physical or mental capacity cannot be readily absorbed in
+the competitive labor market;
+(v) By an individual receiving work-relief or work-training as
+part of an unemployment work-relief or work-training program
+
+assisted in whole or in part by any federal agency or an agency of a
+state or political subdivision thereof; or
+(vi) Prior to January 1, 1978, for a hospital in a State prison or
+other State correctional institution by an inmate of the prison or
+correctional institution and after December 31, 1977, by an inmate
+of a custodial or penal institution.
+(E) The term "employment" shall include the services of an
+individual who is a citizen of the United States, performed outside
+the United States after December 31, 1971 (except in Canada and in
+the case of the Virgin Islands, after December 31, 1971) and prior
+to January 1 of the year following the year in which the U.S.
+Secretary of Labor approves the unemployment compensation law
+of the Virgin Islands, under section 3304 (a) of the Internal
+Revenue Code of 1986 (26 U.S.C. s.3304 (a)) in the employ of an
+American employer (other than the service which is deemed
+employment under the provisions of R.S.43:21-19 (i) (2) or (5) or
+the parallel provisions of another state's unemployment
+compensation law), if
+(i) The American employer's principal place of business in the
+United States is located in this State; or
+(ii) The American employer has no place of business in the
+United States, but (I) the American employer is an individual who
+is a resident of this State; or (II) the American employer is a
+corporation which is organized under the laws of this State; or (III)
+the American employer is a partnership or trust and the number of
+partners or trustees who are residents of this State is greater than the
+number who are residents of another state; or
+(iii) None of the criteria of divisions (i) and (ii) of this
+subparagraph (E) is met but the American employer has elected to
+become an employer subject to the "unemployment compensation
+law" (R.S.43:21-1 et seq.) in this State, or the American employer
+having failed to elect to become an employer in any state, the
+individual has filed a claim for benefits, based on such service,
+under the law of this State;
+(iv)
+An "American employer," for the purposes of this
+subparagraph (E), means (I) an individual who is a resident of the
+United States; or (II) a partnership, if two-thirds or more of the
+partners are residents of the United States; or (III) a trust, if all the
+trustees are residents of the United States; or (IV) a corporation
+organized under the laws of the United States or of any state.
+(F) Notwithstanding R.S.43:21-19 (i) (2), all service performed
+after January 1, 1972 by an officer or member of the crew of an
+American vessel or American aircraft on or in connection with such
+vessel or aircraft, if the operating office from which the operations
+of such vessel or aircraft operating within, or within and without,
+the United States are ordinarily and regularly supervised, managed,
+directed, and controlled, is within this State.
+
+(G) Notwithstanding any other provision of this subsection,
+service in this State with respect to which the taxes required to be
+paid under any federal law imposing a tax against which credit may
+be taken for contributions required to be paid into a state
+unemployment fund or which as a condition for full tax credit
+against the tax imposed by the Federal Unemployment Tax Act is
+required to be covered under the "unemployment compensation
+law" (R.S.43:21-1 et seq.).
+(H) The term "United States" when used in a geographical sense
+in subsection R.S.43:21-19 (i) includes the states, the District of
+Columbia, the Commonwealth of Puerto Rico and, effective on the
+day after the day on which the U.S. Secretary of Labor approves for
+the first time under section 3304 (a) of the Internal Revenue Code
+of 1986 (26 U.S.C. s.3304 (a)) an unemployment compensation law
+submitted to the Secretary by the Virgin Islands for such approval,
+the Virgin Islands.
+(I)
+(i)
+Service performed after December 31, 1977 in
+agricultural labor in a calendar year for an entity which is an
+employer as defined in the "unemployment compensation law,"
+(R.S.43:21-1 et seq.) as of January 1 of such year; or for an
+employing unit which
+(aa) during any calendar quarter in either the current or the
+preceding calendar year paid remuneration in cash of $20,000.00 or
+more for individuals employed in agricultural labor, or
+(bb) for some portion of a day in each of 20 different calendar
+weeks, whether or not such weeks were consecutive, in either the
+current or the preceding calendar year, employed in agricultural
+labor 10 or more individuals, regardless of whether they were
+employed at the same moment in time.
+(ii) for the purposes of this subsection any individual who is a
+member of a crew furnished by a crew leader to perform service in
+agricultural labor for any other entity shall be treated as an
+employee of such crew leader
+(aa) if such crew leader holds a certification of registration
+under the Migrant and Seasonal Agricultural Worker Protection
+Act, Pub.L.97-470 (29 U.S.C. s.1801 et seq.), or P.L.1971, c.192
+(C.34:8A-7 et seq.); or substantially all the members of such crew
+operate or maintain tractors, mechanized harvesting or cropdusting
+equipment, or any other mechanized equipment, which is provided
+by such crew leader; and
+(bb) if such individual is not an employee of such other person
+for whom services were performed.
+(iii) For the purposes of subparagraph (I) (i) in the case of any
+individual who is furnished by a crew leader to perform service in
+agricultural labor or any other entity and who is not treated as an
+employee of such crew leader under (I) (ii)
+(aa) such other entity and not the crew leader shall be treated as
+the employer of such individual; and
+
+(bb) such other entity shall be treated as having paid cash
+remuneration to such individual in an amount equal to the amount
+of cash remuneration paid to such individual by the crew leader
+(either on his own behalf or on behalf of such other entity) for the
+service in agricultural labor performed for such other entity.
+(iv) For the purpose of subparagraph (I)(ii), the term "crew
+leader" means an individual who
+(aa) furnishes individuals to perform service in agricultural
+labor for any other entity;
+(bb) pays (either on his own behalf or on behalf of such other
+entity) the individuals so furnished by him for the service in
+agricultural labor performed by them; and
+(cc) has not entered into a written agreement with such other
+entity under which such individual is designated as an employee of
+such other entity.
+(J) (i) Domestic service after December 31, 1977 and before the
+effective date of P.L.2023, c.262 (C.34:11-69 et al.) performed in
+the private home of an employing unit which paid cash
+remuneration of $1,000.00 or more to one or more individuals for
+such domestic service in any calendar quarter in the current or
+preceding calendar year.
+(ii) Domestic services after the effective date of P.L.2023, c.262
+(C.34:11-69 et al.), performed in the private home of an employing
+unit which in either the current or preceding calendar year paid
+remuneration for employment in the amount of $1,000 or more.
+(2) The term "employment" shall include an individual's entire
+service performed within or both within and without this State if:
+(A) The service is localized in this State; or
+(B) The service is not localized in any state but some of the
+service is performed in this State, and (i) the base of operations, or,
+if there is no base of operations, then the place from which such
+service is directed or controlled, is in this State; or (ii) the base of
+operations or place from which such service is directed or
+controlled is not in any state in which some part of the service is
+performed, but the individual's residence is in this State.
+(3) Services performed within this State but not covered under
+paragraph (2) of this subsection shall be deemed to be employment
+subject to this chapter (R.S.43:21-1 et seq.) if contributions are not
+required and paid with respect to such services under an
+unemployment compensation law of any other state or of the federal
+government.
+(4) Services not covered under paragraph (2) of this subsection
+and performed entirely without this State, with respect to no part of
+which contributions are required and paid under an unemployment
+compensation law of any other state or of the federal government,
+shall be deemed to be employment subject to this chapter
+(R.S.43:21-1 et seq.) if the individual performing such services is a
+resident of this State and the employing unit for whom such
+
+services are performed files with the division an election that the
+entire service of such individual shall be deemed to be employment
+subject to this chapter (R.S.43:21-1 et seq.).
+(5) Service shall be deemed to be localized within a state if:
+(A) The service is performed entirely within such state; or
+(B) The service is performed both within and without such state,
+but the service performed without such state is incidental to the
+individual's service within the state; for example, is temporary or
+transitory in nature or consists of isolated transactions.
+(6) Services performed by an individual for remuneration shall
+be deemed to be employment subject to this chapter (R.S.43:21-1 et
+seq.) unless and until it is shown to the satisfaction of the division
+that:
+(A) Such individual has been and will continue to be free from
+control or direction over the performance of such service, both
+under his contract of service and in fact;
+(B) Such service is either outside the usual course of the
+business for which such service is performed, or that such service is
+performed outside of all the places of business of the enterprise for
+which such service is performed; and
+(C) Such individual is customarily engaged in an independently
+established trade, occupation, profession or business.
+(7) Provided that such services are also exempt under the
+Federal Unemployment Tax Act, as amended, or that contributions
+with respect to such services are not required to be paid into a state
+unemployment fund as a condition for a tax offset credit against the
+tax imposed by the Federal Unemployment Tax Act, as amended,
+the term "employment" shall not include:
+(A) Agricultural labor performed prior to January 1, 1978; and
+after December 31, 1977, only if performed in a calendar year for
+an entity which is not an employer as defined in the "unemployment
+compensation law," (R.S.43:21-1 et seq.) as of January 1 of such
+calendar year; or unless performed for an employing unit which
+(i) during a calendar quarter in either the current or the
+preceding calendar year paid remuneration in cash of $20,000.00 or
+more to individuals employed in agricultural labor, or
+(ii) for some portion of a day in each of 20 different calendar
+weeks, whether or not such weeks were consecutive, in either the
+current or the preceding calendar year, employed in agricultural
+labor 10 or more individuals, regardless of whether they were
+employed at the same moment in time;
+(B) Domestic service in a private home performed prior to
+January 1, 1978; and after December 31, 1977, unless performed in
+the private home of an employing unit which paid cash
+remuneration of $1,000.00 or more to one or more individuals for
+such domestic service in any calendar quarter in the current or
+preceding calendar year;
+
+(C) Service performed by an individual in the employ of his son,
+daughter or spouse, and service performed by a child under the age
+of 18 in the employ of his father or mother;
+(D) Service performed prior to January 1, 1978, in the employ of
+this State or of any political subdivision thereof or of any
+instrumentality of this State or its political subdivisions, except as
+provided in R.S.43:21-19 (i) (1) (B) above, and service in the
+employ of the South Jersey Port Corporation or its successors;
+(E) Service performed in the employ of any other state or its
+political subdivisions or of an instrumentality of any other state or
+states or their political subdivisions to the extent that such
+instrumentality is with respect to such service exempt under the
+Constitution of the United States from the tax imposed under the
+Federal Unemployment Tax Act, as amended, except as provided in
+R.S.43:21-19 (i) (1) (B) above;
+(F) Service performed in the employ of the United States
+Government or of any instrumentality of the United States exempt
+under the Constitution of the United States from the contributions
+imposed by the "unemployment compensation law," except that to
+the extent that the Congress of the United States shall permit states
+to require any instrumentalities of the United States to make
+payments into an unemployment fund under a state unemployment
+compensation law, all of the provisions of this act shall be
+applicable to such instrumentalities, and to service performed for
+such instrumentalities, in the same manner, to the same extent and
+on the same terms as to all other employers, employing units,
+individuals and services; provided that if this State shall not be
+certified for any year by the Secretary of Labor of the United States
+under section 3304 of the federal Internal Revenue Code of 1986
+(26 U.S.C. s.3304), the payments required of such instrumentalities
+with respect to such year shall be refunded by the division from the
+fund in the same manner and within the same period as is provided
+in R.S.43:21-14 (f) with respect to contributions erroneously paid to
+or collected by the division;
+(G) Services performed in the employ of fraternal beneficiary
+societies, orders, or associations operating under the lodge system
+or for the exclusive benefit of the members of a fraternity itself
+operating under the lodge system and providing for the payment of
+life, sick, accident, or other benefits to the members of such society,
+order, or association, or their dependents;
+(H) Services performed as a member of the board of directors, a
+board of trustees, a board of managers, or a committee of any bank,
+building and loan, or savings and loan association, incorporated or
+organized under the laws of this State or of the United States, where
+such services do not constitute the principal employment of the
+individual;
+
+(I) Service with respect to which unemployment insurance is
+payable under an unemployment insurance program established by
+an Act of Congress;
+(J) Service performed by agents of mutual fund brokers or
+dealers in the sale of mutual funds or other securities, by agents of
+insurance companies, exclusive of industrial insurance agents or by
+agents of investment companies, if the compensation to such agents
+for such services is wholly on a commission basis;
+(K) Services performed by real estate salesmen or brokers who
+are compensated wholly on a commission basis;
+(L)
+Services performed in the employ of any veterans'
+organization chartered by Act of Congress or of any auxiliary
+thereof, no part of the net earnings of which organization, or
+auxiliary thereof, inures to the benefit of any private shareholder or
+individual;
+(M) Service performed for or in behalf of the owner or operator
+of any theater, ballroom, amusement hall or other place of
+entertainment, not in excess of 10 weeks in any calendar year for
+the same owner or operator, by any leader or musician of a band or
+orchestra, commonly called a "name band," entertainer, vaudeville
+artist, actor, actress, singer or other entertainer;
+(N) Services performed after January 1, 1973 by an individual
+for a labor union organization, known and recognized as a union
+local, as a member of a committee or committees reimbursed by the
+union local for time lost from regular employment, or as a part-time
+officer of a union local and the remuneration for such services is
+less than $1,000.00 in a calendar year;
+(O)
+Services performed in the sale or distribution of
+merchandise by home-to-home salespersons or in-the-home
+demonstrators whose remuneration consists wholly of commissions
+or commissions and bonuses;
+(P) Service performed in the employ of a foreign government,
+including service as a consular, nondiplomatic representative, or
+other officer or employee;
+(Q) Service performed in the employ of an instrumentality
+wholly owned by a foreign government if (i) the service is of a
+character similar to that performed in foreign countries by
+employees of the United States Government or of an instrumentality
+thereof, and (ii) the division finds that the United States Secretary
+of State has certified to the United States Secretary of the Treasury
+that the foreign government, with respect to whose instrumentality
+exemption is claimed, grants an equivalent exemption with respect
+to similar services performed in the foreign country by employees
+of the United States Government and of instrumentalities thereof;
+(R) Service in the employ of an international organization
+entitled to enjoy the privileges, exemptions and immunities under
+the International Organizations Immunities Act (22 U.S.C. s.288 et
+seq.);
+
+(S) Service covered by an election duly approved by an agency
+charged with the administration of any other state or federal
+unemployment compensation or employment security law, in
+accordance with an arrangement pursuant to R.S.43:21-21 during
+the effective period of such election;
+(T) Service performed in the employ of a school, college, or
+university if such service is performed (i) by a student enrolled at
+such school, college, or university on a full-time basis in an
+educational program or completing such educational program
+leading to a degree at any of the severally recognized levels, or (ii)
+by the spouse of such a student, if such spouse is advised at the time
+such spouse commences to perform such service that (I) the
+employment of such spouse to perform such service is provided
+under a program to provide financial assistance to such student by
+such school, college, or university, and (II) such employment will
+not be covered by any program of unemployment insurance;
+(U) Service performed by an individual who is enrolled at a
+nonprofit or public educational institution which normally
+maintains a regular faculty and curriculum and normally has a
+regularly organized body of students in attendance at the place
+where its educational activities are carried on, as a student in a fulltime program, taken for credit at such institution, which combines
+academic instruction with work experience, if such service is an
+integral part of such program, and such institution has so certified
+to the employer, except that this subparagraph shall not apply to
+service performed in a program established for or on behalf of an
+employer or group of employers;
+(V) Service performed in the employ of a hospital, if such
+service is performed by a patient of the hospital; service performed
+as a student nurse in the employ of a hospital or a nurses' training
+school by an individual who is enrolled and regularly attending
+classes in a nurses' training school approved under the laws of this
+State;
+(W)
+Services performed after the effective date of this
+amendatory act by agents of mutual benefit associations if the
+compensation to such agents for such services is wholly on a
+commission basis;
+(X) Services performed by operators of motor vehicles weighing
+18,000 pounds or more, licensed for commercial use and used for
+the highway movement of motor freight, who own their equipment
+or who lease or finance the purchase of their equipment through an
+entity which is not owned or controlled directly or indirectly by the
+entity for which the services were performed and who were
+compensated by receiving a percentage of the gross revenue
+generated by the transportation move or by a schedule of payment
+based on the distance and weight of the transportation move;
+(Y) (Deleted by amendment, P.L.2009, c.211.)
+
+(Z) Services performed, using facilities provided by a travel
+agent, by a person, commonly known as an outside travel agent,
+who acts as an independent contractor, is paid on a commission
+basis, sets his own work schedule and receives no benefits, sick
+leave, vacation or other leave from the travel agent owning the
+facilities.
+(AA) Services provided by a commercial fisherman whose
+compensation is comprised solely of a percentage of fish caught or
+a percentage of the proceeds from the sale of the catch.
+(8) If one-half or more of the services in any pay period
+performed by an individual for an employing unit constitutes
+employment, all the services of such individual shall be deemed to
+be employment; but if more than one-half of the service in any pay
+period performed by an individual for an employing unit does not
+constitute employment, then none of the service of such individual
+shall be deemed to be employment. As used in this paragraph, the
+term "pay period" means a period of not more than 31 consecutive
+days for which a payment for service is ordinarily made by an
+employing unit to individuals in its employ.
+(9) Services performed by the owner of a limousine franchise
+(franchisee) shall not be deemed to be employment subject to the
+"unemployment compensation law," R.S.43:21-1 et seq., with
+regard to the franchisor if:
+(A) The limousine franchisee is incorporated;
+(B) The franchisee is subject to regulation by the Interstate
+Commerce Commission;
+(C) The limousine franchise exists pursuant to a written
+franchise arrangement between the franchisee and the franchisor as
+defined by section 3 of P.L.1971, c.356 (C.56:10-3); and
+(D) The franchisee registers with the Department of Labor and
+Workforce Development and receives an employer registration
+number.
+(10) Services performed by a legal transcriber, or certified court
+reporter certified pursuant to P.L.1940, c.175 (C.45:15B-1 et seq.),
+shall not be deemed to be employment subject to the
+"unemployment compensation law," R.S.43:21-1 et seq., if those
+services are provided to a third party by the transcriber or reporter
+who is referred to the third party pursuant to an agreement with
+another legal transcriber or legal transcription service, or certified
+court reporter or court reporting service, on a freelance basis,
+compensation for which is based upon a fee per transcript page, flat
+attendance fee, or other flat minimum fee, or combination thereof,
+set forth in the agreement.
+For purposes of this paragraph (10): "legal transcription service"
+and "legal transcribing" mean making use, by audio, video or voice
+recording, of a verbatim record of court proceedings, depositions,
+other judicial proceedings, meetings of boards, agencies,
+corporations, or other bodies or groups, and causing that record to
+
+be printed in readable form or produced on a computer screen in
+readable form; and "legal transcriber" means a person who engages
+in "legal transcribing."
+(j) "Employment office" means a free public employment office,
+or branch thereof operated by this State or maintained as a part of a
+State-controlled system of public employment offices.
+(k) (Deleted by amendment, P.L.1984, c.24.)
+(l) "State" includes, in addition to the states of the United States
+of America, the District of Columbia, the Virgin Islands and Puerto
+Rico.
+(m) "Unemployment."
+(1) An individual shall be deemed "unemployed" for any week
+during which:
+(A) The individual is not engaged in full-time work and with
+respect to which his remuneration is less than his weekly benefit
+rate, including any week during which he is on vacation without
+pay; provided such vacation is not the result of the individual's
+voluntary action, except that for benefit years commencing on or
+after July 1, 1984, an officer of a corporation, or a person who has
+more than a 5% equitable or debt interest in the corporation, whose
+claim for benefits is based on wages with that corporation shall not
+be deemed to be unemployed in any week during the individual's
+term of office or ownership in the corporation; or
+(B) The individual is eligible for and receiving a selfemployment assistance allowance pursuant to the requirements of
+P.L.1995, c.394 (C.43:21-67 et al.).
+(2) The term "remuneration" with respect to any individual for
+benefit years commencing on or after July 1, 1961, and as used in
+this subsection, shall include only that part of the same which in
+any week exceeds 20% of his weekly benefit rate (fractional parts
+of a dollar omitted) or $5.00, whichever is the larger, and shall not
+include any moneys paid to an individual by a county board of
+elections for work as a temporary board worker on an election day
+as provided in R.S.19:45-6, or for work pursuant to subsection d. of
+section 1 of P.L.2021, c.40 (C.19:15A-1) during the early voting
+period, or for work during the period allowed for processing mail-in
+ballots pursuant to section 22 of P.L.2009, c.79 (C.19:63-22).
+(3) An individual's week of unemployment shall be deemed to
+commence only after the individual has filed a claim at an
+unemployment insurance claims office, except as the division may
+by regulation otherwise prescribe.
+(n) "Unemployment compensation administration fund" means
+the unemployment compensation administration fund established by
+this chapter (R.S.43:21-1 et seq.), from which administrative
+expenses under this chapter (R.S.43:21-1 et seq.) shall be paid.
+(o) "Wages" means remuneration paid by employers for
+employment. If a worker receives gratuities regularly in the course
+of his employment from other than his employer, his "wages" shall
+
+also include the gratuities so received, if reported in writing to his
+employer in accordance with regulations of the division, and if not
+so reported, his "wages" shall be determined in accordance with the
+minimum wage rates prescribed under any labor law or regulation
+of this State or of the United States, or the amount of remuneration
+actually received by the employee from his employer, whichever is
+the higher.
+(p) "Remuneration" means all compensation for personal
+services, including commission and bonuses and the cash value of
+all compensation in any medium other than cash.
+(q) "Week" means for benefit years commencing on or after
+October 1, 1984, the calendar week ending at midnight Saturday, or
+as the division may by regulation prescribe.
+(r) "Calendar quarter" means the period of three consecutive
+calendar months ending March 31, June 30, September 30, or
+December 31.
+(s) "Investment company" means any company as defined in
+subsection a. of section 1 of P.L.1938, c.322 (C.17:16A-1).
+(t) (1) (Deleted by amendment, P.L.2001, c.17).
+(2) "Base week," commencing on or after January 1, 1996 and
+before January 1, 2001, means:
+(A) Any calendar week during which the individual earned in
+employment from an employer remuneration not less than an
+amount which is 20% of the Statewide average weekly
+remuneration defined in subsection (c) of R.S.43:21-3 which
+amount shall be adjusted to the next higher multiple of $1.00 if not
+already a multiple thereof, except that if in any calendar week an
+individual subject to this subparagraph (A) is in employment with
+more than one employer, the individual may in that calendar week
+establish a base week with respect to each of the employers from
+whom the individual earns remuneration equal to not less than the
+amount defined in this subparagraph (A) during that week; or
+(B) If the individual does not establish in his base year 20 or
+more base weeks as defined in subparagraph (A) of this paragraph
+(2), any calendar week of an individual's base year during which the
+individual earned in employment from an employer remuneration
+not less than an amount 20 times the minimum wage in effect
+pursuant to section 5 of P.L.1966, c.113 (C.34:11-56a4) on October
+of the calendar year preceding the calendar year in which the
+benefit year commences, which amount shall be adjusted to the next
+higher multiple of $1.00 if not already a multiple thereof, except
+that if in any calendar week an individual subject to this
+subparagraph (B) is in employment with more than one employer,
+the individual may in that calendar week establish a base week with
+respect to each of the employers from whom the individual earns
+remuneration not less than the amount defined in this subparagraph
+(B) during that week.
+
+(3) "Base week," commencing on or after January 1, 2001,
+means any calendar week during which the individual earned in
+employment from an employer remuneration not less than an
+amount 20 times the minimum wage in effect pursuant to section 5
+of P.L.1966, c.113 (C.34:11-56a4) on October 1 of the calendar
+year preceding the calendar year in which the benefit year
+commences, which amount shall be adjusted to the next higher
+multiple of $1.00 if not already a multiple thereof, except that if in
+any calendar week an individual subject to this paragraph (3) is in
+employment with more than one employer, the individual may in
+that calendar week establish a base week with respect to each of the
+employers from whom the individual earns remuneration equal to
+not less than the amount defined in this paragraph (3) during that
+week.
+(u) "Average weekly wage" means the amount derived by
+dividing an individual's total wages received during his base year
+base weeks (as defined in subsection (t) of this section) from that
+most recent base year employer with whom he has established at
+least 20 base weeks, by the number of base weeks in which such
+wages were earned. In the event that such claimant had no
+employer in his base year with whom he had established at least 20
+base weeks, then such individual's average weekly wage shall be
+computed as if all of his base week wages were received from one
+employer and as if all his base weeks of employment had been
+performed in the employ of one employer.
+[For the purpose of computing the average weekly wage, the
+monetary alternative in subparagraph (B) of paragraph (2) of
+subsection (e) of R.S.43:21-4 shall only apply in those instances
+where the individual did not have at least 20 base weeks in the base
+year.] For benefit years commencing on or after July 1, 1986,
+"average weekly wage" means the amount derived by dividing an
+individual's total base year wages by the number of base weeks
+worked by the individual during the base year; provided that for the
+purpose of computing the average weekly wage, the maximum
+number of base weeks used in the divisor shall be 52.
+(v) "Initial determination" means, subject to the provisions of
+R.S.43:21-6(b)(2) and (3), a determination of benefit rights as
+measured by an eligible individual's base year employment with a
+single employer covering all periods of employment with that
+employer during the base year.
+(w) "Last date of employment" means the last calendar day in the
+base year of an individual on which he performed services in
+employment for a given employer.
+(x) "Most recent base year employer" means that employer with
+whom the individual most recently, in point of time, performed
+service in employment in the base year.
+(y) (1) "Educational institution" means any public or other
+nonprofit institution (including an institution of higher education):
+
+(A) In which participants, trainees, or students are offered an
+organized course of study or training designed to transfer to them
+knowledge, skills, information, doctrines, attitudes or abilities from,
+by or under the guidance of an instructor or teacher;
+(B) Which is approved, licensed or issued a permit to operate as
+a school by the State Department of Education or other government
+agency that is authorized within the State to approve, license or
+issue a permit for the operation of a school; and
+(C) Which offers courses of study or training which may be
+academic, technical, trade, or preparation for gainful employment in
+a recognized occupation.
+(2) "Institution of higher education" means an educational
+institution which:
+(A) Admits as regular students only individuals having a
+certificate of graduation from a high school, or the recognized
+equivalent of such a certificate;
+(B) Is legally authorized in this State to provide a program of
+education beyond high school;
+(C) Provides an educational program for which it awards a
+bachelor's or higher degree, or provides a program which is
+acceptable for full credit toward such a degree, a program of postgraduate or post-doctoral studies, or a program of training to
+prepare students for gainful employment in a recognized
+occupation; and
+(D) Is a public or other nonprofit institution.
+Notwithstanding any of the foregoing provisions of this
+subsection, all colleges and universities in this State are institutions
+of higher education for purposes of this section.
+(z) "Hospital" means an institution which has been licensed,
+certified or approved under the law of this State as a hospital.
+(cf: P.L.2023, c.262, s.12)
+2.
+
+This act shall take effect immediately.
+
+STATEMENT
+This bill exempts wages earned as a poll worker from affecting
+an individual’s unemployment compensation. The bill exempts
+services performed as a temporary board worker hired by a district
+board of elections who receives compensation for the discharge of
+election duties from the definition of “employment” in the
+unemployment compensation law.

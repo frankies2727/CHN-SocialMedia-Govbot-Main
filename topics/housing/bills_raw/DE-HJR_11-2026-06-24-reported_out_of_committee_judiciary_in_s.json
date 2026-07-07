@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This House Joint Resolution directs the Judiciary to establish a Working Group to explore the feasibility of establishing a Housing Opportunity and Poverty Elimination (HOPE) Court Program in partnership with State agencies and community organizations and to provide recommendations for statewide implementation.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HJR 11",
+    "legislative_session": "153",
+    "title": "DIRECTING THE JUDICIARY TO ESTABLISH A WORKING GROUP TO EXPLORE THE FEASIBILITY OF ESTABLISHING A HOUSING OPPORTUNITY AND POVERTY ELIMINATION (HOPE) COURT PROGRAM IN PARTNERSHIP WITH STATE AGENCIES AND COMMUNITY ORGANIZATIONS AND TO PROVIDE RECOMMENDATIONS FOR STATEWIDE IMPLEMENTATION."
+  },
+  "id": "HJR 11",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported Out of Committee (Judiciary) in Senate with 4 On Its Merits",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-24",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Judiciary"
+        }
+      ],
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143272"
+        }
+      ]
+    },
+    "bill_id": "HJR 11"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HJR11/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HJR11/logs/20260624T000000Z_reported_out_of_committee_judiciary_in_senate_with_4_on_its_merits.json"
+  },
+  "timestamp": "20260624T000000Z"
+}

@@ -1,0 +1,50 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Proposition 11, which was approved by the voters at the November 4, 2008, statewide general election, establishes the Citizens Redistricting Commission and requires the commission to adjust the boundary lines of State Senate and Assembly districts. Proposition 11 also requires the Legislature to ensure that a complete and accurate computerized database is available for redistricting, and that the public is given access to redistricting data. Existing law requires each county elections official to compile and make available to the Legislature any information and statistics that may be necessary for use in connection with the reapportionment of legislative districts, including precinct maps and election returns for each precinct.\n\nThis bill would provide that the information and data compiled by county elections officials may be provided to any appropriate designee of the Legislature. The bill would require each county elections official to also provide a master street index file that may be used to identify the associated precinct for a given street address in the county. The bill would require the Legislature or an appropriate designee, in conjunction with the Secretary of State, to establish a secure electronic process for county elections officials to submit the information and data. The bill would make the complete, unredacted election returns for each precinct confidential, as provided. By requiring county elections officials to perform additional duties, the bill would impose a state-mandated local program.\n\nExisting constitutional provisions require that a statute that limits the right of access to the meetings of public bodies or the writings of public officials and agencies be adopted with findings demonstrating the interest protected by the limitation and the need for protecting that interest.\n\nThis bill would make legislative findings to that effect.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2785",
+    "legislative_session": "20252026",
+    "subject": [
+      "Elections",
+      "redistrictinginformation"
+    ],
+    "title": "Elections: redistricting information."
+  },
+  "id": "AB2785",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage",
+        "committee-passage-favorable",
+        "referral-committee"
+      ],
+      "description": "From committee: Do pass and re-refer to Com. on APPR. with recommendation: To Consent Calendar. (Ayes 13. Noes 0.) (June 30). Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-01",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2785"
+        }
+      ]
+    },
+    "bill_id": "AB2785"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2785/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2785/logs/20260701T000000Z_from_committee_do_pass_and_rerefer_to_com_on_appr_with_recommendation_to_consent_calendar_ayes_13_no.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

@@ -1,0 +1,21 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S1116",
+    "legislative_session": "222",
+    "subject": [
+      "ELECTIONS",
+      "UNEMPL COMP"
+    ],
+    "title": "Exempts poll workers wages from affecting unemployment compensation."
+  },
+  "id": "S1116",
+  "log": {
+    "bill_id": "S1116"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S1116/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S1116/logs/20260624T040000Z.vote_event.pass.upper.json"
+  },
+  "timestamp": "20260624T040000Z.vote"
+}

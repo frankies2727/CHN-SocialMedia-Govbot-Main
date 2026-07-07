@@ -1,0 +1,50 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law states the policy of the State of California is to afford all persons in public schools, regardless of their disability, gender, gender identity, gender expression, nationality, race or ethnicity, religion, sexual orientation, or any other specified characteristic, equal rights and opportunities in the educational institutions of the state. Existing law establishes the Office of Civil Rights, under the administration of the Government Operations Agency. Existing law requires the Office of Civil Rights to employ a Religious Discrimination Prevention Coordinator, a Race and Ethnicity Discrimination Prevention Coordinator, a Gender Discrimination Prevention Coordinator, and an LGBTQ Discrimination Prevention Coordinator. Existing law requires each of the coordinators be appointed by the Governor and confirmed by the Senate.\n\nThis bill would require the Office of Civil Rights to employ a Disability Discrimination Prevention Coordinator to be appointed by the Governor and confirmed by the Senate. The bill would change the title of the LGBTQ Discrimination Prevention Coordinator to instead be the LGBTQ+ Discrimination Prevention Coordinator. The bill would require each of the coordinators, in consultation with the State Department of Education, and under the supervision of the Government Operations Agency, to, among other things, (1) develop, consult on, and provide discrimination education to teachers, staff, governing board and body members, administrators, and other local educational agency personnel to identify and proactively prevent discrimination, as provided, (2) provide technical assistance, upon specified request, to local educational agencies to access restorative justice resources, training, and practitioners, and (3) engage with local educational agencies to ensure administrators are equipped to address conflicts at an early stage with the goal of proactively resolving incidents of discrimination, as specified.\n\nThis bill would require the Office of Civil Rights to employ a Deputy Coordinator on Anti-Black Racism, a Deputy Coordinator on Anti-Asian American, Native Hawaiian, and Pacific Islander (Anti-AANHPI) Discrimination, a Deputy Coordinator on Anti-Latino Discrimination, and a Deputy Coordinator on Anti-Native American Discrimination, and would require these deputy coordinators to report directly to the Race and Ethnicity Discrimination Prevention Coordinator. The bill would require the Office of Civil Rights to provide resources and training on how to properly assist in cases of discrimination that involve the intersectionality of protected characteristics, as provided.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB998",
+    "legislative_session": "20252026",
+    "subject": [
+      "Educationalequity",
+      "discriminationpreventioncoordinators"
+    ],
+    "title": "Educational equity: discrimination prevention coordinators."
+  },
+  "id": "SB998",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage",
+        "committee-passage-favorable",
+        "referral-committee"
+      ],
+      "description": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 9. Noes 3.) (June 23). Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-23",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB998"
+        }
+      ]
+    },
+    "bill_id": "SB998"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB998/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB998/logs/20260623T000000Z_from_committee_do_pass_and_rerefer_to_com_on_appr_ayes_9_noes_3_june_23_rereferred_to_com_on_appr.json"
+  },
+  "timestamp": "20260623T000000Z"
+}
