@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 2633",
+    "legislative_session": "114",
+    "subject": [
+      "Taxes"
+    ],
+    "title": "Taxes - As enacted, adds to the definition of a \"qualified public use facility\" as used in the Local Tourism Development Zone Business Tax Act a mixed-use development containing a performance venue with a seating capacity of at least 2,500; authorizes a municipality or public authority that has financed a qualified public use facility within a tourism development zone and that qualifies for an allocation of sales tax revenue from within that zone under the Convention Center and Tourism Development Financing Act of 1998 and under other provisions of sales tax law to use the revenue for purposes authorized in the act or other law. - Amends TCA Title 7 and Title 67."
+  },
+  "id": "SB 2633",
+  "log": {
+    "action": {
+      "description": "Comp. became Pub. Ch. 1034",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-05-27",
+      "session_id": "114",
+      "sources": [
+        {
+          "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB2633&ga=114"
+        }
+      ]
+    },
+    "bill_id": "SB 2633"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/SB2633/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/SB2633/logs/20260527T000000Z_comp_became_pub_ch_1034.json"
+  },
+  "timestamp": "20260527T000000Z"
+}

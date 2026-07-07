@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB625",
+    "legislative_session": "2026",
+    "title": "establishing a committee to study options for family members of intentional homicide victims where the department of justice does not file charges in a case, repealing the refugee resettlement program in the department of health and human services, and prohibiting expenditure of state funds on refugee resettlement."
+  },
+  "id": "SB625",
+  "log": {
+    "action": {
+      "description": "Conference Committee Report: Not Filed  HJ 14",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-01",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=1380&inflect=2"
+        }
+      ]
+    },
+    "bill_id": "SB625"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB625/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB625/logs/20260601T000000Z_conference_committee_report_not_filed_hj_14.json"
+  },
+  "timestamp": "20260601T000000Z"
+}

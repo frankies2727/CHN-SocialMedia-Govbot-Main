@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 2177",
+    "legislative_session": "114",
+    "subject": [
+      "Law Enforcement"
+    ],
+    "title": "Law Enforcement - As enacted, requires TACIR to conduct a study of the salaries and other benefits paid to state and local law enforcement officers in this state; authorizes the commissioner of safety to establish a hazardous duty designation for members of the highway patrol that may be used to authorize additional compensation for designated members. - Amends TCA Title 4; Title 8; Title 9 and Title 38."
+  },
+  "id": "SB 2177",
+  "log": {
+    "action": {
+      "description": "Effective date(s) 05/22/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-05-27",
+      "session_id": "114",
+      "sources": [
+        {
+          "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB2177&ga=114"
+        }
+      ]
+    },
+    "bill_id": "SB 2177"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/SB2177/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/SB2177/logs/20260527T000000Z_effective_dates_05222026.json"
+  },
+  "timestamp": "20260527T000000Z"
+}
