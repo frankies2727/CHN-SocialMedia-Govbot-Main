@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This resolution directs the Department of Labor, in collaboration with the Department of Education and the Department of Health and Social Services, to study the creation of a Delaware Healthcare Apprenticeship Degree Program that would place aspiring healthcare professionals in paid clinical positions in healthcare facilities while they complete the training and schooling necessary to become credentialed healthcare professionals.\nThe resolution requires that the study consider how any recommended program may be funded through Delaware’s federal Rural Health Transformation Program award and implemented through or in coordination with the competitive awards made by the Department of Health and Social Services under that program, so that the program complements, rather than duplicates, the State’s ongoing healthcare workforce initiatives.\nThis resolution also directs the Department of Labor to consult with stakeholders to make recommendations for degreed apprenticeship programs beyond healthcare and requires the Department to submit a report of its findings to the Governor, the General Assembly, and the Division of Legislative Services by May 1, 2027.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HJR 13",
+    "legislative_session": "153",
+    "title": "DIRECTING THE DEPARTMENT OF LABOR TO STUDY THE CREATION OF A DELAWARE HEALTHCARE APPRENTICESHIP DEGREE PROGRAM AND TO REPORT FINDINGS AND RECOMMENDATIONS TO THE GOVERNOR AND THE GENERAL ASSEMBLY."
+  },
+  "id": "HJR 13",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported Out of Committee (Executive) in Senate with 7 On Its Merits",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-30",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Executive"
+        }
+      ],
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143567"
+        }
+      ]
+    },
+    "bill_id": "HJR 13"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HJR13/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HJR13/logs/20260630T000000Z_reported_out_of_committee_executive_in_senate_with_7_on_its_merits.json"
+  },
+  "timestamp": "20260630T000000Z"
+}

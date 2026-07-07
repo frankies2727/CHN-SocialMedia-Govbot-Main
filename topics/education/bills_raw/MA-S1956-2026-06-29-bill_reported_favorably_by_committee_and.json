@@ -1,0 +1,49 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Mr. DiDomenico, a petition (accompanied by bill, Senate, No. 1956) of Sal N. DiDomenico relative to employer-provided childcare tax credits.  Revenue.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S1956",
+    "legislative_session": "194th",
+    "title": "An Act to incentivize employer-provided childcare"
+  },
+  "id": "S1956",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage-favorable",
+        "referral-committee"
+      ],
+      "description": "Bill reported favorably by committee and referred to the committee on House Ways and Means",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-29",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "the committee on House Ways and Means"
+        },
+        {
+          "entity_type": "organization",
+          "name": "committee on House Ways and Means"
+        }
+      ],
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/S1956"
+        }
+      ]
+    },
+    "bill_id": "S1956"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/S1956/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/S1956/logs/20260629T000000Z_bill_reported_favorably_by_committee_and_referred_to_the_committee_on_house_ways_and_means.json"
+  },
+  "timestamp": "20260629T000000Z"
+}
