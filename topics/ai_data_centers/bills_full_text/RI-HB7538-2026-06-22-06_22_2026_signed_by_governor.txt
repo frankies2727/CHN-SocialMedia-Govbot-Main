@@ -1,0 +1,92 @@
+-- H 7538 SUBSTITUTE A
+========
+========
+
+STATE
+
+OF
+
+RHODE
+
+ISLAND
+
+IN GENERAL ASSEMBLY
+JANUARY SESSION, A.D. 2026
+____________
+
+AN ACT
+RELATING TO HEALTH AND SAFETY -- USE OF ARTIFICIAL INTELLIGENCE BY
+HEALTHCARE PROVIDERS NOTIFICATION ACT
+
+Introduced By: Representatives Tanzi, McGaw, Felix, Hull, J. Lombardi, Stewart,
+Giraldo, Edwards, Bennett, and Diaz
+Date Introduced: February 06, 2026
+Referred To: House Health & Human Services
+
+It is enacted by the General Assembly as follows:
+
+SECTION 1. Title 23 of the General Laws entitled "HEALTH AND SAFETY" is hereby
+amended by adding thereto the following chapter:
+
+CHAPTER 106
+
+USE OF ARTIFICIAL INTELLIGENCE BY HEALTHCARE PROVIDERS NOTIFICATION
+
+ACT
+
+23-106-1. Short title and purpose.
+
+(a) This chapter shall be known and may be cited as the "Use of Artificial Intelligence by
+
+Healthcare Providers Notification Act".
+(b) The purpose of this chapter is to ensure patients are properly notified of the use of
+artificial intelligence by healthcare providers.
+
+23-106-2. Definitions.
+
+As used in this chapter, the following terms shall have the following meanings:
+
+(1) "Artificial Intelligence" or "AI" means any technology that can simulate human
+
+intelligence including, but not limited to, natural language processing, training language models,
+
+reinforcement learning from human feedback and machine learning systems.
+
+(2) "Healthcare facility" shall have the same meaning as § 23-17-2.
+
+(3) "Healthcare provider" means physicians, physician assistants, dentists, registered
+
+nurses, licensed practical nurses, advanced practice registered nurses, nursing assistants, or any
+
+other healthcare professional licensed by the director of the department of health.
+
+23-106-3. Notifications required.
+
+Any and all healthcare providers and healthcare facilities that employ artificial intelligence
+
+("AI") to document in-person or telehealth visits shall notify patients of the use of AI for that sole
+
+purpose and review the AI-generated documentation for accuracy after the visit.
+
+SECTION 2. This act shall take effect upon passage.
+========
+========
+
+LC004720/SUB A - Page 2 of 3
+
+EXPLANATION
+BY THE LEGISLATIVE COUNCIL
+OF
+AN ACT
+RELATING TO HEALTH AND SAFETY -- USE OF ARTIFICIAL INTELLIGENCE BY
+HEALTHCARE PROVIDERS NOTIFICATION ACT
+
+***
+
+This act would require healthcare providers and healthcare facilities to inform patients of
+the use of artificial intelligence to memorialize patient visits.
+This act would take effect upon passage.
+========
+========
+
+LC004720/SUB A - Page 3 of 3

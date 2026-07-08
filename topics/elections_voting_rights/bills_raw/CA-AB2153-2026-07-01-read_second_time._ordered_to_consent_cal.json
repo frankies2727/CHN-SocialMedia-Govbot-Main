@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law requires county elections officials to update a voter's registration record if change-of-address information indicates the voter has moved to a new residence address in California. Existing law requires county elections officials to change a voter's registration status to inactive if mailings have been returned as undeliverable or if other sources of information indicate that the voter has moved out of state.\n\nThis bill would repeal an obsolete version of these requirements.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2153",
+    "legislative_session": "20252026",
+    "subject": [
+      "Voterregistration",
+      "residencyconfirmation"
+    ],
+    "title": "Voter registration: residency confirmation."
+  },
+  "id": "AB2153",
+  "log": {
+    "action": {
+      "classifications": [
+        "reading-1",
+        "reading-2"
+      ],
+      "description": "Read second time. Ordered to Consent Calendar.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-01",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2153"
+        }
+      ]
+    },
+    "bill_id": "AB2153"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2153/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2153/logs/20260701T000000Z_read_second_time_ordered_to_consent_calendar.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act adds virtual currency to the money laundering definition in the criminal code and gives the State legal authority to attempt to return virtual currency for victims. It also provides that if money cannot be returned to the victims of the crime, or are outside of the United States, it should be disposed of per order of the Superior Court.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 465",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 11 OF THE DELAWARE CODE RELATING TO VIRTUAL CURRENCY."
+  },
+  "id": "HB 465",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported Out of Committee (Banking, Business, Insurance & Technology) in Senate with 5 On Its Merits",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-24",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Banking, Business, Insurance & Technology"
+        }
+      ],
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143432"
+        }
+      ]
+    },
+    "bill_id": "HB 465"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB465/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB465/logs/20260624T000000Z_reported_out_of_committee_banking_business_insurance_technology_in_senate_with_5_on_its_merits.json"
+  },
+  "timestamp": "20260624T000000Z"
+}

@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Senate, January 15, 2026 -- Text of the Senate Bill improving campaign finance reporting for statewide ballot questions (Senate, No. 2916) (being the text of Senate, No. 2898, printed as amended)",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S2916",
+    "legislative_session": "194th",
+    "title": "An Act improving campaign finance reporting for statewide ballot questions"
+  },
+  "id": "S2916",
+  "log": {
+    "action": {
+      "description": "Text of H5549 amended, published as H5558",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-01",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/S2916"
+        }
+      ]
+    },
+    "bill_id": "S2916"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/S2916/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/S2916/logs/20260701T000000Z_text_of_h5549_amended_published_as_h5558.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

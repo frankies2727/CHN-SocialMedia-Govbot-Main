@@ -1,0 +1,25 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "RC0537",
+    "legislative_session": "2025-2028",
+    "title": "Para ordenar a la Comisión de Vivienda y Desarrollo Urbano de la Cámara de Representantes de Puerto Rico realizar una investigación exhaustiva sobre los lanzamientos, desahucios, terminaciones de arrendamiento, remociones y/o radicaciones de casos de desahucio en vivienda pública, vivienda subsidiada, proyectos financiados bajo el Programa de Créditos Contributivos para Viviendas de Ingresos Bajos (LIHTC, por sus siglas en inglés) y égidas en Puerto Rico; con énfasis particular en las personas adultas mayores, sin excluir a otras poblaciones afectadas; evaluar los criterios, procedimientos y salvaguardas aplicables; examinar los mecanismos de prevención del desplazamiento y la provisión de servicios obligatorios; analizar la imposición de periodos de inelegibilidad para reingreso; y para otros fines relacionados."
+  },
+  "id": "RC0537",
+  "log": {
+    "action": {
+      "classification": [
+        "amendment-amendment"
+      ],
+      "date": "2026-06-08T04:00:00+00:00",
+      "description": "1er Informe Comisión rendido con enmiendas",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "RC0537"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RC0537/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RC0537/logs/20260608T040000Z_1er_informe_comisión_rendido_con_enmiendas.json"
+  },
+  "timestamp": "20260608T040000Z"
+}

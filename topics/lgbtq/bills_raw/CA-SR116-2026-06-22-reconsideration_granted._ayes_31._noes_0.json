@@ -1,0 +1,22 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SR116",
+    "legislative_session": "20252026",
+    "title": "Relative to Lesbian, Gay, Bisexual, Transgender, and Queer (LGBTQ+) Pride Month."
+  },
+  "id": "SR116",
+  "log": {
+    "action": {
+      "date": "2026-06-22",
+      "description": "Reconsideration granted. (Ayes 31. Noes 0.)",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SR116"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SR116/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SR116/logs/20260622T000000Z_reconsideration_granted_ayes_31_noes_0.json"
+  },
+  "timestamp": "20260622T000000Z"
+}
