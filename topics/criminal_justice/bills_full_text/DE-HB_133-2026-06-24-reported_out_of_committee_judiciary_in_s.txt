@@ -1,0 +1,192 @@
+SPONSOR: Rep. Snyder-Hall & Rep. Lynn & Rep. Lambert &
+Sen. Brown & Sen. Townsend
+Reps. Burns, Morrison, Ross Levin, Wilson-Anton,
+Gorman, Neal, Phillips, Romer, Harris, Bolden, Griffith,
+Heffernan, Kamela Smith, Berry, Ortega, Chukwuocha;
+Sens. Cruce, Lockman, Sokola, Pinkney, Sturgeon,
+Hoffner, Seigfried
+
+HOUSE OF REPRESENTATIVES
+153rd GENERAL ASSEMBLY
+HOUSE BILL NO. 133
+AN ACT TO AMEND TITLE 11 OF THE DELAWARE CODE RELATING TO FINES, FEES, RESTITUTION, AND
+OTHER COURT-RELATED MONETARY OBLIGATIONS.
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF THE STATE OF DELAWARE:
+
+Section 1. Amend Subchapter I, Chapter 41, Title 11 of the Delaware Code by making deletions as shown by
+strike through and insertions as shown by underline as follows:
+
+§ 4101. Payment of fines, fees, costs, assessments, and restitution on conviction.
+
+(a) On conviction on indictment or information for any crime or offense, a defendant must pay all costs imposed
+
+by a court. court unless the defendant qualifies for a hardship waiver under § 4104A of this title.
+
+(b) (3) If not paid promptly on its imposition or in accordance with the terms of the order of the court, or
+
+immediately if so requested by the State, the clerk or Prothonotary may cause the judgment to be entered on the civil
+
+judgment docket of the court. If a stay of execution is otherwise permitted by law, the stay may not be granted as a
+
+matter of right but only within the discretion of the court.
+
+(5) Judgments for restitution docketed under this subsection are exempt from the provisions of § 4711 of Title
+
+10, which mandate the expiration of judgments and require the renewal of judgments; however, no such judgment will
+
+attach to a parcel of real property for more than 7 years after the convicted person has sold, transferred, or lost
+
+ownership interest in that specific parcel of real property. judgments. Judgments that include restitution as well as other
+
+fines and fees are exempt from the provisions of § 4711 of Title 10 only as to the restitution portion of the judgment.
+
+§ 4104. Fines, fees, costs, assessments, or restitution; how collected; suspending driver’s license for nonpayment
+prohibited.
+(a) (1) When a court imposes a fine, fee, cost, assessment, or restitution on a defendant, the court may order any of
+the following:
+
+a. That the defendant pay the entire amount at the time sentence is imposed. imposed where the court
+finds that the defendant has the ability to pay.
+HD : KL : SCD
+
+Released: 05/01/2025 09:12 AM
+
+§ 4104A. Hardship waiver.
+
+(a) For purposes of this section “fee” includes a cost, penalty, assessment, or any other monetary obligation that is
+
+related to a criminal case or a motor vehicle offense that does not originate in the voluntary assessment center.
+
+(b) When a defendant is sentenced to pay fines or fees, the sentencing court shall advise the defendant on the
+
+record and in writing of the availability of a hardship waiver under this section. Defense counsel must also advise the
+
+defendant of the availability of a hardship waiver and the evidence required to obtain a hardship waiver.
+
+(c) (1) The courts shall administer a hardship waiver process to allow a defendant to submit evidence at sentencing
+or post-sentencing showing that a defendant is unable to pay a fine, fee, or both.
+
+(2) If a defendant submits evidence of any of the following, the court shall find the defendant presumptively
+
+qualifies for a hardship waiver and may not order fines or fees unless the court in its discretion finds that a fine, fee, or
+
+both, in whole or in part, are in the interest of justice:
+
+a. The defendant receives a public assistance benefit, including any of the following:
+
+1. Medicaid, including Medicare cost-sharing programs.
+
+2. Low-income subsidy for Medicare Part D.
+
+3. Supplemental Nutrition Assistance Program (SNAP).
+
+4. SNAP benefits for Women, Infants, and Children.
+
+5. Temporary Assistance for Needy Families (TANF).
+
+6. Veterans Affairs Pension or Service-Connected Disability Compensation.
+
+7. Residence in subsidized or public housing, including units that have less than market rental as a
+
+result of the owner receiving a Low Income Housing Tax Credit.
+
+8. Low Income Home Energy Assistance Program.
+
+9. A public transportation reduced fare card.
+
+10. General assistance under § 503 of Title 31.
+
+11. Supplemental Security Income (SSI).
+
+12. Social Security Disability Benefits (SSDI).
+
+13. Subsidized daycare (Purchase of care).
+
+b. The defendant was represented in the matter that gave rise to a fine or fee through the Office of
+Defense Services.
+
+c. The defendant was detained pretrial in Delaware for more than 3 days at any time in the 6 months prior
+to sentencing in the matter which gave rise to the fine, fee, or both.
+HD : KL : SCD
+
+Released: 05/01/2025 09:12 AM
+
+d. The defendant was sentenced to incarceration in the matter which gave rise to the fine, fee, or both.
+
+(3) If a defendant does not qualify for a presumption of hardship under paragraph (c)(2) of this section, the
+
+court may consider any of the following factors in determining whether a hardship waiver should be granted:
+
+a. The defendant was previously or is incarcerated.
+
+b. The defendant spent any period of time in a residential mental health facility in the preceding 6
+
+months.
+
+c. The defendant is currently homeless or was homeless at any time in the preceding 6 months.
+
+d. The defendant’s income is too low to afford payments against fines, fees, or both without undue
+
+hardship.
+
+e. Any other demonstration of undue hardship deemed persuasive by the court.
+
+(d) After consideration of the evidence relating to ability to pay, and any presumption of hardship under subsection
+
+(c)(2) of this section, the court may impose a fine, fee, or both, in whole or in part. Where a defendant otherwise would
+
+have qualified for a presumption of hardship under paragraph (c)(2) of this section, but the court exercises its discretion to
+
+impose monetary penalties despite the evidence of hardship, the court must document the reason in its sentencing order.
+
+(e) A defendant who is not granted a hardship waiver at the time of sentencing may apply for such a waiver at a
+later time pursuant to rules prescribed by the court.
+
+(f) Notwithstanding any law or court rule to the contrary, the court may choose not to impose or may at any time
+
+waive, suspend, or modify any fine or fee including those otherwise deemed mandatory or not subject to waiver or
+
+suspension.
+
+(g) The courts may promulgate rules relating to evidence, standards, and procedure for hardship hearings. A copy
+of the rules, if promulgated, must be given to a defendant at or before sentencing.
+
+§ 4105. Default in payment of fine; inability to pay.
+
+(d) Notwithstanding subsection (a) of this section, where a defendant sentenced to be imprisoned is ordered to pay
+
+a fine, costs, restitution or all 3, the court may order an additional sentence of imprisonment in lieu of requiring the
+
+payment of the fine, costs, restitution or all 3; provided, however, that this additional sentence of imprisonment may not
+
+exceed 30 days, to be served concurrently or consecutively with the sentence originally imposed, as the court may order.
+
+[Repealed.]
+
+§ 4107. Annual report.
+
+(b) The report under subsection (a) of this section must include information on the following:
+
+HD : KL : SCD
+
+Released: 05/01/2025 09:12 AM
+
+(4) The number of cases in which a hardship waiver was granted and the amount of fines, fees, or other
+monetary penalties that were waived or not imposed pursuant to § 4104A of this title.
+Section 2. This Act takes effect 180 days after its enactment.
+SYNOPSIS
+Currently, even when a defendant or individual obviously does not have the means to pay a financial penalty or
+fee, Delaware Courts are unable to waive certain mandatory minimum fines or fees at sentencing. This can create a
+constitutional crossroads, as our justice system has long recognized that the Fourteen Amendment prohibits “punishing a
+person for his poverty.” Bearden v. Georgia, 461 U.S. 660, 671 (1983). This Act gives courts the discretion to waive fines
+and fees, in whole or in part, in appropriate circumstances. It also creates a presumption that fines and fees will not be
+imposed when a defendant shows evidence of certain conditions, including receiving a public assistance benefit (like
+Medicaid, SNAP, or veterans’ benefits) or being represented by the Office of Defense Services. It also creates a hearing
+process for anyone already sentenced to pay a fine or fee. The changes in this Act are based on recommendations of the
+Criminal Legal System Imposed Debt Study Group created by House Bill 244, as amended by House Amendment No 2, of
+the 151st General Assembly, in its December 7, 2023, report.
+This Act takes effect 180 days after its enactment.
+
+HD : KL : SCD
+
+Released: 05/01/2025 09:12 AM

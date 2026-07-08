@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Extends provisions of an existing collective bargaining agreement for municipal police arbitration purposes until a successor agreement is reached or an interest arbitration award is rendered.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB3119",
+    "legislative_session": "2026",
+    "title": "AN ACT RELATING TO LABOR AND LABOR RELATIONS -- MUNICIPAL POLICE ARBITRATION"
+  },
+  "id": "SB3119",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-06-22",
+      "description": "06/22/2026 Signed by Governor",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "SB3119"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2026/bills/SB3119/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2026/bills/SB3119/logs/20260622T000000Z_06222026_signed_by_governor.json"
+  },
+  "timestamp": "20260622T000000Z"
+}

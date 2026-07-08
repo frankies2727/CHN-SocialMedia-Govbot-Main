@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Currently, even when a defendant or individual obviously does not have the means to pay a financial penalty or fee, Delaware Courts are unable to waive certain mandatory minimum fines or fees at sentencing. This can create a constitutional crossroads, as our justice system has long recognized that the Fourteen Amendment prohibits “punishing a person for his poverty.”  Bearden v. Georgia, 461 U.S. 660, 671 (1983). This Act gives courts the discretion to waive fines and fees, in whole or in part, in appropriate circumstances. It also creates a presumption that fines and fees will not be imposed when a defendant shows evidence of certain conditions, including receiving a public assistance benefit (like Medicaid, SNAP, or veterans’ benefits) or being represented by the Office of Defense Services. It also creates a hearing process for anyone already sentenced to pay a fine or fee. The changes in this Act are based on recommendations of the Criminal Legal System Imposed Debt Study Group created by House Bill 244, as amended by House Amendment No 2, of the 151st General Assembly, in its December 7, 2023, report.\r\nThis Act takes effect 180 days after its enactment.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 133",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 11 OF THE DELAWARE CODE RELATING TO FINES, FEES, RESTITUTION, AND OTHER COURT-RELATED MONETARY OBLIGATIONS."
+  },
+  "id": "HB 133",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported Out of Committee (Judiciary) in Senate with 4 On Its Merits",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-24",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Judiciary"
+        }
+      ],
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=142176"
+        }
+      ]
+    },
+    "bill_id": "HB 133"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB133/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB133/logs/20260624T000000Z_reported_out_of_committee_judiciary_in_senate_with_4_on_its_merits.json"
+  },
+  "timestamp": "20260624T000000Z"
+}

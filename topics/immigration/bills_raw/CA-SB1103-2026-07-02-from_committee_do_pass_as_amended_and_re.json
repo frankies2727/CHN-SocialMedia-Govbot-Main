@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law generally regulates various business activities and practices related to consumer rights. Existing law requires law enforcement and state and local governments to interact with and report on federal action against individuals based on their perceived or actual immigration status in various specified manners.\n\nThis bill would require a large retail store doing business in this state, as defined, to provide the Attorney General with copies of specified documentation related to immigration enforcement activity, as defined, that occurs on the large retail store's premises, including copies of any video footage, upon receipt of an administrative subpoena, as specified. The bill would exempt documentation submitted as described above from the California Public Records Act. The bill would require the large retail store to preserve the documentation described above, as specified. The bill would also require the large home improvement retailer to disclose on the retailer's internet website certain information, including any policies and practices the large home improvement retailer maintains that relate to immigration enforcement activity on its premises, as specified. The bill would also require the large retail store to provide the county in which the immigration enforcement activity occurred with access to the above-described documentation, as specified. In connection with that requirement, the bill would require every county board of supervisors to select that appropriate agency in the county to have the authority to access that documentation. By imposing new duties on counties, the bill would impose a state-mandated local program.\n\n The bill would authorize the Attorney General or a county counsel to bring an action for injunctive relief for a violation of the above provisions. The bill would repeal its provisions on January 1, 2030. The bill would make related findings and declarations and would declare the severability of its provisions.\n\nThe bill would include findings that changes proposed by this bill address a matter of statewide concern rather than a municipal affair and, therefore, apply to all cities, including charter cities.\n\nExisting constitutional provisions require that a statute that limits the right of access to the meetings of public bodies or the writings of public officials and agencies be adopted with findings demonstrating the interest protected by the limitation and the need for protecting that interest.\n\nThis bill would make legislative findings to that effect.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1103",
+    "legislative_session": "20252026",
+    "subject": [
+      "Largeretailstores",
+      "immigrationenforcement",
+      "reporting"
+    ],
+    "title": "Large retail stores: immigration enforcement: reporting."
+  },
+  "id": "SB1103",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "description": "From committee: Do pass as amended and re-refer to Com. on APPR. (Ayes 10. Noes 2.) (July 1).",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-02",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1103"
+        }
+      ]
+    },
+    "bill_id": "SB1103"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1103/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1103/logs/20260702T000000Z_from_committee_do_pass_as_amended_and_rerefer_to_com_on_appr_ayes_10_noes_2_july_1.json"
+  },
+  "timestamp": "20260702T000000Z"
+}

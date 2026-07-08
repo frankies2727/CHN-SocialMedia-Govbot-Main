@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Jones of North Reading, a petition (accompanied by bill, House, No. 5463) of Bradley H. Jones, Jr., Sally P. Kerans and Bruce E. Tarr (by vote of the town) relative to a conservation restriction in the town of Middleton.  Municipalities and Regional Government.  [Local Approval Received.]",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H5463",
+    "legislative_session": "194th",
+    "title": "An Act relative to a conservation restriction in the town of Middleton"
+  },
+  "id": "H5463",
+  "log": {
+    "action": {
+      "description": "Committee reported that the matter be placed in the Orders of the Day for the next sitting",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-02",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/H5463"
+        }
+      ]
+    },
+    "bill_id": "H5463"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H5463/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H5463/logs/20260702T000000Z_committee_reported_that_the_matter_be_placed_in_the_orders_of_the_day_for_the_next_sitting.json"
+  },
+  "timestamp": "20260702T000000Z"
+}
