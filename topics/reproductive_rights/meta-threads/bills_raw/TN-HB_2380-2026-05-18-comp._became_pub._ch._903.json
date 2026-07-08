@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2380",
+    "legislative_session": "114",
+    "subject": [
+      "Abortion"
+    ],
+    "title": "Abortion - As enacted, revises present law that authorizes the attorney general to bring an action to enforce compliance with the Tennessee Abortion-Inducing Drug Risk Protocol Act or intervene as a matter of right in a case in which the constitutionality of such act is challenged; makes related changes. - Amends TCA Title 4, Chapter 18; Title 29, Chapter 39 and Title 63, Chapter 6, Part 11."
+  },
+  "id": "HB 2380",
+  "log": {
+    "action": {
+      "description": "Comp. became Pub. Ch. 903",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-05-18",
+      "session_id": "114",
+      "sources": [
+        {
+          "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB2380&ga=114"
+        }
+      ]
+    },
+    "bill_id": "HB 2380"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/HB2380/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/HB2380/logs/20260518T000000Z_comp_became_pub_ch_903.json"
+  },
+  "timestamp": "20260518T000000Z"
+}
