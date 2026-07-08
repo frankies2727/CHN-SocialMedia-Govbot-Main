@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1493",
+    "legislative_session": "114",
+    "subject": [
+      "Computers and Electronic Processing"
+    ],
+    "title": "Computers and Electronic Processing - As enacted, requires TACIR to study artificial intelligence and submit a report to the governor and both speakers by January 31, 2027. - Amends TCA Title 29; Title 33; Title 39 and Title 47."
+  },
+  "id": "SB 1493",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-05-22",
+      "session_id": "114",
+      "sources": [
+        {
+          "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB1493&ga=114"
+        }
+      ]
+    },
+    "bill_id": "SB 1493"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1493/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/SB1493/logs/20260522T000000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260522T000000Z"
+}

@@ -1,0 +1,51 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law prohibits a state officer or employee from engaging in any employment, activity, or enterprise that is clearly inconsistent, incompatible, in conflict with, or inimical to their duties. Existing law also prohibits specified local agency officers or employees from engaging in any employment, activity, or enterprise for compensation that is inconsistent, incompatible, or in conflict with, or inimical to, their duties, as specified.\n\nThis bill would prohibit a public officer or public employee, as those terms are defined, from issuing a meme coin. The bill would prohibit a digital asset service provider, as defined, from listing for sale on behalf of, or for purchase by, a California resident a meme coin issued on or after January 1, 2027, that is offered by, or in partnership with, a federal public official or a state or local public officer.\n\nThis bill would authorize the Attorney General, a district attorney, city attorney, or county counsel to enforce these prohibitions by filing a civil action, as specified.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2409",
+    "legislative_session": "20252026",
+    "subject": [
+      "Digitalassets",
+      "memecoins"
+    ],
+    "title": "Digital assets: meme coins."
+  },
+  "id": "AB2409",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "reading-1",
+        "reading-2",
+        "referral-committee"
+      ],
+      "description": "Read second time and amended. Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-02",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2409"
+        }
+      ]
+    },
+    "bill_id": "AB2409"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2409/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2409/logs/20260702T000000Z_read_second_time_and_amended_rereferred_to_com_on_appr.json"
+  },
+  "timestamp": "20260702T000000Z"
+}
