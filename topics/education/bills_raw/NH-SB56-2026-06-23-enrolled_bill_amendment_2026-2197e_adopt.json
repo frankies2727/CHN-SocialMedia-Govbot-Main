@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB56",
+    "legislative_session": "2026",
+    "title": "relative to consolidating the New Hampshire health and education facilities authority within the business finance authority and establishing a surplus land revitalization program."
+  },
+  "id": "SB56",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage"
+      ],
+      "description": "Enrolled Bill Amendment # 2026-2197e Adopted, VV, (In recess of 06/04/2026);  SJ 14",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-23",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/advanced.aspx"
+        }
+      ]
+    },
+    "bill_id": "SB56"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB56/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB56/logs/20260623T000000Z_enrolled_bill_amendment_20262197e_adopted_vv_in_recess_of_06042026_sj_14.json"
+  },
+  "timestamp": "20260623T000000Z"
+}

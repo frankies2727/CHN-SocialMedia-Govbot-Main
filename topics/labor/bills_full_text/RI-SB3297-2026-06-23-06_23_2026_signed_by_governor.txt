@@ -1,0 +1,877 @@
+-- S 3297
+========
+========
+
+STATE
+
+OF
+
+RHODE
+
+ISLAND
+
+IN GENERAL ASSEMBLY
+JANUARY SESSION, A.D. 2026
+____________
+
+AN ACT
+RELATING TO LABOR AND LABOR RELATIONS -- WORKERS' COMPENSATION-GENERAL PROVISIONS
+
+Introduced By: Senators Ciccone, Burke, Felag, Famiglietti, and Bissaillon
+Date Introduced: May 15, 2026
+Referred To: Senate Labor & Gaming
+
+It is enacted by the General Assembly as follows:
+
+SECTION 1. Section 28-29-2 of the General Laws in Chapter 28-29 entitled "Workers’
+Compensation — General Provisions" is hereby amended to read as follows:
+
+28-29-2. Definitions.
+
+In chapters 29 — 38 of this title, unless the context otherwise requires:
+
+(1) “Department” means the department of labor and training.
+
+(2) “Director” means the director of labor and training or the director's designee unless
+
+specifically stated otherwise.
+
+(3)(i) “Earnings capacity” means the weekly straight-time earnings that an employee could
+
+receive if the employee accepted an actual offer of suitable alternative employment. Earnings
+
+capacity can also be established by the court based on evidence of ability to earn, including, but not
+
+limited to, a determination of the degree of functional impairment and/or disability, that an
+
+employee is capable of employment. The court may, in its discretion, take into consideration the
+
+performance of the employee’s duty to actively seek employment in scheduling the implementation
+
+of the reduction. The employer need not identify particular employment before the court can direct
+
+an earnings capacity adjustment. In the event that an employee returns to light-duty employment
+
+while partially disabled, an earnings capacity shall not be set based upon actual wages earned until
+
+the employee has successfully worked at light duty for a period of at least thirteen (13) weeks.
+
+(ii) As used under the provisions of this title, “functional impairment” means an anatomical
+
+or functional abnormality existing after the date of maximum medical improvement as determined
+
+by a medically or scientifically demonstrable finding and based upon the sixth (6th) edition of the
+
+American Medical Association’s Guide to the Evaluation of Permanent Impairment or comparable
+
+publications of the American Medical Association.
+
+(iii) In the event that an employee returns to employment at an average weekly wage equal
+
+to the employee’s pre-injury earnings exclusive of overtime, the employee will be presumed to
+
+have regained their earning capacity.
+
+(4)(i) “Employee” means any person who has entered into the employment of or works
+
+under contract of service or apprenticeship with any employer, except that in the case of a city or
+
+town other than the city of Providence it shall only mean that class or those classes of employees
+
+as may be designated by a city, town, or regional school district in a manner provided in this chapter
+
+to receive compensation under chapters 29 — 38 of this title.
+
+(ii) Any person employed by the state of Rhode Island, or by the Rhode Island airport
+
+corporation, except for sworn employees of the Rhode Island state police, who is otherwise entitled
+
+to the benefits of chapter 19 of title 45 shall be subject to the provisions of chapters 29 — 38 of this
+
+title for case management procedures and dispute resolution by the workers’ compensation court
+
+for all petitions filed on or after July 1, 2025, for the following benefit and disability determinations:
+
+(A) All disputes concerning original liability on matters filed pursuant to § 45-19-1;
+
+(A)(B) The nature and status of disability of the injured employee;
+
+(B)(C) The nature and location of injury relative to the work incident;
+
+(C)(D) Maximum medical improvement (MMI), as it is defined under § 28-33-2(9) 28-29-
+
+2(9);
+
+(D)(E) All issues of legal and/or medical causation;
+
+(E)(F) Suitable alternative employment; and
+
+(F)(G) The assignment of fees and costs pursuant to the provisions of § 28-35-32. The court
+
+may in its discretion appoint an impartial medical examiner in accordance with § 28-33-35. The
+
+court shall hereby be empowered to enforce all of its orders, decrees, and consent agreements of
+
+the parties.
+
+(iii) The term “employee” does not include any individual who is a shareholder or director
+
+in a corporation, general or limited partners in a general partnership, a registered limited liability
+
+partnership, a limited partnership, or partners in a registered limited liability limited partnership, or
+
+any individual who is a member in a limited liability company. These exclusions do not apply to
+
+shareholders, directors, and members who have entered into the employment of or who work under
+
+a contract of service or apprenticeship within a corporation or a limited liability company.
+
+LC006435 - Page 2 of 14
+
+(iv) The term “employee” also does not include a sole proprietor, independent contractor,
+
+or a person whose employment is of a casual nature, and who is employed other than for the purpose
+
+of the employer’s trade or business, or a person whose services are voluntary or who performs
+
+charitable acts, nor shall it include the members of the regularly organized fire and police
+
+departments of any town or city except for appeals from an order of the retirement board filed
+
+pursuant to the provisions of § 45-21.2-9; provided, however, that it shall include the members of
+
+the police and aircraft rescue and firefighting (ARFF) units of the Rhode Island airport corporation.
+
+(v) Whenever a contractor has contracted with the state, a city, town, or regional school
+
+district, any person employed by that contractor in work under contract shall not be deemed an
+
+employee of the state, city, town, or regional school district as the case may be.
+
+(vi) Any person who on or after January 1, 1999, was an employee and became a corporate
+
+officer shall remain an employee, for purposes of these chapters, unless and until coverage under
+
+this act is waived pursuant to § 28-29-8(b) or § 28-29-17. Any person who is appointed a corporate
+
+officer between January 1, 1999, and December 31, 2001, and was not previously an employee of
+
+the corporation, will not be considered an employee, for purposes of these chapters, unless that
+
+corporate officer has filed a notice pursuant to § 28-29-19(c).
+
+(vii) In the case of a person whose services are voluntary or who performs charitable acts,
+
+any benefit received, in the form of monetary remuneration or otherwise, shall be reportable to the
+
+appropriate taxation authority but shall not be deemed to be wages earned under contract of hire
+
+for purposes of qualifying for benefits under chapters 29 — 38 of this title.
+
+(viii) Any reference to an employee who had been injured shall, where the employee is
+
+dead, include a reference to the employee’s dependents as defined in this section, or to the
+
+employee’s legal representatives, or, where the employee is a minor or incompetent, to the
+
+employee’s conservator or guardian.
+
+(ix) A “seasonal occupation” means those occupations in which work is performed on a
+seasonal basis of not more than sixteen (16) weeks.
+
+(5) “Employer” includes any person, partnership, corporation, or voluntary association, and
+
+the legal representative of a deceased employer; it includes the state, and the city of Providence. It
+
+also includes each city, town, and regional school district in the state that votes or accepts the
+
+provisions of chapters 29 — 38 of this title in the manner provided in this chapter or is a party to
+
+an appeal from an order of the retirement board filed pursuant to the provisions of § 45-21.2-9.
+
+(6) “General or special employer”:
+
+(i) “General employer” includes but is not limited to temporary help companies and
+
+employee leasing companies and means a person who for consideration and as the regular course
+
+LC006435 - Page 3 of 14
+
+of its business supplies an employee with or without vehicle to another person.
+(ii) “Special employer” means a person who contracts for services with a general employer
+for the use of an employee, a vehicle, or both.
+
+(iii) Whenever there is a general employer and special employer wherein the general
+
+employer supplies to the special employer an employee and the general employer pays or is
+
+obligated to pay the wages or salaries of the supplied employee, then, notwithstanding the fact that
+
+direction and control is in the special employer and not the general employer, the general employer,
+
+if it is subject to the provisions of the workers’ compensation act or has accepted that act, shall be
+
+deemed to be the employer as set forth in subsection (5) of this section and both the general and
+
+special employer shall be the employer for purposes of §§ 28-29-17 and 28-29-18.
+
+(iv) Effective January 1, 2003, whenever a general employer enters into a contract or
+
+arrangement with a special employer to supply an employee or employees for work, the special
+
+employer shall require an insurer generated insurance coverage certification, on a form prescribed
+
+by the department, demonstrating Rhode Island workers’ compensation and employer’s liability
+
+coverage evidencing that the general employer carries workers’ compensation insurance with that
+
+insurer with no indebtedness for its employees for the term of the contract or arrangement. In the
+
+event that the special employer fails to obtain and maintain at policy renewal and thereafter this
+
+insurer generated insurance coverage certification demonstrating Rhode Island workers’
+
+compensation and employer’s liability coverage from the general employer, the special employer
+
+is deemed to be the employer pursuant to the provisions of this section. Upon the cancellation or
+
+failure to renew, the insurer having written the workers’ compensation and employer’s liability
+
+policy shall notify the certificate holders and the department of the cancellation or failure to renew
+
+and upon notice, the certificate holders shall be deemed to be the employer for the term of the
+
+contract or arrangement unless or until a new certification is obtained.
+
+(7) “Independent contractor” means a person who has filed a notice of designation as
+
+independent contractor with the director pursuant to § 28-29-17.1 or as otherwise found by the
+
+workers’ compensation court.
+
+(8)(i) “Injury” means and refers to personal injury to an employee arising out of and in the
+course of the employee’s employment, connected and referable to the employment.
+
+(ii) An injury to an employee while voluntarily participating in a private, group, or
+
+employer-sponsored carpool, vanpool, commuter bus service, or other rideshare program, having
+
+as its sole purpose the mass transportation of employees to and from work shall not be deemed to
+
+have arisen out of and in the course of employment. Nothing in the foregoing provision shall be
+
+held to deny benefits under chapters 29 — 38 and chapter 47 of this title to employees such as
+
+LC006435 - Page 4 of 14
+
+drivers, mechanics, and others who receive remuneration for their participation in the rideshare
+
+program. Provided, that the foregoing provision shall not bar the right of an employee to recover
+
+against an employer and/or driver for tortious misconduct.
+
+(9) “Maximum medical improvement” means a point in time when any medically
+
+determinable physical or mental impairment as a result of injury has become stable and when no
+
+further treatment is reasonably expected to materially improve the condition. Neither the need for
+
+future medical maintenance nor the possibility of improvement or deterioration resulting from the
+
+passage of time and not from the ordinary course of the disabling condition, nor the continuation
+
+of a preexisting condition precludes a finding of maximum medical improvement. A finding of
+
+maximum medical improvement by the workers’ compensation court may be reviewed only where
+
+it is established that an employee’s condition has substantially deteriorated or improved.
+
+(10) “Physician” means medical doctor, surgeon, dentist, licensed psychologist,
+chiropractor, osteopath, podiatrist, or optometrist, as the case may be.
+
+(11) “Suitable alternative employment” means employment or an actual offer of
+
+employment that the employee is physically able to perform and will not exacerbate the employee’s
+
+health condition and that bears a reasonable relationship to the employee’s qualifications,
+
+background, education, and training. The employee’s age alone shall not be considered in
+
+determining the suitableness of the alternative employment.
+
+SECTION 2. Sections 28-33-5 and 28-33-41 of the General Laws in Chapter 28-33 entitled
+"Workers’ Compensation — Benefits" are hereby amended to read as follows:
+
+28-33-5. Medical services provided by employer.
+
+The employer shall, subject to the choice of the employee as provided in § 28-33-8,
+
+promptly provide for an injured employee any reasonable medical, surgical, dental, optical, or other
+
+attendance or treatment, nurse and hospital service, medicines, crutches, and apparatus for such
+
+period as is necessary, in order to cure, rehabilitate, or relieve the employee from the effects of the
+
+employee’s injury. Irrespective of the date of injury, the liability of the employer for hospital
+
+service rendered under this section to the injured employee shall be the cost to the hospital of
+
+rendering the service at the time the service is rendered. The director, after consultations with
+
+representatives of hospitals, employers, and insurance companies, shall establish administrative
+
+procedures regarding the furnishing and filing of data and the time and method of billing and may
+
+accept as representing the costs for both routine and special services to patients, costs as computed
+
+for the federal Medicare program. Each hospital licensed under chapter 17 of title 23 that renders
+
+services to injured employees under the workers’ compensation act, chapters 29 — 38 of this title,
+
+shall submit and certify to the director, in accordance with requirements of the administrative
+
+LC006435 - Page 5 of 14
+
+procedures established by him or her, its costs for those services. The employer shall also provide
+
+all medical, optical, dental, and surgical appliances and apparatus required to cure or relieve the
+
+employee from the effects of the injury, including, but not limited to, the following: ambulance and
+
+nursing service, eyeglasses, dentures, braces and supports, artificial limbs, crutches, and other
+
+similar appliances; provided, that the employer shall not be liable to pay for or provide hearing aids
+
+or other amplification devices.
+
+28-33-41. Rehabilitation of injured persons.
+
+(a)(1) The department and the workers’ compensation court shall expedite the
+
+rehabilitation of and the return to remunerative employment of all employees who are disabled and
+
+injured and who are subject to chapters 29 — 38 of this title.
+
+(2) Rehabilitation means the prompt provision of appropriate services necessary to restore
+
+an employee who is occupationally injured or diseased to his or her optimum physical, mental,
+
+vocational, and economic usefulness. This may require medical, vocational, and/or reemployment
+
+services to restore an employee who is occupationally disabled as nearly as possible to his or her
+
+pre-injury status. As a procedure, rehabilitation may include three (3) overlapping and interrelated
+
+components:
+
+(i)(A) Medical restorative services. Medical treatment and related services needed to
+
+restore the employee who is occupationally disabled to a state of health as near as possible to that
+
+which existed prior to the occupational injury or disease. These services may include, but are not
+
+limited to, the following: medical, surgical, hospital, nursing services, attendant care, chiropractic
+
+care, physical therapy, occupational therapy, medicines, prostheses, orthoses, other physical
+
+rehabilitation services, including psychosocial services, and reasonable travel expenses incurred in
+
+procuring the services.
+
+(B)(I) Treatment by spiritual means. Nothing in this chapter shall be construed to require
+
+an employee who, in good faith relies on or is treated by prayer or spiritual means by a duly
+
+accredited practitioner of a well-recognized church, to undergo any medical or surgical treatment,
+
+and weekly compensation benefits may not be suspended or terminated on the grounds that the
+
+employee refuses to accept recommended medical or surgical benefits. The employee shall submit
+
+to all physical examinations as required by chapters 29 — 38 of this title.
+
+(II) However, a private employer, insurer, self-insurer, or group self-insurer may pay or
+reimburse an employee for any costs associated with treatment by prayer or spiritual means.
+
+(ii) Vocational restorative services. Vocational services needed to return the employee
+
+with a disability to his or her pre-injury employment or, if that is not possible, to a state of
+
+employability in suitable alternative employment. These services may include, but are not limited
+
+LC006435 - Page 6 of 14
+
+to, the following: psychological and vocational evaluations, counseling, and training.
+
+(iii) Reemployment services. Services used to return the employee who is occupationally
+
+disabled to suitable, remunerative employment as adjudged by his or her functional and vocational
+
+ability at that time.
+
+(b)(1) Any employer or any injured employee with total disability or permanent partial
+
+disability to whom the insurance carrier or certificated employer has paid compensation for a period
+
+of three (3) months or more, and to whom compensation is still being paid, or his or her employer
+
+or insurer may file a petition with the workers’ compensation court requesting approval of a
+
+rehabilitation program or may mutually agree to a rehabilitation program. Determinations shall be
+
+rendered by the workers’ compensation court in accordance with this section and as provided in
+
+chapters 29 — 38 of this title and the rules of practice of the Rhode Island workers’ compensation
+
+court.
+
+(2) Action shall be taken as in the judgment of the workers’ compensation court shall seem
+
+practicable and likely to speed the recovery and rehabilitation of injured workers. However,
+
+rehabilitative services shall be appropriate to the needs and capabilities of injured workers.
+
+(c) Compensation payments shall not be diminished or terminated while the employee is
+
+participating in a rehabilitation program approved by the workers’ compensation court or agreed to
+
+by the parties. Provided, that compensation payments shall be suspended while an injured employee
+
+willfully refuses to participate in a rehabilitation program approved by the workers’ compensation
+
+court or agreed to by the parties. When the employee has completed an approved rehabilitation
+
+program, the rehabilitation provider shall recommend, in the instance of vocational rehabilitation,
+
+an earnings capacity, or in the instance of physical rehabilitation provided or prescribed by a
+
+physician, a degree of functional impairment, and the employee shall be referred to the court for an
+
+earnings capacity adjustment to benefits, unless the employee has returned to gainful employment.
+
+(d) The employer shall bear the expense of rehabilitative services agreed to or ordered
+
+pursuant to this section. If those rehabilitative services require residence at or near or travel to a
+
+rehabilitative facility, the employer shall pay the employee’s reasonable expense for board, lodging,
+
+and/or travel. The reasonable cost of transportation on or after July 1, 2016, is the rate equal to the
+
+per-mile rate allowed by the Internal Revenue Service for use of a privately owned automobile for
+
+business miles driven, as from time to time amended, for a private motor vehicle or the reasonable
+
+cost incurred for transportation, from the employee’s point of departure, whether from the
+
+employee’s home or place of employment, and return. Expense reimbursement requests shall be
+
+submitted no more frequently than one per thirty (30) day period if applicable.
+
+(e) Except for the provisions of this section, the provisions of § 28-33-8 shall remain in
+
+LC006435 - Page 7 of 14
+
+full force and effect.
+
+(f) For the purposes of this section, the director shall promulgate rules and regulations
+
+pursuant to chapter 35 of title 42 for certifying rehabilitation providers, evaluators, and counselors,
+
+and the director shall maintain a registry of those persons so certified. No plan of rehabilitation
+
+requiring the services of a rehabilitation counselor shall be approved by the workers’ compensation
+
+court or agreed to by the parties unless the counselor is certified by the director. Any requests for
+
+approval of a rehabilitation plan pending before the director prior to September 1, 2000, will remain
+
+at the department for determination. All requests after this date will be heard by the workers’
+
+compensation court.
+
+SECTION 3. Section 28-35-5 of the General Laws in Chapter 28-35 entitled "Workers’
+
+Compensation — Procedure" is hereby amended to read as follows:
+
+28-35-5. Appeals from memorandum of agreement.
+
+Any employer or insurer who or that has made payment to an injured employee or those
+
+entitled to compensation on account of the death of an employee which payment has been procured
+
+by fraud, coercion, or mutual mistake of fact; or any injured employee or those entitled to
+
+compensation on account of the death of an employee who has been aggrieved by a memorandum
+
+of agreement in that it: (1) Fails to correctly diagnose the injury; (2) Fails to set out correctly all
+
+the injuries received by the injured employee, including any injuries caused by or flowing from the
+
+original injury; (3) Fails to set out all parts of the body affected by injuries; (4) Fails to correctly
+
+set the rate of compensation; or (5) In any other way is affected by error; upon petition to the court
+
+setting forth all the additional facts, filed by the aggrieved party and served in the same manner as
+
+is provided for in chapters 29 — 38 of this title, the workers’ compensation court shall hear any
+
+and all those matters and make their decision in accordance with those chapters.
+
+SECTION 4. Section 45-19-1 of the General Laws in Chapter 45-19 entitled "Relief of
+Injured and Deceased Fire Fighters and Police Officers" is hereby amended to read as follows:
+
+45-19-1. Salary payment during line of duty illness or injury.
+
+(a)(1) Whenever any police officer of the Rhode Island airport corporation or whenever
+
+any police officer, firefighter, crash rescue crewperson, fire marshal, chief deputy fire marshal, or
+
+deputy fire marshal of any city, town, fire district, or the state of Rhode Island is wholly or partially
+
+incapacitated by reason of injuries received or sickness contracted in the performance of their duties
+
+or due to their rendering of emergency assistance within the physical boundaries of the state of
+
+Rhode Island at any occurrence involving the protection or rescue of human life which necessitates
+
+that they respond in a professional capacity when they would normally be considered by their
+
+employer to be officially off-duty, the respective city, town, fire district, state of Rhode Island, or
+
+LC006435 - Page 8 of 14
+
+Rhode Island airport corporation by which the police officer, firefighter, crash rescue crewperson,
+
+fire marshal, chief deputy fire marshal, or deputy fire marshal, is employed, shall, during the period
+
+of the incapacity, pay the police officer, firefighter, crash rescue crewperson, fire marshal, chief
+
+deputy fire marshal, or deputy fire marshal, the salary or wage and benefits to which the police
+
+officer, firefighter, crash rescue crewperson, fire marshal, chief deputy fire marshal, or deputy fire
+
+marshal, would be entitled had he or she not been incapacitated, and shall pay the medical, surgical,
+
+dental, optical, or other attendance, or treatment, nurses, and hospital services, medicines, crutches,
+
+and apparatus for the necessary period, except that if any city, town, fire district, the state of Rhode
+
+Island, or Rhode Island airport corporation provides the police officer, firefighter, crash rescue
+
+crewperson, fire marshal, chief deputy fire marshal, or deputy fire marshal, with insurance coverage
+
+for the related treatment, services, or equipment, then the city, town, fire district, the state of Rhode
+
+Island, or Rhode Island airport corporation is only obligated to pay the difference between the
+
+maximum amount allowable under the insurance coverage and the actual cost of the treatment,
+
+service, or equipment. In addition, the cities, towns, fire districts, the state of Rhode Island, or
+
+Rhode Island airport corporation shall pay all similar expenses incurred by a member who has been
+
+placed on a disability pension and suffers a recurrence of the injury or illness that dictated his or
+
+her disability retirement, subject to the provisions of subsection (j) herein.
+
+(2) A police officer or firefighter diagnosed with post-traumatic stress disorder (as
+
+described in the Diagnostic and Statistical Manual of Mental Disorders, current edition, published
+
+by the American Psychiatric Association) by an individual who holds the title of an independent
+
+licensed mental health professional with a master’s degree, related to the exposure of potentially
+
+traumatic events, resulting from their acting within the course of their employment or from the
+
+rendering of emergency assistance in the state of Rhode Island, at any occurrence involving the
+
+protection or the rescue of human life while off-duty, as set forth in subsection (h) of this section,
+
+shall be presumed to have sustained an injury in the line of duty, as that term is used in subsection
+
+(a)(1) of this section, unless the contrary is proven by a fair preponderance of the evidence that the
+
+post-traumatic stress injury/PTSD is not related to their job as a police officer or firefighter. The
+
+benefits provided for under this section shall not be extended to a police officer or firefighter, if
+
+their post-traumatic stress injury/PTSD diagnosis arises out of any disciplinary action, work
+
+evaluation, job transfer, layoff, demotion, termination, or similar adverse job actions.
+
+(b) As used in this section, “police officer” means and includes any chief or other member
+
+of the police department of any city or town regularly employed at a fixed salary or wage and any
+
+deputy sheriff, member of the fugitive task force, or capitol police officer, permanent
+
+environmental police officer or criminal investigator of the department of environmental
+
+LC006435 - Page 9 of 14
+
+management, or airport police officer.
+
+(c) As used in this section, “firefighter” means and includes any chief or other member of
+
+the fire department or rescue personnel of any city, town, or fire district, and any person employed
+
+as a member of the fire department of the town of North Smithfield, or fire department or district
+
+in any city or town.
+
+(d) As used in this section, “crash rescue crewperson” means and includes any chief or
+
+other member of the emergency crash rescue section, division of airports, or department of
+
+transportation of the state of Rhode Island regularly employed at a fixed salary or wage.
+
+(e) As used in this section, “fire marshal,” “chief deputy fire marshal,” and “deputy fire
+
+marshal” mean and include the fire marshal, chief deputy fire marshal, and deputy fire marshals
+
+regularly employed by the state of Rhode Island pursuant to the provisions of chapter 28.2 of title
+
+23.
+
+(f) Any person employed by the state of Rhode Island, except for sworn employees of the
+
+Rhode Island state police, who is otherwise entitled to the benefits of chapter 19 of this title, shall
+
+be subject to the provisions of chapters 29 — 38 of title 28 for case management procedures and
+
+dispute resolution by the workers’ compensation court, for all petitions filed on or after July 1,
+
+2025, for the following benefit and disability determinations:
+
+(1) All disputes concerning original liability on matters filed pursuant to this section.
+
+(1)(2) The nature and status of disability of the injured employee;
+
+(2)(3) The nature and location of injury relative to the work incident;
+
+(3)(4) Maximum medical improvement (MMI), as it is defined under § 28-33-2(9) 28-29-
+
+2(9);
+
+(4)(5) All issues of legal and/or medical causation; and
+
+(5)(6) The assignment of fees and costs pursuant to the provisions of § 28-35-32.
+
+The court may, in its discretion, appoint an impartial medical examiner in accordance with
+
+§ 28-33-35. The court shall hereby be empowered to enforce all of its orders, decrees, and consent
+
+agreements of the parties.
+
+(g) In order to receive the benefits provided for under this section, a police officer or
+
+firefighter must prove to their employer that they had reasonable grounds to believe that there was
+
+an emergency that required an immediate need for their assistance for the protection or rescue of
+
+human life.
+
+(h) Any claims to the benefits provided for under this section resulting from the rendering
+
+of emergency assistance in the state of Rhode Island at any occurrence involving the protection or
+
+rescue of human life while off-duty, shall first require those covered by this section to submit a
+
+LC006435 - Page 10 of 14
+
+sworn declaration to their employer attesting to the date, time, place, and nature of the event
+
+involving the protection or rescue of human life causing the professional assistance to be rendered
+
+and the cause and nature of any injuries sustained in the protection or rescue of human life. Sworn
+
+declarations shall also be required from any available witness to the alleged emergency involving
+
+the protection or rescue of human life.
+
+(i) All declarations required under this section shall contain the following language:
+
+“Under penalty of perjury, I declare and affirm that I have examined this declaration,
+
+including any accompanying schedules and statements, and that all statements contained herein are
+
+true and correct.”
+
+(j) Any person, not employed by the state of Rhode Island, receiving injured-on-duty
+
+benefits pursuant to this section, and subject to the jurisdiction of the state retirement board for
+
+accidental retirement disability, for an injury occurring on or after July 1, 2011, shall apply for an
+
+accidental disability retirement allowance from the state retirement board not later than the later of
+
+eighteen (18) months after the date of the person’s injury that resulted in the person’s injured-on-
+
+duty status or sixty (60) days from the date on which the treating physician certifies that the person
+
+has reached maximum medical improvement. Nothing herein shall be construed to limit or alter
+
+any and all rights of the parties with respect to independent medical examination or otherwise, as
+
+set forth in the applicable collective bargaining agreement. Notwithstanding the forgoing, any
+
+person receiving injured-on-duty benefits as the result of a static and incapacitating injury whose
+
+permanent nature is readily obvious and ascertainable shall be required to apply for an accidental
+
+disability retirement allowance within sixty (60) days from the date on which the treating physician
+
+certifies that the person’s injury is permanent, or sixty (60) days from the date on which the
+
+determination of permanency is made in accordance with the independent medical examination
+
+procedures as set forth in the applicable collective bargaining agreement.
+
+(1) If a person with injured-on-duty status fails to apply for an accidental disability
+
+retirement allowance from the state retirement board within the time frame set forth above, that
+
+person’s injured-on-duty payment shall terminate. Further, any person suffering a static and
+
+incapacitating injury as set forth in subsection (j) above and who fails to apply for an accidental
+
+disability benefit allowance as set forth in subsection (j) shall have their injured-on-duty payment
+
+terminated.
+
+(2) A person who so applies shall continue to receive injured-on-duty payments, and the
+
+right to continue to receive IOD payments of a person who so applies shall terminate in the event
+
+of a final ruling of the workers’ compensation court allowing accidental disability benefits. Nothing
+
+herein shall be construed to limit or alter any and all rights of the parties with respect to independent
+
+LC006435 - Page 11 of 14
+
+medical examination or otherwise, as set forth in the applicable collective bargaining agreement.
+
+(k) Any person employed by the state of Rhode Island who is currently receiving injured-
+
+on-duty benefits or any person employed by the state of Rhode Island who in the future is entitled
+
+to injured-on-duty benefits pursuant to this chapter, and subject to the jurisdiction of the state
+
+retirement board for accidental retirement disability, shall apply for an accidental disability
+
+retirement allowance from the state retirement board the later of eighteen (18) months after the date
+
+of the person’s injury that resulted in the person’s injured-on-duty status or sixty (60) days from
+
+the date on which the treating physician certifies that the person has reached maximum medical
+
+improvement. Nothing herein shall be construed to limit or alter any and all rights of the parties
+
+with respect to independent medical examination or otherwise, as set forth in the applicable
+
+collective bargaining agreement. Notwithstanding the forgoing, any person receiving injured-on-
+
+duty benefits as the result of a static and incapacitating injury whose permanent nature is readily
+
+obvious and ascertainable shall be required to apply for an accidental disability retirement
+
+allowance within sixty (60) days from the date on which a treating physician or an independent
+
+medical examiner certifies that the person’s injury is permanent, or sixty (60) days from the date
+
+on which such determination of permanency is made in accordance with the independent medical
+
+examination procedures as set forth in the applicable collective bargaining agreement.
+
+(1) If a person employed by the state of Rhode Island with injured-on-duty status fails to
+
+apply for an accidental disability retirement allowance from the state retirement board within the
+
+time frame set forth in subsection (k) above, that person’s injured-on-duty payment shall terminate.
+
+Further, any person employed by the state of Rhode Island suffering a static and incapacitating
+
+injury as set forth in subsection (k) above and who fails to apply for an accidental disability benefit
+
+allowance as set forth in subsection (k) shall have his or her injured-on-duty payment terminated.
+
+(2) A person employed by the state of Rhode Island who so applies shall continue to receive
+
+injured-on-duty payments, and the right to continue to receive injured-on-duty payments of a
+
+person who so applies shall terminate upon final adjudication by the state retirement board
+
+approving or denying either ordinary or accidental disability payments and, notwithstanding § 45-
+
+31.2-9, this termination of injured-on-duty benefits shall not be stayed.
+
+(3)(i) Notwithstanding any other provision of law, all persons employed by the state of
+
+Rhode Island entitled to benefits under this section who were injured prior to July 1, 2019, and who
+
+have been receiving injured-on-duty benefits pursuant to this section for a period of eighteen (18)
+
+months or longer as of July 1, 2019, shall have up to ninety (90) days from July 1, 2019, to apply
+
+for an accidental disability retirement benefit allowance. Any person employed by the state of
+
+Rhode Island receiving injured-on-duty benefits for a period less than eighteen (18) months as of
+
+LC006435 - Page 12 of 14
+
+July 1, 2019, shall apply for an accidental disability retirement benefit allowance within eighteen
+
+(18) months of the date of injury that resulted in the person receiving injured-on-duty pay; provided
+
+however, said person shall have a minimum of ninety (90) days to apply.
+
+Applications for disability retirement received by the state retirement board by any person
+
+employed by the State of Rhode Island receiving injured-on-duty payments that shall be deemed
+
+untimely pursuant to § 36-10-14(b) shall have ninety (90) days from July 1, 2019, to apply for an
+
+accidental disability retirement benefit allowance. Failure to apply for an accidental disability
+
+retirement benefit allowance within the timeframe set forth herein shall result in the termination of
+
+injured-on-duty benefits.
+
+(ii) Any person employed by the state of Rhode Island receiving injured-on-duty payments
+
+who has been issued a final adjudication of the state retirement board on an application for an
+
+ordinary or accidental disability benefit, either approving or denying the application, shall have his
+
+or her injured-on-duty payments terminated.
+
+(4) If awarded an accidental disability pension, any person employed by the state of Rhode
+Island covered under this section shall receive benefits consistent with § 36-10-15.
+SECTION 5. This act shall take effect upon passage.
+========
+========
+
+LC006435 - Page 13 of 14
+
+EXPLANATION
+BY THE LEGISLATIVE COUNCIL
+OF
+AN ACT
+RELATING TO LABOR AND LABOR RELATIONS -- WORKERS' COMPENSATION-GENERAL PROVISIONS
+
+***
+
+This act would amend various sections of the workers' compensation statute relative to the
+
+court's jurisdiction, the court's authority to determine certain issues relative to claims, and the
+
+authority to determine the status of certain officer's injuries, reimbursement expenses, and would
+
+provide certain employees with a reimbursement for hearing aids.
+
+This act would take effect upon passage.
+========
+========
+
+LC006435 - Page 14 of 14

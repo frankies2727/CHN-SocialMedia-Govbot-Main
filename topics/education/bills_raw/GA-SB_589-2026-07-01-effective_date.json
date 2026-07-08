@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Part 3 of Article 6 of Chapter 2 of Title 20 of the Official Code of Georgia Annotated, relating to educational programs under the \"Quality Basic Education Act,\" so as to revise the date by which a child must attain a certain age to be eligible for enrollment in kindergarten or first grade; to provide for parents and guardians to elect for their children who have attained the age of four or five to be enrolled in a voluntary pre-kindergarten program provided and operated as part of Georgia's Pre-K Program; to provide for an effective date and applicability; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 589",
+    "legislative_session": "2025_26",
+    "subject": [
+      "EDUCATION"
+    ],
+    "title": "\"Quality Basic Education Act\"; the date by which a child must attain a certain age to be eligible for enrollment in kindergarten or first grade; revise"
+  },
+  "id": "SB 589",
+  "log": {
+    "action": {
+      "date": "2026-07-01",
+      "description": "Effective Date",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "SB 589"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB589/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB589/logs/20260701T000000Z_effective_date.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

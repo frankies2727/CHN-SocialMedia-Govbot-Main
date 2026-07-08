@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to provide a homestead exemption from City of Lyons ad valorem taxes in the amount of the assessed value of the homestead property determined annually for the special district based upon the proceeds of a new Local Homestead Option Sales Tax (LHOST) to be imposed within the special district conterminous with Toombs County; to provide for definitions; to specify the terms and conditions of the exemption and the procedures relating thereto; to provide for applicability; to provide for compliance with constitutional requirements and the provisions of Article 2C of Chapter 8 of Title 48 of the O.C.G.A.; to provide for a referendum, effective dates, automatic repeal, mandatory execution of election, and judicial remedies regarding failure to comply; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 68",
+    "legislative_session": "2026_ss",
+    "title": "Lyons, City of; ad valorem tax; provide homestead exemption"
+  },
+  "id": "HB 68",
+  "log": {
+    "action": {
+      "description": "House Lost Reconsidered Bill/Resolution",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-23",
+      "session_id": "2026_ss",
+      "sources": [
+        {
+          "note": "api",
+          "url": "http://webservices.legis.ga.gov/GGAServices/Members/Service.svc?wsdl"
+        },
+        {
+          "note": "api",
+          "url": "http://webservices.legis.ga.gov/GGAServices/Legislation/Service.svc?wsdl"
+        },
+        {
+          "url": "https://www.legis.ga.gov/legislation/74832"
+        }
+      ]
+    },
+    "bill_id": "HB 68"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2026_ss/bills/HB68/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2026_ss/bills/HB68/logs/20260623T000000Z_house_lost_reconsidered_billresolution.json"
+  },
+  "timestamp": "20260623T000000Z"
+}

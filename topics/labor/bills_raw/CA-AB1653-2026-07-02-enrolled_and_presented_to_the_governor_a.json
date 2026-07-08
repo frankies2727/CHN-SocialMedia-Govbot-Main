@@ -1,0 +1,40 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes the Instructional Quality Commission and requires the commission to, among other things, recommend curriculum frameworks to the State Board of Education.\n\nThis bill would require the commission, during the next revision of the publication \"Health Framework for California Public Schools,\" to consider including, and recommending for adoption by the state board, specific content related to the prevention of, and recognizing and responding to the signs and symptoms of, heat illness, as described, and, for those purposes, to consider relevant guidance issued by the State Department of Public Health and policies adopted by the California Interscholastic Federation, as specified.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1653",
+    "legislative_session": "20252026",
+    "subject": [
+      "Pupilinstruction",
+      "healthframework",
+      "heatillness"
+    ],
+    "title": "Pupil instruction: health framework: heat illness."
+  },
+  "id": "AB1653",
+  "log": {
+    "action": {
+      "description": "Enrolled and presented to the Governor at 3 p.m.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-07-02",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1653"
+        }
+      ]
+    },
+    "bill_id": "AB1653"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1653/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1653/logs/20260702T000000Z_enrolled_and_presented_to_the_governor_at_3_pm.json"
+  },
+  "timestamp": "20260702T000000Z"
+}
