@@ -40,6 +40,8 @@ from __future__ import annotations
 
 import json
 import os
+import re
+import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -48,6 +50,25 @@ ROOT = Path(__file__).resolve().parent.parent
 # Keep the per-run counter from growing without bound; only the current run's
 # bucket matters for the cap, the rest is just recent history.
 _MAX_RUN_ENTRIES = 30
+
+
+def _run_count_path(platform: str, run_id: str) -> Path:
+    """Where this run's post counter lives, deliberately OUTSIDE the git working
+    tree.
+
+    The per-run cap only works if every per-topic process in one run sees the
+    running count the previous topic left behind. The account ledger
+    (account_state/<platform>/posted.json) is git-tracked, and the daily poster
+    commits + pushes rendered cards between topics — so the tracked file's
+    accumulated count can get reset back to the committed version mid-run,
+    letting every topic think the cap is untouched and post again (one bill per
+    topic → a flood). Keeping the counter in the runner's temp dir (RUNNER_TEMP
+    on GitHub Actions, else the system temp dir), keyed by run id, means no git
+    operation can revert it, so the cap holds for the whole run and resets
+    naturally next run (new run id → new file)."""
+    base = os.environ.get("RUNNER_TEMP") or tempfile.gettempdir()
+    safe = re.sub(r"[^A-Za-z0-9_.-]", "_", f"{platform}-{run_id}")
+    return Path(base) / f"govbot_runcount_{safe}.json"
 
 
 def _run_id() -> str | None:
@@ -94,11 +115,34 @@ class AccountLedger:
         """Every dedup_key already published to this account (any topic)."""
         return set(self.data.get("posted", []))
 
+    def _read_sidecar_count(self) -> int:
+        """This run's post count from the git-immune sidecar file (0 if none)."""
+        if not self.run_id:
+            return 0
+        p = _run_count_path(self.platform, self.run_id)
+        try:
+            return int(json.loads(p.read_text()).get("count", 0))
+        except (OSError, ValueError, json.JSONDecodeError):
+            return 0
+
+    def _write_sidecar_count(self, count: int) -> None:
+        if not self.run_id:
+            return
+        p = _run_count_path(self.platform, self.run_id)
+        try:
+            p.parent.mkdir(parents=True, exist_ok=True)
+            p.write_text(json.dumps({"count": count}))
+        except OSError:
+            pass  # cap degrades to the tracked-file count; never crash a post
+
     def posted_this_run(self) -> int:
-        """Posts published on the account so far during the current run."""
+        """Posts published on the account so far during the current run. Trust
+        whichever source is higher: the git-immune sidecar (authoritative when
+        the tracked ledger gets reverted mid-run) or the tracked runs bucket."""
         if not self.run_id:
             return self._local_count
-        return int(self.data.get("runs", {}).get(self.run_id, 0))
+        tracked = int(self.data.get("runs", {}).get(self.run_id, 0))
+        return max(tracked, self._read_sidecar_count())
 
     def remaining_this_run(self, run_cap: int) -> int:
         """Posts still allowed on the account this run, given the per-run cap."""
@@ -114,8 +158,13 @@ class AccountLedger:
         if not self.run_id:
             self._local_count += 1
             return
+        # Bump from the current best-known count (max of both sources) so the
+        # tally keeps climbing even if the tracked file was reset since the last
+        # post this run.
+        new_count = self.posted_this_run() + 1
         runs = self.data.setdefault("runs", {})
-        runs[self.run_id] = int(runs.get(self.run_id, 0)) + 1
+        runs[self.run_id] = new_count
+        self._write_sidecar_count(new_count)
         # Prune the oldest run buckets so the file doesn't grow forever. Dicts
         # preserve insertion order, so the earliest-seen runs sort to the front.
         if len(runs) > _MAX_RUN_ENTRIES:

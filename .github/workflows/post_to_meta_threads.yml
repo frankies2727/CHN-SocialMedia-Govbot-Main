@@ -148,10 +148,10 @@ jobs:
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
           LLM_API_URL: "http://localhost:11434/api/chat"
-          # Per-topic cap kept at 1 so the per-run cap (4) spreads across several
+          # Per-topic cap kept at 1 so the per-run cap (3) spreads across several
           # different topics each run rather than being eaten by the first one.
           POST_LIMIT: "1"
-          RUN_POST_LIMIT: "4"
+          RUN_POST_LIMIT: "3"
         run: |
           shopt -s nullglob
           # Build the normalized (extract_fields-applied) bill list once; every
