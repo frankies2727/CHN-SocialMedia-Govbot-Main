@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 0677",
+    "legislative_session": "114",
+    "subject": [
+      "Dept. of",
+      "Education"
+    ],
+    "title": "Education, Dept. of - As enacted, requires the department to provide at least one professional development course that provides asynchronous instruction on the use of artificial intelligence in the classroom and that is made available, at no cost, to teachers in grades 6-12; requires such teachers to complete at least one department-approved professional development course on the use of artificial intelligence in the classroom by the later of August 1, 2028, or within two years of becoming licensed as a teacher in this state. - Amends TCA Title 49."
+  },
+  "id": "SB 0677",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-05-22",
+      "session_id": "114",
+      "sources": [
+        {
+          "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB0677&ga=114"
+        }
+      ]
+    },
+    "bill_id": "SB 0677"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/SB0677/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/SB0677/logs/20260522T000000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260522T000000Z"
+}
