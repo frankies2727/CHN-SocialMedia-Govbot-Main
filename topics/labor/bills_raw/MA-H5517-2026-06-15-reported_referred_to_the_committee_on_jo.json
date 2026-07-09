@@ -1,0 +1,48 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Duffy of Holyoke, a petition (subject to Joint Rule 12) of Patricia A. Duffy relative to the retirement benefits for Julia Flannery, the surviving spouse of the Honorable Francis Flannery.  Public Service.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H5517",
+    "legislative_session": "194th",
+    "title": "An Act relative to the retirement benefits of the surviving spouse of the Honorable Francis Flannery"
+  },
+  "id": "H5517",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Reported, referred to the committee on Joint Rules, reported, rules suspended and referred to the committee on Public Service",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-15",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "the committee on Joint Rules, reported, rules suspended and referred to the committee on Public Service"
+        },
+        {
+          "entity_type": "organization",
+          "name": "committee on Joint Rules, reported, rules suspended and referred to the committee on Public Service"
+        }
+      ],
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/H5517"
+        }
+      ]
+    },
+    "bill_id": "H5517"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H5517/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H5517/logs/20260615T000000Z_reported_referred_to_the_committee_on_joint_rules_reported_rules_suspended_and_referred_to_the_commi.json"
+  },
+  "timestamp": "20260615T000000Z"
+}

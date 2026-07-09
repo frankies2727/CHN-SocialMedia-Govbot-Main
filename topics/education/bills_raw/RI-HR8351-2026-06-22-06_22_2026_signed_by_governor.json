@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Creates a special joint legislative commission to make a comprehensive study of Rhode Island's education funding formula and education finance system.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR8351",
+    "legislative_session": "2026",
+    "title": "JOINT RESOLUTION CREATING A SPECIAL JOINT LEGISLATIVE COMMISSION TO STUDY RHODE ISLAND'S EDUCATION FUNDING FORMULA AND EDUCATION FINANCE SYSTEM"
+  },
+  "id": "HR8351",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-06-22",
+      "description": "06/22/2026 Signed by Governor",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "HR8351"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2026/bills/HR8351/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2026/bills/HR8351/logs/20260622T000000Z_06222026_signed_by_governor.json"
+  },
+  "timestamp": "20260622T000000Z"
+}

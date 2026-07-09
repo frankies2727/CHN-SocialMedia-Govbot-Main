@@ -1,0 +1,42 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes a workers' compensation system, administered by the Administrative Director of the Division of Workers' Compensation, to compensate an employee for injuries sustained in the course of employment, which, in the case of the death of an employee, includes a death benefit. Existing law governs temporary and permanent disability indemnity payments and prohibits a payment made by a written instrument unless it is immediately negotiable and payable in cash, among other things. Existing law, until January 1, 2027, allows an employer to commence a program under which disability indemnity payments are deposited in a prepaid card account for employees.\n\nThis bill would extend the authorization to deposit indemnity payments in a prepaid card account indefinitely.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1683",
+    "legislative_session": "20252026",
+    "subject": [
+      "Workers'compensation",
+      "prepaidcards"
+    ],
+    "title": "Workers' compensation: prepaid cards."
+  },
+  "id": "AB1683",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-07-06",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1683"
+        }
+      ]
+    },
+    "bill_id": "AB1683"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1683/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1683/logs/20260706T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260706T000000Z"
+}

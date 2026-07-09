@@ -120,6 +120,9 @@
     "MN|SF 4757|2026-03-26|Second reading",
     "MO|HB 2002|2026-06-30|Delivered to Secretary of State (G)",
     "MO|HB 2002|2026-06-30|Vetoed in Part by Governor (G)",
+    "MO|HB 2003|2026-06-30",
+    "MO|HB 2003|2026-06-30|Delivered to Secretary of State (G)",
+    "MO|HB 2003|2026-06-30|Vetoed in Part by Governor (G)",
     "MO|HB 2542|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HB 2723|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HB 2942|2026-05-15|Referred: Emerging Issues(H)",
@@ -170,6 +173,8 @@
     "RI|HB7680|2026-04-24|04/24/2026 Scheduled for hearing and/or ",
     "RI|HB7680|2026-04-28|04/28/2026 Committee recommended measure",
     "RI|HB7683|2026-06-22|06/22/2026 Signed by Governor",
+    "RI|HR8351|2026-06-22",
+    "RI|HR8351|2026-06-22|06/22/2026 Signed by Governor",
     "RI|SB2678|2026-06-22|06/22/2026 Signed by Governor",
     "TN|HB 0663|2026-01-21|Taken off notice for cal in s/c  Higher ",
     "TN|HB 1369|2026-01-26|Meeting Canceled",
@@ -207,7 +212,7 @@
     "WI|SB1|2026-05-13|Read a third time",
     "WI|SB1|2026-05-13|Rules suspended to give bill its third r"
   ],
-  "last_run": "2026-07-08T09:31:19.082664+00:00",
+  "last_run": "2026-07-09T10:33:01.631303+00:00",
   "state_last_posted": {
     "HI": "2026-05-16T02:57:07.992280+00:00",
     "NH": "2026-07-08T09:29:18.057501+00:00",
@@ -218,7 +223,7 @@
     "MN": "2026-06-10T10:54:51.030597+00:00",
     "MA": "2026-07-07T10:31:20.605758+00:00",
     "KS": "2026-06-20T09:59:38.102144+00:00",
-    "MO": "2026-07-06T11:36:35.215410+00:00",
+    "MO": "2026-07-09T10:28:08.163949+00:00",
     "MS": "2026-06-16T11:55:49.830816+00:00",
     "DE": "2026-07-06T11:36:35.215410+00:00",
     "IA": "2026-06-20T09:59:38.102144+00:00",
@@ -230,6 +235,6 @@
     "GA": "2026-07-08T09:29:18.057501+00:00",
     "PR": "2026-06-09T10:25:58.228192+00:00",
     "ND": "2026-06-13T10:02:26.244028+00:00",
-    "RI": "2026-07-05T09:52:45.682337+00:00"
+    "RI": "2026-07-09T10:28:08.163949+00:00"
   }
 }
