@@ -435,12 +435,15 @@ def _post_items(items: list[dict], sha: str, slug: str, state: dict, seen: set,
         if SAVE_STATE:
             siblings = same_day_siblings.get(b["same_day_key"], ()) if same_day_siblings else ()
             seen.add(b["dedup_key"])
+            # Remember the bill+day itself so this bill can't be posted again
+            # today, even if a new same-day action shows up on a later run.
+            seen.add(b["same_day_key"])
             seen.update(siblings)
             last_posted[b["state"] or "?"] = now.isoformat()
             # Record on the account-wide ledger too (cross-topic dedup + per-run
             # cap), and persist immediately so the next topic in the loop sees it.
             if ledger is not None:
-                ledger.record({b["dedup_key"], *siblings})
+                ledger.record({b["dedup_key"], b["same_day_key"], *siblings})
                 ledger.save()
         if SAVE_RAW:
             try:
@@ -501,8 +504,10 @@ def _post_forced_bill(records: list[dict]) -> int:
     state = load_state()
     ledger = AccountLedger(PLATFORM)
     seen = set(state.get("posted", []))
-    if not FORCE_REPOST and b["dedup_key"] in (seen | ledger.seen):
-        print(f"Bill {b['state']} {b['identifier']} action {b['action_date']!r} is "
+    if not FORCE_REPOST and (b["dedup_key"] in (seen | ledger.seen)
+                             or b["same_day_key"] in (seen | ledger.seen)):
+        print(f"Bill {b['state']} {b['identifier']} action {b['action_date']!r} "
+              f"(or another action for this bill on the same day) is "
               f"already posted to the {PLATFORM} account. Pass force_repost=true to re-post.")
         return 0
 
@@ -571,7 +576,11 @@ def main() -> int:
         if not TOPIC.matches(b):
             continue
         same_day_siblings.setdefault(b["same_day_key"], set()).add(b["dedup_key"])
-        if b["dedup_key"] in seen_all:
+        # Skip if we've already posted this exact action (dedup_key) OR any
+        # other action for this same bill on this same day (same_day_key).
+        # The same_day_key guard stops a second post when another log entry
+        # for the same bill+day arrives on a later run.
+        if b["dedup_key"] in seen_all or b["same_day_key"] in seen_all:
             continue
         candidates.append(b)
 
