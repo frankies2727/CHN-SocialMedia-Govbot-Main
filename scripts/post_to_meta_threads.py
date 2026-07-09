@@ -71,7 +71,7 @@ POST_LIMIT = int(os.environ.get("POST_LIMIT", "2"))
 # across ALL topics combined (POST_LIMIT still caps each topic's own turn); once
 # the account hits this ceiling, later topics in the loop exit early. The next
 # run starts the count fresh.
-RUN_POST_LIMIT = int(os.environ.get("RUN_POST_LIMIT", "4"))
+RUN_POST_LIMIT = int(os.environ.get("RUN_POST_LIMIT", "3"))
 # Account-level (cross-topic) ledger lives under account_state/<platform>/.
 PLATFORM = "meta-threads"
 MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "62"))

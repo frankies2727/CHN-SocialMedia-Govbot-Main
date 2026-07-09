@@ -24,7 +24,7 @@ jobs:
     env:
       LLM_MODEL: "gemma3:4b"
       BOT_TOPIC: "ai_data_centers"
-      POST_LIMIT: "4"
+      POST_LIMIT: "3"
       DRY_RUN: "0"
 
     steps:
