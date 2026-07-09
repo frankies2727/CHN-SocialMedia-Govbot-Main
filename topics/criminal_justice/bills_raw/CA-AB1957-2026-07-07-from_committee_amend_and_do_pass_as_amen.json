@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law provides that a trustee's sale of property under a power of sale contained in a deed of trust or mortgage on real property containing one to 4 residential units is not final until the earliest of various time periods. Existing law provides specified eligible bidders, defined to include eligible tenant buyers, prospective owner-occupants, and eligible nonprofit corporations with certain attributes, various rights in connection with those sales, and sets forth procedures for eligible bidders to submit bids after those sales. Existing law authorizes the Attorney General, a county counsel, a city attorney, or a district attorney to bring an action to enforce these provisions as specified.\n\nThis bill would instead provide that a trustee's sale of eligible property, as defined, is not final until the earliest of various time periods. The bill would change the term \"eligible tenant buyer\" to \"eligible tenant bidder,\" and would redefine the term \"eligible bidder\" to remove prospective owner-occupants and to mean an eligible tenant bidder or an eligible community bidder, as defined. The bill would add an additional attribute to the eligible nonprofit corporations portion of \"eligible community bidder.\" The bill would apply the provisions described above only to trustee's sales of eligible property, as defined. The bill would require eligible tenant bidders who submit bids pursuant to the procedures described above to include in the bid an amount equal to 1.2% of the last and highest bid at the trustee's sale. The bill would authorize the persons described above to seek a civil penalty to enforce these provisions, as specified. The bill would make conforming changes.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1957",
+    "legislative_session": "20252026",
+    "subject": [
+      "Mortgages",
+      "foreclosure"
+    ],
+    "title": "Mortgages: foreclosure."
+  },
+  "id": "AB1957",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-introduction",
+        "amendment-passage",
+        "committee-passage",
+        "referral-committee"
+      ],
+      "description": "From committee: Amend, and do pass as amended and re-refer to Com. on APPR. (Ayes 13. Noes 0.) (June 30).",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-07",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1957"
+        }
+      ]
+    },
+    "bill_id": "AB1957"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1957/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1957/logs/20260707T000000Z_from_committee_amend_and_do_pass_as_amended_and_rerefer_to_com_on_appr_ayes_13_noes_0_june_30.json"
+  },
+  "timestamp": "20260707T000000Z"
+}

@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act prohibits the sale of class B firefighting foam that contains intentionally added PFAS chemicals starting January 1, 2028. An exception is provided for a bulk petroleum facility, provided that the bulk petroleum facility applies to DNREC for a 5-year exemption. The exemption period may be extended for additional 2-year periods, up to a total of 13 years.  If an exempt bulk petroleum facility uses foam containing PFAS chemicals, they must notify DNREC.\r\nUnder this Act, a manufacturer must notify its customers in the State regarding the prohibition of firefighting foam containing PFAS chemicals by January 1, 2027. By March 1, 2028, the manufacturer must recall or reimburse purchasers, unless the purchaser is exempt as a bulk petroleum facility.  The recall must include the safe transport and storage of PFAS-containing firefighting foam until the Department identifies a safe disposal technology.\r\nA manufacturer in violation of this Act is subject to a $5,000 civil penalty for a first offense and a $10,000 for a second, or subsequent offense.\r\nFinally, this Act requires that firefighting personal protective equipment (PPE) that contains PFAS chemicals be sold with a written notice that states that the PPE contains PFAS chemicals. The manufacturer or seller of the PPE must retain the written notice on file for at least 3 years from the date of transaction. Failure to provide written notice of PFAS chemicals in PPE will subject the manufacturer or seller to a civil penalty of $100 per occurrence.\r\nHouse Substitute 1 to HB 356 differs from HB 356 in the following ways: \r\n(1) It replaces the term “terminal” with the broader term “bulk petroleum facility” which clarifies those facilities that may apply for an exemption under this Act.  \r\n(2) Clarifies the definition of PFAS or polyfluoroalkyl substances.\r\n(3) Extends the exemption period for bulk petroleum facilities from 1 to 5 years.  \r\n(4) Provides additional 2-year extensions to the 5-year exemption period, so long as the total exemption period does not exceed 13 years.   \r\n(5) Permits a bulk petroleum facility to use PFAS-containing firefighting foam to aid another facility.\r\n(6) Removes the requirement that DNREC assist state agencies and local governments in identifying and obtaining class B firefighting foam that does not contain PFAS chemicals.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 356",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO PFAS IN FIREFIGHTING FOAM AND EQUIPMENT."
+  },
+  "id": "HB 356",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported Out of Committee (Health & Social Services) in Senate with 7 On Its Merits",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-24",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Health & Social Services"
+        }
+      ],
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143246"
+        }
+      ]
+    },
+    "bill_id": "HB 356"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB356/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB356/logs/20260624T000000Z_reported_out_of_committee_health_social_services_in_senate_with_7_on_its_merits.json"
+  },
+  "timestamp": "20260624T000000Z"
+}
