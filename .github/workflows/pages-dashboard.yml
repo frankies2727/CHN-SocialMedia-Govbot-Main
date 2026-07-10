@@ -1,0 +1,61 @@
+name: pages-dashboard
+
+# Rebuilds docs/data.json from the latest post history and publishes the
+# dark-mode dashboard to GitHub Pages. Runs whenever new posts are committed,
+# when the dashboard files change, once a day as a safety net, and on demand.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "account_state/**"
+      - "topics/**/bills_used.json"
+      - "docs/**"
+      - "scripts/build_dashboard.py"
+      - ".github/workflows/pages-dashboard.yml"
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+# Standard permissions for the GitHub Pages deploy action.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never run two Pages deploys at once; let the newest win.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build dashboard data
+        run: python scripts/build_dashboard.py
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
