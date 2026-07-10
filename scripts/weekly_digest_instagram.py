@@ -67,7 +67,9 @@ from post_to_instagram import (
     CARD_MODE,
     DRY_RUN,
     IG_API,
+    IG_INTERNAL_ERROR_SUBCODES,
     IG_PUBLISH_RETRIES,
+    IG_PUBLISHED_UNCONFIRMED,
     IG_TIMEOUT,
     INSTAGRAM_ACCESS_TOKEN,
     INSTAGRAM_USER_ID,
@@ -76,6 +78,7 @@ from post_to_instagram import (
     MIN_SUMMARY_CHARS,
     _artifact_basename,
     _git,
+    _internal_error_subcode,
     _repo_slug,
     raw_url_for,
     wait_for_url,
@@ -407,12 +410,26 @@ def _publish_container(creation_id: str) -> str | None:
             resp.raise_for_status()
             return resp.json().get("id")
         except Exception as e:
+            resp = getattr(e, "response", None)
+            subcode = _internal_error_subcode(resp)
+            if subcode in IG_INTERNAL_ERROR_SUBCODES:
+                # Known Instagram false negative: media_publish returns a generic
+                # internal error (subcode 2207085) even though the carousel was
+                # in fact published. Retrying can't republish the same container,
+                # so stop and report it as published-but-unconfirmed rather than
+                # failing the whole run for a post that almost certainly went live.
+                print(f" ! publish returned internal-error subcode {subcode}; "
+                      f"Instagram likely published the carousel anyway — treating "
+                      f"it as posted.", file=sys.stderr)
+                if resp is not None:
+                    print(f"   Response body: {resp.text}", file=sys.stderr)
+                return IG_PUBLISHED_UNCONFIRMED
             if attempt < IG_PUBLISH_RETRIES:
                 time.sleep(5 * attempt)
                 continue
             print(f" ! publish failed: {e}", file=sys.stderr)
-            if getattr(e, "response", None) is not None:
-                print(f"   Response body: {e.response.text}", file=sys.stderr)
+            if resp is not None:
+                print(f"   Response body: {resp.text}", file=sys.stderr)
             return None
     return None
 
@@ -499,6 +516,10 @@ def post_carousel(slide_items: list[dict], caption: str, sha: str, slug: str) ->
     media_id = _publish_container(parent)
     if not media_id:
         return False
+    if media_id == IG_PUBLISHED_UNCONFIRMED:
+        print(f"  carousel treated as posted (unconfirmed publish, "
+              f"{len(children)} slides).")
+        return True
     print(f"  posted carousel to Instagram (media id {media_id}, "
           f"{len(children)} slides)")
     return True
