@@ -88,6 +88,57 @@ def parse_record(raw: str) -> dict | None:
     return {"state": state, "bill": bill, "date": date, "action": action}
 
 
+STATE_RE = re.compile(r"state:([a-z]{2})")
+
+
+def clean(text: str) -> str:
+    text = re.sub(r"\s+", " ", (text or "")).strip()
+    # Legislative titles are often SHOUTED in all caps — make them readable.
+    letters = [c for c in text if c.isalpha()]
+    if letters and sum(c.isupper() for c in letters) / len(letters) > 0.7:
+        text = text.title()
+    return text
+
+
+def feed_item(path: Path, folder: str, topic_key: str) -> dict | None:
+    """Turn one bills_raw/*.json record into a display-ready feed card."""
+    try:
+        d = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return None
+    bill = d.get("bill", {})
+    action = d.get("log", {}).get("action", {})
+    src = d.get("sources", {}).get("bill", "")
+    m = STATE_RE.search(src)
+    state = (m.group(1).upper() if m else path.name[:2].upper())
+    identifier = bill.get("identifier") or d.get("id") or ""
+    date = (action.get("date") or d.get("timestamp") or "")[:10]
+    if not DATE_RE.match(date):
+        # timestamps like 20260618T000000Z -> 2026-06-18
+        ts = (d.get("timestamp") or "")
+        if len(ts) >= 8 and ts[:8].isdigit():
+            date = f"{ts[0:4]}-{ts[4:6]}-{ts[6:8]}"
+    if not identifier or not DATE_RE.match(date):
+        return None
+    title = clean(bill.get("title", ""))
+    abstract = ""
+    for a in bill.get("abstracts", []) or []:
+        cand = clean(a.get("abstract", ""))
+        if len(cand) >= 60:           # skip one-word subject tags like "Consumer Protection"
+            abstract = cand
+            break
+    return {
+        "platform": folder,
+        "topic": topic_key,
+        "state": state,
+        "bill": identifier,
+        "title": title,
+        "summary": abstract,
+        "action": clean(action.get("description", "")),
+        "date": date,
+    }
+
+
 def discover_platforms() -> list[str]:
     """Every distinct platform folder name that holds a bills_used.json."""
     found: set[str] = set()
@@ -110,22 +161,29 @@ def main() -> None:
 
     topics = []
     records: list[dict] = []
+    feed: list[dict] = []
     for topic_dir in sorted(p for p in TOPICS_DIR.iterdir() if p.is_dir()):
         meta = load_topic_meta(topic_dir)
         topics.append({"key": topic_dir.name, **meta})
         for folder in platform_folders:
             used = topic_dir / folder / "bills_used.json"
-            if not used.exists():
-                continue
-            try:
-                posted = json.loads(used.read_text(encoding="utf-8")).get("posted", [])
-            except (json.JSONDecodeError, OSError):
-                continue
-            for raw in posted:
-                rec = parse_record(raw)
-                if rec:
-                    rec.update(topic=topic_dir.name, platform=folder)
-                    records.append(rec)
+            if used.exists():
+                try:
+                    posted = json.loads(used.read_text(encoding="utf-8")).get("posted", [])
+                except (json.JSONDecodeError, OSError):
+                    posted = []
+                for raw in posted:
+                    rec = parse_record(raw)
+                    if rec:
+                        rec.update(topic=topic_dir.name, platform=folder)
+                        records.append(rec)
+            # Richer per-post content for the feed lives in bills_raw/*.json.
+            raw_dir = topic_dir / folder / "bills_raw"
+            if raw_dir.is_dir():
+                for raw_file in raw_dir.glob("*.json"):
+                    item = feed_item(raw_file, folder, topic_dir.name)
+                    if item:
+                        feed.append(item)
 
     # Only keep topics that actually have posts; keep platform order as discovered.
     posted_topics = {r["topic"] for r in records}
@@ -135,11 +193,25 @@ def main() -> None:
 
     records.sort(key=lambda r: r["date"], reverse=True)
 
+    # De-duplicate feed items (same bill+date+action can be saved under both the
+    # per-topic aggregate and the platform folder), newest first, and cap it.
+    seen = set()
+    feed.sort(key=lambda f: f["date"], reverse=True)
+    deduped = []
+    for f in feed:
+        k = (f["platform"], f["state"], f["bill"], f["date"], f["action"])
+        if k in seen:
+            continue
+        seen.add(k)
+        deduped.append(f)
+    feed = deduped[:400]
+
     data = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "platforms": platforms,
         "topics": topics,
         "records": records,
+        "feed": feed,
     }
 
     DOCS_DIR.mkdir(exist_ok=True)
@@ -147,7 +219,8 @@ def main() -> None:
     out.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"Wrote {out.relative_to(REPO)} — {len(records)} posts across "
           f"{len(platforms)} platform(s): "
-          f"{', '.join(p['name'] for p in platforms)}; {len(topics)} topics.")
+          f"{', '.join(p['name'] for p in platforms)}; {len(topics)} topics; "
+          f"{len(feed)} feed cards.")
 
 
 if __name__ == "__main__":

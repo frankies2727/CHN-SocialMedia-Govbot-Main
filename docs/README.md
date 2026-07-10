@@ -21,6 +21,14 @@ Platforms are detected automatically from the repo, so any platform the bot
 starts posting to (Bluesky, a new X account, …) shows up on its own — no edits
 needed.
 
+## Post feed
+
+Below the charts is a **Post feed** — the actual posts as cards (bill, a
+plain-language summary, and the dated action), newest first, styled like a
+social timeline and filtered by the same controls. The card text comes from the
+bill records the bot saves in each platform's `bills_raw/` folder, so a post
+only appears in the feed once that detail has been committed to the repo.
+
 ## What's in here
 
 | File | What it does |

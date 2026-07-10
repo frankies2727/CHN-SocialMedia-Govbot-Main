@@ -106,6 +106,26 @@
   .empty { color:var(--muted); padding:24px 12px; text-align:center; }
   .rowcap { color:var(--muted); font-size:12.5px; margin-top:12px; }
 
+  /* ---- post feed ---- */
+  .feed { display:flex; flex-direction:column; gap:12px; }
+  .fcard { border:1px solid var(--border); border-radius:12px; background:var(--surface-2); padding:14px 16px; }
+  .fhead { display:flex; justify-content:space-between; align-items:center; gap:10px; margin-bottom:9px; }
+  .facct { display:flex; align-items:center; gap:7px; font-size:12.5px; color:var(--ink-2); min-width:0; }
+  .facct .dot { width:9px; height:9px; border-radius:3px; flex:0 0 auto; }
+  .facct .nm { white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .facct .sep { color:var(--muted); }
+  .facct .tp { color:var(--muted); white-space:nowrap; }
+  .fdate { color:var(--muted); font-size:12.5px; white-space:nowrap; flex:0 0 auto; }
+  .ftitle { font-size:15.5px; font-weight:650; color:var(--ink); line-height:1.35;
+    display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+  .ftitle .em { margin-right:7px; }
+  .ftitle .fbill { color:var(--muted); }
+  .fsum { color:var(--ink-2); font-size:13.5px; margin-top:7px; line-height:1.55;
+    display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+  .faction { margin-top:11px; font-size:13px; color:var(--ink); display:flex; gap:7px; align-items:baseline; }
+  .faction .cal { color:var(--muted); flex:0 0 auto; }
+  .faction .adate { color:var(--ink-2); font-weight:600; }
+
   #tip { position:fixed; pointer-events:none; z-index:50; background:#000; color:#fff;
     border:1px solid var(--border); border-radius:8px; padding:7px 10px; font-size:12.5px;
     opacity:0; transition:opacity .08s; max-width:260px; }
@@ -188,8 +208,14 @@
       <div class="bars" id="states"></div>
     </section>
 
+    <section class="card" style="margin-bottom:16px">
+      <h2>Post feed <span class="sub">— the actual posts, newest first</span></h2>
+      <div class="feed" id="feed"></div>
+      <div class="rowcap" id="feedcap"></div>
+    </section>
+
     <section class="card">
-      <h2>Matching posts <span class="sub">— newest first</span></h2>
+      <h2>Matching posts <span class="sub">— compact list, newest first</span></h2>
       <div class="tbl-wrap">
         <table>
           <thead><tr>
@@ -220,7 +246,9 @@ function showTip(e,html){ tip.innerHTML=html; tip.style.opacity=1;
   tip.style.left=x+"px"; tip.style.top=y+"px"; }
 function hideTip(){ tip.style.opacity=0; }
 
-const ROW_CAP = 250;
+const ROW_CAP = 250, FEED_CAP = 60;
+const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+function fmtDate(iso){ const p=(iso||"").split("-").map(Number); if(!p[0]) return iso||""; return `${MONTHS[p[1]-1]} ${p[2]}, ${p[0]}`; }
 let DATA=null, P={}, T={};      // platform + topic lookup maps
 const state = { platforms:new Set(), topic:"all", stateCode:"all", from:"", to:"" };
 
@@ -293,14 +321,15 @@ function resetFilters(){
 }
 
 /* ---------- filtering ---------- */
-function filtered(){
-  return DATA.records.filter(r=>
-    state.platforms.has(r.platform) &&
+function matches(r){
+  return state.platforms.has(r.platform) &&
     (state.topic==="all" || r.topic===state.topic) &&
     (state.stateCode==="all" || r.state===state.stateCode) &&
     (!state.from || r.date>=state.from) &&
-    (!state.to   || r.date<=state.to));
+    (!state.to   || r.date<=state.to);
 }
+function filtered(){ return DATA.records.filter(matches); }
+function filteredFeed(){ return (DATA.feed||[]).filter(matches); }
 
 function apply(){
   const recs=filtered();
@@ -310,6 +339,7 @@ function apply(){
   renderTimeline(recs);
   renderTopics(recs);
   renderStates(recs);
+  renderFeed(filteredFeed());
   renderRows(recs);
 }
 
@@ -470,6 +500,30 @@ function renderRows(recs){
     tb.appendChild(tr);
   });
   $("#rowcap").textContent = recs.length>ROW_CAP ? `Showing the ${ROW_CAP} most recent of ${fmt(recs.length)} matching posts — narrow the filters or use ⬇ CSV for the full list.` : `${fmt(recs.length)} matching posts.`;
+}
+
+function renderFeed(items){
+  const host=$("#feed"); host.innerHTML="";
+  if(!items.length){ host.appendChild(el("div",{class:"empty"},"No posts match these filters.")); $("#feedcap").textContent=""; return; }
+  items.slice(0,FEED_CAP).forEach(r=>{
+    const t=T[r.topic]||{name:r.topic,emoji:"📄",color:"#888"}, p=P[r.platform]||{name:r.platform,color:"#888"};
+    const card=el("div",{class:"fcard"});
+    card.innerHTML =
+      `<div class="fhead">
+         <span class="facct"><span class="dot" style="background:${p.color}"></span>`+
+         `<span class="nm">${esc(p.name)}</span><span class="sep">·</span>`+
+         `<span class="tp">${esc(t.emoji)} ${esc(t.name)}</span></span>
+         <span class="fdate">${esc(fmtDate(r.date))}</span>
+       </div>
+       <div class="ftitle"><span class="em">${esc(t.emoji)}</span>`+
+         `<span class="fbill">${esc(r.state)} ${esc(r.bill)}</span> — ${esc(r.title||"(untitled bill)")}</div>`+
+       (r.summary?`<div class="fsum">${esc(r.summary)}</div>`:"")+
+       (r.action?`<div class="faction"><span class="cal">📅</span><span><span class="adate">${esc(fmtDate(r.date))}:</span> ${esc(r.action)}</span></div>`:"");
+    host.appendChild(card);
+  });
+  $("#feedcap").textContent = items.length>FEED_CAP
+    ? `Showing the ${FEED_CAP} most recent of ${fmt(items.length)} detailed posts — narrow the filters to see others.`
+    : `${fmt(items.length)} detailed post${items.length===1?"":"s"}.`;
 }
 
 function hexBg(hex){
