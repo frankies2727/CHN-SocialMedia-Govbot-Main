@@ -1,0 +1,48 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Berthiaume of Spencer and Senator Durant, a joint petition (subject to Joint Rule 12) of Donald R. Berthiaume, Jr., that Bradford G. Merkel be authorized to take the state police examination notwithstanding the maximum age requirement.  Public Service.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H5189",
+    "legislative_session": "194th",
+    "title": "An Act authorizing Bradford G. Merkel to take the state police examination notwithstanding the maximum age requirement"
+  },
+  "id": "H5189",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Read; and referred to the committee on Senate Rules",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-01",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "committee on Senate Rules"
+        },
+        {
+          "entity_type": "organization",
+          "name": "the committee on Senate Rules"
+        }
+      ],
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/H5189"
+        }
+      ]
+    },
+    "bill_id": "H5189"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H5189/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H5189/logs/20260701T000000Z_read_and_referred_to_the_committee_on_senate_rules.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

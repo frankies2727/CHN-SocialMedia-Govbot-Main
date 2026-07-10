@@ -1,0 +1,297 @@
+-- S 2197 SUBSTITUTE A AS AMENDED
+========
+========
+
+STATE
+
+OF
+
+RHODE
+
+ISLAND
+
+IN GENERAL ASSEMBLY
+JANUARY SESSION, A.D. 2026
+____________
+AN ACT
+RELATING TO BEHAVIORAL HEALTHCARE, DEVELOPMENTAL DISABILITIES AND
+HOSPITALS -- OVERSIGHT OF ARTIFICIAL INTELLIGENCE TECHNOLOGY IN
+MENTAL HEALTH CARE ACT
+
+Introduced By: Senators Urso, Tikoian, Zurier, Burke, Gu, Paolino, DiPalma, and
+Famiglietti
+Date Introduced: January 23, 2026
+Referred To: Senate Artificial Intelligence & Emerging Tech
+
+It is enacted by the General Assembly as follows:
+
+SECTION 1. Title 40.1 of the General Laws entitled "BEHAVIORAL HEALTHCARE,
+
+DEVELOPMENTAL DISABILITIES AND HOSPITALS" is hereby amended by adding thereto
+
+the following chapter:
+
+CHAPTER 5.5
+
+OVERSIGHT OF ARTIFICIAL INTELLIGENCE TECHNOLOGY IN MENTAL HEALTH
+
+CARE ACT
+
+40.1-5.5-1. Short title.
+
+This chapter shall be known and may be cited as the "Oversight of Artificial Intelligence
+
+Technology in Mental Health Care Act".
+
+40.1-5.5-2. Definitions.
+
+For the purposes of this chapter:
+
+(1) "Administrative support" means tasks performed to assist a licensed professional or
+
+provider in the delivery of therapy or psychotherapy services that do not involve therapeutic
+
+communication. "Administrative support" includes, but is not limited to, the following:
+
+(i) Managing appointment scheduling and reminders;
+
+(ii) Processing billing and insurance claims; and
+
+(iii) Drafting general communications related to therapy logistics that do not include
+
+therapeutic advice.
+
+(2) "Artificial intelligence", "artificial intelligence technology", or "AI" means a machine-
+
+based system that can, for a given set of human-defined objectives, make predictions,
+
+recommendations, or decisions influencing real or virtual environments.
+
+(3) "Consent" means an affirmative written agreement, including by electronic means,
+
+which unambiguously communicates the individual's explicit, express, freely given, informed,
+
+voluntary, and specific agreement, and which is revocable by the individual. "Consent" does not
+
+include an agreement that is obtained by the following:
+
+(i) The acceptance of a general or broad terms of use, agreement, or a similar document
+that contains descriptions of artificial intelligence along with other unrelated information;
+(ii) An individual hovering over, muting, pausing, or closing a given piece of digital
+content; or
+
+(iii) Using deceptive actions.
+
+(4) "Licensed professional or provider" means an individual who holds a valid license,
+
+credential, or certification issued by this state to provide therapy or psychotherapy services.
+
+(5) "Peer support" means services provided by individuals with lived experience of mental
+
+health conditions or recovery from substance use or gambling that are intended to offer
+
+encouragement, understanding, and guidance without clinical intervention.
+
+(6) "Permitted use of artificial intelligence" means the use of artificial intelligence tools or
+
+systems by a licensed professional or provider to assist in providing administrative support or
+
+supplementary support in therapy or psychotherapy services where the licensed professional or
+
+provider maintains responsibility for clinical judgement and reasonable therapeutic oversight of the
+
+patient's use of the system, but not for vendor-controlled system design, algorithms, or outputs.
+
+(7) "Religious counseling" means counseling provided by clergy members, pastoral
+
+counselors, or other religious leaders acting within the scope of their religious duties if the services
+
+are explicitly faith-based and are not represented as clinical mental health services or therapy or
+
+psychotherapy services.
+
+(8) "Supplementary support" means tasks performed to assist a licensed professional or
+
+provider in the delivery of therapy or psychotherapy services that do not involve therapeutic
+
+communication and that are not administrative support. "Supplementary support" includes, but is
+
+not limited to, the following:
+
+(i) Preparing and maintaining client records, including therapy notes;
+
+(ii) Analyzing data to track client progress or identify trends, subject to review by a
+
+licensed, credentialed, or certified professional; and
+(iii) Identifying and organizing external resources or referrals for client use.
+
+LC004017/SUB A - Page 2 of 6
+
+(9) "Therapeutic communication" means any verbal, non-verbal, or written interaction
+
+conducted in a clinical or professional setting that is intended to diagnose or treat an individual's
+
+mental, emotional, or behavioral health concerns. "Therapeutic communication" includes, but is
+
+not limited to:
+
+(i) Direct interactions with clients for the purpose of understanding or reflecting their
+thoughts, emotions, or experiences;
+
+(ii) Providing guidance, therapeutic strategies, or interventions designed to achieve mental
+health outcomes;
+
+(iii) Offering emotional support, reassurance, or empathy in response to psychological or
+emotional distress;
+
+(iv) Collaborating with clients to develop or modify therapeutic goals or treatment plans;
+and
+(v) Offering behavioral feedback intended to promote psychological growth or address
+mental health conditions.
+
+(10) "Therapy or psychotherapy services" means services provided to diagnose or treat an
+
+individual's mental health or behavioral health. "Therapy or psychotherapy services" does not
+
+include religious counseling or peer support.
+
+40.1-5.5-3. Artificial intelligence in mental health care: use restrictions and
+permissions.
+
+(a) No licensed professional or provider shall be permitted to use artificial intelligence,
+
+designed to simulate emotional attachment, bonding, or dependency or artificial intelligence
+
+companions for mental health or emotional support, to assist in supplementary support or
+
+therapeutic communication in therapy or psychotherapy services where the client's therapeutic
+
+session is recorded or transcribed unless the patient or the patient's parent, guardian or other legally
+
+authorized representative is informed in writing of the following and provides consent as defined
+
+in § 40.1-5.5-2:
+
+(1) That artificial intelligence will be used;
+
+(2) The specific purpose of the artificial intelligence tool or system that will be used; and
+
+(3) The patient or the patient's parents, or other legally authorized representative, provides
+
+consent to the use of artificial intelligence.
+
+(b) An individual, corporation, or entity may not provide, advertise, or otherwise offer
+
+therapy or psychotherapy services, including through the use of Internet-based artificial
+
+intelligence, to the public in this state unless the therapy or psychotherapy services are conducted
+
+by an individual who is a licensed professional or provider.
+
+LC004017/SUB A - Page 3 of 6
+
+(c) A licensed professional or provider may use artificial intelligence only to the extent that
+
+such use meets the requirements of subsection (a) of this section. A licensed professional or
+
+provider may not allow or otherwise use artificial intelligence to do any of the following:
+
+(1) Make independent therapeutic decisions;
+
+(2) Directly interact with clients in any form of therapeutic communication without an
+
+established relationship when the licensed professional or provider agrees to undertake diagnosis
+
+and treatment of the patient and the patient consents under this section, whether or not there has
+
+been an in-person encounter between the licensed professional or provider and the patient. The
+
+provider retains responsibility for clinical judgement and reasonable therapeutic oversight of the
+
+patient's use of the system, but not for vendor-controlled system design, algorithms, or outputs; or
+
+(3) Determine therapeutic recommendations or treatment plans.
+
+(d) If a client discloses that they are using software that includes AI features on their own
+
+initiative, the licensed professional or provider may discuss the client's use of the software and offer
+
+guidance about the client's use of the software. The licensed professional is responsible for
+
+maintaining confidentiality and monitoring the safety of the client, intervening when necessary to
+
+protect the safety of the client, and to discuss limitations and risks using the software poses to the
+
+patient.
+
+40.1-5.5-4. Confidentiality of records.
+
+All records kept by a licensed professional or provider and all communications between an
+
+individual seeking therapy or psychotherapy services and a licensed professional or provider shall
+
+be confidential and shall not be disclosed except as provided pursuant to the provisions of § 40.1-
+
+5-26.
+
+40.1-5.5-5. Penalties.
+
+(a) The penalties pursuant to § 5-37.3-9 shall apply to any violation of the confidentiality
+
+provisions of this chapter.
+(b) The executive office of health and human services shall have authority to investigate
+
+any actual, alleged, or suspected violation of this chapter.
+
+(c) This chapter shall not apply to the following:
+
+(1) Religious counseling;
+
+(2) Peer support; and
+
+(3) Self-help materials and educational resources that are available to the public and do not
+
+purport to offer therapy or psychotherapy services.
+
+(4) Any artificial intelligence tool or system that has been reviewed and cleared for use by
+
+the federal Food and Drug Administration, or another federal agency tasked with approving
+
+LC004017/SUB A - Page 4 of 6
+
+artificial intelligence and artificial intelligence algorithms for use in health care.
+
+(5) Research pursuant to the patient consent and/or de-identification requirements of 21
+
+C.F.R. Pt. 50 and/or 45 C.F.R. Pt. 46 approved by a healthcare facility’s institutional review board
+
+pursuant to § 23-17-19.1.
+
+40.1-5.5-6. Rules and Regulations.
+
+The executive office of health and human services is authorized to promulgate rules and
+
+regulations to carry out the intent of this chapter.
+SECTION 2. This act shall take effect upon passage.
+========
+========
+
+LC004017/SUB A - Page 5 of 6
+
+EXPLANATION
+BY THE LEGISLATIVE COUNCIL
+OF
+AN ACT
+RELATING TO BEHAVIORAL HEALTHCARE, DEVELOPMENTAL DISABILITIES AND
+HOSPITALS -- OVERSIGHT OF ARTIFICIAL INTELLIGENCE TECHNOLOGY IN
+MENTAL HEALTH CARE ACT
+
+***
+
+This act would establish regulations regarding the use of artificial intelligence in mental
+healthcare treatments.
+This act would take effect upon passage.
+========
+========
+
+LC004017/SUB A - Page 6 of 6
