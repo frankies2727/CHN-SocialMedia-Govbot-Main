@@ -1,0 +1,1215 @@
+{
+  "generated_at": "2026-07-10 20:32 UTC",
+  "totals": {
+    "posts": 252,
+    "platforms": 2,
+    "topics": 13,
+    "states": 14,
+    "bills": 105,
+    "first_date": "2026-04-27",
+    "last_date": "2028-07-01"
+  },
+  "platforms": [
+    {
+      "key": "instagram",
+      "name": "Instagram",
+      "count": 128
+    },
+    {
+      "key": "meta-threads",
+      "name": "Meta Threads",
+      "count": 124
+    }
+  ],
+  "topics": [
+    {
+      "key": "lgbtq",
+      "name": "LGBTQ",
+      "emoji": "🏳️‍🌈",
+      "color": "#C026D3",
+      "count": 59,
+      "platforms": {
+        "instagram": 28,
+        "meta-threads": 31
+      }
+    },
+    {
+      "key": "criminal_justice",
+      "name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "count": 28,
+      "platforms": {
+        "instagram": 19,
+        "meta-threads": 9
+      }
+    },
+    {
+      "key": "housing",
+      "name": "Housing",
+      "emoji": "🏠",
+      "color": "#EA580C",
+      "count": 24,
+      "platforms": {
+        "instagram": 16,
+        "meta-threads": 8
+      }
+    },
+    {
+      "key": "taxation",
+      "name": "Taxation",
+      "emoji": "💰",
+      "color": "#CA8A04",
+      "count": 24,
+      "platforms": {
+        "instagram": 13,
+        "meta-threads": 11
+      }
+    },
+    {
+      "key": "labor",
+      "name": "Labor & Workers' Rights",
+      "emoji": "🛠️",
+      "color": "#B45309",
+      "count": 23,
+      "platforms": {
+        "instagram": 7,
+        "meta-threads": 16
+      }
+    },
+    {
+      "key": "healthcare",
+      "name": "Healthcare",
+      "emoji": "🏥",
+      "color": "#0D9488",
+      "count": 17,
+      "platforms": {
+        "instagram": 14,
+        "meta-threads": 3
+      }
+    },
+    {
+      "key": "elections_voting_rights",
+      "name": "Elections & Voting Rights",
+      "emoji": "🗳️",
+      "color": "#7C3AED",
+      "count": 15,
+      "platforms": {
+        "instagram": 4,
+        "meta-threads": 11
+      }
+    },
+    {
+      "key": "immigration",
+      "name": "Immigration",
+      "emoji": "🛂",
+      "color": "#0891B2",
+      "count": 15,
+      "platforms": {
+        "instagram": 5,
+        "meta-threads": 10
+      }
+    },
+    {
+      "key": "ai_data_centers",
+      "name": "AI, Data Centers & Crypto",
+      "emoji": "🤖",
+      "color": "#6366F1",
+      "count": 13,
+      "platforms": {
+        "instagram": 6,
+        "meta-threads": 7
+      }
+    },
+    {
+      "key": "education",
+      "name": "Education",
+      "emoji": "🎓",
+      "color": "#2563EB",
+      "count": 10,
+      "platforms": {
+        "instagram": 3,
+        "meta-threads": 7
+      }
+    },
+    {
+      "key": "transportation",
+      "name": "Transportation",
+      "emoji": "🚗",
+      "color": "#1D4ED8",
+      "count": 9,
+      "platforms": {
+        "instagram": 1,
+        "meta-threads": 8
+      }
+    },
+    {
+      "key": "reproductive_rights",
+      "name": "Reproductive Rights",
+      "emoji": "🩺",
+      "color": "#DB2777",
+      "count": 8,
+      "platforms": {
+        "instagram": 6,
+        "meta-threads": 2
+      }
+    },
+    {
+      "key": "environment_climate",
+      "name": "Environment & Climate",
+      "emoji": "🌎",
+      "color": "#15803D",
+      "count": 7,
+      "platforms": {
+        "instagram": 6,
+        "meta-threads": 1
+      }
+    }
+  ],
+  "states": [
+    {
+      "code": "CA",
+      "count": 69
+    },
+    {
+      "code": "DE",
+      "count": 43
+    },
+    {
+      "code": "MO",
+      "count": 38
+    },
+    {
+      "code": "MA",
+      "count": 22
+    },
+    {
+      "code": "GA",
+      "count": 16
+    },
+    {
+      "code": "RI",
+      "count": 15
+    },
+    {
+      "code": "NH",
+      "count": 11
+    },
+    {
+      "code": "WI",
+      "count": 11
+    },
+    {
+      "code": "TN",
+      "count": 10
+    },
+    {
+      "code": "PR",
+      "count": 7
+    },
+    {
+      "code": "FL",
+      "count": 4
+    },
+    {
+      "code": "IA",
+      "count": 3
+    },
+    {
+      "code": "AL",
+      "count": 2
+    },
+    {
+      "code": "CO",
+      "count": 1
+    }
+  ],
+  "timeline": [
+    {
+      "month": "2026-04",
+      "count": 7
+    },
+    {
+      "month": "2026-05",
+      "count": 78
+    },
+    {
+      "month": "2026-06",
+      "count": 135
+    },
+    {
+      "month": "2026-07",
+      "count": 26
+    },
+    {
+      "month": "2027-01",
+      "count": 4
+    },
+    {
+      "month": "2028-07",
+      "count": 2
+    }
+  ],
+  "recent": [
+    {
+      "state": "GA",
+      "bill": "SB 160",
+      "date": "2028-07-01",
+      "action": "Effective Date",
+      "topic": "transportation",
+      "topic_name": "Transportation",
+      "emoji": "🚗",
+      "color": "#1D4ED8",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "GA",
+      "bill": "SB 160",
+      "date": "2028-07-01",
+      "action": "Effective Date",
+      "topic": "transportation",
+      "topic_name": "Transportation",
+      "emoji": "🚗",
+      "color": "#1D4ED8",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "GA",
+      "bill": "SB 444",
+      "date": "2027-01-01",
+      "action": "Effective Date",
+      "topic": "ai_data_centers",
+      "topic_name": "AI, Data Centers & Crypto",
+      "emoji": "🤖",
+      "color": "#6366F1",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "GA",
+      "bill": "HB 90",
+      "date": "2027-01-01",
+      "action": "Effective Date",
+      "topic": "environment_climate",
+      "topic_name": "Environment & Climate",
+      "emoji": "🌎",
+      "color": "#15803D",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "GA",
+      "bill": "SB 444",
+      "date": "2027-01-01",
+      "action": "",
+      "topic": "healthcare",
+      "topic_name": "Healthcare",
+      "emoji": "🏥",
+      "color": "#0D9488",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "GA",
+      "bill": "SB 444",
+      "date": "2027-01-01",
+      "action": "Effective Date",
+      "topic": "healthcare",
+      "topic_name": "Healthcare",
+      "emoji": "🏥",
+      "color": "#0D9488",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "AB1655",
+      "date": "2026-07-07",
+      "action": "",
+      "topic": "immigration",
+      "topic_name": "Immigration",
+      "emoji": "🛂",
+      "color": "#0891B2",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "AB1655",
+      "date": "2026-07-07",
+      "action": "From committee: Amend, and do pass as am",
+      "topic": "immigration",
+      "topic_name": "Immigration",
+      "emoji": "🛂",
+      "color": "#0891B2",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "AB1655",
+      "date": "2026-07-07",
+      "action": "Read second time and amended. Re-referre",
+      "topic": "immigration",
+      "topic_name": "Immigration",
+      "emoji": "🛂",
+      "color": "#0891B2",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "SB1075",
+      "date": "2026-07-02",
+      "action": "Read second time and amended. Re-referre",
+      "topic": "environment_climate",
+      "topic_name": "Environment & Climate",
+      "emoji": "🌎",
+      "color": "#15803D",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "SB942",
+      "date": "2026-07-02",
+      "action": "Read second time and amended. Re-referre",
+      "topic": "immigration",
+      "topic_name": "Immigration",
+      "emoji": "🛂",
+      "color": "#0891B2",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "CA",
+      "bill": "ACR227",
+      "date": "2026-07-02",
+      "action": "",
+      "topic": "labor",
+      "topic_name": "Labor & Workers' Rights",
+      "emoji": "🛠️",
+      "color": "#B45309",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "CA",
+      "bill": "ACR227",
+      "date": "2026-07-02",
+      "action": "Adopted and to Senate. (Ayes 70. Noes 0.",
+      "topic": "labor",
+      "topic_name": "Labor & Workers' Rights",
+      "emoji": "🛠️",
+      "color": "#B45309",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "CA",
+      "bill": "ACR227",
+      "date": "2026-07-02",
+      "action": "In Senate. To Com. on RLS.",
+      "topic": "labor",
+      "topic_name": "Labor & Workers' Rights",
+      "emoji": "🛠️",
+      "color": "#B45309",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "CA",
+      "bill": "AB2770",
+      "date": "2026-07-02",
+      "action": "Read second time and amended. Re-referre",
+      "topic": "taxation",
+      "topic_name": "Taxation",
+      "emoji": "💰",
+      "color": "#CA8A04",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "GA",
+      "bill": "SB 399",
+      "date": "2026-07-01",
+      "action": "Effective Date",
+      "topic": "criminal_justice",
+      "topic_name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "MA",
+      "bill": "H5189",
+      "date": "2026-07-01",
+      "action": "",
+      "topic": "criminal_justice",
+      "topic_name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "MA",
+      "bill": "H5189",
+      "date": "2026-07-01",
+      "action": "Read; and referred to the committee on S",
+      "topic": "criminal_justice",
+      "topic_name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "GA",
+      "bill": "SB 552",
+      "date": "2026-07-01",
+      "action": "Effective Date",
+      "topic": "education",
+      "topic_name": "Education",
+      "emoji": "🎓",
+      "color": "#2563EB",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "GA",
+      "bill": "SB 552",
+      "date": "2026-07-01",
+      "action": "Effective Date",
+      "topic": "education",
+      "topic_name": "Education",
+      "emoji": "🎓",
+      "color": "#2563EB",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "MA",
+      "bill": "S2916",
+      "date": "2026-07-01",
+      "action": "Amendment #7 adopted, as changed",
+      "topic": "elections_voting_rights",
+      "topic_name": "Elections & Voting Rights",
+      "emoji": "🗳️",
+      "color": "#7C3AED",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "MA",
+      "bill": "S2916",
+      "date": "2026-07-01",
+      "action": "Amendment #9 adopted, as changed",
+      "topic": "elections_voting_rights",
+      "topic_name": "Elections & Voting Rights",
+      "emoji": "🗳️",
+      "color": "#7C3AED",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "MA",
+      "bill": "S2916",
+      "date": "2026-07-01",
+      "action": "Committee recommended ought to pass with",
+      "topic": "elections_voting_rights",
+      "topic_name": "Elections & Voting Rights",
+      "emoji": "🗳️",
+      "color": "#7C3AED",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "MA",
+      "bill": "S2916",
+      "date": "2026-07-01",
+      "action": "Committee reported that the matter be pl",
+      "topic": "elections_voting_rights",
+      "topic_name": "Elections & Voting Rights",
+      "emoji": "🗳️",
+      "color": "#7C3AED",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "MA",
+      "bill": "S2916",
+      "date": "2026-07-01",
+      "action": "Ordered to a third reading",
+      "topic": "elections_voting_rights",
+      "topic_name": "Elections & Voting Rights",
+      "emoji": "🗳️",
+      "color": "#7C3AED",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "MA",
+      "bill": "S2916",
+      "date": "2026-07-01",
+      "action": "Read second, amended (as recommended by",
+      "topic": "elections_voting_rights",
+      "topic_name": "Elections & Voting Rights",
+      "emoji": "🗳️",
+      "color": "#7C3AED",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "MA",
+      "bill": "S2916",
+      "date": "2026-07-01",
+      "action": "Read third",
+      "topic": "elections_voting_rights",
+      "topic_name": "Elections & Voting Rights",
+      "emoji": "🗳️",
+      "color": "#7C3AED",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "MA",
+      "bill": "S2916",
+      "date": "2026-07-01",
+      "action": "Rules suspended",
+      "topic": "elections_voting_rights",
+      "topic_name": "Elections & Voting Rights",
+      "emoji": "🗳️",
+      "color": "#7C3AED",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "MA",
+      "bill": "SD4028",
+      "date": "2026-07-01",
+      "action": "Placed on file",
+      "topic": "healthcare",
+      "topic_name": "Healthcare",
+      "emoji": "🏥",
+      "color": "#0D9488",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "GA",
+      "bill": "HB 1020",
+      "date": "2026-07-01",
+      "action": "Effective Date",
+      "topic": "labor",
+      "topic_name": "Labor & Workers' Rights",
+      "emoji": "🛠️",
+      "color": "#B45309",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "GA",
+      "bill": "HB 1020",
+      "date": "2026-07-01",
+      "action": "Effective Date",
+      "topic": "labor",
+      "topic_name": "Labor & Workers' Rights",
+      "emoji": "🛠️",
+      "color": "#B45309",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "MA",
+      "bill": "S2861",
+      "date": "2026-07-01",
+      "action": "Committee recommended ought to pass and",
+      "topic": "transportation",
+      "topic_name": "Transportation",
+      "emoji": "🚗",
+      "color": "#1D4ED8",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 2012",
+      "date": "2026-06-30",
+      "action": "Delivered to Secretary of State (G)",
+      "topic": "criminal_justice",
+      "topic_name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 2012",
+      "date": "2026-06-30",
+      "action": "Vetoed in Part by Governor (G)",
+      "topic": "criminal_justice",
+      "topic_name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 344",
+      "date": "2026-06-30",
+      "action": "Reported Out of Committee (Finance) in S",
+      "topic": "elections_voting_rights",
+      "topic_name": "Elections & Voting Rights",
+      "emoji": "🗳️",
+      "color": "#7C3AED",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SJR 19",
+      "date": "2026-06-30",
+      "action": "",
+      "topic": "healthcare",
+      "topic_name": "Healthcare",
+      "emoji": "🏥",
+      "color": "#0D9488",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SJR 19",
+      "date": "2026-06-30",
+      "action": "Laid On Table in House",
+      "topic": "healthcare",
+      "topic_name": "Healthcare",
+      "emoji": "🏥",
+      "color": "#0D9488",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SJR 19",
+      "date": "2026-06-30",
+      "action": "Lifted From Table in House",
+      "topic": "healthcare",
+      "topic_name": "Healthcare",
+      "emoji": "🏥",
+      "color": "#0D9488",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 116",
+      "date": "2026-06-30",
+      "action": "",
+      "topic": "housing",
+      "topic_name": "Housing",
+      "emoji": "🏠",
+      "color": "#EA580C",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 116",
+      "date": "2026-06-30",
+      "action": "Amendment HA 1 to SS 1 - Passed In House",
+      "topic": "housing",
+      "topic_name": "Housing",
+      "emoji": "🏠",
+      "color": "#EA580C",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 116",
+      "date": "2026-06-30",
+      "action": "Amendment HA 2 to SS 1 - Introduced and",
+      "topic": "housing",
+      "topic_name": "Housing",
+      "emoji": "🏠",
+      "color": "#EA580C",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 116",
+      "date": "2026-06-30",
+      "action": "Amendment HA 2 to SS 1 - Passed In House",
+      "topic": "housing",
+      "topic_name": "Housing",
+      "emoji": "🏠",
+      "color": "#EA580C",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "SB1072",
+      "date": "2026-06-30",
+      "action": "From committee: Do pass and re-refer to",
+      "topic": "housing",
+      "topic_name": "Housing",
+      "emoji": "🏠",
+      "color": "#EA580C",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "CA",
+      "bill": "SB171",
+      "date": "2026-06-30",
+      "action": "Enrolled and presented to the Governor a",
+      "topic": "labor",
+      "topic_name": "Labor & Workers' Rights",
+      "emoji": "🛠️",
+      "color": "#B45309",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "PR",
+      "bill": "RC0537",
+      "date": "2026-06-29",
+      "action": "",
+      "topic": "housing",
+      "topic_name": "Housing",
+      "emoji": "🏠",
+      "color": "#EA580C",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "PR",
+      "bill": "RC0537",
+      "date": "2026-06-29",
+      "action": "Aprobada por Cámara por unanimidad",
+      "topic": "housing",
+      "topic_name": "Housing",
+      "emoji": "🏠",
+      "color": "#EA580C",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "PR",
+      "bill": "RC0537",
+      "date": "2026-06-29",
+      "action": "Aprobado con enmiendas del informe",
+      "topic": "housing",
+      "topic_name": "Housing",
+      "emoji": "🏠",
+      "color": "#EA580C",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "PR",
+      "bill": "RC0537",
+      "date": "2026-06-29",
+      "action": "En el Calendario de Ordenes Especiales d",
+      "topic": "housing",
+      "topic_name": "Housing",
+      "emoji": "🏠",
+      "color": "#EA580C",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "PR",
+      "bill": "RC0537",
+      "date": "2026-06-29",
+      "action": "Texto de Aprobación Final en Cámara",
+      "topic": "housing",
+      "topic_name": "Housing",
+      "emoji": "🏠",
+      "color": "#EA580C",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "SB135",
+      "date": "2026-06-29",
+      "action": "",
+      "topic": "lgbtq",
+      "topic_name": "LGBTQ",
+      "emoji": "🏳️‍🌈",
+      "color": "#C026D3",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "SB135",
+      "date": "2026-06-29",
+      "action": "Assembly Rule 63 suspended.",
+      "topic": "lgbtq",
+      "topic_name": "LGBTQ",
+      "emoji": "🏳️‍🌈",
+      "color": "#C026D3",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "SB135",
+      "date": "2026-06-29",
+      "action": "Assembly amendments concurred in. (Ayes",
+      "topic": "lgbtq",
+      "topic_name": "LGBTQ",
+      "emoji": "🏳️‍🌈",
+      "color": "#C026D3",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "SB135",
+      "date": "2026-06-29",
+      "action": "In Senate. Concurrence in Assembly amend",
+      "topic": "lgbtq",
+      "topic_name": "LGBTQ",
+      "emoji": "🏳️‍🌈",
+      "color": "#C026D3",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "SB135",
+      "date": "2026-06-29",
+      "action": "Unanimous consent granted to take up wit",
+      "topic": "lgbtq",
+      "topic_name": "LGBTQ",
+      "emoji": "🏳️‍🌈",
+      "color": "#C026D3",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "SB135",
+      "date": "2026-06-29",
+      "action": "Withdrawn from committee pursuant to Ass",
+      "topic": "lgbtq",
+      "topic_name": "LGBTQ",
+      "emoji": "🏳️‍🌈",
+      "color": "#C026D3",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "AB1988",
+      "date": "2026-06-26",
+      "action": "In committee: Set, final hearing. Hearin",
+      "topic": "ai_data_centers",
+      "topic_name": "AI, Data Centers & Crypto",
+      "emoji": "🤖",
+      "color": "#6366F1",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "AB172",
+      "date": "2026-06-26",
+      "action": "From committee chair, with author's amen",
+      "topic": "housing",
+      "topic_name": "Housing",
+      "emoji": "🏠",
+      "color": "#EA580C",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "AB135",
+      "date": "2026-06-26",
+      "action": "From committee chair, with author's amen",
+      "topic": "lgbtq",
+      "topic_name": "LGBTQ",
+      "emoji": "🏳️‍🌈",
+      "color": "#C026D3",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "AB135",
+      "date": "2026-06-26",
+      "action": "From committee chair, with author's amen",
+      "topic": "lgbtq",
+      "topic_name": "LGBTQ",
+      "emoji": "🏳️‍🌈",
+      "color": "#C026D3",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "CA",
+      "bill": "SB135",
+      "date": "2026-06-26",
+      "action": "From committee with author's amendments.",
+      "topic": "lgbtq",
+      "topic_name": "LGBTQ",
+      "emoji": "🏳️‍🌈",
+      "color": "#C026D3",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "CA",
+      "bill": "AB172",
+      "date": "2026-06-26",
+      "action": "From committee chair, with author's amen",
+      "topic": "taxation",
+      "topic_name": "Taxation",
+      "emoji": "💰",
+      "color": "#CA8A04",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "CA",
+      "bill": "AB2504",
+      "date": "2026-06-25",
+      "action": "From committee: Do pass and re-refer to",
+      "topic": "ai_data_centers",
+      "topic_name": "AI, Data Centers & Crypto",
+      "emoji": "🤖",
+      "color": "#6366F1",
+      "platform": "meta-threads",
+      "platform_name": "Meta Threads"
+    },
+    {
+      "state": "CA",
+      "bill": "AB1927",
+      "date": "2026-06-25",
+      "action": "Read second time and amended. Re-referre",
+      "topic": "criminal_justice",
+      "topic_name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 300",
+      "date": "2026-06-25",
+      "action": "",
+      "topic": "criminal_justice",
+      "topic_name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 300",
+      "date": "2026-06-25",
+      "action": "Amendment HA 1 to SS 1 - Stricken in Hou",
+      "topic": "criminal_justice",
+      "topic_name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 300",
+      "date": "2026-06-25",
+      "action": "Amendment HA 10 to SS 1 - Stricken in Ho",
+      "topic": "criminal_justice",
+      "topic_name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 300",
+      "date": "2026-06-25",
+      "action": "Amendment HA 11 to SS 1 - Stricken in Ho",
+      "topic": "criminal_justice",
+      "topic_name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 300",
+      "date": "2026-06-25",
+      "action": "Amendment HA 12 to SS 1 - Stricken in Ho",
+      "topic": "criminal_justice",
+      "topic_name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 300",
+      "date": "2026-06-25",
+      "action": "Amendment HA 13 to SS 1 - Stricken in Ho",
+      "topic": "criminal_justice",
+      "topic_name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 300",
+      "date": "2026-06-25",
+      "action": "Amendment HA 14 to SS 1 - Stricken in Ho",
+      "topic": "criminal_justice",
+      "topic_name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 300",
+      "date": "2026-06-25",
+      "action": "Amendment HA 15 to SS 1 - Passed In Hous",
+      "topic": "criminal_justice",
+      "topic_name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 300",
+      "date": "2026-06-25",
+      "action": "Amendment HA 16 to SS 1 - Introduced and",
+      "topic": "criminal_justice",
+      "topic_name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 300",
+      "date": "2026-06-25",
+      "action": "Amendment HA 16 to SS 1 - Passed In Hous",
+      "topic": "criminal_justice",
+      "topic_name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 300",
+      "date": "2026-06-25",
+      "action": "Amendment HA 2 to SS 1 - Stricken in Hou",
+      "topic": "criminal_justice",
+      "topic_name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 300",
+      "date": "2026-06-25",
+      "action": "Amendment HA 3 to SS 1 - Stricken in Hou",
+      "topic": "criminal_justice",
+      "topic_name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 300",
+      "date": "2026-06-25",
+      "action": "Amendment HA 4 to SS 1 - Stricken in Hou",
+      "topic": "criminal_justice",
+      "topic_name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 300",
+      "date": "2026-06-25",
+      "action": "Amendment HA 5 to SS 1 - Stricken in Hou",
+      "topic": "criminal_justice",
+      "topic_name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 300",
+      "date": "2026-06-25",
+      "action": "Amendment HA 6 to SS 1 - Stricken in Hou",
+      "topic": "criminal_justice",
+      "topic_name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 300",
+      "date": "2026-06-25",
+      "action": "Amendment HA 7 to SS 1 - Stricken in Hou",
+      "topic": "criminal_justice",
+      "topic_name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 300",
+      "date": "2026-06-25",
+      "action": "Amendment HA 8 to SS 1 - Stricken in Hou",
+      "topic": "criminal_justice",
+      "topic_name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569",
+      "platform": "instagram",
+      "platform_name": "Instagram"
+    }
+  ]
+}

@@ -5,7 +5,12 @@ __pycache__/
 bills.jsonl
 # Per-shard pre-normalized bills cache (built once, read by every topic process)
 bills_normalized.json
-docs/
+# The published dashboard lives in docs/ (GitHub Pages). Ignore anything the bot
+# might drop there, but keep the dashboard's own source files tracked.
+docs/*
+!docs/index.html
+!docs/data.json
+!docs/README.md
 
 # Cached full bill text extracted from PDFs (regenerated each run)
 .bill_text_cache/

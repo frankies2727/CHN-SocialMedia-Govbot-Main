@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Social Media Posts Dashboard</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>" />
+<style>
+  :root {
+    --plane:        #0d0d0d;   /* page background        */
+    --surface:      #1a1a19;   /* card surface           */
+    --surface-2:    #232322;   /* insets / tracks        */
+    --ink:          #ffffff;   /* primary text           */
+    --ink-2:        #c3c2b7;   /* secondary text         */
+    --muted:        #898781;   /* labels / axis          */
+    --grid:         #2c2c2a;   /* hairline gridline      */
+    --baseline:     #383835;
+    --border:       rgba(255,255,255,0.10);
+    --ig:           #3987e5;   /* Instagram series       */
+    --th:           #d95926;   /* Meta Threads series    */
+    --radius:       14px;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--plane);
+    color: var(--ink);
+    font-family: var(--sans);
+    line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+    padding: 28px 20px 80px;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; }
+
+  header.page { margin-bottom: 24px; }
+  header.page h1 { font-size: 26px; margin: 0 0 6px; letter-spacing: -0.01em; }
+  header.page p { margin: 0; color: var(--ink-2); font-size: 15px; }
+  .stamp { color: var(--muted); font-size: 13px; margin-top: 10px; }
+  .stamp b { color: var(--ink-2); font-weight: 600; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px 22px;
+  }
+  .card h2 {
+    font-size: 14px; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--muted); margin: 0 0 16px; font-weight: 600;
+  }
+  .card h2 .sub { text-transform: none; letter-spacing: 0; color: var(--muted); font-weight: 400; }
+
+  .grid { display: grid; gap: 16px; }
+
+  /* ---- KPI tiles ---- */
+  .kpis { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); margin-bottom: 16px; }
+  .kpi { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 18px; }
+  .kpi .label { color: var(--muted); font-size: 12.5px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .kpi .value { font-size: 34px; font-weight: 650; margin-top: 6px; letter-spacing: -0.02em; }
+  .kpi .value.hero { font-size: 48px; }
+  .kpi .note { color: var(--ink-2); font-size: 12.5px; margin-top: 2px; }
+
+  .two { grid-template-columns: 1fr 1fr; margin-bottom: 16px; }
+  @media (max-width: 760px) { .two { grid-template-columns: 1fr; } }
+
+  /* ---- horizontal bars ---- */
+  .bars { display: flex; flex-direction: column; gap: 12px; }
+  .bar-row { display: grid; grid-template-columns: 1fr; gap: 5px; }
+  .bar-top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+  .bar-name { font-size: 14px; color: var(--ink); display: flex; align-items: center; gap: 8px; min-width: 0; }
+  .bar-name .em { font-size: 15px; }
+  .bar-name .txt { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .bar-val { font-size: 14px; color: var(--ink-2); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .bar-val .split { color: var(--muted); font-size: 12px; margin-left: 8px; }
+  .track { height: 12px; background: var(--surface-2); border-radius: 6px; overflow: hidden; display: flex; }
+  .fill { height: 100%; border-radius: 6px; min-width: 2px; }
+  .fill.seg { border-radius: 0; }
+  .fill.seg:first-child { border-radius: 6px 0 0 6px; }
+  .fill.seg:last-child { border-radius: 0 6px 6px 0; }
+  .fill + .fill { margin-left: 2px; } /* 2px surface gap between segments */
+
+  /* ---- legend ---- */
+  .legend { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 4px; }
+  .legend .item { display: flex; align-items: center; gap: 7px; font-size: 13px; color: var(--ink-2); }
+  .legend .dot { width: 10px; height: 10px; border-radius: 3px; }
+
+  /* ---- timeline (svg) ---- */
+  .tl-wrap { width: 100%; overflow-x: auto; }
+  svg { display: block; }
+  .col { cursor: pointer; }
+  .axis-txt { fill: var(--muted); font-size: 11px; font-family: var(--sans); }
+
+  /* ---- recent table ---- */
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; align-items: center; }
+  .filters .flabel { color: var(--muted); font-size: 12.5px; margin-right: 2px; }
+  .chip {
+    border: 1px solid var(--border); background: var(--surface-2); color: var(--ink-2);
+    border-radius: 999px; padding: 5px 12px; font-size: 13px; cursor: pointer; font-family: var(--sans);
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .chip[aria-pressed="true"] { background: var(--ink); color: #111; border-color: var(--ink); font-weight: 600; }
+  .chip .em { font-size: 13px; }
+  select.chip { -webkit-appearance: none; appearance: none; padding-right: 26px;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6'><path d='M0 0l5 6 5-6z' fill='%23898781'/></svg>");
+    background-repeat: no-repeat; background-position: right 10px center; }
+
+  .tbl-wrap { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+  th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--grid); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; white-space: nowrap; }
+  td.date, td.mono { font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--ink-2); }
+  .tchip { display: inline-flex; align-items: center; gap: 6px; padding: 2px 9px; border-radius: 999px; font-size: 12px; white-space: nowrap; }
+  .pdot { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; color: var(--ink-2); }
+  .pdot .dot { width: 8px; height: 8px; border-radius: 3px; }
+  td.action { color: var(--ink-2); }
+  .empty { color: var(--muted); padding: 24px 12px; text-align: center; }
+
+  /* ---- tooltip ---- */
+  #tip { position: fixed; pointer-events: none; z-index: 50; background: #000; color: #fff;
+    border: 1px solid var(--border); border-radius: 8px; padding: 7px 10px; font-size: 12.5px;
+    opacity: 0; transition: opacity .08s; max-width: 240px; }
+  #tip b { color: #fff; } #tip .m { color: var(--ink-2); }
+
+  footer.page { color: var(--muted); font-size: 12.5px; margin-top: 28px; text-align: center; }
+  #error { display: none; color: #ffb4a8; background: #2a1512; border: 1px solid #58221c;
+    padding: 14px 16px; border-radius: 10px; font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="page">
+    <h1>📊 Social Media Posts Dashboard</h1>
+    <p>Every bill update the bot has posted, across all platforms — at a glance.</p>
+    <div class="stamp">Data last built: <b id="gen">…</b></div>
+  </header>
+
+  <div id="error">Couldn't load <code>data.json</code>. If you're opening this file
+    directly from your computer, view it through GitHub Pages instead — that's where it's designed to run.</div>
+
+  <div id="app" hidden>
+    <!-- KPI row -->
+    <div class="grid kpis" id="kpis"></div>
+
+    <!-- platform + topic -->
+    <div class="grid two">
+      <section class="card">
+        <h2>Posts by platform</h2>
+        <div class="bars" id="platforms"></div>
+      </section>
+      <section class="card">
+        <h2>Posts over time <span class="sub">— by month</span></h2>
+        <div class="tl-wrap"><div id="timeline"></div></div>
+      </section>
+    </div>
+
+    <!-- topics full width -->
+    <section class="card" style="margin-bottom:16px">
+      <h2>Posts by topic <span class="sub">— segmented by platform</span></h2>
+      <div class="legend" id="topic-legend"></div>
+      <div class="bars" id="topics" style="margin-top:14px"></div>
+    </section>
+
+    <!-- states -->
+    <section class="card" style="margin-bottom:16px">
+      <h2>Posts by state <span class="sub">— where the bills are from</span></h2>
+      <div class="bars" id="states"></div>
+    </section>
+
+    <!-- recent -->
+    <section class="card">
+      <h2>Recent posts</h2>
+      <div class="filters" id="filters"></div>
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr>
+            <th>Date</th><th>State</th><th>Bill</th><th>Topic</th><th>Platform</th><th>Latest action</th>
+          </tr></thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <footer class="page">
+    Built automatically from this repository's post history · dark-mode dashboard
+  </footer>
+</div>
+
+<div id="tip"></div>
+
+<script>
+const $ = (s, r=document) => r.querySelector(s);
+const el = (tag, attrs={}, html) => { const n = document.createElement(tag);
+  for (const k in attrs) n.setAttribute(k, attrs[k]); if (html != null) n.innerHTML = html; return n; };
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmt = n => n.toLocaleString("en-US");
+
+// shared tooltip
+const tip = $("#tip");
+function showTip(e, html){ tip.innerHTML = html; tip.style.opacity = 1;
+  const pad = 14; let x = e.clientX + pad, y = e.clientY + pad;
+  if (x + tip.offsetWidth > innerWidth) x = e.clientX - tip.offsetWidth - pad;
+  if (y + tip.offsetHeight > innerHeight) y = e.clientY - tip.offsetHeight - pad;
+  tip.style.left = x + "px"; tip.style.top = y + "px"; }
+function hideTip(){ tip.style.opacity = 0; }
+
+const PCOLORS = { instagram: "var(--ig)", "meta-threads": "var(--th)" };
+const pColor = k => PCOLORS[k] || "var(--muted)";
+
+fetch("data.json", { cache: "no-store" })
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(render)
+  .catch(() => { $("#error").style.display = "block"; });
+
+function render(d){
+  $("#app").hidden = false;
+  $("#gen").textContent = d.generated_at || "unknown";
+
+  // ---- KPIs ----
+  const t = d.totals;
+  const range = t.first_date ? `${t.first_date} → ${t.last_date}` : "—";
+  const kpis = [
+    { label: "Total posts", value: fmt(t.posts), hero: true, note: "across all platforms" },
+    { label: "Platforms",   value: t.platforms,  note: d.platforms.map(p=>p.name).join(" · ") },
+    { label: "Topics",      value: t.topics,     note: "active subject areas" },
+    { label: "States",      value: t.states,     note: "legislatures covered" },
+    { label: "Unique bills",value: fmt(t.bills), note: "distinct bills tracked" },
+    { label: "Date range",  value: "", note: range, small: true },
+  ];
+  const kwrap = $("#kpis");
+  kpis.forEach(k => {
+    const c = el("div", { class: "kpi" });
+    c.appendChild(el("div", { class: "label" }, esc(k.label)));
+    if (k.small) c.appendChild(el("div", { class: "value", style:"font-size:19px" }, esc(k.note)));
+    else { c.appendChild(el("div", { class: "value" + (k.hero ? " hero":"") }, esc(k.value)));
+           if (k.note) c.appendChild(el("div", { class: "note" }, esc(k.note))); }
+    kwrap.appendChild(c);
+  });
+
+  // ---- platforms ----
+  const pmax = Math.max(...d.platforms.map(p=>p.count), 1);
+  const pwrap = $("#platforms");
+  d.platforms.forEach(p => {
+    const row = el("div", { class: "bar-row" });
+    const top = el("div", { class: "bar-top" });
+    top.appendChild(el("div", { class:"bar-name" }, `<span class="txt">${esc(p.name)}</span>`));
+    top.appendChild(el("div", { class:"bar-val" }, fmt(p.count)));
+    const track = el("div", { class:"track" });
+    const fill = el("div", { class:"fill" });
+    fill.style.width = (p.count/pmax*100) + "%"; fill.style.background = pColor(p.key);
+    track.appendChild(fill); row.appendChild(top); row.appendChild(track);
+    row.addEventListener("mousemove", e => showTip(e, `<b>${esc(p.name)}</b><br><span class="m">${fmt(p.count)} posts</span>`));
+    row.addEventListener("mouseleave", hideTip);
+    pwrap.appendChild(row);
+  });
+
+  // ---- timeline ----
+  drawTimeline(d.timeline);
+
+  // ---- topics (segmented by platform) ----
+  const tlegend = $("#topic-legend");
+  d.platforms.forEach(p => {
+    const it = el("span", { class:"item" });
+    it.appendChild(el("span", { class:"dot", style:`background:${pColor(p.key)}` }));
+    it.appendChild(document.createTextNode(p.name));
+    tlegend.appendChild(it);
+  });
+  const tmax = Math.max(...d.topics.map(x=>x.count), 1);
+  const twrap = $("#topics");
+  d.topics.forEach(tp => {
+    const row = el("div", { class: "bar-row" });
+    const top = el("div", { class: "bar-top" });
+    top.appendChild(el("div", { class:"bar-name" },
+      `<span class="em">${esc(tp.emoji)}</span><span class="txt">${esc(tp.name)}</span>`));
+    const splitTxt = d.platforms.map(p => tp.platforms[p.key] || 0).join(" / ");
+    top.appendChild(el("div", { class:"bar-val" }, `${fmt(tp.count)}<span class="split">${splitTxt}</span>`));
+    const track = el("div", { class:"track" });
+    track.style.width = (tp.count/tmax*100) + "%"; track.style.minWidth = "2px";
+    // segment by platform, colored by platform, topic color as the row identity dot
+    d.platforms.forEach(p => {
+      const n = tp.platforms[p.key] || 0; if (!n) return;
+      const seg = el("div", { class:"fill seg" });
+      seg.style.width = (n/tp.count*100) + "%"; seg.style.background = pColor(p.key);
+      track.appendChild(seg);
+    });
+    row.appendChild(top); row.appendChild(track);
+    const tipHtml = `<b>${esc(tp.emoji)} ${esc(tp.name)}</b><br>` +
+      `<span class="m">${fmt(tp.count)} posts — ` +
+      d.platforms.map(p=>`${esc(p.name)} ${tp.platforms[p.key]||0}`).join(", ") + `</span>`;
+    row.addEventListener("mousemove", e => showTip(e, tipHtml));
+    row.addEventListener("mouseleave", hideTip);
+    twrap.appendChild(row);
+  });
+
+  // ---- states ----
+  const smax = Math.max(...d.states.map(s=>s.count), 1);
+  const swrap = $("#states");
+  d.states.forEach(s => {
+    const row = el("div", { class: "bar-row" });
+    const top = el("div", { class: "bar-top" });
+    top.appendChild(el("div", { class:"bar-name" }, `<span class="txt">${esc(s.code)}</span>`));
+    top.appendChild(el("div", { class:"bar-val" }, fmt(s.count)));
+    const track = el("div", { class:"track" });
+    const fill = el("div", { class:"fill" });
+    fill.style.width = (s.count/smax*100) + "%"; fill.style.background = "var(--ig)";
+    track.appendChild(fill); row.appendChild(top); row.appendChild(track);
+    row.addEventListener("mousemove", e => showTip(e, `<b>${esc(s.code)}</b><br><span class="m">${fmt(s.count)} posts</span>`));
+    row.addEventListener("mouseleave", hideTip);
+    swrap.appendChild(row);
+  });
+
+  // ---- recent posts + filters ----
+  setupRecent(d);
+}
+
+function drawTimeline(tl){
+  const host = $("#timeline");
+  const W = Math.max(host.parentElement.clientWidth || 480, tl.length*54);
+  const H = 200, padL = 34, padB = 26, padT = 12;
+  const max = Math.max(...tl.map(m=>m.count), 1);
+  const niceMax = Math.ceil(max/10)*10 || max;
+  const innerW = W - padL - 8, innerH = H - padB - padT;
+  const bw = Math.min(28, innerW / tl.length * 0.6);
+  const step = innerW / tl.length;
+  const NS = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(NS, "svg");
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.setAttribute("width", W); svg.setAttribute("height", H);
+  // gridlines + y ticks
+  [0, 0.5, 1].forEach(f => {
+    const y = padT + innerH*(1-f); const v = Math.round(niceMax*f);
+    const ln = document.createElementNS(NS, "line");
+    ln.setAttribute("x1", padL); ln.setAttribute("x2", W-8); ln.setAttribute("y1", y); ln.setAttribute("y2", y);
+    ln.setAttribute("stroke", "var(--grid)"); ln.setAttribute("stroke-width", "1"); svg.appendChild(ln);
+    const tx = document.createElementNS(NS, "text");
+    tx.setAttribute("x", padL-6); tx.setAttribute("y", y+3); tx.setAttribute("text-anchor","end");
+    tx.setAttribute("class","axis-txt"); tx.textContent = v; svg.appendChild(tx);
+  });
+  tl.forEach((m, i) => {
+    const x = padL + step*i + (step-bw)/2;
+    const h = innerH * (m.count/niceMax);
+    const y = padT + innerH - h;
+    const r = document.createElementNS(NS, "rect");
+    r.setAttribute("x", x); r.setAttribute("y", y); r.setAttribute("width", bw); r.setAttribute("height", Math.max(h,2));
+    r.setAttribute("rx", 3); r.setAttribute("fill", "var(--ig)"); r.setAttribute("class","col");
+    r.addEventListener("mousemove", e => showTip(e, `<b>${esc(m.month)}</b><br><span class="m">${fmt(m.count)} posts</span>`));
+    r.addEventListener("mouseleave", hideTip);
+    svg.appendChild(r);
+    const tx = document.createElementNS(NS, "text");
+    tx.setAttribute("x", x + bw/2); tx.setAttribute("y", H-9); tx.setAttribute("text-anchor","middle");
+    tx.setAttribute("class","axis-txt"); tx.textContent = m.month.slice(2); // YY-MM
+    svg.appendChild(tx);
+  });
+  host.innerHTML = ""; host.appendChild(svg);
+}
+
+// ---- recent table with platform + topic filters ----
+let RECENT = [], PLATFORMS = [], TOPICS = [];
+let fPlatform = "all", fTopic = "all";
+function setupRecent(d){
+  RECENT = d.recent; PLATFORMS = d.platforms; TOPICS = d.topics;
+  const f = $("#filters");
+  f.appendChild(el("span", { class:"flabel" }, "Platform:"));
+  const mkChip = (label, active, on, extra="") => {
+    const c = el("button", { class:"chip", "aria-pressed": active ? "true":"false" }, extra + esc(label));
+    c.addEventListener("click", on); return c;
+  };
+  const platWrap = el("span", { style:"display:inline-flex;gap:8px" });
+  platWrap.appendChild(mkChip("All", true, () => setPlatform("all", platWrap)));
+  PLATFORMS.forEach(p => platWrap.appendChild(
+    mkChip(p.name, false, () => setPlatform(p.key, platWrap),
+      `<span class="dot" style="width:8px;height:8px;border-radius:3px;background:${pColor(p.key)};display:inline-block;margin-right:2px"></span>`)));
+  f.appendChild(platWrap);
+
+  f.appendChild(el("span", { class:"flabel", style:"margin-left:8px" }, "Topic:"));
+  const sel = el("select", { class:"chip" });
+  sel.appendChild(el("option", { value:"all" }, "All topics"));
+  TOPICS.forEach(tp => sel.appendChild(el("option", { value: tp.key }, `${tp.emoji} ${tp.name} (${tp.count})`)));
+  sel.addEventListener("change", () => { fTopic = sel.value; drawRows(); });
+  f.appendChild(sel);
+
+  drawRows();
+}
+function setPlatform(key, wrap){
+  fPlatform = key;
+  [...wrap.children].forEach((c,i) => c.setAttribute("aria-pressed",
+    (i===0 && key==="all") || c.textContent.trim() === (PLATFORMS.find(p=>p.key===key)?.name) ? "true":"false"));
+  drawRows();
+}
+function drawRows(){
+  const rows = RECENT.filter(r =>
+    (fPlatform==="all" || r.platform===fPlatform) &&
+    (fTopic==="all" || r.topic===fTopic));
+  const tb = $("#rows"); tb.innerHTML = "";
+  if (!rows.length){ tb.appendChild(el("tr", {}, `<td colspan="6" class="empty">No posts match this filter.</td>`)); return; }
+  rows.forEach(r => {
+    const tr = el("tr");
+    tr.appendChild(el("td", { class:"date" }, esc(r.date)));
+    tr.appendChild(el("td", { class:"mono" }, esc(r.state)));
+    tr.appendChild(el("td", { class:"mono" }, esc(r.bill)));
+    tr.appendChild(el("td", {}, `<span class="tchip" style="background:${hexToBg(r.color)};color:${r.color}">${esc(r.emoji)} ${esc(r.topic_name)}</span>`));
+    tr.appendChild(el("td", {}, `<span class="pdot"><span class="dot" style="background:${pColor(r.platform)}"></span>${esc(r.platform_name)}</span>`));
+    tr.appendChild(el("td", { class:"action" }, esc(r.action) || "<span style='color:var(--muted)'>—</span>"));
+    tb.appendChild(tr);
+  });
+}
+// soft translucent background from a topic hex color
+function hexToBg(hex){
+  const m = /^#?([0-9a-f]{6})$/i.exec(hex || ""); if (!m) return "var(--surface-2)";
+  const n = parseInt(m[1],16); const r=(n>>16)&255,g=(n>>8)&255,b=n&255;
+  return `rgba(${r},${g},${b},0.16)`;
+}
+</script>
+</body>
+</html>
