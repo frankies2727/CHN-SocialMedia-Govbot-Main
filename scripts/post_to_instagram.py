@@ -87,6 +87,15 @@ POST_LIMIT = int(os.environ.get("POST_LIMIT", "2"))
 # the account hits this ceiling, later topics in the loop exit early. The next
 # run starts the count fresh.
 RUN_POST_LIMIT = int(os.environ.get("RUN_POST_LIMIT", "4"))
+# Space consecutive posts to the single account so they don't fire in rapid
+# succession (which reads as automated behaviour). Each topic runs as its own
+# process, so this gap is applied before every post *after the first one this
+# run* (tracked via the account ledger), spacing posts across the whole topic
+# loop, not just within one topic. The delay is POST_INTERVAL_SECONDS plus a
+# random 0..POST_INTERVAL_JITTER so the cadence isn't mechanically regular.
+# Set POST_INTERVAL_SECONDS=0 to disable.
+POST_INTERVAL_SECONDS = float(os.environ.get("POST_INTERVAL_SECONDS", "3"))
+POST_INTERVAL_JITTER = float(os.environ.get("POST_INTERVAL_JITTER", "2"))
 # Account-level (cross-topic) ledger lives under account_state/<platform>/.
 PLATFORM = "instagram"
 MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "62"))
@@ -456,6 +465,18 @@ def _norm_ident(s: str) -> str:
     return re.sub(r"\s+", "", (s or "")).upper()
 
 
+def _anti_rapidfire_pause(prior_posts: int) -> None:
+    """Sleep a jittered buffer before a post so the account doesn't fire several
+    in rapid succession. Skipped for the very first post (nothing to space from)
+    and in DRY_RUN. `prior_posts` is how many posts already went to the account
+    this run (across every topic), so the gap holds across the whole loop."""
+    if DRY_RUN or prior_posts <= 0 or POST_INTERVAL_SECONDS <= 0:
+        return
+    gap = POST_INTERVAL_SECONDS + random.uniform(0, max(0.0, POST_INTERVAL_JITTER))
+    print(f"  ⏳ pausing {gap:.1f}s before posting (anti rapid-fire buffer)")
+    time.sleep(gap)
+
+
 def _post_items(items: list[dict], sha: str, slug: str, state: dict, seen: set,
                 same_day_siblings: dict[str, set[str]] | None, now: datetime,
                 ledger: AccountLedger | None = None) -> int:
@@ -471,6 +492,11 @@ def _post_items(items: list[dict], sha: str, slug: str, state: dict, seen: set,
             print(f"  ↳ image_url: {image_url}")
             if not wait_for_url(image_url):
                 continue
+        # Space this post from the previous one. Count posts already made to the
+        # account this run (ledger) plus any made earlier in this same batch, so
+        # the buffer applies both across topics and within a multi-post topic.
+        prior = (ledger.posted_this_run() if ledger is not None else 0) + posted
+        _anti_rapidfire_pause(prior)
         if not post_to_instagram(image_url, it["caption"]):
             continue
         posted += 1
@@ -493,7 +519,6 @@ def _post_items(items: list[dict], sha: str, slug: str, state: dict, seen: set,
                 save_full_text(b, out_dir=TOPIC.instagram_bills_full_text_dir())
             except Exception as e:
                 print(f"  ! raw-record save failed: {e}", file=sys.stderr)
-        time.sleep(5)
     state["state_last_posted"] = last_posted
     return posted
 
