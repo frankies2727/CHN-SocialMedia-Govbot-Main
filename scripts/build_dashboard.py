@@ -26,6 +26,25 @@ DOCS_DIR = REPO / "docs"
 
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
+# Public Bluesky account handle for each topic. These are read live (no auth)
+# from Bluesky's public API by the dashboard, so the feed shows Bluesky posts
+# exactly as posted. Handles are public and stable.
+BLUESKY_HANDLES = {
+    "ai_data_centers":         "govbotaidatacenter.bsky.social",
+    "criminal_justice":        "govbotcrimejustice.bsky.social",
+    "education":               "govboteducation.bsky.social",
+    "elections_voting_rights": "govbotelections.bsky.social",
+    "environment_climate":     "govbotclimate.bsky.social",
+    "healthcare":              "govbothealthcare.bsky.social",
+    "housing":                 "govbothousing.bsky.social",
+    "immigration":             "govbotimmigration.bsky.social",
+    "labor":                   "govbotlaborrights.bsky.social",
+    "lgbtq":                   "govbotlgbtq.bsky.social",
+    "reproductive_rights":     "govbotreproductive.bsky.social",
+    "taxation":                "govbottaxation.bsky.social",
+    "transportation":          "govbottransport.bsky.social",
+}
+
 # Nice display name + a stable color for known platform folders (matched
 # case-insensitively). Unknown folders get a prettified name and a fallback
 # color, so nothing is ever dropped just because it isn't listed here.
@@ -162,9 +181,13 @@ def main() -> None:
     topics = []
     records: list[dict] = []
     feed: list[dict] = []
+    bluesky_accounts = []
     for topic_dir in sorted(p for p in TOPICS_DIR.iterdir() if p.is_dir()):
         meta = load_topic_meta(topic_dir)
         topics.append({"key": topic_dir.name, **meta})
+        handle = BLUESKY_HANDLES.get(topic_dir.name)
+        if handle:
+            bluesky_accounts.append({"handle": handle, "topic": topic_dir.name, **meta})
         for folder in platform_folders:
             used = topic_dir / folder / "bills_used.json"
             if used.exists():
@@ -212,6 +235,7 @@ def main() -> None:
         "topics": topics,
         "records": records,
         "feed": feed,
+        "bluesky": bluesky_accounts,
     }
 
     DOCS_DIR.mkdir(exist_ok=True)

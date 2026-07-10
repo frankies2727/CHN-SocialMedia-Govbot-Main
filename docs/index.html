@@ -106,6 +106,40 @@
   .empty { color:var(--muted); padding:24px 12px; text-align:center; }
   .rowcap { color:var(--muted); font-size:12.5px; margin-top:12px; }
 
+  /* ---- Bluesky live feed ---- */
+  .bsky { display:grid; grid-template-columns:270px 1fr; gap:16px; }
+  @media (max-width:760px){ .bsky { grid-template-columns:1fr; } }
+  .bsky-side { border:1px solid var(--border); border-radius:12px; background:var(--surface-2); overflow:hidden; align-self:start; }
+  .bsky-side-h { color:var(--muted); font-size:11.5px; text-transform:uppercase; letter-spacing:0.05em; padding:12px 14px 8px; }
+  .bsky-accts { max-height:560px; overflow-y:auto; }
+  @media (max-width:760px){ .bsky-accts { max-height:220px; } }
+  .acct { display:flex; flex-direction:column; gap:2px; padding:11px 14px; cursor:pointer; border-top:1px solid var(--grid); }
+  .acct:hover { background:rgba(255,255,255,0.04); }
+  .acct[aria-selected="true"] { background:rgba(255,255,255,0.08); box-shadow:inset 3px 0 0 var(--acct-color,#3987e5); }
+  .acct .an { font-size:13.5px; font-weight:600; color:var(--ink); display:flex; align-items:center; gap:7px; }
+  .acct .ah { font-size:12px; color:var(--muted); }
+  .bsky-main { min-width:0; }
+  .bsky-toolbar { display:flex; align-items:center; gap:12px; margin-bottom:12px; flex-wrap:wrap; }
+  .bsky-toolbar input { flex:1; min-width:180px; }
+  .bsky-status { color:var(--muted); font-size:12.5px; white-space:nowrap; }
+  .bsky-feed { display:flex; flex-direction:column; gap:12px; max-height:720px; overflow-y:auto; padding-right:4px; }
+  .bpost { border:1px solid var(--border); border-radius:12px; background:var(--surface-2); padding:14px 16px; }
+  .bphead { display:flex; justify-content:space-between; gap:10px; margin-bottom:8px; align-items:baseline; }
+  .bphead .bpacct { font-size:12.5px; color:var(--ink-2); font-weight:600; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .bphead .bpdate { font-size:12.5px; color:var(--muted); white-space:nowrap; flex:0 0 auto; }
+  .bptext { font-size:14px; color:var(--ink); line-height:1.5; white-space:pre-wrap; word-wrap:break-word; }
+  .bpcard { margin-top:11px; border:1px solid var(--border); border-radius:10px; overflow:hidden; }
+  .bpcard a { display:block; padding:10px 12px; text-decoration:none; }
+  .bpcard .bt { font-size:13px; font-weight:600; color:var(--ink); }
+  .bpcard .bd { font-size:12px; color:var(--muted); margin-top:2px; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+  .bpfoot { margin-top:11px; display:flex; gap:16px; flex-wrap:wrap; }
+  .bpfoot a { color:#4c9aef; font-size:13px; text-decoration:none; font-weight:600; }
+  .bpfoot a:hover { text-decoration:underline; }
+  .bsky-msg { color:var(--muted); font-size:13.5px; padding:20px 4px; }
+  .spinner { display:inline-block; width:13px; height:13px; border:2px solid var(--baseline); border-top-color:var(--ink-2);
+    border-radius:50%; animation:spin .7s linear infinite; vertical-align:-2px; margin-right:7px; }
+  @keyframes spin { to { transform:rotate(360deg); } }
+
   /* ---- post feed ---- */
   .feed { display:flex; flex-direction:column; gap:12px; }
   .fcard { border:1px solid var(--border); border-radius:12px; background:var(--surface-2); padding:14px 16px; }
@@ -186,6 +220,23 @@
 
     <div class="grid kpis" id="kpis"></div>
 
+    <section class="card" style="margin-bottom:16px">
+      <h2>Bluesky feeds <span class="sub">— live, exactly as posted</span></h2>
+      <div class="bsky">
+        <aside class="bsky-side">
+          <div class="bsky-side-h">Account</div>
+          <div class="bsky-accts" id="bsky-accts"></div>
+        </aside>
+        <div class="bsky-main">
+          <div class="bsky-toolbar">
+            <input class="inp" id="bsky-search" type="search" placeholder="Filter by state or bill code (e.g. CA, SB2195)…" />
+            <span class="bsky-status" id="bsky-status"></span>
+          </div>
+          <div class="bsky-feed" id="bsky-feed"></div>
+        </div>
+      </div>
+    </section>
+
     <div class="grid two">
       <section class="card">
         <h2>Posts by platform</h2>
@@ -209,7 +260,7 @@
     </section>
 
     <section class="card" style="margin-bottom:16px">
-      <h2>Post feed <span class="sub">— the actual posts, newest first</span></h2>
+      <h2>Instagram · Threads · X posts <span class="sub">— from saved bill data (these platforms have no public feed API)</span></h2>
       <div class="feed" id="feed"></div>
       <div class="rowcap" id="feedcap"></div>
     </section>
@@ -264,6 +315,109 @@ function init(d){
 
   buildFilterUI(d);
   apply();
+  setupBluesky(d);
+}
+
+/* ---------- live Bluesky feed (public API, no auth) ---------- */
+const BSKY_API = "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed";
+const bskyCache = new Map();        // handle -> posts[]
+let bskyAccount = "all", bskySearch = "";
+function setupBluesky(d){
+  const accts = d.bluesky || [];
+  const host = $("#bsky-accts");
+  const mk = (label, handle, color, emoji, sub)=>{
+    const a = el("div",{class:"acct", role:"button", tabindex:"0", "data-h":handle,
+      "aria-selected": handle===bskyAccount ? "true":"false"});
+    if(color) a.style.setProperty("--acct-color", color);
+    a.innerHTML = `<span class="an">${emoji?`<span>${esc(emoji)}</span>`:""}${esc(label)}</span>`+
+                  (sub?`<span class="ah">${esc(sub)}</span>`:"");
+    a.addEventListener("click",()=>selectAcct(handle));
+    a.addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" ") selectAcct(handle); });
+    return a;
+  };
+  host.appendChild(mk("All accounts","all","#4c9aef","🛰️",`${accts.length} govbot feeds`));
+  accts.forEach(a=>host.appendChild(mk(a.name,a.handle,a.color,a.emoji,a.handle)));
+
+  const search=$("#bsky-search");
+  search.addEventListener("input",()=>{ bskySearch=search.value.trim().toLowerCase(); renderBsky(); });
+
+  loadBsky();  // default: all accounts
+}
+function selectAcct(handle){
+  bskyAccount=handle;
+  [...$("#bsky-accts").children].forEach(c=>c.setAttribute("aria-selected", c.dataset.h===handle?"true":"false"));
+  loadBsky();
+}
+function rkeyOf(uri){ return (uri||"").split("/").pop(); }
+function bskyPostLink(handle, uri){ return `https://bsky.app/profile/${handle}/post/${rkeyOf(uri)}`; }
+
+async function fetchAuthor(handle, limit){
+  if(bskyCache.has(handle)) return bskyCache.get(handle);
+  const res = await fetch(`${BSKY_API}?actor=${encodeURIComponent(handle)}&limit=${limit}`);
+  if(!res.ok) throw new Error(res.status);
+  const data = await res.json();
+  const posts = (data.feed||[])
+    .filter(it=>!it.reason)               // drop reposts
+    .map(it=>{
+      const p=it.post, r=p.record||{}, emb=p.embed||{};
+      const ext=(emb["$type"]||"").includes("external") ? (emb.external||{}) : {};
+      return { handle:p.author.handle, author:p.author.displayName||p.author.handle,
+        text:r.text||"", createdAt:r.createdAt||p.indexedAt||"",
+        link:bskyPostLink(p.author.handle, p.uri),
+        extUri:ext.uri||"", extTitle:ext.title||"", extDesc:ext.description||"" };
+    });
+  bskyCache.set(handle, posts);
+  return posts;
+}
+async function loadBsky(){
+  const status=$("#bsky-status"), feed=$("#bsky-feed");
+  const accts = DATA.bluesky||[];
+  status.innerHTML = `<span class="spinner"></span>Loading live from Bluesky…`;
+  feed.innerHTML = "";
+  try{
+    let posts;
+    if(bskyAccount==="all"){
+      const all = await Promise.allSettled(accts.map(a=>fetchAuthor(a.handle,12)));
+      posts = all.filter(r=>r.status==="fulfilled").flatMap(r=>r.value);
+      posts.sort((a,b)=> a.createdAt<b.createdAt?1:-1);
+    } else {
+      posts = await fetchAuthor(bskyAccount, 40);
+    }
+    BSKY_POSTS = posts;
+    renderBsky();
+  }catch(e){
+    status.textContent="";
+    feed.innerHTML = `<div class="bsky-msg">Couldn't reach Bluesky right now. It's a live feed — try again in a moment.</div>`;
+  }
+}
+let BSKY_POSTS = [];
+function fmtStamp(iso){
+  const d = iso ? new Date(iso) : null;
+  if(!d || isNaN(d)) return "";
+  return d.toLocaleString(undefined,{month:"short",day:"numeric",year:"numeric",hour:"numeric",minute:"2-digit"});
+}
+function renderBsky(){
+  const feed=$("#bsky-feed"), status=$("#bsky-status");
+  let posts=BSKY_POSTS;
+  if(bskySearch) posts=posts.filter(p=>p.text.toLowerCase().includes(bskySearch));
+  const shown=posts.slice(0,80);
+  status.textContent = `${posts.length} post${posts.length===1?"":"s"}${bskySearch?" match":""}`;
+  feed.innerHTML="";
+  if(!shown.length){ feed.innerHTML=`<div class="bsky-msg">No posts${bskySearch?" match that filter":""}.</div>`; return; }
+  shown.forEach(p=>{
+    const card=el("div",{class:"bpost"});
+    card.innerHTML =
+      `<div class="bphead"><span class="bpacct">${esc(p.author)}</span><span class="bpdate">${esc(fmtStamp(p.createdAt))}</span></div>`+
+      `<div class="bptext">${esc(p.text)}</div>`+
+      (p.extUri?`<div class="bpcard"><a href="${esc(p.extUri)}" target="_blank" rel="noopener">`+
+        `<div class="bt">🔗 ${esc(p.extTitle||"Read the full bill")}</div>`+
+        (p.extDesc?`<div class="bd">${esc(p.extDesc)}</div>`:"")+`</a></div>`:"")+
+      `<div class="bpfoot">`+
+        (p.extUri?`<a href="${esc(p.extUri)}" target="_blank" rel="noopener">Read the full bill</a>`:"")+
+        `<a href="${esc(p.link)}" target="_blank" rel="noopener">Open on Bluesky ↗</a>`+
+      `</div>`;
+    feed.appendChild(card);
+  });
 }
 
 /* ---------- filter UI ---------- */

@@ -21,13 +21,24 @@ Platforms are detected automatically from the repo, so any platform the bot
 starts posting to (Bluesky, a new X account, …) shows up on its own — no edits
 needed.
 
-## Post feed
+## Bluesky feeds (live, exactly as posted)
 
-Below the charts is a **Post feed** — the actual posts as cards (bill, a
-plain-language summary, and the dated action), newest first, styled like a
-social timeline and filtered by the same controls. The card text comes from the
-bill records the bot saves in each platform's `bills_raw/` folder, so a post
-only appears in the feed once that detail has been committed to the repo.
+Near the top is a **Bluesky feeds** section: pick an account on the left and its
+posts load **live from Bluesky's public API** — the real headline, summary,
+action, the "Read the full bill" link, and an "Open on Bluesky" link — exactly
+as they appear on Bluesky. There's a search box to filter by state or bill code.
+This needs no repo data and always shows the latest posts, so it only works on
+the published page (it makes a live internet request).
+
+Instagram, Threads, and X don't offer a comparable public feed API, so those are
+shown from saved bill data instead (see below).
+
+## Instagram · Threads · X posts
+
+Further down, these posts are shown as cards built from the bill records the bot
+saves in each platform's `bills_raw/` folder (bill, a plain-language summary, and
+the dated action), newest first and filtered by the same controls. A post appears
+here once that detail has been committed to the repo.
 
 ## What's in here
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10 21:09 UTC",
+  "generated_at": "2026-07-10 21:43 UTC",
   "platforms": [
     {
       "key": "instagram",
@@ -6983,6 +6983,99 @@
       "summary": "Amends the Illinois Vehicle Code. Makes a technical change in a Section concerning the short title.",
       "action": "House Floor Amendment No. 1 Rule 19(c) / Re-referred to Rules Committee",
       "date": "2025-04-11"
+    }
+  ],
+  "bluesky": [
+    {
+      "handle": "govbotaidatacenter.bsky.social",
+      "topic": "ai_data_centers",
+      "name": "AI, Data Centers & Crypto",
+      "emoji": "🤖",
+      "color": "#6366F1"
+    },
+    {
+      "handle": "govbotcrimejustice.bsky.social",
+      "topic": "criminal_justice",
+      "name": "Criminal Justice & Policing",
+      "emoji": "⚖️",
+      "color": "#475569"
+    },
+    {
+      "handle": "govboteducation.bsky.social",
+      "topic": "education",
+      "name": "Education",
+      "emoji": "🎓",
+      "color": "#2563EB"
+    },
+    {
+      "handle": "govbotelections.bsky.social",
+      "topic": "elections_voting_rights",
+      "name": "Elections & Voting Rights",
+      "emoji": "🗳️",
+      "color": "#7C3AED"
+    },
+    {
+      "handle": "govbotclimate.bsky.social",
+      "topic": "environment_climate",
+      "name": "Environment & Climate",
+      "emoji": "🌎",
+      "color": "#15803D"
+    },
+    {
+      "handle": "govbothealthcare.bsky.social",
+      "topic": "healthcare",
+      "name": "Healthcare",
+      "emoji": "🏥",
+      "color": "#0D9488"
+    },
+    {
+      "handle": "govbothousing.bsky.social",
+      "topic": "housing",
+      "name": "Housing",
+      "emoji": "🏠",
+      "color": "#EA580C"
+    },
+    {
+      "handle": "govbotimmigration.bsky.social",
+      "topic": "immigration",
+      "name": "Immigration",
+      "emoji": "🛂",
+      "color": "#0891B2"
+    },
+    {
+      "handle": "govbotlaborrights.bsky.social",
+      "topic": "labor",
+      "name": "Labor & Workers' Rights",
+      "emoji": "🛠️",
+      "color": "#B45309"
+    },
+    {
+      "handle": "govbotlgbtq.bsky.social",
+      "topic": "lgbtq",
+      "name": "LGBTQ",
+      "emoji": "🏳️‍🌈",
+      "color": "#C026D3"
+    },
+    {
+      "handle": "govbotreproductive.bsky.social",
+      "topic": "reproductive_rights",
+      "name": "Reproductive Rights",
+      "emoji": "🩺",
+      "color": "#DB2777"
+    },
+    {
+      "handle": "govbottaxation.bsky.social",
+      "topic": "taxation",
+      "name": "Taxation",
+      "emoji": "💰",
+      "color": "#CA8A04"
+    },
+    {
+      "handle": "govbottransport.bsky.social",
+      "topic": "transportation",
+      "name": "Transportation",
+      "emoji": "🚗",
+      "color": "#1D4ED8"
     }
   ]
 }
