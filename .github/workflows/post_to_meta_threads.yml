@@ -2,7 +2,10 @@ name: govbot-meta-threads-post
 
 on:
   schedule:
-    - cron: "27 10 * * *"
+    # 19:00 UTC = 1:00 PM CST (UTC-6). GitHub cron is fixed UTC and does not
+    # observe daylight saving, so during CDT (roughly Mar-Nov) this lands at
+    # 2:00 PM local; change to "0 18 * * *" if you want 1:00 PM local during CDT.
+    - cron: "0 19 * * *"
   workflow_dispatch:
 
 permissions:
@@ -167,11 +170,22 @@ jobs:
             echo "  normalized build failed; topics will parse bills.jsonl directly."
           fi
 
+          # Walk topics in randomized order. The per-topic process exits with
+          # code 42 (RUN_CAP_REACHED_EXIT) once the account's per-run cap is
+          # full — either it was already full or that topic's posts filled it.
+          # Break on it so the remaining topics don't each boot Python and
+          # re-load the full ~1.1M-record corpus only to no-op.
           for topic in $(ls -d topics/*/ | xargs -n1 basename | shuf); do
             [ -f "topics/$topic/config.yml" ] || continue
             echo "=== Threads: topic $topic ==="
-            BOT_TOPIC="$topic" python scripts/post_to_meta_threads.py \
-              || echo "  $topic post failed, continuing with next topic"
+            rc=0
+            BOT_TOPIC="$topic" python scripts/post_to_meta_threads.py || rc=$?
+            if [ "$rc" -eq 42 ]; then
+              echo "  account per-run cap reached — stopping the topic loop."
+              break
+            elif [ "$rc" -ne 0 ]; then
+              echo "  $topic post failed, continuing with next topic"
+            fi
           done
 
       - name: Commit Threads state changes
