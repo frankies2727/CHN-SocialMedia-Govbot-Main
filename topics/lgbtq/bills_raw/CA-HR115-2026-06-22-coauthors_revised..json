@@ -1,0 +1,22 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR115",
+    "legislative_session": "20252026",
+    "title": "Relative to Lesbian, Gay, Bisexual, Transgender, and Queer (LGBTQ+) Pride Month."
+  },
+  "id": "HR115",
+  "log": {
+    "action": {
+      "date": "2026-06-22",
+      "description": "Coauthors revised.",
+      "organization_id": "~{\"classification\": \"lower\"}"
+    },
+    "bill_id": "HR115"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/HR115/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/HR115/logs/20260622T000000Z_coauthors_revised.json"
+  },
+  "timestamp": "20260622T000000Z"
+}

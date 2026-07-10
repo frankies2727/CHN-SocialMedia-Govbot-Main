@@ -1,0 +1,50 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "The federal Voting Rights Act of 1965 requires a state or political subdivision in which more than 5% of voting-age citizens, or more than 10,000 voting-age citizens, are members of a single language minority and limited-English proficient to provide certain election materials, including ballots, in the language of the applicable language minority group. Existing state law requires the Secretary of State to determine for each county and precinct whether it is appropriate to provide facsimile copies of the ballot and other election materials in languages other than English. If the Secretary of State determines the number of voting age residents in a county or precinct who are members of a single language minority, and who lack sufficient skills in English to vote without assistance, is 3% or more of the voting-age residents of the county or precinct, county elections officials must provide facsimile ballots and other election materials in the applicable language.\n\nThis bill would require the Secretary of State, on or before December 15, 2028, and on or before December 15 in every year ending in 1 or 6 thereafter, to identify the counties where at least 5,000 voting age citizens, or 5% of voting age citizens, are limited English proficient and either members of a single language minority group or speak a shared language. The bill would require the elections official in an identified political subdivision to provide translated election materials in any language that meets those criteria or, for an election occurring before December 15, 2028, in any language in which the political subdivision is required to provide language assistance under the Voting Rights Act of 1965. The elections official would be required to translate, among other things, all official and sample ballots, voter registration forms, and election notices and instructions. The elections official would also be required to have a sufficient number of bilingual election workers to provide language assistance to any voter who needs it.\n\nIf the Secretary of State or another state agency provides election-related forms, instructions, assistance, or other materials or services in an identified political subdivision, the bill would require the Secretary of State or other state agency to translate the materials or services into any language that meets the criteria within that political subdivision. The bill would also authorize the Secretary of State to require a political subdivision to provide translated election materials in any language that does not meet the above-described criteria, if interested citizens or entities provide the Secretary of State with a preponderance of evidence that a significant need exists for translation into that language.\n\nThe bill would also make various conforming changes. By increasing the duties of local elections officials, the bill would create a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1360",
+    "legislative_session": "20252026",
+    "subject": [
+      "Elections",
+      "translationofelectionmaterials"
+    ],
+    "title": "Elections: translation of election materials."
+  },
+  "id": "SB1360",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage",
+        "committee-passage-favorable",
+        "referral-committee"
+      ],
+      "description": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 6. Noes 0.) (July 1). Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-01",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1360"
+        }
+      ]
+    },
+    "bill_id": "SB1360"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1360/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1360/logs/20260701T000000Z_from_committee_do_pass_and_rerefer_to_com_on_appr_ayes_6_noes_0_july_1_rereferred_to_com_on_appr.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

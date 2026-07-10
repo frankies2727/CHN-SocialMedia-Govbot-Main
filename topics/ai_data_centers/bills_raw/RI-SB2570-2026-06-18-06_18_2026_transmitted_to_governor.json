@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Requires healthcare providers and healthcare facilities to inform patients of the use of artificial intelligence to memorialize patient visits.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB2570",
+    "legislative_session": "2026",
+    "title": "AN ACT RELATING TO HEALTH AND SAFETY -- USE OF ARTIFICIAL INTELLIGENCE BY HEALTHCARE PROVIDERS NOTIFICATION ACT"
+  },
+  "id": "SB2570",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-receipt"
+      ],
+      "date": "2026-06-18",
+      "description": "06/18/2026 Transmitted to Governor",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "SB2570"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2026/bills/SB2570/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2026/bills/SB2570/logs/20260618T000000Z.classification.executive-receipt.executive.json"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Diggs of Barnstable, a petition (subject to Joint Rule 12) of Kip A. Diggs for legislation to further regulate the transportation of vessels in the villages of Marston Mills and Osterville in the town of Barnstable.  Transportation.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H5421",
+    "legislative_session": "194th",
+    "title": "An Act relative to the transportation of vessels in the villages of Marston Mills and Osterville in the town of Barnstable"
+  },
+  "id": "H5421",
+  "log": {
+    "action": {
+      "description": "Committee reported that the matter be placed in the Orders of the Day for the next sitting",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-02",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/H5421"
+        }
+      ]
+    },
+    "bill_id": "H5421"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H5421/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H5421/logs/20260702T000000Z_committee_reported_that_the_matter_be_placed_in_the_orders_of_the_day_for_the_next_sitting.json"
+  },
+  "timestamp": "20260702T000000Z"
+}
