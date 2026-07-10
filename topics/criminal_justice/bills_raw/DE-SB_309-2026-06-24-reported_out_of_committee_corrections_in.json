@@ -1,0 +1,46 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act removes authority from the Department of Corrections to deduct pay from inmate accounts for a proportionate share of the costs of incarceration of inmates in the facility in which the inmate is housed. \r\nThis Act also makes technical corrections to conform existing law to the standards of the Delaware Legislative Drafting Manual.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 309",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 11 OF THE DELAWARE CODE RELATING TO WORK BY INMATES."
+  },
+  "id": "SB 309",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "description": "Reported Out of Committee (Corrections) in House with 1 Favorable, 4 On Its Merits",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-24",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Corrections"
+        }
+      ],
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143253"
+        }
+      ]
+    },
+    "bill_id": "SB 309"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB309/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB309/logs/20260624T000000Z_reported_out_of_committee_corrections_in_house_with_1_favorable_4_on_its_merits.json"
+  },
+  "timestamp": "20260624T000000Z"
+}

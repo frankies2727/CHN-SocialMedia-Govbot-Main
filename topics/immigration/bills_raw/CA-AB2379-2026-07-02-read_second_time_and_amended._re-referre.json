@@ -1,0 +1,51 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the California Child Day Care Facilities Act, provides for the licensure and regulation of child daycare facilities, including daycare centers and family daycare homes, by the State Department of Social Services. Existing law imposes various training requirements on child daycare facilities, including, among others, at least 15 hours of specified health and safety training that includes pediatric first aid, pediatric CPR, and preventive health practices, and mandated reporter training. A person who willfully or repeatedly violates any provision of the act or any rule or regulation promulgated under the act is guilty of a crime.\n\nExisting law prohibits licensed child daycare facilities, employees of licensed child daycare facilities, and license-exempt California state preschool program facilities from collecting information or documents regarding citizenship or immigration status of children or their family members. Existing law also requires the Attorney General, by April 1, 2026, in consultation with the appropriate stakeholders, to publish model policies limiting assistance with immigration enforcement at child daycare facilities, as specified, and requires the State Department of Social Services to inform licensed daycare facilities of the model policies.\n\nThis bill would require the State Department of Social Services to notify all licensed and license-exempt family daycare home providers of a person's rights under the Fourth Amendment to the United States Constitution, as specified, and would also require the department to designate a statewide entity to develop and provide a training program about those rights. The bill would require the designated statewide entity to offer the training program commencing 60 days after the effective date of the bill, and would require licensed family daycare home providers to complete the training within specified timeframes. The bill would specify that a violation of these requirements is not subject to criminal, civil, or administrative penalties, and does not subject a licensee to citation under the act.\n\nThis bill would declare that it is to take effect immediately as an urgency statute.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2379",
+    "legislative_session": "20252026",
+    "subject": [
+      "Familydaycarehomes",
+      "FourthAmendmenttraining"
+    ],
+    "title": "Family daycare homes: Fourth Amendment training."
+  },
+  "id": "AB2379",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "reading-1",
+        "reading-2",
+        "referral-committee"
+      ],
+      "description": "Read second time and amended. Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-02",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2379"
+        }
+      ]
+    },
+    "bill_id": "AB2379"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2379/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2379/logs/20260702T000000Z_read_second_time_and_amended_rereferred_to_com_on_appr.json"
+  },
+  "timestamp": "20260702T000000Z"
+}

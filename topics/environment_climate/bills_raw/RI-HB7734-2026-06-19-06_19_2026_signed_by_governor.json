@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Amends the Consumer PFAS Ban Act of 2024 by clarifying enforcement provisions.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB7734",
+    "legislative_session": "2026",
+    "title": "AN ACT RELATING TO HEALTH AND SAFETY -- CONSUMER PFAS BAN ACT OF 2024"
+  },
+  "id": "HB7734",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-06-19",
+      "description": "06/19/2026 Signed by Governor",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "HB7734"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2026/bills/HB7734/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2026/bills/HB7734/logs/20260619T000000Z_06192026_signed_by_governor.json"
+  },
+  "timestamp": "20260619T000000Z"
+}

@@ -1,0 +1,49 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the Reproductive Privacy Act, declares as contrary to the public policy of this state a law of another state that authorizes a person to bring a civil action against a person or entity that engages in certain activities relating to obtaining or performing an abortion. Existing law prohibits the state from applying an out-of-state law to a case or controversy in state court or enforcing or satisfying a civil judgment under the out-of-state law. \n\nThis bill would specify that the protections applicable to persons who engage in legally protected health care activity, as defined, apply to a person who previously has undertaken one or more acts or omissions while in another United States jurisdiction to aid or encourage, or attempt to aid or encourage, any person in the exercise and enjoyment, or attempted exercise and enjoyment, of rights to reproductive health care services or gender affirming health care services if the acts or omissions were permissible under the laws of the jurisdiction in which the person was located at the time of the acts or omissions.\n\nExisting law prohibits a state or local law enforcement agency or officer from knowingly arresting or knowingly participating in the arrest of any person for performing, supporting, or aiding in the performance of legally protected health care activity, if the health care activity is lawful in this state. Existing law prohibits a state or local public agency from cooperating with or providing information to an individual or agency from another state or a federal law enforcement agency, as specified, regarding a legally protected health care activity that is lawful in this state. Under existing law, the Governor may surrender, on demand of executive authority of any other state, any person in this state charged in the other state, as specified, with committing an act in this state, or in a 3rd state, intentionally resulting in a crime in the state whose executive authority is making the demand.\n\nThis bill would prohibit the Governor from recognizing a request for extradition of a person subject to criminal liability based on the alleged provision or receipt of, assistance in the provision or receipt of, material support for, or in any theory of vicarious, joint, several, or conspiracy liability for any legally protected health care activity, except as specified.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2164",
+    "legislative_session": "20252026",
+    "subject": [
+      "Legallyprotectedactivities"
+    ],
+    "title": "Legally protected activities."
+  },
+  "id": "AB2164",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage",
+        "committee-passage-favorable",
+        "referral-committee"
+      ],
+      "description": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 11. Noes 2.) (June 30). Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-01",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2164"
+        }
+      ]
+    },
+    "bill_id": "AB2164"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2164/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2164/logs/20260701T000000Z_from_committee_do_pass_and_rerefer_to_com_on_appr_ayes_11_noes_2_june_30_rereferred_to_com_on_appr.json"
+  },
+  "timestamp": "20260701T000000Z"
+}
