@@ -114,6 +114,19 @@ IG_API = "https://graph.instagram.com/v21.0"
 IG_TIMEOUT = int(os.environ.get("INSTAGRAM_TIMEOUT", "60"))
 IG_PUBLISH_RETRIES = 4
 
+# media_publish sometimes returns an HTTP 400 "Generic Internal Error" while the
+# media was in fact created and published — a well-known Instagram false
+# negative (error code -1, subcode 2207085). If we treat that as a plain failure
+# the run cap never counts the post, so every remaining topic in the loop posts
+# again and the single account blows far past RUN_POST_LIMIT (the log reads
+# "Posted 0" while many posts actually go live). Instead we treat these subcodes
+# as a published-but-unconfirmed post: count it against the run cap and dedup the
+# bill so no later topic re-posts it. The bias is deliberately toward NOT
+# overposting — if the post somehow didn't land, we simply skip that one bill.
+IG_INTERNAL_ERROR_SUBCODES = {2207085}
+# Sentinel returned by _publish_container for the false-negative case above.
+IG_PUBLISHED_UNCONFIRMED = "__published_unconfirmed__"
+
 INSTAGRAM_ACCESS_TOKEN = os.environ.get("INSTAGRAM_ACCESS_TOKEN", "")
 INSTAGRAM_USER_ID = os.environ.get("INSTAGRAM_USER_ID", "")
 
@@ -343,6 +356,18 @@ def _create_container(image_url: str, caption: str) -> str | None:
         return None
 
 
+def _internal_error_subcode(resp) -> int | None:
+    """Return the Graph API error_subcode from a failed response, or None.
+    Used to detect the media_publish false negative (see the module comment on
+    IG_INTERNAL_ERROR_SUBCODES)."""
+    if resp is None:
+        return None
+    try:
+        return resp.json().get("error", {}).get("error_subcode")
+    except (ValueError, AttributeError):
+        return None
+
+
 def _publish_container(creation_id: str) -> str | None:
     for attempt in range(1, IG_PUBLISH_RETRIES + 1):
         try:
@@ -354,13 +379,27 @@ def _publish_container(creation_id: str) -> str | None:
             resp.raise_for_status()
             return resp.json().get("id")
         except Exception as e:
+            resp = getattr(e, "response", None)
+            subcode = _internal_error_subcode(resp)
+            if subcode in IG_INTERNAL_ERROR_SUBCODES:
+                # False negative: the media was very likely published anyway.
+                # Stop retrying (re-publishing the same container can't help)
+                # and report it as published so the run cap counts it and no
+                # later topic re-posts this bill.
+                print(f" ! publish returned internal-error subcode {subcode}; "
+                      f"Instagram likely published anyway — counting it against "
+                      f"the run cap to avoid re-posting on the next topic.",
+                      file=sys.stderr)
+                if resp is not None:
+                    print(f"   Response body: {resp.text}", file=sys.stderr)
+                return IG_PUBLISHED_UNCONFIRMED
             if attempt < IG_PUBLISH_RETRIES:
                 # Container may still be processing the fetched image — back off.
                 time.sleep(5 * attempt)
                 continue
             print(f" ! publish failed: {e}", file=sys.stderr)
-            if getattr(e, "response", None) is not None:
-                print(f"   Response body: {e.response.text}", file=sys.stderr)
+            if resp is not None:
+                print(f"   Response body: {resp.text}", file=sys.stderr)
             return None
     return None
 
@@ -376,6 +415,9 @@ def post_to_instagram(image_url: str, caption: str) -> bool:
     media_id = _publish_container(creation_id)
     if not media_id:
         return False
+    if media_id == IG_PUBLISHED_UNCONFIRMED:
+        print("  treated as posted (unconfirmed publish) — counted against run cap.")
+        return True
     print(f"  posted to Instagram (media id {media_id})")
     return True
 
