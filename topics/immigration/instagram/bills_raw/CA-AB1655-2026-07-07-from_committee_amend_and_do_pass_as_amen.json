@@ -1,0 +1,46 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes the California Work Opportunity and Responsibility to Kids (CalWORKs) program, under which, through a combination of federal, state, and county funds, each county provides cash assistance and other benefits to qualified low-income families.\n\nExisting law sets forth provisions for the calculation of the amount of CalWORKs aid eligible to a household based in part on the size of the assistance unit. Under existing law and CalWORKs rules, aid is not affected for a member of the assistance unit who is temporarily absent from the home, and a child who is a patient in a public or private hospital for medical or surgical care is considered temporarily absent from the home for the duration of the hospital stay.\n\nUnder this bill, beginning July 1, 2027, or when the department notifies the Legislature that the Statewide Automated Welfare System can perform the necessary automations, whichever is later, a child or other member of the assistance unit who is detained in a federal immigration detention facility would be considered temporarily absent from the home for the duration of the detention. Under the bill, the assistance unit would remain eligible to continue receive assistance and services if specified conditions are met, including that the remaining members of the assistance unit continue to meet eligibility requirements. The bill would authorize a sworn statement by the applicant or recipient to be sufficient to establish that a member of the assistance unit has been detained in an immigration detention facility. The bill would authorize the department to implement these provisions through all-county letters or similar written instructions until regulations are adopted. The bill would make related legislative findings.\n\nBy creating new duties for counties relating to expanded eligibility under CalWORKS, the bill would impose a state-mandated local program.\n\nExisting law continuously appropriates moneys from the General Fund to defray a portion of county costs under the CalWORKs program.\n\nThis bill would instead provide that the continuous appropriation would not be made for purposes of the bill.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1655",
+    "legislative_session": "20252026",
+    "subject": [
+      "CalWORKs",
+      "immigrationdetention",
+      "temporaryabsence"
+    ],
+    "title": "CalWORKs: temporary absence: immigration detention."
+  },
+  "id": "AB1655",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-introduction",
+        "amendment-passage",
+        "committee-passage",
+        "referral-committee"
+      ],
+      "description": "From committee: Amend, and do pass as amended and re-refer to Com. on APPR. (Ayes 11. Noes 2.) (June 30).",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-07",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1655"
+        }
+      ]
+    },
+    "bill_id": "AB1655"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1655/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1655/logs/20260707T000000Z_from_committee_amend_and_do_pass_as_amended_and_rerefer_to_com_on_appr_ayes_11_noes_2_june_30.json"
+  },
+  "timestamp": "20260707T000000Z"
+}
