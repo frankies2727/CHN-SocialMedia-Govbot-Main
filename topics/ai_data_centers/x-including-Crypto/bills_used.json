@@ -48,6 +48,8 @@
     "CA|SB903|2026-05-19|",
     "CA|SB903|2026-05-19|Read third time. Passed. (Ayes 39. Noes ",
     "CA|SB903|2026-05-20|In Assembly. Read first time. Held at De",
+    "CA|SB947|2026-07-02",
+    "CA|SB947|2026-07-02|Read second time and amended. Re-referre",
     "CA|SB97|2026-06-18|Notice of intention to remove from inact",
     "CA|SB97|2026-06-22|From inactive file.",
     "CA|SB97|2026-06-22|Ordered to third reading.",
@@ -185,6 +187,8 @@
     "PR|PS0934|2026-01-14|Aparece en Primera Lectura del Senado",
     "PR|PS0934|2026-06-15|Comisi\u00f3n no recomienda aprobaci\u00f3n de la ",
     "PR|PS1297|2026-05-28|Aparece en Primera Lectura del Senado",
+    "RI|HB7349|2026-06-10",
+    "RI|HB7349|2026-06-10|06/10/2026 Senate passed Sub A in concur",
     "RI|HB7349|2026-06-18|06/18/2026 Transmitted to Governor",
     "RI|HB7349|2026-06-22|06/22/2026 Signed by Governor",
     "RI|HB7350|2026-06-18|06/18/2026 Transmitted to Governor",
@@ -212,6 +216,8 @@
     "TN|SB 0677|2026-05-27|Effective date(s) 05/22/2026",
     "TN|SB 0677|2026-05-27|Pub. Ch. 1056",
     "TN|SB 1493|2026-05-22|Signed by Governor.",
+    "TN|SB 1700|2026-05-22",
+    "TN|SB 1700|2026-05-22|Signed by Governor.",
     "TN|SB 1700|2026-05-27|Effective date(s) 05/22/2026",
     "WA|SB 5956|2026-02-24|ED - Majority; do pass with amendment(s)",
     "WA|SB 5956|2026-02-24|Executive action taken in the House Comm",
@@ -232,7 +238,7 @@
     "WA": "2026-06-01T18:04:50.925907+00:00",
     "GA": "2026-06-24T11:45:55.540518+00:00",
     "MN": "2026-06-02T12:32:48.851632+00:00",
-    "CA": "2026-07-09T11:30:58.625888+00:00",
+    "CA": "2026-07-10T11:28:43.161647+00:00",
     "MS": "2026-05-30T10:31:21.713792+00:00",
     "MO": "2026-07-03T11:13:03.395150+00:00",
     "AL": "2026-06-05T23:32:07.647880+00:00",
@@ -241,9 +247,9 @@
     "IL": "2026-05-26T01:08:56.456572+00:00",
     "PR": "2026-06-30T04:03:19.176616+00:00",
     "DE": "2026-07-08T10:39:58.957871+00:00",
-    "RI": "2026-07-09T11:30:58.625888+00:00",
+    "RI": "2026-07-10T11:28:43.161647+00:00",
     "NH": "2026-07-05T10:41:09.576300+00:00",
-    "TN": "2026-07-09T11:30:58.625888+00:00"
+    "TN": "2026-07-10T11:28:43.161647+00:00"
   },
-  "last_run": "2026-07-09T11:35:14.577493+00:00"
+  "last_run": "2026-07-10T11:33:00.431149+00:00"
 }

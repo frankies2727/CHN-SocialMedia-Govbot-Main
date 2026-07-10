@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Establishes regulations regarding the use of artificial intelligence in mental health care treatments.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB7349",
+    "legislative_session": "2026",
+    "title": "AN ACT RELATING TO BEHAVIORAL HEALTHCARE, DEVELOPMENTAL DISABILITIES AND HOSPITALS -- OVERSIGHT OF ARTIFICIAL INTELLIGENCE TECHNOLOGY IN MENTAL HEALTH CARE ACT"
+  },
+  "id": "HB7349",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-06-10",
+      "description": "06/10/2026 Senate passed Sub A in concurrence",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB7349"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2026/bills/HB7349/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2026/bills/HB7349/logs/20260610T000000Z.classification.passage.upper.json"
+  }
+}
