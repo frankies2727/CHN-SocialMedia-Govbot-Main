@@ -72,6 +72,13 @@ POST_LIMIT = int(os.environ.get("POST_LIMIT", "2"))
 # the account hits this ceiling, later topics in the loop exit early. The next
 # run starts the count fresh.
 RUN_POST_LIMIT = int(os.environ.get("RUN_POST_LIMIT", "3"))
+# Exit code the workflow's topic loop watches for. main() returns this once the
+# account's per-run cap is full — either it was already full on entry, or this
+# topic's posts just filled it. The loop treats it as "stop launching further
+# per-topic processes," so the remaining topics don't each boot Python and
+# re-load the full ~1.1M-record bill corpus only to no-op. Any value in 1..255
+# that no library/interpreter uses works; 42 is arbitrary and distinctive.
+RUN_CAP_REACHED_EXIT = 42
 # Account-level (cross-topic) ledger lives under account_state/<platform>/.
 PLATFORM = "meta-threads"
 MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "62"))
@@ -480,7 +487,7 @@ def main() -> int:
     if SAVE_STATE and effective_limit <= 0:
         print(f"Run post limit reached ({ledger.posted_this_run()}/{RUN_POST_LIMIT} "
               f"posted this run) — skipping topic '{TOPIC.name}'.")
-        return 0
+        return RUN_CAP_REACHED_EXIT
 
     candidates: list[dict] = []
     # Map same_day_key -> every dedup_key we saw for it, so when we post one
@@ -667,6 +674,15 @@ def main() -> int:
     else:
         print(f"\nDone. Posted {posted} update(s). SAVE_STATE=0 — "
               f"{STATE_FILE.relative_to(ROOT)} left unchanged.")
+
+    # If this topic's posts just filled the account's per-run cap, tell the
+    # workflow loop to stop now rather than launch every remaining topic just to
+    # have each re-load the corpus and no-op.
+    if SAVE_STATE and ledger.remaining_this_run(RUN_POST_LIMIT) <= 0:
+        print(f"Account per-run cap now full "
+              f"({ledger.posted_this_run()}/{RUN_POST_LIMIT}) — "
+              f"signaling the topic loop to stop.")
+        return RUN_CAP_REACHED_EXIT
     return 0
 
 
