@@ -81,7 +81,7 @@ RUN_POST_LIMIT = int(os.environ.get("RUN_POST_LIMIT", "3"))
 RUN_CAP_REACHED_EXIT = 42
 # Account-level (cross-topic) ledger lives under account_state/<platform>/.
 PLATFORM = "meta-threads"
-MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "62"))
+MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "32"))
 DRY_RUN = os.environ.get("DRY_RUN") == "1"
 
 # Persistence knobs, independent of DRY_RUN. Default both ON so the daily

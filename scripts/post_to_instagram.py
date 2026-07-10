@@ -98,7 +98,7 @@ POST_INTERVAL_SECONDS = float(os.environ.get("POST_INTERVAL_SECONDS", "3"))
 POST_INTERVAL_JITTER = float(os.environ.get("POST_INTERVAL_JITTER", "2"))
 # Account-level (cross-topic) ledger lives under account_state/<platform>/.
 PLATFORM = "instagram"
-MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "62"))
+MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "32"))
 DRY_RUN = os.environ.get("DRY_RUN") == "1"
 
 SAVE_STATE = os.environ.get("SAVE_STATE", "1") == "1"
