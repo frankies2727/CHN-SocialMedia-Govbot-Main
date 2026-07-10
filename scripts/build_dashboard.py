@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
 """Build the data file that powers the GitHub Pages dashboard.
 
-Reads every platform's posted records out of the repo and rolls them up into a
-single ``docs/data.json`` that ``docs/index.html`` renders as a dark-mode
-dashboard. Run it locally with ``python scripts/build_dashboard.py`` or let the
-GitHub Actions workflow run it automatically on every push.
+Reads every platform's posted records out of the repo and writes a single
+``docs/data.json`` that ``docs/index.html`` renders as a dark-mode, fully
+filterable dashboard. Run it locally with ``python scripts/build_dashboard.py``
+or let the GitHub Actions workflow run it automatically on every push.
 
-No third-party packages are required: PyYAML is used if present, otherwise the
-three fields we need are pulled from each ``config.yml`` with a small regex.
+Platforms are DISCOVERED, not hard-coded: any directory under a topic that
+contains a ``bills_used.json`` is treated as a platform (so folders like
+``x-including-Crypto`` are picked up automatically, and new platforms such as
+``bluesky`` appear the moment they post — no code change needed).
+
+No third-party packages are required.
 """
 from __future__ import annotations
 
@@ -20,32 +24,69 @@ REPO = Path(__file__).resolve().parent.parent
 TOPICS_DIR = REPO / "topics"
 DOCS_DIR = REPO / "docs"
 
-# Platforms we surface, in display order. Add a new one here (key -> label) and
-# the dashboard picks it up automatically once its bills_used.json files exist.
-PLATFORMS = {
-    "instagram": "Instagram",
-    "meta-threads": "Meta Threads",
-    "bluesky": "Bluesky",
-    "x": "X",
+DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+# Public Bluesky account handle for each topic. These are read live (no auth)
+# from Bluesky's public API by the dashboard, so the feed shows Bluesky posts
+# exactly as posted. Handles are public and stable.
+BLUESKY_HANDLES = {
+    "ai_data_centers":         "govbotaidatacenter.bsky.social",
+    "criminal_justice":        "govbotcrimejustice.bsky.social",
+    "education":               "govboteducation.bsky.social",
+    "elections_voting_rights": "govbotelections.bsky.social",
+    "environment_climate":     "govbotclimate.bsky.social",
+    "healthcare":              "govbothealthcare.bsky.social",
+    "housing":                 "govbothousing.bsky.social",
+    "immigration":             "govbotimmigration.bsky.social",
+    "labor":                   "govbotlaborrights.bsky.social",
+    "lgbtq":                   "govbotlgbtq.bsky.social",
+    "reproductive_rights":     "govbotreproductive.bsky.social",
+    "taxation":                "govbottaxation.bsky.social",
+    "transportation":          "govbottransport.bsky.social",
 }
 
-DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+# Nice display name + a stable color for known platform folders (matched
+# case-insensitively). Unknown folders get a prettified name and a fallback
+# color, so nothing is ever dropped just because it isn't listed here.
+PLATFORM_INFO = {
+    "instagram":          ("Instagram",        "#3987e5"),
+    "meta-threads":       ("Meta Threads",     "#d95926"),
+    "threads":            ("Threads",          "#d95926"),
+    "bluesky":            ("Bluesky",          "#199e70"),
+    "x":                  ("X",                "#9085e9"),
+    "x-including-crypto": ("X (incl. Crypto)", "#9085e9"),
+    "twitter":            ("X",                "#9085e9"),
+    "facebook":           ("Facebook",         "#256abf"),
+    "mastodon":           ("Mastodon",         "#6d5fe0"),
+    "tiktok":             ("TikTok",           "#d55181"),
+    "linkedin":           ("LinkedIn",         "#2f7bbf"),
+}
+# Order platforms sensibly; anything unknown falls to the end, alphabetically.
+PLATFORM_ORDER = ["instagram", "meta-threads", "threads", "bluesky",
+                  "x", "x-including-crypto", "twitter"]
+FALLBACK_COLORS = ["#c98500", "#e66767", "#d55181", "#199e70", "#9085e9", "#3987e5"]
+
+
+def prettify(folder: str) -> str:
+    return folder.replace("-", " ").replace("_", " ").strip().title()
+
+
+def platform_display(folder: str, fallback_idx: int) -> tuple[str, str]:
+    info = PLATFORM_INFO.get(folder.lower())
+    if info:
+        return info
+    return prettify(folder), FALLBACK_COLORS[fallback_idx % len(FALLBACK_COLORS)]
 
 
 def load_topic_meta(topic_dir: Path) -> dict:
-    """Return {display_name, emoji, color} for a topic from its config.yml."""
+    """Return {name, emoji, color} for a topic from its config.yml."""
     cfg = topic_dir / "config.yml"
-    name = topic_dir.name
-    meta = {
-        "name": name.replace("_", " ").title(),
-        "emoji": "📄",
-        "color": "#3987e5",
-    }
+    meta = {"name": topic_dir.name.replace("_", " ").title(), "emoji": "📄", "color": "#3987e5"}
     if not cfg.exists():
         return meta
     text = cfg.read_text(encoding="utf-8", errors="ignore")
 
-    def grab(key: str) -> str | None:
+    def grab(key: str):
         m = re.search(rf'^{key}:\s*"?(.*?)"?\s*$', text, re.MULTILINE)
         return m.group(1).strip() if m else None
 
@@ -59,7 +100,6 @@ def load_topic_meta(topic_dir: Path) -> dict:
 
 
 def parse_record(raw: str) -> dict | None:
-    """Parse a 'STATE|BILL|DATE|action' string into a dict (or None if bad)."""
     parts = (raw.split("|", 3) + ["", "", "", ""])[:4]
     state, bill, date, action = (p.strip() for p in parts)
     if not state or not bill or not DATE_RE.match(date):
@@ -67,99 +107,144 @@ def parse_record(raw: str) -> dict | None:
     return {"state": state, "bill": bill, "date": date, "action": action}
 
 
-def main() -> None:
-    records: list[dict] = []  # one row per posted item, tagged with topic+platform
+STATE_RE = re.compile(r"state:([a-z]{2})")
 
+
+def clean(text: str) -> str:
+    text = re.sub(r"\s+", " ", (text or "")).strip()
+    # Legislative titles are often SHOUTED in all caps — make them readable.
+    letters = [c for c in text if c.isalpha()]
+    if letters and sum(c.isupper() for c in letters) / len(letters) > 0.7:
+        text = text.title()
+    return text
+
+
+def feed_item(path: Path, folder: str, topic_key: str) -> dict | None:
+    """Turn one bills_raw/*.json record into a display-ready feed card."""
+    try:
+        d = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return None
+    bill = d.get("bill", {})
+    action = d.get("log", {}).get("action", {})
+    src = d.get("sources", {}).get("bill", "")
+    m = STATE_RE.search(src)
+    state = (m.group(1).upper() if m else path.name[:2].upper())
+    identifier = bill.get("identifier") or d.get("id") or ""
+    date = (action.get("date") or d.get("timestamp") or "")[:10]
+    if not DATE_RE.match(date):
+        # timestamps like 20260618T000000Z -> 2026-06-18
+        ts = (d.get("timestamp") or "")
+        if len(ts) >= 8 and ts[:8].isdigit():
+            date = f"{ts[0:4]}-{ts[4:6]}-{ts[6:8]}"
+    if not identifier or not DATE_RE.match(date):
+        return None
+    title = clean(bill.get("title", ""))
+    abstract = ""
+    for a in bill.get("abstracts", []) or []:
+        cand = clean(a.get("abstract", ""))
+        if len(cand) >= 60:           # skip one-word subject tags like "Consumer Protection"
+            abstract = cand
+            break
+    return {
+        "platform": folder,
+        "topic": topic_key,
+        "state": state,
+        "bill": identifier,
+        "title": title,
+        "summary": abstract,
+        "action": clean(action.get("description", "")),
+        "date": date,
+    }
+
+
+def discover_platforms() -> list[str]:
+    """Every distinct platform folder name that holds a bills_used.json."""
+    found: set[str] = set()
+    for used in TOPICS_DIR.glob("*/*/bills_used.json"):
+        found.add(used.parent.name)
+    ordered = [p for p in PLATFORM_ORDER if p in found]
+    ordered += sorted(f for f in found if f not in PLATFORM_ORDER)
+    return ordered
+
+
+def main() -> None:
+    platform_folders = discover_platforms()
+    platforms = []
+    fallback_i = 0
+    for folder in platform_folders:
+        name, color = platform_display(folder, fallback_i)
+        if folder.lower() not in PLATFORM_INFO:
+            fallback_i += 1
+        platforms.append({"key": folder, "name": name, "color": color})
+
+    topics = []
+    records: list[dict] = []
+    feed: list[dict] = []
+    bluesky_accounts = []
     for topic_dir in sorted(p for p in TOPICS_DIR.iterdir() if p.is_dir()):
         meta = load_topic_meta(topic_dir)
-        for pkey, pname in PLATFORMS.items():
-            used = topic_dir / pkey / "bills_used.json"
-            if not used.exists():
-                continue
-            try:
-                posted = json.loads(used.read_text(encoding="utf-8")).get("posted", [])
-            except (json.JSONDecodeError, OSError):
-                continue
-            for raw in posted:
-                rec = parse_record(raw)
-                if not rec:
-                    continue
-                rec.update(
-                    topic=topic_dir.name,
-                    topic_name=meta["name"],
-                    emoji=meta["emoji"],
-                    color=meta["color"],
-                    platform=pkey,
-                    platform_name=pname,
-                )
-                records.append(rec)
+        topics.append({"key": topic_dir.name, **meta})
+        handle = BLUESKY_HANDLES.get(topic_dir.name)
+        if handle:
+            bluesky_accounts.append({"handle": handle, "topic": topic_dir.name, **meta})
+        for folder in platform_folders:
+            used = topic_dir / folder / "bills_used.json"
+            if used.exists():
+                try:
+                    posted = json.loads(used.read_text(encoding="utf-8")).get("posted", [])
+                except (json.JSONDecodeError, OSError):
+                    posted = []
+                for raw in posted:
+                    rec = parse_record(raw)
+                    if rec:
+                        rec.update(topic=topic_dir.name, platform=folder)
+                        records.append(rec)
+            # Richer per-post content for the feed lives in bills_raw/*.json.
+            raw_dir = topic_dir / folder / "bills_raw"
+            if raw_dir.is_dir():
+                for raw_file in raw_dir.glob("*.json"):
+                    item = feed_item(raw_file, folder, topic_dir.name)
+                    if item:
+                        feed.append(item)
 
-    # ---- roll-ups -------------------------------------------------------
-    def bump(d: dict, key, amt=1):
-        d[key] = d.get(key, 0) + amt
+    # Only keep topics that actually have posts; keep platform order as discovered.
+    posted_topics = {r["topic"] for r in records}
+    topics = [t for t in topics if t["key"] in posted_topics]
+    posted_platforms = {r["platform"] for r in records}
+    platforms = [p for p in platforms if p["key"] in posted_platforms]
 
-    by_platform: dict[str, int] = {}
-    by_state: dict[str, int] = {}
-    by_month: dict[str, int] = {}
-    topics: dict[str, dict] = {}
+    records.sort(key=lambda r: r["date"], reverse=True)
 
-    for r in records:
-        bump(by_platform, r["platform"])
-        bump(by_state, r["state"])
-        bump(by_month, r["date"][:7])
-        t = topics.setdefault(
-            r["topic"],
-            {
-                "key": r["topic"],
-                "name": r["topic_name"],
-                "emoji": r["emoji"],
-                "color": r["color"],
-                "count": 0,
-                "platforms": {},
-            },
-        )
-        t["count"] += 1
-        bump(t["platforms"], r["platform"])
-
-    dates = sorted(r["date"] for r in records)
-    bills = {(r["state"], r["bill"]) for r in records}
-
-    recent = sorted(records, key=lambda r: r["date"], reverse=True)[:80]
+    # De-duplicate feed items (same bill+date+action can be saved under both the
+    # per-topic aggregate and the platform folder), newest first, and cap it.
+    seen = set()
+    feed.sort(key=lambda f: f["date"], reverse=True)
+    deduped = []
+    for f in feed:
+        k = (f["platform"], f["state"], f["bill"], f["date"], f["action"])
+        if k in seen:
+            continue
+        seen.add(k)
+        deduped.append(f)
+    feed = deduped[:400]
 
     data = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
-        "totals": {
-            "posts": len(records),
-            "platforms": len([p for p in by_platform if by_platform[p]]),
-            "topics": len([t for t in topics.values() if t["count"]]),
-            "states": len(by_state),
-            "bills": len(bills),
-            "first_date": dates[0] if dates else None,
-            "last_date": dates[-1] if dates else None,
-        },
-        "platforms": [
-            {"key": k, "name": PLATFORMS[k], "count": by_platform[k]}
-            for k in PLATFORMS
-            if by_platform.get(k)
-        ],
-        "topics": sorted(topics.values(), key=lambda t: t["count"], reverse=True),
-        "states": sorted(
-            ({"code": k, "count": v} for k, v in by_state.items()),
-            key=lambda s: s["count"],
-            reverse=True,
-        ),
-        "timeline": [
-            {"month": m, "count": by_month[m]} for m in sorted(by_month)
-        ],
-        "recent": recent,
+        "platforms": platforms,
+        "topics": topics,
+        "records": records,
+        "feed": feed,
+        "bluesky": bluesky_accounts,
     }
 
     DOCS_DIR.mkdir(exist_ok=True)
     out = DOCS_DIR / "data.json"
     out.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"Wrote {out.relative_to(REPO)} — {len(records)} posts across "
-          f"{data['totals']['platforms']} platform(s), "
-          f"{data['totals']['topics']} topics, {data['totals']['states']} states.")
+          f"{len(platforms)} platform(s): "
+          f"{', '.join(p['name'] for p in platforms)}; {len(topics)} topics; "
+          f"{len(feed)} feed cards.")
 
 
 if __name__ == "__main__":
