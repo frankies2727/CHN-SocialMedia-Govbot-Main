@@ -5,7 +5,7 @@ on:
     # 19:00 UTC = 1:00 PM CST (UTC-6). GitHub cron is fixed UTC and does not
     # observe daylight saving, so during CDT (roughly Mar-Nov) this lands at
     # 2:00 PM local; change to "0 18 * * *" if you want 1:00 PM local during CDT.
-    - cron: "0 19 * * *"
+    - cron: "0 18 * * *"
   workflow_dispatch:
 
 permissions:
