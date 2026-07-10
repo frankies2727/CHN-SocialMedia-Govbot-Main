@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act simplifies the licensing requirements for youth camps that are accredited by the American Camp Association (ACA) by requiring that the Department of Education's Office of Child Care Licensing (OCCL) deem a youth camp as meeting all equivalent health and safety requirements necessary for a youth camp license if the youth camp has ACA accreditation through August 30 of the current calendar year. By streamlining the OCCL licensing requirements for youth camps, this Act also increases the availability of summer child care that is eligible for provider reimbursement from the Purchase of Care (POC) program. \r\n\r\nUnder existing OCCL regulations, a youth camp has the option of applying for either license exempt status or a license. To obtain a license, a youth camp must meet very detailed and specific requirements that are challenging, if not impossible, for many youth camps. ACA accreditation requires that a camp satisfies health and safety requirements that are similar and equivalent, but not identical, to the OCCL license requirements. However, an ACA accredited but license-exempt youth camp is unable to receive POC provider reimbursement because under the state plan for the federal Child Care and Development Fund, license exempt child care providers are not eligible for provider reimbursement. \r\n\r\nThis Act also codifies the following policies that are in the current OCCL child care licensing regulations:\r\n•\tA youth camp license and the definition of “youth camp”.\r\n•\tThe requirement that a youth camp must have a valid Division of Public Health permit to be licensed or approved as license exempt.\r\n•\tThe school-age care, programs, and activities that are exempt from child care license requirements. \r\n\r\nThis Act is effective immediately and § 3003A(c)(4)b. of Title 14 must be implemented no later than December 31, 2026. \r\n\r\nThis Act also makes technical corrections to conform existing law to the standards of the Delaware Legislative Drafting Manual.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 293",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO CHILD CARE LICENSES FOR YOUTH CAMPS."
+  },
+  "id": "SB 293",
+  "log": {
+    "action": {
+      "description": "Suspension of Rules in Senate",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-01",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143177"
+        }
+      ]
+    },
+    "bill_id": "SB 293"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB293/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB293/logs/20260701T000000Z_suspension_of_rules_in_senate.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Amends various sections of the workers' compensation statute relative to the court's jurisdiction and the court's authority.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB8524",
+    "legislative_session": "2026",
+    "title": "AN ACT RELATING TO LABOR AND LABOR RELATIONS -- WORKERS' COMPENSATION--GENERAL PROVISIONS"
+  },
+  "id": "HB8524",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-receipt"
+      ],
+      "date": "2026-06-18",
+      "description": "06/18/2026 Transmitted to Governor",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "HB8524"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2026/bills/HB8524/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2026/bills/HB8524/logs/20260618T000000Z.classification.executive-receipt.executive.json"
+  }
+}

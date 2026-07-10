@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law requires the county assessor to assess all property that is subject to taxation at its full value. Existing law establishes, for any of the 1984–85 to 2025–26 tax years, inclusive, a rebuttable presumption in favor of a full cash value assessment for an intercounty pipeline right-of-way, provided that certain specified valuation standards are met in determining that assessed value.\n\nThis bill would extend the application of this rebuttable presumption to the 2030–31 fiscal year.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1437",
+    "legislative_session": "20252026",
+    "subject": [
+      "Propertytaxation",
+      "fullcashvalue",
+      "intercountypipeline",
+      "right-of-wayassessment"
+    ],
+    "title": "Property taxation: intercounty pipeline: right-of-way assessment: full cash value."
+  },
+  "id": "SB1437",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-07-06",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1437"
+        }
+      ]
+    },
+    "bill_id": "SB1437"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1437/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1437/logs/20260706T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260706T000000Z"
+}

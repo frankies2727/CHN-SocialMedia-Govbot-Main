@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H5559",
+    "legislative_session": "194th",
+    "title": "Order relative to extending until Friday, July 17, 2026 the time within which the committee on Education is authorized to report on a current House document"
+  },
+  "id": "H5559",
+  "log": {
+    "action": {
+      "description": "Committee reported ought to be adopted",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-06",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/H5559"
+        }
+      ]
+    },
+    "bill_id": "H5559"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H5559/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H5559/logs/20260706T000000Z_committee_reported_ought_to_be_adopted.json"
+  },
+  "timestamp": "20260706T000000Z"
+}

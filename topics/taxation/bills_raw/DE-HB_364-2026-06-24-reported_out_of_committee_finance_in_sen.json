@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act creates a film production tax credit.  It requires companies to obtain, at their own expense, an independent audit certifying eligible expenditures.  The audit must be submitted to the Division of Small Business for approval and allocation of credits. The credit is nonrefundable, transferable, and may be carried forward for up to 5 years.  The credit may be applied against personal income tax, corporate income tax, bank franchise tax, and insurance premiums tax. All credit transfers must be approved by the Division of Small Business.  This Act further authorizes necessary data sharing among agencies. Applicants and transferees consent to disclosure of credit amounts by virtue of applying or receiving a transfer. This Act also grants regulatory authority to the Division of Small Business and the Secretary of State to administer the annual credit cap; prioritize and manage awards; and issue reports relating to awards and utilization with input from relevant state agencies.  The Division of Small Business may create alternative audit procedures for small businesses where a full audit would be prohibitively expensive.  This Act sunsets on June 30, 2031, and no applications may be submitted after that date.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 364",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 30 OF THE DELAWARE CODE RELATING TO A DELAWARE ENTERTAINMENT PRODUCTION TAX CREDIT."
+  },
+  "id": "HB 364",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported Out of Committee (Finance) in Senate with 4 On Its Merits",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-24",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Finance"
+        }
+      ],
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143056"
+        }
+      ]
+    },
+    "bill_id": "HB 364"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB364/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB364/logs/20260624T000000Z_reported_out_of_committee_finance_in_senate_with_4_on_its_merits.json"
+  },
+  "timestamp": "20260624T000000Z"
+}
