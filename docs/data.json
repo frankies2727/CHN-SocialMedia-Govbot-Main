@@ -1,267 +1,110 @@
 {
-  "generated_at": "2026-07-10 20:32 UTC",
-  "totals": {
-    "posts": 252,
-    "platforms": 2,
-    "topics": 13,
-    "states": 14,
-    "bills": 105,
-    "first_date": "2026-04-27",
-    "last_date": "2028-07-01"
-  },
+  "generated_at": "2026-07-10 20:52 UTC",
   "platforms": [
     {
       "key": "instagram",
       "name": "Instagram",
-      "count": 128
+      "color": "#3987e5"
     },
     {
       "key": "meta-threads",
       "name": "Meta Threads",
-      "count": 124
+      "color": "#d95926"
+    },
+    {
+      "key": "x-including-Crypto",
+      "name": "X (incl. Crypto)",
+      "color": "#9085e9"
     }
   ],
   "topics": [
     {
-      "key": "lgbtq",
-      "name": "LGBTQ",
-      "emoji": "🏳️‍🌈",
-      "color": "#C026D3",
-      "count": 59,
-      "platforms": {
-        "instagram": 28,
-        "meta-threads": 31
-      }
+      "key": "ai_data_centers",
+      "name": "AI, Data Centers & Crypto",
+      "emoji": "🤖",
+      "color": "#6366F1"
     },
     {
       "key": "criminal_justice",
       "name": "Criminal Justice & Policing",
       "emoji": "⚖️",
-      "color": "#475569",
-      "count": 28,
-      "platforms": {
-        "instagram": 19,
-        "meta-threads": 9
-      }
-    },
-    {
-      "key": "housing",
-      "name": "Housing",
-      "emoji": "🏠",
-      "color": "#EA580C",
-      "count": 24,
-      "platforms": {
-        "instagram": 16,
-        "meta-threads": 8
-      }
-    },
-    {
-      "key": "taxation",
-      "name": "Taxation",
-      "emoji": "💰",
-      "color": "#CA8A04",
-      "count": 24,
-      "platforms": {
-        "instagram": 13,
-        "meta-threads": 11
-      }
-    },
-    {
-      "key": "labor",
-      "name": "Labor & Workers' Rights",
-      "emoji": "🛠️",
-      "color": "#B45309",
-      "count": 23,
-      "platforms": {
-        "instagram": 7,
-        "meta-threads": 16
-      }
-    },
-    {
-      "key": "healthcare",
-      "name": "Healthcare",
-      "emoji": "🏥",
-      "color": "#0D9488",
-      "count": 17,
-      "platforms": {
-        "instagram": 14,
-        "meta-threads": 3
-      }
-    },
-    {
-      "key": "elections_voting_rights",
-      "name": "Elections & Voting Rights",
-      "emoji": "🗳️",
-      "color": "#7C3AED",
-      "count": 15,
-      "platforms": {
-        "instagram": 4,
-        "meta-threads": 11
-      }
-    },
-    {
-      "key": "immigration",
-      "name": "Immigration",
-      "emoji": "🛂",
-      "color": "#0891B2",
-      "count": 15,
-      "platforms": {
-        "instagram": 5,
-        "meta-threads": 10
-      }
-    },
-    {
-      "key": "ai_data_centers",
-      "name": "AI, Data Centers & Crypto",
-      "emoji": "🤖",
-      "color": "#6366F1",
-      "count": 13,
-      "platforms": {
-        "instagram": 6,
-        "meta-threads": 7
-      }
+      "color": "#475569"
     },
     {
       "key": "education",
       "name": "Education",
       "emoji": "🎓",
-      "color": "#2563EB",
-      "count": 10,
-      "platforms": {
-        "instagram": 3,
-        "meta-threads": 7
-      }
+      "color": "#2563EB"
     },
     {
-      "key": "transportation",
-      "name": "Transportation",
-      "emoji": "🚗",
-      "color": "#1D4ED8",
-      "count": 9,
-      "platforms": {
-        "instagram": 1,
-        "meta-threads": 8
-      }
-    },
-    {
-      "key": "reproductive_rights",
-      "name": "Reproductive Rights",
-      "emoji": "🩺",
-      "color": "#DB2777",
-      "count": 8,
-      "platforms": {
-        "instagram": 6,
-        "meta-threads": 2
-      }
+      "key": "elections_voting_rights",
+      "name": "Elections & Voting Rights",
+      "emoji": "🗳️",
+      "color": "#7C3AED"
     },
     {
       "key": "environment_climate",
       "name": "Environment & Climate",
       "emoji": "🌎",
-      "color": "#15803D",
-      "count": 7,
-      "platforms": {
-        "instagram": 6,
-        "meta-threads": 1
-      }
+      "color": "#15803D"
+    },
+    {
+      "key": "healthcare",
+      "name": "Healthcare",
+      "emoji": "🏥",
+      "color": "#0D9488"
+    },
+    {
+      "key": "housing",
+      "name": "Housing",
+      "emoji": "🏠",
+      "color": "#EA580C"
+    },
+    {
+      "key": "immigration",
+      "name": "Immigration",
+      "emoji": "🛂",
+      "color": "#0891B2"
+    },
+    {
+      "key": "labor",
+      "name": "Labor & Workers' Rights",
+      "emoji": "🛠️",
+      "color": "#B45309"
+    },
+    {
+      "key": "lgbtq",
+      "name": "LGBTQ",
+      "emoji": "🏳️‍🌈",
+      "color": "#C026D3"
+    },
+    {
+      "key": "reproductive_rights",
+      "name": "Reproductive Rights",
+      "emoji": "🩺",
+      "color": "#DB2777"
+    },
+    {
+      "key": "taxation",
+      "name": "Taxation",
+      "emoji": "💰",
+      "color": "#CA8A04"
+    },
+    {
+      "key": "transportation",
+      "name": "Transportation",
+      "emoji": "🚗",
+      "color": "#1D4ED8"
     }
   ],
-  "states": [
-    {
-      "code": "CA",
-      "count": 69
-    },
-    {
-      "code": "DE",
-      "count": 43
-    },
-    {
-      "code": "MO",
-      "count": 38
-    },
-    {
-      "code": "MA",
-      "count": 22
-    },
-    {
-      "code": "GA",
-      "count": 16
-    },
-    {
-      "code": "RI",
-      "count": 15
-    },
-    {
-      "code": "NH",
-      "count": 11
-    },
-    {
-      "code": "WI",
-      "count": 11
-    },
-    {
-      "code": "TN",
-      "count": 10
-    },
-    {
-      "code": "PR",
-      "count": 7
-    },
-    {
-      "code": "FL",
-      "count": 4
-    },
-    {
-      "code": "IA",
-      "count": 3
-    },
-    {
-      "code": "AL",
-      "count": 2
-    },
-    {
-      "code": "CO",
-      "count": 1
-    }
-  ],
-  "timeline": [
-    {
-      "month": "2026-04",
-      "count": 7
-    },
-    {
-      "month": "2026-05",
-      "count": 78
-    },
-    {
-      "month": "2026-06",
-      "count": 135
-    },
-    {
-      "month": "2026-07",
-      "count": 26
-    },
-    {
-      "month": "2027-01",
-      "count": 4
-    },
-    {
-      "month": "2028-07",
-      "count": 2
-    }
-  ],
-  "recent": [
+  "records": [
     {
       "state": "GA",
       "bill": "SB 160",
       "date": "2028-07-01",
       "action": "Effective Date",
       "topic": "transportation",
-      "topic_name": "Transportation",
-      "emoji": "🚗",
-      "color": "#1D4ED8",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "GA",
@@ -269,11 +112,7 @@
       "date": "2028-07-01",
       "action": "Effective Date",
       "topic": "transportation",
-      "topic_name": "Transportation",
-      "emoji": "🚗",
-      "color": "#1D4ED8",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "GA",
@@ -281,11 +120,15 @@
       "date": "2027-01-01",
       "action": "Effective Date",
       "topic": "ai_data_centers",
-      "topic_name": "AI, Data Centers & Crypto",
-      "emoji": "🤖",
-      "color": "#6366F1",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
+    },
+    {
+      "state": "GA",
+      "bill": "SB 444",
+      "date": "2027-01-01",
+      "action": "Effective Date",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
     },
     {
       "state": "GA",
@@ -293,11 +136,7 @@
       "date": "2027-01-01",
       "action": "Effective Date",
       "topic": "environment_climate",
-      "topic_name": "Environment & Climate",
-      "emoji": "🌎",
-      "color": "#15803D",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "GA",
@@ -305,11 +144,7 @@
       "date": "2027-01-01",
       "action": "",
       "topic": "healthcare",
-      "topic_name": "Healthcare",
-      "emoji": "🏥",
-      "color": "#0D9488",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "GA",
@@ -317,11 +152,7 @@
       "date": "2027-01-01",
       "action": "Effective Date",
       "topic": "healthcare",
-      "topic_name": "Healthcare",
-      "emoji": "🏥",
-      "color": "#0D9488",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "CA",
@@ -329,11 +160,7 @@
       "date": "2026-07-07",
       "action": "",
       "topic": "immigration",
-      "topic_name": "Immigration",
-      "emoji": "🛂",
-      "color": "#0891B2",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "CA",
@@ -341,11 +168,7 @@
       "date": "2026-07-07",
       "action": "From committee: Amend, and do pass as am",
       "topic": "immigration",
-      "topic_name": "Immigration",
-      "emoji": "🛂",
-      "color": "#0891B2",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "CA",
@@ -353,11 +176,103 @@
       "date": "2026-07-07",
       "action": "Read second time and amended. Re-referre",
       "topic": "immigration",
-      "topic_name": "Immigration",
-      "emoji": "🛂",
-      "color": "#0891B2",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "AB2335",
+      "date": "2026-07-02",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "AB2335",
+      "date": "2026-07-02",
+      "action": "From committee: Amend, and do pass as am",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "AB2335",
+      "date": "2026-07-02",
+      "action": "Read second time and amended. Re-referre",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "AB2409",
+      "date": "2026-07-02",
+      "action": "Read second time and amended. Re-referre",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "AB2469",
+      "date": "2026-07-02",
+      "action": "From committee: Amend, and do pass as am",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "AB2469",
+      "date": "2026-07-02",
+      "action": "Read second time and amended. Re-referre",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "SB1119",
+      "date": "2026-07-02",
+      "action": "Coauthors revised.",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "SB1119",
+      "date": "2026-07-02",
+      "action": "From committee: Do pass and re-refer to",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "SB574",
+      "date": "2026-07-02",
+      "action": "From committee: Do pass as amended. (Aye",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "SB574",
+      "date": "2026-07-02",
+      "action": "Read second time and amended. Ordered to",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "SB947",
+      "date": "2026-07-02",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "SB947",
+      "date": "2026-07-02",
+      "action": "Read second time and amended. Re-referre",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
     },
     {
       "state": "CA",
@@ -365,11 +280,7 @@
       "date": "2026-07-02",
       "action": "Read second time and amended. Re-referre",
       "topic": "environment_climate",
-      "topic_name": "Environment & Climate",
-      "emoji": "🌎",
-      "color": "#15803D",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "CA",
@@ -377,11 +288,7 @@
       "date": "2026-07-02",
       "action": "Read second time and amended. Re-referre",
       "topic": "immigration",
-      "topic_name": "Immigration",
-      "emoji": "🛂",
-      "color": "#0891B2",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "CA",
@@ -389,11 +296,7 @@
       "date": "2026-07-02",
       "action": "",
       "topic": "labor",
-      "topic_name": "Labor & Workers' Rights",
-      "emoji": "🛠️",
-      "color": "#B45309",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "CA",
@@ -401,11 +304,7 @@
       "date": "2026-07-02",
       "action": "Adopted and to Senate. (Ayes 70. Noes 0.",
       "topic": "labor",
-      "topic_name": "Labor & Workers' Rights",
-      "emoji": "🛠️",
-      "color": "#B45309",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "CA",
@@ -413,11 +312,7 @@
       "date": "2026-07-02",
       "action": "In Senate. To Com. on RLS.",
       "topic": "labor",
-      "topic_name": "Labor & Workers' Rights",
-      "emoji": "🛠️",
-      "color": "#B45309",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "CA",
@@ -425,11 +320,23 @@
       "date": "2026-07-02",
       "action": "Read second time and amended. Re-referre",
       "topic": "taxation",
-      "topic_name": "Taxation",
-      "emoji": "💰",
-      "color": "#CA8A04",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "AB2409",
+      "date": "2026-07-01",
+      "action": "From committee: Amend, and do pass as am",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "GA",
+      "bill": "HB 1272",
+      "date": "2026-07-01",
+      "action": "Effective Date",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
     },
     {
       "state": "GA",
@@ -437,11 +344,7 @@
       "date": "2026-07-01",
       "action": "Effective Date",
       "topic": "criminal_justice",
-      "topic_name": "Criminal Justice & Policing",
-      "emoji": "⚖️",
-      "color": "#475569",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "MA",
@@ -449,11 +352,7 @@
       "date": "2026-07-01",
       "action": "",
       "topic": "criminal_justice",
-      "topic_name": "Criminal Justice & Policing",
-      "emoji": "⚖️",
-      "color": "#475569",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "MA",
@@ -461,11 +360,7 @@
       "date": "2026-07-01",
       "action": "Read; and referred to the committee on S",
       "topic": "criminal_justice",
-      "topic_name": "Criminal Justice & Policing",
-      "emoji": "⚖️",
-      "color": "#475569",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "GA",
@@ -473,11 +368,7 @@
       "date": "2026-07-01",
       "action": "Effective Date",
       "topic": "education",
-      "topic_name": "Education",
-      "emoji": "🎓",
-      "color": "#2563EB",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "GA",
@@ -485,11 +376,7 @@
       "date": "2026-07-01",
       "action": "Effective Date",
       "topic": "education",
-      "topic_name": "Education",
-      "emoji": "🎓",
-      "color": "#2563EB",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "MA",
@@ -497,11 +384,7 @@
       "date": "2026-07-01",
       "action": "Amendment #7 adopted, as changed",
       "topic": "elections_voting_rights",
-      "topic_name": "Elections & Voting Rights",
-      "emoji": "🗳️",
-      "color": "#7C3AED",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "MA",
@@ -509,11 +392,7 @@
       "date": "2026-07-01",
       "action": "Amendment #9 adopted, as changed",
       "topic": "elections_voting_rights",
-      "topic_name": "Elections & Voting Rights",
-      "emoji": "🗳️",
-      "color": "#7C3AED",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "MA",
@@ -521,11 +400,7 @@
       "date": "2026-07-01",
       "action": "Committee recommended ought to pass with",
       "topic": "elections_voting_rights",
-      "topic_name": "Elections & Voting Rights",
-      "emoji": "🗳️",
-      "color": "#7C3AED",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "MA",
@@ -533,11 +408,7 @@
       "date": "2026-07-01",
       "action": "Committee reported that the matter be pl",
       "topic": "elections_voting_rights",
-      "topic_name": "Elections & Voting Rights",
-      "emoji": "🗳️",
-      "color": "#7C3AED",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "MA",
@@ -545,11 +416,7 @@
       "date": "2026-07-01",
       "action": "Ordered to a third reading",
       "topic": "elections_voting_rights",
-      "topic_name": "Elections & Voting Rights",
-      "emoji": "🗳️",
-      "color": "#7C3AED",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "MA",
@@ -557,11 +424,7 @@
       "date": "2026-07-01",
       "action": "Read second, amended (as recommended by",
       "topic": "elections_voting_rights",
-      "topic_name": "Elections & Voting Rights",
-      "emoji": "🗳️",
-      "color": "#7C3AED",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "MA",
@@ -569,11 +432,7 @@
       "date": "2026-07-01",
       "action": "Read third",
       "topic": "elections_voting_rights",
-      "topic_name": "Elections & Voting Rights",
-      "emoji": "🗳️",
-      "color": "#7C3AED",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "MA",
@@ -581,11 +440,7 @@
       "date": "2026-07-01",
       "action": "Rules suspended",
       "topic": "elections_voting_rights",
-      "topic_name": "Elections & Voting Rights",
-      "emoji": "🗳️",
-      "color": "#7C3AED",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "MA",
@@ -593,11 +448,7 @@
       "date": "2026-07-01",
       "action": "Placed on file",
       "topic": "healthcare",
-      "topic_name": "Healthcare",
-      "emoji": "🏥",
-      "color": "#0D9488",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "GA",
@@ -605,11 +456,7 @@
       "date": "2026-07-01",
       "action": "Effective Date",
       "topic": "labor",
-      "topic_name": "Labor & Workers' Rights",
-      "emoji": "🛠️",
-      "color": "#B45309",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "GA",
@@ -617,11 +464,7 @@
       "date": "2026-07-01",
       "action": "Effective Date",
       "topic": "labor",
-      "topic_name": "Labor & Workers' Rights",
-      "emoji": "🛠️",
-      "color": "#B45309",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "MA",
@@ -629,11 +472,31 @@
       "date": "2026-07-01",
       "action": "Committee recommended ought to pass and",
       "topic": "transportation",
-      "topic_name": "Transportation",
-      "emoji": "🚗",
-      "color": "#1D4ED8",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "AB2545",
+      "date": "2026-06-30",
+      "action": "Read second time and amended. Re-referre",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 404",
+      "date": "2026-06-30",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 404",
+      "date": "2026-06-30",
+      "action": "Amendment HA 1 to HS 1 - Passed In House",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
     },
     {
       "state": "MO",
@@ -641,11 +504,7 @@
       "date": "2026-06-30",
       "action": "Delivered to Secretary of State (G)",
       "topic": "criminal_justice",
-      "topic_name": "Criminal Justice & Policing",
-      "emoji": "⚖️",
-      "color": "#475569",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "MO",
@@ -653,11 +512,7 @@
       "date": "2026-06-30",
       "action": "Vetoed in Part by Governor (G)",
       "topic": "criminal_justice",
-      "topic_name": "Criminal Justice & Policing",
-      "emoji": "⚖️",
-      "color": "#475569",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "DE",
@@ -665,11 +520,7 @@
       "date": "2026-06-30",
       "action": "Reported Out of Committee (Finance) in S",
       "topic": "elections_voting_rights",
-      "topic_name": "Elections & Voting Rights",
-      "emoji": "🗳️",
-      "color": "#7C3AED",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -677,11 +528,7 @@
       "date": "2026-06-30",
       "action": "",
       "topic": "healthcare",
-      "topic_name": "Healthcare",
-      "emoji": "🏥",
-      "color": "#0D9488",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -689,11 +536,7 @@
       "date": "2026-06-30",
       "action": "Laid On Table in House",
       "topic": "healthcare",
-      "topic_name": "Healthcare",
-      "emoji": "🏥",
-      "color": "#0D9488",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -701,11 +544,7 @@
       "date": "2026-06-30",
       "action": "Lifted From Table in House",
       "topic": "healthcare",
-      "topic_name": "Healthcare",
-      "emoji": "🏥",
-      "color": "#0D9488",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -713,11 +552,7 @@
       "date": "2026-06-30",
       "action": "",
       "topic": "housing",
-      "topic_name": "Housing",
-      "emoji": "🏠",
-      "color": "#EA580C",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -725,11 +560,7 @@
       "date": "2026-06-30",
       "action": "Amendment HA 1 to SS 1 - Passed In House",
       "topic": "housing",
-      "topic_name": "Housing",
-      "emoji": "🏠",
-      "color": "#EA580C",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -737,11 +568,7 @@
       "date": "2026-06-30",
       "action": "Amendment HA 2 to SS 1 - Introduced and",
       "topic": "housing",
-      "topic_name": "Housing",
-      "emoji": "🏠",
-      "color": "#EA580C",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -749,11 +576,7 @@
       "date": "2026-06-30",
       "action": "Amendment HA 2 to SS 1 - Passed In House",
       "topic": "housing",
-      "topic_name": "Housing",
-      "emoji": "🏠",
-      "color": "#EA580C",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "CA",
@@ -761,11 +584,7 @@
       "date": "2026-06-30",
       "action": "From committee: Do pass and re-refer to",
       "topic": "housing",
-      "topic_name": "Housing",
-      "emoji": "🏠",
-      "color": "#EA580C",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "CA",
@@ -773,11 +592,47 @@
       "date": "2026-06-30",
       "action": "Enrolled and presented to the Governor a",
       "topic": "labor",
-      "topic_name": "Labor & Workers' Rights",
-      "emoji": "🛠️",
-      "color": "#B45309",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "SB97",
+      "date": "2026-06-29",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "SB97",
+      "date": "2026-06-29",
+      "action": "Assembly amendments concurred in. (Ayes",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "SB97",
+      "date": "2026-06-29",
+      "action": "Enrolled and presented to the Governor a",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "SB97",
+      "date": "2026-06-29",
+      "action": "Unanimous consent granted to take up wit",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "SB97",
+      "date": "2026-06-29",
+      "action": "Urgency clause adopted.",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
     },
     {
       "state": "PR",
@@ -785,11 +640,7 @@
       "date": "2026-06-29",
       "action": "",
       "topic": "housing",
-      "topic_name": "Housing",
-      "emoji": "🏠",
-      "color": "#EA580C",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "PR",
@@ -797,11 +648,7 @@
       "date": "2026-06-29",
       "action": "Aprobada por Cámara por unanimidad",
       "topic": "housing",
-      "topic_name": "Housing",
-      "emoji": "🏠",
-      "color": "#EA580C",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "PR",
@@ -809,11 +656,7 @@
       "date": "2026-06-29",
       "action": "Aprobado con enmiendas del informe",
       "topic": "housing",
-      "topic_name": "Housing",
-      "emoji": "🏠",
-      "color": "#EA580C",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "PR",
@@ -821,11 +664,7 @@
       "date": "2026-06-29",
       "action": "En el Calendario de Ordenes Especiales d",
       "topic": "housing",
-      "topic_name": "Housing",
-      "emoji": "🏠",
-      "color": "#EA580C",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "PR",
@@ -833,11 +672,7 @@
       "date": "2026-06-29",
       "action": "Texto de Aprobación Final en Cámara",
       "topic": "housing",
-      "topic_name": "Housing",
-      "emoji": "🏠",
-      "color": "#EA580C",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "CA",
@@ -845,11 +680,7 @@
       "date": "2026-06-29",
       "action": "",
       "topic": "lgbtq",
-      "topic_name": "LGBTQ",
-      "emoji": "🏳️‍🌈",
-      "color": "#C026D3",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "CA",
@@ -857,11 +688,7 @@
       "date": "2026-06-29",
       "action": "Assembly Rule 63 suspended.",
       "topic": "lgbtq",
-      "topic_name": "LGBTQ",
-      "emoji": "🏳️‍🌈",
-      "color": "#C026D3",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "CA",
@@ -869,11 +696,7 @@
       "date": "2026-06-29",
       "action": "Assembly amendments concurred in. (Ayes",
       "topic": "lgbtq",
-      "topic_name": "LGBTQ",
-      "emoji": "🏳️‍🌈",
-      "color": "#C026D3",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "CA",
@@ -881,11 +704,7 @@
       "date": "2026-06-29",
       "action": "In Senate. Concurrence in Assembly amend",
       "topic": "lgbtq",
-      "topic_name": "LGBTQ",
-      "emoji": "🏳️‍🌈",
-      "color": "#C026D3",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "CA",
@@ -893,11 +712,7 @@
       "date": "2026-06-29",
       "action": "Unanimous consent granted to take up wit",
       "topic": "lgbtq",
-      "topic_name": "LGBTQ",
-      "emoji": "🏳️‍🌈",
-      "color": "#C026D3",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "CA",
@@ -905,11 +720,7 @@
       "date": "2026-06-29",
       "action": "Withdrawn from committee pursuant to Ass",
       "topic": "lgbtq",
-      "topic_name": "LGBTQ",
-      "emoji": "🏳️‍🌈",
-      "color": "#C026D3",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "CA",
@@ -917,11 +728,15 @@
       "date": "2026-06-26",
       "action": "In committee: Set, final hearing. Hearin",
       "topic": "ai_data_centers",
-      "topic_name": "AI, Data Centers & Crypto",
-      "emoji": "🤖",
-      "color": "#6366F1",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "AB1988",
+      "date": "2026-06-26",
+      "action": "In committee: Set, final hearing. Hearin",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
     },
     {
       "state": "CA",
@@ -929,11 +744,7 @@
       "date": "2026-06-26",
       "action": "From committee chair, with author's amen",
       "topic": "housing",
-      "topic_name": "Housing",
-      "emoji": "🏠",
-      "color": "#EA580C",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "CA",
@@ -941,11 +752,7 @@
       "date": "2026-06-26",
       "action": "From committee chair, with author's amen",
       "topic": "lgbtq",
-      "topic_name": "LGBTQ",
-      "emoji": "🏳️‍🌈",
-      "color": "#C026D3",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "CA",
@@ -953,11 +760,7 @@
       "date": "2026-06-26",
       "action": "From committee chair, with author's amen",
       "topic": "lgbtq",
-      "topic_name": "LGBTQ",
-      "emoji": "🏳️‍🌈",
-      "color": "#C026D3",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "CA",
@@ -965,11 +768,7 @@
       "date": "2026-06-26",
       "action": "From committee with author's amendments.",
       "topic": "lgbtq",
-      "topic_name": "LGBTQ",
-      "emoji": "🏳️‍🌈",
-      "color": "#C026D3",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "CA",
@@ -977,11 +776,7 @@
       "date": "2026-06-26",
       "action": "From committee chair, with author's amen",
       "topic": "taxation",
-      "topic_name": "Taxation",
-      "emoji": "💰",
-      "color": "#CA8A04",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
     },
     {
       "state": "CA",
@@ -989,11 +784,47 @@
       "date": "2026-06-25",
       "action": "From committee: Do pass and re-refer to",
       "topic": "ai_data_centers",
-      "topic_name": "AI, Data Centers & Crypto",
-      "emoji": "🤖",
-      "color": "#6366F1",
-      "platform": "meta-threads",
-      "platform_name": "Meta Threads"
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "AB1651",
+      "date": "2026-06-25",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "AB1651",
+      "date": "2026-06-25",
+      "action": "In Assembly. Concurrence in Senate amend",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "AB2392",
+      "date": "2026-06-25",
+      "action": "From committee: Do pass and re-refer to",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "AB2504",
+      "date": "2026-06-25",
+      "action": "From committee: Do pass and re-refer to",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 453",
+      "date": "2026-06-25",
+      "action": "Amendment HA 2 to HS 1 - Introduced and",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
     },
     {
       "state": "CA",
@@ -1001,11 +832,7 @@
       "date": "2026-06-25",
       "action": "Read second time and amended. Re-referre",
       "topic": "criminal_justice",
-      "topic_name": "Criminal Justice & Policing",
-      "emoji": "⚖️",
-      "color": "#475569",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -1013,11 +840,7 @@
       "date": "2026-06-25",
       "action": "",
       "topic": "criminal_justice",
-      "topic_name": "Criminal Justice & Policing",
-      "emoji": "⚖️",
-      "color": "#475569",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -1025,11 +848,7 @@
       "date": "2026-06-25",
       "action": "Amendment HA 1 to SS 1 - Stricken in Hou",
       "topic": "criminal_justice",
-      "topic_name": "Criminal Justice & Policing",
-      "emoji": "⚖️",
-      "color": "#475569",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -1037,11 +856,7 @@
       "date": "2026-06-25",
       "action": "Amendment HA 10 to SS 1 - Stricken in Ho",
       "topic": "criminal_justice",
-      "topic_name": "Criminal Justice & Policing",
-      "emoji": "⚖️",
-      "color": "#475569",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -1049,11 +864,7 @@
       "date": "2026-06-25",
       "action": "Amendment HA 11 to SS 1 - Stricken in Ho",
       "topic": "criminal_justice",
-      "topic_name": "Criminal Justice & Policing",
-      "emoji": "⚖️",
-      "color": "#475569",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -1061,11 +872,7 @@
       "date": "2026-06-25",
       "action": "Amendment HA 12 to SS 1 - Stricken in Ho",
       "topic": "criminal_justice",
-      "topic_name": "Criminal Justice & Policing",
-      "emoji": "⚖️",
-      "color": "#475569",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -1073,11 +880,7 @@
       "date": "2026-06-25",
       "action": "Amendment HA 13 to SS 1 - Stricken in Ho",
       "topic": "criminal_justice",
-      "topic_name": "Criminal Justice & Policing",
-      "emoji": "⚖️",
-      "color": "#475569",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -1085,11 +888,7 @@
       "date": "2026-06-25",
       "action": "Amendment HA 14 to SS 1 - Stricken in Ho",
       "topic": "criminal_justice",
-      "topic_name": "Criminal Justice & Policing",
-      "emoji": "⚖️",
-      "color": "#475569",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -1097,11 +896,7 @@
       "date": "2026-06-25",
       "action": "Amendment HA 15 to SS 1 - Passed In Hous",
       "topic": "criminal_justice",
-      "topic_name": "Criminal Justice & Policing",
-      "emoji": "⚖️",
-      "color": "#475569",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -1109,11 +904,7 @@
       "date": "2026-06-25",
       "action": "Amendment HA 16 to SS 1 - Introduced and",
       "topic": "criminal_justice",
-      "topic_name": "Criminal Justice & Policing",
-      "emoji": "⚖️",
-      "color": "#475569",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -1121,11 +912,7 @@
       "date": "2026-06-25",
       "action": "Amendment HA 16 to SS 1 - Passed In Hous",
       "topic": "criminal_justice",
-      "topic_name": "Criminal Justice & Policing",
-      "emoji": "⚖️",
-      "color": "#475569",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -1133,11 +920,7 @@
       "date": "2026-06-25",
       "action": "Amendment HA 2 to SS 1 - Stricken in Hou",
       "topic": "criminal_justice",
-      "topic_name": "Criminal Justice & Policing",
-      "emoji": "⚖️",
-      "color": "#475569",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -1145,11 +928,7 @@
       "date": "2026-06-25",
       "action": "Amendment HA 3 to SS 1 - Stricken in Hou",
       "topic": "criminal_justice",
-      "topic_name": "Criminal Justice & Policing",
-      "emoji": "⚖️",
-      "color": "#475569",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -1157,11 +936,7 @@
       "date": "2026-06-25",
       "action": "Amendment HA 4 to SS 1 - Stricken in Hou",
       "topic": "criminal_justice",
-      "topic_name": "Criminal Justice & Policing",
-      "emoji": "⚖️",
-      "color": "#475569",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -1169,11 +944,7 @@
       "date": "2026-06-25",
       "action": "Amendment HA 5 to SS 1 - Stricken in Hou",
       "topic": "criminal_justice",
-      "topic_name": "Criminal Justice & Policing",
-      "emoji": "⚖️",
-      "color": "#475569",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -1181,11 +952,7 @@
       "date": "2026-06-25",
       "action": "Amendment HA 6 to SS 1 - Stricken in Hou",
       "topic": "criminal_justice",
-      "topic_name": "Criminal Justice & Policing",
-      "emoji": "⚖️",
-      "color": "#475569",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -1193,11 +960,7 @@
       "date": "2026-06-25",
       "action": "Amendment HA 7 to SS 1 - Stricken in Hou",
       "topic": "criminal_justice",
-      "topic_name": "Criminal Justice & Policing",
-      "emoji": "⚖️",
-      "color": "#475569",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
     },
     {
       "state": "DE",
@@ -1205,11 +968,2999 @@
       "date": "2026-06-25",
       "action": "Amendment HA 8 to SS 1 - Stricken in Hou",
       "topic": "criminal_justice",
-      "topic_name": "Criminal Justice & Policing",
-      "emoji": "⚖️",
-      "color": "#475569",
-      "platform": "instagram",
-      "platform_name": "Instagram"
+      "platform": "instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 300",
+      "date": "2026-06-25",
+      "action": "Amendment HA 9 to SS 1 - Stricken in Hou",
+      "topic": "criminal_justice",
+      "platform": "instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 462",
+      "date": "2026-06-25",
+      "action": "Reported Out of Committee (Finance) in S",
+      "topic": "education",
+      "platform": "instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 444",
+      "date": "2026-06-25",
+      "action": "Reported Out of Committee (Elections & G",
+      "topic": "elections_voting_rights",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "MA",
+      "bill": "S652",
+      "date": "2026-06-25",
+      "action": "Bills in the Third Reading new draft sub",
+      "topic": "environment_climate",
+      "platform": "instagram"
+    },
+    {
+      "state": "MA",
+      "bill": "S652",
+      "date": "2026-06-25",
+      "action": "Read third",
+      "topic": "environment_climate",
+      "platform": "instagram"
+    },
+    {
+      "state": "MA",
+      "bill": "S652",
+      "date": "2026-06-25",
+      "action": "Taken out of the Orders of the Day",
+      "topic": "environment_climate",
+      "platform": "instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 212",
+      "date": "2026-06-25",
+      "action": "Amendment HA 1 to SS 1 - Introduced and",
+      "topic": "environment_climate",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "AB1843",
+      "date": "2026-06-25",
+      "action": "From committee: Do pass and re-refer to",
+      "topic": "healthcare",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "SB1328",
+      "date": "2026-06-25",
+      "action": "Read second time and amended. Re-referre",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "ACA22",
+      "date": "2026-06-25",
+      "action": "",
+      "topic": "taxation",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "ACA22",
+      "date": "2026-06-25",
+      "action": "(Ayes 36. Noes 0.)",
+      "topic": "taxation",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "ACA22",
+      "date": "2026-06-25",
+      "action": "Adopted and to Assembly. (Ayes 35. Noes",
+      "topic": "taxation",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "ACA22",
+      "date": "2026-06-25",
+      "action": "Adopted and to Senate. (Ayes 68. Noes 2.",
+      "topic": "taxation",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "ACA22",
+      "date": "2026-06-25",
+      "action": "Assembly Rule 66 suspended.",
+      "topic": "taxation",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "ACA22",
+      "date": "2026-06-25",
+      "action": "Enrolled and filed with the Secretary of",
+      "topic": "taxation",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "ACA22",
+      "date": "2026-06-25",
+      "action": "In Assembly. Ordered to Engrossing and E",
+      "topic": "taxation",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "ACA22",
+      "date": "2026-06-25",
+      "action": "In Senate. To Com. on RLS.",
+      "topic": "taxation",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "ACA22",
+      "date": "2026-06-25",
+      "action": "Joint rules and Senate rules suspended.",
+      "topic": "taxation",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "ACA22",
+      "date": "2026-06-25",
+      "action": "Unanimous consent granted to take up wit",
+      "topic": "taxation",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "ACA22",
+      "date": "2026-06-25",
+      "action": "Withdrawn from committee.",
+      "topic": "taxation",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "ACA22",
+      "date": "2026-06-25",
+      "action": "Without reference to committee.",
+      "topic": "taxation",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "AB2361",
+      "date": "2026-06-25",
+      "action": "From committee: Do pass and re-refer to",
+      "topic": "transportation",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "AB2361",
+      "date": "2026-06-25",
+      "action": "Re-referred to Com. on APPR.",
+      "topic": "transportation",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "AB2361",
+      "date": "2026-06-25",
+      "action": "Withdrawn from committee.",
+      "topic": "transportation",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 453",
+      "date": "2026-06-24",
+      "action": "Amendment HA 1 to HS 1 - Introduced and",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 465",
+      "date": "2026-06-24",
+      "action": "Reported Out of Committee (Banking, Busi",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "NH",
+      "bill": "SB470",
+      "date": "2026-06-24",
+      "action": "Signed by the Governor on 06/19/2026; Ch",
+      "topic": "criminal_justice",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "SB1164",
+      "date": "2026-06-24",
+      "action": "From committee with author's amendments.",
+      "topic": "elections_voting_rights",
+      "platform": "instagram"
+    },
+    {
+      "state": "NH",
+      "bill": "SB607",
+      "date": "2026-06-24",
+      "action": "Signed by the Governor on 06/19/2026; Ch",
+      "topic": "healthcare",
+      "platform": "instagram"
+    },
+    {
+      "state": "RI",
+      "bill": "HB7654",
+      "date": "2026-06-24",
+      "action": "06/24/2026 Signed by Governor",
+      "topic": "housing",
+      "platform": "instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 368",
+      "date": "2026-06-24",
+      "action": "Reported Out of Committee (Judiciary) in",
+      "topic": "immigration",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "AB1876",
+      "date": "2026-06-24",
+      "action": "From committee: Do pass and re-refer to",
+      "topic": "lgbtq",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "AB1876",
+      "date": "2026-06-24",
+      "action": "From committee: Do pass and re-refer to",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "FL",
+      "bill": "SB 4F",
+      "date": "2026-06-24",
+      "action": "Approved by Governor",
+      "topic": "taxation",
+      "platform": "instagram"
+    },
+    {
+      "state": "FL",
+      "bill": "SB 4F",
+      "date": "2026-06-24",
+      "action": "Approved by Governor",
+      "topic": "taxation",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 404",
+      "date": "2026-06-23",
+      "action": "Amendment HA 1 to HS 1 - Introduced and",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 404",
+      "date": "2026-06-23",
+      "action": "Reported Out of Committee (Appropriation",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "NH",
+      "bill": "SB429",
+      "date": "2026-06-23",
+      "action": "Enrolled Bill Amendment # 2026-2180e Ado",
+      "topic": "education",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "RI",
+      "bill": "HB7619",
+      "date": "2026-06-23",
+      "action": "06/23/2026 Signed by Governor",
+      "topic": "environment_climate",
+      "platform": "instagram"
+    },
+    {
+      "state": "MA",
+      "bill": "SD3273",
+      "date": "2026-06-23",
+      "action": "Discharged from committee and recommitte",
+      "topic": "labor",
+      "platform": "instagram"
+    },
+    {
+      "state": "MA",
+      "bill": "SD3273",
+      "date": "2026-06-23",
+      "action": "Discharged from committee and recommitte",
+      "topic": "labor",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "RI",
+      "bill": "HB8524",
+      "date": "2026-06-23",
+      "action": "06/23/2026 Signed by Governor",
+      "topic": "labor",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "RI",
+      "bill": "HB8611",
+      "date": "2026-06-23",
+      "action": "06/23/2026 Signed by Governor",
+      "topic": "taxation",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "NH",
+      "bill": "SB627",
+      "date": "2026-06-23",
+      "action": "Enrolled (in recess of) 06/04/2026  HJ 1",
+      "topic": "transportation",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "NH",
+      "bill": "SB627",
+      "date": "2026-06-23",
+      "action": "Enrolled Adopted, VV, (In recess 06/04/2",
+      "topic": "transportation",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "RI",
+      "bill": "HB8593",
+      "date": "2026-06-23",
+      "action": "06/23/2026 Signed by Governor",
+      "topic": "transportation",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "RI",
+      "bill": "HB7349",
+      "date": "2026-06-22",
+      "action": "06/22/2026 Signed by Governor",
+      "topic": "ai_data_centers",
+      "platform": "instagram"
+    },
+    {
+      "state": "RI",
+      "bill": "SB2197",
+      "date": "2026-06-22",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "RI",
+      "bill": "SB2197",
+      "date": "2026-06-22",
+      "action": "06/22/2026 Signed by Governor",
+      "topic": "ai_data_centers",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "SB97",
+      "date": "2026-06-22",
+      "action": "From inactive file.",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "SB97",
+      "date": "2026-06-22",
+      "action": "Ordered to third reading.",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "GA",
+      "bill": "HR 43",
+      "date": "2026-06-22",
+      "action": "House Read and Adopted",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "HB7349",
+      "date": "2026-06-22",
+      "action": "06/22/2026 Signed by Governor",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "HB7350",
+      "date": "2026-06-22",
+      "action": "06/22/2026 Signed by Governor",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "HB7538",
+      "date": "2026-06-22",
+      "action": "06/22/2026 Signed by Governor",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "SB2195",
+      "date": "2026-06-22",
+      "action": "06/22/2026 Signed by Governor",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "SB2197",
+      "date": "2026-06-22",
+      "action": "06/22/2026 Signed by Governor",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "SB2570",
+      "date": "2026-06-22",
+      "action": "06/22/2026 Signed by Governor",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "HB7653",
+      "date": "2026-06-22",
+      "action": "06/22/2026 Signed by Governor",
+      "topic": "criminal_justice",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "RI",
+      "bill": "HB7683",
+      "date": "2026-06-22",
+      "action": "06/22/2026 Signed by Governor",
+      "topic": "education",
+      "platform": "instagram"
+    },
+    {
+      "state": "GA",
+      "bill": "HR 43",
+      "date": "2026-06-22",
+      "action": "House Read and Adopted",
+      "topic": "elections_voting_rights",
+      "platform": "instagram"
+    },
+    {
+      "state": "GA",
+      "bill": "HR 43",
+      "date": "2026-06-22",
+      "action": "House Read and Adopted",
+      "topic": "elections_voting_rights",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "RI",
+      "bill": "SB2197",
+      "date": "2026-06-22",
+      "action": "06/22/2026 Signed by Governor",
+      "topic": "healthcare",
+      "platform": "instagram"
+    },
+    {
+      "state": "RI",
+      "bill": "HB7349",
+      "date": "2026-06-22",
+      "action": "06/22/2026 Signed by Governor",
+      "topic": "healthcare",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "HR115",
+      "date": "2026-06-22",
+      "action": "Coauthors revised.",
+      "topic": "lgbtq",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "HR115",
+      "date": "2026-06-22",
+      "action": "Read. Adopted.",
+      "topic": "lgbtq",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "SR116",
+      "date": "2026-06-22",
+      "action": "",
+      "topic": "lgbtq",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "SR116",
+      "date": "2026-06-22",
+      "action": "Motion to reconsider made by Senator Ash",
+      "topic": "lgbtq",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "SR116",
+      "date": "2026-06-22",
+      "action": "Read. Adopted. (Ayes 28. Noes 0.)",
+      "topic": "lgbtq",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "SR116",
+      "date": "2026-06-22",
+      "action": "Reconsideration granted. (Ayes 31. Noes",
+      "topic": "lgbtq",
+      "platform": "instagram"
+    },
+    {
+      "state": "NH",
+      "bill": "SB500",
+      "date": "2026-06-22",
+      "action": "Signed by the Governor on 06/12/2026; Ch",
+      "topic": "lgbtq",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "HR115",
+      "date": "2026-06-22",
+      "action": "Coauthors revised.",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "HR115",
+      "date": "2026-06-22",
+      "action": "Read. Adopted.",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "SR116",
+      "date": "2026-06-22",
+      "action": "",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "SR116",
+      "date": "2026-06-22",
+      "action": "Motion to reconsider made by Senator Ash",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "SR116",
+      "date": "2026-06-22",
+      "action": "Read. Adopted. (Ayes 28. Noes 0.)",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "SR116",
+      "date": "2026-06-22",
+      "action": "Reconsideration granted. (Ayes 31. Noes",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "NH",
+      "bill": "SB500",
+      "date": "2026-06-22",
+      "action": "Signed by the Governor on 06/12/2026; Ch",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "SB97",
+      "date": "2026-06-18",
+      "action": "Notice of intention to remove from inact",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 16",
+      "date": "2026-06-18",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 16",
+      "date": "2026-06-18",
+      "action": "Passed By House. Votes: 36 YES 5 ABSENT",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 19",
+      "date": "2026-06-18",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 19",
+      "date": "2026-06-18",
+      "action": "Amendment HA 1 to SS 2 - Stricken in Hou",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 19",
+      "date": "2026-06-18",
+      "action": "Amendment HA 2 to SS 2 - Introduced and",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 19",
+      "date": "2026-06-18",
+      "action": "Amendment HA 2 to SS 2 - Passed In House",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 19",
+      "date": "2026-06-18",
+      "action": "Passed By House. Votes: 36 YES 5 ABSENT",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "HB7349",
+      "date": "2026-06-18",
+      "action": "06/18/2026 Transmitted to Governor",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "HB7350",
+      "date": "2026-06-18",
+      "action": "06/18/2026 Transmitted to Governor",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "HB7538",
+      "date": "2026-06-18",
+      "action": "06/18/2026 Transmitted to Governor",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "SB2195",
+      "date": "2026-06-18",
+      "action": "06/18/2026 Transmitted to Governor",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "SB2197",
+      "date": "2026-06-18",
+      "action": "06/18/2026 Transmitted to Governor",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "SB2570",
+      "date": "2026-06-18",
+      "action": "06/18/2026 Transmitted to Governor",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MA",
+      "bill": "H4186",
+      "date": "2026-06-18",
+      "action": "Read second and ordered to a third readi",
+      "topic": "housing",
+      "platform": "instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 452",
+      "date": "2026-06-18",
+      "action": "",
+      "topic": "lgbtq",
+      "platform": "instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 452",
+      "date": "2026-06-18",
+      "action": "Passed By House. Votes: 41 YES",
+      "topic": "lgbtq",
+      "platform": "instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 452",
+      "date": "2026-06-18",
+      "action": "",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 452",
+      "date": "2026-06-18",
+      "action": "Passed By House. Votes: 41 YES",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "MA",
+      "bill": "H4755",
+      "date": "2026-06-18",
+      "action": "Read second and ordered to a third readi",
+      "topic": "taxation",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "SB867",
+      "date": "2026-06-17",
+      "action": "Coauthors revised.",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 312",
+      "date": "2026-06-17",
+      "action": "Reported Out of Committee (Administratio",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MA",
+      "bill": "H4683",
+      "date": "2026-06-17",
+      "action": "Reported by H5511",
+      "topic": "education",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 452",
+      "date": "2026-06-17",
+      "action": "Reported Out of Committee (Education) in",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 16",
+      "date": "2026-06-16",
+      "action": "Reported Out of Committee (Appropriation",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 19",
+      "date": "2026-06-16",
+      "action": "Reported Out of Committee (Appropriation",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "PR",
+      "bill": "PS0934",
+      "date": "2026-06-15",
+      "action": "Comisión no recomienda aprobación de la",
+      "topic": "ai_data_centers",
+      "platform": "instagram"
+    },
+    {
+      "state": "PR",
+      "bill": "PS0934",
+      "date": "2026-06-15",
+      "action": "Comisión no recomienda aprobación de la",
+      "topic": "ai_data_centers",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "PR",
+      "bill": "PS0934",
+      "date": "2026-06-15",
+      "action": "Comisión no recomienda aprobación de la",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "HR115",
+      "date": "2026-06-15",
+      "action": "",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "HR115",
+      "date": "2026-06-15",
+      "action": "From committee: Be adopted. Ordered to T",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 441",
+      "date": "2026-06-11",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 441",
+      "date": "2026-06-11",
+      "action": "Passed By House. Votes: 40 YES 1 ABSENT",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 465",
+      "date": "2026-06-11",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 465",
+      "date": "2026-06-11",
+      "action": "Passed By House. Votes: 38 YES 1 NO 2 AB",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 312",
+      "date": "2026-06-11",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 312",
+      "date": "2026-06-11",
+      "action": "Passed By Senate. Votes: 20 YES 1 ABSENT",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "HB7538",
+      "date": "2026-06-11",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "HB7538",
+      "date": "2026-06-11",
+      "action": "06/11/2026 House passed Sub A in concurr",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "HB7538",
+      "date": "2026-06-11",
+      "action": "06/11/2026 Placed on House Calendar  (06",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "HB7538",
+      "date": "2026-06-11",
+      "action": "06/11/2026 Senate passed Sub A",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "SB2570",
+      "date": "2026-06-11",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "SB2570",
+      "date": "2026-06-11",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "SB2570",
+      "date": "2026-06-11",
+      "action": "06/11/2026 House passed Sub A in concurr",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "SB2570",
+      "date": "2026-06-11",
+      "action": "06/11/2026 Placed on House Calendar  (06",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "SCR82",
+      "date": "2026-06-10",
+      "action": "Coauthors revised.",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 404",
+      "date": "2026-06-10",
+      "action": "Reported Out of Committee (Education) in",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 453",
+      "date": "2026-06-10",
+      "action": "Reported Out of Committee (Economic Deve",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 465",
+      "date": "2026-06-10",
+      "action": "Reported Out of Committee (Judiciary) in",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 312",
+      "date": "2026-06-10",
+      "action": "Reported Out of Committee (Elections & G",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "HB7349",
+      "date": "2026-06-10",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "HB7349",
+      "date": "2026-06-10",
+      "action": "06/10/2026 Senate passed Sub A in concur",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "HB 441",
+      "date": "2026-06-09",
+      "action": "Reported Out of Committee (Economic Deve",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "DE",
+      "bill": "HCR 145",
+      "date": "2026-06-09",
+      "action": "",
+      "topic": "lgbtq",
+      "platform": "instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "HCR 145",
+      "date": "2026-06-09",
+      "action": "Passed By Senate. Votes: 15 YES 2 NO 1 N",
+      "topic": "lgbtq",
+      "platform": "instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "HCR 145",
+      "date": "2026-06-09",
+      "action": "Passed In House by Voice Vote",
+      "topic": "lgbtq",
+      "platform": "instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "HCR 145",
+      "date": "2026-06-09",
+      "action": "",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "DE",
+      "bill": "HCR 145",
+      "date": "2026-06-09",
+      "action": "Passed By Senate. Votes: 15 YES 2 NO 1 N",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "DE",
+      "bill": "HCR 145",
+      "date": "2026-06-09",
+      "action": "Passed In House by Voice Vote",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 250",
+      "date": "2026-06-09",
+      "action": "",
+      "topic": "reproductive_rights",
+      "platform": "instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 250",
+      "date": "2026-06-09",
+      "action": "Signed by Governor",
+      "topic": "reproductive_rights",
+      "platform": "instagram"
+    },
+    {
+      "state": "DE",
+      "bill": "SB 19",
+      "date": "2026-06-04",
+      "action": "Amendment HA 1 to SS 2 - Introduced and",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "PR",
+      "bill": "PS0731",
+      "date": "2026-06-04",
+      "action": "Aparece en Primera Lectura de la Cámara",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "RI",
+      "bill": "HR8616",
+      "date": "2026-06-04",
+      "action": "06/04/2026 House read and passed",
+      "topic": "immigration",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "NH",
+      "bill": "SB625",
+      "date": "2026-06-01",
+      "action": "Conference Committee Report: Not Filed",
+      "topic": "immigration",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "NH",
+      "bill": "SB652",
+      "date": "2026-05-29",
+      "action": "Signed by the Governor on 05/28/2026; Ch",
+      "topic": "taxation",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "AB2335",
+      "date": "2026-05-28",
+      "action": "In Senate. Read first time. To Com. on R",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "PR",
+      "bill": "PS0731",
+      "date": "2026-05-28",
+      "action": "Aprobado con enmiendas del informe",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "PR",
+      "bill": "PS0731",
+      "date": "2026-05-28",
+      "action": "Aprobado por el Senado en Votación Final",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "PR",
+      "bill": "PS0731",
+      "date": "2026-05-28",
+      "action": "Texto de Aprobación Final enviado a la C",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "PR",
+      "bill": "PS1297",
+      "date": "2026-05-28",
+      "action": "Aparece en Primera Lectura del Senado",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 999",
+      "date": "2026-05-28",
+      "action": "Delivered to Governor",
+      "topic": "healthcare",
+      "platform": "instagram"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 999",
+      "date": "2026-05-28",
+      "action": "Reported Duly Enrolled Rules, Joint Rule",
+      "topic": "healthcare",
+      "platform": "instagram"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 999",
+      "date": "2026-05-28",
+      "action": "Signed by House Speaker",
+      "topic": "healthcare",
+      "platform": "instagram"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 999",
+      "date": "2026-05-28",
+      "action": "Signed by Senate President Pro Tem",
+      "topic": "healthcare",
+      "platform": "instagram"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 834",
+      "date": "2026-05-28",
+      "action": "Delivered to Governor",
+      "topic": "housing",
+      "platform": "instagram"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 834",
+      "date": "2026-05-28",
+      "action": "Reported Duly Enrolled Rules, Joint Rule",
+      "topic": "housing",
+      "platform": "instagram"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 834",
+      "date": "2026-05-28",
+      "action": "Signed by House Speaker",
+      "topic": "housing",
+      "platform": "instagram"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 834",
+      "date": "2026-05-28",
+      "action": "Signed by Senate President Pro Tem",
+      "topic": "housing",
+      "platform": "instagram"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 834",
+      "date": "2026-05-28",
+      "action": "Delivered to Governor",
+      "topic": "housing",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 834",
+      "date": "2026-05-28",
+      "action": "Reported Duly Enrolled Rules, Joint Rule",
+      "topic": "housing",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 834",
+      "date": "2026-05-28",
+      "action": "Signed by House Speaker",
+      "topic": "housing",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 834",
+      "date": "2026-05-28",
+      "action": "Signed by Senate President Pro Tem",
+      "topic": "housing",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 1421",
+      "date": "2026-05-28",
+      "action": "Delivered to Governor",
+      "topic": "labor",
+      "platform": "instagram"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 1421",
+      "date": "2026-05-28",
+      "action": "Reported Duly Enrolled Rules, Joint Rule",
+      "topic": "labor",
+      "platform": "instagram"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 1421",
+      "date": "2026-05-28",
+      "action": "Signed by House Speaker",
+      "topic": "labor",
+      "platform": "instagram"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 1421",
+      "date": "2026-05-28",
+      "action": "Signed by Senate President Pro Tem",
+      "topic": "labor",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "AB1540",
+      "date": "2026-05-28",
+      "action": "In Senate. Read first time. To Com. on R",
+      "topic": "lgbtq",
+      "platform": "instagram"
+    },
+    {
+      "state": "NH",
+      "bill": "SB500",
+      "date": "2026-05-28",
+      "action": "Enrolled (in recess of) 05/21/2026  HJ 1",
+      "topic": "lgbtq",
+      "platform": "instagram"
+    },
+    {
+      "state": "NH",
+      "bill": "SB500",
+      "date": "2026-05-28",
+      "action": "Enrolled Adopted, VV, (In recess 05/21/2",
+      "topic": "lgbtq",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "AB1540",
+      "date": "2026-05-28",
+      "action": "In Senate. Read first time. To Com. on R",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "RI",
+      "bill": "SB2358",
+      "date": "2026-05-28",
+      "action": "05/28/2026 Committee recommended measure",
+      "topic": "reproductive_rights",
+      "platform": "instagram"
+    },
+    {
+      "state": "RI",
+      "bill": "SB2358",
+      "date": "2026-05-28",
+      "action": "05/28/2026 Committee recommended measure",
+      "topic": "reproductive_rights",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 3080",
+      "date": "2026-05-28",
+      "action": "Delivered to Governor",
+      "topic": "taxation",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 3080",
+      "date": "2026-05-28",
+      "action": "Signed by House Speaker (H)",
+      "topic": "taxation",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 3080",
+      "date": "2026-05-28",
+      "action": "Signed by President Pro Tem (S)",
+      "topic": "taxation",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "TN",
+      "bill": "SB 1700",
+      "date": "2026-05-27",
+      "action": "Effective date(s) 05/22/2026",
+      "topic": "ai_data_centers",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "AB1883",
+      "date": "2026-05-27",
+      "action": "Read third time. Passed. Ordered to the",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "AB2335",
+      "date": "2026-05-27",
+      "action": "Read third time. Passed. Ordered to the",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "AB2409",
+      "date": "2026-05-27",
+      "action": "Read third time. Passed. Ordered to the",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "SB1168",
+      "date": "2026-05-27",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "SB1168",
+      "date": "2026-05-27",
+      "action": "In Assembly. Read first time. Held at De",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "SB1168",
+      "date": "2026-05-27",
+      "action": "Read third time. Passed. (Ayes 30. Noes",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "TN",
+      "bill": "HB 1455",
+      "date": "2026-05-27",
+      "action": "Comp. became Pub. Ch. 1066",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "TN",
+      "bill": "HB 1946",
+      "date": "2026-05-27",
+      "action": "Comp. became Pub. Ch. 1082",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "TN",
+      "bill": "SB 0677",
+      "date": "2026-05-27",
+      "action": "Effective date(s) 05/22/2026",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "TN",
+      "bill": "SB 0677",
+      "date": "2026-05-27",
+      "action": "Pub. Ch. 1056",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "TN",
+      "bill": "SB 1700",
+      "date": "2026-05-27",
+      "action": "Effective date(s) 05/22/2026",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "TN",
+      "bill": "SB 2177",
+      "date": "2026-05-27",
+      "action": "Effective date(s) 05/22/2026",
+      "topic": "criminal_justice",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "TN",
+      "bill": "SB 2177",
+      "date": "2026-05-27",
+      "action": "Pub. Ch. 1121",
+      "topic": "criminal_justice",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "TN",
+      "bill": "HB 2539",
+      "date": "2026-05-27",
+      "action": "Effective date(s) 07/01/2026",
+      "topic": "healthcare",
+      "platform": "instagram"
+    },
+    {
+      "state": "TN",
+      "bill": "HB 2539",
+      "date": "2026-05-27",
+      "action": "Pub. Ch. 1041",
+      "topic": "healthcare",
+      "platform": "instagram"
+    },
+    {
+      "state": "TN",
+      "bill": "SB 1915",
+      "date": "2026-05-27",
+      "action": "Effective date(s) 05/22/2026, 07/01/2026",
+      "topic": "immigration",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "TN",
+      "bill": "SB 1915",
+      "date": "2026-05-27",
+      "action": "Pub. Ch. 1106",
+      "topic": "immigration",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "TN",
+      "bill": "HB 1906",
+      "date": "2026-05-27",
+      "action": "Comp. became Pub. Ch. 1110",
+      "topic": "labor",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "AB1540",
+      "date": "2026-05-27",
+      "action": "Read third time. Urgency clause adopted.",
+      "topic": "lgbtq",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "AB1540",
+      "date": "2026-05-27",
+      "action": "Read third time. Urgency clause adopted.",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "TN",
+      "bill": "SB 2633",
+      "date": "2026-05-27",
+      "action": "Comp. became Pub. Ch. 1034",
+      "topic": "taxation",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "SB1114",
+      "date": "2026-05-26",
+      "action": "In Assembly. Read first time. Held at De",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "SB1114",
+      "date": "2026-05-26",
+      "action": "Read third time. Passed. (Ayes 30. Noes",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "TN",
+      "bill": "SB 0677",
+      "date": "2026-05-22",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "TN",
+      "bill": "SB 0677",
+      "date": "2026-05-22",
+      "action": "Signed by Governor.",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "TN",
+      "bill": "SB 1493",
+      "date": "2026-05-22",
+      "action": "Signed by Governor.",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "TN",
+      "bill": "SB 1700",
+      "date": "2026-05-22",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "TN",
+      "bill": "SB 1700",
+      "date": "2026-05-22",
+      "action": "Signed by Governor.",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "AB1979",
+      "date": "2026-05-21",
+      "action": "Read third time. Passed. Ordered to the",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "AB2713",
+      "date": "2026-05-21",
+      "action": "In Senate. Read first time. To Com. on R",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "NH",
+      "bill": "SB657",
+      "date": "2026-05-21",
+      "action": "Sen. Gannon Moved Nonconcur with the Hou",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "SB903",
+      "date": "2026-05-20",
+      "action": "In Assembly. Read first time. Held at De",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "SB934",
+      "date": "2026-05-20",
+      "action": "In Assembly. Read first time. Held at De",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "SB903",
+      "date": "2026-05-19",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "SB903",
+      "date": "2026-05-19",
+      "action": "Read third time. Passed. (Ayes 39. Noes",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "SB998",
+      "date": "2026-05-19",
+      "action": "Read third time. Passed. (Ayes 30. Noes",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "SB887",
+      "date": "2026-05-18",
+      "action": "From committee: Do pass as amended. (Aye",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "TN",
+      "bill": "HB 2380",
+      "date": "2026-05-18",
+      "action": "Comp. became Pub. Ch. 903",
+      "topic": "reproductive_rights",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 1970",
+      "date": "2026-05-15",
+      "action": "Referred: Emerging Issues(H)",
+      "topic": "ai_data_centers",
+      "platform": "instagram"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 1970",
+      "date": "2026-05-15",
+      "action": "Referred: Emerging Issues(H)",
+      "topic": "ai_data_centers",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 1742",
+      "date": "2026-05-15",
+      "action": "Referred: Emerging Issues(H)",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 1970",
+      "date": "2026-05-15",
+      "action": "Referred: Emerging Issues(H)",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 2239",
+      "date": "2026-05-15",
+      "action": "Referred: Emerging Issues(H)",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 3043",
+      "date": "2026-05-15",
+      "action": "Referred: Emerging Issues(H)",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 3369",
+      "date": "2026-05-15",
+      "action": "Referred: Emerging Issues(H)",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 3390",
+      "date": "2026-05-15",
+      "action": "Referred: Emerging Issues(H)",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 1904",
+      "date": "2026-05-15",
+      "action": "Referred: Emerging Issues(H)",
+      "topic": "elections_voting_rights",
+      "platform": "instagram"
+    },
+    {
+      "state": "MO",
+      "bill": "HCR 37",
+      "date": "2026-05-15",
+      "action": "Referred: Emerging Issues(H)",
+      "topic": "immigration",
+      "platform": "instagram"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 1926",
+      "date": "2026-05-15",
+      "action": "",
+      "topic": "immigration",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 1926",
+      "date": "2026-05-15",
+      "action": "Referred: Emerging Issues(H)",
+      "topic": "immigration",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "MO",
+      "bill": "HCR 37",
+      "date": "2026-05-15",
+      "action": "Referred: Emerging Issues(H)",
+      "topic": "immigration",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 1709",
+      "date": "2026-05-15",
+      "action": "Referred: Emerging Issues(H)",
+      "topic": "labor",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 1968",
+      "date": "2026-05-15",
+      "action": "Referred: Emerging Issues(H)",
+      "topic": "lgbtq",
+      "platform": "instagram"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 2065",
+      "date": "2026-05-15",
+      "action": "Referred: Emerging Issues(H)",
+      "topic": "lgbtq",
+      "platform": "instagram"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 2076",
+      "date": "2026-05-15",
+      "action": "Referred: Emerging Issues(H)",
+      "topic": "lgbtq",
+      "platform": "instagram"
+    },
+    {
+      "state": "MO",
+      "bill": "HJR 142",
+      "date": "2026-05-15",
+      "action": "Referred: Emerging Issues(H)",
+      "topic": "lgbtq",
+      "platform": "instagram"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 1968",
+      "date": "2026-05-15",
+      "action": "Referred: Emerging Issues(H)",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 2065",
+      "date": "2026-05-15",
+      "action": "Referred: Emerging Issues(H)",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 2076",
+      "date": "2026-05-15",
+      "action": "Referred: Emerging Issues(H)",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "MO",
+      "bill": "HJR 142",
+      "date": "2026-05-15",
+      "action": "Referred: Emerging Issues(H)",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 3168",
+      "date": "2026-05-15",
+      "action": "Referred: Emerging Issues(H)",
+      "topic": "reproductive_rights",
+      "platform": "instagram"
+    },
+    {
+      "state": "CA",
+      "bill": "AB2392",
+      "date": "2026-05-14",
+      "action": "From committee: Do pass. (Ayes 14. Noes",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "SB1168",
+      "date": "2026-05-14",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "SB1168",
+      "date": "2026-05-14",
+      "action": "From committee: Do pass. (Ayes 5. Noes 2",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "NH",
+      "bill": "SB439",
+      "date": "2026-05-14",
+      "action": "Lay SB439 on Table (Rep. Ammon): MA DV 3",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "NH",
+      "bill": "SB640",
+      "date": "2026-05-14",
+      "action": "Inexpedient to Legislate: MA VV 05/14/20",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "NH",
+      "bill": "SB657",
+      "date": "2026-05-14",
+      "action": "Ought to Pass: MA VV 05/14/2026  HJ 13",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CA",
+      "bill": "SB934",
+      "date": "2026-05-14",
+      "action": "",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "CA",
+      "bill": "SB934",
+      "date": "2026-05-14",
+      "action": "From committee: Do pass as amended. (Aye",
+      "topic": "lgbtq",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "WI",
+      "bill": "SB1",
+      "date": "2026-05-13",
+      "action": "Laid on table",
+      "topic": "education",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "WI",
+      "bill": "SB1",
+      "date": "2026-05-13",
+      "action": "Read a third time",
+      "topic": "education",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "WI",
+      "bill": "SB1",
+      "date": "2026-05-13",
+      "action": "Rules suspended to give bill its third r",
+      "topic": "education",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "WI",
+      "bill": "AB1",
+      "date": "2026-05-13",
+      "action": "",
+      "topic": "labor",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "WI",
+      "bill": "AB1",
+      "date": "2026-05-13",
+      "action": "Assembly Amendment 1 adopted",
+      "topic": "labor",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "WI",
+      "bill": "AB1",
+      "date": "2026-05-13",
+      "action": "Read a third time",
+      "topic": "labor",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "WI",
+      "bill": "AB1",
+      "date": "2026-05-13",
+      "action": "Read a third time and passed, Ayes 61, N",
+      "topic": "labor",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "WI",
+      "bill": "AB1",
+      "date": "2026-05-13",
+      "action": "Refused concurrence, Ayes 15, Noes 18",
+      "topic": "labor",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "WI",
+      "bill": "AB1",
+      "date": "2026-05-13",
+      "action": "Rules suspended to give bill its third r",
+      "topic": "labor",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "WI",
+      "bill": "AB1",
+      "date": "2026-05-13",
+      "action": "Rules suspended to return to amendable s",
+      "topic": "labor",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "WI",
+      "bill": "AB1",
+      "date": "2026-05-13",
+      "action": "Withdrawn from Assembly message and take",
+      "topic": "labor",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 1012",
+      "date": "2026-05-12",
+      "action": "Hearing Conducted H Emerging Issues",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 1012",
+      "date": "2026-05-12",
+      "action": "Hearing Scheduled H Emerging Issues--(4:",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 1012",
+      "date": "2026-05-12",
+      "action": "Voted Do Not Pass H Emerging Issues",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "GA",
+      "bill": "HB 1272",
+      "date": "2026-05-11",
+      "action": "Act 452",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "GA",
+      "bill": "HB 1272",
+      "date": "2026-05-11",
+      "action": "House Date Signed by Governor",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "GA",
+      "bill": "SB 170",
+      "date": "2026-05-11",
+      "action": "Act 487",
+      "topic": "housing",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "GA",
+      "bill": "SB 170",
+      "date": "2026-05-11",
+      "action": "Effective Date",
+      "topic": "housing",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "GA",
+      "bill": "SB 170",
+      "date": "2026-05-11",
+      "action": "Senate Date Signed by Governor",
+      "topic": "housing",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 1012",
+      "date": "2026-05-08",
+      "action": "H Second Read",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 1012",
+      "date": "2026-05-08",
+      "action": "Referred H Emerging Issues",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "AL",
+      "bill": "HB67",
+      "date": "2026-05-08",
+      "action": "Carried Over to the Call of the Chair",
+      "topic": "elections_voting_rights",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "AL",
+      "bill": "HB605",
+      "date": "2026-05-08",
+      "action": "Carried Over to the Call of the Chair",
+      "topic": "healthcare",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 1012",
+      "date": "2026-05-07",
+      "action": "H First Read",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 1790",
+      "date": "2026-05-07",
+      "action": "Second Read and Referred S Select Commit",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 1804",
+      "date": "2026-05-07",
+      "action": "Second Read and Referred S Emerging Issu",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 1012",
+      "date": "2026-05-06",
+      "action": "S Third Read and Passed",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "NH",
+      "bill": "SB439",
+      "date": "2026-05-06",
+      "action": "Majority Committee Report: Ought to Pass",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "NH",
+      "bill": "SB439",
+      "date": "2026-05-06",
+      "action": "Minority Committee Report: Inexpedient t",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "NH",
+      "bill": "SB657",
+      "date": "2026-05-06",
+      "action": "Committee Report: Ought to Pass  05/05/2",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "GA",
+      "bill": "SB 444",
+      "date": "2026-05-05",
+      "action": "Act 411",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "GA",
+      "bill": "SB 444",
+      "date": "2026-05-05",
+      "action": "Senate Date Signed by Governor",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 1012",
+      "date": "2026-05-05",
+      "action": "Formal Calendar S Bills for Third Readin",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 974",
+      "date": "2026-05-05",
+      "action": "Executive Session Scheduled H Veterans a",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 1012",
+      "date": "2026-05-04",
+      "action": "Reported Truly Perfected S Rules, Joint",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "IA",
+      "bill": "SF 2507",
+      "date": "2026-05-03",
+      "action": "Committee report, approving bill.",
+      "topic": "taxation",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 1012",
+      "date": "2026-04-30",
+      "action": "SA 2 to SS#2 for SCS S offered & adopted",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 1012",
+      "date": "2026-04-30",
+      "action": "SS for SCS S withdrawn",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "PR",
+      "bill": "PS0731",
+      "date": "2026-04-30",
+      "action": "1er Informe Conjunto Comisiones rendido",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "PR",
+      "bill": "PS0731",
+      "date": "2026-04-30",
+      "action": "Entirillado del Informe",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "PR",
+      "bill": "PS0731",
+      "date": "2026-04-30",
+      "action": "Remitido a la Comisión de Reglas y Calen",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MA",
+      "bill": "S1122",
+      "date": "2026-04-30",
+      "action": "Accompanied H5316",
+      "topic": "immigration",
+      "platform": "instagram"
+    },
+    {
+      "state": "MA",
+      "bill": "S1122",
+      "date": "2026-04-30",
+      "action": "Accompanied H5316",
+      "topic": "immigration",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "FL",
+      "bill": "SB 2D",
+      "date": "2026-04-29",
+      "action": "Died in Information Technology Budget &",
+      "topic": "ai_data_centers",
+      "platform": "instagram"
+    },
+    {
+      "state": "FL",
+      "bill": "SB 2D",
+      "date": "2026-04-29",
+      "action": "Died in Information Technology Budget &",
+      "topic": "ai_data_centers",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "FL",
+      "bill": "SB 2D",
+      "date": "2026-04-29",
+      "action": "Died in Information Technology Budget &",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 841",
+      "date": "2026-04-29",
+      "action": "Informal Calendar S Bills for Perfection",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "IA",
+      "bill": "HF 2788",
+      "date": "2026-04-29",
+      "action": "Amendment H-8432 filed. H.J. 04/29.",
+      "topic": "reproductive_rights",
+      "platform": "instagram"
+    },
+    {
+      "state": "IA",
+      "bill": "HF 2788",
+      "date": "2026-04-29",
+      "action": "Amendment H-8433 filed. H.J. 04/29.",
+      "topic": "reproductive_rights",
+      "platform": "instagram"
+    },
+    {
+      "state": "FL",
+      "bill": "SB 2D",
+      "date": "2026-04-28",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "FL",
+      "bill": "SB 2D",
+      "date": "2026-04-28",
+      "action": "In Messages",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "FL",
+      "bill": "SB 2D",
+      "date": "2026-04-28",
+      "action": "Introduced",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "FL",
+      "bill": "SB 2D",
+      "date": "2026-04-28",
+      "action": "Passed; YEAS 37 NAYS 1",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "FL",
+      "bill": "SB 2D",
+      "date": "2026-04-28",
+      "action": "Placed on Calendar, on 2nd reading",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "FL",
+      "bill": "SB 2D",
+      "date": "2026-04-28",
+      "action": "Read 2nd time",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "FL",
+      "bill": "SB 2D",
+      "date": "2026-04-28",
+      "action": "Read 3rd time",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "FL",
+      "bill": "SB 2D",
+      "date": "2026-04-28",
+      "action": "Withdrawn from Rules",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 841",
+      "date": "2026-04-28",
+      "action": "SA 1 to SA 4 to SS for SCS S offered & a",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 841",
+      "date": "2026-04-28",
+      "action": "SA 3 to SS for SCS S offered & adopted (",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 841",
+      "date": "2026-04-28",
+      "action": "SA 4 to SS for SCS S offered (Henderson)",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 841",
+      "date": "2026-04-28",
+      "action": "SA 4 to SS for SCS, as amended, S withdr",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "SB 841",
+      "date": "2026-04-28",
+      "action": "SA 6 to SS for SCS S offered (Moon)--(48",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "CO",
+      "bill": "SR 008",
+      "date": "2026-04-27",
+      "action": "Senate Third Reading Laid Over to 05/05/",
+      "topic": "education",
+      "platform": "meta-threads"
+    },
+    {
+      "state": "AL",
+      "bill": "HB351",
+      "date": "2026-04-17",
+      "action": "Enacted",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "AL",
+      "bill": "SB270",
+      "date": "2026-04-17",
+      "action": "Enacted",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "AL",
+      "bill": "SB63",
+      "date": "2026-04-17",
+      "action": "Enacted",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "GA",
+      "bill": "HB 1272",
+      "date": "2026-04-10",
+      "action": "House Sent to Governor",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "GA",
+      "bill": "SB 444",
+      "date": "2026-04-10",
+      "action": "Senate Sent to Governor",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "KS",
+      "bill": "HB2592",
+      "date": "2026-04-10",
+      "action": "Died in Committee",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "KS",
+      "bill": "HB2696",
+      "date": "2026-04-10",
+      "action": "Died in Committee",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "KS",
+      "bill": "HB2772",
+      "date": "2026-04-10",
+      "action": "Died in Committee",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "KS",
+      "bill": "HR6023",
+      "date": "2026-04-10",
+      "action": "Died in Committee",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "KS",
+      "bill": "SB400",
+      "date": "2026-04-10",
+      "action": "Died in Committee",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "KS",
+      "bill": "SB405",
+      "date": "2026-04-10",
+      "action": "Died in Committee",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "KS",
+      "bill": "SB467",
+      "date": "2026-04-10",
+      "action": "Died in Committee",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "KS",
+      "bill": "SB499",
+      "date": "2026-04-10",
+      "action": "Died in Committee",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "AL",
+      "bill": "SB270",
+      "date": "2026-04-09",
+      "action": "Delivered to Governor",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "AL",
+      "bill": "SB270",
+      "date": "2026-04-09",
+      "action": "Enrolled",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "AL",
+      "bill": "SB270",
+      "date": "2026-04-09",
+      "action": "Signature Requested",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "AL",
+      "bill": "SB63",
+      "date": "2026-04-09",
+      "action": "Delivered to Governor",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "AL",
+      "bill": "SB63",
+      "date": "2026-04-09",
+      "action": "Enrolled",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "AL",
+      "bill": "SB63",
+      "date": "2026-04-09",
+      "action": "Signature Requested",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 1747",
+      "date": "2026-04-09",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 1747",
+      "date": "2026-04-09",
+      "action": "HCS Reported Do Pass (H) - AYES: 5 NOES:",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "AL",
+      "bill": "HB303",
+      "date": "2026-04-08",
+      "action": "Enacted",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 1747",
+      "date": "2026-04-08",
+      "action": "Executive Session Completed (H)",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 1747",
+      "date": "2026-04-08",
+      "action": "HCS Voted Do Pass (H)",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "AL",
+      "bill": "HB259",
+      "date": "2026-04-06",
+      "action": "Enacted",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "GA",
+      "bill": "HR 2121",
+      "date": "2026-04-02",
+      "action": "House Read and Adopted",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "AL",
+      "bill": "HB303",
+      "date": "2026-04-01",
+      "action": "Delivered to Governor",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "AL",
+      "bill": "HB303",
+      "date": "2026-04-01",
+      "action": "Enrolled",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "AL",
+      "bill": "HB303",
+      "date": "2026-04-01",
+      "action": "Signature Requested",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "WA",
+      "bill": "SB 6231",
+      "date": "2026-04-01",
+      "action": "Effective date 6/11/2026*.",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "WA",
+      "bill": "SB 6231",
+      "date": "2026-04-01",
+      "action": "Governor signed.",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "GA",
+      "bill": "SR 789",
+      "date": "2026-03-31",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "GA",
+      "bill": "SR 789",
+      "date": "2026-03-31",
+      "action": "Senate Passed/Adopted By Substitute",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "GA",
+      "bill": "SR 789",
+      "date": "2026-03-31",
+      "action": "Senate Third Read",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 1747",
+      "date": "2026-03-30",
+      "action": "Public Hearing Completed (H)",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MO",
+      "bill": "HB 1747",
+      "date": "2026-03-23",
+      "action": "Referred: Emerging Issues(H)",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "FL",
+      "bill": "SB 1568",
+      "date": "2026-03-17",
+      "action": "Ordered enrolled",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "FL",
+      "bill": "HB 527",
+      "date": "2026-03-13",
+      "action": "Died in Rules",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "WA",
+      "bill": "SB 6231",
+      "date": "2026-03-13",
+      "action": "Delivered to Governor.",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "GA",
+      "bill": "SR 789",
+      "date": "2026-03-12",
+      "action": "Senate Committee Favorably Reported  By",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MN",
+      "bill": "SF 3868",
+      "date": "2026-03-12",
+      "action": "Comm report: To pass as amended",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MN",
+      "bill": "SF 3868",
+      "date": "2026-03-12",
+      "action": "Second reading",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "WA",
+      "bill": "SB 5956",
+      "date": "2026-03-12",
+      "action": "By resolution, returned to Senate Rules",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "WA",
+      "bill": "SB 6231",
+      "date": "2026-03-12",
+      "action": "",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "WA",
+      "bill": "SB 6231",
+      "date": "2026-03-12",
+      "action": "President signed.",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "WA",
+      "bill": "SB 6231",
+      "date": "2026-03-12",
+      "action": "Speaker signed.",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "WA",
+      "bill": "SB 6231",
+      "date": "2026-03-12",
+      "action": "Third reading, passed; yeas, 51; nays, 4",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MN",
+      "bill": "HF 3146",
+      "date": "2026-03-05",
+      "action": "Author stricken Engen",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MN",
+      "bill": "SF 1856",
+      "date": "2026-03-04",
+      "action": "Author stricken Mitchell",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MN",
+      "bill": "SF 1857",
+      "date": "2026-03-04",
+      "action": "Author stricken Mitchell",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MN",
+      "bill": "SF 3644",
+      "date": "2026-03-02",
+      "action": "Comm report: To pass as amended",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MN",
+      "bill": "SF 3644",
+      "date": "2026-03-02",
+      "action": "Second reading",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MN",
+      "bill": "SF 1857",
+      "date": "2026-02-26",
+      "action": "Withdrawn and re-referred to Judiciary a",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "WA",
+      "bill": "SB 5956",
+      "date": "2026-02-24",
+      "action": "ED - Majority; do pass with amendment(s)",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "WA",
+      "bill": "SB 5956",
+      "date": "2026-02-24",
+      "action": "Executive action taken in the House Comm",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "WA",
+      "bill": "SB 5956",
+      "date": "2026-02-24",
+      "action": "Minority; do not pass.",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "WA",
+      "bill": "SB 5956",
+      "date": "2026-02-24",
+      "action": "Minority; without recommendation.",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "IA",
+      "bill": "SF 2421",
+      "date": "2026-02-23",
+      "action": "Committee report, approving bill.",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MS",
+      "bill": "HB1625",
+      "date": "2026-02-03",
+      "action": "Title Suff Do Pass Comm Sub",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MS",
+      "bill": "HB1720",
+      "date": "2026-02-03",
+      "action": "Died In Committee",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MS",
+      "bill": "SB2050",
+      "date": "2026-02-03",
+      "action": "Title Suff Do Pass",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "MS",
+      "bill": "SB2050",
+      "date": "2026-01-29",
+      "action": "DR - TSDP: EL To TE",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "PR",
+      "bill": "PS0934",
+      "date": "2026-01-14",
+      "action": "Aparece en Primera Lectura del Senado",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "NJ",
+      "bill": "A1401",
+      "date": "2026-01-13",
+      "action": "WITHDRAWN APP P.L.2025, c.367.",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "NJ",
+      "bill": "A3611",
+      "date": "2026-01-13",
+      "action": "WITHDRAWN APP P.L.2025, c.335.",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "NJ",
+      "bill": "S2956",
+      "date": "2026-01-13",
+      "action": "WITHDRAWN APP P.L.2025, c.367.",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
+    },
+    {
+      "state": "IL",
+      "bill": "HB2264",
+      "date": "2025-04-11",
+      "action": "House Floor Amendment No. 1 Rule 19(c) /",
+      "topic": "ai_data_centers",
+      "platform": "x-including-Crypto"
     }
   ]
 }

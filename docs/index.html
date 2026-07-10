@@ -7,131 +7,120 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>" />
 <style>
   :root {
-    --plane:        #0d0d0d;   /* page background        */
-    --surface:      #1a1a19;   /* card surface           */
-    --surface-2:    #232322;   /* insets / tracks        */
-    --ink:          #ffffff;   /* primary text           */
-    --ink-2:        #c3c2b7;   /* secondary text         */
-    --muted:        #898781;   /* labels / axis          */
-    --grid:         #2c2c2a;   /* hairline gridline      */
-    --baseline:     #383835;
-    --border:       rgba(255,255,255,0.10);
-    --ig:           #3987e5;   /* Instagram series       */
-    --th:           #d95926;   /* Meta Threads series    */
-    --radius:       14px;
-    --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --plane:#0d0d0d; --surface:#1a1a19; --surface-2:#232322;
+    --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --baseline:#383835; --border:rgba(255,255,255,0.10);
+    --radius:14px; --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
   }
-  * { box-sizing: border-box; }
-  html, body { margin: 0; }
-  body {
-    background: var(--plane);
-    color: var(--ink);
-    font-family: var(--sans);
-    line-height: 1.45;
-    -webkit-font-smoothing: antialiased;
-    padding: 28px 20px 80px;
-  }
-  .wrap { max-width: 1080px; margin: 0 auto; }
+  * { box-sizing:border-box; }
+  html,body { margin:0; }
+  body { background:var(--plane); color:var(--ink); font-family:var(--sans);
+    line-height:1.45; -webkit-font-smoothing:antialiased; padding:28px 20px 80px; }
+  .wrap { max-width:1080px; margin:0 auto; }
 
-  header.page { margin-bottom: 24px; }
-  header.page h1 { font-size: 26px; margin: 0 0 6px; letter-spacing: -0.01em; }
-  header.page p { margin: 0; color: var(--ink-2); font-size: 15px; }
-  .stamp { color: var(--muted); font-size: 13px; margin-top: 10px; }
-  .stamp b { color: var(--ink-2); font-weight: 600; }
+  header.page { margin-bottom:20px; }
+  header.page h1 { font-size:26px; margin:0 0 6px; letter-spacing:-0.01em; }
+  header.page p { margin:0; color:var(--ink-2); font-size:15px; }
+  .stamp { color:var(--muted); font-size:13px; margin-top:10px; }
+  .stamp b { color:var(--ink-2); font-weight:600; }
 
-  .card {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 20px 22px;
-  }
-  .card h2 {
-    font-size: 14px; text-transform: uppercase; letter-spacing: 0.06em;
-    color: var(--muted); margin: 0 0 16px; font-weight: 600;
-  }
-  .card h2 .sub { text-transform: none; letter-spacing: 0; color: var(--muted); font-weight: 400; }
+  .card { background:var(--surface); border:1px solid var(--border);
+    border-radius:var(--radius); padding:20px 22px; }
+  .card h2 { font-size:14px; text-transform:uppercase; letter-spacing:0.06em;
+    color:var(--muted); margin:0 0 16px; font-weight:600; }
+  .card h2 .sub { text-transform:none; letter-spacing:0; color:var(--muted); font-weight:400; }
+  .grid { display:grid; gap:16px; }
 
-  .grid { display: grid; gap: 16px; }
+  /* ---- filter bar ---- */
+  .filterbar { position:sticky; top:0; z-index:20; margin-bottom:16px; }
+  .filterbar .card { padding:16px 18px; }
+  .frow { display:flex; flex-wrap:wrap; gap:16px 22px; align-items:flex-end; }
+  .fgroup { display:flex; flex-direction:column; gap:7px; }
+  .fgroup > .flabel { color:var(--muted); font-size:11.5px; text-transform:uppercase; letter-spacing:0.05em; }
+  .chips { display:flex; flex-wrap:wrap; gap:7px; }
+  .chip { border:1px solid var(--border); background:var(--surface-2); color:var(--ink-2);
+    border-radius:999px; padding:6px 12px; font-size:13px; cursor:pointer; font-family:var(--sans);
+    display:inline-flex; align-items:center; gap:7px; user-select:none; }
+  .chip:hover { border-color:var(--baseline); }
+  .chip[aria-pressed="true"] { background:var(--ink); color:#111; border-color:var(--ink); font-weight:600; }
+  .chip .dot { width:9px; height:9px; border-radius:3px; }
+  select.inp, input.inp { -webkit-appearance:none; appearance:none; font-family:var(--sans);
+    background:var(--surface-2); color:var(--ink); border:1px solid var(--border);
+    border-radius:9px; padding:8px 12px; font-size:13.5px; min-width:120px; color-scheme:dark; }
+  select.inp { padding-right:28px;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6'><path d='M0 0l5 6 5-6z' fill='%23898781'/></svg>");
+    background-repeat:no-repeat; background-position:right 10px center; }
+  .dates { display:flex; align-items:center; gap:8px; }
+  .dates span { color:var(--muted); font-size:13px; }
+  .btn { border:1px solid var(--border); background:var(--surface-2); color:var(--ink);
+    border-radius:9px; padding:8px 14px; font-size:13.5px; cursor:pointer; font-family:var(--sans); }
+  .btn:hover { border-color:var(--baseline); }
+  .fmeta { color:var(--muted); font-size:13px; margin-top:12px; }
+  .fmeta b { color:var(--ink); }
 
   /* ---- KPI tiles ---- */
-  .kpis { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); margin-bottom: 16px; }
-  .kpi { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 18px; }
-  .kpi .label { color: var(--muted); font-size: 12.5px; text-transform: uppercase; letter-spacing: 0.05em; }
-  .kpi .value { font-size: 34px; font-weight: 650; margin-top: 6px; letter-spacing: -0.02em; }
-  .kpi .value.hero { font-size: 48px; }
-  .kpi .note { color: var(--ink-2); font-size: 12.5px; margin-top: 2px; }
+  .kpis { grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); margin-bottom:16px; }
+  .kpi { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:16px 18px; }
+  .kpi .label { color:var(--muted); font-size:12.5px; text-transform:uppercase; letter-spacing:0.05em; }
+  .kpi .value { font-size:34px; font-weight:650; margin-top:6px; letter-spacing:-0.02em; }
+  .kpi .value.hero { font-size:48px; }
+  .kpi .note { color:var(--ink-2); font-size:12.5px; margin-top:2px; }
 
-  .two { grid-template-columns: 1fr 1fr; margin-bottom: 16px; }
-  @media (max-width: 760px) { .two { grid-template-columns: 1fr; } }
+  .two { grid-template-columns:1fr 1fr; margin-bottom:16px; }
+  @media (max-width:760px){ .two { grid-template-columns:1fr; } }
 
   /* ---- horizontal bars ---- */
-  .bars { display: flex; flex-direction: column; gap: 12px; }
-  .bar-row { display: grid; grid-template-columns: 1fr; gap: 5px; }
-  .bar-top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
-  .bar-name { font-size: 14px; color: var(--ink); display: flex; align-items: center; gap: 8px; min-width: 0; }
-  .bar-name .em { font-size: 15px; }
-  .bar-name .txt { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .bar-val { font-size: 14px; color: var(--ink-2); font-variant-numeric: tabular-nums; white-space: nowrap; }
-  .bar-val .split { color: var(--muted); font-size: 12px; margin-left: 8px; }
-  .track { height: 12px; background: var(--surface-2); border-radius: 6px; overflow: hidden; display: flex; }
-  .fill { height: 100%; border-radius: 6px; min-width: 2px; }
-  .fill.seg { border-radius: 0; }
-  .fill.seg:first-child { border-radius: 6px 0 0 6px; }
-  .fill.seg:last-child { border-radius: 0 6px 6px 0; }
-  .fill + .fill { margin-left: 2px; } /* 2px surface gap between segments */
+  .bars { display:flex; flex-direction:column; gap:12px; }
+  .bar-row { display:grid; grid-template-columns:1fr; gap:5px; }
+  .bar-top { display:flex; justify-content:space-between; align-items:baseline; gap:10px; }
+  .bar-name { font-size:14px; color:var(--ink); display:flex; align-items:center; gap:8px; min-width:0; }
+  .bar-name .em { font-size:15px; }
+  .bar-name .txt { white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .bar-val { font-size:14px; color:var(--ink-2); font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .bar-val .split { color:var(--muted); font-size:12px; margin-left:8px; }
+  .track { height:12px; background:var(--surface-2); border-radius:6px; overflow:hidden; display:flex; }
+  .fill { height:100%; border-radius:6px; min-width:2px; }
+  .fill.seg { border-radius:0; }
+  .fill.seg:first-child { border-radius:6px 0 0 6px; }
+  .fill.seg:last-child { border-radius:0 6px 6px 0; }
+  .fill + .fill { margin-left:2px; }
 
-  /* ---- legend ---- */
-  .legend { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 4px; }
-  .legend .item { display: flex; align-items: center; gap: 7px; font-size: 13px; color: var(--ink-2); }
-  .legend .dot { width: 10px; height: 10px; border-radius: 3px; }
+  .legend { display:flex; gap:18px; flex-wrap:wrap; }
+  .legend .item { display:flex; align-items:center; gap:7px; font-size:13px; color:var(--ink-2); }
+  .legend .dot { width:10px; height:10px; border-radius:3px; }
 
-  /* ---- timeline (svg) ---- */
-  .tl-wrap { width: 100%; overflow-x: auto; }
-  svg { display: block; }
-  .col { cursor: pointer; }
-  .axis-txt { fill: var(--muted); font-size: 11px; font-family: var(--sans); }
+  .tl-wrap { width:100%; overflow-x:auto; }
+  svg { display:block; }
+  .col { cursor:pointer; }
+  .axis-txt { fill:var(--muted); font-size:11px; font-family:var(--sans); }
 
-  /* ---- recent table ---- */
-  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; align-items: center; }
-  .filters .flabel { color: var(--muted); font-size: 12.5px; margin-right: 2px; }
-  .chip {
-    border: 1px solid var(--border); background: var(--surface-2); color: var(--ink-2);
-    border-radius: 999px; padding: 5px 12px; font-size: 13px; cursor: pointer; font-family: var(--sans);
-    display: inline-flex; align-items: center; gap: 6px;
-  }
-  .chip[aria-pressed="true"] { background: var(--ink); color: #111; border-color: var(--ink); font-weight: 600; }
-  .chip .em { font-size: 13px; }
-  select.chip { -webkit-appearance: none; appearance: none; padding-right: 26px;
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6'><path d='M0 0l5 6 5-6z' fill='%23898781'/></svg>");
-    background-repeat: no-repeat; background-position: right 10px center; }
+  .tbl-wrap { overflow-x:auto; }
+  table { border-collapse:collapse; width:100%; font-size:13.5px; }
+  th,td { text-align:left; padding:9px 12px; border-bottom:1px solid var(--grid); vertical-align:top; }
+  th { color:var(--muted); font-weight:600; font-size:12px; text-transform:uppercase; letter-spacing:0.04em; white-space:nowrap; }
+  td.date,td.mono { font-variant-numeric:tabular-nums; white-space:nowrap; color:var(--ink-2); }
+  .tchip { display:inline-flex; align-items:center; gap:6px; padding:2px 9px; border-radius:999px; font-size:12px; white-space:nowrap; }
+  .pdot { display:inline-flex; align-items:center; gap:6px; white-space:nowrap; color:var(--ink-2); }
+  .pdot .dot { width:8px; height:8px; border-radius:3px; }
+  td.action { color:var(--ink-2); }
+  .empty { color:var(--muted); padding:24px 12px; text-align:center; }
+  .rowcap { color:var(--muted); font-size:12.5px; margin-top:12px; }
 
-  .tbl-wrap { overflow-x: auto; }
-  table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
-  th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--grid); vertical-align: top; }
-  th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; white-space: nowrap; }
-  td.date, td.mono { font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--ink-2); }
-  .tchip { display: inline-flex; align-items: center; gap: 6px; padding: 2px 9px; border-radius: 999px; font-size: 12px; white-space: nowrap; }
-  .pdot { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; color: var(--ink-2); }
-  .pdot .dot { width: 8px; height: 8px; border-radius: 3px; }
-  td.action { color: var(--ink-2); }
-  .empty { color: var(--muted); padding: 24px 12px; text-align: center; }
+  #tip { position:fixed; pointer-events:none; z-index:50; background:#000; color:#fff;
+    border:1px solid var(--border); border-radius:8px; padding:7px 10px; font-size:12.5px;
+    opacity:0; transition:opacity .08s; max-width:260px; }
+  #tip .m { color:var(--ink-2); }
 
-  /* ---- tooltip ---- */
-  #tip { position: fixed; pointer-events: none; z-index: 50; background: #000; color: #fff;
-    border: 1px solid var(--border); border-radius: 8px; padding: 7px 10px; font-size: 12.5px;
-    opacity: 0; transition: opacity .08s; max-width: 240px; }
-  #tip b { color: #fff; } #tip .m { color: var(--ink-2); }
-
-  footer.page { color: var(--muted); font-size: 12.5px; margin-top: 28px; text-align: center; }
-  #error { display: none; color: #ffb4a8; background: #2a1512; border: 1px solid #58221c;
-    padding: 14px 16px; border-radius: 10px; font-size: 14px; }
+  footer.page { color:var(--muted); font-size:12.5px; margin-top:28px; text-align:center; }
+  #error { display:none; color:#ffb4a8; background:#2a1512; border:1px solid #58221c;
+    padding:14px 16px; border-radius:10px; font-size:14px; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header class="page">
     <h1>📊 Social Media Posts Dashboard</h1>
-    <p>Every bill update the bot has posted, across all platforms — at a glance.</p>
+    <p>Every bill update the bot has posted, across all platforms — filter it any way you like.</p>
     <div class="stamp">Data last built: <b id="gen">…</b></div>
   </header>
 
@@ -139,10 +128,44 @@
     directly from your computer, view it through GitHub Pages instead — that's where it's designed to run.</div>
 
   <div id="app" hidden>
-    <!-- KPI row -->
+    <!-- FILTER BAR -->
+    <div class="filterbar">
+      <div class="card">
+        <div class="frow">
+          <div class="fgroup">
+            <span class="flabel">Platform</span>
+            <div class="chips" id="f-platforms"></div>
+          </div>
+          <div class="fgroup">
+            <span class="flabel">Topic</span>
+            <select class="inp" id="f-topic"></select>
+          </div>
+          <div class="fgroup">
+            <span class="flabel">State</span>
+            <select class="inp" id="f-state"></select>
+          </div>
+          <div class="fgroup">
+            <span class="flabel">Date range</span>
+            <div class="dates">
+              <input class="inp" type="date" id="f-from" />
+              <span>to</span>
+              <input class="inp" type="date" id="f-to" />
+            </div>
+          </div>
+          <div class="fgroup">
+            <span class="flabel">&nbsp;</span>
+            <div class="dates">
+              <button class="btn" id="f-reset">Reset</button>
+              <button class="btn" id="f-csv">⬇ CSV</button>
+            </div>
+          </div>
+        </div>
+        <div class="fmeta" id="f-meta"></div>
+      </div>
+    </div>
+
     <div class="grid kpis" id="kpis"></div>
 
-    <!-- platform + topic -->
     <div class="grid two">
       <section class="card">
         <h2>Posts by platform</h2>
@@ -154,23 +177,19 @@
       </section>
     </div>
 
-    <!-- topics full width -->
     <section class="card" style="margin-bottom:16px">
       <h2>Posts by topic <span class="sub">— segmented by platform</span></h2>
-      <div class="legend" id="topic-legend"></div>
-      <div class="bars" id="topics" style="margin-top:14px"></div>
+      <div class="legend" id="topic-legend" style="margin-bottom:14px"></div>
+      <div class="bars" id="topics"></div>
     </section>
 
-    <!-- states -->
     <section class="card" style="margin-bottom:16px">
       <h2>Posts by state <span class="sub">— where the bills are from</span></h2>
       <div class="bars" id="states"></div>
     </section>
 
-    <!-- recent -->
     <section class="card">
-      <h2>Recent posts</h2>
-      <div class="filters" id="filters"></div>
+      <h2>Matching posts <span class="sub">— newest first</span></h2>
       <div class="tbl-wrap">
         <table>
           <thead><tr>
@@ -179,237 +198,297 @@
           <tbody id="rows"></tbody>
         </table>
       </div>
+      <div class="rowcap" id="rowcap"></div>
     </section>
   </div>
 
-  <footer class="page">
-    Built automatically from this repository's post history · dark-mode dashboard
-  </footer>
+  <footer class="page">Built automatically from this repository's post history · dark-mode dashboard</footer>
 </div>
-
 <div id="tip"></div>
 
 <script>
-const $ = (s, r=document) => r.querySelector(s);
-const el = (tag, attrs={}, html) => { const n = document.createElement(tag);
-  for (const k in attrs) n.setAttribute(k, attrs[k]); if (html != null) n.innerHTML = html; return n; };
-const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const fmt = n => n.toLocaleString("en-US");
+const $ = (s,r=document)=>r.querySelector(s);
+const el = (t,a={},h)=>{const n=document.createElement(t);for(const k in a)n.setAttribute(k,a[k]);if(h!=null)n.innerHTML=h;return n;};
+const esc = s=>String(s??"").replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmt = n=>Number(n).toLocaleString("en-US");
 
-// shared tooltip
 const tip = $("#tip");
-function showTip(e, html){ tip.innerHTML = html; tip.style.opacity = 1;
-  const pad = 14; let x = e.clientX + pad, y = e.clientY + pad;
-  if (x + tip.offsetWidth > innerWidth) x = e.clientX - tip.offsetWidth - pad;
-  if (y + tip.offsetHeight > innerHeight) y = e.clientY - tip.offsetHeight - pad;
-  tip.style.left = x + "px"; tip.style.top = y + "px"; }
-function hideTip(){ tip.style.opacity = 0; }
+function showTip(e,html){ tip.innerHTML=html; tip.style.opacity=1;
+  const pad=14; let x=e.clientX+pad, y=e.clientY+pad;
+  if(x+tip.offsetWidth>innerWidth) x=e.clientX-tip.offsetWidth-pad;
+  if(y+tip.offsetHeight>innerHeight) y=e.clientY-tip.offsetHeight-pad;
+  tip.style.left=x+"px"; tip.style.top=y+"px"; }
+function hideTip(){ tip.style.opacity=0; }
 
-const PCOLORS = { instagram: "var(--ig)", "meta-threads": "var(--th)" };
-const pColor = k => PCOLORS[k] || "var(--muted)";
+const ROW_CAP = 250;
+let DATA=null, P={}, T={};      // platform + topic lookup maps
+const state = { platforms:new Set(), topic:"all", stateCode:"all", from:"", to:"" };
 
-fetch("data.json", { cache: "no-store" })
-  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then(render)
-  .catch(() => { $("#error").style.display = "block"; });
+fetch("data.json",{cache:"no-store"})
+  .then(r=>{ if(!r.ok) throw 0; return r.json(); })
+  .then(init).catch(()=>{ $("#error").style.display="block"; });
 
-function render(d){
-  $("#app").hidden = false;
-  $("#gen").textContent = d.generated_at || "unknown";
+function init(d){
+  DATA=d; $("#app").hidden=false; $("#gen").textContent=d.generated_at||"unknown";
+  d.platforms.forEach(p=>P[p.key]=p);
+  d.topics.forEach(t=>T[t.key]=t);
+  state.platforms = new Set(d.platforms.map(p=>p.key));  // all on by default
 
-  // ---- KPIs ----
-  const t = d.totals;
-  const range = t.first_date ? `${t.first_date} → ${t.last_date}` : "—";
-  const kpis = [
-    { label: "Total posts", value: fmt(t.posts), hero: true, note: "across all platforms" },
-    { label: "Platforms",   value: t.platforms,  note: d.platforms.map(p=>p.name).join(" · ") },
-    { label: "Topics",      value: t.topics,     note: "active subject areas" },
-    { label: "States",      value: t.states,     note: "legislatures covered" },
-    { label: "Unique bills",value: fmt(t.bills), note: "distinct bills tracked" },
-    { label: "Date range",  value: "", note: range, small: true },
-  ];
-  const kwrap = $("#kpis");
-  kpis.forEach(k => {
-    const c = el("div", { class: "kpi" });
-    c.appendChild(el("div", { class: "label" }, esc(k.label)));
-    if (k.small) c.appendChild(el("div", { class: "value", style:"font-size:19px" }, esc(k.note)));
-    else { c.appendChild(el("div", { class: "value" + (k.hero ? " hero":"") }, esc(k.value)));
-           if (k.note) c.appendChild(el("div", { class: "note" }, esc(k.note))); }
-    kwrap.appendChild(c);
-  });
+  buildFilterUI(d);
+  apply();
+}
 
-  // ---- platforms ----
-  const pmax = Math.max(...d.platforms.map(p=>p.count), 1);
-  const pwrap = $("#platforms");
-  d.platforms.forEach(p => {
-    const row = el("div", { class: "bar-row" });
-    const top = el("div", { class: "bar-top" });
-    top.appendChild(el("div", { class:"bar-name" }, `<span class="txt">${esc(p.name)}</span>`));
-    top.appendChild(el("div", { class:"bar-val" }, fmt(p.count)));
-    const track = el("div", { class:"track" });
-    const fill = el("div", { class:"fill" });
-    fill.style.width = (p.count/pmax*100) + "%"; fill.style.background = pColor(p.key);
-    track.appendChild(fill); row.appendChild(top); row.appendChild(track);
-    row.addEventListener("mousemove", e => showTip(e, `<b>${esc(p.name)}</b><br><span class="m">${fmt(p.count)} posts</span>`));
-    row.addEventListener("mouseleave", hideTip);
-    pwrap.appendChild(row);
-  });
-
-  // ---- timeline ----
-  drawTimeline(d.timeline);
-
-  // ---- topics (segmented by platform) ----
-  const tlegend = $("#topic-legend");
-  d.platforms.forEach(p => {
-    const it = el("span", { class:"item" });
-    it.appendChild(el("span", { class:"dot", style:`background:${pColor(p.key)}` }));
-    it.appendChild(document.createTextNode(p.name));
-    tlegend.appendChild(it);
-  });
-  const tmax = Math.max(...d.topics.map(x=>x.count), 1);
-  const twrap = $("#topics");
-  d.topics.forEach(tp => {
-    const row = el("div", { class: "bar-row" });
-    const top = el("div", { class: "bar-top" });
-    top.appendChild(el("div", { class:"bar-name" },
-      `<span class="em">${esc(tp.emoji)}</span><span class="txt">${esc(tp.name)}</span>`));
-    const splitTxt = d.platforms.map(p => tp.platforms[p.key] || 0).join(" / ");
-    top.appendChild(el("div", { class:"bar-val" }, `${fmt(tp.count)}<span class="split">${splitTxt}</span>`));
-    const track = el("div", { class:"track" });
-    track.style.width = (tp.count/tmax*100) + "%"; track.style.minWidth = "2px";
-    // segment by platform, colored by platform, topic color as the row identity dot
-    d.platforms.forEach(p => {
-      const n = tp.platforms[p.key] || 0; if (!n) return;
-      const seg = el("div", { class:"fill seg" });
-      seg.style.width = (n/tp.count*100) + "%"; seg.style.background = pColor(p.key);
-      track.appendChild(seg);
+/* ---------- filter UI ---------- */
+function buildFilterUI(d){
+  // platform chips (multi-select) + "All"
+  const pc = $("#f-platforms");
+  const allChip = el("button",{class:"chip","aria-pressed":"true"},"All");
+  allChip.addEventListener("click",()=>{ state.platforms=new Set(d.platforms.map(p=>p.key)); syncPlatformChips(); apply(); });
+  pc.appendChild(allChip);
+  d.platforms.forEach(p=>{
+    const c = el("button",{class:"chip","data-k":p.key,"aria-pressed":"true"},
+      `<span class="dot" style="background:${p.color}"></span>${esc(p.name)}`);
+    c.addEventListener("click",()=>{
+      if(state.platforms.has(p.key)) state.platforms.delete(p.key); else state.platforms.add(p.key);
+      if(state.platforms.size===0) state.platforms=new Set(d.platforms.map(x=>x.key)); // never empty
+      syncPlatformChips(); apply();
     });
+    pc.appendChild(c);
+  });
+
+  // topic select
+  const ts = $("#f-topic");
+  ts.appendChild(el("option",{value:"all"},"All topics"));
+  d.topics.slice().sort((a,b)=>a.name.localeCompare(b.name)).forEach(t=>
+    ts.appendChild(el("option",{value:t.key},`${t.emoji} ${t.name}`)));
+  ts.addEventListener("change",()=>{ state.topic=ts.value; apply(); });
+
+  // state select (built from records)
+  const codes=[...new Set(DATA.records.map(r=>r.state))].sort();
+  const ss=$("#f-state");
+  ss.appendChild(el("option",{value:"all"},"All states"));
+  codes.forEach(c=>ss.appendChild(el("option",{value:c},c)));
+  ss.addEventListener("change",()=>{ state.stateCode=ss.value; apply(); });
+
+  // dates
+  const dates=DATA.records.map(r=>r.date).sort();
+  $("#f-from").min=$("#f-to").min=dates[0]; $("#f-from").max=$("#f-to").max=dates[dates.length-1];
+  $("#f-from").addEventListener("change",e=>{ state.from=e.target.value; apply(); });
+  $("#f-to").addEventListener("change",e=>{ state.to=e.target.value; apply(); });
+
+  $("#f-reset").addEventListener("click",resetFilters);
+  $("#f-csv").addEventListener("click",downloadCSV);
+}
+function syncPlatformChips(){
+  const chips=[...$("#f-platforms").children];
+  const allOn = state.platforms.size===DATA.platforms.length;
+  chips[0].setAttribute("aria-pressed", allOn?"true":"false");
+  chips.slice(1).forEach(c=>c.setAttribute("aria-pressed", state.platforms.has(c.dataset.k)?"true":"false"));
+}
+function resetFilters(){
+  state.platforms=new Set(DATA.platforms.map(p=>p.key));
+  state.topic="all"; state.stateCode="all"; state.from=""; state.to="";
+  $("#f-topic").value="all"; $("#f-state").value="all"; $("#f-from").value=""; $("#f-to").value="";
+  syncPlatformChips(); apply();
+}
+
+/* ---------- filtering ---------- */
+function filtered(){
+  return DATA.records.filter(r=>
+    state.platforms.has(r.platform) &&
+    (state.topic==="all" || r.topic===state.topic) &&
+    (state.stateCode==="all" || r.state===state.stateCode) &&
+    (!state.from || r.date>=state.from) &&
+    (!state.to   || r.date<=state.to));
+}
+
+function apply(){
+  const recs=filtered();
+  renderMeta(recs);
+  renderKPIs(recs);
+  renderPlatforms(recs);
+  renderTimeline(recs);
+  renderTopics(recs);
+  renderStates(recs);
+  renderRows(recs);
+}
+
+function renderMeta(recs){
+  const total=DATA.records.length;
+  const active=[];
+  if(state.platforms.size!==DATA.platforms.length) active.push([...state.platforms].map(k=>P[k].name).join(", "));
+  if(state.topic!=="all") active.push(T[state.topic]?.name);
+  if(state.stateCode!=="all") active.push(state.stateCode);
+  if(state.from||state.to) active.push(`${state.from||"start"} → ${state.to||"now"}`);
+  $("#f-meta").innerHTML = `Showing <b>${fmt(recs.length)}</b> of ${fmt(total)} posts` +
+    (active.length? ` · filtered by ${active.filter(Boolean).map(esc).join(" · ")}` : ` · no filters`);
+}
+
+/* ---------- aggregation helpers ---------- */
+const bump=(m,k,n=1)=>m.set(k,(m.get(k)||0)+n);
+
+function renderKPIs(recs){
+  const plats=new Set(recs.map(r=>r.platform)), tops=new Set(recs.map(r=>r.topic)),
+        sts=new Set(recs.map(r=>r.state)), bills=new Set(recs.map(r=>r.state+"|"+r.bill));
+  const dates=recs.map(r=>r.date).sort();
+  const range=dates.length? `${dates[0]} → ${dates[dates.length-1]}` : "—";
+  const items=[
+    {label:"Posts shown", value:fmt(recs.length), hero:true, note:"in current view"},
+    {label:"Platforms", value:plats.size, note:[...plats].map(k=>P[k].name).join(" · ")||"—"},
+    {label:"Topics", value:tops.size, note:"subject areas"},
+    {label:"States", value:sts.size, note:"legislatures"},
+    {label:"Unique bills", value:fmt(bills.size), note:"distinct bills"},
+    {label:"Date range", value:"", note:range, small:true},
+  ];
+  const w=$("#kpis"); w.innerHTML="";
+  items.forEach(k=>{
+    const c=el("div",{class:"kpi"});
+    c.appendChild(el("div",{class:"label"},esc(k.label)));
+    if(k.small) c.appendChild(el("div",{class:"value",style:"font-size:17px"},esc(k.note)));
+    else { c.appendChild(el("div",{class:"value"+(k.hero?" hero":"")},esc(k.value)));
+           if(k.note) c.appendChild(el("div",{class:"note"},esc(k.note))); }
+    w.appendChild(c);
+  });
+}
+
+function hbar(host, rows, opts={}){
+  // rows: [{label,val,color,em,tip,segments?:[{color,val}]}]
+  const max=Math.max(...rows.map(r=>r.val),1);
+  host.innerHTML="";
+  rows.forEach(r=>{
+    const row=el("div",{class:"bar-row"});
+    const top=el("div",{class:"bar-top"});
+    top.appendChild(el("div",{class:"bar-name"},
+      (r.em?`<span class="em">${esc(r.em)}</span>`:"")+`<span class="txt">${esc(r.label)}</span>`));
+    top.appendChild(el("div",{class:"bar-val"}, fmt(r.val)+(r.split!=null?`<span class="split">${esc(r.split)}</span>`:"")));
+    const track=el("div",{class:"track"});
+    if(r.segments){
+      track.style.width=(r.val/max*100)+"%"; track.style.minWidth="2px";
+      r.segments.forEach(s=>{ if(!s.val)return; const seg=el("div",{class:"fill seg"});
+        seg.style.width=(s.val/r.val*100)+"%"; seg.style.background=s.color; track.appendChild(seg); });
+    } else {
+      const fill=el("div",{class:"fill"}); fill.style.width=(r.val/max*100)+"%";
+      fill.style.background=r.color||"var(--ink)"; track.appendChild(fill);
+    }
     row.appendChild(top); row.appendChild(track);
-    const tipHtml = `<b>${esc(tp.emoji)} ${esc(tp.name)}</b><br>` +
-      `<span class="m">${fmt(tp.count)} posts — ` +
-      d.platforms.map(p=>`${esc(p.name)} ${tp.platforms[p.key]||0}`).join(", ") + `</span>`;
-    row.addEventListener("mousemove", e => showTip(e, tipHtml));
-    row.addEventListener("mouseleave", hideTip);
-    twrap.appendChild(row);
+    if(r.tip){ row.addEventListener("mousemove",e=>showTip(e,r.tip)); row.addEventListener("mouseleave",hideTip); }
+    host.appendChild(row);
   });
-
-  // ---- states ----
-  const smax = Math.max(...d.states.map(s=>s.count), 1);
-  const swrap = $("#states");
-  d.states.forEach(s => {
-    const row = el("div", { class: "bar-row" });
-    const top = el("div", { class: "bar-top" });
-    top.appendChild(el("div", { class:"bar-name" }, `<span class="txt">${esc(s.code)}</span>`));
-    top.appendChild(el("div", { class:"bar-val" }, fmt(s.count)));
-    const track = el("div", { class:"track" });
-    const fill = el("div", { class:"fill" });
-    fill.style.width = (s.count/smax*100) + "%"; fill.style.background = "var(--ig)";
-    track.appendChild(fill); row.appendChild(top); row.appendChild(track);
-    row.addEventListener("mousemove", e => showTip(e, `<b>${esc(s.code)}</b><br><span class="m">${fmt(s.count)} posts</span>`));
-    row.addEventListener("mouseleave", hideTip);
-    swrap.appendChild(row);
-  });
-
-  // ---- recent posts + filters ----
-  setupRecent(d);
+  if(!rows.length) host.appendChild(el("div",{class:"empty"},"No data for this filter."));
 }
 
-function drawTimeline(tl){
-  const host = $("#timeline");
-  const W = Math.max(host.parentElement.clientWidth || 480, tl.length*54);
-  const H = 200, padL = 34, padB = 26, padT = 12;
-  const max = Math.max(...tl.map(m=>m.count), 1);
-  const niceMax = Math.ceil(max/10)*10 || max;
-  const innerW = W - padL - 8, innerH = H - padB - padT;
-  const bw = Math.min(28, innerW / tl.length * 0.6);
-  const step = innerW / tl.length;
-  const NS = "http://www.w3.org/2000/svg";
-  const svg = document.createElementNS(NS, "svg");
-  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.setAttribute("width", W); svg.setAttribute("height", H);
-  // gridlines + y ticks
-  [0, 0.5, 1].forEach(f => {
-    const y = padT + innerH*(1-f); const v = Math.round(niceMax*f);
-    const ln = document.createElementNS(NS, "line");
-    ln.setAttribute("x1", padL); ln.setAttribute("x2", W-8); ln.setAttribute("y1", y); ln.setAttribute("y2", y);
-    ln.setAttribute("stroke", "var(--grid)"); ln.setAttribute("stroke-width", "1"); svg.appendChild(ln);
-    const tx = document.createElementNS(NS, "text");
-    tx.setAttribute("x", padL-6); tx.setAttribute("y", y+3); tx.setAttribute("text-anchor","end");
-    tx.setAttribute("class","axis-txt"); tx.textContent = v; svg.appendChild(tx);
+function renderPlatforms(recs){
+  const m=new Map(); recs.forEach(r=>bump(m,r.platform));
+  const rows=DATA.platforms.filter(p=>m.get(p.key)).map(p=>({
+    label:p.name, val:m.get(p.key), color:p.color,
+    tip:`<b>${esc(p.name)}</b><br><span class="m">${fmt(m.get(p.key))} posts</span>`
+  })).sort((a,b)=>b.val-a.val);
+  hbar($("#platforms"),rows);
+}
+
+function renderTopics(recs){
+  // legend
+  const lg=$("#topic-legend"); lg.innerHTML="";
+  DATA.platforms.filter(p=>state.platforms.has(p.key)).forEach(p=>{
+    const it=el("span",{class:"item"});
+    it.appendChild(el("span",{class:"dot",style:`background:${p.color}`}));
+    it.appendChild(document.createTextNode(p.name)); lg.appendChild(it);
   });
-  tl.forEach((m, i) => {
-    const x = padL + step*i + (step-bw)/2;
-    const h = innerH * (m.count/niceMax);
-    const y = padT + innerH - h;
-    const r = document.createElementNS(NS, "rect");
-    r.setAttribute("x", x); r.setAttribute("y", y); r.setAttribute("width", bw); r.setAttribute("height", Math.max(h,2));
-    r.setAttribute("rx", 3); r.setAttribute("fill", "var(--ig)"); r.setAttribute("class","col");
-    r.addEventListener("mousemove", e => showTip(e, `<b>${esc(m.month)}</b><br><span class="m">${fmt(m.count)} posts</span>`));
-    r.addEventListener("mouseleave", hideTip);
-    svg.appendChild(r);
-    const tx = document.createElementNS(NS, "text");
-    tx.setAttribute("x", x + bw/2); tx.setAttribute("y", H-9); tx.setAttribute("text-anchor","middle");
-    tx.setAttribute("class","axis-txt"); tx.textContent = m.month.slice(2); // YY-MM
-    svg.appendChild(tx);
+  const activePlats=DATA.platforms.filter(p=>state.platforms.has(p.key));
+  const byTopic=new Map();
+  recs.forEach(r=>{ const t=byTopic.get(r.topic)||{total:0,plat:new Map()}; t.total++; bump(t.plat,r.platform); byTopic.set(r.topic,t); });
+  const rows=[...byTopic.entries()].map(([k,v])=>{
+    const meta=T[k]||{name:k,emoji:"📄"};
+    return {
+      label:meta.name, em:meta.emoji, val:v.total,
+      split:activePlats.map(p=>v.plat.get(p.key)||0).join(" / "),
+      segments:activePlats.map(p=>({color:p.color,val:v.plat.get(p.key)||0})),
+      tip:`<b>${esc(meta.emoji)} ${esc(meta.name)}</b><br><span class="m">${fmt(v.total)} posts — `+
+          activePlats.map(p=>`${esc(p.name)} ${v.plat.get(p.key)||0}`).join(", ")+`</span>`
+    };
+  }).sort((a,b)=>b.val-a.val);
+  hbar($("#topics"),rows);
+}
+
+function renderStates(recs){
+  const m=new Map(); recs.forEach(r=>bump(m,r.state));
+  const rows=[...m.entries()].map(([code,val])=>({
+    label:code, val, color:"var(--ink)",
+    tip:`<b>${esc(code)}</b><br><span class="m">${fmt(val)} posts</span>`
+  })).sort((a,b)=>b.val-a.val);
+  hbar($("#states"),rows);
+}
+
+function renderTimeline(recs){
+  const m=new Map(); recs.forEach(r=>bump(m,r.date.slice(0,7)));
+  const tl=[...m.entries()].map(([month,count])=>({month,count})).sort((a,b)=>a.month<b.month?-1:1);
+  const host=$("#timeline");
+  if(!tl.length){ host.innerHTML=`<div class="empty">No data for this filter.</div>`; return; }
+  const W=Math.max(host.parentElement.clientWidth||480, tl.length*54);
+  const H=200,padL=34,padB=26,padT=12;
+  const max=Math.max(...tl.map(m=>m.count),1), niceMax=Math.ceil(max/10)*10||max;
+  const innerW=W-padL-8, innerH=H-padB-padT, step=innerW/tl.length, bw=Math.min(28, step*0.6);
+  const NS="http://www.w3.org/2000/svg";
+  const svg=document.createElementNS(NS,"svg");
+  svg.setAttribute("viewBox",`0 0 ${W} ${H}`); svg.setAttribute("width",W); svg.setAttribute("height",H);
+  [0,0.5,1].forEach(f=>{
+    const y=padT+innerH*(1-f), v=Math.round(niceMax*f);
+    const ln=document.createElementNS(NS,"line");
+    ln.setAttribute("x1",padL); ln.setAttribute("x2",W-8); ln.setAttribute("y1",y); ln.setAttribute("y2",y);
+    ln.setAttribute("stroke","var(--grid)"); ln.setAttribute("stroke-width","1"); svg.appendChild(ln);
+    const tx=document.createElementNS(NS,"text");
+    tx.setAttribute("x",padL-6); tx.setAttribute("y",y+3); tx.setAttribute("text-anchor","end");
+    tx.setAttribute("class","axis-txt"); tx.textContent=v; svg.appendChild(tx);
   });
-  host.innerHTML = ""; host.appendChild(svg);
+  tl.forEach((mo,i)=>{
+    const x=padL+step*i+(step-bw)/2, h=innerH*(mo.count/niceMax), y=padT+innerH-h;
+    const r=document.createElementNS(NS,"rect");
+    r.setAttribute("x",x); r.setAttribute("y",y); r.setAttribute("width",bw); r.setAttribute("height",Math.max(h,2));
+    r.setAttribute("rx",3); r.setAttribute("fill","var(--ink)"); r.setAttribute("class","col");
+    r.addEventListener("mousemove",e=>showTip(e,`<b>${esc(mo.month)}</b><br><span class="m">${fmt(mo.count)} posts</span>`));
+    r.addEventListener("mouseleave",hideTip); svg.appendChild(r);
+    const tx=document.createElementNS(NS,"text");
+    tx.setAttribute("x",x+bw/2); tx.setAttribute("y",H-9); tx.setAttribute("text-anchor","middle");
+    tx.setAttribute("class","axis-txt"); tx.textContent=mo.month.slice(2); svg.appendChild(tx);
+  });
+  host.innerHTML=""; host.appendChild(svg);
 }
 
-// ---- recent table with platform + topic filters ----
-let RECENT = [], PLATFORMS = [], TOPICS = [];
-let fPlatform = "all", fTopic = "all";
-function setupRecent(d){
-  RECENT = d.recent; PLATFORMS = d.platforms; TOPICS = d.topics;
-  const f = $("#filters");
-  f.appendChild(el("span", { class:"flabel" }, "Platform:"));
-  const mkChip = (label, active, on, extra="") => {
-    const c = el("button", { class:"chip", "aria-pressed": active ? "true":"false" }, extra + esc(label));
-    c.addEventListener("click", on); return c;
-  };
-  const platWrap = el("span", { style:"display:inline-flex;gap:8px" });
-  platWrap.appendChild(mkChip("All", true, () => setPlatform("all", platWrap)));
-  PLATFORMS.forEach(p => platWrap.appendChild(
-    mkChip(p.name, false, () => setPlatform(p.key, platWrap),
-      `<span class="dot" style="width:8px;height:8px;border-radius:3px;background:${pColor(p.key)};display:inline-block;margin-right:2px"></span>`)));
-  f.appendChild(platWrap);
-
-  f.appendChild(el("span", { class:"flabel", style:"margin-left:8px" }, "Topic:"));
-  const sel = el("select", { class:"chip" });
-  sel.appendChild(el("option", { value:"all" }, "All topics"));
-  TOPICS.forEach(tp => sel.appendChild(el("option", { value: tp.key }, `${tp.emoji} ${tp.name} (${tp.count})`)));
-  sel.addEventListener("change", () => { fTopic = sel.value; drawRows(); });
-  f.appendChild(sel);
-
-  drawRows();
-}
-function setPlatform(key, wrap){
-  fPlatform = key;
-  [...wrap.children].forEach((c,i) => c.setAttribute("aria-pressed",
-    (i===0 && key==="all") || c.textContent.trim() === (PLATFORMS.find(p=>p.key===key)?.name) ? "true":"false"));
-  drawRows();
-}
-function drawRows(){
-  const rows = RECENT.filter(r =>
-    (fPlatform==="all" || r.platform===fPlatform) &&
-    (fTopic==="all" || r.topic===fTopic));
-  const tb = $("#rows"); tb.innerHTML = "";
-  if (!rows.length){ tb.appendChild(el("tr", {}, `<td colspan="6" class="empty">No posts match this filter.</td>`)); return; }
-  rows.forEach(r => {
-    const tr = el("tr");
-    tr.appendChild(el("td", { class:"date" }, esc(r.date)));
-    tr.appendChild(el("td", { class:"mono" }, esc(r.state)));
-    tr.appendChild(el("td", { class:"mono" }, esc(r.bill)));
-    tr.appendChild(el("td", {}, `<span class="tchip" style="background:${hexToBg(r.color)};color:${r.color}">${esc(r.emoji)} ${esc(r.topic_name)}</span>`));
-    tr.appendChild(el("td", {}, `<span class="pdot"><span class="dot" style="background:${pColor(r.platform)}"></span>${esc(r.platform_name)}</span>`));
-    tr.appendChild(el("td", { class:"action" }, esc(r.action) || "<span style='color:var(--muted)'>—</span>"));
+function renderRows(recs){
+  const tb=$("#rows"); tb.innerHTML="";
+  const shown=recs.slice(0,ROW_CAP);
+  if(!shown.length){ tb.appendChild(el("tr",{},`<td colspan="6" class="empty">No posts match these filters.</td>`)); $("#rowcap").textContent=""; return; }
+  shown.forEach(r=>{
+    const t=T[r.topic]||{name:r.topic,emoji:"📄",color:"#888"}, p=P[r.platform]||{name:r.platform,color:"#888"};
+    const tr=el("tr");
+    tr.appendChild(el("td",{class:"date"},esc(r.date)));
+    tr.appendChild(el("td",{class:"mono"},esc(r.state)));
+    tr.appendChild(el("td",{class:"mono"},esc(r.bill)));
+    tr.appendChild(el("td",{},`<span class="tchip" style="background:${hexBg(t.color)};color:${t.color}">${esc(t.emoji)} ${esc(t.name)}</span>`));
+    tr.appendChild(el("td",{},`<span class="pdot"><span class="dot" style="background:${p.color}"></span>${esc(p.name)}</span>`));
+    tr.appendChild(el("td",{class:"action"}, esc(r.action)||"<span style='color:var(--muted)'>—</span>"));
     tb.appendChild(tr);
   });
+  $("#rowcap").textContent = recs.length>ROW_CAP ? `Showing the ${ROW_CAP} most recent of ${fmt(recs.length)} matching posts — narrow the filters or use ⬇ CSV for the full list.` : `${fmt(recs.length)} matching posts.`;
 }
-// soft translucent background from a topic hex color
-function hexToBg(hex){
-  const m = /^#?([0-9a-f]{6})$/i.exec(hex || ""); if (!m) return "var(--surface-2)";
-  const n = parseInt(m[1],16); const r=(n>>16)&255,g=(n>>8)&255,b=n&255;
-  return `rgba(${r},${g},${b},0.16)`;
+
+function hexBg(hex){
+  const m=/^#?([0-9a-f]{6})$/i.exec(hex||""); if(!m) return "var(--surface-2)";
+  const n=parseInt(m[1],16); return `rgba(${(n>>16)&255},${(n>>8)&255},${n&255},0.16)`;
 }
+
+function downloadCSV(){
+  const recs=filtered();
+  const head=["date","state","bill","topic","platform","action"];
+  const esc2=v=>`"${String(v??"").replace(/"/g,'""')}"`;
+  const lines=[head.join(",")].concat(recs.map(r=>
+    [r.date,r.state,r.bill,(T[r.topic]?.name||r.topic),(P[r.platform]?.name||r.platform),r.action].map(esc2).join(",")));
+  const blob=new Blob([lines.join("\n")],{type:"text/csv"});
+  const a=el("a",{href:URL.createObjectURL(blob),download:"social-posts.csv"});
+  document.body.appendChild(a); a.click(); a.remove();
+}
+
+addEventListener("resize",()=>{ if(DATA) renderTimeline(filtered()); });
 </script>
 </body>
 </html>

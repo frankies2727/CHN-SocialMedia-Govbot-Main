@@ -6,6 +6,21 @@ all social platforms — how many posts, which topics, which states, and when.
 **Live page:** once GitHub Pages is turned on (see below), it lives at
 `https://<your-username>.github.io/<your-repo>/`
 
+## Filtering
+
+Everything on the page — the big numbers, every chart, and the table — updates
+live as you filter by:
+
+- **Platform** — click the chips to show/hide Instagram, Meta Threads, X, etc.
+- **Topic** — pick one of the subject areas.
+- **State** — narrow to a single legislature.
+- **Date range** — set a start and/or end date.
+- **⬇ CSV** — download exactly what's on screen as a spreadsheet.
+
+Platforms are detected automatically from the repo, so any platform the bot
+starts posting to (Bluesky, a new X account, …) shows up on its own — no edits
+needed.
+
 ## What's in here
 
 | File | What it does |
