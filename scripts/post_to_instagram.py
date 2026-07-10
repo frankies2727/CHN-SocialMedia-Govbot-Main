@@ -87,6 +87,15 @@ POST_LIMIT = int(os.environ.get("POST_LIMIT", "2"))
 # the account hits this ceiling, later topics in the loop exit early. The next
 # run starts the count fresh.
 RUN_POST_LIMIT = int(os.environ.get("RUN_POST_LIMIT", "4"))
+# Space consecutive posts to the single account so they don't fire in rapid
+# succession (which reads as automated behaviour). Each topic runs as its own
+# process, so this gap is applied before every post *after the first one this
+# run* (tracked via the account ledger), spacing posts across the whole topic
+# loop, not just within one topic. The delay is POST_INTERVAL_SECONDS plus a
+# random 0..POST_INTERVAL_JITTER so the cadence isn't mechanically regular.
+# Set POST_INTERVAL_SECONDS=0 to disable.
+POST_INTERVAL_SECONDS = float(os.environ.get("POST_INTERVAL_SECONDS", "3"))
+POST_INTERVAL_JITTER = float(os.environ.get("POST_INTERVAL_JITTER", "2"))
 # Account-level (cross-topic) ledger lives under account_state/<platform>/.
 PLATFORM = "instagram"
 MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "62"))
@@ -113,6 +122,19 @@ MIN_SUMMARY_CHARS = 80
 IG_API = "https://graph.instagram.com/v21.0"
 IG_TIMEOUT = int(os.environ.get("INSTAGRAM_TIMEOUT", "60"))
 IG_PUBLISH_RETRIES = 4
+
+# media_publish sometimes returns an HTTP 400 "Generic Internal Error" while the
+# media was in fact created and published — a well-known Instagram false
+# negative (error code -1, subcode 2207085). If we treat that as a plain failure
+# the run cap never counts the post, so every remaining topic in the loop posts
+# again and the single account blows far past RUN_POST_LIMIT (the log reads
+# "Posted 0" while many posts actually go live). Instead we treat these subcodes
+# as a published-but-unconfirmed post: count it against the run cap and dedup the
+# bill so no later topic re-posts it. The bias is deliberately toward NOT
+# overposting — if the post somehow didn't land, we simply skip that one bill.
+IG_INTERNAL_ERROR_SUBCODES = {2207085}
+# Sentinel returned by _publish_container for the false-negative case above.
+IG_PUBLISHED_UNCONFIRMED = "__published_unconfirmed__"
 
 INSTAGRAM_ACCESS_TOKEN = os.environ.get("INSTAGRAM_ACCESS_TOKEN", "")
 INSTAGRAM_USER_ID = os.environ.get("INSTAGRAM_USER_ID", "")
@@ -343,6 +365,18 @@ def _create_container(image_url: str, caption: str) -> str | None:
         return None
 
 
+def _internal_error_subcode(resp) -> int | None:
+    """Return the Graph API error_subcode from a failed response, or None.
+    Used to detect the media_publish false negative (see the module comment on
+    IG_INTERNAL_ERROR_SUBCODES)."""
+    if resp is None:
+        return None
+    try:
+        return resp.json().get("error", {}).get("error_subcode")
+    except (ValueError, AttributeError):
+        return None
+
+
 def _publish_container(creation_id: str) -> str | None:
     for attempt in range(1, IG_PUBLISH_RETRIES + 1):
         try:
@@ -354,13 +388,27 @@ def _publish_container(creation_id: str) -> str | None:
             resp.raise_for_status()
             return resp.json().get("id")
         except Exception as e:
+            resp = getattr(e, "response", None)
+            subcode = _internal_error_subcode(resp)
+            if subcode in IG_INTERNAL_ERROR_SUBCODES:
+                # False negative: the media was very likely published anyway.
+                # Stop retrying (re-publishing the same container can't help)
+                # and report it as published so the run cap counts it and no
+                # later topic re-posts this bill.
+                print(f" ! publish returned internal-error subcode {subcode}; "
+                      f"Instagram likely published anyway — counting it against "
+                      f"the run cap to avoid re-posting on the next topic.",
+                      file=sys.stderr)
+                if resp is not None:
+                    print(f"   Response body: {resp.text}", file=sys.stderr)
+                return IG_PUBLISHED_UNCONFIRMED
             if attempt < IG_PUBLISH_RETRIES:
                 # Container may still be processing the fetched image — back off.
                 time.sleep(5 * attempt)
                 continue
             print(f" ! publish failed: {e}", file=sys.stderr)
-            if getattr(e, "response", None) is not None:
-                print(f"   Response body: {e.response.text}", file=sys.stderr)
+            if resp is not None:
+                print(f"   Response body: {resp.text}", file=sys.stderr)
             return None
     return None
 
@@ -376,6 +424,9 @@ def post_to_instagram(image_url: str, caption: str) -> bool:
     media_id = _publish_container(creation_id)
     if not media_id:
         return False
+    if media_id == IG_PUBLISHED_UNCONFIRMED:
+        print("  treated as posted (unconfirmed publish) — counted against run cap.")
+        return True
     print(f"  posted to Instagram (media id {media_id})")
     return True
 
@@ -414,6 +465,18 @@ def _norm_ident(s: str) -> str:
     return re.sub(r"\s+", "", (s or "")).upper()
 
 
+def _anti_rapidfire_pause(prior_posts: int) -> None:
+    """Sleep a jittered buffer before a post so the account doesn't fire several
+    in rapid succession. Skipped for the very first post (nothing to space from)
+    and in DRY_RUN. `prior_posts` is how many posts already went to the account
+    this run (across every topic), so the gap holds across the whole loop."""
+    if DRY_RUN or prior_posts <= 0 or POST_INTERVAL_SECONDS <= 0:
+        return
+    gap = POST_INTERVAL_SECONDS + random.uniform(0, max(0.0, POST_INTERVAL_JITTER))
+    print(f"  ⏳ pausing {gap:.1f}s before posting (anti rapid-fire buffer)")
+    time.sleep(gap)
+
+
 def _post_items(items: list[dict], sha: str, slug: str, state: dict, seen: set,
                 same_day_siblings: dict[str, set[str]] | None, now: datetime,
                 ledger: AccountLedger | None = None) -> int:
@@ -429,6 +492,11 @@ def _post_items(items: list[dict], sha: str, slug: str, state: dict, seen: set,
             print(f"  ↳ image_url: {image_url}")
             if not wait_for_url(image_url):
                 continue
+        # Space this post from the previous one. Count posts already made to the
+        # account this run (ledger) plus any made earlier in this same batch, so
+        # the buffer applies both across topics and within a multi-post topic.
+        prior = (ledger.posted_this_run() if ledger is not None else 0) + posted
+        _anti_rapidfire_pause(prior)
         if not post_to_instagram(image_url, it["caption"]):
             continue
         posted += 1
@@ -451,7 +519,6 @@ def _post_items(items: list[dict], sha: str, slug: str, state: dict, seen: set,
                 save_full_text(b, out_dir=TOPIC.instagram_bills_full_text_dir())
             except Exception as e:
                 print(f"  ! raw-record save failed: {e}", file=sys.stderr)
-        time.sleep(5)
     state["state_last_posted"] = last_posted
     return posted
 
