@@ -328,7 +328,7 @@ def _threads_permalink(media_id: str) -> str:
         resp = requests.get(
             f"{THREADS_API}/{media_id}",
             params={"fields": "permalink", "access_token": THREADS_ACCESS_TOKEN},
-            timeout=THREADS_TIMEOUT,
+            timeout=8,  # small cap: this is a nice-to-have, never worth stalling a run
         )
         resp.raise_for_status()
         return resp.json().get("permalink", "") or ""
