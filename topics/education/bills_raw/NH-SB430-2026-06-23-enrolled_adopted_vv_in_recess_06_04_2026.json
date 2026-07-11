@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB430",
+    "legislative_session": "2026",
+    "title": "relative to mandatory disclosure by school district employees to parents and legal guardians."
+  },
+  "id": "SB430",
+  "log": {
+    "action": {
+      "classifications": [
+        "enrolled"
+      ],
+      "description": "Enrolled Adopted, VV, (In recess 06/04/2026);  SJ 14",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-23",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=1194&inflect=2"
+        }
+      ]
+    },
+    "bill_id": "SB430"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB430/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB430/logs/20260623T000000Z_enrolled_adopted_vv_in_recess_06042026_sj_14.json"
+  },
+  "timestamp": "20260623T000000Z"
+}

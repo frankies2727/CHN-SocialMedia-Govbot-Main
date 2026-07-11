@@ -158,6 +158,9 @@
     "ND|SB 2401|2026-01-21|Reported back amended, do pass, amendmen",
     "NH|HB676|2025-12-03|Committee Report: Inexpedient to Legisla",
     "NH|SB429|2026-06-23|Enrolled Bill Amendment # 2026-2180e Ado",
+    "NH|SB430|2026-06-23",
+    "NH|SB430|2026-06-23|Enrolled (in recess of) 06/04/2026  HJ 1",
+    "NH|SB430|2026-06-23|Enrolled Adopted, VV, (In recess 06/04/2",
     "NH|SB490|2026-06-23|Enrolled (in recess of) 06/04/2026  HJ 1",
     "NH|SB490|2026-06-23|Enrolled Adopted, VV, (In recess 06/04/2",
     "NH|SB56|2026-06-23|Enrolled Bill Amendment # 2026-2197e Ado",
@@ -183,6 +186,8 @@
     "RI|HR8351|2026-06-22",
     "RI|HR8351|2026-06-22|06/22/2026 Signed by Governor",
     "RI|SB2678|2026-06-22|06/22/2026 Signed by Governor",
+    "RI|SR3368|2026-06-22",
+    "RI|SR3368|2026-06-22|06/22/2026 Signed by Governor",
     "TN|HB 0663|2026-01-21|Taken off notice for cal in s/c  Higher ",
     "TN|HB 1369|2026-01-26|Meeting Canceled",
     "TN|HB 1544|2026-01-15|Assigned to s/c K-12 Subcommittee",
@@ -219,10 +224,10 @@
     "WI|SB1|2026-05-13|Read a third time",
     "WI|SB1|2026-05-13|Rules suspended to give bill its third r"
   ],
-  "last_run": "2026-07-10T10:09:40.875317+00:00",
+  "last_run": "2026-07-11T08:28:18.587404+00:00",
   "state_last_posted": {
     "HI": "2026-05-16T02:57:07.992280+00:00",
-    "NH": "2026-07-08T09:29:18.057501+00:00",
+    "NH": "2026-07-11T08:27:13.996682+00:00",
     "KY": "2026-05-16T04:26:31.506219+00:00",
     "WI": "2026-06-18T11:09:29.480279+00:00",
     "CO": "2026-05-21T04:06:42.979748+00:00",
@@ -242,6 +247,6 @@
     "GA": "2026-07-08T09:29:18.057501+00:00",
     "PR": "2026-06-09T10:25:58.228192+00:00",
     "ND": "2026-06-13T10:02:26.244028+00:00",
-    "RI": "2026-07-09T10:28:08.163949+00:00"
+    "RI": "2026-07-11T08:27:13.996682+00:00"
   }
 }
