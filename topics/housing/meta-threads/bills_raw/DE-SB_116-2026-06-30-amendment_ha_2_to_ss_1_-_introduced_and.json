@@ -1,0 +1,42 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act allows tenants who are being evicted for failure to pay rent to remain in their homes if they pay all amounts owed prior to being evicted. It also makes technical corrections to conform existing law to the standards of the Drafting Manual.\r\n\r\nThis Substitute differs from the original Act by incorporating the changes from Senate Amendment No. 1 to Senate Bill No. 116 which includes the following changes:\r\n\r\n-\tIncreased the time from 12 to 24 months for the lookback period for restricting the number of times the right of redemption is available to a tenant.\r\n-\tPuts a requirement to proactively file with the court a request for a stay of the writ if payment is made after the writ of possession has been posted.\r\n-\tMakes clear that payment after posting of the writ only stays the writ until the payment has cleared and dismissal is not required until such time.\r\n\r\nThis Substitute also adds the following changes based on further input from stakeholders:\r\n\r\n-\tMakes it clear that this Act only applies to evictions based on failure to pay rent.\r\n-\tClarifies that any rent that is due under the terms of the lease must also be paid, in addition to any demanded past due and per diem rent, for redemption to apply.\r\n-\tAdds language that the landlord may restrict any payments to methods accepted under the terms of the lease, and the landlord may further restrict any payments made after judgment is entered to certified checks or money orders.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 116",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 25 OF THE DELAWARE CODE RELATING TO RIGHT OF REDEMPTION."
+  },
+  "id": "SB 116",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-introduction"
+      ],
+      "description": "Amendment HA 2 to SS 1 - Introduced and Placed With Bill",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-30",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=142564"
+        }
+      ]
+    },
+    "bill_id": "SB 116"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB116/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB116/logs/20260630T000000Z_amendment_ha_2_to_ss_1_introduced_and_placed_with_bill.json"
+  },
+  "timestamp": "20260630T000000Z",
+  "posted_text": "🔑 Housing\nDE SB 116 — Tenants Can Pay Rent to Stop Eviction\n\nThis law lets renters facing eviction for unpaid rent stay in their homes if they pay the full amount owed before the eviction. The bill clarifies that this protection applies only to evictions due to non-payment and adds requirements about payment methods and a longer ‘lookback’ period for redemption rights.\n\nJune 30, 2026: Amendment HA 2 to SS 1 - Introduced and Placed With Bill.",
+  "posted_link": "https://legiscan.com/DE/bill/SB116",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DaqdpUhFiNX"
+}
