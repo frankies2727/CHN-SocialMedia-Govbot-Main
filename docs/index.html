@@ -23,6 +23,8 @@
   header.page p { margin:0; color:var(--ink-2); font-size:15px; }
   .stamp { color:var(--muted); font-size:13px; margin-top:10px; }
   .stamp b { color:var(--ink-2); font-weight:600; }
+  .repo-link { color:#4c9aef; text-decoration:none; font-weight:600; white-space:nowrap; }
+  .repo-link:hover { text-decoration:underline; }
 
   .card { background:var(--surface); border:1px solid var(--border);
     border-radius:var(--radius); padding:20px 22px; }
@@ -185,7 +187,7 @@
   <header class="page">
     <h1>📊 Social Media Posts Dashboard</h1>
     <p>Every bill update the bot has posted, across all platforms — filter it any way you like.</p>
-    <div class="stamp">Data last built: <b id="gen">…</b></div>
+    <div class="stamp">Data last built: <b id="gen">…</b> · <a class="repo-link" href="https://github.com/frankies2727/CHN-SocialMedia-Govbot-Main" target="_blank" rel="noopener">⧉ View the source on GitHub</a></div>
   </header>
 
   <div id="error">Couldn't load <code>data.json</code>. If you're opening this file
