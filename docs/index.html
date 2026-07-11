@@ -364,9 +364,13 @@ function renderKPIs(recs){
         sts=new Set(recs.map(r=>r.state)), bills=new Set(recs.map(r=>r.state+"|"+r.bill));
   const dates=recs.map(r=>r.date).sort();
   const range=dates.length? `${dates[0]} → ${dates[dates.length-1]}` : "—";
+  // Repo platforms (Threads / X / Instagram) plus Bluesky, which is live and
+  // isn't stored in the repo data but is still a platform the bot posts to.
+  const platNames=[...plats].sort((a,b)=>platformRank(a)-platformRank(b)).map(niceName);
+  if((DATA.bluesky||[]).length) platNames.push("Bluesky");
   const items=[
-    {label:"Total posts", value:fmt(recs.length), hero:true, note:"across all platforms"},
-    {label:"Platforms", value:plats.size, note:[...plats].map(k=>P[k].name).join(" · ")||"—"},
+    {label:"Total posts", value:fmt(recs.length), hero:true, note:"on Meta Threads · X · Instagram"},
+    {label:"Platforms", value:platNames.length, note:platNames.join(" · ")},
     {label:"Topics", value:tops.size, note:"subject areas"},
     {label:"States", value:sts.size, note:"legislatures"},
     {label:"Unique bills", value:fmt(bills.size), note:"distinct bills"},
@@ -403,6 +407,7 @@ function platformShort(key){
   if(k.includes("instagram")) return "Instagram";
   return (P[key]&&P[key].name)||key;
 }
+function niceName(key){ const s=platformShort(key); return s==="Threads"?"Meta Threads":s; }
 function feedCardHTML(r){
   const t=T[r.topic]||{name:r.topic,emoji:"📄",color:"#888"};
   const head=`<div class="fhead">`+

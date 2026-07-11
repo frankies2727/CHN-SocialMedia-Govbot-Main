@@ -415,18 +415,32 @@ def _publish_container(creation_id: str) -> str | None:
 
 
 def _ig_permalink(media_id: str) -> str:
-    """Best-effort public URL for a published Instagram post. Returns "" on any
-    failure — never raises, so it can't disrupt a post that already went out."""
-    try:
-        resp = requests.get(
-            f"{IG_API}/{media_id}",
-            params={"fields": "permalink", "access_token": INSTAGRAM_ACCESS_TOKEN},
-            timeout=8,  # small cap: this is a nice-to-have, never worth stalling a run
-        )
-        resp.raise_for_status()
-        return resp.json().get("permalink", "") or ""
-    except Exception:
-        return ""
+    """Best-effort public URL for a published Instagram post. A freshly
+    published media can be briefly un-queryable, so retry a couple of times with
+    a short delay. Returns "" on failure — never raises, so it can't disrupt a
+    post that already went out. Logs the reason on final failure so a genuine
+    permission/scope problem is visible in the run log rather than silent."""
+    err = ""
+    for attempt in range(3):
+        if attempt:
+            time.sleep(3)
+        try:
+            resp = requests.get(
+                f"{IG_API}/{media_id}",
+                params={"fields": "permalink", "access_token": INSTAGRAM_ACCESS_TOKEN},
+                timeout=8,  # small cap: a nice-to-have, never worth stalling a run
+            )
+            resp.raise_for_status()
+            link = (resp.json().get("permalink") or "").strip()
+            if link:
+                return link
+            err = "response had no 'permalink' field"
+        except Exception as e:
+            resp = getattr(e, "response", None)
+            err = (resp.text[:160] if resp is not None else str(e)[:160])
+    print(f"  IG permalink lookup failed ({err}) — 'Open on Instagram' link "
+          f"will be missing for this post.", file=sys.stderr)
+    return ""
 
 
 def post_to_instagram(image_url: str, caption: str, record: dict | None = None) -> bool:
