@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HD6187",
+    "legislative_session": "194th",
+    "title": "A communication from the Executive Office of Labor and Workforce Development (see item 7003-0500 of Section 2 of Chapter 9 of the Acts of 2025) submitting the Department of Industrial Accidents Workplace Safety Training Grant Program annual report for fiscal year 2025"
+  },
+  "id": "HD6187",
+  "log": {
+    "action": {
+      "description": "Placed on file",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-15",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/HD6187"
+        }
+      ]
+    },
+    "bill_id": "HD6187"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/HD6187/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/HD6187/logs/20260615T000000Z_placed_on_file.json"
+  },
+  "timestamp": "20260615T000000Z"
+}

@@ -1,0 +1,46 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the Protecting Our Kids from Social Media Addiction Act, prohibits an operator of an addictive internet-based service or application from providing an addictive feed, as defined, to a user unless the operator does not have actual knowledge that the user is a minor, as specified, or the operator has obtained verifiable parental consent to provide an addictive feed to the user who is a minor.\n\nExisting law, the Digital Age Assurance Act, beginning January 1, 2027, requires a person who owns, maintains, or controls a software application, as defined, to request age bracket data sent by a real-time secure application programming interface or operating system with respect to a particular user from an operating system provider or a covered application store when the application is downloaded and launched.\n\nThis bill would prohibit a covered platform, as defined, from providing an addictive feature, as defined, to a user who is under 16 years of age and would require a covered platform to implement reasonable measures to ensure that users under 16 years of age are not offered or provided any addictive feature on the covered platform. The bill would also authorize the Attorney General to, in consultation with the e-Safety Advisory Commission, adopt regulations to implement and enforce the bill in order to further the purpose of protecting minors online, including by altering the scope of \"covered platform\" if the Attorney General determines that doing so is necessary to ensure that \"covered platform\" applies to internet websites, online services, online applications, or mobile applications that make addictive features, as defined, available to users under 16 years of age.\n\nThis bill would impose a civil penalty upon a noncompliant platform and would require its provisions to be enforced by a civil action brought only by the Attorney General or a local public prosecutor, as specified.\n\nThis bill would also establish the e-Safety Advisory Commission within the Department of Justice to advise the Attorney General on matters related to online safety, including the implementation and enforcement of the provisions described above, and would require the commission to, on or before January 1 of each year, report to the Legislature and the Governor on its activities under the bill, as specified.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1709",
+    "legislative_session": "20252026",
+    "subject": [
+      "Coveredplatforms",
+      "agerestriction",
+      "e-SafetyAdvisoryCommission"
+    ],
+    "title": "Covered platforms: age restriction: e-Safety Advisory Commission."
+  },
+  "id": "AB1709",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-introduction",
+        "amendment-passage",
+        "committee-passage",
+        "referral-committee"
+      ],
+      "description": "From committee: Amend, and do pass as amended and re-refer to Com. on APPR. (Ayes 13. Noes 0.) (June 30).",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-09",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1709"
+        }
+      ]
+    },
+    "bill_id": "AB1709"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1709/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1709/logs/20260709T000000Z_from_committee_amend_and_do_pass_as_amended_and_rerefer_to_com_on_appr_ayes_13_noes_0_june_30.json"
+  },
+  "timestamp": "20260709T000000Z"
+}

@@ -31,6 +31,8 @@
     "CA|SB135|2026-06-29|Withdrawn from committee pursuant to Ass",
     "CA|SB171|2026-06-30|Enrolled and presented to the Governor a",
     "DE|HB 344|2026-06-30|Reported Out of Committee (Finance) in S",
+    "DE|HB 368|2026-06-24",
+    "DE|HB 368|2026-06-24|Reported Out of Committee (Judiciary) in",
     "DE|HB 462|2026-06-25|Reported Out of Committee (Finance) in S",
     "DE|SB 116|2026-06-30|",
     "DE|SB 116|2026-06-30|Amendment HA 1 to SS 1 - Passed In House",
@@ -67,6 +69,8 @@
     "FL|SB 2D|2026-04-29|Died in Information Technology Budget & ",
     "FL|SB 4F|2026-06-24|Approved by Governor",
     "GA|HB 1020|2026-07-01|Effective Date",
+    "GA|HB 1272|2026-07-01",
+    "GA|HB 1272|2026-07-01|Effective Date",
     "GA|HB 90|2027-01-01|Effective Date",
     "GA|HR 43|2026-06-22|House Read and Adopted",
     "GA|SB 160|2028-07-01|Effective Date",
@@ -97,10 +101,16 @@
     "MO|SB 999|2026-05-28|Reported Duly Enrolled Rules, Joint Rule",
     "MO|SB 999|2026-05-28|Signed by House Speaker",
     "MO|SB 999|2026-05-28|Signed by Senate President Pro Tem",
+    "NH|SB490|2026-06-23",
+    "NH|SB490|2026-06-23|Enrolled (in recess of) 06/04/2026  HJ 1",
+    "NH|SB490|2026-06-23|Enrolled Adopted, VV, (In recess 06/04/2",
     "NH|SB500|2026-05-28|Enrolled (in recess of) 05/21/2026  HJ 1",
     "NH|SB500|2026-05-28|Enrolled Adopted, VV, (In recess 05/21/2",
     "NH|SB500|2026-06-22|Signed by the Governor on 06/12/2026; Ch",
     "NH|SB607|2026-06-24|Signed by the Governor on 06/19/2026; Ch",
+    "NH|SB667|2026-06-23",
+    "NH|SB667|2026-06-23|Enrolled (in recess of) 06/04/2026  HJ 1",
+    "NH|SB667|2026-06-23|Enrolled Adopted, VV, (In recess 06/04/2",
     "PR|PS0934|2026-06-15|Comisi\u00f3n no recomienda aprobaci\u00f3n de la ",
     "PR|RC0537|2026-06-29",
     "PR|RC0537|2026-06-29|Aprobada por C\u00e1mara por unanimidad",
@@ -129,7 +139,8 @@
     "28593260569-1": 4,
     "28663360279-1": 4,
     "28706690567-1": 4,
-    "29096395078-1": 4
+    "29096395078-1": 4,
+    "29152932903-1": 4
   },
-  "last_run": "2026-07-10T13:52:52.001799+00:00"
+  "last_run": "2026-07-11T12:54:11.256415+00:00"
 }

@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative O'Day of West Boylston and Senator Moore, a joint petition (accompanied by bill, House, No. 3929) of James J. O'Day and Michael O. Moore (with the approval of the city council) relative to the maximum age requirement for original appointment as a police officer for the city of Worcester.  Public Service.  [Local Approval Received.]",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H3929",
+    "legislative_session": "194th",
+    "title": "An Act relative to the maximum age requirement for original appointment as a police officer for the city of Worcester"
+  },
+  "id": "H3929",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by the Governor, Chapter 118 of the Acts of 2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-06-30",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/H3929"
+        }
+      ]
+    },
+    "bill_id": "H3929"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H3929/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H3929/logs/20260630T000000Z_signed_by_the_governor_chapter_118_of_the_acts_of_2026.json"
+  },
+  "timestamp": "20260630T000000Z"
+}

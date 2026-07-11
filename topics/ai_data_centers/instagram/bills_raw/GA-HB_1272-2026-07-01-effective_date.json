@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Title 7 of the Official Code of Georgia Annotated, relating to banking and finance, so as to provide for use of certain terms in the advertisement and place of business of licensed payment stablecoin issuers; to provide for licensing of payment stablecoin issuers; to provide for third-party examination or investigation; to provide for payment of certain fees and costs of examination and investigation; to provide for suspension or revocation of a license and procedures therefor; to provide for cease and desist orders; to provide for removal of certain officers and members; to provide for a short title; to provide for legislative purpose and intent; to provide for definitions; to provide for related matters; to provide for an effective date and applicability; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1272",
+    "legislative_session": "2025_26",
+    "subject": [
+      "BANKING AND FINANCE"
+    ],
+    "title": "Banking and finance; licensing of payment stablecoin issuers; provisions"
+  },
+  "id": "HB 1272",
+  "log": {
+    "action": {
+      "date": "2026-07-01",
+      "description": "Effective Date",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "HB 1272"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1272/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/HB1272/logs/20260701T000000Z_effective_date.json"
+  },
+  "timestamp": "20260701T000000Z",
+  "posted_text": "🪙 GA HB 1272 — Georgia Licenses Payment Stablecoins; Sets Fee Standards\n\nThis bill establishes a licensing framework for payment stablecoin issuers in Georgia, requiring them to use specific terms in advertising and at their businesses.\n\nJuly 1, 2026: Effective Date.\n\n🔗 Read the full bill: https://www.legis.ga.gov/Legislation/en-US/display/20252026/HB/1272\n\n#AIDataCentersCrypto #Georgia #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.legis.ga.gov/Legislation/en-US/display/20252026/HB/1272"
+}

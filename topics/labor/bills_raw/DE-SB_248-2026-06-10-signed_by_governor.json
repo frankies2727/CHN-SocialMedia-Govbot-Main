@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act makes updates to the Delaware workplace safety program to increase the workers’ compensation insurance credit that businesses can access while maintaining overall program stability. Past legislation that adjusted Workplace Safety Program parameters led to the filing of a new Experience Rating Plan by Delaware Compensation Rating Bureau, which inadvertently resulted in lower discounts. Most businesses with lower-than-average claim costs, regardless of size, continue to see reductions in their experience modification factors. The Workplace Safety Program credit and the experience modification factor savings result in a similar savings as before for employers with favorable loss history. However, this was not the intention of prior law. This Act ensures that companies can reach maximum premium savings of 12%.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 248",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 19 OF THE DELAWARE CODE RELATING TO WORKPLACE SAFETY PROGRAM."
+  },
+  "id": "SB 248",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-06-10",
+      "description": "Signed by Governor",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "SB 248"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB248/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB248/logs/20260610T000000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260610T000000Z"
+}

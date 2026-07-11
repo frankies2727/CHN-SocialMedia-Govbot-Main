@@ -1,0 +1,47 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act clarifies that Delaware’s Fair Housing Act (Chapter 46 of Title 6) prohibits housing practices that have a discriminatory effect, commonly known as “disparate impact,” even in the absence of discriminatory intent. \r\nThe Act codifies a burden-shifting framework consistent with federal fair housing jurisprudence and regulations and with laws adopted in other states, including California and Massachusetts. Under this framework: \r\n1. A complainant must show that a housing policy or practice causes or predictably will cause a discriminatory effect on a protected class. \r\n2. A respondent may defend the practice by demonstrating that it is necessary to achieve a substantial, legitimate, nondiscriminatory interest. \r\n3. A complainant may still prevail by showing that the interest could be served by a less discriminatory alternative. \r\nThe Act applies to rental policies, sales practices, lending and appraisal practices, occupancy standards, criminal history screening, and zoning or land use decisions to the extent permitted by law. It clarifies that statistical evidence may be used to establish disparate impact and that proof of discriminatory intent is not required. \r\nThe Act aligns enforcement with existing remedies and procedures under Chapter 46 of Title 6 and preserves the authority of the Division of Human and Civil Rights under Title 31. It does not require quotas, does not invalidate lawful occupancy limits, and does not impose liability where a practice is required by federal law. \r\nThis Act is intended to be interpreted consistently with, but not limited by, the federal Fair Housing Act and provides equal or greater protection under Delaware law.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 451",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 6 OF THE DELAWARE CODE RELATING TO FAIR HOUSING AND DISPARATE IMPACT LIABILITY."
+  },
+  "id": "HB 451",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage",
+        "committee-passage-favorable",
+        "committee-passage-unfavorable"
+      ],
+      "description": "Reported Out of Committee (Housing & Land Use) in Senate with 1 Favorable, 2 On Its Merits, 2 Unfavorable",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-24",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Housing & Land Use"
+        }
+      ],
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143418"
+        }
+      ]
+    },
+    "bill_id": "HB 451"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB451/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB451/logs/20260624T000000Z_reported_out_of_committee_housing_land_use_in_senate_with_1_favorable_2_on_its_merits_2_unfavorable.json"
+  },
+  "timestamp": "20260624T000000Z"
+}
