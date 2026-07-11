@@ -1,0 +1,53 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "The California Voting Rights Act of 2001 (CVRA) prohibits a political subdivision from imposing or applying an at-large method of election for members of the political subdivision's governing body in a manner that impairs the ability of a protected class to elect candidates of its choice or its ability to influence the outcome of an election, as specified. Existing law requires courts to implement appropriate remedies, including the imposition of district-based elections, for violations of the CVRA.\n\nThis bill, the California Voting Rights Act of 2026, would repeal and replace the CVRA. The bill would prohibit a political subdivision or state agency from implementing, imposing, or enforcing any election policy or practice, as defined, that results in, or is likely to result in, voter suppression. An election policy or practice would result in voter suppression if it (1) causes a material disparity in voter participation, access to voting opportunities, or the opportunity or ability to participate in the political process for members of a protected class, which is defined as any race, color, or language-minority group; or (2) based on the totality of circumstances, causes an impairment of the equal opportunity or ability of members of a protected class to participate in the political process. An election policy or practice would not violate the prohibition on voter suppression if the political subdivision or state agency demonstrates, by clear and convincing evidence, that the election policy or practice is necessary to significantly further a compelling and particularized governmental interest and there is no reasonable alternative that comparably furthers the governmental interest and results in a smaller disparity between members of a protected class and other members of the electorate.\n\nThe bill would also prohibit a political subdivision from employing any method of election, as defined, that has the effect, or will likely have the effect, of diluting the vote of protected class members. Vote dilution would be established if there is an impairment of the equal opportunity or ability of protected class members to nominate or elect candidates of their choice, as provided, and another method of election or a change to the existing method of election would likely mitigate the impairment.\n\nThe bill sets forth various factors that courts could, and could not, consider when evaluating whether voter suppression or vote dilution exists within a political subdivision. The Attorney General, or any individual or entity aggrieved by a violation of the prohibitions on voter suppression and vote dilution, would have standing to bring an action, and those actions would be subject to expedited pretrial, trial, and appellate proceedings.\n\nThe bill would require a potential plaintiff, before filing an action alleging voter suppression or vote dilution, to send a notice letter to the political subdivision identifying the potential violation and how the party's proposed remedy would address it. For allegations of voter suppression, the bill would permit the potential plaintiff to file an action if the political subdivision has not enacted a remedy within 45 days of receipt of the notice letter or if the political subdivision's remedy would not redress the alleged violation. For allegations that a political subdivision's method of election results in vote dilution, the bill would permit the potential plaintiff to file an action if the political subdivision has not, within 45 days, passed a resolution outlining its intention to make changes to its method of election or sought approval from a court to implement a different, appropriate remedy.\n\nNotwithstanding the 45-day notice requirement, the bill would authorize a potential plaintiff to file an action against a political subdivision at any time if the action is for a preliminary injunction with respect to an upcoming election, another party has already submitted a notice letter alleging a substantially similar violation and over 45 days have passed, or the prospect of obtaining relief would otherwise be futile. If the political subdivision provides some or all of the relief sought in a potential plaintiff's notice letter, the bill would authorize the potential plaintiff to recover their costs, which would be capped at $25,000 for attorneys' fees and associated costs and $50,000 for external expenses subject to an annual inflation adjustment.\n\nThe bill would prohibit any political subdivision from enacting or administering any covered practice without obtaining preapproval from the Attorney General, if the political subdivision, within the previous 10 years, has entered into a settlement agreement admitting liability for a violation of, or been found by a court to have violated, this bill, the federal Voting Rights Act of 1965, the federal Civil Rights Act of 1964 concerning the right to vote of protected class members, the First, Fourteenth, or Fifteenth Amendments to the United States Constitution concerning the right to vote for protected class members, or any other state or federal law concerning the right to vote for protected class members. Under the bill, covered practices would include new or modified methods of election, annexations and deannexations, or reductions in language assistance. The bill would authorize the Attorney General to grant preapproval to a political subdivision only if the covered practice will not diminish the equal opportunity or ability of members of the protected class to participate in the political process or elect candidates of choice and the covered practice is unlikely to violate the provisions of the bill.\n\nThe bill would require any law, regulation, charter, ordinance, or other enactment of the state or any political subdivision relating to voting to be construed liberally in favor of the right to vote.\n\nExisting law generally prohibits using a voting system unless it has been certified or conditionally approved by the Secretary of State before any election at which it is to be used.\n\nThis bill would require the Secretary of State to examine, test, and certify or conditionally approve a voting system for use in an election conducted using a method of election adopted to remedy a violation of the California Voting Rights Act of 2026, as provided.\n\nExisting law requires the adoption of new election district boundaries for a legislative body that is elected using district-based elections following each federal decennial census.\n\nThis bill would require a districting body responsible for the adoption of new election district boundaries to comply with the requirements of this bill when adopting new boundaries following the decennial census.\n\nBy increasing the duties of local elections officials, the bill would create a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1164",
+    "legislative_session": "20252026",
+    "subject": [
+      "Elections"
+    ],
+    "title": "Elections."
+  },
+  "id": "SB1164",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "reading-1",
+        "reading-2",
+        "referral-committee"
+      ],
+      "description": "Read second time and amended. Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-02",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1164"
+        }
+      ]
+    },
+    "bill_id": "SB1164"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1164/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1164/logs/20260702T000000Z_read_second_time_and_amended_rereferred_to_com_on_appr.json"
+  },
+  "timestamp": "20260702T000000Z",
+  "posted_text": "⚖️ Elections & Voting Rights\nCA SB1164 — Elections.\n\nThis bill prevents California political subdivisions from using election methods that could unfairly limit the ability of racial, ethnic, or language-minority groups to participate in the political process, requiring agencies to demonstrate a compelling interest if they seek to implement such practices.\n\nJuly 2, 2026: Read second time and amended. Re-referred to Com. on APPR.",
+  "posted_link": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1164",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DaqdFWolk5R"
+}
