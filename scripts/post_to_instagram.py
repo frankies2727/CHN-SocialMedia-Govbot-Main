@@ -421,7 +421,7 @@ def _ig_permalink(media_id: str) -> str:
         resp = requests.get(
             f"{IG_API}/{media_id}",
             params={"fields": "permalink", "access_token": INSTAGRAM_ACCESS_TOKEN},
-            timeout=IG_TIMEOUT,
+            timeout=8,  # small cap: this is a nice-to-have, never worth stalling a run
         )
         resp.raise_for_status()
         return resp.json().get("permalink", "") or ""

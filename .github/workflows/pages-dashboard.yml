@@ -1,9 +1,28 @@
 name: pages-dashboard
 
 # Rebuilds docs/data.json from the latest post history and publishes the
-# dark-mode dashboard to GitHub Pages. Runs whenever new posts are committed,
-# when the dashboard files change, once a day as a safety net, and on demand.
+# dark-mode dashboard to GitHub Pages.
+#
+# The posting workflows commit their new posts with "[skip ci]", which skips
+# every workflow — so a plain push trigger would never see new posts. Instead we
+# trigger on each posting workflow COMPLETING (workflow_run ignores [skip ci]),
+# which makes the dashboard refresh within a couple of minutes of any new post.
+# The push/schedule/manual triggers remain as backstops.
 on:
+  workflow_run:
+    workflows:
+      - govbot-meta-threads-post
+      - govbot-x-post-ai-data-centers-including-crypto
+      - govbot-instagram-post
+      - govbot-bluesky-post
+      - govbot-state-extravaganza
+      - govbot-meta-threads-weekly-digest
+      - govbot-x-weekly-digest
+      - govbot-instagram-weekly-digest
+      - govbot-bluesky-weekly-digest
+      - govbot-x-post-specific-bill
+      - govbot-bluesky-post-specific-bill
+    types: [completed]
   push:
     branches: [main]
     paths:
@@ -37,6 +56,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          # Always build from the tip of main. On a workflow_run trigger the
+          # event SHA is the poster's pre-post commit, but the new post is a
+          # later "[skip ci]" commit on main — so pin the ref to get it.
+          ref: main
           # Full history so build_dashboard.py can read each post's commit date
           # (used to order the feed by the day it was actually posted).
           fetch-depth: 0
