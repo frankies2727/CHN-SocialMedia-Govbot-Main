@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB667",
+    "legislative_session": "2026",
+    "title": "relative to the assault of emergency room personnel."
+  },
+  "id": "SB667",
+  "log": {
+    "action": {
+      "classifications": [
+        "enrolled"
+      ],
+      "description": "Enrolled Adopted, VV, (In recess 06/04/2026);  SJ 14",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-23",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=2478&inflect=2"
+        }
+      ]
+    },
+    "bill_id": "SB667"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB667/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB667/logs/20260623T000000Z_enrolled_adopted_vv_in_recess_06042026_sj_14.json"
+  },
+  "timestamp": "20260623T000000Z",
+  "posted_text": "🚑 NH SB667 — relative to the assault of emergency room personnel.\n\nJune 23, 2026: Enrolled Adopted, VV, (In recess 06/04/2026);  SJ 14.\n\n🔗 Read the full bill: https://gc.nh.gov/bill_status/results.aspx?adv=2&txtbillno=SB667&txtsessionyear=2026\n\n#Healthcare #NewHampshire #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://gc.nh.gov/bill_status/results.aspx?adv=2&txtbillno=SB667&txtsessionyear=2026"
+}
