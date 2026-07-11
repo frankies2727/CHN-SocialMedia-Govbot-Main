@@ -1,0 +1,53 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law provides that reproductive health care services, gender-affirming health care services, and gender-affirming mental health care services are rights secured by the Constitution and laws of California, and interference with these rights, whether or not under the color of law, is against the public policy of California. Existing law defines \"gender-affirming health care services\" to mean medically necessary health care that respects the gender identity of the patient, as experienced and defined by the patient, as specified.\n\nExisting law provides for various protective measures for persons engaging in legally protected health care activity, including prohibiting a provider of health care, health care service plan, health insurer, or contractor from releasing medical information related to, among other things, an individual seeking or obtaining gender-affirming health care or gender-affirming mental health care, and prohibiting a state or local public agency, or any employee thereof acting in their official capacity, from cooperating with or providing information to an individual or agency from another state or a federal law enforcement agency, as specified, regarding a legally protected health care activity that is lawful in this state and performed in this state. Existing law defines \"legally protected health care activity\" for those purposes to include, among other things, the exercise and enjoyment, or attempted exercise and enjoyment, by a person of rights to the health care services described above and the provision of those health care services by a person duly licensed under the laws of California.\n\nThis bill would prohibit a person or entity that is located, headquartered, incorporated, or otherwise conducting business in California and receives, is served with, or is subject to a civil, criminal, or regulatory investigation, subpoena, or summons for information regarding abortion, as defined, or gender-affirming health care services that are legally protected health care activities secured by the Constitution or laws of California from complying with or providing information in response to the investigation, subpoena, or summons unless ordered by a court of competent jurisdiction or specified conditions are met, including that the investigation, subpoena, or summons contains or is accompanied by an affidavit under penalty of perjury attesting certain information, including that the investigation, subpoena, or summons is related to an investigation or proceeding regarding activity that is unlawful under California civil or criminal law, and it identifies the California law under which the activity is unlawful, except as specified.\n\n The bill would authorize the Attorney General to intervene in any civil action instituted by a person or entity to protect against compliance with the investigation, subpoena, or summons. The bill would authorize the Attorney General to commence certain actions, including a civil action against any person or entity that submits a false affidavit described above, and would make the submission of a false affidavit by a person or entity punishable by a civil penalty of $15,000, as specified. The bill would require any action brought by the Attorney General to be commenced within 6 years of the date on which the Attorney General received the notice of the investigation, subpoena, or summons at issue, and would require the court to award court costs and attorney's fees to the Attorney General in any civil action in which the court imposes any penalty authorized by the bill's provisions.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1930",
+    "legislative_session": "20252026",
+    "subject": [
+      "Abortionorgender-affirminghealthcareservices",
+      "investigations,subpoenas,orsummons"
+    ],
+    "title": "Abortion or gender-affirming health care services: investigations, subpoenas, or summons."
+  },
+  "id": "AB1930",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "reading-1",
+        "reading-2",
+        "referral-committee"
+      ],
+      "description": "Read second time and amended. Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-02",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1930"
+        }
+      ]
+    },
+    "bill_id": "AB1930"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1930/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1930/logs/20260702T000000Z_read_second_time_and_amended_rereferred_to_com_on_appr.json"
+  },
+  "timestamp": "20260702T000000Z",
+  "posted_text": "🩺 CA AB1930 — Abortion or gender-affirming health care services: investigations, subpoenas, or summons.\n\nThis bill shields California residents accessing abortion or gender-affirming care from out-of-state investigations and legal actions by state or local agencies, protecting patient privacy and safeguarding lawful healthcare practices.\n\nJuly 2, 2026: Read second time and amended. Re-referred to Com. on APPR.\n\n🔗 Read the full bill: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1930\n\n#ReproductiveRights #California #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1930"
+}
