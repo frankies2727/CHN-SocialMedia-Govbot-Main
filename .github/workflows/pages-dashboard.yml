@@ -36,6 +36,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history so build_dashboard.py can read each post's commit date
+          # (used to order the feed by the day it was actually posted).
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:

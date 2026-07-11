@@ -39,9 +39,10 @@ request).
 
 ## Meta Threads · X · Instagram posts
 
-These platforms don't offer a public feed API, so each has its own section built
-from the bill records the bot saves in that platform's `bills_raw/` folder, newest
-first and filtered by the same controls.
+These platforms don't offer a public feed API, so each has its own colour-accented,
+scrollable section built from the bill records the bot saves in that platform's
+`bills_raw/` folder. Posts are ordered by the **day they were actually posted**
+(from each file's commit date), newest first, and filtered by the same controls.
 
 The posting scripts now save each post **exactly as it was published** — the real
 headline, the "Read the full bill" link, and a link to the live post — so posts
