@@ -18,15 +18,18 @@ platform:
 
 ## Filtering
 
-The summary numbers and all the post sections update live as you filter by:
+Each platform section has **its own** filter bar (so filtering one section leaves
+the others alone):
 
-- **Topic** — pick one of the subject areas.
+- **Topic** — pick one of the subject areas (hidden when the section only has one).
 - **State** — narrow to a single legislature.
-- **Date range** — set a start and/or end date.
-- **⬇ CSV** — download the filtered posts as a spreadsheet.
+- **Date** — set a start and/or end post day.
+- **⬇ CSV** — download that section's filtered posts as a spreadsheet.
+- **Reset** — clear that section's filters.
 
-Platforms are detected automatically from the repo, so any platform the bot
-starts posting to shows up as its own section — no edits needed.
+The Bluesky section has its own controls too: the account list on the left and a
+state/bill-code search box. Platforms are detected automatically from the repo, so
+any platform the bot starts posting to shows up as its own section — no edits needed.
 
 ## Bluesky feeds (live, exactly as posted)
 

@@ -140,6 +140,13 @@
     border-radius:50%; animation:spin .7s linear infinite; vertical-align:-2px; margin-right:7px; }
   @keyframes spin { to { transform:rotate(360deg); } }
 
+  /* ---- per-section filter bar ---- */
+  .sfilters { display:flex; flex-wrap:wrap; gap:10px 14px; align-items:flex-end; margin-bottom:16px; }
+  .sfgroup { display:flex; flex-direction:column; gap:6px; }
+  .sflabel { color:var(--muted); font-size:11px; text-transform:uppercase; letter-spacing:0.05em; }
+  .sfilters .inp { min-width:130px; }
+  .scount { color:var(--muted); font-size:12.5px; margin-left:auto; align-self:center; font-variant-numeric:tabular-nums; }
+
   /* ---- post feed ---- */
   .feed { display:flex; flex-direction:column; gap:12px; max-height:600px; overflow-y:auto; padding-right:6px; }
   .feed::-webkit-scrollbar, .bsky-feed::-webkit-scrollbar, .bsky-accts::-webkit-scrollbar { width:10px; }
@@ -185,41 +192,9 @@
     directly from your computer, view it through GitHub Pages instead — that's where it's designed to run.</div>
 
   <div id="app" hidden>
-    <!-- FILTER BAR -->
-    <div class="filterbar">
-      <div class="card">
-        <div class="frow">
-          <div class="fgroup">
-            <span class="flabel">Topic</span>
-            <select class="inp" id="f-topic"></select>
-          </div>
-          <div class="fgroup">
-            <span class="flabel">State</span>
-            <select class="inp" id="f-state"></select>
-          </div>
-          <div class="fgroup">
-            <span class="flabel">Date range</span>
-            <div class="dates">
-              <input class="inp" type="date" id="f-from" />
-              <span>to</span>
-              <input class="inp" type="date" id="f-to" />
-            </div>
-          </div>
-          <div class="fgroup">
-            <span class="flabel">&nbsp;</span>
-            <div class="dates">
-              <button class="btn" id="f-reset">Reset</button>
-              <button class="btn" id="f-csv">⬇ CSV</button>
-            </div>
-          </div>
-        </div>
-        <div class="fmeta" id="f-meta"></div>
-      </div>
-    </div>
-
     <div class="grid kpis" id="kpis"></div>
 
-    <section class="card" style="margin-bottom:16px;border-top:3px solid #4c9aef;background:linear-gradient(180deg, rgba(76,154,239,0.09), rgba(76,154,239,0.02) 260px, transparent 480px), var(--surface)">
+    <section class="card" style="margin-bottom:16px;border:2px solid #4c9aef;background:linear-gradient(0deg, rgba(76,154,239,0.05), rgba(76,154,239,0.05)), var(--surface)">
       <h2><span style="display:inline-block;width:11px;height:11px;border-radius:3px;background:#4c9aef;margin-right:9px;vertical-align:middle"></span>Bluesky feeds <span class="sub">— live, exactly as posted</span></h2>
       <div class="bsky">
         <aside class="bsky-side">
@@ -263,7 +238,6 @@ const FEED_CAP = 150;   // sections scroll, so show plenty per platform
 const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 function fmtDate(iso){ const p=(iso||"").split("-").map(Number); if(!p[0]) return iso||""; return `${MONTHS[p[1]-1]} ${p[2]}, ${p[0]}`; }
 let DATA=null, P={}, T={};      // platform + topic lookup maps
-const state = { topic:"all", stateCode:"all", from:"", to:"" };
 
 fetch("data.json",{cache:"no-store"})
   .then(r=>{ if(!r.ok) throw 0; return r.json(); })
@@ -274,7 +248,6 @@ function init(d){
   d.platforms.forEach(p=>P[p.key]=p);
   d.topics.forEach(t=>T[t.key]=t);
 
-  buildFilterUI(d);
   apply();
   setupBluesky(d);
 }
@@ -381,61 +354,9 @@ function renderBsky(){
   });
 }
 
-/* ---------- filter UI ---------- */
-function buildFilterUI(d){
-  // topic select
-  const ts = $("#f-topic");
-  ts.appendChild(el("option",{value:"all"},"All topics"));
-  d.topics.slice().sort((a,b)=>a.name.localeCompare(b.name)).forEach(t=>
-    ts.appendChild(el("option",{value:t.key},`${t.emoji} ${t.name}`)));
-  ts.addEventListener("change",()=>{ state.topic=ts.value; apply(); });
-
-  // state select (built from records)
-  const codes=[...new Set(DATA.records.map(r=>r.state))].sort();
-  const ss=$("#f-state");
-  ss.appendChild(el("option",{value:"all"},"All states"));
-  codes.forEach(c=>ss.appendChild(el("option",{value:c},c)));
-  ss.addEventListener("change",()=>{ state.stateCode=ss.value; apply(); });
-
-  // dates
-  const dates=DATA.records.map(r=>r.date).sort();
-  $("#f-from").min=$("#f-to").min=dates[0]; $("#f-from").max=$("#f-to").max=dates[dates.length-1];
-  $("#f-from").addEventListener("change",e=>{ state.from=e.target.value; apply(); });
-  $("#f-to").addEventListener("change",e=>{ state.to=e.target.value; apply(); });
-
-  $("#f-reset").addEventListener("click",resetFilters);
-  $("#f-csv").addEventListener("click",downloadCSV);
-}
-function resetFilters(){
-  state.topic="all"; state.stateCode="all"; state.from=""; state.to="";
-  $("#f-topic").value="all"; $("#f-state").value="all"; $("#f-from").value=""; $("#f-to").value="";
-  apply();
-}
-
-/* ---------- filtering (topic / state / date apply everywhere) ---------- */
-function matches(r){
-  return (state.topic==="all" || r.topic===state.topic) &&
-    (state.stateCode==="all" || r.state===state.stateCode) &&
-    (!state.from || r.date>=state.from) &&
-    (!state.to   || r.date<=state.to);
-}
-function filtered(){ return DATA.records.filter(matches); }
-
 function apply(){
-  const recs=filtered();
-  renderMeta(recs);
-  renderKPIs(recs);
-  renderPlatformFeeds();
-}
-
-function renderMeta(recs){
-  const total=DATA.records.length;
-  const active=[];
-  if(state.topic!=="all") active.push(T[state.topic]?.name);
-  if(state.stateCode!=="all") active.push(state.stateCode);
-  if(state.from||state.to) active.push(`${state.from||"start"} → ${state.to||"now"}`);
-  $("#f-meta").innerHTML = `Showing <b>${fmt(recs.length)}</b> of ${fmt(total)} posts` +
-    (active.length? ` · filtered by ${active.filter(Boolean).map(esc).join(" · ")}` : ` · no filters`);
+  renderKPIs(DATA.records);        // KPIs are an overall summary (no global filter)
+  renderPlatformFeeds();           // each section brings its own filters
 }
 
 function renderKPIs(recs){
@@ -444,7 +365,7 @@ function renderKPIs(recs){
   const dates=recs.map(r=>r.date).sort();
   const range=dates.length? `${dates[0]} → ${dates[dates.length-1]}` : "—";
   const items=[
-    {label:"Posts shown", value:fmt(recs.length), hero:true, note:"in current view"},
+    {label:"Total posts", value:fmt(recs.length), hero:true, note:"across all platforms"},
     {label:"Platforms", value:plats.size, note:[...plats].map(k=>P[k].name).join(" · ")||"—"},
     {label:"Topics", value:tops.size, note:"subject areas"},
     {label:"States", value:sts.size, note:"legislatures"},
@@ -504,40 +425,89 @@ function feedCardHTML(r){
     (r.summary?`<div class="fsum">${esc(r.summary)}</div>`:"")+
     (r.action?`<div class="faction"><span class="cal">📅</span><span><span class="adate">${esc(fmtDate(r.date))}:</span> ${esc(r.action)}</span></div>`:"");
 }
+function fgrp(label, ctrl){
+  const g=el("div",{class:"sfgroup"});
+  g.appendChild(el("span",{class:"sflabel"},label));
+  g.appendChild(ctrl);
+  return g;
+}
 function renderPlatformFeeds(){
   const host=$("#platform-feeds"); host.innerHTML="";
-  const byPlat=new Map();
-  (DATA.feed||[]).filter(matches).forEach(r=>{ (byPlat.get(r.platform)||byPlat.set(r.platform,[]).get(r.platform)).push(r); });
   const plats=DATA.platforms.slice().sort((a,b)=>platformRank(a.key)-platformRank(b.key)||a.name.localeCompare(b.name));
-  plats.forEach(p=>{
-    const items=byPlat.get(p.key)||[];
-    const sec=el("section",{class:"card",
-      style:`margin-bottom:16px;border-top:3px solid ${p.color};`+
-            `background:linear-gradient(180deg, ${tint(p.color,0.08)}, ${tint(p.color,0.02)} 260px, transparent 480px), var(--surface)`});
-    sec.appendChild(el("h2",{},
-      `<span style="display:inline-block;width:11px;height:11px;border-radius:3px;background:${p.color};margin-right:9px;vertical-align:middle"></span>`+
-      `${esc(p.name)} posts <span class="sub">— exactly as saved from each post, newest first</span>`));
-    const feed=el("div",{class:"feed"});
-    if(!items.length){ feed.appendChild(el("div",{class:"empty"},"No posts match the current filters.")); }
+  plats.forEach(p=>host.appendChild(buildSection(p)));
+}
+function buildSection(p){
+  const all=(DATA.feed||[]).filter(r=>r.platform===p.key);
+  const st={topic:"all", state:"all", from:"", to:""};
+
+  const sec=el("section",{class:"card",
+    style:`margin-bottom:16px;border:2px solid ${p.color};`+
+          `background:linear-gradient(0deg, ${tint(p.color,0.05)}, ${tint(p.color,0.05)}), var(--surface)`});
+  sec.appendChild(el("h2",{},
+    `<span style="display:inline-block;width:11px;height:11px;border-radius:3px;background:${p.color};margin-right:9px;vertical-align:middle"></span>`+
+    `${esc(p.name)} posts <span class="sub">— exactly as posted, newest first</span>`));
+
+  // --- this section's own filters (topic / state / date only for this platform) ---
+  const topics=[...new Set(all.map(r=>r.topic))].map(k=>T[k]||{key:k,name:k,emoji:"📄"}).sort((a,b)=>a.name.localeCompare(b.name));
+  const states=[...new Set(all.map(r=>r.state))].sort();
+  const dates=all.map(r=>r.posted_date||r.date).sort();
+
+  const topicSel=el("select",{class:"inp"});
+  topicSel.appendChild(el("option",{value:"all"},"All topics"));
+  topics.forEach(t=>topicSel.appendChild(el("option",{value:t.key},`${t.emoji} ${t.name}`)));
+  const stateSel=el("select",{class:"inp"});
+  stateSel.appendChild(el("option",{value:"all"},"All states"));
+  states.forEach(s=>stateSel.appendChild(el("option",{value:s},s)));
+  const fromI=el("input",{class:"inp",type:"date"}), toI=el("input",{class:"inp",type:"date"});
+  if(dates.length){ fromI.min=toI.min=dates[0]; fromI.max=toI.max=dates[dates.length-1]; }
+  const resetB=el("button",{class:"btn"},"Reset"), csvB=el("button",{class:"btn"},"⬇ CSV");
+  const dateWrap=el("div",{class:"dates"}); dateWrap.append(fromI, el("span",{},"to"), toI);
+
+  const bar=el("div",{class:"sfilters"});
+  if(topics.length>1) bar.appendChild(fgrp("Topic",topicSel));
+  bar.appendChild(fgrp("State",stateSel));
+  bar.appendChild(fgrp("Date",dateWrap));
+  bar.appendChild(resetB); bar.appendChild(csvB);
+  const count=el("span",{class:"scount"}); bar.appendChild(count);
+  sec.appendChild(bar);
+
+  const feed=el("div",{class:"feed"}), cap=el("div",{class:"rowcap"});
+  sec.appendChild(feed); sec.appendChild(cap);
+
+  function current(){
+    return all.filter(r=>
+      (st.topic==="all"||r.topic===st.topic) &&
+      (st.state==="all"||r.state===st.state) &&
+      (!st.from||(r.posted_date||r.date)>=st.from) &&
+      (!st.to  ||(r.posted_date||r.date)<=st.to));
+  }
+  function draw(){
+    const items=current();
+    feed.innerHTML="";
+    if(!items.length) feed.appendChild(el("div",{class:"empty"},"No posts match these filters."));
     else items.slice(0,FEED_CAP).forEach(r=>{ const c=el("div",{class:"fcard"}); c.innerHTML=feedCardHTML(r); feed.appendChild(c); });
-    sec.appendChild(feed);
-    const cap=el("div",{class:"rowcap"});
-    cap.textContent = items.length>FEED_CAP
-      ? `Showing the ${FEED_CAP} most recent of ${fmt(items.length)} — narrow the filters to see others.`
-      : `${fmt(items.length)} post${items.length===1?"":"s"}.`;
-    sec.appendChild(cap);
-    host.appendChild(sec);
-  });
+    cap.textContent = items.length>FEED_CAP ? `Showing the ${FEED_CAP} most recent of ${fmt(items.length)} matching.` : "";
+    count.textContent = `${fmt(items.length)} of ${fmt(all.length)}`;
+  }
+  topicSel.onchange=()=>{ st.topic=topicSel.value; draw(); };
+  stateSel.onchange=()=>{ st.state=stateSel.value; draw(); };
+  fromI.onchange=()=>{ st.from=fromI.value; draw(); };
+  toI.onchange=()=>{ st.to=toI.value; draw(); };
+  resetB.onclick=()=>{ st.topic="all"; st.state="all"; st.from=""; st.to="";
+    topicSel.value="all"; stateSel.value="all"; fromI.value=""; toI.value=""; draw(); };
+  csvB.onclick=()=>downloadCSV(p, current());
+  draw();
+  return sec;
 }
 
-function downloadCSV(){
-  const recs=filtered();
-  const head=["date","state","bill","topic","platform","action"];
+function downloadCSV(p, recs){
+  const head=["post_day","action_date","state","bill","topic","action","post_url","bill_link"];
   const esc2=v=>`"${String(v??"").replace(/"/g,'""')}"`;
   const lines=[head.join(",")].concat(recs.map(r=>
-    [r.date,r.state,r.bill,(T[r.topic]?.name||r.topic),(P[r.platform]?.name||r.platform),r.action].map(esc2).join(",")));
+    [r.posted_date||r.date, r.date, r.state, r.bill, (T[r.topic]?.name||r.topic),
+     r.action, r.post_url||"", r.link||""].map(esc2).join(",")));
   const blob=new Blob([lines.join("\n")],{type:"text/csv"});
-  const a=el("a",{href:URL.createObjectURL(blob),download:"social-posts.csv"});
+  const a=el("a",{href:URL.createObjectURL(blob),download:`${platformShort(p.key).toLowerCase().replace(/[^a-z0-9]+/g,"-")}-posts.csv`});
   document.body.appendChild(a); a.click(); a.remove();
 }
 
