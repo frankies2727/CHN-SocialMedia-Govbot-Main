@@ -141,7 +141,10 @@
   @keyframes spin { to { transform:rotate(360deg); } }
 
   /* ---- post feed ---- */
-  .feed { display:flex; flex-direction:column; gap:12px; }
+  .feed { display:flex; flex-direction:column; gap:12px; max-height:600px; overflow-y:auto; padding-right:6px; }
+  .feed::-webkit-scrollbar, .bsky-feed::-webkit-scrollbar, .bsky-accts::-webkit-scrollbar { width:10px; }
+  .feed::-webkit-scrollbar-thumb, .bsky-feed::-webkit-scrollbar-thumb, .bsky-accts::-webkit-scrollbar-thumb { background:#3a3a37; border-radius:6px; }
+  .feed::-webkit-scrollbar-track, .bsky-feed::-webkit-scrollbar-track, .bsky-accts::-webkit-scrollbar-track { background:transparent; }
   .fcard { border:1px solid var(--border); border-radius:12px; background:var(--surface-2); padding:14px 16px; }
   .fhead { display:flex; justify-content:space-between; align-items:center; gap:10px; margin-bottom:9px; }
   .facct { display:flex; align-items:center; gap:7px; font-size:12.5px; color:var(--ink-2); min-width:0; }
@@ -216,8 +219,8 @@
 
     <div class="grid kpis" id="kpis"></div>
 
-    <section class="card" style="margin-bottom:16px">
-      <h2>Bluesky feeds <span class="sub">— live, exactly as posted</span></h2>
+    <section class="card" style="margin-bottom:16px;border-top:3px solid #4c9aef;background:linear-gradient(180deg, rgba(76,154,239,0.09), rgba(76,154,239,0.02) 260px, transparent 480px), var(--surface)">
+      <h2><span style="display:inline-block;width:11px;height:11px;border-radius:3px;background:#4c9aef;margin-right:9px;vertical-align:middle"></span>Bluesky feeds <span class="sub">— live, exactly as posted</span></h2>
       <div class="bsky">
         <aside class="bsky-side">
           <div class="bsky-side-h">Account</div>
@@ -256,7 +259,7 @@ function showTip(e,html){ tip.innerHTML=html; tip.style.opacity=1;
   tip.style.left=x+"px"; tip.style.top=y+"px"; }
 function hideTip(){ tip.style.opacity=0; }
 
-const FEED_CAP = 60;
+const FEED_CAP = 150;   // sections scroll, so show plenty per platform
 const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 function fmtDate(iso){ const p=(iso||"").split("-").map(Number); if(!p[0]) return iso||""; return `${MONTHS[p[1]-1]} ${p[2]}, ${p[0]}`; }
 let DATA=null, P={}, T={};      // platform + topic lookup maps
@@ -468,6 +471,10 @@ function platformRank(key){
   if(k.includes("instagram")) return 2;
   return 3;
 }
+function tint(hex, a){
+  const m=/^#?([0-9a-f]{6})$/i.exec(hex||""); if(!m) return `rgba(255,255,255,${a})`;
+  const n=parseInt(m[1],16); return `rgba(${(n>>16)&255},${(n>>8)&255},${n&255},${a})`;
+}
 function platformShort(key){
   const k=(key||"").toLowerCase();
   if(k.includes("thread")) return "Threads";
@@ -480,7 +487,7 @@ function feedCardHTML(r){
   const head=`<div class="fhead">`+
       `<span class="facct"><span class="dot" style="background:${t.color}"></span>`+
       `<span class="tp">${esc(t.emoji)} ${esc(t.name)}</span></span>`+
-      `<span class="fdate">${esc(fmtDate(r.date))}</span></div>`;
+      `<span class="fdate">${esc(fmtDate(r.posted_date||r.date))}</span></div>`;
   // Posts made after the "save exactly as posted" change carry the verbatim
   // text + links — show them just like the live Bluesky cards.
   if(r.posted){
@@ -504,7 +511,9 @@ function renderPlatformFeeds(){
   const plats=DATA.platforms.slice().sort((a,b)=>platformRank(a.key)-platformRank(b.key)||a.name.localeCompare(b.name));
   plats.forEach(p=>{
     const items=byPlat.get(p.key)||[];
-    const sec=el("section",{class:"card",style:"margin-bottom:16px"});
+    const sec=el("section",{class:"card",
+      style:`margin-bottom:16px;border-top:3px solid ${p.color};`+
+            `background:linear-gradient(180deg, ${tint(p.color,0.08)}, ${tint(p.color,0.02)} 260px, transparent 480px), var(--surface)`});
     sec.appendChild(el("h2",{},
       `<span style="display:inline-block;width:11px;height:11px;border-radius:3px;background:${p.color};margin-right:9px;vertical-align:middle"></span>`+
       `${esc(p.name)} posts <span class="sub">— exactly as saved from each post, newest first</span>`));

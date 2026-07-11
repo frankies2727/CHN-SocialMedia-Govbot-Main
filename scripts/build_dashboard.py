@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import json
 import re
+import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -163,6 +164,37 @@ def feed_item(path: Path, folder: str, topic_key: str) -> dict | None:
     }
 
 
+def git_commit_dates() -> dict:
+    """Map each bills_raw/*.json path -> the date its file was committed
+    (YYYY-MM-DD) — i.e. roughly when the bill was actually posted. The bot
+    commits each post's artifact right after posting, so this orders the feed by
+    real post day rather than by the bill's (sometimes far-future) action date.
+
+    Returns {} on any failure; callers fall back to the action date. Works best
+    with full git history (the Pages workflow checks out with fetch-depth: 0)."""
+    try:
+        out = subprocess.run(
+            ["git", "-C", str(REPO), "log", "--format=%cs", "--name-only",
+             "--", ":(glob)topics/**/bills_raw/*.json"],
+            capture_output=True, text=True, timeout=180, check=True,
+        ).stdout
+    except Exception:
+        return {}
+    dates: dict = {}
+    cur = ""
+    for line in out.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        if DATE_RE.match(line):
+            cur = line
+        elif cur and line.endswith(".json"):
+            # git log is newest-first; overwriting leaves the oldest (adding)
+            # commit date, which is when the post first landed.
+            dates[line] = cur
+    return dates
+
+
 def discover_platforms() -> list[str]:
     """Every distinct platform folder name that holds a bills_used.json."""
     found: set[str] = set()
@@ -182,6 +214,8 @@ def main() -> None:
         if folder.lower() not in PLATFORM_INFO:
             fallback_i += 1
         platforms.append({"key": folder, "name": name, "color": color})
+
+    commit_dates = git_commit_dates()
 
     topics = []
     records: list[dict] = []
@@ -211,6 +245,9 @@ def main() -> None:
                 for raw_file in raw_dir.glob("*.json"):
                     item = feed_item(raw_file, folder, topic_dir.name)
                     if item:
+                        rel = str(raw_file.relative_to(REPO))
+                        # Post day = commit date of the artifact, else action date.
+                        item["posted_date"] = commit_dates.get(rel) or item["date"]
                         feed.append(item)
 
     # Only keep topics that actually have posts; keep platform order as discovered.
@@ -222,9 +259,10 @@ def main() -> None:
     records.sort(key=lambda r: r["date"], reverse=True)
 
     # De-duplicate feed items (same bill+date+action can be saved under both the
-    # per-topic aggregate and the platform folder), newest first, and cap it.
+    # per-topic aggregate and the platform folder). Order by real post day
+    # (commit date), newest first, then by action date, and cap it.
     seen = set()
-    feed.sort(key=lambda f: f["date"], reverse=True)
+    feed.sort(key=lambda f: (f.get("posted_date") or f["date"], f["date"]), reverse=True)
     deduped = []
     for f in feed:
         k = (f["platform"], f["state"], f["bill"], f["date"], f["action"])
@@ -232,7 +270,7 @@ def main() -> None:
             continue
         seen.add(k)
         deduped.append(f)
-    feed = deduped[:400]
+    feed = deduped[:500]
 
     data = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
