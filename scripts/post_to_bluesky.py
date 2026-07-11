@@ -2572,6 +2572,30 @@ def _artifact_stem(b: dict) -> str:
     return f"{state}-{ident}-{date}-{action_slug}"
 
 
+def _stash_posted(b: dict, text: str | None = None, link: str | None = None,
+                  post_url: str | None = None) -> None:
+    """Attach the exact composed post text, the bill link, and the URL of the
+    published post to the record so save_raw_record persists them inside
+    bills_raw/<...>.json. This is what lets the GitHub Pages dashboard show each
+    post exactly as posted — the model-written headline, the "Read the full
+    bill" link, and a link to the post itself — instead of reconstructing an
+    approximation from the raw bill fields.
+
+    Purely additive and never raises: capturing display copy must never be able
+    to interfere with posting."""
+    try:
+        raw = b.get("_raw")
+        if isinstance(raw, dict):
+            if text:
+                raw["posted_text"] = text
+            if link:
+                raw["posted_link"] = link
+            if post_url:
+                raw["posted_url"] = post_url
+    except Exception:
+        pass
+
+
 def save_raw_record(b: dict, out_dir: Path | None = None) -> None:
     """Write the verbatim bills.jsonl record for a posted bill to
     topics/<name>/bills_raw/<STATE>-<id>-<date>-<action_slug>.json so

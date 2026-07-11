@@ -54,6 +54,7 @@ from account_ledger import AccountLedger
 from render_bill_card import render_card
 from post_to_bluesky import (
     _FILENAME_UNSAFE_RE,
+    _stash_posted,
     _normalize,
     _slug,
     _smart_truncate,
@@ -413,7 +414,22 @@ def _publish_container(creation_id: str) -> str | None:
     return None
 
 
-def post_to_instagram(image_url: str, caption: str) -> bool:
+def _ig_permalink(media_id: str) -> str:
+    """Best-effort public URL for a published Instagram post. Returns "" on any
+    failure — never raises, so it can't disrupt a post that already went out."""
+    try:
+        resp = requests.get(
+            f"{IG_API}/{media_id}",
+            params={"fields": "permalink", "access_token": INSTAGRAM_ACCESS_TOKEN},
+            timeout=IG_TIMEOUT,
+        )
+        resp.raise_for_status()
+        return resp.json().get("permalink", "") or ""
+    except Exception:
+        return ""
+
+
+def post_to_instagram(image_url: str, caption: str, record: dict | None = None) -> bool:
     if DRY_RUN:
         print(f"  [DRY RUN] skipping Instagram post ({len(caption)} chars)")
         print(f"  [DRY RUN] image_url: {image_url}")
@@ -428,6 +444,8 @@ def post_to_instagram(image_url: str, caption: str) -> bool:
         print("  treated as posted (unconfirmed publish) — counted against run cap.")
         return True
     print(f"  posted to Instagram (media id {media_id})")
+    if record is not None:
+        _stash_posted(record, post_url=_ig_permalink(media_id) or None)
     return True
 
 
@@ -497,7 +515,8 @@ def _post_items(items: list[dict], sha: str, slug: str, state: dict, seen: set,
         # the buffer applies both across topics and within a multi-post topic.
         prior = (ledger.posted_this_run() if ledger is not None else 0) + posted
         _anti_rapidfire_pause(prior)
-        if not post_to_instagram(image_url, it["caption"]):
+        _stash_posted(b, text=it["caption"], link=it.get("url", ""))
+        if not post_to_instagram(image_url, it["caption"], record=b):
             continue
         posted += 1
         if SAVE_STATE:

@@ -155,6 +155,11 @@ def feed_item(path: Path, folder: str, topic_key: str) -> dict | None:
         "summary": abstract,
         "action": clean(action.get("description", "")),
         "date": date,
+        # Present only for posts made after the "save exactly as posted" change:
+        # the verbatim post text, the bill link, and the URL of the live post.
+        "posted": (d.get("posted_text") or "").strip(),
+        "link": (d.get("posted_link") or "").strip(),
+        "post_url": (d.get("posted_url") or "").strip(),
     }
 
 

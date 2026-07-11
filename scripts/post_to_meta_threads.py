@@ -39,6 +39,7 @@ from topic import load_active_topic
 from account_ledger import AccountLedger
 from post_to_bluesky import (
     _FILENAME_UNSAFE_RE,
+    _stash_posted,
     _format_date,
     _normalize,
     _slug,
@@ -320,7 +321,22 @@ def publish_post(text: str, link_url: str = "", reply_to_id: str = "") -> str | 
     return _publish_container(creation_id)
 
 
-def post_thread(text: str, link_url: str = "") -> bool:
+def _threads_permalink(media_id: str) -> str:
+    """Best-effort public URL for a published Threads post. Returns "" on any
+    failure — never raises, so it can't disrupt a post that already went out."""
+    try:
+        resp = requests.get(
+            f"{THREADS_API}/{media_id}",
+            params={"fields": "permalink", "access_token": THREADS_ACCESS_TOKEN},
+            timeout=THREADS_TIMEOUT,
+        )
+        resp.raise_for_status()
+        return resp.json().get("permalink", "") or ""
+    except Exception:
+        return ""
+
+
+def post_thread(text: str, link_url: str = "", record: dict | None = None) -> bool:
     """Create a Threads container then publish it. Returns True iff the post
     was published. The bill URL (link_url) is sent as link_attachment."""
     if DRY_RUN:
@@ -332,6 +348,8 @@ def post_thread(text: str, link_url: str = "") -> bool:
     if not media_id:
         return False
     print(f"  posted to Threads (media id {media_id})")
+    if record is not None:
+        _stash_posted(record, post_url=_threads_permalink(media_id) or None)
     return True
 
 
@@ -408,6 +426,7 @@ def _post_forced_bill(records: list[dict]) -> int:
     budget = threads_summary_budget(b, headline, include_topic=True)
     summary_text = summarize(b, max_chars=budget) if budget >= MIN_SUMMARY_CHARS else ""
     text, url = compose_threads_post(b, summary_text, headline=headline, include_topic=True)
+    _stash_posted(b, text=text, link=url)
 
     print(f"\n--- {b['state'] or '?'} {b['identifier']} ({b['action_date']}) ---")
     print(text)
@@ -415,7 +434,7 @@ def _post_forced_bill(records: list[dict]) -> int:
         print(f"  ↳ link_attachment: {url}")
     print("---")
 
-    if not post_thread(text, link_url=url):
+    if not post_thread(text, link_url=url, record=b):
         return 1
 
     if SAVE_RAW:
@@ -628,6 +647,7 @@ def main() -> int:
         budget = threads_summary_budget(b, headline, include_topic=True)
         summary_text = summarize(b, max_chars=budget) if budget >= MIN_SUMMARY_CHARS else ""
         text, url = compose_threads_post(b, summary_text, headline=headline, include_topic=True)
+        _stash_posted(b, text=text, link=url)
 
         print(f"\n--- {b['state'] or '?'} {b['identifier']} ({b['action_date']}) ---")
         print(text)
@@ -635,7 +655,7 @@ def main() -> int:
             print(f"  ↳ link_attachment: {url}")
         print("---")
 
-        if post_thread(text, link_url=url):
+        if post_thread(text, link_url=url, record=b):
             posted += 1
             if SAVE_STATE:
                 siblings = same_day_siblings.get(b["same_day_key"], ())

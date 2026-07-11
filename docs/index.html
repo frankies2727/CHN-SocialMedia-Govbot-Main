@@ -187,10 +187,6 @@
       <div class="card">
         <div class="frow">
           <div class="fgroup">
-            <span class="flabel">Platform</span>
-            <div class="chips" id="f-platforms"></div>
-          </div>
-          <div class="fgroup">
             <span class="flabel">Topic</span>
             <select class="inp" id="f-topic"></select>
           </div>
@@ -237,46 +233,9 @@
       </div>
     </section>
 
-    <div class="grid two">
-      <section class="card">
-        <h2>Posts by platform</h2>
-        <div class="bars" id="platforms"></div>
-      </section>
-      <section class="card">
-        <h2>Posts over time <span class="sub">— by month</span></h2>
-        <div class="tl-wrap"><div id="timeline"></div></div>
-      </section>
-    </div>
-
-    <section class="card" style="margin-bottom:16px">
-      <h2>Posts by topic <span class="sub">— segmented by platform</span></h2>
-      <div class="legend" id="topic-legend" style="margin-bottom:14px"></div>
-      <div class="bars" id="topics"></div>
-    </section>
-
-    <section class="card" style="margin-bottom:16px">
-      <h2>Posts by state <span class="sub">— where the bills are from</span></h2>
-      <div class="bars" id="states"></div>
-    </section>
-
-    <section class="card" style="margin-bottom:16px">
-      <h2>Instagram · Threads · X posts <span class="sub">— from saved bill data (these platforms have no public feed API)</span></h2>
-      <div class="feed" id="feed"></div>
-      <div class="rowcap" id="feedcap"></div>
-    </section>
-
-    <section class="card">
-      <h2>Matching posts <span class="sub">— compact list, newest first</span></h2>
-      <div class="tbl-wrap">
-        <table>
-          <thead><tr>
-            <th>Date</th><th>State</th><th>Bill</th><th>Topic</th><th>Platform</th><th>Latest action</th>
-          </tr></thead>
-          <tbody id="rows"></tbody>
-        </table>
-      </div>
-      <div class="rowcap" id="rowcap"></div>
-    </section>
+    <!-- One feed section per non-Bluesky platform (Threads, X, Instagram),
+         built dynamically so it adapts to whatever platforms the repo has. -->
+    <div id="platform-feeds"></div>
   </div>
 
   <footer class="page">Built automatically from this repository's post history · dark-mode dashboard</footer>
@@ -297,11 +256,11 @@ function showTip(e,html){ tip.innerHTML=html; tip.style.opacity=1;
   tip.style.left=x+"px"; tip.style.top=y+"px"; }
 function hideTip(){ tip.style.opacity=0; }
 
-const ROW_CAP = 250, FEED_CAP = 60;
+const FEED_CAP = 60;
 const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 function fmtDate(iso){ const p=(iso||"").split("-").map(Number); if(!p[0]) return iso||""; return `${MONTHS[p[1]-1]} ${p[2]}, ${p[0]}`; }
 let DATA=null, P={}, T={};      // platform + topic lookup maps
-const state = { platforms:new Set(), topic:"all", stateCode:"all", from:"", to:"" };
+const state = { topic:"all", stateCode:"all", from:"", to:"" };
 
 fetch("data.json",{cache:"no-store"})
   .then(r=>{ if(!r.ok) throw 0; return r.json(); })
@@ -311,7 +270,6 @@ function init(d){
   DATA=d; $("#app").hidden=false; $("#gen").textContent=d.generated_at||"unknown";
   d.platforms.forEach(p=>P[p.key]=p);
   d.topics.forEach(t=>T[t.key]=t);
-  state.platforms = new Set(d.platforms.map(p=>p.key));  // all on by default
 
   buildFilterUI(d);
   apply();
@@ -422,22 +380,6 @@ function renderBsky(){
 
 /* ---------- filter UI ---------- */
 function buildFilterUI(d){
-  // platform chips (multi-select) + "All"
-  const pc = $("#f-platforms");
-  const allChip = el("button",{class:"chip","aria-pressed":"true"},"All");
-  allChip.addEventListener("click",()=>{ state.platforms=new Set(d.platforms.map(p=>p.key)); syncPlatformChips(); apply(); });
-  pc.appendChild(allChip);
-  d.platforms.forEach(p=>{
-    const c = el("button",{class:"chip","data-k":p.key,"aria-pressed":"true"},
-      `<span class="dot" style="background:${p.color}"></span>${esc(p.name)}`);
-    c.addEventListener("click",()=>{
-      if(state.platforms.has(p.key)) state.platforms.delete(p.key); else state.platforms.add(p.key);
-      if(state.platforms.size===0) state.platforms=new Set(d.platforms.map(x=>x.key)); // never empty
-      syncPlatformChips(); apply();
-    });
-    pc.appendChild(c);
-  });
-
   // topic select
   const ts = $("#f-topic");
   ts.appendChild(el("option",{value:"all"},"All topics"));
@@ -461,55 +403,37 @@ function buildFilterUI(d){
   $("#f-reset").addEventListener("click",resetFilters);
   $("#f-csv").addEventListener("click",downloadCSV);
 }
-function syncPlatformChips(){
-  const chips=[...$("#f-platforms").children];
-  const allOn = state.platforms.size===DATA.platforms.length;
-  chips[0].setAttribute("aria-pressed", allOn?"true":"false");
-  chips.slice(1).forEach(c=>c.setAttribute("aria-pressed", state.platforms.has(c.dataset.k)?"true":"false"));
-}
 function resetFilters(){
-  state.platforms=new Set(DATA.platforms.map(p=>p.key));
   state.topic="all"; state.stateCode="all"; state.from=""; state.to="";
   $("#f-topic").value="all"; $("#f-state").value="all"; $("#f-from").value=""; $("#f-to").value="";
-  syncPlatformChips(); apply();
+  apply();
 }
 
-/* ---------- filtering ---------- */
+/* ---------- filtering (topic / state / date apply everywhere) ---------- */
 function matches(r){
-  return state.platforms.has(r.platform) &&
-    (state.topic==="all" || r.topic===state.topic) &&
+  return (state.topic==="all" || r.topic===state.topic) &&
     (state.stateCode==="all" || r.state===state.stateCode) &&
     (!state.from || r.date>=state.from) &&
     (!state.to   || r.date<=state.to);
 }
 function filtered(){ return DATA.records.filter(matches); }
-function filteredFeed(){ return (DATA.feed||[]).filter(matches); }
 
 function apply(){
   const recs=filtered();
   renderMeta(recs);
   renderKPIs(recs);
-  renderPlatforms(recs);
-  renderTimeline(recs);
-  renderTopics(recs);
-  renderStates(recs);
-  renderFeed(filteredFeed());
-  renderRows(recs);
+  renderPlatformFeeds();
 }
 
 function renderMeta(recs){
   const total=DATA.records.length;
   const active=[];
-  if(state.platforms.size!==DATA.platforms.length) active.push([...state.platforms].map(k=>P[k].name).join(", "));
   if(state.topic!=="all") active.push(T[state.topic]?.name);
   if(state.stateCode!=="all") active.push(state.stateCode);
   if(state.from||state.to) active.push(`${state.from||"start"} → ${state.to||"now"}`);
   $("#f-meta").innerHTML = `Showing <b>${fmt(recs.length)}</b> of ${fmt(total)} posts` +
     (active.length? ` · filtered by ${active.filter(Boolean).map(esc).join(" · ")}` : ` · no filters`);
 }
-
-/* ---------- aggregation helpers ---------- */
-const bump=(m,k,n=1)=>m.set(k,(m.get(k)||0)+n);
 
 function renderKPIs(recs){
   const plats=new Set(recs.map(r=>r.platform)), tops=new Set(recs.map(r=>r.topic)),
@@ -535,154 +459,66 @@ function renderKPIs(recs){
   });
 }
 
-function hbar(host, rows, opts={}){
-  // rows: [{label,val,color,em,tip,segments?:[{color,val}]}]
-  const max=Math.max(...rows.map(r=>r.val),1);
-  host.innerHTML="";
-  rows.forEach(r=>{
-    const row=el("div",{class:"bar-row"});
-    const top=el("div",{class:"bar-top"});
-    top.appendChild(el("div",{class:"bar-name"},
-      (r.em?`<span class="em">${esc(r.em)}</span>`:"")+`<span class="txt">${esc(r.label)}</span>`));
-    top.appendChild(el("div",{class:"bar-val"}, fmt(r.val)+(r.split!=null?`<span class="split">${esc(r.split)}</span>`:"")));
-    const track=el("div",{class:"track"});
-    if(r.segments){
-      track.style.width=(r.val/max*100)+"%"; track.style.minWidth="2px";
-      r.segments.forEach(s=>{ if(!s.val)return; const seg=el("div",{class:"fill seg"});
-        seg.style.width=(s.val/r.val*100)+"%"; seg.style.background=s.color; track.appendChild(seg); });
-    } else {
-      const fill=el("div",{class:"fill"}); fill.style.width=(r.val/max*100)+"%";
-      fill.style.background=r.color||"var(--ink)"; track.appendChild(fill);
-    }
-    row.appendChild(top); row.appendChild(track);
-    if(r.tip){ row.addEventListener("mousemove",e=>showTip(e,r.tip)); row.addEventListener("mouseleave",hideTip); }
-    host.appendChild(row);
+/* ---------- one feed section per platform (Threads, X, Instagram) ---------- */
+// Display order: Threads first, then X, then Instagram, then anything else.
+function platformRank(key){
+  const k=(key||"").toLowerCase();
+  if(k.includes("thread")) return 0;
+  if(k==="x"||k.startsWith("x-")||k.includes("twitter")) return 1;
+  if(k.includes("instagram")) return 2;
+  return 3;
+}
+function platformShort(key){
+  const k=(key||"").toLowerCase();
+  if(k.includes("thread")) return "Threads";
+  if(k==="x"||k.startsWith("x-")||k.includes("twitter")) return "X";
+  if(k.includes("instagram")) return "Instagram";
+  return (P[key]&&P[key].name)||key;
+}
+function feedCardHTML(r){
+  const t=T[r.topic]||{name:r.topic,emoji:"📄",color:"#888"};
+  const head=`<div class="fhead">`+
+      `<span class="facct"><span class="dot" style="background:${t.color}"></span>`+
+      `<span class="tp">${esc(t.emoji)} ${esc(t.name)}</span></span>`+
+      `<span class="fdate">${esc(fmtDate(r.date))}</span></div>`;
+  // Posts made after the "save exactly as posted" change carry the verbatim
+  // text + links — show them just like the live Bluesky cards.
+  if(r.posted){
+    const links=[];
+    if(r.link) links.push(`<a href="${esc(r.link)}" target="_blank" rel="noopener">Read the full bill</a>`);
+    if(r.post_url) links.push(`<a href="${esc(r.post_url)}" target="_blank" rel="noopener">Open on ${esc(platformShort(r.platform))} ↗</a>`);
+    return head+`<div class="bptext">${esc(r.posted)}</div>`+
+      (links.length?`<div class="bpfoot">${links.join("")}</div>`:"");
+  }
+  // Older posts: reconstructed from the saved bill fields.
+  return head+
+    `<div class="ftitle"><span class="em">${esc(t.emoji)}</span>`+
+      `<span class="fbill">${esc(r.state)} ${esc(r.bill)}</span> — ${esc(r.title||"(untitled bill)")}</div>`+
+    (r.summary?`<div class="fsum">${esc(r.summary)}</div>`:"")+
+    (r.action?`<div class="faction"><span class="cal">📅</span><span><span class="adate">${esc(fmtDate(r.date))}:</span> ${esc(r.action)}</span></div>`:"");
+}
+function renderPlatformFeeds(){
+  const host=$("#platform-feeds"); host.innerHTML="";
+  const byPlat=new Map();
+  (DATA.feed||[]).filter(matches).forEach(r=>{ (byPlat.get(r.platform)||byPlat.set(r.platform,[]).get(r.platform)).push(r); });
+  const plats=DATA.platforms.slice().sort((a,b)=>platformRank(a.key)-platformRank(b.key)||a.name.localeCompare(b.name));
+  plats.forEach(p=>{
+    const items=byPlat.get(p.key)||[];
+    const sec=el("section",{class:"card",style:"margin-bottom:16px"});
+    sec.appendChild(el("h2",{},
+      `<span style="display:inline-block;width:11px;height:11px;border-radius:3px;background:${p.color};margin-right:9px;vertical-align:middle"></span>`+
+      `${esc(p.name)} posts <span class="sub">— exactly as saved from each post, newest first</span>`));
+    const feed=el("div",{class:"feed"});
+    if(!items.length){ feed.appendChild(el("div",{class:"empty"},"No posts match the current filters.")); }
+    else items.slice(0,FEED_CAP).forEach(r=>{ const c=el("div",{class:"fcard"}); c.innerHTML=feedCardHTML(r); feed.appendChild(c); });
+    sec.appendChild(feed);
+    const cap=el("div",{class:"rowcap"});
+    cap.textContent = items.length>FEED_CAP
+      ? `Showing the ${FEED_CAP} most recent of ${fmt(items.length)} — narrow the filters to see others.`
+      : `${fmt(items.length)} post${items.length===1?"":"s"}.`;
+    sec.appendChild(cap);
+    host.appendChild(sec);
   });
-  if(!rows.length) host.appendChild(el("div",{class:"empty"},"No data for this filter."));
-}
-
-function renderPlatforms(recs){
-  const m=new Map(); recs.forEach(r=>bump(m,r.platform));
-  const rows=DATA.platforms.filter(p=>m.get(p.key)).map(p=>({
-    label:p.name, val:m.get(p.key), color:p.color,
-    tip:`<b>${esc(p.name)}</b><br><span class="m">${fmt(m.get(p.key))} posts</span>`
-  })).sort((a,b)=>b.val-a.val);
-  hbar($("#platforms"),rows);
-}
-
-function renderTopics(recs){
-  // legend
-  const lg=$("#topic-legend"); lg.innerHTML="";
-  DATA.platforms.filter(p=>state.platforms.has(p.key)).forEach(p=>{
-    const it=el("span",{class:"item"});
-    it.appendChild(el("span",{class:"dot",style:`background:${p.color}`}));
-    it.appendChild(document.createTextNode(p.name)); lg.appendChild(it);
-  });
-  const activePlats=DATA.platforms.filter(p=>state.platforms.has(p.key));
-  const byTopic=new Map();
-  recs.forEach(r=>{ const t=byTopic.get(r.topic)||{total:0,plat:new Map()}; t.total++; bump(t.plat,r.platform); byTopic.set(r.topic,t); });
-  const rows=[...byTopic.entries()].map(([k,v])=>{
-    const meta=T[k]||{name:k,emoji:"📄"};
-    return {
-      label:meta.name, em:meta.emoji, val:v.total,
-      split:activePlats.map(p=>v.plat.get(p.key)||0).join(" / "),
-      segments:activePlats.map(p=>({color:p.color,val:v.plat.get(p.key)||0})),
-      tip:`<b>${esc(meta.emoji)} ${esc(meta.name)}</b><br><span class="m">${fmt(v.total)} posts — `+
-          activePlats.map(p=>`${esc(p.name)} ${v.plat.get(p.key)||0}`).join(", ")+`</span>`
-    };
-  }).sort((a,b)=>b.val-a.val);
-  hbar($("#topics"),rows);
-}
-
-function renderStates(recs){
-  const m=new Map(); recs.forEach(r=>bump(m,r.state));
-  const rows=[...m.entries()].map(([code,val])=>({
-    label:code, val, color:"var(--ink)",
-    tip:`<b>${esc(code)}</b><br><span class="m">${fmt(val)} posts</span>`
-  })).sort((a,b)=>b.val-a.val);
-  hbar($("#states"),rows);
-}
-
-function renderTimeline(recs){
-  const m=new Map(); recs.forEach(r=>bump(m,r.date.slice(0,7)));
-  const tl=[...m.entries()].map(([month,count])=>({month,count})).sort((a,b)=>a.month<b.month?-1:1);
-  const host=$("#timeline");
-  if(!tl.length){ host.innerHTML=`<div class="empty">No data for this filter.</div>`; return; }
-  const W=Math.max(host.parentElement.clientWidth||480, tl.length*54);
-  const H=200,padL=34,padB=26,padT=12;
-  const max=Math.max(...tl.map(m=>m.count),1), niceMax=Math.ceil(max/10)*10||max;
-  const innerW=W-padL-8, innerH=H-padB-padT, step=innerW/tl.length, bw=Math.min(28, step*0.6);
-  const NS="http://www.w3.org/2000/svg";
-  const svg=document.createElementNS(NS,"svg");
-  svg.setAttribute("viewBox",`0 0 ${W} ${H}`); svg.setAttribute("width",W); svg.setAttribute("height",H);
-  [0,0.5,1].forEach(f=>{
-    const y=padT+innerH*(1-f), v=Math.round(niceMax*f);
-    const ln=document.createElementNS(NS,"line");
-    ln.setAttribute("x1",padL); ln.setAttribute("x2",W-8); ln.setAttribute("y1",y); ln.setAttribute("y2",y);
-    ln.setAttribute("stroke","var(--grid)"); ln.setAttribute("stroke-width","1"); svg.appendChild(ln);
-    const tx=document.createElementNS(NS,"text");
-    tx.setAttribute("x",padL-6); tx.setAttribute("y",y+3); tx.setAttribute("text-anchor","end");
-    tx.setAttribute("class","axis-txt"); tx.textContent=v; svg.appendChild(tx);
-  });
-  tl.forEach((mo,i)=>{
-    const x=padL+step*i+(step-bw)/2, h=innerH*(mo.count/niceMax), y=padT+innerH-h;
-    const r=document.createElementNS(NS,"rect");
-    r.setAttribute("x",x); r.setAttribute("y",y); r.setAttribute("width",bw); r.setAttribute("height",Math.max(h,2));
-    r.setAttribute("rx",3); r.setAttribute("fill","var(--ink)"); r.setAttribute("class","col");
-    r.addEventListener("mousemove",e=>showTip(e,`<b>${esc(mo.month)}</b><br><span class="m">${fmt(mo.count)} posts</span>`));
-    r.addEventListener("mouseleave",hideTip); svg.appendChild(r);
-    const tx=document.createElementNS(NS,"text");
-    tx.setAttribute("x",x+bw/2); tx.setAttribute("y",H-9); tx.setAttribute("text-anchor","middle");
-    tx.setAttribute("class","axis-txt"); tx.textContent=mo.month.slice(2); svg.appendChild(tx);
-  });
-  host.innerHTML=""; host.appendChild(svg);
-}
-
-function renderRows(recs){
-  const tb=$("#rows"); tb.innerHTML="";
-  const shown=recs.slice(0,ROW_CAP);
-  if(!shown.length){ tb.appendChild(el("tr",{},`<td colspan="6" class="empty">No posts match these filters.</td>`)); $("#rowcap").textContent=""; return; }
-  shown.forEach(r=>{
-    const t=T[r.topic]||{name:r.topic,emoji:"📄",color:"#888"}, p=P[r.platform]||{name:r.platform,color:"#888"};
-    const tr=el("tr");
-    tr.appendChild(el("td",{class:"date"},esc(r.date)));
-    tr.appendChild(el("td",{class:"mono"},esc(r.state)));
-    tr.appendChild(el("td",{class:"mono"},esc(r.bill)));
-    tr.appendChild(el("td",{},`<span class="tchip" style="background:${hexBg(t.color)};color:${t.color}">${esc(t.emoji)} ${esc(t.name)}</span>`));
-    tr.appendChild(el("td",{},`<span class="pdot"><span class="dot" style="background:${p.color}"></span>${esc(p.name)}</span>`));
-    tr.appendChild(el("td",{class:"action"}, esc(r.action)||"<span style='color:var(--muted)'>—</span>"));
-    tb.appendChild(tr);
-  });
-  $("#rowcap").textContent = recs.length>ROW_CAP ? `Showing the ${ROW_CAP} most recent of ${fmt(recs.length)} matching posts — narrow the filters or use ⬇ CSV for the full list.` : `${fmt(recs.length)} matching posts.`;
-}
-
-function renderFeed(items){
-  const host=$("#feed"); host.innerHTML="";
-  if(!items.length){ host.appendChild(el("div",{class:"empty"},"No posts match these filters.")); $("#feedcap").textContent=""; return; }
-  items.slice(0,FEED_CAP).forEach(r=>{
-    const t=T[r.topic]||{name:r.topic,emoji:"📄",color:"#888"}, p=P[r.platform]||{name:r.platform,color:"#888"};
-    const card=el("div",{class:"fcard"});
-    card.innerHTML =
-      `<div class="fhead">
-         <span class="facct"><span class="dot" style="background:${p.color}"></span>`+
-         `<span class="nm">${esc(p.name)}</span><span class="sep">·</span>`+
-         `<span class="tp">${esc(t.emoji)} ${esc(t.name)}</span></span>
-         <span class="fdate">${esc(fmtDate(r.date))}</span>
-       </div>
-       <div class="ftitle"><span class="em">${esc(t.emoji)}</span>`+
-         `<span class="fbill">${esc(r.state)} ${esc(r.bill)}</span> — ${esc(r.title||"(untitled bill)")}</div>`+
-       (r.summary?`<div class="fsum">${esc(r.summary)}</div>`:"")+
-       (r.action?`<div class="faction"><span class="cal">📅</span><span><span class="adate">${esc(fmtDate(r.date))}:</span> ${esc(r.action)}</span></div>`:"");
-    host.appendChild(card);
-  });
-  $("#feedcap").textContent = items.length>FEED_CAP
-    ? `Showing the ${FEED_CAP} most recent of ${fmt(items.length)} detailed posts — narrow the filters to see others.`
-    : `${fmt(items.length)} detailed post${items.length===1?"":"s"}.`;
-}
-
-function hexBg(hex){
-  const m=/^#?([0-9a-f]{6})$/i.exec(hex||""); if(!m) return "var(--surface-2)";
-  const n=parseInt(m[1],16); return `rgba(${(n>>16)&255},${(n>>8)&255},${n&255},0.16)`;
 }
 
 function downloadCSV(){
@@ -696,7 +532,6 @@ function downloadCSV(){
   document.body.appendChild(a); a.click(); a.remove();
 }
 
-addEventListener("resize",()=>{ if(DATA) renderTimeline(filtered()); });
 </script>
 </body>
 </html>
