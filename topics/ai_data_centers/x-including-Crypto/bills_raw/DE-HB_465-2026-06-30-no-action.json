@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act adds virtual currency to the money laundering definition in the criminal code and gives the State legal authority to attempt to return virtual currency for victims. It also provides that if money cannot be returned to the victims of the crime, or are outside of the United States, it should be disposed of per order of the Superior Court.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 465",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 11 OF THE DELAWARE CODE RELATING TO VIRTUAL CURRENCY."
+  },
+  "id": "HB 465",
+  "log": {
+    "bill_id": "HB 465"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB465/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB465/logs/20260630T000000Z.vote_event.pass.upper.json"
+  },
+  "timestamp": "20260630T000000Z.vote",
+  "posted_text": "💰 DE HB 465 — Delaware Expands Money Laundering Laws to Cover Virtual Currency\n\nThis legislation updates Delaware’s criminal code to include virtual currency within the definition of money laundering. If victims of virtual currency crimes cannot recover their funds, the State will oversee the disposal of the currency as ordered by the Superior Court.\n\nLink to bill in reply.",
+  "posted_link": "https://legiscan.com/DE/bill/HB465",
+  "posted_url": "https://x.com/i/web/status/2075884268413407590"
+}

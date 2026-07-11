@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Creates a ten member commission to recommend legislative proposals for blockchain and cryptocurrency, and submits an interim progress report by January 5, 2027, and a final report by January 5, 2028, and expires on February 5, 2028.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SR2198",
+    "legislative_session": "2026",
+    "title": "SENATE RESOLUTION CREATING A SPECIAL LEGISLATIVE COMMISSION TO STUDY BLOCKCHAIN AND CRYPTOCURRENCY"
+  },
+  "id": "SR2198",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-06-10",
+      "description": "06/10/2026 Senate passed Sub A",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "SR2198"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2026/bills/SR2198/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2026/bills/SR2198/logs/20260610T000000Z.classification.passage.upper.json"
+  },
+  "posted_text": "💰 RI SR2198 — RI to Study Blockchain & Crypto\n\nThe Rhode Island General Assembly is forming a 10-member commission to examine blockchain and cryptocurrency. The commission will issue a progress report in January 2027 and a final report by January 2028, concluding its work by February 2028.\n\nJune 10, 2026: Senate passed Sub A.\n\nLink to bill in reply.",
+  "posted_link": "https://webserver.rilegislature.gov/BillText26/SenateText26/S2198.htm",
+  "posted_url": "https://x.com/i/web/status/2075883613909127219"
+}
