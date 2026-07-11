@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "An increasing number of schools and workplaces are investing in implementing artificial intelligence (AI) technology and extended reality (XR) technology, including virtual reality and augmented reality, to effectively teach children and train employees. In schools, AI and XR technologies help provide immersive and personalized learning experiences that enhance student engagement, proficiency, and mastery in core subjects. Recent studies and surveys show that using AI and XR technologies in schools leads to better student outcomes, including improved academic performance, higher test scores, and increased motivation. And AI technology, like Khanmigo, supports educators by reducing administrative burdens and allowing educators to focus on student needs. This helps prevent burnout and reduce turnover rates. Therefore, investing in implementing these technologies in Delaware public schools will support Delaware’s educational priorities, including increasing literacy, STEM proficiency, and career readiness. \r\nThis Act establishes a 3-year pilot program, called the Artificial Intelligence and Extended Reality in Schools Pilot Program (Program), to invest in using AI and XR technologies to improve education in Delaware schools. The Program is administered by the Delaware Department of Education (DOE). The DOE shall provide funding and offer technical support for participating schools to procure and safely implement AI and XR products that improve student outcomes and engagement, support educators in meeting student needs, and reduce workloads and administrative burdens on educators. Within 180 days following the date of this Act’s enactment into law, the DOE must do all of the following: \r\n1. Invite up to 12 schools to participate in the program. The  schools selected must include 1 elementary school from each of the counties and from the City of Wilmington, 1 middle school from each of the counties and from the City of Wilmington, and 1 high school from each of the counties and from the City of Wilmington. \r\n2. Form a committee to study best practices in other states and countries for using AI and XR technologies in schools and review and recommend AI and XR products that best meet the needs of Delaware students and educators. The products recommended must safeguard data and follow state and federal guidelines for privacy and security. \r\n3. In collaboration with the Department of Technology & Information and the Delaware Department of Justice, finalize contracts to procure the recommended AI and XR products. Additionally, the DOE may consult with technology privacy and safety experts to make sure that the contracts meet privacy and safety requirements. \r\nSchools participating in the Program shall provide data that DOE and participating local education agencies consider necessary to help assess the Program’s effectiveness. The data may include certain quantitative, qualitative, and personalized metrics. The DOE shall prepare a final report that includes the data provided by the schools, the DOE’s analysis of the data, the DOE’s recommendations for improving the Program, and the DOE’s recommendation on whether the Program should be expanded or adjusted. The DOE shall submit the final report to the Governor, the General Assembly, and the Director and Librarian of the Division of Legislative Services prior to the meeting of the Delaware Legislative Oversight Committee. \r\nThis Act expires 3 years after the end of the 2026-2027 school year, unless extended by a subsequent action of the General Assembly.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 404",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO THE ARTIFICIAL INTELLIGENCE AND EXTENDED REALITY IN SCHOOLS PILOT PROGRAM."
+  },
+  "id": "HB 404",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported Out of Committee (Appropriations) in House with 5 On Its Merits",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-23",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Appropriations"
+        }
+      ],
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143513"
+        }
+      ]
+    },
+    "bill_id": "HB 404"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB404/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB404/logs/20260623T000000Z_reported_out_of_committee_appropriations_in_house_with_5_on_its_merits.json"
+  },
+  "timestamp": "20260623T000000Z"
+}

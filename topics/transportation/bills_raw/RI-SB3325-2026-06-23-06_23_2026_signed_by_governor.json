@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Authorizes the city of Pawtucket to issue not more than $2,500,000 general obligation bonds and notes to finance the improvement and replacement of road safety infrastructure and traffic control devices.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB3325",
+    "legislative_session": "2026",
+    "title": "AN ACT AUTHORIZING THE CITY OF PAWTUCKET TO PROVIDE FOR THE  IMPROVEMENT AND REPLACEMENT OF ROAD SAFETY INFRASTRUCTURE  AND TRAFFIC CONTROL DEVICES IN THE CITY OF PAWTUCKET AND AUTHORIZING THE FINANCING THEREOF, INCLUDING THE ISSUE OF NOT MORE THAN $2,500,000 BONDS AND NOTES THEREFOR, TO FUND THE CAPITAL IMPROVEMENT PROGRAM FOR THE TWO FISCAL YEARS 2028 AND 2029"
+  },
+  "id": "SB3325",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "06/23/2026 Signed by Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-06-23",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://status.rilegislature.gov/"
+        }
+      ]
+    },
+    "bill_id": "SB3325"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2026/bills/SB3325/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2026/bills/SB3325/logs/20260623T000000Z_06232026_signed_by_governor.json"
+  },
+  "timestamp": "20260623T000000Z"
+}

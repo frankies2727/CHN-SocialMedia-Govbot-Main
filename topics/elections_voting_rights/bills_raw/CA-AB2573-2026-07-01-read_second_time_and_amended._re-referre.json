@@ -1,0 +1,51 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Under existing law, the residence address, telephone number, and email address of a registered voter is confidential, except that under certain circumstances a county elections official must disclose that information to any candidate for federal, state, or local office, to any committee for or against any initiative or referendum measure, and to any person for election, scholarly, journalistic, political, or governmental purposes. Existing law exempts from that disclosure requirement the residence address, telephone number, and email address of a federal, state, or local elected official or candidate, unless the official or candidate opts out or the information is sought for bona fide journalistic or governmental purposes.\n\nThis bill would recast the provisions creating that exemption. The bill would permit the information of an elected official's immediate family member who lives at the same residence to be made confidential. For an elected official or candidate's residence address, telephone number, and email address to be confidential, the elected official or candidate would be required to make a written request to the county elections official, and a candidate would also need to qualify to appear on the ballot. The Secretary of State would be required to notify county elections officials when a state or federal candidate qualifies to appear on the ballot, and it would require county elections officials to notify the Secretary of State under certain circumstances if the confidential designation is added to, or removed from, a federal or state elected official or candidate's voter registration record. The Secretary of State and county elections officials would be required to implement the provisions creating the exemption immediately once the statewide voter registration database and county election management systems have made conforming changes, but the bill states that it does not authorize any reduction in current, ongoing implementation efforts. To the extent the bill imposes additional requirements on local elections officials, the bill imposes a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2573",
+    "legislative_session": "20252026",
+    "subject": [
+      "Voterregistrationinformation",
+      "electedofficialsandcandidates"
+    ],
+    "title": "Voter registration information: elected officials and candidates."
+  },
+  "id": "AB2573",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "reading-1",
+        "reading-2",
+        "referral-committee"
+      ],
+      "description": "Read second time and amended. Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-01",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2573"
+        }
+      ]
+    },
+    "bill_id": "AB2573"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2573/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2573/logs/20260701T000000Z_read_second_time_and_amended_rereferred_to_com_on_appr.json"
+  },
+  "timestamp": "20260701T000000Z"
+}
