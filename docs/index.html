@@ -468,12 +468,30 @@ function platformRank(key){
   if(k.includes("instagram")) return 2;
   return 3;
 }
+function platformShort(key){
+  const k=(key||"").toLowerCase();
+  if(k.includes("thread")) return "Threads";
+  if(k==="x"||k.startsWith("x-")||k.includes("twitter")) return "X";
+  if(k.includes("instagram")) return "Instagram";
+  return (P[key]&&P[key].name)||key;
+}
 function feedCardHTML(r){
   const t=T[r.topic]||{name:r.topic,emoji:"📄",color:"#888"};
-  return `<div class="fhead">`+
+  const head=`<div class="fhead">`+
       `<span class="facct"><span class="dot" style="background:${t.color}"></span>`+
       `<span class="tp">${esc(t.emoji)} ${esc(t.name)}</span></span>`+
-      `<span class="fdate">${esc(fmtDate(r.date))}</span></div>`+
+      `<span class="fdate">${esc(fmtDate(r.date))}</span></div>`;
+  // Posts made after the "save exactly as posted" change carry the verbatim
+  // text + links — show them just like the live Bluesky cards.
+  if(r.posted){
+    const links=[];
+    if(r.link) links.push(`<a href="${esc(r.link)}" target="_blank" rel="noopener">Read the full bill</a>`);
+    if(r.post_url) links.push(`<a href="${esc(r.post_url)}" target="_blank" rel="noopener">Open on ${esc(platformShort(r.platform))} ↗</a>`);
+    return head+`<div class="bptext">${esc(r.posted)}</div>`+
+      (links.length?`<div class="bpfoot">${links.join("")}</div>`:"");
+  }
+  // Older posts: reconstructed from the saved bill fields.
+  return head+
     `<div class="ftitle"><span class="em">${esc(t.emoji)}</span>`+
       `<span class="fbill">${esc(r.state)} ${esc(r.bill)}</span> — ${esc(r.title||"(untitled bill)")}</div>`+
     (r.summary?`<div class="fsum">${esc(r.summary)}</div>`:"")+

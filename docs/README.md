@@ -40,9 +40,15 @@ request).
 ## Meta Threads · X · Instagram posts
 
 These platforms don't offer a public feed API, so each has its own section built
-from the bill records the bot saves in that platform's `bills_raw/` folder (bill,
-a plain-language summary, and the dated action), newest first and filtered by the
-same controls. A post appears here once that detail has been committed to the repo.
+from the bill records the bot saves in that platform's `bills_raw/` folder, newest
+first and filtered by the same controls.
+
+The posting scripts now save each post **exactly as it was published** — the real
+headline, the "Read the full bill" link, and a link to the live post — so posts
+made from now on show the same rich card as Bluesky, including an **Open on
+X / Threads / Instagram** link. Posts made *before* this change fall back to the
+bill title + summary + action (no post link), since that exact text wasn't saved
+at the time.
 
 ## What's in here
 

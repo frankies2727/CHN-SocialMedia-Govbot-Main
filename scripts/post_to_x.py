@@ -24,6 +24,7 @@ import time
 from topic import load_active_topic
 from post_to_bluesky import (
     _FILENAME_UNSAFE_RE,
+    _stash_posted,
     _format_date,
     _normalize,
     _slug,
@@ -316,7 +317,8 @@ def build_client() -> tweepy.Client:
     )
 
 
-def post_tweet(client: tweepy.Client | None, text: str, reply_url: str = "") -> bool:
+def post_tweet(client: tweepy.Client | None, text: str, reply_url: str = "",
+               record: dict | None = None) -> bool:
     """Post the main tweet, then (if ``reply_url`` is given) post a reply
     containing just that URL. Returns True iff the main tweet was posted —
     a failed reply is logged but does not flip the result, so the bill is
@@ -330,7 +332,10 @@ def post_tweet(client: tweepy.Client | None, text: str, reply_url: str = "") -> 
     try:
         resp = client.create_tweet(text=text)
         tweet_id = resp.data["id"]
-        print(f"  posted: https://x.com/i/web/status/{tweet_id}")
+        post_url = f"https://x.com/i/web/status/{tweet_id}"
+        print(f"  posted: {post_url}")
+        if record is not None:
+            _stash_posted(record, post_url=post_url)
     except Exception as e:
         print(f" ! tweet failed: {e}", file=sys.stderr)
         if hasattr(e, 'response') and e.response is not None:
@@ -417,6 +422,7 @@ def _post_forced_bill(records: list[dict], client: tweepy.Client | None) -> int:
     budget = x_summary_budget(b, headline)
     summary_text = summarize(b, max_chars=budget) if budget >= MIN_SUMMARY_CHARS else ""
     text, url = compose_x_post(b, summary_text, headline=headline)
+    _stash_posted(b, text=text, link=url)
 
     print(f"\n--- {b['state'] or '?'} {b['identifier']} ({b['action_date']}) ---")
     print(text)
@@ -424,7 +430,7 @@ def _post_forced_bill(records: list[dict], client: tweepy.Client | None) -> int:
         print(f"  ↳ reply: {url}")
     print("---")
 
-    if not post_tweet(client, text, reply_url=url):
+    if not post_tweet(client, text, reply_url=url, record=b):
         return 1
 
     if SAVE_RAW:
@@ -630,6 +636,7 @@ def main() -> int:
         budget = x_summary_budget(b, headline)
         summary_text = summarize(b, max_chars=budget) if budget >= MIN_SUMMARY_CHARS else ""
         text, url = compose_x_post(b, summary_text, headline=headline)
+        _stash_posted(b, text=text, link=url)
 
         print(f"\n--- {b['state'] or '?'} {b['identifier']} ({b['action_date']}) ---")
         print(text)
@@ -637,7 +644,7 @@ def main() -> int:
             print(f"  ↳ reply: {url}")
         print("---")
 
-        if post_tweet(client, text, reply_url=url):
+        if post_tweet(client, text, reply_url=url, record=b):
             posted += 1
             if SAVE_STATE:
                 seen.add(b["dedup_key"])
