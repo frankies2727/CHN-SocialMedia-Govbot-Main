@@ -443,6 +443,52 @@ def _ig_permalink(media_id: str) -> str:
     return ""
 
 
+def _ig_latest_permalink(max_age_min: int = 20) -> str:
+    """Recover a post URL when we have no media id — e.g. after an "unconfirmed"
+    publish (subcode 2207085), where Instagram errors on publish but the post
+    actually goes out. Reads the account's most recent media and returns its
+    permalink, but ONLY if it was created within the last few minutes, so a
+    genuinely-failed publish can never mis-attribute an older post. Retries
+    briefly (the new media can take a moment to appear). Returns "" on failure;
+    never raises."""
+    err = ""
+    for attempt in range(3):
+        if attempt:
+            time.sleep(4)
+        try:
+            resp = requests.get(
+                f"{IG_API}/{INSTAGRAM_USER_ID}/media",
+                params={"fields": "permalink,timestamp", "limit": 1,
+                        "access_token": INSTAGRAM_ACCESS_TOKEN},
+                timeout=8,
+            )
+            resp.raise_for_status()
+            data = resp.json().get("data") or []
+            if not data:
+                err = "account has no media yet"
+                continue
+            link = (data[0].get("permalink") or "").strip()
+            ts = data[0].get("timestamp", "")
+            age = None
+            try:
+                dt = datetime.fromisoformat(ts.replace("Z", "+00:00"))
+                age = (datetime.now(timezone.utc) - dt).total_seconds() / 60
+            except Exception:
+                age = None
+            if link and (age is None or age <= max_age_min):
+                return link
+            if link and age is not None:
+                err = f"newest media is {age:.0f} min old — not this post"
+                break
+            err = "response had no 'permalink' field"
+        except Exception as e:
+            resp = getattr(e, "response", None)
+            err = (resp.text[:160] if resp is not None else str(e)[:160])
+    print(f"  IG latest-media permalink lookup failed ({err}) — 'Open on "
+          f"Instagram' link will be missing for this post.", file=sys.stderr)
+    return ""
+
+
 def post_to_instagram(image_url: str, caption: str, record: dict | None = None) -> bool:
     if DRY_RUN:
         print(f"  [DRY RUN] skipping Instagram post ({len(caption)} chars)")
@@ -455,11 +501,16 @@ def post_to_instagram(image_url: str, caption: str, record: dict | None = None) 
     if not media_id:
         return False
     if media_id == IG_PUBLISHED_UNCONFIRMED:
+        # Publish errored but the post likely went out, and we have no media id —
+        # recover the URL from the account's newest media.
         print("  treated as posted (unconfirmed publish) — counted against run cap.")
+        if record is not None:
+            _stash_posted(record, post_url=_ig_latest_permalink() or None)
         return True
     print(f"  posted to Instagram (media id {media_id})")
     if record is not None:
-        _stash_posted(record, post_url=_ig_permalink(media_id) or None)
+        # Query by media id; fall back to the newest-media lookup if that fails.
+        _stash_posted(record, post_url=(_ig_permalink(media_id) or _ig_latest_permalink()) or None)
     return True
 
 
