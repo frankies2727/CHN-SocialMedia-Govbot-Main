@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB592",
+    "legislative_session": "2026",
+    "title": "enabling regional, conservation, and energy resource planning for habitat strongholds and wildlife corridors and creating a commission to study transferring ownership of the Winnipesaukee River Basin program to an alternative authority."
+  },
+  "id": "SB592",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage"
+      ],
+      "description": "Enrolled Bill Amendment # 2026-2196e Adopted, VV, (In recess of 06/04/2026);  SJ 14",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-23",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=1373&inflect=2"
+        }
+      ]
+    },
+    "bill_id": "SB592"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB592/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB592/logs/20260623T000000Z_enrolled_bill_amendment_20262196e_adopted_vv_in_recess_of_06042026_sj_14.json"
+  },
+  "timestamp": "20260623T000000Z"
+}

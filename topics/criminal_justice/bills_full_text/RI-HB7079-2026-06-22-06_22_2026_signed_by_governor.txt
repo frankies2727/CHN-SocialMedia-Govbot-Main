@@ -1,0 +1,348 @@
+-- H 7079 SUBSTITUTE A
+========
+========
+
+STATE
+
+OF
+
+RHODE
+
+ISLAND
+
+IN GENERAL ASSEMBLY
+JANUARY SESSION, A.D. 2026
+____________
+
+AN ACT
+RELATING TO CRIMINAL PROCEDURE -- EXPUNGEMENT OF CRIMINAL RECORDS
+
+Introduced By: Representatives Craven, Biah, Cortvriend, Shanley, and O'Brien
+Date Introduced: January 14, 2026
+Referred To: House Judiciary
+
+It is enacted by the General Assembly as follows:
+
+SECTION 1. Sections 12-1.3-1, 12-1.3-2 and 12-1.3-3 of the General Laws in Chapter 121.3 entitled "Expungement of Criminal Records" are hereby amended to read as follows:
+
+12-1.3-1. Definitions.
+
+For purposes of this chapter only, the following definitions apply:
+
+(1) “Crime of violence” includes murder, manslaughter, first-degree arson, kidnapping
+
+with intent to extort, robbery, larceny from the person, first-degree sexual assault, second-degree
+
+sexual assault, first- and second-degree child molestation, assault with intent to murder, assault
+
+with intent to rob, assault with intent to commit first-degree sexual assault, burglary, and entering
+
+a dwelling house with intent to commit murder, robbery, sexual assault, or larceny.
+
+(2) “Expungement of records and records of conviction” means the sealing and retention
+
+of all records of a conviction and/or probation and the removal from active files of all records and
+
+information relating to conviction and/or probation.
+
+(3) “First offender” means a person who has been convicted of a felony offense or a
+
+misdemeanor offense, and who has not been previously convicted of or placed on probation for a
+
+felony or a misdemeanor and against whom there is no criminal proceeding pending in any court.
+
+(4) “Law enforcement agency” means a state police organization of this or any other state;
+
+the enforcement division of the department of environmental management; the office of the state
+
+fire marshal; the capitol police; a law enforcement agency of the federal government; and any
+
+agency, department, or bureau of the United States government that has as one of its functions the
+
+gathering of intelligence data.
+
+(5) “Misdemeanor” includes, but is not limited to, those crimes previously classified as
+
+felonies under law at the time the original sentence was imposed but reclassified by the general
+
+assembly as a misdemeanor in the interim, prior to the time the motion to expunge is brought.
+
+(6) “Other prohibited offenses” include:
+
+(i) § 11-5-4 ("assault with dangerous weapon in dwelling house");
+
+(ii) § 11-5-10.1 ("assault on persons sixty (60) years or older causing serious bodily
+
+injury");
+(iii) § 11-5-10.2 ("assault on a person with severe impairments causing serious bodily
+injury");
+(iv) § 11-5-10.4 ("assault on persons sixty (60) years of age or older by a caretaker causing
+serious bodily injury");
+
+(v) § 11-5-14.1 ("assault on a child in care of DCYF causing serious bodily injury");
+
+(vi) § 11-5-14.2 ("battery by an adult upon child ten (10) years of age or younger causing
+
+serious bodily injury");
+
+(vii) § 11-9-5 ("cruelty to or neglect of child");
+
+(viii) § 11-9-5.3 ("child abuse -- Brendan's law");
+
+(ix) § 11-9-5.4 ("child endangerment");
+
+(x) § 11-37.1-2(f) ("criminal offense against a victim who is a minor");
+
+(xi) Chapter 47 of title 11 ("weapons");
+
+(xii) Chapter 67.1 of title 11 ("uniform act on prevention of and remedies for human
+
+trafficking");
+
+(xiii) § 31-26-1(d) ("duty to stop in accidents resulting in personal injury");
+
+(xiv) § 31-27-1 ("driving so as to endanger, resulting in death");
+
+(xv) § 31-27-2.2 ("driving under the influence of liquor or drugs, resulting in death").
+
+(6)(7) “Records” and “records of conviction and/or probation” include all court records, all
+
+records in the possession of any state or local police department, the bureau of criminal
+
+identification, and the probation department, including, but not limited to, any fingerprints,
+
+photographs, physical measurements, or other records of identification. The terms “records” and
+
+LC003887/SUB A - Page 2 of 7
+
+“records of conviction and/or probation” do not include the records and files of the department of
+
+attorney general which are not kept by the bureau of criminal identification in the ordinary course
+
+of the bureau’s business.
+
+12-1.3-2. Motion for expungement.
+
+(a) Any person who is a first offender may file a motion for the expungement of all records
+
+and records of conviction for a felony or misdemeanor by filing a motion in the court in which the
+
+conviction took place; provided, that no person who has been convicted of a crime of violence shall
+
+have his or her records and records of conviction expunged; and provided, that all outstanding
+
+court-imposed or court-related fees, fines, costs, assessments, charges, and/or any other monetary
+
+obligations have been paid, unless such amounts are reduced or waived by order of the court.
+
+(b) Notwithstanding § 12-1.3-1(3) (“first offender”), any person who has been convicted
+
+of more than one misdemeanor, but fewer than six (6) misdemeanors, and has not been convicted
+
+of a felony, which is a crime of violence or other prohibited offenses, as defined in this chapter,
+
+may file a motion for the expungement of any or all of those misdemeanors by filing a motion in
+
+the court in which the convictions took place; provided that convictions for offenses under chapter
+
+of title 12, § 31-27-2 or § 31-27-2.1 are not eligible for and may not be expunged under this
+
+subsection.
+
+(c) Notwithstanding § 12-1.3-1(3) (“first offender”), any person who has been convicted
+
+of more than one felony, but fewer than five (5) felonies, and has not been convicted of a crime of
+
+violence, or other prohibited offenses, may file a motion for the expungement of any or all of those
+
+felonies by filing a motion in the court in which the convictions took place; provided that,
+
+convictions for offenses under chapter 29 of title 12, § 31-27-2 or § 31-27-2.1, crimes of violence
+
+and other prohibited offenses are not eligible for and may not be expunged under this subsection.
+
+Said person shall not be eligible to expunge the remainder of felony offenses otherwise not
+
+prohibited after a successful expungement subject to other provisions of this section.
+
+(c)(d) Subject to subsection (a), a person may file a motion for the expungement of records
+
+relating to a misdemeanor conviction after five (5) years from the date of the completion of his or
+
+her sentence.
+
+(d)(e) Subject to subsection (a), a person may file a motion for the expungement of records
+
+relating to a felony conviction after ten (10) years from the date of the completion of his or her
+
+sentence.
+
+(e)(f) Subject to § 12-19-19(c), and without regard to subsections (a) through (c) of this
+
+section, a person may file a motion for the expungement of records relating to a deferred sentence
+
+upon its completion, after which the court will hold a hearing on the motion.
+
+LC003887/SUB A - Page 3 of 7
+
+(f)(g) Subject to subsection (b) of this section, a person may file a motion for the
+
+expungement of records relating to misdemeanor convictions after ten (10) years from the date of
+
+the completion of their last sentence.
+
+(h) Subject to subsection (c) of this section, a person may file a motion for the expungement
+
+of records relating to felony convictions after fifteen (15) years from the date of the completion of
+
+their last sentence.
+
+(g)(i) Notwithstanding the provisions of subsections (a) through (f) of this section, a person
+
+may file a motion for the expungement of records related to an offense that has been decriminalized
+
+subsequent to the date of their conviction, after which the court will hold a hearing on the motion
+
+in the court in which the original conviction took place.
+
+12-1.3-3. Motion for expungement — Notice — Hearing — Criteria for granting.
+
+(a) Any person filing a motion for expungement of the records of his or her conviction
+
+pursuant to § 12-1.3-2 shall give notice of the hearing date set by the court to the department of the
+
+attorney general and the police department that originally brought the charge against the person at
+
+least ten (10) days prior to that date.
+
+(b) The court, after the hearing at which all relevant testimony and information shall be
+
+considered, may, in its discretion, order the expungement of the records of conviction of the person
+
+filing the motion if it finds:
+
+(1)(i) That in the five (5) years preceding the filing of the motion, if the conviction was for
+
+a misdemeanor, or in the ten (10) years preceding the filing of the motion, if the conviction was for
+
+a felony, the petitioner has not been convicted nor arrested for any felony or misdemeanor; there
+
+are no criminal proceedings pending against the person; that the person does not owe any
+
+outstanding court-imposed or court-related fees, fines, costs, assessments, or charges, unless such
+
+amounts are reduced or waived by order of the court; and he or she has exhibited good moral
+
+character;
+
+(ii) That after a hearing held under the provisions of § 12-19-19(c), the court finds that the
+
+person has complied with all of the terms and conditions of the deferral agreement including, but
+
+not limited to, the payment in full of any court-ordered fines, fees, costs, assessments, and
+
+restitution to victims of crimes; there are no criminal proceedings pending against the person; and
+
+he or she has established good moral character. Provided, that no person who has been convicted
+
+of a crime of violence shall have their records relating to a deferred sentence expunged; or
+
+(iii) Subject only to §§ 12-1.3-2(b) and (f)(g), that in the ten (10) years preceding the filing
+
+of the motion, if the convictions were for multiple misdemeanors, the petitioner has not been
+
+convicted nor arrested for any felony or misdemeanor; there are no criminal proceedings pending
+
+LC003887/SUB A - Page 4 of 7
+
+against the person; and they have exhibited good moral character; and, provided that convictions
+
+for offenses under chapter 29 of title 12, § 31-27-2 or § 31-27-2.1 are not eligible and may not be
+
+expunged under this subsection.; or
+
+(iv) Subject only to §§ 12-1.3-2 (c) and (h), that in the fifteen (15) years preceding the
+
+filing of the motion, if the convictions were for multiple felonies, the petitioner has not been
+
+convicted nor arrested for any felony or misdemeanor; there are no criminal proceedings pending
+
+against the person; and they have exhibited good character; and, provided that, convictions for
+
+offenses under chapter 29 of title 12, § 31-27-2 or § 31-27-2.1, crimes of violence and other
+
+prohibited offenses are not eligible and may not be expunged under this subsection.
+
+(2) That the petitioner’s rehabilitation has been attained to the court’s satisfaction and the
+
+expungement of the records of his or her conviction is consistent with the public interest. The
+
+hearing judge may consider the person’s background, employment, community ties and
+
+involvement in their community and other relevant considerations. No one factor that the hearing
+
+judge considers shall be determinative; provided, however, the judge may consider the person’s
+
+overall rehabilitative progress since their conviction.
+
+(c) If the court grants the motion, it shall order all records and records of conviction relating
+
+to the conviction expunged and all index and other references to it removed from public inspection.
+
+A copy of the order of the court shall be sent to any law enforcement agency and other agency
+
+known by either the petitioner, the department of the attorney general, or the court to have
+
+possession of the records. Compliance with the order shall be according to the terms specified by
+
+the court.
+
+(d) The defendant shall be advised at the hearing that any and all bail money relating to a
+
+case that remains on deposit and is not claimed at the time of expungement shall be escheated to
+
+the state’s general treasury in accordance with chapter 12 of title 8.
+
+(e) In cases of expungement sought pursuant to § 12-1.3-2(g) 12-1.3-2(i), the court shall,
+
+after a hearing at which it finds that all conditions of the original criminal sentence have been
+
+completed, and any and all fines, fees, and costs related to the conviction have been paid in full,
+
+order the expungement without cost to the petitioner. At the hearing, the court may require the
+
+petitioner to demonstrate that the prior criminal conviction would qualify as a decriminalized
+
+offense under current law. The demonstration may include, but is not limited to, an affidavit signed
+
+by the petitioner attesting to the fact that the prior conviction qualifies as a decriminalized offense
+
+under current Rhode Island law.
+
+LC003887/SUB A - Page 5 of 7
+
+SECTION 2. This act shall take effect upon passage.
+========
+========
+
+LC003887/SUB A - Page 6 of 7
+
+EXPLANATION
+BY THE LEGISLATIVE COUNCIL
+OF
+AN ACT
+RELATING TO CRIMINAL PROCEDURE -- EXPUNGEMENT OF CRIMINAL RECORDS
+
+***
+
+This act would permit those individuals convicted of multiple felonies and misdemeanors
+
+to have their records expunged and provide criteria for the court to consider in determining whether
+
+the person is of good character.
+
+This act would take effect upon passage.
+========
+========
+
+LC003887/SUB A - Page 7 of 7

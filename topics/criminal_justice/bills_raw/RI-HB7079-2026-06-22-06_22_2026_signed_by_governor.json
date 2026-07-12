@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Permits those individuals convicted of multiple felonies and misdemeanors to have their records expunged and provides criteria for the court to consider in determining whether the person is of good character.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB7079",
+    "legislative_session": "2026",
+    "title": "AN ACT RELATING TO CRIMINAL PROCEDURE -- EXPUNGEMENT OF CRIMINAL RECORDS"
+  },
+  "id": "HB7079",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-06-22",
+      "description": "06/22/2026 Signed by Governor",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "HB7079"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2026/bills/HB7079/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2026/bills/HB7079/logs/20260622T000000Z_06222026_signed_by_governor.json"
+  },
+  "timestamp": "20260622T000000Z"
+}

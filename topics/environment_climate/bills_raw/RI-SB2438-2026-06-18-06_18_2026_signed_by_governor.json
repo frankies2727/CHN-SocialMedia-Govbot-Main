@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Amends certain provisions relative to school waste recycling and refuse disposal and requires reports of waste audits by educational entities and reports of program participation by vendors.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB2438",
+    "legislative_session": "2026",
+    "title": "AN ACT RELATING TO EDUCATION -- SCHOOL WASTE RECYCLING AND REFUSE DISPOSAL"
+  },
+  "id": "SB2438",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-06-18",
+      "description": "06/18/2026 Signed by Governor",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "SB2438"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2026/bills/SB2438/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2026/bills/SB2438/logs/20260618T000000Z_06182026_signed_by_governor.json"
+  },
+  "timestamp": "20260618T000000Z"
+}
