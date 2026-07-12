@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Creates additional safety features for AI companion technology that include addressing suicidal ideation, potential physical harm or financial harm to others expressed by a user. It also requires notification the AI companion does not have human emotions.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB7350",
+    "legislative_session": "2026",
+    "title": "AN ACT RELATING TO COMMERCIAL LAW--GENERAL REGULATORY PROVISIONS -- ARTIFICIAL INTELLIGENCE COMPANION MODELS"
+  },
+  "id": "HB7350",
+  "log": {
+    "action": {
+      "classification": [
+        "passage"
+      ],
+      "date": "2026-06-10",
+      "description": "06/10/2026 Senate passed Sub A as amended in concurrence",
+      "organization_id": "~{\"classification\": \"upper\"}"
+    },
+    "bill_id": "HB7350"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2026/bills/HB7350/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2026/bills/HB7350/logs/20260610T000000Z.classification.passage.upper.json"
+  },
+  "posted_text": "🧠 RI H7350 — Rhode Island Mandates Safety Features for AI Companions\n\nThis law requires AI companion models to incorporate safeguards against suicidal thoughts, physical harm, or financial harm suggested by users, and necessitates clear disclosure that the AI lacks human emotions. The new rules take effect immediately.\n\nJune 10, 2026: Senate passed Sub A as amended in concurrence.\n\nLink to bill in reply.",
+  "posted_link": "https://webserver.rilegislature.gov/BillText26/HouseText26/H7350.htm",
+  "posted_url": "https://x.com/i/web/status/2076248587856691216"
+}
