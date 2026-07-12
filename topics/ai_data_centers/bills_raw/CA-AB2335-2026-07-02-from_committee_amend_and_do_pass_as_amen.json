@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "(1) The Unclaimed Property Law (UPL) prescribes the circumstances under which intangible property, including digital financial assets, escheats to the state, including how and when apparent owners must be notified that their property is at risk of escheating and the manner in which escheated property must be delivered to the State Controller. Existing law also requires that business associations holding a financial asset that is potentially subject to escheatment provide notice to the owners of that asset as specified.\n\nThis bill would establish mechanisms for the management of digital financial assets, as defined, that escheat to the state. The bill would create the Digital Asset Claims Reserve Account and the Digital Asset Reserve Fund for these purposes. The bill would require the Controller to hold an escheated digital financial asset in its native form no earlier than 18 months and no later than 20 months after it is reported to the Controller by the holder of the asset, and, if it is not claimed by the owner within that time, to liquidate the asset and deposit the net proceeds in the Digital Asset Claims Reserve Account. The bill would require the Treasurer to invest moneys in the Digital Asset Claims Reserve Account pursuant to the Treasurer's existing authority to invest surplus money. The bill would require the Controller to transfer all interest, earnings, and investment income credited to the Digital Asset Claims Reserve Account to the Digital Asset Reserve Fund on a quarterly basis. The bill would create the Digital Asset Reserve Board, which would be assigned specified tasks relating to administration of the Digital Asset Reserve Fund, including establishing investment policies to be followed by the Controller when investing moneys in the fund by converting them into high-quality digital assets. The bill would authorize the Controller to take specified actions related to digital financial assets and would require the Controller to publish a quarterly report, as specified. Under the bill, a person who makes a valid claim before the disposition of the digital financial assets is entitled to receive the digital financial assets in their native form or in fiat currency, as specified, or in cash if the digital financial assets were liquidated. The bill would authorize the Controller to use assets within the Digital Asset Reserve Fund to pay for the administration and management of the fund, thereby making an appropriation.\n\n(2) Under existing law, a person holding funds or other property escheated to the state must file a report with the Controller and pay or deliver the escheated property to the Controller within a specified time, unless another person establishes their right to the property. Existing law requires any payment to the Controller of at least $2,000 in unclaimed cash to be made by electronic funds transfer.\n\nThe bill would permit the Controller to direct the holder of a digital financial asset to sell or to otherwise liquidate the digital financial asset and deliver the net proceeds in lieu of the native digital financial asset, as specified. The bill would require a holder of funds or other property escheated to the state that is directed to sell or liquidate the digital financial asset to do so for no less than the prevailing market price of the digital financial asset at the time of sale.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2335",
+    "legislative_session": "20252026",
+    "subject": [
+      "Unclaimedproperty",
+      "digitalfinancialassets"
+    ],
+    "title": "Unclaimed property: digital financial assets."
+  },
+  "id": "AB2335",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-introduction",
+        "amendment-passage",
+        "committee-passage",
+        "referral-committee"
+      ],
+      "description": "From committee: Amend, and do pass as amended and re-refer to Com. on APPR. (Ayes 12. Noes 0.) (June 30).",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-02",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2335"
+        }
+      ]
+    },
+    "bill_id": "AB2335"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2335/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2335/logs/20260702T000000Z_from_committee_amend_and_do_pass_as_amended_and_rerefer_to_com_on_appr_ayes_12_noes_0_june_30.json"
+  },
+  "timestamp": "20260702T000000Z"
+}

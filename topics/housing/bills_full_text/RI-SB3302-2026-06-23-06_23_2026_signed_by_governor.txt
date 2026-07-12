@@ -1,0 +1,3781 @@
+-- S 3302
+========
+========
+
+STATE
+
+OF
+
+RHODE
+
+ISLAND
+
+IN GENERAL ASSEMBLY
+JANUARY SESSION, A.D. 2026
+____________
+
+AN ACT
+RELATING TO COURTS AND CIVIL PROCEDURE--COURTS -- SUPERIOR COURT
+
+Introduced By: Senator Jacob Bissaillon
+Date Introduced: May 15, 2026
+Referred To: Senate Housing & Municipal Government
+
+It is enacted by the General Assembly as follows:
+
+SECTION 1. Section 8-2-40 of the General Laws in Chapter 8-2 entitled "Superior Court"
+
+is hereby amended to read as follows:
+
+8-2-40. Land use calendar.
+
+(a) Findings and declarations. The general assembly finds and declares that:
+
+(1) There are significant delays in the development permitting process in the State of Rhode
+
+Island which results in lost opportunity for the needed development of housing units and
+
+commercial development to neighboring states.
+
+(2) Contributing to the delay were lengthy administrative appeals to local and state boards
+prior to appeals to superior court.
+(3) Previous legislation amended the appeal process in most cases to provide a direct right
+of appeal to superior court.
+
+(4) Landowners, applicants, municipalities, and abutters are entitled to decisions with
+
+respect to ordinances, regulations, decisions regarding property rights and interests that do not
+
+require years of costly appeals and litigation.
+
+(5) There is a need for uniform treatment of such matters, and related matters that are
+statutorily provided with priority on the judicial calendar and expedited for decision.
+
+(b) Establishment. To accomplish this purpose in an effort to minimize delay in the
+
+processing of land use matters in superior court, effective January 1, 2024, there shall be established
+
+a separate calendar for the administration and determination of all land use matters.
+
+(c) Land use calendar. The presiding judge of the superior court shall create a land use
+
+calendar in superior court and shall assign personnel to the extent warranted to exclusively hear
+
+and decide all eligible land use matters, and the calendar shall be referred to as the “land use
+
+calendar.” Cases eligible for the land use calendar shall include appeals under §§ 45-22.2-9.1, 45-
+
+23-71, 45-23-72, 45-24-69, 45-24-71; 45-24.4-16, 45-24.6-9, 45-53-5; and 45-53-5.1. Any party
+
+may request a conference to seek assignment to the land use calendar, and acceptance of any matter
+
+in addition to the sections listed above shall be at the discretion of the judge(s) assigned to the
+
+calendar.
+
+(d) Timing. All matters assigned to the land use calendar shall be expedited. All An order
+
+establishing a briefing schedule shall enter which allows appellees a response to appellants
+
+memorandum, and may allow appellants a reply, but shall ensure, to the maximum extent possible,
+
+that all memoranda from all interested parties in an appeal assigned to the calendar shall be
+
+completed filed within sixty (60) days of the filing of the certified record. No continuances or
+
+postponements shall be granted except for good cause shown. Such continuances as are necessary
+
+shall be granted for the shortest practicable time.
+
+(e) Use of section. Under no circumstances shall any party be permitted to utilize this
+
+section as a basis for dismissal of an action, as this section is enacted for the benefit and
+
+convenience of the superior court.
+
+SECTION 2. Sections 45-22.2-2, 45-22.2-5 and 45-22.2-13 of the General Laws in Chapter
+
+45-22.2 entitled "Rhode Island Comprehensive Planning and Land Use Act" are hereby amended
+
+to read as follows:
+
+45-22.2-2. Status of comprehensive plans; relation to other statutes.
+
+(a) All lawfully adopted comprehensive plans shall remain in full force and effect but shall
+
+be brought into conformance with this chapter prior to July 1, 2017.
+(b) Nothing contained in this chapter is construed to supersede or diminish any regulatory
+or planning authority granted or delegated to a state agency by state or federal statute.
+(c) All lawfully adopted comprehensive plans shall be consistent with the provisions of this
+chapter as well as chapters 23 and 24 of this title.
+
+45-22.2-5. Formulation of comprehensive plans by cities and towns.
+
+(a) The comprehensive plan is a statement (in text, maps, illustrations, or other media of
+
+communication) that is designed to provide a basis for rational decision making regarding the long-
+
+term physical development of the municipality. The definition of goals and policies relative to the
+
+distribution of future land uses, both public and private, forms the basis for land use decisions to
+
+guide the overall physical, economic, and social development of the municipality.
+
+LC006439 - Page 2 of 57
+
+(b) There is established a program of local comprehensive planning to address the findings
+
+and intent and accomplish the goals of this chapter. Rhode Island’s cities and towns, through the
+
+exercise of their power and responsibility pursuant to the general laws, including this chapter and
+
+chapters 23 and 24 of this title, any applicable articles of the Rhode Island Constitution, and subject
+
+to the express limitations and requirements of this chapter, as well as chapters 23 and 24 of this
+
+title, shall prepare, adopt, amend, and maintain comprehensive plans, including implementation
+
+programs, that relate development to land capacity, protect our natural resources, promote a balance
+
+of housing choices, encourage economic development, preserve and protect our open space,
+
+recreational, historic and cultural resources, provide for orderly provision of facilities and services
+
+and are consistent with the goals, findings, intent, and other provisions of this chapter and the laws
+
+of the state.
+
+(c) Each municipality shall ensure that its zoning ordinance and map are consistent with its
+comprehensive plan.
+(d) Each municipality shall submit to the chief, as provided for in §§ 45-22.2-9 and 4522.2-12 and the rules promulgated by the state planning council:
+
+(1) Its locally adopted comprehensive plan;
+
+(2) Any amendment to its comprehensive plan;
+
+(3) An informational report on the status of its implementation programs; and
+
+(4) Its zoning ordinance text and generalized zoning map or maps.
+
+45-22.2-13. Compliance and implementation.
+
+(a) The municipality is responsible for the administration and enforcement of the plan.
+
+(b) All municipal land use decisions shall be in conformance with the locally adopted
+
+municipal comprehensive plan subject to § 45-22.2-12(b).
+
+(c) Each municipality shall amend its zoning ordinance and map to conform to the
+
+comprehensive plan in accordance with the implementation program as required by § 45-22.2-
+
+6(b)(11) and § 45-22.2-6(b)(12)(iv). The zoning ordinance and map in effect at the time of plan
+
+adoption shall remain in force until amended. Except with respect to comprehensive plans that have
+
+failed to be updated within twelve (12) years, as set forth in § 45-22.2-6(b)(11), in instances where
+
+the zoning ordinance is in conflict with an adopted comprehensive plan, the zoning ordinance in
+
+effect at the time of the comprehensive plan adoption shall direct municipal land use decisions until
+
+such time as the zoning ordinance is amended to achieve consistency with the comprehensive plan
+
+and its implementation schedule. In instances of uncertainty in the internal construction or
+
+application of any section of the zoning ordinance or map, the ordinance or map shall be construed
+
+in a manner that will further the implementation of, and not be contrary to, the goals and policies
+
+LC006439 - Page 3 of 57
+
+and applicable content of the adopted comprehensive plan.
+(d) Limitations on land use applications, review, and approvals may be imposed according
+to only the following provisions:
+
+(1) Nothing in the chapter shall be deemed to preclude municipalities from imposing
+
+reasonable limitations on the number of building permits or other land use approvals to be issued
+
+at any time, provided such limitations are consistent with the municipality’s comprehensive plan
+
+in accordance with this chapter and are based on a reasonable, rational assessment of the
+
+municipality’s sustainable capacity for growth. If such limitation is applied to residential building
+
+permits, the limitation must be vital to protecting public health and welfare and it must be
+
+demonstrated that there is no other means available to protect public health and welfare given the
+
+need for additional housing units in the community. No such limitation shall be applicable to
+
+applications submitted as part of a comprehensive permit project under § 45-53-4 or units to be
+
+developed under inclusionary zoning.
+
+(2) In the event of a dire emergency not reasonably foreseeable as part of the
+
+comprehensive planning process, a municipality may impose a limitation on the number of building
+
+permits or other land use approvals to be issued at any time, provided that such limitation is
+
+reasonably necessary to alleviate the emergency and is limited to the time reasonably necessary to
+
+alleviate the emergency, but in no event shall such limitation be in place longer than one hundred
+
+twenty (120) days.
+
+(e) A one-time moratorium, for the purpose of providing interim protection for a planned
+
+future land use or uses, may be imposed during the twelve (12) months subsequent to the adoption
+
+of the local comprehensive plan provided that a change to the zoning ordinance and map has been
+
+identified and scheduled for implementation within twelve (12) months of plan adoption. The
+
+moratorium shall be enacted as an ordinance and may regulate, restrict, or prohibit any use,
+
+development, or subdivisions under the following provisions:
+
+(1) The moratorium is restricted to those areas identified on the map or maps as required
+by § 45-22.2-6(b)(2)(iii).
+(2) A notice of the moratorium must be provided by first class mail to property owners
+affected by said moratorium at least fourteen (14) days in advance of the public hearing.
+
+(3) The ordinance shall specify:
+
+(i) The purpose of the moratorium;
+
+(ii) The date it shall take effect and the date it shall end;
+
+(iii) The area covered by the moratorium; and
+
+(iv) The regulations, restrictions, or prohibitions established by the moratorium.
+
+LC006439 - Page 4 of 57
+
+(4) The moratorium may be extended up to an additional ninety (90) days if necessary to
+
+complete a zoning ordinance and map change provided that: (i) The public hearing as required by
+
+§ 45-24-53 has commenced; and (ii) The chief approves the extension based on a demonstration of
+
+good cause. Said extension shall not be deemed as non-conformance to the implementation
+
+schedule.
+
+(f) A moratorium enacted under the provisions of subsection (e) of this section shall not
+
+apply to state agencies until such time that the municipal comprehensive plan receives approval
+
+from the chief or superior court.
+
+(g) For a moratorium enacted under the provisions of subsection (e) of this section, in the
+
+event a municipality fails to amend its zoning ordinance and map to conform to the comprehensive
+
+plan within the implementation schedule, or by the expiration of the moratorium period, a
+
+municipality must amend either their implementation schedule or, if the future land use is no longer
+
+desirable or feasible, amend the future land use map.
+
+(1) Failure to comply with this provision within one hundred twenty (120) days of the date
+
+of the implementation schedule or the expiration of the moratorium period shall result in the denial
+
+or rescission, in whole or in part, of state approval of the comprehensive plan and of all benefits
+
+and incentives conditioned on state approval.
+
+(2) An implementation schedule amended under this provision shall not be eligible for an
+additional moratorium as provided for in subsection (e) of this section.
+
+(h) For any moratorium related to the submission, review, or approval of any land use
+
+application for residential housing development, other than that covered by subsection (e) of this
+
+section, such moratorium must be vital to protecting public health and welfare and it must be
+
+demonstrated that there is no other means available to protect public health and welfare given the
+
+need for additional housing units in the community. No such limitation moratorium shall be
+
+applicable to applications submitted as part of a comprehensive permit project under § 45-53-4, or
+
+nor shall it be applicable to units to be developed under inclusionary zoning. The proposal for such
+
+moratorium shall be advertised in a newspaper of local circulation at least fourteen (14) days in
+
+advance of the hearing and shall be posted on the municipal website for the fourteen (14) days in
+
+advance of the hearing on the same. A moratorium under this provision shall not last for longer
+
+than one hundred twenty (120) days. A moratorium under this provision must include a vesting
+
+provision that vests all applications that are substantially complete at the time of the enactment of
+
+the moratorium.
+
+SECTION 3. Sections 45-23-32, 45-23-35, 45-23-37, 45-23-38, 45-23-50.1, 45-23-60 and
+
+45-23-71 of the General Laws in Chapter 45-23 entitled "Subdivision of Land" are hereby amended
+
+LC006439 - Page 5 of 57
+
+to read as follows:
+
+45-23-32. Definitions.
+
+Where words or phrases used in this chapter are defined in the definitions section of either
+
+the Rhode Island Comprehensive Planning and Land Use Regulation Act, § 45-22.2-4, or the Rhode
+
+Island Zoning Enabling Act of 1991, § 45-24-31, they have the meanings stated in those acts.
+
+Additional words and phrases may be defined in local ordinances, regulations, and rules under this
+
+act in a manner that does not conflict or alter the terms or mandates in this act, the Rhode Island
+
+Comprehensive Planning and Land Use Regulation Act § 45-22.2-4, and the Rhode Island Zoning
+
+Enabling Act of 1991. The words and phrases defined in this section, however, shall be controlling
+
+in all local ordinances, regulations, and rules created under this chapter. In addition, the following
+
+words and phrases have the following meanings:
+
+(1) Administrative officer. The municipal official(s) designated by the local regulations
+
+to administer the land development and subdivision regulations to review and approve qualified
+
+applications and/or coordinate with local boards and commissions, municipal staff, and state
+
+agencies as set forth herein. The administrative officer may be a member, or the chair, of the
+
+planning board, an employee of the municipal planning or zoning departments, or an appointed
+
+official of the municipality. See § 45-23-55.
+
+(2) Board of appeal. The local review authority for appeals of actions of the administrative
+
+officer, which shall be the local zoning board of review constituted as the board of appeal. See §
+
+45-23-57.
+
+(3) Bond. See improvement guarantee.
+
+(4) Buildable lot. A lot where construction for the use(s) permitted on the site meeting the
+
+requirements under the local zoning ordinance is considered practicable by the planning board,
+
+considering the physical constraints to development of the site, or having obtained relief therefrom,
+
+as well as the requirements of the pertinent applicable federal, state, and local regulations. See §
+
+45-23-60(a)(4).
+
+(5) Certificate of completeness. A notice issued by the administrative officer informing
+
+an applicant that the application is complete and meets the requirements of the municipality’s
+
+regulations, and that the applicant may proceed with the review process.
+
+(6) Concept plan. A drawing with accompanying information showing the basic elements
+
+of a proposed land development plan or subdivision as used for pre-application meetings and early
+
+discussions, and classification of the project within the approval process.
+
+(7) Consistency with the comprehensive plan. A requirement of all local land use
+
+regulations which means that all these regulations and subsequent actions are in accordance with
+
+LC006439 - Page 6 of 57
+
+the public policies arrived at through detailed study and analysis and adopted by the municipality
+
+as the comprehensive community plan as specified in § 45-22.2-3.
+
+(8) Dedication, fee-in-lieu-of. Payments of cash that are authorized in the local regulations
+
+when requirements for mandatory dedication of land are not met because of physical conditions of
+
+the site or other reasons. The conditions under which the payments will be allowed and all formulas
+
+for calculating the amount shall be specified in advance in the local regulations. See § 45-23-47.
+
+(9) Development plan review. Design or site plan review of a development of a permitted
+
+use. A municipality may utilize development plan review under limited circumstances to encourage
+
+development to comply with design and/or performance standards of the community under specific
+
+and objective guidelines, for the following categories of developments:
+
+(i) A change in use at the property where no extensive construction of improvements is
+sought;
+(ii) An adaptive reuse project located in a commercial zone where no extensive exterior
+construction of improvements is sought;
+(iii) An adaptive reuse project located in a residential zone that results in less than nine (9)
+residential units;
+
+(iv) Development in a designated urban or growth center; or
+
+(v) Institutional development for educational or hospital facilities.
+
+(vi) [Deleted by P.L. 2024, ch. 292, § 1 and P.L. 2024, ch. 293, § 1.]
+
+(10) Development regulation. Zoning, subdivision, land development plan, development
+
+plan review, historic district, official map, flood plain regulation, soil erosion control, or any other
+
+governmental regulation of the use and development of land.
+
+(11) Division of land. A subdivision.
+
+(12) Environmental constraints. Natural features, resources, or land characteristics that
+
+are sensitive to change and may require conservation measures or the application of special
+
+development techniques to prevent degradation of the site, or may require limited development, or
+
+in certain instances, may preclude development. See also physical constraints to development.
+
+(13) Final plan. The final stage of land development and subdivision review or a formal
+development plan review application. See §§ 45-23-38, 45-23-39, and 45-23-50.
+
+(14) Final plat. The final drawing(s) of all or a portion of a subdivision to be recorded after
+
+approval by the planning board and any accompanying material as described in the community’s
+
+regulations and/or required by the planning board.
+
+(15) Floor area, gross. See R.I. State Building Code.
+
+(16) Governing body. The body of the local government, generally the city or town
+
+LC006439 - Page 7 of 57
+
+council, having the power to adopt ordinances, accept public dedications, release public
+
+improvement guarantees, and collect fees.
+
+(17) Improvement. Any natural or built item that becomes part of, is placed upon, or is
+affixed to, real estate.
+
+(18) Improvement guarantee. A security instrument accepted by a municipality to ensure
+
+that all improvements, facilities, or work required by the land development and subdivision
+
+regulations, or required by the municipality as a condition of approval, will be completed in
+
+compliance with the approved plans and specifications of a development. See § 45-23-46.
+
+(19) Land development project. A project in which one or more lots, tracts, or parcels of
+
+land or a portion thereof are developed or redeveloped as a coordinated site for one or more uses,
+
+units, or structures, including but not limited to, planned development or cluster development for
+
+residential, commercial, institutional, recreational, open space, or mixed uses. The local regulations
+
+shall include all requirements, procedures, and standards necessary for proper review and approval
+
+of land development projects to ensure consistency with this chapter and the Rhode Island zoning
+
+enabling act.
+
+(i) Minor land development project. A land development project involving any one of
+
+the following categories which has not otherwise been specifically designated by local ordinance
+
+as development plan review:
+
+(A) Seven thousand five hundred (7,500) gross square feet of floor area of new commercial,
+manufacturing, or industrial development, or less; or
+
+(B) An expansion of up to fifty percent (50%) of existing floor area or up to ten thousand
+(10,000) square feet for commercial, manufacturing, or industrial structures; or
+
+(C) Mixed-use development consisting of up to six (6) dwelling units and two thousand
+five hundred (2,500) gross square feet of commercial space or less; or
+
+(D) Multi-family residential or residential condominium development of nine (9) units or
+less; or
+(E) Change in use at the property where no extensive construction of improvements is
+sought; or
+
+(F) An adaptive reuse project of up to twenty-five thousand (25,000) square feet of gross
+
+floor area located in a commercial zone where no extensive exterior construction of improvements
+
+is sought; or
+
+(G) An adaptive reuse project located in a residential zone that results in less than nine (9)
+residential units.
+A community can increase but not decrease the thresholds for minor land development set
+
+LC006439 - Page 8 of 57
+
+forth above if specifically set forth in the local ordinance and/or regulations. The process by which
+
+minor land development projects are reviewed by the local planning board, commission, technical
+
+review committee, and/or administrative officer is set forth in § 45-23-38.
+
+(ii) Major land development project. A land development project that exceeds the
+
+thresholds for a minor land development project as set forth in this section and local ordinance or
+
+regulation. The process by which major land development projects are reviewed by the local
+
+planning board, commission, technical review committee, or administrative officer is set forth in §
+
+45-23-39.
+
+(20) Local regulations. The land development and subdivision review regulations adopted
+
+under the provisions of this act. For purposes of clarification, throughout this act, where reference
+
+is made to local regulations, it is to be understood as the land development and subdivision review
+
+regulations and all related ordinances and rules properly adopted pursuant to this chapter.
+
+(21) Maintenance guarantee. Any security instrument that may be required and accepted
+
+by a municipality to ensure that necessary improvements will function as required for a specific
+
+period of time. See improvement guarantee.
+
+(22) Master plan. An overall plan for a proposed project site outlining general, rather than
+
+detailed, development intentions. It describes the basic parameters of a major development
+
+proposal, rather than giving full engineering details. Required in major land development or major
+
+subdivision review only. It is the first formal review step of the major land development or major
+
+subdivision process and the step in the process in which the public hearing is held. See § 45-23-39.
+
+(23) Modification of requirements. See § 45-23-62.
+
+(24) Parcel. A lot, or contiguous group of lots in single ownership or under single control,
+
+and usually considered a unit for purposes of development. Also referred to as a tract.
+(25) Parking area or lot. All that portion of a development that is used by vehicles, the
+total area used for vehicular access, circulation, parking, loading, and unloading.
+
+(26) Permitting authority. The local agency of government, meaning any board,
+
+commission, or administrative officer specifically empowered by state enabling law and local
+
+regulation or ordinance to hear and decide on specific matters pertaining to local land use.
+
+(27) Phased development. Development, usually for large-scale projects, where
+
+construction of public and/or private improvements proceeds by sections subsequent to approval
+
+of a master plan for the entire site. See § 45-23-48.
+
+(28) Physical constraints to development. Characteristics of a site or area, either natural
+
+or man-made, which present significant difficulties to construction of the uses permitted on that
+
+site, or would require extraordinary construction methods. See also environmental constraints.
+
+LC006439 - Page 9 of 57
+
+(29) Planning board. The official planning agency of a municipality, whether designated
+as the plan commission, planning commission, plan board, or as otherwise known.
+
+(30) Plat. A drawing or drawings of a land development or subdivision plan showing the
+
+location, boundaries, and lot lines of individual properties, as well as other necessary information
+
+as specified in the local regulations.
+
+(31) Pre-application conference. An initial meeting between developers and municipal
+
+representatives that affords developers the opportunity to present their proposals informally and to
+
+receive comments and directions from the municipal officials and others. See § 45-23-35.
+
+(32) Preliminary plan. A required stage of land development and subdivision review that
+generally requires detailed engineered drawings. See § 45-23-39.
+
+(33) Public hearing. A hearing before the planning board that is duly noticed in accordance
+
+with § 45-23-42 and that allows public comment. A public hearing is not required for an application
+
+or stage of approval unless otherwise stated in this chapter.
+
+(34) Public improvement. Any street or other roadway, sidewalk, pedestrian way, tree,
+
+lawn, off-street parking area, drainage feature, or other facility for which the local government or
+
+other governmental entity either is presently responsible, or will ultimately assume the
+
+responsibility for maintenance and operation upon municipal acceptance.
+
+(35) Slope of land. The grade, pitch, rise, or incline of the topographic landform or surface
+of the ground.
+
+(36) Storm water detention. A provision for storage of storm water runoff and the
+controlled release of the runoff during and after a flood or storm.
+
+(37) Storm water retention. A provision for storage of storm water runoff.
+
+(38) Street. A public or private thoroughfare used, or intended to be used, for passage or
+
+travel by motor vehicles. Streets are further classified by the functions they perform. See street
+
+classification.
+
+(39) Street, access to. An adequate and permanent way of entering a lot. All lots of record
+
+shall have access to a public street for all vehicles normally associated with the uses permitted for
+
+that lot.
+
+(40) Street, alley. A public or private thoroughfare primarily designed to serve as
+
+secondary access to the side or rear of those properties whose principal frontage is on some other
+
+street.
+
+(41) Street, cul-de-sac. A local street with only one outlet and having an appropriate
+vehicular turnaround, either temporary or permanent, at the closed end.
+(42) Street, limited access highway. A freeway or expressway providing for through
+
+LC006439 - Page 10 of 57
+
+traffic. Owners or occupants of abutting property on lands and other persons have no legal right to
+
+access, except at the points and in the manner as may be determined by the public authority having
+
+jurisdiction over the highway.
+
+(43) Street, private. A thoroughfare established as a separate tract for the benefit of
+
+multiple, adjacent properties and meeting specific, municipal improvement standards. This
+
+definition does not apply to driveways.
+
+(44) Street, public. All public property reserved or dedicated for street traffic.
+
+(45) Street, stub. A portion of a street reserved to provide access to future development,
+
+which may provide for utility connections.
+
+(46) Street classification. A method of roadway organization that identifies a street
+
+hierarchy according to function within a road system, that is, types of vehicles served and
+
+anticipated volumes, for the purposes of promoting safety, efficient land use, and the design
+
+character of neighborhoods and districts. Local classifications use the following as major
+
+categories:
+
+(i) Arterial. A major street that serves as an avenue for the circulation of traffic into, out
+of, or around the municipality and carries high volumes of traffic.
+(ii) Collector. A street whose principal function is to carry traffic between local streets and
+arterial streets but that may also provide direct access to abutting properties.
+
+(iii) Local. Streets whose primary function is to provide access to abutting properties.
+
+(47) Subdivider. Any person who: (i) Having an interest in land, causes it, directly or
+
+indirectly, to be divided into a subdivision; or who (ii) Directly or indirectly sells, leases, or
+
+develops, or offers to sell, lease, or develop, or advertises to sell, lease, or develop, any interest,
+
+lot, parcel, site, unit, or plat in a subdivision; or who (iii) Engages directly or through an agent in
+
+the business of selling, leasing, developing, or offering for sale, lease, or development a subdivision
+
+or any interest, lot, parcel, site, unit, or plat in a subdivision.
+
+(48) Subdivision. The division of a lot, tract, or parcel of land into two or more lots, tracts,
+or parcels or any adjustment to existing lot lines is considered a subdivision.
+
+(i) Administrative subdivision. Subdivision of existing lots that yields no additional lots
+
+for development, and involves no creation or extension of streets. This subdivision only involves
+
+division, mergers, mergers and division, or adjustments of boundaries of existing lots. The process
+
+by which an administrative officer or municipal planning board or commission reviews any
+
+subdivision qualifying for this review is set forth in § 45-23-37.
+
+(ii) Minor subdivision. The following categories of subdivisions are minor subdivisions:
+
+(A) A subdivision creating nine (9) or fewer buildable lots and a with or without a street
+
+LC006439 - Page 11 of 57
+
+extension or creation;
+
+(B) A subdivision creating ten (10) or more buildable of any number of lots on an existing
+improved public street; and
+
+(C) Oversized lot subdivisions. The process by which a municipal planning board,
+
+commission, technical review committee, and/or administrative officer reviews a minor subdivision
+
+is set forth in § 45-23-38. Minor subdivisions shall include oversized lot subdivisions. Oversized
+
+lot subdivision — Subdivision subdivisions are subdivisions of an existing lot:
+
+(A)(I) Which results in the creation of a vacant lot or lots for residential use; and
+
+(B)(II) Which resulting vacant residential lots are equal to or greater in lot area than the lot
+
+area of at least fifty percent (50%) of the developed residential lots within two hundred feet (200′)
+
+of the lot proposed for subdivision, as confirmed by a professional land surveyor based on a
+
+compilation plan, as such term is defined by the rules and regulations for professional land
+
+surveying; and
+
+(C)(III) Which resulting residential lots have access to available sewer and water, or have
+
+demonstrated the ability to drill a private well meeting state standards if no public water is available
+
+and/or the suitability and setbacks required for an on-site wastewater treatment system, where no
+
+public sewer is available; and provided that:
+
+(1) For lots serviced by public water and sewer, the
+
+(D) The resulting lots are not less than three thousand square feet (3,000 ft2) in lot size for
+
+each;
+(2) For lots serviced by private wells or on-site wastewater treatment systems, the resulting
+lots are not less than ten thousand square feet (10,000 ft2);
+(3) For lots serviced by both private wells and on-site wastewater treatment systems, the
+resulting lots are not less than twenty thousand square feet (20,000 ft2).
+
+Notwithstanding the lot sizes set forth above or as determined by the compilation plan, lot
+
+area requirements or limitations established by state regulations or state permit requirements remain
+
+applicable and not superseded by this provision. A lot, qualifying for this type of oversized lot
+
+subdivision shall be reviewed under the requirements and procedures set forth in § 45-23-38, but
+
+shall not require zoning relief solely based on the resulting reduced lot area of the newly created
+
+lots. The subdivision itself and the resulting subdivided lots shall have the benefit of reduced
+
+requirements as set forth in § 45-24-38, and/or are eligible for the processes set forth in § 45-24-
+
+46, as applicable.
+
+(iii) Major subdivision. A subdivision creating ten (10) or more buildable lots where a
+
+street extension or street creation is required. The process by which a municipal planning board or
+
+LC006439 - Page 12 of 57
+
+commission reviews any subdivision qualifying for this review under § 45-23-39.
+
+(49) Technical review committee. A committee or committees appointed by the
+
+municipality for the purpose of reviewing, commenting, approving, and/or making
+
+recommendations to the planning board or administrative officer, as set forth in this chapter.
+
+(50) Temporary improvement. Improvements built and maintained by a developer during
+
+construction of a development project and prior to release of the improvement guarantee, but not
+
+intended to be permanent.
+
+(51) Vested rights. The right to initiate or continue the development of an approved project
+
+for a specified period of time, under the regulations that were in effect at the time of approval, even
+
+if, after the approval, the regulations change prior to the completion of the project.
+
+(52) Waiver of requirements. See § 45-23-62.
+
+45-23-35. General provisions — Pre-application meetings and concept review.
+
+(a) One or more pre-application meetings may be held for all major land development or
+
+subdivision applications at the request of the applicant. Pre-application meetings may be held for
+
+administrative and minor applications, upon request of the applicant. Pre-application meetings
+
+allow the applicant to meet with appropriate officials, boards and/or commissions, planning staff,
+
+and, where appropriate, state agencies, for advice as to the required steps in the approvals process,
+
+the pertinent local plans, ordinances, regulations, rules and procedures and standards which may
+
+bear upon the proposed development project.
+
+(b) At the pre-application stage the applicant may request the planning board or the
+
+technical review committee for an informal concept plan review for a development. The purpose
+
+of the concept plan review is also to provide planning board or technical review committee input
+
+in the formative stages of major subdivision and land development concept design.
+
+(c) Applicants seeking a pre-application meeting or an informal concept review shall
+
+submit general, conceptual materials in advance of the meeting(s) as requested by municipal
+
+officials.
+
+(d) Pre-application meetings aim to encourage information sharing and discussion of
+
+project concepts among the participants. Pre-application discussions are intended for the guidance
+
+of the applicant and are not considered approval of a project or its elements.
+
+(e) Provided that at least one pre-application meeting has been held for major land
+
+development or subdivision application or sixty (60) days has elapsed from the filing of the pre-
+
+application submission and no pre-application meeting has been scheduled to occur within those
+
+sixty (60) days, nothing shall be deemed to preclude an applicant from thereafter filing and
+
+proceeding with an application for a land development or subdivision project in accordance with §
+
+LC006439 - Page 13 of 57
+
+45-23-36.
+
+45-23-37. General provisions — Administrative subdivision.
+
+(a) Any applicant requesting approval of a proposed administrative subdivision, as defined
+
+in this chapter, shall submit to the administrative officer the items required by the local regulations,
+
+which are sufficient to confirm the moving or merger of lot lines.
+
+(b) The application shall be certified, in writing, as complete or incomplete by the
+
+administrative officer within a fifteen (15) day period from the date of its submission according to
+
+the provisions of § 45-23-36(c). The running of the time period set forth in this section will be
+
+deemed stopped upon the issuance of a certificate of incompleteness of the application by the
+
+administrative officer and will recommence upon the resubmission of a corrected application by
+
+the applicant. However, in no event will the administrative officer be required to certify a corrected
+
+submission as complete or incomplete less than ten (10) days after its resubmission.
+
+(c) A Class 1 survey shall not be required for administrative subdivisions which only result
+
+in the merger of existing lots.
+
+(c)(d) Review process:
+
+(1) Applications requesting relief from the zoning ordinance.
+
+(i) Applications under this section that require relief that qualifies only as a modification
+
+under § 45-24-46 and local ordinances may proceed by filing an application under this chapter and
+
+a request for a modification to the zoning enforcement officer. If any modifications are granted, the
+
+application shall then proceed to be reviewed by the administrative officer pursuant to the
+
+applicable requirements of this section. If the modification is denied or an objection is received as
+
+set forth in § 45-24-46, such application shall proceed under unified development review pursuant
+
+to § 45-23-50.1.
+
+(ii) Applications under this section that require relief from the literal provisions of the
+
+zoning ordinance in the form of a dimensional variance, shall be reviewed by the planning board
+
+under unified development review pursuant to § 45-23-50.1, and a request for review shall
+
+accompany the application.
+
+(iii) If reviewed by the planning board pursuant to § 45-23-50.1, the board shall hold a
+
+public hearing and shall consider the application and the recommendations of the administrative
+
+officer and/or the technical review committee, if applicable, and either approve or deny the
+
+application within sixty-five (65) days of certification of completeness. Failure of the planning
+
+board to act within the prescribed period constitutes approval of the administrative subdivision plan
+
+and a certificate of the administrative officer as to the failure of the planning board or committee
+
+to act within the required time and the resulting approval shall be issued on request of the applicant.
+
+LC006439 - Page 14 of 57
+
+(2) Other applications. The administrative officer shall review and grant, or deny all other
+applications under this section.
+
+(1)(i) Within fifteen (15) twenty (20) days of certification of completeness, the
+
+administrative officer, or the technical review committee, shall review the application and approve,
+
+or deny or refer it to the planning board with recommendations. The officer or committee shall
+
+report its actions to the planning board at its next regular meeting, to be made part of the record. If
+
+an applicant also submits for a modification to the zoning enforcement officer, the running of the
+
+time period set forth herein will not begin until the decision on any modification is made as set
+
+forth in § 45-24-46.
+
+(2)(ii) If no action is taken by the administrative officer or the technical review committee
+
+within the fifteen (15) days, the application shall be placed on the agenda of the next regular
+
+planning board meeting. Failure of the administrative officer to act within the prescribed period
+
+constitutes approval of the administrative subdivision plan and the resulting approval shall be
+
+issued on request of the applicant.
+
+(d) If referred to the planning board, the board shall consider the application and the
+
+recommendations of the administrative officer and/or the technical review committee and either
+
+approve, approve with conditions, or deny the application within sixty-five (65) days of
+
+certification of completeness. Failure of the planning board to act within the prescribed period
+
+constitutes approval of the administrative subdivision plan and a certificate of the administrative
+
+officer as to the failure of the planning board or committee to act within the required time and the
+
+resulting approval shall be issued on request of the applicant.
+
+(e) Denial of an application by the administrative officer and/or the technical review
+
+committee is not appealable and requires pursuant to § 45-23-71 or the plan to may be submitted
+
+as a minor subdivision application.
+
+(f) Any approval or denial of an administrative subdivision shall be evidenced by a written
+decision which shall be filed and posted in the office of the city or town clerk.
+
+(g) Approval of an administrative subdivision expires ninety (90) days from the date of
+
+approval unless within that period a plat in conformity with that approval is submitted for signature
+
+and recording as specified in § 45-23-64.
+45-23-38. General provisions — Minor land development and minor subdivision
+
+review.
+
+(a) Application types and review stages.
+
+(1) Applications requesting relief from the zoning ordinance.
+
+(i) Applications under this section that require relief that qualifies only as a modification
+
+LC006439 - Page 15 of 57
+
+under § 45-24-46 and local ordinances may proceed by filing an application under this chapter and
+
+a request for a modification to the zoning enforcement officer. If such modification is any
+
+modifications are granted, the application shall then proceed to be reviewed by the administrative
+
+officer pursuant to the applicable requirements of this section. If the modification is denied or an
+
+objection is received as set forth in § 45-24-46, such application shall proceed under unified
+
+development review pursuant to § 45-23-50.1.
+
+(ii) Applications under this section that require relief from the literal provisions of the
+
+zoning ordinance in the form of a variance or special-use permit, shall be reviewed by the planning
+
+board under unified development review pursuant to § 45-23-50.1, and a request for review shall
+
+accompany the preliminary plan application.
+
+(iii) Any application involving a street creation or extension shall be reviewed by the
+planning board and require a public hearing.
+
+(2) Other applications. The administrative officer shall review and grant, grant with
+
+conditions, or deny all other applications under this section and may grant waivers of design
+
+standards as set forth in the local regulations and zoning ordinance. The administrative officer may
+
+utilize the technical review committee for initial review and recommendation. The local regulations
+
+shall specifically list what limited waivers an administrative officer is authorized to grant as part of
+
+their review.
+
+(3) Review stages. Minor plan review consists of two (2) stages, preliminary and final;
+
+provided, that unless otherwise set forth in this section, if a street creation or extension is involved,
+
+or a request for variances and/or special-use permits is submitted, pursuant to the regulation’s
+
+unified development review provisions, a public hearing is required before the planning board. The
+
+administrative officer may combine the approval stages, providing requirements for both stages are
+
+met by the applicant to the satisfaction of the administrative officer.
+
+(b) Submission requirements. Any applicant requesting approval of a proposed, minor
+
+subdivision or minor land development, as defined in this chapter, shall submit to the administrative
+
+officer the items required by the local regulations, except that an applicant must provide at final
+
+plan submission, copies of all legal documents describing the property, proposed easements, and
+
+rights-of-way and all permits required by state or federal agencies, including permits related to
+
+freshwater wetlands, the coastal zone, floodplains, on-site wastewater treatment systems, public
+
+water systems, and connections to state roads. For a state permit from the department of
+
+transportation, a letter evidencing the issuance of such a permit upon the submission of a bond and
+
+insurance is sufficient, but such actual permit shall be required prior to the issuance of a building
+
+permit.
+
+LC006439 - Page 16 of 57
+
+(c) Certification. For each applicable stage of review, the application shall be certified, in
+
+writing, complete or incomplete by the administrative officer within twenty-five (25) days of the
+
+submission so long as a completed checklist of the requirements for submission is provided as part
+
+of the submission. If an applicant also submits for a modification to the zoning enforcement officer,
+
+the running of the time period set forth herein will not begin until the decision on the any
+
+modification is made as set forth in § 45-24-46. Such certification shall be made in accordance with
+
+the provisions of § 45-23-36(c). If no street creation or extension is required, and/or unified
+
+development review is not requested, and a completed checklist of the requirements for submission
+
+is provided as part of the submission, such application shall be certified, in writing, complete or
+
+incomplete by the administrative officer within fifteen (15) days according to the provisions of §
+
+45-23-36(c). The running of the time period set forth in this section will be deemed stopped upon
+
+the issuance of a certificate of incompleteness of the application by the administrative officer and
+
+will recommence upon the resubmission of a corrected application by the applicant. However, in
+
+no event will the administrative officer be required to certify a corrected submission as complete
+
+or incomplete less than ten (10) days after its resubmission.
+
+(d) Decision on preliminary plan. If no street creation or extension, variance, or special
+
+use permits are required, the administrative officer will approve, deny, or approve with conditions,
+
+the preliminary plan within sixty-five (65) days of certification of completeness, or within any
+
+further time that is agreed to by the applicant and the administrative officer, according to the
+
+requirements of §§ 45-23-60 and 45-23-63. If a street extension or creation is required, or the
+
+application is reviewed under the unified development review or the application seeks waivers from
+
+design standards and/or requirements of the land development and subdivision regulations that are
+
+beyond the authority of the administrative officer to grant, the planning board will hold a public
+
+hearing prior to approval according to the requirements in § 45-23-42 and will approve, deny, or
+
+approve with conditions, the preliminary plan within ninety-five (95) days of certification of
+
+completeness, or within any specified time that is agreed to by the applicant and the board,
+
+according to the requirements of §§ 45-23-60 and 45-23-63.
+
+(e) Failure to act. Failure of the planning board or administrative officer to act within the
+
+period prescribed constitutes approval of the pending stage of review, and a certificate of the
+
+administrative officer as to the failure to act within the required time and the resulting approval will
+
+be issued on request of the applicant.
+
+(f) Re-assignment to major review. The planning board may re-assign a proposed minor
+
+project to major review only when the planning board is unable to make the positive findings
+
+required in § 45-23-60.
+
+LC006439 - Page 17 of 57
+
+(g) Final plan. Final plans shall be reviewed and approved by either the administrative
+
+officer or technical review committee. The officer or committee will report its actions, in writing
+
+to the planning board at its next regular meeting, to be made part of the record. The administrative
+
+officer or technical review committee shall approve, deny, approve with conditions, or refer the
+
+application to the planning board based upon a finding that there is a major change within twenty-
+
+five (25) days of the certificate of completeness.
+
+(h) Modifications and changes to plans.
+
+(1) Minor changes, as defined in the local regulations, to the plans approved at any stage
+
+may be approved administratively, by the administrative officer. The changes may be authorized
+
+without an additional public hearing. All changes shall be made part of the permanent record of the
+
+project application. This provision does not prohibit the administrative officer from requesting
+
+recommendation from either the technical review committee or the permitting authority if the
+
+permitting authority is not the administrative officer. Denial of the proposed change(s) shall be
+
+referred to the applicable permitting authority for review as a major change.
+
+(2) Major changes, as defined in the local regulations, to the plans approved at any stage
+
+may be approved only by the applicable permitting authority and must follow the same review and
+
+hearing process required for approval of preliminary plans, which shall include a public hearing if
+
+originally required as part of the application.
+
+(3) The administrative officer shall notify the applicant in writing within fourteen (14) days
+
+of submission of the written request for a change if the administrative officer determines the change
+
+to be a major change.
+
+(i) Appeal. Decisions under this section shall be considered an appealable decision
+pursuant to § 45-23-71.
+
+(j) Expiration of approvals. Approvals of a minor land development or subdivision plan
+
+expire one year from the date of approval unless, within that period, a plat or plan, in conformity
+
+with approval, and as defined in this act, is submitted for signature and recording as specified in §
+
+45-23-64. Validity may be extended for a longer period, for cause shown, if requested by the
+
+applicant in writing, and approved by the planning board.
+
+45-23-50.1. Special provisions — Unified development review.
+
+(a) A municipal zoning ordinance shall provide for unified development review pursuant
+
+to § 45-24-46.4, and the local regulations must include procedures for the filing, review, and
+
+approval of applications, pursuant to § 45-24-46.4 and this section.
+
+(b) Review of projects submitted under the unified development review provisions of the
+
+regulations shall adhere to the procedures, timeframes, and standards of the underlying category of
+
+LC006439 - Page 18 of 57
+
+the project as listed in § 45-23-36, but shall also include the following procedures:
+
+(1) Administrative subdivisions. Except for dimensional relief granted by modification
+
+as set forth in §§ 45-23-38 and 45-24-46, requests for dimensional variances related to
+
+administrative subdivisions shall be submitted as part of the application materials. A public hearing
+
+on the application, including any dimensional variance that meets the requirements of subsection
+
+(d) of this section shall be held prior to consideration of the administrative subdivision by the
+
+planning board or commission. The planning board or commission shall approve or deny the
+
+request(s) for the variance(s) before considering the administrative subdivision. Approval of the
+
+variance shall be conditioned on approval of the administrative subdivision.
+
+(1)(2) Minor subdivisions and land development projects. Except for dimensional relief
+
+granted by modification as set forth in §§ 45-23-38 and 45-24-46, requests for variances and/or for
+
+the issuance of special-use permits related to minor subdivisions and land development projects
+
+shall be submitted as part of the application materials for the preliminary plan stage of review or if
+
+combined, for the first stage of reviews. A public hearing on the application, including any variance
+
+and special-use permit requests that meets the requirements of subsection (d) of this section shall
+
+be held prior to consideration of the preliminary plan by the planning board or commission. The
+
+planning board or commission shall conditionally approve or deny the request(s) for the variance(s)
+
+and/or special-use permit(s) before considering the preliminary plan application for the minor
+
+subdivision or land development project. Approval of the variance(s) and/or special-use permit(s)
+
+shall be conditioned on approval of the final plan of the minor subdivision or land development
+
+project.
+
+(2)(3) Development plan review. Except for dimensional relief granted by modification
+
+as set forth in §§ 45-23-50 and 45-24-46, requests for relief from the literal requirements of the
+
+zoning ordinance and/or for the issuance of special-use permits shall be submitted as part of the
+
+application materials for the preliminary plan stage of review. A public hearing on the application,
+
+including any variance and special-use permit requests that meets the requirements of subsection
+
+(d) of this section shall be held prior to consideration of the preliminary plan by the relevant
+
+permitting authority. The authorized permitting authority shall conditionally approve or deny the
+
+request(s) for the variance(s) and/or special-use permit(s) before considering the preliminary plan
+
+application. Approval of the variance(s) and/or special-use permit(s) shall be conditioned on
+
+approval of the final plan of the minor subdivision or land development project.
+
+(3)(4) Major subdivisions and land development projects — Master plan. Except for
+
+dimensional relief granted by modification as set forth in § 45-23-39, requests for variances for
+
+relief from the literal requirements of the zoning ordinance and/or for the issuance of a special-use
+
+LC006439 - Page 19 of 57
+
+permit related to major subdivisions and land development projects shall be submitted as part of
+
+the application materials for the master plan stage of review, or if combined, the first stage of
+
+review. A public hearing on the application, including any variance and special-use permit requests,
+
+that meets the requirements of subsection (d) of this section, shall be held prior to consideration of
+
+the master plan by the planning board or commission. The planning board or commission shall
+
+conditionally approve or deny the requests for the variance(s) and/or special-use permit(s) before
+
+considering the master plan application for the major subdivision or land development project.
+
+Approval of the variance(s) and/or special-use permit(s) shall be conditioned on approval of the
+
+final plan of the major subdivision or land development project.
+
+(4)(5) Major subdivisions and land development projects — Preliminary plan. During
+
+the preliminary plan stage of review, applicants shall have the ability to request alteration of any
+
+variance(s) and/or special-use permit(s) granted by the planning board or commission during the
+
+master plan stage of review, and/or to request new variance(s) and/or special-use permit(s), based
+
+on the outcomes of the more detailed planning and design necessary for the preliminary plan. If
+
+necessary, the applicant shall submit such requests and all supporting documentation along with
+
+the preliminary plan application materials. If the applicant requests new or additional zoning relief
+
+at this stage, a public hearing on the application, that meets the requirements of subsection (d) of
+
+this section, shall be held prior to consideration of the preliminary plan by the planning board or
+
+commission. The planning board or commission shall conditionally approve, amend, or deny the
+
+requests for alteration(s), new variance(s), and/or new special-use permit(s), before considering the
+
+preliminary plan application for the major subdivision or land development project. Approval of
+
+the alteration(s), new variance(s), and/or new special-use permit(s) shall be conditioned on
+
+approval of the final plan of the major subdivision or land development project. If the planning
+
+board or commission denies the request for alteration(s), new variance(s), and/or new special-use
+
+permit(s), the planning board shall have the option of remanding the application back to the master
+
+plan stage of review. Alternatively, if the planning board or commission denies the request for
+
+alteration(s), new variance(s), and/or new special-use permit(s), the applicant may consent to an
+
+extension of the decision period mandated by § 45-23-39 so that additional information can be
+
+provided and reviewed by the board or commission.
+
+(c) Decision. The time periods by which the planning board or commission must approve
+
+or deny applications for variances and special-use permits under the unified development review
+
+provisions of the local regulations shall be the same as the time periods by which the board must
+
+make a decision on the applicable review stage of the category of project under review.
+
+(d) Unless otherwise provided in this chapter all applications under this section shall
+
+LC006439 - Page 20 of 57
+
+require a single public hearing, held pursuant to subsection (b) of this section. The public hearing
+
+must meet the following requirements:
+
+(1) Public hearing notice shall adhere to the requirements found in § 45-23-42(1);
+
+(2) The notice area for notice of the public hearing shall be specified in the local
+
+regulations, and shall, at a minimum, include all property located in or within not less than two
+
+hundred feet (200′) of the perimeter of the area included in the subdivision and/or land development
+
+project. Notice of the public hearing shall be sent by the administrative officer to the administrative
+
+officer of an adjacent municipality if: (i) The notice area extends into the adjacent municipality; or
+
+(ii) The development site extends into the adjacent municipality; or (iii) There is a potential for
+
+significant negative impact on the adjacent municipality. Additional notice within watersheds shall
+
+also be sent as required in § 45-23-53(b) and (c);
+
+(3) Public notice shall indicate that dimensional variance(s), use variance(s), and/or
+
+special-use permit(s) are to be considered for the subdivision and/or land development project; and
+
+(4) The cost of all public notice is to be borne by the applicant.
+
+(e) The time periods by which the permitting authority must approve, approve with
+
+conditions, or deny requests for variances and special-use permits under the unified development
+
+review provisions of a zoning ordinance shall be the same as the time periods by which the board
+
+must make a decision on the applicable review stage of the underlying type of project under review.
+
+(f) The expiration periods of an approval of a variance or special use permit granted under
+
+this section shall be the same as those set forth in the statute for the underlying type of project under
+
+review.
+
+(g) Decisions under this section, including requests for the variance(s) and/or special-use
+permits that are denied by the permitting authority, may be appealed pursuant to § 45-23-71.
+
+45-23-60. Procedure — Required findings.
+
+(a) Except as set forth in this section, all local regulations shall require that for all
+
+administrative, minor, and major development applications the approving authorities responsible
+
+for land development and subdivision review and approval shall make positive findings on the
+
+following standard provisions, as part of the proposed project’s record prior to approval:
+
+(1) The proposed development is consistent with the comprehensive community plan
+and/or has satisfactorily addressed the issues where there may be inconsistencies;
+
+(2) The proposed development is in compliance with the standards and provisions of the
+
+municipality’s zoning ordinance or has obtained relief from the same, or another provision of this
+
+chapter that exempts compliance with a specific provision or standard;
+
+(3) There will be no significant negative environmental impacts from the proposed
+
+LC006439 - Page 21 of 57
+
+development as shown on the final plan, with all required conditions for approval;
+
+(4) The subdivision, as proposed, will not result in the creation of individual lots with any
+
+physical constraints to development that building on those lots according to pertinent regulations
+
+and building standards would be impracticable. (See definition of Buildable lot). Lots If allowed
+
+by local regulation and/or ordinance, lots with physical constraints to development may be created
+
+only if identified as permanent open space or permanently reserved for a public purpose on the
+
+approved, recorded plans; and
+
+(5) All proposed land developments and all subdivision lots have adequate physical and
+
+permanent physical access to a public street unless there are local zoning ordinance provisions
+
+allowing exceptions to this requirement or the applicant has obtained the required relief from this
+
+provision.
+
+(b) Except for administrative subdivisions, findings of fact must be supported by legally
+
+competent evidence on the record which discloses the nature and character of the observations upon
+
+which the fact finders acted.
+
+(c) Minor subdivisions subject to administrative review and approval only, as set forth in
+
+§ 45-23-38(a)(2) shall only be subject to the standard provisions set forth in subsections (a)(1),
+
+(a)(2), (a)(4), and (a)(5) of this section.
+
+(d) Administrative subdivisions shall only be subject to the following standard provisions:
+
+(1) That the application does not create additional lots;
+
+(2) Unless otherwise allowed by an approved modification or variance, that the moving of
+
+lot lines does not increase any pre-existing dimensional nonconformity or create a new
+
+nonconformity;
+
+(3) That the application does not remove any pre-existing adequate physical or permanent
+
+access to a street, without sufficient replacement.
+
+45-23-71. Appeals to the superior court.
+
+(a) An aggrieved party may appeal a decision of the board of appeal; a decision of an
+
+administrative officer made pursuant to § §§ 45-23-37, 45-23-38 or § 45-23-50 where authorized
+
+to approve or deny an application; a decision of the technical review committee where authorized
+
+to approve or deny an application; or a decision of the planning board, to the superior court for the
+
+county in which the municipality is situated by filing a complaint stating the reasons for the appeal
+
+within twenty (20) days after the decision has been recorded and posted in the office of the city or
+
+town clerk. Recommendations by any public body or officer under this chapter are not appealable
+
+under this section. The authorized permitting authority shall file the original documents acted upon
+
+by it and constituting the record of the case appealed from, or certified copies of the original
+
+LC006439 - Page 22 of 57
+
+documents, together with any other facts that may be pertinent, with the clerk of the court within
+
+thirty (30) days after being served with a copy of the complaint. When the complaint is filed by
+
+someone other than the original applicant or appellant, the original applicant or appellant and the
+
+permitting authority shall be made parties to the proceedings. No responsive pleading is required
+
+for an appeal filed pursuant to this section. The appeal does not stay proceedings upon the decision
+
+appealed from, but the court may, in its discretion, grant a stay on appropriate terms and make any
+
+other orders that it deems necessary for an equitable disposition of the appeal.
+
+(b) Appeals from a decision granting or denying approval of a final plan shall be limited to
+
+elements of the approval or disapproval not contained in the decision reached by the planning board
+
+at the preliminary stage; provided that, a public hearing has been held on the plan, if required
+
+pursuant to this chapter.
+
+(c) The review shall be conducted by the superior court without a jury. The court shall
+
+consider the record before the board of appeal or permitting authority, as applicable and, if it
+
+appears to the court that additional evidence is necessary for the proper disposition of the matter, it
+
+may allow any party to the appeal to present evidence in open court, which evidence, along with
+
+the report, shall constitute the record upon which the determination of the court shall be made.
+
+(d) The court shall not substitute its judgment for that of the board of appeal or permitting
+
+authority as applicable as to the weight of the evidence on questions of fact. The court may affirm
+
+the decision of the board of appeal or permitting authority, as applicable or remand the case for
+
+further proceedings, or may reverse or modify the decision if substantial rights of the appellant
+
+have been prejudiced because of findings, inferences, conclusions, or decisions that are:
+
+(1) In violation of constitutional, statutory, ordinance, or planning board regulations
+provisions;
+
+(2) In excess of the authority granted to the planning board by statute or ordinance;
+
+(3) Made upon unlawful procedure;
+
+(4) Affected by other error of law;
+
+(5) Clearly erroneous in view of the reliable, probative, and substantial evidence of the
+
+whole record; or
+(6) Arbitrary or capricious or characterized by abuse of discretion or clearly unwarranted
+exercise of discretion.
+
+SECTION 4. Sections 45-24-31, 45-24-38, 45-24-41, 45-24-43, 45-24-46, 45-24-47 and
+
+45-24-54 of the General Laws in Chapter 45-24 entitled "Zoning Ordinances" are hereby amended
+
+to read as follows:
+
+45-24-31. Definitions. [Effective January 1, 2026.]
+
+LC006439 - Page 23 of 57
+
+Where words or terms used in this chapter are defined in § 45-22.2-4 or § 45-23-32, they
+
+have the meanings stated in that section. In addition, the following words have the following
+
+meanings. Additional words and phrases may be used in developing local ordinances under this
+
+chapter; however, the words and phrases defined in this section are controlling in all local
+
+ordinances created under this chapter:
+
+(1) Abutter. One whose property abuts, that is, adjoins at a border, boundary, or point with
+no intervening land.
+
+(2) Accessory dwelling unit (ADU). A residential living unit on the same lot where the
+
+principal use is a legally established single-family dwelling unit or multi-family dwelling unit. An
+
+ADU provides complete independent living facilities for one or more persons. It may take various
+
+forms including, but not limited to: a detached unit; a unit that is part of an accessory structure,
+
+such as a detached garage; or a unit that is part of an expanded or remodeled primary dwelling.
+
+(3) Accessory use. A use of land or of a building, or portion thereof, customarily incidental
+
+and subordinate to the principal use of the land or building. An accessory use may be restricted to
+
+the same lot as the principal use. An accessory use shall not be permitted without the principal use
+
+to which it is related.
+
+(4) Adaptive reuse. “Adaptive reuse,” as defined in § 42-64.22-2.
+
+(5) Aggrieved party. An aggrieved party, for purposes of this chapter, shall be:
+
+(i) Any person, or persons, or entity, or entities, who or that can demonstrate that their
+
+property will be injured by a decision of any officer or agency responsible for administering the
+
+zoning ordinance of a city or town; or
+
+(ii) Anyone requiring notice pursuant to this chapter.
+
+(6) Agricultural land. “Agricultural land,” as defined in § 45-22.2-4.
+
+(7) Airport hazard area. “Airport hazard area,” as defined in § 1-3-2.
+
+(8) Applicant. An owner, or authorized agent of the owner, submitting an application or
+
+appealing an action of any official, board, or agency.
+
+(9) Application. The completed form, or forms, and all accompanying documents,
+
+exhibits, and fees required of an applicant by an approving authority for development review,
+
+approval, or permitting purposes.
+
+(10) Buffer. Land that is maintained in either a natural or landscaped state, and is used to
+
+screen or mitigate the impacts of development on surrounding areas, properties, or rights-of-way.
+
+(11) Building. Any structure used or intended for supporting or sheltering any use or
+
+occupancy.
+(12) Building envelope. The three-dimensional space within which a structure is permitted
+
+LC006439 - Page 24 of 57
+
+to be built on a lot and that is defined by regulations governing building setbacks, maximum height,
+
+and bulk; by other regulations; or by any combination thereof.
+
+(13) Building height. For a vacant parcel of land, building height shall be measured from
+
+the average, existing-grade elevation where the foundation of the structure is proposed. For an
+
+existing structure, building height shall be measured from average grade taken from the outermost
+
+four (4) corners of the existing foundation. In all cases, building height shall be measured to the top
+
+of the highest point of the existing or proposed roof or structure. This distance shall exclude spires,
+
+chimneys, flag poles, and the like. For any property or structure located in a special flood hazard
+
+area, as shown on the official FEMA Flood Insurance Rate Maps (FIRMs), or depicted on the
+
+Rhode Island coastal resources management council (CRMC) suggested design elevation three foot
+
+(3′) sea level rise (CRMC SDE 3 SLR) map as being inundated during a one-hundred-year (100)
+
+storm, the greater of the following amounts, expressed in feet, shall be excluded from the building
+
+height calculation:
+
+(i) The base flood elevation on the FEMA FIRM plus up to five feet (5′) of any utilized or
+proposed freeboard, less the average existing grade elevation; or
+
+(ii) The suggested design elevation as depicted on the CRMC SDE 3 SLR map during a
+
+one-hundred-year (100) storm, less the average existing grade elevation. CRMC shall reevaluate
+
+the appropriate suggested design elevation map for the exclusion every ten (10) years, or as
+
+otherwise necessary.
+
+(14) Cluster. A site-planning technique that concentrates buildings in specific areas on the
+
+site to allow the remaining land to be used for recreation, common open space, and/or preservation
+
+of environmentally, historically, culturally, or other sensitive features and/or structures. The
+
+techniques used to concentrate buildings shall be specified in the ordinance and may include, but
+
+are not limited to, reduction in lot areas, setback requirements, and/or bulk requirements, with the
+
+resultant open land being devoted by deed restrictions for one or more uses. Under cluster
+
+development, there is no increase in the number of lots that would be permitted under conventional
+
+development except where ordinance provisions include incentive bonuses for certain types or
+
+conditions of development.
+
+(15) Co-living housing. A specific residential development with units which provide living
+
+and sleeping space which are independently rented and lockable for the exclusive use of an
+
+occupant, but require the occupant to share sanitary and/or food preparation facilities with the other
+
+units in the occupancy. This section shall not be read to allow the conversion of existing dwelling
+
+units into co-living housing unless authorized by a local zoning ordinance or allowed pursuant to §
+
+45-24-37.
+
+LC006439 - Page 25 of 57
+
+(16) Common ownership. Either:
+
+(i) Ownership by one or more individuals or entities in any form of ownership of two (2)
+
+or more contiguous lots; or
+
+(ii) Ownership by any association (ownership may also include a municipality) of one or
+more lots under specific development techniques.
+
+(17) Community residence. A home or residential facility where children and/or adults
+
+reside in a family setting and may or may not receive supervised care. This does not include halfway
+
+houses or substance-use-disorder-treatment facilities. This does include, but is not limited to, the
+
+following:
+
+(i) Whenever six (6) or fewer children or adults with intellectual and/or developmental
+
+disability reside in any type of residence in the community, as licensed by the state pursuant to
+
+chapter 24 of title 40.1. All requirements pertaining to local zoning are waived for these community
+
+residences;
+
+(ii) A group home providing care or supervision, or both, to not more than eight (8) persons
+with disabilities, and licensed by the state pursuant to chapter 24 of title 40.1;
+
+(iii) A residence for children providing care or supervision, or both, to not more than eight
+
+(8) children, including those of the caregiver, and licensed by the state pursuant to chapter 72.1 of
+
+title 42;
+
+(iv) A community transitional residence providing care or assistance, or both, to no more
+
+than six (6) unrelated persons or no more than three (3) families, not to exceed a total of eight (8)
+
+persons, requiring temporary financial assistance, and/or to persons who are victims of crimes,
+
+abuse, or neglect, and who are expected to reside in that residence not less than sixty (60) days nor
+
+more than two (2) years. Residents will have access to, and use of, all common areas, including
+
+eating areas and living rooms, and will receive appropriate social services for the purpose of
+
+fostering independence, self-sufficiency, and eventual transition to a permanent living situation.
+
+(18) Comprehensive plan. The comprehensive plan adopted and approved pursuant to
+
+chapter 22.2 of this title and to which any zoning adopted pursuant to this chapter shall be in
+
+compliance.
+(19) Day care — Daycare center. Any other daycare center that is not a family daycare
+
+home.
+
+(20) Day care — Family daycare home. Any home, other than the individual’s home, in
+
+which day care in lieu of parental care or supervision is offered at the same time to six (6) or less
+
+individuals who are not relatives of the caregiver, but may not contain more than a total of eight
+
+(8) individuals receiving day care.
+
+LC006439 - Page 26 of 57
+
+(21) Density, residential. The number of dwelling units per unit of land.
+
+(22) Development. The construction, reconstruction, conversion, structural alteration,
+
+relocation, or enlargement of any structure; any mining, excavation, landfill, or land disturbance;
+
+or any change in use, or alteration or extension of the use, of land.
+
+(23) Development plan review. See §§ 45-23-32 and 45-23-50.
+
+(24) District. See “zoning use district.”
+
+(25) Drainage system. A system for the removal of water from land by drains, grading, or
+
+other appropriate means. These techniques may include runoff controls to minimize erosion and
+
+sedimentation during and after construction or development; the means for preserving surface and
+
+groundwaters; and the prevention and/or alleviation of flooding.
+
+(26) Dwelling unit. A structure, or portion of a structure, providing complete, independent
+
+living facilities for one or more persons, including permanent provisions for living, sleeping, eating,
+
+cooking, and sanitation, and containing a separate means of ingress and egress.
+
+(27) Extractive industry. The extraction of minerals, including: solids, such as coal and
+
+ores; liquids, such as crude petroleum; and gases, such as natural gases. The term also includes
+
+quarrying; well operation; milling, such as crushing, screening, washing, and flotation; and other
+
+preparation customarily done at the extraction site or as a part of the extractive activity.
+
+(28) Family member. A person, or persons, related by blood, marriage, or other legal
+
+means, including, but not limited to, a child, parent, spouse, mother-in-law, father-in-law,
+
+grandparents, grandchildren, domestic partner, sibling, care recipient, or member of the household.
+
+(29) Floating zone. An unmapped zoning district adopted within the ordinance that is
+
+established on the zoning map is effective only when an application for development, meeting the
+
+zone requirements, is approved and the approved plan is recorded.
+
+(30) Floodplains, or Flood hazard area. As defined in § 45-22.2-4.
+
+(31) Freeboard. A factor of safety expressed in feet above the base flood elevation of a
+
+flood hazard area for purposes of floodplain management. Freeboard compensates for the many
+
+unknown factors that could contribute to flood heights, such as wave action, bridge openings, and
+
+the hydrological effect of urbanization of the watershed.
+
+(32) Groundwater. “Groundwater” and associated terms, as defined in § 46-13.1-3.
+
+(33) Halfway house. A residential facility for adults or children who have been
+
+institutionalized for criminal conduct and who require a group setting to facilitate the transition to
+
+a functional member of society.
+
+(34) Hardship. See § 45-24-41.
+
+(35) Historic district or historic site. As defined in § 45-22.2-4.
+
+LC006439 - Page 27 of 57
+
+(36) Home occupation. Any activity customarily carried out for gain by a resident,
+
+conducted as an accessory use in the resident’s dwelling unit. For the purposes of this chapter,
+
+home occupation does not include remote work activities as defined in § 45-24-37.
+
+(37) Household. One or more persons living together in a single-dwelling unit, with
+
+common access to, and common use of, all living and eating areas and all areas and facilities for
+
+the preparation and storage of food within the dwelling unit. The term “household unit” is
+
+synonymous with the term “dwelling unit” for determining the number of units allowed within any
+
+structure on any lot in a zoning district. An individual household shall consist of any one of the
+
+following:
+
+(i) A family, which may also include servants and employees living with the family; or
+
+(ii) A person or group of unrelated persons living together. The maximum number may be
+
+set by local ordinance, but this maximum shall not be less than one person per bedroom and shall
+
+not exceed five (5) unrelated persons per dwelling. The maximum number shall not apply to
+
+NARR-certified recovery residences.
+
+(38) Incentive zoning. The process whereby the local authority may grant additional
+
+development capacity in exchange for the developer’s provision of a public benefit or amenity as
+
+specified in local ordinances.
+
+(39) Infrastructure. Facilities and services needed to sustain residential, commercial,
+industrial, institutional, and other activities.
+
+(40) Land development project. As defined in § 45-23-32.
+
+(41) Lot. Either:
+
+(i) The basic development unit for determination of lot area, depth, and other dimensional
+
+regulations; or
+
+(ii) A parcel of land whose boundaries have been established by some legal instrument,
+
+such as a recorded deed or recorded map, and that is recognized as a separate legal entity for
+
+purposes of transfer of title.
+
+(42) Lot area. The total area within the boundaries of a lot, excluding any street right-ofway, usually reported in acres or square feet.
+(43) Lot area, minimum. The smallest land area established by the local zoning ordinance
+upon which a use, building, or structure may be located in a particular zoning district.
+(44) Lot building coverage. That portion of the lot that is, or may be, covered by buildings
+and accessory buildings.
+(45) Lot depth. The distance measured from the front lot line to the rear lot line. For lots
+where the front and rear lot lines are not parallel, the lot depth is an average of the depth.
+
+LC006439 - Page 28 of 57
+
+(46) Lot frontage. That portion of a lot abutting a street. A zoning ordinance shall specify
+how noncontiguous frontage will be considered with regard to minimum frontage requirements.
+
+(47) Lot line. A line of record, bounding a lot, that divides one lot from another lot or from
+a public or private street or any other public or private space and shall include:
+
+(i) Front: the lot line separating a lot from a street right-of-way. A zoning ordinance shall
+
+specify the method to be used to determine the front lot line on lots fronting on more than one
+
+street, for example, corner and through lots;
+
+(ii) Rear: the lot line opposite and most distant from the front lot line, or in the case of
+
+triangular or otherwise irregularly shaped lots, an assumed line at least ten feet (10′) in length
+
+entirely within the lot, parallel to and at a maximum distance from, the front lot line; and
+
+(iii) Side: any lot line other than a front or rear lot line. On a corner lot, a side lot line may
+be a street lot line, depending on requirements of the local zoning ordinance.
+(48) Lot size, minimum. Shall have the same meaning as “minimum lot area” defined
+
+herein.
+
+(49) Lot, through. A lot that fronts upon two (2) parallel streets, or that fronts upon two
+(2) streets that do not intersect at the boundaries of the lot.
+
+(50) Lot width. The horizontal distance between the side lines of a lot measured at right
+
+angles to its depth along a straight line parallel to the front lot line at the minimum front setback
+
+line.
+
+(51) Manufactured home. As used in this section, a manufactured home shall have the
+
+same definition as in 42 U.S.C. § 5402, meaning a structure, transportable in one or more sections,
+
+which, in the traveling mode, is eight (8) body feet or more in width or forty (40) body feet or more
+
+in length, or, when erected on site, is three hundred twenty (320) or more square feet, and which is
+
+built on a permanent chassis and designed to be used as a dwelling with a permanent foundation
+
+connected to the required utilities, and includes the plumbing, heating, air-conditioning, and
+
+electrical systems contained therein; except that such term shall include any structure that meets all
+
+the requirements of this definition except the size requirements and with respect to which the
+
+manufacturer voluntarily files a certification required by the United States Secretary of Housing
+
+and Urban Development and complies with the standards established under chapter 70 of Title 42
+
+of the United States Code; and except that such term shall not include any self-propelled
+
+recreational vehicle.
+
+(52) Mere inconvenience. See § 45-24-41.
+
+(53) Mixed use. A mixture of land uses within a single development, building, or tract.
+
+(54) Modification. Permission granted and administered by the zoning enforcement officer
+
+LC006439 - Page 29 of 57
+
+of the city or town, and pursuant to the provisions of this chapter to grant dimensional relief from
+
+the zoning ordinance to a limited degree as determined by the zoning ordinance of the city or town,
+
+but not to exceed twenty-five percent (25%) of each of the applicable dimensional requirements,
+
+except as set forth in § 45-24-46(c).
+
+(55) Nonconformance. A building, structure, or parcel of land, or use thereof, lawfully
+
+existing at the time of the adoption or amendment of a zoning ordinance and not in conformity with
+
+the provisions of that ordinance or amendment. Nonconformance is of only two (2) types:
+
+(i) Nonconforming by use: a lawfully established use of land, building, or structure that is
+
+not a permitted use in that zoning district. A building or structure containing more dwelling units
+
+than are permitted by the use regulations of a zoning ordinance is nonconformity by use; or
+
+(ii) Nonconforming by dimension: a building, structure, or parcel of land not in compliance
+
+with the dimensional regulations of the zoning ordinance. Dimensional regulations include all
+
+regulations of the zoning ordinance, other than those pertaining to the permitted uses. A building
+
+or structure containing more dwelling units than are permitted by the use regulations of a zoning
+
+ordinance is nonconforming by use; a building or structure containing a permitted number of
+
+dwelling units by the use regulations of the zoning ordinance, but not meeting the lot area per
+
+dwelling unit regulations, is nonconforming by dimension.
+
+(56) Overlay district. A district established in a zoning ordinance that is superimposed on
+
+one or more districts or parts of districts. The standards and requirements associated with an overlay
+
+district may be more or less restrictive than those in the underlying districts consistent with other
+
+applicable state and federal laws.
+
+(57) Performance standards. A set of criteria or limits relating to elements that a
+particular use or process must either meet or may not exceed.
+
+(58) Permitted use. A use by right that is specifically authorized in a particular zoning
+district.
+
+(59) Planned development. A “land development project,” as defined in subsection (39),
+
+and developed according to plan as a single entity and containing one or more structures or uses
+
+with appurtenant common areas.
+
+(60) Plant agriculture. The growing of plants for food or fiber, to sell or consume.
+
+(61) Preapplication conference. A review meeting of a proposed development held
+
+between applicants and reviewing agencies as permitted by law and municipal ordinance, before
+
+formal submission of an application for a permit or for development approval.
+
+(62) Setback line or lines. A line, or lines, parallel to a lot line at the minimum distance
+
+of the required setback for the zoning district in which the lot is located that establishes the area
+
+LC006439 - Page 30 of 57
+
+within which the principal structure must be erected or placed.
+(63) Site plan. The development plan for one or more lots on which is shown the existing
+and/or the proposed conditions of the lot.
+(64) Slope of land. The grade, pitch, rise, or incline of the topographic landform or surface
+of the ground.
+
+(65) Special use. A regulated use that is permitted pursuant to the special-use permit issued
+
+by the authorized governmental entity, pursuant to § 45-24-42. Formerly referred to as a special
+
+exception.
+
+(66) Structure. A combination of materials to form a construction for use, occupancy, or
+ornamentation, whether installed on, above, or below the surface of land or water.
+
+(67) Substandard lot of record. Any lot lawfully existing at the time of adoption or
+
+amendment of a zoning ordinance, or at the time it was lawfully created, and not in conformance
+
+with the dimensional or area provisions of that ordinance.
+
+(68) Use. The purpose or activity for which land or buildings are designed, arranged, or
+intended, or for which land or buildings are occupied or maintained.
+
+(69) Variance. Permission to depart from the literal requirements of a zoning ordinance.
+
+An authorization for the construction or maintenance of a building or structure, or for the
+
+establishment or maintenance of a use of land, that is prohibited by a zoning ordinance. There are
+
+only two (2) categories of variance, a use variance or a dimensional variance.
+
+(i) Use variance. Permission to depart from the use requirements of a zoning ordinance
+
+where the applicant for the requested variance has shown by evidence upon the record that the
+
+subject land or structure cannot yield any beneficial use if it is to conform to the provisions of the
+
+zoning ordinance.
+
+(ii) Dimensional variance. Permission to depart from the dimensional requirements of a
+zoning ordinance under the applicable standards set forth in § 45-24-41.
+
+(70) Waters. As defined in § 46-12-1(23).
+
+(71) Wetland, coastal. As defined in § 45-22.2-4.
+
+(72) Wetland, freshwater. As defined in § 2-1-20.
+
+(73) Zoning certificate. A document signed by the zoning enforcement officer, as required
+
+in the zoning ordinance, that acknowledges that a use, structure, building, or lot either complies
+
+with, or is legally nonconforming to, the provisions of the municipal zoning ordinance or is an
+
+authorized variance or modification therefrom.
+
+(74) Zoning map. The map, or maps, that are a part of the zoning ordinance and that
+
+delineate the boundaries of all mapped zoning districts within the physical boundary of the city or
+
+LC006439 - Page 31 of 57
+
+town.
+
+(75) Zoning ordinance. An ordinance enacted by the legislative body of the city or town
+
+pursuant to this chapter and in the manner providing for the adoption of ordinances in the city or
+
+town’s legislative or home rule charter, if any, that establish regulations and standards relating to
+
+the nature and extent of uses of land and structures; that is consistent with the comprehensive plan
+
+of the city or town as defined in chapter 22.2 of this title; that includes a zoning map; and that
+
+complies with the provisions of this chapter.
+
+(76) Zoning use district. The basic unit in zoning, either mapped or unmapped, to which
+
+a uniform set of regulations applies, or a uniform set of regulations for a specified use. Zoning use
+
+districts include, but are not limited to: agricultural, commercial, industrial, institutional, open
+
+space, and residential. Each district may include sub-districts. Districts may be combined.
+
+45-24-38. General provisions — Substandard lots of record.
+
+(a) Any city or town adopting or amending a zoning ordinance under this chapter shall
+
+regulate the development of any single substandard lot of record or contiguous lots of record at the
+
+effective date of adoption or amendment of the zoning ordinance.
+
+(b) Notwithstanding the failure of that lot or those lots to meet the dimensional and/or
+
+quantitative requirements, and/or road frontage or other access requirements, applicable in the
+
+district as stated in the ordinance, a substandard lot of record shall not be required to seek any
+
+zoning relief based solely on the failure to meet minimum requirements for lot size, lot frontage,
+
+lot width, or lot depth of the district in which such lot is located. For any structure proposed under
+
+this section on a substandard lot of record, the following dimensional regulations shall apply:
+
+(1) Minimum building setbacks, lot frontage, and lot width requirements for a lot that is
+
+nonconforming in area shall be reduced by the same proportion that the area of such substandard
+
+lot meets the minimum lot area of the district in which the lot is located. By way of example, if the
+
+lot area of a substandard lot only meets forty percent (40%) of the minimum lot area required in
+
+the district in which it is located, the setbacks, lot frontage, and lot width shall each be reduced to
+
+forty percent (40%) of the requirements for those dimensional standards in the same district.
+
+However, to the extent the city or town has a zoning district in which the lot would be conforming
+
+as to size, the city or town may require compliance with the building setback, lot frontage, and lot
+
+width requirements for said zoning district if such requirement is in the local zoning ordinance.
+
+(2) Maximum lot building coverage for lots that are nonconforming in area shall be
+
+increased by the inverse proportion that the area of such substandard lot meets the minimum area
+
+requirements in the district in which the lot is located. By way of example, if the lot area of a
+
+substandard lot only meets forty percent (40%) of the required minimum lot area, the maximum lot
+
+LC006439 - Page 32 of 57
+
+building coverage is allowed to increase by sixty percent (60%) over the maximum permitted lot
+
+building coverage in that district.
+
+All proposals exceeding such reduced requirement shall proceed with a modification
+
+request under § 45-24-46 or a dimensional variance request under § 45-24-41, whichever is
+
+applicable.
+
+(c) Except as set forth otherwise in this chapter and in chapter 23 of this title, provisions
+
+may be made for the merger of contiguous unimproved, or improved and unimproved, substandard
+
+lots of record in the same ownership to create dimensionally conforming lots or to reduce the extent
+
+of dimensional nonconformance. Contiguous substandard lots of record in the same ownership may
+
+be required to merge only to the extent necessary to create a lot that conforms to the dimensional
+
+requirements of the applicable zoning district. Once a conforming lot has been created through such
+
+merger, any remaining lot or lots shall not be deemed merged and shall retain their status as separate
+
+substandard lots of record, and shall be entitled to the protections set forth in subsection (b) of this
+
+section. No ordinance, regulation, or administrative practice shall require the merger of additional
+
+lots beyond that which is necessary to achieve conformity. An The ordinance shall specify the
+
+standards, on a district by district basis, which determine the mergers, consistent with this section.
+
+The standards shall include, but are not to be limited to, the availability of infrastructure, the
+
+character of the neighborhood, and the consistency with the comprehensive plan. The merger of
+
+lots shall not be required when the substandard lot of record has an area equal to or greater than the
+
+area of fifty percent (50%) of the lots of record located within two hundred feet (200′) of the subject
+
+lot, unless such lots have been formally and legally merged by way of a recorded plan or plat, as
+
+confirmed by a compilation plan signed by a professional land surveyor as such term is defined by
+
+the rules and regulations for professional land surveying.
+
+45-24-41. General provisions — Variances.
+
+(a) An application for relief from the literal requirements of a zoning ordinance because of
+
+hardship may be made by any person, group, agency, or corporation by filing with the zoning
+
+enforcement officer or agency an application describing the request and supported by any data and
+
+evidence as may be required by the zoning board of review or by the terms of the ordinance. The
+
+zoning enforcement officer or agency shall immediately transmit each application received to the
+
+zoning board of review and a copy of each application to the planning board or commission.
+
+(b) A zoning ordinance shall provide that the zoning board of review, immediately upon
+
+receipt of an application for a variance in the application of the literal terms of the zoning ordinance,
+
+may request that the planning board or commission and/or staff report its findings and
+
+recommendations, including a statement on the general consistency of the application with the
+
+LC006439 - Page 33 of 57
+
+goals and purposes of the comprehensive plan of the city or town, in writing, to the zoning board
+
+of review within thirty (30) days of receipt of the application from that board. The zoning board
+
+shall hold a public hearing on any application for variance in an expeditious manner, after receipt,
+
+in proper form, of an application, and shall give public notice at least fourteen (14) days prior to
+
+the date of the hearing in a newspaper of local circulation in the city or town. Notice of hearing
+
+shall be sent by first-class mail to the applicant, and to at least all those who would require notice
+
+under § 45-24-53. The notice shall also include the street address of the subject property. A zoning
+
+ordinance may require that a supplemental notice, that an application for a variance is under
+
+consideration, be posted at the location in question. The posting is for information purposes only
+
+and does not constitute required notice of a public hearing. The same notice shall be posted in the
+
+town or city clerk’s office and one other municipal building in the municipality and the municipality
+
+must make the notice accessible on the municipal home page of its website at least fourteen (14)
+
+days prior to the hearing. For any notice sent by first-class mail, the sender of the notice shall submit
+
+a notarized affidavit to attest to such mailing. The cost of newspaper and mailing notification shall
+
+be borne by the applicant.
+
+(c) A zoning ordinance may provide for unified development review, pursuant to § 45-24-
+
+46.4. Requests for dimensional and use variances submitted under a unified development review
+
+provision of a zoning ordinance shall be submitted as part of the subdivision or land development
+
+application to the administrative officer of the planning board or commission, pursuant to § 45-24-
+
+46.4(a). All subdivision or land development applications submitted under the unified development
+
+review provisions of a zoning ordinance shall have a public hearing, which shall meet the
+
+requirements of § 45-23-50.1(d).
+
+(d) In granting a variance, the zoning board of review, or, where unified development
+
+review is enabled pursuant to § 45-24-46.4, the planning board or commission, shall require that
+
+evidence to the satisfaction of the following standards is entered into the record of the proceedings:
+
+(1) That the hardship from which the applicant seeks relief is due to the unique
+
+characteristics of the subject land or structure and not to the general characteristics of the
+
+surrounding area; and is not due to a physical or economic disability of the applicant, excepting
+
+those physical disabilities addressed in § 45-24-30(a)(16);
+
+(2) That the hardship is not the result of any prior action of the applicant; and
+
+(3) That the granting of the relief requested variance will not alter the general character of
+
+the surrounding area or impair the intent or purpose of the zoning ordinance or the comprehensive
+
+plan upon which the ordinance is based.
+
+(4) [Deleted by P.L. 2023, ch. 304, § 1 and P.L. 2023, ch. 305, § 1.]
+
+LC006439 - Page 34 of 57
+
+(e) The zoning board of review, or, where unified development review is enabled pursuant
+
+to § 45-24-46.4, the planning board or commission, shall, in addition to the above standards, require
+
+that evidence is entered into the record of the proceedings showing that:
+
+(1) In granting a use variance, the subject land or structure cannot yield any beneficial use
+
+if it is required to conform to the provisions of the zoning ordinance. Nonconforming use of
+
+neighboring land or structures in the same district and permitted use of lands or structures in an
+
+adjacent district shall not be considered in granting a use variance; and
+
+(2) In granting a dimensional variance, that the hardship suffered by the owner of the
+
+subject property if the dimensional variance is not granted amounts to more than a mere
+
+inconvenience, meaning that relief sought is minimal to a reasonable enjoyment of the permitted
+
+use to which the property is proposed to be devoted. The fact that a use may be more profitable or
+
+that a structure may be more valuable after the relief is granted is not grounds for relief. The zoning
+
+board of review, or, where unified development review is enabled pursuant to § 45-24-46.4, the
+
+planning board or commission has the power to grant dimensional variances where the use is
+
+permitted by special-use permit.
+
+45-24-43. General provisions — Special conditions.
+
+In granting a variance or in making any determination upon which it is required to pass
+
+after a public hearing under a zoning ordinance on appeal taken pursuant to § 45-24-64, the zoning
+
+board of review or other zoning enforcement agency may apply the special conditions that may, in
+
+the opinion of the board or agency, be required to promote the intent and purposes of the
+
+comprehensive plan and the zoning ordinance of the city or town. Failure to abide by any special
+
+conditions attached to a grant constitutes a zoning violation. Those special conditions shall be based
+
+on competent credible evidence on the record, be incorporated into the decision, and may include,
+
+but are not limited to, provisions for:
+
+(1) For a use variance only: Minimizing the adverse impact of the development upon other
+land, including the type, intensity, design, and performance of activities;
+
+(2) Controlling the sequence of development, including when it must be commenced and
+completed;
+
+(3) Controlling the duration of use or development and the time within which any
+temporary structure must be removed;
+
+(4) Assuring satisfactory installation and maintenance of required public improvements;
+and
+
+(5) Designating the exact location and nature of development; and
+
+(6)(5) Establishing detailed records by submission of drawings, maps, plats, or
+
+LC006439 - Page 35 of 57
+
+specifications.
+
+45-24-46. Special provisions — Modification.
+
+(a) A As set forth in this section a zoning ordinance shall provide for the issuance of
+
+modifications from the literal dimensional requirements of the zoning ordinance in the instance of
+
+the construction, alteration, or structural modification of a structure or lot of record. The zoning
+
+enforcement officer is authorized to grant modification permits.
+
+(1) Dimensional modifications. The zoning ordinance shall permit dimensional
+
+modifications that are fifteen percent (15%) or less of any dimensional requirements specified in
+
+the zoning ordinance but may permit modification dimensional modifications up to twenty-five
+
+percent (25%). Within ten (10) days of the receipt of a request for a dimensional modification, the
+
+zoning enforcement officer shall make a decision as to the suitability of the requested dimensional
+
+modification based on the following determinations:
+
+(1)(i) The modification requested is minimal to a reasonable enjoyment of the permitted
+use to which the property is proposed to be devoted;
+(2)(ii) If the modification is granted, neighboring property will neither be substantially
+injured nor its appropriate use substantially impaired;
+(3)(iii) The modification requested does not require a variance of a flood hazard
+requirement, unless the building is built in accordance with applicable regulations; and
+(4)(iv) The modification requested does not violate any rules or regulations with respect to
+freshwater or coastal wetlands.
+
+(b)(2) Upon an affirmative determination, in the case of a dimensional modification of five
+
+percent (5%) or less, the zoning enforcement officer shall have the authority to issue a permit
+
+approving the modification, without any public notice requirements. In the case of a dimensional
+
+modification of greater than five percent (5%), the zoning enforcement officer shall notify, by first
+
+class mail, all property owners abutting the property which is the subject of the modification
+
+request, and shall indicate the street address of the subject property in the notice, and shall publish
+
+in a newspaper of local circulation within the city or town that the modification will be granted
+
+unless written objection by anyone who is entitled to notice under this section is received within
+
+fourteen (14) days of the public notice. If written objection is received within fourteen (14) days,
+
+the request for a modification shall be scheduled for the next available hearing before the zoning
+
+board of review authorized permitting authority on application for a dimensional variance
+
+following the standard procedures for such variances, including notice requirements provided for
+
+under this chapter the applicable provisions of chapter 23 or 24 of title 45. If no written objections
+
+are received within fourteen (14) days, the zoning enforcement officer shall grant the modification.
+
+LC006439 - Page 36 of 57
+
+The zoning enforcement officer may apply any special conditions to the permit as may, in the
+
+opinion of the officer, be required to conform to the intent and purposes of the zoning ordinance.
+
+The zoning enforcement officer shall keep public records of all requests for modifications, and of
+
+findings, determinations, special conditions, and any objections received. Costs of any notice
+
+required under this subsection shall be borne by the applicant requesting the modification.
+
+(c)(3) Neighborhood character-based modifications (“NCBM”). The zoning
+
+enforcement officer is authorized to grant NCBM ordinance shall permit NCBMs on any parcel
+
+with a public water and sewer connection, and for purposes of residential use, from the literal
+
+dimensional requirements of the zoning ordinance in the instance of the construction, alteration,
+
+creation, or structural modification of a dwelling unit, ; provided that:
+
+(1)(i) Such modifications shall only be granted for dimensional relief from frontage, lot
+
+width, and lot depth, up to the average dimensions of the comparable existing built environment;
+
+(2)(ii) The average dimensions of the comparable existing built environment shall be
+
+calculated as follows:
+
+(i)(A) Comparable existing parcels shall mean all parcels that are:
+
+(A)(I) Within two hundred feet (200′) of the subject property; and
+
+(B)(II) In the same base zone; and
+
+(C)(III) Used for residential purposes.
+
+(ii)(B) The average dimensions shall be confirmed by a professional land surveyor.
+
+(iii)(C) The average dimensions are to be determined without any additional review of
+
+zoning or building code analysis of the legality of the existing dimensions of the comparable
+
+existing parcels;.
+
+(3)(4) Within ten (10) days of the receipt of a request for NCBM, the zoning enforcement
+
+officer shall make a decision as to the suitability of the requested modification based on the
+
+following determinations:
+
+(i) The modification requested does not require a variance of a flood hazard requirement,
+unless the building is built in accordance with applicable regulations; and
+(ii) The modification requested does not violate any rules or regulations with respect to
+freshwater or coastal wetlands; and
+(iii) The NCBM does not violate any provisions regarding separation included in the state
+building or fire code; same determinations set forth in subsection (a)(1)(i) through (a)(1)(iv).
+
+(4)(5) Upon an affirmative determination, in the case of an NCBM modification of equal
+
+to or less than thirty percent (30%) of the requirements of the zoning district, the zoning
+
+enforcement officer shall have the authority to issue a permit approving the modification, without
+
+LC006439 - Page 37 of 57
+
+any public notice requirements. In the case of an NCBM modification of greater than thirty percent
+
+(30%), the zoning enforcement officer shall notify, by first class mail, all property owners abutting
+
+the property which is the subject of the NCBM modification request, and shall indicate the street
+
+address of the subject property in the notice, and shall publish in a newspaper of local circulation
+
+within the city or town that the modification will be granted unless written objection is received
+
+within fourteen (14) days of the public notice. If written objection is received from any party
+
+entitled to notice under this section within fourteen (14) days, the request for a modification shall
+
+be scheduled for the next available hearing before the zoning board of review authorized permitting
+
+authority on application for a dimensional variance following the standard procedures for such
+
+variances, including notice requirements provided for under this chapter the applicable provisions
+
+of chapter 23 or 24 of title 45. If no written objections are received within fourteen (14) days, the
+
+zoning enforcement officer shall grant the modification. The zoning enforcement officer may apply
+
+any special conditions to the permit as may, in the opinion of the officer, be required to conform to
+
+the intent and purposes of the zoning ordinance. The zoning enforcement officer shall keep public
+
+records of all requests for modifications, and of findings, determinations, special conditions, and
+
+any objections received. Costs of any notice required under this subsection shall be borne by the
+
+applicant requesting the modification.
+
+45-24-47. Special provisions — Land development projects.
+
+(a) A zoning ordinance shall provide for land development projects which are defined in §
+
+45-23-32.
+
+(b) A zoning ordinance adopted pursuant to this chapter that permits or requires the creation
+
+of land development projects in one or more zoning districts shall require that any land development
+
+project shall be reviewed, in accordance with the procedures established by chapter 23 of this title,
+
+including those for appeal and judicial review, and with any ordinances or regulations adopted
+
+pursuant to the procedures, whether or not the land development project constitutes a “subdivision,”
+
+as defined in chapter 23 of this title. No land development project shall be initiated until a plan of
+
+the project has been submitted and approval has been granted by the authorized permitting
+
+authority. In reviewing, hearing, and deciding upon a land development project, the authorized
+
+permitting authority may be empowered to allow zoning incentives within the project; provided,
+
+that standards for the zoning incentives are described in the zoning ordinance, and may be
+
+empowered to apply any special conditions and stipulations to the approval that may, in the opinion
+
+of the authorized permitting authority, be required to maintain harmony with neighboring uses and
+
+promote the objectives and purposes of the comprehensive plan and zoning ordinance.
+
+(c) In regulating land development projects, an ordinance adopted pursuant to this chapter
+
+LC006439 - Page 38 of 57
+
+may include, but is not limited to, regulations governing the following:
+
+(1) A minimum area or site size for a land development project;
+
+(2) Uses to be permitted within the development;
+
+(3) Ratios of residential to nonresidential uses where applicable;
+
+(4) Unless otherwise set forth in this chapter, maximum Maximum density per lot and
+
+maximum density for the entire development;
+
+(5) Roads, driveways, utilities, parking, and other facilities; regulations may distinguish
+
+between those facilities intended to remain in private ownership or to be dedicated to the public;
+
+and
+
+(6) Buffer areas, landscaping, screening, and shading.
+
+(d) In regulating land development projects, an ordinance adopted pursuant to this chapter
+
+shall include provisions for zoning incentives that include the adjustment of applicable lot density
+
+and dimensional standards where open space is to be permanently set aside for public or common
+
+use, and/or where the physical characteristics, location, or size of the site require an adjustment,
+
+and/or where the location, size, and type of housing, commercial, industrial, or other use require an
+
+adjustment, and/or where housing for low and moderate income families is to be provided, or where
+
+other amenities not ordinarily required are provided, as stipulated in the zoning ordinance.
+
+Provision may be made for adjustment of applicable lot density and dimensional standards for
+
+payment or donation of other land or facilities in lieu of an on-site provision of an amenity that
+
+would, if provided on-site, enable an adjustment.
+
+(e)(1) A zoning ordinance requiring open land in a cluster development or other land
+
+development project for public or common use, shall provide that such open land either: (i) Be
+
+conveyed to the city or town and accepted by it for park, open space, agricultural, or other specified
+
+use or uses; or (ii) Be conveyed to a nonprofit organization, the principal purpose of which is the
+
+conservation of open space or resource protection; or (iii) Be conveyed to a corporation or trust
+
+owned or to be owned by the owners of lots or units within the development, or owners of shares
+
+within a cooperative development. If such a corporation or trust is used, ownership shall pass with
+
+conveyances of the lots or units; or (iv) Remain in private ownership if the use is limited to
+
+agriculture, habitat or forestry, and the city or town has set forth in its community comprehensive
+
+plan and zoning ordinance that private ownership is necessary for the preservation and management
+
+of the agricultural, habitat or forest resources.
+
+(2) In any case where the land is not conveyed to the city or town:
+
+(i) A restriction, in perpetuity, enforceable by the city or town or by any owner of property
+
+in the cluster or other land development project in which the land is located shall be recorded
+
+LC006439 - Page 39 of 57
+
+providing that the land is kept in the authorized condition(s) and not built upon or developed for
+
+accessory uses such as parking or roadway; and
+
+(ii) The developmental rights and other conservation easements on the land may be held,
+
+in perpetuity, by a nonprofit organization, the principal purpose of which is the conservation of
+
+open space or resource protection.
+
+(3) All open space land provided by a cluster development or other land development
+
+project shall be subject to a community-approved management plan that will specify the permitted
+
+uses for the open space.
+
+45-24-54. Administration — Administration and enforcement of zoning ordinance.
+
+(a) A zoning ordinance adopted pursuant to this chapter must provide for the administration
+
+and enforcement of its provisions pursuant to this chapter. The zoning ordinance must designate
+
+the local official or agency and specify minimum qualifications for the person or persons charged
+
+with its administration and enforcement, including: (1) The issuing of any required permits or
+
+certificates; (2) Collection of required fees; (3) Keeping of records showing the compliance of uses
+
+of land; (4) Authorizing commencement of uses or development under the provisions of the zoning
+
+ordinance; (5) Inspection of suspected violations; (6) Issuance of violation notices with required
+
+correction action; (7) Collection of fines for violations; (8) Upon written request from the record
+
+owner of a lot or other person with a bona fide legal or equitable interest in a lot, issue a zoning
+
+certificate or provide information to the requesting party as to the determination by the official or
+
+agency; and (9) Performing any other duties and taking any actions that may be assigned in the
+
+ordinance. A zoning certificate shall be issued within twenty (20) days of the written request. In
+
+the event that no written response is provided within that time, the requesting party has the right to
+
+appeal to the zoning board of review for the determination pursuant to § 45-24-63.
+
+(b) The requesting party has the right to appeal the determination made in the zoning
+certificate pursuant to § 45-24-63.
+SECTION 5. Sections 45-53-4, 45-53-5.1 and 45-53-11 of the General Laws in Chapter
+45-53 entitled "Low and Moderate Income Housing" are hereby amended to read as follows:
+45-53-4. Procedure for approval of construction of low- or moderate-income housing.
+[Effective January 1, 2026, inclusive of existing language in § 45-53-4.]
+
+(a) Any applicant proposing to build low- or moderate-income housing may submit to the
+
+local review board a single application for a comprehensive permit to build that housing in lieu of
+
+separate applications to the applicable local boards. This procedure is only available for proposals
+
+in which at least twenty-five percent (25%) of the housing is low- or moderate-income housing.
+
+This procedure is not available in cities and towns that have low- or moderate-income housing in
+
+LC006439 - Page 40 of 57
+
+excess of ten percent (10%) of its year-round housing units which also have an inclusionary zoning
+
+ordinance which that complies with § 45-24-46.1, unless otherwise allowed by that municipality.
+
+(b) Cities and towns that have low- or moderate-income housing in excess of ten percent
+
+(10%) of its year-round housing units:
+
+(1) May provide an applicant with more dwelling units than allowed by right under its
+
+zoning ordinance in the form of a density bonus to allow an increase in the allowed dwelling units
+
+per acre (DU/A), as well as other incentives and municipal government subsidies as defined in §
+
+45-53-3;
+
+(2) May, by council action, limit the annual total number of dwelling units in
+
+comprehensive permit applications from for-profit developers to an aggregate of one percent (1%)
+
+of the total number of year-round housing units in the town, and notwithstanding the timetables set
+
+forth elsewhere in this section, the local review board shall have the authority to consider
+
+comprehensive permit applications from for-profit developers, which are made pursuant to this
+
+subsection, sequentially in the order in which they are submitted.
+
+(c) Beginning on January 1, 2027, a city or town which has issued building permits for
+
+low- and moderate- income housing units in the twelve (12) month period preceding their
+
+application and approval for qualification under this section, which, if counted, cause the
+
+municipality to exceed the requirement that ten percent (10%) of its year round housing units are
+
+low-and moderate-income housing (“achieving communities”) may, upon approval of the
+
+executive office of housing, for one twelve (12) month period following said approval (“achieving
+
+communities term”), have the benefit of a city or town under subsection (b) of this section, the
+
+application of an additional finding as set forth in subsection (f)(3)(iii)(E)(II) of this section, and,
+
+for those achieving communities which also have an inclusionary zoning ordinance compliant with
+
+§ 45-24-46.1, may refuse to accept new applications under this chapter for the achieving
+
+communities term; provided that:
+
+(1) Building permits issued for market rate units which are part of the same development
+
+project as the low- and moderate-income housing building permits are utilized in the analysis to
+
+determine qualification for the benefits of this section; and
+
+(2) Achieving communities are only eligible for a total of two (2) achieving communities
+terms, upon application and approval of each by the executive office of housing; and
+
+(3) All projects under this chapter which have vested approvals at any stage of review as
+
+well as those applications which are substantially complete, continue to be reviewed in the normal
+
+course, without the application of subsection (b) of this section or subsection (f)(3)(iii)(E)(II) of
+
+this section; and
+
+LC006439 - Page 41 of 57
+
+(4) The executive office of housing confirms that a city or town qualifies under this section
+
+based on application and documentation requirements established by the executive office of
+
+housing.
+
+(c)(d) Cities and towns that do not have low- or moderate-income housing in excess of ten
+percent (10%) of its year-round housing units:
+
+(1) Shall make available to applications under this chapter municipal government
+
+subsidies, including adjustments and zoning incentives, to offset the differential costs of the low-
+
+or moderate-incoming housing units. At a minimum, the following zoning incentives shall be
+
+allowed for in these cities or towns for projects submitted under this chapter:
+
+(A) Density bonuses. These cities and towns shall provide an applicant with more dwelling
+
+units than allowed by right under its zoning ordinances in the form of a density bonus to allow an
+
+increase in the allowed dwelling units per acre (DU/A). At a minimum, the following density
+
+bonuses for projects submitted under this chapter, provided that the total land utilized in the density
+
+calculation shall exclude wetlands; area devoted to roadway infrastructure necessary for
+
+development; and easements or rights of way of record:
+
+(i) For properties connected to public sewer and water, or eligible to be connected to public
+
+sewer and water based on written confirmation from each respective service provider, the density
+
+bonus for a project that provides at least twenty-five percent (25%) low- and moderate-income
+
+housing shall be at least five (5) units per acre;
+
+(ii) For properties connected to public sewer and water, or eligible to be connected to public
+
+sewer and water based on written confirmation from each respective service provider, the density
+
+bonus for a project that provides at least fifty percent (50%) low- and moderate-income housing
+
+shall be at least nine (9) units per acre;
+
+(iii) For properties connected to public sewer and water, or eligible to be connected to
+
+public sewer and water based on written confirmation from each respective service provider, the
+
+density bonus for a project that provides one hundred percent (100%) low- and moderate-income
+
+housing shall be at least twelve (12) units per acre;
+
+(iv) For properties not connected to either public water or sewer or both, but which provide
+
+competent evidence as to the availability of water to service the development and/or a permit for
+
+on-site wastewater treatment facilities to service the dwelling units from the applicable state
+
+agency, the density bonus for a project that provides at least twenty-five percent (25%) low- and
+
+moderate-income housing shall be at least three (3) units per acre;
+
+(v) For properties not connected to either public water or sewer or both, but which provide
+
+competent evidence as to the availability of water to service the development and/or a permit for
+
+LC006439 - Page 42 of 57
+
+on-site wastewater treatment facilities to service the dwelling units from the applicable state
+
+agency, the density bonus for a project that provides at least fifty percent (50%) low- and moderate-
+
+income housing shall be at least five (5) units per acre;
+
+(vi) For properties not connected to either public water or sewer or both, but which provide
+
+competent evidence as to the availability of water to service the development and/or a permit for
+
+on-site wastewater treatment facilities to service the dwelling units from the applicable state
+
+agency, the density bonus for a project that provides one hundred percent (100%) low- and
+
+moderate-income housing shall be at least eight (8) units per acre;
+
+(B) Parking. A municipality shall not require more than one off-street parking space per
+
+dwelling unit for units up to and including two (2) bedrooms in applications submitted under this
+
+chapter;
+
+(C) Bedrooms. A municipality shall not limit the number of bedrooms for applications
+
+submitted under this chapter to anything less than three (3) bedrooms per dwelling unit for single-
+
+family dwelling units;
+
+(D) Floor area. A municipality shall not utilize floor area requirements to limit any
+application, except as provided by § 45-24.3-11.
+
+(d)(e) Except for approved achieving communities as set forth in subsection (b) of this
+
+section, a A municipality shall not restrict comprehensive permit applications and permits by any
+
+locally adopted ordinance or policy that places a limit or moratorium on the development of
+
+residential units.
+
+(e)(f) The application and review process for a comprehensive permit shall be as follows:
+
+(1) Pre-application conference. A municipality may require an applicant proposing a
+
+project under this chapter, who is not electing to have master plan review, to complete, or the
+
+applicant proposing a project under this chapter may request a pre-application conference with the
+
+local review board, the technical review committee established pursuant to § 45-23-56, or with the
+
+administrative officer for the local review board as appropriate. In advance of a pre-application
+
+conference, the applicant shall be required to submit only a short description of the project in
+
+writing including the number of units, type of housing, density analysis, preliminary list of
+
+adjustments needed, as well as a location map, and conceptual site plan. The purpose of the pre-
+
+application conference shall be to review a concept plan of the proposed development and to elicit
+
+feedback from the reviewing person or board. Upon receipt of a request by an applicant for a pre-
+
+application conference, the municipality shall have thirty (30) days to schedule and hold the pre-
+
+application conference, unless a different timeframe is agreed to by the applicant in writing. If thirty
+
+(30) days has elapsed from the filing of the pre-application submission and no pre-application
+
+LC006439 - Page 43 of 57
+
+conference has taken place, nothing shall be deemed to preclude an applicant from thereafter filing
+
+and proceeding with an application for preliminary plan review for a comprehensive permit.
+
+(2) Optional master plan. An applicant may elect to apply for and be heard on master plan
+
+review prior to preliminary plan submission. If a master plan review is elected by the applicant the
+
+following shall apply:
+
+(i) Submission requirements. Submission requirements for master plan review shall be
+limited to the following:
+
+(A) An application form and fee;
+
+(B) A short description of the project in writing including the number of units, type of
+
+housing, density analysis, list of adjustments needed, as well as a location map, and preliminary
+
+determinations as to site constraints;
+
+(C) Conceptual site plans showing infrastructure locations for roadways, preliminary
+
+locations and design of conceptual stormwater facilities, location of sewer and water lines and/or
+
+wells and on-site wastewater treatment systems, locations of housing units, estimated locations of
+
+site constraints and wetlands;
+
+(D) A preliminary traffic opinion for projects of over thirty (30) dwelling units;
+
+(E) A letter of eligibility issued by the Rhode Island housing and mortgage finance
+
+corporation, or in the case of projects primarily funded by the U.S. Department of Housing and
+
+Urban Development or other state or federal agencies, an award letter indicating the subsidy, or
+
+application in such form as may be prescribed for a municipal government subsidy;
+
+(F) If the applicant submits any requests for adjustments at master plan, a public hearing
+
+shall be held in the same manner as during preliminary plan review as set forth in this section and
+
+the applicant shall be responsible for providing the list of abutters and all advertising costs.
+
+(ii) Certification of completeness. The master plan application must be certified complete
+
+or incomplete by the administrative officer according to the provisions of § 45-23-36; provided,
+
+however, that the certificate shall be granted within twenty-five (25) days of submission of the
+
+application. The running of the time period set forth herein will be deemed stopped upon the
+
+issuance of a written certificate of incompleteness of the application by the administrative officer
+
+and will recommence upon the resubmission of a corrected application by the applicant. However,
+
+in no event will the administrative officer be required to certify a corrected submission as complete
+
+or incomplete less than ten (10) days after its resubmission. If the administrative officer certifies
+
+the application as incomplete, the officer shall set forth in writing with specificity the missing or
+
+incomplete items.
+
+(iii) Review of applications. A master plan application filed in accordance with this chapter
+
+LC006439 - Page 44 of 57
+
+shall be reviewed in accordance with the following provisions:
+
+(A) Timeframe for review. The local review board shall render a decision on the master
+
+plan application within sixty (60) days of the date the application is certified complete, or within a
+
+further amount of time that may be consented to by the applicant through the submission of a
+
+written consent.
+
+(B) Failure to act. Failure of the local review board to act within the prescribed period
+
+constitutes approval of the master plan, and a certificate of the administrative officer as to the failure
+
+of the local review board to act within the required time and the resulting approval shall be issued
+
+on request of the applicant.
+
+(C) Required findings. In voting on an application, the local review board shall make
+
+findings, supported by legally competent evidence on the record that discloses the nature and
+
+character of the observations upon which the fact finders acted, on the standards required for
+
+preliminary plan review in this section, to the extent applicable at the master plan. The failure to
+
+provide information which is required later at preliminary plan review shall not form a basis for
+
+denial. If the board votes to defer a finding to preliminary plan it shall do so on the record during
+
+the proceedings and in the written decision and specify what items are necessary for review at the
+
+preliminary plan stage in order to address that finding.
+
+(iv) Vesting. The approved master plan is vested for a period of two (2) years with the right
+
+to extend for two (2), one-year extensions upon written request by the applicant, who must appear
+
+before the planning board for each annual review from the date of recording of the decision.
+
+Thereafter, vesting may be extended for a longer period, for good cause shown, if requested, in
+
+writing by the applicant prior to the date the vested approval period ends, and approved by the local
+
+review board. Demonstrated evidence that the applicant and its design team are in the process of
+
+full engineering design and obtaining other items needed for preliminary plan submission shall
+
+meet the definition of good cause, as well as any other circumstances that the local board determines
+
+to constitutes good cause. The vesting for the master plan approval includes all ordinance
+
+provisions and regulations at the time of the approval, general and specific conditions shown on
+
+the approved master plan drawings and supporting material. The vesting period is tolled upon the
+
+filing of an appeal and shall restart only upon the issuance of a decision affirming the approval.
+
+(3) Preliminary plan review.
+
+(i) Submission requirements. Applications for preliminary plan review under this chapter
+
+shall include:
+
+(A) Unless already submitted at a master plan stage, a letter of eligibility issued by the
+
+Rhode Island housing and mortgage finance corporation, or in the case of projects primarily funded
+
+LC006439 - Page 45 of 57
+
+by the U.S. Department of Housing and Urban Development or other state or federal agencies, an
+
+award letter indicating the subsidy, or application in such form as may be prescribed for a municipal
+
+government subsidy; and
+
+(B) A letter signed by the authorized representative of the applicant, setting forth the
+
+specific sections and provisions of applicable local ordinances and regulations from which the
+
+applicant is seeking adjustments; and
+
+(C) A proposed timetable for the commencement of construction and completion of the
+project; and
+
+(D) Those items required by local regulations promulgated pursuant to applicable state law,
+
+with the exception of evidence of state or federal permits; and for comprehensive permit
+
+applications included in the checklist for the preliminary plan review in the local regulations
+
+promulgated pursuant to chapter 23 of this title; and
+
+(E) Notwithstanding the submission requirements set forth above, the local review board
+
+may request additional, reasonable documentation throughout the public hearing, including, but not
+
+limited to, opinions of experts, credible evidence of application for necessary federal and/or state
+
+permits, statements, and advice from other local boards and officials, and in the case of
+
+developments proposed to be serviced by on-site wastewater treatment systems, evidence of soil
+
+suitability.
+
+(ii) Certification of completeness. The preliminary plan application must be certified
+
+complete or incomplete by the administrative officer according to the provisions of § 45-23-36;
+
+provided, however, that the certificate shall be granted within twenty-five (25) days of submission
+
+of the application. The running of the time period set forth herein will be deemed stopped upon the
+
+issuance of a written certificate of incompleteness of the application by the administrative officer
+
+and will recommence upon the resubmission of a corrected application by the applicant. However,
+
+in no event will the administrative officer be required to certify a corrected submission as complete
+
+or incomplete less than ten (10) days after its resubmission. If the administrative officer certifies
+
+the application as incomplete, the officer shall set forth in writing with specificity the missing or
+
+incomplete items.
+
+(iii) Review of applications. An application filed in accordance with this chapter shall be
+reviewed in accordance with the following provisions:
+(A) Public hearing. A public hearing shall be noticed and held as soon as practicable after
+the issuance of a certificate of completeness.
+
+(B) Notice. Public notice for the public hearing will be the same notice required under local
+
+regulations for a public hearing for a preliminary plan promulgated in accordance with § 45-23-42.
+
+LC006439 - Page 46 of 57
+
+The cost of notice shall be paid by the applicant.
+
+(C) Timeframe for review. The local review board shall render a decision on the
+
+preliminary plan application within ninety (90) days of the date the application is certified
+
+complete, or within a further amount of time that may be consented to by the applicant through the
+
+submission of a written consent.
+
+(D) Failure to act. Failure of the local review board to act within the prescribed period
+
+constitutes approval of the preliminary plan, and a certificate of the administrative officer as to the
+
+failure of the local review board to act within the required time and the resulting approval shall be
+
+issued on request of the applicant. Further, if the public hearing is not convened or a decision is not
+
+rendered within the time allowed in subsections (e)(3)(iii)(A) and (e)(3)(iii)(C) of this section, the
+
+application is deemed to have been allowed and the preliminary plan approval shall be issued
+
+immediately.
+
+(E) Required findings. In voting on an application, the local review board shall make
+
+findings, supported by legally competent evidence on the record that discloses the nature and
+
+character of the observations upon which the fact finders acted, on each of the following standards,
+
+where applicable:
+
+(I) Whether the proposed development is consistent with local needs as identified in the
+
+community’s approved affordable housing plan and/or has satisfactorily addressed the issues where
+
+there may be inconsistencies. If the local board finds that the proposed development is inconsistent
+
+with the community’s affordable housing plan, it must also find that the municipality has made
+
+significant progress in implementing its housing plan.
+
+(II) Whether the proposed development is in compliance with the standards and provisions
+
+of the municipality’s zoning ordinance and subdivision regulations, and/or where adjustments are
+
+requested by the applicant, whether local concerns that have been affected by the relief granted do
+
+not outweigh the state and local need for low- and moderate-income housing. For cities and towns
+
+that have low- or moderate-income housing in excess of ten percent (10%) of its year-round housing
+
+units, where adjustments are requested, in addition to the above-showing, the proposed
+
+development must show it has mitigated any impact of the proposed development on the general
+
+character of the surrounding area.
+
+(III) Whether the required low- and moderate-income housing units proposed are integrated
+
+throughout the development; are compatible in scale, meaning that: (1) The size of the low- and
+
+moderate-income units shall not be less than seventy-five percent (75%) of the size of the market
+
+rate units, unless otherwise allowed by the local board; (2) The affordable units are of similar
+
+architectural style to the market rate units within the project so that the exterior of the units look
+
+LC006439 - Page 47 of 57
+
+like an integrated neighborhood with similar rooflines, window patterns, materials and colors; and
+
+(3) The affordable units will be built and occupied in a proportional manner with the construction
+
+and occupancy of the market rate units. Except that for affordable housing units that are intended
+
+to be occupied by persons fifty-five (55) years of age or older, or sixty-two (62) years of age or
+
+older, as permitted by the federal Fair Housing Act pursuant to 42 U.S.C. § 3607(b) and 24 C.F.R.
+
+§§ 100.300-308 and the Rhode Island fair housing practices act pursuant to § 34-37-4.1, such units
+
+need not be integrated in any building or phase within the development that contains affordable or
+
+market rate housing units that are not age-restricted, and neither age-restricted housing units nor
+
+any building or phase containing age-restricted housing units must be compatible in scale and
+
+architectural style to other housing unit types to the extent the age-restricted housing units are
+
+designed to meet the physical or social needs of older persons or necessary to provide housing
+
+opportunities for older persons.
+
+(IV) Whether there will be significant negative impacts on the health and safety of current
+
+or future residents of the community, in areas including, but not limited to, safe circulation of
+
+pedestrian and vehicular traffic, provision of emergency services, sewerage disposal, availability
+
+of potable water, adequate surface water run-off, and the preservation of natural, historical, or
+
+cultural features.
+
+(V) Whether the proposed land developments or subdivisions lots will have adequate and
+
+permanent physical access to a public street in accordance with the requirements of § 45-23-
+
+60(a)(5), or the local review board has approved other access, such as a private road.
+
+(VI) Whether the proposed development will result in the creation of individual lots with
+
+any physical constraints to development that building on those lots according to pertinent
+
+regulations and building standards would be impracticable, unless created only as permanent open
+
+space or permanently reserved for a public purpose on the approved, recorded plans.
+
+(F) [Deleted by P.L. 2025, ch. 363, § 1 and P.L. 2025, ch. 364, § 1.]
+
+(iv) Vesting. The approved preliminary plan is vested for a period of two (2) years with the
+
+right to extend for two (2), one-year extensions upon written request by the applicant, who must
+
+appear before the planning board for each annual review and provide proof of valid state or federal
+
+permits as applicable from the date of the recording of the decision. Thereafter, vesting may be
+
+extended for a longer period, for good cause shown, if requested, in writing by the applicant prior
+
+to the date the vested approval period ends, and approved by the local review board. The vesting
+
+for the preliminary plan approval includes all ordinance provisions and regulations at the time of
+
+the approval, general and specific conditions shown on the approved preliminary plan drawings
+
+and supporting material. Demonstrated evidence that all applicable state permits have been applied
+
+LC006439 - Page 48 of 57
+
+for and are under review shall meet the definition of good cause, as well as any other circumstances
+
+that the local board determines to constitute good cause. The vesting period is tolled upon the filing
+
+of an appeal and shall restart only upon the issuance of a decision affirming the approval.
+
+(4) Final plan review. The second and final stage of review for the comprehensive permit
+
+project shall be done administratively, unless an applicant has requested and been granted any
+
+waivers from the submission of checklist items for preliminary plan review, and then, at the local
+
+review board’s discretion, it may vote to require the applicant to return for final plan review and
+
+approval.
+
+(i) Submission requirements. Applications for final plan review under this chapter shall
+include:
+(A) All required state and federal permits must be obtained prior to the final plan approval
+or the issuance of a building permit; and
+(B) A draft monitoring agreement which identifies an approved entity that will monitor the
+long-term affordability of the low- and moderate-income units pursuant to § 45-53-3.2; and
+
+(C) A sample land lease or deed restriction with affordability liens that will restrict use as
+
+low- and moderate-income housing in conformance with the guidelines of the agency providing
+
+the subsidy for the low- and moderate-income housing, but for a period of not less than thirty (30)
+
+years; and
+
+(D) Those items required by local regulations promulgated pursuant to applicable state law
+
+included in the checklist for final plan review in the local regulations promulgated pursuant to
+
+chapter 23 of this title, including, but not limited to:
+
+(I) Arrangements for completion of the required public improvements, including
+construction schedule and/or financial guarantees; and
+
+(II) Certification by the tax collector that all property taxes are current; and
+
+(III) For phased projects, the final plan for phases following the first phase, shall be
+
+accompanied by copies of as-built drawings not previously submitted of all existing public
+
+improvements for prior phases.
+
+(ii) Certification of completeness. The final plan application must be certified complete or
+
+incomplete by the administrative officer according to the provisions of § 45-23-36; provided
+
+however, that the certificate shall be granted within twenty-five (25) days of submission of the
+
+application. The running of the time period set forth herein will be deemed stopped upon the
+
+issuance of a written certificate of incompleteness of the application by the administrative officer
+
+and will recommence upon the resubmission of a corrected application by the applicant. However,
+
+in no event will the administrative officer be required to certify a corrected submission as complete
+
+LC006439 - Page 49 of 57
+
+or incomplete less than ten (10) days after its resubmission. If the administrative officer certifies
+
+the application as incomplete, the officer shall set forth in writing with specificity the missing or
+
+incomplete items.
+
+(iii) Review of applications.
+
+(A) Timeframe for review. The reviewing authority shall render a decision on the final plan
+
+application within forty-five (45) days of the date the application is certified complete.
+
+(B) Modifications and changes to plans:
+
+(I) Minor changes, as defined in the local regulations, to the approved plans may be
+
+approved administratively, by the administrative officer. The changes may be authorized without
+
+additional public hearings, at the discretion of the administrative officer. All changes shall be made
+
+part of the permanent record of the project application. This provision does not prohibit the
+
+administrative officer from requesting a recommendation from either the technical review
+
+committee or the local review board. Denial of the proposed change(s) shall be referred to the local
+
+review board for review as a major change.
+
+(II) Major changes, as defined in the local regulations, to the plans may be approved only
+
+by the local review board and must follow the same review and public hearing process required for
+
+approval of preliminary plans as described in subsection (e)(3)(iii) of this section.
+
+(III) The administrative officer shall notify the applicant in writing within fourteen (14)
+
+days of submission of the final plan application if the administrative officer is referring the
+
+application to the local review board under this subsection.
+
+(C) Decision on final plan. An application filed in accordance with this chapter shall be
+
+approved by the administrative officer unless such application does not satisfy conditions set forth
+
+in the preliminary plan approval decision or such application does not have the requisite state and/or
+
+federal approvals or other required submissions, does not post the required improvement bonds, or
+
+such application is a major modification of the plans approved at preliminary plan.
+
+(D) Failure to act. Failure of the reviewing authority to act within the prescribed period
+
+constitutes approval of the final plan, and a certificate of the administrative officer as to the failure
+
+to act within the required time and the resulting approval shall be issued on request of the applicant.
+
+(iv) Vesting. The approved final plan decision is vested for a period of two (2) years with
+
+the right to extend for one one-year extension upon written request by the applicant, who must
+
+appear before the planning board for the extension request from the date of the recording of the
+
+decision, unless, within that period, the plat or plan has been submitted for signature and recording
+
+as specified in § 45-23-64. Thereafter, vesting may be extended for a longer period, for good cause
+
+shown, if requested, in writing by the applicant prior to the date the vested approval period ends,
+
+LC006439 - Page 50 of 57
+
+and approved by the local review board. Demonstrated evidence that the project is diligently
+
+seeking funding for construction shall meet the definition of good cause, as well as any other
+
+circumstances that the local board determines to constitute good cause. The vesting period is tolled
+
+upon the filing of an appeal and shall restart only upon the issuance of a decision affirming the
+
+approval.
+
+(5) Infeasibility of conditions of approval. The burden is on the applicant to show, by
+
+competent evidence before the local review board, that proposed conditions of approval are
+
+infeasible, as defined in § 45-53-3. Upon request, the applicant shall be provided a reasonable
+
+opportunity to respond to such proposed conditions prior to a final vote on the application.
+
+(6) Fees. Municipalities may impose fees on comprehensive permit applications that are
+
+consistent with but do not exceed fees that would otherwise be assessed for a project of the same
+
+scope and type, but not proceeding under this chapter; provided, however, the imposition of such
+
+fees shall not preclude a showing by an applicant that the fees make the project financially
+
+infeasible.
+
+(7) Recording of written decisions. All written decisions on applications under this chapter
+
+shall be recorded in the land evidence records within twenty (20) days after the local review board’s
+
+vote or the administrative officer’s decision, as applicable. A copy of the recorded decision shall
+
+be mailed within one business day of recording, by any method that provides confirmation of
+
+receipt, to the applicant and to any objector who has filed a written request for notice with the
+
+administrative officer.
+
+(8) Local review board powers. The local review board has the same power to issue permits
+
+or approvals that any local board or official who would otherwise act with respect to the application,
+
+including, but not limited to, the power to attach to the permit or approval, conditions, and
+
+requirements with respect to height, site plan, size or shape, or building materials, as are consistent
+
+with the terms of this section.
+
+(9) Majority vote required. All local review board decisions on comprehensive permits
+shall be by majority vote of the members present at the proceeding.
+
+(10) Construction timetable. A comprehensive permit shall expire unless construction is
+
+started within twelve (12) months and completed within sixty (60) months of the recording of the
+
+final plan unless a longer and/or phased period for development is agreed to by the local review
+
+board and the applicant. Low- and moderate-income housing units shall be built and occupied prior
+
+to, or simultaneous with the construction and occupancy of market rate units.
+
+(11) [Deleted by P.L. 2025, ch. 363, § 2 and P.L. 2025, ch. 364, § 2.]
+
+(12) Report. The local review board of a town with an approved affordable housing plan
+
+LC006439 - Page 51 of 57
+
+shall report the status of implementation to the housing resources commission, including the
+
+disposition of any applications made under the plan, as of June 30, 2006, by September 1, 2006,
+
+and for each June 30 thereafter by September 1 through 2010. The housing resources commission
+
+shall prepare by October 15 and adopt by December 31, a report on the status of implementation,
+
+which shall be submitted to the governor, the speaker and the president of the senate, and shall find
+
+which towns are not in compliance with implementation requirements.
+
+(13) Remanded applications. Notwithstanding the provisions of § 45-53-4 in effect on
+
+February 13, 2004, a local review board shall commence hearings within thirty (30) days of
+
+receiving an application remanded pursuant to § 45-53-5 or, effective January 1, 2024, § 45-53-
+
+5.1. In any town with more than one remanded application, applications may be scheduled for
+
+hearing in the order in which they were received, and may be taken up sequentially, with the thirty-
+
+day (30) requirement for the initiation of hearings, commencing upon the decision of the earlier
+
+filed application.
+
+(f)(1) The general assembly finds and declares that in January 2004 towns throughout
+
+Rhode Island have been confronted by an unprecedented volume and complexity of development
+
+applications as a result of private for-profit developers using the provisions of this chapter and that
+
+in order to protect the public health and welfare in communities and to provide sufficient time to
+
+establish a reasonable and orderly process for the consideration of applications made under the
+
+provisions of this chapter, and to have communities prepare plans to meet low- and moderate-
+
+income housing goals, that it is necessary to impose a moratorium on the use of comprehensive
+
+permit applications as herein provided by private for-profit developers; a moratorium is hereby
+
+imposed on the use of the provisions of this chapter by private for-profit developers, which
+
+moratorium shall be effective on passage and shall expire on January 31, 2005, and may be revisited
+
+prior to expiration and extended to such other date as may be established by law. Notwithstanding
+
+the provisions of subsection (a) of this section, private for-profit developers may not utilize the
+
+procedure of this chapter until the expiration of the moratorium.
+
+(2) No for-profit developer shall submit a new application for comprehensive permits until
+July 1, 2005, except by mutual agreement with the local review board.
+
+(3) Notwithstanding the provisions of subsection (f)(2) of this section, a local review board
+
+in a town which has submitted a plan in accordance with subsection (g) of this section, shall not be
+
+required to accept an application for a new comprehensive permit from a for-profit developer until
+
+October 1, 2005.
+
+(g) Towns and cities that are not in conformity with the provisions of § 45-53-3(5)(i) shall
+
+prepare by December 31, 2004, a comprehensive plan housing element for low- and moderate-
+
+LC006439 - Page 52 of 57
+
+income housing as specified by § 45-53-3(5)(ii), consistent with applicable law and regulation.
+
+That the secretary of the planning board or commission of each city or town subject to the
+
+requirements of this paragraph shall report in writing the status of the preparation of the housing
+
+element for low- and moderate-income housing on or before June 30, 2004, and on or before
+
+December 31, 2004, to the secretary of the state planning council, to the chair of the house
+
+committee on corporations and to the chair of the senate committee on commerce, housing and
+
+municipal government.
+
+(h) If any provision of this section or the application thereof shall for any reason be judged
+
+invalid, the judgment shall not affect, impair, or invalidate the remainder of this section or of any
+
+other provision of this chapter, but shall be confined in its effect to the provision or application
+
+directly involved in the controversy giving rise to the judgment, and a moratorium on the
+
+applications of for-profit developers pursuant to this chapter shall remain and continue to be in
+
+effect for the period commencing on the day this section becomes law [February 13, 2004] and
+
+continue until it shall expire on January 31, 2005, or until amended further.
+
+(i) In planning for, awarding, and otherwise administering programs and funds for housing
+
+and for community development, state departments, agencies, boards and commissions, and public
+
+corporations, as defined in chapter 18 of title 35, shall among the towns subject to the provision of
+
+§ 45-53-3(5)(ii), give priority to the maximum extent allowable by law to towns with an approved
+
+affordable housing plan. The director of administration shall adopt not later than January 31, 2005,
+
+regulations to implement the provisions of this section.
+
+(j) Multi-family rental units built under a comprehensive permit may be calculated towards
+
+meeting the requirements of a municipality’s low- or moderate-income housing inventory, as long
+
+as the units meet and are in compliance with the provisions of § 45-53-3.1.
+
+45-53-5.1. Appeals — Judicial review.
+
+(a) Effective January 1, 2024, as a replacement to § 45-53-5. A decision of a local review
+
+board may be appealed by the applicant or an aggrieved party, as defined by § 45-24-31, to the
+
+superior court for the county in which the property is situated. The appeal shall be taken within
+
+twenty (20) days after the date of the recording and posting of the decision by the local review
+
+board, by filing with the superior court a complaint that contains a statement of the prior
+
+proceedings and the reasons upon which the appeal is based. The complaint shall name the local
+
+review board as the appellee and serve the local review board with the appeal within twenty (20)
+
+days of filing of the appeal. If an aggrieved party who or that is not the applicant files an appeal,
+
+the original applicant shall be named as a party and served in the same manner as the local review
+
+board.
+
+LC006439 - Page 53 of 57
+
+(b) The local review board shall not be required to answer the complaint, but it shall submit
+
+the complete local review board record to superior court within thirty (30) days of receiving service
+
+of the complaint. Should the local review board fail to file the record within thirty (30) days, the
+
+applicant may move for default.
+
+(c) Appeals from a decision granting approval of a final plan shall be limited to elements
+
+of the approval not contained in the decision reached by the local review board at the preliminary
+
+plan stage.
+
+(c)(d) The appeal shall be expedited and given priority on the court calendar as soon as
+
+proof of service of the complaint on the local review board is filed. The appeal shall be decided as
+
+soon as possible by the superior court, without delay.
+
+(d)(e) The review shall be conducted by the superior court without a jury. The court shall
+
+consider the record of the hearing before the local review board and, if it appears to the court that
+
+additional evidence is necessary for the proper disposition of the matter, it may allow, upon motion,
+
+any party to the appeal to present that evidence in open court, which evidence, along with the
+
+record, constitutes the record upon which the determination of the court is made.
+
+(f) The court shall not substitute its judgment for that of the local review board as to the
+
+weight of the evidence on questions of fact. The court may affirm the decision of the local review
+
+board or remand the case for further proceedings, or may reverse or modify the decision if
+
+substantial rights of the appellant have been prejudiced because of findings, inferences,
+
+conclusions, or decision that were:
+
+(1) In violation of constitutional or statutory provisions;
+
+(2) In excess of the authority granted to the planning board by statute or ordinance;
+
+(3) Made upon unlawful procedure;
+
+(4) Affected by other error of law;
+
+(5) Clearly erroneous in view of the reliable, probative, and substantial evidence of the
+
+whole record; or
+(6) Arbitrary or capricious or characterized by abuse of discretion or clearly unwarranted
+exercise of discretion.
+(e)(g) The superior court shall review the appeal under take into account the following
+standards:
+(1) Whether the decision was arbitrary and capricious or clearly erroneous in light of
+considerations regarding: in its review of a denial of an application under this chapter:
+(i)(1) The consistency of the decision to deny or condition the permit with the approved
+affordable housing plan;
+
+LC006439 - Page 54 of 57
+
+(ii)(2) The extent to which the community meets or plans to meet housing needs, as defined
+
+in an affordable housing plan, including, but not limited to, the ten percent (10%) goal for existing
+
+low- and moderate-income housing units as a proportion of year-round housing;
+
+(iii)(3) The consideration of environmental protection;
+
+(iv)(4) The state’s need for low- and moderate-income housing;
+
+(v)(5) The need to protect the health and safety of the occupants of the proposed housing
+
+or the residents of the city or town; and
+
+(vi) The need to promote better site and building design in relation to the surroundings or
+to preserve open space; and
+
+(vii)(6) Whether the reasons for denial, local zoning or land use ordinances, requirements
+and regulations are applied as equally as possible to both subsidized and unsubsidized housing.
+
+(f)(h) If the appeal is by an applicant for a decision approving an application with
+
+conditions, the superior court shall, in addition to reviewing the standards and considerations set
+
+forth in subsection (e) subsections (f) and (g) of this section, determine whether such conditions
+
+and requirements imposed make the construction or operation of the housing infeasible.
+
+(g) The court shall not substitute its judgment for that of the local review board as to the
+
+weight of the evidence on questions of fact. The court may affirm the decision of the local review
+
+board or remand the case for further proceedings, or may reverse or modify the decision if
+
+substantial rights of the appellant have been prejudiced because of findings, inferences,
+
+conclusions, or decisions that were arbitrary, capricious or unreasonable.
+
+(h)(i) An aggrieved party may, within twenty (20) days from the date of entry of the
+
+judgment of superior court, petition the supreme court of the state of Rhode Island for a writ of
+
+certiorari to review any questions of law involved. The petition for a writ of certiorari shall set forth
+
+the errors claimed. Upon the filing of such a petition with the clerk of the supreme court, the
+
+supreme court may, if it sees fit, issue its writ of certiorari to the superior court to certify to the
+
+supreme court the record of the record under review, or so much thereof as was submitted to the
+
+superior court by the parties, together with any additional record of the proceedings in the superior
+
+court.
+
+(i)(j) Effective January 1, 2024, all matters pending before the state housing appeals board
+
+shall be transferred to superior court for the county in which the property is situated by the applicant
+
+filing a complaint in superior court and providing a copy of the complaint to the attorney
+
+representing the local review board within ten (10) days of filing. An applicant with an appeal
+
+pending before the state housing appeals board shall have until March 1, 2024, to file the complaint
+
+transferring the matter to superior court for the county in which the property is situated. The parties
+
+LC006439 - Page 55 of 57
+
+shall be required to file the entire record before the state housing appeals board with superior court
+
+within forty-five (45) days of the filing of the complaint.
+
+(j)(k) Effective January 1, 2024, this section shall replace the provisions of § 45-53-5 and
+
+any reference in the general laws to § 45-53-5 shall mean § 45-53-5.1.
+
+45-53-11. Annual comprehensive permit report.
+
+(a) The executive office of housing (“executive office”) shall maintain records and shall
+
+prepare a report (“report”) on an annual basis to be submitted to the speaker of the house and the
+
+president of the senate. The report shall also be made available on the executive office’s website
+
+for a period of at least three (3) years, and shall also be deemed to be a public record. The report
+
+shall be due on or before March 15, of each year.
+
+(b) The report required by this section shall contain the following for the preceding twelvemonth (12) calendar period covered by the report:
+
+(1) The number of letters of eligibility issued for low- and moderate-income housing for
+
+applications made pursuant to this chapter and § 42-55-5.3, the federal, state, and municipal subsidy
+
+programs under which they were eligible, and the number of proposed subsidized units involved,
+
+by city and town, during the preceding calendar year, as provided by the Rhode Island housing
+
+corporation.
+
+(2) The status of each comprehensive permit application for which a letter of eligibility
+was issued disaggregated by municipality.
+
+(3) The number of comprehensive permit applications that have had building permits
+
+issued, including the number of market rate housing units, the number of low- and moderate-
+
+income housing units, and the AMI restrictions associated both pursuant to § 45-53-4 with the low-
+
+and moderate-income housing units, aggregated by the total number of such applications in the
+
+state and disaggregated by each municipality in the state.
+
+(4) The number of comprehensive permit applications that have had certificates of
+
+occupancy issued, aggregated by the total number of such applications in the state and
+
+disaggregated by each municipality in the state.
+
+(c) Each municipality shall annually provide to the executive office the information on
+comprehensive permit activity described in subsection (b) of this section by February 1.
+SECTION 6. This act shall take effect upon passage.
+========
+========
+
+LC006439 - Page 56 of 57
+
+EXPLANATION
+BY THE LEGISLATIVE COUNCIL
+OF
+AN ACT
+RELATING TO COURTS AND CIVIL PROCEDURE--COURTS -- SUPERIOR COURT
+
+***
+
+This act would provide technical amendments relating to comprehensive planning and land
+use, subdivision of land, zoning ordinances and low- and moderate-income housing.
+This act would take effect upon passage.
+========
+========
+
+LC006439 - Page 57 of 57

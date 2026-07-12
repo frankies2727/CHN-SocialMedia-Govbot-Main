@@ -1,0 +1,46 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes the Department of Transportation and vests the department with full possession and control of all state highways and all property and rights in property acquired for state highway purposes. Existing law establishes the Tahoe Transportation District as a special purpose district managed by representatives from the States of California and Nevada to, among other things, operate a public transportation system in the Lake Tahoe Basin.\n\nThis bill would authorize the department, within the Tahoe corridor, to contract with a state agency, a local government, or the district relating to safety, access, and parking in the corridor to (1) designate the portions of state highways that constitute the corridor, (2) prevent unsafe parking and pedestrian movement in the corridor, as provided, and (3) enhance public access to the corridor and public recreation sites, by, among other things, developing public parking, establishing and collecting fees for public parking, and developing transit facilities and pedestrian pathways to connect public parking to recreation sites, as specified.\n\nThis bill would require all moneys collected from a fee for that public parking to be deposited into the Tahoe Safe Recreation Access Fund, which the bill would establish, and would, upon appropriation by the Legislature, require the department to use those moneys for purposes of improving transportation facilities on state highways in the Tahoe Basin, as specified. The bill would require all penalty moneys collected through citations issued for failing to pay parking fees to be deposited into the Tahoe Safe Recreation Access Penalty Account, which the bill would establish, and would, upon appropriation by the Legislature, require the department to use those moneys for enforcement of parking restrictions and prohibitions on state highways in the Tahoe Basin.\n\nThis bill would make legislative findings and declarations as to the necessity of a special statute for the Lake Tahoe Basin.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2679",
+    "legislative_session": "20252026",
+    "subject": [
+      "Statehighways",
+      "publicparking",
+      "trafficcontrol"
+    ],
+    "title": "State highways: public parking: traffic control."
+  },
+  "id": "AB2679",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-introduction",
+        "amendment-passage",
+        "committee-passage",
+        "referral-committee"
+      ],
+      "description": "From committee: Amend, and do pass as amended and re-refer to Com. on APPR. (Ayes 7. Noes 0.) (July 1).",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-09",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2679"
+        }
+      ]
+    },
+    "bill_id": "AB2679"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2679/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2679/logs/20260709T000000Z_from_committee_amend_and_do_pass_as_amended_and_rerefer_to_com_on_appr_ayes_7_noes_0_july_1.json"
+  },
+  "timestamp": "20260709T000000Z"
+}
