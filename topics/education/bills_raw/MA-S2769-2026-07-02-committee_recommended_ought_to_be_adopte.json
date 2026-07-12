@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Filed by Mr. Lewis -- Order relative to granting the committee on Education until July 31, 2026 within which time to make its final report on certain current Senate documents relative to education matters.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S2769",
+    "legislative_session": "194th",
+    "title": "Education - Extension Order"
+  },
+  "id": "S2769",
+  "log": {
+    "action": {
+      "description": "Committee recommended ought to be adopted",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-02",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/S2769"
+        }
+      ]
+    },
+    "bill_id": "S2769"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/S2769/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/S2769/logs/20260702T000000Z_committee_recommended_ought_to_be_adopted.json"
+  },
+  "timestamp": "20260702T000000Z"
+}

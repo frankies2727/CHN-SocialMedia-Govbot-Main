@@ -1,0 +1,30 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Authorizes the state retirement board to revoke or reduce an individual’s pension benefit if that individual is convicted or pleads guilty or no contest to a felony sex crime related to their public office or public employment.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB3296",
+    "legislative_session": "2026",
+    "title": "AN ACT RELATING TO PUBLIC OFFICERS AND EMPLOYEES -- RHODE ISLAND PUBLIC EMPLOYEE PENSION REVOCATION AND REDUCTION ACT"
+  },
+  "id": "SB3296",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-receipt"
+      ],
+      "date": "2026-06-18",
+      "description": "06/18/2026 Transmitted to Governor",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "SB3296"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2026/bills/SB3296/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2026/bills/SB3296/logs/20260618T000000Z.classification.executive-receipt.executive.json"
+  }
+}
