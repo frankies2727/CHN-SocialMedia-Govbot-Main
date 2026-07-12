@@ -1,0 +1,41 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Ms. Rausch, a petition (accompanied by bill, Senate, No. 1244) of Rebecca L. Rausch, Sally P. Kerans, Manny Cruz, Susannah M. Whipps and other members of the General Court for legislation to enhance access to abortion care.  The Judiciary.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S1244",
+    "legislative_session": "194th",
+    "title": "An Act enhancing access to abortion care"
+  },
+  "id": "S1244",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage-favorable"
+      ],
+      "description": "Committee recommended ought to pass with an amendment, substituting a new draft, see S3125",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-01",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/S1244"
+        }
+      ]
+    },
+    "bill_id": "S1244"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/S1244/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/S1244/logs/20260701T000000Z_committee_recommended_ought_to_pass_with_an_amendment_substituting_a_new_draft_see_s3125.json"
+  },
+  "timestamp": "20260701T000000Z",
+  "posted_text": "🩺 MA S1244 — Massachusetts Expands Abortion Care Access\n\nThis bill directs the Department of Public Health to develop a program to provide financial assistance for abortion care services to residents who meet specific income requirements.\n\nJuly 1, 2026: Committee recommended ought to pass with an amendment, substituting a new draft, see S3125.\n\n🔗 Read the full bill: https://malegislature.gov/Bills/194/S1244\n\n#ReproductiveRights #Massachusetts #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://malegislature.gov/Bills/194/S1244",
+  "posted_url": "https://www.instagram.com/p/DasYTtWmn9l/"
+}
