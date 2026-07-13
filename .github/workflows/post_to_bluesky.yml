@@ -2,7 +2,8 @@ name: govbot-bluesky-post
 
 on:
   schedule:
-    - cron: "27 6 * * *"
+    # Twice a week on Monday and Tuesday (cron days 1,2). GitHub cron is UTC.
+    - cron: "27 6 * * 1,2"
   workflow_dispatch: {}
 
 permissions:

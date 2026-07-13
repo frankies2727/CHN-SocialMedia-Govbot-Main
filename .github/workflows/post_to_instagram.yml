@@ -2,7 +2,8 @@ name: govbot-instagram-post
 
 on:
   schedule:
-    - cron: "42 11 * * *"
+    # Twice a week on Monday and Tuesday (cron days 1,2). GitHub cron is UTC.
+    - cron: "42 11 * * 1,2"
   workflow_dispatch:
 
 permissions:
