@@ -1,0 +1,299 @@
+Senate Bill 148
+By: Senators Hatchett of the 50th and Rahman of the 5th
+
+AS PASSED
+A BILL TO BE ENTITLED
+AN ACT
+
+To amend Chapter 2 of Title 20 of the Official Code of Georgia Annotated, relating to
+
+elementary and secondary education, so as to provide that local boards of education shall be
+
+authorized to provide instruction in hunting safety in grades six through 12; to provide for
+
+the adoption of content standards by the State Board of Education; to provide that local
+
+boards of education may establish a curriculum in hunting safety; to provide for instructor
+
+requirements; to provide for an outdoor learning spaces pilot program; to provide for a pilot
+
+program evaluation and report; to remove the requirement of having a licensed physician in
+
+automated external defibrillator programs; to increase from three to five the number of
+
+accumulated sick leave days teachers and other school personnel may take each school year
+
+for personal or professional reasons; to provide for related matters; to repeal conflicting laws;
+
+and for other purposes.
+
+BE IT ENACTED BY THE GENERAL ASSEMBLY OF GEORGIA:
+
+SECTION 1.
+
+Chapter 2 of Title 20 of the Official Code of Georgia Annotated, relating to elementary and
+
+secondary education, is amended in Part 14 of Article 6, relating to other educational
+
+programs under the "Quality Basic Education Act," by revising Code Section 20-2-308,
+
+which is reserved, as follows:
+
+"20-2-308.
+
+(a) Beginning in the 2026-2027 school year, each local board of education shall be
+
+authorized to provide instruction in hunting safety in grades six through 12, which
+
+instruction may be incorporated into an existing course of study.
+
+(b) No later than April 1, 2026, the State Board of Education shall adopt content standards
+
+for such instruction in hunting safety.
+
+(c) Each local board of education shall be authorized to establish a curriculum for
+
+instruction in hunting safety, which curriculum shall be based on the hunter education
+
+courses offered by the Department of Natural Resources.
+
+(d) Instruction in hunting safety offered pursuant to this Code section shall be taught by
+
+an individual who is certified as a hunter education instructor by the Department of Natural
+
+Resources. Reserved."
+
+SECTION 2.
+
+Said chapter is further amended in Article 11, relating to public school property and facilities,
+
+by adding a new part to read as follows:
+"Part 4
+
+20-2-590.
+
+(a) The Department of Education is authorized to establish a pilot program, beginning in
+
+the 2025-2026 school year, to provide for the development and study of outdoor learning
+
+spaces on elementary and secondary school property. The purpose of the pilot program
+
+shall be to determine whether and how to implement best practices and design standards
+
+for outdoor learning spaces.
+
+(b) The Department of Education is authorized to select elementary or secondary schools
+
+with sufficient existing or potential outdoor learning spaces for participation in the pilot
+
+program as pilot schools. Private, nonprofit, and local school system funding may be
+
+utilized by such pilot schools for community engagement, school grounds design support,
+
+and capital construction costs. The local board of education for each pilot school shall
+
+agree to implement a program to incorporate outdoor learning spaces into the existing
+
+curriculum and to continue to provide such program for a period no shorter than three
+
+years.
+
+(c) The Department of Education shall provide for an evaluation regarding the success and
+
+impact of the pilot program upon completion of the third year of the pilot program and
+
+shall report the results of such evaluation to the House Committee on Education and the
+
+Senate Education and Youth Committee."
+
+SECTION 3.
+
+Said chapter is further amended by revising Code Section 20-2-775, relating to automated
+
+external defibrillators required in high schools, requirements, and funding, as follows:
+
+"20-2-775.
+
+(a) As used in this Code section, the term:
+
+(1) 'Automated external defibrillator' means a defibrillator which:
+
+(A) Is capable of cardiac rhythm analysis;
+
+(B) Will charge and be capable of being activated to deliver a countershock after
+
+electrically detecting the presence of certain cardiac dysrhythmias; and
+
+(C) Is capable of continuously recording cardiac dysrhythmia at the scene with a
+
+mechanism for transfer and storage or for printing for review subsequent to use.
+
+(2) 'Emergency action plan' means the plan established pursuant to paragraph (5) of
+
+subsection (c) of this Code section to provide for an emergency response to a person in
+
+cardiac arrest.
+
+(3) 'Internal response team' means the team of school personnel established pursuant to
+
+paragraph (7) (6) of subsection (c) of this Code section responsible for oversight of an
+
+emergency response to a person in cardiac arrest and implementation of the emergency
+
+action plan.
+
+(4) 'School' means a public school in this state which provides K-12 education.
+
+(b) No later than July 1, 2025, each school in this state shall have at least one functional
+
+automated external defibrillator on site at such school at all times and easily accessible
+
+during all school hours and during any school related function, including athletic practices,
+
+athletic competitions, and other occasions where students and others will be present, for
+
+use during emergencies.
+
+(c) Each school shall:
+
+(1) Ensure that each member of the internal response team and any other expected users
+
+of the automated external defibrillator receive American Heart Association or American
+
+Red Cross training in cardiopulmonary resuscitation and automated external defibrillator
+
+use or complete an equivalent nationally recognized course;
+
+(2) Notify the appropriate emergency medical services system of the existence and
+
+location of each automated external defibrillator prior to said automated external
+
+defibrillator being placed in use;
+
+(3) Ensure that the automated external defibrillator is maintained and tested according
+
+to the manufacturer's operational guidelines;
+
+(4) Ensure that there is involvement of a licensed physician or other person authorized
+
+by the Georgia Composite Medical Board in the site's automated external defibrillator
+
+program to ensure compliance with requirements for training, notification, and
+
+maintenance;
+
+(5)(4) Establish a written emergency action plan that adheres to nationally recognized
+
+standards and that establishes specific steps to take during a cardiac emergency in a
+
+school setting. Such plan shall be designed to provide for an effective system for
+
+communication between members of the internal response team and other school
+
+officials, ensuring that the internal response team or other designated personnel activate
+
+the emergency medical services system as soon as reasonably possible after any person
+
+renders emergency care or treatment to a person in cardiac arrest by using an automated
+
+external defibrillator and report any clinical use of the automated external defibrillator
+
+to the licensed physician or other person authorized by the Georgia Composite Medical
+
+Board who is supervising the program, and ensuring that emergency medical services
+
+personnel are led directly to the exact location of the person in cardiac arrest;
+
+(6)(5) Beginning in the 2025-2026 school year and each school year thereafter, conduct
+
+a minimum of two emergency action plan practice drills per school year, with at least one
+
+per semester. One such practice drill may be a tabletop drill to walk through a
+
+hypothetical scenario and the courses of action a school will need to take before, during,
+
+and after a cardiac emergency. The emergency action plan practice drills shall include
+
+various locations on school grounds and responses to different hypothetical situations;
+
+(7)(6) Establish a designated internal response team composed of:
+
+(A) At least five school staff members;
+
+(B) One or more designated team leads trained in cardiopulmonary resuscitation and
+
+automated external defibrillator use and responsible for oversight of an emergency
+
+response;
+
+(C)
+
+cardiopulmonary resuscitation and automated external defibrillator use;
+
+(D) One or more designated automated external defibrillator leads, responsible for
+
+knowing the location of automated external defibrillators, retrieving automated external
+
+defibrillators, and maintenance of automated external defibrillators; and
+
+(E) One or more designated communication leads responsible for activating the
+
+emergency medical services system, facilitating directions to the person in cardiac
+
+One or more designated cardiopulmonary resuscitation leads trained in
+
+arrest for emergency medical services personnel upon arrival at the school, and
+
+coordinating communications with the designated team lead or leads; and
+
+(8)(7) Apprise all school personnel of the location of automated external defibrillators
+
+and the members of the internal response team.
+
+(d) Subject to appropriations by the General Assembly, the Department of Education shall
+
+provide funds to local school systems to assist in the purchase of automated external
+
+defibrillators pursuant to this Code section.
+
+(e) The department and local school systems shall use diligent efforts to identify private
+
+sources of funding or donation of funding and equipment to meet the requirements of this
+
+Code section."
+
+SECTION 4.
+
+Said chapter is further amended by revising Code Section 20-2-851, relating to use of
+
+accumulated sick leave for personal or professional reasons, as follows:
+
+"20-2-851.
+
+During any school year, personnel may utilize up to a maximum of three five days of any
+
+accumulated sick leave for the purpose of absenting themselves from their duties for
+
+personal or professional reasons if prior approval of their absence is given by the local
+
+school superintendent or his or her authorized representative; provided, however, that the
+
+absence is not in conflict with a local board of education policy concerning school days on
+
+which the presence of the personnel requesting absence is essential for effective school
+
+operation. No grant of approval for an absence permitted under this Code section shall be
+
+conditioned upon disclosure of the specific purpose for which such absence is sought, nor
+
+shall any such grant of approval be withheld or denied because of the failure or refusal of
+
+personnel to disclose the specific purpose for which such an absence is sought; provided,
+
+however, that personnel may be requested to state whether the absence is sought under the
+
+category of 'personal' or 'professional' absence."
+
+SECTION 5.
+
+All laws and parts of laws in conflict with this Act are repealed.

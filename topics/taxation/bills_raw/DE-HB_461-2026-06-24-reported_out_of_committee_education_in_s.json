@@ -1,0 +1,46 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act provides special authority to school districts in New Castle County to reset their tax rate for the 2026-2027 tax year. This authority is necessary because several adjustments to the New Castle County tax roll are continuing to be made after the completion of the general reassessment that took effect for the 2025-2026 tax year. This includes the ongoing adjudication of appeals from the assessment values set in the general reassessment as well as quality control reviews, and potential changes pending in other legislation. \r\nThis Act allows the New Castle County school districts to adjust the tax rate so that no increase in operating revenue over the prior year will be realized, with two exceptions: (1) revenue increases from approved referenda; and (2) revenue equal to the 5-year average growth rate for each district. The 5-year average growth rates for NCC districts are as follows: (1) Appoquinimink, 3.68%; (2) Brandywine, 0.54%; (3) Christina, 0.32%; (4) Colonial, 1.10%; (5) Red Clay, 0.58%; (6) Smyrna, 0.31%; and (7) New Castle County Vocational Technical, 0.96%.\r\nThis Act sunsets on March 31, 2027.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 461",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 14 OF THE DELAWARE CODE RELATING TO SCHOOL TAX."
+  },
+  "id": "HB 461",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage",
+        "committee-passage-unfavorable"
+      ],
+      "description": "Reported Out of Committee (Education) in Senate with 4 On Its Merits, 1 Unfavorable",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-24",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Education"
+        }
+      ],
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143444"
+        }
+      ]
+    },
+    "bill_id": "HB 461"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB461/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB461/logs/20260624T000000Z_reported_out_of_committee_education_in_senate_with_4_on_its_merits_1_unfavorable.json"
+  },
+  "timestamp": "20260624T000000Z"
+}

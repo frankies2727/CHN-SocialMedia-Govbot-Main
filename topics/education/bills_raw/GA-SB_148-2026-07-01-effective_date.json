@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL to be entitled an Act to amend Article 11 of Chapter 2 of Title 20 of the Official Code of Georgia Annotated, relating to public school property and facilities, so as to provide for an outdoor learning spaces pilot program; to provide for a pilot program evaluation and report; to provide for related matters; to repeal conflicting laws; and for other purposes.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 148",
+    "legislative_session": "2025_26",
+    "subject": [
+      "EDUCATION"
+    ],
+    "title": "Public School Property and Facilities; outdoor learning spaces pilot program; provide"
+  },
+  "id": "SB 148",
+  "log": {
+    "action": {
+      "date": "2026-07-01",
+      "description": "Effective Date",
+      "organization_id": "~{\"classification\": \"legislature\"}"
+    },
+    "bill_id": "SB 148"
+  },
+  "sources": {
+    "bill": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB148/metadata.json",
+    "log": "ga-legislation/country:us/state:ga/sessions/2025_26/bills/SB148/logs/20260701T000000Z_effective_date.json"
+  },
+  "timestamp": "20260701T000000Z"
+}
