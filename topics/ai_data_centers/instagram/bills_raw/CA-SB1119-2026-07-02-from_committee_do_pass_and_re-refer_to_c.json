@@ -1,0 +1,53 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law generally regulates artificial intelligence, including companion chatbots, as defined. Existing law requires an operator, as defined, to prevent a companion chatbot on its companion chatbot platform from engaging with users unless the operator maintains a protocol for preventing the production of suicidal ideation, suicide, or self-harm content to the user. Existing law requires an operator, for a user the operator knows is a minor, to, among other things, notify the user that the user is interacting with artificial intelligence and to disclose that companion chatbots may not be suitable for some minors, as specified.\n\nThe Digital Age Assurance Act requires a person who owns, maintains, or controls a software application, as defined, to request age bracket data sent by a real-time secure application programming interface or operating system with respect to a particular user from an operating system provider or a covered application store when the application is downloaded and launched.\n\nThis bill would require an operator, as defined, of a companion chatbot to, on or before July 1, 2027, do various things with respect to child safety and companion chatbots, including annually perform and document a comprehensive risk assessment to identify any child safety risk, as defined, posed by the design, configuration, and operation of the companion chatbot that assesses, among other things, the likelihood of a covered harm, as defined, occurring to child users. The bill would require an operator to submit to an independent audit of its compliance with those provisions, as specified, and would require, within 90 days of completing an independent audit, the auditor to submit an AI child safety audit report to the Attorney General for any audited companion chatbot. The bill would, except as specified, require those audit reports to be kept confidential.\n\nThis bill would, beginning January 1, 2028, require the Attorney General to issue an annual public report on the audits submitted pursuant to the above-described provision, as specified. The bill would authorize a public prosecutor to bring a certain civil action to enforce the bill's provisions and would authorize a child who suffers actual harm as a result of a violation of this chapter, or a parent or guardian acting on behalf of that child, to bring a civil action against the operator to obtain, among other relief, punitive damages.\n\nExisting constitutional provisions require that a statute that limits the right of access to the meetings of public bodies or the writings of public officials and agencies be adopted with findings demonstrating the interest protected by the limitation and the need for protecting that interest.\n\nThis bill would make legislative findings to that effect.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1119",
+    "legislative_session": "20252026",
+    "subject": [
+      "Companionchatbots",
+      "children'ssafety"
+    ],
+    "title": "Companion chatbots: children's safety."
+  },
+  "id": "SB1119",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage",
+        "committee-passage-favorable",
+        "referral-committee"
+      ],
+      "description": "From committee: Do pass and re-refer to Com. on APPR. (Ayes 12. Noes 2.) (July 1). Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-02",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1119"
+        }
+      ]
+    },
+    "bill_id": "SB1119"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1119/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1119/logs/20260702T000000Z_from_committee_do_pass_and_rerefer_to_com_on_appr_ayes_12_noes_2_july_1_rereferred_to_com_on_appr.json"
+  },
+  "timestamp": "20260702T000000Z",
+  "posted_text": "🧠 CA SB1119 — New Rules for Companion Chatbots & Child Safety\n\nCalifornia will demand annual risk assessments and independent audits of companion chatbots to protect children. Operators must document these assessments and submit detailed AI child safety audit reports to the Attorney General, keeping…\n\nJuly 2, 2026: From committee: Do pass and re-refer to Com. on APPR. (Ayes 12. Noes 2.) (July 1). Re-referred to Com. on APPR.\n\n🔗 Read the full bill: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1119\n\n#AIDataCentersCrypto #California #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1119",
+  "posted_url": "https://www.instagram.com/p/DavEn_-EQFS/"
+}

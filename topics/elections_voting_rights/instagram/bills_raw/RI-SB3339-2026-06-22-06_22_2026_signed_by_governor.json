@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Prohibits ICE employees, agents or officials from being within two hundred feet (200') of any polling place during voting, including early voting and election day voting.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB3339",
+    "legislative_session": "2026",
+    "title": "AN ACT RELATING TO ELECTIONS -- CONDUCT OF ELECTION AND VOTING EQUIPMENT, AND SUPPLIES"
+  },
+  "id": "SB3339",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-06-22",
+      "description": "06/22/2026 Signed by Governor",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "SB3339"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2026/bills/SB3339/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2026/bills/SB3339/logs/20260622T000000Z_06222026_signed_by_governor.json"
+  },
+  "timestamp": "20260622T000000Z",
+  "posted_text": "🗳️ RI S3339 — Prohibits ICE employees, agents or officials from being within two hundred feet (200') of any polling place during voting, including early voting and election day voting.\n\nThis law prevents ICE personnel – including agents and officials – from being within 200 feet of any polling place during elections, early voting, or election day.\n\nJune 22, 2026: Signed by Governor.\n\n🔗 Read the full bill: https://webserver.rilegislature.gov/BillText26/SenateText26/S3339.htm\n\n#ElectionsVotingRights #RhodeIsland #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://webserver.rilegislature.gov/BillText26/SenateText26/S3339.htm",
+  "posted_url": "https://www.instagram.com/p/DavEHghkaoE/"
+}
