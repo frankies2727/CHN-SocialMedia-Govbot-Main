@@ -1,0 +1,42 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act is a substitute for Senate Bill No. 300. Like SB 300, this Act requires firearm dealers to obtain a state license to sell or transfer firearms under Chapter 9B instead of the license to sell deadly weapons under Chapter 9 of Title 24. Like SB 300, this Act does all of the following: \r\n-Establishes in statute factors that make a person ineligible to obtain a state license to sell or transfer firearms or to serve as a responsible person for a state license holder (licensee).\r\n-Heightens and adds more specific security requirements.\r\n-Heightens and centralizes recordkeeping and reporting requirements.\r\n-Requires background checks for contractors and volunteers with access to the licensee's firearms or performing certain tasks for a licensee. \r\n-Establishes training requirements.\r\n-Includes a recurring inspection by the DSP to ensure licensees are in compliance with State law.\r\n-Establishes civil penalties and possible license revocation in the event of violations.\r\n\r\nThis Act differs from Senate Bill No. 300 as follows: \r\n\r\n-Changes the definition of firearm to reference 11 Del. C. § 222.\r\n\r\n-Removes the license fee ranges that are dependent on the number of firearms sold or transferred and instead sets flat and established license fees at $300 for an initial license and $250 to renew a state license. This Act makes corresponding changes throughout to account for the change in license fee structure.\r\n\r\n-Removes the licensee requirement to report firearm trace information to the Attorney General and the Attorney General’s publication of an annual report. Instead, firearm trace information will be provided as part of a licensee’s renewal application and will be provided to the General Assembly by the Delaware State Police (DSP). \r\n\r\n-Background checks are required once every 2 years, instead of annually. Relatedly, the background check obtained by a licensee or responsible person is valid for 2 years for purposes of applying for an initial license or a license renewal under this chapter. \r\n\r\n-Establishes December 31 of each year as the date that license renewal applications are due. Initial licenses that are granted after January 1 of each year may receive a prorated license fee. This Act makes corresponding changes throughout to account for the date change.\r\n\r\n-Changes the DSP report about licensee status from an annual report due by December 1 to a biennial report due on March 1. \r\n\r\n-Adds that the Delaware Department of Justice also has general investigative authority to investigate a breach of Chapter 9B. Under SB 300, only DSP had this authority. \r\n\r\n-Removes the requirement that a licensee maintain all security system recordings for at least 3 years. DSP shall promulgate regulations that establish how long a licensee shall maintain recordings.\r\n\r\n-The General Assembly shall expend any money collected in the Firearm Licensing Fund in furtherance of implementing this Act and Chapter 9 of Title 24. \r\n\r\n-Delays implementation and gradually phases in the requirements in this Act, beginning by July 1, 2028, with DSP notification to people with valid special licenses to sell deadly weapons under Chapter 9 of Title 24 about the changes in law and the potential that a license under this Act may be required. \r\n\r\nChanges made by this Act to Delaware’s licensing system are in recognition of a growing body of evidence that demonstrates that firearms dealers’ sales practices affect the probability of firearms entering the illegal market, and that policies designed to hold dealers accountable can curtail illegal use of firearms and the concomitant crimes.\r\n\r\nAccording to the Johns Hopkins University Center for Gun Violence Solutions, utilizing data from the Centers for Disease Control, firearms are used in 78% of homicides that occur in Delaware. In addition to loss of life, firearm violence has an economic impact, costing Delawareans $1.3 billion per year, which amounts to $1,236 per resident. An article in the Journal of Urban Health found that in-state trafficking was 64 percent lower in places with strong firearm dealer regulations and oversight. A study published in the American Journal of Public Health, examining 20 years of data, found that state licensing requirements and laws requiring or allowing inspections or audits of firearm dealers were independently associated with significantly lower firearm homicide rates. The ATF has oversight over firearms dealers, but its efforts are insufficient. Though the ATF aims to inspect firearm dealers at least every three years, at the rate inspections are performed, a dealer can expect inspection only once every 9 years. ATF data reveals that, when they occur, dealer inspections generally yield a large number of violations. In sum, the frequency of violations and the rarity of inspections allow the possibility that dealers are violating law each year without any corrective action by the ATF. \r\n\r\nAccording to data compiled by Brady United, there is State-specific evidence to suggest Delaware’s firearm licensing system would benefit from reform to protect the health and safety of our residents. According to 2017 through 2021 ATF data, 6,626 firearms were recovered in Delaware by law enforcement, after either having been used in a crime, found at a crime scene, or where the purchase or possession of the firearm was itself illegal (“crime guns”). Half of these crime guns were recovered by law enforcement within 3 years of retail purchase, which is indicative of potential firearm trafficking. The data also raises concerns about potential straw purchasing in our State, as there was a mismatch in the identity of the firearm purchaser and firearm possessor during a criminal offense in 72% of the traceable cases. Furthermore, 67% of the firearms recovered by law enforcement in this State were sourced from in-State firearm dealers. Delaware is also a significant supplier of crime guns to other states, most significantly Maryland (12.2% of the crime guns recovered come from Delaware dealers) and Pennsylvania (8.9% if the crime guns recovered come from Delaware dealers).",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 300",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 11, TITLE 16, AND TITLE 24 OF THE DELAWARE CODE RELATING TO DEADLY WEAPONS DEALERS."
+  },
+  "id": "SB 300",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-introduction"
+      ],
+      "description": "Amendment HA 16 to SS 1 - Introduced and Placed With Bill",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-25",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143254"
+        }
+      ]
+    },
+    "bill_id": "SB 300"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB300/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB300/logs/20260625T000000Z_amendment_ha_16_to_ss_1_introduced_and_placed_with_bill.json"
+  },
+  "timestamp": "20260625T000000Z",
+  "posted_text": "👮 Criminal Justice & Policing\nDE SB 300 — Delaware Police to Receive Firearm Trace Data\n\nThe General Assembly will receive firearm trace information directly from the Delaware State Police as part of license renewal applications, a change from previous reporting requirements to the Attorney General. Licensees will also undergo background checks every two years instead of annually.\n\nJune 25, 2026: Amendment HA 16 to SS 1 - Introduced and Placed With Bill.",
+  "posted_link": "https://legiscan.com/DE/bill/SB300",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DavqP_QILSJ"
+}
