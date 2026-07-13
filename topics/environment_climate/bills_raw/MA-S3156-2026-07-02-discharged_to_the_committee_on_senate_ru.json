@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Senate, July 1, 2026 -- The committee on Environment and Natural Resources, to whom was referred the petitions (accompanied by bill, Senate, No. 560) of Brendan P. Crighton for legislation to facilitate climate resiliency, report the accompanying Order  (Senate, No. 3156).",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S3156",
+    "legislative_session": "194th",
+    "title": "Order relative to authorizing the joint committee on Environment, Natural Resources to make an investigation and study of a certain current Senate document relative to facilitate climate resiliency."
+  },
+  "id": "S3156",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Discharged to the committee on Senate Rules",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-02",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Senate Rules"
+        }
+      ],
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/S3156"
+        }
+      ]
+    },
+    "bill_id": "S3156"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/S3156/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/S3156/logs/20260702T000000Z_discharged_to_the_committee_on_senate_rules.json"
+  },
+  "timestamp": "20260702T000000Z"
+}
