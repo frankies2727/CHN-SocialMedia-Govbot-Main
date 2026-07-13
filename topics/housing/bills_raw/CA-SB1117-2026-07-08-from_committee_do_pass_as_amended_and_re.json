@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the Planning and Zoning Law, among other things, provides for the creation by ordinance, or by ministerial approval if the local agency has not adopted an ordinance, of an accessory dwelling unit (ADU) in accordance with specified standards and conditions. Existing law requires fees charged for the construction of ADUs to be determined in accordance with specified provisions of the Mitigation Fee Act. Existing law prohibits a local agency, special district, or water corporation from imposing any impact fee upon the development of an ADU that has 750 square feet of interior livable space or less, and requires any impact fees charged for an ADU that has more than 750 square feet of interior livable space to be charged proportionately in relation to the square footage of the primary dwelling unit.\n\nThis bill would require the charge for certain accessory dwelling units to be based only on the area in excess of 750 square feet of interior livable space. By changing the duties of local agencies with regard to calculating fees for ADUs, the bill would impose a state-mandated local program.\n\nThe bill would include findings that changes proposed by this bill address a matter of statewide concern rather than a municipal affair and, therefore, apply to all cities, including charter cities.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1117",
+    "legislative_session": "20252026",
+    "subject": [
+      "Accessorydwellingunitsandjunioraccessorydwellingunits"
+    ],
+    "title": "Accessory dwelling units and junior accessory dwelling units."
+  },
+  "id": "SB1117",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "committee-passage",
+        "committee-passage-favorable",
+        "referral-committee"
+      ],
+      "description": "From committee: Do pass as amended and re-refer to Com. on APPR. (Ayes 8. Noes 0.) (July 1).",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-08",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1117"
+        }
+      ]
+    },
+    "bill_id": "SB1117"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1117/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1117/logs/20260708T000000Z_from_committee_do_pass_as_amended_and_rerefer_to_com_on_appr_ayes_8_noes_0_july_1.json"
+  },
+  "timestamp": "20260708T000000Z"
+}

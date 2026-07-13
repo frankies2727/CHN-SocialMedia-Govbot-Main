@@ -1,0 +1,51 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law requires the Department of Technology to conduct, in coordination with other interagency bodies as it deems appropriate, a comprehensive inventory of all high-risk automated decision systems (ADS) that have been proposed for use, development, or procurement by, or are being used, developed, or procured by, any state agency.\n\nExisting law establishes the Labor and Workforce Development Agency, which is composed of various departments responsible for protecting and promoting the rights and interests of workers in California, including the Division of Labor Standards Enforcement, led by the Labor Commissioner, within the Department of Industrial Relations.\n\nThis bill would prohibit an employer, as defined, from using an ADS to perform certain functions and would limit the purposes for and way in which an ADS may be used. The bill would authorize a worker to request, and require an employer to provide, a copy of the most recent 12 months of the worker's own data primarily used by an ADS to make a disciplinary, termination, or deactivation decision, as specified. The bill would require an employer that primarily relied upon an ADS to make a disciplinary, termination, or deactivation decision to provide the affected worker with a written postuse notice, as specified.\n\nThis bill would prohibit an employer from discharging, threatening to discharge, demoting, suspending, or in any manner discriminating or retaliating against any worker for taking certain actions asserting their rights under the bill. The bill would require the Labor Commissioner to enforce the bill's provisions and also authorize a public prosecutor to bring a civil enforcement action, as specified. The bill would set forth specified types of relief that a plaintiff may seek and specified penalties that an employer that violates these provisions is subject to, including a $500 civil penalty per violation.\n\nThis bill would also provide that an employer who complies with the requirements related to notice in this bill is not required to comply with any substantially similar provisions under any other state law, except as specified. The bill would not apply to parties covered by a valid collective bargaining agreement if the agreement contains specified information, including an explicit waiver of the bill's provisions. The bill would exempt from its provisions the use of an automated decision system to the extent that its use is required by, or reasonably necessary to comply with, a federal statute, federal regulation, or binding federal contract relating to the development of aircraft for use in the national airspace or the development of products or services for national security, military, space, or defense purposes, as specified.\n\nThe bill would include a statement that changes proposed by this bill address a matter of statewide concern rather than a municipal affair and, therefore, apply to all cities, including charter cities.\n\nThis bill would declare that its provisions are severable.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB947",
+    "legislative_session": "20252026",
+    "subject": [
+      "Employment",
+      "automateddecisionsystems"
+    ],
+    "title": "Employment: automated decision systems."
+  },
+  "id": "SB947",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "reading-1",
+        "reading-2",
+        "referral-committee"
+      ],
+      "description": "Read second time and amended. Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-02",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB947"
+        }
+      ]
+    },
+    "bill_id": "SB947"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB947/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB947/logs/20260702T000000Z_read_second_time_and_amended_rereferred_to_com_on_appr.json"
+  },
+  "timestamp": "20260702T000000Z"
+}

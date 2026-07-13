@@ -1,0 +1,46 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act is a Substitute for House Bill No. 450. Like House Bill No. 450, this Substitute Act is to be known as the Reforming Opportunities and Accelerated Development for Delaware Act (“ROAD-DE Act”) and will make significant changes to Delaware’s land use permitting process by building on Governor Meyer’s Executive Order No. 18, which created the Permitting Accelerator to reform policies, processes, and procedures that have accumulated over decades and are holding back jobs, housing, and other critical infrastructure statewide.\r\n\r\nIn 2019, a study of Delaware’s permitting process was undertaken. The study concluded that Delaware’s permitting process was significantly longer and more challenging than those of surrounding states in the region. In 2025, this State began digitizing permitting processes. During the initial stages of that effort, more than 52 hours of interviews with 57 stakeholders were conducted across state agencies, local governments, developers, and technical experts. Those interviews revealed that statewide delays are not driven by isolated performance issues. Rather, they stem from structural misalignment, sequential review processes, incentive distortions, and capacity constraints that compound across agencies.\r\n\r\nDelaware’s permitting process can stretch beyond 24 months, placing this State at a distinct economic development disadvantage when it comes to attracting and growing businesses. In the region, Delaware’s competitors, including Maryland and Pennsylvania, can achieve substantially faster permit approvals, making them more attractive locations for economic development and affordable housing.\r\n\r\nThe 2019 and 2025 studies resulted in recommendations that the permitting process be streamlined and modified to improve accountability and eliminate redundancies within various government agencies, particularly within the Delaware Department of Transportation (“DelDOT”). To implement these recommendations, this Substitute Act, like House Bill No. 450, does all of the following:\r\n\r\n(1) Section 1 of this Substitute Act requires DelDOT to base the threshold for determining if a traffic impact study is required on peak-hour trips, not vehicle trips per day, and set the minimum peak hour trips threshold at 500 peak-hour trips for residential developments and 500 peak-hour trips, excluding pass-by trips, for all other development types.\r\n\r\n(2) Sections 2, 4, 6, and 8 of this Substitute Act require the counties and municipalities to base their threshold for determining if a traffic impact study is required on the same requirements as required for DelDOT in Section 1 of this Act.\r\n\r\n(3) Sections 3, 5, 7, and 8 of this Substitute Act provide for certain residential density requirements.\r\n\r\n(4) Section 9 of this Substitute Act requires DelDOT to deploy, operate, and maintain technological systems for the automated monitoring, analysis, and management of transportation infrastructure and traffic operations.\r\n\r\n(5) Section 10 of this Substitute Act provides that engineering studies or traffic investigations conducted by DelDOT may include automated or continuous data collection systems, remote sensing technologies, digital imaging, algorithmic analysis of traffic patterns, and other technological methods used to evaluate roadway safety, traffic operations, and infrastructure conditions.\r\n\r\n(6) Section 11 of this Substitute Act requires DelDOT to establish and collect transportation impact fees throughout this State and to use the moneys collected to fund off-site improvements to bring existing transportation infrastructure up to current State standards. Additionally, this Section requires DelDOT to use the moneys collected in the county in which the transportation impact fee was collected unless the county or the municipalities within the county fail to adopt the traffic impact study and residential density requirements under Sections 2 through 8 of this Act. \r\n\r\nThis Substitute Act differs from House Bill No. 450 as follows:\r\n\r\n(1) Changes the residential density requirements provision contained in Sections 3, 5, 7, and 8 of this Substitute Act for the original Act.\r\n(2) Requires DelDOT to consult with the applicable municipal government on how to spend the money collected from the transportation impact fee.\r\n(3) Increases the amount of the surcharge DelDOT must assess on the transportation impact fee from 1% to 2%.\r\n(4) Adds the Brownfield Development Program as 1 of the programs to receive money from the surcharge assessed on the transportation impact fee by DelDOT.\r\n\r\nThis Substitute Act requires a greater than majority vote for passage because § 1 of Article IX of the Delaware Constitution requires the affirmative vote of two-thirds of the members elected to each house of the General Assembly to amend a municipal charter, whether directly, by amendment to a specific municipality’s charter, or, as in this Act, indirectly, by a general law.\r\n\r\nThis Substitute Act also makes technical corrections to conform existing law to the standards of the Delaware Legislative Drafting Manual.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 450",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 9, TITLE 17, TITLE 22, AND TITLE 29 OF THE DELAWARE CODE RELATING TO LAND USE."
+  },
+  "id": "HB 450",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "description": "Reported Out of Committee (Banking, Business, Insurance & Technology) in Senate with 1 Favorable, 5 On Its Merits",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-24",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Banking, Business, Insurance & Technology"
+        }
+      ],
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143497"
+        }
+      ]
+    },
+    "bill_id": "HB 450"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB450/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB450/logs/20260624T000000Z_reported_out_of_committee_banking_business_insurance_technology_in_senate_with_1_favorable_5_on_its_.json"
+  },
+  "timestamp": "20260624T000000Z"
+}

@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing federal law, the National Suicide Hotline Designation Act of 2020, designates the 3-digit telephone number \"988\" as the universal number within the United States for the purpose of the national suicide prevention and mental health crisis hotline system operating through the 988 Suicide and Crisis Lifeline.\n\nExisting law, the Miles Hall Lifeline and Suicide Prevention Act, requires, among other things, the Office of Emergency Services (OES) to verify that technology that allows for transfers between 988 centers, as well as between 988 centers and 911 public safety answering points, is available to 988 centers and 911 public safety answering points throughout the state, to appoint a 988 system director, and to verify interoperability between and across 911 and 988. Existing law establishes the 988 State Suicide and Behavioral Health Crisis Services Fund and provides that 988 surcharge revenue in the fund is available, upon appropriation by the Legislature, for purposes of the act.\n\nThis bill would require the California Health and Human Services Agency (agency) to annually determine whether an adequate specialized LGBTQ+ suicide prevention hotline is activated by the federal government under 988 and would make implementation of this bill contingent on the agency's determination, as specified. The bill would require OES to, no later than 6 months after the agency's determination, request the federal Substance Abuse and Mental Health Services Administration (SAMHSA) to enable a press 3 function for calls originating in the State of California to allow callers to dial 988 and press \"3\" to be automatically routed to a specialized call center. The bill would require OES to, no later than 12 months following the approval by SAMHSA, ensure that the specified technologies are available.\n\nThis bill would require, no later than 12 months following approval by SAMHSA, the agency to identify and contract with a qualified entity or entities that specialize in LGBTQ+ suicide prevention services. The bill would require the agency to determine the eligibility criteria, establish an application process, and administer funds to the qualified entity, as specified. The bill would require a qualified entity to comply with various requirements, including having a primary objective of reducing suicide rates or addressing mental health crises.\n\nThis bill would declare that it is to take effect immediately as an urgency statute.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1540",
+    "legislative_session": "20252026",
+    "subject": [
+      "988Suicide&CrisisLifeline",
+      "LGBTQ+youth"
+    ],
+    "title": "988 Suicide & Crisis Lifeline: LGBTQ+ youth."
+  },
+  "id": "AB1540",
+  "log": {
+    "bill_id": "AB1540"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1540/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1540/logs/20260623T070000Z.vote_event.pass.upper.json"
+  },
+  "timestamp": "20260623T070000Z.vote"
+}

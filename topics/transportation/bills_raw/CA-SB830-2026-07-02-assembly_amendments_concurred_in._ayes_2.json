@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law creates the Metropolitan Transportation Commission as a local area planning agency for the 9-county San Francisco Bay area with comprehensive regional transportation planning and other related responsibilities. Existing law establishes the Public Transit Revenue Measure District, governed by the same board that governs the commission, with jurisdiction extending throughout the boundaries of the Counties of Alameda, Contra Costa, San Mateo, and Santa Clara, and the City and County of San Francisco. Existing law authorizes a retail transactions and use tax applicable to the entire district to be imposed by the board of the district or by a qualified voter initiative for a duration of 14 years, and in specified amounts, subject to voter approval at the November 3, 2026, statewide general election. Existing law establishes specified procedures for that election, including a requirement that the elections officials of the counties where the measure will appear on the ballot mutually agree to use the same letter designation for the measure.\n\nThis bill would revise those election procedures by, among other things, instead requiring the measure to be identified on the ballot by the designation \"Regional Transit Measure\" in each county included in the district and by requiring each county elections official in the district to select, from among the submissions of proposed arguments in favor of, and against, the measure, the arguments to be included in the county voter information guide of that county, as specified.\n\nThis bill would declare that it is to take effect immediately as an urgency statute.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB830",
+    "legislative_session": "20252026",
+    "subject": [
+      "PublicTransitRevenueMeasureDistrict",
+      "electionprocedures",
+      "revenuemeasure"
+    ],
+    "title": "Public Transit Revenue Measure District: revenue measure: election procedures."
+  },
+  "id": "SB830",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "committee-passage-favorable"
+      ],
+      "description": "Assembly amendments concurred in. (Ayes 29. Noes 5.) Ordered to engrossing and enrolling.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-02",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB830"
+        }
+      ]
+    },
+    "bill_id": "SB830"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB830/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB830/logs/20260702T000000Z_assembly_amendments_concurred_in_ayes_29_noes_5_ordered_to_engrossing_and_enrolling.json"
+  },
+  "timestamp": "20260702T000000Z"
+}
