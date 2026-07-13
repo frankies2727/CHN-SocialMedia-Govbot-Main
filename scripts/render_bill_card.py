@@ -222,6 +222,22 @@ def _format_date(yyyy_mm_dd: str) -> str:
         return ""
 
 
+# Some sources (e.g. Rhode Island) prefix action descriptions with their own
+# MM/DD/YYYY date, e.g. "06/22/2026 Signed by Governor". The card already shows
+# that date in its own DATE column, so the prefix is redundant noise in the
+# STATUS value — strip it here just as the caption pipeline
+# (post_to_bluesky._strip_leading_date) does before composing the post copy.
+# Kept as a local regex so this module stays standalone (it deliberately
+# doesn't import the posting pipeline).
+_LEADING_DATE_RE = re.compile(
+    r"^\s*(?:\d{1,2}[/-]\d{1,2}[/-]\d{2,4}|\d{4}-\d{1,2}-\d{1,2})\s*[:\-–—]?\s+"
+)
+
+
+def _strip_leading_date(s: str) -> str:
+    return _LEADING_DATE_RE.sub("", s or "", count=1)
+
+
 # ---------------------------------------------------------------------------
 # Gradients
 # ---------------------------------------------------------------------------
@@ -515,7 +531,7 @@ def render_card(
                            summary_font, max_lines=4, max_w=INNER_W) if has_summary else [])
     sum_lh = _line_h(summary_font, 1.45)
 
-    status_val = (bill.get("action_desc") or "").strip().rstrip(".")
+    status_val = _strip_leading_date((bill.get("action_desc") or "").strip()).rstrip(".")
     if status_val:
         status_val = status_val[0].upper() + status_val[1:]
     date_val = _format_date(bill.get("action_date", ""))
