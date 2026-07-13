@@ -1,0 +1,26 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act prohibits state agencies, counties, and municipalities from entering into nondisclosure agreements that would restrict the public from accessing information about potential or actual large-scale data center development in this State. Large-scale data centers, defined in this Act as data centers that use or are capable of using 100 megawatts of power or more, can pose significant challenges for the communities in which they are located. When nondisclosure agreements are used to shield information about proposed or planned data centers from the public, it deprives those communities of the opportunity to understand and respond to issues that directly affect them.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 312",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 9, TITLE 22, AND TITLE 29 OF THE DELAWARE CODE RELATING TO DATA CENTERS."
+  },
+  "id": "SB 312",
+  "log": {
+    "bill_id": "SB 312"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB312/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB312/logs/20260624T000000Z.vote_event.pass.lower.json"
+  },
+  "timestamp": "20260624T000000Z.vote",
+  "posted_text": "🏢 DE SB 312 — Delaware Bans Data Center Nondisclosure Agreements\n\nDelaware law now prevents state and local governments from using nondisclosure agreements to hide information about large data centers – those using 100 megawatts or more – ensuring public access to development plans and community input.\n\nLink to bill in reply.",
+  "posted_link": "https://legiscan.com/DE/bill/SB312",
+  "posted_url": "https://x.com/i/web/status/2076633839481278569"
+}

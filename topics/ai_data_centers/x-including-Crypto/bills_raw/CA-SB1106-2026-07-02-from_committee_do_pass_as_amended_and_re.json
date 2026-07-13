@@ -1,0 +1,46 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law requires the Office of Emergency Services to, as appropriate, perform a risk analysis of potential threats posed by the use of generative artificial intelligence to California's critical infrastructure, including those that could lead to mass casualty events. Existing law requires that risk analysis to be provided to the Governor, and, if appropriate, include recommendations reflecting changes to artificial intelligence technology, its applications, and risk management, including further private actions, administrative actions, and collaboration with the Legislature to guard against potential threats and vulnerabilities.\n\nThis bill would require that recommendations in the risk analysis reflecting changes to artificial intelligence technology include agentic artificial intelligence, as defined.\n\nExisting law requires the Department of Technology to annually submit to certain legislative committees a report regarding a specified required comprehensive inventory of all high-risk automated decision systems that have been, or are being, used, developed, or procured by a state agency. Existing law defines \"high-risk automated decision system\" to mean an automated decision system that is used to assist or replace human discretionary decisions that have a legal or similarly significant effect, including decisions that materially impact access to, or approval for, housing or accommodations, education, employment, credit, health care, and criminal justice.\n\nThis bill would further require the comprehensive inventory in the report to include agentic artificial intelligence that has been, or is being, used, developed, or procured by a state agency.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1106",
+    "legislative_session": "20252026",
+    "subject": [
+      "Agenticartificialintelligence"
+    ],
+    "title": "Agentic artificial intelligence."
+  },
+  "id": "SB1106",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "description": "From committee: Do pass as amended and re-refer to Com. on APPR. (Ayes 12. Noes 0.) (July 1).",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-02",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1106"
+        }
+      ]
+    },
+    "bill_id": "SB1106"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1106/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1106/logs/20260702T000000Z_from_committee_do_pass_as_amended_and_rerefer_to_com_on_appr_ayes_12_noes_0_july_1.json"
+  },
+  "timestamp": "20260702T000000Z",
+  "posted_text": "🧠 CA SB1106 — AI Risk Analysis & Inventory Expansion\n\nCalifornia will expand its risk assessments of generative AI threats to critical infrastructure and require a comprehensive inventory of high-risk automated decision systems, now including agentic artificial intelligence, used by state agencies.\n\nJuly 2, 2026: From committee: Do pass as amended and re-refer to Com. on APPR. (Ayes 12. Noes 0.) (July 1).\n\nLink to bill in reply.",
+  "posted_link": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1106",
+  "posted_url": "https://x.com/i/web/status/2076633597490999424"
+}
