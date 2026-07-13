@@ -8,7 +8,7 @@
 <style>
   :root {
     --plane:#0d0d0d; --surface:#1a1a19; --surface-2:#232322;
-    --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+    --ink:#ffffff; --ink-2:#ffffff; --muted:#ffffff;
     --grid:#2c2c2a; --baseline:#383835; --border:rgba(255,255,255,0.10);
     --radius:14px; --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
   }
@@ -194,9 +194,7 @@
     directly from your computer, view it through GitHub Pages instead — that's where it's designed to run.</div>
 
   <div id="app" hidden>
-    <div class="grid kpis" id="kpis"></div>
-
-    <section class="card" style="margin-bottom:16px;border:2px solid #4c9aef;background:linear-gradient(0deg, rgba(76,154,239,0.05), rgba(76,154,239,0.05)), var(--surface)">
+    <section class="card" style="margin-bottom:16px;border:2px solid #4c9aef;background:var(--surface)">
       <h2><span style="display:inline-block;width:11px;height:11px;border-radius:3px;background:#4c9aef;margin-right:9px;vertical-align:middle"></span>Bluesky feeds <span class="sub">— live, exactly as posted</span></h2>
       <div class="bsky">
         <aside class="bsky-side">
@@ -245,8 +243,20 @@ fetch("data.json",{cache:"no-store"})
   .then(r=>{ if(!r.ok) throw 0; return r.json(); })
   .then(init).catch(()=>{ $("#error").style.display="block"; });
 
+// The build stamp is a UTC string like "2026-07-13 21:52 UTC". Append the
+// equivalent Chicago (Central) time so readers see both at a glance.
+function withChicago(s){
+  const m=/^(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2}) UTC$/.exec(s||"");
+  if(!m) return s||"unknown";
+  const d=new Date(Date.UTC(+m[1],+m[2]-1,+m[3],+m[4],+m[5]));
+  if(isNaN(d)) return s;
+  const ct=d.toLocaleString("en-US",{timeZone:"America/Chicago",month:"short",day:"numeric",
+    hour:"numeric",minute:"2-digit",hour12:true});
+  return `${s} · ${ct} Chicago`;
+}
+
 function init(d){
-  DATA=d; $("#app").hidden=false; $("#gen").textContent=d.generated_at||"unknown";
+  DATA=d; $("#app").hidden=false; $("#gen").textContent=withChicago(d.generated_at);
   d.platforms.forEach(p=>P[p.key]=p);
   d.topics.forEach(t=>T[t.key]=t);
 
@@ -357,36 +367,7 @@ function renderBsky(){
 }
 
 function apply(){
-  renderKPIs(DATA.records);        // KPIs are an overall summary (no global filter)
   renderPlatformFeeds();           // each section brings its own filters
-}
-
-function renderKPIs(recs){
-  const plats=new Set(recs.map(r=>r.platform)), tops=new Set(recs.map(r=>r.topic)),
-        sts=new Set(recs.map(r=>r.state)), bills=new Set(recs.map(r=>r.state+"|"+r.bill));
-  const dates=recs.map(r=>r.date).sort();
-  const range=dates.length? `${dates[0]} → ${dates[dates.length-1]}` : "—";
-  // Repo platforms (Threads / X / Instagram) plus Bluesky, which is live and
-  // isn't stored in the repo data but is still a platform the bot posts to.
-  const platNames=[...plats].sort((a,b)=>platformRank(a)-platformRank(b)).map(niceName);
-  if((DATA.bluesky||[]).length) platNames.push("Bluesky");
-  const items=[
-    {label:"Total posts", value:fmt(recs.length), hero:true, note:"on Meta Threads · X · Instagram"},
-    {label:"Platforms", value:platNames.length, note:platNames.join(" · ")},
-    {label:"Topics", value:tops.size, note:"subject areas"},
-    {label:"States", value:sts.size, note:"legislatures"},
-    {label:"Unique bills", value:fmt(bills.size), note:"distinct bills"},
-    {label:"Date range", value:"", note:range, small:true},
-  ];
-  const w=$("#kpis"); w.innerHTML="";
-  items.forEach(k=>{
-    const c=el("div",{class:"kpi"});
-    c.appendChild(el("div",{class:"label"},esc(k.label)));
-    if(k.small) c.appendChild(el("div",{class:"value",style:"font-size:17px"},esc(k.note)));
-    else { c.appendChild(el("div",{class:"value"+(k.hero?" hero":"")},esc(k.value)));
-           if(k.note) c.appendChild(el("div",{class:"note"},esc(k.note))); }
-    w.appendChild(c);
-  });
 }
 
 /* ---------- one feed section per platform (Threads, X, Instagram) ---------- */
@@ -398,10 +379,6 @@ function platformRank(key){
   if(k.includes("instagram")) return 2;
   return 3;
 }
-function tint(hex, a){
-  const m=/^#?([0-9a-f]{6})$/i.exec(hex||""); if(!m) return `rgba(255,255,255,${a})`;
-  const n=parseInt(m[1],16); return `rgba(${(n>>16)&255},${(n>>8)&255},${n&255},${a})`;
-}
 function platformShort(key){
   const k=(key||"").toLowerCase();
   if(k.includes("thread")) return "Threads";
@@ -409,7 +386,6 @@ function platformShort(key){
   if(k.includes("instagram")) return "Instagram";
   return (P[key]&&P[key].name)||key;
 }
-function niceName(key){ const s=platformShort(key); return s==="Threads"?"Meta Threads":s; }
 function feedCardHTML(r){
   const t=T[r.topic]||{name:r.topic,emoji:"📄",color:"#888"};
   const head=`<div class="fhead">`+
@@ -448,8 +424,7 @@ function buildSection(p){
   const st={topic:"all", state:"all", from:"", to:""};
 
   const sec=el("section",{class:"card",
-    style:`margin-bottom:16px;border:2px solid ${p.color};`+
-          `background:linear-gradient(0deg, ${tint(p.color,0.05)}, ${tint(p.color,0.05)}), var(--surface)`});
+    style:`margin-bottom:16px;border:2px solid ${p.color};background:var(--surface)`});
   sec.appendChild(el("h2",{},
     `<span style="display:inline-block;width:11px;height:11px;border-radius:3px;background:${p.color};margin-right:9px;vertical-align:middle"></span>`+
     `${esc(p.name)} posts <span class="sub">— exactly as posted, newest first</span>`));
