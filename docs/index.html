@@ -419,9 +419,21 @@ function renderPlatformFeeds(){
   const plats=DATA.platforms.slice().sort((a,b)=>platformRank(a.key)-platformRank(b.key)||a.name.localeCompare(b.name));
   plats.forEach(p=>host.appendChild(buildSection(p)));
 }
+// Everything a free-text search should look inside for one record: bill code,
+// state, the bill title/summary/action, the verbatim posted text, and the
+// topic's display name. Cached on the record so live typing stays cheap.
+function recHaystack(r){
+  const t=T[r.topic];
+  if(r._hay==null){
+    r._hay=[r.state, r.bill, r.title, r.summary, r.action, r.posted,
+            t?t.name:r.topic].filter(Boolean).join(" ").toLowerCase();
+  }
+  return r._hay;
+}
 function buildSection(p){
   const all=(DATA.feed||[]).filter(r=>r.platform===p.key);
-  const st={topic:"all", state:"all", from:"", to:""};
+  all.forEach(recHaystack);
+  const st={q:"", topic:"all", state:"all", from:"", to:""};
 
   const sec=el("section",{class:"card",
     style:`margin-bottom:16px;border:2px solid ${p.color};background:var(--surface)`});
@@ -442,10 +454,14 @@ function buildSection(p){
   states.forEach(s=>stateSel.appendChild(el("option",{value:s},s)));
   const fromI=el("input",{class:"inp",type:"date"}), toI=el("input",{class:"inp",type:"date"});
   if(dates.length){ fromI.min=toI.min=dates[0]; fromI.max=toI.max=dates[dates.length-1]; }
+  const searchI=el("input",{class:"inp",type:"search",
+    placeholder:"Search bill, state, keyword, or post text…"});
+  searchI.style.minWidth="240px";
   const resetB=el("button",{class:"btn"},"Reset"), csvB=el("button",{class:"btn"},"⬇ CSV");
   const dateWrap=el("div",{class:"dates"}); dateWrap.append(fromI, el("span",{},"to"), toI);
 
   const bar=el("div",{class:"sfilters"});
+  bar.appendChild(fgrp("Search",searchI));
   if(topics.length>1) bar.appendChild(fgrp("Topic",topicSel));
   bar.appendChild(fgrp("State",stateSel));
   bar.appendChild(fgrp("Date",dateWrap));
@@ -457,11 +473,15 @@ function buildSection(p){
   sec.appendChild(feed); sec.appendChild(cap);
 
   function current(){
+    // Space-separated terms are AND-ed, so "CA housing" matches posts that
+    // mention both. Each term is a plain substring match over recHaystack().
+    const terms=st.q.toLowerCase().split(/\s+/).filter(Boolean);
     return all.filter(r=>
       (st.topic==="all"||r.topic===st.topic) &&
       (st.state==="all"||r.state===st.state) &&
       (!st.from||(r.posted_date||r.date)>=st.from) &&
-      (!st.to  ||(r.posted_date||r.date)<=st.to));
+      (!st.to  ||(r.posted_date||r.date)<=st.to) &&
+      (!terms.length||terms.every(t=>r._hay.includes(t))));
   }
   function draw(){
     const items=current();
@@ -471,12 +491,13 @@ function buildSection(p){
     cap.textContent = items.length>FEED_CAP ? `Showing the ${FEED_CAP} most recent of ${fmt(items.length)} matching.` : "";
     count.textContent = `${fmt(items.length)} of ${fmt(all.length)}`;
   }
+  searchI.oninput=()=>{ st.q=searchI.value; draw(); };
   topicSel.onchange=()=>{ st.topic=topicSel.value; draw(); };
   stateSel.onchange=()=>{ st.state=stateSel.value; draw(); };
   fromI.onchange=()=>{ st.from=fromI.value; draw(); };
   toI.onchange=()=>{ st.to=toI.value; draw(); };
-  resetB.onclick=()=>{ st.topic="all"; st.state="all"; st.from=""; st.to="";
-    topicSel.value="all"; stateSel.value="all"; fromI.value=""; toI.value=""; draw(); };
+  resetB.onclick=()=>{ st.q=""; st.topic="all"; st.state="all"; st.from=""; st.to="";
+    searchI.value=""; topicSel.value="all"; stateSel.value="all"; fromI.value=""; toI.value=""; draw(); };
   csvB.onclick=()=>downloadCSV(p, current());
   draw();
   return sec;
