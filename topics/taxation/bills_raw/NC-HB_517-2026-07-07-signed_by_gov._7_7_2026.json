@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 517",
+    "legislative_session": "2025",
+    "subject": [
+      "COMMERCE; CORPORATIONS",
+      "NONPROFIT; COUNCIL OF STATE; COURTS; EVIDENCE; FEES; INCORPORATION; INFORMATION TECHNOLOGY; INTERNET; NOTARY PUBLIC; PRESENTED; PUBLIC; PUBLIC OFFICIALS; RATIFIED; RELIGION & RELIGIOUS INSTITUTIONS; REPORTING; SECRETARY OF STATE; TAX DEDUCTIONS; TAX RETURNS; TAXATION; TELECOMMUNICATIONS; TELESERVICES; WITNESSES; SUNSETS; CHAPTERED; ELECTRONIC GOVERNMENT; NGOS; TELECONFERENCING"
+    ],
+    "title": "Modify Nonprofit Corporations Act/Charitable Organizations."
+  },
+  "id": "HB 517",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Gov. 7/7/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-07-07",
+      "session_id": "2025",
+      "sources": [
+        {
+          "url": "https://www.ncleg.gov/BillLookUp/2025/H517"
+        }
+      ]
+    },
+    "bill_id": "HB 517"
+  },
+  "sources": {
+    "bill": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB517/metadata.json",
+    "log": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB517/logs/20260707T000000Z_signed_by_gov_772026.json"
+  },
+  "timestamp": "20260707T000000Z"
+}

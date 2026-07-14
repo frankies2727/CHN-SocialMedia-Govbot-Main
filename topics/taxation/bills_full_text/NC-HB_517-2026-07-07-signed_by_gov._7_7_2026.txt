@@ -1,0 +1,1204 @@
+GENERAL ASSEMBLY OF NORTH CAROLINA
+SESSION 2025
+H
+
+H.B. 517
+Mar 25, 2025
+HOUSE PRINCIPAL CLERK
+
+D
+HOUSE BILL DRH40278-MVf-17
+
+Short Title:
+
+Modify Nonprofit Corp. Act/Charitable Org.
+
+Sponsors:
+
+Representative Rhyne.
+
+(Public)
+
+Referred to:
+
+A BILL TO BE ENTITLED
+AN ACT TO MAKE VARIOUS CHANGES TO THE NORTH CAROLINA NONPROFIT
+CORPORATIONS ACT AND TO ALLOW A CHARITABLE ORGANIZATION'S
+DISCLOSURE UNDER STATE LAW TO BE SATISFIED BY THE
+ACKNOWLEDGEMENT REQUIRED FOR A TAX DEDUCTION UNDER FEDERAL
+LAW.
+The General Assembly of North Carolina enacts:
+PART I. MODIFY LIMITATIONS ON MERGERS AND SALES OF ASSETS
+SECTION 1.(a) G.S. 55A-11-02 reads as rewritten:
+"§ 55A-11-02. Limitations on mergers by charitable or religious corporations.
+(a)
+Without the prior approval of the superior court in a proceeding in which the Attorney
+General has been given written notice, a charitable or religious corporation may merge only with
+any of the following:
+…
+(5)
+A limited liability company that satisfies both of the following conditions:
+a.
+Its sole member is a domestic or foreign corporation that is exempt
+from income tax under section 501(c)(3) of the Internal Revenue Code
+of 1986 or any successor section.
+b.
+It is disregarded for income tax purposes but would be eligible for an
+exemption under section 501(c)(3) of the Internal Revenue Code of
+or any successor section if it were not disregarded for income tax
+purposes.
+…."
+SECTION 1.(b) G.S. 55A-11-09 reads as rewritten:
+"§ 55A-11-09. Merger with unincorporated entity.
+(a)
+As used in this section, "business entity" means a (i) domestic business corporation
+(including corporation, including a professional corporation as defined in G.S. 55B-2), a
+G.S. 55B-2, (ii) foreign business corporation (including corporation, including a foreign
+professional corporation as defined in G.S. 55B-16), a G.S. 55B-16, (iii) domestic or foreign
+nonprofit corporation, a (iv) domestic or foreign limited liability company, a (v) domestic or
+foreign limited partnership, a (vi) registered limited liability partnership or foreign limited
+liability partnership as defined in G.S. 59-32, or any other partnership as defined in G.S. 59-36
+whether or not formed under the laws of this State.State, or (vii) nonprofit association as defined
+in G.S. 59B-2 whether or not formed under the laws of this State.
+
+*DRH40278-MVf-17*
+
+General Assembly Of North Carolina
+
+Session 2025
+
+(b)
+One or more domestic nonprofit corporations may merge with one or more
+unincorporated entities and, if desired, one or more foreign nonprofit corporations, domestic
+business corporations, or foreign business corporations if:if all of the following apply:
+(1)
+The merger is permitted by the laws of the state or country governing the
+organization and internal affairs of each of the other merging business
+entities;entities.
+(2)
+Each merging domestic nonprofit corporation and each other merging
+business entity comply with the requirements of this section and, to the extent
+applicable, the laws referred to in subdivision (1) of this subsection;
+andsubsection.
+(3)
+The merger complies with G.S. 55A-11-02, if applicable.
+…
+(c3) In the case of a merging domestic nonprofit corporation, approval of the plan of
+merger requires that the plan of merger be adopted as provided in G.S. 55A-11-03. If any member
+of a merging domestic nonprofit corporation has or will have personal liability for any existing
+or future obligation of the surviving business entity solely as a result of holding an interest in the
+surviving business entity, then in addition to the requirements of G.S. 55A-11-03, approval of
+the plan of merger by the domestic nonprofit corporation shall require the affirmative vote or
+written consent of the member. In the case of each other merging business entity, the plan of
+merger must shall be approved in accordance with the laws of the state or country governing the
+organization and internal affairs of such merging business entity.
+…
+(d)
+After a plan of merger has been approved by each merging domestic nonprofit
+corporation and each other merging business entity as provided in subsection (c) of this section,
+the surviving business entity shall deliver articles of merger to the Secretary of State for filing.
+The articles of merger shall set forth:forth all of the following:
+…
+(e)
+A merger takes effect when the articles of merger become effective. When a merger
+takes effect:effect, all of the following apply:
+(1)
+Each other merging business entity merges into the surviving business entity
+and the separate existence of each merging business entity except the
+surviving business entity ceases;ceases.
+(2)
+The title to all real estate and other property owned by each merging business
+entity is vested in the surviving business entity without reversion or
+impairment;impairment.
+(3)
+The surviving business entity has all liabilities of each merging business
+entity;entity.
+(4)
+A proceeding pending by or against any merging business entity may be
+continued as if the merger did not occur, or the surviving business entity may
+be substituted in the proceeding for a merging business entity whose separate
+existence ceases in the merger;merger.
+(5)
+If a domestic nonprofit corporation is the surviving business entity, its articles
+of incorporation shall be amended to the extent provided in the articles of
+merger;merger.
+(6)
+The interests in each merging business entity that are to be converted into
+interests, obligations, or securities of the surviving business entity or into the
+right to receive cash or other property are thereupon so converted, and the
+former holders of the interests are entitled only to the rights provided to them
+in the plan of merger or, in the case of former holders of shares in a domestic
+business corporation, any rights they may have under Article 13 of Chapter
+of the General Statutes; andStatutes.
+Page 2
+
+DRH40278-MVf-17
+
+General Assembly Of North Carolina
+
+Session 2025
+
+…
+(e1) If the surviving business entity is not a domestic limited liability company, a domestic
+business corporation, a domestic nonprofit corporation, or a domestic limited partnership, when
+the merger takes effect the surviving business entity is deemed:deemed to have done all of the
+following:
+(1)
+To agree Agreed that it may be served with process in this State in any
+proceeding for enforcement of (i) any obligation of any merging domestic
+limited liability company, domestic business corporation, domestic nonprofit
+corporation, domestic limited partnership, or other partnership as defined in
+G.S. 59-36 that is formed under the laws of this State, or nonprofit association
+as defined in G.S. 59B-2 that is formed under the laws of this State, (ii) the
+appraisal rights of shareholders of any merging domestic business corporation
+under Article 13 of Chapter 55 of the General Statutes, and (iii) any obligation
+of the surviving business entity arising from the merger; andmerger.
+(2)
+To have appointed Appointed the Secretary of State as its agent for service of
+process in any such the proceeding. Service on the Secretary of State of any
+such process shall be made by delivering to and leaving with the Secretary of
+State, or with any clerk authorized by the Secretary of State to accept service
+of process, duplicate copies of such the process and the fee required by
+G.S. 55A-1-22(b). Upon receipt of service of process on behalf of a surviving
+business entity in the manner provided for in this section, the Secretary of
+State shall immediately mail a copy of the process by registered or certified
+mail, return receipt requested, to the surviving business entity. If the surviving
+business entity is authorized to transact business or conduct affairs in this
+State, the address for mailing shall be its principal office designated in the
+latest document filed with the Secretary of State that is authorized by law to
+designate the principal office or, if there is no principal office on file, its
+registered office. If the surviving business entity is not authorized to transact
+business or conduct affairs in this State, the address for mailing shall be the
+mailing address designated pursuant to subdivision (3) of subsection (d) of
+this section.
+(f)
+This section does not apply to a merger that does not include a merging
+unincorporated entity."
+SECTION 1.(c) G.S. 55A-12-02 reads as rewritten:
+"§ 55A-12-02. Sale of assets other than in regular course of activities.
+…
+(b)
+Unless this Chapter, the articles of incorporation, bylaws, or the board of directors or
+members (acting pursuant to subsection (d) of this section) require a greater vote or voting by
+class, the proposed transaction to be authorized shall be approved:approved by all of the
+following:
+(1)
+By the board;The board.
+(2)
+By the The members entitled to vote thereon by two-thirds of the votes cast or
+a majority of the votes entitled to be cast on the proposed transaction,
+whichever is less; andless.
+(3)
+In writing by any person or persons whose approval is required by a provision
+of the articles of incorporation authorized by G.S. 55A-10-30 for an
+amendment to the articles of incorporation or bylaws.
+(c)
+If the corporation does not have members entitled to vote thereon, the transaction
+shall be approved by a vote of a majority of the directors then in office. The corporation shall
+provide at least five days' written notice of any directors' meeting at which such the approval will
+be considered. The notice shall state that the purpose, or one of the purposes, of the meeting is to
+DRH40278-MVf-17
+
+Page 3
+
+General Assembly Of North Carolina
+
+Session 2025
+
+consider the sale, lease, exchange, or other disposition of all, or substantially all, of the property
+or assets of the corporation and contain or be accompanied by a description of the transaction.
+…
+(h)
+After a sale, lease, exchange, or other disposition of property is authorized, the
+transaction may be abandoned (subject abandoned, subject to any contractual rights), rights,
+without further action by the members or any other person who approved the transaction, in
+accordance with the procedure set forth in the resolution proposing the transaction or, if none is
+set forth, in the manner determined by the board of directors."
+SECTION 1.(d) This section becomes effective October 1, 2025, and applies to
+plans of mergers adopted on or after that date.
+PART II. REQUIRE ANNUAL REPORTS TO THE SECRETARY OF STATE
+SECTION 2.(a) Article 16 of Chapter 55A of the General Statutes is amended by
+adding a new section to read:
+"§ 55A-16-22.1. Annual report to the Secretary of State.
+(a)
+Each domestic corporation and each foreign corporation authorized to conduct affairs
+in this State shall submit an annual report to the Secretary of State, in electronic form as
+prescribed by the Secretary of State, that sets forth all of the following:
+(1)
+The name of the corporation and the state or country under whose law it is
+incorporated.
+(2)
+The street address, and the mailing address if different from the street address,
+of the registered office in this State, the county in which the registered office
+is located, the name and email address of its registered agent at that office, and
+a statement of any change of the registered office or registered agent.
+(3)
+The address and telephone number of its principal office.
+(4)
+The names, titles, and business street addresses of its principal officers and
+the name, mailing address, email address, and telephone number of an
+individual who is authorized to provide information regarding persons with
+the authority to bind the corporation.
+(5)
+A brief description of the nature of its activities.
+(6)
+An email address for the corporation, if different from the email address
+provided under subdivision (2) of this subsection.
+(b)
+The information in the annual report shall be current as of the date the annual report
+is submitted on behalf of the corporation.
+(c)
+The corporation shall submit an annual report to the Secretary of State by November
+of each year following (i), in the case of a domestic corporation, the calendar year in which
+the corporation was formed or (ii), in the case a foreign corporation, the calendar year in which
+the Secretary of State issued to the foreign corporation a certificate of authority to conduct affairs
+in this State. An annual report is due each year until (i), in the case of a domestic corporation, the
+effective date of a voluntary or judicial dissolution or (ii), in the case of a foreign corporation,
+the effective date of a certificate of withdrawal or revocation of a certificate of authority.
+(d)
+If an annual report does not contain the information required by this section, the
+Secretary of State shall promptly notify the reporting corporation in writing and return the report
+to it for correction. If the report is corrected to contain the information required by this section
+and submitted to the Secretary of State within 30 days after the notice, the report shall be deemed
+to be timely submitted.
+(e)
+Amendments to any previously filed annual report may be submitted for filing to the
+Secretary of State at any time for the purpose of correcting, updating, or augmenting the
+information contained in the annual report.
+
+Page 4
+
+DRH40278-MVf-17
+
+General Assembly Of North Carolina
+
+Session 2025
+
+(f)
+If the Secretary of State does not receive an annual report within 60 days after the
+date the report is due, the Secretary of State may presume that the annual report is delinquent.
+This presumption may be rebutted by evidence of submission presented by the filing corporation.
+(g)
+The Secretary of State may provide by email any notice or form required under this
+section if the submitting domestic or foreign corporation to be notified has consented to receiving
+notices and forms via email and has provided the Secretary of State an email address for receiving
+the notices or forms. Any email address provided by a submitting corporation in accordance with
+this section is confidential information and is not a public record under Chapter 132 of the
+General Statutes.
+(h)
+A domestic or foreign corporation shall be deemed to have filed the annual report
+required by this section if all of the following have occurred:
+(1)
+The corporation is a charitable organization or sponsor that is licensed under
+Article 2 of Chapter 131F of the General Statutes.
+(2)
+The corporation applies for the license electronically in a form prescribed by
+the Secretary and provides additional information in that application that is
+required for the annual report in this section.
+(3)
+The corporation is licensed on the annual report due date."
+SECTION 2.(b) G.S. 55A-1-22, as amended by Section 3.2(a) of this act, reads as
+rewritten:
+"§ 55A-1-22. Filing, service, and copying fees.
+(a)
+The Secretary of State shall collect the following fees when the documents described
+in this subsection are submitted to the Secretary for filing:
+Document
+Fee
+…
+(29) Annual report
+No fee
+…."
+SECTION 2.(c) G.S. 55A-14-20 reads as rewritten:
+"§ 55A-14-20. Grounds for administrative dissolution.
+The Secretary of State may commence a proceeding under G.S. 55A-14-21 to dissolve
+administratively a corporation if:if any of the following occurs:
+(1)
+The corporation does not pay within 60 days after they are due any penalties,
+fees, or other payments due under this Chapter;Chapter.
+(2)
+Repealed by Session Laws 1995, c. 539, s. 24.
+(2a) The corporation is delinquent in submitting its annual report.
+(3)
+The corporation is without a registered agent or registered office in this State
+for 60 days or more;more.
+(4)
+The corporation does not notify the Secretary of State within 60 days that its
+registered agent or registered office has been changed, that its registered agent
+has resigned, or that its registered office has been discontinued;discontinued.
+(5)
+The corporation's period of duration stated in its articles of incorporation
+expires;expires.
+(6)
+The corporation knowingly fails or refuses to answer truthfully and fully
+within the time prescribed in this Chapter interrogatories propounded by the
+Secretary of State in accordance with the provisions of this Chapter;
+orChapter.
+(7)
+The corporation does not designate the address of its principal office with the
+Secretary of State or does not notify the Secretary of State within 60 days that
+the principal office has changed."
+SECTION 2.(d) G.S. 55A-14-22 reads as rewritten:
+"§ 55A-14-22. Reinstatement following administrative dissolution.
+DRH40278-MVf-17
+
+Page 5
+
+General Assembly Of North Carolina
+
+Session 2025
+
+(a)
+A corporation administratively dissolved under G.S. 55A-14-21 may apply to the
+Secretary of State for reinstatement. The application shall:shall do all of the following:
+(1)
+Recite the name of the corporation and the effective date of its administrative
+dissolution; anddissolution.
+(2)
+State that the ground or grounds for dissolution either did not exist or have
+been eliminated.
+(a1) If, at the time the corporation applies for reinstatement, the name of the corporation
+is not distinguishable from the name of another entity authorized to be used under G.S. 55D-21,
+then the corporation must shall change its name to a name that is distinguishable upon the records
+of the Secretary of State from the name of the other entity before the Secretary of State may
+prepare a certificate of reinstatement.
+(b)
+If the Secretary of State determines that the application contains the information
+required by subsection (a) of this section, that the information is correct, and that the name of the
+corporation complies with G.S. 55D-21 and any other applicable section, and that any penalties,
+fees, or other payments due under this Chapter have been paid, the Secretary of State shall cancel
+the certificate of dissolution and dissolution, prepare a certificate of reinstatement that recites the
+Secretary of State's determination and the effective date of reinstatement, file the original of the
+certificate, certificate of reinstatement, and mail a copy of it to the corporation.
+(c)
+When the reinstatement is effective, it relates back to and takes effect as of the
+effective date of the administrative dissolution and the corporation resumes carrying on its
+activities as if the administrative dissolution had never occurred, subject to the rights of any
+person who reasonably relied to his the person's prejudice upon the certificate of dissolution."
+SECTION 2.(e) Until January 1, 2029, the Secretary of State may waive the fee
+payable under G.S. 55A-1-22(a)(17) by a corporation seeking reinstatement following
+administrative dissolution for delinquent filing pursuant to G.S. 55A-14-20(2a).
+SECTION 2.(f) This section becomes effective January 1, 2027, and applies to
+annual reports due on or after that date.
+PART III. AUTHORIZE DOMESTICATION
+SECTION 3.1. Chapter 55A of the General Statutes is amended by adding a new
+Article to read:
+"Article 11B.
+"Domestication.
+"§ 55A-11B-01. Definitions.
+In this Article, the following definitions apply:
+(1)
+Domesticated corporation. – The domesticating nonprofit corporation as it
+continues in existence after a domestication.
+(2)
+Domesticating corporation. – The domestic nonprofit corporation that
+approves a plan of domestication pursuant to G.S. 55A-11B-04 or the foreign
+corporation that approves a domestication pursuant to the law of the
+jurisdiction of the foreign corporation.
+(3)
+Domestication. – A transaction pursuant to this Article.
+(4)
+Interest holder liability. – Any of the following:
+a.
+Personal liability for a liability of a domestic or foreign nonprofit
+corporation that is imposed on a person by either of the following:
+1.
+Solely by reason of the status of the person as an interest
+holder.
+2.
+By a provision of the articles of incorporation or bylaws that
+make one or more specified interest holders or categories of
+interest holders liable in their capacity as interest holders for
+all or specified liabilities of the entity.
+Page 6
+
+DRH40278-MVf-17
+
+General Assembly Of North Carolina
+
+Session 2025
+
+b.
+
+An obligation of an interest holder under the bylaws to contribute to
+the domestic or foreign nonprofit corporation.
+(5)
+Law of the jurisdiction. – The law of the jurisdiction governing the
+organization and internal affairs of the corporation.
+"§ 55A-11B-02. Domestication; preliminary provisions.
+(a)
+By complying with the provisions of this Article applicable to foreign nonprofit
+corporations, a foreign nonprofit corporation may become a domestic nonprofit corporation, if
+the domestication is permitted by the law of the jurisdiction of the foreign corporation.
+(b)
+By complying with the provisions of this Article, a domestic nonprofit corporation
+may become a foreign nonprofit corporation pursuant to a plan of domestication, if the
+domestication is permitted by the law of the jurisdiction of the foreign corporation.
+(c)
+A charitable or religious corporation may only become a foreign nonprofit
+corporation in accordance with the requirements of G.S. 55A-11-02 for mergers involving
+charitable or religious corporations, and the domesticated corporation shall meet the same
+requirements as the survivor in a merger.
+(d)
+Any devise, gift, grant, or promise contained in a will or other instrument of donation,
+subscription, or conveyance that is made to a domesticating corporation and that takes effect or
+remains payable after the domestication becomes effective inures to the domesticated corporation
+unless the will or other instrument otherwise specifically provides.
+"§ 55A-11B-03. Plan of domestication.
+(a)
+A domestic nonprofit corporation may become a foreign nonprofit corporation by
+approving a plan of domestication. The plan of domestication shall include all of the following:
+(1)
+The name of the domesticating corporation.
+(2)
+The name and governing jurisdiction of the domesticated corporation.
+(3)
+The manner and basis of converting the memberships, if any, of the
+domesticating corporation into memberships, obligations, rights to acquire
+memberships, cash, other property, or any combination thereof.
+(4)
+The proposed articles of incorporation and bylaws of the domesticated
+corporation.
+(5)
+The other terms and conditions of the domestication.
+(b)
+In addition to the requirements of subsection (a) of this section, a plan of
+domestication may contain any other provision not prohibited by law.
+(c)
+The terms of a plan of domestication, other than the terms described in subdivisions
+(1), (2), and (4) of subsection (a) of this section, may be made dependent upon facts objectively
+ascertainable outside the plan if the plan sets forth the manner in which the facts will operate
+upon the terms of the plan. The facts may include any of the following:
+(1)
+Statistical or market indices, market prices of any security or group of
+securities, interest rates, currency exchange rates, or similar economic or
+financial data.
+(2)
+A determination or action by any person or body, including the nonprofit
+corporation or any other party to the plan.
+(3)
+The terms of, or actions taken under, an agreement to which the corporation
+is a party, or any other agreement or record.
+"§ 55A-11B-04. Approval of domestication.
+(a)
+If a domestic nonprofit corporation is to be the domesticating corporation, the plan of
+domestication shall be adopted in the following manner:
+(1)
+The plan of domestication shall first be adopted by the board of directors. The
+board may set conditions for (i) approval of the plan of domestication by the
+members or (ii) the effectiveness of the plan of domestication. If the
+domesticating corporation does not have any members entitled to vote on the
+DRH40278-MVf-17
+
+Page 7
+
+General Assembly Of North Carolina
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+Page 8
+
+Session 2025
+
+domestication, a plan of domestication is adopted by the corporation when it
+has been adopted by the board of directors pursuant to this subdivision.
+Except as provided in subdivision (1) of this subsection, the plan of
+domestication shall then be approved by the members. In submitting the plan
+of domestication to the members for approval, the board of directors shall
+recommend that the members approve the plan, unless the board of directors
+makes a determination that because of conflicts of interest or other special
+circumstances it should not make the recommendation, in which case the
+board shall inform the members of the basis for not making the
+recommendation.
+If the plan of domestication is required to be approved by the members, and if
+the approval is to be given at a meeting, the corporation shall notify each
+member entitled to vote of the meeting of the members at which the plan of
+domestication is to be submitted for approval. The notice shall (i) state that
+the purpose, or one of the purposes, of the meeting is to consider the plan of
+domestication and (ii) contain or be accompanied by a copy or summary of
+the plan. The notice shall include or be accompanied by a copy of the articles
+of incorporation and the bylaws as they will be in effect immediately after the
+domestication.
+Unless the articles of incorporation or bylaws, or the board of directors acting
+pursuant to subdivision (1) of this subsection, require a greater vote or a
+greater quorum, approval of the plan of domestication requires (i) the approval
+of the members at a meeting at which a quorum exists consisting of a majority
+of the votes entitled to be cast on the plan and (ii), if any class of membership
+is entitled to vote as a separate group on the plan of merger, the approval of
+each class of members voting as a separate voting group at a meeting at which
+a quorum of the voting group exists consisting of a majority of the votes
+entitled to be cast on the plan by that voting group.
+Subject to subdivision (6) of this subsection, separate voting by voting groups
+on a plan of domestication is required in the following circumstances:
+a.
+By each class of memberships that is either of the following:
+1.
+To be converted under the plan of domestication into security
+interests, obligations, rights to acquire securities or interests,
+cash, other property, or any combination thereof.
+2.
+Entitled to vote as a separate group on a provision in the plan
+that constitutes a proposed amendment to the articles or bylaws
+of the domesticated corporation that requires action by separate
+voting groups under the provisions of this Chapter.
+b.
+If the voting group is entitled under the articles of incorporation or
+bylaws to vote as a group to approve a plan of domestication.
+The articles of incorporation or bylaws may expressly limit or eliminate the
+separate voting rights provided in sub-sub-subdivision (5)a.1. of this
+subsection as to any class of members, except when the plan includes what
+would be in effect an amendment subject to sub-sub-subdivision (5)a.2. of this
+subsection.
+If, as a result of a domestication, one or more members of the domesticating
+corporation would become subject to new interest holder liability, approval of
+the plan of domestication requires the signing in connection with the
+domestication, by each affected member, of a separate consent in a record to
+become subject to the new interest holder liability. This subdivision does not
+apply in the case of a member that already has interest holder liability with
+DRH40278-MVf-17
+
+General Assembly Of North Carolina
+
+Session 2025
+
+respect to the domesticating corporation, if the terms and conditions of the
+new interest holder liability with respect to the domesticated corporation are
+substantially identical to those of the existing interest holder liability, other
+than for changes that eliminate or reduce the interest holder liability.
+(8)
+In addition to the adoption and approval of the plan of domestication by the
+board of directors and members as required by this section, the plan of
+domestication shall also be approved in a record by any person or group of
+persons whose approval is required under G.S. 55A-10-30 to amend the
+articles or bylaws.
+(b)
+The plan of domestication of a charitable or religious corporation is subject to the
+approval requirements described in G.S. 55A-11B-02(c).
+"§ 55A-11B-05. Amendment or abandonment of plan of domestication; abandonment.
+(a)
+Before articles of domestication have taken effect, a plan of domestication of a
+domestic nonprofit corporation may be amended, except as otherwise provided in the plan.
+(b)
+A domestic nonprofit corporation may approve an amendment of a plan of
+domestication in any of the following ways:
+(1)
+In the same manner as the plan was approved, if the plan does not provide for
+the manner in which it may be amended.
+(2)
+In the manner provided in the plan, except that a member that was entitled to
+vote on or consent to approval of the plan is entitled to vote on or consent to
+any amendment of the plan that will change any of the following:
+a.
+The amount or kind of memberships, securities, obligations, money
+rights to acquire memberships, securities, money, other property, or
+any combination thereof to be received by any of the members of the
+domesticating corporation under the plan.
+b.
+The articles of incorporation or bylaws of the domesticated
+corporation that will be in effect immediately after the domestication
+becomes effective, except for changes that do not require approval of
+the members of the domesticated corporation under the law of the
+jurisdiction of the domesticated corporation or its proposed articles of
+or bylaws as set forth in the plan.
+c.
+Any of the other terms or conditions of the plan, if the change would
+adversely affect the member in any material respect.
+(c)
+After a plan of domestication has been approved and before the articles of
+domestication have become effective, the plan may be abandoned as provided in the plan. Unless
+prohibited by the plan, a domestic nonprofit corporation may abandon the plan in the same
+manner as the plan was approved by the corporation without action by its members in accordance
+with any procedures set forth in the plan or, if no such procedures are set forth in the plan, in the
+manner determined by the board of directors.
+(d)
+If a domestication is abandoned after articles of domestication have been delivered to
+the Secretary of State for filing but before the articles are effective, articles of abandonment,
+signed by the domesticating nonprofit corporation, shall be delivered to the Secretary of State for
+filing before the articles of domestication are effective. The articles of abandonment take effect
+upon filing, and the domestication is abandoned and does not become effective. The articles of
+abandonment shall contain all of the following:
+(1)
+The name of the domesticating corporation.
+(2)
+The date on which the articles of domestication were filed by the Secretary of
+State.
+(3)
+A statement that the domestication has been abandoned in accordance with
+this section.
+"§ 55A-11B-06. Articles of domestication; effective date.
+DRH40278-MVf-17
+
+Page 9
+
+General Assembly Of North Carolina
+
+Session 2025
+
+(a)
+Articles of domestication shall be signed by the domesticating corporation and
+delivered to the Secretary of State for filing.
+(b)
+The articles of domestication shall contain all of the following:
+(1)
+The name and governing jurisdiction of the domesticating corporation.
+(2)
+The name and governing jurisdiction of the domesticated corporation.
+(3)
+If the domesticating corporation is a domestic nonprofit corporation, a
+statement that the plan of domestication was approved in accordance with this
+Article or, if the domesticating corporation is a foreign nonprofit corporation,
+a statement that the domestication was approved in accordance with its law of
+jurisdiction.
+(4)
+If the domesticated corporation is a domestic nonprofit corporation, its articles
+of incorporation, as an attachment, except that provisions that would not be
+required to be included in restated articles of incorporation may be omitted
+from the articles of the domesticated corporation and the articles do not need
+to be signed.
+(c)
+In addition to the requirements of subsection (b) of this section, articles of
+domestication may contain any other provision not prohibited by law.
+(d)
+If the domesticated corporation is a domestic nonprofit corporation, the domestication
+becomes effective when the articles of domestication are effective. If the domesticated
+corporation is a foreign nonprofit corporation, the domestication becomes effective on the later
+of the following:
+(1)
+The date and time provided by the law of the jurisdiction of the domesticated
+corporation.
+(2)
+When the articles of domestication are effective.
+"§ 55A-11B-07. Effect of domestication.
+(a)
+When a domestication becomes effective, all of the following apply:
+(1)
+All property owned by, and every contract right possessed by, the
+domesticating corporation becomes the property and contract rights of the
+domesticated corporation without transfer, reversion, or impairment.
+(2)
+All debts, obligations, and other liabilities of the domesticating corporation
+remain the debts, obligations, and other liabilities of the domesticated
+corporation.
+(3)
+The name of the domesticated corporation may be, but is not required to be,
+substituted for the name of the domesticating corporation in any pending
+proceeding.
+(4)
+The articles of incorporation and bylaws of the domesticated corporation
+become effective.
+(5)
+The memberships of the domesticating corporation are reclassified into
+memberships, obligations, rights to acquire memberships, cash, or other
+property in accordance with the terms of the domestication, and the members
+of the domesticating corporation are entitled only to the rights provided to
+them by those terms.
+(6)
+The domesticated corporation is all of the following:
+a.
+Incorporated under and subject to the current law of the jurisdiction of
+the domesticated corporation.
+b.
+The same corporation without interruption as the domesticating
+corporation.
+c.
+Deemed to have been incorporated on the date the domesticating
+corporation was originally incorporated.
+(b)
+Except as otherwise provided under the law of the jurisdiction or the articles of
+incorporation or bylaws of a foreign nonprofit corporation that is the domesticating corporation,
+Page 10
+
+DRH40278-MVf-17
+
+General Assembly Of North Carolina
+
+Session 2025
+
+the interest holder liability of a member in a foreign corporation that is domesticated into this
+State who had interest holder liability in respect of the domesticating corporation before the
+domestication becomes effective shall be as follows:
+(1)
+The domestication does not discharge that prior interest holder liability with
+respect to any interest holder liabilities that arose before the domestication
+becomes effective.
+(2)
+The provisions of the law of the jurisdiction of the domesticating corporation
+shall continue to apply to the collection or discharge of any interest holder
+liabilities preserved by subdivision (1) of this subsection, as if the
+domestication had not occurred.
+(3)
+The member shall have such rights of contribution from other persons as are
+provided by the law of the jurisdiction of the domesticating corporation with
+respect to any interest holder liabilities preserved by subdivision (1) of this
+subsection, as if the domestication had not occurred.
+(4)
+The member shall not, by reason of the prior interest holder liability, have
+interest holder liability with respect to any interest holder liabilities that are
+incurred after the domestication becomes effective.
+(c)
+A member who becomes subject to interest holder liability in respect of the
+domesticated corporation as a result of the domestication shall have such interest holder liability
+only in respect of interest holder liabilities that arise after the domestication becomes effective.
+(d)
+A domestication does not constitute or cause the dissolution of the domesticating
+corporation."
+SECTION 3.2.(a) G.S. 55A-1-22 reads as rewritten:
+"§ 55A-1-22. Filing, service, and copying fees.
+(a)
+The Secretary of State shall collect the following fees when the documents described
+in this subsection are delivered submitted to the Secretary for filing:
+Document
+Fee
+…
+(13a) Reserved for future codification purposes.
+(13b) Reserved for future codification purposes.
+(13c) Articles of domestication
+$25.00
+(13d) Articles of abandonment of domestication
+$10.00
+…."
+SECTION 3.2.(b) G.S. 55A-1-60 reads as rewritten:
+"§ 55A-1-60. Judicial relief.
+(a)
+If for any reason it is impracticable for any corporation to call or conduct a meeting
+of its members, delegates, or directors, or otherwise obtain their consent, in the manner prescribed
+by its articles of incorporation, bylaws, or this Chapter, then upon petition of a director, officer,
+delegate, member, or the Attorney General, the superior court may order that such a meeting be
+held or that a written ballot or other method be used for obtaining the vote of members, delegates,
+or directors, in such a manner as the court finds fair and equitable under the circumstances.
+…
+(d)
+Whenever practical any order issued pursuant to this section shall limit the subject
+matter of meetings or other forms of consent authorized to items, including amendments to the
+articles of incorporation or bylaws, the resolution of which will or may enable the corporation to
+continue managing its affairs without further resort to this section; provided, however, that
+section. However, an order under this section may also authorize the obtaining of whatever votes
+and approvals are necessary for the dissolution, domestication, merger, or sale of assets.
+…."
+SECTION 3.2.(c) G.S. 55A-8-25 reads as rewritten:
+"§ 55A-8-25. Committees of the board.
+DRH40278-MVf-17
+
+Page 11
+
+General Assembly Of North Carolina
+
+Session 2025
+
+…
+(d)
+To the extent specified by the board of directors or in the articles of incorporation or
+bylaws, each committee of the board may exercise the board's authority under
+G.S. 55A-8-01.G.S. 55A-8-01, except that a
+(e)
+A committee of the board shall not, however:not exercise authority to do any of the
+following:
+(1)
+Authorize distributions;distributions.
+(2)
+Recommend to members or approve dissolution, merger domestication,
+merger, or the sale, pledge, or transfer of all or substantially all of the
+corporation's assets;assets.
+(3)
+Elect, appoint or remove directors, or fill vacancies on the board of directors
+or on any of its committees; orcommittees.
+(4)
+Adopt, amend, or repeal the articles of incorporation or bylaws.
+…."
+SECTION 3.3.(a) Sections 3.1 and 3.2 of this Part become effective October 1, 2025.
+Except as otherwise provided, this Part is effective when it becomes law.
+SECTION 3.3.(b) If a protected agreement of a domestic domesticating nonprofit
+corporation in effect immediately before the domestication becomes effective contains a
+provision applying to a merger of the corporation and the agreement does not refer to a
+domestication of the corporation, the provision applies to a domestication of the corporation as
+if the domestication were a merger until the provision is first amended after October 1, 2025.
+SECTION 3.3.(c) For the purposes of this section, a protected agreement is any of
+the following in effect immediately before October 1, 2025:
+(1)
+A document evidencing indebtedness of a domestic nonprofit corporation and
+any related agreement.
+(2)
+An agreement that is binding on a domestic nonprofit corporation.
+(3)
+The articles of incorporation or bylaws of a domestic nonprofit corporation.
+(4)
+An agreement that is binding on any of the interest holders or directors of a
+domestic nonprofit corporation in their capacities as interest holders or
+directors.
+PART IV. MODIFY REQUIRED NUMBER OF DIRECTORS
+SECTION 4.(a) G.S. 55A-1-50 reads as rewritten:
+"§ 55A-1-50. Private Foundations.
+(a)
+Except where otherwise determined by a court of competent jurisdiction, a
+corporation that is a private foundation as defined in section 509(a) of the Internal Revenue Code
+of 1986:1986 shall comply with all of the following:
+(1)
+Shall distribute such amounts for each taxable year at such the time and in
+such the manner required so as not to subject the corporation to tax under
+section 4942 of the Code.
+(2)
+Shall not engage in any act of self-dealing as defined in section 4941(d) of the
+Code.
+(3)
+Shall not retain any excess business holdings as defined in section 4943(c) of
+the Code.
+(4)
+Shall not make any investments in such a manner as to that would subject the
+corporation to tax under section 4944 of the Code.
+(5)
+Shall not make any taxable expenditures as defined in section 4945(d) of the
+Code.
+All references in this section to sections of the Code shall be to sections of the Internal
+Revenue Code of 1986 as amended from time to time, or to corresponding provisions of
+subsequent internal revenue laws of the United States.
+Page 12
+
+DRH40278-MVf-17
+
+General Assembly Of North Carolina
+
+Session 2025
+
+(b)
+A board of directors of a private foundation shall consist of one or more natural
+persons, with the number specified in or fixed in accordance with the articles of incorporation or
+bylaws."
+SECTION 4.(b) G.S. 55A-8-03 reads as rewritten:
+"§ 55A-8-03. Number of directors.
+(a)
+A Except as provided in G.S. 55A-1-50(b), a board of directors shall consist of one
+three or more natural persons, with the number specified in or fixed in accordance with the
+articles of incorporation or bylaws.
+(b)
+The number of directors may be increased or decreased from time to time by
+amendment to or in the manner prescribed in the articles of incorporation or bylaws.
+(c)
+The articles of incorporation or bylaws may establish a variable range for the size of
+the board of directors by fixing a minimum number not inconsistent with this Chapter and
+maximum number of directors. If a variable range is established, the number of directors may be
+fixed or changed from time to time, within the minimum and maximum, by the members entitled
+to vote for directors or (unless or, unless the articles of incorporation or an agreement valid under
+G.S. 55A-7-30 shall otherwise provide) provide, the board of directors. If the corporation has
+members entitled to vote for directors, only such those members may change the range for the
+size of the board or change from a fixed to a variable-range size board or vice versa."
+SECTION 4.(c) G.S. 55A-8-11 reads as rewritten:
+"§ 55A-8-11. Vacancy on board.
+(a)
+Unless the articles of incorporation or bylaws provide otherwise, and except as
+provided in subsections (b) and (c) of this section, if a vacancy occurs on a board of directors,
+including, without limitation, a vacancy resulting from an increase in the number of directors or
+from the failure by the members to elect the full authorized number of directors, the vacancy may
+be filled:filled by any of the following means:
+(1)
+By the members entitled to vote for directors, if any, or if the vacant office
+was held by a director elected by a class, chapter or other organizational unit,
+or by region or other geographic grouping, by the members of that class,
+chapter, unit, or grouping;grouping.
+(2)
+By the board of directors; ordirectors.
+(3)
+If the directors remaining in the office constitute fewer than a quorum of the
+board, by the affirmative vote of a majority of all the directors, or by the sole
+director, remaining in office.
+(b)
+Unless the articles of incorporation or bylaws provide otherwise, if a vacant office
+was held by an appointed director, only the person who appointed the director may fill the
+vacancy.
+(c)
+If a vacant office was held by a designated director, the vacancy shall be filled only
+as provided in the articles of incorporation or bylaws.
+(d)
+A vacancy that will occur at a specific later date (by date, by reason of a resignation
+effective at a later date under G.S. 55A-8-07(b) or otherwise) otherwise, may be filled before the
+vacancy occurs but the new director shall not take office until the vacancy occurs.
+(e)
+Notwithstanding G.S. 55A-8-03(a), a board of directors may have fewer than three
+members due to vacancies until the vacancies are filled."
+SECTION 4.(d) This section becomes effective October 1, 2025, and applies to
+corporations organized on or after that date.
+PART V. MODIFY THE REQUIREMENT FOR ESTABLISHING COMMITTEES OF
+THE BOARD OF DIRECTORS
+SECTION 5.(a) G.S. 55A-8-25 reads as rewritten:
+"§ 55A-8-25. Committees of the board.
+DRH40278-MVf-17
+
+Page 13
+
+General Assembly Of North Carolina
+
+Session 2025
+
+(a)
+Unless the articles of incorporation or bylaws provide otherwise, a board of directors
+may create one or more committees of the board and appoint members of the board to serve on
+them. Each committee shall have two or more members, who serve at the pleasure of the board.
+(b)
+The Unless the articles of incorporation or bylaws provide otherwise, the creation of
+a committee and appointment of members to it shall be approved by the greater of:of the
+following:
+(1)
+A majority of all the directors in office when the action is taken; ortaken.
+(2)
+The number of directors required by the articles of incorporation or bylaws to
+take action under G.S. 55A-8-24.
+(c)
+G.S. 55A-8-20 through G.S. 55A-8-24, which govern meetings, action without
+meetings, notice and waiver of notice, and quorum and voting requirements of the board, apply
+to committees of the board and their members as well.
+(d)
+To the extent specified by the board of directors or in the articles of incorporation or
+bylaws, each committee of the board may exercise the board's authority under G.S. 55A-8-01.
+(e)
+A committee of the board shall not, however:however, take the following actions:
+(1)
+Authorize distributions;distributions.
+(2)
+Recommend to members or approve dissolution, merger or the sale, pledge,
+or transfer of all or substantially all of the corporation's assets;assets.
+(3)
+Elect, appoint or remove directors, or fill vacancies on the board of directors
+or on any of its committees; orcommittees.
+(4)
+Adopt, amend, or repeal the articles of incorporation or bylaws.
+(f)
+The creation of, delegation of authority to, or action by a committee does not alone
+constitute compliance by a director with the standards of conduct described in G.S. 55A-8-30."
+SECTION 5.(b) This section becomes effective October 1, 2025, and applies to
+committees created on or after that date.
+PART VI. FURTHER AUTHORIZE AND CLARIFY CONVERSION
+SECTION 6.(a) Article 11A of Chapter 55A of the General Statutes is amended by
+adding a new Part to read:
+"Part 1. Conversion To Nonprofit Corporation.
+"§ 55A-11A-01. Conversion.
+(a)
+As used in this section, "business entity" means a domestic business corporation,
+including a professional corporation as defined in G.S. 55B-2, a foreign business corporation,
+including a foreign professional corporation as defined in G.S. 55B-16, a domestic or foreign
+nonprofit corporation, a domestic or foreign limited liability company, a domestic or foreign
+limited partnership, a registered limited liability partnership or foreign limited liability
+partnership as defined in G.S. 59-32, or any other partnership as defined in G.S. 59-36 whether
+or not formed under the laws of this State.
+(b)
+A business entity, other than a domestic nonprofit corporation, may convert to a
+domestic nonprofit corporation if both of the following apply:
+(1)
+The conversion is permitted by the laws of the state or country governing the
+organization and internal affairs of the converting business entity.
+(2)
+The converting business entity complies with the requirements of this Part
+and, to the extent applicable, the laws referred to in subdivision (1) of this
+subsection.
+"§ 55A-11A-02. Plan of conversion.
+(a)
+The converting business entity shall approve a written plan of conversion containing
+all of the following:
+(1)
+The name of the converting business entity, its type of business entity, and the
+state or country whose laws govern its organization and internal affairs.
+Page 14
+
+DRH40278-MVf-17
+
+General Assembly Of North Carolina
+
+Session 2025
+
+(2)
+
+The name of the resulting domestic nonprofit corporation into which the
+converting business entity will convert.
+(3)
+The terms and conditions of the conversion.
+(4)
+The manner and basis for converting the interests in the converting business
+entity, if any, into any combination of eligible interests or other securities,
+rights to acquire interests or other securities, obligations, cash, or other
+property of the resulting domestic nonprofit corporation.
+(b)
+The plan of conversion may contain any other provisions not prohibited by law.
+(c)
+The provisions of the plan of conversion, other than the provisions required by
+subdivisions (1) and (2) of subsection (a) of this section, may be made dependent on facts
+objectively ascertainable outside the plan of conversion if the plan of conversion sets forth the
+manner in which the facts will operate upon the affected provisions.
+(d)
+The plan of conversion shall be approved in accordance with the laws of the state or
+country governing the organization and internal affairs of the converting business entity.
+(e)
+After a plan of conversion has been approved as provided in subsection (d) of this
+section, but before articles of incorporation for the resulting domestic nonprofit corporation
+become effective, the plan of conversion may be amended or abandoned to the extent permitted
+by the laws that govern the organization and internal affairs of the converting business entity.
+"§ 55A-11A-03. Filing of articles of incorporation by converting business entity.
+(a)
+After a plan of conversion has been approved by the converting business entity as
+provided in G.S. 55A-11A-02, the converting business entity shall deliver articles of conversion
+to the Secretary of State for filing. In addition to the matters required or permitted by
+G.S. 55A-2-02, the articles of incorporation shall contain articles of conversion stating all of the
+following:
+(1)
+That the corporation is being formed pursuant to a conversion of a business
+entity.
+(2)
+The name of the converting business entity, its type of business entity, and the
+state or country whose laws govern its organization and internal affairs.
+(3)
+That a plan of conversion has been approved by the converting business entity
+as required by law.
+(b)
+If the plan of conversion is abandoned after the articles of incorporation have been
+filed with the Secretary of State but before the articles of incorporation become effective, the
+converting business entity shall deliver to the Secretary of State for filing prior to the time the
+articles of incorporation become effective an amendment to the articles of incorporation
+withdrawing the articles of incorporation.
+(c)
+The conversion takes effect when the articles of incorporation become effective.
+(d)
+Certificates of conversion shall also be registered as provided in G.S. 47-18.1.
+"§ 55A-11A-04. Effects of conversion.
+When the conversion takes effect, all of the following apply:
+(1)
+The converting business entity ceases its prior form of organization and
+continues in existence as the resulting domestic nonprofit corporation.
+(2)
+The title to all real estate and other property owned by the converting business
+entity continues vested in the resulting domestic nonprofit corporation without
+transfer, reversion, or impairment.
+(3)
+Except as otherwise provided by law or by the plan of conversion, all rights,
+privileges, immunities, powers, and purposes of the converting business entity
+remain vested in the resulting domestic nonprofit corporation.
+(4)
+All debts, obligations, and other liabilities of the converting business entity
+continue as debts, obligations, and other liabilities of the resulting domestic
+nonprofit corporation.
+DRH40278-MVf-17
+
+Page 15
+
+General Assembly Of North Carolina
+
+Session 2025
+
+(5)
+
+A proceeding pending by or against the converting business entity may be
+continued as if the conversion did not occur. The name of the resulting
+domestic nonprofit corporation may be substituted for the name of the
+converting business entity in any pending action or proceeding.
+(6)
+The interests and obligations in the converting business entity are converted
+to eligible interests or other securities, rights to acquire interests or other
+securities, obligations, cash, or other property of the resulting domestic
+corporation in accordance with the plan of conversion.
+(7)
+All of the following apply to the resulting domestic nonprofit corporation:
+a.
+It is incorporated under and subject to this Chapter.
+b.
+It converts from the converting business entity into its new form of
+organization interruption.
+c.
+It is deemed to have been incorporated on the date that the converting
+entity was originally incorporated or organized.
+The conversion does not affect the liability or absence of liability of any holder of an interest
+in the converting business entity for any acts, omissions, or obligations of the converting business
+entity made or incurred prior to the effectiveness of the conversion. The cessation of the existence
+of the converting business entity in its prior form of organization in the conversion does not
+constitute a dissolution or termination of the converting business entity."
+SECTION 6.(b) Part 2 of Article 11A of Chapter 55A of the General Statutes reads
+as rewritten:
+"Part 2. Conversion of Nonprofit Corporation.
+"§ 55A-11A-10. Conversion.
+(a)
+A charitable or religious corporation may convert to a domestic limited liability
+company if the converting charitable or religious corporation complies with the requirements of
+this part Part and the requirements of G.S. 57D-9-20, 57D-9-21, and 57D-9-22.
+(b)
+The plan of conversion of a charitable or religious corporation to a domestic limited
+liability company under G.S. 57D-9-21 shall comply with all of the following:
+(1)
+If the converting charitable or religious corporation does not have any
+members entitled to vote on the conversion, the plan shall be approved by the
+board of directors of the converting charitable or religious corporation.
+(2)
+If the charitable or religious corporation has members entitled to vote on the
+conversion, the plan shall first be approved by the board of directors and then
+by the members entitled to vote on the conversion in accordance with the
+following:
+a.
+In submitting the plan of conversion to the members for approval, the
+board of directors shall recommend that the members approve the plan
+unless the directors make a determination that because of conflicts of
+interest or other special circumstances they should not make this
+recommendation, in which case the directors shall inform the members
+of the basis for so proceeding.
+b.
+If the approval is to be given at a meeting, the charitable or religious
+corporation shall notify each member entitled to vote of the meeting
+of members at which the plan of conversion will be submitted for
+approval. The notice shall state that the purpose, or one of the
+purposes, of the meeting is to consider the plan of conversion and shall
+contain or be accompanied by a copy or summary of the plan.
+c.
+Unless the articles of incorporation, the bylaws, or the board of
+directors of the charitable or religious corporation require a different
+vote or quorum, approval of the plan of conversion requires (i) the
+approval of the members, consisting of the majority of the votes
+Page 16
+
+DRH40278-MVf-17
+
+General Assembly Of North Carolina
+
+Session 2025
+
+entitled to be cast on the plan, at a meeting at which a quorum exists
+and (ii) the approval of each separate voting group, consisting of a
+majority of the votes entitled to be cast on the plan by that voting
+group, at a meeting at which a quorum of the voting group is present.
+(3)
+If, as a result of the conversion, one or more members of the converting entity
+would become subject to new member liability, approval of the plan of
+conversion requires that each of those members sign a separate record
+consenting to become subject to the new member liability.
+(4)
+In addition to the adoption and approval of the plan of conversion by the board
+of directors and members as required by this section, the plan of conversion
+shall also be approved by any person or group of persons whose approval is
+required under G.S. 55A-10-30 to amend the articles of incorporation or
+bylaws of the charitable or religious corporation."
+SECTION 6.(c) This section becomes effective October 1, 2025, and applies to plans
+of conversion approved on or after that date.
+PART VII. ALIGN STATE AND FEDERAL DISCLOSURE REQUIREMENTS FOR
+CHARITABLE ORGANIZATIONS
+SECTION 7. G.S. 131F-9 reads as rewritten:
+"§ 131F-9. Disclosure requirements of charitable organizations and sponsors.
+…
+(b)
+Disclosures. – A charitable organization or sponsor soliciting in this State shall
+include all of the following disclosures at the point of solicitation:
+…
+(4)
+Upon request, the amount of the contribution which that may be deducted as
+a charitable contribution under federal income tax laws. A written
+acknowledgement that provides the information set forth in section 170(f)(8)
+of the Internal Revenue Code satisfies this disclosure requirement.
+…."
+PART VIII. EFFECTIVE DATE AND APPLICABILITY
+SECTION 8. Except as otherwise provided, this act is effective when it becomes
+law.
+
+DRH40278-MVf-17
+
+Page 17

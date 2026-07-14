@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 315",
+    "legislative_session": "2025",
+    "subject": [
+      "COMMERCE; CONSUMER PROTECTION; CRIMES; EMPLOYMENT; FINANCIAL SERVICES; INSURANCE; PRESENTED; PUBLIC; RATIFIED; RETAILING; THEFT; WORKERS COMPENSATION; CHAPTERED"
+    ],
+    "title": "Prohibit Litigation Investments/Amend Workers' Compensation Benefits."
+  },
+  "id": "HB 315",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Gov. 6/22/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-06-22",
+      "session_id": "2025",
+      "sources": [
+        {
+          "url": "https://www.ncleg.gov/BillLookUp/2025/H315"
+        }
+      ]
+    },
+    "bill_id": "HB 315"
+  },
+  "sources": {
+    "bill": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB315/metadata.json",
+    "log": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB315/logs/20260622T000000Z_signed_by_gov_6222026.json"
+  },
+  "timestamp": "20260622T000000Z"
+}

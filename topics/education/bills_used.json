@@ -165,6 +165,8 @@
     "MS|SB2298|2026-02-03|Died In Committee",
     "MS|SB2300|2026-02-03|Died In Committee",
     "MS|SB2607|2026-02-03|Died In Committee",
+    "NC|HB 56|2026-07-07",
+    "NC|HB 56|2026-07-07|Signed by Gov. 7/7/2026",
     "ND|SB 2401|2026-01-21|Reported back amended, do pass, amendmen",
     "NH|HB676|2025-12-03|Committee Report: Inexpedient to Legisla",
     "NH|SB429|2026-06-22",
@@ -197,6 +199,8 @@
     "RI|HB7683|2026-06-22|06/22/2026 Signed by Governor",
     "RI|HR8351|2026-06-22",
     "RI|HR8351|2026-06-22|06/22/2026 Signed by Governor",
+    "RI|SB2209|2026-06-19",
+    "RI|SB2209|2026-06-19|06/19/2026 Signed by Governor",
     "RI|SB2678|2026-06-22|06/22/2026 Signed by Governor",
     "RI|SR3368|2026-06-22",
     "RI|SR3368|2026-06-22|06/22/2026 Signed by Governor",
@@ -236,7 +240,7 @@
     "WI|SB1|2026-05-13|Read a third time",
     "WI|SB1|2026-05-13|Rules suspended to give bill its third r"
   ],
-  "last_run": "2026-07-13T10:20:27.943408+00:00",
+  "last_run": "2026-07-14T08:59:55.238164+00:00",
   "state_last_posted": {
     "HI": "2026-05-16T02:57:07.992280+00:00",
     "NH": "2026-07-12T09:02:02.865053+00:00",
@@ -259,6 +263,7 @@
     "GA": "2026-07-13T10:16:23.651133+00:00",
     "PR": "2026-06-09T10:25:58.228192+00:00",
     "ND": "2026-06-13T10:02:26.244028+00:00",
-    "RI": "2026-07-11T08:27:13.996682+00:00"
+    "RI": "2026-07-14T08:55:42.686576+00:00",
+    "NC": "2026-07-14T08:55:42.686576+00:00"
   }
 }

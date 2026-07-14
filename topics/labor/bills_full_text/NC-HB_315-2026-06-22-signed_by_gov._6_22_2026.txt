@@ -1,0 +1,182 @@
+GENERAL ASSEMBLY OF NORTH CAROLINA
+SESSION 2025
+H
+
+H.B. 315
+Mar 5, 2025
+HOUSE PRINCIPAL CLERK
+
+D
+HOUSE BILL DRH30152-ML-103
+
+Short Title:
+
+Gift Card Theft & Unlawful Business Entry.
+
+Sponsors:
+
+Representative Pyrtle.
+
+(Public)
+
+Referred to:
+
+A BILL TO BE ENTITLED
+AN ACT TO ESTABLISH AN OFFENSE FOR WRONGFULLY ENTERING A PART OF A
+BUILDING NOT OPEN TO THE PUBLIC; TO ESTABLISH THE OFFENSE OF
+LARCENY OF GIFT CARDS; AND TO REVISE THE ORGANIZED RETAIL THEFT
+OFFENSE TO INCLUDE OFFENSES INVOLVING GIFT CARDS.
+The General Assembly of North Carolina enacts:
+SECTION 1. G.S. 14-54 is amended by adding a new subsection to read:
+"(b1) Any person who knowingly and wrongfully enters any area of a building (i) that is
+commonly reserved for personnel of a commercial business where money or other property is
+kept or (ii) clearly marked with a sign that indicates to the public that entry is forbidden is guilty
+of a Class 1 misdemeanor for a first offense and a Class I felony for a second or subsequent
+offense."
+SECTION 2. Article 16 of Chapter 14 of the General Statutes is amended by adding
+a new section to read:
+"§ 14-72.12. Larceny of gift cards; receiving stolen gift cards or possessing stolen gift cards.
+(a)
+Definitions. – For purposes of this section, the terms "gift card," "gift card issuer,"
+"gift card redemption information," and "gift card value" are as defined in G.S. 14-86.5.
+(b)
+Offense. – A person commits the offense of larceny of gift cards if the person does
+any of the following:
+(1)
+Acquires or retains possession of a gift card or gift card redemption
+information without the consent of the cardholder or card issuer.
+(2)
+Obtains a gift card or gift card redemption information from a cardholder or
+card issuer by means of false or fraudulent pretenses, representations, or
+promises.
+(3)
+Alters or tampers with a gift card or its packaging with intent to defraud
+another.
+(c)
+Punishment. – A violation of this section is a Class 1 misdemeanor if the value of the
+gift card acquired, retained, or for which the card redemption information is obtained, or is altered
+or tampered with, is not more than one thousand dollars ($1,000). Any other violation of this
+section is a Class H felony."
+SECTION 3. G.S. 14-86.5 reads as rewritten:
+"§ 14-86.5. Definitions.
+The following definitions apply in this Article:
+(1)
+"Retail property." – Any article, product, commodity, item, or component
+intended to be sold in retail commerce.Gift card. – A record evidencing a
+promise, made for monetary consideration, by a seller or issuer that goods or
+
+*DRH30152-ML-103*
+
+General Assembly Of North Carolina
+
+Session 2025
+
+services will be provided to the owner of the record to the value shown in the
+record. A gift card includes a record that contains a microprocessor chip,
+magnetic strip, or other storage medium that is prefunded and for which the
+value is adjusted upon each use, a gift certificate, a stored-value card or
+certificate, a store card, or a prepaid long-distance telephone service that is
+activated by a prepaid card that required dialing an access number or an access
+code in addition to dialing the phone number to which the user of the prepaid
+card seeks to connect.
+(2)
+Repealed by Session Laws 2024-22, s. 2(a), effective December 1, 2024, and
+applicable to offenses committed on or after that date.
+(3)
+"Theft." – To take possession of, carry away, transfer, or cause to be carried
+away the retail property of another with the intent to steal the retail
+property.Gift card issuer. – Any person or entity that sells, distributes, or
+supplies a gift card.
+(4)
+"Value." – The retail value of an item as advertised by the affected retail
+establishment, to include all applicable taxes.Gift card redemption
+information. – Any information unique to a gift card that allows the cardholder
+to access, transfer, or spend the funds on that gift card.
+(5)
+Gift card value. – The maximum monetary value that can be applied to the
+card.
+(6)
+Retail property. – Any article, product, commodity, item, or component
+intended to be sold in retail commerce.
+(7)
+Theft. – To take possession of, carry away, transfer, or cause to be carried
+away the retail property of another with the intent to steal the retail property.
+(8)
+Value. – The retail value of an item as advertised by the affected retail
+establishment, to include all applicable taxes."
+SECTION 4. G.S. 14-86.6 reads as rewritten:
+"§ 14-86.6. Organized retail theft.
+(a)
+Offense. – A person commits the offense of organized retail theft if the person does
+any of the following:
+(1)
+Conspires with another person to commit theft of retail property from retail
+establishments with the intent to sell, transfer, or possess that retail property
+for monetary or other gain.
+(2)
+Receives or possesses any retail property that has been taken or stolen in
+violation of subdivision (1) of this subsection while knowing or having
+reasonable grounds to believe the property is stolen.
+(3)
+Conspires with two or more other persons as an organizer, supervisor,
+financier, leader, or manager to engage for profit in a scheme or course of
+conduct to effectuate or intend to effectuate the transfer or sale of property
+stolen from a merchant in violation of this section.
+(4)
+Conspires with another person to acquire or retain possession of a gift card or
+gift card redemption information without the consent of the cardholder or card
+issuer.
+(5)
+Devises a scheme with one or more persons to obtain a gift card or gift card
+redemption information from a cardholder or card issuer by means of false or
+fraudulent pretenses, representations, or promises.
+(6)
+Conspires with another person to alter or tamper with a gift card or its
+packaging with intent to defraud another.
+…
+(a2) Punishments. – The following classifications apply to the offense of organized retail
+theft:
+Page 2
+
+DRH30152-ML-103
+
+General Assembly Of North Carolina
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+Session 2025
+
+An offense when the gift card value or the retail property has a value
+exceeding one thousand five hundred dollars ($1,500) aggregated over a
+90-day period is a Class H felony.
+An offense when the gift card value or the retail property has a value
+exceeding twenty thousand dollars ($20,000) aggregated over a 90-day period
+is a Class G felony.
+An offense when the gift card value or the retail property has a value
+exceeding fifty thousand dollars ($50,000) aggregated over a 90-day period is
+a Class F felony.
+An offense when the gift card value or the retail property has a value
+exceeding one hundred thousand dollars ($100,000) aggregated over a 90-day
+period is a Class C felony.
+
+…
+(c)
+Multiple Thefts. – Thefts of gift cards, gift card redemption information, or retail
+property occurring in more than one county may be aggregated into an alleged violation of this
+section. Each county where a part of the charged offense occurs has concurrent venue as
+described in G.S. 15A-132."
+SECTION 5. Prosecutions for offenses committed before the effective date of this
+act are not abated or affected by this act, and the statutes that would be applicable but for this act
+remain applicable to those prosecutions.
+SECTION 6. This act becomes effective December 1, 2025, and applies to offenses
+committed on or after that date.
+
+DRH30152-ML-103
+
+Page 3
