@@ -392,13 +392,41 @@ def _strip_leading_date(s: str) -> str:
     return _LEADING_DATE_RE.sub("", s or "", count=1)
 
 
-# Some sources (e.g. California) append a parenthetical date to the action
-# description, e.g. "Do pass. (Ayes 14. Noes 0.) (May 14)." That repeats the
-# formatted date we already prepend, so strip it when it matches the action
-# date (a parenthetical for a *different* date is kept — it carries info).
+# Some sources append the action date to the description, which repeats the
+# formatted date we already prepend in format_action_line. Two shapes occur:
+#   * parenthetical — e.g. California's "Do pass. (Ayes 14. Noes 0.) (May 14)."
+#   * bare (no parentheses) — e.g. North Carolina's "Signed by Gov. 7/7/2026",
+#     North Dakota's "Signed by Governor 01/23", Vermont's "... Governor May 21".
+# Strip the trailing date in either shape, but only when it names the same day
+# as the action date — a trailing date for a *different* day is kept, since it
+# carries information the prepended date doesn't.
 _MONTH_PREFIXES = {1:"jan", 2:"feb", 3:"mar", 4:"apr", 5:"may", 6:"jun",
                    7:"jul", 8:"aug", 9:"sep", 10:"oct", 11:"nov", 12:"dec"}
 _TRAILING_PAREN_RE = re.compile(r"\(\s*([^()]*?)\s*\)\s*\.?\s*$")
+# A bare date token anchored to the end of the string: numeric ("7/7/2026",
+# "01/23", "7-7-26") or a month name ("May 21", "July 7, 2026").
+_TRAILING_BARE_DATE_RE = re.compile(
+    r"(?P<date>"
+    r"\d{1,2}[/-]\d{1,2}(?:[/-]\d{2,4})?"
+    r"|[A-Za-z]{3,9}\.?\s+\d{1,2}(?:,?\s*\d{2,4})?"
+    r")"
+    r"\s*\.?\s*$"
+)
+
+
+def _date_token_matches(token: str, d: "datetime") -> bool:
+    """True if ``token`` (e.g. "7/7/2026" or "May 21") names the same month and
+    day as ``d``. Year, if present, is ignored — the day is what identifies the
+    action, and abbreviated/2-digit years are common."""
+    inner = token.strip().lower().rstrip(".")
+    num = re.fullmatch(r"(\d{1,2})[/-](\d{1,2})(?:[/-]\d{2,4})?", inner)
+    if num:
+        return int(num.group(1)) == d.month and int(num.group(2)) == d.day
+    name = re.fullmatch(r"([a-z]{3,9})\.?\s+(\d{1,2})(?:,?\s*\d{2,4})?", inner)
+    if name:
+        return name.group(1).startswith(_MONTH_PREFIXES[d.month]) \
+            and int(name.group(2)) == d.day
+    return False
 
 
 def _strip_trailing_date(s: str, date_yyyy_mm_dd: str) -> str:
@@ -407,17 +435,17 @@ def _strip_trailing_date(s: str, date_yyyy_mm_dd: str) -> str:
         d = datetime.strptime(date_yyyy_mm_dd, "%Y-%m-%d")
     except ValueError:
         return s
+    # Parenthetical form first — the date sits inside its own "(...)" and may be
+    # preceded by other parentheticals (vote tallies, etc.) that must be kept.
     m = _TRAILING_PAREN_RE.search(s)
-    if not m:
-        return s
-    inner = m.group(1).strip().lower().rstrip(".")
-    num = re.fullmatch(r"(\d{1,2})[/-](\d{1,2})(?:[/-]\d{2,4})?", inner)
-    if num and int(num.group(1)) == d.month and int(num.group(2)) == d.day:
+    if m and _date_token_matches(m.group(1), d):
         return s[:m.start()].rstrip()
-    name = re.fullmatch(r"([a-z]{3,9})\.?\s+(\d{1,2})(?:,?\s*\d{2,4})?", inner)
-    if name and name.group(1).startswith(_MONTH_PREFIXES[d.month]) \
-            and int(name.group(2)) == d.day:
-        return s[:m.start()].rstrip()
+    # Bare form — the date trails the text directly. Cut at the date token and
+    # drop the separators between it and the action text, but keep a legitimate
+    # abbreviation period (e.g. "Gov.") for _smart_case to normalize.
+    m = _TRAILING_BARE_DATE_RE.search(s)
+    if m and _date_token_matches(m.group("date"), d):
+        return s[:m.start("date")].rstrip(" ,:;-–—")
     return s
 
 
