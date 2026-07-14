@@ -250,6 +250,8 @@
     "MS|SB2012|2026-02-03|Died In Committee",
     "MS|SB2257|2026-02-03|Title Suff Do Pass",
     "MS|SB2563|2026-02-03|Died In Committee",
+    "NC|HB 372|2026-07-07",
+    "NC|HB 372|2026-07-07|Signed by Gov. 7/7/2026",
     "NC|SB 257|2025-05-21|Added to Calendar",
     "NC|SB 257|2025-05-21|Amend Adopted A23",
     "NC|SB 257|2025-05-21|Amend Adopted A38",
@@ -297,6 +299,8 @@
     "PR|RCS0134|2026-03-27|Comisi\u00f3n no recomienda aprobaci\u00f3n de la ",
     "PR|RCS0151|2026-04-20|Aprobado con enmiendas en sala",
     "PR|RCS0151|2026-04-27|Aparece en Primera Lectura de la C\u00e1mara",
+    "RI|HB7491|2026-06-19",
+    "RI|HB7491|2026-06-19|06/19/2026 Signed by Governor",
     "RI|HB7565|2026-04-03|04/03/2026 Scheduled for hearing and/or ",
     "RI|HB7565|2026-04-07|04/07/2026 Committee recommended measure",
     "RI|HB7654|2026-06-24|06/24/2026 Signed by Governor",
@@ -327,7 +331,7 @@
     "WA|SB 6200|2026-03-24|Effective date 6/11/2026.",
     "WV|SB 101|2026-01-14|To Education"
   ],
-  "last_run": "2026-07-13T10:31:21.017363+00:00",
+  "last_run": "2026-07-14T09:13:50.979845+00:00",
   "state_last_posted": {
     "MS": "2026-06-16T12:04:58.783194+00:00",
     "PA": "2026-05-16T02:58:27.650333+00:00",
@@ -347,7 +351,8 @@
     "NJ": "2026-05-19T02:06:37.149818+00:00",
     "MO": "2026-06-29T12:13:07.738830+00:00",
     "TN": "2026-06-14T16:03:05.390837+00:00",
-    "RI": "2026-07-12T09:11:00.525358+00:00",
-    "NH": "2026-07-08T09:33:22.222773+00:00"
+    "RI": "2026-07-14T09:09:46.438138+00:00",
+    "NH": "2026-07-08T09:33:22.222773+00:00",
+    "NC": "2026-07-14T09:09:46.438138+00:00"
   }
 }

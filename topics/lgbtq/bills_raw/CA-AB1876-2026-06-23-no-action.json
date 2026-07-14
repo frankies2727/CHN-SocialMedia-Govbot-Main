@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the Knox-Keene Health Care Service Plan Act of 1975, provides for the licensure and regulation of health care service plans by the Department of Managed Health Care and makes a willful violation of the act's requirements a crime. Existing law provides for the regulation of health insurers by the Department of Insurance. Existing law requires health care service plans and health insurers, as specified, within 6 months after the relevant department issues specified guidance, or no later than March 1, 2025, to require all of their staff who are in direct contact with enrollees or insureds in the delivery of care or enrollee or insured services to complete evidence-based cultural competency training for the purpose of providing trans-inclusive health care for individuals who identify as transgender, gender diverse, or intersex.\n\nThis bill would prohibit a subscriber, enrollee, policyholder, or insured from being excluded from enrollment or participation in, being denied the benefits of, or being subjected to discrimination by, any health care service plan or health insurer licensed in this state, on the basis of race, color, national origin, age, disability, or sex. The bill would define discrimination on the basis of sex for those purposes to include, among other things, sex characteristics, including intersex traits, pregnancy, and gender identity. The bill would prohibit a health care service plan or health insurer from taking specified actions relating to providing access to health programs and activities, including, but not limited to, denying or limiting health care services to an individual based upon the individual's sex assigned at birth, gender identity, or gender otherwise recorded. The bill would prohibit a health care service plan or health insurer, in specified circumstances, from taking various actions, including, but not limited to, denying, canceling, limiting, or refusing to issue or renew health care service plan enrollment, health insurance coverage, or other health-related coverage, or denying or limiting coverage of a claim, or imposing additional cost sharing or other limitations or restrictions on coverage, on the basis of race, color, national origin, sex, age, disability, as specified. Because a violation of the bill's requirements by a health care service plan would be a crime, the bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1876",
+    "legislative_session": "20252026",
+    "subject": [
+      "Healthcarecoverage",
+      "nondiscrimination"
+    ],
+    "title": "Health care coverage: nondiscrimination."
+  },
+  "id": "AB1876",
+  "log": {
+    "bill_id": "AB1876"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1876/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1876/logs/20260623T070000Z.vote_event.pass.upper.json"
+  },
+  "timestamp": "20260623T070000Z.vote"
+}

@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1094",
+    "legislative_session": "2025",
+    "subject": [
+      "ADVERTISING & MARKETING; AIRPORTS; AUDITING & AUDITS; AVIATION; BUDGETING; COASTAL RESOURCES; COMMERCE; COMMUNICATIONS; CONTRACTS; COUNCIL OF STATE; COUNTIES; DMV; DRIVERS LICENSES; FEES; FERRIES; FUNDING; ID SYSTEMS; INFRASTRUCTURE; INSURANCE; INSURANCE",
+      "MOTOR VEHICLE; LICENSE PLATES; LICENSES & PERMITS; LOCAL GOVERNMENT; MOTOR VEHICLES; MUNICIPALITIES; PARKS & RECREATION AREAS; PILOT PROGRAMS; PRESENTED; PRIVATIZATION; PUBLIC; PUBLIC OFFICIALS; RATIFIED; REPORTS; ROADS & HIGHWAYS; SIGNS; SPEED LIMIT; STATE AUDITOR; STUDIES; TAXIS & SHUTTLES; TITLES; TRANSPORTATION; TRANSPORTATION DEPT.; TRAVEL & TOURISM; DURHAM COUNTY; RECORDS; DURHAM; CHAPTERED; LOCAL ORDINANCES"
+    ],
+    "title": "Ferry Division Audit/DOT Omnibus."
+  },
+  "id": "HB 1094",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Gov. 7/7/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-07-07",
+      "session_id": "2025",
+      "sources": [
+        {
+          "url": "https://www.ncleg.gov/BillLookUp/2025/H1094"
+        }
+      ]
+    },
+    "bill_id": "HB 1094"
+  },
+  "sources": {
+    "bill": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB1094/metadata.json",
+    "log": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB1094/logs/20260707T000000Z_signed_by_gov_772026.json"
+  },
+  "timestamp": "20260707T000000Z"
+}

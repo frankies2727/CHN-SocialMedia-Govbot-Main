@@ -1,0 +1,31 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Authorizes the city of Providence to issue not more than $25,000,000 in general obligation bonds and notes to fund the providence housing trust fund to finance affordable multi-family housing projects in the city.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB7491",
+    "legislative_session": "2026",
+    "title": "AN ACT AUTHORIZING THE CITY OF PROVIDENCE TO ISSUE NOT TO EXCEED $25,000,000 GENERAL OBLIGATION BONDS AND NOTES TO FUND THE PROVIDENCE  HOUSING TRUST FUND TO FINANCE AFFORDABLE  MULTI-FAMILY HOUSING PROJECTS IN THE CITY"
+  },
+  "id": "HB7491",
+  "log": {
+    "action": {
+      "classification": [
+        "executive-signature"
+      ],
+      "date": "2026-06-19",
+      "description": "06/19/2026 Signed by Governor",
+      "organization_id": "~{\"classification\": \"executive\"}"
+    },
+    "bill_id": "HB7491"
+  },
+  "sources": {
+    "bill": "ri-legislation/country:us/state:ri/sessions/2026/bills/HB7491/metadata.json",
+    "log": "ri-legislation/country:us/state:ri/sessions/2026/bills/HB7491/logs/20260619T000000Z_06192026_signed_by_governor.json"
+  },
+  "timestamp": "20260619T000000Z"
+}

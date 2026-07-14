@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 227",
+    "legislative_session": "2025",
+    "subject": [
+      "BOARDS; DISCRIMINATION; EDUCATION; EDUCATION ADMINISTRATION; EDUCATION",
+      "STATE BOARD OF; LGBTQ & GENDER ISSUES; MINORITIES; OCCUPATIONS; PRESENTED; PUBLIC; RATIFIED; STATE EMPLOYEES; STUDENTS; TEACHERS; VETOED; WOMEN; CHAPTERED; VETO OVERRIDDEN; GOVERNMENT EMPLOYEES"
+    ],
+    "title": "Eliminating \"DEI\" in Public Education."
+  },
+  "id": "SB 227",
+  "log": {
+    "action": {
+      "classifications": [
+        "veto-override-passage"
+      ],
+      "description": "Veto Overridden",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-24",
+      "session_id": "2025",
+      "sources": [
+        {
+          "url": "https://www.ncleg.gov/BillLookUp/2025/S227"
+        }
+      ]
+    },
+    "bill_id": "SB 227"
+  },
+  "sources": {
+    "bill": "nc-legislation/country:us/state:nc/sessions/2025/bills/SB227/metadata.json",
+    "log": "nc-legislation/country:us/state:nc/sessions/2025/bills/SB227/logs/20260624T000000Z_veto_overridden.json"
+  },
+  "timestamp": "20260624T000000Z"
+}
