@@ -238,6 +238,46 @@ def _strip_leading_date(s: str) -> str:
     return _LEADING_DATE_RE.sub("", s or "", count=1)
 
 
+# Other sources (e.g. North Carolina) instead *append* the date to the action
+# description, e.g. "Signed by Gov. 7/7/2026" (or bare "01/23", or a month name
+# like "May 21"). As with the leading case, the card already shows that date in
+# its own DATE column, so a trailing copy is redundant noise in the STATUS
+# value. Strip it only when it names the same day as the action date — a
+# trailing date for a *different* day is kept, since it carries information the
+# DATE column doesn't. This mirrors post_to_bluesky._strip_trailing_date,
+# extended here to bare (non-parenthetical) trailing dates.
+_MONTH_PREFIXES = {1: "jan", 2: "feb", 3: "mar", 4: "apr", 5: "may", 6: "jun",
+                   7: "jul", 8: "aug", 9: "sep", 10: "oct", 11: "nov", 12: "dec"}
+_TRAILING_DATE_RE = re.compile(
+    r"[\s(]*"                                            # optional space / open paren
+    r"(?:"
+    r"(\d{1,2})[/-](\d{1,2})(?:[/-]\d{2,4})?"            # 7/7/2026, 01/23, 7-7-26
+    r"|([A-Za-z]{3,9})\.?\s+(\d{1,2})(?:,?\s*\d{2,4})?"  # July 7, 2026 / May 21
+    r")"
+    r"\)?\s*\.?\s*$"                                     # optional close paren / period
+)
+
+
+def _strip_trailing_date(s: str, date_yyyy_mm_dd: str) -> str:
+    s = (s or "").rstrip()
+    try:
+        _y, mo, d = (int(x) for x in (date_yyyy_mm_dd or "").split("-"))
+    except (ValueError, IndexError):
+        return s
+    m = _TRAILING_DATE_RE.search(s)
+    if not m:
+        return s
+    if m.group(1) is not None:                                # numeric M/D form
+        month, day = int(m.group(1)), int(m.group(2))
+    elif m.group(3).lower().startswith(_MONTH_PREFIXES[mo]):   # month-name form
+        month, day = mo, int(m.group(4))
+    else:
+        return s
+    if month == mo and day == d:
+        return s[:m.start()].rstrip(" ,;:(")
+    return s
+
+
 # ---------------------------------------------------------------------------
 # Gradients
 # ---------------------------------------------------------------------------
@@ -531,7 +571,8 @@ def render_card(
                            summary_font, max_lines=4, max_w=INNER_W) if has_summary else [])
     sum_lh = _line_h(summary_font, 1.45)
 
-    status_val = _strip_leading_date((bill.get("action_desc") or "").strip()).rstrip(".")
+    status_val = _strip_leading_date((bill.get("action_desc") or "").strip())
+    status_val = _strip_trailing_date(status_val, bill.get("action_date", "")).rstrip(".")
     if status_val:
         status_val = status_val[0].upper() + status_val[1:]
     date_val = _format_date(bill.get("action_date", ""))
