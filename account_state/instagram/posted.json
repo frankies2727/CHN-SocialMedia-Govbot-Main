@@ -97,6 +97,16 @@
     "MA|S1122|2026-04-30|Accompanied H5316",
     "MA|S1244|2026-07-01",
     "MA|S1244|2026-07-01|Committee recommended ought to pass with",
+    "MA|S2916|2026-07-01",
+    "MA|S2916|2026-07-01|Amendment #7 adopted, as changed",
+    "MA|S2916|2026-07-01|Amendment #9 adopted, as changed",
+    "MA|S2916|2026-07-01|Committee recommended ought to pass with",
+    "MA|S2916|2026-07-01|Committee reported that the matter be pl",
+    "MA|S2916|2026-07-01|Ordered to a third reading",
+    "MA|S2916|2026-07-01|Read second, amended (as recommended by ",
+    "MA|S2916|2026-07-01|Read third",
+    "MA|S2916|2026-07-01|Rules suspended",
+    "MA|S2916|2026-07-01|Text of H5549 amended, published as H555",
     "MA|S652|2026-06-25|Bills in the Third Reading new draft sub",
     "MA|S652|2026-06-25|Read third",
     "MA|S652|2026-06-25|Taken out of the Orders of the Day",
@@ -123,6 +133,10 @@
     "MO|SB 999|2026-05-28|Reported Duly Enrolled Rules, Joint Rule",
     "MO|SB 999|2026-05-28|Signed by House Speaker",
     "MO|SB 999|2026-05-28|Signed by Senate President Pro Tem",
+    "NC|HB 315|2026-06-22",
+    "NC|HB 315|2026-06-22|Signed by Gov. 6/22/2026",
+    "NC|HB 920|2026-07-07",
+    "NC|HB 920|2026-07-07|Signed by Gov. 7/7/2026",
     "NH|SB438|2026-06-17",
     "NH|SB438|2026-06-17|Enrolled (in recess of) 06/04/2026  HJ 1",
     "NH|SB438|2026-06-17|Enrolled Adopted, VV, (In recess 06/04/2",
@@ -150,6 +164,8 @@
     "RI|HB8524|2026-06-23|06/23/2026 Signed by Governor",
     "RI|HB8593|2026-06-23",
     "RI|HB8593|2026-06-23|06/23/2026 Signed by Governor",
+    "RI|HB8611|2026-06-23",
+    "RI|HB8611|2026-06-23|06/23/2026 Signed by Governor",
     "RI|SB2197|2026-06-22|06/22/2026 Signed by Governor",
     "RI|SB2358|2026-05-28|05/28/2026 Committee recommended measure",
     "RI|SB3339|2026-06-22",
@@ -174,7 +190,8 @@
     "29152932903-1": 4,
     "29165311440-1": 4,
     "29192797422-1": 4,
-    "29254501935-1": 4
+    "29254501935-1": 4,
+    "29334094316-1": 4
   },
-  "last_run": "2026-07-13T13:59:45.381295+00:00"
+  "last_run": "2026-07-14T13:08:09.984787+00:00"
 }

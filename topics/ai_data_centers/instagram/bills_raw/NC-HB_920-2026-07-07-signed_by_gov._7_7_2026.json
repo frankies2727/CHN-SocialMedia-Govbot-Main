@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 920",
+    "legislative_session": "2025",
+    "subject": [
+      "BANKING COMN.; BANKS; COMMERCE; CONFIDENTIALITY; CONSUMER PROTECTION; DEBTOR & CREDITOR; FINANCIAL INSTITUTIONS; FINANCIAL SERVICES; ID SYSTEMS; INVESTMENTS; LOANS; PRESENTED; PRIVACY; PUBLIC; RATIFIED; TAXATION; CHAPTERED; COMMISSIONER OF BANKS; CRYPTOCURRENCY & NFTS"
+    ],
+    "title": "Virtual Currency Kiosk Consumer Protection Act."
+  },
+  "id": "HB 920",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Gov. 7/7/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-07-07",
+      "session_id": "2025",
+      "sources": [
+        {
+          "url": "https://www.ncleg.gov/BillLookUp/2025/H920"
+        }
+      ]
+    },
+    "bill_id": "HB 920"
+  },
+  "sources": {
+    "bill": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB920/metadata.json",
+    "log": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB920/logs/20260707T000000Z_signed_by_gov_772026.json"
+  },
+  "timestamp": "20260707T000000Z",
+  "posted_text": "💰 NC HB 920 — Virtual Currency Kiosk Consumer Protection Act.\n\nJuly 7, 2026: Signed by Gov. 7/7/2026.\n\n🔗 Read the full bill: https://www.ncleg.gov/BillLookUp/2025/HB920\n\n#AIDataCentersCrypto #NorthCarolina #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.ncleg.gov/BillLookUp/2025/HB920",
+  "posted_url": "https://www.instagram.com/p/Daxj9L_mhfj/"
+}
