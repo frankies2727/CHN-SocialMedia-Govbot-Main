@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB438",
+    "legislative_session": "2026",
+    "title": "relative to access to the centralized voter registration database on election days."
+  },
+  "id": "SB438",
+  "log": {
+    "action": {
+      "classifications": [
+        "enrolled"
+      ],
+      "description": "Enrolled Adopted, VV, (In recess 06/04/2026);  SJ 14",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-17",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=1439&inflect=2"
+        }
+      ]
+    },
+    "bill_id": "SB438"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB438/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB438/logs/20260617T000000Z_enrolled_adopted_vv_in_recess_06042026_sj_14.json"
+  },
+  "timestamp": "20260617T000000Z",
+  "posted_text": "📝 Elections & Voting Rights\nNH SB438 — relative to access to the centralized voter registration database on election days.\n\nJune 17, 2026: Enrolled Adopted, VV, (In recess 06/04/2026);  SJ 14.",
+  "posted_link": "https://gc.nh.gov/bill_status/results.aspx?adv=2&txtbillno=SB438&txtsessionyear=2026",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/Da0x5QOmV67"
+}
