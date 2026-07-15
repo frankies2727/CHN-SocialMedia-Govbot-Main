@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 0762",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Energy: other",
+      "Public utilities: public service commission"
+    ],
+    "title": "Energy: other; energy and water usage report requirements for data centers; provide for. Amends sec. 5a of 1939 PA 3 (MCL 460.5a)."
+  },
+  "id": "SB 0762",
+  "log": {
+    "action": {
+      "description": "SENATE CO-SPONSOR(S) NAMED: SEAN MCCANN",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-01",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0762"
+        }
+      ]
+    },
+    "bill_id": "SB 0762"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0762/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0762/logs/20260701T000000Z_senate_cosponsors_named_sean_mccann.json"
+  },
+  "timestamp": "20260701T000000Z",
+  "posted_text": "🏢 MI SB 0762 — Energy: other; energy and water usage report requirements for data centers; provide for. Amends sec. 5a of 1939 PA 3 (MCL 460.5a).\n\nJuly 1, 2026: Senate Co-sponsor(s) Named: Sean Mccann.\n\nLink to bill in reply.",
+  "posted_link": "https://www.legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0762",
+  "posted_url": "https://x.com/i/web/status/2077342979233104011"
+}

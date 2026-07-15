@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB4533",
+    "legislative_session": "104th",
+    "title": "MONEY TRANSMITTER DREAM DONATE"
+  },
+  "id": "HB4533",
+  "log": {
+    "action": {
+      "description": "Effective Date January 1, 2027",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-26",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=4533&GAID=18&DocTypeID=HB&LegId=165360&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "HB4533"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/HB4533/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/HB4533/logs/20260626T000000Z_effective_date_january_1_2027.json"
+  },
+  "timestamp": "20260626T000000Z",
+  "posted_text": "💱 IL HB4533 — MONEY TRANSMITTER DREAM DONATE\n\nJune 26, 2026: Effective Date January 1, 2027.\n\nLink to bill in reply.",
+  "posted_link": "https://legiscan.com/IL/bill/HB4533/2025",
+  "posted_url": "https://x.com/i/web/status/2077342864007135693"
+}

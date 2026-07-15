@@ -130,6 +130,9 @@
     "GA|SR 789|2026-03-31|Senate Third Read",
     "IA|SF 2421|2026-02-23|Committee report, approving bill.",
     "IL|HB2264|2025-04-11|House Floor Amendment No. 1 Rule 19(c) /",
+    "IL|HB4533|2026-06-26",
+    "IL|HB4533|2026-06-26|Effective Date January 1, 2027",
+    "IL|HB4533|2026-06-26|Governor Approved",
     "KS|HB2592|2026-04-10|Died in Committee",
     "KS|HB2696|2026-04-10|Died in Committee",
     "KS|HB2772|2026-04-10|Died in Committee",
@@ -138,6 +141,8 @@
     "KS|SB405|2026-04-10|Died in Committee",
     "KS|SB467|2026-04-10|Died in Committee",
     "KS|SB499|2026-04-10|Died in Committee",
+    "MI|SB 0762|2026-07-01",
+    "MI|SB 0762|2026-07-01|SENATE CO-SPONSOR(S) NAMED: SEAN MCCANN",
     "MN|HF 3146|2026-03-05|Author stricken Engen",
     "MN|SF 1856|2026-03-04|Author stricken Mitchell",
     "MN|SF 1857|2026-02-26|Withdrawn and re-referred to Judiciary a",
@@ -182,6 +187,8 @@
     "MS|HB1720|2026-02-03|Died In Committee",
     "MS|SB2050|2026-01-29|DR - TSDP: EL To TE",
     "MS|SB2050|2026-02-03|Title Suff Do Pass",
+    "NC|HB 920|2026-07-07",
+    "NC|HB 920|2026-07-07|Signed by Gov. 7/7/2026",
     "NH|SB439|2026-05-06|Majority Committee Report: Ought to Pass",
     "NH|SB439|2026-05-06|Minority Committee Report: Inexpedient t",
     "NH|SB439|2026-05-14|Lay SB439 on Table (Rep. Ammon): MA DV 3",
@@ -264,12 +271,14 @@
     "AL": "2026-06-05T23:32:07.647880+00:00",
     "FL": "2026-06-04T11:37:54.949048+00:00",
     "NJ": "2026-05-27T03:05:58.226214+00:00",
-    "IL": "2026-05-26T01:08:56.456572+00:00",
+    "IL": "2026-07-15T10:41:48.432459+00:00",
     "PR": "2026-06-30T04:03:19.176616+00:00",
     "DE": "2026-07-13T11:42:03.720577+00:00",
     "RI": "2026-07-12T10:12:30.812578+00:00",
     "NH": "2026-07-05T10:41:09.576300+00:00",
-    "TN": "2026-07-10T11:28:43.161647+00:00"
+    "TN": "2026-07-10T11:28:43.161647+00:00",
+    "MI": "2026-07-15T10:41:48.432459+00:00",
+    "NC": "2026-07-15T10:41:48.432459+00:00"
   },
-  "last_run": "2026-07-13T11:44:51.372810+00:00"
+  "last_run": "2026-07-15T10:43:10.894158+00:00"
 }
