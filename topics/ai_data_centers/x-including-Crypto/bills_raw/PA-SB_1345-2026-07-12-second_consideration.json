@@ -1,0 +1,47 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1345",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending the act of July 31, 1968 (P.L.805, No.247), known as the Pennsylvania Municipalities Planning Code, in zoning, providing for optional temporary moratorium on acceptance or consideration of new applications for high impact data centers."
+  },
+  "id": "SB 1345",
+  "log": {
+    "action": {
+      "classifications": [
+        "reading-2"
+      ],
+      "description": "Second consideration",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-12T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/sb1345"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=17&rollcallid=989&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=17&rollcallid=990&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=15&rollcallid=955&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=15&rollcallid=969&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "SB 1345"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB1345/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB1345/logs/20260712T040000Z_second_consideration.json"
+  },
+  "timestamp": "20260712T040000Z",
+  "posted_text": "🏢 PA SB 1345 — An Act amending the act of July 31, 1968 (P.L.805, No.247), known as the Pennsylvania Municipalities Planning Code, in zoning, providing for optional temporary moratorium on acceptance or consideration of new applications for high impact data centers.\n\nJuly 12, 2026: Second consideration.\n\nLink to bill in reply.",
+  "posted_link": "https://www.legis.state.pa.us/cfdocs/billInfo/billInfo.cfm?sYear=2025&sInd=0&body=S&type=B&bn=1345",
+  "posted_url": "https://x.com/i/web/status/2077708102821191868"
+}

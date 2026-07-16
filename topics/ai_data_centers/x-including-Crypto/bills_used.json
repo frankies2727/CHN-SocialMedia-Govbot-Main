@@ -141,6 +141,8 @@
     "KS|SB405|2026-04-10|Died in Committee",
     "KS|SB467|2026-04-10|Died in Committee",
     "KS|SB499|2026-04-10|Died in Committee",
+    "LA|SB163|2026-06-24",
+    "LA|SB163|2026-06-24|Effective date 8/1/2026.",
     "MI|SB 0762|2026-07-01",
     "MI|SB 0762|2026-07-01|SENATE CO-SPONSOR(S) NAMED: SEAN MCCANN",
     "MN|HF 3146|2026-03-05|Author stricken Engen",
@@ -199,6 +201,8 @@
     "NJ|A1401|2026-01-13|WITHDRAWN APP P.L.2025, c.367.",
     "NJ|A3611|2026-01-13|WITHDRAWN APP P.L.2025, c.335.",
     "NJ|S2956|2026-01-13|WITHDRAWN APP P.L.2025, c.367.",
+    "PA|SB 1345|2026-07-12",
+    "PA|SB 1345|2026-07-12|Second consideration",
     "PR|PS0731|2026-04-30|1er Informe Conjunto Comisiones rendido ",
     "PR|PS0731|2026-04-30|Entirillado del Informe",
     "PR|PS0731|2026-04-30|Remitido a la Comisi\u00f3n de Reglas y Calen",
@@ -278,7 +282,9 @@
     "NH": "2026-07-05T10:41:09.576300+00:00",
     "TN": "2026-07-10T11:28:43.161647+00:00",
     "MI": "2026-07-15T10:41:48.432459+00:00",
-    "NC": "2026-07-15T10:41:48.432459+00:00"
+    "NC": "2026-07-15T10:41:48.432459+00:00",
+    "LA": "2026-07-16T10:52:40.731501+00:00",
+    "PA": "2026-07-16T10:52:40.731501+00:00"
   },
-  "last_run": "2026-07-15T10:43:10.894158+00:00"
+  "last_run": "2026-07-16T10:54:45.129531+00:00"
 }
