@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HRES 1409",
+    "legislative_session": "119",
+    "title": "Recognizing the upcoming 250th anniversary of the United States of America and reaffirming the commitment of the House of Representatives to the Nation's founding ideals of liberty, equality, and opportunity for all immigrant communities in the United States."
+  },
+  "id": "HRES 1409",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Oversight and Government Reform.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-30T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hres/BILLSTATUS-119hres1409.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-resolution/1409"
+        }
+      ]
+    },
+    "bill_id": "HRES 1409"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HRES1409/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HRES1409/logs/20260630T040000Z_referred_to_the_house_committee_on_oversight_and_government_reform.json"
+  },
+  "timestamp": "20260630T040000Z",
+  "posted_text": "🛂 Immigration\n? HRES 1409 — Recognizing the upcoming 250th anniversary of the United States of America and reaffirming the commitment of the House of Representatives to the Nation's founding ideals of liberty, equality, and opportunity for all immigrant communities in the United States.\n\nJune 30, 2026: Referred to the House Committee on Oversight and Government Reform.",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/Da3XCVUILpH"
+}

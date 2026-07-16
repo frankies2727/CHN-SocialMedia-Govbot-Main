@@ -1,0 +1,49 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HCR17",
+    "legislative_session": "34",
+    "subject": [
+      "AUDITS",
+      "BUSINESS",
+      "COMPACTS",
+      "CREDIT",
+      "DISCLOSURE",
+      "ECONOMIC DEVELOPMENT",
+      "FINANCE",
+      "FINANCIAL INSTITUTIONS",
+      "INVESTMENTS",
+      "LICENSING",
+      "PROPERTY",
+      "UNIFORM RULES"
+    ],
+    "title": "Suspending Rules 24(c), 35, 41(b), and 42(e), Uniform Rules of the Alaska State Legislature, concerning Senate Bill No. 86, relating to the business of money transmission; relating to licenses for money transmission, licensure requirements, and registration through a nationwide multistate licensing system; relating to the use of virtual currency for money transmission; relating to authorized delegates of a licensee; relating to acquisition of control of a license; relating to record retention and reporting requirements; authorizing the Department of Commerce, Community, and Economic Development to cooperate with other states in the regulation of money transmission; relating to permissible investments; relating to violations and enforcement of money transmission laws; relating to exemptions to money transmission licensure requirements; relating to payroll processing services; relating to currency exchange licenses; and amending Rules 79 and 82, Alaska Rules of Civil Procedure."
+  },
+  "id": "HCR17",
+  "log": {
+    "action": {
+      "description": "(H) LEGISLATIVE RESOLVE NO. 38",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-17",
+      "session_id": "34",
+      "sources": [
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HCR17"
+        },
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HCR17#tab5_4"
+        }
+      ]
+    },
+    "bill_id": "HCR17"
+  },
+  "sources": {
+    "bill": "ak-legislation/country:us/state:ak/sessions/34/bills/HCR17/metadata.json",
+    "log": "ak-legislation/country:us/state:ak/sessions/34/bills/HCR17/logs/20260617T000000Z_h_legislative_resolve_no_38.json"
+  },
+  "timestamp": "20260617T000000Z",
+  "posted_text": "💰 AI, Data Centers & Crypto\nAK HCR17 — Alaska Adjusts Money Transmission Rules\n\nThis legislation suspends specific rules impacting money transmission licenses in Alaska, allowing the Department of Commerce to collaborate with other states on regulation. It also updates requirements around virtual currency use, delegate authority, and enforcement, alongside adjustments to civil procedure rules.\n\nJune 17, 2026: (h) Legislative Resolve No. 38.",
+  "posted_link": "https://www.akleg.gov/basis/Bill/Detail/2025?Root=HCR17",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/Da3WPQqAfdP"
+}
