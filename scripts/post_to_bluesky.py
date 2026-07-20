@@ -300,6 +300,16 @@ def extract_fields(record: dict) -> dict | None:
     action_date_raw = action.get("date") or ""
     action_date = action_date_raw[:10] if action_date_raw else ""
 
+    # The feed sometimes carries an authoritative per-bill URL in the action's
+    # sources. For most states the per-state builder reconstructs a cleaner link
+    # from (session, identifier), but a few states can't be reconstructed (see
+    # _TRUSTED_SOURCE_URL_RE), so keep the first source URL around for link_for.
+    source_url = ""
+    for s in (action.get("sources") or []):
+        if isinstance(s, dict) and s.get("url"):
+            source_url = s["url"]
+            break
+
     # Fall back to the record-level timestamp ("YYYYMMDDTHHMMSSZ") when the
     # log's action.date is missing. Without a date, format_action_line returns
     # nothing, so the post collapses to "<emoji> <state> <id> — <title>" and
@@ -331,6 +341,7 @@ def extract_fields(record: dict) -> dict | None:
         "action_desc": action_desc,
         "action_date": action_date,
         "sources_bill": sources_bill,
+        "source_url": source_url,
         "dedup_key": dedup_key,
         "same_day_key": same_day_key,
     }
@@ -1621,6 +1632,22 @@ def _b_ia(session, ident):  # verified — legis.iowa.gov BillBook
             f"?ga={ga}&ba={typ}{num}")
 
 
+def _b_la(session, ident):  # verified — legis.la.gov BillInfo keys off a session CODE
+    # Louisiana's per-bill page is /legis/BillInfo.aspx?s=<code>&b=<TYPE><NUM>,
+    # where <code> is NOT the plain year: the 2026 Regular Session is "26RS" and
+    # the 2025 First Extraordinary Session is "251ES" (2-digit year + session
+    # number + "ES"). OpenStates/govbot hand us a plain year ("2026") for regular
+    # sessions and a year+S<n> marker for special ones ("2025S1"), so map both.
+    year = _first_year(session)
+    typ, num = _split_ident(ident)
+    if not (year and typ and num):
+        return None
+    yy = year[-2:]
+    m = re.search(r"\d{4}\s*(?:ES|S)\s*(\d+)", session or "", re.IGNORECASE)
+    code = f"{yy}{m.group(1)}ES" if m else f"{yy}RS"
+    return f"https://www.legis.la.gov/legis/BillInfo.aspx?s={code}&b={typ}{num}"
+
+
 def _b_mi(session, ident):  # verified — needs 4-digit zero-padded number
     year = _first_year(session)
     typ, num = _split_ident(ident)
@@ -2327,7 +2354,7 @@ def _b_ok(session, ident):  # verified — oklegislature.gov BillInfo
 
 STATE_BILL_URL_BUILDERS = {
     "CA": _b_ca,
-    "FL": _b_fl, "IN": _b_in, "IA": _b_ia, "MI": _b_mi, "NY": _b_ny,
+    "FL": _b_fl, "IN": _b_in, "IA": _b_ia, "LA": _b_la, "MI": _b_mi, "NY": _b_ny,
     "MA": _b_ma, "OH": _b_oh, "WI": _b_wi, "NC": _b_nc, "NJ": _b_nj,
     "CT": _b_ct, "MO": _b_mo, "MN": _b_mn, "NM": _b_nm, "HI": _b_hi,
     "KS": _b_ks, "WV": _b_wv, "PA": _b_pa, "PR": _b_pr, "AK": _b_ak, "OR": _b_or,
@@ -2398,17 +2425,39 @@ STATE_LEGISLATURE_URLS = {
 }
 
 
+# For a few states the feed's raw per-bill URL is a better deep link than
+# anything we can reconstruct from (session, identifier). Michigan is the clear
+# case: its bill page keys off the calendar YEAR the bill was introduced, which
+# for a 2-year session ("2025-2026") can be either year and isn't derivable from
+# the bill number — but the feed carries the correct ObjectName URL. Only trust
+# source URLs that match the state's known public bill-page pattern, so API,
+# WSDL, bulk-data, or bare-homepage source URLs never leak into a post.
+_TRUSTED_SOURCE_URL_RE = {
+    "MI": re.compile(
+        r"^https?://(?:www\.)?legislature\.mi\.gov/Bills/Bill\?ObjectName=\S+",
+        re.IGNORECASE,
+    ),
+}
+
+
 def link_for(b: dict) -> str:
     """
-    Build the best available URL for a bill. Tries the per-state deep-link
-    builder first, then falls back to the state's legislature homepage.
-    Returns "" only if the state code is unknown.
+    Build the best available URL for a bill. Prefers a trusted per-bill URL
+    carried in the feed for states we can't reconstruct (see
+    _TRUSTED_SOURCE_URL_RE), then the per-state deep-link builder, then the
+    state's legislature homepage. Returns "" only if the state code is unknown.
     """
     state = (b.get("state") or "").upper()
     session = b.get("session", "")
     identifier = b.get("identifier", "")
     if not state:
         return ""
+
+    trusted = _TRUSTED_SOURCE_URL_RE.get(state)
+    if trusted:
+        src = (b.get("source_url") or "").strip()
+        if src and trusted.match(src):
+            return src
 
     builder = STATE_BILL_URL_BUILDERS.get(state)
     if builder:
