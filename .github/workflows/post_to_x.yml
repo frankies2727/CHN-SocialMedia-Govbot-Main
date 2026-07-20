@@ -2,8 +2,10 @@ name: govbot-x-post-ai-data-centers-including-crypto
 
 on:
   schedule:
-    # Twice a week on Wednesday and Thursday (cron days 3,4). GitHub cron is UTC.
-    - cron: "27 8 * * 3,4"
+    # Three times a week on Wednesday, Thursday, and Saturday (cron days 3,4,6).
+    # GitHub cron is UTC. Threads posts 2 hours after this (see
+    # post_to_meta_threads.yml).
+    - cron: "27 8 * * 3,4,6"
   workflow_dispatch:
 
 permissions:
