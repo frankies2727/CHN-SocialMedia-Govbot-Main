@@ -14,6 +14,9 @@
     "MA|S2916|2026-07-01|Rules suspended",
     "MA|S2916|2026-07-01|Text of H5549 amended, published as H555",
     "MO|HB 1904|2026-05-15|Referred: Emerging Issues(H)",
+    "NC|HB 958|2026-07-01",
+    "NC|HB 958|2026-07-01|Regular Message Received From House",
+    "NC|HB 958|2026-07-01|Regular Message Sent To Senate",
     "NH|SB438|2026-06-17",
     "NH|SB438|2026-06-17|Enrolled (in recess of) 06/04/2026  HJ 1",
     "NH|SB438|2026-06-17|Enrolled Adopted, VV, (In recess 06/04/2",
@@ -27,7 +30,8 @@
     "DE": "2026-07-03T13:28:36.013610+00:00",
     "NH": "2026-07-12T12:38:29.955620+00:00",
     "RI": "2026-07-13T13:49:56.833568+00:00",
-    "MA": "2026-07-14T12:59:55.968475+00:00"
+    "MA": "2026-07-14T12:59:55.968475+00:00",
+    "NC": "2026-07-20T13:55:15.880080+00:00"
   },
-  "last_run": "2026-07-14T13:01:24.091379+00:00"
+  "last_run": "2026-07-20T13:55:42.393694+00:00"
 }

@@ -1,0 +1,46 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Requires public schools to follow seizure action plans developed by health care providers of students diagnosed with a seizure disorder; requires schools to provide seizure awareness training to certain employees on the recognition of signs and symptoms of a seizure and the appropriate steps to be taken to respond to such symptoms."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S7445",
+    "legislative_session": "2025-2026",
+    "title": "Requires public schools to follow seizure action plans developed by health care providers of students diagnosed with a seizure disorder"
+  },
+  "id": "S7445",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage"
+      ],
+      "description": "PRINT NUMBER 7445A",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-10",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S7445?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/S7445"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=S07445&term=2025"
+        }
+      ]
+    },
+    "bill_id": "S7445"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S7445/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S7445/logs/20260710T000000Z_print_number_7445a.json"
+  },
+  "timestamp": "20260710T000000Z",
+  "posted_text": "🏫 NY S7445 — Schools Must Follow Student Seizure Action Plans\n\nNew York schools are now required to implement seizure action plans created by a student’s health care provider. The bill also mandates that specific school staff receive training on recognizing seizure symptoms and how to respond…\n\nJuly 10, 2026: Print Number 7445a.\n\n🔗 Read the full bill: https://www.nysenate.gov/legislation/bills/2025/S7445\n\n#Education #NewYork #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.nysenate.gov/legislation/bills/2025/S7445",
+  "posted_url": "https://www.instagram.com/p/DbBFU1qoDNf/"
+}

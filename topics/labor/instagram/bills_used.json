@@ -5,6 +5,8 @@
     "DE|HJR 13|2026-06-30|",
     "DE|HJR 13|2026-06-30|Reported Out of Committee (Executive) in",
     "GA|HB 1020|2026-07-01|Effective Date",
+    "IL|SB3175|2026-07-09",
+    "IL|SB3175|2026-07-09|Added as Co-Sponsor Sen. Dave Syverson",
     "MA|SD3273|2026-06-23|Discharged from committee and recommitte",
     "MO|SB 1421|2026-05-28|Delivered to Governor",
     "MO|SB 1421|2026-05-28|Reported Duly Enrolled Rules, Joint Rule",
@@ -22,7 +24,8 @@
     "CA": "2026-07-02T13:35:56.085305+00:00",
     "DE": "2026-07-11T19:34:10.973646+00:00",
     "RI": "2026-07-12T12:41:07.727009+00:00",
-    "NC": "2026-07-14T12:57:20.407435+00:00"
+    "NC": "2026-07-14T12:57:20.407435+00:00",
+    "IL": "2026-07-20T13:37:15.612678+00:00"
   },
-  "last_run": "2026-07-14T12:57:43.945530+00:00"
+  "last_run": "2026-07-20T13:37:37.602168+00:00"
 }

@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB3175",
+    "legislative_session": "104th",
+    "title": "INC TX-OVERTIME WAGES"
+  },
+  "id": "SB3175",
+  "log": {
+    "action": {
+      "description": "Added as Co-Sponsor Sen. Dave Syverson",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-09",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=3175&GAID=18&DocTypeID=SB&LegId=165822&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "SB3175"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/SB3175/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/SB3175/logs/20260709T000000Z_added_as_cosponsor_sen_dave_syverson.json"
+  },
+  "timestamp": "20260709T000000Z",
+  "posted_text": "💵 IL SB3175 — INC TX-OVERTIME WAGES\n\nJuly 9, 2026: Added as Co-Sponsor Sen. Dave Syverson.\n\n🔗 Read the full bill: https://legiscan.com/IL/bill/SB3175/2025\n\n#LaborWorkersRights #Illinois #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://legiscan.com/IL/bill/SB3175/2025",
+  "posted_url": "https://www.instagram.com/p/DbBEGbdG_E2/"
+}
