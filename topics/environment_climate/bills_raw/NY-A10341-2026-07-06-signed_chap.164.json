@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Authorizes and directs the commissioner of transportation to grant a perpetual conservation easement to certain entities over certain state-owned lands in the hamlets of Setauket and Port Jefferson Station, Suffolk County."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A10341",
+    "legislative_session": "2025-2026",
+    "title": "Authorizes and directs the conveyance of a conservation easement over certain state-owned lands in the hamlets of Setauket and Port Jefferson Station, Suffolk County"
+  },
+  "id": "A10341",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "SIGNED CHAP.164",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-06",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A10341?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/A10341"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=A10341&term=2025"
+        }
+      ]
+    },
+    "bill_id": "A10341"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A10341/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A10341/logs/20260706T000000Z_signed_chap164.json"
+  },
+  "timestamp": "20260706T000000Z"
+}

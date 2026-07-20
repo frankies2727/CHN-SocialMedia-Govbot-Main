@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 0415",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Human services: medical services"
+    ],
+    "title": "Human services: medical services; coverage for group prenatal care services; require. Amends 1939 PA 280 (MCL 400.1 - 400.119b) by adding sec. 109t."
+  },
+  "id": "SB 0415",
+  "log": {
+    "action": {
+      "description": "ROLL CALL: ROLL CALL # 217 YEAS 36 NAYS 0 EXCUSED 2 NOT VOTING 0",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-03",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0415"
+        }
+      ]
+    },
+    "bill_id": "SB 0415"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0415/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0415/logs/20260703T000000Z_roll_call_roll_call_217_yeas_36_nays_0_excused_2_not_voting_0.json"
+  },
+  "timestamp": "20260703T000000Z"
+}

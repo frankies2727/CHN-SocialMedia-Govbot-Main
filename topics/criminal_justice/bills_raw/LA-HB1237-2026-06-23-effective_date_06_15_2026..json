@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB1237",
+    "legislative_session": "2026",
+    "title": "RETIREMENT/STATEWIDE SYS: Provides relative to the Municipal Police Employees Retirement System and the Firefighters' Retirement System (EN SEE ACTUARIAL NOTE FC)"
+  },
+  "id": "HB1237",
+  "log": {
+    "action": {
+      "description": "Effective date: 06/15/2026.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-23",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=251634"
+        }
+      ]
+    },
+    "bill_id": "HB1237"
+  },
+  "sources": {
+    "bill": "la-legislation/country:us/state:la/sessions/2026/bills/HB1237/metadata.json",
+    "log": "la-legislation/country:us/state:la/sessions/2026/bills/HB1237/logs/20260623T000000Z_effective_date_06152026.json"
+  },
+  "timestamp": "20260623T000000Z"
+}

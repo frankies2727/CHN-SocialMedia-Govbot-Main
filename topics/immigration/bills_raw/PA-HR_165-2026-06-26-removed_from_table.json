@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 165",
+    "legislative_session": "2025-2026",
+    "title": "A Resolution directing the Joint State Government Commission to conduct a study and issue a report on the status of the pretrial detention practices and pretrial detainee populations in this Commonwealth."
+  },
+  "id": "HR 165",
+  "log": {
+    "action": {
+      "description": "Removed from table",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-26T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hr165"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=60&rollcallid=1116&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "HR 165"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HR165/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HR165/logs/20260626T040000Z_removed_from_table.json"
+  },
+  "timestamp": "20260626T040000Z"
+}

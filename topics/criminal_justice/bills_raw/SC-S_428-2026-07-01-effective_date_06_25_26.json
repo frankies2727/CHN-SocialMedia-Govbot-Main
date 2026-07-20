@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "AN ACT TO AMEND THE SOUTH CAROLINA CODE OF LAWS BY AMENDING SECTION 34-11-90, RELATING TO JURISDICTION FOR OFFENSES INVOLVING CHECKS AND PENALTIES, SO AS TO PROVIDE A METHOD TO EXPUNGE CONVICTIONS; BY AMENDING SECTION 17-22-910, RELATING TO APPLICATIONS FOR EXPUNGEMENT, SO AS TO ADD MULTIPLE MISDEMEANOR OFFENSES OF CHECK FRAUD TO THOSE OFFENSES ELIGIBLE FOR EXPUNGEMENT; AND BY ADDING SECTION 17-1-43 SO AS TO REQUIRE THE DESTRUCTION OF ARREST RECORDS OF PERSONS MADE AS A RESULT OF MISTAKEN IDENTITY UNDER CERTAIN CIRCUMSTANCES. - RATIFIED TITLE",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 428",
+    "legislative_session": "2025-2026",
+    "title": "Fraudulent Check Expungement"
+  },
+  "id": "S 428",
+  "log": {
+    "action": {
+      "description": "Effective date 06/25/26",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-07-01",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=428&session=126&summary=B"
+        }
+      ]
+    },
+    "bill_id": "S 428"
+  },
+  "sources": {
+    "bill": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/S428/metadata.json",
+    "log": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/S428/logs/20260701T000000Z_effective_date_062526.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

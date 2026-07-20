@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB3341",
+    "legislative_session": "104th",
+    "title": "BIRTH CONTROL-MINORS CONSENT"
+  },
+  "id": "SB3341",
+  "log": {
+    "action": {
+      "description": "Effective Date January 1, 2027",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-10",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=3341&GAID=18&DocTypeID=SB&LegId=166210&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "SB3341"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/SB3341/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/SB3341/logs/20260710T000000Z_effective_date_january_1_2027.json"
+  },
+  "timestamp": "20260710T000000Z"
+}

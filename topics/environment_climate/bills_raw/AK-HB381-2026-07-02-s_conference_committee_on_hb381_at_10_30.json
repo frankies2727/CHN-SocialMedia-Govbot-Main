@@ -1,0 +1,51 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB381",
+    "legislative_session": "34",
+    "subject": [
+      "CONTRACTS",
+      "CORPORATIONS",
+      "FUNDS",
+      "GRANTS",
+      "LEGISLATURE",
+      "MUNICIPALITIES",
+      "OIL & GAS",
+      "PIPELINES",
+      "PROCUREMENTS",
+      "PROPERTY",
+      "PUBLIC CORPORATIONS",
+      "PUBLIC FINANCE",
+      "PUBLIC UTILITIES",
+      "REVENUE",
+      "SALES",
+      "SCHOOLS",
+      "TAXATION"
+    ],
+    "title": "An Act relating to the taxation of certain natural gas project property and related facilities; relating to local contributions for public school funding; relating to municipal property taxes; relating to the Alaska Gasline Development Corporation and funds of the Alaska Gasline Development Corporation; relating to reporting requirements for natural gas pipeline projects; creating the Alaska affordable heating fuel fund; relating to approval of contracts by the Regulatory Commission of Alaska and inflation adjustment of the maximum price of natural gas; establishing an income tax on certain entities producing or transporting oil or gas in the state; relating to an alternative volumetric tax on natural gas throughput; relating to a municipal impact grant program and fund; relating to agreements and a payment related to a natural gas project; and providing for an effective date."
+  },
+  "id": "HB381",
+  "log": {
+    "action": {
+      "description": "(S) CONFERENCE COMMITTEE ON HB381 at 10:30 AM SENATE FINANCE 532",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-02",
+      "session_id": "34",
+      "sources": [
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB381"
+        },
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB381#tab5_4"
+        }
+      ]
+    },
+    "bill_id": "HB381"
+  },
+  "sources": {
+    "bill": "ak-legislation/country:us/state:ak/sessions/34/bills/HB381/metadata.json",
+    "log": "ak-legislation/country:us/state:ak/sessions/34/bills/HB381/logs/20260702T000000Z_s_conference_committee_on_hb381_at_1030_am_senate_finance_532.json"
+  },
+  "timestamp": "20260702T000000Z"
+}
