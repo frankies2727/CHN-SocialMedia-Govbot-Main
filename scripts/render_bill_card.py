@@ -12,9 +12,9 @@ file only concerns itself with laying it out as an image.
 The layout is intentionally simple and uncluttered (the account now spans every
 topic, so the card has to read cleanly for any of them): a flat background (no
 frame), the topic tag (emoji + topic name) pinned to the top-left, a state/bill-id
-eyebrow, a serif (Newsreader) headline with a thin accent underline, a monospace
-(IBM Plex Mono) summary, a quiet STATUS / DATE row above a hairline divider, and
-the GOVBOT wordmark anchored in the lower-right corner.
+eyebrow, a bold (Roboto) headline with a thin accent underline, a Roboto summary
+below it, a quiet STATUS / DATE row above a hairline divider, and the GOVBOT
+wordmark anchored in the lower-right corner. The whole card is set in Roboto.
 
 Color treatment is driven by `spectrum`:
   * spectrum=True  -> the LGBTQ+ pride rainbow is used for the headline underline
@@ -31,9 +31,9 @@ Run directly to emit a sample card from a real bill record for visual review:
 
     python scripts/render_bill_card.py [out.png]
 
-Fonts (IBM Plex Mono, Newsreader) are vendored under assets/fonts/ so the card
-renders identically on the GitHub Actions runner; if they're missing the code
-falls back to DejaVu so it never crashes.
+Fonts (Roboto — Regular/Medium/Bold) are vendored under assets/fonts/ so the
+card renders identically on the GitHub Actions runner; if they're missing the
+code falls back to DejaVu Sans so it never crashes.
 """
 
 from __future__ import annotations
@@ -100,10 +100,15 @@ PRIDE = [
 ]
 
 # --- Fonts ------------------------------------------------------------------
+# The whole card is set in Roboto. Three static weights cover the type scale:
+# Regular for body/summary, Medium for the eyebrow/labels/wordmark/tag, and Bold
+# for the display headline.
 _FONT_DIR = Path(__file__).resolve().parent.parent / "assets" / "fonts"
-_MONO_REGULAR = _FONT_DIR / "IBMPlexMono-Regular.ttf"
-_MONO_SEMIBOLD = _FONT_DIR / "IBMPlexMono-SemiBold.ttf"
-_SERIF_VF = _FONT_DIR / "Newsreader.ttf"
+_ROBOTO = {
+    "regular": _FONT_DIR / "Roboto-Regular.ttf",
+    "medium": _FONT_DIR / "Roboto-Medium.ttf",
+    "bold": _FONT_DIR / "Roboto-Bold.ttf",
+}
 # Color-emoji font for the topic emoji (eyebrow) and the 🔗 in the footer.
 # Vendored so the runner renders glyphs identically; falls back to the system
 # copy, and the card silently omits the emoji if neither is present.
@@ -112,43 +117,24 @@ _EMOJI_CANDIDATES = [
     Path("/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf"),
 ]
 
-# DejaVu is the universal fallback present on the runners if the vendored fonts
-# are ever unavailable, so the card degrades instead of crashing.
-_MONO_FALLBACK = [
-    "/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf",
-    "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf",
-]
-_SERIF_FALLBACK = [
-    "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf",
-    "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf",
-]
+# DejaVu Sans is the universal fallback present on the runners if the vendored
+# Roboto files are ever unavailable, so the card degrades instead of crashing.
+_ROBOTO_FALLBACK = {
+    "regular": ["/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"],
+    "medium": ["/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+               "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"],
+    "bold": ["/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"],
+}
 
 
 @lru_cache(maxsize=None)
-def _mono(size: int, semibold: bool = False) -> ImageFont.FreeTypeFont:
-    path = _MONO_SEMIBOLD if semibold else _MONO_REGULAR
+def _font(size: int, weight: str = "regular") -> ImageFont.FreeTypeFont:
+    """Roboto at the given weight ('regular', 'medium', or 'bold'), falling back
+    to DejaVu Sans if the vendored Roboto files are missing."""
+    path = _ROBOTO.get(weight, _ROBOTO["regular"])
     if path.exists():
         return ImageFont.truetype(str(path), size)
-    for fb in _MONO_FALLBACK:
-        if Path(fb).exists():
-            return ImageFont.truetype(fb, size)
-    return ImageFont.load_default()
-
-
-@lru_cache(maxsize=None)
-def _serif(size: int, weight: int = 700) -> ImageFont.FreeTypeFont:
-    """Newsreader instance at the given weight. The vendored file is a variable
-    font (Weight 200-800, Optical Size 6-72); we pin the weight and let the
-    optical size track the point size so large display text stays crisp."""
-    if _SERIF_VF.exists():
-        font = ImageFont.truetype(str(_SERIF_VF), size)
-        try:
-            # Axis order from get_variation_axes(): [Weight, Optical Size].
-            font.set_variation_by_axes([weight, max(6, min(size, 72))])
-        except Exception:
-            pass
-        return font
-    for fb in _SERIF_FALLBACK:
+    for fb in _ROBOTO_FALLBACK.get(weight, _ROBOTO_FALLBACK["regular"]):
         if Path(fb).exists():
             return ImageFont.truetype(fb, size)
     return ImageFont.load_default()
@@ -430,7 +416,7 @@ def _draw_wordmark(img, draw, x: int, y: int, colors, spectrum: bool,
     """Render the GOVBOT wordmark. When spectrum (the LGBTQ+ account), the two
     O's are rainbow dots; otherwise they're plain "O" letters in the wordmark
     ink, matching the rest of the lettering (no design)."""
-    font = _mono(40, semibold=True)
+    font = _font(40, "medium")
     tracking = _WORDMARK_TRACKING
     asc, _ = font.getmetrics()
     dot_d = round(40 * 0.8)
@@ -451,8 +437,8 @@ def _draw_meta_column(draw, x: int, y: int, w: int, label: str, value: str,
     """Draw a quiet STATUS/DATE column: a small tracked uppercase label over a
     serif value (single line, truncated to the column width). No background fill
     or accent bar — the minimalist card keeps this row understated."""
-    label_font = _mono(LABEL_SIZE, semibold=True)
-    value_font = _serif(TILE_VALUE_SIZE, weight=600)
+    label_font = _font(LABEL_SIZE, "medium")
+    value_font = _font(TILE_VALUE_SIZE, "medium")
     _draw_tracked(draw, x, y, label, label_font, theme.tile_label, tracking=3)
     vy = y + _line_h(label_font, 1.2) + 6
     line = _truncate(draw, _wrap(draw, value, value_font, w), value_font, 1, w)
@@ -461,8 +447,8 @@ def _draw_meta_column(draw, x: int, y: int, w: int, label: str, value: str,
 
 def _meta_row_height() -> int:
     """Height of the STATUS/DATE row (label line + gap + one value line)."""
-    return _line_h(_mono(LABEL_SIZE, semibold=True), 1.2) + 6 + \
-        _line_h(_serif(TILE_VALUE_SIZE, weight=600), 1.05)
+    return _line_h(_font(LABEL_SIZE, "medium"), 1.2) + 6 + \
+        _line_h(_font(TILE_VALUE_SIZE, "medium"), 1.05)
 
 
 def _draw_topic_tag(img, draw, x: int, y: int, label: str, emoji: str,
@@ -473,7 +459,7 @@ def _draw_topic_tag(img, draw, x: int, y: int, label: str, emoji: str,
     rather than the accent color, so the letters keep a strong contrast against
     the card body in both themes for accessible readability; the outline border
     stays in the topic accent."""
-    font = _mono(24, semibold=True)
+    font = _font(24, "medium")
     tracking = 3
     pad_x, pad_y = 22, 13
     outline_w = 4
@@ -548,24 +534,26 @@ def render_card(
     display = (headline or bill.get("title") or "").strip()
     summary = (summary or "").strip()
 
-    wordmark_font = _mono(40, semibold=True)
+    wordmark_font = _font(40, "medium")
     eyebrow = " · ".join(p for p in (state_name, identifier) if p).upper()
-    eyebrow_font = _mono(30, semibold=True)
+    eyebrow_font = _font(30, "medium")
     eyebrow_h = _line_h(eyebrow_font, 1.1)
 
     # Auto-fit the headline: as large as 90px for short copy, stepping down so
     # longer headlines stay within ~3 lines.
-    headline_font = _serif(90, weight=700)
+    headline_font = _font(90, "bold")
     head_lines = _wrap(draw, display, headline_font, INNER_W)
     for size in (90, 80, 72, 64, 58):
-        headline_font = _serif(size, weight=700)
+        headline_font = _font(size, "bold")
         head_lines = _wrap(draw, display, headline_font, INNER_W)
         if len(head_lines) <= 3:
             break
     head_lines = _truncate(draw, head_lines, headline_font, max_lines=4, max_w=INNER_W)
     head_lh = _line_h(headline_font, 0.98)
 
-    summary_font = _mono(25)
+    # Summary sits a step up from the old 25px for accessibility/readability —
+    # it's the sentence a reader actually parses, so it gets the larger body size.
+    summary_font = _font(30)
     has_summary = bool(summary and summary.lower() != display.lower())
     sum_lines = (_truncate(draw, _wrap(draw, summary, summary_font, INNER_W),
                            summary_font, max_lines=4, max_w=INNER_W) if has_summary else [])
@@ -681,7 +669,7 @@ def render_cover_card(
 
     img = Image.new("RGB", (CARD, CARD), theme.bg)
     draw = ImageDraw.Draw(img)
-    wordmark_font = _mono(40, semibold=True)
+    wordmark_font = _font(40, "medium")
 
     # ---- bottom band: a single wide DATES column + GOVBOT wordmark ----------
     # Mirrors the STATUS/DATE band on the bill cards so the cover reads as part
@@ -709,10 +697,10 @@ def render_cover_card(
     y += tag_h + 52
 
     # Title, auto-fit to at most 2 lines so the cover stays roomy.
-    title_font = _serif(84, weight=700)
+    title_font = _font(84, "bold")
     title_lines = _wrap(draw, title, title_font, INNER_W)
     for size in (84, 76, 68, 60):
-        title_font = _serif(size, weight=700)
+        title_font = _font(size, "bold")
         title_lines = _wrap(draw, title, title_font, INNER_W)
         if len(title_lines) <= 2:
             break
@@ -728,7 +716,7 @@ def render_cover_card(
 
     if subtitle:
         y += 34
-        sub_font = _mono(27)
+        sub_font = _font(27)
         for ln in _truncate(draw, _wrap(draw, subtitle, sub_font, INNER_W),
                             sub_font, 3, INNER_W):
             draw.text((INNER0, y), ln, font=sub_font, fill=theme.muted)
@@ -736,14 +724,14 @@ def render_cover_card(
 
     if including:
         y += 44
-        eyebrow_font = _mono(22, semibold=True)
+        eyebrow_font = _font(22, "medium")
         # Full-width eyebrow: the topic/state coverage when supplied, else a
         # plain "INCLUDING" label. Sits here (not in the narrow bottom band) so
         # a long "11 topics · 11 states" never truncates.
         eyebrow = (coverage_label.upper() if coverage_label else "INCLUDING")
         _draw_tracked(draw, INNER0, y, eyebrow, eyebrow_font, theme.tile_label, tracking=3)
         y += _line_h(eyebrow_font, 1.2) + 16
-        list_font = _mono(24)
+        list_font = _font(24)
         for ln in _truncate(draw, _wrap(draw, including, list_font, INNER_W),
                             list_font, 6, INNER_W):
             draw.text((INNER0, y), ln, font=list_font, fill=theme.ink)
