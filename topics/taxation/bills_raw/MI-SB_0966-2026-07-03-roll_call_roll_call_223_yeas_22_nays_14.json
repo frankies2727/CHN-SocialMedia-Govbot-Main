@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 0966",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Housing: other",
+      "Individual income tax: credit"
+    ],
+    "title": "Individual income tax: credit; low income housing tax credit; provide for. Amends sec. 22 of 1966 PA 346 (MCL 125.1422) & adds sec. 22e.   TIE BAR WITH: SB 0967'26,  SB 0968'26"
+  },
+  "id": "SB 0966",
+  "log": {
+    "action": {
+      "description": "ROLL CALL: ROLL CALL # 223 YEAS 22 NAYS 14 EXCUSED 2 NOT VOTING 0",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-03",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-0966"
+        }
+      ]
+    },
+    "bill_id": "SB 0966"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0966/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0966/logs/20260703T000000Z_roll_call_roll_call_223_yeas_22_nays_14_excused_2_not_voting_0.json"
+  },
+  "timestamp": "20260703T000000Z"
+}

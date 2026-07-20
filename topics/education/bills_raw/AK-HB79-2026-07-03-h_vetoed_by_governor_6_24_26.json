@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB79",
+    "legislative_session": "34",
+    "subject": [
+      "ECONOMY",
+      "EDUCATION",
+      "LAND",
+      "PARKS & RECREATION",
+      "PLACE NAMES",
+      "UNIVERSITIES",
+      "WATER"
+    ],
+    "title": "An Act renaming the Institute of Social and Economic Research at the University of Alaska as the Vic Fischer Institute of Social and Economic Research; and naming the Vic Fischer Shoup Bay State Marine Park."
+  },
+  "id": "HB79",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-veto"
+      ],
+      "description": "(H) VETOED BY GOVERNOR 6/24/26",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-03",
+      "session_id": "34",
+      "sources": [
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB79"
+        },
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB79#tab5_4"
+        }
+      ]
+    },
+    "bill_id": "HB79"
+  },
+  "sources": {
+    "bill": "ak-legislation/country:us/state:ak/sessions/34/bills/HB79/metadata.json",
+    "log": "ak-legislation/country:us/state:ak/sessions/34/bills/HB79/logs/20260703T000000Z_h_vetoed_by_governor_62426.json"
+  },
+  "timestamp": "20260703T000000Z"
+}

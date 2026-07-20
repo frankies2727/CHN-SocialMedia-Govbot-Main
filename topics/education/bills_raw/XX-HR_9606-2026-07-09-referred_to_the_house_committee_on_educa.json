@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 9606",
+    "legislative_session": "119",
+    "title": "Less Bureaucracy, Better Child Care for Student Parents Act"
+  },
+  "id": "HR 9606",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Education and Workforce.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-09T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9606.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/9606"
+        }
+      ]
+    },
+    "bill_id": "HR 9606"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9606/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9606/logs/20260709T040000Z_referred_to_the_house_committee_on_education_and_workforce.json"
+  },
+  "timestamp": "20260709T040000Z"
+}

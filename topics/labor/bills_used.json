@@ -106,6 +106,8 @@
     "GA|HB 1318|2026-03-03|House Committee Favorably Reported",
     "IA|SF 2087|2026-01-22|Committee report, approving bill.",
     "IA|SF 2089|2026-01-22|Committee report, approving bill.",
+    "IL|SB3175|2026-07-09",
+    "IL|SB3175|2026-07-09|Added as Co-Sponsor Sen. Dave Syverson",
     "KS|HB2006|2026-04-10|Died in Committee",
     "KS|HB2151|2026-04-10|Died in Committee",
     "KS|HB2597|2026-04-10|Died in Committee",
@@ -176,6 +178,9 @@
     "RI|SB3296|2026-06-18|06/18/2026 Transmitted to Governor",
     "RI|SB3296|2026-06-23|06/23/2026 Signed by Governor",
     "RI|SB3297|2026-06-23|06/23/2026 Signed by Governor",
+    "SC|S 11|2026-07-01",
+    "SC|S 11|2026-07-01|Act No. 249",
+    "SC|S 11|2026-07-01|Effective date 10/01/26",
     "TN|HB 1630|2026-01-21|Assigned to s/c Banking & Consumer Affai",
     "TN|HB 1759|2026-01-22|P2C, caption bill, held on desk - pendin",
     "TN|SB 1579|2026-01-14|Passed on Second Consideration, refer to",
@@ -212,7 +217,7 @@
     "WI|SB1|2026-05-13|Read a third time",
     "WI|SB1|2026-05-13|Rules suspended to give bill its third r"
   ],
-  "last_run": "2026-07-14T09:09:24.274417+00:00",
+  "last_run": "2026-07-20T10:22:41.909195+00:00",
   "state_last_posted": {
     "WA": "2026-06-14T16:08:05.274822+00:00",
     "AL": "2026-06-20T10:10:06.703065+00:00",
@@ -231,6 +236,8 @@
     "FL": "2026-06-17T11:50:29.944292+00:00",
     "RI": "2026-07-13T10:25:58.027897+00:00",
     "NH": "2026-06-29T12:18:56.665037+00:00",
-    "NC": "2026-07-14T09:05:13.565089+00:00"
+    "NC": "2026-07-14T09:05:13.565089+00:00",
+    "SC": "2026-07-20T10:21:34.154619+00:00",
+    "IL": "2026-07-20T10:21:34.154619+00:00"
   }
 }

@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "AN ACT TO AMEND THE SOUTH CAROLINA CODE OF LAWS BY AMENDING SECTIONS 8-11-150 AND 8-11-155, BOTH RELATING TO PAID PARENTAL LEAVE, SO AS TO AMEND THE DEFINITION OF \"ELIGIBLE STATE EMPLOYEE\" AND TO INCREASE CERTAIN PAID PARENTAL LEAVE. - RATIFIED TITLE",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 11",
+    "legislative_session": "2025-2026",
+    "title": "Paid Family Leave Eligible State Employee"
+  },
+  "id": "S 11",
+  "log": {
+    "action": {
+      "description": "Effective date 10/01/26",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-07-01",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=11&session=126&summary=B"
+        }
+      ]
+    },
+    "bill_id": "S 11"
+  },
+  "sources": {
+    "bill": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/S11/metadata.json",
+    "log": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/S11/logs/20260701T000000Z_effective_date_100126.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

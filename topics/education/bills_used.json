@@ -1,5 +1,7 @@
 {
   "posted": [
+    "AK|HB79|2026-07-03",
+    "AK|HB79|2026-07-03|(H) VETOED BY GOVERNOR 6/24/26",
     "AL|HB235|2026-04-17|Enacted",
     "AL|HB517|2026-04-17|Enacted",
     "AL|HB520|2026-04-17|Enacted",
@@ -238,9 +240,11 @@
     "WI|SB1|2026-05-12|Report passage recommended by Joint Comm",
     "WI|SB1|2026-05-13|Laid on table",
     "WI|SB1|2026-05-13|Read a third time",
-    "WI|SB1|2026-05-13|Rules suspended to give bill its third r"
+    "WI|SB1|2026-05-13|Rules suspended to give bill its third r",
+    "|HR 9606|2026-07-09",
+    "|HR 9606|2026-07-09|Referred to the House Committee on Educa"
   ],
-  "last_run": "2026-07-14T08:59:55.238164+00:00",
+  "last_run": "2026-07-20T10:15:21.781139+00:00",
   "state_last_posted": {
     "HI": "2026-05-16T02:57:07.992280+00:00",
     "NH": "2026-07-12T09:02:02.865053+00:00",
@@ -264,6 +268,8 @@
     "PR": "2026-06-09T10:25:58.228192+00:00",
     "ND": "2026-06-13T10:02:26.244028+00:00",
     "RI": "2026-07-14T08:55:42.686576+00:00",
-    "NC": "2026-07-14T08:55:42.686576+00:00"
+    "NC": "2026-07-14T08:55:42.686576+00:00",
+    "AK": "2026-07-20T10:15:16.674454+00:00",
+    "?": "2026-07-20T10:15:16.674454+00:00"
   }
 }
