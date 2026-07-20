@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB4571",
+    "legislative_session": "104th",
+    "title": "COUNTIES CD-AFFORDABLE HOUSING"
+  },
+  "id": "HB4571",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Governor Approved",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-10",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=4571&GAID=18&DocTypeID=HB&LegId=165431&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "HB4571"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/HB4571/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/HB4571/logs/20260710T000000Z_governor_approved.json"
+  },
+  "timestamp": "20260710T000000Z"
+}

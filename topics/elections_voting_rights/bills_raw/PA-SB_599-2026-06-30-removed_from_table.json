@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 599",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending the act of June 3, 1937 (P.L.1333, No.320), known as the Pennsylvania Election Code, in county boards of elections, further providing for expenses of county boards and of primaries and elections to be paid by county, expenses of special elections and boards to be provided with offices; in voting by qualified absentee electors, further providing for date of application for absentee ballot and for voting by absentee electors; and, in voting by qualified mail-in electors, further providing for voting by mail-in electors."
+  },
+  "id": "SB 599",
+  "log": {
+    "action": {
+      "description": "Removed from table",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-30T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/sb599"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=41&rollcallid=793&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "SB 599"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB599/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB599/logs/20260630T040000Z_removed_from_table.json"
+  },
+  "timestamp": "20260630T040000Z"
+}

@@ -144,6 +144,8 @@
     "KS|SB467|2026-04-10|Died in Committee",
     "KS|SB499|2026-04-10|Died in Committee",
     "KS|SB531|2026-04-10|Died in Committee",
+    "LA|SB163|2026-06-24",
+    "LA|SB163|2026-06-24|Effective date 8/1/2026.",
     "MA|H846|2026-02-11|New draft substituted, see H5094",
     "MA|H846|2026-02-11|Read second, amended (as recommended by ",
     "MI|HB 4668|2025-09-11|recommendation concurred in",
@@ -151,6 +153,8 @@
     "MI|HB 4668|2025-09-18|motion to discharge committee approved",
     "MI|HB 4668|2025-09-18|placed on second reading",
     "MI|HB 4668|2025-09-18|rule suspended",
+    "MI|SB 1050|2026-07-01",
+    "MI|SB 1050|2026-07-01|SENATE CO-SPONSOR(S) NAMED: SEAN MCCANN",
     "MN|HF 2946|2026-02-26|Author stricken Wolgamott",
     "MN|HF 3146|2026-02-23|Author stricken Hudson",
     "MN|HF 3146|2026-03-05|Author stricken Engen",
@@ -256,7 +260,7 @@
     "WA|SB 6231|2026-04-01|Governor signed.",
     "WY|SF0065|2025-03-01|H COW:H Did not consider for COW"
   ],
-  "last_run": "2026-07-14T08:59:58.607121+00:00",
+  "last_run": "2026-07-20T10:09:58.077938+00:00",
   "state_last_posted": {
     "WY": "2026-05-16T02:53:56.286279+00:00",
     "CO": "2026-05-16T02:53:56.286279+00:00",
@@ -276,6 +280,8 @@
     "TN": "2026-06-13T09:58:12.123643+00:00",
     "MA": "2026-06-14T15:50:33.642619+00:00",
     "RI": "2026-07-14T08:55:05.146215+00:00",
-    "NC": "2026-07-14T08:55:05.146215+00:00"
+    "NC": "2026-07-14T08:55:05.146215+00:00",
+    "LA": "2026-07-20T10:09:53.858186+00:00",
+    "MI": "2026-07-20T10:09:53.858186+00:00"
   }
 }

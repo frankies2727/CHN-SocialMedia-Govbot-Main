@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HRES 1405",
+    "legislative_session": "119",
+    "title": "Encouraging the celebration of the month of June as LGBTQIA+ Pride Month."
+  },
+  "id": "HRES 1405",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on the Judiciary.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-30T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hres/BILLSTATUS-119hres1405.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-resolution/1405"
+        }
+      ]
+    },
+    "bill_id": "HRES 1405"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HRES1405/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HRES1405/logs/20260630T040000Z_referred_to_the_house_committee_on_the_judiciary.json"
+  },
+  "timestamp": "20260630T040000Z"
+}

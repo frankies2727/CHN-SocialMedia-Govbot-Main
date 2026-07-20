@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 9573",
+    "legislative_session": "119",
+    "title": "Housing Opportunities and Preservation Enhancement Act of 2026"
+  },
+  "id": "HR 9573",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Ways and Means.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-02T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9573.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/9573"
+        }
+      ]
+    },
+    "bill_id": "HR 9573"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9573/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9573/logs/20260702T040000Z_referred_to_the_house_committee_on_ways_and_means.json"
+  },
+  "timestamp": "20260702T040000Z"
+}

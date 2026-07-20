@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 5109",
+    "legislative_session": "119",
+    "title": "To require the Administrator of the Transportation Security Administration of the United States to develop guidelines to improve returning citizens' access to the Transportation Worker Identification Credential program, to assist individuals in custody of Federal, State, and local prisons in pre-applying or preparing applications for Transportation Worker Identification Credential cards, and to assist individuals requesting an appeal or waiver of preliminary determination of ineligibility, and for other purposes."
+  },
+  "id": "HR 5109",
+  "log": {
+    "action": {
+      "description": "Subcommittee on Transportation and Maritime Security Discharged",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-24T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr5109.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/5109"
+        }
+      ]
+    },
+    "bill_id": "HR 5109"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR5109/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR5109/logs/20260624T040000Z_subcommittee_on_transportation_and_maritime_security_discharged.json"
+  },
+  "timestamp": "20260624T040000Z"
+}

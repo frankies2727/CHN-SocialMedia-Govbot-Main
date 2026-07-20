@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 9368",
+    "legislative_session": "119",
+    "title": "Voter ID Act"
+  },
+  "id": "HR 9368",
+  "log": {
+    "action": {
+      "description": "Ordered to be Reported (Amended) by the Yeas and Nays: 8 - 4.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-24T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9368.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/9368"
+        }
+      ]
+    },
+    "bill_id": "HR 9368"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9368/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9368/logs/20260624T040000Z_ordered_to_be_reported_amended_by_the_yeas_and_nays_8_4.json"
+  },
+  "timestamp": "20260624T040000Z"
+}
