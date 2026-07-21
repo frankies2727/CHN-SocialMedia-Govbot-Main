@@ -1,16 +1,31 @@
 name: govbot-state-extravaganza
 
-# Manual-only "State Extravaganza": an on-demand digest thread that spotlights
-# recent bill activity from a HAND-PICKED set of states, posted to one platform.
-# Where the weekly digest is topic-first across the whole country, this is
-# state-first — pick the states, pick the lookback (never more than 62 days),
-# and ship a thread of those statehouses' most significant bills, exactly like
-# the weekly digest (a formal "🏛️ State Extravaganza!! 🧵" root + one threaded
-# reply per bill). See scripts/state_extravaganza.py.
+# Manual-only "Extravaganza": an on-demand digest thread that spotlights recent
+# bill activity, posted to one platform. It runs in one of two framings, chosen
+# by the `mode` knob:
+#   * state  — STATE-first: a "🏛️ State Extravaganza!! 🧵" thread whose header
+#              leads with the hand-picked state(s), spotlighting those
+#              statehouses' most significant bills for a topic.
+#   * topic  — TOPIC-first: a "🎯 Topic Extravaganza!! 🧵" thread whose header
+#              leads with the topic, spotlighting that issue's most significant
+#              bills wherever they're moving (all states by default).
+# Both modes share the SAME selection pipeline (topic + state + lookback
+# filters) and post one thread per selected topic — only the header/cover copy
+# differs. Pick the lookback (never more than 62 days) and ship the thread,
+# exactly like the weekly digest (a formal root + one threaded reply per bill).
+# See scripts/state_extravaganza.py.
 
 on:
   workflow_dispatch:
     inputs:
+      mode:
+        description: "Extravaganza framing: 'state' leads with the state(s); 'topic' leads with the topic (nationwide by default). Same bills either way — only the header/cover copy changes."
+        required: true
+        type: choice
+        default: state
+        options:
+          - state
+          - topic
       platform:
         description: "Which platform to post the thread to"
         required: true
@@ -251,6 +266,7 @@ jobs:
           INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
           LLM_API_URL: "http://localhost:11434/api/chat"
           PLATFORM: ${{ inputs.platform }}
+          EXTRAVAGANZA_MODE: ${{ inputs.mode }}
           EXTRAVAGANZA_STATES: ${{ inputs.states }}
           NUM_POSTS: ${{ inputs.num_posts }}
           EXTRAVAGANZA_LOOKBACK_DAYS: ${{ inputs.lookback_days }}
@@ -267,7 +283,7 @@ jobs:
               echo "::warning::unknown topic '$topic' (no topics/$topic/config.yml); skipping."
               continue
             fi
-            echo "=== State Extravaganza: topic $topic (platform ${PLATFORM}) ==="
+            echo "=== ${EXTRAVAGANZA_MODE:-state} Extravaganza: topic $topic (platform ${PLATFORM}) ==="
             BOT_TOPIC="$topic" python scripts/state_extravaganza.py \
               || { echo "  $topic failed, continuing with next topic"; rc=1; }
           done
