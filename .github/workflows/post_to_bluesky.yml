@@ -2,8 +2,11 @@ name: govbot-bluesky-post
 
 on:
   schedule:
-    # Twice a week on Monday and Tuesday (cron days 1,2). GitHub cron is UTC.
-    - cron: "27 6 * * 1,2"
+    # 3x a week on Mon/Wed/Fri (cron days 1,3,5) at 13:12 UTC ≈ 9:12 AM ET,
+    # catching Bluesky's news/policy audience in the morning news cycle. GitHub
+    # cron is fixed UTC and ignores DST, so during EST this lands an hour earlier
+    # local. Odd minute (:12) dodges the top-of-hour scheduler congestion.
+    - cron: "12 13 * * 1,3,5"
   workflow_dispatch: {}
 
 permissions:

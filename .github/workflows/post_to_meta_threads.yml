@@ -2,11 +2,11 @@ name: govbot-meta-threads-post
 
 on:
   schedule:
-    # Three times a week on Wednesday, Thursday, and Saturday (cron days 3,4,6).
-    # GitHub cron is fixed UTC and does not observe daylight saving. Timed to run
-    # 2 hours after the X post (post_to_x.yml runs at 08:27 UTC on the same days)
-    # so the Threads posts trail X's.
-    - cron: "27 10 * * 3,4,6"
+    # 3x a week on Tue/Thu/Sat (cron days 2,4,6) at 23:12 UTC ≈ 7:12 PM ET,
+    # catching Threads' Meta audience in the evening wind-down scroll. GitHub cron
+    # is fixed UTC and ignores DST, so during EST this lands an hour earlier
+    # local. Odd minute (:12) dodges the top-of-hour scheduler congestion.
+    - cron: "12 23 * * 2,4,6"
   workflow_dispatch:
 
 permissions:
