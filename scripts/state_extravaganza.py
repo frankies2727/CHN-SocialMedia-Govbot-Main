@@ -1,19 +1,32 @@
 #!/usr/bin/env python3
 """
-State Extravaganza: a manual, on-demand digest thread that spotlights recent
-bill activity from a HAND-PICKED set of states (rather than the whole country),
-posted to a single platform.
+Extravaganza: a manual, on-demand digest thread that spotlights recent bill
+activity, posted to a single platform. It runs in one of two framings, chosen by
+the MODE knob — but both share the SAME selection pipeline (topic + state +
+lookback filters) and post one thread per selected topic; only the header/cover
+copy changes:
 
-Where the weekly digest is topic-first ("everything moving on <topic> across all
-states this week"), the State Extravaganza is state-first: pick one or more
-states, pick how far back to look (never more than 62 days), and ship a thread
-of the most significant bills those statehouses produced. The first post is a
-formal "🏛️ State Extravaganza!! 🧵" header; each reply is one bill card, chained
-into a single thread exactly like the weekly digest.
+  * state (default) — STATE-first, like a road trip through hand-picked
+                      statehouses. Pick one or more states and ship a thread of
+                      the most significant bills those statehouses produced for a
+                      topic. The root is a formal "🏛️ State Extravaganza!! 🧵"
+                      header that leads with the state scope.
+  * topic           — TOPIC-first, celebrating an issue's momentum wherever it's
+                      moving (all states by default). The root is a
+                      "🎯 Topic Extravaganza!! 🧵" header that leads with the
+                      topic. This is the on-demand cousin of the weekly digest
+                      ("everything moving on <topic>"), but with the extravaganza
+                      framing and the same knobs as state mode.
+
+In both modes each reply is one bill card, chained into a single thread exactly
+like the weekly digest.
 
 Configurable knobs (all via env vars; the manual workflow wires them to the
 "Run workflow" form):
 
+  * EXTRAVAGANZA_MODE        — state | topic (which framing; see above). Only the
+                               header/cover copy differs — every other knob
+                               behaves identically in both modes.
   * PLATFORM                 — bluesky | x | threads | instagram (which feed)
                                Instagram has no text thread, so its "thread" is a
                                single carousel post: a cover slide + one rendered
@@ -61,6 +74,19 @@ from weekly_digest_bluesky import (
 # The whole point of this digest is a recent-activity spotlight, so the lookback
 # window is never allowed past 62 days no matter what the workflow form passes.
 MAX_LOOKBACK_DAYS = 62
+
+# state | topic. "state" leads the thread/cover with the state scope
+# (state-first); "topic" leads with the topic (topic-first, nationwide by
+# default). Only the framing differs — the selection pipeline is identical.
+MODE = os.environ.get("EXTRAVAGANZA_MODE", "state").strip().lower()
+if MODE not in ("state", "topic"):
+    print(f"  ! unknown EXTRAVAGANZA_MODE {MODE!r}; defaulting to 'state'.",
+          file=sys.stderr)
+    MODE = "state"
+# Human label + root title for the active mode, reused across every handler.
+LABEL = "Topic Extravaganza" if MODE == "topic" else "State Extravaganza"
+ROOT_TITLE = ("🎯 Topic Extravaganza!! 🧵" if MODE == "topic"
+              else "🏛️ State Extravaganza!! 🧵")
 
 PLATFORM = os.environ.get("PLATFORM", "bluesky").strip().lower()
 NUM_POSTS = max(1, int(os.environ.get("NUM_POSTS", "6")))
@@ -178,19 +204,24 @@ def compose_root(scope: str, topic_label: str, today: datetime,
                  has_links: bool = False) -> str:
     """Build the formal extravaganza header post, trimming progressively to fit
     the platform's character budget (len_fn measures it — len for Bluesky/
-    Threads, x_weighted_len for X)."""
+    Threads, x_weighted_len for X).
+
+    MODE decides which axis stars on the prominent second line: 'state' leads
+    with the state scope (the thread is about those statehouses); 'topic' leads
+    with the topic (the thread is about that issue's activity). The framing
+    sentence names both either way."""
     range_str = f"past {window_days} days"
-    title = "🏛️ State Extravaganza!! 🧵"
+    headline = topic_label if MODE == "topic" else scope
     framing = (f"Spotlighting {topic_label} bill activity from {scope} "
                f"over the {range_str}.")
     links_line = "\n🔗 All bill links are in the last post." if has_links else ""
-    text = f"{title}\n{scope}\n\n{framing}{links_line}"
+    text = f"{ROOT_TITLE}\n{headline}\n\n{framing}{links_line}"
     if len_fn(text) > max_len:
-        text = f"{title}\n\n{framing}{links_line}"
+        text = f"{ROOT_TITLE}\n\n{framing}{links_line}"
     if len_fn(text) > max_len:
-        text = f"{title}\n{scope}{links_line}"
+        text = f"{ROOT_TITLE}\n{headline}{links_line}"
     if len_fn(text) > max_len:
-        text = f"{title}{links_line}"
+        text = f"{ROOT_TITLE}{links_line}"
     return text
 
 
@@ -225,7 +256,7 @@ def run_bluesky(candidates: list[dict], scope: str, today: datetime,
     root_text = compose_root(scope, TOPIC.display_name, today, window,
                              MAX_POST, len)
     post_thread(client, root_text, replies)
-    print(f"\nDone. Posted Bluesky State Extravaganza: 1 root + "
+    print(f"\nDone. Posted Bluesky {LABEL}: 1 root + "
           f"{len(replies)} bill post(s).")
     return 0
 
@@ -274,7 +305,7 @@ def run_x(candidates: list[dict], scope: str, today: datetime,
                              MAX_TWEET, x_weighted_len,
                              has_links=bool(link_posts))
     post_thread(client, root_text, replies + link_posts)
-    print(f"\nDone. Posted X State Extravaganza: 1 root + {len(replies)} "
+    print(f"\nDone. Posted X {LABEL}: 1 root + {len(replies)} "
           f"bill post(s) + {len(link_posts)} links post(s).")
     return 0
 
@@ -313,7 +344,7 @@ def run_threads(candidates: list[dict], scope: str, today: datetime,
     root_text = compose_root(scope, TOPIC.display_name, today, window,
                              MAX_THREADS, len)
     post_digest_thread(root_text, replies)
-    print(f"\nDone. Posted Threads State Extravaganza: 1 root + "
+    print(f"\nDone. Posted Threads {LABEL}: 1 root + "
           f"{len(replies)} bill post(s).")
     return 0
 
@@ -328,7 +359,7 @@ IG_MAX_SLIDES = 10
 
 def _render_cover_slide(rbc, scope: str, today: datetime, window: int,
                         mode: str, out_path):
-    """Render the formal "State Extravaganza" cover card (slide 1 of the
+    """Render the formal extravaganza cover card (slide 1 of the
     carousel), reusing the bill-card renderer's canvas geometry, fonts, accent
     treatment, topic tag, and GOVBOT wordmark so it sits flush with the bill
     slides that follow."""
@@ -355,7 +386,7 @@ def _render_cover_slide(rbc, scope: str, today: datetime, window: int,
                        colors, TOPIC.card_spectrum, theme)
     foot_font = rbc._mono(22, semibold=True)
     foot_y = band_top + (wm_h - rbc._line_h(foot_font, 1.0)) // 2
-    rbc._draw_tracked(draw, INNER0, foot_y, "STATE EXTRAVAGANZA",
+    rbc._draw_tracked(draw, INNER0, foot_y, LABEL.upper(),
                       foot_font, theme.muted, tracking=2)
 
     # Top: topic tag chip.
@@ -366,7 +397,7 @@ def _render_cover_slide(rbc, scope: str, today: datetime, window: int,
     y += tag_h + 60
 
     # Title (big serif, auto-fit) with an accent underline beneath the last line.
-    title = "State Extravaganza"
+    title = LABEL
     title_lines = []
     title_font = rbc._serif(120, weight=700)
     for size in (120, 104, 92, 80, 70):
@@ -415,7 +446,7 @@ def _compose_ig_caption(scope: str, window: int, prepared: list[dict],
     fit the caption budget."""
     from post_to_bluesky import display_identifier, link_for
 
-    header = "🏛️ State Extravaganza!! 🧵"
+    header = ROOT_TITLE
     framing = (f"Spotlighting {TOPIC.display_name} bill activity from {scope} "
                f"over the past {window} days. Swipe through the highlights 👉")
     lines = [header, scope, "", framing, ""]
@@ -499,7 +530,7 @@ def run_instagram(candidates: list[dict], scope: str, today: datetime,
         print(f"  prepared slide: {b['state']} {b['identifier']} "
               f"({b['action_date']}, score={b.get('_score', 0)})")
 
-    cover_name = f"state-extravaganza-{_slug(scope, max_len=40) or 'all'}-{today.date()}.png"
+    cover_name = f"{MODE}-extravaganza-{_slug(scope, max_len=40) or 'all'}-{today.date()}.png"
     cover_path = _render_cover_slide(
         rbc, scope, today, window, CARD_MODE,
         TOPIC.instagram_cards_dir() / cover_name)
@@ -605,7 +636,7 @@ def run_instagram(candidates: list[dict], scope: str, today: datetime,
             print(f"  ! raw-record save failed for {p['bill'].get('state')} "
                   f"{p['bill'].get('identifier')}: {e}", file=sys.stderr)
 
-    print(f"\nDone. Posted Instagram State Extravaganza carousel: cover + "
+    print(f"\nDone. Posted Instagram {LABEL} carousel: cover + "
           f"{len(prepared)} bill slide(s).")
     return 0
 
@@ -639,7 +670,7 @@ def main() -> int:
     states = parse_states()
     window = _resolve_lookback()
     scope = states_label(states)
-    print(f"=== State Extravaganza: platform={PLATFORM}, topic={TOPIC.name}, "
+    print(f"=== {LABEL}: platform={PLATFORM}, topic={TOPIC.name}, "
           f"states={scope}, window={window}d, posts={NUM_POSTS} ===")
 
     records = load_bills(JSONL_PATH)
