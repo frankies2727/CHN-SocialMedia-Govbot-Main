@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 5697",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Education: teachers and administrators",
+      "State agencies (existing): education"
+    ],
+    "title": "Education: teachers and administrators; completion of certain training for K-5 teachers; require. Amends 1976 PA 451 (MCL 380.1 - 380.1852) by adding sec. 1531k."
+  },
+  "id": "HB 5697",
+  "log": {
+    "action": {
+      "description": "returned from Senate with substitute (S-2) with immediate effect and full title",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-03",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-5697"
+        }
+      ]
+    },
+    "bill_id": "HB 5697"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB5697/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB5697/logs/20260703T000000Z_returned_from_senate_with_substitute_s2_with_immediate_effect_and_full_title.json"
+  },
+  "timestamp": "20260703T000000Z"
+}

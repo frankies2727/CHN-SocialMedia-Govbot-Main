@@ -137,6 +137,14 @@
     "MA|S3044|2026-06-23|Discharged from committee and recommitte",
     "MA|SD3273|2026-06-23|Discharged from committee and recommitte",
     "MA|SD4001|2026-06-18|Placed on file",
+    "MI|HB 5232|2026-07-03",
+    "MI|HB 5232|2026-07-03|",
+    "MI|HB 5232|2026-07-03|PLACED ON IMMEDIATE PASSAGE",
+    "MI|HB 5232|2026-07-03|PLACED ON ORDER OF THIRD READING",
+    "MI|HB 5232|2026-07-03|REPORTED BY COMMITTEE OF THE WHOLE FAVOR",
+    "MI|HB 5232|2026-07-03|RULES SUSPENDED",
+    "MI|HB 5232|2026-07-03|bill ordered enrolled",
+    "MI|HB 5232|2026-07-03|returned from Senate without amendment w",
     "MN|HF 3707|2026-03-05|Committee report, to adopt and re-refer ",
     "MO|HB 2184|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HB 3260|2026-05-15|Referred: Emerging Issues(H)",
@@ -215,9 +223,11 @@
     "WI|SB1|2026-05-12|Report passage recommended by Joint Comm",
     "WI|SB1|2026-05-13|Laid on table",
     "WI|SB1|2026-05-13|Read a third time",
-    "WI|SB1|2026-05-13|Rules suspended to give bill its third r"
+    "WI|SB1|2026-05-13|Rules suspended to give bill its third r",
+    "|HR 9571|2026-07-02",
+    "|HR 9571|2026-07-02|Referred to the Committee on Education a"
   ],
-  "last_run": "2026-07-20T10:22:41.909195+00:00",
+  "last_run": "2026-07-21T09:46:30.543438+00:00",
   "state_last_posted": {
     "WA": "2026-06-14T16:08:05.274822+00:00",
     "AL": "2026-06-20T10:10:06.703065+00:00",
@@ -238,6 +248,8 @@
     "NH": "2026-06-29T12:18:56.665037+00:00",
     "NC": "2026-07-14T09:05:13.565089+00:00",
     "SC": "2026-07-20T10:21:34.154619+00:00",
-    "IL": "2026-07-20T10:21:34.154619+00:00"
+    "IL": "2026-07-20T10:21:34.154619+00:00",
+    "MI": "2026-07-21T09:46:26.317443+00:00",
+    "?": "2026-07-21T09:46:26.317443+00:00"
   }
 }

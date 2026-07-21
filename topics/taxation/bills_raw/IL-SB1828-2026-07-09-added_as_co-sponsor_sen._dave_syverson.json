@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1828",
+    "legislative_session": "104th",
+    "title": "ESTATE TAX-REPEAL"
+  },
+  "id": "SB1828",
+  "log": {
+    "action": {
+      "description": "Added as Co-Sponsor Sen. Dave Syverson",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-09",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=1828&GAID=18&DocTypeID=SB&LegId=160979&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "SB1828"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/SB1828/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/SB1828/logs/20260709T000000Z_added_as_cosponsor_sen_dave_syverson.json"
+  },
+  "timestamp": "20260709T000000Z"
+}

@@ -191,6 +191,8 @@
     "IA|SF 2503|2026-05-01|Fiscal note.",
     "IA|SF 2506|2026-05-01|Committee report, approving bill.",
     "IA|SF 2507|2026-05-03|Committee report, approving bill.",
+    "IL|SB1828|2026-07-09",
+    "IL|SB1828|2026-07-09|Added as Co-Sponsor Sen. Dave Syverson",
     "KS|HB2014|2026-04-10|Died in Committee",
     "KS|HB2044|2026-04-10|Conference committee report now availabl",
     "KS|HB2044|2026-04-10|Enrolled and presented to Governor on Fr",
@@ -325,6 +327,14 @@
     "OR|HB3991|2025-10-09|President signed.",
     "OR|HB3991|2025-11-08|Governor signed.",
     "OR|HB3991|2025-11-13|Chapter 1, (2025 Laws): Effective date D",
+    "PA|HB 96|2026-07-12",
+    "PA|HB 96|2026-07-12|",
+    "PA|HB 96|2026-07-12|Act No. 27 of 2026",
+    "PA|HB 96|2026-07-12|Approved by the Governor",
+    "PA|HB 96|2026-07-12|House concurred in Senate amendments",
+    "PA|HB 96|2026-07-12|Re-reported on concurrence, as committed",
+    "PA|HB 96|2026-07-12|Signed in House",
+    "PA|HB 96|2026-07-12|Signed in Senate",
     "PR|PS0244|2026-02-20|1er Informe Comisi\u00f3n rendido sin enmiend",
     "PR|PS0244|2026-02-26|Aprobado por C\u00e1mara en Votaci\u00f3n Final",
     "PR|PS0244|2026-02-26|Aprobado sin enmiendas",
@@ -403,7 +413,7 @@
     "WY|HB0252|2025-01-20|H Received for Introduction",
     "WY|HB0252|2025-02-03|H Did not Consider for Introduction"
   ],
-  "last_run": "2026-07-20T10:26:42.606547+00:00",
+  "last_run": "2026-07-21T09:50:33.811794+00:00",
   "state_last_posted": {
     "MI": "2026-07-20T10:25:36.717979+00:00",
     "RI": "2026-07-12T09:15:54.555947+00:00",
@@ -427,6 +437,8 @@
     "ME": "2026-06-13T10:22:38.281149+00:00",
     "NH": "2026-06-29T12:20:34.522132+00:00",
     "NC": "2026-07-14T09:11:40.113423+00:00",
-    "AK": "2026-07-20T10:25:36.717979+00:00"
+    "AK": "2026-07-20T10:25:36.717979+00:00",
+    "PA": "2026-07-21T09:49:19.006632+00:00",
+    "IL": "2026-07-21T09:49:19.006632+00:00"
   }
 }

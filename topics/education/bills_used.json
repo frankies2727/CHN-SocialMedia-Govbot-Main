@@ -85,6 +85,8 @@
     "IA|SF 2501|2026-04-16|Committee report, approving bill.",
     "IA|SF 2506|2026-05-01|Committee report, approving bill.",
     "IA|SF 2507|2026-05-03|Committee report, approving bill.",
+    "IL|SB3785|2026-07-13",
+    "IL|SB3785|2026-07-13|Added as Co-Sponsor Sen. Erica Harriss",
     "KS|HB2763|2026-04-10|Conference Committee Report agree to dis",
     "KS|HB2763|2026-04-10|Motion to suspend Joint Rule 4 (k) to al",
     "KS|SB263|2026-04-10|Died on House Calendar",
@@ -128,6 +130,22 @@
     "MA|S2934|2026-07-02|Committee recommended ought to be adopte",
     "MA|S2934|2026-07-02|Rules suspended",
     "MA|SD2876|2026-04-01|Rules suspended",
+    "MI|HB 5697|2026-07-03",
+    "MI|HB 5697|2026-07-03|",
+    "MI|HB 5697|2026-07-03|AMENDMENT(S) WITHDRAWN",
+    "MI|HB 5697|2026-07-03|INSERTED FULL TITLE",
+    "MI|HB 5697|2026-07-03|PLACED ON IMMEDIATE PASSAGE",
+    "MI|HB 5697|2026-07-03|PLACED ON ORDER OF THIRD READING WITH SU",
+    "MI|HB 5697|2026-07-03|REPORTED BY COMMITTEE OF THE WHOLE FAVOR",
+    "MI|HB 5697|2026-07-03|RULES SUSPENDED",
+    "MI|HB 5697|2026-07-03|SUBSTITUTE (S-2) CONCURRED IN",
+    "MI|HB 5697|2026-07-03|Senate substitute (S-2) concurred in",
+    "MI|HB 5697|2026-07-03|bill ordered enrolled",
+    "MI|HB 5697|2026-07-03|full title agreed to",
+    "MI|HB 5697|2026-07-03|laid over one day under the rules",
+    "MI|HB 5697|2026-07-03|returned from Senate with substitute (S-",
+    "MI|HB 5697|2026-07-03|roll call Roll Call #334 Yeas 103 Nays 3",
+    "MI|HB 5697|2026-07-03|rule suspended",
     "MN|HF 1915|2026-03-09|Author stricken Curran",
     "MN|HF 3363|2026-03-09|Committee report, to adopt as amended an",
     "MN|HF 4232|2026-03-26|Motion to return bill to author, motion ",
@@ -244,7 +262,7 @@
     "|HR 9606|2026-07-09",
     "|HR 9606|2026-07-09|Referred to the House Committee on Educa"
   ],
-  "last_run": "2026-07-20T10:15:21.781139+00:00",
+  "last_run": "2026-07-21T09:40:10.602405+00:00",
   "state_last_posted": {
     "HI": "2026-05-16T02:57:07.992280+00:00",
     "NH": "2026-07-12T09:02:02.865053+00:00",
@@ -270,6 +288,8 @@
     "RI": "2026-07-14T08:55:42.686576+00:00",
     "NC": "2026-07-14T08:55:42.686576+00:00",
     "AK": "2026-07-20T10:15:16.674454+00:00",
-    "?": "2026-07-20T10:15:16.674454+00:00"
+    "?": "2026-07-20T10:15:16.674454+00:00",
+    "MI": "2026-07-21T09:40:05.651305+00:00",
+    "IL": "2026-07-21T09:40:05.651305+00:00"
   }
 }
