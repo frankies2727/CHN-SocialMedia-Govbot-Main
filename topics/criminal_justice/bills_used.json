@@ -214,6 +214,8 @@
     "MS|SB2131|2026-02-03|Died In Committee",
     "MS|SB2327|2026-02-03|Died In Committee",
     "MS|SB2794|2026-02-03|Title Suff Do Pass Comm Sub",
+    "NC|SB 257|2026-07-07",
+    "NC|SB 257|2026-07-07|Signed by Gov. 7/7/2026",
     "NH|SB470|2026-06-10|Enrolled (in recess of) 06/04/2026  HJ 1",
     "NH|SB470|2026-06-10|Enrolled Adopted, VV, (In recess 06/04/2",
     "NH|SB470|2026-06-24|Signed by the Governor on 06/19/2026; Ch",
@@ -225,6 +227,8 @@
     "NJ|S1806|2026-01-13|WITHDRAWN APP P.L.2025, c.256.",
     "NJ|S2878|2026-01-13|WITHDRAWN APP P.L.2025, c.328.",
     "NJ|S678|2026-01-13|WITHDRAWN APP P.L.2025, c.259.",
+    "NY|A7215|2026-07-01",
+    "NY|A7215|2026-07-01|PRINT NUMBER 7215B",
     "RI|HB7040|2026-06-22|06/22/2026 Signed by Governor",
     "RI|HB7079|2026-06-22",
     "RI|HB7079|2026-06-22|06/22/2026 Signed by Governor",
@@ -263,7 +267,7 @@
     "WA|SB 6080|2026-03-12|By resolution, returned to Senate Rules ",
     "WY|HB0327|2025-03-04|H:Died in Committee Returned Bill Pursua"
   ],
-  "last_run": "2026-07-20T10:14:55.401321+00:00",
+  "last_run": "2026-07-21T09:44:53.536725+00:00",
   "state_last_posted": {
     "DE": "2026-07-13T10:17:19.168491+00:00",
     "AK": "2026-05-16T02:55:29.130660+00:00",
@@ -284,6 +288,8 @@
     "RI": "2026-07-12T08:55:23.892876+00:00",
     "NH": "2026-07-04T09:22:22.815974+00:00",
     "SC": "2026-07-20T10:13:43.448731+00:00",
-    "LA": "2026-07-20T10:13:43.448731+00:00"
+    "LA": "2026-07-20T10:13:43.448731+00:00",
+    "NC": "2026-07-21T09:43:25.773696+00:00",
+    "NY": "2026-07-21T09:43:25.773696+00:00"
   }
 }

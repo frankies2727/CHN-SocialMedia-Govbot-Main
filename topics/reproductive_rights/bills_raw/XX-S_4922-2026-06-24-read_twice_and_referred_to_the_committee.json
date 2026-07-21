@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 4922",
+    "legislative_session": "119",
+    "title": "Reproductive Health Travel Fund Act of 2026"
+  },
+  "id": "S 4922",
+  "log": {
+    "action": {
+      "description": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-24T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s4922.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-bill/4922"
+        }
+      ]
+    },
+    "bill_id": "S 4922"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/S4922/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/S4922/logs/20260624T040000Z_read_twice_and_referred_to_the_committee_on_health_education_labor_and_pensions.json"
+  },
+  "timestamp": "20260624T040000Z"
+}

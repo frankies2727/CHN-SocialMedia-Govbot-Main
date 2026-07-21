@@ -20,6 +20,8 @@
     "CA|AB2164|2026-07-01",
     "CA|AB2164|2026-07-01|From committee: Do pass and re-refer to ",
     "CA|AB2448|2026-07-02|From committee: Do pass and re-refer to ",
+    "CA|AB2540|2026-07-02",
+    "CA|AB2540|2026-07-02|From committee: Amend, and do pass as am",
     "CA|AB2540|2026-07-02|Read second time and amended. Re-referre",
     "CA|SB1024|2026-06-25|From committee: Do pass and re-refer to ",
     "CA|SB1271|2026-07-01",
@@ -141,13 +143,15 @@
     "RI|SB2358|2026-05-28|05/28/2026 Committee recommended measure",
     "WA|SB 5917|2026-02-10|1st substitute bill substituted (HS 26).",
     "WA|SB 6182|2026-02-09|Minority; do not pass.",
-    "WA|SB 6182|2026-03-13|Delivered to Governor."
+    "WA|SB 6182|2026-03-13|Delivered to Governor.",
+    "|S 4922|2026-06-24",
+    "|S 4922|2026-06-24|Read twice and referred to the Committee"
   ],
-  "last_run": "2026-07-20T10:26:39.636251+00:00",
+  "last_run": "2026-07-21T09:57:56.792542+00:00",
   "state_last_posted": {
     "KS": "2026-06-18T11:29:15.082773+00:00",
     "FL": "2026-06-18T11:29:15.082773+00:00",
-    "CA": "2026-07-13T10:34:28.866743+00:00",
+    "CA": "2026-07-21T09:56:35.733195+00:00",
     "DE": "2026-06-20T10:14:34.093362+00:00",
     "MA": "2026-07-03T10:33:24.054016+00:00",
     "MO": "2026-06-27T09:41:24.595902+00:00",
@@ -159,6 +163,7 @@
     "RI": "2026-06-27T09:41:24.595902+00:00",
     "NJ": "2026-07-05T10:05:50.506175+00:00",
     "MI": "2026-07-20T10:26:35.112841+00:00",
-    "IL": "2026-07-20T10:26:35.112841+00:00"
+    "IL": "2026-07-20T10:26:35.112841+00:00",
+    "?": "2026-07-21T09:56:35.733195+00:00"
   }
 }

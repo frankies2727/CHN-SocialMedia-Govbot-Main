@@ -93,6 +93,8 @@
     "MS|HB1623|2026-02-03|Died In Committee",
     "MS|SB2663|2026-02-03|Died In Committee",
     "MS|SB2883|2026-02-03|Died In Committee",
+    "NC|SB 257|2026-07-07",
+    "NC|SB 257|2026-07-07|Signed by Gov. 7/7/2026",
     "NH|SB538|2026-06-29|Enrolled Adopted, VV, (In recess 06/04/2",
     "NH|SB541|2026-06-24|Signed by the Governor on 06/19/2026; Ch",
     "NH|SB592|2026-06-23",
@@ -104,6 +106,15 @@
     "NY|A10341|2026-07-06",
     "NY|A10341|2026-07-06|APPROVAL MEMO.1",
     "NY|A10341|2026-07-06|SIGNED CHAP.164",
+    "PA|SB 146|2026-07-12",
+    "PA|SB 146|2026-07-12|",
+    "PA|SB 146|2026-07-12|Act No. 21 of 2026",
+    "PA|SB 146|2026-07-12|Approved by the Governor",
+    "PA|SB 146|2026-07-12|Re-reported as amended",
+    "PA|SB 146|2026-07-12|Re-reported on concurrence, as committed",
+    "PA|SB 146|2026-07-12|Senate concurred in House amendments",
+    "PA|SB 146|2026-07-12|Signed in House",
+    "PA|SB 146|2026-07-12|Signed in Senate",
     "PR|RKC0032|2026-01-12|Aparece en Primera Lectura de la C\u00e1mara",
     "PR|RKC0032|2026-01-12|Retirada por su Autor",
     "PR|RS0458|2026-03-12|Aparece en Primera Lectura del Senado",
@@ -126,7 +137,7 @@
     "WA|HB 2416|2026-03-25|Governor signed.",
     "WA|SB 6246|2026-03-12|Delivered to Governor."
   ],
-  "last_run": "2026-07-20T10:20:41.046402+00:00",
+  "last_run": "2026-07-21T09:50:29.002218+00:00",
   "state_last_posted": {
     "IA": "2026-06-03T11:47:38.067759+00:00",
     "MO": "2026-07-07T10:33:58.049708+00:00",
@@ -147,6 +158,8 @@
     "RI": "2026-07-12T09:02:24.067574+00:00",
     "NH": "2026-07-12T09:02:24.067574+00:00",
     "AK": "2026-07-20T10:19:12.969481+00:00",
-    "NY": "2026-07-20T10:19:12.969481+00:00"
+    "NY": "2026-07-20T10:19:12.969481+00:00",
+    "NC": "2026-07-21T09:49:10.640997+00:00",
+    "PA": "2026-07-21T09:49:10.640997+00:00"
   }
 }

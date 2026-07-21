@@ -1,0 +1,47 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes the California Community Colleges, under the administration of the Board of Governors of the California Community Colleges, the California State University, under the administration of the Trustees of the California State University, and the University of California, under the administration of the Regents of the University of California, as the 3 segments of public postsecondary education in the state.\n\nExisting law requires, on and after January 1, 2023, a student health center on a California State University or University of California campus to offer abortion by medication techniques, as specified. Existing law establishes the College Student Health Center Sexual and Reproductive Health Preparation Fund to be administered by the Commission on the Status of Women and Girls and continuously appropriates the moneys in that fund to the commission for specified activities related to providing abortion by medication techniques at student health centers.\n\nThis bill would require a student health center on a California State University or University of California campus, on or before January 1, 2028, to promote awareness of the services for abortion by medication techniques that the student health center offers, provide information on those services to students, and post the availability of those services on its internet website.\n\nThis bill would require a community college that has a student health center, upon appropriation by the Legislature, to, on and after January 1, 2029, offer access to abortion by medication techniques, promote awareness of those services, provide information on those services to students, and post the availability of those services on its internet website. The bill would require the commission to submit a report to the Legislature, on or before January 1, 2030, that includes, but is not limited to, specified information relating to abortion by medication techniques at or through community college student health centers. The bill would require the commission, in consultation with the office of the Chancellor of the California Community Colleges, to develop a standardized reporting framework that minimizes administrative burden and protects student privacy. The bill would authorize funds appropriated for these provisions to be used for implementation readiness activities and ongoing operational costs, as specified.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2540",
+    "legislative_session": "20252026",
+    "subject": [
+      "Publichealth",
+      "abortionbymedicationtechniques",
+      "publicpostsecondaryeducation",
+      "studenthealthcenters"
+    ],
+    "title": "Public health: public postsecondary education: student health centers: abortion by medication techniques."
+  },
+  "id": "AB2540",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-introduction",
+        "amendment-passage",
+        "committee-passage",
+        "referral-committee"
+      ],
+      "description": "From committee: Amend, and do pass as amended and re-refer to Com. on APPR. (Ayes 5. Noes 2.) (July 1).",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-02",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2540"
+        }
+      ]
+    },
+    "bill_id": "AB2540"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2540/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2540/logs/20260702T000000Z_from_committee_amend_and_do_pass_as_amended_and_rerefer_to_com_on_appr_ayes_5_noes_2_july_1.json"
+  },
+  "timestamp": "20260702T000000Z"
+}

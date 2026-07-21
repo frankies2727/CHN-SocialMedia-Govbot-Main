@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Establishes the false reporting survivors act which establishes the crimes of aggravated falsely reporting an incident in the first, second, and third degrees when a person commits the crime of falsely reporting an incident in the first, second, or third degree and such person intended to harass, annoy, threaten, or alarm another person because of a belief or perception regarding a person's race, color, national origin, ancestry, religion, gender, disability, sexual orientation, gender identity or expression, or ethnicity; authorizes officers to arrest persons believed to have committed falsely reporting an incident without first obtaining a warrant and provides exceptions to such authority to arrest; includes such falsely reporting as a hate crime; authorizes the law enforcement misconduct investigative office to receive and investigate complaints alleging falsely reporting an incident; establishes databases of law enforcement officers and persons convicted of falsely reporting; requires notifying persons of the termination of certain criminal actions or proceedings; relates to the statute of limitations for filing an action relating to falsely reporting."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A7215",
+    "legislative_session": "2025-2026",
+    "title": "Establishes the false reporting survivors act which establishes the crimes of aggravated falsely reporting an incident in the first, second, and third degrees"
+  },
+  "id": "A7215",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage"
+      ],
+      "description": "PRINT NUMBER 7215B",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-01",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A7215?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/A7215"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=A07215&term=2025"
+        }
+      ]
+    },
+    "bill_id": "A7215"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A7215/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A7215/logs/20260701T000000Z_print_number_7215b.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

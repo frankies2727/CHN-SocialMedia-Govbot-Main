@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 153",
+    "legislative_session": "2025",
+    "subject": [
+      "BUDGET & MANAGEMENT OFFICE; COLLEGES & UNIVERSITIES; COMMERCE; COMMERCE DEPT.; DHHS; EDUCATION; EMERGENCY SERVICES; EMPLOYMENT; HIGHER EDUCATION; HOUSING; HOUSING FINANCE AGENCY; IMMIGRATION; INSURANCE; INSURANCE",
+      "UNEMPLOYMENT; LAW ENFORCEMENT; LOCAL GOVERNMENT; PRESENTED; PUBLIC; PUBLIC OFFICIALS; RATIFIED; REPORTS; SOCIAL SERVICES; STUDIES; TAXATION; UNC; UNEMPLOYMENT; VETOED; LIABILITY; ALIENS; CHAPTERED; VETO OVERRIDDEN"
+    ],
+    "title": "North Carolina Border Protection Act."
+  },
+  "id": "SB 153",
+  "log": {
+    "action": {
+      "classifications": [
+        "veto-override-passage"
+      ],
+      "description": "Veto Overridden",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-24",
+      "session_id": "2025",
+      "sources": [
+        {
+          "url": "https://www.ncleg.gov/BillLookUp/2025/S153"
+        }
+      ]
+    },
+    "bill_id": "SB 153"
+  },
+  "sources": {
+    "bill": "nc-legislation/country:us/state:nc/sessions/2025/bills/SB153/metadata.json",
+    "log": "nc-legislation/country:us/state:nc/sessions/2025/bills/SB153/logs/20260624T000000Z_veto_overridden.json"
+  },
+  "timestamp": "20260624T000000Z"
+}
