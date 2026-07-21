@@ -1,4 +1,4 @@
-name: govbot-state-extravaganza
+name: govbot-posts-extravaganza
 
 # Manual-only "Extravaganza": an on-demand digest thread that spotlights recent
 # bill activity, posted to one platform. It runs in one of two framings, chosen
@@ -75,7 +75,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: govbot-state-extravaganza
+  group: govbot-posts-extravaganza
   cancel-in-progress: false
 
 defaults:
@@ -119,8 +119,8 @@ jobs:
         # the publish call. Identity must be set before that push. Harmless for
         # the text platforms, which don't push mid-run.
         run: |
-          git config user.name  "govbot-state-extravaganza[bot]"
-          git config user.email "govbot-state-extravaganza[bot]@users.noreply.github.com"
+          git config user.name  "govbot-posts-extravaganza[bot]"
+          git config user.email "govbot-posts-extravaganza[bot]@users.noreply.github.com"
 
       - name: Resolve run config
         id: cfg
@@ -292,8 +292,8 @@ jobs:
       - name: Commit State Extravaganza artifacts
         if: inputs.dry_run != '1'
         run: |
-          git config user.name  "govbot-state-extravaganza[bot]"
-          git config user.email "govbot-state-extravaganza[bot]@users.noreply.github.com"
+          git config user.name  "govbot-posts-extravaganza[bot]"
+          git config user.email "govbot-posts-extravaganza[bot]@users.noreply.github.com"
           # The raw artifacts land in each platform's weekly_digest/ folder
           # (the script reuses the digest persistence helpers).
           # Instagram carousel cards are committed mid-run by the poster; this
