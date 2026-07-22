@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 5727",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Education: students",
+      "Labor: working conditions",
+      "Labor: youth employment"
+    ],
+    "title": "Labor: youth employment; youth employment standards act; restore former provisions, and eliminate requirement for a work permit. Amends title & secs. 2, 5, 7, 10, 15 & 20 of 1978 PA 90 (MCL 409.102 et seq.); adds sec. 19a & repeals secs. 4a, 4b, 4c, 4d, 6, 8 & 9 of 1978 PA 90 (MCL 409.104a et seq.)."
+  },
+  "id": "HB 5727",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "reported with recommendation with substitute (H-4)",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-25",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-5727"
+        }
+      ]
+    },
+    "bill_id": "HB 5727"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB5727/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB5727/logs/20260625T000000Z_reported_with_recommendation_with_substitute_h4.json"
+  },
+  "timestamp": "20260625T000000Z"
+}

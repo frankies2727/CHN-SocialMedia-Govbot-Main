@@ -121,6 +121,8 @@
     "IA|SF 2483|2026-04-09|NOBA: Senate Full Approps",
     "IA|SF 2504|2026-05-01|Committee report, approving bill.",
     "IA|SF 2507|2026-05-03|Committee report, approving bill.",
+    "IL|HB1403|2026-07-01",
+    "IL|HB1403|2026-07-01|Rule 19(b) / Re-referred to Rules Commit",
     "KS|HB2006|2026-04-10|Died in Committee",
     "KS|HB2177|2026-04-10|Died in Senate Committee",
     "KS|HB2209|2026-04-10|Died in Committee",
@@ -173,6 +175,16 @@
     "MA|SD3402|2026-04-23|Recommitted to the committee on Public S",
     "MA|SD3402|2026-04-30|Bill reported favorably by committee",
     "MA|SD3402|2026-04-30|Read, rules suspended, read second and o",
+    "MI|HB 4517|2026-07-03",
+    "MI|HB 4517|2026-07-03|",
+    "MI|HB 4517|2026-07-03|INSERTED FULL TITLE",
+    "MI|HB 4517|2026-07-03|PLACED ON IMMEDIATE PASSAGE",
+    "MI|HB 4517|2026-07-03|PLACED ON ORDER OF THIRD READING",
+    "MI|HB 4517|2026-07-03|REPORTED BY COMMITTEE OF THE WHOLE FAVOR",
+    "MI|HB 4517|2026-07-03|RULES SUSPENDED",
+    "MI|HB 4517|2026-07-03|bill ordered enrolled",
+    "MI|HB 4517|2026-07-03|full title agreed to",
+    "MI|HB 4517|2026-07-03|returned from Senate without amendment w",
     "MN|HF 1567|2026-02-23|Committee report, to adopt as amended",
     "MN|HF 1567|2026-02-23|Second reading",
     "MN|HF 3404|2026-03-02|Committee report, to adopt as amended an",
@@ -267,7 +279,7 @@
     "WA|SB 6080|2026-03-12|By resolution, returned to Senate Rules ",
     "WY|HB0327|2025-03-04|H:Died in Committee Returned Bill Pursua"
   ],
-  "last_run": "2026-07-21T09:44:53.536725+00:00",
+  "last_run": "2026-07-22T15:21:45.387843+00:00",
   "state_last_posted": {
     "DE": "2026-07-13T10:17:19.168491+00:00",
     "AK": "2026-05-16T02:55:29.130660+00:00",
@@ -290,6 +302,8 @@
     "SC": "2026-07-20T10:13:43.448731+00:00",
     "LA": "2026-07-20T10:13:43.448731+00:00",
     "NC": "2026-07-21T09:43:25.773696+00:00",
-    "NY": "2026-07-21T09:43:25.773696+00:00"
+    "NY": "2026-07-21T09:43:25.773696+00:00",
+    "MI": "2026-07-22T15:21:40.840805+00:00",
+    "IL": "2026-07-22T15:21:40.840805+00:00"
   }
 }

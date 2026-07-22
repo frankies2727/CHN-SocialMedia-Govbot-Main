@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 4517",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Children: other",
+      "Communications: social media",
+      "Law enforcement: reports"
+    ],
+    "title": "Law enforcement: reports; communications under the amber alert act; modify. Amends title & secs. 1, 2 & 5 of 2002 PA 713 (MCL 28.761 et seq.).    TIE BAR WITH: HB 4518'25"
+  },
+  "id": "HB 4517",
+  "log": {
+    "action": {
+      "description": "returned from Senate without amendment with immediate effect and full title",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-03",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-HB-4517"
+        }
+      ]
+    },
+    "bill_id": "HB 4517"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB4517/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB4517/logs/20260703T000000Z_returned_from_senate_without_amendment_with_immediate_effect_and_full_title.json"
+  },
+  "timestamp": "20260703T000000Z"
+}

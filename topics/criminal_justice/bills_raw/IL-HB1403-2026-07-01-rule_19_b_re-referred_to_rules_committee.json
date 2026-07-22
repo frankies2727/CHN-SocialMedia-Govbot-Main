@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB1403",
+    "legislative_session": "104th",
+    "title": "$LAW ENFORCEMENT CAMERA GRANTS"
+  },
+  "id": "HB1403",
+  "log": {
+    "action": {
+      "description": "Rule 19(b) / Re-referred to Rules Committee",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-01",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=1403&GAID=18&DocTypeID=HB&LegId=157393&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "HB1403"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/HB1403/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/HB1403/logs/20260701T000000Z_rule_19b_rereferred_to_rules_committee.json"
+  },
+  "timestamp": "20260701T000000Z"
+}
