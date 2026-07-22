@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SRES 789",
+    "legislative_session": "119",
+    "title": "A resolution recognizing June 2026, as \"LGBTQ Pride Month\"."
+  },
+  "id": "SRES 789",
+  "log": {
+    "action": {
+      "description": "Referred to the Committee on the Judiciary. (text: CR S3215-3216)",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-24T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/sres/BILLSTATUS-119sres789.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-resolution/789"
+        }
+      ]
+    },
+    "bill_id": "SRES 789"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/SRES789/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/SRES789/logs/20260624T040000Z_referred_to_the_committee_on_the_judiciary_text_cr_s32153216.json"
+  },
+  "timestamp": "20260624T040000Z"
+}

@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 5995",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Traffic control: driver license",
+      "Traffic control: violations"
+    ],
+    "title": "Traffic control: driver license; points from violations captured by automated traffic enforcement devices; prohibit. Amends sec. 320a of 1949 PA 300 (MCL 257.320a)."
+  },
+  "id": "HB 5995",
+  "log": {
+    "action": {
+      "description": "returned from Senate without amendment with immediate effect and full title",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-03",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-5995"
+        }
+      ]
+    },
+    "bill_id": "HB 5995"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB5995/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB5995/logs/20260703T000000Z_returned_from_senate_without_amendment_with_immediate_effect_and_full_title.json"
+  },
+  "timestamp": "20260703T000000Z"
+}

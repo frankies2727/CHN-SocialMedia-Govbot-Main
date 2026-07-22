@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 958",
+    "legislative_session": "2025",
+    "subject": [
+      "ARMED FORCES; AUDITING & AUDITS; BOARDS; CAMPAIGN FINANCE; CENSUS; CITIZENSHIP; COLLEGES & UNIVERSITIES; COMMUNITY COLLEGES; COMMUNITY COLLEGES BOARD; COUNCIL OF STATE; COUNTIES; COURTS; CRIMES; DATA & RECORDS SYSTEMS; DMV; DRIVERS LICENSES; EDUCATION; ELECTIONS; ELECTIONS BOARDS; ELECTIONS",
+      "STATE BOARD OF; EMERGING TECHNOLOGIES; EMPLOYMENT; HIGHER EDUCATION; ID SYSTEMS; INFORMATION TECHNOLOGY; LICENSES & PERMITS; LOBBYING; LOCAL GOVERNMENT; MORATORIUMS; MOTOR VEHICLES; NOTIFICATION; PACS; PERSONNEL; PILOT PROGRAMS; POLITICAL ACTIVITY; POLITICAL PARTIES; PUBLIC; PUBLIC OFFICIALS; REFERENDUM & INITIATIVE; REPORTING; REPORTS; SALARIES & BENEFITS; STEM; SESSION LAWS; STATE AUDITOR; STATE EMPLOYEES; STUDIES; VOTER REGISTRATION; WAKE COUNTY; RECORDS; SUPERIOR COURT; GOVERNMENT EMPLOYEES; PRIMARIES; BALLOTS & BALLOT ISSUES; ARTIFICIAL INTELLIGENCE"
+    ],
+    "title": "Election Law Changes."
+  },
+  "id": "HB 958",
+  "log": {
+    "action": {
+      "description": "Ordered Engrossed",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-30",
+      "session_id": "2025",
+      "sources": [
+        {
+          "url": "https://www.ncleg.gov/BillLookUp/2025/H958"
+        }
+      ]
+    },
+    "bill_id": "HB 958"
+  },
+  "sources": {
+    "bill": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB958/metadata.json",
+    "log": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB958/logs/20260630T000000Z_ordered_engrossed.json"
+  },
+  "timestamp": "20260630T000000Z"
+}

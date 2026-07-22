@@ -95,6 +95,10 @@
     "MO|SB 1085|2026-04-14|Informal Calendar S Bills for Perfection",
     "MO|SB 1200|2026-01-07|S First Read",
     "MO|SB 1200|2026-01-27|Second Read and Referred S Families, Sen",
+    "NC|HB 171|2026-06-24",
+    "NC|HB 171|2026-06-24|",
+    "NC|HB 171|2026-06-24|Veto Overridden",
+    "NC|HB 171|2026-06-24|Veto Received from House",
     "NC|SB 227|2026-06-24",
     "NC|SB 227|2026-06-24|",
     "NC|SB 227|2026-06-24|Veto Overridden",
@@ -128,9 +132,12 @@
     "WA|SB 6081|2026-03-16|Governor signed.",
     "|HRES 1405|2026-06-30",
     "|HRES 1405|2026-06-30|Referred to the House Committee on the J",
-    "|HRES 1405|2026-06-30|Submitted in House"
+    "|HRES 1405|2026-06-30|Submitted in House",
+    "|SRES 789|2026-06-24",
+    "|SRES 789|2026-06-24|Referred to the Committee on the Judicia",
+    "|SRES 789|2026-06-24|Submitted in Senate"
   ],
-  "last_run": "2026-07-20T10:22:56.754248+00:00",
+  "last_run": "2026-07-22T15:36:12.340715+00:00",
   "state_last_posted": {
     "WA": "2026-05-24T21:01:19.732360+00:00",
     "MO": "2026-06-14T16:01:24.801978+00:00",
@@ -142,8 +149,8 @@
     "GA": "2026-06-13T10:15:54.264820+00:00",
     "DE": "2026-06-23T10:40:01.910854+00:00",
     "NH": "2026-06-29T12:15:03.457553+00:00",
-    "NC": "2026-07-14T09:16:33.102854+00:00",
+    "NC": "2026-07-22T15:36:07.925056+00:00",
     "NY": "2026-07-20T10:21:21.719626+00:00",
-    "?": "2026-07-20T10:21:21.719626+00:00"
+    "?": "2026-07-22T15:36:07.925056+00:00"
   }
 }

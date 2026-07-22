@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "AN ACT TO AMEND THE SOUTH CAROLINA CODE OF LAWS BY ADDING SECTION 45-2-65 SO AS TO PROVIDE THE CONDITIONS UNDER WHICH AN OPERATOR OF ANY RECREATIONAL VEHICLE PARK MAY HAVE ANY TRANSIENT GUEST OR OTHER GUEST OF THE PARK REMOVED; BY ADDING ARTICLE 3 TO CHAPTER 37, TITLE 27 SO AS TO ENTITLE THE ARTICLE \"EJECTMENT OF UNLAWFUL OCCUPANTS OF A RESIDENTIAL DWELLING,\" TO DEFINE NECESSARY TERMS, AND TO PROVIDE AN ALTERNATIVE REMEDY TO REMOVE PERSONS UNLAWFULLY OCCUPYING A RESIDENTIAL DWELLING; TO REDESIGNATE CHAPTER 37, TITLE 27 AS \"EJECTMENT PROCEEDINGS\"; TO DESIGNATE THE EXISTING SECTIONS OF CHAPTER 37, TITLE 27 AS ARTICLE 1 ENTITLED \"EJECTMENT OF TENANTS\"; TO ESTABLISH OFFENSES FOR PERSONS WHO UNLAWFULLY OCCUPY OR TRESPASS UPON RESIDENTIAL DWELLINGS, LIST OR ADVERTISE RESIDENTIAL REAL PROPERTY FOR SALE WITHOUT LEGAL TITLE OR AUTHORITY TO DO SO, OR PRESENT FALSE DOCUMENTS TO ANOTHER PERSON WITH THE INTENT TO DETAIN OR REMAIN UPON REAL PROPERTY; AND BY AMENDING SECTION 27-40-800, RELATING TO THE APPEAL OF A JUDGMENT OF EJECTION, SO AS TO REQUIRE A TENANT TO FILE AN AFFIDAVIT PROMISING TO PAY THE LANDLORD THE AMOUNT OF RENT AS IT BECOMES DUE IN EXCHANGE FOR A STAY OF EXECUTION OF A JUDGMENT FOR EJECTION, AMONG OTHER THINGS. - RATIFIED TITLE",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H 3387",
+    "legislative_session": "2025-2026",
+    "title": "Unlawful occupants of property"
+  },
+  "id": "H 3387",
+  "log": {
+    "action": {
+      "description": "Effective date 06/30/26",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-07-01",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=3387&session=126&summary=B"
+        }
+      ]
+    },
+    "bill_id": "H 3387"
+  },
+  "sources": {
+    "bill": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/H3387/metadata.json",
+    "log": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/H3387/logs/20260701T000000Z_effective_date_063026.json"
+  },
+  "timestamp": "20260701T000000Z"
+}

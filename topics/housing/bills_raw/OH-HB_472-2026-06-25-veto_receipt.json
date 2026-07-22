@@ -1,0 +1,61 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "To amend sections 3109.14, 3705.24, 3705.242, 4507.50, and 4507.52 and to enact section 3705.243 of the Revised Code to waive fees for an identification card or a copy of a birth certificate for individuals experiencing homelessness.",
+        "note": "long title"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 472",
+    "legislative_session": "136",
+    "subject": [
+      "Health and Human Services",
+      "Housing and Real Property",
+      "Public Assistance"
+    ],
+    "title": "Waive ID, birth certificate fees for homeless individuals"
+  },
+  "id": "HB 472",
+  "log": {
+    "action": {
+      "description": "Veto receipt",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-25T04:00:00+00:00",
+      "session_id": "136",
+      "sources": [
+        {
+          "url": "https://www.legislature.ohio.gov/legislation/136/hb472"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb472/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb472/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb472/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb472/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb472/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb472/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb472/"
+        }
+      ]
+    },
+    "bill_id": "HB 472"
+  },
+  "sources": {
+    "bill": "oh-legislation/country:us/state:oh/sessions/136/bills/HB472/metadata.json",
+    "log": "oh-legislation/country:us/state:oh/sessions/136/bills/HB472/logs/20260625T040000Z_veto_receipt.json"
+  },
+  "timestamp": "20260625T040000Z"
+}

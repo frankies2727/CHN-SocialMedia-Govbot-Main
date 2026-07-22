@@ -136,6 +136,8 @@
     "GA|SR 789|2026-03-31|Senate Third Read",
     "IA|SF 2199|2026-02-04|Committee report, approving bill.",
     "IA|SF 2421|2026-02-23|Committee report, approving bill.",
+    "IL|SB3578|2026-06-25",
+    "IL|SB3578|2026-06-25|Added as Co-Sponsor Sen. Sally J. Turner",
     "KS|HB2592|2026-04-10|Died in Committee",
     "KS|HB2696|2026-04-10|Died in Committee",
     "KS|HB2772|2026-04-10|Died in Committee",
@@ -258,9 +260,11 @@
     "WA|SB 6231|2026-03-13|Delivered to Governor.",
     "WA|SB 6231|2026-04-01|Effective date 6/11/2026*.",
     "WA|SB 6231|2026-04-01|Governor signed.",
-    "WY|SF0065|2025-03-01|H COW:H Did not consider for COW"
+    "WY|SF0065|2025-03-01|H COW:H Did not consider for COW",
+    "|HR 9629|2026-07-09",
+    "|HR 9629|2026-07-09|Referred to the House Committee on Energ"
   ],
-  "last_run": "2026-07-20T10:09:58.077938+00:00",
+  "last_run": "2026-07-22T15:19:27.092950+00:00",
   "state_last_posted": {
     "WY": "2026-05-16T02:53:56.286279+00:00",
     "CO": "2026-05-16T02:53:56.286279+00:00",
@@ -282,6 +286,8 @@
     "RI": "2026-07-14T08:55:05.146215+00:00",
     "NC": "2026-07-14T08:55:05.146215+00:00",
     "LA": "2026-07-20T10:09:53.858186+00:00",
-    "MI": "2026-07-20T10:09:53.858186+00:00"
+    "MI": "2026-07-20T10:09:53.858186+00:00",
+    "?": "2026-07-22T15:19:22.819895+00:00",
+    "IL": "2026-07-22T15:19:22.819895+00:00"
   }
 }

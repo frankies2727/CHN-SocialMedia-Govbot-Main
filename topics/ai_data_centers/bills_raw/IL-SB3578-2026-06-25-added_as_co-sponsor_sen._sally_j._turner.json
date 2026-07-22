@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB3578",
+    "legislative_session": "104th",
+    "title": "DATA CENTERS-FOREIGN OWNERSHIP"
+  },
+  "id": "SB3578",
+  "log": {
+    "action": {
+      "description": "Added as Co-Sponsor Sen. Sally J. Turner",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-25",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=3578&GAID=18&DocTypeID=SB&LegId=166652&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "SB3578"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/SB3578/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/SB3578/logs/20260625T000000Z_added_as_cosponsor_sen_sally_j_turner.json"
+  },
+  "timestamp": "20260625T000000Z"
+}

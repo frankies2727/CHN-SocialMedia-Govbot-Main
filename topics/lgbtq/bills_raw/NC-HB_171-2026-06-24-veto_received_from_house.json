@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 171",
+    "legislative_session": "2025",
+    "subject": [
+      "COLLEGES & UNIVERSITIES; COURTS; DISCRIMINATION; EDUCATION; EMPLOYMENT; FINES & PENALTIES; HIGHER EDUCATION; LGBTQ & GENDER ISSUES; MINORITIES; PERSONNEL; PRESENTED; PUBLIC; RATIFIED; UNC; VETOED; WOMEN; CIVIL ACTIONS"
+    ],
+    "title": "Equality in State Agencies/Prohibition on Diversity, Equity, and Inclusion (DEI)."
+  },
+  "id": "HB 171",
+  "log": {
+    "action": {
+      "description": "Veto Received from House",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-24",
+      "session_id": "2025",
+      "sources": [
+        {
+          "url": "https://www.ncleg.gov/BillLookUp/2025/H171"
+        }
+      ]
+    },
+    "bill_id": "HB 171"
+  },
+  "sources": {
+    "bill": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB171/metadata.json",
+    "log": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB171/logs/20260624T000000Z_veto_received_from_house.json"
+  },
+  "timestamp": "20260624T000000Z"
+}
