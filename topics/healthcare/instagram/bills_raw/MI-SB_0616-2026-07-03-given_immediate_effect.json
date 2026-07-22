@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 0616",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Civil procedure: civil actions",
+      "Controlled substances: opioids",
+      "State: other"
+    ],
+    "title": "Civil procedure: civil actions; civil actions against certain opioid litigation settlement defendants; prohibit. Amends secs. 2 & 3 of 2022 PA 85 (MCL 691.1672 & 691.1673)."
+  },
+  "id": "SB 0616",
+  "log": {
+    "action": {
+      "description": "GIVEN IMMEDIATE EFFECT",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-03",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0616"
+        }
+      ]
+    },
+    "bill_id": "SB 0616"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0616/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0616/logs/20260703T000000Z_given_immediate_effect.json"
+  },
+  "timestamp": "20260703T000000Z",
+  "posted_text": "🧠 MI SB 0616 — Civil procedure: civil actions; civil actions against certain opioid litigation settlement defendants; prohibit. Amends secs. 2 & 3 of 2022 PA 85 (MCL 691.1672 & 691.1673).\n\nJuly 3, 2026: Given Immediate Effect.\n\n🔗 Read the full bill: https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0616\n\n#Healthcare #Michigan #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0616",
+  "posted_url": "https://www.instagram.com/p/DbGryHomJpB/"
+}
