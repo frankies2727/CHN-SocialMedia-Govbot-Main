@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "RC0537",
+    "legislative_session": "2025-2028",
+    "title": "Para ordenar a la Comisión de Vivienda y Desarrollo Urbano de la Cámara de Representantes de Puerto Rico realizar una investigación exhaustiva sobre los lanzamientos, desahucios, terminaciones de arrendamiento, remociones y/o radicaciones de casos de desahucio en vivienda pública, vivienda subsidiada, proyectos financiados bajo el Programa de Créditos Contributivos para Viviendas de Ingresos Bajos (LIHTC, por sus siglas en inglés) y égidas en Puerto Rico; con énfasis particular en las personas adultas mayores, sin excluir a otras poblaciones afectadas; evaluar los criterios, procedimientos y salvaguardas aplicables; examinar los mecanismos de prevención del desplazamiento y la provisión de servicios obligatorios; analizar la imposición de periodos de inelegibilidad para reingreso; y para otros fines relacionados."
+  },
+  "id": "RC0537",
+  "log": {
+    "action": {
+      "description": "En el Calendario de Ordenes Especiales de la Cámara",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-06-29T04:00:00+00:00",
+      "session_id": "2025-2028",
+      "sources": [
+        {
+          "url": "https://sutra.oslpr.org/medidas/159629"
+        }
+      ]
+    },
+    "bill_id": "RC0537"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RC0537/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RC0537/logs/20260629T040000Z_en_el_calendario_de_ordenes_especiales_de_la_cámara.json"
+  },
+  "timestamp": "20260629T040000Z",
+  "posted_text": "🏘️ Housing\nPR RC0537 — Housing Committee Investigates Foreclosures in Public Housing\n\nThe Puerto Rico House Committee on Housing and Urban Development will investigate foreclosures and evictions in public and subsidized housing, focusing on senior citizens. The committee will assess current procedures and explore ways to prevent displacement and re-entry ineligibility periods.\n\nJune 29, 2026: In the Calendar of Special Orders of the Chamber.",
+  "posted_link": "https://openstates.org/pr/bills/2025-2028/RC537/",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DbE0XR4HaUk"
+}

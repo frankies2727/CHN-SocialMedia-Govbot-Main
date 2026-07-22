@@ -1,0 +1,41 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "HCS/SB 1019 - This act modifies several provisions relating to health care.\r\n\r\nHOSPITAL INVESTMENTS AND SERVICE AREAS (Sections 96.192, 96.196, 206.110, and 206.158)\r\n\tThis act modifies the investment authority of boards of trustees of municipal hospitals in third class cities and hospital district hospitals.  Current law permits investment of up to 25% of funds not required for operations of the hospital or other obligations.  This act permits investment of up to 50% of funds not required for operations or other obligations in a manner described in the act, with the remaining portion to be invested into any investment in which the Treasurer is allowed to invest.\r\n\r\n\tUnder this act, municipal hospitals in third class cities may operate in areas where hospital district hospitals and county hospitals operate.  Hospital district hospitals may operate in areas where municipal hospitals in third class cities and county hospitals operate.\r\n\r\n\tThese provisions are identical to provisions in the truly agreed to and finally passed SS/SCS/HCS/SB 2372 (2026) and SB 244 (2025) and substantially similar to provisions in SS/SCS/SB 841 (2026), SCS/HCS/HB 2372 (2026), SCS/HCS/HB 943 (2025), SCS/SB 317 (2025), and HCS/SS/SB 7 (2025).\r\n\r\nLYME DISEASE (Section 192.026)\r\n\tThis act establishes the \"Missouri Lyme Disease Eradication Act.\"  The Department shall compile an annual report on the incidence and prevalence of Lyme disease in Missouri, as described in the act.  The Department shall collaborate with public four-year institutions of higher education to integrate Lyme disease surveillance data into existing tick-borne disease monitoring programs.\r\n\r\n\tThis act also contains a repeal of this section as truly agreed to and finally passed in SS/SCS/HCS/HB 2372 (2026).\r\n\r\n\tThis provision is substantially similar to a provision in SB 887 (2026).\r\nSARAH HASKINS",
+        "note": "abstract"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1019",
+    "legislative_session": "2026",
+    "title": "HCS/SB 1019 - This act modifies several provisions relating to health care.\r\n\r\nHOSPITAL INVESTMENTS AND SERVICE AREAS (Sections 96.192, 96.196, 206.110, and 206.158)\r\n\tThis act modifies the investment authority of boards of trustees of municipal hospitals in third class cities and hospital district hospitals.  Current law permits investment of up to 25% of funds not required for operations of the hospital or other obligations.  This act permits investment of up to 50% of funds not required for operations or other obligations in a manner described in the act, with the remaining portion to be invested into any investment in which the Treasurer is allowed to invest.\r\n\r\n\tUnder this act, municipal hospitals in third class cities may operate in areas where hospital district hospitals and county hospitals operate.  Hospital district hospitals may operate in areas where municipal hospitals in third class cities and county hospitals operate.\r\n\r\n\tThese provisions are identical to provisions in the truly agreed to and finally passed SS/SCS/HCS/SB 2372 (2026) and SB 244 (2025) and substantially similar to provisions in SS/SCS/SB 841 (2026), SCS/HCS/HB 2372 (2026), SCS/HCS/HB 943 (2025), SCS/SB 317 (2025), and HCS/SS/SB 7 (2025).\r\n\r\nLYME DISEASE (Section 192.026)\r\n\tThis act establishes the \"Missouri Lyme Disease Eradication Act.\"  The Department shall compile an annual report on the incidence and prevalence of Lyme disease in Missouri, as described in the act.  The Department shall collaborate with public four-year institutions of higher education to integrate Lyme disease surveillance data into existing tick-borne disease monitoring programs.\r\n\r\n\tThis act also contains a repeal of this section as truly agreed to and finally passed in SS/SCS/HCS/HB 2372 (2026).\r\n\r\n\tThis provision is substantially similar to a provision in SB 887 (2026).\r\nSARAH HASKINS"
+  },
+  "id": "SB 1019",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-07-13T05:00:00+00:00",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=422"
+        }
+      ]
+    },
+    "bill_id": "SB 1019"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB1019/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB1019/logs/20260713T050000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260713T050000Z",
+  "posted_text": "🏥 Healthcare\nMO SB 1019 — Missouri Hospitals Can Invest More Funds\n\nThis bill expands the investment options for boards of trustees at municipal hospitals in Missouri's third class cities and hospital district hospitals, allowing them to allocate up to 50% of funds for investment, rather than the previous 25% limit.\n\nJuly 13, 2026: Signed by Governor.",
+  "posted_link": "https://legiscan.com/MO/bill/SB1019/2026",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DbEzy-enRFW"
+}

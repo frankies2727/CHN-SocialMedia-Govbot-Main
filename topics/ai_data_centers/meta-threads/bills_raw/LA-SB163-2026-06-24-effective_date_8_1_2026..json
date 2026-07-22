@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB163",
+    "legislative_session": "2026",
+    "title": "COMMERCIAL REGULATIONS: Provides relative to the licensing and regulation of virtual currency businesses. (8/1/26)"
+  },
+  "id": "SB163",
+  "log": {
+    "action": {
+      "description": "Effective date 8/1/2026.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-24",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=250133"
+        }
+      ]
+    },
+    "bill_id": "SB163"
+  },
+  "sources": {
+    "bill": "la-legislation/country:us/state:la/sessions/2026/bills/SB163/metadata.json",
+    "log": "la-legislation/country:us/state:la/sessions/2026/bills/SB163/logs/20260624T000000Z_effective_date_812026.json"
+  },
+  "timestamp": "20260624T000000Z",
+  "posted_text": "💰 AI, Data Centers & Crypto\nLA SB163 — COMMERCIAL REGULATIONS: Provides relative to the licensing and regulation of virtual currency businesses. (8/1/26)\n\nJune 24, 2026: Effective date 8/1/2026.",
+  "posted_link": "https://www.legis.la.gov/legis/BillInfo.aspx?s=26RS&b=SB163",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DbEzQ5sHSOF"
+}
