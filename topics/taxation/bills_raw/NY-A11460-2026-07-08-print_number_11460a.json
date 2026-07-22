@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Authorizes Ulster county to establish a property tax offset by means of a resident income tax surcharge; requires the Ulster county legislature to adopt a local law prior to imposing such surcharge."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A11460",
+    "legislative_session": "2025-2026",
+    "title": "Authorizes Ulster county to establish a property tax offset by means of a resident income tax surcharge"
+  },
+  "id": "A11460",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage"
+      ],
+      "description": "PRINT NUMBER 11460A",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-08",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11460?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/A11460"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=A11460&term=2025"
+        }
+      ]
+    },
+    "bill_id": "A11460"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11460/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11460/logs/20260708T000000Z_print_number_11460a.json"
+  },
+  "timestamp": "20260708T000000Z"
+}

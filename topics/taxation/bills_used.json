@@ -307,6 +307,8 @@
     "NJ|S1560|2026-01-28|Withdrawn from Consideration",
     "NJ|S1561|2026-01-28|Withdrawn from Consideration",
     "NJ|S3185|2026-01-13|WITHDRAWN APP P.L.2025, c.336.",
+    "NY|A11460|2026-07-08",
+    "NY|A11460|2026-07-08|PRINT NUMBER 11460A",
     "OH|HB 335|2025-10-22|",
     "OH|HB 335|2025-10-22|Passed",
     "OH|HB 335|2025-11-19|",
@@ -411,9 +413,11 @@
     "WV|SB 76|2026-01-14|To Energy, Industry, and Mining",
     "WV|SB 99|2026-01-14|To Health and Human Resources",
     "WY|HB0252|2025-01-20|H Received for Introduction",
-    "WY|HB0252|2025-02-03|H Did not Consider for Introduction"
+    "WY|HB0252|2025-02-03|H Did not Consider for Introduction",
+    "|HR 9626|2026-07-09",
+    "|HR 9626|2026-07-09|Referred to the House Committee on Ways "
   ],
-  "last_run": "2026-07-21T09:50:33.811794+00:00",
+  "last_run": "2026-07-22T15:31:55.216515+00:00",
   "state_last_posted": {
     "MI": "2026-07-20T10:25:36.717979+00:00",
     "RI": "2026-07-12T09:15:54.555947+00:00",
@@ -439,6 +443,8 @@
     "NC": "2026-07-14T09:11:40.113423+00:00",
     "AK": "2026-07-20T10:25:36.717979+00:00",
     "PA": "2026-07-21T09:49:19.006632+00:00",
-    "IL": "2026-07-21T09:49:19.006632+00:00"
+    "IL": "2026-07-21T09:49:19.006632+00:00",
+    "NY": "2026-07-22T15:30:57.134516+00:00",
+    "?": "2026-07-22T15:30:57.134516+00:00"
   }
 }
