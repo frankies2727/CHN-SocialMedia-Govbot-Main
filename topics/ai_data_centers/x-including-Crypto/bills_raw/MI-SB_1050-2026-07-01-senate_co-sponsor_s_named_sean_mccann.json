@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1050",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Businesses: other"
+    ],
+    "title": "Businesses: other; community benefit agreements; require certain data centers to be subject to. Creates new act."
+  },
+  "id": "SB 1050",
+  "log": {
+    "action": {
+      "description": "SENATE CO-SPONSOR(S) NAMED: SEAN MCCANN",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-01",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1050"
+        }
+      ]
+    },
+    "bill_id": "SB 1050"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1050/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1050/logs/20260701T000000Z_senate_cosponsors_named_sean_mccann.json"
+  },
+  "timestamp": "20260701T000000Z",
+  "posted_text": "🏢 MI SB 1050 — Businesses: other; community benefit agreements; require certain data centers to be subject to. Creates new act.\n\nJuly 1, 2026: Senate Co-sponsor(s) Named: Sean Mccann.\n\nLink to bill in reply.",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1050",
+  "posted_url": "https://x.com/i/web/status/2080307362074894373"
+}
