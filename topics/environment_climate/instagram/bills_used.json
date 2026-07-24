@@ -8,6 +8,15 @@
     "MO|HB 2006|2026-06-30",
     "MO|HB 2006|2026-06-30|Delivered to Secretary of State (G)",
     "MO|HB 2006|2026-06-30|Vetoed in Part by Governor (G)",
+    "PA|SB 146|2026-07-12",
+    "PA|SB 146|2026-07-12|",
+    "PA|SB 146|2026-07-12|Act No. 21 of 2026",
+    "PA|SB 146|2026-07-12|Approved by the Governor",
+    "PA|SB 146|2026-07-12|Re-reported as amended",
+    "PA|SB 146|2026-07-12|Re-reported on concurrence, as committed",
+    "PA|SB 146|2026-07-12|Senate concurred in House amendments",
+    "PA|SB 146|2026-07-12|Signed in House",
+    "PA|SB 146|2026-07-12|Signed in Senate",
     "RI|HB7619|2026-06-23|06/23/2026 Signed by Governor"
   ],
   "state_last_posted": {
@@ -15,7 +24,8 @@
     "GA": "2026-06-27T13:07:32.280930+00:00",
     "MA": "2026-06-29T15:25:18.568025+00:00",
     "CA": "2026-07-04T13:02:41.341322+00:00",
-    "MO": "2026-07-12T12:46:16.718989+00:00"
+    "MO": "2026-07-12T12:46:16.718989+00:00",
+    "PA": "2026-07-24T18:22:24.237944+00:00"
   },
-  "last_run": "2026-07-12T12:46:42.913465+00:00"
+  "last_run": "2026-07-24T18:23:54.461536+00:00"
 }
