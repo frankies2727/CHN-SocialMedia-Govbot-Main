@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB3336",
+    "legislative_session": "104th",
+    "title": "LOW-SPEED ELECTRIC BICYCLE"
+  },
+  "id": "SB3336",
+  "log": {
+    "action": {
+      "description": "Pursuant to Senate Rule 3-9(b) / Referred to Assignments",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-02",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=3336&GAID=18&DocTypeID=SB&LegId=166189&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "SB3336"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/SB3336/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/SB3336/logs/20260702T000000Z_pursuant_to_senate_rule_39b_referred_to_assignments.json"
+  },
+  "timestamp": "20260702T000000Z",
+  "posted_text": "🚲 Transportation\nIL SB3336 — LOW-SPEED ELECTRIC BICYCLE\n\nJuly 2, 2026: Pursuant to Senate Rule 3-9(b) / Referred to Assignments.",
+  "posted_link": "https://legiscan.com/IL/bill/SB3336/2025",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DbJ-zQYDnn_"
+}

@@ -9,6 +9,14 @@
     "MO|HB 3080|2026-05-28|Signed by House Speaker (H)",
     "MO|HB 3080|2026-05-28|Signed by President Pro Tem (S)",
     "NH|SB652|2026-05-29|Signed by the Governor on 05/28/2026; Ch",
+    "PA|HB 96|2026-07-12",
+    "PA|HB 96|2026-07-12|",
+    "PA|HB 96|2026-07-12|Act No. 27 of 2026",
+    "PA|HB 96|2026-07-12|Approved by the Governor",
+    "PA|HB 96|2026-07-12|House concurred in Senate amendments",
+    "PA|HB 96|2026-07-12|Re-reported on concurrence, as committed",
+    "PA|HB 96|2026-07-12|Signed in House",
+    "PA|HB 96|2026-07-12|Signed in Senate",
     "RI|HB8611|2026-06-23|06/23/2026 Signed by Governor",
     "TN|SB 2633|2026-05-27|Comp. became Pub. Ch. 1034"
   ],
@@ -20,7 +28,8 @@
     "FL": "2026-07-02T12:36:58.744681+00:00",
     "MO": "2026-07-04T12:08:35.721174+00:00",
     "RI": "2026-07-05T12:00:14.826420+00:00",
-    "TN": "2026-07-07T12:51:10.303666+00:00"
+    "TN": "2026-07-07T12:51:10.303666+00:00",
+    "PA": "2026-07-24T00:47:14.769685+00:00"
   },
-  "last_run": "2026-07-08T12:19:00.269650+00:00"
+  "last_run": "2026-07-24T00:48:36.729794+00:00"
 }
