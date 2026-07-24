@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB1028",
+    "legislative_session": "2026",
+    "title": "MEDICAID: Requires the Louisiana Department of Health to increase the reimbursement rates for nonemergency medical transportation providers (EN +$2,601,174 GF EX See Note)"
+  },
+  "id": "HB1028",
+  "log": {
+    "action": {
+      "description": "Effective date: 06/24/2026.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-25",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=251230"
+        }
+      ]
+    },
+    "bill_id": "HB1028"
+  },
+  "sources": {
+    "bill": "la-legislation/country:us/state:la/sessions/2026/bills/HB1028/metadata.json",
+    "log": "la-legislation/country:us/state:la/sessions/2026/bills/HB1028/logs/20260625T000000Z_effective_date_06242026.json"
+  },
+  "timestamp": "20260625T000000Z"
+}

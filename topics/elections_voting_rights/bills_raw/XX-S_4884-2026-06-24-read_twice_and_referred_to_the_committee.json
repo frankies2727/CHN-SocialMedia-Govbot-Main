@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 4884",
+    "legislative_session": "119",
+    "title": "Right to Vote Act"
+  },
+  "id": "S 4884",
+  "log": {
+    "action": {
+      "description": "Read twice and referred to the Committee on Rules and Administration.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-06-24T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s4884.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-bill/4884"
+        }
+      ]
+    },
+    "bill_id": "S 4884"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/S4884/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/S4884/logs/20260624T040000Z_read_twice_and_referred_to_the_committee_on_rules_and_administration.json"
+  },
+  "timestamp": "20260624T040000Z"
+}

@@ -33,6 +33,8 @@
     "CA|SB135|2026-06-29|Unanimous consent granted to take up wit",
     "CA|SB135|2026-06-29|Withdrawn from committee pursuant to Ass",
     "CA|SB135|2026-07-01|Enrolled and presented to the Governor a",
+    "CA|SB135|2026-07-13",
+    "CA|SB135|2026-07-13|Approved by the Governor.",
     "CA|SB1364|2026-02-20|Introduced. To Com. on RLS. for assignme",
     "CA|SB1364|2026-02-23|From printer. May be acted upon on or af",
     "CA|SB1364|2026-02-23|Read first time.",
@@ -137,12 +139,12 @@
     "|SRES 789|2026-06-24|Referred to the Committee on the Judicia",
     "|SRES 789|2026-06-24|Submitted in Senate"
   ],
-  "last_run": "2026-07-22T15:36:12.340715+00:00",
+  "last_run": "2026-07-24T15:27:55.008722+00:00",
   "state_last_posted": {
     "WA": "2026-05-24T21:01:19.732360+00:00",
     "MO": "2026-06-14T16:01:24.801978+00:00",
     "KS": "2026-05-28T10:57:58.645947+00:00",
-    "CA": "2026-07-14T09:16:33.102854+00:00",
+    "CA": "2026-07-24T15:26:31.533204+00:00",
     "NJ": "2026-07-01T11:10:39.529183+00:00",
     "MA": "2026-06-02T11:41:36.848025+00:00",
     "AL": "2026-06-13T10:15:54.264820+00:00",
