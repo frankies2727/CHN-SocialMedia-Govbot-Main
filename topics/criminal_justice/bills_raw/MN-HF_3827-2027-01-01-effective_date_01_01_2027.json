@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HF 3827",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Courts",
+      "Law Enforcement",
+      "Public Safety Department"
+    ],
+    "title": "Grants from Bureau of Criminal Apprehension to local law enforcement clarified as reimbursements, law related to recording of crimes updated, process for determining how certain criminal records are ineligible for sealing established, and court required to provide order for protection for access by law enforcement."
+  },
+  "id": "HF 3827",
+  "log": {
+    "action": {
+      "description": "Effective date 01/01/2027",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2027-01-01",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/3827?list=open&body=House"
+        }
+      ]
+    },
+    "bill_id": "HF 3827"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF3827/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF3827/logs/20270101T000000Z_effective_date_01012027.json"
+  },
+  "timestamp": "20270101T000000Z"
+}

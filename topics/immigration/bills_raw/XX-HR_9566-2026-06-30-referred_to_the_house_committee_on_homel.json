@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 9566",
+    "legislative_session": "119",
+    "title": "To establish a pilot program for use by U.S. Customs and Border Protection at land ports of entry along the Arizona border to assess the use of artificial intelligence through an anomaly detection algorithm, and for other purposes."
+  },
+  "id": "HR 9566",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Homeland Security.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-30T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9566.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/9566"
+        }
+      ]
+    },
+    "bill_id": "HR 9566"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9566/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9566/logs/20260630T040000Z_referred_to_the_house_committee_on_homeland_security.json"
+  },
+  "timestamp": "20260630T040000Z"
+}

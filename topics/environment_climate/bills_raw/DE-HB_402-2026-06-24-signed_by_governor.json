@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act extends the Clean Air Act Title V Operating Permit Program annual fees for facilities in Delaware, which have historically expired and been reauthorized by the General Assembly every 3 years. Existing statutory authorization to collect fees sunsets December 31, 2026. This legislation updates the fee assessments based on the work of the Title V Operating Permit Program Advisory Committee and makes additional clarifying updates. For 2027-2029, the total fee will be comprised of a base fee, user fee, and a program fee. Base fees are based on the number of staff hours spent on the source’s permitting, compliance, and enforcement activities, while the user fee is based on the source’s air emissions. The program fee will be assessed based on the total base and user fees. This Act authorizes the Department of Natural Resources and Environmental Control to collect Title V annual fees for calendar years 2027 through 2029 at which point the authority sunsets and would need to be reauthorized.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 402",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 7 OF THE DELAWARE CODE RELATING TO THE CLEAN AIR ACT TITLE V OPERATING PERMIT PROGRAM."
+  },
+  "id": "HB 402",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-06-24",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143220"
+        }
+      ]
+    },
+    "bill_id": "HB 402"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB402/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB402/logs/20260624T000000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260624T000000Z"
+}
