@@ -1,6 +1,6 @@
 # 🏛️ govbot-social
 
-**A free, multi-topic, multi-platform bot network that posts new U.S. state-legislative activity — each bill summarized in plain English by a local AI model — to Bluesky, X/Twitter, Threads, and Instagram.**
+**A free, multi-topic, multi-platform bot network that posts new U.S. legislative activity — federal (U.S. Congress) and all 50 states — each bill summarized in plain English by a local AI model — to Bluesky, X/Twitter, Threads, and Instagram.**
 
 Powered by [chihacknight/govbot](https://github.com/chihacknight/govbot) for the raw legislative data and [Ollama](https://ollama.com/) + [Gemma](https://ai.google.dev/gemma) for on-runner summarization. Everything runs on scheduled **GitHub Actions** — no servers, no paid LLM API, no hosting bill.
 
@@ -39,7 +39,7 @@ Powered by [chihacknight/govbot](https://github.com/chihacknight/govbot) for the
 
 Every day, a GitHub Actions workflow:
 
-1. **Fetches** fresh bill activity from 50+ states and territories via `govbot`.
+1. **Fetches** fresh bill activity from the U.S. Congress and 50+ states and territories via `govbot`.
 2. **Filters** it down per topic using a curated keyword model (with context and negative keywords to keep the feeds clean).
 3. **Reads the actual bill** — it downloads each candidate bill's PDF and extracts the full statutory text so summaries are grounded in the real legislation, not just the title.
 4. **Summarizes** each bill into one neutral, jargon-free sentence using a local Gemma model — *no third-party API, no key, no per-call cost*.

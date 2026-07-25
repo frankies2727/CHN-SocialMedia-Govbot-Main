@@ -95,6 +95,9 @@ US_STATES = {
     "KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ",
     "NM","NY","NC","ND","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VT",
     "VA","WA","WV","WI","WY","DC","PR","GU","VI","AS","MP",
+    # Federal (U.S. Congress). govbot tags federal bills "state:usa"; detect_state
+    # normalizes that to the "US" code used throughout this module.
+    "US",
 }
 
 STATE_FULL_NAME = {
@@ -109,6 +112,7 @@ STATE_FULL_NAME = {
     "SD":"South Dakota","TN":"Tennessee","TX":"Texas","UT":"Utah","VT":"Vermont",
     "VA":"Virginia","WA":"Washington","WV":"West Virginia","WI":"Wisconsin","WY":"Wyoming",
     "DC":"Washington D.C.","PR":"Puerto Rico",
+    "US":"U.S. Congress",
 }
 
 MAX_POST = 290
@@ -201,7 +205,12 @@ def load_normalized_bills() -> list[dict]:
 # State detection
 # ---------------------------------------------------------------------------
 
-_STATE_TAG_PATTERN = re.compile(r"\bstate:([a-z]{2})\b", re.IGNORECASE)
+# govbot tags every jurisdiction with a "state:<code>" marker in its source
+# paths — two-letter codes for the 50 states/territories/DC, and the special
+# three-letter "state:usa" for federal (U.S. Congress) bills. Match both widths
+# so federal bills aren't silently dropped (a 2-letter-only pattern skips
+# "usa"), then normalize "usa" -> "US" in detect_state.
+_STATE_TAG_PATTERN = re.compile(r"\bstate:([a-z]{2,3})\b", re.IGNORECASE)
 
 
 def _walk_strings(obj):
@@ -220,6 +229,10 @@ def detect_state(record: dict) -> str:
         m = _STATE_TAG_PATTERN.search(s)
         if m:
             code = m.group(1).upper()
+            # Federal bills carry "state:usa"; everywhere else in this module a
+            # federal bill is the 2-letter "US".
+            if code == "USA":
+                return "US"
             if code in US_STATES:
                 return code
     return ""
@@ -475,10 +488,79 @@ def _smart_case(s: str) -> str:
     return s[0].upper() + s[1:] if s[0].isalpha() else s
 
 
+# Plain-English glosses for opaque procedural action descriptions. The whole
+# bot exists to translate legalese into layman's terms, but the action line
+# still shipped raw jargon ("Ordered Engrossed", "Reported Out of Committee")
+# that means nothing to a non-wonk reader. Each gloss is a short "— what it
+# means" clause appended after the verbatim action (which stays intact in the
+# post and in the committed record for auditability). Ordered most-specific
+# first; the first pattern that matches wins.
+_ACTION_GLOSSES = [
+    (re.compile(r"\benrolled\b|\bready to enroll\b"),
+     "final text is on its way to the governor"),
+    (re.compile(r"\b(?:signature requested|(?:delivered|sent|presented|transmitted) "
+                r"to (?:the )?governor|to governor)\b"),
+     "now awaiting the governor's signature"),
+    (re.compile(r"\bengross"),
+     "the chamber's amended text is now official"),
+    (re.compile(r"\bchapter"),
+     "now law, with an official chapter number"),
+    (re.compile(r"\bpre-?filed\b"),
+     "filed before the session began"),
+    (re.compile(r"\bdo pass\b|\bought to pass\b|\breported favorabl"),
+     "a committee recommended passing it"),
+    (re.compile(r"\breported\b.*\bcommittee\b|\bout of committee\b|\bcommittee report\b"),
+     "a committee sent it to the full chamber"),
+    (re.compile(r"\bre-?referred\b|\breferred to\b"),
+     "sent to a committee to review"),
+    (re.compile(r"\bconcur"),
+     "the other chamber accepted the changes"),
+    (re.compile(r"\b(?:message received|transmitted|messaged|crossed over|"
+                r"received from (?:the )?(?:house|senate))\b"),
+     "handed to the other chamber"),
+    (re.compile(r"\bthird (?:reading|time)\b"),
+     "at the final-vote stage"),
+    (re.compile(r"\bsecond (?:reading|time)\b"),
+     "reached the debate stage"),
+    (re.compile(r"\bfirst (?:reading|time)\b"),
+     "formally introduced"),
+    (re.compile(r"\b(?:laid on the table|tabled)\b"),
+     "set aside for now"),
+    (re.compile(r"\bplaced on\b.*\bcalendar\b"),
+     "scheduled for floor action"),
+]
+
+# Actions that already read plainly (a final outcome, or a dead/withdrawn bill)
+# get no gloss — even if an incidental earlier keyword would otherwise match
+# (e.g. "Engrossed substitute ... passed" is really a passage, not engrossing).
+_ACTION_GLOSS_SKIP_RE = re.compile(
+    r"\b(passed|adopted|enacted|signed|vetoed|approved|failed|died|withdrawn|"
+    r"defeated|rejected|stricken|became law|held)\b", re.IGNORECASE)
+
+
+def action_gloss(desc: str) -> str:
+    """Short plain-English explanation of a procedural action description, or ""
+    when the action is already clear (or unrecognized). Shared by every
+    platform via format_action_line."""
+    d = (desc or "").lower()
+    if not d or _ACTION_GLOSS_SKIP_RE.search(d):
+        return ""
+    for pat, gloss in _ACTION_GLOSSES:
+        if pat.search(d):
+            return gloss
+    return ""
+
+
 def format_action_line(action_desc: str, date_yyyy_mm_dd: str) -> str:
     desc = _smart_case(_strip_trailing_date(_strip_leading_date(action_desc), date_yyyy_mm_dd))
     nice_date = _format_date(date_yyyy_mm_dd)
     if desc and nice_date:
+        gloss = action_gloss(desc)
+        if gloss:
+            # Fold the gloss in before the sentence-ending period so the line
+            # reads "<action> — <what it means>."
+            core = desc.rstrip(".!?)")
+            return f"{nice_date}: {core} — {gloss}."
         desc_with_period = desc if desc.endswith((".", "!", "?", ".)")) else desc + "."
         return f"{nice_date}: {desc_with_period}"
     return ""
@@ -1298,7 +1380,15 @@ def _post_copy(b: dict) -> dict:
     # bill that recognizes New York crypto licenses being framed "…in New
     # York"). Falls back to the bare code, then "" when the state is unknown.
     state_name = STATE_FULL_NAME.get(b.get("state") or "", b.get("state") or "")
-    home_state_line = f"This is a {state_name} bill.\n" if state_name else ""
+    # Federal bills change national law, not one state's — the "home state"
+    # anti-cross-attribution rule below is phrased possessively ("changes
+    # <state>'s own law"), which reads wrong for Congress. Flag federal so the
+    # system prompt uses a federal-specific variant instead.
+    federal = (b.get("state") or "") == "US"
+    if federal:
+        home_state_line = "This is a federal (U.S. Congress) bill.\n"
+    else:
+        home_state_line = f"This is a {state_name} bill.\n" if state_name else ""
 
     # When this bill landed in the feed because of one buried provision (an
     # omnibus bill matching a narrow topic on a single line item), the full
@@ -1335,7 +1425,7 @@ def _post_copy(b: dict) -> dict:
             json={
                 "model": LLM_MODEL,
                 "messages": [
-                    {"role": "system", "content": TOPIC.post_copy_system_prompt(amendatory=amendatory, home_state=state_name)},
+                    {"role": "system", "content": TOPIC.post_copy_system_prompt(amendatory=amendatory, home_state=state_name, federal=federal)},
                     {"role": "user", "content": user_prompt},
                 ],
                 "stream": False,
@@ -2352,7 +2442,50 @@ def _b_ok(session, ident):  # verified — oklegislature.gov BillInfo
             f"?Bill={typ}{num}&Session={year[-2:]}{sess_no}")
 
 
+def _ordinal(n: int) -> str:
+    """1 -> '1st', 119 -> '119th', 121 -> '121st', 122 -> '122nd', 123 -> '123rd'."""
+    if 10 <= (n % 100) <= 20:
+        suffix = "th"
+    else:
+        suffix = {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
+    return f"{n}{suffix}"
+
+
+# congress.gov path slug for each federal bill/resolution type. Keys are the
+# uppercased identifier prefix as it arrives from govbot ("HR 1234", "S 1379",
+# "HJRES 5", "SCONRES 12"). "HB"/"SB" are accepted too in case a source
+# normalizes the chambers that way.
+_CONGRESS_TYPE_SLUGS = {
+    "HR": "house-bill",
+    "HB": "house-bill",
+    "S": "senate-bill",
+    "SB": "senate-bill",
+    "HRES": "house-resolution",
+    "SRES": "senate-resolution",
+    "HJRES": "house-joint-resolution",
+    "SJRES": "senate-joint-resolution",
+    "HCONRES": "house-concurrent-resolution",
+    "SCONRES": "senate-concurrent-resolution",
+}
+
+
+def _b_us(session, ident):  # verified — congress.gov canonical bill URL
+    # Federal bills. govbot's legislative_session for Congress is the plain
+    # congress number ("119"); congress.gov URLs spell it as an ordinal
+    # ("119th-congress") and slug the chamber/type ("HR 1234" -> house-bill/1234).
+    congress = _leading_int(session)
+    typ, num = _split_ident(ident)
+    if not (congress and typ and num):
+        return None
+    slug = _CONGRESS_TYPE_SLUGS.get(typ)
+    if not slug:
+        return None
+    return (f"https://www.congress.gov/bill/{_ordinal(int(congress))}-congress/"
+            f"{slug}/{num}")
+
+
 STATE_BILL_URL_BUILDERS = {
+    "US": _b_us,
     "CA": _b_ca,
     "FL": _b_fl, "IN": _b_in, "IA": _b_ia, "LA": _b_la, "MI": _b_mi, "NY": _b_ny,
     "MA": _b_ma, "OH": _b_oh, "WI": _b_wi, "NC": _b_nc, "NJ": _b_nj,
@@ -2422,6 +2555,7 @@ STATE_LEGISLATURE_URLS = {
     "WY": "https://www.wyoleg.gov/",
     "DC": "https://lims.dccouncil.gov/",
     "PR": "https://www.oslpr.org/",
+    "US": "https://www.congress.gov/",
 }
 
 

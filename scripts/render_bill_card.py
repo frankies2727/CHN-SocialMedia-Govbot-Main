@@ -193,7 +193,7 @@ STATE_FULL_NAME = {
     "SD": "South Dakota", "TN": "Tennessee", "TX": "Texas", "UT": "Utah",
     "VT": "Vermont", "VA": "Virginia", "WA": "Washington", "WV": "West Virginia",
     "WI": "Wisconsin", "WY": "Wyoming", "DC": "District of Columbia",
-    "PR": "Puerto Rico",
+    "PR": "Puerto Rico", "US": "U.S. Congress",
 }
 
 MONTHS = ["", "January", "February", "March", "April", "May", "June",

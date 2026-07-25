@@ -108,7 +108,10 @@ def parse_record(raw: str) -> dict | None:
     return {"state": state, "bill": bill, "date": date, "action": action}
 
 
-STATE_RE = re.compile(r"state:([a-z]{2})")
+# Two-letter jurisdiction codes for the states/territories/DC, plus the special
+# three-letter "state:usa" that govbot uses for federal (U.S. Congress) bills —
+# normalized to "US" to match detect_state() in post_to_bluesky.py.
+STATE_RE = re.compile(r"state:([a-z]{2,3})")
 
 
 def clean(text: str) -> str:
@@ -130,7 +133,11 @@ def feed_item(path: Path, folder: str, topic_key: str) -> dict | None:
     action = d.get("log", {}).get("action", {})
     src = d.get("sources", {}).get("bill", "")
     m = STATE_RE.search(src)
-    state = (m.group(1).upper() if m else path.name[:2].upper())
+    if m:
+        code = m.group(1).upper()
+        state = "US" if code == "USA" else code
+    else:
+        state = path.name[:2].upper()
     identifier = bill.get("identifier") or d.get("id") or ""
     date = (action.get("date") or d.get("timestamp") or "")[:10]
     if not DATE_RE.match(date):

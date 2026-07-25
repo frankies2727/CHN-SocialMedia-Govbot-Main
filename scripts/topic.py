@@ -482,7 +482,8 @@ class Topic:
 
     def post_copy_system_prompt(self, max_chars: int = 240,
                                 amendatory: bool = False,
-                                home_state: str = "") -> str:
+                                home_state: str = "",
+                                federal: bool = False) -> str:
         """Combined prompt that produces the post's headline AND its blurb in a
         single call (see _post_copy in post_to_bluesky.py). Asking for both at
         once — with an explicit rule that the blurb must not restate the
@@ -505,19 +506,36 @@ class Topic:
         # licenses). Anchor every bill to its own state so the post never frames
         # it around a different one. The bill's own state already appears in the
         # post header, so neither field should name it either.
-        home_state_rule = (
-            f"This is a {home_state} bill — it changes {home_state}'s own law and "
-            f"programs. Write the headline and summary about what {home_state} is "
-            f"doing. The text may mention OTHER U.S. states incidentally (for "
-            f"example, recognizing another state's license or citing another "
-            f"state's law as a model) — never present the bill as being about, "
-            f"located in, or enacted by a different state, and never put any "
-            f"other state's name in the headline. {home_state} is already shown "
-            f"in the post header, so do not put '{home_state}' in the headline "
-            f"or summary either. "
-            if home_state
-            else ""
-        )
+        if federal:
+            # Federal (U.S. Congress) bill: national law, not one state's. Keep
+            # the anti-cross-attribution guard (federal text still cites
+            # individual states) but drop the possessive "<state>'s own law"
+            # phrasing that only fits a single-state bill.
+            home_state_rule = (
+                "This is a FEDERAL bill in the U.S. Congress — it changes national "
+                "law and federal programs. Write the headline and summary about "
+                "what Congress is doing nationally. The text may mention individual "
+                "U.S. states incidentally (for example, citing a state's law as a "
+                "model or naming where a program runs) — never present the bill as "
+                "being about, located in, or enacted by a single state, and never "
+                "put a state's name in the headline as if it owned the bill. 'US' "
+                "already appears in the post header, so do not put 'Congress', "
+                "'federal', 'U.S.', or 'United States' in the headline or summary. "
+            )
+        else:
+            home_state_rule = (
+                f"This is a {home_state} bill — it changes {home_state}'s own law and "
+                f"programs. Write the headline and summary about what {home_state} is "
+                f"doing. The text may mention OTHER U.S. states incidentally (for "
+                f"example, recognizing another state's license or citing another "
+                f"state's law as a model) — never present the bill as being about, "
+                f"located in, or enacted by a different state, and never put any "
+                f"other state's name in the headline. {home_state} is already shown "
+                f"in the post header, so do not put '{home_state}' in the headline "
+                f"or summary either. "
+                if home_state
+                else ""
+            )
         return (
             f"You write social-media copy about US legislative bills for a "
             f"civic-engagement bot focused on {self.prompt_topic}. You are given the "
