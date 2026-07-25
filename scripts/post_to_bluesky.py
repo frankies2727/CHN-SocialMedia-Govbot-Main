@@ -488,79 +488,10 @@ def _smart_case(s: str) -> str:
     return s[0].upper() + s[1:] if s[0].isalpha() else s
 
 
-# Plain-English glosses for opaque procedural action descriptions. The whole
-# bot exists to translate legalese into layman's terms, but the action line
-# still shipped raw jargon ("Ordered Engrossed", "Reported Out of Committee")
-# that means nothing to a non-wonk reader. Each gloss is a short "— what it
-# means" clause appended after the verbatim action (which stays intact in the
-# post and in the committed record for auditability). Ordered most-specific
-# first; the first pattern that matches wins.
-_ACTION_GLOSSES = [
-    (re.compile(r"\benrolled\b|\bready to enroll\b"),
-     "final text is on its way to the governor"),
-    (re.compile(r"\b(?:signature requested|(?:delivered|sent|presented|transmitted) "
-                r"to (?:the )?governor|to governor)\b"),
-     "now awaiting the governor's signature"),
-    (re.compile(r"\bengross"),
-     "the chamber's amended text is now official"),
-    (re.compile(r"\bchapter"),
-     "now law, with an official chapter number"),
-    (re.compile(r"\bpre-?filed\b"),
-     "filed before the session began"),
-    (re.compile(r"\bdo pass\b|\bought to pass\b|\breported favorabl"),
-     "a committee recommended passing it"),
-    (re.compile(r"\breported\b.*\bcommittee\b|\bout of committee\b|\bcommittee report\b"),
-     "a committee sent it to the full chamber"),
-    (re.compile(r"\bre-?referred\b|\breferred to\b"),
-     "sent to a committee to review"),
-    (re.compile(r"\bconcur"),
-     "the other chamber accepted the changes"),
-    (re.compile(r"\b(?:message received|transmitted|messaged|crossed over|"
-                r"received from (?:the )?(?:house|senate))\b"),
-     "handed to the other chamber"),
-    (re.compile(r"\bthird (?:reading|time)\b"),
-     "at the final-vote stage"),
-    (re.compile(r"\bsecond (?:reading|time)\b"),
-     "reached the debate stage"),
-    (re.compile(r"\bfirst (?:reading|time)\b"),
-     "formally introduced"),
-    (re.compile(r"\b(?:laid on the table|tabled)\b"),
-     "set aside for now"),
-    (re.compile(r"\bplaced on\b.*\bcalendar\b"),
-     "scheduled for floor action"),
-]
-
-# Actions that already read plainly (a final outcome, or a dead/withdrawn bill)
-# get no gloss — even if an incidental earlier keyword would otherwise match
-# (e.g. "Engrossed substitute ... passed" is really a passage, not engrossing).
-_ACTION_GLOSS_SKIP_RE = re.compile(
-    r"\b(passed|adopted|enacted|signed|vetoed|approved|failed|died|withdrawn|"
-    r"defeated|rejected|stricken|became law|held)\b", re.IGNORECASE)
-
-
-def action_gloss(desc: str) -> str:
-    """Short plain-English explanation of a procedural action description, or ""
-    when the action is already clear (or unrecognized). Shared by every
-    platform via format_action_line."""
-    d = (desc or "").lower()
-    if not d or _ACTION_GLOSS_SKIP_RE.search(d):
-        return ""
-    for pat, gloss in _ACTION_GLOSSES:
-        if pat.search(d):
-            return gloss
-    return ""
-
-
 def format_action_line(action_desc: str, date_yyyy_mm_dd: str) -> str:
     desc = _smart_case(_strip_trailing_date(_strip_leading_date(action_desc), date_yyyy_mm_dd))
     nice_date = _format_date(date_yyyy_mm_dd)
     if desc and nice_date:
-        gloss = action_gloss(desc)
-        if gloss:
-            # Fold the gloss in before the sentence-ending period so the line
-            # reads "<action> — <what it means>."
-            core = desc.rstrip(".!?)")
-            return f"{nice_date}: {core} — {gloss}."
         desc_with_period = desc if desc.endswith((".", "!", "?", ".)")) else desc + "."
         return f"{nice_date}: {desc_with_period}"
     return ""
