@@ -3,12 +3,19 @@
 Full bill-text extraction for the govbot-bluesky pipeline.
 
 The records govbot dumps into ``bills.jsonl`` only carry *metadata* (title,
-abstract, sponsors, action descriptions). The actual legislative body of each
-bill lives as a PDF (occasionally HTML) referenced inside the bill's on-disk
-``metadata.json`` under ``versions[].links[]`` with
-``media_type: "application/pdf"``. This module bridges that gap: given a
-record's ``sources.bill`` path, it locates the metadata, finds the document
-link, downloads it, and extracts clean plain text via ``pdftotext`` (poppler).
+abstract, sponsors, action descriptions). This module bridges that gap to the
+bill's actual legislative body, given a record's ``sources.bill`` path:
+
+1. **Preferred — govbot's pre-extracted text.** Current govbot runs its own
+   text extraction and commits the result into each bill's sibling ``files/``
+   directory (``{bill_id}_text_extracted.txt``), so a ``govbot clone`` already
+   ships clean bill text. When that file is present we read it straight off
+   disk — no network, no ``pdftotext``, and none of the PDF-download/extract
+   failures that used to leave a bill without a grounded summary.
+2. **Fallback — download + extract.** For older clone layouts that lack the
+   ``files/`` directory, it locates the document link inside ``metadata.json``
+   (``versions[].links[]`` with ``media_type: "application/pdf"``), downloads
+   it, and extracts clean plain text via ``pdftotext`` (poppler).
 
 This is the downstream Python implementation of the idea behind upstream issue
 chihacknight/govbot#31 ("Extract full bill text from PDFs for RAG"). It runs
@@ -146,6 +153,41 @@ def resolve_metadata_path(sources_bill: str, root: Path = ROOT) -> Path | None:
         except OSError:
             continue
     return None
+
+
+def find_extracted_text_file(metadata_path: Path) -> Path | None:
+    """Locate govbot's pre-extracted full text sitting next to ``metadata.json``.
+
+    The current govbot architecture runs its own text extraction and commits the
+    result into each bill's sibling ``files/`` directory, so a ``govbot clone``
+    already ships clean bill text — no PDF download or ``pdftotext`` needed. The
+    main bill body is ``{bill_id}_text_extracted.txt``; amendment versions are
+    ``{bill_id}_{amendment_id}_extracted.txt`` (both end in ``_extracted.txt``).
+    metadata.json carries no pointer to these, so we locate them by convention.
+
+    Returns the best (main-body-first) extracted-text Path, or ``None`` when the
+    ``files/`` dir or an extracted file is absent (older clone layout → caller
+    falls back to the PDF-download path)."""
+    files_dir = metadata_path.parent / "files"
+    if not files_dir.is_dir():
+        return None
+    try:
+        candidates = sorted(p for p in files_dir.glob("*_extracted.txt") if p.is_file())
+    except OSError:
+        return None
+    if not candidates:
+        return None
+    # Prefer the canonical whole-bill text over amendment fragments: the exact
+    # "{bill_id}_text_extracted.txt", then any "*_text_extracted.txt", then the
+    # first file alphabetically as a last resort.
+    bill_id = metadata_path.parent.name
+    exact = files_dir / f"{bill_id}_text_extracted.txt"
+    if exact.is_file():
+        return exact
+    for c in candidates:
+        if c.name.endswith("_text_extracted.txt"):
+            return c
+    return candidates[0]
 
 
 def find_document_link(metadata_path: Path) -> tuple[str, str] | None:
@@ -367,16 +409,38 @@ def extract_bill_text(sources_bill: str, root: Path = ROOT) -> str | None:
 def extract_bill_text_verbose(sources_bill: str, root: Path = ROOT) -> tuple[str | None, str]:
     """Like ``extract_bill_text`` but also returns a short reason string so the
     caller can log why full text was or wasn't used. Reasons:
-    ``ok`` | ``no-sources-path`` | ``metadata-not-found`` | ``no-document-link``
-    | ``download-failed`` | ``pdftotext-missing`` | ``extract-failed`` |
-    ``empty-after-clean``. Uses an in-process memo plus an on-disk
-    content-addressed cache keyed on the document URL."""
+    ``ok`` | ``ok-extracted-file`` | ``no-sources-path`` |
+    ``metadata-not-found`` | ``no-document-link`` | ``download-failed`` |
+    ``pdftotext-missing`` | ``extract-failed`` | ``empty-after-clean``. Uses an
+    in-process memo plus an on-disk content-addressed cache keyed on the
+    document URL."""
     if not sources_bill:
         return None, "no-sources-path"
 
     metadata_path = resolve_metadata_path(sources_bill, root=root)
     if metadata_path is None:
         return None, "metadata-not-found"
+
+    # Prefer govbot's pre-extracted text committed beside the bill: it's already
+    # on disk from the clone, so it skips the PDF download + pdftotext entirely
+    # (no more download/extract failures leaving a bill summary-less) and needs
+    # no poppler on the runner. Fall through to the PDF path only when the new
+    # files/ layout isn't present (older clone) or the extracted file is empty.
+    extracted_path = find_extracted_text_file(metadata_path)
+    if extracted_path is not None:
+        memo_key = f"file://{extracted_path}"
+        if memo_key in _run_memo:
+            return _run_memo[memo_key]
+        try:
+            raw_extracted = extracted_path.read_text(encoding="utf-8", errors="replace")
+        except OSError:
+            raw_extracted = ""
+        text_extracted = clean_bill_text(raw_extracted)
+        if text_extracted:
+            result = (text_extracted, "ok-extracted-file")
+            _run_memo[memo_key] = result
+            return result
+        # Empty extracted file → fall back to the download path below.
 
     link = find_document_link(metadata_path)
     if link is None:
@@ -454,6 +518,7 @@ def main(argv: list[str]) -> int:
     print(f"resolved metadata: {meta}")
     if meta is None:
         return 1
+    print(f"pre-extracted text file: {find_extracted_text_file(meta)}")
     link = find_document_link(meta)
     print(f"document link: {link}")
     text, reason = extract_bill_text_verbose(sources_bill)
