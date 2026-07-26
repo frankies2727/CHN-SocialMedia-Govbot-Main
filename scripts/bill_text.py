@@ -61,11 +61,12 @@ USER_AGENT = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
 
 # Ordered candidate base directories for resolving a ``sources.bill`` path like
 # "il-legislation/country:us/state:il/sessions/104th/bills/SB1696/metadata.json".
-# govbot clones into ``~/.govbot/repos`` (per the govbot docs:
-# ``~/.govbot/repos/**/bills/*/metadata.json``), so that is the primary base.
-# Several fallbacks follow so a different layout still resolves. Override with
-# the GOVBOT_DATA_ROOT env var. This is the single most fragile assumption in
-# the module, so it is deliberately forgiving.
+# The current govbot CLI clones into ``<cwd>/govbot_data/repos`` (the govbot-bills
+# action runs from the repo checkout, so that resolves to ``ROOT/govbot_data/
+# repos/**/bills/*/metadata.json``); older versions used ``~/.govbot/repos``.
+# Both are tried, newest layout first. Override with the GOVBOT_DATA_ROOT env
+# var. This is the single most fragile assumption in the module, so it is
+# deliberately forgiving.
 _HOME = Path.home()
 
 
@@ -75,6 +76,13 @@ def _candidate_bases() -> list[Path]:
     if env_root:
         bases.append(Path(env_root).expanduser())
     bases += [
+        # Current govbot: ./govbot_data/repos relative to where `govbot clone`
+        # ran (the repo checkout in CI, i.e. ROOT).
+        ROOT / "govbot_data" / "repos",
+        ROOT / "govbot_data",
+        Path("govbot_data") / "repos",
+        Path.cwd() / "govbot_data" / "repos",
+        # Older govbot layout.
         _HOME / ".govbot" / "repos",
         _HOME / ".govbot",
         ROOT,

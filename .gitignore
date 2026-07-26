@@ -14,3 +14,8 @@ docs/*
 
 # Cached full bill text extracted from PDFs (regenerated each run)
 .bill_text_cache/
+
+# govbot's cloned legislative repos (huge, re-cloned each run). Current govbot
+# clones into ./govbot_data/repos; older versions used ~/.govbot.
+govbot_data/
+.govbot/
