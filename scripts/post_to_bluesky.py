@@ -2498,11 +2498,11 @@ STATE_LEGISLATURE_URLS = {
 #
 # The other entries are states whose official bill pages key off an opaque
 # internal id (Illinois' LegId, Delaware's LegislationId, New Hampshire's id,
-# Missouri's billid) that OpenStates never exposed — so those states fell back
-# to a LegiScan deep link (see _b_il/_b_de/_b_nh/_b_mo). govbot now carries the
-# official state URL in each action's sources, so trust it and only drop to the
-# LegiScan builder when the feed has no official link. (Maine has no official
-# per-bill URL in the feed yet, so it stays on the LegiScan fallback.)
+# Missouri's billid, Maine's LawMakerWeb ID) that OpenStates never exposed — so
+# those states fell back to a LegiScan deep link (see _b_il/_b_de/_b_nh/_b_mo/
+# _b_me). govbot now carries the official state URL in each action's sources, so
+# trust it and only drop to the LegiScan builder when the feed has no official
+# link.
 #
 # Only trust source URLs that match the state's known public bill-page pattern,
 # so API, WSDL, bulk-data, or bare-homepage source URLs never leak into a post.
@@ -2531,6 +2531,12 @@ _TRUSTED_SOURCE_URL_RE = {
     # both keyed on a year + internal billid.
     "MO": re.compile(
         r"^https?://(?:www\.)?(?:house|senate)\.mo\.gov/\S*bill",
+        re.IGNORECASE,
+    ),
+    # Maine — official LawMakerWeb bill summary (keyed on an internal ID), e.g.
+    # legislature.maine.gov/LawMakerWeb/summary.asp?ID=280100956.
+    "ME": re.compile(
+        r"^https?://(?:www\.)?legislature\.maine\.gov/LawMakerWeb/",
         re.IGNORECASE,
     ),
 }
