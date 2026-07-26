@@ -83,7 +83,6 @@ keywords:
   - digital asset exchange
   - virtual asset service provider
   - VASP
-  - money transmitter
   - bitcoin
   - ethereum
   - non-fungible token
@@ -104,6 +103,18 @@ keywords:
   #- data privacy
   #- consumer data
   #- personal data
+
+# Money-services licensing terms are how crypto/digital-asset firms get
+# regulated, but the categories long predate and extend well beyond crypto
+# (remittances, check cashing, prepaid cards, charitable round-ups — e.g. IL
+# "MONEY TRANSMITTER DREAM DONATE", a scholarship-fund donation bill). So they
+# are CONTEXT keywords, not core: they only pull a bill into this feed when a
+# genuine crypto keyword (virtual currency, digital asset, stablecoin, …) also
+# appears, never on their own.
+context_keywords:
+  - money transmitter
+  - money transmission
+  - money services business
 
 emojis:
   - emoji: "🧠"
@@ -162,7 +173,6 @@ keyword_groups:
     - digital asset exchange
     - virtual asset service provider
     - VASP
-    - money transmitter
     - bitcoin
     - ethereum
     - non-fungible token
