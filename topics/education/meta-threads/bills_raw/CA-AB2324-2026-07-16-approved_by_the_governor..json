@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law authorizes school districts that maintain high schools to establish work experience programs for the purpose of providing pupils with instruction in skills, attitudes, and understandings necessary for success in employment. Existing law requires the Superintendent of Public Instruction to coordinate the development, on a cyclical basis, of model curriculum standards for required courses of study, including a career technical education course of study for pupils in grades 7 to 12, inclusive, as specified.\n\nThis bill would, at the next revision of the California Career Technical Education Model Curriculum Standards, require the State Department of Education to consider adding content on the role of youth caregivers within the Personal Care and Services career pathway, as provided. The bill would require, by July 1, 2028, the department to provide guidance for the implementation of the Personal Care and Services career pathway, and would explicitly authorize certain types of guidance, including (1) a focus on skills specific to Personal Care and Services occupations, including, but not limited to, in-home caregiving for youth caregivers supporting household family members, and (2) eligibility for youth caregivers caring for a family member in the family member's home for credits through work experience education programs, as provided.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2324",
+    "legislative_session": "20252026",
+    "subject": [
+      "Vocationaleducation",
+      "youthcaregivers"
+    ],
+    "title": "Vocational education: youth caregivers."
+  },
+  "id": "AB2324",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-07-16",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2324"
+        }
+      ]
+    },
+    "bill_id": "AB2324"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2324/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2324/logs/20260716T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260716T000000Z",
+  "posted_text": "🏫 Education\nCA AB2324 — Career Tech Standards Expand to Include Youth Caregivers\n\nThe state will update its Career Technical Education standards to recognize the vital role of youth caregivers by incorporating in-home caregiving skills into the Personal Care and Services pathway. Guidance and eligibility for credits will be provided by July 1, 2028, for youth caregivers supporting family members.\n\nJuly 16, 2026: Approved by the Governor.",
+  "posted_link": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2324",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DbPIUAGiba9"
+}
