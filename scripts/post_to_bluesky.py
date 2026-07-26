@@ -1861,19 +1861,22 @@ def _b_pa(session, ident):  # verified — palegis.us (PA's current site)
     return f"https://www.palegis.us/legislation/bills/{year}/{typ.lower()}{num}"
 
 
-def _b_ak(session, ident):  # verified — akleg.gov basis/Bill/Detail
-    # Alaska's URL uses the calendar year of the session. OpenStates often
-    # encodes Alaska sessions as the legislature number ("34" = 2025-2026);
-    # the Nth Alaska Legislature convenes in calendar year 1957 + 2*N.
-    year = _first_year(session)
-    if not year:
-        m = re.match(r"\s*(\d{1,2})\b", session or "")
-        if m:
-            year = str(1957 + 2 * int(m.group(1)))
+def _b_ak(session, ident):  # verified — akleg.gov keys the path on the LEGISLATURE number
+    # Alaska's bill URL is /basis/Bill/Detail/<leg#>?Root=<TYPE><NUM>, where
+    # <leg#> is the Alaska Legislature NUMBER (34 = 2025-2026), NOT the calendar
+    # year — the /Detail/2025 form does not load. OpenStates/govbot carry the
+    # session as that number already ("34"); if a 4-digit calendar year shows up
+    # instead, map it back: the Nth legislature convenes in 1957 + 2*N, so
+    # N = (year - 1957) // 2.
     typ, num = _split_ident(ident)
-    if not (year and typ and num):
+    if not (typ and num):
         return None
-    return f"https://www.akleg.gov/basis/Bill/Detail/{year}?Root={typ}{num}"
+    leg = _leading_int(session)
+    if leg and len(leg) == 4:
+        leg = str((int(leg) - 1957) // 2)
+    if not leg:
+        return None
+    return f"https://www.akleg.gov/basis/Bill/Detail/{leg}?Root={typ}{num}"
 
 
 def _b_or(session, ident):  # verified — olis.oregonlegislature.gov Measures/Overview
