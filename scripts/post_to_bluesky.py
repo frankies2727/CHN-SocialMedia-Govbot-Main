@@ -1834,42 +1834,31 @@ def _b_ks(session, ident):  # verified — kslegislature.gov biennium URL
     return f"https://www.kslegislature.gov/b{y}_{next_yy}/{path}/{typ.lower()}{num}/"
 
 
-def _b_pr(session, ident):  # best-effort — openstates.org canonical PR bill URL
-    # Puerto Rico's official tracker (sutra.oslpr.org) keys every measure by
-    # an internal record ID we can't derive from the bill number, so we deep-
-    # link to OpenStates' PR mirror instead. OpenStates URLs are
-    # https://openstates.org/pr/bills/<SESSION>/<IDENT>/ where SESSION is the
-    # 4-year cuatrenio (e.g. "2025-2028") and IDENT is the bill type +
-    # number without leading zeros ("PS934", not "PS0934"). PR legislatures
-    # convene every four years starting in odd calendar years, so any year
-    # in the session string maps back to the cuatrenio's odd start year.
-    year = _first_year(session)
-    if not year:
-        return None
-    y1 = int(year)
-    if y1 % 2 == 0:
-        y1 -= 1
-    cuatrenio = f"{y1}-{y1 + 3}"
-    m = re.match(r"\s*([A-Za-z]+)\s*0*(\d+)\s*$", (ident or "").strip())
-    if not m:
-        return None
-    typ, num = m.group(1).upper(), m.group(2)
-    return f"https://openstates.org/pr/bills/{cuatrenio}/{typ}{num}/"
+def _b_pr(session, ident):  # official oslpr.org homepage fallback
+    # Puerto Rico's official tracker (sutra.oslpr.org) keys every measure by an
+    # internal record ID we can't derive from the bill number, and govbot now
+    # carries that official sutra.oslpr.org URL in the feed (see
+    # _TRUSTED_SOURCE_URL_RE, which link_for prefers). We deliberately do NOT
+    # build an openstates.org link here — that's a third-party aggregator, not
+    # the official site — so when the feed has no sutra URL we fall through to
+    # the official oslpr.org homepage instead.
+    return None
 
 
-def _b_pa(session, ident):  # verified — legis.state.pa.us cfdocs billInfo form
-    # PA identifiers are HB/SB/HR/SR + number. Chamber is the first letter
-    # of the prefix, the rest is the bill type (B for bills, R for resolutions).
+def _b_pa(session, ident):  # verified — palegis.us (PA's current site)
+    # Pennsylvania retired legis.state.pa.us and moved to www.palegis.us, whose
+    # per-bill URL is a clean /legislation/bills/<year>/<typ><num> path (e.g.
+    # HB 2499 of 2025 -> .../legislation/bills/2025/hb2499). govbot carries this
+    # official URL in the feed too (see _TRUSTED_SOURCE_URL_RE); this builder is
+    # the fallback when a record has no source URL. PA identifiers are
+    # HB/SB/HR/SR + number; the type goes lowercase in the path.
     year = _first_year(session)
     typ, num = _split_ident(ident)
     if not (year and typ and num):
         return None
-    body = typ[0]
-    if body not in ("H", "S"):
+    if typ[0] not in ("H", "S"):
         return None
-    btype = typ[1:] or "B"
-    return ("https://www.legis.state.pa.us/cfdocs/billInfo/billInfo.cfm"
-            f"?sYear={year}&sInd=0&body={body}&type={btype}&bn={num}")
+    return f"https://www.palegis.us/legislation/bills/{year}/{typ.lower()}{num}"
 
 
 def _b_ak(session, ident):  # verified — akleg.gov basis/Bill/Detail
@@ -2537,6 +2526,18 @@ _TRUSTED_SOURCE_URL_RE = {
     # legislature.maine.gov/LawMakerWeb/summary.asp?ID=280100956.
     "ME": re.compile(
         r"^https?://(?:www\.)?legislature\.maine\.gov/LawMakerWeb/",
+        re.IGNORECASE,
+    ),
+    # Puerto Rico — official SUTRA tracker (keyed on an internal medida ID we
+    # can't derive; _b_pr only knows the oslpr.org homepage).
+    "PR": re.compile(
+        r"^https?://(?:www\.)?sutra\.oslpr\.org/",
+        re.IGNORECASE,
+    ),
+    # Pennsylvania — current palegis.us bill page (the derivable form the
+    # rebuilt _b_pa also targets; trust the exact feed URL, incl. resolutions).
+    "PA": re.compile(
+        r"^https?://(?:www\.)?palegis\.us/legislation/",
         re.IGNORECASE,
     ),
 }
