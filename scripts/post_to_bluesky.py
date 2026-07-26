@@ -2494,12 +2494,43 @@ STATE_LEGISLATURE_URLS = {
 # anything we can reconstruct from (session, identifier). Michigan is the clear
 # case: its bill page keys off the calendar YEAR the bill was introduced, which
 # for a 2-year session ("2025-2026") can be either year and isn't derivable from
-# the bill number — but the feed carries the correct ObjectName URL. Only trust
-# source URLs that match the state's known public bill-page pattern, so API,
-# WSDL, bulk-data, or bare-homepage source URLs never leak into a post.
+# the bill number — but the feed carries the correct ObjectName URL.
+#
+# The other entries are states whose official bill pages key off an opaque
+# internal id (Illinois' LegId, Delaware's LegislationId, New Hampshire's id,
+# Missouri's billid) that OpenStates never exposed — so those states fell back
+# to a LegiScan deep link (see _b_il/_b_de/_b_nh/_b_mo). govbot now carries the
+# official state URL in each action's sources, so trust it and only drop to the
+# LegiScan builder when the feed has no official link. (Maine has no official
+# per-bill URL in the feed yet, so it stays on the LegiScan fallback.)
+#
+# Only trust source URLs that match the state's known public bill-page pattern,
+# so API, WSDL, bulk-data, or bare-homepage source URLs never leak into a post.
 _TRUSTED_SOURCE_URL_RE = {
     "MI": re.compile(
         r"^https?://(?:www\.)?legislature\.mi\.gov/Bills/Bill\?ObjectName=\S+",
+        re.IGNORECASE,
+    ),
+    # Illinois — official ilga.gov bill-status page (carries the LegId we can't derive).
+    "IL": re.compile(
+        r"^https?://(?:www\.)?ilga\.gov/Legislation/BillStatus\b",
+        re.IGNORECASE,
+    ),
+    # Delaware — legis.delaware.gov BillDetail (keyed on LegislationId).
+    "DE": re.compile(
+        r"^https?://(?:www\.)?legis\.delaware\.gov/BillDetail\b",
+        re.IGNORECASE,
+    ),
+    # New Hampshire — General Court bill_status page (gc.nh.gov, formerly
+    # gencourt.state.nh.us), keyed on an internal id.
+    "NH": re.compile(
+        r"^https?://(?:www\.)?(?:gc\.nh\.gov|gencourt\.state\.nh\.us)/bill_status/",
+        re.IGNORECASE,
+    ),
+    # Missouri — House BillContent.aspx and Senate BillTracking BillInformation,
+    # both keyed on a year + internal billid.
+    "MO": re.compile(
+        r"^https?://(?:www\.)?(?:house|senate)\.mo\.gov/\S*bill",
         re.IGNORECASE,
     ),
 }
