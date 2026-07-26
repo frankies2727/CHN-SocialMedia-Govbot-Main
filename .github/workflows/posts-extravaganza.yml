@@ -135,7 +135,12 @@ jobs:
           states="$(echo "$INPUT_STATES" | tr ',' ' ' | tr '[:upper:]' '[:lower:]' | xargs || true)"
           if [ -z "$states" ]; then
             echo "clone_target=all"  >> "$GITHUB_OUTPUT"
-            echo "shared_cache=true"  >> "$GITHUB_OUTPUT"   # a full clone can reuse the daily shared dump
+            # shared-cache OFF: this run's log-limit (8200) never matches the
+            # daily posters' dump (55200), so it could only reuse a same-day
+            # weekly-digest dump — and reusing any dump SKIPS the clone, which
+            # leaves no on-disk metadata/files and forces summarize() back to the
+            # abstract. Cloning fresh keeps govbot's committed full text on disk.
+            echo "shared_cache=false" >> "$GITHUB_OUTPUT"
             # A national pull stays bounded + relevance-filtered like the digests,
             # so an all-states run doesn't dump millions of unfiltered records.
             echo "log_limit=8200" >> "$GITHUB_OUTPUT"

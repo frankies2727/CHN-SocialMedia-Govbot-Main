@@ -85,10 +85,16 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Install govbot, fetch all supported states, dump JSONL
-        # Resilient install (retries the daily-republished upstream nightly) plus
-        # a per-day shared bills.jsonl cache. See .github/actions/govbot-bills.
+        # Resilient install (retries the daily-republished upstream nightly).
+        # shared-cache is OFF: all four weekly digests run Friday with the same
+        # log-limit (8200), so with it on only the first would clone and the rest
+        # would reuse that dump and SKIP the clone — leaving no on-disk metadata
+        # or files/ dir, forcing summarize()/shorten_title() to fall back to the
+        # bill abstract. Cloning fresh keeps govbot's committed full text on disk
+        # so digest summaries stay grounded. See .github/actions/govbot-bills.
         uses: ./.github/actions/govbot-bills
         with:
+          shared-cache: "false"
           log-limit: "8200"
 
       - name: Cache Ollama model
