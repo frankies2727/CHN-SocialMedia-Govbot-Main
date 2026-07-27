@@ -1,5 +1,8 @@
 {
   "posted": [
+    "AK|HB265|2026-07-03",
+    "AK|HB265|2026-07-03|(H) LINE ITEM VETO AND REDUCTIONS",
+    "AK|HB265|2026-07-03|(H) Signed into law 6/24 CHAPTER 36 SLA ",
     "AK|HB35|2025-08-19|(H) EFFECTIVE DATE(S) OF LAW 11/5/25",
     "AL|HB311|2026-04-17|Enacted",
     "AL|HB536|2026-04-03|Enacted",
@@ -271,6 +274,8 @@
     "TN|HR 0141|2026-01-14|Enrolled; ready for sig. of H. Speaker.",
     "TN|SB 1476|2026-01-15|Recalled from Senate Judiciary Committee",
     "TN|SB 1476|2026-01-15|Withdrawn.",
+    "US|HR 9591|2026-07-06",
+    "US|HR 9591|2026-07-06|Referred to the Committee on the Judicia",
     "WA|HB 2165|2026-03-11|President signed.",
     "WA|HB 2165|2026-03-11|Speaker signed.",
     "WA|HB 2165|2026-03-12|Delivered to Governor.",
@@ -287,10 +292,10 @@
     "WA|SB 6080|2026-03-12|By resolution, returned to Senate Rules ",
     "WY|HB0327|2025-03-04|H:Died in Committee Returned Bill Pursua"
   ],
-  "last_run": "2026-07-24T15:15:44.503346+00:00",
+  "last_run": "2026-07-27T16:26:44.155014+00:00",
   "state_last_posted": {
     "DE": "2026-07-13T10:17:19.168491+00:00",
-    "AK": "2026-05-16T02:55:29.130660+00:00",
+    "AK": "2026-07-27T16:21:07.470995+00:00",
     "CA": "2026-07-13T10:17:19.168491+00:00",
     "WY": "2026-05-16T04:25:25.886287+00:00",
     "MA": "2026-07-12T08:55:23.892876+00:00",
@@ -313,6 +318,7 @@
     "NY": "2026-07-21T09:43:25.773696+00:00",
     "MI": "2026-07-22T15:21:40.840805+00:00",
     "IL": "2026-07-22T15:21:40.840805+00:00",
-    "PA": "2026-07-24T15:14:10.869883+00:00"
+    "PA": "2026-07-24T15:14:10.869883+00:00",
+    "US": "2026-07-27T16:21:07.470995+00:00"
   }
 }

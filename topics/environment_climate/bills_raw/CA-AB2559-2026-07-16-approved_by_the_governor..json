@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the California Integrated Waste Management Act of 1989, administered by the Department of Resources Recycling and Recovery, establishes an integrated waste management program and requires the department to adopt rules and regulations, as necessary, to carry out the act. Existing law requires each city, county, and regional agency, if any, to develop a source reduction and recycling element, household hazardous waste element, and nondisposal facility element of an integrated waste management plan. The act requires the source reduction and recycling element to divert from disposal 50% of all solid waste subject to the element through source reduction, recycling, and composting activities, with specified exceptions.\n\nThis bill would require a city or county that requires a refundable deposit, performance security, or similar financial guarantee as a condition of issuing a construction, demolition, or building permit for the purpose of ensuring compliance with a construction or demolition debris requirement to return the full amount of the deposit if documentation demonstrating compliance with the terms of the deposit is provided, as specified.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2559",
+    "legislative_session": "20252026",
+    "subject": [
+      "Solidwaste",
+      "constructiondebris",
+      "deposits",
+      "diversion"
+    ],
+    "title": "Solid waste: construction debris: diversion: deposits."
+  },
+  "id": "AB2559",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-07-16",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2559"
+        }
+      ]
+    },
+    "bill_id": "AB2559"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2559/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2559/logs/20260716T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260716T000000Z"
+}

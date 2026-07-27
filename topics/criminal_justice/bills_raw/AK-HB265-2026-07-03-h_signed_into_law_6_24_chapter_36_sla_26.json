@@ -1,0 +1,67 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB265",
+    "legislative_session": "34",
+    "subject": [
+      "APPROPRIATIONS",
+      "BUDGET",
+      "CAPITAL PROJECTS",
+      "COLLECTIVE BARGAINING",
+      "CORRECTIONS",
+      "COURTS",
+      "DISABILITIES",
+      "EDUCATION",
+      "EMPLOYMENT",
+      "FAMILIES",
+      "FUNDS",
+      "GRANTS",
+      "HEALTH & SOCIAL SERVICES",
+      "HOUSING",
+      "LABOR",
+      "LAND",
+      "LAW ENFORCEMENT",
+      "MENTAL HEALTH",
+      "MINORS",
+      "PUBLIC ASSISTANCE",
+      "PUBLIC DEFENDER",
+      "PUBLIC SAFETY",
+      "RESIDENTIAL CARE",
+      "RESOURCES",
+      "REVENUE",
+      "SALARIES & ALLOWANCES",
+      "SENIOR CITIZENS",
+      "TRANSPORTATION",
+      "UNIVERSITIES",
+      "VOCATIONAL TRAINING"
+    ],
+    "title": "An Act making appropriations for the operating and capital expenses of the state's integrated comprehensive mental health program; and providing for an effective date."
+  },
+  "id": "HB265",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "(H) Signed into law 6/24 CHAPTER 36 SLA 26",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-03",
+      "session_id": "34",
+      "sources": [
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB265"
+        },
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB265#tab5_4"
+        }
+      ]
+    },
+    "bill_id": "HB265"
+  },
+  "sources": {
+    "bill": "ak-legislation/country:us/state:ak/sessions/34/bills/HB265/metadata.json",
+    "log": "ak-legislation/country:us/state:ak/sessions/34/bills/HB265/logs/20260703T000000Z_h_signed_into_law_624_chapter_36_sla_26.json"
+  },
+  "timestamp": "20260703T000000Z"
+}
