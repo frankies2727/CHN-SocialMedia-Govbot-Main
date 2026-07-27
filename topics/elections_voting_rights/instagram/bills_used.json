@@ -3,6 +3,8 @@
     "CA|SB1164|2026-06-24|From committee with author's amendments.",
     "DE|HB 344|2026-06-30|Reported Out of Committee (Finance) in S",
     "GA|HR 43|2026-06-22|House Read and Adopted",
+    "IL|HJRCA27|2026-07-01",
+    "IL|HJRCA27|2026-07-01|Rule 19(b) / Re-referred to Rules Commit",
     "MA|S2916|2026-07-01",
     "MA|S2916|2026-07-01|Amendment #7 adopted, as changed",
     "MA|S2916|2026-07-01|Amendment #9 adopted, as changed",
@@ -38,7 +40,8 @@
     "MA": "2026-07-14T12:59:55.968475+00:00",
     "NC": "2026-07-20T13:55:15.880080+00:00",
     "PA": "2026-07-22T18:13:09.648787+00:00",
-    "?": "2026-07-24T18:11:13.449933+00:00"
+    "?": "2026-07-24T18:11:13.449933+00:00",
+    "IL": "2026-07-27T18:54:32.522564+00:00"
   },
-  "last_run": "2026-07-24T18:11:26.213806+00:00"
+  "last_run": "2026-07-27T18:56:40.032955+00:00"
 }
