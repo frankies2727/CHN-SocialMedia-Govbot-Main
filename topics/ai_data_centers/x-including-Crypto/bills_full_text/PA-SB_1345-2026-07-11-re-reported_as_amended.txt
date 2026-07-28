@@ -1,0 +1,581 @@
+PRINTER'S NO.
+
+PRIOR PRINTER'S NO. 1766
+
+THE GENERAL ASSEMBLY OF PENNSYLVANIA
+
+SENATE BILL
+No. 1345
+
+Session of
+
+INTRODUCED BY COLEMAN, GEBHARD, DUSH, PENNYCUICK AND BARTOLOTTA,
+JUNE 4, 2026
+SENATOR PITTMAN, RULES AND EXECUTIVE NOMINATIONS, RE-REPORTED AS
+AMENDED, JULY 11, 2026
+AN ACT
+
+Amending the act of July 31, 1968 (P.L.805, No.247), entitled
+"An act to empower cities of the second class A, and third
+class, boroughs, incorporated towns, townships of the first
+and second classes including those within a county of the
+second class and counties of the second through eighth
+classes, individually or jointly, to plan their development
+and to govern the same by zoning, subdivision and land
+development ordinances, planned residential development and
+other ordinances, by official maps, by the reservation of
+certain land for future public purpose and by the acquisition
+of such land; to promote the conservation of energy through
+the use of planning practices and to promote the effective
+utilization of renewable energy sources; providing for the
+establishment of planning commissions, planning departments,
+planning committees and zoning hearing boards, authorizing
+them to charge fees, make inspections and hold public
+hearings; providing for mediation; providing for transferable
+development rights; providing for appropriations, appeals to
+courts and penalties for violations; and repealing acts and
+parts of acts," in zoning, providing for optional TEMPORARY
+<-moratorium on filing ACCEPTANCE or consideration of new
+<-applications for high impact data centers.
+The General Assembly of the Commonwealth of Pennsylvania
+hereby enacts as follows:
+Section 1.
+
+The act of July 31, 1968 (P.L.805, No.247), known
+
+as the Pennsylvania Municipalities Planning Code, is amended by
+
+adding a section to read:
+
+Section 622.
+
+Optional TEMPORARY Moratorium on Filing
+
+<--
+
+ACCEPTANCE or Consideration of New Applications for High Impact
+
+<--
+
+Data Centers.--(a)
+
+<--
+
+RESOLUTION a temporary moratorium prohibiting the filing or
+
+<--
+
+consideration of documents relating to ON ACCEPTANCE AND
+
+<--
+
+CONSIDERATION OF NEW APPLICATIONS FOR high impact data centers
+
+as follows:
+
+(1)
+
+A municipality may impose by ordinance
+
+A moratorium may last no longer than 18 months from
+
+the ordinance's effective date. THE DURATION OF A TEMPORARY
+
+MORATORIUM MAY NOT EXCEED 18 MONTHS AND SHALL BE RETROACTIVE
+
+TO THE DATE WHEN THE GOVERNING BODY OF THE MUNICIPALITY GAVE
+
+PUBLIC NOTICE AS REQUIRED UNDER 65 PA.C.S. § 709(C.1)
+
+(RELATING TO PUBLIC NOTICE).
+
+(2)
+
+A prohibition TEMPORARY MORATORIUM may apply to an
+
+application, petition or submission seeking THAT SEEKS
+
+approval, review or relief for a high impact data center,
+
+including, but not limited to:
+
+(i)
+
+site or use;
+
+(ii)
+
+variances; OR
+
+(iii)
+
+(iv)
+
+land development plans or subdivision
+<--
+
+a building permit or certificate tied to an
+
+certificate requires prior land use or zoning approval.
+
+(3)
+
+A TEMPORARY moratorium may not:
+prohibit the consideration or filing of
+
+documents unrelated to high impact data centers;
+(ii)
+
+<--
+
+<--
+
+approval for a high impact data center when the permit or
+
+(i)
+
+<--
+
+conditional uses, special exceptions or
+
+<--
+
+a zoning map or text amendments specific to a
+
+applications.; or
+
+<--
+
+affect data centers that do not meet the
+
+<--
+
+definition of a "high impact data center" under
+
+subsection (i) (L);
+
+(iii)
+
+<--
+
+suspend enforcement actions or remedial
+
+proceedings for violations of law; or
+
+(iv)
+
+impair routine maintenance or safety upgrades
+
+at existing HIGH IMPACT DATA CENTER facilities.
+
+(b)
+
+(1)
+
+RESOLUTION RELATED TO APPLICATIONS FOR HIGH IMPACT DATA
+
+CENTERS shall identify the planning, study or ordinance-
+
+development activities to be undertaken during the TEMPORARY
+
+moratorium, which may include:
+
+A moratorium ordinance TEMPORARY MORATORIUM
+
+(i)
+
+<--
+
+<--
+
+infrastructure capacity assessments, including,
+
+but not limited to, assessments relating to water,
+
+wastewater or an electrical ELECTRIC grid;
+
+(ii)
+
+analysis;
+
+(iii)
+
+<--
+
+<--
+
+public safety and emergency services impact
+
+environmental and community impact
+
+evaluations; and
+
+(iv)
+
+drafting and consideration of zoning,
+
+subdivision and land development, or other municipal code
+
+amendments addressing high impact data centers.
+
+(2)
+
+A municipality shall make reasonable progress on the
+
+activities listed under paragraph (1) during the TEMPORARY
+
+<--
+
+moratorium period identified in the ordinance.
+
+<--
+
+(c)
+
+Prior to the adoption of a moratorium ordinance
+
+<--
+
+TEMPORARY MORATORIUM RESOLUTION under this section, the
+
+<--
+
+governing body shall conduct a public hearing with notice as
+
+required by this act. The ordinance shall include findings
+
+supporting the necessity of the moratorium and identifying the
+
+moratorium's relationship to the planning activities in
+
+<--
+
+subsection (b).
+(d)
+
+The moratorium may not apply to approvals or permits
+
+previously granted. UNDER 65 PA.C.S. § 709(C.1). THE PUBLIC
+
+HEARING NOTICE SHALL CLEARLY STATE THAT THE MUNICIPALITY INTENDS
+
+TO CONSIDER A TEMPORARY MORATORIUM ON ACCEPTANCE AND
+
+CONSIDERATION OF NEW APPLICATIONS FOR HIGH IMPACT DATA CENTERS.
+
+(D)
+
+A MUNICIPALITY MAY NOT ACCEPT OR CONSIDER AN APPLICATION
+
+FOR A HIGH IMPACT DATA CENTER BY CHANGING THE AGENDA UNDER 65
+
+PA.C.S. § 712.1(E) (RELATING TO NOTIFICATION OF AGENCY BUSINESS
+
+REQUIRED AND EXCEPTIONS).
+
+(E)
+
+THE RESOLUTION SHALL INCLUDE FINDINGS SUPPORTING THE
+
+NECESSITY OF THE MORATORIUM AND IDENTIFYING THE MORATORIUM'S
+
+RELATIONSHIP TO THE PLANNING ACTIVITIES IN SUBSECTION (B).
+
+(F)
+
+(1)
+
+THE TEMPORARY MORATORIUM SHALL NOT APPLY TO THE
+
+FOLLOWING:
+
+(I)
+
+APPLICATIONS OR PERMITS PREVIOUSLY APPROVED OR
+
+GRANTED BY THE MUNICIPALITY PRIOR TO THE EFFECTIVE DATE
+
+OF THE TEMPORARY MORATORIUM.
+
+(II)
+
+ACCEPTANCE OR CONSIDERATION OF AN APPLICATION
+
+FOR A HIGH IMPACT DATA CENTER THAT HAS, PRIOR TO THE
+
+EFFECTIVE DATE OF THE TEMPORARY MORATORIUM, ENTERED INTO
+
+AN AGREEMENT WITH A POWER GENERATION FACILITY BY WHICH
+
+THE HIGH IMPACT DATA CENTER AND THE POWER GENERATION
+
+FACILITY AGREE TO THE CONSTRUCTION AND OPERATION OF THE
+
+HIGH IMPACT DATA CENTER AT THE SITE OF THE POWER
+
+GENERATION FACILITY, AND FURTHER AGREE THAT THE POWER
+
+GENERATION FACILITY WILL SUPPLY ENERGY TO THE HIGH IMPACT
+
+DATA CENTER.
+
+(2)
+
+AN APPLICATION FOR A HIGH IMPACT DATA CENTER THAT
+
+MEETS THE REQUIREMENTS OF PARAGRAPH (1)(II) SHALL BE ACCEPTED
+
+<--
+
+AND CONSIDERED BY THE MUNICIPALITY IN ACCORDANCE WITH LOCAL
+
+ORDINANCES AND THE PROVISIONS OF THIS ACT IN EFFECT ON THE
+
+DATE OF THE MUNICIPALITY'S ISSUANCE OF A BUILDING PERMIT FOR
+
+THE POWER GENERATION FACILITY.
+
+(e) (G)
+
+RESOLUTION shall provide a process by which an applicant may
+
+request a waiver upon a showing that:
+
+(1)
+
+(i)
+
+A moratorium ordinance TEMPORARY MORATORIUM
+
+strict application of the TEMPORARY moratorium
+
+<--
+
+<--
+
+would result in substantial, unique and demonstrable
+
+<--
+
+UNDUE hardship not created by the applicant; and
+
+<--
+
+(ii)
+
+granting the waiver would be consistent with
+
+the public interest and the purposes of this section.
+
+(2)
+
+<--
+
+The governing body of the municipality may grant,
+
+grant with conditions or deny a waiver REQUEST after a public <--
+
+meeting. The decision shall be in writing and include
+
+findings of fact and conclusions.
+
+(f) (H)
+
+During a moratorium period TEMPORARY MORATORIUM, the <--
+
+municipality shall consult, as applicable, with the county
+
+planning agency regarding planning and ordinance updates
+
+contemplated under subsection (b).
+
+(I)
+
+IF A MUNICIPALITY ADOPTS, AMENDS OR REPEALS PROVISIONS
+
+OF AN ORDINANCE RELATED TO HIGH IMPACT DATA CENTERS DURING A
+
+TEMPORARY MORATORIUM, THE CHANGE TO THE ORDINANCE SHALL NOT
+
+BECOME EFFECTIVE PRIOR TO THE EXPIRATION OF THE TEMPORARY
+
+MORATORIUM AND SHALL NOT APPLY TO ANY APPLICATION FOR A HIGH
+
+IMPACT DATA CENTER RECEIVED BY THE MUNICIPALITY PRIOR TO THE
+
+EFFECTIVE DATE OF THE TEMPORARY MORATORIUM. AN APPLICATION THAT
+
+IS RECEIVED BY A MUNICIPALITY DURING A TEMPORARY MORATORIUM
+
+SHALL BE DEEMED RECEIVED ON THE DAY AFTER THE EXPIRATION OF THE
+
+TEMPORARY MORATORIUM.
+
+<--
+
+(g) (J)
+
+A TEMPORARY moratorium authorized under this section <--
+
+and implemented in compliance with this act is a reasonable,
+
+time-limited planning measure and shall not be construed to
+
+effect a taking or to create MUNICIPAL liability for damages if
+
+the municipality affords the exemptions and procedures required
+
+under this section.
+
+(h) (K)
+
+(1)
+
+Nothing in this section shall:
+
+(i)
+
+be construed to limit any other municipal powers
+
+or procedures authorized under this act, nor to mandate
+
+the adoption of a TEMPORARY moratorium; or
+
+(ii)
+
+<--
+
+<--
+
+<--
+
+<--
+
+alter or diminish the rights of public
+
+utilities or electric cooperatives under other applicable <--
+
+statutes LAW.
+
+(2)
+
+<--
+
+In the event of a conflict with another provision of
+
+law, this section shall be harmonized with other provisions
+
+of this act to the maximum extent possible.
+
+(i) (L)
+
+As used in this section, the following words and
+
+phrases shall have the meanings given to them in this subsection
+
+unless the context clearly indicates otherwise:
+
+"Critical IT load."
+
+The aggregate electrical power drawn by
+
+information technology equipment under normal operating
+
+conditions at steady state, exclusive of a non-information
+
+technology building load.
+
+"Data center."
+
+<--
+
+A facility or group of facilities that is
+
+<--
+
+used to house and operate equipment that:
+(1)
+
+receives, stores, aggregates, manages, processes,
+
+transforms, retrieves, researches or transmits data; or
+(2)
+
+is necessary for the proper operation of equipment
+
+that receives, stores, aggregates, manages, processes,
+
+transforms, retrieves, researches or transmits data. ALL OR
+
+<--
+
+PART OF A FACILITY THAT MAY BE COMPOSED OF ONE OR MORE
+
+BUSINESSES, OWNERS OR TENANTS, THAT IS OR WILL BE
+
+PREDOMINANTLY USED TO HOUSE WORKING SERVERS OR SIMILAR DATA
+
+STORAGE SYSTEMS AND THAT MAY HAVE UNINTERRUPTIBLE ENERGY
+
+SUPPLY OR GENERATOR BACKUP POWER, OR BOTH, COOLING SYSTEMS,
+
+TOWERS AND OTHER TEMPERATURE CONTROL INFRASTRUCTURE.
+
+"High impact data center."
+
+A facility or group of facilities
+
+that:
+
+(1)
+
+is a data center; AND
+
+<--
+
+(2)
+
+consists of one or more parcels in this
+
+<--
+
+Commonwealth, along with the buildings, substations and other
+
+infrastructure, fixtures and personal property located on the
+
+parcels;
+
+(3)
+
+is owned, operated or leased by an entity or
+
+affiliated group of entities; and
+(4) (2)
+
+has a critical IT load of 25 megawatts or
+
+higher.
+
+"POWER GENERATION FACILITY."
+
+A FACILITY THAT IS OPERATIONAL
+
+OR UNDER CONSTRUCTION ON THE EFFECTIVE DATE OF THIS SECTION AND
+
+WHICH, WHEN CONSTRUCTED, WILL GENERATE ELECTRICITY THAT WILL
+
+SUPPLY POWER TO A HIGH IMPACT DATA CENTER AND TO AN ELECTRIC
+
+GRID BY INTERCONNECTION TO A REGIONAL TRANSMISSION SYSTEM IN
+
+ACCORDANCE WITH THE APPLICABLE REGIONAL TRANSMISSION OPERATOR'S
+
+INTERCONNECTION STANDARDS.
+
+Section 2.
+
+This act shall take effect immediately.
+
+<--
+
+<--

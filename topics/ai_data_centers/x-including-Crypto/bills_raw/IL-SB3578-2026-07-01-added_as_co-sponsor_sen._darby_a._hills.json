@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB3578",
+    "legislative_session": "104th",
+    "title": "DATA CENTERS-FOREIGN OWNERSHIP"
+  },
+  "id": "SB3578",
+  "log": {
+    "action": {
+      "description": "Added as Co-Sponsor Sen. Darby A. Hills",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-01",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=3578&GAID=18&DocTypeID=SB&LegId=166652&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "SB3578"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/SB3578/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/SB3578/logs/20260701T000000Z_added_as_cosponsor_sen_darby_a_hills.json"
+  },
+  "timestamp": "20260701T000000Z",
+  "posted_text": "🏢 IL SB3578 — Illinois Restricts Data Center Construction by Foreign Entities\n\nIllinois prohibits foreign companies – those owned by or headquartered in countries deemed foreign adversaries – from building data centers. The Illinois Commerce Commission, the Illinois Power Agency, and the Department of Commerce and Economic Opportunity must review and certify new data center energy plans to ensure they don’t strain the PJM or MISO power grids, effective February 5, 2026.\n\nJuly 1, 2026: Added as Co-Sponsor Sen. Darby A. Hills.\n\nLink to bill in reply.",
+  "posted_link": "https://ilga.gov/Legislation/BillStatus?DocNum=3578&GAID=18&DocTypeID=SB&LegId=166652&SessionID=114",
+  "posted_url": "https://x.com/i/web/status/2082122273004327424"
+}

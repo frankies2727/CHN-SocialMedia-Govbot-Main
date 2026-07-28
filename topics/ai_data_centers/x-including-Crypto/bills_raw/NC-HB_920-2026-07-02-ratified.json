@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 920",
+    "legislative_session": "2025",
+    "subject": [
+      "BANKING COMN.; BANKS; COMMERCE; CONFIDENTIALITY; CONSUMER PROTECTION; DEBTOR & CREDITOR; FINANCIAL INSTITUTIONS; FINANCIAL SERVICES; ID SYSTEMS; INVESTMENTS; LOANS; PRESENTED; PRIVACY; PUBLIC; RATIFIED; TAXATION; CHAPTERED; COMMISSIONER OF BANKS; CRYPTOCURRENCY & NFTS"
+    ],
+    "title": "Virtual Currency Kiosk Consumer Protection Act."
+  },
+  "id": "HB 920",
+  "log": {
+    "action": {
+      "description": "Ratified",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-07-02",
+      "session_id": "2025",
+      "sources": [
+        {
+          "url": "https://www.ncleg.gov/BillLookUp/2025/H920"
+        }
+      ]
+    },
+    "bill_id": "HB 920"
+  },
+  "sources": {
+    "bill": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB920/metadata.json",
+    "log": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB920/logs/20260702T000000Z_ratified.json"
+  },
+  "timestamp": "20260702T000000Z",
+  "posted_text": "💰 NC HB 920 — NC Creates Rules for Digital Asset Kiosks\n\nNorth Carolina is establishing rules for digital asset kiosks, limiting new customers to $2,000 in daily transactions and requiring refunds for fraudulent activity. This new law aims to protect consumers using digital assets and ensures kiosks operate within a regulated framework for digital currency transmissions.\n\nJuly 2, 2026: Ratified.\n\nLink to bill in reply.",
+  "posted_link": "https://www.ncleg.gov/BillLookUp/2025/HB920",
+  "posted_url": "https://x.com/i/web/status/2082120985411719398"
+}
