@@ -24,14 +24,14 @@ jobs:
   run:
     runs-on: ubuntu-latest
     timeout-minutes: 60
-    # Split the 13 topics across three shards that run in parallel on separate
+    # Split the 13 topics across five shards that run in parallel on separate
     # runners. Each shard repeats the shared setup (govbot clone + Ollama) but
-    # only posts ~a third of the topics, keeping each job well under the
-    # 60-minute budget that the two-shard split still occasionally blew past.
+    # only posts ~a fifth of the topics, keeping each job well under the
+    # 60-minute budget that the three-shard split still occasionally blew past.
     strategy:
       fail-fast: false
       matrix:
-        shard: [0, 1, 2]
+        shard: [0, 1, 2, 3, 4]
     env:
       LLM_MODEL: "gemma3:4b"
     steps:
@@ -102,7 +102,7 @@ jobs:
         # the freshness window for weeks). The run-scoped key always saves a
         # fresh, grown cache; restore-keys pulls the most recent prior one, and
         # the shared prefix lets every poster reuse text any other already
-        # fetched. The shard suffix keeps the two parallel shards from racing on
+        # fetched. The shard suffix keeps the parallel shards from racing on
         # the same save key.
         uses: actions/cache@v4
         with:
@@ -180,9 +180,9 @@ jobs:
 
           # Assign topics to this shard by their sorted position (topics/*/
           # globs alphabetically). index % NUM_SHARDS interleaves them into a
-          # balanced 5/4/4 split that auto-rebalances when topics are added.
+          # balanced 3/3/3/2/2 split that auto-rebalances when topics are added.
           SHARD="${{ matrix.shard }}"
-          NUM_SHARDS=3
+          NUM_SHARDS=5
           i=0
           for topic_dir in topics/*/; do
             topic=$(basename "$topic_dir")
@@ -206,7 +206,7 @@ jobs:
             exit 0
           fi
           git commit -m "chore: update posted state (shard ${{ matrix.shard }}) [skip ci]"
-          # All three shards push to the same branch concurrently. They write
+          # All five shards push to the same branch concurrently. They write
           # disjoint topics/<name>/ folders, so rebasing onto another shard's
           # commit is always clean; retry with backoff until the push lands.
           for attempt in 1 2 3 4 5; do
