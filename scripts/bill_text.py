@@ -350,6 +350,22 @@ _PAGE_MARKER_RE = re.compile(r"^\s*(page\s+\d+\s+of\s+\d+|[-–]?\s*\d{1,4}\s*[-
                              re.IGNORECASE)
 _ALLCAPS_BANNER_RE = re.compile(r"^[A-Z0-9 .,'\"&/()-]{4,}$")
 
+# pdftotext pulls in the arrow markers some states (Pennsylvania most notably)
+# print in the margin to flag inserted/amended text — they surface as "<--" or a
+# "<-" glued to the next word ("<-moratorium"). They're pure layout noise that
+# fragments the prose an LLM reads, so strip the arrow token wherever it appears.
+_AMEND_ARROW_RE = re.compile(r"<-{1,}")
+# Front-matter noise lines that carry no policy content: the print run header,
+# the session line, and the sponsor/committee introduction block. Stripping them
+# keeps the extracted body starting at the bill's actual subject.
+_FRONT_MATTER_RE = re.compile(
+    r"^\s*(?:PRIOR\s+)?PRINTER'?S\s+NO\.?.*$"
+    r"|^\s*Session\s+of\s*$"
+    r"|^\s*Session\s+of\s+\d.*$"
+    r"|^\s*INTRODUCED\s+BY\b.*$",
+    re.IGNORECASE,
+)
+
 
 def clean_bill_text(text: str) -> str:
     """Strip per-line numbering, page headers/footers, and repeated ALL-CAPS
@@ -359,6 +375,7 @@ def clean_bill_text(text: str) -> str:
         return ""
 
     text = text.replace("\f", "\n")
+    text = _AMEND_ARROW_RE.sub(" ", text)
     raw_lines = text.split("\n")
 
     # Count repeated short ALL-CAPS lines — these are running banners/headers
@@ -378,6 +395,8 @@ def clean_bill_text(text: str) -> str:
             cleaned.append("")
             continue
         if _PAGE_MARKER_RE.match(s):
+            continue
+        if _FRONT_MATTER_RE.match(s):
             continue
         if s in repeated_banners:
             continue

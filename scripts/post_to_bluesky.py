@@ -281,6 +281,26 @@ def _is_blob_title(title: str) -> bool:
     return bool(_SUBSTITUTE_PREFIX_RE.match(t))
 
 
+# A Pennsylvania/federal-style statute title: "An Act amending the act of July
+# 31, 1968 (P.L.805, No.247), known as …, providing for …". It reads as pure
+# legalese and, at 250-ish characters, slips under the 300-char blob threshold,
+# so it must be caught separately and delegalesed before it can be shown raw.
+_LEGALESE_ACT_TITLE_RE = re.compile(
+    r"^\s*an\s+act\b.*\b(?:amending|providing for|relating to|to amend)\b",
+    re.IGNORECASE | re.DOTALL,
+)
+
+
+def _is_legalese_act_title(title: str) -> bool:
+    """True when the title is a bare statute enacting clause ("An Act amending
+    …, providing for …") rather than a plain-English headline — legalese that
+    should be delegalesed before display."""
+    t = (title or "").strip()
+    if len(t) < 40:
+        return False
+    return bool(_LEGALESE_ACT_TITLE_RE.match(t))
+
+
 def extract_fields(record: dict) -> dict | None:
     bill = record.get("bill") or {}
     log = record.get("log") or {}
@@ -387,6 +407,13 @@ def best_display_text(b: dict, headline: str = "") -> str:
     # title mid-clause and lose the action line in the process.
     if headline and len(title) > HEADLINE_THRESHOLD:
         return headline
+    # No headline, but a bare "An Act amending the act of …, known as …,
+    # providing for <purpose>" statute title should never show raw. Delegalese
+    # it to the bill's stated purpose; keep the raw title only if that fails.
+    if _is_legalese_act_title(title):
+        cleaned = _delegalese_headline(title)
+        if cleaned:
+            return cleaned
     return title
 
 
@@ -1190,6 +1217,191 @@ def _extract_act_purpose(text: str) -> str:
     return purpose
 
 
+# ---------------------------------------------------------------------------
+# Full-text preparation and deterministic (non-LLM) fallbacks
+#
+# A bill that amends an existing statute opens by reciting that statute's ENTIRE
+# long title — a multi-hundred-character parenthetical of unrelated boilerplate
+# ("An act to empower cities of the second class A … providing for mediation;
+# providing for transferable development rights; …") — before it ever states
+# what THIS bill does. Fed that verbatim, a small model spends its whole context
+# window on the recited boilerplate and never reaches the operative section, so
+# it returns empty or off-topic copy and the post falls back to the raw legalese
+# title. These helpers (a) strip the recitation so the operative text leads, and
+# (b) derive a clean plain-English headline/summary straight from the bill when
+# the model still comes back empty, so a post is never shipped as raw legalese.
+# ---------------------------------------------------------------------------
+
+# The recited long title of an amended act sits inside `entitled "…"` (or
+# `known as "…"`). It's the OTHER act's description, never this bill's, so drop
+# it wholesale. Bounded so a stray quote can't swallow the operative body.
+_RECITED_LONGTITLE_RE = re.compile(
+    r'\bentitled\s*"[^"]{0,4000}?"', re.IGNORECASE | re.DOTALL
+)
+# The bill's own subject in an "An Act … providing for <purpose>" / "relating to
+# <purpose>" enacting clause. Captured from the LAST such connector so a recited
+# act's many "providing for …" clauses don't win over the bill's own tail.
+_PROVIDING_FOR_RE = re.compile(
+    r"\b(?:providing for|relating to|prohibiting|authorizing|requiring|"
+    r"establishing|creating)\b\s+(.+)",
+    re.IGNORECASE | re.DOTALL,
+)
+
+
+# pdftotext/legislative artifacts that survive into already-committed text or a
+# stale cache (bill_text.clean_bill_text strips these on fresh extraction, but
+# older .txt files and cache entries predate that): the "<--" amendment arrows
+# and the print-run / session / sponsor front-matter lines.
+_ARTIFACT_ARROW_RE = re.compile(r"<-{1,}")
+_ARTIFACT_FRONTMATTER_RE = re.compile(
+    r"(?im)^\s*(?:(?:PRIOR\s+)?PRINTER'?S\s+NO\.?.*|Session\s+of.*|"
+    r"INTRODUCED\s+BY\b.*)$"
+)
+
+
+def _prepare_full_text_for_llm(text: str) -> str:
+    """Reduce extracted bill text to the part that describes what THIS bill does.
+
+    Drops the recited long title of any amended act (pure boilerplate) so the
+    operative section — the new requirement, program, ban, or moratorium — leads
+    the window the model actually reads, and scrubs the pdftotext arrow/front-
+    matter artifacts in case the text came from an older extraction or cache.
+    Best-effort; returns the input lightly cleaned when no recitation is
+    present."""
+    if not text:
+        return ""
+    cleaned = _ARTIFACT_ARROW_RE.sub(" ", text)
+    cleaned = _ARTIFACT_FRONTMATTER_RE.sub("", cleaned)
+    cleaned = _RECITED_LONGTITLE_RE.sub("known by its short title", cleaned)
+    return cleaned
+
+
+def _bill_purpose(*texts: str) -> str:
+    """The bill's own subject phrase, pulled from its 'An Act … providing for
+    <purpose>' / 'relating to <purpose>' enacting clause. Tries each source in
+    order (title first, then full text) and returns the first plausible phrase,
+    or "" when none is found. Used both to anchor the model and as the headline
+    fallback when the model returns nothing."""
+    for text in texts:
+        if not text:
+            continue
+        # Drop the recited long title first so its own "providing for …" clauses
+        # can't be mistaken for the bill's purpose.
+        stripped = _RECITED_LONGTITLE_RE.sub(" ", text)
+        # Take the LAST connector match: the bill's purpose is the tail of the
+        # enacting clause, after any structural "in <article>," qualifiers.
+        m = None
+        for m in _PROVIDING_FOR_RE.finditer(stripped[:1500]):
+            pass
+        if not m:
+            continue
+        # Stop at the first sentence end / enacting boilerplate.
+        purpose = re.split(
+            r"(?:\.\s|\.$|;|\bbe it enacted\b|\bthe general assembly\b|"
+            r"\bto read as follows\b|\bis amended\b)",
+            m.group(1),
+            maxsplit=1,
+            flags=re.IGNORECASE,
+        )[0]
+        purpose = " ".join(purpose.split()).strip(" ,;:.")
+        # Drop a leading filler word that reads oddly at the start of a headline.
+        purpose = re.sub(r"^(?:an?|the|optional)\s+", "", purpose, flags=re.IGNORECASE)
+        if 8 <= len(purpose) <= 200:
+            return purpose
+    return ""
+
+
+def _delegalese_headline(title: str, full_text: str = "") -> str:
+    """A clean, plain-English headline derived deterministically from the bill —
+    the safety net for when the model returns no usable headline. Prefers the
+    bill's own 'providing for <purpose>' subject over the raw legalese title, so
+    the post never leads with 'An Act amending the act of July 31, 1968
+    (P.L.805, No.247), known as …'. Returns "" when nothing clean can be found."""
+    purpose = _bill_purpose(title, full_text)
+    if not purpose:
+        return ""
+    headline = _smart_case(purpose)
+    if len(headline) > HEADLINE_MAX_LEN:
+        headline = _smart_truncate(headline, HEADLINE_MAX_LEN)
+    return headline.rstrip(".!?,; ")
+
+
+# Acronyms kept uppercase when a fallback summary lowercases PA's shouting
+# inserted-text markers. Small, general-audience set; everything else is treated
+# as an amendment marker and lowercased.
+_KNOWN_ACRONYMS = {
+    "US", "USA", "AI", "EPA", "FBI", "CIA", "DNA", "NASA", "IRS", "GDP",
+    "LLC", "PA", "ID", "TV", "CEO", "DUI", "DMV", "ICE", "LGBTQ",
+}
+
+
+def _summary_from_body(prepared_body: str, max_chars: int = 240) -> str:
+    """A plain-language blurb pulled straight from the operative bill text — the
+    non-LLM fallback so a post with full text says something concrete rather than
+    shipping a bare headline. Conservative: returns "" rather than a citation
+    fragment when it can't isolate a clean operative sentence."""
+    if not prepared_body:
+        return ""
+    body = prepared_body
+    # Jump to the NEWLY ADDED text: "… to read as follows:" / "… to read:" marks
+    # where the new section begins, past the "Section 1 … is amended by adding a
+    # section to read:" scaffolding. Fall back to the enacting clause.
+    for marker in (r"to read as follows:", r"to read:", r"hereby enacts as follows:"):
+        mm = list(re.finditer(marker, body, re.IGNORECASE))
+        if mm:
+            body = body[mm[-1].end():]
+            break
+    # Drop leading "Section <id>. <Header>.--" scaffolding and (a)/(1) enumerators
+    # so the blurb opens on prose, not a section header.
+    body = re.sub(r"^\s*(?:Section\s+[\w.]+\.?\s*)+", "", body.strip(), flags=re.IGNORECASE)
+    body = re.sub(r"^[^.]{0,200}?\.--", "", body.strip())
+    cleaned = _clean_for_llm(body)
+    # Drop leading "(a) " / "(1) " enumerators and stray single ALL-CAPS
+    # amendment-marker tokens ("RESOLUTION", "ON") that open PA's tracked text.
+    cleaned = re.sub(r"^(?:\(\s*[a-z0-9]{1,3}\s*\)\s*|[A-Z]{2,}\s+)+", "", cleaned).strip()
+    if not cleaned:
+        return ""
+    # Take the first genuinely substantive sentence(s): long enough to be prose,
+    # not a bare statute citation ("The act of July 31, 1968 (P.L.805, No.247)").
+    citation_re = re.compile(
+        r"^(?:the act of|the general assembly|section\b|this act|p\.?\s*l\.)",
+        re.IGNORECASE,
+    )
+    picked: list[str] = []
+    # End a clause at sentence punctuation OR a ":" that introduces an
+    # enumerated list ("… as follows:"), so the blurb stops at a clean boundary
+    # rather than running the whole (a)/(1)/(2) list together.
+    for sent in re.findall(r"[^.!?:]*[.!?:]", cleaned):
+        s = " ".join(sent.split()).strip()
+        # Lowercase interior ALL-CAPS words — PA prints inserted text in caps,
+        # which pdftotext leaves shouting mid-sentence. Preserve genuine acronyms.
+        s = re.sub(
+            r"\b[A-Z]{2,}\b",
+            lambda w: w.group(0) if w.group(0) in _KNOWN_ACRONYMS else w.group(0).lower(),
+            s,
+        )
+        core = s.rstrip(".!?:")
+        if len(core) < 30:
+            continue
+        if citation_re.match(s):
+            continue
+        letters = [c for c in core if c.isalpha()]
+        if letters and sum(1 for c in letters if c.isupper()) / len(letters) > 0.5:
+            continue
+        # Trim a trailing ":" and normalize the opening capital.
+        core = core.rstrip(" :;,")
+        if core:
+            picked.append(core[:1].upper() + core[1:])
+        if len(picked) >= 2 or len(" ".join(picked)) >= max_chars:
+            break
+    if not picked:
+        return ""
+    out = ". ".join(picked)
+    if not out.endswith((".", "!", "?")):
+        out += "."
+    return _smart_truncate(out, max_chars)
+
+
 def _parse_copy_json(text: str) -> tuple[str, str]:
     """Pull ("headline", "summary") out of the model's JSON reply, tolerating
     the small-model habits of wrapping the object in ```json fences or trailing
@@ -1282,8 +1494,11 @@ def _post_copy(b: dict) -> dict:
     # Source text fed to the model: real bill body first (wide window — wider
     # still for amendatory bills whose one new provision is often the final
     # subsection), then the omnibus digest, then the cleaned abstract/title.
+    # For full text, first strip the recited long title of any amended act so the
+    # operative section — what THIS bill does — leads the window the model reads,
+    # instead of a wall of the amended statute's own boilerplate.
     if full_text:
-        body = _clean_for_llm(full_text)
+        body = _clean_for_llm(_prepare_full_text_for_llm(full_text))
         char_cap = 9000 if amendatory else 6000
     else:
         source = abstract if abstract_usable else title
@@ -1292,6 +1507,19 @@ def _post_copy(b: dict) -> dict:
     if not body:
         b["_post_copy"] = result
         return result
+
+    # The bill's own stated subject ("An Act … providing for <purpose>"), used to
+    # anchor the model on what the bill does — decisive for amend-by-recitation
+    # bills whose operative text is short next to the statute they cite — and as
+    # the deterministic headline fallback if the model returns nothing usable.
+    bill_purpose = _bill_purpose(title, full_text)
+    purpose_note = ""
+    if bill_purpose and not amendatory:
+        purpose_note = (
+            f"The bill's own stated purpose is \"{bill_purpose}\" — center the "
+            f"headline and summary on that, not on any statute it merely amends "
+            f"or cites.\n\n"
+        )
 
     amendatory_note = ""
     if amendatory:
@@ -1346,23 +1574,30 @@ def _post_copy(b: dict) -> dict:
     # For blob bills the title is the same wall of legalese as the body, so don't
     # send it as a separate "Title:" line.
     if blob:
-        user_prompt = f"{amendatory_note}{topic_anchor_note}{home_state_line}Bill text:\n{body[:char_cap]}"
+        user_prompt = f"{amendatory_note}{purpose_note}{topic_anchor_note}{home_state_line}Bill text:\n{body[:char_cap]}"
     else:
-        user_prompt = f"{amendatory_note}{topic_anchor_note}{home_state_line}Title: {title}\nBill text:\n{body[:char_cap]}"
+        user_prompt = f"{amendatory_note}{purpose_note}{topic_anchor_note}{home_state_line}Title: {title}\nBill text:\n{body[:char_cap]}"
 
-    try:
+    system_prompt = TOPIC.post_copy_system_prompt(
+        amendatory=amendatory, home_state=state_name, federal=federal
+    )
+
+    def _call_llm(extra_system: str = "") -> tuple[str, str]:
+        """One post-copy round-trip → (headline, summary). Raises on transport
+        or HTTP error so the caller can fall back."""
+        messages = [{"role": "system", "content": system_prompt}]
+        if extra_system:
+            messages.append({"role": "system", "content": extra_system})
+        messages.append({"role": "user", "content": user_prompt})
         r = requests.post(
             LLM_API_URL,
             json={
                 "model": LLM_MODEL,
-                "messages": [
-                    {"role": "system", "content": TOPIC.post_copy_system_prompt(amendatory=amendatory, home_state=state_name, federal=federal)},
-                    {"role": "user", "content": user_prompt},
-                ],
+                "messages": messages,
                 "stream": False,
                 "format": "json",
                 "keep_alive": LLM_KEEP_ALIVE,
-                "options": {"num_predict": 260, "temperature": 0.3},
+                "options": {"num_predict": 320, "temperature": 0.4},
             },
             timeout=LLM_TIMEOUT,
         )
@@ -1373,28 +1608,50 @@ def _post_copy(b: dict) -> dict:
         # Ollama /api/chat returns {"message": {"content": "..."}, ...}
         # Ollama /api/generate returns {"response": "...", ...}
         text = (data.get("message") or {}).get("content") or data.get("response") or ""
-        raw_headline, raw_summary = _parse_copy_json(text)
+        return _parse_copy_json(text)
+
+    raw_headline, raw_summary = "", ""
+    try:
+        raw_headline, raw_summary = _call_llm()
+        # A single malformed/truncated JSON reply (which parses to empty) used to
+        # sink the whole post to raw legalese. Retry once with a terse nudge
+        # before giving up — the operative-text-first window makes the retry cheap
+        # and usually enough.
+        if not raw_headline and not raw_summary:
+            raw_headline, raw_summary = _call_llm(
+                "Return ONLY the JSON object {\"headline\": \"...\", "
+                "\"summary\": \"...\"} — both fields non-empty, plain English."
+            )
     except Exception as e:
         print(f"  ! post-copy generation failed, using fallback: {e}", file=sys.stderr)
-        # Leave the headline empty (raw title stands) but salvage a clean first
-        # sentence as the blurb; "" drops the block. Prefer the on-topic
-        # provision for body-matched omnibus bills — the abstract's own first
-        # sentence is provision (1), which is off-topic for this feed.
+        # LLM unreachable: fall back to deterministic, non-legalese copy so the
+        # post is still informative. Headline from the bill's stated purpose;
+        # blurb from the on-topic provision, then the operative body, then the
+        # abstract's first sentence.
+        result["headline"] = _delegalese_headline(title, full_text)
         result["summary"] = _strip_title_prefix(
-            _excerpt_summary(topic_excerpt) or _first_sentence(abstract or full_text),
+            _excerpt_summary(topic_excerpt)
+            or _summary_from_body(body)
+            or _first_sentence(abstract or full_text),
             b["title"],
         )
         b["_post_copy"] = result
         return result
 
     # Headline cleanup mirrors the old shorten_title() tail: strip a trailing
-    # period, bail when the model echoed the title or blew the length cap (the
-    # caller then keeps the raw/truncated title).
+    # period, drop it when the model echoed the raw legalese title, and trim
+    # (rather than discard) an over-long one — a slightly long plain-English
+    # headline still beats falling back to the raw statute title.
     headline = _clean_summary(raw_headline).rstrip(".!?,; ")
     if headline and _normalize(headline).startswith(_normalize(title)[:60]):
         headline = ""
     if len(headline) > HEADLINE_MAX_LEN:
-        headline = ""
+        headline = _smart_truncate(headline, HEADLINE_MAX_LEN).rstrip(".!?,; ")
+    # Still no usable headline (model returned nothing, or echoed the title):
+    # derive a clean one from the bill's stated purpose so the post never leads
+    # with raw legalese. Only overrides a blank — a good model headline wins.
+    if not headline:
+        headline = _delegalese_headline(title, full_text)
     result["headline"] = headline
 
     # Summary cleanup mirrors the old summarize() tail. Belt-and-suspenders: if
@@ -1405,14 +1662,17 @@ def _post_copy(b: dict) -> dict:
     if summary and headline and _normalize(summary) == _normalize(headline):
         summary = ""
     # When the local model returns an empty (or self-repeating, just-dropped)
-    # blurb for an omnibus bill that matched on a buried provision, the post
-    # would ship as a bare headline with informative space left unused. Fall
-    # back to the on-topic provision so the post still says something concrete
-    # about why it belongs in this feed. Only fires when we have that excerpt
-    # (body-matched bills), so single-subject and bare-title bills are
-    # unaffected.
-    if not summary and topic_excerpt:
-        summary = _strip_title_prefix(_excerpt_summary(topic_excerpt), b["title"])
+    # blurb, the post would ship with informative space left unused. Fall back to
+    # the on-topic provision (body-matched omnibus bills), then the operative
+    # bill text — so a bill with full text always says something concrete rather
+    # than shipping a bare headline.
+    if not summary:
+        summary = _strip_title_prefix(
+            _excerpt_summary(topic_excerpt) or _summary_from_body(body),
+            b["title"],
+        )
+        if summary and headline and _normalize(summary) == _normalize(headline):
+            summary = ""
     result["summary"] = summary
 
     b["_post_copy"] = result
