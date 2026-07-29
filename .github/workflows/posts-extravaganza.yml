@@ -303,7 +303,7 @@ jobs:
           # (the script reuses the digest persistence helpers).
           # Instagram carousel cards are committed mid-run by the poster; this
           # final commit catches the bills_raw / full-text artifacts saved after.
-          git add topics/*/weekly_digest/bills_raw \
+          git add topics/*/bluesky/weekly_digest/bills_raw topics/*/bluesky/weekly_digest/bills_full_text \
                   topics/*/x*/weekly_digest/bills_raw topics/*/x*/weekly_digest/bills_full_text \
                   topics/*/meta-threads/weekly_digest/bills_raw topics/*/meta-threads/weekly_digest/bills_full_text \
                   topics/*/instagram/cards topics/*/instagram/bills_raw topics/*/instagram/bills_full_text \

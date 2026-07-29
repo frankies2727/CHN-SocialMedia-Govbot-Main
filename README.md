@@ -112,7 +112,7 @@ For a single topic, `scripts/post_to_bluesky.py` (and its sibling `post_to_x.py`
    - **`context_keywords`** (e.g. "human trafficking") only count when a core keyword co-occurs.
    - **`negative_keywords`** disqualify a title outright.
 3. **Applies a freshness gate** — bill *actions* older than `MAX_ACTION_AGE_DAYS` are dropped so the feed never posts year-old news as fresh.
-4. **Dedupes** against `topics/<name>/bills_used.json` (keyed by RSS `<guid>`, falling back to link, then a synthetic `feed_name:title` id).
+4. **Dedupes** against `topics/<name>/bluesky/bills_used.json` (keyed by RSS `<guid>`, falling back to link, then a synthetic `feed_name:title` id).
 5. **Draws** up to `POST_LIMIT` bills using a weighted random selection that spreads coverage across states (and across `keyword_groups` buckets where configured).
 6. **Extracts the full bill text** from the bill's PDF (`scripts/bill_text.py` → `pdftotext`), degrading gracefully to abstract-only if the PDF or `pdftotext` is unavailable.
 7. **Summarizes** via the local model — one neutral, plain-English sentence under ~160 characters, plus a short noun-phrase headline — picks a topical emoji, and composes a post that fits Bluesky's 300-grapheme limit.
@@ -340,10 +340,11 @@ samples/                       # saved bill records for prompt-tuning / tests
 topics/
   <name>/
     config.yml                 # keywords, emojis, prompt focus, digest copy
-    bills_used.json            # per-topic Bluesky dedup state (committed)
-    bills_raw/                 # raw JSON of each posted bill (audit trail)
-    bills_full_text/           # extracted full text of each posted bill
-    weekly_digest/             # digest highlight artifacts
+    bluesky/ (or bluesky_subdir)      # Bluesky account state:
+      bills_used.json          #   per-topic Bluesky dedup state (committed)
+      bills_raw/               #   raw JSON of each posted bill (audit trail)
+      bills_full_text/         #   extracted full text of each posted bill
+      weekly_digest/           #   digest highlight artifacts
     x/  (or x_subdir)          # mirror of the above for the X account
     meta-threads/ (or threads_subdir) # mirror of the above for the Threads account
     instagram/ (or instagram_subdir)  # mirror for Instagram, plus cards/ (rendered PNGs)
@@ -352,7 +353,7 @@ requirements.txt               # requests, Pillow, PyYAML, tweepy
 
 ## State, dedup & seeding the backlog
 
-- **Idempotency** is per-platform and per-topic. Bluesky dedup lives in `topics/<name>/bills_used.json`; X dedup under `topics/<name>/<x_subdir>/bills_used.json`; Threads dedup under `topics/<name>/<threads_subdir>/bills_used.json`; Instagram dedup under `topics/<name>/<instagram_subdir>/bills_used.json`. Keys are the RSS `<guid>` (falling back to link, then `feed_name:title`).
+- **Idempotency** is per-platform and per-topic. Bluesky dedup lives in `topics/<name>/<bluesky_subdir>/bills_used.json` (default `bluesky/`); X dedup under `topics/<name>/<x_subdir>/bills_used.json`; Threads dedup under `topics/<name>/<threads_subdir>/bills_used.json`; Instagram dedup under `topics/<name>/<instagram_subdir>/bills_used.json`. Keys are the RSS `<guid>` (falling back to link, then `feed_name:title`).
 - **First run is loud.** With an empty state file, *every* matching bill is "new." Each topic ships with `{"posted": []}`, and `POST_LIMIT` caps the blast radius — but you'll likely want to seed the backlog first.
 - **Permissions.** Posting workflows need `contents: write` to commit state back. This is set in the workflows, but org-level settings can override it — check **Settings → Actions → General → Workflow permissions** if commits aren't landing.
 
@@ -375,7 +376,7 @@ out.parent.mkdir(parents=True, exist_ok=True)
 out.write_text(json.dumps({'posted': sorted(set(keys))}, indent=2))
 print(f'Seeded {len(set(keys))} dedup keys into {out}.')
 "
-git add topics/transportation/bills_used.json
+git add topics/transportation/bluesky/bills_used.json
 git commit -m "seed transportation backlog" && git push
 ```
 

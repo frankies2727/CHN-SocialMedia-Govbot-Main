@@ -200,7 +200,7 @@ jobs:
         run: |
           git config user.name  "govbot-bluesky[bot]"
           git config user.email "govbot-bluesky[bot]@users.noreply.github.com"
-          git add topics/*/bills_used.json topics/*/bills_raw topics/*/bills_full_text || true
+          git add topics/*/bluesky/bills_used.json topics/*/bluesky/bills_raw topics/*/bluesky/bills_full_text || true
           if git diff --cached --quiet; then
             echo "No state changes to commit."
             exit 0
