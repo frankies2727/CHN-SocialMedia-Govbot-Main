@@ -1,0 +1,272 @@
+I
+
+119TH CONGRESS
+2D SESSION
+
+H. R. 9566
+
+To establish a pilot program for use by U.S. Customs and Border Protection
+at land ports of entry along the Arizona border to assess the use
+of artificial intelligence through an anomaly detection algorithm, and
+for other purposes.
+
+IN THE HOUSE OF REPRESENTATIVES
+JUNE 30, 2026
+Mr. SCHWEIKERT introduced the following bill; which was referred to the
+Committee on Homeland Security
+
+A BILL
+To establish a pilot program for use by U.S. Customs and
+Border Protection at land ports of entry along the Arizona border to assess the use of artificial intelligence
+through an anomaly detection algorithm, and for other
+purposes.
+
+Be it enacted by the Senate and House of Representa-
+
+kjohnson on DSK7ZCZBW3PROD with $$_JOB
+
+tives of the United States of America in Congress assembled,
+
+VerDate Sep 11 2014
+
+04:03 Jul 02, 2026
+
+Jkt 069200
+
+Frm 00001
+
+Fmt 6652
+
+Sfmt 6201
+
+E:\BILLS\H9566.IH
+
+SECTION 1. PILOT PROGRAM FOR USE BY CBP AT LAND
+
+PORTS OF ENTRY ALONG THE ARIZONA BOR-
+
+DER
+
+THROUGH AN ANOMALY DETECTION ALGO-
+
+RITHM.
+
+OF
+
+ARTIFICIAL
+
+INTELLIGENCE
+
+(a) IN GENERAL.—Not later than two years after the
+
+date of the enactment of this Act, the Commissioner of
+U.S. Customs Border Protection (CBP) shall implement
+a pilot program to implement an anomaly detection algo10 rithm that uses artificial intelligence to improve the
+screening, efficiency, inspection, and interdiction of illicit
+drugs and contraband at land ports of entry along the Ari13 zona border. The anomaly detection algorithm shall be
+tested and assessed for the purpose of assisting CBP offi15 cers in such screening, inspection, and interdiction for
+such illicit drugs and contraband.
+
+(b) ASSESSMENT.—After implementing the pilot pro-
+
+gram under subsection (a), the Commissioner of CBP
+shall test and collect data regarding the anomaly detection
+algorithm’s ability to—
+
+kjohnson on DSK7ZCZBW3PROD with $$_JOB
+
+(1) assist with inefficiencies and understaffing
+of CBP officers;
+
+(2) improve thoroughness of inspections;
+
+(3) improve accuracy of illicit drug and contra-
+
+band detection;
+
+(4) improve efficiency and processing times;
+•HR 9566 IH
+
+VerDate Sep 11 2014
+
+04:03 Jul 02, 2026
+
+Jkt 069200
+
+Frm 00002
+
+Fmt 6652
+
+Sfmt 6201
+
+E:\BILLS\H9566.IH
+
+(5) improve intelligence efforts; and
+
+(5) strengthen border security by combating
+
+trafficking of illicit drugs and contraband.
+
+(c) CYBERSECURITY MANAGEMENT.—The Secretary
+
+of Homeland Security shall ensure the use of anomaly de6 tection algorithm under this section—
+
+(1) satisfies all Department of Homeland Security cybersecurity requirements; and
+
+(2) is subject to rigorous and ongoing cyber
+
+risk management.
+
+(d) COORDINATION.—The Commissioner of CBP may
+
+work with the Secretary of Homeland Security, the Direc13 tor of the Cybersecurity and Infrastructure Security Agen14 cy, or the head of any other Federal Government depart15 ment or agency in the development, testing, and imple16 mentation of the anomaly detection algorithm.
+
+(e) PRIVATE SECTOR INVOLVEMENT.—The Commis-
+
+sioner of CBP may solicit input and assistance from rep19 resentatives of the private sector regarding the implemen20 tation of the pilot program under this section.
+
+(f) TERMINATION.—The pilot program under this
+
+section shall terminate on the date that is two years after
+kjohnson on DSK7ZCZBW3PROD with $$_JOB
+
+the date of the enactment of this Act.
+
+(g) REPORTS.—
+
+•HR 9566 IH
+VerDate Sep 11 2014
+
+04:03 Jul 02, 2026
+
+Jkt 069200
+
+Frm 00003
+
+Fmt 6652
+
+Sfmt 6201
+
+E:\BILLS\H9566.IH
+
+(1) PROGRESS REPORTS.—Not later than 180
+
+days after the implementation of the pilot program
+
+under this section and biannually thereafter until
+
+the termination of such pilot program, the Commis-
+
+sioner of CBP shall submit to Congress a report
+
+that includes, as practicable, the following:
+
+(A) Quantifiable metrics for the following:
+
+(i) The data collected in subsection
+
+(b).
+
+(ii) The probability of accurate detec-
+
+tion and false alarm rate of the anomaly
+
+detection algorithm.
+
+(iii) Operational costs of the anomaly
+
+detection algorithm.
+
+(iv) Estimated cost savings due to
+
+technological enhancements, if applicable
+
+from the anomaly detection algorithm.
+
+(B) Information relating to any successes
+
+or failures of such pilot program relating to the
+
+following:
+
+(i) Cybersecurity management under
+
+kjohnson on DSK7ZCZBW3PROD with $$_JOB
+
+subsection (c).
+
+(ii) Coordination under subsection (d).
+
+(iii) Private sector involvement under
+
+subsection (e).
+
+•HR 9566 IH
+VerDate Sep 11 2014
+
+04:03 Jul 02, 2026
+
+Jkt 069200
+
+Frm 00004
+
+Fmt 6652
+
+Sfmt 6201
+
+E:\BILLS\H9566.IH
+
+(2) FINAL REPORT.—Not later than 60 days
+
+after the termination of the pilot program under this
+
+section, the Commissioner of CBP shall submit to
+
+Congress a final report that includes the quantifiable
+
+metrics described in paragraph (1)(A) and the infor-
+
+mation described in paragraph (1)(B), together with
+
+recommendations for expanding the use of the
+
+anomaly detection algorithm, considering cost effec-
+
+tiveness.
+
+(h) DEFINITIONS.—In this section:
+
+(1) ANOMALY DETECTION.—The term ‘‘anom-
+
+aly detection’’ means the process of identifying rare
+
+events or outliers that deviate significantly from the
+
+norm in a collection of data.
+
+(2) ARTIFICIAL INTELLIGENCE.—The term ‘‘ar-
+
+tificial intelligence’’ has the meaning given such
+
+term in section 5002 of the National Artificial Intel-
+
+ligence Initiative Act of 2020 (15 U.S.C. 9401).
+
+kjohnson on DSK7ZCZBW3PROD with $$_JOB
+
+Æ
+
+•HR 9566 IH
+VerDate Sep 11 2014
+
+04:03 Jul 02, 2026
+
+Jkt 069200
+
+Frm 00005
+
+Fmt 6652
+
+Sfmt 6301
+
+E:\BILLS\H9566.IH
