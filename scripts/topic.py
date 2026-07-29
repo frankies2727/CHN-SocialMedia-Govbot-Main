@@ -407,10 +407,12 @@ class Topic:
                 return ""
         if not abstract:
             return ""
+        # Split once so we can also reach a matched provision's operative partner.
+        sentences = re.findall(r"[^.!?]*[.!?]", abstract)
         # Score every sentence by the distinct core keywords it carries, keeping
         # document order so the chosen excerpts read in the order they appear.
         scored: list[tuple[int, int, str, frozenset[str]]] = []
-        for idx, sentence in enumerate(re.findall(r"[^.!?]*[.!?]", abstract)):
+        for idx, sentence in enumerate(sentences):
             hits = frozenset(m.group(1).lower() for m in self._keyword_re.finditer(sentence.lower()))
             if hits:
                 scored.append((len(hits), idx, sentence, hits))
@@ -422,13 +424,25 @@ class Topic:
         # the same one. Then restore document order for readability.
         chosen: list[tuple[int, str]] = []
         covered: set[str] = set()
+        used_operative: set[int] = set()
         for _, idx, sentence, hits in sorted(scored, key=lambda s: (-s[0], s[1])):
             if len(chosen) >= max_provisions:
                 break
             if hits <= covered:
                 continue
             covered |= hits
-            chosen.append((idx, sentence))
+            # A statute digest (California most notably) states each provision as
+            # a pair: "Existing law <does X>." then "This bill would <change Y>."
+            # The keyword match usually lands on the "Existing law" sentence — the
+            # STATUS QUO, not the news. Pull the operative "This bill would …"
+            # sentence that follows it so the excerpt describes what the bill
+            # CHANGES, which is what a reader (and the summarizer) actually needs.
+            op_idx, op_sentence = self._operative_partner(sentences, idx, used_operative)
+            if op_sentence is not None:
+                used_operative.add(op_idx)
+                chosen.append((op_idx, op_sentence))
+            else:
+                chosen.append((idx, sentence))
         # Give each chosen provision a fair share of the budget so one verbose
         # sentence (e.g. a long enumeration of college names) can't swallow the
         # whole excerpt and crowd out the other matched provisions.
@@ -445,6 +459,25 @@ class Topic:
         if len(out) > max_chars:
             out = out[:max_chars].rstrip() + "…"
         return out
+
+    @staticmethod
+    def _operative_partner(
+        sentences: list[str], idx: int, used: set[int], window: int = 8
+    ) -> tuple[int, "str | None"]:
+        """Given a matched provision at ``sentences[idx]``, return the index and
+        text of the operative "This bill would … / the bill would …" sentence
+        that states what the bill CHANGES about it — searched forward within a
+        small window and not already claimed by another provision. Returns
+        ``(idx, None)`` when the matched sentence is itself operative or no
+        operative partner is found (caller keeps the matched sentence)."""
+        if re.match(r"\s*(?:this bill|the bill)\b", sentences[idx], re.IGNORECASE):
+            return idx, None
+        for j in range(idx + 1, min(len(sentences), idx + 1 + window)):
+            if j in used:
+                continue
+            if re.match(r"\s*(?:this bill|the bill)\b", sentences[j], re.IGNORECASE):
+                return j, sentences[j]
+        return idx, None
 
     def emoji_for(self, b: dict) -> str:
         s = " ".join([b.get("title", ""), b.get("abstract", ""), b.get("subjects", "")]).lower()
@@ -565,6 +598,14 @@ class Topic:
             f"attention. If the measure is a resolution or memorial that only states an "
             f"opinion, say plainly what the legislature is urging, supporting, or "
             f"opposing.\n\n"
+            f"DESCRIBE THE CHANGE, NOT THE STATUS QUO: bill digests often first state "
+            f"what CURRENT law already does ('Existing law requires…', 'Under current "
+            f"law…') and THEN what the bill changes ('This bill would…'). Never write the "
+            f"headline or summary about the existing/current law — that is background, not "
+            f"news. Always describe what THIS bill newly does, changes, adds, or removes. "
+            f"If the bill is a large multi-subject or budget bill covering many unrelated "
+            f"topics, focus the copy on the specific provision highlighted below (or the "
+            f"single most significant change), not a vague 'makes various changes'.\n\n"
             f"Rules for BOTH fields: write in plain layman's terms — replace legislative "
             f"jargon with the everyday word ('block' or 'override' instead of 'preempt', "
             f"'sets aside money for' instead of 'appropriates', 'lets' instead of "
