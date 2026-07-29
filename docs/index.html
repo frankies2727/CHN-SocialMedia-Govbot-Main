@@ -416,7 +416,11 @@ function fgrp(label, ctrl){
 }
 function renderPlatformFeeds(){
   const host=$("#platform-feeds"); host.innerHTML="";
-  const plats=DATA.platforms.slice().sort((a,b)=>platformRank(a.key)-platformRank(b.key)||a.name.localeCompare(b.name));
+  // Bluesky has its own dedicated live section above (pulled straight from the
+  // Bluesky API), so it never gets a static feed section here.
+  const plats=DATA.platforms.slice()
+    .filter(p=>(p.key||"").toLowerCase()!=="bluesky")
+    .sort((a,b)=>platformRank(a.key)-platformRank(b.key)||a.name.localeCompare(b.name));
   plats.forEach(p=>host.appendChild(buildSection(p)));
 }
 // Everything a free-text search should look inside for one record: bill code,
