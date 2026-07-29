@@ -9,6 +9,8 @@
     "CA|AB172|2026-06-26|From committee chair, with author's amen",
     "CA|AB1843|2026-06-25|From committee: Do pass and re-refer to ",
     "CA|AB1876|2026-06-24|From committee: Do pass and re-refer to ",
+    "CA|AB1882|2026-07-02",
+    "CA|AB1882|2026-07-02|From committee: Do pass and re-refer to ",
     "CA|AB1927|2026-06-25|Read second time and amended. Re-referre",
     "CA|AB1930|2026-07-02",
     "CA|AB1930|2026-07-02|Read second time and amended. Re-referre",
@@ -37,6 +39,8 @@
     "CA|SB135|2026-06-29|Unanimous consent granted to take up wit",
     "CA|SB135|2026-06-29|Withdrawn from committee pursuant to Ass",
     "CA|SB171|2026-06-30|Enrolled and presented to the Governor a",
+    "CA|SB884|2026-07-02",
+    "CA|SB884|2026-07-02|Read second time and amended. Re-referre",
     "DE|HB 344|2026-06-30|Reported Out of Committee (Finance) in S",
     "DE|HB 368|2026-06-24",
     "DE|HB 368|2026-06-24|Reported Out of Committee (Judiciary) in",
@@ -139,6 +143,8 @@
     "MI|SB 0616|2026-07-03|returned to Senate",
     "MI|SB 1050|2026-07-01",
     "MI|SB 1050|2026-07-01|SENATE CO-SPONSOR(S) NAMED: SEAN MCCANN",
+    "MN|HF 4133|2027-01-01",
+    "MN|HF 4133|2027-01-01|Effective date 01/01/2027",
     "MO|HB 1904|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HB 1970|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HB 2006|2026-06-30",
@@ -202,6 +208,8 @@
     "PA|HB 2413|2026-07-12|Approved by the Governor",
     "PA|HB 2413|2026-07-12|Signed in House",
     "PA|HB 2413|2026-07-12|Signed in Senate",
+    "PA|SB 1345|2026-07-12",
+    "PA|SB 1345|2026-07-12|Second consideration",
     "PA|SB 146|2026-07-12",
     "PA|SB 146|2026-07-12|",
     "PA|SB 146|2026-07-12|Act No. 21 of 2026",
@@ -266,7 +274,8 @@
     "29832725730-1": 4,
     "29944172071-1": 4,
     "30115439532-1": 4,
-    "30292542060-1": 4
+    "30292542060-1": 4,
+    "30477259728-1": 4
   },
-  "last_run": "2026-07-27T18:56:40.032002+00:00"
+  "last_run": "2026-07-29T18:39:02.723508+00:00"
 }
