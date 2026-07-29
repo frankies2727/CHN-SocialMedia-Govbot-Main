@@ -215,6 +215,11 @@ class Topic:
     # Instagram/Meta state subfolder. Defaults to "instagram"; mirrors x_subdir
     # and threads_subdir.
     instagram_subdir: str = "instagram"
+    # Bluesky state subfolder. Bluesky used to live at the topic root, alongside
+    # config.yml; it now lives in its own "bluesky/" folder so every platform is
+    # structured the same way (topics/<name>/<platform>/…). Configurable to
+    # mirror the other *_subdir fields, but there is no reason to override it.
+    bluesky_subdir: str = "bluesky"
     # Per-topic accent color for the Instagram card image, parsed from a
     # "card_accent" hex string in config.yml to an (R, G, B) tuple. Defaults to
     # govbot blue; only topics with an Instagram feed need to set it.
@@ -292,6 +297,7 @@ class Topic:
         x_subdir = (data.get("x_subdir") or "x").strip() or "x"
         threads_subdir = (data.get("threads_subdir") or "meta-threads").strip() or "meta-threads"
         instagram_subdir = (data.get("instagram_subdir") or "instagram").strip() or "instagram"
+        bluesky_subdir = (data.get("bluesky_subdir") or "bluesky").strip() or "bluesky"
         card_accent = _parse_hex_color(data.get("card_accent"), (37, 99, 235))
         card_spectrum = bool(data.get("card_spectrum", False))
 
@@ -325,6 +331,7 @@ class Topic:
             x_subdir=x_subdir,
             threads_subdir=threads_subdir,
             instagram_subdir=instagram_subdir,
+            bluesky_subdir=bluesky_subdir,
             card_accent=card_accent,
             card_spectrum=card_spectrum,
             keyword_groups=keyword_groups,
@@ -663,23 +670,26 @@ class Topic:
     # Paths and credentials
     # ------------------------------------------------------------------
 
+    # Bluesky state lives in its own subfolder (default "bluesky", overridable
+    # via bluesky_subdir in config.yml), mirroring the X/Threads/Instagram
+    # layout so every platform is structured identically under the topic.
     def state_file_path(self) -> Path:
-        return TOPICS_DIR / self.name / "bills_used.json"
+        return TOPICS_DIR / self.name / self.bluesky_subdir / "bills_used.json"
 
     def bills_raw_dir(self) -> Path:
-        return TOPICS_DIR / self.name / "bills_raw"
+        return TOPICS_DIR / self.name / self.bluesky_subdir / "bills_raw"
 
     # Full bill text extracted from each posted bill's PDF lives here as plain
     # .txt files (one per posted action), so the actual legislative body is
     # readable without digging through the raw JSON record.
     def bills_full_text_dir(self) -> Path:
-        return TOPICS_DIR / self.name / "bills_full_text"
+        return TOPICS_DIR / self.name / self.bluesky_subdir / "bills_full_text"
 
     # Weekly-digest highlights live in their own weekly_digest/ subfolder so
     # the raw artifacts for bills featured in the Sunday thread don't mix
     # with the daily feed's bills_raw/.
     def weekly_digest_bills_raw_dir(self) -> Path:
-        return TOPICS_DIR / self.name / "weekly_digest" / "bills_raw"
+        return TOPICS_DIR / self.name / self.bluesky_subdir / "weekly_digest" / "bills_raw"
 
     # X/Twitter state lives in its own subfolder (default "x", overridable via
     # x_subdir in config.yml) so its dedup file and raw artifacts sit beside —
