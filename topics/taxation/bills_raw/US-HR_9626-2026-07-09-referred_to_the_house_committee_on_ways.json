@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 9626",
+    "legislative_session": "119",
+    "title": "To amend the Internal Revenue Code of 1986 to eliminate the State and local tax deduction marriage penalty."
+  },
+  "id": "HR 9626",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Ways and Means.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-09T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9626.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/9626"
+        }
+      ]
+    },
+    "bill_id": "HR 9626"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9626/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9626/logs/20260709T040000Z_referred_to_the_house_committee_on_ways_and_means.json"
+  },
+  "timestamp": "20260709T040000Z"
+}
