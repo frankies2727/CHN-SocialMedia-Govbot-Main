@@ -1,0 +1,409 @@
+34-GH2038\A
+
+HOUSE BILL NO. 381
+IN THE LEGISLATURE OF THE STATE OF ALASKA
+THIRTY-FOURTH LEGISLATURE - SECOND SESSION
+BY THE HOUSE RULES COMMITTEE BY REQUEST OF THE GOVERNOR
+Introduced: 3/20/26
+Referred: Resources, Finance
+
+A BILL
+FOR AN ACT ENTITLED
+
+"An Act relating to the taxation of certain natural gas pipeline property; relating to
+
+municipal taxation limitations; establishing an alternative volumetric tax on natural gas
+
+throughput; relating to the allocation of revenue from the alternative volumetric tax;
+
+and providing for an effective date."
+
+BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF ALASKA:
+
+* Section 1. AS 14.17.510 is amended by adding a new subsection to read:
+
+(d) In this section, the full and true value of the taxable real and personal
+property does not include a qualified property as defined in AS 43.56.027.
+* Sec. 2. AS 14.17.990(6) is amended to read:
+
+(6) "local contribution" means appropriations and the value of in-kind
+
+services made by a district; "local contribution" does not include revenue received
+
+by a municipality under AS 43.56.023;
+
+* Sec. 3. AS 29.45.080(c) is amended to read:
+
+(c) A municipality may levy and collect a tax on the full and true value of that
+HB0381a
+
+New Text Underlined [DELETED TEXT BRACKETED]
+
+34-GH2038\A
+
+portion of taxable property taxable under AS 43.56 as assessed by the Department of
+
+Revenue which value, when combined with the value of property otherwise taxable by
+
+the municipality, does not exceed the product of the percentage determined in (f) of
+
+this section of the average per capita assessed full and true value of property in the
+
+state multiplied by the number of residents of the taxing municipality. A calculation
+
+made under this subsection shall exclude the amount of a tax levied under
+
+AS 43.56.022.
+
+* Sec. 4. AS 29.45.080 is amended by adding a new subsection to read:
+
+(g) Notwithstanding any other provision of this section, AS 29.45.090, or the
+
+authority granted to a municipality under AS 29.45.050 to exempt or defer taxation, a
+
+municipality may not levy a tax under this section on property that is a qualified
+
+property as defined in AS 43.56.027.
+
+* Sec. 5. AS 43.56.010(a) is amended to read:
+
+(a) Except as provided in AS 43.56.021 and 43.56.022, an [AN] annual tax
+
+of 20 mills is levied each tax year beginning January 1, 1974, on the full and true
+
+value of taxable property taxable under this chapter.
+
+* Sec. 6. AS 43.56.010(b) is amended to read:
+
+(b) Except as provided in AS 29.45.080(g), a [A] municipality may levy and
+
+collect a tax under AS 29.45.080 at the rate of taxation that applies to other property
+
+taxed by the municipality. The tax shall be levied at a rate no higher than the rate
+
+applicable to other property taxable by the municipality. A municipality may not
+
+exempt from taxation property authorized to be taxed under this chapter. Exemptions
+
+shall be limited to those in AS 29.45.030, 29.45.050, and AS 43.56.020.
+
+* Sec. 7. AS 43.56.020(d) is amended to read:
+
+(d) Taxable property of a major component of a natural gas pipeline project
+
+that is a qualified property as defined in AS 43.56.027 [owned or financed by THE
+
+ALASKA GASLINE DEVELOPMENT CORPORATION or a joint venture,
+
+partnership, or other entity that included THE ALASKA GASLINE DEVELOPMENT
+
+CORPORATION] is exempt from state taxes levied or authorized under
+
+AS 43.56.010(a) and municipal taxes levied or authorized under AS 43.56.010(b)
+
+before the commencement of commercial operations of that major component of the
+
+New Text Underlined [DELETED TEXT BRACKETED]
+
+HB0381a
+
+34-GH2038\A
+
+natural gas pipeline project. The exemption under this subsection applies to real
+
+and personal property used or committed by contract or other agreement for the
+
+construction, operation, or maintenance of the qualified property. In this
+
+subsection,
+
+(1) "commencement of commercial operations" means the first flow of
+
+natural gas in the qualified property that generates revenue to the owners of a major
+
+component of the natural gas pipeline project;
+
+(2) "major component of a natural gas pipeline project" means
+
+each part of an Alaska liquefied natural gas project as defined in AS 31.25.390,
+
+an in-state natural gas pipeline as defined in AS 31.25.390, and integrated carbon
+
+capture, utilization, and storage infrastructure, including a carbon dioxide
+
+storage facility under AS 41.06;
+
+(3) "taxable property" has the meaning given in AS 43.56.027.
+* Sec. 8. AS 43.56 is amended by adding new sections to read:
+
+Sec. 43.56.021. Temporary abatement. (a) Taxable property of a qualified
+
+property and any real or personal property used or committed by contract or other
+
+agreement for the construction, operation, or maintenance of the qualified property is
+
+not subject to the tax levied under AS 43.56.010(a) or a municipal tax levied under
+
+AS 29.45.080 during the ramp-up period. For purposes of this subsection, the ramp-up
+
+period begins on the date of commencement of commercial operations, as defined in
+
+AS 43.56.020(d), and ends on the earlier of
+
+(1)
+
+the day after the qualified property achieves a throughput of
+
+1,000,000,000 cubic feet of natural gas per day, calculated as a rolling average over a
+
+consecutive 30-day period; or
+
+(2)
+
+years after the date of commencement of commercial
+
+operations.
+
+(b) During the ramp-up period described in (a) of this section, the owner of a
+
+qualified property shall submit quarterly reports to the department detailing the daily
+
+volume of natural gas throughput. Upon verification that the throughput threshold has
+
+been met and the ramp-up period has ended, the commissioner shall issue a written
+
+determination to the owner and to any municipality within which the qualified
+
+HB0381a
+
+New Text Underlined [DELETED TEXT BRACKETED]
+
+34-GH2038\A
+
+property is located. The abatement provided in (a) of this section expires permanently
+
+upon the issuance of the written determination and does not resume if the daily gas
+
+volume subsequently decreases below the throughput threshold.
+
+(c)
+
+The provisions of this section do not apply to a spur line. In this
+
+subsection, "spur line" means a natural gas transmission line or lateral line that
+
+branches from the main natural gas pipeline project to deliver natural gas to a local
+
+community
+
+AS 31.25.005(4) and 31.25.390 or similar infrastructure not serving as the primary
+
+export or mainline transmission facility and not defined as a major component under
+
+AS 43.56.020(d). Taxable property associated with a spur line remains subject to
+
+taxation under AS 43.56.010 without the benefit of the abatement in (a) of this section.
+
+Sec. 43.56.022. Imposition of alternative volumetric tax. (a) The owner of a
+
+qualified property shall pay an alternative tax on the throughput of the qualified
+
+property. The volumetric tax applies beginning on the day after the expiration of the
+
+ramp-up period described in AS 43.56.021.
+
+or
+
+utility
+
+distribution system,
+
+including
+
+a
+
+line described
+
+in
+
+(b) The rate of tax is $0.06 per 1,000 cubic feet of natural gas throughput. The
+
+rate in this subsection increases by one percent of the rate imposed during the prior
+
+year on January 1 of each year following the first year of imposition.
+
+(c) The tax levied under this section is in place of
+
+(1) all taxes levied on taxable property, including property used or
+
+committed by contract or other agreement for use in the qualified property;
+
+(2) taxes levied under AS 43.56.010;
+
+(3) ad valorem taxes levied under AS 29.45.080; and
+
+(4) during the construction, operation, or maintenance of the qualified
+
+property, any municipal sales or use tax levied under AS 29.45.650 or 29.45.700,
+
+municipal taxes on or measured by gross or net income, or any municipal license,
+
+excise, fee charge, or other tax on or pertaining to the purchase, use, consumption, or
+
+ownership of property or services.
+
+(d) A return shall be filed with the department and to each municipality that
+
+taxes qualified property under this section on or before the last day of each month for
+
+the preceding month's throughput. The tax shall be paid to the department with the
+
+New Text Underlined [DELETED TEXT BRACKETED]
+
+HB0381a
+
+34-GH2038\A
+
+return.
+
+(e) A payment is considered late if not received by the last day of the month in
+which the return is due.
+
+(f) The provisions of AS 43.56.090, 43.56.100, 43.56.135, 43.56.140, and
+43.56.150 do not apply to the alternative volumetric tax levied under this section.
+
+(g) When the tax levied in this section becomes delinquent, a penalty of 10
+
+percent shall be added. Interest on the delinquent taxes, exclusive of penalty, shall be
+
+assessed at the rate specified in AS 43.05.225.
+
+(h) The remedy of distraint of property set out in AS 43.20.270 applies to the
+tax levied in this section. However, only the qualified property may be distrained.
+
+Sec. 43.56.023. Allocation of alternative tax. (a) A municipality shall levy
+
+and collect the alternative volumetric tax on the portion of the qualified property
+
+located within the municipality. The state shall levy and collect the alternative
+
+volumetric tax on the portion of the qualified property located in the unorganized
+
+borough.
+
+(b) Revenue collected by the state under (a) of this section shall be deposited in
+the general fund.
+
+(c) The department shall adopt regulations providing for a methodology to
+
+determine the amount that each municipality and the state may levy based on the
+
+original cost of the portion of the qualified property located within each municipality
+
+and the unorganized borough. If a portion of the qualified property is located within
+
+both a borough and a city within that borough, the department shall develop a
+
+methodology by regulation to allocate the tax revenue between the taxing
+
+jurisdictions.
+
+(d) The assessment of the tax levied on qualified property for purposes of this
+
+section is legally vested in the department. Any dispute regarding the assessment,
+
+including the allocation or jurisdiction of the tax, shall be treated as an administrative
+
+decision under AS 43.56.024.
+
+Sec. 43.56.024. Administrative appeals. (a) Notwithstanding AS 43.56.120, a
+
+decision by the department regarding the imposition or calculation of the tax levied
+
+under AS 43.56.022 may be appealed to the department for an informal conference
+
+HB0381a
+
+New Text Underlined [DELETED TEXT BRACKETED]
+
+34-GH2038\A
+
+under AS 43.05.240, and a final decision may be appealed to the office of
+
+administrative hearings under AS 43.05.405.
+
+(b) The State Assessment Review Board established under AS 43.56.040 does
+
+not have jurisdiction over a qualified property.
+
+Sec. 43.56.025. Termination of status. The benefits and alternative tax status
+
+provided for a qualified property under AS 43.56.021 and 43.56.022 terminate on
+
+January 1, 2040, if the qualified property has not commenced commercial operations,
+
+as defined in AS 43.56.020(d), on or before that date.
+
+Sec. 43.56.026. Regulations. The department shall adopt regulations under
+
+AS 44.62 (Administrative Procedure Act) to implement AS 43.56.021 - 43.56.027,
+
+including procedures for throughput reporting, the determination of original cost for
+
+allocation purposes, and the calculation of the rolling average. Regulations adopted
+
+under this section shall further define throughput for the purposes of AS 43.56.021 -
+
+43.56.027.
+
+Sec. 43.56.027. Definitions. In AS 43.56.021 - 43.56.027,
+
+(1) "qualified property" means an Alaska liquified natural gas project
+
+as defined in AS 31.25.390 and any other facilities or sub-projects attendant or related
+
+to the project or integrated carbon capture, utilization, and storage infrastructure, that,
+
+at the commencement of construction of the first major component of the project, was
+
+owned or financed by an instrumentality of the state or a joint venture, partnership, or
+
+other affiliated entity that included an instrumentality of the state that commenced
+
+construction on or after January 1, 2026;
+
+(2) "taxable property" has the meaning given in AS 43.56.210, except
+
+it includes property used for the liquefaction of natural gas and carbon capture,
+
+utilization, and storage infrastructure integrated with a natural gas pipeline project,
+
+including a carbon dioxide storage facility under AS 41.06; "taxable property"
+
+includes real and personal property used or committed by contract or other agreement
+
+for the qualified property described in AS 43.56.020(d);
+
+(3)
+
+"throughput" means the volume of natural gas measured by
+
+summing all volumes sold or otherwise delivered at each outlet or offtake point along
+
+the gas pipeline as defined in AS 31.25.390; "throughput" includes natural gas
+
+New Text Underlined [DELETED TEXT BRACKETED]
+
+HB0381a
+
+34-GH2038\A
+
+consumed as fuel for the operation of a liquefaction facility but does not include
+
+natural gas consumed as fuel for pipeline compression.
+
+* Sec. 9. This Act takes effect immediately under AS 01.10.070(c).
+
+HB0381a
+
+New Text Underlined [DELETED TEXT BRACKETED]
