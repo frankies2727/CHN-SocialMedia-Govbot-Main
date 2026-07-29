@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 9619",
+    "legislative_session": "119",
+    "title": "To require artificial intelligence chatbot providers to provide data privacy and security, and for other purposes."
+  },
+  "id": "HR 9619",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Energy and Commerce.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-09T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9619.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/9619"
+        }
+      ]
+    },
+    "bill_id": "HR 9619"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9619/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9619/logs/20260709T040000Z_referred_to_the_house_committee_on_energy_and_commerce.json"
+  },
+  "timestamp": "20260709T040000Z"
+}
