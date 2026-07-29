@@ -1,0 +1,304 @@
+*LRB10418293AAS31733b*
+
+104TH GENERAL ASSEMBLY
+State of Illinois
+and 2026
+Introduced 1/29/2026, by Sen. Rachel Ventura
+
+SYNOPSIS AS INTRODUCED:
+ILCS 5/16-107.5a new
+Amends the Public Utilities Act. Defines "plug-in solar energy
+system". Provides that an electricity provider shall not require an
+eligible customer who uses, or intends to install and use, a plug-in solar
+energy system to do certain actions. Provides that an eligible customer
+may, but shall not be required to, conform the eligible customer's plug-in
+solar energy system to the interconnection requirements under provisions
+concerning net metering and any rules adopted pursuant to those
+provisions. Provides that a plug-in solar energy system that does not
+interconnect to the electrical system in a manner that is consistent with
+the applicable rules adopted by the Illinois Commerce Commission shall not
+be eligible for net electricity metering. Provides that a plug-in solar
+energy system shall not qualify for any distributed generation rebate.
+Provides that an electricity provider shall not be liable for any damage or
+injury caused by an eligible customer's plug-in solar energy system.
+Provides that homeowners' associations, common interest community
+associations, and condominium unit owners' associations shall not adopt or
+enforce any covenant, bylaw, regulation, or other rule that unreasonably
+restricts or prohibits, or has the effect of prohibiting, the installation
+or use of a plug-in solar energy system that has a maximum power output to
+a receptacle outlet of 391 watts or less. Provides that landlords shall not
+adopt or enforce any lease or contract that unreasonably restricts or
+prohibits, or has the effect of prohibiting, the installation or use of a
+plug-in solar energy system that has a maximum power output to a receptacle
+outlet of 391 watts or less.
+
+LRB104 18293 AAS 31733 b
+
+A BILL FOR
+
+LRB104 18293 AAS 31733 b
+
+AN ACT concerning regulation.
+
+Be it enacted by the People of the State of Illinois,
+
+represented in the General Assembly:
+
+Section 5. The Public Utilities Act is amended by adding
+
+Section 16-107.5a as follows:
+
+(220 ILCS 5/16-107.5a new)
+
+Sec. 16-107.5a. Plug-in solar energy system.
+
+(a) As used in this Section:
+
+"Electricity provider" has the meaning given to that term
+
+in Section 16-107.5.
+"Eligible
+
+customer"
+
+means
+
+a
+
+retail
+
+customer
+
+of
+
+an
+
+electricity provider.
+"Net electricity metering" has the meaning given to that
+term in Section 16-107.5.
+
+"Plug-in solar energy system" means a solar energy system,
+
+as defined in Section 10 of the Homeowners' Energy Policy
+
+Statement Act, that:
+
+(1) may include an energy storage system;
+
+(2) can export no more than 1,200 watts to a receiving
+
+outlet;
+
+(3)
+
+is
+
+designed
+
+to
+
+be
+
+connected
+
+to
+
+a
+
+building's
+
+electrical system through an existing electrical outlet;
+(4) is located on an exclusive-use balcony, patio,
+
+LRB104 18293 AAS 31733 b
+
+yard, porch, or similar area that is subject to reasonable
+
+safety
+
+concerning wind loads, drainage, and egress;
+
+(5)
+
+rules,
+
+is
+
+including,
+
+intended
+
+but
+
+primarily
+
+not
+
+to
+
+limited
+
+offset
+
+to,
+
+rules
+
+part
+
+of
+
+an
+
+eligible customer's electricity consumption;
+
+(6) meets the standards of the most current edition of
+
+the National Electrical Code; and
+
+(7) is certified by Underwriters Laboratories or an
+
+equivalent nationally recognized testing laboratory.
+
+(b) An electricity provider shall not require an eligible
+
+customer who uses, or intends to install and use, a plug-in
+
+solar energy system to do any of the following:
+
+(1) obtain the electricity provider's approval before
+
+installing or using the plug-in solar energy system;
+
+(2) pay a fee or charge related to the installation or
+
+use of the plug-in solar energy system; or
+
+(3) install additional controls or equipment on the
+
+plug-in solar energy system beyond those specified in the
+
+definition
+
+subsection (a).
+
+(c) An eligible customer may, but shall not be required
+
+of
+
+"plug-in
+
+solar
+
+energy
+
+system"
+
+under
+
+to,
+
+system
+
+16-107.5 and any rules adopted by the Commission pursuant to
+
+Section 16-107.5. A plug-in solar energy system that does not
+
+interconnect to the electrical system in a manner that is
+
+conform
+to
+
+the
+the
+
+eligible
+
+customer's
+
+interconnection
+
+plug-in
+
+requirements
+
+solar
+
+energy
+
+under
+
+Section
+
+LRB104 18293 AAS 31733 b
+
+consistent with the applicable rules adopted by the Commission
+
+pursuant to Section 16-107.5 shall not be eligible for net
+
+electricity metering under Section 16-107.5.
+
+(d) A plug-in solar energy system shall not qualify for
+any rebate under Section 16-107.6.
+
+(e) An electricity provider shall not be liable for any
+
+damage or injury caused by an eligible customer's plug-in
+
+solar energy system.
+
+(f) Homeowners' associations, common interest community
+
+associations, and condominium unit owners' associations shall
+
+not adopt or enforce any covenant, bylaw, regulation, or other
+
+rule that unreasonably restricts or prohibits, or has the
+
+effect of prohibiting, the installation or use of a plug-in
+
+solar energy system that has a maximum power output to a
+
+receptacle outlet of 391 watts or less. This subsection (f)
+
+applies only to contracts, covenants, bylaws, rules, or other
+
+governing documents created, entered into, renewed, or amended
+
+on or after the effective date of this amendatory Act of the
+
+104th General Assembly.
+
+(g) Landlords shall not adopt or enforce any lease or
+
+contract that unreasonably restricts or prohibits, or has the
+
+effect of prohibiting, the installation or use of a plug-in
+
+solar energy system that has a maximum power output to a
+
+receptacle outlet of 391 watts or less. This subsection (g)
+
+applies
+
+documents created, entered into, renewed, or amended on or
+
+only
+
+to
+
+contracts,
+
+leases,
+
+or
+
+other
+
+governing
+
+LRB104 18293 AAS 31733 b
+
+after the effective date of this amendatory Act of the 104th
+
+General Assembly.

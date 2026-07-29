@@ -66,6 +66,9 @@
     "DE|HCR 145|2026-06-09|Passed By Senate. Votes: 15 YES 2 NO 1 N",
     "DE|HCR 145|2026-06-09|Passed In House by Voice Vote",
     "GA|SB 39|2026-04-02|House Committee Favorably Reported By Su",
+    "IL|HB5492|2026-06-29",
+    "IL|HB5492|2026-06-29|Effective Date January 1, 2027",
+    "IL|HB5492|2026-06-29|Governor Approved",
     "KS|HB2267|2026-04-10|Died in Committee",
     "KS|HB2407|2026-04-10|Died in Committee",
     "KS|HB2741|2026-04-10|Died in Committee",
@@ -110,6 +113,9 @@
     "NJ|S2953|2026-06-18|",
     "NY|A7215|2026-07-01",
     "NY|A7215|2026-07-01|PRINT NUMBER 7215B",
+    "US|HRES 1405|2026-06-30",
+    "US|HRES 1405|2026-06-30|Referred to the House Committee on the J",
+    "US|HRES 1405|2026-06-30|Submitted in House",
     "WA|SB 6081|2026-01-23|Executive action taken in the Senate Com",
     "WA|SB 6081|2026-01-23|Minority; do not pass.",
     "WA|SB 6081|2026-01-23|Minority; without recommendation.",
@@ -139,7 +145,7 @@
     "|SRES 789|2026-06-24|Referred to the Committee on the Judicia",
     "|SRES 789|2026-06-24|Submitted in Senate"
   ],
-  "last_run": "2026-07-24T15:27:55.008722+00:00",
+  "last_run": "2026-07-29T19:07:45.632748+00:00",
   "state_last_posted": {
     "WA": "2026-05-24T21:01:19.732360+00:00",
     "MO": "2026-06-14T16:01:24.801978+00:00",
@@ -153,6 +159,8 @@
     "NH": "2026-06-29T12:15:03.457553+00:00",
     "NC": "2026-07-22T15:36:07.925056+00:00",
     "NY": "2026-07-20T10:21:21.719626+00:00",
-    "?": "2026-07-22T15:36:07.925056+00:00"
+    "?": "2026-07-22T15:36:07.925056+00:00",
+    "IL": "2026-07-29T19:01:40.266172+00:00",
+    "US": "2026-07-29T19:01:40.266172+00:00"
   }
 }

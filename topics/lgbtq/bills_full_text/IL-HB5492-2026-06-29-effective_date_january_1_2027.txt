@@ -1,0 +1,918 @@
+*LRB10418985BAB32430b*
+
+104TH GENERAL ASSEMBLY
+State of Illinois
+and 2026
+Introduced 2/13/2026, by Rep. Katie Stuart - Yolonda Morris Dagmara Avelar
+
+SYNOPSIS AS INTRODUCED:
+ILCS 375/6.11
+ILCS 5/356z.88 new
+ILCS 85/45 new
+ILCS 5/5-16.8
+Amends the Illinois Insurance Code. Sets forth provisions requiring
+an individual or group policy of accident and health insurance amended,
+delivered, issued, or renewed in this State on or after January 1, 2028 to
+provide coverage for up to a 12-month supply of prescription hormone
+therapy, and the necessary supplies for self-administration, that is
+prescribed by a network provider within the provider's scope of practice
+and dispensed at one time for an enrollee by a provider or pharmacist, or
+at a location licensed or otherwise authorized to dispense drugs or
+supplies. Amends the Pharmacy Practice Act. Provides that, notwithstanding
+any other provision of law, a dispensing provider or pharmacist shall
+dispense, at a patient's request, up to a 12-month supply of a prescription
+hormone therapy and the necessary supplies for self-administration
+pursuant to a valid prescription that specifies an initial quantity
+followed by periodic refills, except as specified. Amends the State
+Employees Group Insurance Act of 1971 and the Illinois Public Aid Code to
+require coverage under the provisions of those Acts.
+
+LRB104 18985 BAB 32430 b
+
+A BILL FOR
+
+LRB104 18985 BAB 32430 b
+
+AN ACT concerning regulation.
+
+Be it enacted by the People of the State of Illinois,
+
+represented in the General Assembly:
+
+Section 5. The State Employees Group Insurance Act of 1971
+is amended by changing Section 6.11 as follows:
+
+(5 ILCS 375/6.11)
+
+(Text of Section before amendment by P.A. 104-1)
+
+Sec. 6.11. Required health benefits; Illinois Insurance
+
+Code
+
+provide
+
+covered by a policy of accident and health insurance under
+
+Section 356t of the Illinois Insurance Code. The program of
+
+health benefits shall provide the coverage required under
+
+Sections 356g, 356g.5, 356g.5-1, 356m, 356q, 356u, 356u.10,
+
+356w, 356x, 356z.2, 356z.4, 356z.4a, 356z.5, 356z.6, 356z.8,
+
+356z.9, 356z.10, 356z.11, 356z.12, 356z.13, 356z.14, 356z.15,
+
+356z.17, 356z.22, 356z.25, 356z.26, 356z.29, 356z.30, 356z.32,
+
+356z.33, 356z.36, 356z.40, 356z.41, 356z.45, 356z.46, 356z.47,
+
+356z.51, 356z.53, 356z.54, 356z.55, 356z.56, 356z.57, 356z.59,
+
+356z.60, 356z.61, 356z.62, 356z.64, 356z.67, 356z.68, 356z.70,
+
+356z.71, 356z.74, 356z.76, and 356z.77, and 356z.80, 356z.81,
+
+356z.82,
+
+Illinois Insurance Code. The program of health benefits must
+
+requirements.
+the
+
+The
+
+program
+
+post-mastectomy
+
+356z.83,
+
+356z.84,
+
+care
+
+of
+
+health
+
+benefits
+
+shall
+
+benefits
+
+required
+
+to
+
+356z.85,
+
+and
+
+356z.88
+
+of
+
+be
+
+the
+
+LRB104 18985 BAB 32430 b
+
+comply with Sections 155.22a, 155.37, 355b, 356z.19, 370c, and
+
+370c.1 and Article XXXIIB of the Illinois Insurance Code. The
+
+program of health benefits shall provide the coverage required
+
+under Section 356m of the Illinois Insurance Code and, for the
+
+employees of the State Employee Group Insurance Program only,
+
+the coverage as also provided in Section 6.11B of this Act. The
+
+Department of Insurance shall enforce the requirements of this
+
+Section with respect to Sections 370c and 370c.1 and Article
+
+XXXIIB of the Illinois Insurance Code; all other requirements
+
+of this Section shall be enforced by the Department of Central
+
+Management Services.
+
+Rulemaking authority to implement Public Act 95-1045, if
+
+any, is conditioned on the rules being adopted in accordance
+
+with all provisions of the Illinois Administrative Procedure
+
+Act and all rules and procedures of the Joint Committee on
+
+Administrative Rules; any purported rule not so adopted, for
+
+whatever reason, is unauthorized.
+
+(Source: P.A. 103-8, eff. 1-1-24; 103-84, eff. 1-1-24; 103-91,
+
+eff.
+
+103-535, eff. 8-11-23; 103-551, eff. 8-11-23; 103-605, eff.
+
+7-1-24; 103-718, eff. 7-19-24; 103-751, eff. 8-2-24; 103-870,
+
+eff.
+
+103-951, eff. 1-1-25; 103-1024, eff. 1-1-25; 104-27, eff.
+
+1-1-26, 104-42, eff. 8-1-25; 104-68, eff. 1-1-26; 104-73, eff.
+
+1-1-26; 104-289, eff. 1-1-26; 104-324, eff. 1-1-26; 104-379,
+
+eff. 1-1-26; 104-417, eff. 8-15-25; revised 11-19-25.)
+
+1-1-24;
+
+1-1-25;
+
+103-420,
+
+103-914,
+
+eff.
+
+eff.
+
+1-1-24;
+
+1-1-25;
+
+103-445,
+
+103-918,
+
+eff.
+
+eff.
+
+1-1-24;
+
+1-1-25;
+
+LRB104 18985 BAB 32430 b
+
+(Text of Section after amendment by P.A. 104-1)
+
+Sec. 6.11. Required health benefits; Illinois Insurance
+
+Code
+
+requirements.
+
+provide
+
+covered by a policy of accident and health insurance under
+
+Section 356t of the Illinois Insurance Code. The program of
+
+health benefits shall provide the coverage required under
+
+Sections 356g, 356g.5, 356g.5-1, 356m, 356q, 356u, 356u.10,
+
+356w, 356x, 356z.2, 356z.4, 356z.4a, 356z.5, 356z.6, 356z.8,
+
+356z.9, 356z.10, 356z.11, 356z.12, 356z.13, 356z.14, 356z.15,
+
+356z.17, 356z.22, 356z.25, 356z.26, 356z.29, 356z.30, 356z.32,
+
+356z.33, 356z.36, 356z.40, 356z.41, 356z.45, 356z.46, 356z.47,
+
+356z.51, 356z.53, 356z.54, 356z.55, 356z.56, 356z.57, 356z.59,
+
+356z.60, 356z.61, 356z.62, 356z.64, 356z.67, 356z.68, 356z.70,
+
+356z.71, 356z.74, 356z.76, and 356z.77, 356z.79, and 356z.80,
+
+356z.81, 356z.82, 356z.83, 356z.84, 356z.85, and 356z.88 of
+
+the Illinois Insurance Code. The program of health benefits
+
+must comply with Sections 155.22a, 155.37, 355b, 356z.19,
+
+370c, and 370c.1 and Article XXXIIB of the Illinois Insurance
+
+Code.
+
+coverage required under Section 356m of the Illinois Insurance
+
+Code
+
+Insurance Program only, the coverage as also provided in
+
+Section 6.11B of this Act. The Department of Insurance shall
+
+enforce the requirements of this Section with respect to
+
+the
+
+The
+
+and,
+
+The
+
+program
+
+post-mastectomy
+
+program
+
+for
+
+the
+
+of
+
+care
+
+health
+
+employees
+
+of
+
+health
+
+benefits
+
+shall
+
+benefits
+
+required
+
+to
+
+benefits
+
+of
+
+the
+
+shall
+
+State
+
+provide
+
+Employee
+
+be
+
+the
+
+Group
+
+LRB104 18985 BAB 32430 b
+
+Sections 370c and 370c.1 and Article XXXIIB of the Illinois
+
+Insurance Code; all other requirements of this Section shall
+
+be enforced by the Department of Central Management Services.
+
+Rulemaking authority to implement Public Act 95-1045, if
+
+any, is conditioned on the rules being adopted in accordance
+
+with all provisions of the Illinois Administrative Procedure
+
+Act and all rules and procedures of the Joint Committee on
+
+Administrative Rules; any purported rule not so adopted, for
+
+whatever reason, is unauthorized.
+
+(Source: P.A. 103-8, eff. 1-1-24; 103-84, eff. 1-1-24; 103-91,
+
+eff.
+
+103-535, eff. 8-11-23; 103-551, eff. 8-11-23; 103-605, eff.
+
+7-1-24; 103-718, eff. 7-19-24; 103-751, eff. 8-2-24; 103-870,
+
+eff.
+
+103-951,
+
+7-1-27; 104-27, eff. 1-1-26, 104-42, eff. 8-1-25; 104-68, eff.
+
+1-1-26; 104-73, eff. 1-1-26; 104-289, eff. 1-1-26; 104-324,
+
+eff. 1-1-26; 104-379, eff. 1-1-26; 104-417, eff. 8-15-25;
+
+revised 11-19-25.)
+
+1-1-24;
+
+1-1-25;
+eff.
+
+103-420,
+
+eff.
+
+1-1-24;
+
+103-914,
+
+eff.
+
+1-1-25;
+
+1-1-25;
+
+103-1024,
+
+103-445,
+
+103-918,
+
+eff.
+
+1-1-25;
+
+eff.
+
+eff.
+
+1-1-24;
+
+1-1-25;
+
+104-1,
+
+eff.
+
+Section 10. The Illinois Insurance Code is amended by
+
+adding Section 356z.88 as follows:
+
+(215 ILCS 5/356z.88 new)
+
+Sec. 356z.88. Coverage for prescription hormone therapy.
+
+(a) For purposes of this Section, "prescription hormone
+
+LRB104 18985 BAB 32430 b
+
+therapy" means all drugs approved by the United States Food
+
+and Drug Administration that are used to medically suppress,
+
+increase, or replace hormones that the body is not producing
+
+at
+
+self-administration. "Prescription hormone therapy" does not
+
+include glucagon-like peptide-1 and glucagon-like peptide-1
+
+receptor agonists.
+
+intended
+
+levels
+
+and
+
+the
+
+necessary
+
+supplies
+
+for
+
+(b)(1) An individual or group policy of accident and
+
+health insurance amended, delivered, issued, or renewed in
+
+this State on or after January 1, 2028 shall provide coverage
+
+for up to a 12-month supply of prescription hormone therapy,
+
+and the necessary supplies for self-administration, that is
+
+prescribed by a network provider within the provider's scope
+
+of practice and dispensed at one time for an enrollee by a
+
+provider or pharmacist, or at a location licensed or otherwise
+
+authorized to dispense drugs or supplies.
+
+(2) This Section does not require an individual or group
+
+policy of accident and health insurance amended, delivered,
+
+issued, or renewed in this State on or after January 1, 2028 to
+
+cover
+
+out-of-network provider, pharmacy, or location licensed or
+
+otherwise authorized to dispense drugs or supplies, except as
+
+may otherwise be authorized by State or federal law or by the
+
+plan's
+
+prescriptions for medically necessary prescription hormone
+
+therapy are unavailable to a plan enrollee within the plan's
+
+prescription
+
+policies
+
+hormone
+
+governing
+
+therapy
+
+provided
+
+out-of-network
+
+by
+
+coverage.
+
+an
+
+If
+
+LRB104 18985 BAB 32430 b
+
+network, the plan shall arrange for the prescription hormone
+
+therapy to be provided by an out-of-network provider.
+
+(3) This Section does not prohibit an individual or group
+
+policy of accident and health insurance amended, delivered,
+
+issued, or renewed on or after January 1, 2028 from limiting
+
+refills that may be obtained in the last quarter of the plan
+
+year if a 12-month supply of the prescription hormone therapy
+
+has already been dispensed during the plan year.
+
+(4) This Section does not require a provider to prescribe,
+
+furnish, or dispense 12 months of prescription hormone therapy
+
+at one time.
+
+(5) To the extent not otherwise prohibited under this
+
+Section or State or federal law, health plans may apply drug
+
+utilization
+
+covered under paragraph (1) of this subsection.
+
+management
+
+strategies
+
+to
+
+prescription
+
+drugs
+
+(6) If an individual or group policy of accident and
+
+health insurance amended, delivered, issued, or renewed in
+
+this
+
+responsibilities under this Section to a contracted entity,
+
+including a medical group or independent practice association,
+
+the delegated entity shall comply with this Section.
+
+State
+
+This
+
+on
+
+or
+
+Section
+
+after
+
+1,
+
+deny
+
+ensure
+
+plan
+
+or
+
+delegates
+
+(c)
+
+Department's
+
+individual or group policy of accident and health insurance
+
+provides coverage for prescription hormone therapy.
+
+to
+
+not
+
+authority
+
+does
+
+January
+
+restrict
+
+compliance
+
+when
+
+the
+an
+
+LRB104 18985 BAB 32430 b
+
+Section 15. The Pharmacy Practice Act is amended by adding
+Section 45 as follows:
+
+(225 ILCS 85/45 new)
+
+Sec. 45. Prescription hormone therapy.
+
+(a) For purposes of this Section, "prescription hormone
+
+therapy" means all drugs approved by the United States Food
+
+and Drug Administration that are used to medically suppress,
+
+increase, or replace hormones that the body is not producing
+
+at
+
+self-administration. "Prescription hormone therapy" does not
+
+include glucagon-like peptide-1 and glucagon-like peptide-1
+
+receptor agonists.
+
+intended
+
+levels
+
+and
+
+the
+
+necessary
+
+supplies
+
+for
+
+(b)
+
+dispensing
+
+patient's request, up to a 12-month supply of a prescription
+
+hormone
+
+self-administration
+
+specifies an initial quantity followed by periodic refills,
+
+unless any of the following is true:
+
+Notwithstanding
+provider
+
+therapy
+
+or
+
+and
+
+any
+
+other
+
+provision
+
+pharmacist
+
+the
+
+pursuant
+
+shall
+
+necessary
+
+to
+
+a
+
+valid
+
+prescription
+
+that
+
+(2)
+
+a
+
+for
+
+provider
+
+at
+
+a
+
+supplies
+
+(1) The patient requests a smaller supply.
+prescribing
+
+law,
+
+dispense,
+
+The
+
+of
+
+instructs
+
+that
+
+the
+
+patient must have a smaller supply.
+(3)
+
+The
+
+prescribing
+
+provider
+
+temporarily
+
+limits
+
+refills to a 90-day supply due to an acute dispensing
+
+shortage, so long as those limits are rescinded at the
+
+LRB104 18985 BAB 32430 b
+
+first opportunity of a regularly reinstated, sustainable
+
+supply.
+
+(4) The prescription hormone therapy is a controlled
+
+substance.
+
+controlled substance, the pharmacist shall dispense the
+
+maximum supply allowed under State and federal law to be
+
+obtained at one time by the patient.
+
+Section 45. The Illinois Public Aid Code is amended by
+
+If
+
+the
+
+prescription
+
+hormone
+
+therapy
+
+is
+
+a
+
+changing Section 5-16.8 as follows:
+
+(305 ILCS 5/5-16.8)
+
+Sec.
+
+5-16.8.
+
+Required
+
+health
+
+benefits.
+
+The
+
+medical
+
+assistance program shall (i) provide the post-mastectomy care
+
+benefits required to be covered by a policy of accident and
+
+health insurance under Section 356t and the coverage required
+
+under
+
+356z.26, 356z.29, 356z.32, 356z.33, 356z.34, 356z.35, 356z.46,
+
+356z.47, 356z.51, 356z.53, 356z.59, 356z.60, 356z.61, 356z.64,
+
+356z.67, 356z.71, and 356z.75, and 356z.80, 356z.84, 356z.85,
+
+and 356z.88 of the Illinois Insurance Code, (ii) be subject to
+
+the provisions of Sections 356z.19, 356z.44, 356z.49, 364.01,
+
+370c, and 370c.1 of the Illinois Insurance Code, and (iii) be
+
+subject to the provisions of subsection (d-5) of Section 10 of
+
+the Network Adequacy and Transparency Act.
+
+Sections
+
+356g.5,
+
+356q,
+
+356u,
+
+356w,
+
+356x,
+
+356z.6,
+
+The Department, by rule, shall adopt a model similar to
+
+LRB104 18985 BAB 32430 b
+
+the requirements of Section 356z.39 of the Illinois Insurance
+
+Code.
+
+On and after July 1, 2012, the Department shall reduce any
+
+rate of reimbursement for services or other payments or alter
+
+any methodologies authorized by this Code to reduce any rate
+
+of reimbursement for services or other payments in accordance
+
+with Section 5-5e.
+
+To ensure full access to the benefits set forth in this
+
+Section, on and after January 1, 2016, the Department shall
+
+ensure
+
+post-mastectomy care benefits required under this Section are
+
+no lower than the Medicare reimbursement rate.
+
+(Source:
+
+103-420, eff. 1-1-24; 103-605, eff. 7-1-24; 103-703, eff.
+
+1-1-25; 103-758, eff. 1-1-25; 103-1024, eff. 1-1-25; 104-73,
+
+eff.
+
+104-417, eff. 8-15-25; revised 11-21-25.)
+
+that
+
+P.A.
+
+1-1-26;
+
+provider
+
+103-84,
+
+104-324,
+
+and
+
+eff.
+
+eff.
+
+hospital
+
+1-1-24;
+
+1-1-26;
+
+reimbursement
+
+103-91,
+
+104-379,
+
+eff.
+
+eff.
+
+for
+
+1-1-24;
+
+1-1-26;
+
+Section 95. No acceleration or delay. Where this Act makes
+
+changes in a statute that is represented in this Act by text
+
+that is not yet or no longer in effect (for example, a Section
+
+represented by multiple versions), the use of that text does
+
+not accelerate or delay the taking effect of (i) the changes
+
+made by this Act or (ii) provisions derived from any other
+
+Public Act.

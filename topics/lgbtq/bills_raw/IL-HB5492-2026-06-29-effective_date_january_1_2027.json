@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB5492",
+    "legislative_session": "104th",
+    "title": "PRESCRIPTION HORMONE THERAPY"
+  },
+  "id": "HB5492",
+  "log": {
+    "action": {
+      "description": "Effective Date January 1, 2027",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-29",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=5492&GAID=18&DocTypeID=HB&LegId=167447&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "HB5492"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/HB5492/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/HB5492/logs/20260629T000000Z_effective_date_january_1_2027.json"
+  },
+  "timestamp": "20260629T000000Z"
+}
