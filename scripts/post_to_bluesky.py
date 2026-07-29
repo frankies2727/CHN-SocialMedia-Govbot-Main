@@ -533,8 +533,48 @@ def _smart_case(s: str) -> str:
     return s[0].upper() + s[1:] if s[0].isalpha() else s
 
 
+# Procedural action descriptions — especially federal committee referrals —
+# carry a long boilerplate tail that adds no news and swallows the whole post,
+# e.g. "Referred to the Committee on Education and Workforce, and in addition to
+# the Committee on Foreign Affairs, for a period to be subsequently determined by
+# the Speaker, in each case for consideration of such provisions as fall within
+# the jurisdiction of the committee concerned." Cut everything from the first
+# boilerplate marker so only the substantive lead ("Referred to the Committee on
+# Education and Workforce") survives.
+_ACTION_BOILERPLATE_RE = re.compile(
+    r"\s*[,;]?\s*(?:"
+    r"and in addition to\b"
+    r"|for a period to be subsequently determined\b"
+    r"|in each case for consideration\b"
+    r"|for consideration of such provisions as fall within\b"
+    r").*$",
+    re.IGNORECASE | re.DOTALL,
+)
+
+
+def _shorten_action_desc(desc: str, max_len: int = 180) -> str:
+    """Trim procedural boilerplate and cap runaway action descriptions at a
+    clean clause boundary so the date+action line never eats the whole post."""
+    desc = _ACTION_BOILERPLATE_RE.sub("", desc or "").strip().rstrip(",;")
+    if len(desc) <= max_len:
+        return desc
+    # Too long even after de-boilerplating — cut at the last sentence, then
+    # clause, then word boundary that fits, and mark the truncation.
+    window = desc[: max_len + 1]
+    for sep in (". ", "; ", ", "):
+        idx = window.rfind(sep)
+        if idx >= max_len // 2:
+            return desc[:idx].rstrip(",;") + "…"
+    idx = window.rfind(" ")
+    cut = desc[: idx if idx >= max_len // 2 else max_len].rstrip(",;")
+    return cut + "…"
+
+
 def format_action_line(action_desc: str, date_yyyy_mm_dd: str) -> str:
-    desc = _smart_case(_strip_trailing_date(_strip_leading_date(action_desc), date_yyyy_mm_dd))
+    trimmed = _shorten_action_desc(
+        _strip_trailing_date(_strip_leading_date(action_desc), date_yyyy_mm_dd)
+    )
+    desc = _smart_case(trimmed)
     nice_date = _format_date(date_yyyy_mm_dd)
     if desc and nice_date:
         desc_with_period = desc if desc.endswith((".", "!", "?", ".)")) else desc + "."
