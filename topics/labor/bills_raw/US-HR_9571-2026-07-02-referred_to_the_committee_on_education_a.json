@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 9571",
+    "legislative_session": "119",
+    "title": "Living Wage for Federal Contractors Act"
+  },
+  "id": "HR 9571",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the Committee on Education and Workforce, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-02T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9571.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/9571"
+        }
+      ]
+    },
+    "bill_id": "HR 9571"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9571/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9571/logs/20260702T040000Z_referred_to_the_committee_on_education_and_workforce_and_in_addition_to_the_committee_on_oversight_a.json"
+  },
+  "timestamp": "20260702T040000Z"
+}
