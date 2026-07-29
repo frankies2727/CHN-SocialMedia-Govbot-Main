@@ -267,17 +267,30 @@ def main() -> None:
 
     # De-duplicate feed items (same bill+date+action can be saved under both the
     # per-topic aggregate and the platform folder). Order by real post day
-    # (commit date), newest first, then by action date, and cap it.
-    seen = set()
+    # (commit date), newest first, then by action date.
+    #
+    # Bluesky is rendered live from the public Bluesky API in the dashboard (its
+    # own section), never from this static feed, so drop its items here — they
+    # would otherwise dominate a shared cap and starve the other platforms'
+    # feed sections. Cap PER PLATFORM (not globally) so no single high-volume
+    # platform can crowd the others out, now or in the future.
+    FEED_PER_PLATFORM = 250
+    seen: set = set()
     feed.sort(key=lambda f: (f.get("posted_date") or f["date"], f["date"]), reverse=True)
+    kept_by_platform: dict[str, int] = {}
     deduped = []
     for f in feed:
+        if (f["platform"] or "").lower() == "bluesky":
+            continue
         k = (f["platform"], f["state"], f["bill"], f["date"], f["action"])
         if k in seen:
             continue
         seen.add(k)
+        if kept_by_platform.get(f["platform"], 0) >= FEED_PER_PLATFORM:
+            continue
+        kept_by_platform[f["platform"]] = kept_by_platform.get(f["platform"], 0) + 1
         deduped.append(f)
-    feed = deduped[:500]
+    feed = deduped
 
     data = {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
