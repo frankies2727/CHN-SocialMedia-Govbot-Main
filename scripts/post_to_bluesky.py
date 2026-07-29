@@ -301,6 +301,24 @@ def _is_legalese_act_title(title: str) -> bool:
     return bool(_LEGALESE_ACT_TITLE_RE.match(t))
 
 
+def _is_vague_subject_title(title: str, subjects: str = "") -> bool:
+    """True when the `title` is just a generic subject label, not a description
+    of the bill. California titles omnibus/budget bills this way — "State
+    government.", "Public safety.", "Courts." — with the same word echoed in the
+    `subject` field. Such a title tells a reader nothing, so it must never stand
+    as the headline; the copy has to be built from the bill's provisions instead.
+    Conservative: only a short, few-word title that matches the subject list
+    qualifies, so real short titles ("Data Center Tax Credit Act") don't."""
+    t = (title or "").strip().rstrip(".").strip()
+    if not t or len(t) > 40 or len(t.split()) > 4:
+        return False
+    key = re.sub(r"[^a-z0-9]", "", t.lower())
+    if not key:
+        return False
+    subs = re.sub(r"[^a-z0-9]", "", (subjects or "").lower())
+    return key in subs
+
+
 def extract_fields(record: dict) -> dict | None:
     bill = record.get("bill") or {}
     log = record.get("log") or {}
@@ -980,6 +998,33 @@ def _smart_truncate(text: str, max_len: int) -> str:
     return _drop_dangling_tail(cut) + "…"
 
 
+# California-style statute-digest filler that adds no meaning to a social blurb:
+# cross-reference tags ("as defined"), deadline clauses ("on or before August
+# 15, 2026,"), and hedges ("subject to certain requirements"). Stripped from a
+# fallback summary so it reads like plain English, not a code cross-reference.
+_DIGEST_FILLER_RE = re.compile(
+    r",?\s*\b(?:as defined|as specified|as provided|as described|"
+    r"among other things|subject to certain requirements|"
+    r"in this regard|as prescribed)\b",
+    re.IGNORECASE,
+)
+_DEADLINE_CLAUSE_RE = re.compile(
+    r",\s*on or before\s+[A-Za-z]+\s+\d{1,2},\s*\d{4}\s*,", re.IGNORECASE
+)
+
+
+def _operative_rephrase(sentence: str) -> str:
+    """Rephrase a "This bill would <verb> …" digest sentence into a clean blurb
+    opening — "Would <verb> …" — and strip statute-digest filler. Leaves a
+    non-operative sentence unchanged apart from the filler cleanup."""
+    s = " ".join((sentence or "").split())
+    s = re.sub(r"^\s*(?:this bill|the bill)\s*,?\s*(?=would\b)", "", s, flags=re.IGNORECASE)
+    s = _DEADLINE_CLAUSE_RE.sub(" ", s)
+    s = _DIGEST_FILLER_RE.sub("", s)
+    s = re.sub(r"\s{2,}", " ", s).replace(" ,", ",").replace(",,", ",").strip()
+    return s[:1].upper() + s[1:] if s else s
+
+
 def _excerpt_summary(excerpt: str) -> str:
     """Turn a topic-match excerpt (one or more abstract sentences naming the
     provisions that pulled a bill into its feed) into a fallback blurb. Prefers
@@ -994,20 +1039,34 @@ def _excerpt_summary(excerpt: str) -> str:
     sentences = [s for s in re.split(r"(?<=[.!?…])\s+", excerpt) if s.strip()]
     for s in sentences:
         if re.match(r"\s*(this bill|the bill)\b", s, re.IGNORECASE):
-            return _first_sentence(s)
+            return _first_sentence(_operative_rephrase(s))
     return _first_sentence(excerpt)
 
 
+# The lead-in half of a statute-digest provision pair — "Existing law <does X>"
+# — describes the STATUS QUO, not the bill. A blurb must never open with it.
+_EXISTING_LAW_RE = re.compile(r"^\s*(?:existing law|current law|under existing law)\b",
+                              re.IGNORECASE)
+
+
 def _first_sentence(text: str) -> str:
-    """First sentence of a cleaned abstract — the non-LLM fallback summary.
-    Returns "" when there's no usable prose, so the caller can drop the
-    summary block entirely rather than post raw legalese."""
+    """First substantive sentence of a cleaned abstract — the non-LLM fallback
+    summary. Skips a leading "Existing law …" status-quo sentence to reach the
+    operative "This bill would …" one when the text pairs them (California
+    digests), rephrasing it to plain English. Returns "" when there's no usable
+    prose, so the caller can drop the summary block rather than post filler."""
     cleaned = _clean_for_llm(text)
     if not cleaned:
         return ""
-    m = re.search(r"[.!?](?:\s|$)", cleaned)
-    sentence = cleaned[: m.end()].strip() if m else cleaned
-    return _smart_truncate(sentence, 180)
+    sentences = re.findall(r"[^.!?]*[.!?]", cleaned) or [cleaned]
+    first = sentences[0].strip()
+    # When the lead sentence is a status-quo "Existing law …" description, prefer
+    # the first operative "This bill would …" sentence that follows it.
+    if _EXISTING_LAW_RE.match(first):
+        for s in sentences[1:]:
+            if re.match(r"\s*(?:this bill|the bill)\b", s, re.IGNORECASE):
+                return _smart_truncate(_operative_rephrase(s), 200)
+    return _smart_truncate(first, 200)
 
 
 # ---------------------------------------------------------------------------
@@ -1571,10 +1630,23 @@ def _post_copy(b: dict) -> dict:
             f"subjects; do not let them displace this one.\n\n"
         )
 
+    # A generic subject title ("State government.") describes nothing — tell the
+    # model to ignore it and build the copy from the provisions below, and don't
+    # feed it back as an authoritative "Title:" line.
+    vague_title = _is_vague_subject_title(title, b.get("subjects", ""))
+    vague_note = ""
+    if vague_title:
+        vague_note = (
+            f"NOTE: The bill's listed title (\"{title}\") is a generic subject "
+            f"label that does NOT describe the bill's contents. Ignore it and base "
+            f"the headline and summary on the specific provision(s) and text below.\n\n"
+        )
+
     # For blob bills the title is the same wall of legalese as the body, so don't
-    # send it as a separate "Title:" line.
-    if blob:
-        user_prompt = f"{amendatory_note}{purpose_note}{topic_anchor_note}{home_state_line}Bill text:\n{body[:char_cap]}"
+    # send it as a separate "Title:" line. A vague subject title is likewise
+    # useless as an anchor, so omit it too.
+    if blob or vague_title:
+        user_prompt = f"{amendatory_note}{vague_note}{purpose_note}{topic_anchor_note}{home_state_line}Bill text:\n{body[:char_cap]}"
     else:
         user_prompt = f"{amendatory_note}{purpose_note}{topic_anchor_note}{home_state_line}Title: {title}\nBill text:\n{body[:char_cap]}"
 
