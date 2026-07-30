@@ -674,17 +674,18 @@ class Topic:
         local model — which reads the actual bill text — to confirm the bill is
         genuinely about this topic before it posts. Returns a strict JSON verdict."""
         return (
-            f"You are a precise gatekeeper for a civic social-media feed about "
-            f"{self.prompt_topic}. Decide whether the bill below is GENUINELY and "
-            f"SUBSTANTIVELY about that subject: it creates, funds, changes, restricts, "
-            f"or regulates something in that area as an actual purpose of the bill. "
-            f"Answer false if the bill is only incidentally related — it mentions the "
-            f"subject in passing, lists it as one line item among many unrelated ones "
-            f"(for example a whole-government budget or omnibus appropriations act that "
-            f"names hundreds of subjects), or is about something else entirely. Judge by "
-            f"what the bill actually DOES, not by a single word appearing somewhere. "
-            f'Return ONLY compact JSON: {{"on_topic": true or false, "reason": '
-            f'"<=10 words"}}.'
+            f"You are a gatekeeper for a civic social-media feed about "
+            f"{self.prompt_topic}. The bill below already passed a keyword pre-screen; "
+            f"confirm it is genuinely about that subject. A bill is ON-TOPIC if it "
+            f"creates, funds, changes, restricts, or regulates something in that area — "
+            f"this still counts when the subject is only ONE of several things the bill "
+            f"does. A bill is OFF-TOPIC when that subject is not actually one of its "
+            f"provisions: it is a whole-government budget or omnibus act that merely "
+            f"lists the subject among hundreds of unrelated ones, or the keyword matched "
+            f"something incidental (a person's surname, an unrelated line item) and the "
+            f"bill is really about a different subject. Judge by the bill's actual "
+            f'provisions. Return ONLY compact JSON: {{"on_topic": true or false, '
+            f'"reason": "<=10 words"}}.'
         )
 
     # ------------------------------------------------------------------

@@ -3681,18 +3681,32 @@ def main() -> int:
     if len(to_post) < POST_LIMIT:
         to_post.extend(weighted_draw(stubs, POST_LIMIT - len(to_post)))
 
+    # Backfill reserve: the rest of the candidate pool in weighted order, so a
+    # bill the relevance gate skips is replaced by the next best candidate rather
+    # than shrinking the run. to_post (the state-spread picks) stays first; the
+    # reserve only fills slots the gate frees up.
+    picked_ids = {b["dedup_key"] for b in to_post}
+    reserve = weighted_draw([b for b in descriptive if b["dedup_key"] not in picked_ids], 10**9)
+    reserve += weighted_draw([b for b in stubs if b["dedup_key"] not in picked_ids], 10**9)
+    ordered = to_post + reserve
+
     distinct_states = len({b["state"] or "?" for b in to_post})
     print(f"Pool: {len(descriptive)} state(s) with descriptive bills, "
           f"{len(stubs)} stub-only.")
-    print(f"Will post up to {POST_LIMIT}: posting {len(to_post)} from {distinct_states} state(s).")
+    print(f"Will post up to {POST_LIMIT}: {len(to_post)} primary picks + "
+          f"{len(reserve)} in reserve for gate-skips (from {distinct_states} state(s)).")
 
     client = None if DRY_RUN else BlueskyClient(BSKY_HANDLE, BSKY_PASSWORD)
 
-    for b in to_post:
+    posted = 0
+    for b in ordered:
+        if posted >= POST_LIMIT:
+            break
         ensure_english_fields(b)
         # Relevance gate: keyword matching picked this bill, but confirm with the
         # local model that it's genuinely on-topic before posting (drops omnibus
-        # budgets that matched on one incidental subject tag). Fails open.
+        # budgets that matched on one incidental subject tag). Fails open. A skip
+        # pulls the next reserve candidate so the run still reaches POST_LIMIT.
         if not is_on_topic(b):
             print(f"  ⤫ relevance gate: off-topic for '{TOPIC.name}', "
                   f"skipping {b['state'] or '?'} {b['identifier']}")
@@ -3752,6 +3766,10 @@ def main() -> int:
                 # post already landed server-side, so a retry risks duplicates.
                 print(f"  ! post failed (network): {e}", file=sys.stderr)
                 continue
+
+        # Posted (or previewed in dry-run) — count it toward POST_LIMIT so
+        # gate-skipped bills are backfilled rather than shrinking the run.
+        posted += 1
 
         if SAVE_STATE:
             seen.add(b["dedup_key"])

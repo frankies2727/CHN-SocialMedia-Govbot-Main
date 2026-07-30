@@ -814,24 +814,34 @@ def main() -> int:
         stub_pool = [b for b in stubs if b["dedup_key"] not in picked_ids]
         to_post.extend(weighted_draw(stub_pool, effective_limit - len(to_post)))
 
+    # Backfill reserve: the rest of the candidate pool in weighted order, so a
+    # bill the relevance gate skips is replaced by the next best candidate rather
+    # than shrinking the carousel. to_post (the state-spread picks) stays first.
+    picked_ids = {b["dedup_key"] for b in to_post}
+    reserve = weighted_draw([b for b in descriptive if b["dedup_key"] not in picked_ids], 10**9)
+    reserve += weighted_draw([b for b in stubs if b["dedup_key"] not in picked_ids], 10**9)
+    ordered = to_post + reserve
+
     distinct_states = len({b["state"] or "?" for b in to_post})
     print(f"Pool: {len(descriptive)} state(s) with descriptive bills, {len(stubs)} stub-only.")
     print(f"Account has {remaining}/{RUN_POST_LIMIT} post(s) left this run; "
-          f"will post up to {effective_limit}: posting {len(to_post)} from "
-          f"{distinct_states} state(s).")
+          f"will post up to {effective_limit}: {len(to_post)} primary picks + "
+          f"{len(reserve)} in reserve for gate-skips (from {distinct_states} state(s)).")
 
     # Relevance gate: confirm each selected bill is genuinely on-topic before
     # rendering + posting (drops omnibus budgets matched on one incidental
     # subject tag). Fails open. Applied here (not in the shared _prepare) so
-    # force-posts stay ungated.
-    gated = []
-    for b in to_post:
+    # force-posts stay ungated. A skip pulls the next reserve candidate so the
+    # carousel still reaches effective_limit.
+    to_post = []
+    for b in ordered:
+        if len(to_post) >= effective_limit:
+            break
         if is_on_topic(b):
-            gated.append(b)
+            to_post.append(b)
         else:
             print(f"  ⤫ relevance gate: off-topic for '{TOPIC.name}', "
                   f"skipping {b['state'] or '?'} {b['identifier']}")
-    to_post = gated
 
     items = [_prepare(b) for b in to_post]
     sha = _publish_prepared(items)
