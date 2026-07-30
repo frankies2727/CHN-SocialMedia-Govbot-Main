@@ -83,6 +83,11 @@ LLM_TIMEOUT = int(os.environ.get("LLM_TIMEOUT", "180"))
 # PDFs between summaries can force a cold model reload mid-run. Pin it for the
 # whole run (set to "-1" to keep loaded indefinitely, "0" to unload eagerly).
 LLM_KEEP_ALIVE = os.environ.get("LLM_KEEP_ALIVE", "30m")
+# LLM relevance gate: after keyword matching selects a bill, ask the local model
+# to confirm it's genuinely about the topic (catches omnibus/budget bills that
+# match on a single incidental subject tag). On by default; set RELEVANCE_GATE=0
+# to disable (e.g. if the LLM is unavailable and you want keyword-only behavior).
+RELEVANCE_GATE = (os.environ.get("RELEVANCE_GATE", "1").strip() != "0")
 
 IMG_MAX_DOWNLOAD = 5 * 1024 * 1024
 IMG_TARGET_SIZE  = 900 * 1024
@@ -1788,6 +1793,74 @@ def _post_copy(b: dict) -> dict:
     result["summary"] = summary
 
     b["_post_copy"] = result
+    return result
+
+
+def is_on_topic(b: dict) -> bool:
+    """LLM relevance gate. Keyword matching (TOPIC.matches) is a cheap net that
+    can let an omnibus/budget bill through on a single incidental subject tag
+    (e.g. a whole state budget matching the AI/crypto feed because it lists
+    "CRYPTOCURRENCY & NFTS" among hundreds of subjects). This asks the local
+    model to read the actual bill text and confirm the bill is genuinely about
+    this feed's topic.
+
+    Returns True (post it) unless the model is confident the bill is off-topic.
+    Fails OPEN: no groundable text, the gate disabled, or any extraction / LLM /
+    parse error all return True, so the keyword match still stands and a gate
+    hiccup never silently drops a whole run's posts. Cached on the record."""
+    if not RELEVANCE_GATE:
+        return True
+    cached = b.get("_on_topic")
+    if cached is not None:
+        return cached
+
+    full_text = _get_full_text(b)
+    # An amendment sheet isn't the bill body — don't judge relevance off it.
+    if full_text and _is_amendment_doc(full_text):
+        full_text = ""
+    source = full_text or (b.get("abstract") or "").strip()
+    # Nothing substantive to read: the keyword match already vouched for the
+    # bill and there's no text to contradict it, so keep it (don't gate).
+    if len(source) < 200:
+        b["_on_topic"] = True
+        return True
+
+    system_prompt = TOPIC.relevance_gate_system_prompt()
+    user_prompt = (
+        f"Topic: {TOPIC.prompt_topic}\n"
+        f"Bill title: {(b.get('title') or '').strip()}\n"
+        f"Bill text:\n{source[:3500]}"
+    )
+    result = True
+    try:
+        r = requests.post(
+            LLM_API_URL,
+            json={
+                "model": LLM_MODEL,
+                "messages": [
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": user_prompt},
+                ],
+                "stream": False,
+                "format": "json",
+                "keep_alive": LLM_KEEP_ALIVE,
+                "options": {"num_predict": 80, "temperature": 0.2},
+            },
+            timeout=LLM_TIMEOUT,
+        )
+        r.raise_for_status()
+        data = r.json()
+        text = (data.get("message") or {}).get("content") or data.get("response") or ""
+        verdict = json.loads(text).get("on_topic", True)
+        if isinstance(verdict, str):
+            verdict = verdict.strip().lower() not in ("false", "no", "0", "")
+        # Skip only on an explicit, parseable "off-topic" verdict.
+        result = bool(verdict)
+    except Exception as e:
+        print(f"  relevance gate error ({e}); keeping bill", file=sys.stderr)
+        result = True
+
+    b["_on_topic"] = result
     return result
 
 
@@ -3617,6 +3690,13 @@ def main() -> int:
 
     for b in to_post:
         ensure_english_fields(b)
+        # Relevance gate: keyword matching picked this bill, but confirm with the
+        # local model that it's genuinely on-topic before posting (drops omnibus
+        # budgets that matched on one incidental subject tag). Fails open.
+        if not is_on_topic(b):
+            print(f"  ⤫ relevance gate: off-topic for '{TOPIC.name}', "
+                  f"skipping {b['state'] or '?'} {b['identifier']}")
+            continue
         # Headline first so the summary's character budget can reserve the exact
         # head length, then ask the model for a summary that fits the leftover
         # space (rather than a fixed 240 chars compose_post would truncate).

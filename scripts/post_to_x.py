@@ -34,6 +34,7 @@ from post_to_bluesky import (
     best_display_text,
     display_identifier,
     ensure_english_fields,
+    is_on_topic,
     extract_fields,
     format_action_line,
     format_no_match_error,
@@ -632,6 +633,12 @@ def main() -> int:
     posted = 0
     for b in to_post:
         ensure_english_fields(b)
+        # Relevance gate: confirm the bill is genuinely on-topic before tweeting
+        # (drops omnibus budgets matched on one incidental subject tag). Fails open.
+        if not is_on_topic(b):
+            print(f"  ⤫ relevance gate: off-topic for '{TOPIC.name}', "
+                  f"skipping {b['state'] or '?'} {b['identifier']}")
+            continue
         headline = shorten_title(b)
         budget = x_summary_budget(b, headline)
         summary_text = summarize(b, max_chars=budget) if budget >= MIN_SUMMARY_CHARS else ""

@@ -64,6 +64,7 @@ from post_to_bluesky import (
     best_display_text,
     display_identifier,
     ensure_english_fields,
+    is_on_topic,
     extract_fields,
     format_action_line,
     format_no_match_error,
@@ -818,6 +819,19 @@ def main() -> int:
     print(f"Account has {remaining}/{RUN_POST_LIMIT} post(s) left this run; "
           f"will post up to {effective_limit}: posting {len(to_post)} from "
           f"{distinct_states} state(s).")
+
+    # Relevance gate: confirm each selected bill is genuinely on-topic before
+    # rendering + posting (drops omnibus budgets matched on one incidental
+    # subject tag). Fails open. Applied here (not in the shared _prepare) so
+    # force-posts stay ungated.
+    gated = []
+    for b in to_post:
+        if is_on_topic(b):
+            gated.append(b)
+        else:
+            print(f"  ⤫ relevance gate: off-topic for '{TOPIC.name}', "
+                  f"skipping {b['state'] or '?'} {b['identifier']}")
+    to_post = gated
 
     items = [_prepare(b) for b in to_post]
     sha = _publish_prepared(items)
