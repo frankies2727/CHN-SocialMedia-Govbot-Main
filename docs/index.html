@@ -437,9 +437,10 @@ function recHaystack(r){
 function buildSection(p){
   const all=(DATA.feed||[]).filter(r=>r.platform===p.key);
   all.forEach(recHaystack);
-  // Order by the bill's ACTION date (newest first) so the list, the "newest
-  // first" label, and the action-date range filter all agree.
-  all.sort((a,b)=>(b.date||"").localeCompare(a.date||""));
+  // Order by POSTED date, newest first — matching the section's "exactly as
+  // posted, newest first" heading and the "Posted:" date shown on each card.
+  // (The date-range filter below still slices by the bill's action date.)
+  all.sort((a,b)=>((b.posted_date||b.date)||"").localeCompare((a.posted_date||a.date)||""));
   const st={q:"", topic:"all", state:"all", from:"", to:""};
 
   const sec=el("section",{class:"card",
