@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB5798",
+    "legislative_session": "104th",
+    "title": "DIGITAL ASSET TAX ACT-REPEAL"
+  },
+  "id": "HB5798",
+  "log": {
+    "action": {
+      "description": "Added Chief Co-Sponsor Rep. William E Hauter",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-06-29",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=5798&GAID=18&DocTypeID=HB&LegId=168767&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "HB5798"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/HB5798/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/HB5798/logs/20260629T000000Z_added_chief_cosponsor_rep_william_e_hauter.json"
+  },
+  "timestamp": "20260629T000000Z",
+  "posted_text": "🤖 IL HB5798 — DIGITAL ASSET TAX ACT-REPEAL\n\nJune 29, 2026: Added Chief Co-Sponsor Rep. William E Hauter.\n\nLink to bill in reply.",
+  "posted_link": "https://ilga.gov/Legislation/BillStatus?DocNum=5798&GAID=18&DocTypeID=HB&LegId=168767&SessionID=114",
+  "posted_url": "https://x.com/i/web/status/2082942293812883698"
+}

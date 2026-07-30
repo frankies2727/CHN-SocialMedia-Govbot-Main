@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 4087",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "State agencies (existing): treasury",
+      "State finance: other"
+    ],
+    "title": "State finance: other; strategic bitcoin reserve; establish. Amends sec. 351 of 1984 PA 431 (MCL 18.1351) by adding sec. 351a."
+  },
+  "id": "HB 4087",
+  "log": {
+    "action": {
+      "description": "Rep. Ron Robinson removed as cosponsor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-01",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-HB-4087"
+        }
+      ]
+    },
+    "bill_id": "HB 4087"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB4087/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB4087/logs/20260701T000000Z_rep_ron_robinson_removed_as_cosponsor.json"
+  },
+  "timestamp": "20260701T000000Z",
+  "posted_text": "💰 MI HB 4087 — State finance: other; strategic bitcoin reserve; establish. Amends sec. 351 of 1984 PA 431 (MCL 18.1351) by adding sec. 351a.\n\nJuly 1, 2026: Rep. Ron Robinson removed as cosponsor.\n\nLink to bill in reply.",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-HB-4087",
+  "posted_url": "https://x.com/i/web/status/2082942063516242239"
+}
