@@ -391,7 +391,7 @@ function feedCardHTML(r){
   const head=`<div class="fhead">`+
       `<span class="facct"><span class="dot" style="background:${t.color}"></span>`+
       `<span class="tp">${esc(t.emoji)} ${esc(t.name)}</span></span>`+
-      `<span class="fdate">${esc(fmtDate(r.posted_date||r.date))}</span></div>`;
+      `<span class="fdate">${esc(fmtDate(r.date||r.posted_date))}</span></div>`;
   // Posts made after the "save exactly as posted" change carry the verbatim
   // text + links — show them just like the live Bluesky cards.
   if(r.posted){
@@ -437,6 +437,9 @@ function recHaystack(r){
 function buildSection(p){
   const all=(DATA.feed||[]).filter(r=>r.platform===p.key);
   all.forEach(recHaystack);
+  // Order by the bill's ACTION date (newest first) so the list, the "newest
+  // first" label, and the action-date range filter all agree.
+  all.sort((a,b)=>(b.date||"").localeCompare(a.date||""));
   const st={q:"", topic:"all", state:"all", from:"", to:""};
 
   const sec=el("section",{class:"card",
@@ -448,7 +451,9 @@ function buildSection(p){
   // --- this section's own filters (topic / state / date only for this platform) ---
   const topics=[...new Set(all.map(r=>r.topic))].map(k=>T[k]||{key:k,name:k,emoji:"📄"}).sort((a,b)=>a.name.localeCompare(b.name));
   const states=[...new Set(all.map(r=>r.state))].sort();
-  const dates=all.map(r=>r.posted_date||r.date).sort();
+  // Date filter runs on the bill's ACTION date (r.date) — the legislative
+  // event the card is about — not the day the bot happened to post it.
+  const dates=all.map(r=>r.date).filter(Boolean).sort();
 
   const topicSel=el("select",{class:"inp"});
   topicSel.appendChild(el("option",{value:"all"},"All topics"));
@@ -483,8 +488,8 @@ function buildSection(p){
     return all.filter(r=>
       (st.topic==="all"||r.topic===st.topic) &&
       (st.state==="all"||r.state===st.state) &&
-      (!st.from||(r.posted_date||r.date)>=st.from) &&
-      (!st.to  ||(r.posted_date||r.date)<=st.to) &&
+      (!st.from||(r.date&&r.date>=st.from)) &&
+      (!st.to  ||(r.date&&r.date<=st.to)) &&
       (!terms.length||terms.every(t=>r._hay.includes(t))));
   }
   function draw(){
