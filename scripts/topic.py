@@ -27,6 +27,12 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 TOPICS_DIR = ROOT / "topics"
 
+# A bill's flattened `subject` tag list longer than this marks a whole-government
+# omnibus / budget act (real single-domain bills sit at ~385 chars for the 99th
+# percentile; whole-budget omnibus bills run to thousands). Used by matches() to
+# distrust an incidental keyword buried in a giant subject bag. See matches().
+_OMNIBUS_SUBJECTS_CHARS = 600
+
 
 def _parse_hex_color(value, default: tuple[int, int, int]) -> tuple[int, int, int]:
     """Parse a "#RRGGBB" (or "RRGGBB") string into an (R, G, B) tuple, falling
@@ -371,10 +377,29 @@ class Topic:
         # to the body/context checks, which need real corroboration.
         if title_hits and not _is_proper_name_only_match(match_title, title_hits):
             return True
-        body = " ".join([b.get("abstract", ""), b.get("subjects", "")]).lower()
+        abstract = (b.get("abstract", "") or "").lower()
+        subjects = b.get("subjects", "") or ""
+        body = (abstract + " " + subjects).lower()
         distinct = {m.group(1).lower() for m in self._keyword_re.finditer(body)}
         if len(distinct) >= 2:
-            return True
+            # Omnibus guard. A bill's `subject` field is a bag of tags; a normal
+            # bill (even a single-department appropriations bill) has a handful,
+            # but a WHOLE-GOVERNMENT budget / omnibus act names every corner of
+            # state government — hundreds of tags, thousands of chars. A single
+            # incidental tag ("CRYPTOCURRENCY & NFTS") then satisfies the
+            # two-distinct-keyword body rule and drags the entire budget into a
+            # narrow feed. When the subject bag is that large, distrust it: the
+            # topic signal must come from the abstract prose (>=2 distinct
+            # keywords), not the tag bag. The threshold sits far above the p99 of
+            # real bills' subject lists (~385 chars) and far below whole-budget
+            # omnibus bills (thousands), so single-domain bills are unaffected.
+            if len(subjects) <= _OMNIBUS_SUBJECTS_CHARS:
+                return True
+            abstract_distinct = {
+                m.group(1).lower() for m in self._keyword_re.finditer(abstract)
+            }
+            if len(abstract_distinct) >= 2:
+                return True
         # Context keywords (e.g. "human trafficking") are too broad to stand on
         # their own — they only count when a core topic keyword co-occurs.
         if self._context_re is not None:
