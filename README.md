@@ -115,8 +115,9 @@ For a single topic, `scripts/post_to_bluesky.py` (and its sibling `post_to_x.py`
 4. **Dedupes** against `topics/<name>/bluesky/bills_used.json` (keyed by RSS `<guid>`, falling back to link, then a synthetic `feed_name:title` id).
 5. **Draws** up to `POST_LIMIT` bills using a weighted random selection that spreads coverage across states (and across `keyword_groups` buckets where configured).
 6. **Extracts the full bill text** from the bill's PDF (`scripts/bill_text.py` → `pdftotext`), degrading gracefully to abstract-only if the PDF or `pdftotext` is unavailable.
-7. **Summarizes** via the local model — one neutral, plain-English sentence under ~160 characters, plus a short noun-phrase headline — picks a topical emoji, and composes a post that fits Bluesky's 300-grapheme limit.
-8. **Posts** with a rich external link card to the official legislature page (with a state-homepage fallback when no deep link is known).
+7. **Confirms topic relevance with the local model** (the LLM relevance gate) — keyword matching is a cheap net that can let an omnibus/budget bill through on a single incidental subject tag (e.g. a whole state budget matching the AI/crypto feed because it lists "CRYPTOCURRENCY & NFTS" among hundreds of subjects). The model reads the actual bill text and drops it if it isn't genuinely about the topic. Fails **open** (any LLM/parse error keeps the bill), bypassed for force-posts, and toggleable with `RELEVANCE_GATE=0`.
+8. **Summarizes** via the local model — one neutral, plain-English sentence under ~160 characters, plus a short noun-phrase headline — picks a topical emoji, and composes a post that fits Bluesky's 300-grapheme limit.
+9. **Posts** with a rich external link card to the official legislature page (with a state-homepage fallback when no deep link is known).
 9. **Commits** the updated dedup state and raw artifacts back to the repo.
 
 The **weekly digest** (`scripts/weekly_digest_bluesky.py`) instead scores the week's actions by significance (signed → passed → vetoed → …), caps to `DIGEST_PER_STATE_CAP` bills per state to keep coverage broad, and posts a root summary plus up to `DIGEST_MAX_HIGHLIGHTS` threaded replies.

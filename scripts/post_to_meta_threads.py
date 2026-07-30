@@ -49,6 +49,7 @@ from post_to_bluesky import (
     best_display_text,
     display_identifier,
     ensure_english_fields,
+    is_on_topic,
     extract_fields,
     format_action_line,
     format_no_match_error,
@@ -634,15 +635,32 @@ def main() -> int:
         stub_pool = [b for b in stubs if b["dedup_key"] not in picked_ids]
         to_post.extend(weighted_draw(stub_pool, effective_limit - len(to_post)))
 
+    # Backfill reserve: the rest of the candidate pool in weighted order, so a
+    # bill the relevance gate skips is replaced by the next best candidate rather
+    # than shrinking the run. to_post (the state-spread picks) stays first.
+    picked_ids = {b["dedup_key"] for b in to_post}
+    reserve = weighted_draw([b for b in descriptive if b["dedup_key"] not in picked_ids], 10**9)
+    reserve += weighted_draw([b for b in stubs if b["dedup_key"] not in picked_ids], 10**9)
+    ordered = to_post + reserve
+
     distinct_states = len({b["state"] or "?" for b in to_post})
     print(f"Pool: {len(descriptive)} state(s) with descriptive bills, {len(stubs)} stub-only.")
     print(f"Account has {remaining}/{RUN_POST_LIMIT} post(s) left this run; "
-          f"will post up to {effective_limit}: posting {len(to_post)} from "
-          f"{distinct_states} state(s).")
+          f"will post up to {effective_limit}: {len(to_post)} primary picks + "
+          f"{len(reserve)} in reserve for gate-skips (from {distinct_states} state(s)).")
 
     posted = 0
-    for b in to_post:
+    for b in ordered:
+        if posted >= effective_limit:
+            break
         ensure_english_fields(b)
+        # Relevance gate: confirm the bill is genuinely on-topic before posting
+        # (drops omnibus budgets matched on one incidental subject tag). Fails open.
+        # A skip pulls the next reserve candidate so the run still hits its limit.
+        if not is_on_topic(b):
+            print(f"  ⤫ relevance gate: off-topic for '{TOPIC.name}', "
+                  f"skipping {b['state'] or '?'} {b['identifier']}")
+            continue
         headline = shorten_title(b)
         budget = threads_summary_budget(b, headline, include_topic=True)
         summary_text = summarize(b, max_chars=budget) if budget >= MIN_SUMMARY_CHARS else ""
