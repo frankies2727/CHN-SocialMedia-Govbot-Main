@@ -1,0 +1,41 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "SS/SCS/SB 890 - This act requires each state department with oversight of an administrative entity to submit an annual report to the General Assembly detailing any administrative entity that has not convened a public meeting or conducted public business during the three year period ending on August 28th of such year.\r\n\r\n\tThe act further repeals and reassigns duties for a number of administrative entities. The Division of Workforce Development within the Department of Economic Development is renamed and moved to the Office of Workforce Development within the Department of Higher Education and Workforce Development.  The Board for Certification of Interpreters is repealed and its duties assigned to the Missouri Commission for the Deaf and Hard of Hearing.  The Life Sciences Research Board is repealed and its duties assigned the Department of Economic Development.  The act repeals the Missouri Quality Home Care Council is repealed as well as all duties of the Council.  \r\n\r\n\tThe act repeals the following entities: the Career Readiness Course Task Force; the Infection Control Advisory Panel; the Missouri Arthritis Advisory Board and the Arthritis Program Review Committee; the AgriMissouri Advisory Commission for Marketing Missouri Agricultural Products; the Coordinating Board for Early Childhood; the Minority Environmental Literacy Advisory Committee; the Missouri Cybersecurity Commission; the Small Business Compliance Advisory Committee; and the Commission on the Special Health, Psychological and Social Needs of Minority Older Individuals.\r\n\r\n\tThis act is similar to SB 729 (2025). \r\nJIM ERTLE",
+        "note": "abstract"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 890",
+    "legislative_session": "2026",
+    "title": "SS/SCS/SB 890 - This act requires each state department with oversight of an administrative entity to submit an annual report to the General Assembly detailing any administrative entity that has not convened a public meeting or conducted public business during the three year period ending on August 28th of such year.\r\n\r\n\tThe act further repeals and reassigns duties for a number of administrative entities. The Division of Workforce Development within the Department of Economic Development is renamed and moved to the Office of Workforce Development within the Department of Higher Education and Workforce Development.  The Board for Certification of Interpreters is repealed and its duties assigned to the Missouri Commission for the Deaf and Hard of Hearing.  The Life Sciences Research Board is repealed and its duties assigned the Department of Economic Development.  The act repeals the Missouri Quality Home Care Council is repealed as well as all duties of the Council.  \r\n\r\n\tThe act repeals the following entities: the Career Readiness Course Task Force; the Infection Control Advisory Panel; the Missouri Arthritis Advisory Board and the Arthritis Program Review Committee; the AgriMissouri Advisory Commission for Marketing Missouri Agricultural Products; the Coordinating Board for Early Childhood; the Minority Environmental Literacy Advisory Committee; the Missouri Cybersecurity Commission; the Small Business Compliance Advisory Committee; and the Commission on the Special Health, Psychological and Social Needs of Minority Older Individuals.\r\n\r\n\tThis act is similar to SB 729 (2025). \r\nJIM ERTLE"
+  },
+  "id": "SB 890",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-07-13T05:00:00+00:00",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=597"
+        }
+      ]
+    },
+    "bill_id": "SB 890"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB890/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB890/logs/20260713T050000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260713T050000Z",
+  "posted_text": "🎓 Education\nMO SB 890 — This act requires each state department with oversight of an administrative entity to submit an annual report to the General Assembly detailing any administrative entity that has not convened…\n\nThe Division of Workforce Development within the Department of Economic Development is renamed and moved to the Office of Workforce Development within the Department of Higher Education and Workforce…\n\nJuly 13, 2026: Signed by Governor.",
+  "posted_link": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=597",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DbcCGagk9Bq"
+}

@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HJRCA27",
+    "legislative_session": "104th",
+    "title": "CONAMEND-REDISTRICTING"
+  },
+  "id": "HJRCA27",
+  "log": {
+    "action": {
+      "description": "Rule 19(b) / Re-referred to Rules Committee",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-01",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=27&GAID=18&DocTypeID=HJRCA&LegId=168319&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "HJRCA27"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/HJRCA27/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/HJRCA27/logs/20260701T000000Z_rule_19b_rereferred_to_rules_committee.json"
+  },
+  "timestamp": "20260701T000000Z",
+  "posted_text": "🗺️ Elections & Voting Rights\nIL HJRCA27 — Illinois Changes How Districts Are Drawn\n\nThe Illinois legislature is creating a commission to redraw state House and Senate districts after each census, ensuring districts are equal in population, protect voting rights, and consider racial demographics – with a court-appointed panel stepping in if the commission fails to deliver a plan by October 5th.\n\nJuly 1, 2026: Rule 19(b) / Re-referred to Rules Committee.",
+  "posted_link": "https://ilga.gov/Legislation/BillStatus?DocNum=27&GAID=18&DocTypeID=HJRCA&LegId=168319&SessionID=114",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DbcDCBXAJWI"
+}
