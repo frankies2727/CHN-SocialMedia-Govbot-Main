@@ -21,13 +21,89 @@ defaults:
     shell: bash
 
 jobs:
-  run:
+  # ---------------------------------------------------------------------------
+  # Shared setup, run ONCE. The govbot national clone + bills.jsonl dump is the
+  # slow (~20 min) half of the pipeline and is identical for every shard, so it
+  # ran five times before (once per parallel shard) — ~100 min of duplicated
+  # work that also pushed shards past the 60-minute job budget once the LLM
+  # relevance gate made posting slower. Do it once here, publish bills.jsonl
+  # (and the topic-independent normalized parse) as an artifact, and let the
+  # post shards download it instead of each re-cloning the country.
+  # ---------------------------------------------------------------------------
+  prepare:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
-    # Split the 13 topics across five shards that run in parallel on separate
-    # runners. Each shard repeats the shared setup (govbot clone + Ollama) but
-    # only posts ~a fifth of the topics, keeping each job well under the
-    # 60-minute budget that the three-shard split still occasionally blew past.
+    timeout-minutes: 45
+    steps:
+      - name: Free disk space
+        # The govbot clone across 50+ states blows past the runner's ~14 GB free,
+        # so reclaim space before cloning.
+        uses: jlumbroso/free-disk-space@v1.3.1
+        with:
+          tool-cache: false
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: false
+          docker-images: true
+          swap-storage: false
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install Python deps
+        run: pip install -r requirements.txt
+
+      - name: Install govbot, fetch all supported states, dump JSONL
+        # Resilient install (retries the daily-republished upstream nightly) plus
+        # a per-day shared bills.jsonl cache, so a same-day re-run skips the clone.
+        uses: ./.github/actions/govbot-bills
+
+      - name: Build the normalized bill list (topic-independent, once)
+        # Parsing bills.jsonl + running extract_fields is topic-independent, so do
+        # it once here and ship the result — every shard's every topic reuses it
+        # instead of re-parsing the whole corpus. Importing the module needs a
+        # BOT_TOPIC, so pass the first available topic. Non-fatal: if it fails the
+        # post shards fall back to parsing bills.jsonl directly.
+        run: |
+          FIRST_TOPIC=""
+          for d in topics/*/; do
+            [ -f "$d/config.yml" ] && FIRST_TOPIC=$(basename "$d") && break
+          done
+          BOT_TOPIC="$FIRST_TOPIC" python scripts/post_to_bluesky.py \
+            --build-normalized bills_normalized.json \
+            || echo "  normalized build failed; shards will parse bills.jsonl directly."
+
+      - name: Upload the shared bill corpus
+        uses: actions/upload-artifact@v4
+        with:
+          name: bills-corpus
+          # bills_normalized.json may be absent if the build above failed; the
+          # shards handle that by rebuilding from bills.jsonl.
+          path: |
+            bills.jsonl
+            bills_normalized.json
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 9
+
+  # ---------------------------------------------------------------------------
+  # Post. Five shards run in parallel, each posting ~a fifth of the topics. They
+  # download the shared corpus (no re-clone) and only install Ollama locally
+  # (each runner needs its own model server; cache-backed, ~1-2 min).
+  # ---------------------------------------------------------------------------
+  post:
+    needs: prepare
+    runs-on: ubuntu-latest
+    # No govbot clone here (the corpus is downloaded), so a shard is just Ollama
+    # setup (~2 min) + posting. Posting has spiked to ~35 min; keep generous
+    # headroom now that the LLM relevance gate adds a call per selected bill.
+    timeout-minutes: 55
     strategy:
       fail-fast: false
       matrix:
@@ -36,10 +112,8 @@ jobs:
       LLM_MODEL: "gemma3:4b"
     steps:
       - name: Free disk space
-        # ubuntu-latest ships with ~14 GB free; govbot clones across 50+ states
-        # plus the Ollama LLM blow past that, which makes the runner crash with
-        # "No space left on device". Strip out preinstalled tooling we never
-        # use to recover ~30 GB before anything else runs.
+        # The Ollama LLM (~3.3 GB) plus the full bill corpus in RAM need the
+        # headroom; strip preinstalled tooling we never use.
         uses: jlumbroso/free-disk-space@v1.3.1
         with:
           tool-cache: false
@@ -60,10 +134,9 @@ jobs:
           cache: "pip"
 
       - name: Install poppler-utils (pdftotext)
-        # pdftotext extracts the full bill text from each bill's PDF so
-        # summaries are grounded in the real legislation. It's a system
-        # binary, not a pip package; scripts/bill_text.py degrades gracefully
-        # to abstract-only if it's missing.
+        # pdftotext extracts full bill text from each bill's PDF when the
+        # govbot clone isn't present (the shards don't clone — they download the
+        # corpus). scripts/bill_text.py caches results in .bill_text_cache/.
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
 
       - name: Install Python deps
@@ -74,11 +147,20 @@ jobs:
           ls -la scripts/
           test -f scripts/post_to_bluesky.py && echo "OK" || (echo "MISSING" && exit 1)
 
-      - name: Install govbot, fetch all supported states, dump JSONL
-        # Resilient install (retries the daily-republished upstream nightly) plus
-        # a per-day shared bills.jsonl cache, so only the first poster of the day
-        # pays the full national clone. See .github/actions/govbot-bills.
-        uses: ./.github/actions/govbot-bills
+      - name: Download the shared bill corpus
+        # Lands bills.jsonl (+ bills_normalized.json when present) in the repo
+        # root, exactly where the scripts expect them — no govbot clone needed.
+        uses: actions/download-artifact@v4
+        with:
+          name: bills-corpus
+          path: .
+
+      - name: Confirm corpus present
+        run: |
+          test -f bills.jsonl && echo "bills.jsonl: $(wc -l < bills.jsonl) lines" \
+            || (echo "::error::bills.jsonl missing after download" && exit 1)
+          [ -f bills_normalized.json ] && echo "normalized parse present" \
+            || echo "no normalized parse; will rebuild from bills.jsonl."
 
       - name: Cache Ollama model
         uses: actions/cache@v4
@@ -164,18 +246,11 @@ jobs:
           POST_LIMIT: "2"
         run: |
           shopt -s nullglob
-          # Parse bills.jsonl + run extract_fields ONCE for this shard, then
-          # point every per-topic process below at the result via
-          # BILLS_NORMALIZED. This step is topic-independent, but importing the
-          # module needs BOT_TOPIC, so pass the first available topic.
-          FIRST_TOPIC=""
-          for d in topics/*/; do
-            [ -f "$d/config.yml" ] && FIRST_TOPIC=$(basename "$d") && break
-          done
-          if BOT_TOPIC="$FIRST_TOPIC" python scripts/post_to_bluesky.py --build-normalized bills_normalized.json; then
+          # Point every per-topic process at the shared normalized parse built
+          # once in the prepare job. If it wasn't produced (build failed), the
+          # script rebuilds from bills.jsonl on first use.
+          if [ -f bills_normalized.json ]; then
             export BILLS_NORMALIZED="$PWD/bills_normalized.json"
-          else
-            echo "  normalized build failed; topics will parse bills.jsonl directly."
           fi
 
           # Assign topics to this shard by their sorted position (topics/*/
