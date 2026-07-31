@@ -1,0 +1,41 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 595",
+    "legislative_session": "2025",
+    "subject": [
+      "AIRPORTS; ALCOHOLIC BEVERAGES; AUDITING & AUDITS; AVIATION; COMMERCE; COMMERCE DEPT.; COMMISSIONS; CORPORATIONS",
+      "CORPORATE INCOME; TAXES",
+      "EXCISE; TAXES",
+      "FOR-PROFIT; CREDIT UNION COMN.; CREDIT UNIONS; DEBTOR & CREDITOR; FEES; FINANCIAL INSTITUTIONS; FINES & PENALTIES; FUELS; GAMING; INTEREST; LAW ENFORCEMENT; RENTALS & LEASING; LOTTERY; MOTOR VEHICLES; PARTNERSHIPS; PRESENTED; PUBLIC; RATIFIED; REVENUE DEPT.; ROADS & HIGHWAYS; TAX DEDUCTIONS; TAX REFUNDS; TAX RETURNS; TAXATION; TAXES",
+      "FUEL; TITLE CHANGE; TOBACCO; TRANSPORTATION; LOTTERY COMN.; RECORDS; TAXES",
+      "HIGHWAY USE; CHAPTERED; TAX COLLECTION; TOBACCO PRODUCTS; PUBLIC SAFETY DEPT.; ALE",
+      "PRIVILEGE; TAXES"
+    ],
+    "title": "Various Revenue Laws Changes."
+  },
+  "id": "SB 595",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Gov. 7/2/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-07-02",
+      "session_id": "2025",
+      "sources": [
+        {
+          "url": "https://www.ncleg.gov/BillLookUp/2025/S595"
+        }
+      ]
+    },
+    "bill_id": "SB 595"
+  },
+  "sources": {
+    "bill": "nc-legislation/country:us/state:nc/sessions/2025/bills/SB595/metadata.json",
+    "log": "nc-legislation/country:us/state:nc/sessions/2025/bills/SB595/logs/20260702T000000Z_signed_by_gov_722026.json"
+  },
+  "timestamp": "20260702T000000Z"
+}

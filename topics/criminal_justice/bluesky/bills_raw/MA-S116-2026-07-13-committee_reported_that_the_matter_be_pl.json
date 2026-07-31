@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Mr. DiDomenico, a petition (accompanied by bill, Senate, No. 116) of Sal N. DiDomenico and James B. Eldridge for legislation to update the juvenile justice policy and data board.  Children, Families and Persons with Disabilities.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S116",
+    "legislative_session": "194th",
+    "title": "An Act updating the juvenile justice policy and data board"
+  },
+  "id": "S116",
+  "log": {
+    "action": {
+      "description": "Committee reported that the matter be placed in the Orders of the Day for the next session",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-13",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/S116"
+        }
+      ]
+    },
+    "bill_id": "S116"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/S116/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/S116/logs/20260713T000000Z_committee_reported_that_the_matter_be_placed_in_the_orders_of_the_day_for_the_next_session.json"
+  },
+  "timestamp": "20260713T000000Z"
+}

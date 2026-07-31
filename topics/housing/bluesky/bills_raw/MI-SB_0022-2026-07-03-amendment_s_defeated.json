@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 0022",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Housing: landlord and tenants"
+    ],
+    "title": "Housing: landlord and tenants; return of security deposit by electronic transfer; allow. Amends sec. 9 of 1972 PA 348 (MCL 554.609)."
+  },
+  "id": "SB 0022",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-failure"
+      ],
+      "description": "AMENDMENT(S) DEFEATED",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-03",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0022"
+        }
+      ]
+    },
+    "bill_id": "SB 0022"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0022/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0022/logs/20260703T000000Z_amendments_defeated.json"
+  },
+  "timestamp": "20260703T000000Z"
+}
