@@ -1249,8 +1249,21 @@ def _get_full_text(b: dict) -> str:
 # headline grounded on the bill's abstract. Detect it so summarize() and
 # shorten_title() fall back to the abstract, which describes the actual
 # legislation; the post's action line still reports the amendment event.
-_AMENDMENT_DOC_RE = re.compile(
+# A document HEADER that identifies the whole document as an amendment sheet —
+# "HOUSE AMENDMENT NO. 2 TO HOUSE BILL NO. 364", "SENATE AMENDMENT NO. 1 TO
+# SENATE SUBSTITUTE NO. 1 FOR SENATE BILL NO. 16". This is unambiguous: a real
+# bill body never opens this way, so it marks an amendment sheet regardless of
+# length (some insert a whole block of replacement statute text and run long).
+_AMENDMENT_SHEET_HEADER_RE = re.compile(
     r"\b(?:HOUSE|SENATE)\s+AMENDMENT\s+NO\.|"
+    r"\bAMENDMENT\s+NO\.\s*\d+\s+TO\b.{0,80}\bBILL\s+NO\.",
+    re.IGNORECASE | re.DOTALL,
+)
+
+# Weaker amendment language ("AMEND … Bill No.", "This amendment") that can also
+# appear inside a genuine bill, so it only marks an amendment sheet alongside a
+# short overall length.
+_AMENDMENT_DOC_RE = re.compile(
     r"\bAMEND\b.{0,80}\bBill\s+No\.|"
     r"\bThis\s+amendment\b",
     re.IGNORECASE | re.DOTALL,
@@ -1259,15 +1272,19 @@ _AMENDMENT_DOC_RE = re.compile(
 
 def _is_amendment_doc(text: str) -> bool:
     """True when extracted "full text" is actually a floor-amendment sheet
-    rather than the bill body. Conservative on purpose: requires an explicit
-    amendment marker near the top AND a short overall length, so a substantive
-    bill that merely contains amendment language is never dropped."""
+    rather than the bill body, so summarize()/shorten_title()/the relevance gate
+    fall back to the abstract instead of turning line-by-line diffs ("delete
+    'projects' on line 22 …") into the post."""
     if not text:
         return False
-    if not _AMENDMENT_DOC_RE.search(text[:1500]):
-        return False
-    # Real bill bodies run long; amendment sheets are short.
-    return len(text) < 2500
+    head = text[:1500]
+    # A document whose header names it an amendment sheet IS one, at any length.
+    if _AMENDMENT_SHEET_HEADER_RE.search(head):
+        return True
+    # Weaker markers only count when the document is also short — real bill
+    # bodies run long, so a substantive bill that merely contains amendment
+    # language is never dropped.
+    return bool(_AMENDMENT_DOC_RE.search(head)) and len(text) < 2500
 
 
 # A bill that repeals a statute section and re-enacts it "in lieu thereof"
