@@ -88,6 +88,12 @@ LLM_KEEP_ALIVE = os.environ.get("LLM_KEEP_ALIVE", "30m")
 # match on a single incidental subject tag). On by default; set RELEVANCE_GATE=0
 # to disable (e.g. if the LLM is unavailable and you want keyword-only behavior).
 RELEVANCE_GATE = (os.environ.get("RELEVANCE_GATE", "1").strip() != "0")
+# How much bill text the gate reads. The topic is almost always clear from the
+# title + opening provisions, so a tight window keeps the gate call fast enough
+# to finish inside LLM_TIMEOUT on the loaded free runner — a wide window made
+# the CPU model occasionally time out, and fail-open then let the bill through
+# unjudged. Overridable if a run wants a wider read.
+RELEVANCE_GATE_CHARS = int(os.environ.get("RELEVANCE_GATE_CHARS", "2000"))
 
 IMG_MAX_DOWNLOAD = 5 * 1024 * 1024
 IMG_TARGET_SIZE  = 900 * 1024
@@ -1829,7 +1835,7 @@ def is_on_topic(b: dict) -> bool:
     user_prompt = (
         f"Topic: {TOPIC.prompt_topic}\n"
         f"Bill title: {(b.get('title') or '').strip()}\n"
-        f"Bill text:\n{source[:3500]}"
+        f"Bill text:\n{source[:RELEVANCE_GATE_CHARS]}"
     )
     result = True
     try:
