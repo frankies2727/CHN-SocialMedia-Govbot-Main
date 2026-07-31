@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB3975",
+    "legislative_session": "104th",
+    "title": "EQUAL PAY-WORKFORCE MANAGEMENT"
+  },
+  "id": "SB3975",
+  "log": {
+    "action": {
+      "description": "Senate Floor Amendment No. 2 Pursuant to Senate Rule 3-9(b) / Referred to Assignments",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-02",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=3975&GAID=18&DocTypeID=SB&LegId=167472&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "SB3975"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/SB3975/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/SB3975/logs/20260702T000000Z_senate_floor_amendment_no_2_pursuant_to_senate_rule_39b_referred_to_assignments.json"
+  },
+  "timestamp": "20260702T000000Z"
+}

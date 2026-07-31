@@ -1,0 +1,821 @@
+*LRB10420750SPS34254b*
+
+104TH GENERAL ASSEMBLY
+State of Illinois
+and 2026
+Introduced 2/6/2026, by Sen. Omar Aquino
+
+SYNOPSIS AS INTRODUCED:
+ILCS 112/12 new
+Amends the Equal Pay Act of 2003. Provides that, no later than 2 years
+after the effective date of the amendatory Act, the Department of Labor
+shall adopt rules that require specified employers doing business in the
+State to file an annual report, that will be made available to the public
+on a dedicated page of the Department's website, regarding workforce
+management policies, practices, and performance with respect to the
+employer. Describes the information required to be reported. Sets forth
+provisions concerning the standardization of data and exemptions to the
+provision.
+
+LRB104 20750 SPS 34254 b
+
+A BILL FOR
+
+LRB104 20750 SPS 34254 b
+
+AN ACT concerning employment.
+
+Be it enacted by the People of the State of Illinois,
+
+represented in the General Assembly:
+
+Section 5. The Equal Pay Act of 2003 is amended by adding
+Section 12 as follows:
+
+(820 ILCS 112/12 new)
+
+Sec. 12. Disclosures relating to workforce management.
+
+(a) No later than 2 years after the effective date of this
+
+amendatory Act of the 104th General Assembly, the Department
+
+shall adopt rules that require each employer that is doing
+
+business in this State and that has more than $100,000,000 in
+
+annual
+
+publicly available on its website an annual report describing
+
+the employer's workforce management policies, practices, and
+
+performance.
+
+(b)
+
+revenue
+
+Each
+
+and
+
+annual
+
+over
+
+report
+
+employees
+
+filed
+
+with
+
+to
+
+the
+
+file
+
+and
+
+make
+
+Department
+
+in
+
+accordance with the rules adopted under subsection (a) shall
+
+include
+
+employer filing the report for the year covered by the report:
+
+disclosure
+
+of
+
+the
+
+following
+
+with
+
+respect
+
+to
+
+the
+
+(1) workforce demographic information, including:
+
+(A) the number of full-time employees, the number
+
+of part-time employees, and the number of contingent
+
+workers, including
+
+temporary
+
+and
+
+contract
+
+workers,
+
+LRB104 20750 SPS 34254 b
+
+with respect to the employer, which shall include
+
+demographic
+
+categories
+
+regarding race, ethnicity, and gender;
+
+information
+of
+
+with
+
+individuals,
+
+respect
+
+including
+
+to
+
+those
+
+information
+
+(B) any policies or practices of the employer
+
+relating
+
+to
+
+insourcing
+
+individuals
+
+employer, which shall include demographic information
+
+with
+
+information regarding race, ethnicity, and gender; and
+
+(C) whether the percentage of full-time equivalent
+
+respect
+
+subcontracting,
+
+to
+
+to
+
+those
+
+outsourcing,
+
+perform
+
+work
+
+individuals,
+
+for
+
+and
+the
+
+including
+
+hours
+
+employer has changed, including temporary and contract
+
+workers, as compared with the previous annual report
+
+filed by the employer under this subsection;
+
+(2)
+
+information
+
+rate, the involuntary turnover rate, the internal hiring
+
+rate, the internal promotion rate, and the horizontal job
+
+change rate by quintile and demographic information;
+
+by
+
+contingent
+
+workforce
+about
+
+workers
+
+stability
+the
+
+voluntary
+
+with
+
+respect
+
+information,
+
+including
+
+turnover
+
+retention
+
+or
+
+(A) data on diversity, including racial, ethnic,
+
+and
+
+other individuals in the workforce; and
+
+the
+
+(3) workforce composition, including:
+
+to
+
+gender
+
+(B)
+
+composition,
+
+any
+
+policies,
+
+for
+
+senior
+
+audits,
+
+expenditures relating to diversity;
+
+executives
+
+and
+
+and
+
+programming
+
+LRB104 20750 SPS 34254 b
+
+(4) workforce skills and capabilities, including:
+
+(A) information about training and cross-training
+
+of employees and contingent workers by quintile and
+
+demographic
+
+compliance training, career development training, job
+
+performance or technical training, and training tied
+
+to recognized postsecondary credentials;
+
+between
+
+employee and contingent worker;
+(C) total spending on training for all employees
+and contingent workers;
+
+distinguishing
+
+(B) average number of hours of training for each
+
+information,
+
+(D) average spending per employee or contingent
+worker;
+
+(E) training utilization rates; and
+
+(F) whether completion of training opportunities
+
+translates into value added benefit for workers, as
+
+determined by wage increases or internal promotions;
+
+(5)
+
+workforce
+
+health,
+
+safety,
+
+and
+
+well-being,
+
+including information regarding:
+
+(A) the frequency, severity, and lost time due to
+
+injuries, physical and mental illness, and fatalities;
+
+(B) the scope, frequency, and total expenditure on
+
+workplace health, safety, and well-being programs;
+
+(C) the total dollar value of assessed fines under
+
+the Occupational Safety and Health Act of 1970 (29
+
+U.S.C. 651 et seq.);
+
+LRB104 20750 SPS 34254 b
+
+(D) the total number of actions brought under
+
+Section 13 of the Occupational Safety and Health Act
+
+of 1970 (29 U.S.C. 662) to prevent imminent dangers;
+
+(E) the total number of actions brought against
+
+the employer under subsection (c) of Section 11 of the
+
+Occupational Safety and Health Act of 1970 (29 U.S.C.
+
+660(c));
+
+(F)
+
+workplace
+
+period of the employer preceding the fiscal year in
+
+which the report is filed; and
+
+any
+
+findings
+
+of
+
+discrimination
+
+(G)
+
+mechanisms
+
+workers;
+
+(6)
+
+regarding:
+
+(A)
+
+communication
+in
+
+workforce
+
+place
+
+for
+
+workplace
+during
+
+fiscal
+
+or
+year
+
+channels
+
+and
+
+grievance
+
+employees
+
+and
+
+contingent
+
+including
+
+information
+
+in
+
+to
+
+accessibility,
+
+workplace
+
+the
+
+harassment
+
+policies
+
+place
+
+ensure
+
+compliance with the Americans with Disabilities Act;
+
+and
+
+(B) the total dollar value of assessed fines under
+
+the Americans with Disabilities Act;
+
+(7) workforce compensation and incentives, including
+
+information regarding:
+
+(A) total workforce costs, including salaries and
+
+wages, health benefits, other ancillary benefit costs,
+
+and pension costs;
+
+(B)
+
+workforce
+
+LRB104 20750 SPS 34254 b
+
+benefits,
+
+including
+
+paid
+
+leave,
+
+health care, child care, and retirement, including
+
+information regarding benefits that are provided to:
+
+(i) full-time employees and not to part-time
+employees; or
+
+(ii) employees and not to contingent workers;
+(C)
+
+total
+
+contributions
+
+made
+
+to
+
+unemployment
+
+insurance by the employer, how many employees to whom
+
+those contributions apply, and the total amount paid
+
+in unemployment compensation to individuals who were
+
+laid off by the employer;
+
+(D)
+
+policies
+
+and
+
+practices
+
+regarding
+
+how
+
+performance, productivity, equity, and sustainability
+
+are considered when setting pay and making promotion
+
+decisions; and
+
+(E)
+
+policies
+
+and
+
+practices
+
+relating
+
+to
+
+any
+
+incentives and bonuses provided to employees and any
+
+policies or practices designed to counter any risks
+
+created by such incentives and bonuses;
+
+(8) workforce recruiting and needs, including:
+
+(A) the number of new jobs created, seeking to be
+
+filled,
+
+classification status;
+
+(B)
+
+and
+
+the
+
+filled,
+
+share
+
+of
+
+disaggregated
+
+based
+
+on
+
+new
+
+require
+
+a
+
+jobs
+
+that
+
+bachelor's degree or higher;
+(C) the retention rate for individuals hired to
+
+LRB104 20750 SPS 34254 b
+
+fill the jobs described in subparagraph (B); and
+
+(9) workforce engagement and productivity, including
+
+information
+
+employer relating to:
+
+(A)
+
+regarding
+
+policies
+
+engagement,
+
+and
+
+practices
+
+productivity,
+
+of
+
+and
+
+the
+
+mental
+
+well-being of employees and contingent workers; and
+
+(B) freedom of association and work-life balance
+
+initiatives, including flexibility and the ability of
+
+the workforce to work remotely.
+
+(c)
+
+maximum
+
+extent
+
+feasible,
+
+the
+
+information
+
+(1) the workforce composition described in paragraph
+(3) of subsection (b);
+
+the
+
+described in subsection (b) shall be disaggregated by:
+
+To
+
+(2) wage quintiles of the employees of the employer
+for the year covered by the applicable annual report; and
+
+(3) the employment status of individuals performing
+
+services
+
+individuals are full-time employees, part-time employees,
+
+or contingent workers.
+
+(d)
+
+subsection
+
+standardized format determined by the Department.
+
+The
+
+for
+
+form
+(b)
+
+the
+
+and
+
+shall
+
+employer,
+
+manner
+allow
+
+including
+
+of
+
+the
+
+data
+
+the
+
+data
+
+to
+
+whether
+
+reported
+be
+
+tagged
+
+those
+
+under
+in
+
+a
+
+(e) When collecting data required under subsection (b) for
+workers based outside of the country, employers shall:
+
+(1) collect data in a form and manner consistent with
+
+workforce practices of the country in which the workers
+
+LRB104 20750 SPS 34254 b
+
+are based, so long as the employer continues to comply
+
+with subsection (d);
+
+(2) maintain compliance with any privacy laws in other
+
+countries that might restrict collection of any of the
+
+data otherwise required in this Act; and
+
+(3)
+
+make
+
+all
+
+reasonable
+
+efforts
+
+to
+
+standardize
+
+workforce data across countries where the employer has
+
+workers so the data is clear and easy to understand.
+
+(f) Except as provided in subsection (g), no person may
+
+file a report or document under this Section that contains a
+
+false material fact or omits a material fact needed to make the
+
+report accurate and not misleading.
+
+(g) A person shall not be liable under this subsection if
+
+the
+
+investigation, reasonable ground to believe, and did believe,
+
+at
+
+statement was true and that there was no omission to state a
+
+material fact necessary to make the statement made, in the
+
+light
+
+misleading.
+
+person
+
+the
+
+shows
+
+time
+
+of
+
+the
+
+the
+
+that
+
+the
+
+applicable
+
+circumstances
+
+person
+
+had,
+
+statement
+
+under
+
+after
+
+was
+
+which
+
+it
+
+made,
+
+is
+
+reasonable
+
+that
+
+made,
+
+the
+
+not
+
+(h) This Section shall not apply to an investment company
+
+registered under Section 8 of the Investment Company Act of
+
+(15 U.S.C. 80a-8).
