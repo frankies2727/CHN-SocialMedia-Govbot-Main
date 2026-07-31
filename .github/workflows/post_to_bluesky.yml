@@ -79,15 +79,43 @@ jobs:
             --build-normalized bills_normalized.json \
             || echo "  normalized build failed; shards will parse bills.jsonl directly."
 
+      - name: Stage full bill text for the shards
+        # Full bill text lives INSIDE the clone (each bill's metadata.json +
+        # govbot's pre-extracted files/<id>_text_extracted.txt). The shards don't
+        # clone, so without this they'd fall back to short abstracts on every
+        # post. Copy just the small, useful subset — metadata + extracted text for
+        # every topic-matched, in-window bill — into shared_bill_text/, then tar
+        # it into ONE file: upload-artifact@v4 rejects ':' in paths, and govbot
+        # dir names are full of them (country:us, state:il). Each shard untars it
+        # and points GOVBOT_DATA_ROOT at it. Non-fatal: on failure shards just use
+        # abstracts (the prior, degraded behavior) rather than failing the run.
+        run: |
+          FIRST_TOPIC=""
+          for d in topics/*/; do
+            [ -f "$d/config.yml" ] && FIRST_TOPIC=$(basename "$d") && break
+          done
+          if BOT_TOPIC="$FIRST_TOPIC" BILLS_NORMALIZED="$PWD/bills_normalized.json" \
+              python scripts/stage_bill_text.py shared_bill_text; then
+            tar -czf shared_bill_text.tar.gz shared_bill_text
+            echo "Staged bill text: $(du -sh shared_bill_text.tar.gz | cut -f1) tarball."
+          else
+            echo "  bill-text staging failed; shards will use abstracts only."
+            # Ship an empty tarball so the download/extract steps stay uniform.
+            mkdir -p shared_bill_text
+            tar -czf shared_bill_text.tar.gz shared_bill_text
+          fi
+
       - name: Upload the shared bill corpus
         uses: actions/upload-artifact@v4
         with:
           name: bills-corpus
           # bills_normalized.json may be absent if the build above failed; the
-          # shards handle that by rebuilding from bills.jsonl.
+          # shards handle that by rebuilding from bills.jsonl. shared_bill_text
+          # .tar.gz carries the per-bill metadata + pre-extracted full text.
           path: |
             bills.jsonl
             bills_normalized.json
+            shared_bill_text.tar.gz
           if-no-files-found: error
           retention-days: 1
           compression-level: 9
@@ -148,19 +176,32 @@ jobs:
           test -f scripts/post_to_bluesky.py && echo "OK" || (echo "MISSING" && exit 1)
 
       - name: Download the shared bill corpus
-        # Lands bills.jsonl (+ bills_normalized.json when present) in the repo
-        # root, exactly where the scripts expect them — no govbot clone needed.
+        # Lands bills.jsonl (+ bills_normalized.json when present, plus
+        # shared_bill_text.tar.gz) in the repo root, exactly where the scripts
+        # expect them — no govbot clone needed.
         uses: actions/download-artifact@v4
         with:
           name: bills-corpus
           path: .
 
-      - name: Confirm corpus present
+      - name: Confirm corpus present and unpack staged bill text
+        # Unpack the per-bill metadata + pre-extracted full text staged by the
+        # prepare job. The posting step below sets GOVBOT_DATA_ROOT to this dir so
+        # bill_text.resolve_metadata_path finds the staged subset exactly as it
+        # would a full clone — restoring full bill text without re-cloning. A
+        # missing/empty tarball is non-fatal: posts just fall back to abstracts.
         run: |
           test -f bills.jsonl && echo "bills.jsonl: $(wc -l < bills.jsonl) lines" \
             || (echo "::error::bills.jsonl missing after download" && exit 1)
           [ -f bills_normalized.json ] && echo "normalized parse present" \
             || echo "no normalized parse; will rebuild from bills.jsonl."
+          if [ -f shared_bill_text.tar.gz ]; then
+            tar -xzf shared_bill_text.tar.gz
+            n=$(find shared_bill_text -name metadata.json 2>/dev/null | wc -l)
+            echo "staged bill text: $n bill(s) with metadata unpacked."
+          else
+            echo "no staged bill text tarball; posts will use abstracts only."
+          fi
 
       - name: Cache Ollama model
         uses: actions/cache@v4
@@ -244,6 +285,10 @@ jobs:
           ALL_SECRETS: ${{ toJSON(secrets) }}
           LLM_API_URL: "http://localhost:11434/api/chat"
           POST_LIMIT: "2"
+          # Point bill_text.resolve_metadata_path at the staged subset the
+          # prepare job shipped (metadata.json + pre-extracted full text), so
+          # full bill text is used again even though the shard never cloned.
+          GOVBOT_DATA_ROOT: "${{ github.workspace }}/shared_bill_text"
         run: |
           shopt -s nullglob
           # Point every per-topic process at the shared normalized parse built
