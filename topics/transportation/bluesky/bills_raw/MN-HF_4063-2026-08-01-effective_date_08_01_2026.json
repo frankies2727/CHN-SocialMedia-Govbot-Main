@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HF 4063",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Education and Education Department",
+      "Safety",
+      "Traffic Regulations",
+      "Transportation and Transportation Department"
+    ],
+    "title": "First aid kit requirements on school buses modified, USDOT numbers required for all school buses, and school buses authorized on public roads for training purposes."
+  },
+  "id": "HF 4063",
+  "log": {
+    "action": {
+      "description": "Effective date 08/01/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-01",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/4063?list=open&body=House"
+        }
+      ]
+    },
+    "bill_id": "HF 4063"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF4063/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF4063/logs/20260801T000000Z_effective_date_08012026.json"
+  },
+  "timestamp": "20260801T000000Z"
+}

@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 0133",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Insurance: producers",
+      "Occupations: insurance"
+    ],
+    "title": "Insurance: producers; continuing education credit carryover system for insurance producers who belong to a professional insurance association; provide for. Amends sec. 1204c of 1956 PA 218 (MCL 500.1204c)."
+  },
+  "id": "SB 0133",
+  "log": {
+    "action": {
+      "description": "GIVEN IMMEDIATE EFFECT",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-03",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0133"
+        }
+      ]
+    },
+    "bill_id": "SB 0133"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0133/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0133/logs/20260703T000000Z_given_immediate_effect.json"
+  },
+  "timestamp": "20260703T000000Z"
+}
