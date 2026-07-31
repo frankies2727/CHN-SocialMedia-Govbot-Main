@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 5232",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Labor: leave",
+      "Military affairs: other"
+    ],
+    "title": "Labor: leave; local unit of government’s option to provide paid leave for military active service; modify to reflect mandatory paid leave for certain members of law enforcement agencies and fire departments. Amends sec. 3a of 1955 PA 133 (MCL 32.273a).   TIE BAR WITH: HB 5233'25"
+  },
+  "id": "HB 5232",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "REPORTED BY COMMITTEE OF THE WHOLE FAVORABLY WITHOUT AMENDMENT(S)",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-03",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-HB-5232"
+        }
+      ]
+    },
+    "bill_id": "HB 5232"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB5232/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB5232/logs/20260703T000000Z_reported_by_committee_of_the_whole_favorably_without_amendments.json"
+  },
+  "timestamp": "20260703T000000Z"
+}
