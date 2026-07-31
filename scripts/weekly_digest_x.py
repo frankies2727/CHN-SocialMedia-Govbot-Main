@@ -39,6 +39,7 @@ from post_to_bluesky import (
     _slug,
     display_identifier,
     ensure_english_fields,
+    is_on_topic,
     link_for,
     load_bills,
     save_full_text,
@@ -314,7 +315,7 @@ def main() -> int:
         print(f"  unique bills: {len(unique_bills)} (from {len(candidates)} action entries)")
         print(f"  by state: {', '.join(f'{s}={n}' for s, n in state_counts.most_common(15))}")
 
-        highlights = select_highlights(candidates)
+        highlights = select_highlights(candidates, gate=is_on_topic)
         print(f"\nSelected {len(highlights)} highlight(s) (cap={DIGEST_MAX_HIGHLIGHTS}, "
               f"per-state-cap={DIGEST_PER_STATE_CAP}, window={chosen_window}d):")
         for b in highlights:

@@ -36,6 +36,7 @@ from post_to_bluesky import (
     _format_date,
     compose_post,
     ensure_english_fields,
+    is_on_topic,
     extract_fields,
     fetch_og_image,
     load_bills,
@@ -159,7 +160,8 @@ def candidates_in_window(bills: list[dict], today: datetime, days: int) -> list[
 
 def select_highlights(candidates: list[dict],
                       max_highlights: int | None = DIGEST_MAX_HIGHLIGHTS,
-                      per_state_cap: int = DIGEST_PER_STATE_CAP) -> list[dict]:
+                      per_state_cap: int = DIGEST_PER_STATE_CAP,
+                      gate=None) -> list[dict]:
     """
     Pick the top ``max_highlights`` bills, capped at ``per_state_cap`` per
     state, sorted by (score desc, action_date desc).
@@ -190,6 +192,15 @@ def select_highlights(candidates: list[dict],
     for b in bills:
         state = b["state"] or "?"
         if per_state[state] >= per_state_cap:
+            continue
+        # Relevance gate: confirm the bill is genuinely on-topic before it earns
+        # a digest slot (drops omnibus budgets that keyword-matched on one
+        # incidental subject tag). A skip is backfilled by the next-best bill.
+        # Only applied when a gate is passed (single-topic digests); the
+        # all-topics ranked list is gated later, at merge time.
+        if gate is not None and not gate(b):
+            print(f"  ⤫ relevance gate: off-topic for '{TOPIC.name}', "
+                  f"skipping {state} {b['identifier']}")
             continue
         picked.append(b)
         per_state[state] += 1
@@ -464,7 +475,7 @@ def main() -> int:
         print(f"  unique bills: {unique_count} (from {len(candidates)} action entries)")
         print(f"  by state: {', '.join(f'{s}={n}' for s,n in state_counts.most_common(15))}")
 
-        highlights = select_highlights(candidates)
+        highlights = select_highlights(candidates, gate=is_on_topic)
         print(f"\nSelected {len(highlights)} highlight(s) (cap={DIGEST_MAX_HIGHLIGHTS}, "
               f"per-state-cap={DIGEST_PER_STATE_CAP}, window={chosen_window}d):")
         for b in highlights:

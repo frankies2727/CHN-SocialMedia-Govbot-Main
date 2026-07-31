@@ -28,7 +28,7 @@ from collections import Counter
 from datetime import datetime
 from typing import Callable
 
-from post_to_bluesky import extract_fields
+from post_to_bluesky import extract_fields, is_on_topic
 from topic import Topic, list_topics
 from weekly_digest_bluesky import (
     DIGEST_PER_STATE_CAP,
@@ -148,6 +148,16 @@ def merge_across_topics(
                     continue
                 st = b["state"] or "?"
                 if per_state[st] >= per_state_cap:
+                    continue
+                # Relevance gate: confirm the bill is genuinely on-topic for the
+                # feed that would claim it (drops omnibus budgets that keyword-
+                # matched on one incidental subject tag). Judged against THIS
+                # topic; an off-topic bill is skipped and the next candidate from
+                # this topic backfills the slot. Not marked seen, so a different
+                # topic may still legitimately claim it.
+                if not is_on_topic(b, topic=topic):
+                    print(f"  ⤫ relevance gate: off-topic for '{name}', "
+                          f"skipping {st} {b['identifier']}")
                     continue
                 seen_bills.add(key)
                 per_state[st] += 1

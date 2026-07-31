@@ -77,7 +77,7 @@ BLUESKY_API = "https://bsky.social/xrpc"
 # and the model has been pulled with `ollama pull <LLM_MODEL>`.
 LLM_API_URL = os.environ.get("LLM_API_URL", "http://localhost:11434/api/chat")
 LLM_MODEL = os.environ.get("LLM_MODEL", "gemma3:4b")
-LLM_TIMEOUT = int(os.environ.get("LLM_TIMEOUT", "180"))
+LLM_TIMEOUT = int(os.environ.get("LLM_TIMEOUT", "300"))
 # How long Ollama keeps the model resident between requests. Without this it
 # defaults to 5 minutes, so a topic that spends several minutes downloading
 # PDFs between summaries can force a cold model reload mid-run. Pin it for the
@@ -1819,7 +1819,7 @@ def _post_copy(b: dict) -> dict:
     return result
 
 
-def is_on_topic(b: dict) -> bool:
+def is_on_topic(b: dict, topic: "Topic | None" = None) -> bool:
     """LLM relevance gate. Keyword matching (TOPIC.matches) is a cheap net that
     can let an omnibus/budget bill through on a single incidental subject tag
     (e.g. a whole state budget matching the AI/crypto feed because it lists
@@ -1827,12 +1827,17 @@ def is_on_topic(b: dict) -> bool:
     model to read the actual bill text and confirm the bill is genuinely about
     this feed's topic.
 
+    ``topic`` defaults to the process's active TOPIC (the single-topic posters
+    and digests); the all-topics Threads/Instagram digest passes each bill's own
+    claiming topic so a bill is judged against the feed it will run in.
+
     Returns True (post it) unless the model is confident the bill is off-topic.
     Fails OPEN: no groundable text, the gate disabled, or any extraction / LLM /
     parse error all return True, so the keyword match still stands and a gate
     hiccup never silently drops a whole run's posts. Cached on the record."""
     if not RELEVANCE_GATE:
         return True
+    t = topic if topic is not None else TOPIC
     cached = b.get("_on_topic")
     if cached is not None:
         return cached
@@ -1848,9 +1853,9 @@ def is_on_topic(b: dict) -> bool:
         b["_on_topic"] = True
         return True
 
-    system_prompt = TOPIC.relevance_gate_system_prompt()
+    system_prompt = t.relevance_gate_system_prompt()
     user_prompt = (
-        f"Topic: {TOPIC.prompt_topic}\n"
+        f"Topic: {t.prompt_topic}\n"
         f"Bill title: {(b.get('title') or '').strip()}\n"
         f"Bill text:\n{source[:3500]}"
     )
