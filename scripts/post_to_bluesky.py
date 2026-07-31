@@ -88,12 +88,12 @@ LLM_KEEP_ALIVE = os.environ.get("LLM_KEEP_ALIVE", "30m")
 # match on a single incidental subject tag). On by default; set RELEVANCE_GATE=0
 # to disable (e.g. if the LLM is unavailable and you want keyword-only behavior).
 RELEVANCE_GATE = (os.environ.get("RELEVANCE_GATE", "1").strip() != "0")
-# How much bill text the gate reads. The topic is almost always clear from the
-# title + opening provisions, so a tight window keeps the gate call fast enough
-# to finish inside LLM_TIMEOUT on the loaded free runner — a wide window made
-# the CPU model occasionally time out, and fail-open then let the bill through
-# unjudged. Overridable if a run wants a wider read.
-RELEVANCE_GATE_CHARS = int(os.environ.get("RELEVANCE_GATE_CHARS", "2000"))
+# The gate reads a wide slice of the bill so its judgment is well grounded, which
+# on the loaded free runner can make the CPU model's call run long. Give the gate
+# its OWN timeout — longer than the copy call's LLM_TIMEOUT — so a slow call is
+# allowed to finish and return a real verdict instead of hitting the ceiling and
+# falling open (which lets the bill through unjudged). Overridable per run.
+RELEVANCE_GATE_TIMEOUT = int(os.environ.get("RELEVANCE_GATE_TIMEOUT", "360"))
 
 IMG_MAX_DOWNLOAD = 5 * 1024 * 1024
 IMG_TARGET_SIZE  = 900 * 1024
@@ -1835,7 +1835,7 @@ def is_on_topic(b: dict) -> bool:
     user_prompt = (
         f"Topic: {TOPIC.prompt_topic}\n"
         f"Bill title: {(b.get('title') or '').strip()}\n"
-        f"Bill text:\n{source[:RELEVANCE_GATE_CHARS]}"
+        f"Bill text:\n{source[:3500]}"
     )
     result = True
     try:
@@ -1852,7 +1852,7 @@ def is_on_topic(b: dict) -> bool:
                 "keep_alive": LLM_KEEP_ALIVE,
                 "options": {"num_predict": 80, "temperature": 0.2},
             },
-            timeout=LLM_TIMEOUT,
+            timeout=RELEVANCE_GATE_TIMEOUT,
         )
         r.raise_for_status()
         data = r.json()
