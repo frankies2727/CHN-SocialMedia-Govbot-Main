@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 372",
+    "legislative_session": "2025",
+    "subject": [
+      "COMMERCE; CORPORATIONS",
+      "FOR-PROFIT; HOUSING; LOCAL GOVERNMENT; MUNICIPALITIES; PLANNING & ZONING; PRESENTED; PROPERTY; PUBLIC; RATIFIED; REAL ESTATE; SMALL BUSINESS; TITLE CHANGE; CHAPTERED; HOMEOWNERS ASSOCIATIONS; NGOS"
+    ],
+    "title": "Home-Based Business Fairness Act."
+  },
+  "id": "HB 372",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Gov. 7/7/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-07-07",
+      "session_id": "2025",
+      "sources": [
+        {
+          "url": "https://www.ncleg.gov/BillLookUp/2025/H372"
+        }
+      ]
+    },
+    "bill_id": "HB 372"
+  },
+  "sources": {
+    "bill": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB372/metadata.json",
+    "log": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB372/logs/20260707T000000Z_signed_by_gov_772026.json"
+  },
+  "timestamp": "20260707T000000Z",
+  "posted_text": "🏗️ NC HB 372 — You Can Run Your Business From Home – Now With More Rules\n\nNorth Carolina is letting cities regulate home-based businesses, but only if they’re ‘no-impact’ – meaning they don’t add traffic, sell restricted goods, or violate neighborhood rules.\n\nJuly 7, 2026: Signed by Gov.\n\n🔗 Read the full bill: https://www.ncleg.gov/BillLookUp/2025/HB372\n\n#Housing #NorthCarolina #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.ncleg.gov/BillLookUp/2025/HB372",
+  "posted_url": "https://www.instagram.com/p/DbeswPuESzU/"
+}
