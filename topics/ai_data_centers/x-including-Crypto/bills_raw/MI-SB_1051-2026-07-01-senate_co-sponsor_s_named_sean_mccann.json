@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1051",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Businesses: other"
+    ],
+    "title": "Businesses: other; Michigan zoning enabling act; make subject to the data center community benefit act. Amends sec. 205 of 2006 PA 110 (MCL 125.3205).  TIE BAR WITH: SB 1050'26"
+  },
+  "id": "SB 1051",
+  "log": {
+    "action": {
+      "description": "SENATE CO-SPONSOR(S) NAMED: SEAN MCCANN",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-01",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1051"
+        }
+      ]
+    },
+    "bill_id": "SB 1051"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1051/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1051/logs/20260701T000000Z_senate_cosponsors_named_sean_mccann.json"
+  },
+  "timestamp": "20260701T000000Z",
+  "posted_text": "🏢 MI SB 1051 — Businesses: other; Michigan zoning enabling act; make subject to the data center community benefit act. Amends sec. 205 of 2006 PA 110 (MCL 125.3205).  TIE BAR WITH: SB 1050'26\n\nJuly 1, 2026: Senate Co-sponsor(s) Named: Sean Mccann.\n\nLink to bill in reply.",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1051",
+  "posted_url": "https://x.com/i/web/status/2083556872523813351"
+}

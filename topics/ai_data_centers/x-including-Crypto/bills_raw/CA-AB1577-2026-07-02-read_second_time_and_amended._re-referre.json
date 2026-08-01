@@ -1,0 +1,54 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes the State Energy Resources Conservation and Development Commission and vests the commission with various responsibilities with respect to developing and implementing the state's energy policies. Existing law requires the commission to biennially adopt an integrated energy policy report, as specified, and to make the reports accessible to state, local, and federal entities and to the general public.\n\nThis bill would require the commission to establish a process for the owner of a data center, as defined, to submit specified information to the commission, including, among other information, the data center's location and size, the data center's power usage effectiveness, as defined, and the quantity of fuel consumed by onsite generators or other fuel-based energy systems, as specified. The bill would require the owner of a data center to submit the required information in the manner and timeframe specified by the commission. The bill would require the commission, beginning with the 2029 integrated energy policy report, and in subsequent biennial reports, to include an assessment of electrical load trends for data centers, as provided. The bill would require the commission to annually publish the information submitted in an anonymized and aggregated format on its internet website.\n\nThe bill would require the owner or developer of a data center, upon applying for a discretionary permit, entitlement, or land use authorization required for the construction or operation of the data center, to submit to the applicable local agency, as defined, specified information, including the expected annual energy consumption, as specified, and the expected sound levels attributable to the operation of the data center, as provided. The bill would authorize the local agency to use this information for various purposes, including, but not limited to, land use planning, infrastructure planning, energy supply assessment, and environmental review.\n\nThe bill would prohibit the commission or a local agency from disclosing the information described above in a manner that would result in the disclosure of identifiable information or energy consumption data for a data center customer, except as provided. The bill would require the commission to establish a process for the owner of a data center to obtain an exemption from reporting data that would jeopardize trade secrets if disclosed.\n\nExisting constitutional provisions require that a statute that limits the right of access to the meetings of public bodies or the writings of public officials and agencies be adopted with findings demonstrating the interest protected by the limitation and the need for protecting that interest.\n\nThis bill would make legislative findings to that effect.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1577",
+    "legislative_session": "20252026",
+    "subject": [
+      "Datacenters",
+      "reporting"
+    ],
+    "title": "Data centers: reporting."
+  },
+  "id": "AB1577",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "reading-1",
+        "reading-2",
+        "referral-committee"
+      ],
+      "description": "Read second time and amended. Re-referred to Com. on APPR.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-02",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Com. on APPR."
+        }
+      ],
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1577"
+        }
+      ]
+    },
+    "bill_id": "AB1577"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1577/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1577/logs/20260702T000000Z_read_second_time_and_amended_rereferred_to_com_on_appr.json"
+  },
+  "timestamp": "20260702T000000Z",
+  "posted_text": "🏢 CA AB1577 — Your town could hit pause on new data centers\n\nCalifornia wants to know how much energy new data centers will use – and where they’ll go – by requiring owners to report on location, power consumption, and fuel use, with the info publicly available to guide local planning decisions.\n\nJuly 2, 2026: Read second time and amended. Re-referred to Com. on APPR.\n\nLink to bill in reply.",
+  "posted_link": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1577",
+  "posted_url": "https://x.com/i/web/status/2083556757411184803"
+}
