@@ -21,14 +21,138 @@ defaults:
     shell: bash
 
 jobs:
-  run:
+  # ---------------------------------------------------------------------------
+  # Fetch, run ONCE. The govbot national clone + bills.jsonl dump is the slow
+  # (~45 min) half of the pipeline. When it shared a single 60-minute job with
+  # posting, a slow clone left too little time and the runner was cancelled
+  # mid-post. Splitting the fetch into its own job means posting always starts
+  # with a fresh 55-minute budget. This job clones fresh, dumps bills.jsonl,
+  # builds the topic-independent normalized parse, stages the full-text bundle,
+  # and ships all three to the post job as an artifact.
+  # ---------------------------------------------------------------------------
+  prepare:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 45
+    steps:
+      - name: Free disk space
+        # ubuntu-latest ships with ~14 GB free; the govbot clone across 50+
+        # states blows past that ("No space left on device"). Strip preinstalled
+        # tooling we never use to recover ~30 GB before cloning.
+        uses: jlumbroso/free-disk-space@v1.3.1
+        with:
+          tool-cache: false
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: false
+          docker-images: true
+          swap-storage: false
 
-    # The single Instagram account now spans every topic, so this job loops over
-    # all topics/ in one sequential run (not sharded — one account, one writer to
-    # the shared account-level dedup ledger + per-run cap). BOT_TOPIC is set per
-    # topic inside the post step.
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install Python deps
+        # Needed before the govbot-bills staging step and the normalized build,
+        # both of which import the repo's scripts (requests, PyYAML, Pillow, …).
+        run: pip install -r requirements.txt
+
+      - name: Install govbot, fetch all supported states, dump JSONL
+        # Resilient install (retries the daily-republished upstream nightly).
+        # shared-cache is OFF on purpose: Instagram runs after Bluesky on the
+        # same days (Mon/Wed/Fri), so with the shared cache on it would reuse
+        # Bluesky's bills.jsonl and SKIP the clone — leaving no on-disk metadata
+        # or files/ dir. Cloning fresh keeps govbot's committed full text
+        # (bills/{id}/files/{id}_text_extracted.txt) on disk so summaries stay
+        # grounded in the real legislation. Because the clone lives only on this
+        # job's runner, the staging step below copies the small full-text subset
+        # into a bundle the post job can use without re-cloning. See
+        # .github/actions/govbot-bills.
+        uses: ./.github/actions/govbot-bills
+        with:
+          shared-cache: "false"
+
+      - name: Build the normalized bill list (topic-independent, once)
+        # Parsing bills.jsonl + running extract_fields is topic-independent, so do
+        # it once here and ship the result — every topic in the post job reuses it
+        # instead of re-parsing the whole corpus. Importing the module needs a
+        # BOT_TOPIC, so pass the first available topic. Non-fatal: if it fails the
+        # post job falls back to parsing bills.jsonl directly.
+        run: |
+          FIRST_TOPIC=""
+          for d in topics/*/; do
+            [ -f "$d/config.yml" ] && FIRST_TOPIC=$(basename "$d") && break
+          done
+          BOT_TOPIC="$FIRST_TOPIC" python scripts/post_to_bluesky.py \
+            --build-normalized bills_normalized.json \
+            || echo "  normalized build failed; the post job will parse bills.jsonl directly."
+
+      - name: Stage the full-text bundle from the fresh clone
+        # The govbot-bills action only stages this bundle when shared-cache is on;
+        # here shared-cache is off (we always re-clone fresh), so stage it
+        # ourselves. stage_bill_text.py copies the small, useful subset — each
+        # topic-matched, in-window bill's metadata.json + pre-extracted text —
+        # out of the on-disk clone into shared_bill_text/, then we tar it so it
+        # rides in the corpus artifact. The post job unpacks it and points
+        # GOVBOT_DATA_ROOT at it, so full bill text survives even though that job
+        # never clones. Reuse the normalized parse we just built. Non-fatal: on
+        # any failure we still ship an (empty) tarball so the post job's
+        # download/unpack path stays uniform and posts fall back to abstracts.
+        run: |
+          [ -f bills_normalized.json ] && export BILLS_NORMALIZED="$PWD/bills_normalized.json"
+          FIRST_TOPIC=""
+          for d in topics/*/; do
+            [ -f "$d/config.yml" ] && FIRST_TOPIC=$(basename "$d") && break
+          done
+          if [ -n "$FIRST_TOPIC" ] && \
+             BOT_TOPIC="$FIRST_TOPIC" python scripts/stage_bill_text.py shared_bill_text; then
+            echo "Staged full-text bundle from the fresh clone."
+          else
+            echo "::warning::full-text staging failed or no topics; shipping empty bundle (abstracts only)."
+            mkdir -p shared_bill_text
+          fi
+          tar -czf shared_bill_text.tar.gz shared_bill_text
+          echo "shared_bill_text.tar.gz is $(du -h shared_bill_text.tar.gz | cut -f1)."
+
+      - name: Ensure the full-text bundle exists
+        # Belt-and-suspenders: if staging was skipped for any reason, ship an
+        # empty tarball so the upload path is always satisfied and the post job's
+        # download/extract stays uniform (it falls back to abstracts).
+        run: |
+          [ -f shared_bill_text.tar.gz ] || { mkdir -p shared_bill_text; tar -czf shared_bill_text.tar.gz shared_bill_text; }
+
+      - name: Upload the shared bill corpus
+        uses: actions/upload-artifact@v4
+        with:
+          name: bills-corpus
+          # bills_normalized.json may be absent if the build above failed; the
+          # post job handles that by rebuilding from bills.jsonl. shared_bill_text
+          # .tar.gz carries the per-bill metadata + pre-extracted full text.
+          path: |
+            bills.jsonl
+            bills_normalized.json
+            shared_bill_text.tar.gz
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 9
+
+  # ---------------------------------------------------------------------------
+  # Post. Runs after prepare with its own fresh 55-minute budget (no clone here
+  # — it downloads the corpus artifact). The single Instagram account spans every
+  # topic, so this loops over all topics/ in one sequential run (not sharded —
+  # one account, one writer to the shared account-level dedup ledger + per-run
+  # cap). BOT_TOPIC is set per topic inside the post step.
+  # ---------------------------------------------------------------------------
+  post:
+    needs: prepare
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+
     env:
       LLM_MODEL: "gemma3:4b"
       DRY_RUN: "0"
@@ -38,10 +162,8 @@ jobs:
 
     steps:
       - name: Free disk space
-        # ubuntu-latest ships with ~14 GB free; govbot clones across 50+ states
-        # plus the Ollama LLM blow past that, which makes the runner crash with
-        # "No space left on device". Strip out preinstalled tooling we never
-        # use to recover ~30 GB before anything else runs.
+        # The Ollama LLM (~3.3 GB) plus the full bill corpus in RAM need the
+        # headroom; strip preinstalled tooling we never use.
         uses: jlumbroso/free-disk-space@v1.3.1
         with:
           tool-cache: false
@@ -70,25 +192,41 @@ jobs:
           cache: "pip"
 
       - name: Install poppler-utils (pdftotext)
-        # Lets scripts/bill_text.py extract full bill text from PDFs for the
-        # summaries; degrades gracefully to abstract-only if absent.
+        # Lets scripts/bill_text.py extract full bill text from a bill's PDF when
+        # the pre-extracted text isn't in the staged bundle; degrades gracefully
+        # to abstract-only if absent.
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
 
       - name: Install Python deps
         run: pip install -r requirements.txt
 
-      - name: Install govbot, fetch all supported states, dump JSONL
-        # Resilient install (retries the daily-republished upstream nightly).
-        # shared-cache is OFF here on purpose: Instagram runs after Bluesky on
-        # the same days (Mon/Wed/Fri), so with the shared cache on it would
-        # reuse Bluesky's bills.jsonl and SKIP the clone — leaving no on-disk
-        # metadata or files/ dir, which forces every summary to fall back to the
-        # bill abstract. Cloning fresh keeps govbot's committed full text
-        # (bills/{id}/files/{id}_text_extracted.txt) on disk so posts stay
-        # grounded in the real legislation. See .github/actions/govbot-bills.
-        uses: ./.github/actions/govbot-bills
+      - name: Download the shared bill corpus
+        # Lands bills.jsonl (+ bills_normalized.json when present, plus
+        # shared_bill_text.tar.gz) in the repo root, exactly where the scripts
+        # expect them — no govbot clone needed.
+        uses: actions/download-artifact@v4
         with:
-          shared-cache: "false"
+          name: bills-corpus
+          path: .
+
+      - name: Confirm corpus present and unpack staged bill text
+        # Unpack the per-bill metadata + pre-extracted full text staged by the
+        # prepare job. The posting step below sets GOVBOT_DATA_ROOT to this dir so
+        # bill_text.resolve_metadata_path finds the staged subset exactly as it
+        # would a full clone — restoring full bill text without re-cloning. A
+        # missing/empty tarball is non-fatal: posts just fall back to abstracts.
+        run: |
+          test -f bills.jsonl && echo "bills.jsonl: $(wc -l < bills.jsonl) lines" \
+            || (echo "::error::bills.jsonl missing after download" && exit 1)
+          [ -f bills_normalized.json ] && echo "normalized parse present" \
+            || echo "no normalized parse; will rebuild from bills.jsonl."
+          if [ -f shared_bill_text.tar.gz ]; then
+            tar -xzf shared_bill_text.tar.gz
+            n=$(find shared_bill_text -name metadata.json 2>/dev/null | wc -l)
+            echo "staged bill text: $n bill(s) with metadata unpacked."
+          else
+            echo "no staged bill text tarball; posts will use abstracts only."
+          fi
 
       - name: Cache Ollama model
         uses: actions/cache@v4
@@ -158,12 +296,12 @@ jobs:
             > /dev/null 2>&1 || echo "  (warm-up failed; model will load on first summary)"
 
       - name: Render, push cards, and post to Instagram (all topics)
-        # One account, every topic: build the normalized bill list once, then walk
-        # the topics in randomized order. Each topic's run renders + pushes its
-        # cards (so they're reachable by URL), waits for the CDN, then publishes
-        # via the Instagram Graph API. The account-level per-run cap
-        # (RUN_POST_LIMIT) stops once enough has gone out, and the account
-        # ledger keeps a bill matched by two topics from posting twice.
+        # One account, every topic: walk the topics in randomized order. Each
+        # topic's run renders + pushes its cards (so they're reachable by URL),
+        # waits for the CDN, then publishes via the Instagram Graph API. The
+        # account-level per-run cap (RUN_POST_LIMIT) stops once enough has gone
+        # out, and the account ledger keeps a bill matched by two topics from
+        # posting twice.
         env:
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
@@ -172,19 +310,17 @@ jobs:
           # different topics each run rather than being eaten by the first one.
           POST_LIMIT: "1"
           RUN_POST_LIMIT: "4"
+          # Point bill_text.resolve_metadata_path at the staged subset the prepare
+          # job shipped (metadata.json + pre-extracted full text), so full bill
+          # text is used again even though this job never cloned.
+          GOVBOT_DATA_ROOT: "${{ github.workspace }}/shared_bill_text"
         run: |
           shopt -s nullglob
-          # Build the normalized (extract_fields-applied) bill list once; every
-          # topic below reads it via BILLS_NORMALIZED instead of re-parsing
-          # bills.jsonl. Importing the module needs BOT_TOPIC, so use any topic.
-          FIRST_TOPIC=""
-          for d in topics/*/; do
-            [ -f "$d/config.yml" ] && FIRST_TOPIC=$(basename "$d") && break
-          done
-          if BOT_TOPIC="$FIRST_TOPIC" python scripts/post_to_bluesky.py --build-normalized bills_normalized.json; then
+          # Point every per-topic process at the shared normalized parse built
+          # once in the prepare job. If it wasn't produced (build failed), the
+          # script rebuilds from bills.jsonl on first use.
+          if [ -f bills_normalized.json ]; then
             export BILLS_NORMALIZED="$PWD/bills_normalized.json"
-          else
-            echo "  normalized build failed; topics will parse bills.jsonl directly."
           fi
 
           for topic in $(ls -d topics/*/ | xargs -n1 basename | shuf); do
