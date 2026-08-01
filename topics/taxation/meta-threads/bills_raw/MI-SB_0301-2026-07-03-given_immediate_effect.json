@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 0301",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Corporate income tax: credits",
+      "Health: anatomical gifts",
+      "Individual income tax: credit"
+    ],
+    "title": "Corporate income tax: credits; employer credit for paid organ donation leave; provide for. Amends 1967 PA 281 (MCL 206.1 - 206.847) by adding secs. 279 & 679."
+  },
+  "id": "SB 0301",
+  "log": {
+    "action": {
+      "description": "GIVEN IMMEDIATE EFFECT",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-03",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0301"
+        }
+      ]
+    },
+    "bill_id": "SB 0301"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0301/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0301/logs/20260703T000000Z_given_immediate_effect.json"
+  },
+  "timestamp": "20260703T000000Z",
+  "posted_text": "🧾 Taxation\nMI SB 0301 — Michigan Businesses Get New Tax Credit for Employee Organ Donations\n\nMichigan employers can now claim a tax credit for paying employees’ time off to donate organs, up to $42,240 per single return and $84,480 per joint return. This change, added to Michigan’s corporate income tax rules, adjusts how income is calculated for businesses and their employees.\n\nJuly 3, 2026: Given Immediate Effect.",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0301",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DbgqiQboFTL"
+}
