@@ -30,6 +30,15 @@ inputs:
       ad-hoc clones (e.g. specific states) that should not be reused.
     required: false
     default: "true"
+  stage-text:
+    description: >
+      'true' also stages a small full-text bundle (each in-window, topic-matched
+      bill's metadata.json + pre-extracted text) beside bills.jsonl, so full bill
+      text survives the cache hit that skips the clone. On a cache hit the bundle
+      is unpacked and GOVBOT_DATA_ROOT is exported for later steps. Requires the
+      caller to have installed requirements.txt first. Non-fatal if it fails.
+    required: false
+    default: "true"
 
 runs:
   using: "composite"
@@ -43,14 +52,21 @@ runs:
         # the freshness window for weeks, so every poster on a given day can
         # safely reuse the same dump instead of re-cloning 50+ repos each time.
         slug=$(printf '%s' "${{ inputs.clone-target }}" | tr -c 'A-Za-z0-9' '-')
-        echo "key=bills-jsonl-$(date -u +%F)-${slug}-${{ inputs.log-limit }}" >> "$GITHUB_OUTPUT"
+        # -v2 bump: the snapshot now also carries shared_bill_text.tar.gz, so
+        # invalidate v1 caches that only held bills.jsonl (a v1 hit would restore
+        # bills.jsonl with no text bundle and quietly fall back to abstracts).
+        echo "key=bills-jsonl-v2-$(date -u +%F)-${slug}-${{ inputs.log-limit }}" >> "$GITHUB_OUTPUT"
 
-    - name: Restore shared bills.jsonl
+    - name: Restore shared bills.jsonl + full-text bundle
       id: bills-cache
       if: ${{ inputs.shared-cache == 'true' }}
       uses: actions/cache@v4
       with:
-        path: bills.jsonl
+        # The full-text bundle rides in the same per-day cache as bills.jsonl so
+        # the clone-skipping cache hit no longer strips full bill text.
+        path: |
+          bills.jsonl
+          shared_bill_text.tar.gz
         key: ${{ steps.cachekey.outputs.key }}
 
     - name: Install govbot, fetch states, dump bills.jsonl
@@ -114,7 +130,49 @@ runs:
         govbot logs --limit ${{ inputs.log-limit }} $FILTER_ARG > bills.jsonl
         echo "bills.jsonl is $(wc -l < bills.jsonl) lines"
 
-    - name: Reuse cached bills.jsonl
+    - name: Stage full-text bundle from the fresh clone
+      # Only when the snapshot is shared (shared-cache) AND this is a cache MISS
+      # (the clone just ran, so metadata.json + pre-extracted text are on disk).
+      # Copy the small, useful subset into shared_bill_text/ and tar it so it
+      # rides in the same per-day cache as bills.jsonl — that's what lets full
+      # bill text survive tomorrow's (and later-today's) cache hit, which skips
+      # the clone. shared-cache=false callers always re-clone, so full text comes
+      # straight from the clone and staging would just be wasted work. Non-fatal:
+      # on any failure we still ship an (empty) tarball so the cache path exists
+      # and consumers fall back to abstracts.
+      if: ${{ inputs.stage-text == 'true' && inputs.shared-cache == 'true' && steps.bills-cache.outputs.cache-hit != 'true' }}
+      shell: bash
+      run: |
+        FIRST_TOPIC=""
+        for d in topics/*/; do
+          [ -f "$d/config.yml" ] && FIRST_TOPIC=$(basename "$d") && break
+        done
+        if [ -n "$FIRST_TOPIC" ] && \
+           BOT_TOPIC="$FIRST_TOPIC" python scripts/stage_bill_text.py shared_bill_text; then
+          echo "Staged full-text bundle from the fresh clone."
+        else
+          echo "::warning::full-text staging failed or no topics; shipping empty bundle (abstracts only)."
+          mkdir -p shared_bill_text
+        fi
+        tar -czf shared_bill_text.tar.gz shared_bill_text
+        echo "shared_bill_text.tar.gz is $(du -h shared_bill_text.tar.gz | cut -f1)."
+
+    - name: Reuse cached bills.jsonl + unpack full-text bundle
+      # On a cache HIT the clone was skipped, so metadata.json isn't on disk —
+      # unpack the staged bundle that rode in the cache and point bill_text at it
+      # via GOVBOT_DATA_ROOT (exported to every later step in the job). This is
+      # the fix for full text vanishing on same-day re-runs. A v1 cache (or a run
+      # with staging off) has no tarball; then GOVBOT_DATA_ROOT stays unset and
+      # posts fall back to abstracts, exactly as before.
       if: ${{ steps.bills-cache.outputs.cache-hit == 'true' }}
       shell: bash
-      run: echo "Reused today's shared bills.jsonl ($(wc -l < bills.jsonl) lines); skipped the full govbot clone."
+      run: |
+        echo "Reused today's shared bills.jsonl ($(wc -l < bills.jsonl) lines); skipped the full govbot clone."
+        if [ "${{ inputs.stage-text }}" = "true" ] && [ -f shared_bill_text.tar.gz ]; then
+          tar -xzf shared_bill_text.tar.gz
+          n=$(find shared_bill_text -name metadata.json 2>/dev/null | wc -l)
+          echo "GOVBOT_DATA_ROOT=$GITHUB_WORKSPACE/shared_bill_text" >> "$GITHUB_ENV"
+          echo "Unpacked full-text bundle: $n bill(s); GOVBOT_DATA_ROOT set for full text without a clone."
+        else
+          echo "No full-text bundle in this cache; posts will use abstracts only."
+        fi
