@@ -1,0 +1,187 @@
+GENERAL ASSEMBLY OF NORTH CAROLINA
+SESSION 2025
+H
+
+H.B. 920
+Apr 10, 2025
+HOUSE PRINCIPAL CLERK
+
+D
+HOUSE BILL DRH40488-MU-20
+
+Short Title:
+
+NC Digital Asset Freedom Act.
+
+Sponsors:
+
+Representative N. Jackson.
+
+(Public)
+
+Referred to:
+
+A BILL TO BE ENTITLED
+AN ACT TO ALLOW THE USE OF DIGITAL ASSETS IN ECONOMIC TRANSACTIONS
+AND IN THE PAYMENT OF TAXES AND TO ESTABLISH PROTECTIONS FOR NEW
+CUSTOMERS TRANSMITTING DIGITAL ASSETS.
+The General Assembly of North Carolina enacts:
+SECTION 1. Chapter 66 of the General Statutes is amended by adding a new Article
+to read:
+"Article 52.
+"North Carolina Digital Asset Freedom Act.
+"§ 66-511. Short title.
+This Article may be cited as the North Carolina Digital Asset Freedom Act.
+"§ 66-512. Legislative findings.
+The General Assembly finds all of the following:
+(1)
+The General Assembly finds that digital assets, when properly regulated and
+aligned with principles of decentralization, security, and resilience, can be a
+valid and stable medium for economic exchange.
+(2)
+The principles set forth in this Article reflect North Carolina's commitment to
+fostering innovation, commerce, and privacy.
+(3)
+The General Assembly further finds that decentralized digital assets, which
+are not governed by any central entity or foundation, align with the economic
+principles of limited, noninflationary money and are capable of ensuring the
+security and integrity of transactions.
+"§ 66-513. Scope.
+This Article applies only to a digital asset that satisfies all of the following requirements:
+(1)
+Decentralization and fair issuance. – The digital asset shall have been
+launched fairly, without pre-mining, insider allocations, or central authority
+control, and shall not rely on a single entity, foundation, or small group of
+insiders for its ongoing operation or governance.
+(2)
+Lack of centralized governance. – The digital asset shall operate without
+unilateral control over protocol changes, and any upgrades shall occur through
+a decentralized, voluntary consensus mechanism that prevents governance
+capture.
+(3)
+Security and immutability. – The asset shall have a proven track record of
+security spanning at least 10 years, without any successful protocol-level
+hacks or rollbacks. Transactions shall be immutable once confirmed,
+preventing centralized actors from altering the ledger history.
+
+*DRH40488-MU-20*
+
+General Assembly Of North Carolina
+
+Session 2025
+
+Market longevity and free market endurance. – The digital asset shall have
+operated continuously in an open, permissionless market for at least 10 years,
+without requiring external intervention or state support to maintain viability,
+and shall have survived regulatory scrutiny without being classified as a
+security.
+(5)
+Liquidity and market depth. – The digital asset shall have a minimum market
+capitalization of seven hundred fifty billion dollars ($750,000,000,000) and a
+daily trading volume exceeding ten billion dollars ($10,000,000,000), with
+availability across multiple highly regulated U.S. exchanges to ensure
+institutional-grade liquidity and price discovery.
+(6)
+Regulatory clarity and legal standing. – The digital asset shall have been
+deemed a commodity or an equivalent non-security by U.S. regulators, such
+as the U.S. Securities and Exchange Commission, U.S. Commodity Futures
+Trading Commission, or other relevant authorities. Assets subject to ongoing
+litigation or regulatory uncertainty regarding their classification as a security
+are disqualified.
+(7)
+Energy-based consensus and cost of attack. – The digital asset shall be secured
+by a proof-of-work mechanism, ensuring that attacks require significant
+real-world economic resources. The cost of a fifty-one percent (51%) attack
+shall be demonstrably high, ensuring network security is infeasible to
+compromise.
+(8)
+Censorship resistance. – Transactions shall be permissionless, meaning no
+entity, government, or corporation can prevent users from sending or
+receiving funds. The network shall be operational across multiple
+jurisdictions, with globally distributed nodes and miners, preventing
+geographical or political capture.
+(9)
+Network resilience and uptime. – The digital asset's network shall have
+maintained ninety-nine and ninety-eight hundredths percent (99.98%) uptime
+or better, functioning independently of third-party financial institutions,
+ensuring accessibility during market crises, bank failures, or geopolitical
+instability.
+(10) Predictable and non-inflationary supply. – The asset shall have a strictly
+limited total supply and a fully transparent, programmatically enforced
+issuance schedule, ensuring long-term scarcity and resistance to arbitrary
+inflationary issuance.
+"§ 66-514. Recognition of digital assets as valid medium of exchange.
+Digital assets are recognized as a valid medium of exchange in North Carolina. A transaction
+shall not be denied legal effect or enforceability solely because it uses a digital asset.
+"§ 66-515. Privacy and security protections.
+(a)
+Except as otherwise provided by law, a party to a transaction that uses a digital asset
+shall not require another party to disclose personal financial information.
+(b)
+The State of North Carolina shall ensure that privacy protections are in place for
+persons using digital assets, in compliance with applicable privacy and data protection laws.
+"§ 66-516. Payment of taxes in digital assets.
+As provided in G.S. 105-241, a person may choose to use a digital asset to pay taxes to the
+Department of Revenue."
+SECTION 2. Article 16B of Chapter 53 of the General Statutes is amended by adding
+a new section to read:
+"§ 53-208.70. New virtual currency customers; daily transaction limit; refund for fraud.
+(a)
+In this section, the following definitions apply:
+(1)
+Kiosk. – An electronic terminal acting as a mechanical agent of a licensee.
+(4)
+
+Page 2
+
+DRH40488-MU-20
+
+General Assembly Of North Carolina
+
+Session 2025
+
+"New virtual currency customer" of a licensee. – A person whose first
+transaction with the licensee to transmit virtual currency occurred within 72
+hours.
+(b)
+A licensee shall impose a daily transaction limit equivalent to two thousand dollars
+($2,000) on a new virtual currency customer for transmissions of virtual currency through a
+kiosk.
+(c)
+The licensee shall refund the full amount of a transmission of virtual currency to a
+person if all of the following apply:
+(1)
+At the time of the transmission, the person was a new virtual currency
+customer.
+(2)
+The person was fraudulently induced to transmit the virtual currency.
+(3)
+The person reported the fraudulent nature of the transmission to the licensee
+within 14 days of the transmission."
+SECTION 3. G.S. 105-241 reads as rewritten:
+"§ 105-241. Where and how taxes payable; tax period; liens.
+(a)
+Form of Payment. – Taxes are payable in either the national currency. currency or a
+digital asset that satisfies the requirements of G.S. 66-513. The Secretary shall prescribe where
+taxes are to be paid and whether taxes must be paid in cash, by check, by electronic funds transfer,
+or by another method.
+(a1) Payment by Digital Asset; Reporting Digital Asset Transactions. – If a person chooses
+to pay taxes with a digital asset, the person shall report the U.S. dollar equivalent of the payment
+amount using the digital asset-to-dollar exchange rate at the time of payment. Additionally, if a
+person reports a transaction using a digital asset, the person shall include the U.S. dollar
+equivalent of the amount of the transaction using the digital asset-to-dollar exchange rate at the
+time the transaction occurred. The Department of Revenue shall maintain on its website digital
+asset-to-dollar exchange rates and shall update these rates daily. This subsection applies only to
+digital assets that satisfy the requirements of G.S. 66-513.
+…."
+SECTION 4. If any provision of this act or its application to any person or
+circumstance is held invalid, then the invalidity shall not affect other provisions or applications
+of the act that can be given effect without the invalid provision or application and, to that end,
+the provisions of this act shall be severable.
+SECTION 5. G.S. 66-516, as enacted by Section 1 of this act, and Section 3 of this
+act become effective January 1, 2026. The remainder of this act is effective when it becomes law.
+(2)
+
+DRH40488-MU-20
+
+Page 3

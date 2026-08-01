@@ -1,0 +1,96 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1667",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending the act of March 4, 1971 (P.L.6, No.2), known as the Tax Reform Code of 1971, in sales and use tax, further providing for exclusions from tax; in corporate net income tax, further providing for definitions, for determination of net loss deduction, for imposition of tax, for reports and payment of tax, for timely mailing treated as timely filing and payment and for additional withholding requirements, repealing provisions relating to consolidated reports, further providing for extension of time to file reports, for changes made by Federal Government, for limitations on assessments, for definitions, for manufacturing innovation and reinvestment deduction, for enforcement, rules and regulations and inquisitorial powers of the department, for retention of records and for penalties; in gross receipts tax, further providing for imposition of tax and providing for definitions; in tax credit and tax benefit administration, providing for application of tax credits or tax benefits to a unitary business; providing for educational tax credits and for education options tax credits; in manufacturing and investment tax credit, further providing for business firms and for tax credit certificates; providing for return on equity and for service and facilities; repealing provisions relating to Computer Data Center Equipment Incentive Program; providing for additional property tax rebate; in general provisions, providing for data centers; and, in general provisions, further providing for estimated tax, for underpayment of estimated tax and for restatement of tax liability under treaties and providing for data centers."
+  },
+  "id": "HB 1667",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "committee-passage"
+      ],
+      "description": "Re-reported on concurrence, as amended",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-01T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hb1667"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=67&rollcallid=2721&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=67&rollcallid=2720&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=457"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=456"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=455"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=454"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=453"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=452"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=451"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=450"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=449"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=448"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=3&rollcallid=945&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=3&rollcallid=946&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=25&rollcallid=907&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=25&rollcallid=908&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=609"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=62&rollcallid=1145&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=67&rollcallid=1087&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=16&rollcallid=990&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "HB 1667"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB1667/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB1667/logs/20260701T040000Z_rereported_on_concurrence_as_amended.json"
+  },
+  "timestamp": "20260701T040000Z",
+  "posted_text": "🏢 PA HB 1667 — Pennsylvania Expands Tax Breaks for New Data Centers\n\nThe state is now offering significant tax breaks to companies building data centers, specifically expanding exclusions from sales and use tax and gross receipts tax – a key change for businesses investing in this sector.\n\nJuly 1, 2026: Re-reported on concurrence, as amended.\n\nLink to bill in reply.",
+  "posted_link": "https://www.palegis.us/legislation/bills/2025/hb1667",
+  "posted_url": "https://x.com/i/web/status/2083390148637831315"
+}
