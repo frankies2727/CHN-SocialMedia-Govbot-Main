@@ -313,13 +313,23 @@ jobs:
             export BILLS_NORMALIZED="$PWD/bills_normalized.json"
           fi
 
-          # Walk topics in randomized order. The per-topic process exits with
-          # code 42 (RUN_CAP_REACHED_EXIT) once the account's per-run cap is
-          # full — either it was already full or that topic's posts filled it.
-          # Break on it so the remaining topics don't each boot Python and
-          # re-load the full ~1.1M-record corpus only to no-op.
-          for topic in $(ls -d topics/*/ | xargs -n1 basename | shuf); do
-            [ -f "topics/$topic/config.yml" ] || continue
+          # Topic order: fixed alphabetical, ROTATED by the run number so a
+          # different topic leads each run and every topic eventually goes
+          # first. The account-wide per-run cap (RUN_POST_LIMIT) fills before
+          # the whole list is walked, so rotating the start is what keeps
+          # coverage fair across all topics over time — the deterministic
+          # replacement for the previous random shuffle.
+          mapfile -t TOPICS < <(for d in topics/*/; do [ -f "$d/config.yml" ] && basename "$d"; done | sort)
+          n=${#TOPICS[@]}
+          if [ "$n" -eq 0 ]; then echo "No topics with config.yml found."; exit 0; fi
+          offset=$(( ${{ github.run_number }} % n ))
+          echo "Topic rotation: $n topics, run ${{ github.run_number }}, leading with ${TOPICS[$offset]} (index $offset)."
+          # The per-topic process exits with code 42 (RUN_CAP_REACHED_EXIT) once
+          # the account's per-run cap is full — either it was already full or
+          # that topic's posts filled it. Break on it so the remaining topics
+          # don't each boot Python and re-load the full corpus only to no-op.
+          for (( k=0; k<n; k++ )); do
+            topic="${TOPICS[$(( (offset + k) % n ))]}"
             echo "=== Threads: topic $topic ==="
             rc=0
             BOT_TOPIC="$topic" python scripts/post_to_meta_threads.py || rc=$?
