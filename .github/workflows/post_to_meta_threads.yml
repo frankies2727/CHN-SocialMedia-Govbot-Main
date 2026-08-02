@@ -313,17 +313,22 @@ jobs:
             export BILLS_NORMALIZED="$PWD/bills_normalized.json"
           fi
 
-          # Topic order: fixed alphabetical, ROTATED by the run number so a
-          # different topic leads each run and every topic eventually goes
-          # first. The account-wide per-run cap (RUN_POST_LIMIT) fills before
-          # the whole list is walked, so rotating the start is what keeps
-          # coverage fair across all topics over time — the deterministic
-          # replacement for the previous random shuffle.
+          # Topic order: fixed alphabetical, stepped forward each run by the
+          # per-run post cap so consecutive runs cover the NEXT block of topics
+          # (run 1: topics 1..3, run 2: 4..6, …) and wrap around at the end — a
+          # deterministic march through the whole list with no topic repeating on
+          # back-to-back runs. Replaces both the random shuffle and the earlier
+          # slide-by-one (which re-posted overlapping topics on adjacent runs).
           mapfile -t TOPICS < <(for d in topics/*/; do [ -f "$d/config.yml" ] && basename "$d"; done | sort)
           n=${#TOPICS[@]}
           if [ "$n" -eq 0 ]; then echo "No topics with config.yml found."; exit 0; fi
-          offset=$(( ${{ github.run_number }} % n ))
-          echo "Topic rotation: $n topics, run ${{ github.run_number }}, leading with ${TOPICS[$offset]} (index $offset)."
+          # Step by RUN_POST_LIMIT (this account's per-run cap) so each run starts
+          # where the last block ended. With 13 topics and a cap that doesn't
+          # divide evenly, block boundaries drift a little each lap — that just
+          # varies the pairings; every topic still cycles through fairly.
+          step="${RUN_POST_LIMIT:-1}"
+          offset=$(( (${{ github.run_number }} * step) % n ))
+          echo "Topic rotation: $n topics, run ${{ github.run_number }}, block starts at ${TOPICS[$offset]} (index $offset, step $step)."
           # The per-topic process exits with code 42 (RUN_CAP_REACHED_EXIT) once
           # the account's per-run cap is full — either it was already full or
           # that topic's posts filled it. Break on it so the remaining topics
