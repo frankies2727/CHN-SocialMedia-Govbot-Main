@@ -323,8 +323,24 @@ jobs:
             export BILLS_NORMALIZED="$PWD/bills_normalized.json"
           fi
 
-          for topic in $(ls -d topics/*/ | xargs -n1 basename | shuf); do
-            [ -f "topics/$topic/config.yml" ] || continue
+          # Topic order: fixed alphabetical, stepped forward each run by the
+          # per-run post cap so consecutive runs cover the NEXT block of topics
+          # (run 1: topics 1..4, run 2: 5..8, …) and wrap around at the end — a
+          # deterministic march through the whole list with no topic repeating on
+          # back-to-back runs. Replaces both the random shuffle and the earlier
+          # slide-by-one (which re-posted overlapping topics on adjacent runs).
+          mapfile -t TOPICS < <(for d in topics/*/; do [ -f "$d/config.yml" ] && basename "$d"; done | sort)
+          n=${#TOPICS[@]}
+          if [ "$n" -eq 0 ]; then echo "No topics with config.yml found."; exit 0; fi
+          # Step by RUN_POST_LIMIT (this account's per-run cap) so each run starts
+          # where the last block ended. With 13 topics and a cap that doesn't
+          # divide evenly, block boundaries drift a little each lap — that just
+          # varies the pairings; every topic still cycles through fairly.
+          step="${RUN_POST_LIMIT:-1}"
+          offset=$(( (${{ github.run_number }} * step) % n ))
+          echo "Topic rotation: $n topics, run ${{ github.run_number }}, block starts at ${TOPICS[$offset]} (index $offset, step $step)."
+          for (( k=0; k<n; k++ )); do
+            topic="${TOPICS[$(( (offset + k) % n ))]}"
             echo "=== Instagram: topic $topic ==="
             BOT_TOPIC="$topic" python scripts/post_to_instagram.py \
               || echo "  $topic post failed, continuing with next topic"
