@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "SS/SCS/SB 916 - This act modifies provisions relating to sovereign immunity.\r\n\r\nSOVEREIGN IMMUNITY FOR MODOT PRIVATE CONTRACTORS (SECTION 537.600)\r\n\tCurrently, public entities are immune from liability for compensatory damages resulting from negligence, except as expressly waived in law. This act modifies the express waivers to include injuries directly resulting from negligence caused by an agent of the Missouri Department of Transportation (\"Department\") arising out of the operation of motor vehicles within the course of their employment and for injuries caused by the condition of the public entity's property if the negligence of an agent of the Department created the dangerous condition or had actual or constructive notice of the dangerous condition in order to take measures to protect against the dangerous condition.\r\n\r\n\tFurthermore, this act creates a statutory cause of action for damages against an agent of the Department for claims arising from the design, condition, or maintenance of a Department project and abrogates any other common law claims against a private contractor, subcontractor, or engineer, or employee thereof, for such claims. The cause of action is established when the damages occur after execution of a contract to perform work but prior to the commencement of construction activities on the project site and for when construction activities on the project site are approved and accepted by the Department. The Department shall be solely liable for personal injury or death arising out of instances during such periods of time.\r\n\r\n\tThe immunity provided by this statutory cause of action shall not apply when:\r\n\t(1)\tThe work is so defective that it creates an imminent danger to third parties;\r\n\t(2)\tA defect in the work was concealed and not discoverable by a reasonable inspection by the State Highways and Transportation Commission (\"Commission\");\r\n\t(3)\tThe agent knew of the dangerous condition and did not disclose it to the Commission; or \r\n\t(4)\tThe plans or specifications followed were so imperfect or improper that the agent should have known the work to be done would result in an unsafe condition.\r\n\r\n\tFurthermore, the Missouri Standard Specifications for Highway Construction, or its successor, as published by the Commission shall not include provisions requiring a contractor to indemnify or defend the state, the Commission, or employees or agents of the Missouri Department of Transportation. No contractor of the Commission shall be required to agree to an indemnification or a duty to defend provision.\r\n\r\nPURCHASE OF LIABILITY INSURANCE FOR SOVEREIGN IMMUNITY CLAIMS (SECTION 537.610.1)\r\n\tAs it relates to political subdivisions purchasing liability insurance for tort claims made against the political subdivision, this act defines the term \"purchase\" to refer only to the direct acquisition of insurance coverage by a governing body and not any indirect action by contract or otherwise.\r\n\r\n\tThis provision is substantially similar to a provision in HCS/HB 1718 (2026), SB 454 (2025), HB 142 (2025), SB 1346 (2024), and HB 2690 (2022).\r\nKATIE O'BRIEN",
+        "note": "abstract"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 916",
+    "legislative_session": "2026",
+    "title": "SS/SCS/SB 916 - This act modifies provisions relating to sovereign immunity.\r\n\r\nSOVEREIGN IMMUNITY FOR MODOT PRIVATE CONTRACTORS (SECTION 537.600)\r\n\tCurrently, public entities are immune from liability for compensatory damages resulting from negligence, except as expressly waived in law. This act modifies the express waivers to include injuries directly resulting from negligence caused by an agent of the Missouri Department of Transportation (\"Department\") arising out of the operation of motor vehicles within the course of their employment and for injuries caused by the condition of the public entity's property if the negligence of an agent of the Department created the dangerous condition or had actual or constructive notice of the dangerous condition in order to take measures to protect against the dangerous condition.\r\n\r\n\tFurthermore, this act creates a statutory cause of action for damages against an agent of the Department for claims arising from the design, condition, or maintenance of a Department project and abrogates any other common law claims against a private contractor, subcontractor, or engineer, or employee thereof, for such claims. The cause of action is established when the damages occur after execution of a contract to perform work but prior to the commencement of construction activities on the project site and for when construction activities on the project site are approved and accepted by the Department. The Department shall be solely liable for personal injury or death arising out of instances during such periods of time.\r\n\r\n\tThe immunity provided by this statutory cause of action shall not apply when:\r\n\t(1)\tThe work is so defective that it creates an imminent danger to third parties;\r\n\t(2)\tA defect in the work was concealed and not discoverable by a reasonable inspection by the State Highways and Transportation Commission (\"Commission\");\r\n\t(3)\tThe agent knew of the dangerous condition and did not disclose it to the Commission; or \r\n\t(4)\tThe plans or specifications followed were so imperfect or improper that the agent should have known the work to be done would result in an unsafe condition.\r\n\r\n\tFurthermore, the Missouri Standard Specifications for Highway Construction, or its successor, as published by the Commission shall not include provisions requiring a contractor to indemnify or defend the state, the Commission, or employees or agents of the Missouri Department of Transportation. No contractor of the Commission shall be required to agree to an indemnification or a duty to defend provision.\r\n\r\nPURCHASE OF LIABILITY INSURANCE FOR SOVEREIGN IMMUNITY CLAIMS (SECTION 537.610.1)\r\n\tAs it relates to political subdivisions purchasing liability insurance for tort claims made against the political subdivision, this act defines the term \"purchase\" to refer only to the direct acquisition of insurance coverage by a governing body and not any indirect action by contract or otherwise.\r\n\r\n\tThis provision is substantially similar to a provision in HCS/HB 1718 (2026), SB 454 (2025), HB 142 (2025), SB 1346 (2024), and HB 2690 (2022).\r\nKATIE O'BRIEN"
+  },
+  "id": "SB 916",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-07-13T05:00:00+00:00",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2026&billid=123"
+        }
+      ]
+    },
+    "bill_id": "SB 916"
+  },
+  "sources": {
+    "bill": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB916/metadata.json",
+    "log": "mo-legislation/country:us/state:mo/sessions/2026/bills/SB916/logs/20260713T050000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260713T050000Z"
+}

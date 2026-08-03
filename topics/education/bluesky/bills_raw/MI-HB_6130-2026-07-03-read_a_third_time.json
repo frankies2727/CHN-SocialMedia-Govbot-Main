@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6130",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Education: financing"
+    ],
+    "title": "Education: financing; Michigan trust fund act; modify. Amends sec. 12 of 2000 PA 489 (MCL 12.262)."
+  },
+  "id": "HB 6130",
+  "log": {
+    "action": {
+      "classifications": [
+        "reading-3"
+      ],
+      "description": "read a third time",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-03",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6130"
+        }
+      ]
+    },
+    "bill_id": "HB 6130"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6130/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6130/logs/20260703T000000Z_read_a_third_time.json"
+  },
+  "timestamp": "20260703T000000Z"
+}
