@@ -1,0 +1,47 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB79",
+    "legislative_session": "34",
+    "subject": [
+      "ECONOMY",
+      "EDUCATION",
+      "LAND",
+      "PARKS & RECREATION",
+      "PLACE NAMES",
+      "UNIVERSITIES",
+      "WATER"
+    ],
+    "title": "An Act renaming the Institute of Social and Economic Research at the University of Alaska as the Vic Fischer Institute of Social and Economic Research; and naming the Vic Fischer Shoup Bay State Marine Park."
+  },
+  "id": "HB79",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-veto"
+      ],
+      "description": "(H) VETOED BY GOVERNOR 6/24/26",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-03",
+      "session_id": "34",
+      "sources": [
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB79"
+        },
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB79#tab5_4"
+        }
+      ]
+    },
+    "bill_id": "HB79"
+  },
+  "sources": {
+    "bill": "ak-legislation/country:us/state:ak/sessions/34/bills/HB79/metadata.json",
+    "log": "ak-legislation/country:us/state:ak/sessions/34/bills/HB79/logs/20260703T000000Z_h_vetoed_by_governor_62426.json"
+  },
+  "timestamp": "20260703T000000Z",
+  "posted_text": "🎓 AK HB79 — Alaska Honors Pioneer: Shoup Bay Marine Park Now Named for Vic Fischer\n\nThe state of Alaska has officially renamed Shoup Bay State Marine Park to honor Vic Fischer, a renowned marine biologist and conservationist. This change recognizes his decades of work protecting Alaska's coastal ecosystems.\n\nJuly 3, 2026: (h) Vetoed by Governor 6/24/26.\n\n🔗 Read the full bill: https://www.akleg.gov/basis/Bill/Detail/34?Root=HB79\n\n#Education #Alaska #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB79",
+  "posted_url": "https://www.instagram.com/p/Dblt9Z0D-9v/"
+}
