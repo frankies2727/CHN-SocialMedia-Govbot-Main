@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 5233",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Labor: leave",
+      "Law enforcement: employment"
+    ],
+    "title": "Labor: leave; paid military leave for certain members of a fire department or law enforcement agency; provide. Creates new act."
+  },
+  "id": "HB 5233",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "REPORTED BY COMMITTEE OF THE WHOLE FAVORABLY WITHOUT AMENDMENT(S)",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-03",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-HB-5233"
+        }
+      ]
+    },
+    "bill_id": "HB 5233"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB5233/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB5233/logs/20260703T000000Z_reported_by_committee_of_the_whole_favorably_without_amendments.json"
+  },
+  "timestamp": "20260703T000000Z"
+}

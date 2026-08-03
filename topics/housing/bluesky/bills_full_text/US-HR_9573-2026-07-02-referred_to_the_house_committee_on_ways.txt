@@ -1,0 +1,653 @@
+I
+
+119TH CONGRESS
+2D SESSION
+
+H. R. 9573
+
+To amend the Internal Revenue Code of 1986 to provide incentives for
+certain residential rental property.
+
+IN THE HOUSE OF REPRESENTATIVES
+JULY 2, 2026
+Mr. CAREY introduced the following bill; which was referred to the Committee
+on Ways and Means
+
+A BILL
+To amend the Internal Revenue Code of 1986 to provide
+incentives for certain residential rental property.
+
+Be it enacted by the Senate and House of Representa-
+
+tives of the United States of America in Congress assembled,
+
+SECTION 1. SHORT TITLE.
+
+This Act may be cited as the ‘‘Housing Opportunities
+
+and Preservation Enhancement Act of 2026’’.
+
+SEC. 2. TAX INCENTIVES FOR CERTAIN RESIDENTIAL RENT-
+
+kjohnson on DSK7ZCZBW3PROD with $$_JOB
+
+AL PROPERTY.
+
+(a) IN GENERAL.—Chapter 1 of the Internal Rev-
+
+enue Code of 1986 is amended by inserting after sub10 chapter V the following new subchapter:
+
+VerDate Sep 11 2014
+
+21:49 Jul 02, 2026
+
+Jkt 069200
+
+Frm 00001
+
+Fmt 6652
+
+Sfmt 6201
+
+E:\BILLS\H9573.IH
+
+‘‘Subchapter W—Certain Residential Rental
+
+Property
+‘‘Sec. 1400W-1. Qualified property.
+‘‘Sec. 1400W-2. Rights of first refusal.
+‘‘Sec. 1400W-3. Exemption from passive activity rules.
+‘‘Sec. 1400W-4. Exemption from profit motive requirement.
+‘‘Sec. 1400W-5. Application of debt allocation and at-risk rules.
+‘‘Sec. 1400W-6. Determination of gain or loss on disposition of qualified property.
+‘‘Sec. 1400W-7. Accelerated depreciation.
+‘‘Sec. 1400W-8. Exception from certain basis adjustment rules.
+
+‘‘SEC. 1400W-1. QUALIFIED PROPERTY.
+
+‘‘(a) IN GENERAL.—For purposes of this subchapter,
+
+the term ‘qualified property’ means, with respect to any
+taxable year, any building which—
+
+kjohnson on DSK7ZCZBW3PROD with $$_JOB
+
+‘‘(1) is residential rental property (as defined in
+section 168(e)(2)(A)),
+
+‘‘(2) in the case of a qualified low-income build-
+
+ing (as defined in section 42(c)(2)), is not within the
+
+compliance period (as defined in section 42(i)(1))
+
+with respect to such building,
+
+‘‘(3) is owned by a partnership which is a lim-
+
+ited liability company or a limited partnership in
+
+which every managing member or general partner is
+
+a qualified tax-exempt organization, a State or local
+
+government, a qualified tribal housing agency, or a
+
+public housing authority,
+
+‘‘(4) as of the close of such taxable year, at
+
+least 70 percent of the residential units in such
+
+building are both rent-restricted (within the meaning
+•HR 9573 IH
+
+VerDate Sep 11 2014
+
+21:49 Jul 02, 2026
+
+Jkt 069200
+
+Frm 00002
+
+Fmt 6652
+
+Sfmt 6201
+
+E:\BILLS\H9573.IH
+
+of section 42(g)(2)) and occupied by individuals
+
+whose income is 80 percent or less of the area me-
+
+dian income (determined under the rules of section
+
+42),
+
+‘‘(5) as of the close of such taxable year, such
+
+building bound by restrictions enforcing paragraph
+
+(4) which otherwise meet the requirements of clauses
+
+(ii) through (vi) of section 42(h)(6)(B),
+
+‘‘(6) during any 24-month period, rehabilitation
+
+expenditures (as defined in section 42(e)(2)) with re-
+
+spect to such building paid or incurred by such part-
+
+nership equal or exceed the greater of—
+
+‘‘(A) 20 percent of the adjusted basis of
+
+such building (as of the beginning of such pe-
+
+riod), or
+
+‘‘(B) $20,000 per residential unit, and
+
+‘‘(7) was originally placed in service more than
+
+years before the date on the which the rehabilita-
+
+tion referred to in paragraph (6) began.
+
+‘‘(b) VERIFICATION OF REHABILITATION EXPENDI-
+
+TURES.—The requirement of subsection (a)(6) shall not
+
+be treated as satisfied unless an independent attorney or
+kjohnson on DSK7ZCZBW3PROD with $$_JOB
+
+certified public accountant has issued a written certifi24 cation that such attorney or accountant has examined the
+expenditures incurred with respect to such building and,
+•HR 9573 IH
+VerDate Sep 11 2014
+
+21:49 Jul 02, 2026
+
+Jkt 069200
+
+Frm 00003
+
+Fmt 6652
+
+Sfmt 6201
+
+E:\BILLS\H9573.IH
+
+based upon such examination, it is such attorney’s or ac2 countant’s belief that such requirement has been satisfied.
+
+‘‘(c) DEFINITIONS.—For purposes of this section—
+
+‘‘(1) PUBLIC HOUSING AUTHORITY.—The term
+
+‘public housing authority’ means any State, county,
+
+municipality, or other governmental entity or public
+
+body, or agency or instrumentality of the foregoing,
+
+that is authorized to engage or assist in the develop-
+
+ment or operation of low-income housing under the
+
+United States Housing Act of 1937.
+
+‘‘(2)
+
+TION.—
+
+TAX-EXEMPT
+
+‘‘(A) IN GENERAL.—The term ‘qualified
+
+tax-exempt organization’ means, with respect to
+
+any qualified property, any organization exempt
+
+from the tax imposed under this chapter that,
+
+for the 5 years preceding the date on which
+
+such qualified property was placed in service—
+
+‘‘(i) met the requirements of section
+42(h)(5)(C)(i) and (ii),
+
+‘‘(ii) had an ownership interest in res-
+
+idential rental property serving low-income
+
+persons, and
+
+‘‘(iii) materially participated (within
+
+the meaning of section 469(h)) in the de-
+
+•HR 9573 IH
+VerDate Sep 11 2014
+
+ORGANIZA-
+
+kjohnson on DSK7ZCZBW3PROD with $$_JOB
+
+QUALIFIED
+
+21:49 Jul 02, 2026
+
+Jkt 069200
+
+Frm 00004
+
+Fmt 6652
+
+Sfmt 6201
+
+E:\BILLS\H9573.IH
+
+velopment and operation of residential
+
+rental property.
+
+‘‘(B) APPLICATION OF REQUIREMENTS TO
+
+TIERED ORGANIZATIONS.—For purposes of this
+
+paragraph, an organization shall be treated as
+
+satisfying the requirements of clause (ii) or (iii)
+
+of subparagraph (A) if—
+
+‘‘(i) any organization in which such
+
+organization holds stock satisfies such re-
+
+quirements, or
+
+‘‘(ii) all of the stock of such organiza-
+
+tion is held by 1 or more tax-exempt orga-
+
+nizations at all times during the period
+
+such organization is in existence and such
+
+organizations satisfy such requirements.
+
+kjohnson on DSK7ZCZBW3PROD with $$_JOB
+
+‘‘(3) QUALIFIED
+
+TRIBAL
+
+HOUSING
+
+ITY.—The
+
+means, with respect to any qualified property, any
+
+organization that, for the 5 years preceding the date
+
+on which such qualified property was placed in serv-
+
+ice—
+
+term ‘qualified tribal housing authority’
+
+‘‘(A) is designated by an Indian tribal gov-
+
+ernment (as defined in section 7701(a)(40)) to
+
+engage or assist in the development and oper-
+
+ation of low-income housing, and
+
+•HR 9573 IH
+VerDate Sep 11 2014
+
+AUTHOR-
+
+21:49 Jul 02, 2026
+
+Jkt 069200
+
+Frm 00005
+
+Fmt 6652
+
+Sfmt 6201
+
+E:\BILLS\H9573.IH
+
+‘‘(B) had an ownership interest in residen-
+
+tial rental property serving low-income persons,
+
+and materially participated (within the meaning
+
+of section 469(h)) in the development and oper-
+
+ation of residential rental property.
+
+‘‘(d) INFLATION ADJUSTMENT.—In the case of a 24-
+
+month period referred to in subsection (a)(6) which ends
+in a calendar year after 2026, the $20,000 amount in such
+subparagraph shall be increased by an amount equal to—
+
+‘‘(1) such dollar amount, multiplied by
+
+‘‘(2) the cost-of-living adjustment determined
+
+under section 1(f)(3) for such calendar year by sub-
+
+stituting ‘calendar year 2025’ for ‘calendar year
+
+2016’ in subparagraph (A)(ii) thereof.
+
+Any increase under the preceding sentence which is not
+a multiple of $100 shall be rounded to the nearest multiple
+of $100.
+
+‘‘SEC. 1400W-2. RIGHTS OF FIRST REFUSAL.
+
+‘‘(a) IN GENERAL.—No Federal income tax benefit
+
+shall fail to be allowable to the taxpayer with respect to
+any qualified property, merely by reason of a right of first
+refusal or purchase option held by a government agency
+kjohnson on DSK7ZCZBW3PROD with $$_JOB
+
+or an organization described in paragraph (3) or (4) of
+section 501(c) and exempt from tax under section 501(a)
+to purchase such property or all of the partnership inter•HR 9573 IH
+VerDate Sep 11 2014
+
+21:49 Jul 02, 2026
+
+Jkt 069200
+
+Frm 00006
+
+Fmt 6652
+
+Sfmt 6201
+
+E:\BILLS\H9573.IH
+
+ests (other than interests of the person exercising such
+option or a related party thereto (within the meaning of
+section 267(b) or 707(b)(1)), after the close of the 10th
+year after the acquisition of the qualified property for a
+price which is not less than the minimum purchase price.
+
+‘‘(b) MINIMUM PURCHASE PRICE.—For purposes of
+
+this section, the term ‘minimum purchase price’ means,
+with respect to any qualified property, the sum of—
+
+‘‘(1) the principal amount of outstanding in-
+
+debtedness secured by such property (other than in-
+
+debtedness incurred within the 5-year period ending
+
+on the date of the sale), and
+
+‘‘(2) all Federal, State, and local taxes attrib-
+
+utable to such sale.
+
+‘‘(c) SPECIAL RULES.—For purposes of determining
+
+whether an option, including a right of first refusal, to
+
+kjohnson on DSK7ZCZBW3PROD with $$_JOB
+
+purchase property is described in this section—
+
+‘‘(1) such option or right of first refusal may be
+
+exercised with or without the approval of the tax-
+
+payer, or any limited partner in a limited partner-
+
+ship or manager or managing member of a limited
+
+liability company, and
+
+‘‘(2) a right of first refusal may be exercised in
+
+response to any offer to purchase the property, in-
+
+cluding an offer by a related party.
+
+•HR 9573 IH
+VerDate Sep 11 2014
+
+21:49 Jul 02, 2026
+
+Jkt 069200
+
+Frm 00007
+
+Fmt 6652
+
+Sfmt 6201
+
+E:\BILLS\H9573.IH
+
+‘‘SEC.
+
+1400W-3.
+
+EXEMPTION
+
+FROM
+
+PASSIVE
+
+ACTIVITY
+
+RULES.
+
+‘‘For purposes of section 469, the term ‘passive activ-
+
+ity’ shall not include the residential rental of qualified
+property.
+
+‘‘SEC. 1400W-4. EXEMPTION FROM PROFIT MOTIVE RE-
+
+QUIREMENT.
+
+‘‘Section 183(a) shall not apply to the residential
+
+rental of qualified property.
+
+‘‘SEC. 1400W-5. APPLICATION OF DEBT ALLOCATION AND
+
+AT-RISK RULES.
+
+‘‘(a) IN GENERAL.—For purposes of sections 752
+
+and 465, the term ‘qualified nonrecourse financing’ in14 cludes any financing—
+
+‘‘(1) which is borrowed by a partnership re-
+
+ferred to in section 1400W-1(a)(3) with respect to
+
+the activity of holding qualified property, and
+
+‘‘(2) which is borrowed by the partnership from
+
+an organization exempt from tax under this chapter,
+
+including any such organization that is a partner in
+
+the partnership.
+
+‘‘(b) DETERMINATION
+
+OF
+
+PARTNER’S SHARE
+
+OF
+
+kjohnson on DSK7ZCZBW3PROD with $$_JOB
+
+QUALIFIED NONRECOURSE FINANCING.—A partner’s
+share of any qualified nonrecourse financing of such part25 nership shall be determined on the basis of the partner’s
+share of liabilities of such partnership incurred in connec•HR 9573 IH
+VerDate Sep 11 2014
+
+21:49 Jul 02, 2026
+
+Jkt 069200
+
+Frm 00008
+
+Fmt 6652
+
+Sfmt 6201
+
+E:\BILLS\H9573.IH
+
+tion with such financing (within the meaning of section
+752).
+
+‘‘(c) RISK OF LOSS.—For the purposes of section 752
+
+and subsection (b), a partner shall be deemed to not bear
+the risk of loss for a loan made (or made by a related
+person to such partner) with respect to qualified property
+that is qualified nonrecourse financing described in sub8 section (a).
+
+‘‘SEC. 1400W-6. DETERMINATION OF GAIN OR LOSS ON DIS-
+
+POSITION OF QUALIFIED PROPERTY.
+
+‘‘For purposes of determining the gain or loss on the
+
+sale or exchange of any qualified property (or any pass13 through interest therein) held by the taxpayer for not less
+than 10 years beginning on the date that such qualified
+property was placed in service, the basis of such property
+or pass-through interest shall be equal to the fair market
+value of such property on the date of such sale or ex18 change.
+
+‘‘SEC. 1400W-7. ACCELERATED DEPRECIATION.
+
+‘‘In the case of qualified property (and any property
+
+intended to become qualified property within 24 months),
+the recovery period of such property for purposes of seckjohnson on DSK7ZCZBW3PROD with $$_JOB
+
+tion 168 (including subsection (g)(2) thereof) shall be 15
+years.
+
+•HR 9573 IH
+VerDate Sep 11 2014
+
+21:49 Jul 02, 2026
+
+Jkt 069200
+
+Frm 00009
+
+Fmt 6652
+
+Sfmt 6201
+
+E:\BILLS\H9573.IH
+
+‘‘SEC. 1400W-8. EXCEPTION FROM CERTAIN BASIS ADJUST-
+
+MENT RULES.
+
+‘‘(a) NO BASIS ADJUSTMENT FOR ENERGY EFFI-
+
+CIENT HOME CREDIT.—Section 45L(e) shall not apply to
+
+qualified property.
+
+‘‘(b) NO BASIS ADJUSTMENT FOR ENERGY EFFICIENT
+
+COMMERCIAL BUILDING DEDUCTION.—Section
+
+179D(e) shall not apply to qualified property.
+
+‘‘(c) NO BASIS ADJUSTMENT
+
+FOR
+
+INVESTMENT
+
+CREDITS.—Section 50(c) shall not apply to qualified prop11 erty.
+
+‘‘SEC. 1400W-9. TREATMENT OF CPAITAL GRANTS.
+
+‘‘In the case of any amount received by an entity de-
+
+scribed in 1400W-1(c) with respect to property intended
+to be qualified property, as defined in section 460(c)(8),
+such consideration—
+
+‘‘(1) shall not be includible in gross income of
+the eligible taxpayer, and
+
+‘‘(2) the depreciable basis of any property ac-
+
+quired with such money shall not be reduced by the
+
+amount of such consideration.’’.
+
+(b) CLERICAL AMENDMENT.—The table of sub-
+
+kjohnson on DSK7ZCZBW3PROD with $$_JOB
+
+chapters for chapter 1 of the Internal Revenue Code of
+1986 is amended by inserting after the item relating to
+subchapter V the following new item:
+‘‘SUBCHAPTER W—CERTAIN RESIDENTIAL RENTAL PROPERTY’’.
+•HR 9573 IH
+VerDate Sep 11 2014
+
+21:49 Jul 02, 2026
+
+Jkt 069200
+
+Frm 00010
+
+Fmt 6652
+
+Sfmt 6211
+
+E:\BILLS\H9573.IH
+
+(c) EFFECTIVE DATE.—The amendments made by
+
+this section shall apply to taxable years beginning after
+the date of the enactment of this Act.
+
+kjohnson on DSK7ZCZBW3PROD with $$_JOB
+
+Æ
+
+•HR 9573 IH
+VerDate Sep 11 2014
+
+21:49 Jul 02, 2026
+
+Jkt 069200
+
+Frm 00011
+
+Fmt 6652
+
+Sfmt 6301
+
+E:\BILLS\H9573.IH

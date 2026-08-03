@@ -1,0 +1,509 @@
+STATE OF NEW YORK
+________________________________________________________________________
+10532
+
+IN SENATE
+May 19, 2026
+___________
+printed to be committed to the Committee on Investigations and Government Operations
+AN ACT to amend the tax law, in relation to establishing a property
+offset in Ulster county
+
+tax
+
+The People of the State of New York, represented in Senate and Assembly, do enact as follows:
+
+Section 1. The tax law is amended by adding a new article 30-C to read
+as follows:
+ARTICLE 30-C
+ULSTER COUNTY PROPERTY TAX OFFSET
+Section 1360. Definitions.
+1361. Authority to impose surcharge.
+1362. Persons subject to surcharge.
+1363. Excess state tax; rate; thresholds.
+1364. County resident, county nonresident and part-year county
+resident individuals.
+1365. Returns and liabilities.
+1366. Change of county resident status during taxable year.
+1367. Estates and trusts.
+1368. Partnerships, limited liability companies, corporations
+and exempt entities.
+1369. Withholding from wages.
+1370. Credit for surcharge withheld; estimated surcharge.
+1371. Administration, enforcement, collection and review.
+1372. Local law adoption, filing, effective date and repeal.
+1373. Deposit and disposition of revenues.
+1374. Regulations, forms and guidance.
+1375. Severability.
+1376. Duration of authority.
+§ 1360. Definitions. (a) Definitions. For purposes of this article:
+(1) "County" means the county of Ulster.
+(2) "Surcharge" means the Ulster county resident income tax surcharge
+authorized by this article.
+EXPLANATION--Matter in italics (underscored) is new; matter in brackets
+[ ] is old law to be omitted.
+LBD15934-01-6
+
+(3) "Taxable year" has the same meaning as in article twenty-two of
+this chapter.
+(4) "Article twenty-two return" means a New York state personal income
+tax return or fiduciary income tax return required under article twenty-two of this chapter.
+(5) "Net state tax" means the sum of taxes imposed under article twenty-two of this chapter for the taxable year, less credits allowed under
+such article other than withholding, estimated tax payments, and refundable credits.
+(6) "Benchmark state tax" means the amount that would constitute the
+taxpayer's net state tax for the taxable year, determined using the
+taxpayer's actual filing status, deductions, exemptions, and credits
+otherwise allowable for that taxable year, if New York state taxable
+income were deemed equal to the applicable threshold amount and such
+other assumptions as the commissioner shall prescribe by regulation.
+(7) "Excess state tax" means the excess, if any, of net state tax over
+benchmark state tax.
+(8) "Applicable threshold amount" means: (A) for an individual not
+filing a joint return, two hundred thousand dollars; (B) for individuals
+filing a joint return, four hundred thousand dollars; and (C) for an
+estate or trust, zero dollars.
+(b) Use of terms.
+Terms used in this article and not otherwise
+defined shall have the same meanings as when used in a comparable
+context in article twenty-two of this chapter, except where a different
+meaning is clearly required.
+§
+1361. Authority to impose surcharge. (a) General authority.
+Notwithstanding any other provision of law to the contrary, but subject
+to the limitations and conditions set forth in this article, Ulster
+county, acting through its county legislature, is hereby authorized and
+empowered to adopt, amend, and repeal local laws imposing a resident
+income tax surcharge.
+(b) Local law required. No surcharge shall be imposed under this article unless Ulster county has adopted a local law in accordance with
+section thirteen hundred seventy-two of this article.
+(c) Fixed rate. The surcharge authorized by this article shall be
+imposed at the fixed rate of sixteen and seventy-five hundredths percent
+of excess state tax. No local law adopted pursuant to this article shall
+impose any other rate or rate schedule.
+(d) Fixed thresholds. Except with respect to estates and trusts, to
+which a threshold of zero applies, the surcharge authorized by this
+article shall apply only to New York state income tax assessed on
+incomes above two hundred thousand dollars for an individual not filing
+a joint return under article twenty-two of this chapter and above four
+hundred thousand dollars for individuals filing a joint return under
+article twenty-two of this chapter.
+(e) No local variations. No local law adopted pursuant to this article
+shall create county-specific deductions, exemptions, exclusions, additions, subtractions, credits, alternative tax bases or other variations
+from the tax base, rate, thresholds, persons subject to surcharge, withholding requirements, administrative provisions or taxpayer remedies set
+forth in this article unless expressly authorized by state law.
+(f) No reduction of state tax. The surcharge shall not reduce, offset
+or otherwise affect a taxpayer's liability for any tax imposed under
+article twenty-two of this chapter.
+(g) Prospective application. No surcharge, amendment, repeal, expiration or termination adopted pursuant to this article shall apply
+
+retroactively. Any such local law, amendment, repeal, expiration or
+termination shall take effect only on the first day of January of a
+taxable year and shall apply only to taxable years beginning on or after
+such effective date; provided, however, that no surcharge shall apply to
+any taxable year beginning before the local law imposing such surcharge
+has been finally adopted and filed as required by this article and by
+applicable law.
+(h) No nonresident income tax. This article shall not authorize Ulster
+county to impose a tax, surcharge or other liability upon a county
+nonresident individual, county nonresident estate or county nonresident
+trust solely by reason of income derived from sources within Ulster
+county.
+§ 1362. Persons subject to surcharge. (a) County residents. For each
+taxable year for which a local law adopted pursuant to this article is
+in effect, the surcharge shall be imposed on every county resident individual, county resident estate and county resident trust that has excess
+state tax greater than zero and is required to file an article twentytwo return for such taxable year.
+(b) Part-year county residents. A part-year county resident individual
+or part-year county resident trust shall be subject to the surcharge
+only for the portion of the taxable year during which such individual or
+trust was a county resident, computed in accordance with section thirteen hundred sixty-six of this article.
+(c) Nonresidents excluded. No surcharge shall be imposed under this
+article on a county nonresident individual, county nonresident estate or
+county nonresident trust solely by reason of income, gain, loss,
+deduction, employment, business activity, real property, tangible property, intangible property or other economic activity within Ulster county.
+(d) No separate county filing obligation for nonfilers. No individual,
+estate or trust shall be required to file a return solely by reason of
+this article if such individual, estate or trust is not otherwise
+required to file an article twenty-two return, except that a return may
+be filed to claim a refund or credit of amounts withheld or paid pursuant to this article.
+(e) Taxable year. A taxpayer's taxable year for purposes of the
+surcharge shall be the same as such taxpayer's taxable year under article twenty-two of this chapter.
+§ 1363. Excess state tax; rate; thresholds. (a) Rate. The surcharge
+shall equal sixteen and seventy-five hundredths percent of excess state
+tax.
+(b) Individuals. For an individual, excess state tax shall be computed
+by subtracting benchmark state tax from net state tax, not less than
+zero.
+(c) Estates and trusts. For a county resident estate or trust, excess
+state tax shall equal net state tax, not less than zero.
+(d) Part-year county residents. When an individual or trust changes
+county resident status during the taxable year, net state tax and benchmark state tax for the county resident period shall be computed under
+rules substantially similar to the provisions of section thirteen
+hundred twenty-seven of this chapter, adapted to this article. The
+commissioner may prescribe special rules where the standard formula
+yields an inequitable or indeterminate result.
+(e) Commissioner authority. The commissioner shall promulgate regulations for the computation of benchmark state tax. Such regulations
+shall provide rules for joint returns, spouses with different county
+
+resident status, part-year county residents, estates and trusts, separate taxes, minimum taxes, additions to tax, credits, recaptures, and
+any other item necessary to compute benchmark state tax in a manner
+consistent with this article and article twenty-two of this chapter.
+§ 1364. County resident, county nonresident and part-year county resident individuals. (a) County resident individual. A county resident
+individual means an individual:
+(1) who is domiciled in Ulster county, unless:
+(A) the taxpayer maintains no permanent place of abode in Ulster county or maintains a permanent place of abode elsewhere and spends in the
+aggregate not more than thirty days of the taxable year in Ulster county; or
+(B) within any period of five hundred forty-eight consecutive days,
+the taxpayer is present in a foreign country or countries for at least
+four hundred fifty days, and during such period the taxpayer, the
+taxpayer's spouse, unless legally separated, and the taxpayer's minor
+children are not present in Ulster county for more than ninety days, and
+during any portion of the taxable year within which such five hundred
+forty-eight-day period begins or ends the taxpayer's presence in Ulster
+county does not exceed a proportionate part of ninety days as determined
+under regulations of the commissioner; or
+(2) who maintains a permanent place of abode in Ulster county and
+spends in the aggregate more than one hundred eighty-three days of the
+taxable year in Ulster county, whether or not domiciled in Ulster county
+for any portion of the taxable year, unless such individual is in active
+service in the armed forces of the United States.
+(b) County nonresident individual. A county nonresident individual
+means an individual who is not a county resident individual or part-year
+county resident individual.
+(c) Part-year county resident individual. A part-year county resident
+individual means an individual who is not a county resident individual
+or county nonresident individual for the entire taxable year.
+(d) Permanent place of abode. The term "permanent place of abode" has
+the same meaning as under article twenty-two of this chapter and the
+regulations and guidance of the commissioner thereunder shall apply to
+this article by substituting "Ulster county" for "New York state" or
+"this state" where appropriate.
+(e) Days spent in county. In determining days spent in Ulster county,
+the commissioner shall apply rules consistent with article twenty-two of
+this chapter and the regulations thereunder, including rules governing
+presence for part of a day, travel through the jurisdiction, medical
+treatment, military service and other exceptions recognized under state
+personal income tax residency rules.
+§ 1365. Returns and liabilities. (a) General. Every county resident
+individual, county resident estate or county resident trust subject to
+surcharge under this article shall report and pay the surcharge as part
+of the return required under article twenty-two of this chapter, in such
+manner and on such forms as the commissioner shall prescribe.
+(b) Joint returns; both spouses county residents. Where spouses file a
+joint return under article twenty-two of this chapter and both spouses
+are county residents for the entire taxable year, the surcharge shall be
+computed on the joint excess state tax using the threshold amount applicable to individuals filing a joint return, and both spouses shall be
+jointly and severally liable for the surcharge.
+
+(c) Joint returns; one spouse county resident. Where spouses file a
+joint return under article twenty-two of this chapter and only one
+spouse is a county resident or part-year county resident:
+(1) the spouses may elect to compute the surcharge as though both
+spouses were county residents for the taxable year or relevant portion
+thereof, in which case both spouses shall be jointly and severally
+liable for the surcharge; or
+(2) absent such election, the county resident spouse shall compute
+surcharge liability separately, in such manner as the commissioner shall
+prescribe, as if separate federal and New York state returns had been
+filed, and the threshold amount applicable to individuals not filing a
+joint return shall apply. The nonresident spouse shall not be liable for
+the surcharge except with respect to amounts withheld or paid on such
+spouse's behalf.
+(d) Separate returns. Where spouses file separate returns under article twenty-two of this chapter, the surcharge shall be computed separately and the threshold amount applicable to individuals not filing a
+joint return shall apply.
+(e) Decedents. The return for a deceased individual shall be made and
+filed by the executor, administrator or other person charged with the
+property of the decedent, in the same manner as provided under article
+twenty-two of this chapter.
+(f) Liability. The surcharge imposed by this article shall be a tax
+for purposes of assessment, collection, enforcement, refund, interest,
+penalty, lien, secrecy, administrative review and judicial review under
+article twenty-two of this chapter, except as otherwise provided in this
+article.
+§ 1366. Change of county resident status during taxable year. (a)
+Individuals. If an individual changes status during the taxable year
+from county resident to county nonresident, or from county nonresident
+to county resident, such individual shall compute surcharge liability
+only for the period during which the individual was a county resident,
+subject to such exceptions and rules as the commissioner may prescribe.
+(b) Trusts. If the status of a trust changes during its taxable year
+from county resident trust to county nonresident trust, or from county
+nonresident trust to county resident trust, the fiduciary shall compute
+surcharge liability only for the period during which the trust was a
+county resident trust, subject to such exceptions and rules as the
+commissioner may prescribe.
+(c) Special rules. If the computation under this section produces an
+inequitable, indeterminate or administratively impracticable result, the
+commissioner may prescribe alternative methods reasonably calculated to
+reflect the taxpayer's county resident period.
+§ 1367. Estates and trusts. (a) County resident estate. A county resident estate means the estate of a decedent who, at death, was domiciled
+in Ulster county.
+(b) County resident trust. A county resident trust means a trust, or
+portion of a trust:
+(1) consisting of property transferred by will of a decedent who, at
+death, was domiciled in Ulster county;
+(2) consisting of property of a person domiciled in Ulster county at
+the time such property was transferred to the trust, if such trust or
+portion of a trust was then irrevocable, or if it was then revocable and
+has not subsequently become irrevocable; or
+(3) consisting of property of a person domiciled in Ulster county at
+the time such trust or portion of a trust became irrevocable, if it was
+
+revocable when such property was transferred to the trust but subsequently became irrevocable.
+(c) Resident trust exclusion. A county resident trust shall not be
+subject to a surcharge under this article for a taxable year if all of
+the following conditions are satisfied for such taxable year:
+(1) all trustees are domiciled outside Ulster county;
+(2) the entire corpus of the trust, including real property and tangible personal property, is located outside Ulster county; and
+(3) all income and gains of the trust are derived from or connected
+with sources outside Ulster county, determined as if the trust were a
+county nonresident trust.
+(d) County nonresident estate or trust. A county nonresident estate or
+county nonresident trust means an estate or trust that is not a county
+resident estate, county resident trust or part-year county resident
+trust.
+(e) Part-year county resident trust. A part-year county resident trust
+means a trust that is not a county resident trust or county nonresident
+trust for the entire taxable year.
+(f) No income threshold. The threshold amounts specified in subparagraph (B) of paragraph eight of subsection (a) of section thirteen
+hundred sixty of this article, that are above zero, apply only to individuals and shall not apply to estates or trusts.
+(g) Fiduciary compliance. A fiduciary of an estate or trust subject to
+this article shall file returns, make payments, claim refunds and maintain records in the same manner as required under article twenty-two of
+this chapter, as modified by this article and by regulations or
+instructions of the commissioner.
+(h) Conformity with article twenty-two. Except as otherwise provided
+in this section, the rules governing resident estates, resident trusts,
+nonresident estates, nonresident trusts and part-year resident trusts
+under article twenty-two of this chapter shall apply for purposes of
+this article, with such substitutions and modifications as the commissioner shall prescribe.
+§ 1368. Partnerships, limited liability companies, corporations and
+exempt entities. (a) Partnerships. A partnership shall not be subject
+to the surcharge at the entity level. Persons carrying on business as
+partners shall be liable for the surcharge only in their individual,
+estate or trust capacities, as applicable.
+(b) Limited liability companies. For purposes of this article, a
+limited liability company treated as a partnership for federal income
+tax purposes shall be treated as a partnership, and a limited liability
+company disregarded for federal income tax purposes shall be disregarded
+in the same manner as under article twenty-two of this chapter.
+(c) Information reporting. The commissioner may require partnerships,
+limited liability companies and other pass-through entities to furnish
+such information as the commissioner deems necessary to administer and
+enforce this article.
+(d) Corporations. Entities taxable as corporations for federal income
+tax purposes shall not be subject to the surcharge imposed by this article.
+(e) Exempt entities. Entities exempt from federal income tax shall not
+be subject to the surcharge imposed by this article, except to the
+extent a person otherwise subject to this article is taxable under article twenty-two of this chapter with respect to income, gain or other
+items associated with such entity.
+
+§ 1369. Withholding from wages. (a) General. Every employer required
+to deduct and withhold tax from wages under article twenty-two of this
+chapter shall, with respect to wages paid to an employee who is a county
+resident, deduct and withhold the surcharge authorized by this article
+in such manner as the commissioner shall prescribe.
+(b) Tables and methods. The commissioner shall prescribe withholding
+tables, percentage methods, electronic methods, forms, certificates and
+instructions necessary to implement withholding under this article,
+including tables and methods that take account of the fixed rate and
+threshold amounts specified in this article.
+(c) Certificate of county residence. The commissioner may require
+employees to furnish employers with a certificate of county residence or
+nonresidence in such form and manner as the commissioner
+shall
+prescribe.
+(d) Employer safe harbor. An employer that withholds or does not withhold in good faith reliance on the employee's most recent certificate of
+county residence or nonresidence shall not be liable for underwithholding under this article unless the employer had actual knowledge that
+such certificate was false or materially inaccurate.
+(e) Employee liability preserved. No safe harbor provided to an
+employer under subsection (d) of this section shall relieve an employee
+of liability for surcharge, penalty or interest otherwise due under this
+article.
+(f) False certificates. A false or materially inaccurate certificate
+of county residence or nonresidence shall be subject to the penalties
+applicable to false or fraudulent statements under article twenty-two of
+this chapter.
+§ 1370. Credit for surcharge withheld; estimated surcharge. (a) Credit
+allowed. Amounts withheld or paid as estimated surcharge shall be credited against surcharge liability.
+(b) No reduction of income. Amounts withheld pursuant to this article
+shall be treated solely as payments on account and shall not alter the
+computation of net state tax, benchmark state tax, excess state tax, or
+surcharge liability.
+(c) Refunds. If the amount withheld or otherwise paid under this article exceeds surcharge liability, the excess shall be refunded or credited in the same manner as overpayments under article twenty-two of this
+chapter, subject to lawful offsets and section thirteen hundred seventy-three of this article.
+(d) Estimated surcharge. Taxpayers subject to the surcharge imposed
+pursuant to this article shall make payments of estimated surcharge in
+the same manner, at the same times and subject to the same rules as
+estimated tax payments under article twenty-two of this chapter.
+(e) First-year relief. For the first taxable year for which a local
+law adopted pursuant to this article is effective, no addition to tax
+shall be imposed for underpayment of estimated surcharge to the extent
+the underpayment is attributable to the initial adoption of such local
+law and the taxpayer acted in good faith under rules prescribed by the
+commissioner.
+§ 1371. Administration, enforcement, collection and review. (a) State
+administration.
+Except as otherwise provided in this article, the
+surcharge imposed pursuant to this article shall be administered and
+collected by the commissioner in the same manner as the tax imposed
+under article twenty-two of this chapter. The commissioner shall
+prescribe worksheets, forms, and electronic reporting specifications
+required to compute benchmark state tax and excess state tax.
+
+(b) Incorporation of article twenty-two. All provisions of article
+twenty-two of this chapter relating to or applicable to payment of estimated tax, returns, filing requirements, payment, withholding, employer
+statements and returns, employer liability for taxes required to be
+withheld, assessment, collection, refunds, credits, offsets, interest,
+civil and criminal penalties, secrecy, limitations periods, liens,
+warrants, administrative review and judicial review shall apply to the
+surcharge imposed pursuant to this article with the same force and
+effect as if such provisions had been incorporated in full into this
+article and had expressly referred to the surcharge, except where inconsistent with this article.
+(c) Enforcement with other taxes. The commissioner may enforce
+collection of the surcharge jointly with taxes imposed under article
+twenty-two of this chapter and with any other state-administered local
+income taxes.
+(d) Combined filings and payments. The commissioner may require
+combined returns, combined employer returns, combined estimated tax
+payments, combined payment vouchers and combined electronic filings for
+purposes of article twenty-two of this chapter and this article.
+(e) Application of payments. Where the commissioner receives a single
+payment or collection with respect to state personal income tax and one
+or more state-administered local income taxes or surcharges, such
+payment or collection shall be applied proportionately or in such other
+manner as the commissioner shall prescribe by regulation or instruction.
+(f) Liens and warrants. Liens, warrants, levies, income executions and
+other collection devices available under article twenty-two of this
+chapter shall apply to surcharge liabilities under this article with the
+same force and effect as if the surcharge were imposed under article
+twenty-two of this chapter.
+(g) Future amendments. Any amendment to article twenty-two of this
+chapter enacted after the effective date of this article shall, to the
+extent applicable to the surcharge imposed under this article, be deemed
+incorporated into the analogous provision or provisions of this article
+and any local law adopted pursuant to this article, unless the legislature expressly provides otherwise.
+(h) Review. All determinations, notices, assessments, refund denials
+and other acts of the commissioner under this article shall be reviewable in the same manner as comparable determinations, notices, assessments, refund denials and acts under article twenty-two of this chapter.
+(i) County not tax administrator. Ulster county shall not audit,
+assess, collect, compromise, refund, enforce or issue binding interpretations regarding the surcharge, except to the extent expressly authorized by the commissioner or by state law.
+§ 1372. Local law adoption, filing, effective date and repeal. (a)
+Required contents. A local law adopted pursuant to this article shall:
+(1) state that it is adopted pursuant to this article;
+(2) state that the surcharge is imposed at the fixed rate of sixteen
+and seventy-five hundredths percent of excess state tax;
+(3) specify the taxable years for which it applies;
+(4) specify any sunset date or termination provision, if applicable;
+(5) provide that the surcharge shall be administered, collected, and
+enforced by the commissioner;
+(6) provide that all definitions and administrative provisions of this
+article shall apply; and
+(7) specify whether revenues shall be deposited in the county general
+fund or in another fund or account authorized by law.
+
+(b) Prohibited local variations. A local law adopted pursuant to this
+article shall not vary the definitions, fixed rate, threshold amounts,
+tax base, treatment of estates and trusts, filing obligations, enforcement provisions, withholding rules, remittance rules or taxpayer remedies set forth in this article, except as expressly authorized by this
+article.
+(c) Filing under municipal home rule law. A local law adopted pursuant
+to this article shall be filed in accordance with section twenty-seven
+of the municipal home rule law. The filing requirements of this article
+are in addition to, and not in lieu of, any filing requirements imposed
+by the municipal home rule law.
+(d) Additional filing with state officers. No local law or amendment
+adopted pursuant to this article shall apply to any taxable year unless
+a certified copy of such law or amendment is filed with: (1) the clerk
+of the Ulster county legislature or such other officer designated by the
+county legislature; (2) the Ulster county clerk; (3) the secretary of
+state; (4) the state comptroller; and (5) the commissioner. Such filing
+shall be completed not less than one hundred eighty days before the
+first day of the taxable year to which such local law or amendment
+applies, unless the commissioner waives or reduces such period in writing upon a determination that such waiver or reduction is consistent
+with the commissioner's duties under this article.
+(e) Effective date. A local law adopted pursuant to this article shall
+take effect only on the first day of January of a taxable year and shall
+apply only to taxable years beginning on or after such date.
+(f) Amendments. Any amendment to a local law adopted pursuant to this
+article shall take effect only on the first day of January of a taxable
+year and shall apply only to taxable years beginning on or after such
+date. No amendment shall change the surcharge rate, threshold amounts,
+excess state tax base or the treatment of estates and trusts prescribed
+by this article.
+(g) Repeal, expiration or termination. A repeal, expiration or sunset
+of a local law adopted pursuant to this article shall not affect liabilities, withholding obligations, estimated tax obligations, filings,
+audits, assessments, collections, refunds, penalties, interest, administrative proceedings or judicial proceedings for taxable years during
+which the local law was in effect.
+(h) Administrative notice. After receipt of a certified copy of a
+local law or amendment adopted pursuant to this article, the commissioner shall issue such notices, forms, instructions, withholding tables and
+electronic filing specifications as the commissioner deems necessary.
+Failure to issue any such notice, form, instruction, table or specification by a particular date shall not invalidate the local law, but the
+commissioner may provide reasonable transition relief from penalties or
+additions to tax attributable to delayed administrative implementation.
+§ 1373. Deposit and disposition of revenues. (a) Deposit in trust.
+All revenue collected by the commissioner from the surcharge imposed
+pursuant to this article shall be deposited daily with such responsible
+banks, banking houses or trust companies as may be designated by the
+state comptroller, to the credit of the comptroller, in trust for Ulster
+county.
+(b) Separate trust funds. Such deposits shall be kept in trust and
+separate and apart from all other moneys in the possession of the comptroller. The comptroller shall require adequate security from all depositories of such revenue.
+
+(c) Refunds and administrative costs. The comptroller shall retain in
+the comptroller's hands such amount as the commissioner may determine to
+be necessary for refunds, lawful credits, lawful offsets and the reasonable costs of the commissioner in administering, collecting and distributing the surcharge.
+(d) Payment of refunds. The comptroller shall pay refunds of the
+surcharge to which taxpayers are entitled under this article or article
+twenty-two of this chapter from amounts retained pursuant to subsection
+(c) of this section.
+(e) Offsets. Before remitting revenues to Ulster county, the comptroller shall pay or credit any overpayments, and interest on such overpayments, required to be offset or credited under state law, including
+offsets certified by the commissioner under article twenty-two of this
+chapter or other applicable law.
+(f)
+Monthly remittance. After reserving amounts required under
+subsections (c), (d), and (e) of this section, the comptroller shall, on
+or before the fifteenth day of each month, pay to the chief fiscal officer of Ulster county the balance of surcharge revenues collected and
+available for distribution.
+(g) Use of revenues. Revenues remitted to Ulster county pursuant to
+this section shall be paid into the county treasury and used for county
+purposes as provided by local law, subject to the state constitution,
+the local finance law, the county law and any other applicable provision
+of law.
+(h) Reports. The commissioner and the comptroller may provide Ulster
+county with periodic reports concerning surcharge collections, refunds,
+administrative costs and distributions, provided that no report shall
+disclose confidential taxpayer information except as authorized by law.
+§ 1374. Regulations, forms and guidance. (a) Commissioner authority.
+The commissioner may
+promulgate
+regulations
+and
+issue
+forms,
+instructions, notices, publications, withholding tables, electronic
+filing specifications and other guidance necessary to administer this
+article.
+(b) Uniform administration. In administering this article, the commissioner may conform procedures and forms to those used for article twenty-two of this chapter and other state-administered local income taxes,
+to the extent practicable.
+(c) Residence certificates. The commissioner may prescribe certificates of county residence and nonresidence for employees, withholding
+agents, fiduciaries and other persons as necessary to administer withholding and filing obligations under this article.
+(d) Transitional rules. The commissioner may prescribe transitional
+rules for the first taxable year in which a local law adopted pursuant
+to this article is effective, including rules for withholding, estimated
+tax, employer implementation, electronic filing, amended returns and
+penalty relief.
+§ 1375. Severability. If any clause, sentence, paragraph, subsection,
+section or part of this article, or the application thereof to any
+person, taxpayer, employer, fiduciary, entity or circumstance, shall be
+adjudged by any court of competent jurisdiction to be invalid, such
+judgment shall not affect, impair or invalidate the remainder of this
+article or its application to other persons or circumstances, but shall
+be confined in its operation to the clause, sentence, paragraph,
+subsection, section or part directly involved in the controversy in
+which such judgment shall have been rendered.
+
+§ 1376. Duration of authority. The authority granted by this article
+shall continue until repealed by act of the legislature. Any local law
+adopted pursuant to this article may include a sunset date or termination provision, and Ulster county may repeal or amend such local law
+in accordance with this article.
+§ 2. This act shall take effect immediately; provided, however, that
+no surcharge shall be imposed pursuant to article thirty-C of the tax
+law unless and until Ulster county has adopted a local law satisfying
+the requirements of such article.

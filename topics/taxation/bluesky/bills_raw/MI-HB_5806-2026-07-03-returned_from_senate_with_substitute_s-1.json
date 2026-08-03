@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 5806",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Corporate income tax: credits",
+      "Housing: housing development authority",
+      "Housing: other",
+      "Individual income tax: credit"
+    ],
+    "title": "Individual income tax: credit; housing opportunity tax credits; create. Amends 1967 PA 281 (MCL 206.1 - 206.847) by adding secs. 279, 679 & 821.   TIE BAR WITH: HB 5805'26,  HB 5807'26"
+  },
+  "id": "HB 5806",
+  "log": {
+    "action": {
+      "description": "returned from Senate with substitute (S-1) with immediate effect and title amendment",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-03",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-5806"
+        }
+      ]
+    },
+    "bill_id": "HB 5806"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB5806/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB5806/logs/20260703T000000Z_returned_from_senate_with_substitute_s1_with_immediate_effect_and_title_amendment.json"
+  },
+  "timestamp": "20260703T000000Z"
+}

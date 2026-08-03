@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 4171",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Energy",
+      "Housing and Housing Finance Agency",
+      "Landlords and Tenants"
+    ],
+    "title": "Vacating tenants submetered utility service final billing provision and payment of rent by tenants provisions modifications"
+  },
+  "id": "SF 4171",
+  "log": {
+    "action": {
+      "description": "Effective date 08/01/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-01",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4171?list=open&body=Senate"
+        }
+      ]
+    },
+    "bill_id": "SF 4171"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF4171/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF4171/logs/20260801T000000Z_effective_date_08012026.json"
+  },
+  "timestamp": "20260801T000000Z"
+}
