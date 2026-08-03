@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SR668",
+    "legislative_session": "104th",
+    "title": "EQUAL PAY DAY"
+  },
+  "id": "SR668",
+  "log": {
+    "action": {
+      "description": "Pursuant to Senate Rule 3-9(b) / Referred to Assignments",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-02",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=668&GAID=18&DocTypeID=SR&LegId=168080&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "SR668"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/SR668/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/SR668/logs/20260702T000000Z_pursuant_to_senate_rule_39b_referred_to_assignments.json"
+  },
+  "timestamp": "20260702T000000Z"
+}

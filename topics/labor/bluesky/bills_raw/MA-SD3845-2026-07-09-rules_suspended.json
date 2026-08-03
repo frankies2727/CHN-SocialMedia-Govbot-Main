@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Mr. Feeney, a petition (accompanied by bill) (subject to Joint Rule 12) of Paul R. Feeney for legislation to ensure fairness in retirement benefits for certain employees of the Department of Correction.  Public Service.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SD3845",
+    "legislative_session": "194th",
+    "title": "An Act to ensure fairness in retirement benefits for certain employees of the Department of Correction"
+  },
+  "id": "SD3845",
+  "log": {
+    "action": {
+      "description": "Rules suspended",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-09",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/SD3845"
+        }
+      ]
+    },
+    "bill_id": "SD3845"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/SD3845/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/SD3845/logs/20260709T000000Z_rules_suspended.json"
+  },
+  "timestamp": "20260709T000000Z"
+}
