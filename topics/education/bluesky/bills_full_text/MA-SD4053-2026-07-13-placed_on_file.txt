@@ -1,0 +1,335 @@
+Statutory Deliverable #7:
+
+Create Short-Term and Long-Term Workforce
+Development Plans and Improve Working Conditions
+Introduction
+In January 2025, the Massachusetts Health Policy Commission (HPC) published a special report on primary
+care workforce, access, and spending trends, A Dire Diagnosis: The Declining Health of Primary Care in
+Massachusetts and the Urgent Need for Action, which called attention to the numerous challenges affecting
+the well-being and sustainability of the Commonwealth’s primary care workforce and the impact on providers
+and patients. The report cites research demonstrating that primary care physicians experience lower pay
+compared to specialist physicians and high levels of administrative burden requiring a substantial amount of
+work outside of regular hours. 1,2,3 This dynamic discourages medical students from choosing to go into
+primary care and drives currently practicing primary care physicians to reduce their hours or leave practice
+altogether, negatively impacting the provider pipeline, increasing patient panel size, and reducing patient
+access to timely primary care. 4 Indeed, while Massachusetts has the third-largest number of primary care
+physicians per resident in the country, its overall physician workforce is heavily tilted toward specialist
+physicians, more so than all but four other states. 5 While nurse practitioners (NPs) and physician assistants
+(PAs) are playing a growing role as primary care providers, they are subject to the same payment and
+administrative burden challenges as physicians, and the same disincentives to enter or remain in the field. As
+employers, community health centers (CHCs) in particular face an exacerbated version of these challenges, as
+they are less able to offer competitive wages than hospitals or hospital-affiliated practices. Retention
+difficulties and burnout due to staffing shortages are common workforce challenges reported at CHCs.
+In addition to contributing to provider burnout, research demonstrates that high administrative burden may
+add to health care costs and worsen patient health outcomes. For example, one study estimates that prior
+authorization costs an individual primary care physician between $2,161 and $3,430 annually in terms of lost
+time. 6 Additionally, a 2025 American Medical Association (AMA) physician survey on prior authorization found
+that physicians and their staff spend an average of 13 hours on prior authorization requests a week, and 95%
+of respondents reported that for patients whose treatment requires prior authorization the process delays
+access to necessary care. 7 The average physician also spends 785 hours per year reporting on quality
+
+Sinsky CA, Dugdale DC. Medicare payment for cognitive vs procedural care: minding the gap. JAMA Internal Medicine.
+
+2013;173(18):1733-1737. https://pubmed.ncbi.nlm.nih.gov/23939411/ 1 MedPAC Report to the Congress: Medicare
+and the Health Care Delivery System | June 2018
+Congressional Budget Office. The prices that commercial health insurers and Medicare pay for hospitals’ and
+physician’s services. Jan, 2022.
+Allocation of Physician Time in Ambulatory Practice: A Time and Motion Study in 4 Specialties. Annals of Internal
+Medicine. 2016;165:753-760. doi:10.7326/M16-0961
+e.g., Hahn LM. Unsustainable: Why I Left Primary Care. Health Affairs. 2024; 43(10):1349-1480.
+https://www.healthaffairs.org/doi/epdf/10.1377/hlthaff.2024.00406.
+HPC analysis of Association of American Medical Colleges. State Physician Workforce Data Report, 2021
+Henry, T.A. (2025) Don’t fall for these myths on prior authorization. AMA Newswire. https://www.ama-assn.org/practicemanagement/prior-authorization/don-t-fall-these-myths-prior-authorization
+American Medical Association. (2026) 2025 AMA prior authorization physician survey. https://www.amaassn.org/system/files/prior-authorization-survey.pdf
+
+measures, costing the health care system more than $15 billion per year. 8 This burden is disproportionately
+shouldered by the primary care field. 9
+As the Commonwealth considers increasing investment and reforming payment for primary care, it must also
+prioritize complementary efforts to address these workforce challenges. In Statutory Deliverable #3, the
+Massachusetts Primary Care Access, Delivery, and Payment Task Force (PCTF) recommended the
+establishment of a primary care spending target. As part of this recommendation, the PCTF stressed the
+importance of reducing administrative expenses for primary care practices and transforming primary care
+delivery as essential complementary goals to a primary care spending improvement target. In Statutory
+Deliverable #4, the PCTF made a recommendation for advancing multi-payer, aligned primary care payment
+reform. In this recommendation, the PCTF identified several core goals for reforming primary care payment
+including strengthening primary care capacity and stability, supporting team-based care models, reducing
+administrative burden, and enhancing primary care practice sustainability and the ability of practices to
+operate independently.
+In this Statutory Deliverable #7, the PCTF makes additional specific recommendations to reduce sources of
+administrative burden, improve the working conditions for the primary care workforce, and strengthen the
+provider pipeline to grow and sustain access to primary care in the Commonwealth.
+
+Primary Care Task Force Deliberation: Statutory Deliverable #7
+To develop this recommendation, the PCTF co-chairs convened the PCTF Workforce Workgroup, a subgroup of
+task force members charged considering and developing specific recommendations for this workforce-focused
+deliverable. At the first meeting of the Workforce Workgroup on June 12, 2025, members shared their lived
+experiences providing primary care to Massachusetts residents and echoed many of the findings of the HPC’s
+report. In this initial discussion, workgroup members identified their key priorities for addressing primary
+care workforce challenges, specifically: 1) reducing sources of administrative burden and other working
+conditions driving clinician burnout, 2) supporting team-based care models and improving care coordination,
+and 3) strengthening the primary care pipeline. During this meeting, members discussed the concept known
+as “moral injury,” or the distress caused to providers when resource or time constraints prevent them from
+providing the care they know their patients need, underscoring the impact of systemic workforce challenges
+on both patients and providers. Following that meeting, the PCTF co-chairs developed a comprehensive list of
+discussion topics addressing these priorities and this list informed agenda planning for future workgroup
+meetings and, ultimately, the development of this recommendation.
+At the November 18, 2025 meeting, workgroup members focused on addressing prior authorization and
+quality measures as they relate to administrative burden. While members expressed support for prior
+authorization reform, they acknowledged that, when applied appropriately, it can be a helpful cost saving
+measure for health plans and a tool to reduce the provision of care that provides little or no patient value.
+Members urged caution against eliminating prior authorization entirely as well as consideration of potential
+unintended consequences for specific policies to limit prior authorization. Members then reviewed changes
+the Massachusetts Quality Measure Alignment Taskforce (QMAT) implemented as it transitions to the
+Statewide Quality Advisory Committee (SQAC) in compliance with Section 44 of Chapter 343 of the Acts of
+Casalino, L.P., Gans, D., Weber, M.C., Tuckovsky, A., Bishop, T.F., Miranda, Y., Frankel, B. A., Ziehler, K. B., Wong,
+
+M.M., Evenson, T.B. (2016) US physician practices spend more than $15.4 billion annually to report quality measures.
+Health Affairs. 35(3), 401-406. doi: 10.1377/hlthaff.2015.1258
+Dubard, A., Israel, J., Mostashari, F. (2023). Less is more: quality measurement in primary care. Health Affairs
+Forefront. DOI: 10.1377/forefront.20230614.546595
+
+2024, which updated the process for developing a standard set of quality measures for use in the
+Commonwealth. Members acknowledged the important work of the QMAT in developing a measure set
+focused on a small number of meaningful, patient-centered quality measures for primary care, but suggested
+that improvements can still be made to decrease the administrative burden caused by quality measure
+reporting.
+At the February 11, 2026 meeting, workgroup members discussed operational barriers to implementing teambased care models, care coordination, and behavioral health integration in primary care. Members
+described the problem of “scope creep,” in which team members are gradually assigned responsibilities
+unrelated to their original roles, and the increasing amount of time staff members dedicate to patient
+behavioral health and social needs. Members also noted that while PCPs can prescribe behavioral health
+medication, they are limited in their ability to address escalated or more complex behavioral health
+needs. Members noted that payment reform and multi-payer alignment is necessary to support primary care
+practices in building and supporting care teams and enabling meaningful care transformation, citing the
+MassHealth Sub-Capitation program 10 as a model that allows for practices to invest in staff and allocate time
+for administrative activities, while increasing patient panel size and capacity. Members stressed that
+adequate funding for primary care services will enable practices to offer appropriate compensation to staff
+and increase the workforce pipeline for roles that are critical for team-based care, such as peer support
+specialists, care navigators, and social workers.
+At the March 31, 2026 meeting, workgroup members discussed additional sources of primary care provider
+burnout. Members described growing administrative demands such as high call volumes, managing portal
+messages, renewing prescriptions, and providing referrals. Members agreed that high patient volume and the
+many administrative tasks to complete outside of providing direct patient care reduce the time available to
+patients and contribute substantially to provider burnout. Members identified the credentialing process as a
+significant barrier to patient access and provider retention, as the process is often long, duplicative across
+payers, is resource-intensive for practices, and delays appropriate payment for services provided. The
+workgroup also discussed the need for improved usability of electronic health record systems (EHRs) and the
+opportunity for using artificial intelligence (AI) to ease EHR-related burden.
+At the final meeting of the PCTF Workforce Workgroup on April 28, 2026 meeting, members reviewed and
+discussed strategies to address workforce pipeline and retention challenges. Members focused on the
+important role of family medicine residency programs at CHCs in providing community-based training and
+offering loan reimbursement to support workforce development. Concurrently, members noted that CHCs
+often face resource and funding constraints that impact their ability to offer competitive salaries compared to
+large health systems. Members expressed frustration that the two largest health systems in Massachusetts do
+not currently offer family residency programs. Additionally, members discussed the feasibility of renewing
+state funding for Medicaid Graduate Medical Education (GME) to support efforts towards increasing the
+provider pipeline.
+Members shared concerns that new borrowing limits for federal student loans for NP and PA programs could
+impact the workforce pipeline, and urged support for nurse practitioner residency programs, as well as
+onboarding and mentorship programs for advanced practice providers (APPs) to improve retention of these
+roles. Members also noted that many organizations have by-laws inconsistent with full practice authority for
+
+See https://www.mass.gov/masshealth-primary-care-sub-capitation-program
+
+NPs, and that PAs are required to have a supervising physician on file, creating additional barriers for APPs to
+exercise their full scope of practice.
+The comprehensive discussions and recommendations from the Workforce Workgroup informed the
+development of the PCTF recommendation for this final deliverable.
+
+Primary Care Task Force Recommendation: Statutory Deliverable #7
+To achieve the core goals stated above, the PCTF recommends the Massachusetts Legislature, state
+agencies, public and private payers, and health care delivery organizations take the following actions to
+bolster, increase, and improve working conditions for the primary care workforce.
+
+Increase Spending for Primary Care and Reform Primary Care Payment
+A core driver of many of these workforce challenges is that the current health care system generally
+undervalues and overburdens primary care. To address this foundational imbalance, the PCTF reiterates its
+baseline recommendation put forth in Statutory Deliverable #3 and Statutory Deliverable #4 for increased
+spending for primary care, the deployment of an aligned, multi-payer primary care payment model, and that
+the payment model should provide fair pricing for primary care across market segments in line with increased
+investment. Together, these policies will enable practices to build and sustain team-based care delivery
+approaches, reduce the administrative burden related to the complexity of payer payment requirements, and
+to adequately support the current workforce and increase the workforce pipeline for the future.
+
+Reduce Sources of Administrative Burden and Burnout for Primary Care Clinicians
+Reducing sources of administrative burden and burnout for primary care clinicians is critical for improving
+working conditions, increasing provider capacity, and driving down administrative costs. The PCTF makes the
+following recommendations to ease identified sources of administrative burden:
+•
+
+Payer Credentialing Process. PCTF members described the current process for credentialing
+providers to participate with commercial and public payers as long, complicated, and duplicative. The
+current process also limits capacity as providers who are waiting to complete the process are unable
+to see patients and receive payment. The Legislature should consider opportunities to create a more
+coordinated, streamlined provider onboarding process across state licensing agencies, commercial
+health plans, MassHealth, and provider organizations to make the process quicker and less resource
+intensive for providers.
+
+•
+
+Referral Practices. PCTF members identified managing a high number of referral requests as a
+source of administrative burden. In an optimal system, referrals provide important and timely
+specialist recommendations for patient care without undue burden for primary care clinicians or
+patients. But frequently, the referral process creates frustration, additional administrative work, and
+potential delays in receiving necessary care. Many of these requests are from specialist physicians
+seeking referrals from primary care providers on behalf of patients, even when a referral may not be
+necessary. Health plans should implement uniform, clear, transparent, and regularly updated
+guidelines to providers on referral requirements and appropriate use of referrals in order to reduce
+unnecessary referral requests. Primary care clinicians and specialists should work to develop policies
+which provide clear guidance about who is responsible for initiating referrals, conducting pre-referral
+consultations, tracking referrals, and providing follow-up information. Promoting these collaborative
+relationships can not only streamline the referral process but also support more efficient care
+coordination and appropriate access to timely care.
+
+•
+
+Prior Authorization. PCTF members discussed the ways in which prior authorization can increase
+administrative burden and delay patient care when not implemented appropriately. The PCTF supports
+reducing prior authorization for evidence-based primary care services, increasing transparency of prior
+authorization processes, and accelerating timeliness standards for prior authorization approval in line
+with recent Division of Insurance (DOI) regulatory changes, which went into effect on June 5, 2026.
+The ongoing work of implementation, monitoring, and enforcement of these regulatory changes is
+critical to ensure it achieves its intended goal.
+
+•
+
+Claims Submission Practices. The PCTF supports the updates to DOI’s regulation to improve claims
+submission practices, which will allow insurer-provider contracts to address the submission of
+inappropriate and duplicate claims. DOI should continue its efforts to direct insurers to address high
+administrative denial rates and expand outreach to providers, with the use of targeted data analysis,
+to better streamline claim submission processes.
+
+•
+
+Pay for Performance Quality Measures. PCTF members agreed that excessive quality measure
+reporting can add to administrative burden and that some requirements related to population
+health can potentially be misaligned with what individual patients truly need. The PCTF makes the
+following recommendations to make quality measure reporting requirements more meaningful and
+patient-centered and less burdensome:
+
+•
+
+o
+
+Prioritize quality measures for clinical outcomes that focus on improvement rather than on
+absolute numbers (e.g., decrease in blood pressure).
+
+o
+
+Include patient experience measures in quality reporting.
+
+o
+
+Ensure adequate expert clinician and health plan representation on technical advisory groups
+(TAGs) advising the SQAC.
+
+o
+
+Payers should align and standardize quality measure and reporting requirements as defined
+by the mandatory statewide quality measure set (SQMS) endorsed by the SQAC. The SQAC
+should define a clear pathway to moving all quality measures to Electronic Clinical Quality
+Measures 11 (eCQM) no later than January 1, 2030.
+
+Artificial Intelligence. As use of Artificial Intelligence (AI) expands in clinical settings, there are early
+indicators that it presents an opportunity for positive impact, such as reducing administrative burden,
+enhancing chronic disease management, communicating with patients, and improving care
+coordination. However, strategic action is necessary to provide guardrails to ensure that the use of AI
+delivers meaningful change in primary care that is positive and equitable, protects patient privacy, and
+guards against potential unintended consequences, such as enabling algorithmic bias or
+discriminatory practices. Specifically, the PCTF recommends that the Commonwealth establish a state
+advisory body to develop clear standards, best practices, evaluation, and oversight of the use of AI in
+health care in the Commonwealth, with a specific focus on the use AI in primary care settings.
+
+Support Team-Based Care Models and Improve Care Coordination
+The National Academies of Science, Engineering, and Medicine (NASEM) define high-quality primary care as
+“the provision of whole-person, integrated, accessible, and equitable care by interprofessional teams who are
+accountable for addressing the majority of an individual’s health and wellness needs across settings and
+
+The eCQI Resource Center defines eCQM as a measure specified in a standard electronic format that uses data
+
+electronically extracted from electronic health records (EHR) and/or health information technology (IT) systems to
+measure the quality of health care provided.
+
+through sustained relationships with patients, families, and communities.” 12 The delivery of such accessible,
+high-quality, and equitable primary care requires a well-trained and well-supported workforce. The PCTF
+recommends the following actions to support primary care practices to effectively implement team-based care
+models and behavioral health integration, support non-licensed professionals in the primary care workforce,
+and measure use of the direct primary care model.
+•
+
+Support Team-Based Care and Other Innovative Models and Behavioral Health Integration in
+Primary Care. Payers should shift away from fee-for-service payment models to prospective, capitated
+Per Member Per Month (PMPM) payment models for primary care to provide the financial stability to
+adult, pediatric, and family primary care practices necessary to implement care delivery
+transformation, behavioral health integration, and leverage team-based care and other innovative
+models. (See Statutory Deliverable #4).
+
+•
+
+Support the Integration of Non-Licensed Professionals into Primary Care. The Commonwealth
+should support training and workforce development opportunities and promote appropriate financial
+compensation for the non-licensed professional workforce, including community health workers,
+patient navigators, peer specialists, and other non-licensed professionals. Primary care payment
+models should encourage practices to integrate these professionals into care teams to address social
+determinants of health, support clinicians, and improve care coordination and patient navigation.
+
+Strengthen the Primary Care Provider Pipeline and Workforce Retention
+The PCTF recommends the following actions to increase the primary care provider pipeline. Reducing barriers
+to practice, including those for advanced practice providers, is of particular importance for underserved areas
+and populations.
+•
+
+Medicaid Graduate Medical Education Funding for Primary Care. The Legislature should consider a
+new appropriation to resume Medicaid funding for graduate medical education (GME) with a specific
+focus on training for primary care clinicians in community-based settings, including community health
+centers.
+
+•
+
+Expand Family Medicine Residency Programs and Support for Nursing Preceptorships. The
+Commonwealth should work with large health systems, academic medical centers, and communitybased settings to expand the number of family medicine residencies. The Commonwealth should
+implement investments and initiatives that support graduate-level nursing education in the wake of
+recent federal policy changes to student loans.
+
+•
+
+Increase Workforce Diversity. The Commonwealth should invest in state supported employeracademic partnerships and primary care career ladder programs that off-set the cost of tuition for
+undergraduate students or entry level primary care staff from low-income and/or historically
+underserved communities to earn their associate’s, bachelor’s, master’s, or doctoral degree and
+pursue licensure/certification, while maintaining employment. The Commonwealth should also
+consider providing greater support for and expanding existing workforce training pilot programs.
+
+•
+
+Improve Integration of APPs in Primary Care. Ensure that all provider organizations enable the fullest
+use of NPs working in primary care, and that payers and provider organizations are aligned on
+
+National Academies of Sciences, Engineering, and Medicine; Health and Medicine Division; Board on Health Care
+
+Services; Committee on Implementing High-Quality Primary Care, Robinson, S. K., Meisnere, M., Phillips, R. L., Jr., &
+McCauley, L. (Eds.). (2021). Implementing high-quality primary care: Rebuilding the foundation of health care. National
+Academies Press (US). https://doi.org/10.17226/25983
+
+requirements to facilitate full independent practice and reimbursement for APRNs. Massachusetts
+should create pathways to ensure PAs can continue delivering services in their primary care setting
+within their full scope of practice, even if their supervising physician has decided to leave the primary
+care setting, such as by decoupling maintenance of PA licensure from a supervising physician.
+•
+
+Invest in Rural Health Training. Investment in training focused on strengthening and increasing a
+sustainable workforce in the Commonwealth’s rural communities is critical for improving health care
+access and patient outcomes in underserved areas. The state should continue to prioritize the use of
+federal funding from the Rural Health Transformation Fund to support the primary workforce practicing
+in rural communities.
+
+Invest in and Evaluate Effectiveness of Primary Care Workforce Initiatives
+The PCTF acknowledges that, while the Commonwealth is facing a health care affordability crisis, these
+recommended initiatives may require increased investment. In 2022, Massachusetts voters passed the Fair
+Share Amendment, which created a 4% surtax on annual income above $1 million. Since then, Fair Share has
+brought in billions of dollars in state revenue every year to be used for investments in public transportation
+and public education. The PCTF recommends the Legislature consider designating a portion of Fair Share
+dollars for public educational initiatives designed to expand the pipeline for the health care workforce,
+especially for roles whose shortages contribute to more expensive health care, including primary care, nurses,
+and the workforce for community-based and behavioral health care.
+Finally, to assess the impact of these recommendations over time, the PCTF reiterates the importance of
+monitoring and tracking the primary care needs of and service delivery to its residents so that providers,
+payers, and policymakers can direct their investments effectively (See Statutory Deliverable #6).

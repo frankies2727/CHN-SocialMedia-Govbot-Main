@@ -1,0 +1,74 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 146",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending the act of April 9, 1929 (P.L.343, No.176), known as The Fiscal Code, in emergency COVID-19 response, providing for extension of use of certain funds; in Child Care Staff Recruitment and Retention Program, further providing for Child Care Staff Recruitment and Retention Program; in cigarette sales and licensing, further providing for definitions and providing for allowable mode of operations for licensed cigarette stamping agents; in joint underwriting association, further providing for fund transfers; providing for food processing residuals; in financially distressed municipalities, further providing for financial recovery; in oil and gas wells, further providing for Oil and Gas Lease Fund and providing for deep wells and Utica Shale permits and for well plugging; providing for manufacturing and investment tax credit, for Innovate in PA 2.0 Tax Credit and for design build best value; in human services, further providing for medical assistance payments for institutional care, for resident care and related costs and for LIFE Program and providing for transition to chip-enabled access cards, for Medical Assistance Reentry Program, for Children's Trust Fund and for medical assistance pharmacy services; in additional keystone opportunity expansion zones, providing for additional zone for shipbuilding and for additional zones; providing for residential revitalization keystone opportunity zones and for violent incident clearance and technological investigative methods; in special funds, further providing for funding and for Pennsylvania Convention Center; in additional special funds and restricted accounts, providing for Veterans' Trust Fund Board and further providing for establishment of special fund and account, for use of fund and for distributions from Pennsylvania Race Horse Development Fund; in additional special funds and restricted accounts, further providing for deposits and providing for Professional Licensure Augmentation Account; in general budget implementation, further providing for Executive Offices, for Department of Agriculture, for Department of Corrections, for Department of Labor and Industry and for Department of Transportation, providing for Pennsylvania Emergency Management Agency and further providing for Commonwealth Financing Authority, for Federal and Commonwealth use of forest land, for Multimodal Transportation Fund, for School Safety and Security Fund, for State Gaming Fund, for State Employees' Retirement System Restricted Account and for Public School Employees' Retirement System Restricted Account; in retirement, providing for 2026 special ad hoc municipal police and firefighter postretirement adjustment, for supplemental annuities for public school employees commencing 2026, for supplemental annuities for State employees commencing 2026 and for payment of supplemental annuity and special ad hoc postretirement adjustment; in electricity load forecast accountability, providing for energy and water reporting and for advanced transmission technologies; in 2025-2026 budget implementation, further providing for Department of Agriculture, for Department of Human Services and for Pennsylvania Higher Education Assistance Agency; providing for 2026-2027 budget implementation and for 2026-2027 restrictions on appropriations for funds and accounts; in fiscal supplements to statutory programs, providing for amusement tax clarification, for situs for local sales tax for cities of the first class, for situs for local sales tax for counties of the second class, for net income and for housing; abrogating a regulation; making repeals; providing for suspension of pension actuarial notes; and making editorial changes."
+  },
+  "id": "SB 146",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Re-reported on concurrence, as committed",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-12T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/sb146"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=502"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1323"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=17&rollcallid=998&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=62&rollcallid=2731&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=62&rollcallid=2732&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1222"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=722"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=697"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=42&rollcallid=1505&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=42&rollcallid=1504&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=35"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=3&rollcallid=53&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=21&rollcallid=17&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=21&rollcallid=18&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "SB 146"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB146/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB146/logs/20260712T040000Z_rereported_on_concurrence_as_committed.json"
+  },
+  "timestamp": "20260712T040000Z"
+}
