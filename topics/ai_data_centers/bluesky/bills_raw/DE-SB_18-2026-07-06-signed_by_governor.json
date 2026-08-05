@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act repeals the existing Chapter 23 of Title 5 and replaces it with the “Delaware Money Transmission and Virtual Currency Modernization Act.” This Act modernizes the State’s regulatory framework for money transmission and addresses the emergence of virtual currency. The Act allows the State Bank Commissioner to coordinate with other states in the licensing and supervision of money transmitters, utilizing the NMLS system. The Act establishes new safety and soundness standards, including a tiered net worth requirement based on total assets and updates surety bond requirements scaled to a licensee’s average daily money transmission liability.\r\n\r\nThe Act standardizes receipt requirements for both fiat and virtual currency transactions, provides a 10-day refund window for certain transmissions, and establishes specific disclosure rules for payroll processing services. This Act provides a 6-month window for general compliance and a 1-year period for licensees to meet new net worth and permissible investment standards. \r\n\r\nThis Act creates new regulatory framework for virtual currency business activity. It defines virtual currency and virtual currency business activity. It mandates specific consumer disclosures regarding the risks of virtual currency and establishes that virtual currency held by a licensee is a pro rata property interest not subject to the claims of the licensee’s creditors.  \r\n\r\nThe Act allows the Commissioner to adopt rules and regulations for the administration of this chapter. The Act is to be implemented the earlier of 1 year from the date of the Act’s enactment or notice from the State Banking Commissioner that final regulations have been promulgated.\r\n\r\nThis Act requires a greater than majority vote for passage because § 1 of Article IX of the Delaware Constitution requires the affirmative vote of two-thirds of the members elected to each house of the General Assembly to amend the general corporation law.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 18",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 5 OF THE DELAWARE CODE RELATING TO MONEY TRANSMISSION."
+  },
+  "id": "SB 18",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-07-06",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143117"
+        }
+      ]
+    },
+    "bill_id": "SB 18"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB18/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB18/logs/20260706T000000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260706T000000Z"
+}
