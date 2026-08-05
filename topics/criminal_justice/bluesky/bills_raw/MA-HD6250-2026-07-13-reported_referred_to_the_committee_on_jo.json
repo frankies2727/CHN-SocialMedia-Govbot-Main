@@ -1,0 +1,42 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HD6250",
+    "legislative_session": "194th",
+    "title": "An Act to designate regional lockup part of jail in Dukes County"
+  },
+  "id": "HD6250",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Reported, referred to the committee on Joint Rules, reported, rules suspended and referred to the committee on Public Safety and Homeland Security",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-13",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "the committee on Joint Rules, reported, rules suspended and referred to the committee on Public Safety and Homeland Security"
+        },
+        {
+          "entity_type": "organization",
+          "name": "committee on Joint Rules, reported, rules suspended and referred to the committee on Public Safety and Homeland Security"
+        }
+      ],
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/HD6250"
+        }
+      ]
+    },
+    "bill_id": "HD6250"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/HD6250/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/HD6250/logs/20260713T000000Z_reported_referred_to_the_committee_on_joint_rules_reported_rules_suspended_and_referred_to_the_commi.json"
+  },
+  "timestamp": "20260713T000000Z"
+}
