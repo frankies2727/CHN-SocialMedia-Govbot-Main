@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the Administrative Procedure Act, sets forth the requirements for the adoption, publication, review, and implementation of regulations by state agencies. \n\nThe Safe Drinking Water, Wildfire Prevention, Drought Preparedness, and Clean Air Bond Act of 2024 (act) , approved by the voters as Proposition 4 at the November 5, 2024, statewide general election, authorized the issuance of bonds in the amount of $10,000,000,000 pursuant to the State General Obligation Bond Law to finance projects for safe drinking water, drought, flood, and water resilience, wildfire and forest resilience, coastal resilience, extreme heat mitigation, biodiversity and nature-based climate solutions, climate-smart, sustainable, and resilient farms, ranches, and working lands, park creation and outdoor access, and clean air programs.\n\nExisting law authorizes certain regulations needed to effectuate or implement programs of the act to be adopted as emergency regulations in accordance with the Administrative Procedure Act, as provided. Existing law requires the emergency regulations to be filed with the Office of Administrative Law and requires the emergency regulations to remain in effect until repealed or amended by the adopting state agency.\n\nThis bill, notwithstanding the above, would exempt the adoption of regulations for purposes of developing and adopting program guidelines and selection criteria needed to effectuate or implement programs of the act from the requirements of the Administrative Procedure Act, as provided. The bill would require a state entity that receives funding to administer a competitive grant program established using the Administrative Procedure Act exemption to do certain things, including, among other things, to develop draft project solicitation and evaluation guidelines, to transmit copies of the draft guidelines to the fiscal committees and to the appropriate policy committees of the Legislature, to hold a noticed public meeting on the draft guidelines, and to submit the final guidelines to the Secretary of the Natural Resources Agency, except as provided. The bill would require the Secretary of the Natural Resources Agency to post an electronic form of the guidelines submitted by a state entity and the subsequent verifications on the Natural Resources Agency's internet website. The bill would authorize the use of certain previously developed program guidelines and selection criteria for these purposes, as provided.\n\nThis bill would declare that it is to take effect immediately as an urgency statute.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB35",
+    "legislative_session": "20252026",
+    "subject": [
+      "AdministrativeProcedureAct",
+      "SafeDrinkingWater,WildfirePrevention,DroughtPreparedness,andCleanAirBondActof2024",
+      "exemption",
+      "programguidelinesandselectioncriteria"
+    ],
+    "title": "Safe Drinking Water, Wildfire Prevention, Drought Preparedness, and Clean Air Bond Act of 2024: Administrative Procedure Act: exemption: program guidelines and selection criteria."
+  },
+  "id": "AB35",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-07-16",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB35"
+        }
+      ]
+    },
+    "bill_id": "AB35"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB35/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB35/logs/20260716T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260716T000000Z"
+}

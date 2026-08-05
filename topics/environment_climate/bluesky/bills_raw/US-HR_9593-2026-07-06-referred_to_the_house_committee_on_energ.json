@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 9593",
+    "legislative_session": "119",
+    "title": "Keep Food Containers Safe from PFAS Act of 2026"
+  },
+  "id": "HR 9593",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Energy and Commerce.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-06T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9593.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/9593"
+        }
+      ]
+    },
+    "bill_id": "HR 9593"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9593/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9593/logs/20260706T040000Z_referred_to_the_house_committee_on_energy_and_commerce.json"
+  },
+  "timestamp": "20260706T040000Z"
+}
