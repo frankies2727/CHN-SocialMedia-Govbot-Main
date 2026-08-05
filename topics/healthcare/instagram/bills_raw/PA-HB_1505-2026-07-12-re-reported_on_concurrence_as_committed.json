@@ -1,0 +1,65 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1505",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending the act of March 10, 1949 (P.L.30, No.14), known as the Public School Code of 1949, in preliminary provisions, providing for standardized testing study; in grounds and buildings, repealing provisions relating to lead testing and providing for lead testing; providing for school facilities; in certification of teachers, further providing for special education certificate grade spans and age levels and duties of department, for program of continuing professional and paraprofessional education, for continuing professional education for school or system leaders and for Pennsylvania school leadership standards, repealing provisions relating to permit for classroom monitors and providing for permit for classroom monitors; in pupils and attendance, further providing for attendance policy at charter, regional charter and cyber charter schools, providing for school district enrollee wellness checks and further providing for procedure when child is truant and for procedure upon filing of citation; in student supports, further providing for policy relating to bullying; in school safety and security, further providing for definitions, for School Safety and Security Grant Program, for school safety and security coordinator and for school safety and security training, providing for school safety and mental health grants for 2026-2027 school year, further providing for school safety and security coordinator training and for reporting and memorandum of understanding and providing for school mapping services; in school health services, further providing for health services and for reports and providing for eating disorder awareness and education; in terms and courses of study, providing for use of funds for implementing later school start times, further providing for flexible instructional days and for physical education, providing for recess periods, further providing for economic education and personal financial literacy programs and providing for social media literacy education; in early learning programs, further providing for definitions and for duties of approved providers; in high schools, further providing for attendance in other districts; in charter schools, further providing for enrollment, for cyber charter school requirements and prohibitions, for enrollment and notification and for enrollee wellness checks; in disability inclusive curriculum, further providing for pilot program; in career and technical education, providing for temporary waiver; in community colleges, further providing for financial program and reimbursement of payments; in Thaddeus Stevens College of Technology, further providing for individuals eligible for admission; in the State System of Higher Education, further providing for definitions and for Grow Pennsylvania Tuition Waiver Program; in institutions of higher education, further providing for definitions and for agency duties, providing for institution duties and further providing for report; in Ready-to-Succeed Scholarship, further providing for agency; in funding for public libraries, providing for State aid for fiscal year 2026-2027; in reimbursements by Commonwealth and between school districts, further providing for student-weighted basic education funding beginning with 2023-2024 school year and for extraordinary special education program expenses, providing for temporary assistance program and further providing for assistance to school districts declared to be in financial recovery status or identified for financial watch status and for Ready-to-Learn Block Grant; and, in construction and renovation of buildings by school entities, further providing for applicability."
+  },
+  "id": "HB 1505",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Re-reported on concurrence, as committed",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-12T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hb1505"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=67&rollcallid=2746&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1338"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=483"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=3&rollcallid=985&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=3&rollcallid=986&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=23&rollcallid=926&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=561"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=62&rollcallid=1029&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=67&rollcallid=997&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=48&rollcallid=793&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "HB 1505"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB1505/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB1505/logs/20260712T040000Z_rereported_on_concurrence_as_committed.json"
+  },
+  "timestamp": "20260712T040000Z",
+  "posted_text": "🧠 PA HB 1505 — PA Changes How Schools Track Standardized Test Scores\n\nPennsylvania is updating how schools report on standardized test results. The new rules clarify which entities – like Head Start and private schools – can be included in the data tracked, and establish a timeline for reporting changes…\n\nJuly 12, 2026: Re-reported on concurrence, as committed.\n\n🔗 Read the full bill: https://www.palegis.us/legislation/bills/2025/hb1505\n\n#Healthcare #Pennsylvania #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.palegis.us/legislation/bills/2025/hb1505",
+  "posted_url": "https://www.instagram.com/p/Dbq15a0oP8J/"
+}

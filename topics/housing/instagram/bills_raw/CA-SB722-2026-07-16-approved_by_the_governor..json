@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law requires that a housing development project, as defined, within a specified distance of a transit-oriented development stop, as defined, be an allowed use as a transit-oriented housing development on any site zoned for residential, mixed, or commercial development, if the development complies with certain, applicable requirements, as provided. Among these requirements, existing law prohibits a proposed development under these provisions from being located on sites where the development would require demolition of housing, or that was previously used for housing, that is subject to rent or price controls, as provided.\n\nThis bill would additionally prohibit the development from being located on an existing parcel of land or site governed under the Mobilehome Residency Law, the Recreational Vehicle Park Occupancy Law, the Mobilehome Parks Act, or the Special Occupancy Parks Act.\n\nThis bill would declare that it is to take effect immediately as an urgency statute.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB722",
+    "legislative_session": "20252026",
+    "subject": [
+      "Transit-orientedhousingdevelopment",
+      "excludedparcelsandsites"
+    ],
+    "title": "Transit-oriented housing development: excluded parcels and sites."
+  },
+  "id": "SB722",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-07-16",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB722"
+        }
+      ]
+    },
+    "bill_id": "SB722"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB722/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB722/logs/20260716T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260716T000000Z",
+  "posted_text": "🔑 CA SB722 — New Housing Rules: Mobile Home Parks Now Off-Limits\n\nCalifornia is now blocking transit-oriented housing projects from being built on mobile home parks, recreational vehicle parks, or special occupancy parks – impacting residents of these communities who rely on these types of housing.\n\nJuly 16, 2026: Approved by the Governor.\n\n🔗 Read the full bill: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB722\n\n#Housing #California #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB722",
+  "posted_url": "https://www.instagram.com/p/Dbq2-_YoC4h/"
+}

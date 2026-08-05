@@ -17,6 +17,8 @@
     "CA|AB1930|2026-07-02",
     "CA|AB1930|2026-07-02|Read second time and amended. Re-referre",
     "CA|AB1988|2026-06-26|In committee: Set, final hearing. Hearin",
+    "CA|AB2559|2026-07-16",
+    "CA|AB2559|2026-07-16|Approved by the Governor.",
     "CA|ACA22|2026-06-25|",
     "CA|ACA22|2026-06-25|(Ayes 36. Noes 0.)",
     "CA|ACA22|2026-06-25|Adopted and to Assembly. (Ayes 35. Noes ",
@@ -40,9 +42,13 @@
     "CA|SB135|2026-06-29|In Senate. Concurrence in Assembly amend",
     "CA|SB135|2026-06-29|Unanimous consent granted to take up wit",
     "CA|SB135|2026-06-29|Withdrawn from committee pursuant to Ass",
+    "CA|SB135|2026-07-13",
+    "CA|SB135|2026-07-13|Approved by the Governor.",
     "CA|SB171|2026-06-30|Enrolled and presented to the Governor a",
     "CA|SB574|2026-07-06",
     "CA|SB574|2026-07-06|From committee: Do pass and re-refer to ",
+    "CA|SB722|2026-07-16",
+    "CA|SB722|2026-07-16|Approved by the Governor.",
     "CA|SB884|2026-07-02",
     "CA|SB884|2026-07-02|Read second time and amended. Re-referre",
     "DE|HB 344|2026-06-30|Reported Out of Committee (Finance) in S",
@@ -215,6 +221,14 @@
     "NY|A7215|2026-07-01|PRINT NUMBER 7215B",
     "NY|S7445|2026-07-10",
     "NY|S7445|2026-07-10|PRINT NUMBER 7445A",
+    "PA|HB 1505|2026-07-12",
+    "PA|HB 1505|2026-07-12|",
+    "PA|HB 1505|2026-07-12|Act No. 20 of 2026",
+    "PA|HB 1505|2026-07-12|Approved by the Governor",
+    "PA|HB 1505|2026-07-12|House concurred in Senate amendments",
+    "PA|HB 1505|2026-07-12|Re-reported on concurrence, as committed",
+    "PA|HB 1505|2026-07-12|Signed in House",
+    "PA|HB 1505|2026-07-12|Signed in Senate",
     "PA|HB 2413|2026-07-12",
     "PA|HB 2413|2026-07-12|",
     "PA|HB 2413|2026-07-12|Act No. 12A of 2026",
@@ -295,7 +309,8 @@
     "30292542060-1": 4,
     "30477259728-1": 4,
     "30676812758-1": 4,
-    "30840958354-1": 4
+    "30840958354-1": 4,
+    "31033322040-1": 4
   },
-  "last_run": "2026-08-03T19:15:56.704047+00:00"
+  "last_run": "2026-08-05T19:17:54.945519+00:00"
 }
