@@ -64,7 +64,16 @@ jobs:
         uses: ./.github/actions/govbot-bills
         with:
           shared-cache: "false"
-          log-limit: "8200"
+          # Full-action feed — same as the daily posters. Dump EVERY action, not
+          # just govbot's noteworthy ones, so a bill active only procedurally in
+          # the lookback window still reaches the digest. since-days (45) sits
+          # above the widest fallback window (30d) and, paired with --limit none,
+          # keeps the larger feed bounded and free of arbitrary per-state
+          # truncation (an 8200 per-state cap would truncate it hardest). The
+          # digest's own topic match + 7/14/30d windows still rank highlights.
+          log-filter: "none"
+          log-limit: "none"
+          since-days: "45"
 
       - name: Cache Ollama model
         uses: actions/cache@v4
