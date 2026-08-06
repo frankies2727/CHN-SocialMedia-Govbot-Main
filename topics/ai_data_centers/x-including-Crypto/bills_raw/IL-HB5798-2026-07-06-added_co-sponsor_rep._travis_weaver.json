@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB5798",
+    "legislative_session": "104th",
+    "title": "DIGITAL ASSET TAX ACT-REPEAL"
+  },
+  "id": "HB5798",
+  "log": {
+    "action": {
+      "description": "Added Co-Sponsor Rep. Travis Weaver",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-06",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=5798&GAID=18&DocTypeID=HB&LegId=168767&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "HB5798"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/HB5798/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/HB5798/logs/20260706T000000Z_added_cosponsor_rep_travis_weaver.json"
+  },
+  "timestamp": "20260706T000000Z",
+  "posted_text": "🤖 IL HB5798 — Illinois Ends the Digital Asset Tax\n\nIllinois has officially scrapped the Digital Asset Tax Act, removing a tax specifically targeting cryptocurrency and other digital assets. The change takes effect immediately.\n\nJuly 6, 2026: Added Co-Sponsor Rep. Travis Weaver.\n\nLink to bill in reply.",
+  "posted_link": "https://ilga.gov/Legislation/BillStatus?DocNum=5798&GAID=18&DocTypeID=HB&LegId=168767&SessionID=114",
+  "posted_url": "https://x.com/i/web/status/2085490483048956153"
+}

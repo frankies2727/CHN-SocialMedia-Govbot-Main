@@ -1,0 +1,627 @@
+THE GENERAL ASSEMBLY OF PENNSYLVANIA
+
+HOUSE BILL
+No. 2359
+
+MULLINS, FREEMAN, PROBST, SHUSTERMAN, HADDOCK, GUENST,
+CEPEDA-FREYTIZ, DONAHUE, BELLMON, STEELE, WAXMAN, MALAGARI,
+RIVERA, McNEILL, INGLIS, POWELL, DEASY, KHAN, MARKOSEK,
+D. WILLIAMS, HARKINS, CONKLIN, KRAJEWSKI, SAMUELSON, OTTEN,
+PIELLI, FRIEL, WALSH, HOWARD, WEBSTER, MAYES, KINKEAD,
+GILLEN, BOROWSKI, SMITH-WADE-EL, HANBIDGE, BRIGGS, B. MILLER,
+COOPER, EMRICK, KRUPA, TAKAC, SCOTT AND GREEN, APRIL 6, 2026
+AS AMENDED ON SECOND CONSIDERATION, HOUSE OF REPRESENTATIVES,
+JUNE 29, 2026
+AN ACT
+
+Amending the act of March 4, 1971 (P.L.6, No.2), entitled "An
+act relating to tax reform and State taxation by codifying
+and enumerating certain subjects of taxation and imposing
+taxes thereon; providing procedures for the payment,
+collection, administration and enforcement thereof; providing
+for tax credits in certain cases; conferring powers and
+imposing duties upon the Department of Revenue, certain
+employers, fiduciaries, individuals, persons, corporations
+and other entities; prescribing crimes, offenses and
+penalties," in computer data center equipment incentive
+program, further providing for definitions, for application
+for certification, for eligibility requirements relating to
+sales and use tax refund program, for notification, for
+eligibility requirements relating to sales and use tax
+exemption program and for notification and records.
+
+The General Assembly of the Commonwealth of Pennsylvania
+
+hereby enacts as follows:
+Section 1.
+
+Section 2901-D of the act of March 4, 1971
+
+(P.L.6, No.2), known as the Tax Reform Code of 1971, is amended
+
+by adding a definition to read:
+
+Section 2901-D.
+
+Definitions.
+
+The following words and phrases when used in this article
+
+shall have the meanings given to them in this section unless the
+
+context clearly indicates otherwise:
+
+"Agency."
+
+As defined in section 102 of the act of February
+
+14, 2008 (P.L.6, No.3), known as the Right-to-Know Law.
+
+* * *
+
+Section 2.
+
+Section 2912-D(3) and (4) of the act are amended
+
+and the section is amended by adding a paragraph to read:
+
+Section 2912-D.
+
+Application for certification.
+
+To be considered for a certification, an owner or operator of
+
+a computer data center shall submit to the department an
+
+application on a form prescribed by the department that includes
+
+the following:
+
+* * *
+
+(3)
+
+If the computer data center is to qualify under
+
+section [2915-D(1)] 2915-D(a)(1), the following information:
+
+(i)
+
+The anticipated investment associated with the
+
+computer data center for which the certification is being
+
+sought.
+
+(ii)
+
+An affirmation, signed by an authorized
+
+executive representing the owner or operator, that the
+
+computer data center is expected to satisfy the
+
+certification requirements prescribed in section [2915-
+
+D(1)] 2915-D(a)(1).
+
+(4)
+
+If the computer data center is to qualify under
+
+section [2915-D(2)] 2915-D(a)(2), an affirmation, signed by
+
+an authorized executive representing the owner or operator,
+
+that the computer data center has satisfied, or will satisfy,
+
+the certification requirements prescribed in section [2915-
+
+D(2)] 2915-D(a)(2).
+
+(4.1)
+
+If the computer data center is to qualify under
+
+section 2915-D(b) and (c), an affirmation, signed by an
+
+authorized executive representing the owner or operator, that
+
+the owner or operator of the computer data center has
+
+satisfied, or will satisfy, the certification requirements
+
+prescribed under section 2915-D(b) and (c). Except as
+
+provided under section 2915-D(d), in order to retain a
+
+certificate under this subarticle, the owner or operator of
+
+the computer data center shall annually submit the required
+
+footprint report under section 2915-D(b) to the department
+
+that reflects any updates to the operations of the facility.
+
+* * *
+
+Section 3.
+
+Sections 2915-D introductory paragraph and 2916-
+
+D(a) heading of the act are amended and the sections are amended
+
+by adding subsections to read:
+
+Section 2915-D.
+
+(a)
+
+Eligibility requirements.
+
+Requirements.--A computer data center must meet one of
+
+the following requirements, after taking into account the
+
+combined investments made and annual compensation paid by the
+
+owner or operator of the computer data center or the qualified
+
+tenant:
+
+* * *
+(b)
+
+Community protections.--On or before the first
+
+anniversary of certification, the owner or operator of a
+
+computer data center must complete a community protection plan
+
+that identifies the following information:
+
+(1)
+
+The name, address and telephone number of the entity
+
+or entities that occupy the commercial data center during its
+
+operations.
+
+(2)
+
+Documentation that the owner or operator or
+
+authorized representative has performed all of the following
+
+prior to the construction of the commercial data center:
+
+(i)
+
+Provided notification to the municipality or
+
+municipalities in which the facility is proposed to be
+
+located.
+
+(ii)
+
+Held at least one public meeting to receive
+
+input from community members of the municipality or
+
+municipalities in which the facility is proposed to be
+
+located, including all measures undertaken to ensure that
+
+the public meetings were convenient and accessible to the
+
+public.
+
+(iii)
+
+Consulted with each chief elected official of
+
+the municipality or municipalities or the official's
+
+designee to discuss the proposed facility and elements of
+
+the project design that may impact the community.
+
+(3)
+
+following:
+
+(i)
+
+square feet.
+
+(ii)
+
+A project footprint report, which shall include the
+
+The total size of the facility measured in
+
+Any plans or measures undertaken to generate
+
+electricity on-site or off-site to reduce impacts on the
+
+electric grid.
+
+(iii)
+
+Estimated average energy consumption per hour
+
+during the computer data center's peak demand, including
+
+the source or sources of electric supply.
+
+(iv)
+
+Estimated daily, monthly and annual maximum
+
+water consumption, including the discharge rates and
+
+volumes, water source and purpose of consumption.
+
+(v)
+
+Anticipated average annual power usage
+
+effectiveness, calculated by dividing the total amount of
+
+electricity consumed from the computer data center by the
+
+electricity used to operate the computer data center
+
+equipment.
+
+(vi)
+
+Anticipated average annual water usage
+
+effectiveness, calculated by dividing the total amount of
+
+water consumed from the computer data center by the
+
+kilowatt hours of electricity used to operate the
+
+computer data center equipment.
+
+(c)
+
+Nondisclosure agreements.--On or before the first
+
+anniversary of certification, the owner or operator of a
+
+computer data center must certify that an agreement has not been
+
+entered into, or will not be entered into, with an agency, or
+
+any entity acting on behalf of an agency, that relates to the
+
+construction, development or location of the facility and
+
+requires confidentiality, nondisclosure or otherwise restricts
+
+the agency from disclosing information to members of the public.
+
+(d)
+
+Applicability.-(1)
+
+The requirements under subsections (b) and (c) shall
+
+not apply to a computer data center with a peak electric
+
+demand of less than 10 megawatts.
+
+(2)
+
+Subsection (b)(2) shall not apply to a commercial
+
+data center that has commenced construction prior to the
+
+effective date of this subsection.
+
+(3)
+
+Subsection (c) shall not apply to an owner or
+
+operator or qualified tenant holding a certification under
+
+this subarticle prior to the effective date of this
+
+subsection.
+
+Section 2916-D.
+
+(a)
+
+Notification.
+
+[Requirements] Investment and compensation requirements
+
+satisfied.--On or before the fourth anniversary of the
+
+certification of a computer data center, the owner or operator
+
+of a computer data center shall notify the department in writing
+
+whether the computer data center for which the certification is
+
+requested has satisfied the requirements prescribed in section
+
+2915-D.
+
+(a.1)
+
+Other requirements satisfied.--On or before the first
+
+anniversary of certification of a computer data center, the
+
+owner or operator of a computer data center shall notify the
+
+department in writing whether the computer data center for which
+
+the certification is requested has satisfied the requirements
+
+under section 2915-D(b) and (c).
+
+* * *
+
+Section 4.
+
+Section 2935-D(a) of the act is amended by adding
+
+paragraphs and the section is amended by adding a subsection to
+
+read:
+
+Section 2935-D.
+
+(a)
+
+Eligibility requirements.
+
+General rule.--In order to be certified under this
+
+subarticle, an owner or operator of a computer data center must
+
+meet all of the following requirements:
+
+* * *
+
+(3)
+
+On or before the first anniversary of certification,
+
+the owner or operator of the computer data center must
+
+complete a community protection plan that identifies the
+
+following information:
+
+(i)
+
+The name of the entity or entities that occupy
+
+the commercial data center during its operations.
+(ii)
+
+Documentation that the owner or operator or
+
+authorized representative has performed all of the
+
+following prior to the construction of the commercial
+
+data center:
+
+(A)
+
+Provided notification to the municipality or
+
+municipalities in which the facility is proposed to
+
+be located.
+
+(B)
+
+Held at least one public meeting to receive
+
+input from community members of the municipality or
+
+municipalities in which the facility is proposed to
+
+be located, including all measures undertaken to
+
+ensure that the public meetings were convenient and
+
+accessible to the public.
+
+(C)
+
+Consulted with each chief elected official
+
+of the municipality or municipalities or the
+
+official's designee to discuss the proposed facility
+
+and elements of the project design that may impact
+
+the community.
+
+(iii)
+
+A project footprint report, which shall
+
+include the following:
+
+(A)
+
+The total size of the facility measured in
+
+square feet.
+
+(B)
+
+Any plans or measures undertaken to generate
+
+electricity on-site or off-site to reduce impacts on
+
+the electric grid.
+
+(C)
+
+Estimated average energy consumption per
+
+hour during the computer data center's peak demand,
+
+including the source or sources of electric supply.
+
+(D)
+
+Estimated daily, monthly and annual maximum
+
+water consumption, including the discharge rates and
+
+volumes, water source and purpose of consumption.
+
+(E)
+
+Anticipated average annual power usage
+
+effectiveness, calculated by dividing the total
+
+amount of electricity consumed from the computer data
+
+center by the electricity used to operate the
+
+computer data center equipment.
+
+(F)
+
+Anticipated average annual water usage
+
+effectiveness, calculated by dividing the total
+
+amount of water consumed from the computer data
+
+center by the kilowatt hours of electricity used to
+
+operate the computer data center equipment.
+
+(4)
+
+On or before the first anniversary of certification,
+
+the owner or operator of the computer data center must
+
+certify that an agreement has not been entered into, or will
+
+not be entered into, with an agency, or any entity acting on
+
+behalf of an agency, that relates to the construction,
+
+development or location of the facility and requires
+
+confidentiality, nondisclosure or otherwise restricts the
+
+agency from disclosing information to members of the public.
+
+(a.1)
+
+Applicability.--
+
+(1)
+
+The requirements under subsection (a)(3) and (4)
+
+shall not apply to a computer data center with a peak
+
+electric demand of less than 10 megawatts.
+
+(2)
+
+Subsection (a)(3)(ii) shall not apply to a
+
+commercial data center that has commenced construction prior
+
+to the effective date of this subsection.
+
+(3)
+
+Subsection (a)(4) shall not apply to an owner or
+
+operator or qualified tenant holding a certification under
+
+this subarticle prior to the effective date of this
+
+subsection.
+
+* * *
+
+Section 5.
+
+Section 2936-D(a) of the act is amended and the
+
+section is amended by adding a subsection to read:
+
+Section 2936-D.
+(a)
+
+Notification and records.
+
+[Requirements] Investment and compensation requirements
+
+satisfied.--On or before the fourth anniversary of the
+
+certification of a computer data center, the owner or operator
+
+of the computer data center shall notify the department in
+
+writing whether the computer data center for which the
+
+certification is requested has satisfied the requirements
+
+prescribed under section 2935-D(a).
+
+(a.1)
+
+Other requirements satisfied.--
+
+(1)
+
+On or before the first anniversary of the
+
+certification of a computer data center, the owner or
+
+operator of the computer data center shall notify the
+
+department in writing whether the computer data center for
+
+which the certification is requested has satisfied the
+
+requirements prescribed under section 2935-D(3) and (4).
+
+(2)
+
+Except as provided in section 2935-D(a.1), in order
+
+to retain a certificate under this subarticle, the owner or
+
+operator of the computer data center shall annually submit
+
+the required footprint report under section 2935-D(a)(3)(iii)
+
+to the department that reflects any updates to the operations
+
+of the facility.
+
+* * *
+
+Section 6.
+
+IMMEDIATELY.
+
+This act shall take effect in 60 days
