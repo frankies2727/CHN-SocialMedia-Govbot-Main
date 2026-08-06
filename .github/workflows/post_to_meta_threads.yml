@@ -76,6 +76,16 @@ jobs:
         uses: ./.github/actions/govbot-bills
         with:
           shared-cache: "false"
+          # Full-action feed: dump EVERY action (not just govbot's noteworthy
+          # ones) so a bill whose only recent activity is procedural — an
+          # introduction, a committee referral — still reaches the posters and
+          # counts as fresh, instead of being invisible until it hits a floor
+          # vote. since-days keeps that larger feed bounded (and --limit none
+          # avoids arbitrary per-state truncation). Each topic's own keyword +
+          # 32-day freshness gates still decide what actually posts.
+          log-filter: "none"
+          log-limit: "none"
+          since-days: "45"
 
       - name: Build the normalized bill list (topic-independent, once)
         # Parsing bills.jsonl + running extract_fields is topic-independent, so do
