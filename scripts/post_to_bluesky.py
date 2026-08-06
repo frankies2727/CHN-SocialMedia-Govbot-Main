@@ -77,7 +77,12 @@ BLUESKY_API = "https://bsky.social/xrpc"
 # and the model has been pulled with `ollama pull <LLM_MODEL>`.
 LLM_API_URL = os.environ.get("LLM_API_URL", "http://localhost:11434/api/chat")
 LLM_MODEL = os.environ.get("LLM_MODEL", "gemma3:4b")
-LLM_TIMEOUT = int(os.environ.get("LLM_TIMEOUT", "300"))
+LLM_TIMEOUT = int(os.environ.get("LLM_TIMEOUT", "420"))
+# On a timeout/transport error the post-copy call is retried (see _post_copy).
+# The retries use this shorter ceiling so a genuinely wedged model fails fast and
+# the run falls back to deterministic copy instead of burning the job's minute
+# budget — a warm model answers in seconds, so a short retry window is plenty.
+LLM_RETRY_TIMEOUT = int(os.environ.get("LLM_RETRY_TIMEOUT", "180"))
 # How long Ollama keeps the model resident between requests. Without this it
 # defaults to 5 minutes, so a topic that spends several minutes downloading
 # PDFs between summaries can force a cold model reload mid-run. Pin it for the
@@ -92,8 +97,10 @@ RELEVANCE_GATE = (os.environ.get("RELEVANCE_GATE", "1").strip() != "0")
 # on the loaded free runner can make the CPU model's call run long. Give the gate
 # its OWN timeout — longer than the copy call's LLM_TIMEOUT — so a slow call is
 # allowed to finish and return a real verdict instead of hitting the ceiling and
-# falling open (which lets the bill through unjudged). Overridable per run.
-RELEVANCE_GATE_TIMEOUT = int(os.environ.get("RELEVANCE_GATE_TIMEOUT", "360"))
+# falling open (which lets the bill through unjudged). Overridable per run. Kept
+# above LLM_TIMEOUT (the copy call's ceiling) so the invariant holds after that
+# ceiling was raised.
+RELEVANCE_GATE_TIMEOUT = int(os.environ.get("RELEVANCE_GATE_TIMEOUT", "480"))
 
 IMG_MAX_DOWNLOAD = 5 * 1024 * 1024
 IMG_TARGET_SIZE  = 900 * 1024
@@ -1722,7 +1729,7 @@ def _post_copy(b: dict) -> dict:
         amendatory=amendatory, home_state=state_name, federal=federal
     )
 
-    def _call_llm(extra_system: str = "") -> tuple[str, str]:
+    def _call_llm(extra_system: str = "", timeout: int = LLM_TIMEOUT) -> tuple[str, str]:
         """One post-copy round-trip → (headline, summary). Raises on transport
         or HTTP error so the caller can fall back."""
         messages = [{"role": "system", "content": system_prompt}]
@@ -1739,7 +1746,7 @@ def _post_copy(b: dict) -> dict:
                 "keep_alive": LLM_KEEP_ALIVE,
                 "options": {"num_predict": 320, "temperature": 0.4},
             },
-            timeout=LLM_TIMEOUT,
+            timeout=timeout,
         )
         if not r.ok:
             print(f"  ! LLM post-copy {r.status_code}: {r.text[:300]}", file=sys.stderr)
@@ -1750,20 +1757,36 @@ def _post_copy(b: dict) -> dict:
         text = (data.get("message") or {}).get("content") or data.get("response") or ""
         return _parse_copy_json(text)
 
+    # Up to three attempts total (one initial + two retries) so a transient
+    # timeout — e.g. the local model briefly swap-bound on an oversized omnibus
+    # bill — doesn't sink the post straight to the raw-legalese fallback. The
+    # first attempt gets the full LLM_TIMEOUT (room for a cold or large call); the
+    # retries use the shorter LLM_RETRY_TIMEOUT, since a model warm from the first
+    # attempt answers in seconds and a still-wedged one should fail fast rather
+    # than burn the job's minute budget. The empty/garbled-JSON nudge (a model
+    # that DID respond, just unusably) still runs once within each attempt.
     raw_headline, raw_summary = "", ""
-    try:
-        raw_headline, raw_summary = _call_llm()
-        # A single malformed/truncated JSON reply (which parses to empty) used to
-        # sink the whole post to raw legalese. Retry once with a terse nudge
-        # before giving up — the operative-text-first window makes the retry cheap
-        # and usually enough.
-        if not raw_headline and not raw_summary:
-            raw_headline, raw_summary = _call_llm(
-                "Return ONLY the JSON object {\"headline\": \"...\", "
-                "\"summary\": \"...\"} — both fields non-empty, plain English."
-            )
-    except Exception as e:
-        print(f"  ! post-copy generation failed, using fallback: {e}", file=sys.stderr)
+    last_exc = None
+    for attempt in range(3):
+        call_timeout = LLM_TIMEOUT if attempt == 0 else LLM_RETRY_TIMEOUT
+        try:
+            raw_headline, raw_summary = _call_llm(timeout=call_timeout)
+            if not raw_headline and not raw_summary:
+                raw_headline, raw_summary = _call_llm(
+                    "Return ONLY the JSON object {\"headline\": \"...\", "
+                    "\"summary\": \"...\"} — both fields non-empty, plain English.",
+                    timeout=call_timeout,
+                )
+            last_exc = None
+            break
+        except Exception as e:
+            last_exc = e
+            if attempt < 2:
+                print(f"  ! post-copy attempt {attempt + 1} timed out/failed ({e}); "
+                      f"retrying with a {LLM_RETRY_TIMEOUT}s timeout...", file=sys.stderr)
+    if last_exc is not None:
+        print(f"  ! post-copy generation failed after 3 attempts, using fallback: "
+              f"{last_exc}", file=sys.stderr)
         # LLM unreachable: fall back to deterministic, non-legalese copy so the
         # post is still informative. Headline from the bill's stated purpose;
         # blurb from the on-topic provision, then the operative body, then the
