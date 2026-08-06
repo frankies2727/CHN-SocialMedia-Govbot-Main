@@ -23,6 +23,21 @@ inputs:
       topic + freshness filters) — useful for narrow ad-hoc state pulls.
     required: false
     default: ""
+  since-days:
+    description: >
+      When set to an integer N, date-bounds the dump to actions from the last N
+      days: govbot streams the full log and records with an action date older
+      than N days are dropped before bills.jsonl is written (undated records,
+      which are rare, are kept so nothing is silently lost). This is what makes
+      'log-filter: none' safe at 'clone all' scale — the full-action feed (every
+      routine referral/reading, not just the noteworthy actions) would otherwise
+      balloon bills.jsonl and, under a per-state --limit, arbitrarily truncate a
+      high-volume state. Pair it with 'log-limit: none' so nothing is capped
+      before the date bound is applied. Empty (the default) writes the dump
+      unbounded, preserving historical pulls (collect-samples' from/to months,
+      the digests). Keep N comfortably above the scripts' MAX_ACTION_AGE_DAYS.
+    required: false
+    default: ""
   shared-cache:
     description: >
       'true' shares one bills.jsonl across all runs on the same UTC day with the
@@ -52,10 +67,16 @@ runs:
         # the freshness window for weeks, so every poster on a given day can
         # safely reuse the same dump instead of re-cloning 50+ repos each time.
         slug=$(printf '%s' "${{ inputs.clone-target }}" | tr -c 'A-Za-z0-9' '-')
-        # -v2 bump: the snapshot now also carries shared_bill_text.tar.gz, so
-        # invalidate v1 caches that only held bills.jsonl (a v1 hit would restore
-        # bills.jsonl with no text bundle and quietly fall back to abstracts).
-        echo "key=bills-jsonl-v2-$(date -u +%F)-${slug}-${{ inputs.log-limit }}" >> "$GITHUB_OUTPUT"
+        # The filter + since-days shape the CONTENTS of bills.jsonl, so they must
+        # be part of the key: without them a filter=none run and a filter=default
+        # run (same clone-target + limit) would collide and one would silently
+        # serve the other's dump. tr keeps the key filesystem-safe ('none'->none,
+        # ''->empty, '45'->45).
+        fslug=$(printf '%s' "${{ inputs.log-filter }}-${{ inputs.since-days }}" | tr -c 'A-Za-z0-9' '-')
+        # -v3 bump: key now carries fslug (filter + since-days). Invalidates v2
+        # caches that keyed only on clone-target + limit, so a v2 filter=default
+        # dump can't be handed to a new filter=none consumer.
+        echo "key=bills-jsonl-v3-$(date -u +%F)-${slug}-${{ inputs.log-limit }}-${fslug}" >> "$GITHUB_OUTPUT"
 
     - name: Restore shared bills.jsonl + full-text bundle
       id: bills-cache
@@ -127,7 +148,20 @@ runs:
         if [ -n "${{ inputs.log-filter }}" ]; then
           FILTER_ARG="--filter ${{ inputs.log-filter }}"
         fi
-        govbot logs --limit ${{ inputs.log-limit }} $FILTER_ARG > bills.jsonl
+        SINCE_DAYS="${{ inputs.since-days }}"
+        if [ -n "$SINCE_DAYS" ]; then
+          # Date-bound the dump. govbot streams the full log to stdout one line
+          # per action (it does not buffer the corpus in memory), and the filter
+          # keeps only recent records — so 'log-filter: none --limit none' can
+          # emit every routine action without ballooning bills.jsonl or letting a
+          # per-state cap arbitrarily drop recent actions. Runs before Ollama
+          # loads, so the streaming dump has the runner's full RAM.
+          CUTOFF_EPOCH=$(date -u -d "${SINCE_DAYS} days ago" +%s)
+          govbot logs --limit ${{ inputs.log-limit }} $FILTER_ARG \
+            | CUTOFF_EPOCH="$CUTOFF_EPOCH" python3 "$GITHUB_ACTION_PATH/filter_by_date.py" > bills.jsonl
+        else
+          govbot logs --limit ${{ inputs.log-limit }} $FILTER_ARG > bills.jsonl
+        fi
         echo "bills.jsonl is $(wc -l < bills.jsonl) lines"
 
     - name: Stage full-text bundle from the fresh clone

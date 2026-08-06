@@ -69,6 +69,17 @@ jobs:
         # a per-day shared bills.jsonl cache, so only the first poster of the day
         # pays the full national clone. See .github/actions/govbot-bills.
         uses: ./.github/actions/govbot-bills
+        with:
+          # Full-action feed: dump EVERY action (not just govbot's noteworthy
+          # ones) so a bill whose only recent activity is procedural — an
+          # introduction, a committee referral — still reaches the poster and
+          # counts as fresh, instead of being invisible until it hits a floor
+          # vote. since-days keeps that larger feed bounded (and --limit none
+          # avoids arbitrary per-state truncation). The script's own topic +
+          # 32-day freshness gates still decide what actually posts.
+          log-filter: "none"
+          log-limit: "none"
+          since-days: "45"
 
       - name: Cache Ollama model
         uses: actions/cache@v4
