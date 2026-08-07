@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 9603",
+    "legislative_session": "119",
+    "title": "Less Bureaucracy, Better International Education Oversight Act"
+  },
+  "id": "HR 9603",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the Committee on Education and Workforce, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-09T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9603.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/9603"
+        }
+      ]
+    },
+    "bill_id": "HR 9603"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9603/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9603/logs/20260709T040000Z_referred_to_the_committee_on_education_and_workforce_and_in_addition_to_the_committee_on_foreign_aff.json"
+  },
+  "timestamp": "20260709T040000Z",
+  "posted_text": "🎓 Education\nUS HR 9603 — State Dept. Gets the Keys to Global Education\n\n’ shifts control of US international education programs – including Fulbright-Hays scholarships and Title VI programs – from the Department of Education to the Department of State. This means the State Department will now manage these programs, and the Office of Management and Budget will work to ensure no net increase in full-time employees…\n\nJuly 9, 2026: Referred to the Committee on Education and Workforce.",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-bill/9603",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DbuOPZvETk5"
+}

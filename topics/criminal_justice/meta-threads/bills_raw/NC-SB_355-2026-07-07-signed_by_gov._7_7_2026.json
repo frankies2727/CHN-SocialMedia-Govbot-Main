@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 355",
+    "legislative_session": "2025",
+    "subject": [
+      "BUILDINGS; COLLEGES & UNIVERSITIES; COMMISSIONS; COMMUNITY COLLEGES; CONSTRUCTION; CORRECTIONAL INSTITUTIONS; CRIMES; DEATH & DYING; EDUCATION; HIGHER EDUCATION; LOCAL GOVERNMENT; MINORITIES; PAROLE COMN.; PAROLE & PROBATION; PRESENTED; INMATES; PROPERTY; PUBLIC; RATIFIED; SENTENCING; SESSION LAWS; SEX OFFENSES; STATE BUILDINGS; DEBT/STATE GOVERNMENT; TRIBES & TRIBAL GOVERNMENT; TUITION; UNC; CHAPTERED; SCHOLARSHIPS & FINANCIAL AID; PUBLIC BUILDINGS; PROPERTY-STATE GOVERNMENT; FAMILY ISSUES; MONITORING & SURVEILLANCE SYSTEMS; ADULT CORRECTION DEPT."
+    ],
+    "title": "Support the Dept. of Adult Correction.-AB"
+  },
+  "id": "SB 355",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Gov. 7/7/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-07-07",
+      "session_id": "2025",
+      "sources": [
+        {
+          "url": "https://www.ncleg.gov/BillLookUp/2025/S355"
+        }
+      ]
+    },
+    "bill_id": "SB 355"
+  },
+  "sources": {
+    "bill": "nc-legislation/country:us/state:nc/sessions/2025/bills/SB355/metadata.json",
+    "log": "nc-legislation/country:us/state:nc/sessions/2025/bills/SB355/logs/20260707T000000Z_signed_by_gov_772026.json"
+  },
+  "timestamp": "20260707T000000Z",
+  "posted_text": "📜 Criminal Justice & Policing\nNC SB 355 — NC Could Let Tuition Waived for Fallen Heroes' Families\n\nThis bill allows tuition waivers for the children of law enforcement, corrections, and firefighter personnel who are permanently disabled or killed in the line of duty, and for spouses who are also permanently disabled.\n\nJuly 7, 2026: Signed by Gov.",
+  "posted_link": "https://www.ncleg.gov/BillLookUp/2025/SB355",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DbuNs1Nkfv_"
+}
