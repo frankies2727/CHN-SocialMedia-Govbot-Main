@@ -136,6 +136,22 @@ def compose_root(today: datetime, window_days: int) -> str:
     return text
 
 
+def compose_empty_root(today: datetime) -> str:
+    """Root post for a quiet week: the strict 7-day date range plus a plain
+    'nothing moved' note. No highlights, no widening, no landscape fallback."""
+    end = today
+    start = today - timedelta(days=DIGEST_LOOKBACK_DAYS - 1)
+    range_str = f"{_format_short(start)}–{_format_short(end)}, {end.year}"
+    text = (
+        f"{DIGEST_TITLE}\n{range_str}\n\n"
+        "No activity from statehouses across the country these past 7 days. "
+        "We'll be back next week."
+    )
+    if len(text) > MAX_THREADS:
+        text = DIGEST_TITLE
+    return text
+
+
 def compose_landscape_root(today: datetime, state_counts: Counter) -> str:
     juris_line = _format_jurisdictions_line(state_counts)
     text = (
@@ -328,27 +344,12 @@ def main() -> int:
               f"across {len(topics_covered)} topic(s) (window={chosen_window}d).")
         return 0
 
-    # No floor activity in any window for any topic — ship a landscape thread so
-    # the weekly slot still produces something informative.
-    recent_bills = dm.landscape_picks(
-        matched_by_topic, cap=DIGEST_MAX_HIGHLIGHTS, per_state_cap=DIGEST_PER_STATE_CAP)
-    state_counts = Counter((b["state"] or "?") for b in recent_bills)
-    distinct_states = len([s for s in state_counts if s])
-    topics_covered = sorted({b["_topic_name"] for b in recent_bills})
-    print(f"No recent floor activity. Posting landscape thread "
-          f"({len(recent_bills)} bills across {distinct_states} jurisdiction(s), "
-          f"{len(topics_covered)} topic(s)).")
-    for b in recent_bills:
-        print(f"  [{b['_topic_name']}] {b['state']} {b['identifier']} "
-              f"({b['action_date']}): {b['action_desc'][:60]}")
-
-    _save_digest_raw_records(recent_bills)
-    bill_replies = build_highlight_replies(recent_bills)
-    root_text = compose_landscape_root(today, state_counts)
-    # Closing note sits after the bill cards (it has no link).
-    replies = bill_replies + [(_landscape_closing_reply(), "")]
-    post_digest_thread(root_text, replies)
-    print(f"\nDone. Posted Threads landscape thread with {len(replies)} reply post(s).")
+    # No activity in the strict 7-day window for any topic — post a single note
+    # saying so, with the date range. We deliberately do NOT widen the window or
+    # fall back to a landscape thread: the weekly digest is strictly last 7 days.
+    print("No activity in the past 7 days. Posting a no-activity note.")
+    post_digest_thread(compose_empty_root(today), [])
+    print("\nDone. Posted no-activity note.")
     return 0
 
 

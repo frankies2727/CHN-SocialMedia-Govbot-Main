@@ -80,6 +80,7 @@ from post_to_instagram import (
     _git,
     _internal_error_subcode,
     _repo_slug,
+    post_to_instagram,
     raw_url_for,
     wait_for_url,
 )
@@ -529,13 +530,17 @@ def post_carousel(slide_items: list[dict], caption: str, sha: str, slug: str) ->
 # Main
 # ---------------------------------------------------------------------------
 
-def _select(today: datetime) -> tuple[list[dict], int, bool, Counter | None]:
-    """Return (picks, window_days, is_landscape, state_counts_for_landscape).
-    picks are the cross-topic round-robin selection (highlights, or the
-    quiet-week landscape fallback)."""
+def _select(today: datetime) -> tuple[list[dict], bool]:
+    """Return (highlights, have_corpus).
+
+    highlights are the cross-topic round-robin picks for the STRICT 7-day window
+    (empty on a quiet week — no widening, no landscape fallback). have_corpus is
+    False only when there is nothing to work with at all (no records/topics), in
+    which case the caller posts nothing; when it is True but highlights is empty,
+    the caller posts the single 'no activity this week' cover."""
     records = load_bills(JSONL_PATH)
     if not records:
-        return [], DIGEST_LOOKBACK_DAYS, False, None
+        return [], False
 
     extracted = dm.extract_all(records)
     matched_by_topic = dm.build_matched_by_topic(
@@ -544,7 +549,7 @@ def _select(today: datetime) -> tuple[list[dict], int, bool, Counter | None]:
     )
     if not matched_by_topic:
         print("No topics found under topics/. Nothing to digest.")
-        return [], DIGEST_LOOKBACK_DAYS, False, None
+        return [], False
     print(f"=== Instagram weekly digest (all topics): "
           f"{', '.join(matched_by_topic)} ===")
     for name, (_, matched) in matched_by_topic.items():
@@ -552,25 +557,64 @@ def _select(today: datetime) -> tuple[list[dict], int, bool, Counter | None]:
 
     if not any(m for _, m in matched_by_topic.values()):
         print("No topic bills found at all. Nothing to digest.")
-        return [], DIGEST_LOOKBACK_DAYS, False, None
+        return [], False
 
     chosen_window, per_topic = dm.choose_active_window(
         matched_by_topic, today, DIGEST_PER_STATE_CAP)
     print(f"Chosen lookback: {chosen_window}d ({len(per_topic)} topic(s) active).")
 
+    if not per_topic:
+        return [], True  # corpus exists, but nothing moved in the last 7 days
+
     # Cap at how many bill cards the carousel can actually show (CAROUSEL_MAX
     # minus the cover slide), so every selected bill becomes a slide AND a
     # caption entry — the two never disagree.
-    cap = bill_slots()
-    if per_topic:
-        highlights = dm.merge_across_topics(
-            per_topic, cap=cap, per_state_cap=DIGEST_PER_STATE_CAP)
-        return highlights, chosen_window, False, None
+    highlights = dm.merge_across_topics(
+        per_topic, cap=bill_slots(), per_state_cap=DIGEST_PER_STATE_CAP)
+    return highlights, True
 
-    recent = dm.landscape_picks(
-        matched_by_topic, cap=cap, per_state_cap=DIGEST_PER_STATE_CAP)
-    state_counts = Counter((b["state"] or "?") for b in recent)
-    return recent, chosen_window, True, state_counts
+
+def _post_no_activity_cover(today: datetime) -> int:
+    """Quiet-week Instagram: a carousel needs >=2 slides and there's nothing to
+    feature, so render ONE cover slide stating there was no activity in the
+    7-day window and post it as a single image."""
+    end = today
+    start = today - timedelta(days=DIGEST_LOOKBACK_DAYS - 1)
+    range_str = f"{_format_short(start)}–{_format_short(end)}, {end.year}"
+    DIGEST_COVER_DIR.mkdir(parents=True, exist_ok=True)
+    cover_path = _to_jpeg(render_cover_card(
+        title=COVER_TITLE,
+        subtitle="No statehouse activity this week",
+        including="",
+        date_label=range_str,
+        coverage_label="",
+        mode=CARD_MODE,
+        out_path=DIGEST_COVER_DIR / f"cover-{CARD_MODE}.png",
+    ))
+    caption = (
+        f"{DIGEST_TITLE}\n{range_str}\n\n"
+        "No activity from statehouses across the country these past 7 days. "
+        "We'll be back next week."
+    )[:MAX_CAPTION]
+    print(f"\n--- CAPTION ({len(caption)} chars) ---\n{caption}\n---")
+    print(f"No-activity cover: {cover_path.relative_to(ROOT)}")
+
+    if DRY_RUN:
+        print("\n[DRY RUN] skipping no-activity cover publish.")
+        return 0
+
+    sha = publish_digest_cards([cover_path])
+    if not sha:
+        print(" ! could not publish the no-activity cover; aborting.", file=sys.stderr)
+        return 1
+    image_url = raw_url_for(cover_path, sha, _repo_slug())
+    if not wait_for_url(image_url):
+        print(" ! cover URL not reachable; aborting.", file=sys.stderr)
+        return 1
+    if not post_to_instagram(image_url, caption):
+        return 1
+    print("\nDone. Posted Instagram no-activity cover.")
+    return 0
 
 
 def main() -> int:
@@ -587,15 +631,19 @@ def main() -> int:
     today = datetime.now(timezone.utc).replace(
         hour=0, minute=0, second=0, microsecond=0, tzinfo=None)
 
-    picks, window_days, landscape, state_counts = _select(today)
+    picks, have_corpus = _select(today)
     if not picks:
-        return 0
+        # Corpus exists but nothing moved in the strict 7-day window → post the
+        # single no-activity cover. No corpus at all → post nothing.
+        return _post_no_activity_cover(today) if have_corpus else 0
 
+    window_days = DIGEST_LOOKBACK_DAYS
+    landscape = False
+    state_counts = None
     topics_covered = sorted({b["_topic_name"] for b in picks})
     print(f"\nSelected {len(picks)} bill(s) across {len(topics_covered)} topic(s) "
           f"(bill-slots={bill_slots()}, carousel-max={CAROUSEL_MAX}, "
-          f"{'landscape' if landscape else f'window={window_days}d'}): "
-          f"{', '.join(topics_covered)}")
+          f"window={window_days}d): {', '.join(topics_covered)}")
     for b in picks:
         print(f"  [{b.get('_score', 0):>3}] [{b['_topic_name']}] {b['state']} "
               f"{b['identifier']} ({b['action_date']}): {b['action_desc'][:60]}")

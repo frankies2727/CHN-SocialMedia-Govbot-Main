@@ -101,10 +101,11 @@ def choose_active_window(
     per_state_cap: int = DIGEST_PER_STATE_CAP,
     windows: list[int] = LOOKBACK_FALLBACK_WINDOWS,
 ) -> tuple[int, dict[str, tuple[Topic, list[dict]]]]:
-    """Try each lookback window in turn, returning (window, per_topic) for the
-    first window in which ANY topic has activity so a quiet week widens the lens
-    instead of going silent. per_topic is empty (and window is the widest tried)
-    when nothing turns up anywhere."""
+    """Return (window, per_topic) for the first window in `windows` in which ANY
+    topic has activity. `windows` is now the single strict 7-day window
+    (LOOKBACK_FALLBACK_WINDOWS = [7]) — there is no widening — so per_topic is
+    empty whenever nothing moved in the last 7 days, and the caller posts a
+    'no activity this week' note rather than reaching further back."""
     per_topic: dict[str, tuple[Topic, list[dict]]] = {}
     chosen = windows[0]
     for window in windows:

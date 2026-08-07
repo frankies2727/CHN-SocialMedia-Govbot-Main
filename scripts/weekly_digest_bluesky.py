@@ -64,11 +64,13 @@ DRY_RUN = os.environ.get("DRY_RUN") == "1"
 # still leaving enough of the title to identify the bill.
 DIGEST_HEAD_CAP = int(os.environ.get("DIGEST_HEAD_CAP", "60"))
 
-# When the primary 7-day window is empty we widen progressively so a quiet
-# legislative week doesn't mean a silent feed. Once nothing turns up in the
-# widest window either, we fall back to a landscape thread (see
-# build_landscape_replies) so the bot always ships something informative.
-LOOKBACK_FALLBACK_WINDOWS = [DIGEST_LOOKBACK_DAYS, 14, 30]
+# The weekly digest is STRICTLY the last 7 days — a single window, no widening.
+# When nothing moved in those 7 days the digest posts a short "no activity this
+# week" note (with the date range) instead of reaching further back. Kept as a
+# one-element list so the existing window loops / choose_active_window callers
+# don't need to change. (Imported by weekly_digest_x.py and digest_multitopic.py,
+# so this single edit fixes the window for every platform.)
+LOOKBACK_FALLBACK_WINDOWS = [DIGEST_LOOKBACK_DAYS]
 
 
 # ---------------------------------------------------------------------------
@@ -238,6 +240,23 @@ def compose_root(today: datetime, total_updates: int, distinct_states: int,
         f"{TOPIC.thread_title}\n"
         f"{range_str}\n\n"
         f"{framing}"
+    )
+    if len(text) > MAX_POST:
+        text = text[:MAX_POST - 1] + "…"
+    return text
+
+
+def compose_empty_root(today: datetime) -> str:
+    """Root post for a quiet week: the strict 7-day date range plus a plain
+    'nothing moved' note. No highlights, no widening, no landscape fallback."""
+    end = today
+    start = today - timedelta(days=DIGEST_LOOKBACK_DAYS - 1)
+    range_str = f"{_format_short(start)}–{_format_short(end)}, {end.year}"
+    text = (
+        f"{TOPIC.thread_title}\n"
+        f"{range_str}\n\n"
+        f"No {TOPIC.topic_phrase} activity from statehouses across the country "
+        "these past 7 days. We'll be back next week."
     )
     if len(text) > MAX_POST:
         text = text[:MAX_POST - 1] + "…"
@@ -489,29 +508,12 @@ def main() -> int:
         print(f"\nDone. Posted thread with {len(highlights)} highlight(s) (window={chosen_window}d).")
         return 0
 
-    # No floor activity in any window — ship a landscape thread so the
-    # weekly slot still produces something informative. Show real bill cards
-    # (title, summary, action line, link) for the most-recent unique bills
-    # rather than a bare list of IDs.
-    unique_bills = _landscape_unique_bills(all_bills)
-    state_counts = Counter((b["state"] or "?") for b in unique_bills)
-    distinct_states = len([s for s in state_counts if s])
-    print(f"No recent floor activity. Posting landscape thread "
-          f"({len(unique_bills)} bills across {distinct_states} jurisdiction(s)).")
-
-    recent_bills = _select_landscape_bills(unique_bills, n=DIGEST_LANDSCAPE_CARDS)
-    print(f"Selected {len(recent_bills)} landscape card(s):")
-    for b in recent_bills:
-        print(f"  {b['state']} {b['identifier']} ({b['action_date']}): "
-              f"{b['action_desc'][:70]}")
-
-    root_text = compose_landscape_root(today, unique_bills, state_counts)
-    _save_digest_raw_records(recent_bills)
-    bill_replies = _build_highlight_replies(client, recent_bills)
-    closing = _landscape_closing_reply()
-    replies = bill_replies + [(closing, "", "", "", None)]
-    post_thread(client, root_text, replies)
-    print(f"\nDone. Posted landscape thread with {len(replies)} reply post(s).")
+    # No activity in the strict 7-day window — post a single note saying so,
+    # with the date range. We deliberately do NOT widen the window or fall back
+    # to a landscape thread: the weekly digest is strictly the last 7 days.
+    print("No activity in the past 7 days. Posting a no-activity note.")
+    post_thread(client, compose_empty_root(today), [])
+    print("\nDone. Posted no-activity note.")
     return 0
 
 

@@ -115,6 +115,25 @@ def compose_root(today: datetime, window_days: int, has_links: bool) -> str:
     return text
 
 
+def compose_empty_root(today: datetime) -> str:
+    """Root tweet for a quiet week: the strict 7-day date range plus a plain
+    'nothing moved' note. No highlights, no widening, no landscape fallback."""
+    end = today
+    start = today - timedelta(days=DIGEST_LOOKBACK_DAYS - 1)
+    range_str = f"{_format_short(start)}–{_format_short(end)}, {end.year}"
+    text = (
+        f"{TOPIC.thread_title}\n{range_str}\n\n"
+        f"No {TOPIC.topic_phrase} activity from statehouses across the country "
+        "these past 7 days. Back next week."
+    )
+    if x_weighted_len(text) > MAX_TWEET:
+        text = (f"{TOPIC.thread_title}\n\nNo activity from statehouses across the "
+                "country these past 7 days. Back next week.")
+    if x_weighted_len(text) > MAX_TWEET:
+        text = TOPIC.thread_title
+    return text
+
+
 def compose_landscape_root(today: datetime, unique_bills: list[dict],
                            state_counts: Counter, has_links: bool) -> str:
     juris_line = _format_jurisdictions_line(state_counts)
@@ -331,30 +350,12 @@ def main() -> int:
               f"+ {len(link_posts)} links post(s) (window={chosen_window}d).")
         return 0
 
-    # No floor activity in any window — ship a landscape thread so the weekly
-    # slot still produces something informative.
-    unique_bills = _landscape_unique_bills(all_bills)
-    state_counts = Counter((b["state"] or "?") for b in unique_bills)
-    distinct_states = len([s for s in state_counts if s])
-    print(f"No recent floor activity. Posting landscape thread "
-          f"({len(unique_bills)} bills across {distinct_states} jurisdiction(s)).")
-
-    recent_bills = _select_landscape_bills(unique_bills, n=DIGEST_LANDSCAPE_CARDS)
-    print(f"Selected {len(recent_bills)} landscape card(s):")
-    for b in recent_bills:
-        print(f"  {b['state']} {b['identifier']} ({b['action_date']}): "
-              f"{b['action_desc'][:70]}")
-
-    _save_digest_raw_records(recent_bills)
-    bill_replies, link_items = build_highlight_replies(recent_bills)
-    link_posts = build_link_posts(link_items)
-    root_text = compose_landscape_root(today, unique_bills, state_counts,
-                                       has_links=bool(link_posts))
-    # Closing note sits after the bill cards but BEFORE the links post, so the
-    # links stay genuinely last (matching the root's promise).
-    replies = bill_replies + [_landscape_closing_reply()] + link_posts
-    post_thread(client, root_text, replies)
-    print(f"\nDone. Posted X landscape thread with {len(replies)} reply post(s).")
+    # No activity in the strict 7-day window — post a single tweet saying so,
+    # with the date range. We deliberately do NOT widen the window or fall back
+    # to a landscape thread: the weekly digest is strictly the last 7 days.
+    print("No activity in the past 7 days. Posting a no-activity note.")
+    post_thread(client, compose_empty_root(today), [])
+    print("\nDone. Posted no-activity note.")
     return 0
 
 
