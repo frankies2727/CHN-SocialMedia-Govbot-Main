@@ -333,28 +333,60 @@ jobs:
             export BILLS_NORMALIZED="$PWD/bills_normalized.json"
           fi
 
-          # Topic order: fixed alphabetical, stepped forward each run by the
-          # per-run post cap so consecutive runs cover the NEXT block of topics
-          # (run 1: topics 1..4, run 2: 5..8, …) and wrap around at the end — a
-          # deterministic march through the whole list with no topic repeating on
-          # back-to-back runs. Replaces both the random shuffle and the earlier
-          # slide-by-one (which re-posted overlapping topics on adjacent runs).
+          # Topic order: a deterministic march through the alphabetical topic
+          # list that RESUMES where the previous run's posting actually stopped.
+          # The old scheme derived the start purely from the run counter
+          # (offset = run_number * cap % n), which assumed every run posted a
+          # full, contiguous block of `cap` topics. When a topic in that block had
+          # no fresh bills it was skipped, so the real posted block ran past `cap`
+          # positions and the next run's fixed-step start overlapped the tail —
+          # re-posting a topic on back-to-back runs (e.g. immigration ending one
+          # run and starting the next). Instead we persist the topic just AFTER
+          # the last one that actually posted and resume there, so an empty or
+          # skipped topic can never cause a repeat.
           mapfile -t TOPICS < <(for d in topics/*/; do [ -f "$d/config.yml" ] && basename "$d"; done | sort)
           n=${#TOPICS[@]}
           if [ "$n" -eq 0 ]; then echo "No topics with config.yml found."; exit 0; fi
-          # Step by RUN_POST_LIMIT (this account's per-run cap) so each run starts
-          # where the last block ended. With 13 topics and a cap that doesn't
-          # divide evenly, block boundaries drift a little each lap — that just
-          # varies the pairings; every topic still cycles through fairly.
-          step="${RUN_POST_LIMIT:-1}"
-          offset=$(( (${{ github.run_number }} * step) % n ))
-          echo "Topic rotation: $n topics, run ${{ github.run_number }}, block starts at ${TOPICS[$offset]} (index $offset, step $step)."
+          ROTATION_FILE="account_state/instagram/rotation.txt"
+          # Resume from the persisted topic NAME (robust to topics being added or
+          # removed — indices shift, names don't). Before any pointer exists, seed
+          # from the run counter so the first run still varies its start.
+          start=$(( ${{ github.run_number }} % n ))
+          if [ -f "$ROTATION_FILE" ]; then
+            saved="$(tr -d '[:space:]' < "$ROTATION_FILE")"
+            for idx in "${!TOPICS[@]}"; do
+              if [ "${TOPICS[$idx]}" = "$saved" ]; then start=$idx; break; fi
+            done
+          fi
+          echo "Topic rotation: $n topics, resuming at ${TOPICS[$start]} (index $start)."
+          TOPIC_LOG="${RUNNER_TEMP:-/tmp}/govbot_topic_out.txt"
+          last_posted=-1
           for (( k=0; k<n; k++ )); do
-            topic="${TOPICS[$(( (offset + k) % n ))]}"
+            topic="${TOPICS[$(( (start + k) % n ))]}"
             echo "=== Instagram: topic $topic ==="
-            BOT_TOPIC="$topic" python scripts/post_to_instagram.py \
-              || echo "  $topic post failed, continuing with next topic"
+            rc=0
+            # tee keeps the live log while we scan the output for the post signal;
+            # PIPESTATUS[0] is python's exit (pipefail-safe under the default -eo).
+            BOT_TOPIC="$topic" python scripts/post_to_instagram.py 2>&1 | tee "$TOPIC_LOG" || rc="${PIPESTATUS[0]}"
+            [ "$rc" -ne 0 ] && echo "  $topic exited $rc, continuing with next topic."
+            # A real post prints "Done. Posted <N>=1 update(s)"; "Posted 0" (all
+            # gate-skipped) and empty topics don't — so this advances the pointer
+            # only past topics that genuinely posted.
+            if grep -qE "Done\. Posted [1-9][0-9]* update" "$TOPIC_LOG"; then
+              last_posted=$k
+            fi
           done
+          # Persist the resume point: the topic just AFTER the last one that
+          # posted. If nothing posted this run, step forward one so a barren
+          # stretch can't wedge the pointer in place.
+          if [ "$last_posted" -ge 0 ]; then
+            next=$(( (start + last_posted + 1) % n ))
+          else
+            next=$(( (start + 1) % n ))
+          fi
+          mkdir -p "$(dirname "$ROTATION_FILE")"
+          echo "${TOPICS[$next]}" > "$ROTATION_FILE"
+          echo "Topic rotation: next run resumes at ${TOPICS[$next]} (index $next)."
 
       - name: Commit Instagram state changes
         if: env.DRY_RUN != '1'
