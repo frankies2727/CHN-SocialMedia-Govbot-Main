@@ -84,7 +84,7 @@ DIGEST_MAX_HIGHLIGHTS = int(os.environ.get("DIGEST_MAX_HIGHLIGHTS", "11"))
 # Title/brand for the all-topics root post. Not tied to any single topic's
 # thread_title (those name one topic, e.g. "LGBTQ Bills Weekly Digest").
 DIGEST_TITLE = os.environ.get(
-    "THREADS_DIGEST_TITLE", "🏛️ Statehouse Weekly Digest")
+    "THREADS_DIGEST_TITLE", "🏛️ Legislation Bills Weekly Digest")
 
 # Seconds to pause between thread posts. Threads is far more forgiving than X,
 # but each post is a two-call create+publish, so a small gap keeps the API
