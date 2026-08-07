@@ -845,6 +845,23 @@ _LEAD_FILLER_RE = re.compile(
 _LEAD_ARTICLE_RE = re.compile(r"^(the|an|a)\s+", re.IGNORECASE)
 
 
+# Characters trimmed from the FRONT of the body that remains after a leading
+# title / act-name restatement is removed. Beyond whitespace and connective
+# punctuation (dashes, colon, comma, period, semicolon) this MUST include quote
+# marks — straight and curly, single and double — because the model routinely
+# wraps the bill's name in quotes ("The 'Foo Act' shifts control…"). The match
+# ends right after the name but before its closing quote, so without stripping
+# quotes here that quote is left dangling at the very start of the post
+# (observed: "' shifts control of US international education programs…").
+_POST_TITLE_STRIP_CHARS = (
+    " -:,.;"        # space, hyphen, colon, comma, period, semicolon
+    "—–"  # em dash, en dash
+    "\"'`"          # straight double quote, straight single quote, backtick
+    "‘’"  # curly single quotes  ‘ ’
+    "“”"  # curly double quotes  “ ”
+)
+
+
 def _strip_title_prefix(summary: str, title: str) -> str:
     """If the summary opens by restating the title, drop that restatement."""
     if not summary or not title:
@@ -869,7 +886,7 @@ def _strip_title_prefix(summary: str, title: str) -> str:
     # be shorter than the original title, so the boundary may come earlier.)
     for i in range(skipped, len(summary) + 1):
         if _normalize(summary[skipped:i]).startswith(n_title):
-            rest = summary[i:].lstrip(" -—:,.;")
+            rest = summary[i:].lstrip(_POST_TITLE_STRIP_CHARS)
             rest = _LEAD_FILLER_RE.sub("", rest)
             if not rest:
                 return summary
@@ -924,7 +941,7 @@ def _strip_act_name_echo(summary: str, headline: str) -> str:
     pos = 0
     for tok in tokens[: end_idx + 1]:
         pos = body.index(tok, pos) + len(tok)
-    rest = body[pos:].lstrip(" -—:,.;")
+    rest = body[pos:].lstrip(_POST_TITLE_STRIP_CHARS)
     rest = _LEAD_FILLER_RE.sub("", rest)
     if not rest:
         return summary
