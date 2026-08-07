@@ -157,8 +157,24 @@ runs:
           # per-state cap arbitrarily drop recent actions. Runs before Ollama
           # loads, so the streaming dump has the runner's full RAM.
           CUTOFF_EPOCH=$(date -u -d "${SINCE_DAYS} days ago" +%s)
+          TODAY_EPOCH=$(date -u +%s)
+          # filter_by_date also probes clone coverage over the full stream and,
+          # for any state whose newest action lags the corpus, writes a line to
+          # this file so we can raise a GitHub ::warning:: annotation below — its
+          # own stdout is bills.jsonl, so it can't emit annotations itself.
+          COVERAGE_FLAGS_FILE="$(pwd)/coverage_flags.txt"
+          rm -f "$COVERAGE_FLAGS_FILE"
           govbot logs --limit ${{ inputs.log-limit }} $FILTER_ARG \
-            | CUTOFF_EPOCH="$CUTOFF_EPOCH" python3 "$GITHUB_ACTION_PATH/filter_by_date.py" > bills.jsonl
+            | CUTOFF_EPOCH="$CUTOFF_EPOCH" TODAY_EPOCH="$TODAY_EPOCH" \
+              COVERAGE_FLAGS_FILE="$COVERAGE_FLAGS_FILE" \
+              python3 "$GITHUB_ACTION_PATH/filter_by_date.py" > bills.jsonl
+          # Surface stale/missing-state coverage as run annotations (the per-state
+          # table is in the step log above). Silent when coverage looks healthy.
+          if [ -s "$COVERAGE_FLAGS_FILE" ]; then
+            while IFS= read -r line; do
+              [ -n "$line" ] && echo "::warning title=Stale clone coverage::${line}"
+            done < "$COVERAGE_FLAGS_FILE"
+          fi
         else
           govbot logs --limit ${{ inputs.log-limit }} $FILTER_ARG > bills.jsonl
         fi
