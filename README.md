@@ -2,6 +2,15 @@
 
 **A free, multi-topic, multi-platform bot network that posts new U.S. legislative activity — federal (U.S. Congress) and all 50 states — each bill summarized in plain English by a local AI model — to Bluesky, X/Twitter, Threads, and Instagram.**
 
+### Follow the bots
+
+<p align="left">
+  <a href="https://bsky.app/profile/govbottaxation.bsky.social"><img alt="Bluesky" src="https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white"></a>
+  <a href="https://x.com/Govbot27"><img alt="X" src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"></a>
+  <a href="https://www.instagram.com/legislationtracker.govbot/?hl=en"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+  <a href="https://www.threads.com/@legislationtracker.govbot?hl=en"><img alt="Threads" src="https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white"></a>
+</p>
+
 Powered by [chihacknight/govbot](https://github.com/chihacknight/govbot) for the raw legislative data and [Ollama](https://ollama.com/) + [Gemma](https://ai.google.dev/gemma) for on-runner summarization. Everything runs on scheduled **GitHub Actions** — no servers, no paid LLM API, no hosting bill.
 
 <p align="left">
