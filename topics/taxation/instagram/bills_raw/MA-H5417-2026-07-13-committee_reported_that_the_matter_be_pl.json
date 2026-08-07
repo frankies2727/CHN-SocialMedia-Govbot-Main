@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Jones of North Reading and Senator Crighton, a joint petition (accompanied by bill, House, No. 5417) of Bradley H. Jones, Jr. and Brendan P. Crighton (by vote of the town) that the town of Lynnfield be authorized to impose a local sales tax upon restaurant meals originating within said town.  Revenue.  [Local Approval Received.]",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H5417",
+    "legislative_session": "194th",
+    "title": "An Act authorizing the town of Lynnfield to impose a local sales tax upon restaurant meals originating within the town"
+  },
+  "id": "H5417",
+  "log": {
+    "action": {
+      "description": "Committee reported that the matter be placed in the Orders of the Day for the next sitting",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-13",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/H5417"
+        }
+      ]
+    },
+    "bill_id": "H5417"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H5417/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H5417/logs/20260713T000000Z_committee_reported_that_the_matter_be_placed_in_the_orders_of_the_day_for_the_next_sitting.json"
+  },
+  "timestamp": "20260713T000000Z",
+  "posted_text": "🛒 MA H5417 — Lynnfield Could Add a New Tax on Restaurant Meals\n\nThe town of Lynnfield can now charge a 1.5% sales tax on restaurant meals served within its borders, impacting customers and restaurants that sell food directly in the town – the tax goes to the state, but Lynnfield collects it.\n\nJuly 13, 2026: Committee reported that the matter be placed in the Orders of the Day for the next sitting.\n\n🔗 Read the full bill: https://malegislature.gov/Bills/194/H5417\n\n#Taxation #Massachusetts #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://malegislature.gov/Bills/194/H5417",
+  "posted_url": "https://www.instagram.com/p/Dbv7HN1oKJ7/"
+}

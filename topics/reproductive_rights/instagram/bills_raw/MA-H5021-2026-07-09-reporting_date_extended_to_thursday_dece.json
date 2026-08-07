@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H5021",
+    "legislative_session": "194th",
+    "title": "An Act to expand the doula workforce"
+  },
+  "id": "H5021",
+  "log": {
+    "action": {
+      "description": "Reporting date extended to Thursday, December 31, 2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-09",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/H5021"
+        }
+      ]
+    },
+    "bill_id": "H5021"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H5021/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H5021/logs/20260709T000000Z_reporting_date_extended_to_thursday_december_31_2026.json"
+  },
+  "timestamp": "20260709T000000Z",
+  "posted_text": "👩‍⚕️ MA H5021 — Massachusetts Creates Fund to Boost Doula Workforce\n\nMassachusetts is launching a new Maternal Health Justice Fund to expand the doula workforce by providing scholarships to aspiring doulas and supporting existing programs, with a focus on prioritizing historically marginalized communities…\n\nJuly 9, 2026: Reporting date extended to Thursday, December 31, 2026.\n\n🔗 Read the full bill: https://malegislature.gov/Bills/194/H5021\n\n#ReproductiveRights #Massachusetts #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://malegislature.gov/Bills/194/H5021",
+  "posted_url": "https://www.instagram.com/p/Dbv6o51oLnX/"
+}
