@@ -1827,6 +1827,13 @@ def _post_copy(b: dict) -> dict:
         headline = ""
     if len(headline) > HEADLINE_MAX_LEN:
         headline = _smart_truncate(headline, HEADLINE_MAX_LEN).rstrip(".!?,; ")
+    # Did the model give a DISTINCT headline (vs. one we'll derive from the title
+    # below)? best_display_text shows that headline in the post head whenever one
+    # exists, so with a real model headline the raw title never appears in the
+    # head — meaning a title restatement in the body is the ONLY place the bill's
+    # name shows, and must be kept. Only when the head itself is title-derived is
+    # that restatement a genuine duplicate worth folding away.
+    headline_from_model = bool(headline)
     # Still no usable headline (model returned nothing, or echoed the title):
     # derive a clean one from the bill's stated purpose so the post never leads
     # with raw legalese. Only overrides a blank — a good model headline wins.
@@ -1838,7 +1845,15 @@ def _post_copy(b: dict) -> dict:
     # the model ignored the no-repeat rule and the blurb just restates the
     # headline, drop it (compose_post also guards, but this keeps the cached
     # value clean for every platform that reads it).
-    summary = _strip_title_prefix(_clean_summary(raw_summary), b["title"])
+    summary = _clean_summary(raw_summary)
+    # Only fold a leading title restatement out of the body when the head is
+    # title-derived (no distinct model headline). With a real model headline the
+    # title shows nowhere else, so keep it here; compose_post's display-aware
+    # _strip_act_name_echo / _strip_headline_echo still drop it if it actually
+    # duplicates the headline. (Stripping it unconditionally erased the bill's
+    # name from posts like HR 9603, whose head showed a distinct headline.)
+    if not headline_from_model:
+        summary = _strip_title_prefix(summary, b["title"])
     if summary and headline and _normalize(summary) == _normalize(headline):
         summary = ""
     # When the local model returns an empty (or self-repeating, just-dropped)
@@ -1847,10 +1862,9 @@ def _post_copy(b: dict) -> dict:
     # bill text — so a bill with full text always says something concrete rather
     # than shipping a bare headline.
     if not summary:
-        summary = _strip_title_prefix(
-            _excerpt_summary(topic_excerpt) or _summary_from_body(body),
-            b["title"],
-        )
+        summary = _excerpt_summary(topic_excerpt) or _summary_from_body(body)
+        if not headline_from_model:
+            summary = _strip_title_prefix(summary, b["title"])
         if summary and headline and _normalize(summary) == _normalize(headline):
             summary = ""
     result["summary"] = summary
