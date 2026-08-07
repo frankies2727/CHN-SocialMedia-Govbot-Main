@@ -6,7 +6,7 @@ on:
     # hitting Instagram's visual audience during the midday/lunch scroll. GitHub
     # cron is fixed UTC and ignores DST, so during EST this lands an hour earlier
     # local. Odd minute (:42) dodges the top-of-hour scheduler congestion.
-    - cron: "42 16 * * 1,3,5"
+    - cron: "42 16 * * 1,3"
   workflow_dispatch:
 
 permissions:
