@@ -1257,7 +1257,7 @@ def ensure_english_fields(b: dict) -> dict:
 # so a wide cap covers every consumer while keeping the cost bounded even for a
 # very long PDF. Any tail past the cap is kept verbatim so the persisted
 # bills_full_text artifact stays complete.
-FULLTEXT_TRANSLATE_MAX_CHARS = 12000
+FULLTEXT_TRANSLATE_MAX_CHARS = 18000
 _FULLTEXT_TRANSLATE_CHUNK_CHARS = 1800
 
 
