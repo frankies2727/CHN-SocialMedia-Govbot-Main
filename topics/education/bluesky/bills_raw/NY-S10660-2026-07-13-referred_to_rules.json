@@ -1,0 +1,49 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Relates to adaptive aquatic safety services for individuals with disabilities; directs the commissioner of health to evaluate and seek approval for the inclusion of adaptive aquatic safety services as an available service component under applicable Medicaid home and community-based services authorities; relates to adaptive aquatic accessibility at state-funded public aquatic facilities; directs the commissioner of health to promulgate regulations requiring lifeguard certification and recertification courses to include instruction concerning aquatic safety for individuals with disabilities; authorizes school districts and boards of cooperative educational services to incorporate adaptive aquatic safety goals into individualized education programs where appropriate to address certain skills."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S10660",
+    "legislative_session": "2025-2026",
+    "title": "Relates to adaptive aquatic safety services for individuals with disabilities"
+  },
+  "id": "S10660",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "REFERRED TO RULES",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-13",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "RULES"
+        }
+      ],
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10660?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/S10660"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=S10660&term=2025"
+        }
+      ]
+    },
+    "bill_id": "S10660"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S10660/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S10660/logs/20260713T000000Z_referred_to_rules.json"
+  },
+  "timestamp": "20260713T000000Z"
+}
