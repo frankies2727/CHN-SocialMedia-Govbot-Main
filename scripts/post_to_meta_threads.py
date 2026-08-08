@@ -62,6 +62,8 @@ from post_to_bluesky import (
     shorten_title,
     summarize,
     DAILY_SUMMARY_CHARS,
+    CONT_SUFFIX,
+    CONT_PREFIX,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -290,11 +292,16 @@ def compose_threads_thread(b: dict, summary: str, headline: str = "",
         display = _smart_truncate(display, max(0, MAX_THREADS - len(head_lead)))
         head = f"{head_lead}{display}".rstrip(" —")
 
+    # Reserve room for the continuation cues added below (post 1 ends with
+    # CONT_SUFFIX, post 2 opens with CONT_PREFIX) so they can't overflow.
+    suffix_cost = len(f" {CONT_SUFFIX}")
+    prefix_cost = len(f"{CONT_PREFIX} ")
+
     # Post 1: head + leading summary that fits MAX_THREADS.
-    p1_budget = MAX_THREADS - len(head) - 2
+    p1_budget = MAX_THREADS - len(head) - 2 - suffix_cost
     s_head, s_tail = _split_summary(summary, max(0, p1_budget)) if summary else ("", "")
-    if s_head and len(head) + 2 + len(s_head) > MAX_THREADS:
-        keep = _smart_truncate(s_head, max(0, MAX_THREADS - len(head) - 2))
+    if s_head and len(head) + 2 + len(s_head) > MAX_THREADS - suffix_cost:
+        keep = _smart_truncate(s_head, max(0, MAX_THREADS - len(head) - 2 - suffix_cost))
         s_tail = (s_head[len(keep):].strip() + (" " + s_tail if s_tail else "")).strip()
         s_head = keep
     post1 = head + (f"\n\n{s_head}" if s_head else "")
@@ -302,11 +309,17 @@ def compose_threads_thread(b: dict, summary: str, headline: str = "",
     # Post 2: continuation + action line (URL rides as link_attachment).
     action_line = format_action_line(b["action_desc"], b["action_date"])
     action_block = f"\n\n{action_line}" if action_line else ""
-    cont_budget = MAX_THREADS - len(action_block) - 2
+    cont_budget = MAX_THREADS - len(action_block) - 2 - prefix_cost
     if s_tail and len(s_tail) > cont_budget:
         s_tail = _smart_truncate(s_tail, max(0, cont_budget))
     post2 = f"{s_tail}{action_block}" if s_tail else action_line
-    return post1, post2.strip(), url
+    post2 = post2.strip()
+
+    # Continuation cues — only when there is a post 2 to point readers to.
+    if post2:
+        post1 = f"{post1} {CONT_SUFFIX}"
+        post2 = f"{CONT_PREFIX} {post2}"
+    return post1, post2, url
 
 
 # ---------------------------------------------------------------------------

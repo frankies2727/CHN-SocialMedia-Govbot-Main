@@ -55,6 +55,7 @@ from render_bill_card import render_card
 import post_to_bluesky as pb
 from post_to_bluesky import (
     _FILENAME_UNSAFE_RE,
+    _split_sentences,
     _stash_posted,
     _normalize,
     _slug,
@@ -236,6 +237,11 @@ def compose_instagram_caption(b: dict, summary: str, headline: str = "") -> tupl
     summary = (summary or "").strip()
     summary = _strip_act_name_echo(summary, display)
     summary = _strip_headline_echo(summary, display)
+    # Put each sentence on its own line so the (now much longer) caption reads as
+    # scannable lines instead of one dense wall of text.
+    sentences = _split_sentences(summary)
+    if len(sentences) > 1:
+        summary = "\n".join(s.strip() for s in sentences if s.strip())
 
     head = f"{emoji} {state_label} {ident_disp} — {display}"
     summary_block = (

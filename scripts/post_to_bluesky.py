@@ -54,6 +54,11 @@ POST_COPY_MAX_CHARS = int(os.environ.get("POST_COPY_MAX_CHARS", "240"))
 # lead post 1 and spill a continuation into the post-2 self-reply. Instagram sets
 # its own, larger target (it has a 2,200-char caption, not a per-post cap).
 DAILY_SUMMARY_CHARS = int(os.environ.get("DAILY_SUMMARY_CHARS", "450"))
+# Continuation cues for the 2-post daily thread so readers know a reply follows:
+# post 1 ends with CONT_SUFFIX, post 2 opens with CONT_PREFIX. Added only when a
+# post 2 actually exists. Shared by the Bluesky/X/Threads thread composers.
+CONT_SUFFIX = ".. .... .."
+CONT_PREFIX = ".. ... .."
 DRY_RUN = os.environ.get("DRY_RUN") == "1"
 # og:image fetching is paused by default. Set FETCH_OG_IMAGE=1 to re-enable
 # thumbnail scraping from bill-page URLs. When off, posts still get an external
@@ -3307,13 +3312,18 @@ def compose_thread(b: dict, summary: str, headline: str = "") -> tuple[str, str,
         display = _smart_truncate(display, max(0, MAX_POST - len(prefix)))
         head = f"{prefix}{display}".rstrip(" —")
 
+    # Reserve room for the continuation cues appended below (post 1 ends with
+    # CONT_SUFFIX, post 2 opens with CONT_PREFIX) so they never push past MAX_POST.
+    suffix_cost = len(f" {CONT_SUFFIX}")
+    prefix_cost = len(f"{CONT_PREFIX} ")
+
     # --- Post 1: head + leading summary that fits MAX_POST ---
-    p1_budget = MAX_POST - len(head) - 2  # 2 = "\n\n"
+    p1_budget = MAX_POST - len(head) - 2 - suffix_cost  # 2 = "\n\n"
     s_head, s_tail = _split_summary(summary, max(0, p1_budget)) if summary else ("", "")
-    if s_head and len(head) + 2 + len(s_head) > MAX_POST:
+    if s_head and len(head) + 2 + len(s_head) > MAX_POST - suffix_cost:
         # A single lead sentence longer than the post: trim it, and push the
         # trimmed-off remainder into the continuation so nothing is lost.
-        keep = _smart_truncate(s_head, max(0, MAX_POST - len(head) - 2))
+        keep = _smart_truncate(s_head, max(0, MAX_POST - len(head) - 2 - suffix_cost))
         s_tail = (s_head[len(keep):].strip() + (" " + s_tail if s_tail else "")).strip()
         s_head = keep
     post1 = head + (f"\n\n{s_head}" if s_head else "")
@@ -3322,11 +3332,16 @@ def compose_thread(b: dict, summary: str, headline: str = "") -> tuple[str, str,
     action_line = format_action_line(b["action_desc"], b["action_date"])
     link_block = f"\n\n{LINK_PREFIX}{LINK_ANCHOR}" if link else ""
     action_block = f"\n\n{action_line}" if action_line else ""
-    cont_budget = MAX_POST - len(action_block) - len(link_block) - 2
+    cont_budget = MAX_POST - len(action_block) - len(link_block) - 2 - prefix_cost
     if s_tail and len(s_tail) > cont_budget:
         s_tail = _smart_truncate(s_tail, max(0, cont_budget))
     post2 = f"{s_tail}{action_block}{link_block}" if s_tail else f"{action_line}{link_block}"
     post2 = post2.strip()
+
+    # Continuation cues — only when there is a post 2 to point readers to.
+    if post2:
+        post1 = f"{post1} {CONT_SUFFIX}"
+        post2 = f"{CONT_PREFIX} {post2}"
 
     state_name = STATE_FULL_NAME.get(b["state"], b["state"] or "Bill")
     embed_title = f"{state_name} {ident_disp}"[:300]
