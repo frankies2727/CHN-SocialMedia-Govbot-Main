@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Mr. DiDomenico, a petition (accompanied by bill, Senate, No. 3137) (subject to Joint Rule 9 and Joint Rule 12) of Sal N. DiDomenico and Daniel J. Ryan for legislation to provide for improved public access and climate resiliency on the Mystic River and increasing the utilization of the designated port area.  Environment and Natural Resources.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S3137",
+    "legislative_session": "194th",
+    "title": "An Act providing for improved public access and climate resiliency on the Mystic River and increasing the utilization of the designated port area"
+  },
+  "id": "S3137",
+  "log": {
+    "action": {
+      "classifications": [
+        "reading-1",
+        "reading-2"
+      ],
+      "description": "Read, rules suspended, read second and ordered to a third reading",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-13",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/S3137"
+        }
+      ]
+    },
+    "bill_id": "S3137"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/S3137/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/S3137/logs/20260713T000000Z_read_rules_suspended_read_second_and_ordered_to_a_third_reading.json"
+  },
+  "timestamp": "20260713T000000Z"
+}

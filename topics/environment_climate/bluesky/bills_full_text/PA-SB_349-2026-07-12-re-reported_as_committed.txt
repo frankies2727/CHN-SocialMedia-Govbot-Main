@@ -1,0 +1,618 @@
+THE GENERAL ASSEMBLY OF PENNSYLVANIA
+
+SENATE BILL
+No. 349
+
+J. WARD, DUSH, VOGEL AND STEFANO, FEBRUARY 26, 2025
+REFERRED TO ENVIRONMENTAL RESOURCES AND ENERGY,
+FEBRUARY 26, 2025
+AN ACT
+
+Amending Title 27 (Environmental Resources) of the Pennsylvania
+Consolidated Statutes, in environmental protection, providing
+for decommissioning of solar energy facilities.
+The General Assembly of the Commonwealth of Pennsylvania
+hereby enacts as follows:
+Section 1.
+
+Title 27 of the Pennsylvania Consolidated
+
+Statutes is amended by adding a chapter to read:
+
+CHAPTER 43
+
+DECOMMISSIONING OF SOLAR ENERGY FACILITIES
+
+Sec.
+
+4301.
+
+Definitions.
+
+4302.
+
+Decommissioning requirements in solar energy facility
+
+agreements.
+4303.
+
+Financial assurance requirements in solar energy facility
+agreements.
+
+4304.
+
+Form and content of decommissioning plans.
+
+4305.
+
+Prevention of forced labor.
+
+4306.
+
+Preemption of local ordinances and regulations.
+
+4307.
+
+§ 4301.
+
+Applicability.
+Definitions.
+
+The following words and phrases when used in this chapter
+
+shall have the meanings given to them in this section unless the
+
+context clearly indicates otherwise:
+
+"Commencement of construction."
+
+The moment when a grantee
+
+issues a full notice to proceed order to the construction
+
+contractor.
+
+"Decommissioning plan."
+
+A document on file with the county
+
+recorder of deeds detailing the steps that will be taken to
+
+decommission a solar energy facility and the amount, form and
+
+timing of financial assurance.
+
+"Department."
+
+the Commonwealth.
+
+"Grantee."
+
+The Department of Environmental Protection of
+
+The owner of a solar energy facility on leased
+
+property.
+"Professional engineer."
+
+As defined in section 2(e) of the
+
+act of May 23, 1945 (P.L.913, No.367), known as the Engineer,
+
+Land Surveyor and Geologist Registration Law.
+
+"Solar energy facility."
+
+The development or construction of
+
+a facility that utilizes solar energy to produce or distribute
+
+energy.
+
+"Solar energy facility agreement."
+
+A lease agreement between
+
+a grantee and a surface property owner that authorizes the
+
+grantee to operate a solar energy facility on leased property.
+
+§ 4302.
+
+Decommissioning requirements in solar energy facility
+agreements.
+
+A solar energy facility agreement executed after the
+
+effective date of this section shall provide that the grantee is
+
+responsible for decommissioning the grantee's solar energy
+
+facility on the surface property owner's property in accordance
+
+with this chapter no later than 18 months after the facility has
+
+ceased producing electricity, except for an instance when the
+
+grantee is actively working to recommence production of
+
+electricity, including an instance after the occurrence of a
+
+force majeure or similar event.
+
+§ 4303.
+
+Financial assurance requirements in solar energy
+facility agreements.
+
+(a)
+
+Proof of financial assurance.--A grantee who executes a
+
+solar energy facility agreement on or after the effective date
+
+of this subsection shall provide a decommissioning plan, submit
+
+proof of financial assurance to the county recorder of deeds and
+
+provide notice to the surface property owner party to the solar
+
+energy facility agreement. The financial assurance shall conform
+
+to the requirements of this chapter to secure the performance of
+
+the grantee's obligation to decommission the grantee's solar
+
+energy facility. If the grantee does not fulfill the grantee's
+
+obligation to decommission the solar energy facility, the
+
+financial assurance shall be made payable to the surface
+
+property owner.
+
+(b)
+
+Amount of financial assurance.--The amount of financial
+
+assurance shall be equal to the estimated cost to decommission
+
+the solar energy facility. The amount of financial assurance
+
+shall be calculated and updated every five years by a third-
+
+party professional engineer retained by the grantee from a list
+
+of professional engineers compiled by the department and
+
+published on the department's publicly accessible Internet
+
+website.
+
+(c)
+
+Delivery.--A grantee shall deliver a decommissioning
+
+plan and proof of financial assurance to the county recorder of
+
+deeds in accordance with the following:
+(1)
+
+No later than 30 days before the commencement of
+
+construction of the solar energy facility, the grantee shall
+
+provide the decommissioning plan and proof of financial
+
+assurance to the county recorder of deeds in an amount equal
+
+to 10% of the estimated cost of decommissioning as determined
+
+by a third-party professional engineer.
+
+(2)
+
+On or before the fifth anniversary of the
+
+commencement of construction of the solar energy facility,
+
+the grantee shall provide an updated decommissioning plan and
+
+proof of financial assurance to the county recorder of deeds
+
+in an amount equal to 10% of the estimated cost of
+
+decommissioning as determined by a third-party professional
+
+engineer.
+
+(3)
+
+On or before the 10th anniversary of the
+
+commencement of construction of the solar energy facility,
+
+the grantee shall provide an updated decommissioning plan and
+
+proof of financial assurance to the county recorder of deeds
+
+in an amount equal to 40% of the estimated cost of
+
+decommissioning, less the facility's salvage value, except
+
+that the required proof of financial assurance shall not be
+
+less than 25% of the total estimated cost of decommissioning
+
+as determined by a third-party professional engineer.
+
+(4)
+
+On or before the 15th anniversary of the
+
+commencement of construction of the solar energy facility,
+
+the grantee shall provide an updated decommissioning plan and
+
+proof of financial assurance to the county recorder of deeds
+
+in an amount equal to 60% of the estimated cost of
+
+decommissioning, less the facility's salvage value, except
+
+that the required proof of financial assurance shall not be
+
+less than 40% of the total estimated cost of decommissioning,
+
+as determined by a third-party professional engineer.
+
+(5)
+
+On or before the 20th anniversary of the
+
+commencement of construction of the solar energy facility,
+
+the grantee shall provide an updated decommissioning plan and
+
+proof of financial assurance to the county recorder of deeds
+
+in an amount equal to 80% of the estimated cost of
+
+decommissioning, less the facility's salvage value, except
+
+that the required proof of financial assurance shall not be
+
+less than 60% of the total estimated cost of decommissioning,
+
+as determined by a third-party professional engineer.
+
+(6)
+
+On or before the 25th anniversary of the
+
+commencement of construction of the solar energy facility,
+
+the grantee shall provide an updated decommissioning plan and
+
+proof of financial assurance to the county recorder of deeds
+
+in an amount equal to 100% of the estimated cost of
+
+decommissioning, less the facility's salvage value, except
+
+that the required proof of financial assurance shall not be
+
+less than 70% of the total estimated cost of decommissioning,
+
+as determined by a third-party professional engineer.
+
+(7)
+
+The calculation of the salvage value of a solar
+
+energy facility by a third-party professional engineer shall
+
+be limited to salvageable steel, aluminum and copper.
+
+(d)
+
+Forms of financial assurance.--Any of the following
+
+shall be an acceptable form of financial assurance:
+
+(1)
+
+An escrow account.
+
+(2)
+
+A certificate of deposit or an automatically
+
+renewable, irrevocable letter of credit from a financial
+
+institution chartered or authorized to do business in this
+
+Commonwealth and regulated and examined by a Federal agency
+
+or the Commonwealth.
+
+(3)
+
+A bond executed between the grantee and a corporate
+
+surety licensed to do business in this Commonwealth.
+
+(4)
+
+A negotiable bond of the Federal Government, the
+
+Commonwealth or a municipality within this Commonwealth.
+
+(e)
+
+Transferability.--A decommissioning plan, the associated
+
+financial assurance and the salvage value of a solar energy
+
+facility to reduce the financial assurance may not be separated
+
+from the solar energy facility through a change in grantee
+
+ownership. The new grantee shall submit proof of financial
+
+assurance in accordance with subsection (a). The prior grantee
+
+may not release or revoke the prior grantee's financial
+
+assurance until the new grantee's proof of financial assurance
+
+is filed with the county recorder of deeds and notice is
+
+provided to the surface property owner party to the solar energy
+
+facility agreement.
+
+§ 4304.
+
+(a)
+
+Form and content of decommissioning plans.
+Development of form.-(1)
+
+Within 180 days of the effective date of this
+
+paragraph, the department shall, by regulation and in
+
+consultation with the solar energy industry, develop a
+
+provisional standard form for a decommissioning plan and
+
+financial assurance to be filed with the county recorder of
+
+deeds in accordance with this chapter. In order to facilitate
+
+the prompt implementation of this chapter, regulations
+
+promulgated to develop a provisional standard form under this
+
+paragraph shall be deemed temporary regulations. Temporary
+
+regulations promulgated under this paragraph shall not be
+
+subject to any of the following:
+
+(i)
+
+Section 612 of the act of April 9, 1929
+
+(P.L.177, No.175), known as The Administrative Code of
+
+1929.
+
+(ii)
+
+Sections 201, 202, 203, 204 and 205 of the act
+
+of July 31, 1968 (P.L.769, No.240), referred to as the
+
+Commonwealth Documents Law.
+
+(iii)
+
+Sections 204(b) and 301(10) of the act of
+
+October 15, 1980 (P.L.950, No.164), known as the
+
+Commonwealth Attorneys Act.
+
+(iv)
+
+The act of June 25, 1982 (P.L.633, No.181),
+
+known as the Regulatory Review Act.
+
+(2)
+
+After the promulgation of the temporary regulations
+
+under paragraph (1), the department shall, by regulation and
+
+in consultation with the solar energy industry, develop a
+
+final standard form for a decommissioning plan and financial
+
+assurance to be filed with the county recorder of deeds in
+
+accordance with this chapter. The temporary regulations under
+
+paragraph (1) shall expire upon the promulgation of the final
+
+regulations under this paragraph, or two years after the
+
+effective date of this paragraph, whichever is later.
+
+(b)
+
+Contents.--The provisional standard form and final
+
+standard form under subsection (a) shall include all of the
+
+following provisions:
+
+(1)
+
+Unless the surface property owner and grantee
+
+mutually agree in writing on an alternative condition for
+
+restoring the property, the grantee's decommissioning plan
+
+shall include all of the following:
+
+(i)
+
+The removal of all non-utility-owned equipment,
+
+conduits, structures, fencing and foundations to a depth
+
+of at least three feet below grade. The grantee shall not
+
+be required to remove equipment and materials that the
+
+public utility requires to remain on site.
+
+(ii)
+
+The removal of graveled areas and access roads,
+
+unless the surface property owner requests in writing for
+
+graveled areas and access roads to stay in place.
+
+(iii)
+
+The restoration of the property to a condition
+
+reasonably similar to the property's condition before the
+
+commencement of construction, including the replacement
+
+of top soil removed or eroded on previously productive
+
+agricultural land.
+
+(iv)
+
+The reseeding of a cleared area, unless
+
+requested in writing by the surface property owner to not
+
+reseed due to plans for agricultural planting.
+
+(2)
+
+The required financial assurance under section 4303
+
+(relating to financial assurance requirements in solar energy
+
+facility agreements).
+
+(3)
+
+The grantee's attestation required under section
+
+(relating to prevention of forced labor).
+§ 4305.
+
+Prevention of forced labor.
+
+The grantee of a solar energy facility commenced on or after
+
+the effective date of this section shall attest to the grantee's
+
+compliance with the Uyghur Forced Labor Prevention Act (Public
+
+Law 117-78, 135 Stat. 1525) or any other Federal law, rule or
+
+regulation that restricts the import or use of goods, wares,
+
+articles or merchandise mined, produced or manufactured wholly
+
+or in part with forced labor.
+
+§ 4306.
+
+Preemption of local ordinances and regulations.
+
+The regulation of the decommissioning of solar energy
+
+facilities is a matter of general Statewide interest that
+
+requires uniform Statewide regulation. This chapter and the
+
+regulations promulgated under this chapter constitute a
+
+comprehensive plan with respect to all aspects of solar energy
+
+facility agreements, financial assurance and decommissioning
+
+plans associated with solar energy facilities within this
+
+Commonwealth. Any county, municipal or other local government
+
+ordinance or regulation that materially impedes the purposes of
+
+this chapter shall be preempted and shall be without force and
+
+effect.
+
+§ 4307.
+
+Applicability.
+
+The requirements under this chapter shall not apply to any of
+the following:
+(1)
+
+A solar energy facility with a nameplate capacity of
+
+two megawatts AC or less.
+(2)
+
+A customer-generator as defined in section 2 of the
+
+act of November 30, 2004 (P.L.1672, No.213), known as the
+
+Alternative Energy Portfolio Standards Act.
+
+(3)
+
+An owner or operator of a normal agricultural
+
+operation as defined in section 2 of the act of June 10, 1982
+
+(P.L.454, No.133), referred to as the Right-to-Farm Law, who
+
+owns and operates a solar energy facility on the normal
+
+agricultural operation premises, regardless of the location
+
+or consumption of the energy generated.
+
+Section 2.
+
+(1)
+
+This act shall take effect as follows:
+
+The following shall take effect immediately:
+
+The addition of 27 Pa.C.S. § 4304.
+
+This section.
+
+(2)
+
+The remainder of this act shall take effect in 180
+
+days.
