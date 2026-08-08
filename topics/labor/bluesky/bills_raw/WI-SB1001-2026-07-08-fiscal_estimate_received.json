@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1001",
+    "legislative_session": "2025",
+    "title": "Relating to: the establishment of a family and medical leave insurance program; family leave to care for a family member and for the active duty of a family member; the employers that must allow an employee to take family or medical leave; allowing a local government to adopt ordinances requiring employers to provide leave benefits; providing an exemption from emergency rule procedures; providing an exemption from rule-making procedures; granting rule-making authority; making an appropriation; and providing a penalty. (FE)"
+  },
+  "id": "SB1001",
+  "log": {
+    "action": {
+      "classifications": [
+        "receipt"
+      ],
+      "description": "Fiscal estimate received",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-08T05:00:00+00:00",
+      "session_id": "2025",
+      "sources": [
+        {
+          "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/sen/bill/sb1001"
+        }
+      ]
+    },
+    "bill_id": "SB1001"
+  },
+  "sources": {
+    "bill": "wi-legislation/country:us/state:wi/sessions/2025/bills/SB1001/metadata.json",
+    "log": "wi-legislation/country:us/state:wi/sessions/2025/bills/SB1001/logs/20260708T050000Z_fiscal_estimate_received.json"
+  },
+  "timestamp": "20260708T050000Z"
+}
