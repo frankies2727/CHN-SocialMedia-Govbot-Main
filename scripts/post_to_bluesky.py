@@ -43,6 +43,22 @@ POST_LIMIT = int(os.environ.get("POST_LIMIT", "4"))  # how many bluesky posts pe
 # year-old news as if it were fresh. Slow topics still have thousands
 # of candidates inside this window. Override via env for tuning.
 MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "32"))
+# Character budget the model is told to fill for the plain-English summary
+# (see topic.post_copy_system_prompt). 240 is the old single-post length; the
+# daily posters raise it so the 2-post thread — and Instagram's caption — can
+# carry a fuller rundown. Read at _post_copy() time, so a caller (or another
+# platform's script, via `pb.POST_COPY_MAX_CHARS = …`) sets it before
+# summarizing. The weekly digests leave it at the default.
+POST_COPY_MAX_CHARS = int(os.environ.get("POST_COPY_MAX_CHARS", "240"))
+# Summary length the daily THREAD posters (Bluesky/X/Threads) request: enough to
+# lead post 1 and spill a continuation into the post-2 self-reply. Instagram sets
+# its own, larger target (it has a 2,200-char caption, not a per-post cap).
+DAILY_SUMMARY_CHARS = int(os.environ.get("DAILY_SUMMARY_CHARS", "450"))
+# Continuation cues for the 2-post daily thread so readers know a reply follows:
+# post 1 ends with CONT_SUFFIX, post 2 opens with CONT_PREFIX. Added only when a
+# post 2 actually exists. Shared by the Bluesky/X/Threads thread composers.
+CONT_SUFFIX = ".. .... .."
+CONT_PREFIX = ".. ... .."
 DRY_RUN = os.environ.get("DRY_RUN") == "1"
 # og:image fetching is paused by default. Set FETCH_OG_IMAGE=1 to re-enable
 # thumbnail scraping from bill-page URLs. When off, posts still get an external
@@ -1743,6 +1759,7 @@ def _post_copy(b: dict) -> dict:
         user_prompt = f"{amendatory_note}{purpose_note}{topic_anchor_note}{home_state_line}Title: {title}\nBill text:\n{body[:char_cap]}"
 
     system_prompt = TOPIC.post_copy_system_prompt(
+        max_chars=POST_COPY_MAX_CHARS,
         amendatory=amendatory, home_state=state_name, federal=federal
     )
 
@@ -3242,6 +3259,152 @@ def compose_post(b: dict, summary: str, headline: str = "",
     return text, link, embed_title, embed_desc
 
 
+def _split_summary(summary: str, first_budget: int) -> tuple[str, str]:
+    """Split a summary into (head, tail) at a sentence boundary so `head` fits in
+    `first_budget` chars. `tail` is the remaining sentences (verbatim), "" when
+    the whole summary fits. If even the first sentence exceeds the budget it
+    becomes `head` on its own (the caller trims as a last resort) so a bill never
+    silently loses its lead sentence."""
+    summary = (summary or "").strip()
+    if len(summary) <= first_budget:
+        return summary, ""
+    sents = _split_sentences(summary)
+    if len(sents) <= 1:
+        return summary, ""
+    head_parts: list[str] = []
+    i = 0
+    while i < len(sents):
+        candidate = " ".join(head_parts + [sents[i]]).strip()
+        if head_parts and len(candidate) > first_budget:
+            break
+        head_parts.append(sents[i])
+        i += 1
+    return " ".join(head_parts).strip(), " ".join(sents[i:]).strip()
+
+
+def compose_thread(b: dict, summary: str, headline: str = "") -> tuple[str, str, str, str, str]:
+    """Compose the daily 2-post thread for a bill:
+
+      • post 1 — head (emoji + state + id + display) plus as much of the summary
+        as fits MAX_POST;
+      • post 2 (self-reply) — the summary's continuation (if any), then the
+        action line, then the bill link.
+
+    Returns (post1_text, post2_text, link, embed_title, embed_desc). post2_text
+    is "" only when there is no continuation, no action line, AND no link — the
+    caller then posts post 1 alone. The link embed rides on post 2."""
+    emoji = TOPIC.emoji_for(b)
+    link = link_for(b)
+    state_label = b["state"] or "?"
+    ident_disp = display_identifier(b["state"], b["identifier"])
+    display = best_display_text(b, headline=headline).strip()
+
+    summary = (summary or "").strip()
+    summary = _strip_act_name_echo(summary, display)
+    summary = _strip_headline_echo(summary, display)
+    if summary and _normalize(summary) == _normalize(display):
+        summary = ""
+
+    prefix = f"{emoji} {state_label} {ident_disp} — "
+    head = f"{prefix}{display}"
+    # Last-resort: if the head alone overflows, trim the display.
+    if len(head) > MAX_POST:
+        display = _smart_truncate(display, max(0, MAX_POST - len(prefix)))
+        head = f"{prefix}{display}".rstrip(" —")
+
+    # Reserve room for the continuation cues appended below (post 1 ends with
+    # CONT_SUFFIX, post 2 opens with CONT_PREFIX) so they never push past MAX_POST.
+    suffix_cost = len(f" {CONT_SUFFIX}")
+    prefix_cost = len(f"{CONT_PREFIX} ")
+
+    # --- Post 1: head + leading summary that fits MAX_POST ---
+    p1_budget = MAX_POST - len(head) - 2 - suffix_cost  # 2 = "\n\n"
+    s_head, s_tail = _split_summary(summary, max(0, p1_budget)) if summary else ("", "")
+    if s_head and len(head) + 2 + len(s_head) > MAX_POST - suffix_cost:
+        # A single lead sentence longer than the post: trim it, and push the
+        # trimmed-off remainder into the continuation so nothing is lost.
+        keep = _smart_truncate(s_head, max(0, MAX_POST - len(head) - 2 - suffix_cost))
+        s_tail = (s_head[len(keep):].strip() + (" " + s_tail if s_tail else "")).strip()
+        s_head = keep
+    post1 = head + (f"\n\n{s_head}" if s_head else "")
+
+    # --- Post 2: continuation + action line + link ---
+    action_line = format_action_line(b["action_desc"], b["action_date"])
+    link_block = f"\n\n{LINK_PREFIX}{LINK_ANCHOR}" if link else ""
+    action_block = f"\n\n{action_line}" if action_line else ""
+    cont_budget = MAX_POST - len(action_block) - len(link_block) - 2 - prefix_cost
+    if s_tail and len(s_tail) > cont_budget:
+        s_tail = _smart_truncate(s_tail, max(0, cont_budget))
+    post2 = f"{s_tail}{action_block}{link_block}" if s_tail else f"{action_line}{link_block}"
+    post2 = post2.strip()
+
+    # Continuation cues — only when there is a post 2 to point readers to.
+    if post2:
+        post1 = f"{post1} {CONT_SUFFIX}"
+        post2 = f"{CONT_PREFIX} {post2}"
+
+    state_name = STATE_FULL_NAME.get(b["state"], b["state"] or "Bill")
+    embed_title = f"{state_name} {ident_disp}"[:300]
+    embed_desc = (summary or _clean_for_llm(b["abstract"]) or display)[:280]
+    return post1, post2, link, embed_title, embed_desc
+
+
+def publish_thread(client: "BlueskyClient | None", b: dict, headline: str) -> bool:
+    """Compose and post a bill's 2-post daily thread: post 1 (headline + summary
+    lead), then a self-reply carrying the summary continuation + action line +
+    bill link (with the link embed card). Uses the DAILY_SUMMARY_CHARS-length
+    summary so there's genuinely more to say across the two posts.
+
+    Returns True when post 1 lands (or in dry-run) so the caller marks the bill
+    seen; False if post 1 fails so the caller skips it for a later retry. A
+    failed continuation is logged but still returns True — post 1 is already
+    live, and re-running would duplicate it."""
+    summary = summarize(b, max_chars=DAILY_SUMMARY_CHARS)
+    post1, post2, link, ec_title, ec_desc = compose_thread(b, summary, headline=headline)
+
+    thumb_blob = None
+    if client is not None and link and FETCH_OG_IMAGE:
+        fetched = fetch_og_image(link)
+        if fetched:
+            prepared = prepare_image_for_bluesky(*fetched)
+            if prepared:
+                thumb_blob = client.upload_blob(*prepared)
+                print(f"  IMG: {'✓ attached' if thumb_blob else '✗ upload failed'}")
+
+    print(f"\n--- {b['state'] or '?'} {b['identifier']} ({b['action_date']}) ---")
+    print(post1)
+    if post2:
+        print("  ↳ reply ↴")
+        print(post2)
+    if link:
+        print(f"    link: {link}")
+    print("---")
+
+    if client is None:
+        return True
+    try:
+        root = client.post(post1, "", "", "")
+        time.sleep(2)
+    except requests.HTTPError as e:
+        print(f"  ! post failed: {e.response.status_code} {e.response.text}", file=sys.stderr)
+        return False
+    except requests.RequestException as e:
+        print(f"  ! post failed (network): {e}", file=sys.stderr)
+        return False
+    print(f"  posted: {root.get('uri', '')}")
+
+    if post2:
+        ref = {"uri": root["uri"], "cid": root["cid"]}
+        try:
+            rep = client.post(post2, link, ec_title, ec_desc, thumb_blob=thumb_blob,
+                              reply={"root": ref, "parent": ref})
+            print(f"  ↳ reply posted: {rep.get('uri', '')}")
+        except requests.RequestException as e:
+            # The thread already has post 1; don't fail the bill over the reply.
+            print(f"  ! reply failed (post 1 is live): {e}", file=sys.stderr)
+    return True
+
+
 # ---------------------------------------------------------------------------
 # State persistence
 # ---------------------------------------------------------------------------
@@ -3554,47 +3717,11 @@ def _post_forced_bill(records: list[dict]) -> int:
     # Headline first so the summary's character budget can reserve the exact
     # head length, then ask the model for a summary that fits the leftover
     # space instead of writing 240 chars that compose_post truncates mid-clause.
+    # Headline + fuller summary, posted as a 2-post thread (post 1 = headline +
+    # summary lead; self-reply = summary continuation + action line + bill link).
     headline = shorten_title(b)
-    budget = summary_budget(b, headline)
-    summary = summarize(b, max_chars=budget) if budget >= MIN_SUMMARY_CHARS else ""
-    text, link, ec_title, ec_desc = compose_post(b, summary, headline=headline)
-
-    thumb_blob = None
-    if link and FETCH_OG_IMAGE:
-        print(f"  IMG: fetching og:image for {link}")
-        fetched = fetch_og_image(link)
-        if fetched:
-            img_bytes_raw, mime_raw = fetched
-            print(f"  IMG: downloaded {len(img_bytes_raw)//1024} KB ({mime_raw})")
-            prepared = prepare_image_for_bluesky(img_bytes_raw, mime_raw)
-            if prepared:
-                img_bytes, img_mime = prepared
-                if client:
-                    thumb_blob = client.upload_blob(img_bytes, img_mime)
-                    if thumb_blob:
-                        print(f"  IMG: ✓ attached ({len(img_bytes)//1024} KB, {img_mime})")
-                    else:
-                        print(f"  IMG: ✗ blob upload failed")
-                else:
-                    print(f"  IMG: [dry-run] would attach ({len(img_bytes)//1024} KB)")
-            else:
-                print(f"  IMG: ✗ couldn't fit under size cap")
-        else:
-            print(f"  IMG: ✗ no usable og:image found")
-
-    print(f"\n--- {b['state'] or '?'} {b['identifier']} ({b['action_date']}) ---")
-    print(text)
-    if link:
-        print(f"    link: {link}")
-    print("---")
-
-    if client:
-        try:
-            client.post(text, link, ec_title, ec_desc, thumb_blob=thumb_blob)
-        except requests.HTTPError as e:
-            print(f"  ! post failed: {e.response.status_code} {e.response.text}",
-                  file=sys.stderr)
-            return 1
+    if not publish_thread(client, b, headline):
+        return 1
 
     if SAVE_RAW:
         try:
@@ -3793,61 +3920,14 @@ def main() -> int:
             print(f"  ⤫ relevance gate: off-topic for '{TOPIC.name}', "
                   f"skipping {b['state'] or '?'} {b['identifier']}")
             continue
-        # Headline first so the summary's character budget can reserve the exact
-        # head length, then ask the model for a summary that fits the leftover
-        # space (rather than a fixed 240 chars compose_post would truncate).
-        headline = shorten_title(b)
-        budget = summary_budget(b, headline)
-        summary = summarize(b, max_chars=budget) if budget >= MIN_SUMMARY_CHARS else ""
-        text, link, ec_title, ec_desc = compose_post(b, summary, headline=headline)
-
-        thumb_blob = None
-        if link and FETCH_OG_IMAGE:
-            print(f"  IMG: fetching og:image for {link}")
-            fetched = fetch_og_image(link)
-            if fetched:
-                img_bytes_raw, mime_raw = fetched
-                print(f"  IMG: downloaded {len(img_bytes_raw)//1024} KB ({mime_raw})")
-                prepared = prepare_image_for_bluesky(img_bytes_raw, mime_raw)
-                if prepared:
-                    img_bytes, img_mime = prepared
-                    if client:
-                        thumb_blob = client.upload_blob(img_bytes, img_mime)
-                        if thumb_blob:
-                            print(f"  IMG: ✓ attached ({len(img_bytes)//1024} KB, {img_mime})")
-                        else:
-                            print(f"  IMG: ✗ blob upload failed")
-                    else:
-                        print(f"  IMG: [dry-run] would attach ({len(img_bytes)//1024} KB)")
-                else:
-                    print(f"  IMG: ✗ couldn't fit under size cap")
-            else:
-                print(f"  IMG: ✗ no usable og:image found")
-
-        print(f"\n--- {b['state'] or '?'} {b['identifier']} ({b['action_date']}) ---")
+        # Headline + fuller summary, posted as a 2-post thread (post 1 = headline
+        # + summary lead; self-reply = summary continuation + action line + bill
+        # link). publish_thread handles network/HTTP errors and returns False so
+        # a failed bill is skipped (not marked seen) for a later retry.
         print(f"    same_day_key: {b['same_day_key']}")
-        print(text)
-        if link:
-            print(f"    link: {link}")
-        print("---")
-
-        if client:
-            try:
-                client.post(text, link, ec_title, ec_desc, thumb_blob=thumb_blob)
-                time.sleep(2)
-            except requests.HTTPError as e:
-                print(f"  ! post failed: {e.response.status_code} {e.response.text}", file=sys.stderr)
-                continue
-            except requests.RequestException as e:
-                # Network-level failure (read timeout, connection reset, DNS) —
-                # bsky.social is intermittently slow. Skip this bill rather than
-                # letting the exception crash the whole topic run and abort the
-                # bills queued behind it. The bill isn't marked seen, so the next
-                # scheduled run retries it. We deliberately don't retry inline:
-                # createRecord isn't idempotent, and a read timeout can mean the
-                # post already landed server-side, so a retry risks duplicates.
-                print(f"  ! post failed (network): {e}", file=sys.stderr)
-                continue
+        headline = shorten_title(b)
+        if not publish_thread(client, b, headline):
+            continue
 
         # Posted (or previewed in dry-run) — count it toward POST_LIMIT so
         # gate-skipped bills are backfilled rather than shrinking the run.
@@ -3896,4 +3976,9 @@ if __name__ == "__main__":
         out_path.write_text(json.dumps(normalized), encoding="utf-8")
         print(f"Wrote {len(normalized)} normalized records to {out_path}")
         sys.exit(0)
+    # Daily Bluesky poster: ask the model for a fuller summary so the 2-post
+    # thread (post 1 lead + self-reply continuation) has more to say. Set here,
+    # not at module import, so the weekly digest — which imports this module and
+    # summarizes to its own tight per-card budget — keeps the default length.
+    POST_COPY_MAX_CHARS = DAILY_SUMMARY_CHARS
     sys.exit(main())

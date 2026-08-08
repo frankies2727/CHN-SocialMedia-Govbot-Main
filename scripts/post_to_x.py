@@ -22,8 +22,10 @@ import tweepy
 import time
 
 from topic import load_active_topic
+import post_to_bluesky as pb
 from post_to_bluesky import (
     _FILENAME_UNSAFE_RE,
+    _split_summary,
     _stash_posted,
     _format_date,
     _normalize,
@@ -43,6 +45,9 @@ from post_to_bluesky import (
     save_full_text,
     shorten_title,
     summarize,
+    DAILY_SUMMARY_CHARS,
+    CONT_SUFFIX,
+    CONT_PREFIX,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -304,6 +309,62 @@ def compose_x_post(b: dict, summary: str, headline: str = "",
     return text, url
 
 
+def compose_x_thread(b: dict, summary: str, headline: str = "") -> tuple[str, str]:
+    """2-post X thread for a bill:
+      • post 1 — head (emoji + state + id + display) + summary lead;
+      • post 2 (self-reply) — summary continuation + action line + bill URL.
+    Returns (post1_text, post2_text). Mirrors post_to_bluesky.compose_thread but
+    budgets with X's weighted character count (x_weighted_len / _weighted_truncate)
+    and keeps the URL inline in the reply (X renders it as a t.co link)."""
+    emoji = TOPIC.emoji_for(b)
+    url = link_for(b)
+    state_label = b["state"] or "?"
+    ident_disp = display_identifier(b["state"], b["identifier"])
+    display = best_display_text(b, headline=headline).strip()
+
+    summary = (summary or "").strip()
+    summary = _strip_act_name_echo(summary, display)
+    summary = _strip_headline_echo(summary, display)
+    if summary and _normalize(summary) == _normalize(display):
+        summary = ""
+
+    prefix = f"{emoji} {state_label} {ident_disp} — "
+    head = f"{prefix}{display}"
+    if x_weighted_len(head) > MAX_TWEET:
+        display = _weighted_truncate(display, MAX_TWEET - x_weighted_len(prefix))
+        head = f"{prefix}{display}".rstrip(" —")
+
+    # Reserve room for the continuation cues added below (post 1 ends with
+    # CONT_SUFFIX, post 2 opens with CONT_PREFIX) so they can't overflow MAX_TWEET.
+    suffix_cost = x_weighted_len(f" {CONT_SUFFIX}")
+    prefix_cost = x_weighted_len(f"{CONT_PREFIX} ")
+
+    # Post 1: head + leading summary that fits MAX_TWEET.
+    p1_budget = MAX_TWEET - x_weighted_len(head) - 2 - suffix_cost
+    s_head, s_tail = _split_summary(summary, max(0, p1_budget)) if summary else ("", "")
+    if s_head and x_weighted_len(head) + 2 + x_weighted_len(s_head) > MAX_TWEET - suffix_cost:
+        keep = _weighted_truncate(s_head, MAX_TWEET - x_weighted_len(head) - 2 - suffix_cost)
+        s_tail = (s_head[len(keep):].strip() + (" " + s_tail if s_tail else "")).strip()
+        s_head = keep
+    post1 = head + (f"\n\n{s_head}" if s_head else "")
+
+    # Post 2: continuation + action line + bill URL.
+    action_line = format_action_line(b["action_desc"], b["action_date"])
+    url_block = f"\n\n{url}" if url else ""
+    action_block = f"\n\n{action_line}" if action_line else ""
+    cont_budget = MAX_TWEET - x_weighted_len(action_block) - x_weighted_len(url_block) - 2 - prefix_cost
+    if s_tail and x_weighted_len(s_tail) > cont_budget:
+        s_tail = _weighted_truncate(s_tail, max(0, cont_budget))
+    post2 = f"{s_tail}{action_block}{url_block}" if s_tail else f"{action_line}{url_block}"
+    post2 = post2.strip()
+
+    # Continuation cues — only when there is a post 2 to point readers to.
+    if post2:
+        post1 = f"{post1} {CONT_SUFFIX}"
+        post2 = f"{CONT_PREFIX} {post2}"
+    return post1, post2
+
+
 # ---------------------------------------------------------------------------
 # Posting
 # ---------------------------------------------------------------------------
@@ -318,17 +379,19 @@ def build_client() -> tweepy.Client:
     )
 
 
-def post_tweet(client: tweepy.Client | None, text: str, reply_url: str = "",
+def post_tweet(client: tweepy.Client | None, text: str, reply_text: str = "",
                record: dict | None = None) -> bool:
-    """Post the main tweet, then (if ``reply_url`` is given) post a reply
-    containing just that URL. Returns True iff the main tweet was posted —
-    a failed reply is logged but does not flip the result, so the bill is
-    still recorded as posted and the URL ends up only missing from the
-    thread (better than re-posting the whole bill on the next run)."""
+    """Post the main tweet, then (if ``reply_text`` is given) post it as a
+    self-reply — the thread's 2nd post, carrying the summary continuation, the
+    action line, and the bill URL. Returns True iff the main tweet was posted —
+    a failed reply is logged but does not flip the result, so the bill is still
+    recorded as posted and only the 2nd post is missing from the thread (better
+    than re-posting the whole bill on the next run)."""
     if DRY_RUN or client is None:
         print(f"  [DRY RUN] skipping tweet ({x_weighted_len(text)} weighted chars)")
-        if reply_url:
-            print(f"  [DRY RUN] skipping link reply: {reply_url}")
+        if reply_text:
+            print(f"  [DRY RUN] skipping self-reply "
+                  f"({x_weighted_len(reply_text)} weighted chars)")
         return True
     try:
         resp = client.create_tweet(text=text)
@@ -342,13 +405,13 @@ def post_tweet(client: tweepy.Client | None, text: str, reply_url: str = "",
         if hasattr(e, 'response') and e.response is not None:
             print(f"   Response body: {e.response.text}", file=sys.stderr)
         return False
-    if reply_url:
+    if reply_text:
         try:
-            reply = client.create_tweet(text=reply_url, in_reply_to_tweet_id=tweet_id)
+            reply = client.create_tweet(text=reply_text, in_reply_to_tweet_id=tweet_id)
             reply_id = reply.data["id"]
-            print(f"  link reply: https://x.com/i/web/status/{reply_id}")
+            print(f"  ↳ reply: https://x.com/i/web/status/{reply_id}")
         except Exception as e:
-            print(f"  ! link reply failed: {e}", file=sys.stderr)
+            print(f"  ! self-reply failed (main tweet is live): {e}", file=sys.stderr)
     return True
 
 
@@ -420,18 +483,20 @@ def _post_forced_bill(records: list[dict], client: tweepy.Client | None) -> int:
 
     ensure_english_fields(b)
     headline = shorten_title(b)
-    budget = x_summary_budget(b, headline)
-    summary_text = summarize(b, max_chars=budget) if budget >= MIN_SUMMARY_CHARS else ""
-    text, url = compose_x_post(b, summary_text, headline=headline)
-    _stash_posted(b, text=text, link=url)
+    # Fuller summary posted as a 2-post thread: post 1 = headline + summary lead;
+    # self-reply = summary continuation + action line + bill URL.
+    summary_text = summarize(b, max_chars=DAILY_SUMMARY_CHARS)
+    post1, post2 = compose_x_thread(b, summary_text, headline=headline)
+    _stash_posted(b, text=post1, link=link_for(b))
 
     print(f"\n--- {b['state'] or '?'} {b['identifier']} ({b['action_date']}) ---")
-    print(text)
-    if url:
-        print(f"  ↳ reply: {url}")
+    print(post1)
+    if post2:
+        print("  ↳ reply ↴")
+        print(post2)
     print("---")
 
-    if not post_tweet(client, text, reply_url=url, record=b):
+    if not post_tweet(client, post1, reply_text=post2, record=b):
         return 1
 
     if SAVE_RAW:
@@ -653,18 +718,20 @@ def main() -> int:
                   f"skipping {b['state'] or '?'} {b['identifier']}")
             continue
         headline = shorten_title(b)
-        budget = x_summary_budget(b, headline)
-        summary_text = summarize(b, max_chars=budget) if budget >= MIN_SUMMARY_CHARS else ""
-        text, url = compose_x_post(b, summary_text, headline=headline)
-        _stash_posted(b, text=text, link=url)
+        # Fuller summary as a 2-post thread: post 1 = headline + summary lead;
+        # self-reply = summary continuation + action line + bill URL.
+        summary_text = summarize(b, max_chars=DAILY_SUMMARY_CHARS)
+        post1, post2 = compose_x_thread(b, summary_text, headline=headline)
+        _stash_posted(b, text=post1, link=link_for(b))
 
         print(f"\n--- {b['state'] or '?'} {b['identifier']} ({b['action_date']}) ---")
-        print(text)
-        if url:
-            print(f"  ↳ reply: {url}")
+        print(post1)
+        if post2:
+            print("  ↳ reply ↴")
+            print(post2)
         print("---")
 
-        if post_tweet(client, text, reply_url=url, record=b):
+        if post_tweet(client, post1, reply_text=post2, record=b):
             posted += 1
             if SAVE_STATE:
                 seen.add(b["dedup_key"])
@@ -702,4 +769,8 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+    # Ask the model for a fuller summary so the 2-post thread (post 1 lead +
+    # self-reply continuation) has more to say. Set on the shared post_to_bluesky
+    # module, which _post_copy reads when generating the cached headline+summary.
+    pb.POST_COPY_MAX_CHARS = DAILY_SUMMARY_CHARS
     sys.exit(main())
