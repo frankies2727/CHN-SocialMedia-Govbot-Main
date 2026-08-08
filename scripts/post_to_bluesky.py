@@ -1252,11 +1252,12 @@ def ensure_english_fields(b: dict) -> dict:
 # short metadata fields ensure_english_fields() handles, so a single LLM call
 # with the summary-sized output budget would truncate the translation. Translate
 # the body in bounded chunks instead — each with its own generous output budget —
-# and cache the English result. Only the leading window is translated: the
-# summarizer reads at most ~9k chars (amendatory) and the relevance gate ~3.5k,
-# so a wide cap covers every consumer while keeping the cost bounded even for a
-# very long PDF. Any tail past the cap is kept verbatim so the persisted
-# bills_full_text artifact stays complete.
+# and cache the English result. Only the leading window is translated, and the
+# summarizer reads that same window (char_cap in _post_copy), so whatever we
+# translate is exactly what the model can see — the cap sizes both. It stays
+# bounded so a very long PDF doesn't run up dozens of chunk translations; any
+# tail past the cap is kept verbatim so the persisted bills_full_text artifact
+# stays complete.
 FULLTEXT_TRANSLATE_MAX_CHARS = 18000
 _FULLTEXT_TRANSLATE_CHUNK_CHARS = 1800
 
@@ -1756,7 +1757,11 @@ def _post_copy(b: dict) -> dict:
     # instead of a wall of the amended statute's own boilerplate.
     if full_text:
         body = _clean_for_llm(_prepare_full_text_for_llm(full_text))
-        char_cap = 9000 if amendatory else 6000
+        # Read up to the full translated window (FULLTEXT_TRANSLATE_MAX_CHARS):
+        # whatever we translate to English, the summarizer should be able to see,
+        # so the operative provision is never cut off before the model reads it —
+        # including an amendatory bill's one new provision at the very end.
+        char_cap = FULLTEXT_TRANSLATE_MAX_CHARS
     else:
         source = abstract if abstract_usable else title
         body = _omnibus_digest(source) or _clean_for_llm(source)
