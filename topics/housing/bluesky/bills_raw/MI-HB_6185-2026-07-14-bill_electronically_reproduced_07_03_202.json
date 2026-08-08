@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6185",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Financial institutions: mortgage brokers and lenders"
+    ],
+    "title": "Financial institutions: mortgage brokers and lenders; consolidation of certain licensing statutes related to residential mortgages; make conforming changes in the occupational code. Amends secs. 2501, 2503 & 2603 of 1980 PA 299 (MCL 339.2501 et. seq.).   TIE BAR WITH: HB 6177'26"
+  },
+  "id": "HB 6185",
+  "log": {
+    "action": {
+      "description": "bill electronically reproduced 07/03/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-14",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6185"
+        }
+      ]
+    },
+    "bill_id": "HB 6185"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6185/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6185/logs/20260714T000000Z_bill_electronically_reproduced_07032026.json"
+  },
+  "timestamp": "20260714T000000Z"
+}

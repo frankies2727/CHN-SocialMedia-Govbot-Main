@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6154",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Retirement: state police"
+    ],
+    "title": "Retirement: state police; contributions into tier 2 account; modify. Amends sec. 42a of 1986 PA 182 (MCL 38.1642a)."
+  },
+  "id": "HB 6154",
+  "log": {
+    "action": {
+      "description": "bill electronically reproduced 07/03/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-14",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6154"
+        }
+      ]
+    },
+    "bill_id": "HB 6154"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6154/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6154/logs/20260714T000000Z_bill_electronically_reproduced_07032026.json"
+  },
+  "timestamp": "20260714T000000Z"
+}

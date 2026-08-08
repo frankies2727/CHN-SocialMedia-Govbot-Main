@@ -1,0 +1,497 @@
+HOUSE BILL NO. 6185
+
+July 03, 2026, Introduced by Reps. Alexander, Tisdel, Kuhn and Frisbie and referred to Committee
+on Finance.
+A bill to amend 1980 PA 299, entitled
+"Occupational code,"
+by amending sections 2501, 2503, and 2603 (MCL 339.2501, 339.2503,
+and 339.2603), section 2501 as amended by 2024 PA 122, section 2503
+as amended by 2016 PA 502, and section 2603 as amended by 2010 PA
+90.
+THE PEOPLE OF THE STATE OF MICHIGAN ENACT:
+
+Sec. 2501. As used in this article:
+
+(a) "Associate broker" or "associate real estate broker" means
+
+JJB
+
+H05171'25 h_HB6185_INTR_1
+
+omtxqh
+
+an individual who meets the requirements for licensure as a real
+
+estate broker under this article and who is licensed as an
+
+associate real estate broker under section 2505 to provide real
+
+estate brokerage services as an employee or independent contractor
+
+of a real estate broker.
+
+(b) "Business entity" means a person described in section
+105(5)(b) or (c), except a sole proprietorship.
+
+(c) "Classroom course" means an educational course of
+instruction that is provided at either of the following:
+
+(i) A physical location where instruction is offered and
+students and an instructor are present.
+
+(ii) A location where a student receives instruction provided
+by distance learning.
+
+(d) "Clock hour" means either of the following:
+
+(i) For a classroom course at a location described in
+
+subdivision (c)(i), a period of 50 to 60 minutes of actual classroom
+
+instruction, not including outside assignments and reading.
+
+(ii) For a classroom course at a location described in
+
+subdivision (c)(ii), the period required for a student to process
+
+the amount of material provided in 50 minutes of distance learning
+
+instruction.
+
+(e) "Control person" means an individual who is a sole
+
+proprietor, is a partner in a partnership or limited partnership,
+
+is an officer, director, or shareholder in a corporation, is a
+
+member or manager in a limited liability company, or holds a
+
+responsible position in any other form of business entity
+
+authorized under the laws of this state or the state in which the
+
+entity is organized or formed.
+
+(f) "Distance learning" means the technology and educational
+
+JJB
+
+H05171'25 h_HB6185_INTR_1
+
+omtxqh
+
+process used to provide instruction to a student when the student
+
+and the instructor are not necessarily physically present at the
+
+same time or place. The term Distance learning includes, but is not
+
+limited to, instruction provided through an interactive classroom,
+
+computer conferencing, or an interactive computer system.
+
+(g) "Employ" or "employment" means the relationship between a
+
+real estate broker and an associate real estate broker or a real
+
+estate salesperson which that may include an independent contractor
+
+relationship. The existence of an independent contractor
+
+relationship between a real estate broker and an individual
+
+licensed to the real estate broker does not relieve the real estate
+
+broker of the responsibility to supervise acts of the licensee that
+
+are regulated under this article.
+
+(h) "Independent contractor relationship" means a relationship
+
+between a real estate broker and an associate real estate broker or
+
+real estate salesperson that satisfies both of the following
+
+conditions:
+
+(i) A written agreement exists in which the real estate broker
+
+does not consider the associate real estate broker or real estate
+
+salesperson as an employee for federal and state income tax
+
+purposes.
+
+(ii) At least Not less than 75% of the annual compensation paid
+
+by the real estate broker to the associate real estate broker or
+
+real estate salesperson is from commissions from the sale of real
+
+estate.
+
+(i) "License cycle" means the term of a license issued under
+this article.
+
+(j) "Limited service agreement" means a written service
+
+provision agreement by which a real estate broker and client
+
+JJB
+
+H05171'25 h_HB6185_INTR_1
+
+omtxqh
+
+establish an agency relationship in which certain enumerated
+
+services, as set forth described in section 2512d(3)(b), (c), and
+
+(d), are knowingly waived in whole or part by the client.
+
+(k) "Negotiate the mortgage of real estate" means engaging in
+
+activity in connection with a mortgage that is not regulated under
+
+the any of the following:
+
+(i) For 6 months after the effective date of the residential
+
+mortgage licensing and supervision act, the mortgage brokers,
+
+lenders, and servicers licensing act, 1987 PA 173, MCL 445.1651 to
+
+445.1684. , the
+
+(ii) For 6 months after the effective date of the residential
+
+mortgage licensing and supervision act, the secondary mortgage loan
+
+act, 1981 PA 125, MCL 493.51 to MCL 493.81. , or the
+
+(iii) For 6 months after the effective date of the residential
+
+mortgage licensing and supervision act, the mortgage loan
+
+originator licensing act, 2009 PA 75, MCL 493.131 to 493.171.
+
+(iv) Beginning on the effective date of the residential
+
+mortgage licensing and supervision act, the residential mortgage
+
+licensing and supervision act.
+
+(l) A "nonprincipal" "Nonprincipal" of a real estate broker
+
+means a control person who is licensed as an associate real estate
+
+broker under this article, but is not designated as a principal
+
+under section 2505(1).
+
+(m) "Place of business" means a physical location that a real
+
+estate broker, by advertisement, signage, or otherwise, represents
+
+to the public is a place where clients and customers may consult or
+
+do business with a licensee.
+
+(n) "Pocket card" means the card that contains information
+about a licensee's license that the department provides under
+
+JJB
+
+H05171'25 h_HB6185_INTR_1
+
+omtxqh
+
+section 2506 when it the department issues a license under this
+
+article.
+
+(o) "Prelicensure course" means a course that is represented
+
+to the public as fulfilling, in whole or in part, the requirements
+
+of section 2504.
+
+(p) A "principal" "Principal" of a real estate broker means a
+
+control person who is licensed as an associate real estate broker
+
+and is designated as a principal under section 2505(1).
+
+(q) "Professional designation" means a certification from a
+
+real estate professional association that demonstrates that an
+
+individual has attained proven skills or education in a real estate
+
+occupational area and may include the right to use a title or
+
+letters after the licensee's name that represent the designation
+
+awarded by the certifying entity.
+
+(r) "Property management" means leasing or renting, or
+
+offering to lease or rent, real property of others for a fee,
+
+commission, compensation, or other valuable consideration pursuant
+
+to under a property management employment contract.
+
+(s) "Property management account" means an interest-bearing or
+
+noninterest-bearing account or instrument used in the operation of
+
+property management.
+
+(t) "Property management employment contract" means a written
+
+agreement that is entered into between a real estate broker and
+
+client concerning the real estate broker's employment as a property
+
+manager for the client; that describes the real estate broker's
+
+duties, responsibilities, and activities as a property manager; and
+
+that describes the handling, management, safekeeping, investment,
+
+disbursement, and use of property management money, funds, and
+
+accounts.
+
+JJB
+
+H05171'25 h_HB6185_INTR_1
+
+omtxqh
+
+(u) "Real estate broker" means an individual or business
+
+entity that, with intent to collect or receive a fee, compensation,
+
+or valuable consideration, sells or offers for sale, buys or offers
+
+to buy, provides or offers to provide market analyses of, lists or
+
+offers or attempts to list, or negotiates the purchase, sale, or
+
+exchange of real estate; that negotiates the mortgage of real
+
+estate; that negotiates for the construction of a building on real
+
+estate; that leases or offers or rents or offers for rent real
+
+estate or the improvements on the real estate for others, as a
+
+whole or partial vocation; that engages in property management as a
+
+whole or partial vocation; that sells or offers for sale, buys or
+
+offers to buy, leases or offers to lease, or negotiates the
+
+purchase or sale or exchange of a business, business opportunity,
+
+or the goodwill of an existing business for others; or that, as
+
+owner or otherwise, engages in the sale of real estate as a
+
+principal vocation.
+
+(v) "Real estate salesperson" means an individual who for
+
+compensation or valuable consideration is employed either directly
+
+or indirectly by a licensed real estate broker to sell or offer to
+
+sell, buy or offer to buy, provide or offer to provide market
+
+analyses of, list or offer or attempt to list, or negotiate the
+
+purchase, sale, or exchange of real estate; to negotiate the
+
+mortgage of real estate; to negotiate for the construction of a
+
+building on real estate, or to lease or offer to lease, or rent or
+
+offer for rent, real estate; who is employed by a real estate
+
+broker to engage in property management; or who sells or offers for
+
+sale, buys or offers to buy, leases or offers to lease, or
+
+negotiates the purchase or sale or exchange of a business, business
+
+opportunity, or the goodwill of an existing business for others, as
+
+JJB
+
+H05171'25 h_HB6185_INTR_1
+
+omtxqh
+
+a whole or partial vocation.
+
+(w) "Right-to-list home sale agreement" means an agreement
+
+between an owner of residential real estate and a real estate
+
+broker that obligates the owner to list the residential real estate
+
+for sale with the real estate broker at a future date in exchange
+
+for consideration. Right-to-list home sale agreement does not
+
+include a service provision agreement. As used in this subdivision,
+
+"residential real estate" means the type of real estate described
+
+in section 2517(3). Right-to-list home sale agreement does not
+
+include a service provision agreement.
+
+(x) "Service provision agreement" means a buyer agency
+
+agreement or listing agreement that is executed by a real estate
+
+broker and a client and that establishes an agency relationship.
+
+(y) "Sponsor" means a person that represents to the public
+
+that the courses it the person conducts for purposes of this
+
+article fulfill the requirements of section 2504a for continuing
+
+education.
+
+Sec. 2503. (1) This article does not apply to a person that,
+
+as owner, sells or offers for sale a detached, single family
+
+dwelling, duplex, triplex, or quadruplex, that has never been
+
+occupied and that was built by the person while licensed under
+
+article 24. This article does not apply to an owner or lessor, an
+
+attorney-in-fact acting under a duly executed and recorded power of
+
+attorney from the owner or lessor, or a person appointed by a
+
+court, that performs an act as a real estate broker or real estate
+
+salesperson with reference to property owned by it, unless
+
+performed as a principal vocation not through a licensed real
+
+estate broker.
+
+(2) This article does not apply to an attorney-at-law who is
+
+JJB
+
+H05171'25 h_HB6185_INTR_1
+
+omtxqh
+
+rendering services as an attorney-at-law; to a receiver, trustee in
+
+bankruptcy, administrator, executor, a person selling real estate
+
+under order of a court; or to a trustee selling under a deed of
+
+trust, unless the trustee makes repeated or successive sales of
+
+real estate not through a licensed real estate broker.
+
+(3) This article does not apply to a person that is regulated
+
+under the either of the following and that does not perform any
+
+other act requiring a license as a real estate broker, associate
+
+broker, or real estate salesperson:
+
+(a) For 6 months after the effective date of the residential
+
+mortgage licensing and supervision act, the mortgage brokers,
+
+lenders, and servicers licensing act, 1987 PA 173, MCL 445.1651 to
+
+445.1684. , and that does not perform any other act requiring a
+
+license as a real estate broker, associate broker, or real estate
+
+salesperson.
+
+(b) Beginning on the effective date of the residential
+
+mortgage licensing and supervision act, the residential mortgage
+
+licensing and supervision act.
+
+Sec. 2603. (1) There is created a board of real estate
+appraisers.
+
+(2) Of those board members who are appraisers, 3 shall must be
+
+certified general real estate appraisers, 1 shall must be a
+
+certified residential real estate appraiser, and 2 shall must be
+
+either state licensed real estate appraisers or additional
+
+certified residential real estate appraisers. At least 1 of those
+
+appraisers may be employed by a any of the following:
+
+(a) A state or nationally chartered bank. , a
+
+(b) A state or federally chartered savings and loan or savings
+
+bank. , a
+
+JJB
+
+H05171'25 h_HB6185_INTR_1
+
+omtxqh
+
+(c) A state or federally chartered credit union. , an
+
+(d) An entity of the federally chartered farm credit system. ,
+
+or an
+
+(e) An entity regulated under the either of the following:
+
+(i) For 6 months after the effective date of the residential
+
+mortgage licensing and supervision act, the mortgage brokers,
+
+lenders, and servicers licensing act, 1987 PA 173, MCL 445.1651 to
+
+445.1684.
+
+(ii) Beginning on the effective date of the residential
+
+mortgage licensing and supervision act, the residential mortgage
+
+licensing and supervision act.
+
+Enacting section 1. This amendatory act does not take effect
+
+unless House Bill No. 6177 (request no. H05171'25) of the 103rd
+
+Legislature is enacted into law.
+
+JJB
+
+Final Page
+H05171'25 h_HB6185_INTR_1
+
+omtxqh
