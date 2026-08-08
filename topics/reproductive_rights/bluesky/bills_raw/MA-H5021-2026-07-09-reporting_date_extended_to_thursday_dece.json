@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H5021",
+    "legislative_session": "194th",
+    "title": "An Act to expand the doula workforce"
+  },
+  "id": "H5021",
+  "log": {
+    "action": {
+      "description": "Reporting date extended to Thursday, December 31, 2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-09",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/H5021"
+        }
+      ]
+    },
+    "bill_id": "H5021"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H5021/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H5021/logs/20260709T000000Z_reporting_date_extended_to_thursday_december_31_2026.json"
+  },
+  "timestamp": "20260709T000000Z"
+}

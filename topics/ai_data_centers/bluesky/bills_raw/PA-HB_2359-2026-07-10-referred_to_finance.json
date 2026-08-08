@@ -1,0 +1,59 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2359",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending the act of March 4, 1971 (P.L.6, No.2), entitled \"An act relating to tax reform and State taxation by codifying and enumerating certain subjects of taxation and imposing taxes thereon; providing procedures for the payment, collection, administration and enforcement thereof; providing for tax credits in certain cases; conferring powers and imposing duties upon the Department of Revenue, certain employers, fiduciaries, individuals, persons, corporations and other entities; prescribing crimes, offenses and penalties,\" in computer data center equipment incentive program, further providing for definitions, for application for certification, for eligibility requirements relating to sales and use tax refund program, for notification, for eligibility requirements relating to sales and use tax exemption program and for notification and records."
+  },
+  "id": "HB 2359",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Finance",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-10T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hb2359"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1296"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=62&rollcallid=2696&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1277"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1276"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1275"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1231"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=67&rollcallid=2567&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=69&rollcallid=2473&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=69&rollcallid=2472&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "HB 2359"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB2359/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB2359/logs/20260710T040000Z_referred_to_finance.json"
+  },
+  "timestamp": "20260710T040000Z"
+}

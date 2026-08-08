@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 8893",
+    "legislative_session": "119",
+    "title": "Protecting Consumers from Deceptive AI Act"
+  },
+  "id": "HR 8893",
+  "log": {
+    "action": {
+      "description": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 35 - 0.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-07T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr8893.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/8893"
+        }
+      ]
+    },
+    "bill_id": "HR 8893"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR8893/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR8893/logs/20260707T040000Z_ordered_to_be_reported_in_the_nature_of_a_substitute_amended_by_the_yeas_and_nays_35_0.json"
+  },
+  "timestamp": "20260707T040000Z"
+}
