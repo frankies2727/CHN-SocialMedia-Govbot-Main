@@ -37,8 +37,10 @@ import requests
 
 from topic import load_active_topic
 from account_ledger import AccountLedger
+import post_to_bluesky as pb
 from post_to_bluesky import (
     _FILENAME_UNSAFE_RE,
+    _split_summary,
     _stash_posted,
     _format_date,
     _normalize,
@@ -59,6 +61,7 @@ from post_to_bluesky import (
     save_full_text,
     shorten_title,
     summarize,
+    DAILY_SUMMARY_CHARS,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -259,6 +262,53 @@ def compose_threads_post(b: dict, summary: str, headline: str = "",
     return text, url
 
 
+def compose_threads_thread(b: dict, summary: str, headline: str = "",
+                           include_topic: bool = True) -> tuple[str, str, str]:
+    """2-post Threads thread for a bill:
+      • post 1 — topic label + head (state + id + display) + summary lead;
+      • post 2 (self-reply) — summary continuation + action line (the bill URL is
+        returned separately and attached to post 2 as a link preview).
+    Returns (post1_text, post2_text, bill_url). Mirrors compose_thread but budgets
+    with the 490-char Threads body cap."""
+    url = link_for(b)
+    state_label = b["state"] or "?"
+    ident_disp = display_identifier(b["state"], b["identifier"])
+    display = best_display_text(b, headline=headline).strip()
+
+    summary = (summary or "").strip()
+    summary = _strip_act_name_echo(summary, display)
+    summary = _strip_headline_echo(summary, display)
+    if summary and _normalize(summary) == _normalize(display):
+        summary = ""
+
+    if include_topic:
+        head_lead = f"{topic_header(b)}\n{state_label} {ident_disp} — "
+    else:
+        head_lead = f"{TOPIC.emoji_for(b)} {state_label} {ident_disp} — "
+    head = f"{head_lead}{display}"
+    if len(head) > MAX_THREADS:
+        display = _smart_truncate(display, max(0, MAX_THREADS - len(head_lead)))
+        head = f"{head_lead}{display}".rstrip(" —")
+
+    # Post 1: head + leading summary that fits MAX_THREADS.
+    p1_budget = MAX_THREADS - len(head) - 2
+    s_head, s_tail = _split_summary(summary, max(0, p1_budget)) if summary else ("", "")
+    if s_head and len(head) + 2 + len(s_head) > MAX_THREADS:
+        keep = _smart_truncate(s_head, max(0, MAX_THREADS - len(head) - 2))
+        s_tail = (s_head[len(keep):].strip() + (" " + s_tail if s_tail else "")).strip()
+        s_head = keep
+    post1 = head + (f"\n\n{s_head}" if s_head else "")
+
+    # Post 2: continuation + action line (URL rides as link_attachment).
+    action_line = format_action_line(b["action_desc"], b["action_date"])
+    action_block = f"\n\n{action_line}" if action_line else ""
+    cont_budget = MAX_THREADS - len(action_block) - 2
+    if s_tail and len(s_tail) > cont_budget:
+        s_tail = _smart_truncate(s_tail, max(0, cont_budget))
+    post2 = f"{s_tail}{action_block}" if s_tail else action_line
+    return post1, post2.strip(), url
+
+
 # ---------------------------------------------------------------------------
 # Posting (Threads two-step container -> publish)
 # ---------------------------------------------------------------------------
@@ -354,6 +404,35 @@ def post_thread(text: str, link_url: str = "", record: dict | None = None) -> bo
     return True
 
 
+def post_thread_pair(post1: str, post2: str, link_url: str = "",
+                     record: dict | None = None) -> bool:
+    """Post the 2-post daily thread: post 1 first, then post 2 as a self-reply
+    (chained via reply_to_id) carrying the summary continuation + action line,
+    with the bill URL attached to post 2 as a link preview. Returns True iff
+    post 1 published (its permalink is stashed on the record); a failed reply is
+    logged but doesn't fail the bill — post 1 is already live."""
+    if DRY_RUN:
+        print(f"  [DRY RUN] skipping Threads post ({len(post1)} chars)")
+        if post2:
+            print(f"  [DRY RUN] skipping self-reply ({len(post2)} chars)")
+        if link_url:
+            print(f"  [DRY RUN] link_attachment on reply: {link_url}")
+        return True
+    root_id = publish_post(post1)
+    if not root_id:
+        return False
+    print(f"  posted to Threads (media id {root_id})")
+    if record is not None:
+        _stash_posted(record, post_url=_threads_permalink(root_id) or None)
+    if post2 or link_url:
+        reply_id = publish_post(post2, link_url=link_url, reply_to_id=root_id)
+        if reply_id:
+            print(f"  ↳ reply (media id {reply_id})")
+        else:
+            print("  ! self-reply failed (post 1 is live)", file=sys.stderr)
+    return True
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -424,18 +503,23 @@ def _post_forced_bill(records: list[dict]) -> int:
 
     ensure_english_fields(b)
     headline = shorten_title(b)
-    budget = threads_summary_budget(b, headline, include_topic=True)
-    summary_text = summarize(b, max_chars=budget) if budget >= MIN_SUMMARY_CHARS else ""
-    text, url = compose_threads_post(b, summary_text, headline=headline, include_topic=True)
-    _stash_posted(b, text=text, link=url)
+    # Fuller summary as a 2-post thread: post 1 = topic + headline + summary lead;
+    # self-reply = summary continuation + action line (+ bill link preview).
+    summary_text = summarize(b, max_chars=DAILY_SUMMARY_CHARS)
+    post1, post2, url = compose_threads_thread(b, summary_text, headline=headline,
+                                               include_topic=True)
+    _stash_posted(b, text=post1, link=url)
 
     print(f"\n--- {b['state'] or '?'} {b['identifier']} ({b['action_date']}) ---")
-    print(text)
+    print(post1)
+    if post2:
+        print("  ↳ reply ↴")
+        print(post2)
     if url:
         print(f"  ↳ link_attachment: {url}")
     print("---")
 
-    if not post_thread(text, link_url=url, record=b):
+    if not post_thread_pair(post1, post2, link_url=url, record=b):
         return 1
 
     if SAVE_RAW:
@@ -662,18 +746,23 @@ def main() -> int:
                   f"skipping {b['state'] or '?'} {b['identifier']}")
             continue
         headline = shorten_title(b)
-        budget = threads_summary_budget(b, headline, include_topic=True)
-        summary_text = summarize(b, max_chars=budget) if budget >= MIN_SUMMARY_CHARS else ""
-        text, url = compose_threads_post(b, summary_text, headline=headline, include_topic=True)
-        _stash_posted(b, text=text, link=url)
+        # Fuller summary as a 2-post thread: post 1 = topic + headline + summary
+        # lead; self-reply = summary continuation + action line (+ link preview).
+        summary_text = summarize(b, max_chars=DAILY_SUMMARY_CHARS)
+        post1, post2, url = compose_threads_thread(b, summary_text, headline=headline,
+                                                   include_topic=True)
+        _stash_posted(b, text=post1, link=url)
 
         print(f"\n--- {b['state'] or '?'} {b['identifier']} ({b['action_date']}) ---")
-        print(text)
+        print(post1)
+        if post2:
+            print("  ↳ reply ↴")
+            print(post2)
         if url:
             print(f"  ↳ link_attachment: {url}")
         print("---")
 
-        if post_thread(text, link_url=url, record=b):
+        if post_thread_pair(post1, post2, link_url=url, record=b):
             posted += 1
             if SAVE_STATE:
                 siblings = same_day_siblings.get(b["same_day_key"], ())
@@ -725,4 +814,8 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+    # Ask the model for a fuller summary so the 2-post thread (post 1 lead +
+    # self-reply continuation) has more to say. Set on the shared post_to_bluesky
+    # module, which _post_copy reads when generating the cached headline+summary.
+    pb.POST_COPY_MAX_CHARS = DAILY_SUMMARY_CHARS
     sys.exit(main())

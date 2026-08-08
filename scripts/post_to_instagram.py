@@ -52,6 +52,7 @@ import requests
 from topic import load_active_topic
 from account_ledger import AccountLedger
 from render_bill_card import render_card
+import post_to_bluesky as pb
 from post_to_bluesky import (
     _FILENAME_UNSAFE_RE,
     _stash_posted,
@@ -75,6 +76,12 @@ from post_to_bluesky import (
     shorten_title,
     summarize,
 )
+
+# Instagram has a 2,200-char caption but only ~500 was used because the summary
+# was generated short. Ask the model for a much fuller summary for the caption,
+# and keep a shorter one for the visual card (which can't fit a wall of text).
+IG_CAPTION_SUMMARY_CHARS = int(os.environ.get("IG_CAPTION_SUMMARY_CHARS", "1600"))
+CARD_SUMMARY_CHARS = int(os.environ.get("CARD_SUMMARY_CHARS", "240"))
 
 ROOT = Path(__file__).resolve().parent.parent
 JSONL_PATH = ROOT / "bills.jsonl"
@@ -524,9 +531,12 @@ def _prepare(b: dict) -> dict:
     with the caption, bill url and rendered card path."""
     ensure_english_fields(b)
     headline = shorten_title(b)
-    summary_text = summarize(b)
-    caption, url = compose_instagram_caption(b, summary_text, headline=headline)
-    card_path = render_bill_card(b, summary_text, headline)
+    # Caption gets the full long summary (Instagram allows 2,200 chars); the
+    # visual card gets a short lead so it stays legible.
+    caption_summary = summarize(b, max_chars=IG_CAPTION_SUMMARY_CHARS)
+    card_summary = summarize(b, max_chars=CARD_SUMMARY_CHARS)
+    caption, url = compose_instagram_caption(b, caption_summary, headline=headline)
+    card_path = render_bill_card(b, card_summary, headline)
     return {"bill": b, "caption": caption, "url": url, "card_path": card_path}
 
 
@@ -858,4 +868,8 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+    # Generate a long summary so the caption can fill Instagram's 2,200-char
+    # budget (the card renderer trims its own shorter copy). Set on the shared
+    # post_to_bluesky module, which _post_copy reads when generating the summary.
+    pb.POST_COPY_MAX_CHARS = IG_CAPTION_SUMMARY_CHARS
     sys.exit(main())
