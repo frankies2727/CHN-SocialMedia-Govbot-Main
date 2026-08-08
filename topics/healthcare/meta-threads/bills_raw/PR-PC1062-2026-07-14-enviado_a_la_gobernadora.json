@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "PC1062",
+    "legislative_session": "2025-2028",
+    "title": "Para declarar y reconocer a la Sociedad Pro Hospital del Niño, conocida comúnmente como “Hospital del Niño”, Patrimonio del Pueblo puertorriqueño, en reconocimiento a su trayectoria de más de cien (100) años brindando servicios médicos, terapéuticos, educativos dirigidos a atender condiciones crónicas o severas de la niñez en Puerto Rico."
+  },
+  "id": "PC1062",
+  "log": {
+    "action": {
+      "description": "Enviado a la Gobernadora",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-07-14T04:00:00+00:00",
+      "session_id": "2025-2028",
+      "sources": [
+        {
+          "url": "https://sutra.oslpr.org/medidas/159784"
+        }
+      ]
+    },
+    "bill_id": "PC1062"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PC1062/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PC1062/logs/20260714T040000Z_enviado_a_la_gobernadora.json"
+  },
+  "timestamp": "20260714T040000Z",
+  "posted_text": "🏥 Healthcare\nPR PC1062 — To declare and recognize the Pro Hospital del Niño Society, commonly known as “Hospital del Niño,” as a National Treasure of the Puerto Rican People, in recognition of its over one hundred (100) year…\n\nAsamblea Legislativa ti '- C' -. _, ~ de marzo de 2026 La Comisi6n de Gobierno de la Camara de Representantes de Puerto Rico, previo estudio y consideraci6n del Proyecto de la Camara 1062, recomienda su aprobaci6n con las enmiendas… .. .... ..",
+  "posted_link": "https://sutra.oslpr.org/medidas/159784",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/Dbw_NmMkWj-"
+}

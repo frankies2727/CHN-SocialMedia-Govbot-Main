@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6158",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Local government: other",
+      "Property: state buildings",
+      "State agencies (existing): generally",
+      "State management: other"
+    ],
+    "title": "State management: other; access to certain facilities by federal immigration authorities; regulate. Creates new act."
+  },
+  "id": "HB 6158",
+  "log": {
+    "action": {
+      "description": "bill electronically reproduced 07/03/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-14",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6158"
+        }
+      ]
+    },
+    "bill_id": "HB 6158"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6158/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6158/logs/20260714T000000Z_bill_electronically_reproduced_07032026.json"
+  },
+  "timestamp": "20260714T000000Z",
+  "posted_text": "🛂 Immigration\nMI HB 6158 — Michigan Limits Federal Access to State Buildings\n\nMichigan is now blocking state and local governments from letting federal immigration officers into private areas without a court order. This new law clarifies that access is only allowed if a judge signs off, protecting spaces like offices and records rooms. .. .... ..",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6158",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DbxABoLkX4I"
+}
