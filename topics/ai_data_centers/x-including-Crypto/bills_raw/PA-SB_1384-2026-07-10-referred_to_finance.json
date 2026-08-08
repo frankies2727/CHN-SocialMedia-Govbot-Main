@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1384",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending the act of March 4, 1971 (P.L.6, No.2), known as the Tax Reform Code of 1971, in tax credit and tax benefit administration, further providing for definitions; in computer data center equipment incentive program, providing for certification prohibition; providing for Governor's Responsible Infrastructure Development certification and standards; and imposing duties."
+  },
+  "id": "SB 1384",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Finance",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-10T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/sb1384"
+        }
+      ]
+    },
+    "bill_id": "SB 1384"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB1384/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB1384/logs/20260710T040000Z_referred_to_finance.json"
+  },
+  "timestamp": "20260710T040000Z",
+  "posted_text": "🏢 PA SB 1384 — Pennsylvania Just Redefines ‘Tax Benefit’ – What Does It Mean For You\n\nPennsylvania is clarifying what counts as a ‘tax benefit’ for businesses, a key change that could impact incentives for data centers. This bill adds specific energy sources – like solar and wind paired with storage – to the definition, and establishes a new rule: no new computer data centers can be certified after a certain date. .. .... ..",
+  "posted_link": "https://www.palegis.us/legislation/bills/2025/sb1384",
+  "posted_url": "https://x.com/i/web/status/2086089726847561880"
+}

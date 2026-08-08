@@ -1,0 +1,2213 @@
+THE GENERAL ASSEMBLY OF PENNSYLVANIA
+
+SENATE BILL
+No. 1384
+
+JULY 10, 2026
+REFERRED TO FINANCE, JULY 10, 2026
+AN ACT
+
+Amending the act of March 4, 1971 (P.L.6, No.2), entitled "An
+act relating to tax reform and State taxation by codifying
+and enumerating certain subjects of taxation and imposing
+taxes thereon; providing procedures for the payment,
+collection, administration and enforcement thereof; providing
+for tax credits in certain cases; conferring powers and
+imposing duties upon the Department of Revenue, certain
+employers, fiduciaries, individuals, persons, corporations
+and other entities; prescribing crimes, offenses and
+penalties," in tax credit and tax benefit administration,
+further providing for definitions; in computer data center
+equipment incentive program, providing for certification
+prohibition; providing for Governor's Responsible
+Infrastructure Development certification and standards; and
+imposing duties.
+The General Assembly of the Commonwealth of Pennsylvania
+hereby enacts as follows:
+Section 1.
+
+The definition of "tax benefit" in section 1701-
+
+A.1 of the act of March 4, 1971 (P.L.6, No.2), known as the Tax
+
+Reform Code of 1971, is amended to read:
+
+Section 1701-A.1.
+
+Definitions.
+
+The following words and phrases when used in this article
+
+shall have the meanings given to them in this section unless the
+
+context clearly indicates otherwise:
+
+* * *
+
+"Tax benefit."
+
+For purposes of this article, a tax benefit
+
+authorized under any of the following:
+
+(1)
+
+Article XVII-A.
+
+(2)
+
+Article XVIII-C.
+
+(3)
+
+Article XIX-B.
+
+(4)
+
+Article XIX-D.
+
+(5)
+
+Article XXIX-C.
+
+(6)
+
+Article XXIX-D.
+
+(6.1)
+
+(7)
+
+Article XXIX-D.1.
+The act of October 6, 1998 (P.L.705, No.92), known
+
+as the Keystone Opportunity Zone, Keystone Opportunity
+
+Expansion Zone and Keystone Opportunity Improvement Zone Act.
+
+* * *
+
+Section 2.
+
+Section 2902-D.
+
+The act is amended by adding a section to read:
+Certification prohibition.
+
+The department may not certify any computer data center under
+this article after the effective date of this section.
+Section 3.
+
+The act is amended by adding an article to read:
+
+ARTICLE XXIX-D.1
+
+GOVERNOR'S RESPONSIBLE INFRASTRUCTURE
+
+DEVELOPMENT CERTIFICATION AND STANDARDS
+
+Section 2901-D.1.
+
+Scope of article.
+
+This article relates to the Governor's Responsible
+
+Infrastructure Development (GRID) Certification and Standards.
+
+Section 2902-D.1.
+
+Definitions.
+
+The following words and phrases when used in this article
+
+shall have the meanings given to them in this section unless the
+
+context clearly indicates otherwise:
+
+"Alternative compliance payment."
+
+A per-megawatt-hour
+
+payment at the alternative compliance payment rate made to PEDA
+
+by a computer data center if the computer data center elects to
+
+satisfy its clean firm energy procurement requirement under
+
+section 2903-D.1(a)(5)(vii)(B) through payment in lieu of
+
+procurement.
+
+"Alternative compliance payment rate."
+
+A rate expressed in
+
+dollars per megawatt-hour determined by the department annually
+
+by doubling the estimated average levelized cost of electricity
+
+from solar photovoltaic technology, as published by the United
+
+States Energy Information Administration's most recent Annual
+
+Energy Outlook.
+
+"Clean firm energy."
+
+Energy derived from nuclear energy,
+
+hydroelectric power, including pumped storage, geothermal
+
+energy, fuel cells, solar energy, including solar energy paired
+
+with storage resources, wind energy, including wind energy
+
+paired with storage resources, clean hydrogen-fueled energy
+
+generation, battery energy storage systems and long-duration
+
+storage resources that meet all of the following:
+
+(1)
+
+The resource is dispatchable or capable of providing
+
+firm service so that the resource can deliver electricity on
+
+demand with an availability factor consistent with standards
+
+established by the commission.
+
+(2)
+
+The resource constitutes incremental capacity,
+
+including any of the following:
+(i)
+
+Placement in service of a new clean firm energy
+
+generation facility on or after January 1, 2025.
+(ii)
+
+An uprate or efficiency improvement at an
+
+existing clean firm energy generation facility completed
+
+on or after January 1, 2025, that increases accredited
+
+capacity or net output.
+
+(iii)
+
+Placement in service of a battery energy
+
+storage system on or after January 1, 2025, that provides
+
+at least two hours of continuous discharge, or another
+
+duration determined by the commission to provide reliable
+
+capacity value.
+
+(iv)
+
+Placement in service of a long-duration storage
+
+resource on or after January 1, 2025, that provides not
+
+less than four hours of continuous discharge capability
+
+and firm service as determined by the commission.
+
+"Clean firm energy generation."
+
+Electricity generated from
+
+clean firm energy. The term does not include a battery energy
+
+storage system or long-duration storage resource. The term
+
+includes solar energy paired with storage resources and wind
+
+energy paired with storage resources.
+
+"Clean hydrogen-fueled energy generation."
+
+Hydrogen produced
+
+through a process with a life cycle greenhouse gas emissions
+
+rate of less than four kilograms of carbon dioxide equivalent
+
+per kilogram of hydrogen.
+
+"Commission."
+
+The Pennsylvania Public Utility Commission.
+
+"Common parent."
+
+The most senior corporation owning or
+
+controlling a unitary business that includes an owner or
+
+operator.
+
+"Computer data center."
+
+All or part of a facility that may
+
+be composed of one or more businesses, owners or tenants, that
+
+is or will be predominantly used to house working servers or
+
+similar data storage systems and that may have uninterruptible
+
+energy supply or generator backup power, or closed-loop cooling
+
+systems, towers and other temperature control infrastructure.
+
+"Computer data center equipment."
+
+Equipment located on the
+
+same land parcel as the computer data center that is used to
+
+outfit, operate or benefit a computer data center and component
+
+parts, installations, refreshments, replacements and upgrades to
+
+the equipment, notwithstanding whether any of the equipment is
+
+affixed to or incorporated into real property, including:
+
+(1)
+
+Equipment necessary for the transformation,
+
+generation, distribution or management of electricity that is
+
+required to operate computer servers or similar data storage
+
+equipment, including battery energy storage devices,
+
+uninterruptible energy supplies, conduit, gaseous fuel
+
+piping, cabling, duct banks, switches, switchboards,
+
+batteries and testing equipment.
+
+(2)
+
+Equipment necessary to cool and maintain a
+
+controlled environment for the operation of the computer
+
+servers or data storage systems and other components of the
+
+computer data center, including mechanical equipment,
+
+refrigerant piping, gaseous fuel piping, adiabatic and free
+
+cooling systems, cooling towers, water softeners, air
+
+handling units, indoor direct exchange units, fans, ducting
+
+and filters.
+
+(3)
+
+Water conservation systems, including facilities or
+
+mechanisms that are designed to collect, conserve and reuse
+
+water.
+
+(4)
+
+Software, including enabling software and licensing
+
+agreements, computer servers or similar data storage
+
+equipment, chassis, networking equipment, switches, racks,
+
+cabling, trays and conduits.
+
+(5)
+
+Monitoring equipment and security systems.
+
+(6)
+
+Modular data centers and preassembled components of
+
+any item described in this definition, including components
+
+used in the manufacturing of modular data centers.
+
+(7)
+
+Other tangible personal property that is essential
+
+to the operations of a computer data center.
+
+"Department."
+
+"Environmental justice community."
+
+The Department of Revenue of the Commonwealth.
+A geographic area
+
+characterized by increased pollution burden and vulnerable
+
+populations based on demographic, economic, health and
+
+environmental data and duly identified by the Department of
+
+Environmental Protection.
+
+"Facility."
+
+One or more parcels of land located in this
+
+Commonwealth and any structures and personal property contained
+
+on the land.
+
+"GRID."
+
+Development.
+
+The Governor's Responsible Infrastructure
+
+"Incremental capacity."
+
+Additional capacity or additional
+
+net energy output from an energy resource in an amount
+
+determined based on the unforced capacity value assigned to the
+
+resource under PJM's applicable capacity accreditation rules
+
+that meets all of the following:
+
+(1)
+
+Results from the placement in service of a new
+
+resource on or after January 1, 2025.
+(2)
+
+Results from an uprate or efficiency improvement
+
+completed on or after January 1, 2025, at an existing clean
+
+firm energy generation resource or long-duration storage
+
+resource, to the extent that the improvement increases
+
+accredited capacity or net output available to the grid.
+
+(3)
+
+For a battery energy storage system or long-duration
+
+storage resource, results from the installation of new
+
+storage equipment or the expansion or repowering of an
+
+existing storage facility completed on or after January 1,
+
+2025, that increases discharge duration, rated capacity or
+
+firm service capability.
+(4)
+
+Is verified and certified by the commission as
+
+representing additional accredited capacity or additional net
+
+energy output that would not have been available to the bulk
+
+electric system in this Commonwealth absent the investment
+
+identified under paragraph (1), (2) or (3).
+
+"Locational deliverability area."
+
+A geographic area within
+
+the PJM region that has limited transmission capability to
+
+import capacity to satisfy such area's reliability requirement
+
+as specified in Reliability Assurance Agreement, Schedule 10.1.
+
+PJM Intra-PJM Tariffs, OATT, Definitions - L - M - N, 19.0.0 as
+
+accepted by the Federal Energy Regulatory Commission docketed at
+
+ER20-646-000 and any updated Federal Emergency Regulatory
+
+Commission docketed schedule.
+
+"New investment."
+
+Construction, expansion or build out of
+
+data center space at either a new or an existing computer data
+
+center on or after the effective date of this section, and the
+
+purchase and installation of computer data center equipment,
+
+except for items described under paragraph (4) of the definition
+
+of computer data center equipment.
+
+"Owner or operator."
+
+The term includes a single entity,
+
+multiple entities or affiliated entities that own or operate a
+
+computer data center.
+
+"PEDA."
+
+The Pennsylvania Energy Development Authority.
+
+"Pennsylvania climate change connectivity."
+
+A geographic
+
+area recognized as important for wildlife habitat connectivity
+
+identified by the Pennsylvania Game Commission Wildlife Action
+
+Plan Conservation Opportunity Area Tool.
+
+"PJM Interconnection, L.L.C." or "PJM."
+
+The regional
+
+transmission organization approved by the Federal Energy
+
+Regulatory Commission to coordinate wholesale electricity
+
+markets and transmission operations within a geographic region.
+
+"Proof of work crypto-asset mining."
+
+The process of
+
+performing computations to add a valid block of data to a
+
+blockchain, excluding computations required to validate
+
+individual transactions, typically in exchange for a reward or
+
+fee.
+
+"Qualification period."
+(1)
+
+Any of the following:
+
+With respect to the owner or operator of a computer
+
+data center certified under this article, a period of time
+
+beginning on the date of tax exemption certification of the
+
+computer data center and expiring at the end of the tenth
+
+full calendar year following the calendar year in which the
+
+owner or operator filed an application for certification.
+
+(2)
+
+With respect to a qualified tenant of the owner or
+
+operator of a computer data center certified under this
+
+article, a period of time beginning on the date that the
+
+qualified tenant enters into an agreement concerning the use
+
+or occupancy of the computer data center and expiring at the
+
+earlier of the expiration of the term of the agreement or the
+
+end of the tenth full calendar year following the calendar
+
+year in which the qualified tenant enters into the agreement.
+
+"Qualified tenant."
+
+An entity that contracts with the owner
+
+or operator of a computer data center that is certified under
+
+this article to use or occupy part of the computer data center
+
+for at least 100 kilowatts per month for two or more years.
+
+"Solar ready."
+
+A structure that allows for solar
+
+photovoltaic panels to be installed on at least 40% of the roof
+
+area, including preinstalled conduit, and provides sufficient
+
+space to install inverters and other necessary equipment.
+
+"Tax exemption."
+
+The tax exemption provided under section
+
+2905-D.1.
+"Telecommunications provider."
+
+A provider of
+
+telecommunications services as defined in 61 Pa. Code § 60.20
+
+(relating to telecommunications service).
+
+"Tenant."
+
+An entity that contracts with the owner or
+
+operator of a computer data center to use or occupy part of the
+
+computer data center.
+
+"Tier 4 equivalent."
+
+A combination of an electrical
+
+generator and an engine mounted together to form a single piece
+
+of equipment, equipped with all of the following:
+
+(1)
+
+for nitrogen oxides control.
+
+A selective catalytic reduction system or equivalent
+
+(2)
+
+A diesel oxidation catalyst system or equivalent for
+
+carbon monoxide control.
+
+(3)
+
+A diesel particulate filter or equivalent for
+
+particulate matter control.
+
+"Unitary business."
+
+A single economic enterprise that is
+
+made up either of separate parts of a single business entity or
+
+of a commonly controlled group of business entities that are
+
+sufficiently interdependent, integrated and interrelated through
+
+their activities so as to provide a synergy and mutual benefit
+
+that produces a sharing or exchange of value among them and a
+
+significant flow of value to the separate parts.
+
+"Viewshed."
+
+The geographical area of a landscape or
+
+environment that is visible from one or more specific vantage
+
+points.
+
+Section 2903-D.1.
+
+(a)
+
+Application for GRID certification.
+
+Contents.--To be considered for GRID certification, the
+
+owner or operator of a data center shall submit to the
+
+department an application on a form prescribed by the department
+
+that includes all of the following:
+
+(1)
+
+number.
+
+(2)
+
+The owner or operator's name, address and telephone
+
+The address of the site where the proposed data
+
+center will be located including, if applicable, information
+
+sufficient to identify a specific portion of a facility
+
+comprising the data center.
+
+(3)
+
+The name of the common parent of any unitary
+
+business that will:
+
+(i)
+
+be responsible for management and operation of
+
+the GRID project on a permanent basis after the facility
+
+commences commercial operation; or
+
+(ii)
+
+capacity.
+
+(4)
+
+Building size in square feet and campus acreage.
+
+(5)
+
+An energy plan that includes all of the following:
+
+utilize at least 50% of the facility's
+
+(i)
+
+Expected energy generation or storage facilities
+
+that will be co-located with the GRID project, if any.
+(ii)
+
+Percent of electricity used from nonemitting
+
+sources and an explanation of how the electricity will be
+
+procured.
+
+(iii)
+
+effectiveness.
+
+(vi)
+
+Expected heat reuse at a connected or co-
+
+located facility.
+(vii)
+
+A plan detailing the owner or operator's plan
+
+to build, bring or buy incremental capacity including:
+
+Expected average annual power usage
+
+(A)
+
+sufficient electricity to meet its full
+
+energy demands from incremental capacity located
+
+within the same PJM locational deliverability area as
+
+the proposed GRID project, or if the incremental
+
+capacity is not located within the same PJM
+
+locational deliverability area as the GRID project,
+
+submit documentation to demonstrate that the new
+
+generation or storage resource is deliverable to the
+
+GRID project and incremental to existing supply,
+
+through contracts, interconnection or other
+
+verifiable means, consistent with PJM and utility
+
+tariff structures; and
+
+(B)
+
+electricity procured from incremental clean
+
+firm energy resources located within this
+
+Commonwealth in an amount not less than the following
+
+percentages of the GRID project's annual electricity
+
+consumption:
+
+(I)
+
+Beginning January 1, 2027, and ending
+
+January 1, 2030, 10%.
+
+Beginning January 1, 2030, and ending
+
+January 1, 2035, 14.5%.
+
+(III)
+
+Beginning January 1, 2035, 32%.
+
+(IV)
+
+A GRID project that does not procure
+
+incremental clean firm energy sufficient to
+
+satisfy the required amounts under subclause (I),
+
+(II) or (III) in a given year shall make an
+
+alternative compliance payment to PEDA.
+
+(viii)
+
+(A)
+
+As follows:
+A commitment to pay, through base rates,
+
+surcharges or other ratemaking mechanisms, costs
+
+caused in whole or in part by the interconnection,
+
+service or load of a GRID project, including costs
+
+associated with emergency ancillary services,
+
+transmission, distribution, network upgrades or
+
+dedicated facilities if:
+
+(I)
+
+the costs are directly attributable to
+
+the provision of electric service to the GRID
+
+project; or
+
+the costs would not have been incurred
+
+but for the electricity demand of the GRID
+
+project.
+
+(B)
+
+Compliance with this subparagraph may be
+
+demonstrated if a GRID project presents a copy of its
+
+Electronic Service Agreement, showing that it
+
+purchases electricity from an electric distribution
+
+company under an electric service tariff with terms:
+
+(I)
+
+no less stringent than those detailed in
+
+the commission's final Large Load Customer Model
+
+Tariff (Docket M-2025-3054271); and
+
+further addressing the GRID project
+
+facility's contributions to embedded system
+
+costs.
+
+(ix)
+
+Submittal of filings to the commission and
+
+adherence to commission regulations governing commercial
+
+data centers.
+
+(x)
+
+Design and construction of a GRID project
+
+facility with a floor area exceeding 100,000 square feet
+
+in a solar ready manner that facilitates and optimizes
+
+the installation of solar photovoltaic panels on
+
+unoccupied roof area of the building or other areas of
+
+the building.
+
+(6)
+
+A community outreach plan that includes all of the
+
+following:
+
+(i)
+
+A commitment to notify and consult with the
+
+public in the area in which the GRID project will be
+
+located by:
+
+(A)
+
+holding publicly accessible meetings;
+
+(B)
+
+consulting with municipal leaders in the
+
+host jurisdiction and potentially affected adjoining
+
+jurisdictions during GRID project development; and
+
+(C)
+
+accepting public comments on design
+
+decisions including viewshed impact mitigation, noise
+
+impact mitigation and building façade design.
+
+(ii)
+
+A detailed timeline and number of planned
+
+publicly accessible meetings in the jurisdiction in which
+
+the GRID project will be located that the owner or
+
+operator will hold to inform the public about the GRID
+
+project in addition to any public meeting required by
+
+law.
+
+(7)
+
+A community benefit plan including a commitment to
+
+do all of the following:
+
+(i)
+
+Make at least $250,000,000 of cumulative new
+
+investment.
+
+(ii)
+
+Create at least 200 jobs during the
+
+construction phase of development, each paying the
+
+applicable prevailing minimum wage and benefit rates as
+
+determined for each applicable craft or classification by
+
+the Department of Labor and Industry under act of August
+
+15, 1961 (P.L.987, No.442), known as the Pennsylvania
+
+Prevailing Wage Act.
+
+(iii)
+
+Create 50 new jobs each paying at least 125%
+
+of Pennsylvania's average Statewide wage on or before the
+
+fourth anniversary of GRID certification.
+(iv)
+
+Pay annual compensation of at least $1,500,000
+
+to employees employed full time at the GRID project site
+
+for each year of the certification after the fourth
+
+anniversary.
+
+(v)
+
+Provide a hiring plan for recruiting and
+
+training local workers, including local workforce
+
+participation in site preparation and site construction,
+
+and use registered apprenticeship programs and skilled
+
+construction labor.
+
+(vi)
+
+Engage in good faith discussions with the
+
+jurisdiction in which the GRID project will be located to
+
+develop a community benefit agreement that addresses the
+
+following:
+
+(A)
+
+Detail about planned development phases.
+
+(B)
+
+Noise, vibration and lighting study
+
+requirements and mitigation techniques.
+
+(C)
+
+A traffic study.
+
+(D)
+
+Air quality protection requirements
+
+consistent with Federal and State law.
+
+(E)
+
+A plan for addressing aesthetic concerns,
+
+including landscaping or visual buffers.
+
+(F)
+
+An emergency management plan that addresses
+
+training, coordination and reasonable resource needs
+
+of the emergency management professionals and first
+
+responders responsible for the jurisdiction in which
+
+the GRID project will be located.
+
+(G)
+
+priorities.
+
+(H)
+
+Financial contributions toward local
+
+Annual reporting to the jurisdiction in
+
+which the GRID project will be located addressing
+
+community benefit agreement progress.
+
+(I)
+
+Other items as determined by the
+
+jurisdiction in which the GRID project will be
+
+located.
+
+(8)
+
+A regional benefits plan, including a commitment to
+
+do all of the following:
+(i)
+
+include all of the following:
+
+(A)
+
+Each municipality located within a 25-mile
+
+radius of the GRID project.
+
+Identify the regional impact area, which shall
+
+(B)
+
+Each county located within a 25-mile radius
+
+of the GRID project.
+
+(C)
+
+Any school district, emergency service
+
+provider or water, sewer or transportation authority
+
+located within a 25-mile radius of the GRID project
+
+whose infrastructure or service area is reasonably
+
+expected to be affected by the GRID project.
+
+(ii)
+
+Provide documentation that the owner or
+
+operator will deliver written notice to each political
+
+subdivision and public authority identified under
+
+subparagraph (i) and offer at least one informational
+
+meeting to each entity for the purpose of receiving
+
+comments on anticipated regional impacts.
+
+(iii)
+
+Summarize expected regional impacts, including
+
+traffic, emergency services, water and wastewater use,
+
+storm water, air quality and noise, based on studies
+
+prepared for the community benefit agreement under
+
+paragraph (7).
+
+(iv)
+
+Describe specific mitigation actions the owner
+
+or operator will undertake to address regional impacts
+
+identified under subparagraph (iii). Mitigation actions
+
+may include:
+
+(A)
+
+Transportation improvements located outside
+
+the host jurisdiction.
+
+(B)
+
+Support for county level emergency
+
+management planning.
+
+(C)
+
+Regional air quality monitoring or
+
+environmental restoration.
+
+(D)
+
+Watershed or storm water improvements.
+
+(E)
+
+Other commitments identified during
+
+consultation with regional authorities.
+
+(v)
+
+Provide financial contributions to support
+
+projects or services that produce measurable benefits
+
+within the regional impact area. Contributions may be
+
+made directly to affected municipalities, school
+
+districts, emergency service providers or public
+
+authorities.
+
+(9)
+
+following:
+
+(i)
+
+A sustainability plan that includes all of the
+
+Details regarding how the owner or operator will
+
+deploy best available technology to limit water and
+
+energy consumption by the data center by obtaining
+
+certification under a recognized performance-based
+
+facility standard system or systems applicable to data
+
+centers addressing energy and water use as adopted by the
+
+department.
+
+(ii)
+
+A commitment to minimize local air pollutants
+
+by doing all of the following:
+
+(A)
+
+Utilizing a backup energy system that relies
+
+on zero-emission energy generation or storage or
+
+backup generators with emissions equal to or less
+
+than the emissions achieved by a Tier 4 or Tier 4
+
+equivalent generator.
+
+(B)
+
+Implementing operational practices such as
+
+reduced generator runtime and limits on backup
+
+generation utilization to emergency use and limited
+
+testing and maintenance consistent with Federal and
+
+State air quality laws and regulations.
+
+(C)
+
+Including at least three air quality
+
+monitors at the site providing continuous record of
+
+the air quality.
+
+(D)
+
+Creating a detailed plan for recordkeeping
+
+of the air quality, which shall be made available to
+
+government or private entities upon request.
+
+(iii)
+
+For GRID projects located in an area
+
+identified as Pennsylvania climate change connectivity,
+
+an explanation of defined measures to minimize and
+
+ameliorate impacts to wildlife habitat or offset net loss
+
+of habitat and ecological function and a commitment that
+
+the owner or operator shall make good faith efforts to
+
+fund and collaborate with private conservation and public
+
+resource entities to support the monitoring of impacts to
+
+land, water and biological resources.
+
+(iv)
+
+environmental justice community, including an
+
+explanation of defined measures to offset any
+
+increased environmental exposures or net
+
+environmental effects and making good faith efforts
+
+to fund and collaborate with municipal, civic and
+
+(A)
+
+For GRID projects located in an
+
+private industries to positively impact the
+
+population characteristics of the environmental
+
+justice community.
+
+(B)
+
+The good faith efforts made under clause (A)
+
+may incorporate the commitments and plans required
+
+for the application.
+
+(10)
+
+A water plan that includes all of the following:
+
+(i)
+
+Anticipated waste or treated water discharges,
+
+if any.
+
+(ii)
+
+Estimated average annual water consumption.
+
+(iii)
+
+Anticipated maximum daily water demand.
+
+(iv)
+
+Source of water to be utilized, including the
+
+water quality standard use designation under 25 Pa. Code
+
+Ch. 93 (relating to water quality standards) of the
+
+source of water, if any.
+
+(v)
+
+Expected average annual water usage
+
+effectiveness.
+
+(vi)
+
+A commitment to utilize the best available
+
+technologies and other efficiency measures to mitigate
+
+impacts to the quantity or quality of water for other
+
+uses or users, including designated and existing uses
+
+under 25 Pa. Code Ch. 93.
+
+(vii)
+
+For GRID projects that have a physical
+
+footprint, point source of water withdrawal or point
+
+source of storm water discharge located within a
+
+watershed designated as High Quality Waters under 25 Pa.
+
+Code Ch. 93, the watershed of a designated public water
+
+system source under 25 Pa. Code Ch. 109 (relating to safe
+
+drinking water) or 1,000 feet of a tributary which flows
+
+into a public water system source under 25 Pa. Code Ch.
+
+109, a hydrogeological study shall be submitted to the
+
+department. The following shall apply:
+
+(A)
+
+The hydrogeological study shall include:
+(I)
+
+An assessment of baseline water quality
+
+at all relevant tributary monitoring points.
+
+Consumptive use and storm water
+
+discharge on both surface water and groundwater
+
+sources.
+
+(III)
+
+Identification of specific mitigation
+
+measures to protect water sources.
+
+(B)
+
+The study shall be prepared by a
+
+professional geologist with relevant experience in
+
+hydrogeological analysis and licensed in this
+
+Commonwealth.
+
+(C)
+
+The department shall transmit the study to
+
+the Department of Environmental Protection within 10
+
+days of receipt of the study.
+
+(D)
+
+The Department of Environmental Protection
+
+shall have 45 days to review the study and provide
+
+written comments to the department on whether the
+
+study was conducted in a satisfactory manner.
+
+(E)
+
+The department may not issue a GRID
+
+certification to GRID projects located in a watershed
+
+designated as Exceptional Value Waters under 25 Pa.
+
+Code Ch. 93.
+
+(viii)
+
+If the GRID project is within the
+
+jurisdiction of a river basin commission, documentation
+
+that the owner or operator has received approval for
+
+water withdrawal from the relevant river basin
+
+commission.
+
+(ix)
+
+If the GRID project has a physical footprint,
+
+point of source of water withdrawal or point of source of
+
+storm water discharge located within an area described
+
+under subparagraph (vii), the owner or operator shall
+
+commit to performing baseline water quality monitoring at
+
+the applicable tributary points utilized for water
+
+withdrawal or discharge, as approved by the Department of
+
+Environmental Protection, prior to the commencement of
+
+construction and any ground disturbance. The commitment
+
+under this subparagraph shall include the following:
+
+(A)
+
+Upon the commencement of commercial
+
+operations, the owner or operator shall submit annual
+
+water quality reporting data from the approved
+
+tributary points to the Department of Environmental
+
+Protection for review.
+
+(B)
+
+Upon review of the annual reporting data,
+
+the Department of Environmental Protection may
+
+require corrective action if the report identifies
+
+material degradation of the water source at the
+
+applicable tributary points.
+
+(C)
+
+If the material degradation of the water
+
+source is not corrected by the owner or operator to
+
+the satisfaction of the Department of Environmental
+
+Protection, the department shall revoke a GRID
+
+certification of a computer data center issued under
+
+this article.
+
+(11)
+
+A noise and vibration mitigation plan that includes
+
+all of the following:
+
+(i)
+
+Documentation that the GRID project will comply
+
+with an applicable local law, ordinance or regulation
+
+relating to sound or vibration limits, including a
+
+required permit, study or certification demonstrating
+
+compliance.
+
+(ii)
+
+If the jurisdiction in which the GRID project
+
+will be located does not have an applicable zoning
+
+ordinance relating to noise or vibration standards, a
+
+description of the mitigation measures that the owner or
+
+operator will take to mitigate noise and vibration
+
+impacts on the surrounding community. The description
+
+shall include any of the following designed to minimize
+
+noise impacts:
+
+(A)
+
+Operational practices.
+
+(B)
+
+Engineering controls.
+
+(C)
+
+Monitoring activities.
+
+(b)
+
+Acceptance.--The department shall begin accepting
+
+applications for GRID certification no later than 30 days after
+
+the effective date of this section.
+
+Section 2904-D.1.
+
+Review of applications.
+
+After receiving a complete and correct application for GRID
+
+certification under section 2903-D.1, the department shall
+
+review the application and issue a written certification that
+
+the computer data center qualifies for the GRID certification or
+
+provide written reasons for its denial.
+
+Section 2905-D.1.
+
+(a)
+
+Tax exemption.
+
+Exemption.--The tax imposed under Article II shall not
+
+be imposed upon the sale at retail or use of computer data
+
+center equipment purchased for installation in a GRID certified
+
+computer data center, if purchased by any of the following:
+
+(1)
+
+An owner or operator of a computer data center
+
+certified under this article.
+
+(2)
+
+A qualified tenant of a computer data center
+
+certified under this article.
+
+(b)
+
+Exemption period.--A tax exemption approved under this
+
+article shall apply during the qualification period.
+
+(c)
+
+Exclusions.--The following shall not qualify for a tax
+
+exemption:
+
+(1)
+
+A telecommunications provider's computer data center
+
+that does not have retail or wholesale customers being billed
+
+or paying for services and that provides a majority of
+
+services for internal use or use by the telecommunications
+
+provider's subsidiaries.
+
+(2)
+
+Computer data center equipment used by the certified
+
+computer data center for any of the following purposes:
+
+(i)
+
+Generating electricity for resale purposes to a
+
+power utility.
+
+(ii)
+
+Generating, providing or selling more than 5%
+
+of its electricity outside of the certified computer data
+
+center.
+
+(iii)
+
+Proof of work for crypto-asset mining as
+
+determined by the department.
+
+(3)
+
+Any item of tangible personal property for use both
+
+inside and outside the computer data center.
+
+(4)
+
+Section 2906-D.1.
+
+(a)
+
+Primary electric generation equipment.
+GRID ready report.
+
+Requirement.--Prior to commencing commercial operations,
+
+a GRID project must submit a GRID ready report, verified by a
+
+qualified third-party entity, to the department for review
+
+providing updated information regarding any material change to
+
+any item required in the application for GRID certification
+
+under section 2903-D.1 and must specifically report or provide:
+
+(1)
+
+Confirmation that any changes to the energy plan
+
+have not imposed additional costs on other utility
+
+ratepayers.
+
+(2)
+
+Confirmation that it has fully implemented its
+
+community outreach plan.
+
+(3)
+
+Confirmation that it has made the cumulative new
+
+investments and created the jobs required in its community
+
+benefit plan, including its executed community benefit
+
+agreement.
+
+(4)
+
+The status of compliance with its sustainability
+
+plan commitments.
+
+(5)
+
+The status of compliance with its water plan
+
+commitments.
+
+(6)
+
+Confirmation that it has submitted all documentation
+
+required under its noise and vibration mitigation plan and,
+
+if applicable, the status of compliance with the mitigation
+
+measures specified under section 2903-D.1(a)(11)(ii).
+
+(7)
+
+Confirmation that its regional benefits plan has
+
+been fully implemented.
+
+(b)
+
+Failure to meet commitments.--Except as provided under
+
+section 2909-D.1(e), if the department determines that the
+
+commitments of section 2903-D.1 have not been satisfied, the
+
+department shall revoke the GRID certification of a computer
+
+data center.
+
+Section 2907-D.1.
+
+(a)
+
+Annual reporting.
+
+Requirement.--The owner or operator of a computer data
+
+center certified under this article must file on an annual basis
+
+with the department, on a form prescribed by the department, a
+
+report verified by a qualified third-party entity, including all
+
+of the following:
+
+(1)
+
+Documentation that the computer data center is
+
+continuing to meet the conditions in its application filed
+
+under section 2903-D.1.
+
+(2)
+
+The amount and source of water used by the computer
+
+data center and a certification that its water use has not
+
+adversely impacted the quantity or quality of water for other
+
+uses or users including designated and existing uses under 25
+
+Pa. Code Ch. 93 (relating to water quality standards).
+
+(3)
+
+The amount of electricity used by the computer data
+
+center.
+
+(4)
+
+this article.
+
+(5)
+
+The total amount of sales or use tax exempted under
+
+An annual certification signed by an officer of the
+
+owner or operator that identifies whether the owner or
+
+operator completed each commitment contained in the community
+
+benefit plan required under section 2903-D.1(a)(7) during the
+
+preceding year and, if not, identifies each commitment that
+
+remains in progress and the steps the owner or operator is
+
+taking to complete each commitment.
+
+(6)
+(b)
+
+Any other information required by the department.
+
+Fourth anniversary.--On or before the fourth anniversary
+
+of GRID certification, the owner or operator or qualified tenant
+
+of a computer data center must show that it met the requirements
+
+of section 2903-D.1(a)(6)(i).
+
+(c)
+
+Public posting.--The department shall make the
+
+information submitted under subsection (a)(5) available on the
+
+department's publicly accessible Internet website. The
+
+department shall withhold from public disclosure proprietary
+
+information consistent with section 2911-D.1.
+
+(d)
+
+Municipal comments.--A municipality in which a GRID
+
+project is located, or a municipality or public authority
+
+located within 25 miles of the GRID project, may submit written
+
+comments to the department if the municipality or public
+
+authority has reason to believe that the owner or operator is
+
+not satisfying one or more commitments contained in the
+
+community benefit agreement. The department shall review the
+
+comments and, as necessary, request additional information from
+
+the owner or operator to evaluate compliance.
+
+Section 2908-D.1.
+
+(a)
+
+Compliance.
+
+Reporting.--An owner or operator or qualified tenant
+
+eligible for GRID certification shall comply with reporting,
+
+filing and compliance requirements under this act.
+
+(b)
+
+Tax laws.--An owner, operator or qualified tenant may
+
+not receive a certification under this article unless the owner,
+
+operator or qualified tenant is in full compliance with State
+
+tax laws.
+
+Section 2909-D.1.
+
+(a)
+
+Revocation of certification.
+
+Revocation.--Except as provided under subsection (e), if
+
+the department determines that the requirements of this article
+
+have not been satisfied, the department shall revoke a GRID
+
+certification of a computer data center issued under this
+
+article.
+
+(b)
+
+Appeal.--The owner or operator of the computer data
+
+center may appeal a GRID certification revocation. Appeals filed
+
+under this section shall be governed by Article II.
+
+(c)
+
+Recapture.--If a GRID certification is revoked under
+
+this section, the qualification period of any owner or operator
+
+or qualified tenant of the computer data center shall expire and
+
+the department shall recapture from the owner or operator or
+
+qualified tenant all or part of the tax exemption received by
+
+the owner or operator or qualified tenant under this article.
+
+The department may give special consideration or allow a
+
+temporary exemption from recapture of the tax exemption if there
+
+is extraordinary hardship due to factors beyond the control of
+
+the owner or operator or qualified tenant. The department may
+
+require the owner or operator or qualified tenant to file
+
+appropriate amended tax returns in order to reflect any
+
+recapture of the tax exemption.
+
+(d)
+
+Limitation on assessment.--Notwithstanding the
+
+limitation on assessment and collection in section 258, the
+
+department shall assess any tax determined not to be properly
+
+exempted under this article within five years from the date an
+
+owner or operator or qualified tenant of a computer data center
+
+purchases property exempt from a tax. A taxpayer may consent to
+
+an extension of the period as set forth in section 261.
+
+(e)
+
+Corrective action plan.--Before the department revokes a
+
+GRID certification on the basis that an owner or operator failed
+
+to comply with a community benefit commitment under section
+
+2903-D.1(a)(7), the department shall provide written notice to
+
+the owner or operator that identifies the deficiency and
+
+provides the owner or operator with not less than 60 days to
+
+submit and implement a corrective action plan to address the
+
+deficiency. The department shall revoke the GRID certification
+
+if the department determines that the owner or operator failed
+
+to submit or implement the corrective action plan or failed to
+
+address the deficiency under the corrective action plan.
+
+Section 2910-D.1.
+
+(a)
+
+Regulations, implementation and guidelines.
+
+Authority.--The department may promulgate regulations
+
+necessary to carry out the provisions of this part.
+(b)
+
+Temporary regulations.--
+
+(1)
+
+In order to facilitate the prompt implementation of
+
+this article, the department may promulgate temporary
+
+regulations that shall expire no later than three years
+
+following the publication of the temporary regulations. The
+
+department may promulgate temporary regulations not subject
+
+to:
+
+(i)
+
+Section 612 of the act of April 9, 1929
+
+(P.L.177, No.175), known as The Administrative Code of
+
+1929.
+
+(ii)
+
+Sections 201, 202, 203, 204 and 205 of the act
+
+of July 31, 1968 (P.L.769, No.240), referred to as the
+
+Commonwealth Documents Law.
+
+(iii)
+
+Sections 204(b) and 301(10) of the act of
+
+October 15, 1980 (P.L.950, No.164), known as the
+
+Commonwealth Attorneys Act.
+
+(iv)
+
+The act of June 25, 1982 (P.L.633, No.181),
+
+known as the Regulatory Review Act.
+
+(2)
+
+The department's authority to adopt temporary
+
+regulations under paragraph (1) shall expire three years
+
+after the effective date of this section. Regulations adopted
+
+after this period shall be promulgated as provided by law.
+
+(c)
+
+Implementation and guidelines.--The department shall
+
+work with other agencies and offices as necessary to implement
+
+this article and publish written guidelines and prescribe forms
+
+and procedures as necessary to carry out the provisions of this
+
+article.
+
+Section 2911-D.1.
+
+Confidential information.
+
+Notwithstanding section 731 of the act of act of April 9,
+
+(P.L.343, No.176), known as The Fiscal Code, or the
+
+confidentiality provisions of this act, information contained in
+
+the application form described under section 2903-D.1 and any
+
+report required under sections 2906-D.1 and 2907-D.1, including
+
+information concerning the identity of a qualified tenant, shall
+
+be public. An applicant may request that trade secret,
+
+confidential proprietary information or information which
+
+creates a reasonable likelihood of endangering the applicant, as
+
+defined in section 102 and 708(b)(3) of the act of February 14,
+
+(P.L.6, No.3), known as the Right-to-Know Law, be withheld
+
+from disclosure. Disclosure shall be at the discretion of the
+
+department.
+
+Section 2912-D.1.
+
+(a)
+
+shall:
+
+Maintenance of records.
+
+Duties.--The owner or operator or qualified tenant
+
+(1)
+
+Maintain detailed records of investments created by
+
+the computer data center, including costs of buildings and
+
+computer data center equipment and tax exemptions received by
+
+the owner or operator or qualified tenant.
+
+(2)
+
+Maintain purchase journals for examination by the
+
+department.
+
+(b)
+
+Retention.--The records required under subsection (a)
+
+shall be kept available at all times for inspection by
+
+authorized personnel of the department and shall be retained if
+
+the contents of the records may become material in the
+
+administration of this article.
+
+Section 2913-D.1.
+
+List of tenants.
+
+An owner or operator of a certified computer data center
+
+shall provide, to the extent permissible under Federal law, the
+
+department with a list of qualified tenants, including the
+
+commencement and expiration dates of each qualified tenant's
+
+agreement to use or occupy part of the GRID certified computer
+
+data center. The list shall be provided to the department
+
+annually and upon request by the department.
+
+Section 2914-D.1.
+
+Sale or transfer.
+
+Except as provided under section 2908-D.1, a computer data
+
+center shall retain its GRID certification notwithstanding a
+
+transfer, sale or other disposition, directly or indirectly, of
+
+the computer data center.
+
+Section 2915-D.1.
+
+(a)
+
+Certificate of exemption.
+
+Application.--An owner or operator or qualified tenant
+
+of a computer data center certified under this article may apply
+
+for a sales and use tax GRID certificate of exemption in a
+
+manner prescribed by the department on or before October 1,
+
+2027, and renew each October 1 thereafter.
+
+(b)
+
+Notification.--No later than 60 days after receipt of a
+
+correct and complete application under subsection (a) for a
+
+sales and use tax GRID certificate of exemption, the department
+
+shall issue a sales and use tax GRID certificate of exemption to
+
+each applicant approved by the department.
+
+(c)
+
+Exempt purchases.--The owner or operator or qualified
+
+tenant of a certified computer data center shall prepare and
+
+deliver a properly executed sales and use tax certificate of
+
+exemption to a vendor from which the owner or operator or
+
+qualified tenant purchases exempt computer data center
+
+equipment.
+
+(d)
+
+Continued compliance.-(1)
+
+The owner or operator or qualified tenant of a GRID
+
+certified computer data center eligible for a sales and use
+
+tax GRID certificate of exemption shall comply with the
+
+reporting, filing and compliance requirements under this
+
+article.
+
+(2)
+
+An owner, operator or qualified tenant may not
+
+receive a sales and use tax GRID certificate of exemption
+
+under this article unless the owner, operator or qualified
+
+tenant is in full compliance with State tax laws.
+
+Section 2916-D.1.
+(a)
+
+Limitation.
+
+Prohibition.--The department may not certify any
+
+computer data center under this article after December 31, 2032.
+(b)
+
+Eligibility.--Except if certified under Article XXIX-D
+
+prior to February 3, 2026, a data center shall not be eligible
+
+for tax benefits associated with Article XIX-B, Article XVIII-C
+
+or the act of October 6, 1998 (P.L.705, No.92), known as the
+
+Keystone Opportunity Zone, Keystone Opportunity Expansion Zone
+
+and Keystone Opportunity Improvement Zone Act.
+
+Section 2917-D.1.
+
+Zoning.
+
+Nothing in this article shall affect the zoning authority of
+
+a municipality.
+
+Section 4.
+
+This act shall take effect immediately.
