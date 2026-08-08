@@ -3090,6 +3090,15 @@ def link_for(b: dict) -> str:
     if trusted:
         src = (b.get("source_url") or "").strip()
         if src and trusted.match(src):
+            # govbot's Michigan source URLs omit the "www." subdomain
+            # (https://legislature.mi.gov/Bills/Bill?ObjectName=…). The rebuilt
+            # legislature.mi.gov bill app fails to resolve the bill without it,
+            # so the bare-host link reads as broken. Add www. — idempotent, and
+            # scoped to MI so other trusted-source states are untouched.
+            if state == "MI":
+                src = re.sub(
+                    r"^(https?://)(?:www\.)?(legislature\.mi\.gov)",
+                    r"\1www.\2", src, count=1, flags=re.IGNORECASE)
             return src
 
     builder = STATE_BILL_URL_BUILDERS.get(state)
