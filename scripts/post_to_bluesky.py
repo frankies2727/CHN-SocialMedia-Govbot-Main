@@ -1189,11 +1189,13 @@ def _looks_spanish(text: str) -> bool:
     return bool(_SPANISH_MARKERS_RE.search(text))
 
 
-def _translate_to_english(text: str) -> str:
+def _translate_to_english(text: str, num_predict: int = 400) -> str:
     """Best-effort translate Spanish legislative text to English via the
     configured Ollama model. Returns the original text on any failure so
     the post still goes out — better to ship a partially Spanish line than
-    drop the post entirely."""
+    drop the post entirely. ``num_predict`` caps the output length: the 400-token
+    default suits the short metadata fields; the full-body translator raises it so
+    a long chunk isn't truncated mid-sentence."""
     if not text or not text.strip():
         return text
     try:
@@ -1214,7 +1216,7 @@ def _translate_to_english(text: str) -> str:
                 ],
                 "stream": False,
                 "keep_alive": LLM_KEEP_ALIVE,
-                "options": {"num_predict": 400, "temperature": 0.1},
+                "options": {"num_predict": num_predict, "temperature": 0.1},
             },
             timeout=LLM_TIMEOUT,
         )
@@ -1246,6 +1248,80 @@ def ensure_english_fields(b: dict) -> dict:
     return b
 
 
+# Full bill bodies (Puerto Rico ships them in Spanish) are far longer than the
+# short metadata fields ensure_english_fields() handles, so a single LLM call
+# with the summary-sized output budget would truncate the translation. Translate
+# the body in bounded chunks instead — each with its own generous output budget —
+# and cache the English result. Only the leading window is translated: the
+# summarizer reads at most ~9k chars (amendatory) and the relevance gate ~3.5k,
+# so a wide cap covers every consumer while keeping the cost bounded even for a
+# very long PDF. Any tail past the cap is kept verbatim so the persisted
+# bills_full_text artifact stays complete.
+FULLTEXT_TRANSLATE_MAX_CHARS = 12000
+_FULLTEXT_TRANSLATE_CHUNK_CHARS = 1800
+
+
+def _chunk_for_translation(text: str, size: int) -> list[str]:
+    """Split ``text`` into <= ``size``-char chunks on paragraph, then sentence,
+    then hard boundaries, so each translation call sees a coherent span rather
+    than a mid-word cut."""
+    chunks: list[str] = []
+    buf = ""
+    for para in re.split(r"\n\s*\n", text):
+        para = para.strip()
+        if not para:
+            continue
+        if len(para) > size:
+            # Flush what we have, then hard-split the oversized paragraph on
+            # sentence ends, falling back to fixed-width slices.
+            if buf:
+                chunks.append(buf)
+                buf = ""
+            for piece in re.split(r"(?<=[.;:])\s+", para):
+                while len(piece) > size:
+                    chunks.append(piece[:size])
+                    piece = piece[size:]
+                if not piece:
+                    continue
+                if len(buf) + len(piece) + 1 > size:
+                    if buf:
+                        chunks.append(buf)
+                    buf = piece
+                else:
+                    buf = f"{buf} {piece}".strip()
+            continue
+        if len(buf) + len(para) + 2 > size:
+            if buf:
+                chunks.append(buf)
+            buf = para
+        else:
+            buf = f"{buf}\n\n{para}".strip() if buf else para
+    if buf:
+        chunks.append(buf)
+    return chunks
+
+
+def _translate_full_text_to_english(text: str) -> str:
+    """Translate a (Spanish) bill body to English, chunked so no single call
+    truncates. Caps the translated span at FULLTEXT_TRANSLATE_MAX_CHARS — well
+    past what any downstream consumer reads — and appends any remaining tail
+    verbatim so the persisted artifact stays complete. Fails open per chunk: a
+    chunk that doesn't translate keeps its original text so the post still
+    ships."""
+    if not text or not text.strip():
+        return text
+    head, tail = (
+        text[:FULLTEXT_TRANSLATE_MAX_CHARS],
+        text[FULLTEXT_TRANSLATE_MAX_CHARS:],
+    )
+    out_parts: list[str] = []
+    for chunk in _chunk_for_translation(head, _FULLTEXT_TRANSLATE_CHUNK_CHARS):
+        translated = _translate_to_english(chunk, num_predict=900)
+        out_parts.append(translated or chunk)
+    translated_head = "\n\n".join(p for p in out_parts if p)
+    return translated_head + (("\n\n" + tail) if tail.strip() else "")
+
+
 def _get_full_text(b: dict) -> str:
     """Full bill body text, extracted from the bill's PDF via bill_text and
     cached on the record so shorten_title() and summarize() share a single
@@ -1269,6 +1345,20 @@ def _get_full_text(b: dict) -> str:
         if full_text:
             print(f"  TEXT: ✓ FULL PDF TEXT USED ({len(full_text)} chars) "
                   f"for {b.get('state','??')} {b.get('identifier','?')}")
+            # Translate a Spanish body (Puerto Rico) to English ONCE, here where
+            # it's fetched, so every consumer — summarize(), shorten_title(), the
+            # relevance gate, the deterministic fallback copy, and the persisted
+            # bills_full_text artifact — reads English from a single pass.
+            # ensure_english_fields() only covers the short metadata fields; the
+            # body has to be handled here. Detect first so an English PDF never
+            # triggers the (much costlier) chunked LLM round-trips.
+            if _looks_spanish(full_text):
+                translated = _translate_full_text_to_english(full_text)
+                if translated and translated != full_text:
+                    print(f"  TEXT: translated bill body to English "
+                          f"({len(full_text)} -> {len(translated)} chars) "
+                          f"for {b.get('state','??')} {b.get('identifier','?')}")
+                    full_text = translated
         else:
             print(f"  TEXT: ✗ full PDF text NOT used ({reason}) "
                   f"for {b.get('state','??')} {b.get('identifier','?')} — using abstract")
