@@ -135,6 +135,17 @@ _BILL_NUMBER_PREFIX_RE = re.compile(r"^\s*[A-Z0-9#]+(?:/[A-Z0-9#]+)*\s+\d+\s*[-�
 # chars and never equal their abstract, so this ceiling doesn't touch them.
 _BLOB_TITLE_MAX_CHARS = 2000
 
+# Openers that introduce a statute digest's operative clause — the sentence that
+# states what the bill DOES. Covers the California "This bill would …" form and
+# the Missouri "This act …" / "Under this act …" form used in dumped abstracts.
+# When a matched sentence is a bare ALL-CAPS section header (e.g. "BORN-ALIVE
+# ABORTION SURVIVORS PROTECTION ACT (Section 188.035)"), the excerpt logic reaches
+# forward to the next sentence opening with one of these so it emits the prose
+# describing the provision, not the label.
+_OPERATIVE_OPENER_RE = re.compile(
+    r"\s*(?:this bill|the bill|under this act|this act)\b", re.IGNORECASE
+)
+
 
 def _title_is_dumped_abstract(title_raw: str, abstract_raw: str) -> bool:
     """True when the `title` field is really the bill's full summary dumped in,
@@ -415,7 +426,11 @@ class Topic:
         if not abstract:
             return ""
         # Split once so we can also reach a matched provision's operative partner.
-        sentences = re.findall(r"[^.!?]*[.!?]", abstract)
+        # A period between two digits is part of a section number or decimal
+        # ("Section 188.035"), not a sentence boundary — treating it as one chops
+        # a Missouri-style header off mid-number ("…(Section 188.") and emits that
+        # truncated label as the excerpt, so exempt it from the split.
+        sentences = re.findall(r"(?:[^.!?]|(?<=\d)[.](?=\d))*[.!?]", abstract)
         # Score every sentence by the distinct core keywords it carries, keeping
         # document order so the chosen excerpts read in the order they appear.
         scored: list[tuple[int, int, str, frozenset[str]]] = []
@@ -472,17 +487,20 @@ class Topic:
         sentences: list[str], idx: int, used: set[int], window: int = 8
     ) -> tuple[int, "str | None"]:
         """Given a matched provision at ``sentences[idx]``, return the index and
-        text of the operative "This bill would … / the bill would …" sentence
-        that states what the bill CHANGES about it — searched forward within a
-        small window and not already claimed by another provision. Returns
-        ``(idx, None)`` when the matched sentence is itself operative or no
-        operative partner is found (caller keeps the matched sentence)."""
-        if re.match(r"\s*(?:this bill|the bill)\b", sentences[idx], re.IGNORECASE):
+        text of the operative "This bill would … / This act … / Under this act …"
+        sentence that states what the bill DOES about it — searched forward within
+        a small window and not already claimed by another provision. This also
+        rescues a match that landed on a bare ALL-CAPS section header (Missouri
+        dumped abstracts), redirecting the excerpt to the prose that describes the
+        provision. Returns ``(idx, None)`` when the matched sentence is itself
+        operative or no operative partner is found (caller keeps the matched
+        sentence)."""
+        if _OPERATIVE_OPENER_RE.match(sentences[idx]):
             return idx, None
         for j in range(idx + 1, min(len(sentences), idx + 1 + window)):
             if j in used:
                 continue
-            if re.match(r"\s*(?:this bill|the bill)\b", sentences[j], re.IGNORECASE):
+            if _OPERATIVE_OPENER_RE.match(sentences[j]):
                 return j, sentences[j]
         return idx, None
 
