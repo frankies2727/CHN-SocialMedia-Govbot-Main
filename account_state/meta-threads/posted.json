@@ -156,6 +156,8 @@
     "MO|SB 834|2026-05-28|Signed by Senate President Pro Tem",
     "MO|SB 890|2026-07-13",
     "MO|SB 890|2026-07-13|Signed by Governor",
+    "MO|SB 999|2026-07-13",
+    "MO|SB 999|2026-07-13|Signed by Governor",
     "NC|HB 1094|2026-07-07",
     "NC|HB 1094|2026-07-07|Signed by Gov. 7/7/2026",
     "NC|HB 372|2026-07-07",
@@ -181,6 +183,8 @@
     "NH|SB627|2026-06-23|Enrolled (in recess of) 06/04/2026  HJ 1",
     "NH|SB627|2026-06-23|Enrolled Adopted, VV, (In recess 06/04/2",
     "NH|SB652|2026-05-29|Signed by the Governor on 05/28/2026; Ch",
+    "PA|HB 2455|2026-07-09",
+    "PA|HB 2455|2026-07-09|Referred to Labor & Industry",
     "PA|HB 96|2026-07-12",
     "PA|HB 96|2026-07-12|",
     "PA|HB 96|2026-07-12|Act No. 27 of 2026",
@@ -226,6 +230,8 @@
     "US|HR 9571|2026-07-02|Referred to the Committee on Education a",
     "US|HR 9603|2026-07-09",
     "US|HR 9603|2026-07-09|Referred to the Committee on Education a",
+    "US|HR 9626|2026-07-09",
+    "US|HR 9626|2026-07-09|Referred to the House Committee on Ways ",
     "WI|AB1|2026-05-13|",
     "WI|AB1|2026-05-13|Assembly Amendment 1 adopted",
     "WI|AB1|2026-05-13|Read a third time",
@@ -242,7 +248,6 @@
     "|HRES 1409|2026-06-30|Submitted in House"
   ],
   "runs": {
-    "28288332860-1": 4,
     "28311100379-1": 4,
     "28321518732-1": 4,
     "28379627643-1": 4,
@@ -271,7 +276,8 @@
     "30724690980-1": 3,
     "30962605428-1": 3,
     "31138923764-1": 3,
-    "31237847175-1": 3
+    "31237847175-1": 3,
+    "31284577057-1": 3
   },
-  "last_run": "2026-08-08T04:25:45.241416+00:00"
+  "last_run": "2026-08-09T00:33:54.937243+00:00"
 }

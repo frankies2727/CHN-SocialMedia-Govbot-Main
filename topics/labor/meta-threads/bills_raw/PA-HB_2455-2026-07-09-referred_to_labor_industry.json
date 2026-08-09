@@ -1,0 +1,50 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2455",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending the act of April 9, 1929 (P.L.177, No.175), known as The Administrative Code of 1929, in powers and duties of the Department of Public Instruction and its departmental administrative boards and commissions, further providing for collective bargaining."
+  },
+  "id": "HB 2455",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Labor & Industry",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-09T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hb2455"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1297"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=62&rollcallid=2697&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=67&rollcallid=2655&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=26&rollcallid=2337&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=26&rollcallid=2336&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "HB 2455"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB2455/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB2455/logs/20260709T040000Z_referred_to_labor_industry.json"
+  },
+  "timestamp": "20260709T040000Z",
+  "posted_text": "🤝 Labor & Workers' Rights\nPA HB 2455 — Teachers Can Now Negotiate Pay & Benefits – A Big Win for Unions\n\nPennsylvania schools are now required to bargain collectively with their administrators through unions if 50% or more of the administrators support it. This means teachers and school staff can directly negotiate their pay, benefits like retirement and healthcare, and working conditions with the people who employ them. .. .... ..",
+  "posted_link": "https://www.palegis.us/legislation/bills/2025/hb2455",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DbzI04DGf9h"
+}
