@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 4830",
+    "legislative_session": "119",
+    "title": "A bill to designate the facility of the United States Postal Service located at 86-014 Farrington Highway in Waianae, Hawaii, as the \"United States Representative Colleen Hanabusa Post Office Building\"."
+  },
+  "id": "S 4830",
+  "log": {
+    "action": {
+      "description": "Committee on Homeland Security and Governmental Affairs. Ordered to be reported without amendment favorably.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-06T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s4830.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-bill/4830"
+        }
+      ]
+    },
+    "bill_id": "S 4830"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/S4830/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/S4830/logs/20260806T040000Z_committee_on_homeland_security_and_governmental_affairs_ordered_to_be_reported_without_amendment_fav.json"
+  },
+  "timestamp": "20260806T040000Z"
+}

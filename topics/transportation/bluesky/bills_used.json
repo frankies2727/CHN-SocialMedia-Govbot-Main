@@ -370,6 +370,8 @@
     "NJ|A2110|2026-01-13|WITHDRAWN APP P.L.2025, c.260.",
     "NJ|A2319|2026-01-13|WITHDRAWN APP P.L.2025, c.311.",
     "NJ|A2338|2026-01-13|WITHDRAWN APP P.L.2025, c.343.",
+    "NJ|A4761|2026-08-06",
+    "NJ|A4761|2026-08-06|Approved P.L.2026, c.70.",
     "NJ|A927|2026-01-13|WITHDRAWN APP P.L.2025, c.176.",
     "NJ|S1081|2026-01-13|WITHDRAWN APP P.L.2025, c.231.",
     "NJ|S1180|2026-01-13|WITHDRAWN APP P.L.2025, c.301.",
@@ -455,6 +457,8 @@
     "TN|HB 1736|2026-01-22|Assigned to s/c Departments & Agencies S",
     "TN|HB 1736|2026-01-22|P2C, ref. to State & Local Government Co",
     "TN|SB 1647|2026-01-21|Passed on Second Consideration, refer to",
+    "US|S 4830|2026-08-06",
+    "US|S 4830|2026-08-06|Committee on Homeland Security and Gover",
     "UT|HB 11|2026-01-28|Senate Comm - Favorable Recommendation [",
     "UT|HB 11|2026-01-29|Senate/ committee report favorable [Sena",
     "UT|HB 11|2026-01-29|Senate/ placed on 2nd Reading Calendar",
@@ -494,7 +498,7 @@
     "|HR 5109|2026-06-24|Ordered to be Reported by the Yeas and N",
     "|HR 5109|2026-06-24|Subcommittee on Transportation and Marit"
   ],
-  "last_run": "2026-08-08T00:52:23.313503+00:00",
+  "last_run": "2026-08-10T18:32:07.429978+00:00",
   "state_last_posted": {
     "IL": "2026-08-03T20:30:59.654479+00:00",
     "SC": "2026-05-16T03:01:17.694974+00:00",
@@ -507,7 +511,7 @@
     "DE": "2026-07-29T19:06:43.278166+00:00",
     "KS": "2026-06-19T11:42:10.452967+00:00",
     "IA": "2026-06-18T11:34:39.640002+00:00",
-    "NJ": "2026-06-05T11:03:01.586616+00:00",
+    "NJ": "2026-08-10T18:22:45.191133+00:00",
     "MN": "2026-07-31T23:15:09.721722+00:00",
     "UT": "2026-06-20T10:16:48.779429+00:00",
     "TN": "2026-06-14T16:12:40.649743+00:00",
@@ -524,6 +528,7 @@
     "AK": "2026-07-22T15:39:14.570906+00:00",
     "MI": "2026-07-22T15:39:14.570906+00:00",
     "LA": "2026-07-24T15:30:59.309423+00:00",
-    "NY": "2026-08-08T00:46:47.473794+00:00"
+    "NY": "2026-08-08T00:46:47.473794+00:00",
+    "US": "2026-08-10T18:22:45.191133+00:00"
   }
 }

@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 5371",
+    "legislative_session": "119",
+    "title": "A bill to close loopholes in the immigration laws that serve as incentives to aliens to attempt to enter the United States unlawfully, and for other purposes."
+  },
+  "id": "S 5371",
+  "log": {
+    "action": {
+      "description": "Read twice and referred to the Committee on the Judiciary.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-07T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s5371.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-bill/5371"
+        }
+      ]
+    },
+    "bill_id": "S 5371"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/S5371/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/S5371/logs/20260807T040000Z_read_twice_and_referred_to_the_committee_on_the_judiciary.json"
+  },
+  "timestamp": "20260807T040000Z"
+}

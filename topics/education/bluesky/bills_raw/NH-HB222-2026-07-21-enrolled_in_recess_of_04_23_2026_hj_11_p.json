@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB222",
+    "legislative_session": "2026",
+    "title": "repealing the requirement for a memorandum of understanding between a chartered public school and school district regarding how students with disabilities will receive special education services and updating the organizational structure of the department of corrections."
+  },
+  "id": "HB222",
+  "log": {
+    "action": {
+      "description": "Enrolled (in recess of) 04/23/2026  HJ 11  P. 82",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-21",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/advanced.aspx"
+        }
+      ]
+    },
+    "bill_id": "HB222"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB222/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB222/logs/20260721T000000Z_enrolled_in_recess_of_04232026_hj_11_p_82.json"
+  },
+  "timestamp": "20260721T000000Z"
+}
