@@ -1,0 +1,52 @@
+Title:
+Official Title:
+Source: versions - CHAPTERED FINAL VERSION
+Media Type: application/pdf
+Visual Markup Detected: true -- this document likely contains redline (strikethrough/underline) formatting; plain text extraction may not faithfully represent what the bill changes. See the saved original file.
+
+================================================================================
+
+CHAPTER55
+SB402-FN-FINALVERSION
+2026SESSION
+26-2148
+07/06
+402-FN
+SENATEBILL
+ANACT eliminatingcertainnon-competeagreementsforphysicianassociates.
+SPONSORS: Sen.Gannon,Dist23;Sen.McGough,Dist11;Sen.Prentiss,Dist5;Sen.Rosenwald,
+Dist13;Sen.Watters,Dist4;Sen.Sullivan,Dist18;Sen.Avard,Dist12;Sen.Birdsell,
+Dist 19; Sen. Rochefort, Dist 1; Sen. Fenton, Dist 10; Sen. Reardon, Dist 15; Sen.
+Pearl, Dist 17; Rep. Long, Hills. 26; Rep. Vose, Rock. 5; Rep. M. Pearson, Rock. 34;
+Rep.Weyler,Rock.14;Rep.Mandelbaum,Rock.21
+COMMITTEE: ExecutiveDepartmentsandAdministration
+─────────────────────────────────────────────────────────────────
+ANALYSIS
+Thisbilleliminatescertainnon-competeagreementsforphysicianassociates.
+---------------------------------------------------------------------------
+Explanation: Matteraddedtocurrentlawappearsinbolditalics.
+Matterremovedfromcurrentlawappears[inbracketsandstruckthrough.]
+Matterwhichiseither(a)allnewor(b)repealedandreenactedappearsinregulartype.
+
+CHAPTER55
+SB402-FN-FINALVERSION
+26-2148
+07/06
+STATEOFNEWHAMPSHIRE
+IntheYearofOurLordTwoThousandTwenty-Six
+ANACT eliminatingcertainnon-competeagreementsforphysicianassociates.
+BeitEnactedbytheSenateandHouseofRepresentativesinGeneralCourtconvened:
+55:1 New Section; Occupations and Professions; Physician Associates. Amend RSA 328-D by
+insertingaftersection19thefollowingnewsection:
+328-D:20 Certain Contract Restrictions Upon Physician Associates Unenforceable. Any contract or
+agreement that creates or establishes terms of a partnership, employment, or other form of professional
+relationship with a physician associate licensed by the board of medicine to practice medicine in this
+state, including any restriction on the right of a physician associate to practice in any geographic area for
+any period of time after the termination of such partnership, employment, or professional relationship,
+shall be void and unenforceable with respect to said restriction; provided, however, that nothing herein
+shall render void or unenforceable the remaining provisions of any such contract or agreement. The
+requirements of this section shall apply only to new contracts or renewals of contracts entered into on or
+aftertheeffectivedateofthissection.
+55:2 EffectiveDate. Thisactshalltakeeffect60daysafteritspassage.
+Approved:May08,2026
+EffectiveDate:July07,2026

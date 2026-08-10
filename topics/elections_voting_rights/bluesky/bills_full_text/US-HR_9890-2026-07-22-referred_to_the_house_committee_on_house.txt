@@ -1,0 +1,46 @@
+Title:
+Official Title: To direct State and local election officials to provide a minimum number of polling places within a State for voters to cast a ballot in an election for Federal office and to ensure that such polling places are not concentrated in a specific area, and for other purposes.
+Source: versions - Introduced in House
+Media Type: text/xml
+
+================================================================================
+
+HR 9890 IH: Polling Place Standards Act
+U.S. House of Representatives
+2026-07-22
+text/xml
+EN
+Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.
+
+I119th CONGRESS2d SessionH. R. 9890IN THE HOUSE OF REPRESENTATIVESJuly 22, 2026Ms. Williams of Georgia (for herself, Ms. Clarke of New York, Ms. Norton, Ms. Sewell, Mr. Johnson of Georgia, Mr. Figures, Mr. Veasey, and Ms. Strickland) introduced the following bill; which was referred to the Committee on House AdministrationA BILLTo direct State and local election officials to provide a minimum number of polling places within a State for voters to cast a ballot in an election for Federal office and to ensure that such polling places are not concentrated in a specific area, and for other purposes.
+1.Short titleThis Act may be cited as the Polling Place Standards Act. 2.Minimum required polling stations (a)In generalTitle III of the Help America Vote Act of 2002 (Public Law 107–252; 52 U.S.C. 21081 et seq.) is amended by adding at the end the following new subtitle:
+
+CAdditional polling place standards
+321.Polling place requirements
+(a)Minimum number of polling places in a StateNot later than 30 days prior to the day the voting period begins for any election for Federal office, the appropriate State or local election official shall begin preparations to ensure that during such voting period within each State there is not less than 1 covered polling place or vote center for every 2,000 voters registered to vote in such State.  (b)Location requirementsThe appropriate State or local election official shall ensure that, within a State, the covered polling places and vote centers available for a voter to cast a ballot in an election for Federal office are—
+
+(1)
+not concentrated in a specific area of such State; and
+
+(2)located in geographically diverse areas. (c)ExceptionThe requirements in subsection (a) and subsection (b) shall not apply with respect to a State if such State allows each voter in such State to, or permits a jurisdiction of such State to allow each voter in such jurisdiction to, cast a ballot in an election for Federal office by—
+(1)depositing such ballot in a drop box; or (2)mailing such ballot to the appropriate State or local election official.
+(d)Staffing
+(1)RequirementThe appropriate State or local election official shall ensure that each covered polling place and vote center required by this section is adequately staffed to ensure— (A)that ballots cast in an election for Federal office are processed in a timely manner as required by any applicable Federal or State law;
+(B)all equipment and ballots are handled in a method that ensures the general safety and secure storage of such equipment and ballots; and (C)compliance with any relevant accessability related Federal, State, or local law.
+(2)FactorsIn determining whether a covered polling place or vote center is adequately staffed pursuant to paragraph (1), the appropriate State or local election official shall consider— (A)the number of—
+(i)registered voters in the relevant precinct; (ii)check-in stations, including stations for the purposes of collecting ballots and verifying the identity of a voter, at such covered polling place or vote center;
+(iii)machines where a voter can fill out or submit a ballot electronically, if available, at such covered polling place or vote center; and (iv)ballot scanning machines at such covered polling place or vote center;
+(B)the accessability needs of the voters in such precinct; and (C)whether the wait time for a voter to cast a ballot in an election for Federal office at such covered polling place or vote center is 30 minutes or less.
+322.DefinitionsIn this subtitle: (1)The term covered polling place means a polling place that accepts ballots cast for a Federal election only from voters in a particular precinct.
+(2)The term vote center means a polling place that accepts a ballot cast for a Federal Election from any voter regardless of the precinct of such voter.  . (b)Clerical amendmentThe table of contents of such Act is amended by inserting after the item relating to section 312 the following:
+
+Subtitle C—Additional polling place standards
+Sec. 321. Polling place requirements.
+Sec. 322. Definitions..
+3.Grant program for polling place standards
+(a)In generalSubtitle D of title II of the Help America Vote Act of 2002 (Public Law 107–252; 52 U.S.C. 21001 et seq.) is amended by adding at the end the following new part:  7Grant Program for Polling Place Standards 298.Grant program for polling place standards (a)In generalThe Commission shall award grants to States to carry out the requirements of section 321.
+(b)StaffingThe Commission may hire employees as necessary to facilitate the grant program required in subsection (a).. (b)Clerical amendmentThe table of contents of such Act is amended by inserting after the item relating to section 296 the following:
+
+Part 7—Grant Program for Polling Place Standards
+Sec. 298. Grant program for polling place standards..
+4.Authorization of appropriationsThere is authorized to be appropriated such sums as may be necessary to carry out this Act.
