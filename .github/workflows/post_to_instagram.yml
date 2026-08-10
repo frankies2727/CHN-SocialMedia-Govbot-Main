@@ -33,11 +33,11 @@ jobs:
   prepare:
     runs-on: ubuntu-latest
     # The first-of-day cache-miss run pays the full national clone (~24 min) plus
-    # the unbounded `govbot logs` dump (~20-25 min), which together crept past the
-    # old 45-min budget and cancelled the job mid-dump. 60 min matches post_to_x
-    # and every other govbot-cloning workflow in this repo, giving the clone+dump
-    # real headroom; same-day re-runs hit the shared cache and finish in minutes.
-    timeout-minutes: 60
+    # the `govbot logs` dump; a slow clone or a growing corpus pushed the old
+    # 45-min budget over and cancelled the job mid-dump (govbot-bluesky-post #89).
+    # 120 min gives that one cache-miss run per day ample headroom — same-day
+    # re-runs hit the shared cache and finish in minutes.
+    timeout-minutes: 120
     steps:
       - name: Free disk space
         # ubuntu-latest ships with ~14 GB free; the govbot clone across 50+
@@ -166,7 +166,7 @@ jobs:
   post:
     needs: prepare
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    timeout-minutes: 120
 
     env:
       LLM_MODEL: "gemma3:4b"
