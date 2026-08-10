@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 9890",
+    "legislative_session": "119",
+    "title": "Polling Place Standards Act"
+  },
+  "id": "HR 9890",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on House Administration.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-22T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9890.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/9890"
+        }
+      ]
+    },
+    "bill_id": "HR 9890"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9890/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9890/logs/20260722T040000Z_referred_to_the_house_committee_on_house_administration.json"
+  },
+  "timestamp": "20260722T040000Z",
+  "posted_text": "🗳️ US HR 9890 — Your town could have more polling places\n\nThis bill demands that states and local election officials provide at least one polling place or vote center for every 2,000 registered voters in a state for Federal elections.\n\nThese locations can't be clustered together and must be spread out across diverse areas.\n\nStates that let people vote by mail or drop box are exempt.\n\nThe bill also requires adequate staffing at these locations to process ballots quickly and securely, considering voter numbers and accessibility needs.\n\nFinally, a grant program is established to help states meet these new polling place standards.\n\nJuly 22, 2026: Referred to the House Committee on House Administration.\n\n🔗 Read the full bill: https://www.congress.gov/bill/119th-congress/house-bill/9890\n\n#ElectionsVotingRights #USCongress #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-bill/9890",
+  "posted_url": "https://www.instagram.com/p/Db4KF9wiY_O/"
+}

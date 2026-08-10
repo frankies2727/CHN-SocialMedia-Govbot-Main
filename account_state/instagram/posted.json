@@ -87,6 +87,9 @@
     "DE|SB 300|2026-06-25|Amendment HA 7 to SS 1 - Stricken in Hou",
     "DE|SB 300|2026-06-25|Amendment HA 8 to SS 1 - Stricken in Hou",
     "DE|SB 300|2026-06-25|Amendment HA 9 to SS 1 - Stricken in Hou",
+    "DE|SB 353|2026-07-27",
+    "DE|SB 353|2026-07-27|",
+    "DE|SB 353|2026-07-27|Defeated By Senate. Votes: 6 YES 15 NO. ",
     "DE|SJR 19|2026-06-30|",
     "DE|SJR 19|2026-06-30|Laid On Table in House",
     "DE|SJR 19|2026-06-30|Lifted From Table in House",
@@ -280,6 +283,10 @@
     "RI|SB3339|2026-06-22|06/22/2026 Signed by Governor",
     "SC|H 5410|2026-06-25",
     "SC|H 5410|2026-06-25|Recalled from Committee on Transportatio",
+    "SC|H 5410|2026-07-09",
+    "SC|H 5410|2026-07-09|Scrivener's error corrected",
+    "SC|S 1018|2026-09-01",
+    "SC|S 1018|2026-09-01|Referred to Committee on Education",
     "SC|S 11|2026-07-01",
     "SC|S 11|2026-07-01|Act No. 249",
     "SC|S 11|2026-07-01|Effective date 10/01/26",
@@ -290,6 +297,8 @@
     "US|HR 9584|2026-07-02|Referred to the House Committee on Finan",
     "US|HR 9619|2026-07-09",
     "US|HR 9619|2026-07-09|Referred to the House Committee on Energ",
+    "US|HR 9890|2026-07-22",
+    "US|HR 9890|2026-07-22|Referred to the House Committee on House",
     "|HR 9368|2026-06-24",
     "|HR 9368|2026-06-24|Committee Consideration and Mark-up Sess",
     "|HR 9368|2026-06-24|Ordered to be Reported (Amended) by the "
@@ -321,7 +330,8 @@
     "30676812758-1": 4,
     "30840958354-1": 4,
     "31033322040-1": 4,
-    "31202508118-1": 4
+    "31202508118-1": 4,
+    "31435588872-1": 4
   },
-  "last_run": "2026-08-07T18:23:47.898080+00:00"
+  "last_run": "2026-08-10T23:08:12.226780+00:00"
 }

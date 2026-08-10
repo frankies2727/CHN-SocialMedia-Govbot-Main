@@ -1,0 +1,41 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A BILL TO AMEND THE SOUTH CAROLINA CODE OF LAWS BY AMENDING SECTION 59-104-20, RELATING TO THE PALMETTO FELLOWS SCHOLARSHIP PROGRAM, SO AS TO ADD THE CLASSIC LEARNING TEST AS AN APPROVED ASSESSMENT FOR RECEIVING SCHOLARSHIPS; BY AMENDING SECTION 59-149-50, RELATING TO THE LIFE SCHOLARSHIP, SO AS TO AMEND THE QUALIFICATIONS FOR A LIFE SCHOLARSHIP TO INCLUDE ACT AND CLT SCORES; AND BY AMENDING SECTION 59-26-20, RELATING TO THE DUTIES OF THE STATE BOARD OF EDUCATION AND COMMISSION ON HIGHER EDUCATION, SO AS TO AMEND THE DEFINITION OF \"TALENTED AND QUALIFIED RESIDENT\" TO INCLUDE ACT AND CLT SCORES.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 1018",
+    "legislative_session": "2025-2026",
+    "title": "Palmetto Fellows Scholarship Program"
+  },
+  "id": "S 1018",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Committee on Education",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-01",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=1018&session=126&summary=B"
+        }
+      ]
+    },
+    "bill_id": "S 1018"
+  },
+  "sources": {
+    "bill": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/S1018/metadata.json",
+    "log": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/S1018/logs/20260901T000000Z_referred_to_committee_on_education.json"
+  },
+  "timestamp": "20260901T000000Z",
+  "posted_text": "🎓 SC S 1018 — Palmetto Fellows Scholarship Program, So As to Add the Classic…\n\nA BILL TO AMEND THE SOUTH CAROLINA CODE OF LAWS BY AMENDING SECTION 59-104-20, RELATING TO THE PALMETTO FELLOWS SCHOLARSHIP PROGRAM, SO AS TO ADD THE CLASSIC LEARNING TEST AS AN APPROVED ASSESSMENT…\n\nSept. 1, 2026: Referred to Committee on Education.\n\n🔗 Read the full bill: https://www.scstatehouse.gov/sess126_2025-2026/bills/1018.htm\n\n#Education #SouthCarolina #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.scstatehouse.gov/sess126_2025-2026/bills/1018.htm",
+  "posted_url": "https://www.instagram.com/p/Db4I86-iaJ8/"
+}

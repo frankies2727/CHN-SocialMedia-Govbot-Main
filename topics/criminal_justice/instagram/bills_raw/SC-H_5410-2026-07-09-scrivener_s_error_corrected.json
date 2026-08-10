@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A CONCURRENT RESOLUTION TO REQUEST THE DEPARTMENT OF TRANSPORTATION NAME THE INTERSECTION OF UNITED STATES HIGHWAY 321 AND SOUTH CAROLINA HIGHWAY 322 IN THE CITY OF MCCONNELLS IN YORK COUNTY \"SHERIFF JOE MITCHELL INTERSECTION\" AND ERECT APPROPRIATE SIGNS OR MARKERS AT THIS LOCATION CONTAINING THESE WORDS.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H 5410",
+    "legislative_session": "2025-2026",
+    "title": "Sheriff Joe Mitchell Intersection"
+  },
+  "id": "H 5410",
+  "log": {
+    "action": {
+      "description": "Scrivener's error corrected",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-07-09",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5410&session=126&summary=B"
+        }
+      ]
+    },
+    "bill_id": "H 5410"
+  },
+  "sources": {
+    "bill": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/H5410/metadata.json",
+    "log": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/H5410/logs/20260709T000000Z_scriveners_error_corrected.json"
+  },
+  "timestamp": "20260709T000000Z",
+  "posted_text": "👮 SC H 5410 — Rock Hill Intersection Gets a New Name Honoring Local Sheriff\n\nThe South Carolina legislature is asking the Department of Transportation to name the intersection of US Highway 321 and SC Highway 322 in Rock Hill ‘Sheriff Joe Mitchell Intersection.’ The resolution recognizes Joe Mitchell, who served as York County Sheriff from 1993 to 1997, detailing his career starting with Sunrise Dairy and his rise through the ranks of law enforcement before becoming sheriff.\n\nJuly 9, 2026: Scrivener's error corrected.\n\n🔗 Read the full bill: https://www.scstatehouse.gov/sess126_2025-2026/bills/5410.htm\n\n#CriminalJusticePolicing #SouthCarolina #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.scstatehouse.gov/sess126_2025-2026/bills/5410.htm",
+  "posted_url": "https://www.instagram.com/p/Db4Halsif7h/"
+}
