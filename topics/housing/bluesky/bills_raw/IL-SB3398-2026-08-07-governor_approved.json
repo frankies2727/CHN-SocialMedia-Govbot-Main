@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB3398",
+    "legislative_session": "104th",
+    "title": "CIV PRO-TENANTS IN COMMON"
+  },
+  "id": "SB3398",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Governor Approved",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-07",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=3398&GAID=18&DocTypeID=SB&LegId=166320&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "SB3398"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/SB3398/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/SB3398/logs/20260807T000000Z_governor_approved.json"
+  },
+  "timestamp": "20260807T000000Z"
+}

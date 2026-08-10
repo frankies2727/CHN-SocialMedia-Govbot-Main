@@ -197,6 +197,8 @@
     "IA|SF 2507|2026-05-03|Committee report, approving bill.",
     "IL|SB1828|2026-07-09",
     "IL|SB1828|2026-07-09|Added as Co-Sponsor Sen. Dave Syverson",
+    "IL|SB1828|2026-07-15",
+    "IL|SB1828|2026-07-15|Added as Co-Sponsor Sen. Darby A. Hills",
     "IL|SB3868|2026-07-09",
     "IL|SB3868|2026-07-09|Added as Co-Sponsor Sen. Dave Syverson",
     "KS|HB2014|2026-04-10|Died in Committee",
@@ -418,6 +420,8 @@
     "TN|SB 1485|2026-01-22|Withdrawn.",
     "US|HR 9626|2026-07-09",
     "US|HR 9626|2026-07-09|Referred to the House Committee on Ways ",
+    "US|S 5366|2026-08-07",
+    "US|S 5366|2026-08-07|Read twice and referred to the Committee",
     "WA|HB 2431|2026-03-16|Effective date 6/11/2026*.",
     "WA|HB 2431|2026-03-16|Governor signed.",
     "WA|SB 5054|2025-01-31|Executive action taken in the Senate Com",
@@ -462,7 +466,7 @@
     "|HR 9626|2026-07-09",
     "|HR 9626|2026-07-09|Referred to the House Committee on Ways "
   ],
-  "last_run": "2026-08-08T01:07:44.056347+00:00",
+  "last_run": "2026-08-10T18:16:50.672593+00:00",
   "state_last_posted": {
     "MI": "2026-08-03T20:38:37.867520+00:00",
     "RI": "2026-07-12T09:15:54.555947+00:00",
@@ -488,9 +492,9 @@
     "NC": "2026-07-31T18:56:07.510744+00:00",
     "AK": "2026-07-20T10:25:36.717979+00:00",
     "PA": "2026-07-21T09:49:19.006632+00:00",
-    "IL": "2026-07-31T18:56:07.510744+00:00",
+    "IL": "2026-08-10T18:10:13.536067+00:00",
     "NY": "2026-08-03T20:38:37.867520+00:00",
     "?": "2026-07-22T15:30:57.134516+00:00",
-    "US": "2026-07-29T19:12:55.260802+00:00"
+    "US": "2026-08-10T18:10:13.536067+00:00"
   }
 }
