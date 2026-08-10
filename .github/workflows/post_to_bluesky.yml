@@ -32,7 +32,12 @@ jobs:
   # ---------------------------------------------------------------------------
   prepare:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    # The first-of-day cache-miss run pays the full national clone (~24 min) plus
+    # the `govbot logs` dump; a slow clone or a growing corpus pushed the old
+    # 45-min budget over and cancelled the job mid-dump (govbot-bluesky-post #89).
+    # 120 min gives that one cache-miss run per day ample headroom — same-day
+    # re-runs hit the shared cache and finish in minutes.
+    timeout-minutes: 120
     steps:
       - name: Free disk space
         # The govbot clone across 50+ states blows past the runner's ~14 GB free,
@@ -128,7 +133,7 @@ jobs:
     # No govbot clone here (the corpus is downloaded), so a shard is just Ollama
     # setup (~2 min) + posting. Posting has spiked to ~35 min; keep generous
     # headroom now that the LLM relevance gate adds a call per selected bill.
-    timeout-minutes: 55
+    timeout-minutes: 120
     strategy:
       fail-fast: false
       matrix:
