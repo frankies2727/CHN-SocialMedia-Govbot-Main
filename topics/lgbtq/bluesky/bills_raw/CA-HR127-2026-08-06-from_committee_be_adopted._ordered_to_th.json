@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR127",
+    "legislative_session": "20252026",
+    "title": "Relative to Transgender History Month."
+  },
+  "id": "HR127",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "committee-passage",
+        "committee-passage-favorable",
+        "passage",
+        "reading-1",
+        "reading-3"
+      ],
+      "description": "From committee: Be adopted. Ordered to Third Reading. (Ayes 6. Noes 2.) (August 6).",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-06",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260HR127"
+        }
+      ]
+    },
+    "bill_id": "HR127"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/HR127/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/HR127/logs/20260806T000000Z_from_committee_be_adopted_ordered_to_third_reading_ayes_6_noes_2_august_6.json"
+  },
+  "timestamp": "20260806T000000Z"
+}
