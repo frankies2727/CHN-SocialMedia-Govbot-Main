@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 587",
+    "legislative_session": "2025-2026",
+    "title": "A Resolution recognizing July 25, 2026, as \"World IVF Day\" in Pennsylvania."
+  },
+  "id": "HR 587",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Health",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-20T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hr587"
+        }
+      ]
+    },
+    "bill_id": "HR 587"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HR587/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HR587/logs/20260720T040000Z_referred_to_health.json"
+  },
+  "timestamp": "20260720T040000Z"
+}

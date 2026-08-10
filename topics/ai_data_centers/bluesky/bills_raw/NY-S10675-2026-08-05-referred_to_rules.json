@@ -1,0 +1,49 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Imposes liability for damages caused by a chatbot impersonating certain licensed professionals."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S10675",
+    "legislative_session": "2025-2026",
+    "title": "Imposes liability for damages caused by a chatbot impersonating certain licensed professionals"
+  },
+  "id": "S10675",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "REFERRED TO RULES",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-05",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "RULES"
+        }
+      ],
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10675?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/S10675"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=S10675&term=2025"
+        }
+      ]
+    },
+    "bill_id": "S10675"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S10675/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S10675/logs/20260805T000000Z_referred_to_rules.json"
+  },
+  "timestamp": "20260805T000000Z"
+}
