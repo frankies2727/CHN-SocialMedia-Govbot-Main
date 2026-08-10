@@ -11,6 +11,7 @@ docs/*
 !docs/index.html
 !docs/data.json
 !docs/README.md
+!docs/govbot-logo.png
 
 # Cached full bill text extracted from PDFs (regenerated each run)
 .bill_text_cache/

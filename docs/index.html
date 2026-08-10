@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Social Media Posts Dashboard</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>" />
+<link rel="icon" href="govbot-logo.png" />
 <style>
   :root {
     --plane:#0d0d0d; --surface:#1a1a19; --surface-2:#232322;
@@ -19,7 +19,10 @@
   .wrap { max-width:1080px; margin:0 auto; }
 
   header.page { margin-bottom:20px; }
-  header.page h1 { font-size:26px; margin:0 0 6px; letter-spacing:-0.01em; }
+  header.page h1 { font-size:26px; margin:0 0 6px; letter-spacing:-0.01em;
+    display:flex; align-items:center; gap:14px; }
+  header.page h1 .brand-logo { flex:none; display:block; width:56px; height:56px;
+    border-radius:12px; }
   header.page p { margin:0; color:var(--ink-2); font-size:15px; }
   .stamp { color:var(--muted); font-size:13px; margin-top:10px; }
   .stamp b { color:var(--ink-2); font-weight:600; }
@@ -131,6 +134,12 @@
   .bsky-main { min-width:0; }
   .bsky-toolbar { display:flex; align-items:center; gap:12px; margin-bottom:12px; flex-wrap:wrap; }
   .bsky-toolbar input { flex:1; min-width:180px; }
+  #bsky-search { border:1.5px solid #4c9aef; border-radius:9px;
+    padding-left:36px;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%234c9aef' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='11' cy='11' r='7'/><line x1='21' y1='21' x2='16.65' y2='16.65'/></svg>");
+    background-repeat:no-repeat; background-position:left 12px center; }
+  #bsky-search:focus { outline:none; border-color:#7ab6f5;
+    box-shadow:0 0 0 3px rgba(76,154,239,0.25); }
   .bsky-status { color:var(--muted); font-size:12.5px; white-space:nowrap; }
   .bsky-feed { display:flex; flex-direction:column; gap:12px; max-height:720px; overflow-y:auto; padding-right:4px; }
   .bpost { border:1px solid var(--border); border-radius:12px; background:var(--surface-2); padding:14px 16px; }
@@ -193,8 +202,8 @@
 <body>
 <div class="wrap">
   <header class="page">
-    <h1>📊 Social Media Posts Dashboard</h1>
-    <p>Every bill update the bot has posted, across all platforms (Bluesky, X, Threads, and Instagram) — filter it any way you like.</p>
+    <h1><img class="brand-logo" src="govbot-logo.png" width="56" height="56" alt="Govbot logo" />Govbot Social Media Posts Dashboard</h1>
+    <p>Every bill update Govbot has posted, across all platforms (Bluesky, X, Threads, and Instagram) — filter it any way you like.</p>
     <div class="social">
       <a class="bsky" href="https://bsky.app/profile/govbotcrimejustice.bsky.social" target="_blank" rel="noopener" aria-label="Follow on Bluesky" title="Bluesky">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.038.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8z"/></svg>
