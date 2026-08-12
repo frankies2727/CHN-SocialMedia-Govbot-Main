@@ -1,0 +1,42 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "(1) Existing law, the Public Employees' Retirement Law, permits a member of the Public Employees' Retirement System to elect from among several optional settlements for the purpose of structuring the member's retirement allowance. Existing law requires a member to make an election, revocation, or change of election within 30 calendar days after the making of the first payment on account of any retirement allowance or, in the event of a change of retirement status after retirement, within 30 calendar days after making the first payment on account of that change in retirement status.\n\nThis bill would extend the timeframe for those actions to within 60 calendar days after making the first payment.\n\n(2) Existing law sets forth the Labor Commissioner's duties, including investigating employee complaints, and requires the Labor Commissioner, within 30 days of the filing of the complaint, to notify the parties as to whether a hearing will be held and whether certain actions will be taken. Existing law requires a party who has received actual notice of a claim before the Labor Commissioner to notify the Labor Commissioner in writing of any changes in that party's business or personal address within 10 days after the change in address occurs. Existing law requires a copy of the complaint to be served on all parties when a hearing is set, and specifies the copy shall be served personally, by certified mail, or pursuant to specified provisions authorizing certain service in lieu of personal delivery. Existing law requires the Labor Commissioner to file a decision within 15 days after the hearing is concluded and to serve a copy of that decision on the parties in the same manner as the copy of the complaint.\n\nThis bill would also require a party to notify the Labor Commissioner of any changes to that party's electronic address. The bill would revise the manner in which notice is required to be given and the copy of the decision is required to be served to include first-class mail, registered mail, or any manner that the party agrees to accept service, except that any party that is represented by an attorney would be required to accept electronic service from the Labor Commissioner. The bill would require a represented party to provide their attorney's electronic mail address.\n\n(3) Existing law makes it unlawful for a person or employer to engage in certain acts relating to the willful misclassification of an individual as an independent contractor and imposes certain civil penalties for violations of that provision, as specified. Existing law entitles an employee to recover damages for a violation, as specified, and sets forth certain enforcement provisions. In this regard, existing law provides that, for each public employee subject to specified statutes, the Labor Commissioner or a public prosecutor may alternatively recover the above-referenced civil penalties as damages payable to the employee, as specified.\n\nThis bill would, instead, provide that each employee under those statutes, the Labor Commissioner, or a public prosecutor may alternatively recover the above-referenced civil penalties as damages payable to the employee, as specified.\n\n(4) Existing law establishes a workers' compensation system to compensate an employee for injuries sustained in the course of employment. Existing law creates a rebuttable presumption that specified injuries, including cancer and post-traumatic stress disorder, that developed or manifested during a period in which the person is serving as a first responder, as specified, arose out of and in the course of employment. Existing law makes these provisions applicable to an active firefighting members of a fire department that provides fire protection to a commercial airport regulated by the Federal Aviation Administration, as specified, and that are trained and certified by the State Fire Marshal as meeting the standards of Fire Control 5 and a specified section of the Code of Federal Regulations.\n\nThis bill would eliminate the requirement that the above-described active firefighters be trained and certified by the State Fire Marshal as meeting the standards of Fire Control 5 for the above-described presumptions to apply to those firefighters.\n\n(5) Existing law requires the Director of Employment Development to calculate the experiences of school employers relative to usage of the Unemployment Fund and to provide this information, among other things, to the affected school employer and governing body thereof at least annually.\n\nThis bill would require the report also to be made to the Legislature.\n\nExisting law requires the Director of Employment Development to develop experience relationships on all benefits paid to employees via the School Employees Fund and on school employers' experience related to use and exposure, and to report this each year to the Legislature before March 31. Existing law also requires the report to contain comments and recommendations on improvement to administration, enforcement, and financing of the provisions relative thereto.\n\nThis bill would recast those provisions and require the development of experience relationships to be included in the report containing calculation of the experiences of school employers relative to usage of the Unemployment Fund described above. The bill would remove the requirement that the report contain comments and recommendations on improvement.\n\nExisting law requires the director to prepare a biennial report to the Legislature on the department's automation plans that, among other things, provides a strategic information technology plan that describes the long-term goals and strategies that shall be undertaken by the department covering a 10-year planning horizon, as specified.\n\nThis bill would instead require the report to include a plan covering a 3-year planning horizon. The bill would also make other nonsubstantive changes.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1444",
+    "legislative_session": "20252026",
+    "subject": [
+      "Employment"
+    ],
+    "title": "Employment."
+  },
+  "id": "SB1444",
+  "log": {
+    "action": {
+      "classifications": [
+        "reading-1",
+        "reading-2"
+      ],
+      "description": "Read second time. Ordered to consent calendar.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-06",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1444"
+        }
+      ]
+    },
+    "bill_id": "SB1444"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1444/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1444/logs/20260806T000000Z_read_second_time_ordered_to_consent_calendar.json"
+  },
+  "timestamp": "20260806T000000Z"
+}

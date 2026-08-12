@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB2102",
+    "legislative_session": "2026",
+    "title": "Legislative and Congressional Redistricting and Legislative and Congressional Redistricting and Apportionment Commission (Fair Districts for Maryland Act)"
+  },
+  "id": "SB2102",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "First Reading Senate Rules",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-03",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb2102?ys=2026RS"
+        }
+      ]
+    },
+    "bill_id": "SB2102"
+  },
+  "sources": {
+    "bill": "md-legislation/country:us/state:md/sessions/2026/bills/SB2102/metadata.json",
+    "log": "md-legislation/country:us/state:md/sessions/2026/bills/SB2102/logs/20260803T000000Z_first_reading_senate_rules.json"
+  },
+  "timestamp": "20260803T000000Z"
+}
