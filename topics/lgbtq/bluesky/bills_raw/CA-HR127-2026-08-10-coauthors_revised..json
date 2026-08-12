@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR127",
+    "legislative_session": "20252026",
+    "title": "Relative to Transgender History Month."
+  },
+  "id": "HR127",
+  "log": {
+    "action": {
+      "description": "Coauthors revised.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-10",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260HR127"
+        }
+      ]
+    },
+    "bill_id": "HR127"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/HR127/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/HR127/logs/20260810T000000Z_coauthors_revised.json"
+  },
+  "timestamp": "20260810T000000Z"
+}

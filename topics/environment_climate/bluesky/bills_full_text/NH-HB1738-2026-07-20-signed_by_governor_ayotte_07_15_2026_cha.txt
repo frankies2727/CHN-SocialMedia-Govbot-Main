@@ -1,0 +1,306 @@
+Title:
+Official Title:
+Source: versions - As Amended by the Senate
+Media Type: application/pdf
+Visual Markup Detected: true -- this document likely contains redline (strikethrough/underline) formatting; plain text extraction may not faithfully represent what the bill changes. See the saved original file.
+
+================================================================================
+
+05/14/2026 1931s
+2026SESSION
+26-2643
+04/09
+1738-FN
+HOUSEBILL
+ANACT relative to ratepayer benefits from the regional greenhouse gas initiative and
+relativetonetmetering,energyprocurement,andnuclearregulatoryduties.
+SPONSORS: Rep. Harrington, Straf. 18; Rep. McGhee, Hills. 35; Rep. Vose, Rock. 5; Sen.
+Rosenwald,Dist13;Sen.Watters,Dist4
+COMMITTEE: Science,TechnologyandEnergy
+─────────────────────────────────────────────────────────────────
+AMENDEDANALYSIS
+Thisbill:
+I. Changes the carbon dioxide emissions budget allowances for 2027 through 2030 and
+thereafter, and creates 2 cost containment allowance levels and the trigger price at which the
+departmentreleasesallowancesforyears2027through2030andthereafter.
+II. Modifiesthecoordinatorofnucleardevelopmentandregulatoryactivities'duties.
+II. Amends certain net metering applicable total peak generating capacities and establishes
+long-term eligibility for certain customer-generators to receive net energy metering compensation
+underalternativetariffsapprovedbythepublicutilitiescommission.
+III. Defines"advancednuclearreactor."
+IV. Extends the deadline for electric distribution utilities to issue requests for proposals for
+multi-year agreements for energy, in conjunction with or independent of any attendant
+environmental attributes from electric energy sources, and modifies the requirements for the
+agreements.
+---------------------------------------------------------------------------
+Explanation: Matteraddedtocurrentlawappearsinbolditalics.
+Matterremovedfromcurrentlawappears[inbracketsandstruckthrough.]
+Matterwhichiseither(a)allnewor(b)repealedandreenactedappearsinregulartype.
+
+05/14/2026 1931s 26-2643
+04/09
+STATEOFNEWHAMPSHIRE
+IntheYearofOurLordTwoThousandTwenty-Six
+ANACT relative to ratepayer benefits from the regional greenhouse gas initiative and
+relativetonetmetering,energyprocurement,andnuclearregulatoryduties.
+BeitEnactedbytheSenateandHouseofRepresentativesinGeneralCourtconvened:
+1 Multiple Pollutant Reduction Program; Definition; Regional Organization; RGGI allowance.
+AmendRSA125-O:20,XIII-XVtoreadasfollows:
+XIII. "Regionalorganization"meansanon-profitorganizationformedbythesignatorystates
+to RGGI to provide technical and administrative assistance for such things as: emissions and
+allowance tracking, [offsets development and implementation,] allowance market monitoring, and
+datacollection. Theorganizationshallhavenoregulatoryorenforcementauthority.
+XIV. "Retire" means submitting a RGGI allowance to the department for compliance or
+other purpose or retaining a RGGI allowance by the department such that the allowance may never
+besoldorotherwiseusedagain.
+XV. "RGGI allowance" means a limited authorization to emit one ton of CO2 issued by the
+departmentorotherstatewithaprogramthatthedepartmentdeterminesisinaccordancewiththis
+subdivision or the RGGI program, including emissions limitations as documented by the regional
+organization, and shall include budget allowances[, offset allowances, and early reduction
+allowances].
+2 Carbon Dioxide Emissions Budget Trading Program. Amend RSA 125-O:21, II to read as
+follows:
+II. The program shall include a statewide budget allowance total for each year calculated as
+follows:
+[20194,184,333minusFCPBAminusSCPBA
+20204,079,725minusFCPBAminusSCPBA
+20213,960,999minusTBA
+20223,842,274minusTBA
+20233,723,549minusTBA
+20243,604,823minusTBA
+20253,486,098minusTBA]
+20263,367,373
+2027[3,248,648]2,993,220
+2028[3,129,922]2,619,068
+2029[3,011,197]2,244,915
+2030andthereafter[2,892,472]1,870,763
+
+-Page2-
+3 Compliance;PermitRequired. AmendRSA125-O:22,Vtoreadasfollows:
+V. InadditiontotheprovisionssetforthinRSA125-O:7,anaffectedCO2sourcethatfailsto
+obtain and retire sufficient RGGI allowances during a compliance period, in accordance with RSA
+125-O:22, I, shall obtain and surrender 3 RGGI budget [or early reduction] allowances in the next
+compliance period for each RGGI allowance that the affected CO2 source was short in obtaining
+compliance.
+4 Cost Containment Allowances in Addition to the Budget. RSA 125-O:29 is repealed and
+reenactedtoreadasfollows:
+125-O:29 CostContainmentAllowancesinAdditiontotheBudget.
+I. For the purposes of cost containment, the department shall make available for sale at one
+or more auctions up to the following amounts of allowances that shall be in addition to the budget
+allowancetotalforthegivenyearunderRSA125-O:21,II,if:
+(a) The CO2 allowance auction price equals or exceeds $19.50 in 2027, up to 503,667
+allowancesandupto503,667additionalallowancesifitequalsorexceeds$29.25;
+(b) The CO2 allowance auction price equals or exceeds $20.87 in 2028, up to 503,667
+allowancesandupto503,667additionalallowancesifitequalsorexceeds$31.30;
+(c) The CO2 allowance auction price equals or exceeds $22.33 in 2029, up to 503,667
+allowancesandupto503,667additionalallowancesifitequalsorexceeds$33.49;
+(d) The CO2 allowance auction price equals or exceeds $23.89 in 2030, up to 503,667
+allowancesandupto503,667additionalallowancesifitequalsorexceeds$35.83;or
+(e) In any year thereafter, the CO2 allowance auction price equals or exceeds 1.07
+multiplied by the auction price at which cost containment allowances were required to be made
+available in the previous calendar year rounded to the nearest whole cent, until further legislative
+action.
+II. The allowances sold pursuant to paragraph I shall be replenished, such that the full
+1,007,214allowances,ifneeded,areavailablethefollowingcalendaryear.
+5 Repeal. Thefollowingarerepealed:
+I. RSA 125-O:20, VII and VII-a, relative to the definition of early reduction allowances and
+thedefinitionofFCPBAorfirstcomplianceperiodbankedallowances.
+II. RSA125-O:20,X,relativetothedefinitionofoffsetallowances.
+III. RSA 125-O:20, XV-a, relative to the definition of second compliance period banked
+allowances(SCPBA).
+IV. RSA 125-O:20, XVIII, relative to the definition of third adjustment for banked
+allowances(TBA).
+6 Peaceful Uses of Atomic Energy; Coordination of Studies and Development Activities. Amend
+RSA162-B:4,IIItoreadasfollows:
+
+-Page3-
+III. The coordinator of nuclear development and regulatory activities shall have the duty to
+coordinate and produce the reports required by RSA 162-B:3, as well as coordinate the studies
+conducted, and the recommendations and proposals made, in this state with like activities in New
+England and other states and with the policies and regulations of the United States Nuclear
+Regulatory Commission. These activities may include the management of funding and
+oversight of nuclear incentive programs, such as those described by RSA 374-F:11, as well
+asoutreachprogramstoinformandeducatethepublic,particularlyregardingsafety.
+7 New Paragraph; Net Metering. Amend RSA 362-A:9 by inserting after paragraph II the
+followingnewparagraph:
+II-a. Each electric distribution utility shall make available alternative tariffs for net
+metering to eligible customer-generators in accordance with order no. 26,029 dated June 23, 2017,
+and the net metering rules adopted by the commission. Any eligible customer-generator that has
+submitted an interconnection application to a distribution utility on or before the effective date of
+thisactandthatiseitheralow-moderateincomecommunitysolarprojectdesignatedfortheElectric
+Assistance Program under RSA 362-A:9, XIV(e) in 2026 or earlier or is used to offset the electricity
+requirements of a group consisting exclusively of one or more customers who are political
+subdivisions that first receives compensation under an order no. 26,029 alternative tariff shall
+remain eligible to receive that tariff for 20 years from the first day on which compensation is
+received.
+8 NetMetering. AmendRSA362-A:9,IIIandIVtoreadasfollows:
+III. Metering shall be done in accordance with normal metering practices. A single net
+meter that shows the customer's net energy usage by measuring both the inflow and outflow of
+electricity internally shall be the extent of metering that is required at facilities with a total peak
+generating capacity of not more than [100] 250 kilowatts. A bidirectional metering system that
+recordsthetotalamountofelectricitythatflowsineachdirectionfromthecustomerpremises,either
+instantaneously or over intervals of an hour or less, shall be required at facilities with a total peak
+generatingcapacityofmorethan[100]250kilowatts. Thebidirectionalsystemmayconsistofoneor
+more meters, as long as it can be used to appropriately meter and bill in compliance with utility
+tariffsandrules. Customer-generatorsshallnotberequiredtopayfortheinstallationofnetmeters,
+but shall pay for the installation of, or procure at their own cost if approved by the interconnecting
+utility,allbidirectionalmeteringsystemsasoutlinedinutilityinterconnectiontariffsorrules.
+IV.(a) For facilities with a total peak generating capacity of not more than [100] 250
+kilowatts, when billing a customer-generator under a net energy metering tariff that is not time-
+based, the utility shall apply the customer's net energy usage when calculating all charges that are
+basedonkilowatthourusage. Customernetenergyusageshallequalthekilowatthourssuppliedto
+the customer over the electric distribution system minus the kilowatt hours generated by the
+customer-generatorandfedintotheelectricdistributionsystemoverabillingperiod.
+
+-Page4-
+(b) For facilities with a total peak generating capacity of more than [100] 250 kilowatts,
+the customer-generator shall pay all applicable charges on all kilowatt hours supplied to the
+customer over the electric distribution system, less a credit on default service charges equal to the
+metered energy generated by the customer-generator and fed into the electric distribution system
+overabillingperiod.
+9 New Paragraph; Electric Utility Restructuring; Definitions. Amend RSA 374-F:2 by inserting
+afterparagraphIIthefollowingnewparagraph:
+II-a. "Advancednuclearreactor"hasthesamemeaningasthatprovidedin42U.S.C.section
+16271(b)(1),asamendedfromtimetotime.
+10 PurchasedPowerAgreements. AmendtheintroductoryparagraphofRSA374-F:11,Itoread
+asfollows:
+I. Investor-owned electric distribution utilities may elect to develop and, no later than June
+30, [2025] 2040, issue a request for proposals for multi-year agreements for energy, in conjunction
+withorindependentofanyattendantenvironmentalattributesfromelectricenergysources.
+11 PurchasedPowerAgreements. AmendRSA374-F:11,I(g)toreadasfollows:
+(g) All megawatt hours procured through agreements made pursuant to this section
+shallcomefromexisting,new,orincrementalelectricenergysources.
+12 New Subparagraphs; Purchased Power Agreements. Amend RSA 374-F:11, I(h) by inserting
+aftersubparagraph(2)thefollowingnewsubparagraphs:
+(3) "Existing electric energy sources" means all sources that currently provide
+energy to the ISO-NE regional markets, including nuclear power generation facilities located in the
+ISO-NEcontrolareathatcommencedcommercialoperationbeforeJanuary1,2011.
+(4) Upon the petition of one or more electric distribution utilities, and after notice
+and hearing, the public utilities commission may authorize such utility or utilities to enter into
+multi-year agreements with existing, new, or incremental electric energy sources up to a total of 3
+million megawatt hours statewide, on an annual basis, if it finds such agreements to be just and
+reasonableandinthepublicinterest.
+(5) Further, any single source shall be eligible to procure an amount of energy not to
+exceed1millionmegawatthoursstatewide,onanannualbasis,exceptforadvancednuclearreactors
+as defined in RSA 374-F:2, II-a, which may procure an amount not to exceed 2 million megawatt
+hoursonanannualbasis.
+13 Purchased Power Agreements. Amend the introductory paragraph for RSA 374-F:11, II
+throughRSA374-F:11,II(a)toreadasfollows:
+II. Any investor-owned electric distribution utility electing to enter into an agreement
+pursuant to this section shall petition the public utilities commission for authorization to enter the
+agreementnolaterthanJune30,[2026]2041.
+
+-Page5-
+(a) Upon the petition of one or more electric distribution utilities, and after notice and
+hearing, the public utilities commission may authorize such utility or utilities to enter into multi-
+year agreements with new or incremental electric energy sources up to a total of 2 million megawatt
+hours statewide, on an annual basis, if it finds suchagreements to be just and reasonable and in the
+public interest, provided that if at least 1 million megawatt hours are procured from
+advanced nuclear reactors as defined in RSA 374-F:2, II-a, an additional 1 million
+megawatthoursmaybeprocuredfromexisting,new,orincrementalelectricenergysources
+foratotalofupto3millionmegawatthoursstatewideannually.
+14 EffectiveDate. Thisactshalltakeeffect60daysafteritspassage.
+
+LBA
+26-2643
+5/19/26
+HB1738-FN-FISCALNOTE
+ASAMENDEDBYTHESENATE(AMENDMENT#2026-1931s)
+ANACT relative to ratepayer benefits from the regional greenhouse gas initiative and
+relativetonetmetering,energyprocurement,andnuclearregulatoryduties.
+FISCALIMPACT:
+Estimated State Impact
+FY2026 FY2027 FY2028 FY2029
+Sections1-5 Sections1-5 Sections1-5
+Revenue $0 Indeterminable Indeterminable Indeterminable
+(seebelow) (seebelow) (seebelow)
+RevenueFund(s) EnergyEfficiencyFund
+AllSections AllSections AllSections
+Indeterminable Indeterminable Indeterminable
+(State'sUtility (State'sUtility (State'sUtility
+Costs) Costs) Costs)
+Expenditures* $0
+Sections6-13 Sections6-13 Sections6-13
+$126,000 $129,000 $135,000
+(Utility (Utility (Utility
+Assessments) Assessments) Assessments)
+GeneralFund,HighwayFund,VariousAgencyFunds,andUtility
+FundingSource(s)
+AssessmentperRSA363-A
+Appropriations* $0 $0 $0 $0
+FundingSource(s) None
+*Expenditure=Costofbill *Appropriation=Authorizedfundingtocovercostofbill
+Estimated Political Subdivision Impact
+FY2026 FY2027 FY2028 FY2029
+CountyRevenue $0 $0 $0 $0
+CountyExpenditures $0 Indeterminable Indeterminable Indeterminable
+LocalRevenue $0 $0 $0 $0
+LocalExpenditures $0 Indeterminable Indeterminable Indeterminable
+METHODOLOGY:
+Sections1thru5
+Sections 1 thru 5 of this bill updates New Hampshire’s participation in the Regional Greenhouse
+Gas Initiative by revising the carbon dioxide emissions allowance cap from 2027 through 2030
+and maintaining the 2030 allowance level thereafter unless modified through a future program
+review. The bill also revises the cost containment reserve by establishing two allowance tiers
+
+and associated trigger prices to provide additional price controls. These changes are intended to
+implementthethirdRGGIProgramReviewasadoptedbyparticipatingstates.
+The Department of Environmental Services and the Department of Energy, which together
+administer New Hampshire’s participation in RGGI state this bill implements the third RGGI
+Program Review adopted by all participating states and updates the allowance cap trajectory
+beginning in 2027, resulting in larger annual reductions in allowances through 2030 than under
+current law. The bill also modifies the cost containment reserve by adding a second tier of
+allowances to provide additional consumer price protection during periods of high allowance
+prices. The Departments state that revenue from RGGI allowance auctions is deposited into the
+EnergyEfficiencyFund and is primarily used toprovide rebates toelectricity customers to offset
+the cost of allowance purchases reflected in wholesale electricity prices. In calendar year 2024,
+New Hampshire received approximately $65,800,000 in auction proceeds, of which about
+$62,600,000 was returned to ratepayers, with the remaining funds used for energy efficiency
+programsandadministrativecosts.
+The Departments explain that future RGGI auction prices are uncertain and depend on market
+conditions, making the fiscal impact of the revised allowance trajectory indeterminable.
+Economic modeling conducted as part of the RGGI Program Review indicates that if this bill is
+enacted, allowance prices under the updated program could decrease somewhat during the 2028
+through 2030 period. Under the bill, New Hampshire would continue to participate in RGGI
+auctionsandisexpectedtoreceiveauctionproceedsintherangeofapproximately$33,000,000to
+$46,000,000 per year during that period, with the majority returned to consumers through bill
+rebates. This would represent a reduction compared to historical auction revenues of
+approximately$66,000,000peryear,butwouldpreservecontinuedauctionparticipation.
+However, the Departments state that under current law, beginning in 2027, New Hampshire’s
+allowance structure would no longer align with RGGI program requirements and allowances
+would not be offered for sale at auction, resulting in the loss of all RGGI auction revenue,
+estimatedatapproximately$65,800,000annually. Whilethis billwould reduceauctionproceeds
+relativetoprioryears,itwouldavoidthecompletelossofauctionrevenueundercurrentlawand
+maintain continued ratepayer benefits through rebates, with the net impact on State, county,
+andmunicipalenergycostsremainingindeterminable.
+Sections6thru13
+Sections 6 thru 13 of this bill enables electric utilities to own, operate, and offer advanced
+nuclear resources, modifies net metering provisions, expands the capacity limits of community
+solarprojects,andallowselectricdistributionutilitiestoenterintolong-termenergycontracts.
+
+The Department of Energy states this bill modifies the responsibilities of the coordinator of
+nuclear development to include management of funding and outreach programs; however, these
+changeswillnotresultinsignificantadditionalcosts.
+The Department states this bill makes several changes to net metering. The threshold between
+smallandlargecustomergeneratorsisincreasedfrom100kWto500kW,resultinginadditional
+compensation for certain customer-generators. Increasing the number of small customer
+generators will increase net metering compensation costs for electric utilities, which are
+recovered from ratepayers. Without information regarding the number of affected customer-
+generators,theDepartmentisunabletoestimatethetotalincreaseincosts. Basedonelectricity
+consumption data, the State accounts for approximately 1% of total electricity usage and would
+therefore experience an increase in electricity costs proportional to any increase in net metering
+compensationcosts.
+The Department states increasing the annual cap for community solar projects from 6
+megawatts to 12 megawatts will increase workload and would require one Utility Analyst IV
+position (13-11960 Miscellaneous Business Operations Specialists-7, SOC 13-08). The estimated
+cost for this position is $126,000 in FY 2027, $129,000 in FY 2028, and $135,000 in FY 2029.
+The bill does not provide authorization or funding for this position. Any such position would be
+funded through the Department’s assessment on utilities pursuant to RSA 363-A and recovered
+fromratepayers.
+The Department states modifications to long-term energy contract provisions will have minimal
+fiscalimpactandcanbemanagedwithexistingstaff.
+Lastly, the Department states counties and municipalities will experience increased electricity
+costs as a result of increased net metering compensation; however, the extent of this impact is
+indeterminable.
+AGENCIESCONTACTED:
+DepartmentofEnvironmentalServicesandDepartmentofEnergy
