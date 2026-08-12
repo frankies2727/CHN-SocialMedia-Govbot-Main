@@ -1339,7 +1339,7 @@ def _get_full_text(b: dict) -> str:
     if sources_bill:
         try:
             full_text, reason = bill_text.extract_bill_text_verbose(sources_bill)
-            full_text = full_text or ""
+            full_text = _strip_extraction_header(full_text or "")
         except Exception as e:
             print(f"  TEXT: ✗ extraction error, using abstract: {e}", file=sys.stderr)
             full_text, reason = "", "error"
@@ -1515,6 +1515,35 @@ _ARTIFACT_FRONTMATTER_RE = re.compile(
     r"(?im)^\s*(?:(?:PRIOR\s+)?PRINTER'?S\s+NO\.?.*|Session\s+of.*|"
     r"INTRODUCED\s+BY\b.*)$"
 )
+# The govbot dataset prepends a metadata header to each extracted bill document:
+#     Title: <...>
+#     Official Title: <...>
+#     Source: versions - <label>
+#     Media Type: <text/html|application/pdf>
+#     <blank>
+#     ==========...==========      (a rule of many '=')
+#     <blank>
+#     <the actual bill text>
+# One block per document version, so a multi-version bill carries several. Left
+# in, this header is pure noise to the model — and, worse, when the local LLM
+# returns an empty blurb the deterministic fallback (_summary_from_body /
+# _first_sentence) emits the header itself as the post body (observed: "Versions
+# - Introduced Version Media Type. Text/html === A3497 assembly, No."). Strip
+# every such block so no consumer — model, fallback, relevance gate, persisted
+# artifact — ever sees it.
+_EXTRACTION_HEADER_RE = re.compile(
+    r"(?im)^[ \t]*(?:Title|Official Title|Source|Media Type):[^\n]*\n"
+    r"(?:[ \t]*(?:Title|Official Title|Source|Media Type):[^\n]*\n)*"
+    r"[ \t]*\n?[ \t]*={20,}[ \t]*\n+"
+)
+
+
+def _strip_extraction_header(text: str) -> str:
+    """Remove the govbot dataset's ``Title:/Source:/Media Type: … ====`` document
+    header(s) so only the real bill text remains (see _EXTRACTION_HEADER_RE)."""
+    if not text or "Media Type:" not in text:
+        return text
+    return _EXTRACTION_HEADER_RE.sub("", text).lstrip()
 
 
 def _prepare_full_text_for_llm(text: str) -> str:
@@ -3117,8 +3146,17 @@ STATE_LEGISLATURE_URLS = {
     "WY": "https://www.wyoleg.gov/",
     "DC": "https://lims.dccouncil.gov/",
     "PR": "https://www.oslpr.org/",
+    "GU": "https://www.guamlegislature.gov/",
+    "VI": "https://www.legvi.org/",
     "US": "https://www.congress.gov/",
 }
+
+# Source URLs we must never surface as the "read the full bill" link even as a
+# last resort — OpenStates API/data endpoints and machine formats, not a page a
+# reader can use.
+_UNUSABLE_SOURCE_URL_RE = re.compile(
+    r"(?i)(?:^https?://(?:\w+\.)*openstates\.org|/api/|\.json($|\?)|ocd-bill/)"
+)
 
 
 # For a few states the feed's raw per-bill URL is a better deep link than
@@ -3152,10 +3190,14 @@ _TRUSTED_SOURCE_URL_RE = {
         r"^https?://(?:www\.)?legis\.delaware\.gov/BillDetail\b",
         re.IGNORECASE,
     ),
-    # New Hampshire — General Court bill_status page (gc.nh.gov, formerly
-    # gencourt.state.nh.us), keyed on an internal id.
+    # New Hampshire — General Court per-bill page (gc.nh.gov, formerly
+    # gencourt.state.nh.us), the billinfo.aspx page keyed on an internal id.
+    # Match ONLY billinfo.aspx: the feed sometimes carries the bare
+    # advanced.aspx search *form* (no bill number) as the source URL, which is
+    # useless to a reader. Rejecting it here lets link_for fall through to
+    # _b_nh, which builds a working results.aspx?...&txtbillno=... deep link.
     "NH": re.compile(
-        r"^https?://(?:www\.)?(?:gc\.nh\.gov|gencourt\.state\.nh\.us)/bill_status/",
+        r"^https?://(?:www\.)?(?:gc\.nh\.gov|gencourt\.state\.nh\.us)/bill_status/billinfo\.aspx",
         re.IGNORECASE,
     ),
     # Missouri — House BillContent.aspx and Senate BillTracking BillInformation,
@@ -3218,7 +3260,17 @@ def link_for(b: dict) -> str:
         if url:
             return url
 
-    return STATE_LEGISLATURE_URLS.get(state, "")
+    homepage = STATE_LEGISLATURE_URLS.get(state, "")
+    if homepage:
+        return homepage
+
+    # No per-state builder and no legislature homepage — this is a territory
+    # (e.g. MP, AS) we can't deep-link or even land on a home page. A plausible
+    # per-bill/document URL carried in the feed beats shipping no link at all.
+    src = (b.get("source_url") or "").strip()
+    if src.startswith(("http://", "https://")) and not _UNUSABLE_SOURCE_URL_RE.search(src):
+        return src
+    return ""
 
 
 # ---------------------------------------------------------------------------
