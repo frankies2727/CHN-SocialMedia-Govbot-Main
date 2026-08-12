@@ -21,29 +21,114 @@ defaults:
     shell: bash
 
 jobs:
-  run:
+  # ---------------------------------------------------------------------------
+  # Shared setup, run ONCE on its own runner. The govbot national clone across
+  # 50+ states is the disk- and time-heavy half of the pipeline. Doing it here,
+  # distilling it to a compact bills.jsonl (+ staged full-text bundle), and
+  # shipping that as an artifact means the post job never has to hold the giant
+  # clone AND the Ollama model on disk at the same time — the combination that
+  # crashed the old single-job workflow with "No space left on device".
+  # ---------------------------------------------------------------------------
+  prepare:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    # A first-of-day cache-miss run pays the full national clone (~24 min) plus
+    # the `govbot logs` dump; 120 min gives that run ample headroom, while
+    # same-day re-runs hit the shared cache and finish in minutes.
+    timeout-minutes: 120
+    steps:
+      - name: Free disk space
+        # The govbot clone across 50+ states blows past the runner's ~14 GB free,
+        # so reclaim space before cloning. tool-cache + large-packages are the
+        # biggest reclaimable items; Python is reinstalled by setup-python below.
+        uses: jlumbroso/free-disk-space@v1.3.1
+        with:
+          tool-cache: true
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          docker-images: true
+          swap-storage: false
 
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install Python deps
+        run: pip install -r requirements.txt
+
+      - name: Install govbot, fetch all supported states, dump JSONL
+        # Resilient install (retries the daily-republished upstream nightly) plus
+        # a per-day shared bills.jsonl cache, so a same-day re-run skips the clone.
+        uses: ./.github/actions/govbot-bills
+        with:
+          # Full-action feed: dump EVERY action (not just govbot's noteworthy
+          # ones) so a bill whose only recent activity is procedural — an
+          # introduction, a committee referral — still reaches the poster and
+          # counts as fresh, instead of being invisible until it hits a floor
+          # vote. since-days keeps that larger feed bounded (and --limit none
+          # avoids arbitrary per-state truncation). The script's own topic +
+          # 32-day freshness gates still decide what actually posts.
+          log-filter: "none"
+          log-limit: "none"
+          since-days: "45"
+
+      - name: Ensure the full-text bundle exists
+        # The govbot-bills action stages shared_bill_text.tar.gz from the fresh
+        # clone (or restores it from the per-day cache). Belt-and-suspenders: if
+        # staging was skipped for any reason, ship an empty tarball so the upload
+        # path is always satisfied and the post job's download/extract stays
+        # uniform (it falls back to abstracts when the bundle is empty).
+        run: |
+          [ -f shared_bill_text.tar.gz ] || { mkdir -p shared_bill_text; tar -czf shared_bill_text.tar.gz shared_bill_text; }
+
+      - name: Upload the shared bill corpus
+        uses: actions/upload-artifact@v4
+        with:
+          name: bills-corpus
+          # bills.jsonl is the distilled national feed; shared_bill_text.tar.gz
+          # carries the per-bill metadata + pre-extracted full text so the post
+          # job can render full-text summaries without re-cloning.
+          path: |
+            bills.jsonl
+            shared_bill_text.tar.gz
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 9
+
+  # ---------------------------------------------------------------------------
+  # Post. Downloads the shared corpus (no re-clone) and only installs Ollama
+  # locally (its own model server; cache-backed, ~1-2 min), so this runner holds
+  # the compact corpus + the model — never the full clone — keeping it well
+  # under the disk limit.
+  # ---------------------------------------------------------------------------
+  post:
+    needs: prepare
+    runs-on: ubuntu-latest
+    # No govbot clone here (the corpus is downloaded), so this is just Ollama
+    # setup (~2 min) + posting. 60 min is ample headroom.
+    timeout-minutes: 60
     env:
       LLM_MODEL: "gemma3:4b"
       BOT_TOPIC: "ai_data_centers"
       POST_LIMIT: "3"
       DRY_RUN: "0"
-
     steps:
       - name: Free disk space
-        # ubuntu-latest ships with ~14 GB free; govbot clones across 50+ states
-        # plus the Ollama LLM blow past that, which makes the runner crash with
-        # "No space left on device". Strip out preinstalled tooling we never
-        # use to recover ~30 GB before anything else runs.
+        # The Ollama LLM (~3.3 GB) plus the full bill corpus in RAM need the
+        # headroom; strip preinstalled tooling we never use.
         uses: jlumbroso/free-disk-space@v1.3.1
         with:
-          tool-cache: false
+          tool-cache: true
           android: true
           dotnet: true
           haskell: true
-          large-packages: false
+          large-packages: true
           docker-images: true
           swap-storage: false  # keep swap: the LLM + full bill corpus need the RAM headroom
 
@@ -64,22 +149,35 @@ jobs:
       - name: Install Python deps
         run: pip install -r requirements.txt
 
-      - name: Install govbot, fetch all supported states, dump JSONL
-        # Resilient install (retries the daily-republished upstream nightly) plus
-        # a per-day shared bills.jsonl cache, so only the first poster of the day
-        # pays the full national clone. See .github/actions/govbot-bills.
-        uses: ./.github/actions/govbot-bills
+      - name: Verify script exists
+        run: |
+          ls -la scripts/
+          test -f scripts/post_to_x.py && echo "OK" || (echo "MISSING" && exit 1)
+
+      - name: Download the shared bill corpus
+        # Lands bills.jsonl (+ shared_bill_text.tar.gz) in the repo root, exactly
+        # where the scripts expect them — no govbot clone needed.
+        uses: actions/download-artifact@v4
         with:
-          # Full-action feed: dump EVERY action (not just govbot's noteworthy
-          # ones) so a bill whose only recent activity is procedural — an
-          # introduction, a committee referral — still reaches the poster and
-          # counts as fresh, instead of being invisible until it hits a floor
-          # vote. since-days keeps that larger feed bounded (and --limit none
-          # avoids arbitrary per-state truncation). The script's own topic +
-          # 32-day freshness gates still decide what actually posts.
-          log-filter: "none"
-          log-limit: "none"
-          since-days: "45"
+          name: bills-corpus
+          path: .
+
+      - name: Confirm corpus present and unpack staged bill text
+        # Unpack the per-bill metadata + pre-extracted full text staged by the
+        # prepare job. The posting step below sets GOVBOT_DATA_ROOT to this dir so
+        # bill_text.resolve_metadata_path finds the staged subset exactly as it
+        # would a full clone — restoring full bill text without re-cloning. A
+        # missing/empty tarball is non-fatal: posts just fall back to abstracts.
+        run: |
+          test -f bills.jsonl && echo "bills.jsonl: $(wc -l < bills.jsonl) lines" \
+            || (echo "::error::bills.jsonl missing after download" && exit 1)
+          if [ -f shared_bill_text.tar.gz ]; then
+            tar -xzf shared_bill_text.tar.gz
+            n=$(find shared_bill_text -name metadata.json 2>/dev/null | wc -l)
+            echo "staged bill text: $n bill(s) with metadata unpacked."
+          else
+            echo "no staged bill text tarball; posts will use abstracts only."
+          fi
 
       - name: Cache Ollama model
         uses: actions/cache@v4
@@ -155,6 +253,10 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
           LLM_API_URL: "http://localhost:11434/api/chat"
+          # Point bill_text.resolve_metadata_path at the staged subset the
+          # prepare job shipped (metadata.json + pre-extracted full text), so
+          # full bill text is used again even though this job never cloned.
+          GOVBOT_DATA_ROOT: "${{ github.workspace }}/shared_bill_text"
         run: python scripts/post_to_x.py
 
       - name: Commit X state changes

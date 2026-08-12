@@ -102,11 +102,11 @@ jobs:
         # tooling we never use to recover ~30 GB before anything else runs.
         uses: jlumbroso/free-disk-space@v1.3.1
         with:
-          tool-cache: false
+          tool-cache: true
           android: true
           dotnet: true
           haskell: true
-          large-packages: false
+          large-packages: true
           docker-images: true
           swap-storage: false  # keep swap: the LLM + bill corpus need the RAM headroom
 
