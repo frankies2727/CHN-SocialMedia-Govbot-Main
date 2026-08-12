@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 0003",
+    "legislative_session": "114",
+    "subject": [
+      "Abortion"
+    ],
+    "title": "Abortion - As introduced, clarifies that the term \"abortion,\" as defined for the offense of criminal abortion, does not include the use of contraceptives, including any device, medication, biological product, or procedure that is generally intended for use in the prevention of pregnancy, whether specifically intended to prevent pregnancy or for other health needs, or the disposal of embryos resulting from fertility treatments, including healthcare services, procedures, testing, medications, treatments, or products. - Amends TCA Title 37; Title 39; Title 63 and Title 68."
+  },
+  "id": "SB 0003",
+  "log": {
+    "action": {
+      "classifications": [
+        "receipt"
+      ],
+      "description": "Engrossed; ready for transmission to House",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-30",
+      "session_id": "114",
+      "sources": [
+        {
+          "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB0003&ga=114"
+        }
+      ]
+    },
+    "bill_id": "SB 0003"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/SB0003/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/SB0003/logs/20260730T000000Z_engrossed_ready_for_transmission_to_house.json"
+  },
+  "timestamp": "20260730T000000Z"
+}

@@ -101,6 +101,10 @@
     "MI|SB 0415|2026-07-03|ORDERED ENROLLED",
     "MI|SB 0415|2026-07-03|ROLL CALL: ROLL CALL # 217 YEAS 36 NAYS ",
     "MI|SB 0415|2026-07-03|RULES SUSPENDED FOR IMMEDIATE CONSIDERAT",
+    "MI|SB 0415|2026-07-29",
+    "MI|SB 0415|2026-07-29|APPROVED BY GOVERNOR 7/21/2026 1:14 PM",
+    "MI|SB 0415|2026-07-29|ASSIGNED PA 0037'26 WITH IMMEDIATE EFFEC",
+    "MI|SB 0415|2026-07-29|FILED WITH SECRETARY OF STATE 7/22/2026 ",
     "MO|HB 2160|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HB 2483|2026-05-15|Referred: Emerging Issues(H)",
     "MO|HB 3169|2026-02-02|Introduced and Read First Time (H)",
@@ -161,6 +165,8 @@
     "PA|HR 587|2026-07-20",
     "PA|HR 587|2026-07-20|Referred to Health",
     "RI|SB2358|2026-05-28|05/28/2026 Committee recommended measure",
+    "TN|SB 0003|2026-07-30",
+    "TN|SB 0003|2026-07-30|Engrossed; ready for transmission to Hou",
     "US|S 5283|2026-08-06",
     "US|S 5283|2026-08-06|Read twice and referred to the Committee",
     "WA|SB 5917|2026-02-10|1st substitute bill substituted (HS 26).",
@@ -171,7 +177,7 @@
     "|S 4922|2026-06-24",
     "|S 4922|2026-06-24|Read twice and referred to the Committee"
   ],
-  "last_run": "2026-08-10T18:12:28.863432+00:00",
+  "last_run": "2026-08-12T15:18:25.187618+00:00",
   "state_last_posted": {
     "KS": "2026-06-18T11:29:15.082773+00:00",
     "FL": "2026-06-18T11:29:15.082773+00:00",
@@ -186,10 +192,11 @@
     "GA": "2026-06-15T13:17:53.619811+00:00",
     "RI": "2026-06-27T09:41:24.595902+00:00",
     "NJ": "2026-07-05T10:05:50.506175+00:00",
-    "MI": "2026-07-27T16:43:31.105582+00:00",
+    "MI": "2026-08-12T15:12:21.398585+00:00",
     "IL": "2026-07-24T15:28:23.743984+00:00",
     "?": "2026-07-22T15:33:16.628783+00:00",
     "US": "2026-08-10T18:08:03.958652+00:00",
-    "PA": "2026-08-10T18:08:03.958652+00:00"
+    "PA": "2026-08-10T18:08:03.958652+00:00",
+    "TN": "2026-08-12T15:12:21.398585+00:00"
   }
 }
