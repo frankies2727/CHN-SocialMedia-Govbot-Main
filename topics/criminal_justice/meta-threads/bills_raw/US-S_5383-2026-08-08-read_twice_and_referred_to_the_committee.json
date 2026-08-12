@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 5383",
+    "legislative_session": "119",
+    "title": "A bill to amend the Controlled Substances Act to schedule MGM-15 and MGM-16 as schedule I controlled substances, and to amend the controlled Substances Act to schedule synthetic 7-hydroxymitragynine, and Mitragynine Pseudoindoxyl, as a Schedule I above a specific threshold under the controlled substance act, and to expand enforcement actions against drug manufacturers and distributors of emerging synthetic opioids, commonly known as gas station heroin."
+  },
+  "id": "S 5383",
+  "log": {
+    "action": {
+      "description": "Read twice and referred to the Committee on the Judiciary.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-08T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s5383.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-bill/5383"
+        }
+      ]
+    },
+    "bill_id": "S 5383"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/S5383/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/S5383/logs/20260808T040000Z_read_twice_and_referred_to_the_committee_on_the_judiciary.json"
+  },
+  "timestamp": "20260808T040000Z",
+  "posted_text": "⚖️ Criminal Justice & Policing\nUS S 5383 — New Synthetic Opioids Added to List of Most Dangerous Drugs\n\nCongress is moving to classify MGM-15 and MGM-16, along with synthetic 7-hydroxymitragynine and Mitragynine Pseudoindoxyl, as Schedule I drugs. This means these substances – often found in emerging synthetic opioids nicknamed ‘gas station heroin’ – will face the strictest federal controls. .. .... ..",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/senate-bill/5383",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/Db670FUCbqB"
+}
