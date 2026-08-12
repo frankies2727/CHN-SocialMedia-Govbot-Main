@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 3633",
+    "legislative_session": "119",
+    "title": "Digital Asset Market Clarity Act"
+  },
+  "id": "HR 3633",
+  "log": {
+    "action": {
+      "description": "Cloture motion on the motion to proceed to the measure presented in Senate.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-08T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr3633.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/3633"
+        }
+      ]
+    },
+    "bill_id": "HR 3633"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR3633/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR3633/logs/20260808T040000Z_cloture_motion_on_the_motion_to_proceed_to_the_measure_presented_in_senate.json"
+  },
+  "timestamp": "20260808T040000Z",
+  "posted_text": "🤖 US HR 3633 — Digital Asset Market Clarity Act\n\nThis bill establishes a framework for regulating digital assets, focusing on promoting innovation while safeguarding investors and maintaining financial stability. It creates a new category of ‘digital commodities’ and establishes regulatory oversight for digital commodity issuers and exchanges. The bill also addresses stablecoins and clarifies the application of existing laws to digital assets. .. .... ..",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-bill/3633",
+  "posted_url": "https://x.com/i/web/status/2087390327611253144"
+}
