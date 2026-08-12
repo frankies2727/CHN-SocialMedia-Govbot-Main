@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HF 3769",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Corrections and Corrections Department",
+      "Health and Health Department",
+      "Mental Health and Related Conditions"
+    ],
+    "title": "Multiple levels of substance abuse care provided by the commissioner of corrections clarified in law, and access to mental health unit beds for incarcerated persons expanded."
+  },
+  "id": "HF 3769",
+  "log": {
+    "action": {
+      "description": "Effective date 08/01/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-01",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/3769?list=open&body=House"
+        }
+      ]
+    },
+    "bill_id": "HF 3769"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF3769/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/HF3769/logs/20260801T000000Z_effective_date_08012026.json"
+  },
+  "timestamp": "20260801T000000Z",
+  "posted_text": "🧠 MN HF 3769 — Multiple levels of substance abuse care provided by the commissioner of corrections clarified in law, and access to mental health unit beds for incarcerated persons expanded.\n\nThis bill makes several key changes to Minnesota’s correctional system, primarily focusing on improving mental health care for inmates and implementing mandatory tuberculosis screening protocols.\n\nIt expands access to mental health services within correctional facilities, streamlines the process for transferring inmates to mental health units, and establishes clear procedures for tuberculosis testing, including provisions for inmates who refuse testing.\n\nAug. 1, 2026: Effective date.\n\n🔗 Read the full bill: https://www.revisor.mn.gov/bills/bill.php?b=House&f=HF3769&ssn=0&y=2025\n\n#Healthcare #Minnesota #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.revisor.mn.gov/bills/bill.php?b=House&f=HF3769&ssn=0&y=2025",
+  "posted_url": "https://www.instagram.com/p/Db81gd_mg4E/"
+}
