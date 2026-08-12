@@ -57,8 +57,10 @@ DAILY_SUMMARY_CHARS = int(os.environ.get("DAILY_SUMMARY_CHARS", "450"))
 # Continuation cues for the 2-post daily thread so readers know a reply follows:
 # post 1 ends with CONT_SUFFIX, post 2 opens with CONT_PREFIX. Added only when a
 # post 2 actually exists. Shared by the Bluesky/X/Threads thread composers.
-CONT_SUFFIX = ".. .... .."
-CONT_PREFIX = ".. ... .."
+# Post 1 trails off with "..." on the sentence line and a second "..." on its own
+# line; post 2 picks the thread back up with a leading "... ...".
+CONT_SUFFIX = "...\n..."
+CONT_PREFIX = "... ..."
 DRY_RUN = os.environ.get("DRY_RUN") == "1"
 # og:image fetching is paused by default. Set FETCH_OG_IMAGE=1 to re-enable
 # thumbnail scraping from bill-page URLs. When off, posts still get an external
