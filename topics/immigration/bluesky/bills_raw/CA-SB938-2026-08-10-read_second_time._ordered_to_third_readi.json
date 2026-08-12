@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law contains numerous provisions governing the qualifications, standards, and training of peace officers. Existing law requires specified peace officers to successfully complete a training course prescribed by the Commission on Peace Officer Standards and Training (POST) before exercising the powers of a peace officer. Existing law requires the commission, for those instances where individuals have acquired prior comparable peace officer training, to adopt regulations providing for alternative means for satisfying the training required by a specified provision of law. Existing regulations provide a Basic Course Waiver to individuals with qualifying out-of-state or federal law enforcement experience whose law enforcement training, experience, and education are deemed by POST to demonstrate sufficient law enforcement knowledge, skill, and proficiency.\n\nThis bill would provide that service as a sworn federal law enforcement officer whose primary duties consisted of any one or any combination of immigration inspection, border enforcement, or apprehension, detention, or removal of noncitizens under the federal immigration laws, and the training for that service, does not, standing alone, constitute qualifying training, experience, and education demonstrating sufficient law enforcement knowledge, skill, and proficiency for purposes of determining eligibility for a Regular Basic Course Waiver. By increasing duties on local law enforcement agencies, this bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB938",
+    "legislative_session": "20252026",
+    "subject": [
+      "Peaceofficers",
+      "trainingrequirements"
+    ],
+    "title": "Peace officers: training requirements."
+  },
+  "id": "SB938",
+  "log": {
+    "action": {
+      "classifications": [
+        "reading-1",
+        "reading-2",
+        "reading-3"
+      ],
+      "description": "Read second time. Ordered to third reading.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-10",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB938"
+        }
+      ]
+    },
+    "bill_id": "SB938"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB938/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB938/logs/20260810T000000Z_read_second_time_ordered_to_third_reading.json"
+  },
+  "timestamp": "20260810T000000Z"
+}

@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB0862",
+    "legislative_session": "2026",
+    "title": "Railroads - Required Crew for Movement of Freight"
+  },
+  "id": "HB0862",
+  "log": {
+    "action": {
+      "classifications": [
+        "veto-override-passage"
+      ],
+      "description": "Gubernatorial Veto Override (Legislative date: 8/3/2026) - Chapter 879",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-08-03",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb0862?ys=2026RS"
+        }
+      ]
+    },
+    "bill_id": "HB0862"
+  },
+  "sources": {
+    "bill": "md-legislation/country:us/state:md/sessions/2026/bills/HB0862/metadata.json",
+    "log": "md-legislation/country:us/state:md/sessions/2026/bills/HB0862/logs/20260803T000000Z_gubernatorial_veto_override_legislative_date_832026_chapter_879.json"
+  },
+  "timestamp": "20260803T000000Z"
+}

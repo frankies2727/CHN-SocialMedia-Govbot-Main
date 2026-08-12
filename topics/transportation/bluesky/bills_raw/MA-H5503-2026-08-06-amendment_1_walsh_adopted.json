@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Zlotnik of Gardner, a petition (subject to Joint Rule 12) of Jonathan D. Zlotnik that the Massachusetts Department of Transportation be authorized to designate a certain bridge over state highway Route 140 in the city of Gardner as the Representative Robert L. Rice, Jr. bridge.  Transportation.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H5503",
+    "legislative_session": "194th",
+    "title": "An Act designating a certain bridge in the city of Gardner as the Representative Robert L. Rice, Jr. Bridge"
+  },
+  "id": "H5503",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage"
+      ],
+      "description": "Amendment #1 (Walsh) adopted",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-06",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/H5503"
+        }
+      ]
+    },
+    "bill_id": "H5503"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H5503/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H5503/logs/20260806T000000Z_amendment_1_walsh_adopted.json"
+  },
+  "timestamp": "20260806T000000Z"
+}

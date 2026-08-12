@@ -1,0 +1,68 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2559",
+    "legislative_session": "2025-2026",
+    "title": "An Act authorizing the Department of General Services, with the approval of the Governor, to grant and convey to Student Lodging, Inc., a Pennsylvania nonprofit corporation, certain land situate in Millersville Borough, Lancaster County; authorizing the Department of General Services, with the approval of the Governor, to grant and convey to the Philadelphia Housing Authority certain lands situate in the City of Philadelphia, Philadelphia County; authorizing the Department of General Services, with the approval of the Department of Corrections and the Governor, to grant and convey to Ferris Land Development, LP, a Pennsylvania limited partnership, certain lands situate in Benner Township, Centre County; authorizing the Pennsylvania Historical and Museum Commission, with the approval of the Governor, to grant and convey to Friends of Peace Church, a Pennsylvania nonprofit corporation, certain lands and improvements known as Peace Church situate in Hampden Township, Cumberland County; authorizing the Department of General Services, with the approval of the Governor, to grant and convey to the Borough of Danville certain lands situate in Danville Borough, Montour County; authorizing the Department of General Services, with the approval of the Governor, to grant and convey to Gaudenzia Foundation, Inc., certain lands situate in the City of Philadelphia, Philadelphia County; authorizing the Department of General Services, with the approval of the Governor, to grant and convey to the City of Hermitage, certain lands situate in the City of Hermitage, formerly known as Hickory Township, Mercer County; authorizing the Department of General Services, with the approval of the Governor, to grant and convey certain lands situate in the City of Nanticoke, Luzerne County; authorizing the Department of General Services, with the consent and approval of the Governor, to grant and convey certain lands situate in the City of Philadelphia, Philadelphia County; authorizing the release of Project 70 restrictions on certain lands owned by the Pennsylvania Game Commission in exchange for the imposition of Project 70 restrictions on other land in Sandy Creek Township, Mercer County; authorizing the Department of General Services, with the approval of the Governor, to grant and convey to Penn Township Municipal Authority certain lands situate in Penn Township, Snyder County; and authorizing the Department of General Services, with the approval of the Governor, to release a use restriction and reversionary interest affecting certain real property located on the following campuses of The Pennsylvania State University: Dubois Campus, located in Dubois, Clearfield County; Fayette Campus, located in Lemont Furnace, Fayette County; Mont Alto Campus, located in Mont Alto, Franklin County; New Kensington Campus, located in New Kensington, Westmoreland County; Shenango Campus, located in Sharon, Mercer County; Wilkes-Barre Campus, located in West Pittston, Luzerne County; and York Campus, located in York, York County."
+  },
+  "id": "HB 2559",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-20T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hb2559"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1346"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1345"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=67&rollcallid=2753&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=499"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=480"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=41&rollcallid=966&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=41&rollcallid=967&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1283"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=62&rollcallid=2665&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=67&rollcallid=2614&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=36&rollcallid=2516&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=36&rollcallid=2515&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "HB 2559"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB2559/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB2559/logs/20260720T040000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260720T040000Z"
+}
