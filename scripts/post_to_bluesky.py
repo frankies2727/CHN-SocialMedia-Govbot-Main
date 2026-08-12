@@ -1073,16 +1073,32 @@ def _drop_dangling_tail(s: str) -> str:
 
 
 def _smart_truncate(text: str, max_len: int) -> str:
-    """Truncate to <= max_len, ending at a sentence or word boundary."""
+    """Truncate to <= max_len, ending at a sentence or word boundary.
+
+    A period is only a sentence end when it isn't glued to an alphanumeric
+    character on its right — a decimal ("8.5"), an abbreviation ("No."), or a
+    URL. Without that guard a cut lands mid-figure and ships a dangling number:
+    "…and allocates 8." from an original "…and allocates 8.5 percent…"."""
     text = (text or "").strip()
     if len(text) <= max_len:
         return text
     cut = text[:max_len]
     floor = max(1, int(max_len * 0.6))
-    for end in (".", "!", "?"):
-        idx = cut.rfind(end)
-        if idx >= floor:
-            return cut[: idx + 1]
+    best = -1
+    for m in re.finditer(r"[.!?]", cut):
+        idx = m.start()
+        if idx < floor:
+            continue
+        if cut[idx] == ".":
+            nxt = text[idx + 1] if idx + 1 < len(text) else ""
+            # A genuine sentence-ending period is followed by whitespace or the
+            # end of the text; one glued to a digit/letter is a decimal point,
+            # an abbreviation, or a URL — not a boundary.
+            if nxt.isalnum():
+                continue
+        best = idx
+    if best >= 0:
+        return cut[: best + 1]
     idx = cut.rfind(" ")
     if idx >= floor:
         return _drop_dangling_tail(cut[:idx]) + "…"
@@ -1116,6 +1132,55 @@ def _operative_rephrase(sentence: str) -> str:
     return s[:1].upper() + s[1:] if s else s
 
 
+# A leading statute enumerator — a subsection/paragraph marker "(a)", "(u)",
+# "(iii)", "(1)", or "1." — that opens a quoted statute fragment. Pure noise at
+# the head of a plain-English blurb, so stripped from the non-LLM fallbacks
+# (observed: a post opening "(u) In educating voters, the State Board shall…").
+_LEADING_ENUMERATOR_RE = re.compile(r"^(?:\(\s*[A-Za-z0-9]{1,4}\s*\)\s*|\d{1,3}\.\s+)+")
+
+# Statutory-citation / section markers. A fallback blurb dense with these reads
+# as legalese, not English ("Parental leave fund account (AS 23.10.705). Sec.
+# 19. AS 23.15.630(b) … are repealed."), so a body-derived fallback carrying
+# several of them is dropped in favor of a clean bare headline.
+_CITATION_MARKER_RE = re.compile(
+    r"\bAS\s+\d|\bSec\.|\bSection\s+\d|§|\bP\.?\s*L\.|\bNo\.\s*\d|"
+    r"\b\d+\.\d+(?:\.\d+)+|\(\s*[A-Za-z0-9]{1,3}\s*\)",
+    re.IGNORECASE,
+)
+
+# Inline per-line numbering that some sources (Alaska's HTML full text) weave
+# through the prose as standalone 1–2 digit tokens, rather than at line starts
+# where bill_text.clean_bill_text can strip them:
+#   "… to read: 18 (87) parental leave fund account … 19 * Sec. 19. …"
+_INLINE_LINENO_RE = re.compile(r"(?<=\s)\d{1,2}(?=\s)")
+
+
+def _is_citation_heavy(text: str, threshold: int = 2) -> bool:
+    """True when a candidate blurb is dominated by statute citations / section
+    markers — i.e. it reads as raw legalese rather than plain English."""
+    return len(_CITATION_MARKER_RE.findall(text or "")) >= threshold
+
+
+def _strip_inline_line_numbers(text: str) -> str:
+    """Remove inline per-line numbering (see _INLINE_LINENO_RE). Only fires when
+    the standalone 1–2 digit tokens are dense AND largely sequential — the
+    fingerprint of line numbering — so a bill that merely cites a few small
+    numbers is left untouched. Statutory refs like "AS 23.10.705" are safe: the
+    digits there abut a period, not whitespace, so they never match."""
+    if not text:
+        return text
+    matches = _INLINE_LINENO_RE.findall(text)
+    if len(matches) < 12:
+        return text
+    nums = [int(t) for t in matches]
+    # Adjacent tokens that step up by one (or reset to the top of a new page)
+    # are line numbers; a high fraction of them means the doc is line-numbered.
+    seq = sum(1 for a, b in zip(nums, nums[1:]) if b == a + 1 or (a >= 8 and b <= 2))
+    if seq < 0.5 * (len(nums) - 1):
+        return text
+    return re.sub(r"\s{2,}", " ", _INLINE_LINENO_RE.sub(" ", text)).strip()
+
+
 def _excerpt_summary(excerpt: str) -> str:
     """Turn a topic-match excerpt (one or more abstract sentences naming the
     provisions that pulled a bill into its feed) into a fallback blurb. Prefers
@@ -1146,7 +1211,10 @@ def _first_sentence(text: str) -> str:
     operative "This bill would …" one when the text pairs them (California
     digests), rephrasing it to plain English. Returns "" when there's no usable
     prose, so the caller can drop the summary block rather than post filler."""
-    cleaned = _clean_for_llm(text)
+    cleaned = _clean_for_llm(_strip_inline_line_numbers(text))
+    # Drop a leading statute enumerator ("(u) ", "(1) ") so the blurb opens on
+    # prose rather than a subsection marker.
+    cleaned = _LEADING_ENUMERATOR_RE.sub("", cleaned).strip()
     if not cleaned:
         return ""
     sentences = re.findall(r"[^.!?]*[.!?]", cleaned) or [cleaned]
@@ -1157,6 +1225,10 @@ def _first_sentence(text: str) -> str:
         for s in sentences[1:]:
             if re.match(r"\s*(?:this bill|the bill)\b", s, re.IGNORECASE):
                 return _smart_truncate(_operative_rephrase(s), 200)
+    # A first sentence that's just statute citations reads as legalese; drop it
+    # so the caller ships a clean headline instead of a raw fragment.
+    if _is_citation_heavy(first):
+        return ""
     return _smart_truncate(first, 200)
 
 
@@ -1173,20 +1245,50 @@ def _first_sentence(text: str) -> str:
 # don't spend an LLM round-trip on text that's already English.
 # ---------------------------------------------------------------------------
 
-_SPANISH_MARKERS_RE = re.compile(
-    r"(?:[ñÑ¿¡áéíóúÁÉÍÓÚ])|"
+# Spanish-exclusive punctuation — opens questions/exclamations; effectively
+# never appears in English, so it triggers on its own.
+_SPANISH_PUNCT_RE = re.compile(r"[¿¡]")
+# Accented vowels + ñ. Individually WEAK: English legislative text routinely
+# carries them inside proper nouns ("Representative Montaño", "San José"), so an
+# accent counts only alongside a Spanish function word, never on its own — the
+# old detector's lone-accent trigger sent whole English bills through a costly
+# (and text-mangling) translation round-trip.
+_SPANISH_ACCENT_RE = re.compile(r"[ñÑáéíóúÁÉÍÓÚ]")
+# Multiword Spanish legislative phrases — unambiguous, so each triggers alone.
+_SPANISH_STRONG_RE = re.compile(
+    r"\b(?:proyecto\s+del\s+senado|proyecto\s+de\s+la\s+cámara|"
+    r"asamblea\s+legislativa|primera\s+lectura|segunda\s+lectura|"
+    r"tercera\s+lectura|referido\s+a\s+la\s+comisión|"
+    r"cámara\s+de\s+representantes)\b",
+    re.IGNORECASE,
+)
+# Common Spanish function words / legislative nouns. Individually these can
+# coincide with names or codes, so two are required — or one plus an accent.
+_SPANISH_WEAK_RE = re.compile(
     r"\b(?:de\s+la|del|en\s+el|en\s+la|por\s+el|por\s+la|para\s+el|para\s+la|"
-    r"se\s+ha|se\s+hace|aparece|primera\s+lectura|segunda\s+lectura|"
-    r"tercera\s+lectura|senado|cámara|representantes|comisión|"
-    r"proyecto\s+del\s+senado|proyecto\s+de\s+la\s+cámara|asamblea\s+legislativa)\b",
+    r"se\s+ha|se\s+hace|aprobad[oa]|senado|cámara|representantes|comisión|"
+    r"enmendar)\b",
     re.IGNORECASE,
 )
 
 
 def _looks_spanish(text: str) -> bool:
+    """Cheap heuristic: does this legislative text still read as Spanish?
+
+    Puerto Rico is the only feed jurisdiction that ships Spanish, so this only
+    needs to separate genuine Spanish from English that merely contains an
+    accented proper noun ("Representative Montaño of Boston"). A lone accent or
+    ñ therefore never triggers on its own — it must sit alongside a Spanish
+    function word. Spanish-exclusive punctuation (¿¡) and unambiguous multiword
+    legislative phrases trigger by themselves."""
     if not text:
         return False
-    return bool(_SPANISH_MARKERS_RE.search(text))
+    if _SPANISH_PUNCT_RE.search(text) or _SPANISH_STRONG_RE.search(text):
+        return True
+    weak = len(_SPANISH_WEAK_RE.findall(text))
+    if weak >= 2:
+        return True
+    return weak >= 1 and bool(_SPANISH_ACCENT_RE.search(text))
 
 
 def _translate_to_english(text: str, num_predict: int = 400) -> str:
@@ -1559,6 +1661,10 @@ def _prepare_full_text_for_llm(text: str) -> str:
         return ""
     cleaned = _ARTIFACT_ARROW_RE.sub(" ", text)
     cleaned = _ARTIFACT_FRONTMATTER_RE.sub("", cleaned)
+    # Some sources (Alaska's HTML full text) weave per-line numbers through the
+    # prose as standalone digit tokens; strip them so neither the model nor the
+    # deterministic fallback reads "… to read: 18 (87) … 19 * Sec. 19 …".
+    cleaned = _strip_inline_line_numbers(cleaned)
     cleaned = _RECITED_LONGTITLE_RE.sub("known by its short title", cleaned)
     return cleaned
 
@@ -1660,6 +1766,9 @@ def _summary_from_body(prepared_body: str, max_chars: int = 240) -> str:
     # rather than running the whole (a)/(1)/(2) list together.
     for sent in re.findall(r"[^.!?:]*[.!?:]", cleaned):
         s = " ".join(sent.split()).strip()
+        # Drop a leading statute enumerator ("(a) ", "(1) ") so a picked clause
+        # opens on prose, not a subsection marker.
+        s = _LEADING_ENUMERATOR_RE.sub("", s).strip()
         # Lowercase interior ALL-CAPS words — PA prints inserted text in caps,
         # which pdftotext leaves shouting mid-sentence. Preserve genuine acronyms.
         s = re.sub(
@@ -1686,6 +1795,11 @@ def _summary_from_body(prepared_body: str, max_chars: int = 240) -> str:
     out = ". ".join(picked)
     if not out.endswith((".", "!", "?")):
         out += "."
+    # A blurb dominated by statute citations / section markers reads as legalese,
+    # not plain English — drop it so the post ships a clean headline rather than a
+    # citation fragment ("Parental leave fund account (AS 23.10.705). Sec. 19. …").
+    if _is_citation_heavy(out):
+        return ""
     return _smart_truncate(out, max_chars)
 
 
