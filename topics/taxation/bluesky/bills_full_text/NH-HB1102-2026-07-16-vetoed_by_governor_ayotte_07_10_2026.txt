@@ -1,0 +1,151 @@
+Title:
+Official Title:
+Source: versions - As Amended by the Senate (2nd)
+Media Type: application/pdf
+Visual Markup Detected: true -- this document likely contains redline (strikethrough/underline) formatting; plain text extraction may not faithfully represent what the bill changes. See the saved original file.
+
+================================================================================
+
+HB1102-FN-ASAMENDEDBYTHESENATE
+05/07/2026 1642s
+05/14/2026 1919s
+2026SESSION
+26-2492
+07/05
+1102-FN
+HOUSEBILL
+ANACT increasing the research and development tax credit cap and relative to state park
+feesforstateresidents.
+SPONSORS: Rep.Janigian,Rock.25
+COMMITTEE: WaysandMeans
+─────────────────────────────────────────────────────────────────
+AMENDEDANALYSIS
+Thisbill:
+I. Raisestheaggregatevalueofallresearchanddevelopmenttaxcreditsthatcanbeclaimed.
+II. Raisesthehardcapontheresearchanddevelopmenttaxcreditanentitycanclaim.
+III. Requires the commissioner of the department of natural and cultural resources to set state
+park entry fees for New Hampshire residents at no more than 50 percent of the fees charged to
+nonresidents.
+IV. Allowsseparatefeeschedulesforspecificuseswithinstateparks.
+V. Permitsdiscountedorwaivedratesforveteransandschoolorstudentgroups.
+---------------------------------------------------------------------------
+Explanation: Matteraddedtocurrentlawappearsinbolditalics.
+Matterremovedfromcurrentlawappears[inbracketsandstruckthrough.]
+Matterwhichiseither(a)allnewor(b)repealedandreenactedappearsinregulartype.
+
+HB1102-FN-ASAMENDEDBYTHESENATE
+05/07/2026 1642s
+05/14/2026 1919s 26-2492
+07/05
+STATEOFNEWHAMPSHIRE
+IntheYearofOurLordTwoThousandTwenty-Six
+ANACT increasing the research and development tax credit cap and relative to state park
+feesforstateresidents.
+BeitEnactedbytheSenateandHouseofRepresentativesinGeneralCourtconvened:
+1 Taxation;BusinessProfitsTax;Credits. AmendRSA77-A:5,XIII(a)(1)toreadasfollows:
+(1) Theaggregateoftaxcreditsissuedbythecommissionertoalltaxpayersclaiming
+thecreditshallnotexceed[$7,000,000]$10,000,000foranyfiscalyear.
+2 Taxation;BusinessProfitsTax;Credits. AmendRSA77-A:5,XIII(a)(2)(C)toreadasfollows:
+(C) [$50,000]$100,000.
+3 State Park System; Fees for Park System; Residency. Amend RSA 216-A:3-g, I to read as
+follows:
+I. Fees for the use of park areas shall be designed to recover a reasonable portion of budget
+expenses consistent with the purposes of RSA 216-A:1 and 216-A:3. Provided, however, that fees
+charged to New Hampshire residents to enter state parks collected via a website or by a
+personstationedwithinthepark shall beno more than50 percentofthe entry feescharged
+to nonresidents. The commissioner of the departmentof natural andcultural resources, or
+his or her designee, may elect to set separate fee schedules for residents and nonresidents
+for specific uses within any state park, including camping, facility rental, parking, or boat
+rental, provided that where separate fee schedules are created for any given service or
+product, residents shall be charged no more than 90 percent of the fee charged to
+nonresidents. Residency may be indicated by state-issuedidentification,utility or tax bills,
+vehicle registrations, student identification, or vehicle license plates. The commissioner,
+or his or her designee, may also provide discounted or waived rates for veterans, as well as
+for school or student groups, in recognition of their service or educational purpose. The
+generalcourtdoesnotintendthatallparkfacilitiesbeself-supporting.
+4 EffectiveDate.
+I. Section2ofthisactshalltakeeffectJanuary1,2027.
+II. Section3ofthisactshalltakeeffectJuly1,2027.
+III. TheremainderofthisactshalltakeeffectJanuary1,2028.
+
+LBA
+26-2492
+05/19/2026
+HB1102-FN-FISCALNOTE
+ASAMENDEDBYTHESENATE(AMENDMENT#2026-1919s)
+ANACT increasing the research and development tax credit cap and relative to state park
+feesforstateresidents.
+FISCALIMPACT: Thisbilldoesnotprovidefunding,nordoesitauthorizenewpositions.
+Estimated State Impact
+FY2026 FY2027 FY2028 FY2029
+Maximum
+Indeterminable
+Decreaseof$3
+Decreasefrom
+millionfrom
+R&Dchange/
+R&Dchange/
+Indeterminable
+Indeterminable
+Revenue $0 $0 ImpactonPark
+ImpactonPark
+FundRevenue
+FundRevenue
+(decreaseof
+(decreaseof
+$1.5mto
+$1.5mto
+increaseof$2m
+increaseof$2m)
+RevenueFund(s) GeneralFundandEducationTrustFund,StateParkFund
+Indeterminable Indeterminable
+Increaseof Increaseof
+Expenditures* $0 $0
+$100,000to $10,000to
+$500,000 $100,000
+FundingSource(s) StateParkFund
+Appropriations* $0 $0 $0 $0
+FundingSource(s) None
+*Expenditure=Costofbill *Appropriation=Authorizedfundingtocovercostofbill
+METHODOLOGY:
+This bill increases the aggregate of Research and Development tax credits (R&D) to be claimed
+in any fiscal year from $7,000,000 to $10,000,000. The proposed legislation would also increase
+the maximum credit amount allowed per entity from $50,000 to $100,000, effective January 1,
+2026. R&D tax credit applications must be received by June 30 following the tax year during
+whichtheresearchanddevelopmentoccurred.
+This bill also requires the Department of Natural and Cultural Resources (DNCR) to establish
+state park entry fees for New Hampshire residents at no more than 50 percent of the fees
+charged to nonresidents. The bill also allows DNCR to create separate fee schedules for specific
+useswithinstateparks,suchascamping,facilityrental,parking,andboatrentals,andpermits
+
+discountedorwaivedratesforveteransandschoolorstudentgroups.
+TheDepartmentofRevenueAdministration(DRA)statestheincreaseintheR&Dtaxcreditwill
+decrease Business Enterprise Tax (BET) and Business Profits Tax (BPT) revenue by an
+indeterminable amount. This credit is first applied to the BPT and any unused portion of the
+credit is then applied to the BET. Additionally, the taxpayer is able to carry forward the R&D
+tax credit for up to 5 years. DRA is not able to determine when a credit would be claimed to
+predict the fiscal impact of this bill. The maximum impact in the first year is $3,000,000 if the
+full amount of the tax credit increase is claimed, however any subsequent years are
+indeterminableasitisnotknownwhencarryforwardcreditswouldbeused.
+DRA would need to update all necessary tax return forms and electronic management systems
+related to this bill, however the Department does not anticipate this bill will result in any
+additionalcoststhatcouldnotbeabsorbedinitsoperatingbudget.
+The Department of Natural and Cultural Resources (DNCR) states this bill would result in an
+indeterminable impact on State Park Fund revenues and expenditures. Based on FY 2023
+visitation data, DNCR estimates that approximately half of all state park visitors are residents
+and half are non-residents. If DNCR reduced the day-use fee for residents by 50 percent,
+revenuewoulddecreasebyapproximately$1.1million. Conversely,increasingnon-residentday-
+use fees by 100 percent could generate approximately $2.2 million in additional revenue.
+However, DNCR anticipates that fee changes of this extent would deter visitation by 5 to 20
+percent,reducingtheexpectedrevenuegain.
+DNCR also anticipates implementation costs of more than $100,000 to modify reservation and
+point-of-sale systems to verify residency and apply differential pricing. Additional costs may
+occur due to longer entry lines, visitor disputes over residency status, and a multi-year period of
+feeexperimentationneededtostabilizepricingunderthenewmodel.
+Altogether, DNCR estimates an indeterminable change in State Park Fund revenue ranging
+from a decrease of approximately $1.5 million to an increase of $2 million per fiscal year, and an
+indeterminable increase in State Park Fund expenditures starting in FY 2028 ranging from
+approximately $100,000 to $500,000 and in FY 2029 and each year thereafter would range from
+$10,000to$100,000annually.
+AGENCIESCONTACTED:
+DepartmentofRevenueAdministrationandDepartmentofNaturalandCulturalResources

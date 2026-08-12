@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "The Housing Authorities Law establishes a housing authority within each county and city and authorizes the authority to, among other things, prepare, carry out, acquire, lease, and operate housing projects and housing developments for persons of low income, as provided.\n\nThis bill would, unless required by federal law, and except as specified, prohibit a housing authority or other covered housing provider, as defined, from establishing or implementing any rules, policies, or procedures that impose term limits or work requirements, as defined, as a condition of eligibility for any covered housing or that impact the amount of the rent subsidy or assistance provided to covered housing tenants. The bill would, however, permit a covered housing provider to establish or implement a voluntary employment or job training program if specified conditions apply. The bill would provide that its provisions do not limit or alter the operation of specified federal housing programs and requirements.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2128",
+    "legislative_session": "20252026",
+    "subject": [
+      "Housingauthorities",
+      "termlimitsandworkrequirements"
+    ],
+    "title": "Housing authorities: term limits and work requirements."
+  },
+  "id": "AB2128",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "reading-1",
+        "reading-2",
+        "reading-3"
+      ],
+      "description": "Read third time and amended. Ordered to second reading.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-10",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2128"
+        }
+      ]
+    },
+    "bill_id": "AB2128"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2128/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2128/logs/20260810T000000Z_read_third_time_and_amended_ordered_to_second_reading.json"
+  },
+  "timestamp": "20260810T000000Z"
+}

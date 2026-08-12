@@ -1,0 +1,49 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Directs the commissioner of taxation and finance to help entities to elect to participate in the federal tax credit for elementary and secondary scholarships known as the Educational Choice for Children Act of 2025."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A11639",
+    "legislative_session": "2025-2026",
+    "title": "Directs the commissioner of taxation and finance to help entities to elect to participate in the federal tax credit for elementary and secondary scholarships"
+  },
+  "id": "A11639",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "REFERRED TO WAYS AND MEANS",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-29",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "WAYS AND MEANS"
+        }
+      ],
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11639?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/A11639"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=A11639&term=2025"
+        }
+      ]
+    },
+    "bill_id": "A11639"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11639/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11639/logs/20260729T000000Z_referred_to_ways_and_means.json"
+  },
+  "timestamp": "20260729T000000Z"
+}

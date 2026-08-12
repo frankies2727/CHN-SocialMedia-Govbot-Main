@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB1681",
+    "legislative_session": "2026",
+    "title": "relative to the definition, inspection, and local approval of tiny houses and yurts as innovative housing structures."
+  },
+  "id": "HB1681",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Governor Ayotte 07/15/2026; Chapter 330; eff.09/13/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-20",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=2322&inflect=2"
+        }
+      ]
+    },
+    "bill_id": "HB1681"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB1681/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB1681/logs/20260720T000000Z_signed_by_governor_ayotte_07152026_chapter_330_eff09132026.json"
+  },
+  "timestamp": "20260720T000000Z"
+}
