@@ -52,6 +52,7 @@ import requests
 from topic import load_active_topic
 from account_ledger import AccountLedger
 from render_bill_card import render_card
+import bill_text
 import post_to_bluesky as pb
 from post_to_bluesky import (
     _FILENAME_UNSAFE_RE,
@@ -83,6 +84,12 @@ from post_to_bluesky import (
 # and keep a shorter one for the visual card (which can't fit a wall of text).
 IG_CAPTION_SUMMARY_CHARS = int(os.environ.get("IG_CAPTION_SUMMARY_CHARS", "1600"))
 CARD_SUMMARY_CHARS = int(os.environ.get("CARD_SUMMARY_CHARS", "240"))
+# Longest title the visual card should carry. The card auto-shrinks a longer one
+# to tiny text and then cuts it off with "…", so when the model returns no
+# headline we fall back to a clean, delegalesed title clipped to this length at a
+# word/clause boundary (never mid-word, never "…"). A good model headline (the
+# normal case, now that MN redline text is cleaned) is used as-is.
+CARD_HEADLINE_MAX = int(os.environ.get("CARD_HEADLINE_MAX", "78"))
 
 ROOT = Path(__file__).resolve().parent.parent
 JSONL_PATH = ROOT / "bills.jsonl"
@@ -532,6 +539,39 @@ def post_to_instagram(image_url: str, caption: str, record: dict | None = None) 
 # Prepare / publish helpers shared by the daily and force paths
 # ---------------------------------------------------------------------------
 
+_CLAUSE_BREAK_RE = re.compile(r",|;|\band\b", re.IGNORECASE)
+
+
+def _clip_clean(text: str, max_len: int) -> str:
+    """Shorten `text` to <= max_len at a clause or word boundary, WITHOUT an
+    ellipsis — so a fallback card title never reads as "…blah incompl…". Prefers
+    the last clause break (comma / semicolon / "and") in the back half of the
+    window; otherwise cuts at the last whole word."""
+    text = " ".join((text or "").split())
+    if len(text) <= max_len:
+        return text
+    window = text[:max_len]
+    best = -1
+    for m in _CLAUSE_BREAK_RE.finditer(window):
+        if m.start() >= max_len * 0.5:
+            best = m.start()
+    if best > 0:
+        return window[:best].rstrip(" ,;:-")
+    sp = window.rfind(" ")
+    return (window[:sp] if sp > 0 else window).rstrip(" ,;:-")
+
+
+def _card_headline(b: dict, headline: str) -> str:
+    """The title to render on the visual card. Uses the model's headline when it
+    produced one; otherwise falls back to the delegalesed display and clips it to
+    the card's budget so the raw legalese/descriptive title never lands on the
+    card and never gets ellipsized. (The caption keeps the fuller headline.)"""
+    if headline:
+        return headline
+    disp = best_display_text(b).strip()
+    return _clip_clean(disp, CARD_HEADLINE_MAX)
+
+
 def _prepare(b: dict) -> dict:
     """Run the shared pipeline for one bill and render its card. Returns a dict
     with the caption, bill url and rendered card path."""
@@ -542,7 +582,7 @@ def _prepare(b: dict) -> dict:
     caption_summary = summarize(b, max_chars=IG_CAPTION_SUMMARY_CHARS)
     card_summary = summarize(b, max_chars=CARD_SUMMARY_CHARS)
     caption, url = compose_instagram_caption(b, caption_summary, headline=headline)
-    card_path = render_bill_card(b, card_summary, headline)
+    card_path = render_bill_card(b, card_summary, _card_headline(b, headline))
     return {"bill": b, "caption": caption, "url": url, "card_path": card_path}
 
 
@@ -790,15 +830,37 @@ def main() -> int:
     def has_desc(b: dict) -> bool:
         return bool((b["action_desc"] or "").strip())
 
+    # Cheap, network-free probe (see bill_text.has_local_full_text): does this
+    # bill have full PDF/HTML text readily available? Full-text bills produce
+    # far better cards (a grounded, succinct headline + summary), so — after the
+    # state-recency priority below — they are preferred over metadata-only bills.
+    # Cached on the record so the by_state ranking and the partition below don't
+    # re-probe.
+    def has_full_text(b: dict) -> bool:
+        cached = b.get("_has_full_text")
+        if cached is None:
+            cached = bill_text.has_local_full_text(b.get("sources_bill") or "")
+            b["_has_full_text"] = cached
+        return cached
+
+    # One representative bill per state: prefer a descriptive bill, then one with
+    # full text, then the most recent — so each state surfaces its best, full-text
+    # bill when it has one.
     by_state: dict[str, dict] = {}
     for b in candidates:
         st = b["state"] or "?"
         cur = by_state.get(st)
-        if cur is None or (has_desc(b), recency(b)) > (has_desc(cur), recency(cur)):
+        if cur is None or (has_desc(b), has_full_text(b), recency(b)) > \
+                (has_desc(cur), has_full_text(cur), recency(cur)):
             by_state[st] = b
     reps = list(by_state.values())
 
-    descriptive = [b for b in reps if has_desc(b)]
+    # Priority tiers, most-preferred first: descriptive + full text, then
+    # descriptive without full text, then stubs. State-recency weighting still
+    # applies WITHIN each tier (weighted_draw below), so "states not posted in a
+    # while" stays the primary priority and full text is the secondary one.
+    descriptive_full = [b for b in reps if has_desc(b) and has_full_text(b)]
+    descriptive_thin = [b for b in reps if has_desc(b) and not has_full_text(b)]
     stubs = [b for b in reps if not has_desc(b)]
 
     last_posted: dict[str, str] = state.get("state_last_posted", {})
@@ -824,22 +886,31 @@ def main() -> int:
             picked.append(pool.pop(idx))
         return picked
 
-    to_post = weighted_draw(descriptive, effective_limit)
-    if len(to_post) < effective_limit:
+    # Fill the primary picks tier by tier: full-text descriptive bills first,
+    # then descriptive bills without full text, then stubs — each drawn with the
+    # state-recency weighting.
+    to_post: list[dict] = []
+    for tier in (descriptive_full, descriptive_thin, stubs):
+        if len(to_post) >= effective_limit:
+            break
         picked_ids = {b["dedup_key"] for b in to_post}
-        stub_pool = [b for b in stubs if b["dedup_key"] not in picked_ids]
-        to_post.extend(weighted_draw(stub_pool, effective_limit - len(to_post)))
+        pool = [b for b in tier if b["dedup_key"] not in picked_ids]
+        to_post.extend(weighted_draw(pool, effective_limit - len(to_post)))
 
-    # Backfill reserve: the rest of the candidate pool in weighted order, so a
-    # bill the relevance gate skips is replaced by the next best candidate rather
-    # than shrinking the carousel. to_post (the state-spread picks) stays first.
+    # Backfill reserve: the rest of the candidate pool in the same tier order and
+    # weighted within each tier, so a bill the relevance gate skips is replaced by
+    # the next best candidate rather than shrinking the carousel. to_post (the
+    # state-spread picks) stays first.
     picked_ids = {b["dedup_key"] for b in to_post}
-    reserve = weighted_draw([b for b in descriptive if b["dedup_key"] not in picked_ids], 10**9)
-    reserve += weighted_draw([b for b in stubs if b["dedup_key"] not in picked_ids], 10**9)
+    reserve: list[dict] = []
+    for tier in (descriptive_full, descriptive_thin, stubs):
+        reserve += weighted_draw(
+            [b for b in tier if b["dedup_key"] not in picked_ids], 10**9)
     ordered = to_post + reserve
 
     distinct_states = len({b["state"] or "?" for b in to_post})
-    print(f"Pool: {len(descriptive)} state(s) with descriptive bills, {len(stubs)} stub-only.")
+    print(f"Pool: {len(descriptive_full)} state(s) with full-text descriptive bills, "
+          f"{len(descriptive_thin)} descriptive without full text, {len(stubs)} stub-only.")
     print(f"Account has {remaining}/{RUN_POST_LIMIT} post(s) left this run; "
           f"will post up to {effective_limit}: {len(to_post)} primary picks + "
           f"{len(reserve)} in reserve for gate-skips (from {distinct_states} state(s)).")

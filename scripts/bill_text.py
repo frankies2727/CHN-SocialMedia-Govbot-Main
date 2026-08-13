@@ -237,6 +237,35 @@ def find_document_link(metadata_path: Path) -> tuple[str, str] | None:
     return pdf_link or html_link
 
 
+def has_local_full_text(sources_bill: str, root: Path = ROOT) -> bool:
+    """Cheap, network-free probe: True when a bill's full text is readily
+    available without a download — a govbot pre-extracted
+    ``files/<id>_text_extracted.txt`` sits beside its metadata, or the
+    ``metadata.json`` carries a document link. Only filesystem/JSON reads, so it
+    is safe to call for every candidate during bill selection (unlike
+    ``extract_bill_text_verbose``, which may download a PDF and run pdftotext).
+
+    Best-effort: returns ``False`` on an empty ``sources_bill`` or any resolution
+    failure. The pre-extracted file is the strong signal (it becomes reason
+    ``ok-extracted-file`` with no network); a bare document link is a weaker
+    signal (extraction could still fail), but both mean full text is *likely* to
+    be used, which is what the selection priority wants."""
+    if not sources_bill:
+        return False
+    meta = resolve_metadata_path(sources_bill, root=root)
+    if meta is None:
+        return False
+    ext = find_extracted_text_file(meta)
+    if ext is not None:
+        try:
+            # A non-trivially sized pre-extracted file will clean to real text.
+            if ext.stat().st_size > 100:
+                return True
+        except OSError:
+            pass
+    return find_document_link(meta) is not None
+
+
 # ---------------------------------------------------------------------------
 # Download + extraction
 # ---------------------------------------------------------------------------
@@ -355,6 +384,23 @@ _ALLCAPS_BANNER_RE = re.compile(r"^[A-Z0-9 .,'\"&/()-]{4,}$")
 # "<-" glued to the next word ("<-moratorium"). They're pure layout noise that
 # fragments the prose an LLM reads, so strip the arrow token wherever it appears.
 _AMEND_ARROW_RE = re.compile(r"<-{1,}")
+
+# Minnesota prints its bills as a redline: inserted statute text is wrapped in
+# "new text begin … new text end" and deleted statute text in "deleted text
+# begin … deleted text end". Extraction pulls these marker words inline, so a
+# naive summary reads "new text end new text begin Final billing for … new text
+# end" (observed on MN SF 4171). Clean them so only readable prose remains:
+#   * DELETED spans are removed entirely, content and all — the bill is taking
+#     that language OUT, so it must not appear in the summary. Non-greedy +
+#     DOTALL so one span never swallows to a later "deleted text end", and so a
+#     span that straddles line breaks is still matched.
+#   * NEW-text markers are stripped but the wrapped text is kept — that is the
+#     new law the bill adds. Delete spans first (a single line can carry a
+#     deleted span immediately followed by a new one).
+_MN_DELETED_RE = re.compile(
+    r"deleted\s+text\s+begin\b.*?deleted\s+text\s+end\b", re.IGNORECASE | re.DOTALL
+)
+_MN_NEWTEXT_MARK_RE = re.compile(r"new\s+text\s+(?:begin|end)\b", re.IGNORECASE)
 # Front-matter noise lines that carry no policy content: the print run header,
 # the session line, and the sponsor/committee introduction block. Stripping them
 # keeps the extracted body starting at the bill's actual subject.
@@ -435,6 +481,11 @@ def clean_bill_text(text: str) -> str:
     text = _strip_web_chrome(text)
     text = text.replace("\f", "\n")
     text = _AMEND_ARROW_RE.sub(" ", text)
+    # Minnesota redline markup — remove deleted spans whole, keep inserted text
+    # (markers stripped). Runs on the full text before the line split because a
+    # single marker pair routinely straddles several lines.
+    text = _MN_DELETED_RE.sub(" ", text)
+    text = _MN_NEWTEXT_MARK_RE.sub(" ", text)
     raw_lines = text.split("\n")
 
     # Count repeated short ALL-CAPS lines — these are running banners/headers

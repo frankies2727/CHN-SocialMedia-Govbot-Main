@@ -867,6 +867,10 @@ def _clean_for_llm(text: str) -> str:
     drop the bill-number prefix, ALL-CAPS section headers, and the trailing
     drafter name, and collapse the source's \\r\\n line breaks."""
     text = (text or "").replace("\r\n", "\n").replace("\r", "\n")
+    # Scrub Minnesota redline markup before the line split (a deleted span can
+    # straddle lines) so the deterministic fallbacks never emit "new text begin
+    # …" gibberish from an already-committed artifact.
+    text = _strip_mn_redline(text)
     text = _BILL_NUMBER_PREFIX_RE.sub("", text.strip(), count=1)
     kept = []
     for raw in text.split("\n"):
@@ -1731,13 +1735,33 @@ _PROVIDING_FOR_RE = re.compile(
 
 # pdftotext/legislative artifacts that survive into already-committed text or a
 # stale cache (bill_text.clean_bill_text strips these on fresh extraction, but
-# older .txt files and cache entries predate that): the "<--" amendment arrows
-# and the print-run / session / sponsor front-matter lines.
+# older .txt files and cache entries predate that): the "<--" amendment arrows,
+# the print-run / session / sponsor front-matter lines, and Minnesota's redline
+# markup ("new text begin/end", "deleted text begin/end"). The bills_full_text/*
+# artifacts committed before the bill_text fix still carry the MN markers, so
+# scrub them here too — for the LLM window and the deterministic fallbacks alike
+# — the same reason the arrow/front-matter regexes are duplicated in this module.
 _ARTIFACT_ARROW_RE = re.compile(r"<-{1,}")
 _ARTIFACT_FRONTMATTER_RE = re.compile(
     r"(?im)^\s*(?:(?:PRIOR\s+)?PRINTER'?S\s+NO\.?.*|Session\s+of.*|"
     r"INTRODUCED\s+BY\b.*)$"
 )
+# Minnesota redline: drop deleted spans whole (content included), strip the
+# inserted-text markers but keep the wrapped text. Delete spans first. See
+# bill_text._MN_DELETED_RE / _MN_NEWTEXT_MARK_RE for the same patterns.
+_MN_DELETED_RE = re.compile(
+    r"deleted\s+text\s+begin\b.*?deleted\s+text\s+end\b", re.IGNORECASE | re.DOTALL
+)
+_MN_NEWTEXT_MARK_RE = re.compile(r"new\s+text\s+(?:begin|end)\b", re.IGNORECASE)
+
+
+def _strip_mn_redline(text: str) -> str:
+    """Remove Minnesota redline markup from extracted bill text (deleted spans
+    dropped whole, inserted-text markers stripped keeping their text)."""
+    if not text:
+        return text
+    text = _MN_DELETED_RE.sub(" ", text)
+    return _MN_NEWTEXT_MARK_RE.sub(" ", text)
 # The govbot dataset prepends a metadata header to each extracted bill document:
 #     Title: <...>
 #     Official Title: <...>
@@ -1850,6 +1874,7 @@ def _prepare_full_text_for_llm(text: str) -> str:
     present."""
     if not text:
         return ""
+    text = _strip_mn_redline(text)
     explainer = _extract_bill_explainer(text)
     cleaned = _ARTIFACT_ARROW_RE.sub(" ", text)
     cleaned = _ARTIFACT_FRONTMATTER_RE.sub("", cleaned)
