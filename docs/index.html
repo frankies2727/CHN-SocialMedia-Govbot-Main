@@ -387,7 +387,12 @@ let BSKY_POSTS = [];
 function fmtStamp(iso){
   const d = iso ? new Date(iso) : null;
   if(!d || isNaN(d)) return "";
-  return d.toLocaleString(undefined,{month:"short",day:"numeric",year:"numeric",hour:"numeric",minute:"2-digit"});
+  // Always show the post time in Central time with its zone label, so the stamp
+  // reads the same for every viewer regardless of their own timezone. The label
+  // auto-resolves to CST (standard) or CDT (daylight) — both are Central.
+  return d.toLocaleString("en-US",{timeZone:"America/Chicago",
+    month:"short",day:"numeric",year:"numeric",hour:"numeric",minute:"2-digit",
+    timeZoneName:"short"});
 }
 // Group a flat post list into threads: each main post (post 1) with its
 // self-reply(ies) (post 2) nested under it. A reply is detected by its
