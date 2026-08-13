@@ -367,6 +367,64 @@ _FRONT_MATTER_RE = re.compile(
 )
 
 
+# Some legislature sites serve a bill as an HTML page whose scraped text is
+# prefixed with the site's navigation chrome — a wall of menu items, search
+# boxes, and "share this" links — before the actual bill body. Fed that verbatim,
+# a small model summarizes the MENU instead of the bill. Two real examples:
+#
+#   California (leginfo): "Bill Text - SB-1444 Employment. skip to content home
+#     accessibility FAQ feedback sitemap login x Quick Search: … SHARE THIS:
+#     SB1444:v98#DOCUMENTBill Start … CALIFORNIA LEGISLATURE …"  → produced the
+#     CA HR-127 / SB-1444 / SB-938 failures.
+#   Minnesota (revisor/leg): "SF 4171 Introduction … Skip to main content Skip to
+#     footer Minnesota Legislature … Menu House … Committees … A bill for an act
+#     relating to … BE IT ENACTED …"  → 5 KB of menu before the bill.
+#
+# This isn't one site's quirk, so the fix is general: when a chrome signature
+# sits at the top, cut forward to where the bill body demonstrably begins. CA
+# embeds an explicit "#DOCUMENT" start marker; every other layout is cut to the
+# earliest universal enacting anchor ("A bill for an act", "Be it enacted", a
+# "<Chamber> Bill/Resolution No." caption, "CALIFORNIA LEGISLATURE", …). Guarded
+# by the chrome signature and an anchor match, so a bill with no chrome — or one
+# whose body start can't be located — is returned untouched rather than cut.
+_WEB_CHROME_SIG_RE = re.compile(
+    r"skip to (?:main )?content|skip to footer|Quick Search\s*:", re.IGNORECASE
+)
+_CA_DOCUMENT_MARKER_RE = re.compile(r"#DOCUMENT\s*(?:Bill\s*Start\s*)?", re.IGNORECASE)
+# Universal "the bill body starts here" anchors, kept in the output (cut BEFORE
+# them). Specific legislative phrases that a navigation menu never contains.
+_BILL_BODY_ANCHOR_RE = re.compile(
+    r"\bA\s+bill\s+for\s+an\s+act\b"
+    r"|\bBe\s+it\s+enacted\b"
+    r"|\bThe\s+people\s+of\s+the\s+State\s+of\b"
+    r"|\bCALIFORNIA\s+LEGISLATURE\b"
+    r"|\b(?:House|Senate|Assembly)\s+(?:Bill|Resolution|Joint\s+Resolution|"
+    r"Concurrent\s+Resolution)\s+No\.",
+    re.IGNORECASE,
+)
+
+
+def _strip_web_chrome(text: str) -> str:
+    """Drop a leading block of legislature-website navigation chrome (menus,
+    search boxes, "share this" links) that a naive HTML scrape leaves in front of
+    the bill body. Only fires when a chrome signature sits at the very top AND a
+    content boundary is found, so a real bill is never truncated. Returns the
+    input unchanged otherwise."""
+    if not text:
+        return text
+    if not _WEB_CHROME_SIG_RE.search(text[:1200]):
+        return text
+    # California embeds an explicit document-start marker; prefer it.
+    m = _CA_DOCUMENT_MARKER_RE.search(text)
+    if m:
+        return text[m.end():].lstrip()
+    # Otherwise cut to the earliest enacting-clause anchor (kept in the output).
+    m = _BILL_BODY_ANCHOR_RE.search(text)
+    if m and m.start() > 0:
+        return text[m.start():].lstrip()
+    return text
+
+
 def clean_bill_text(text: str) -> str:
     """Strip per-line numbering, page headers/footers, and repeated ALL-CAPS
     banner lines from extracted bill text, then collapse runs of blank lines.
@@ -374,6 +432,7 @@ def clean_bill_text(text: str) -> str:
     if not text:
         return ""
 
+    text = _strip_web_chrome(text)
     text = text.replace("\f", "\n")
     text = _AMEND_ARROW_RE.sub(" ", text)
     raw_lines = text.split("\n")
