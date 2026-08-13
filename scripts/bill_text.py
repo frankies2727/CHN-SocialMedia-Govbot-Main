@@ -367,6 +367,42 @@ _FRONT_MATTER_RE = re.compile(
 )
 
 
+# California's legislature site (leginfo.legislature.ca.gov) serves each bill as
+# an HTML page whose scraped text is prefixed with the site's navigation chrome:
+#   "Bill Text - SB-1444 Employment. skip to content home accessibility FAQ
+#    feedback sitemap login x Quick Search: Bill Number Bill Keyword Home Bill
+#    Information California Law Publications … My Subscriptions My Favorites …
+#    SHARE THIS: SB1444:v98#DOCUMENTBill Start … CALIFORNIA LEGISLATURE …"
+# Fed that verbatim, a small model summarizes the MENU ("skip to content home
+# accessibility faq feedback sitemap login …") instead of the bill — the exact
+# failure seen on CA HR-127 and CA SB-1444. The real document always begins at
+# the "#DOCUMENT" marker the page embeds; everything before it is chrome. Cut it
+# (plus the "Bill Start" label that immediately follows) so the extracted text
+# opens on the actual bill. Guarded by a chrome signature so it only fires on a
+# genuinely chrome-prefixed page, never on a bill that merely cites a website.
+_WEB_CHROME_SIG_RE = re.compile(r"skip to content|Quick Search:", re.IGNORECASE)
+_CA_DOCUMENT_MARKER_RE = re.compile(r"#DOCUMENT\s*(?:Bill\s*Start\s*)?", re.IGNORECASE)
+
+
+def _strip_web_chrome(text: str) -> str:
+    """Drop a leading block of legislature-website navigation chrome (menus,
+    search boxes, "share this" links) that a naive HTML scrape leaves in front of
+    the bill body. Currently targets California's leginfo layout. Only fires when
+    a chrome signature sits at the very top AND a content anchor is found, so a
+    real bill is never truncated. Returns the input unchanged otherwise."""
+    if not text:
+        return text
+    if not _WEB_CHROME_SIG_RE.search(text[:800]):
+        return text
+    m = _CA_DOCUMENT_MARKER_RE.search(text)
+    if m:
+        return text[m.end():].lstrip()
+    idx = text.find("CALIFORNIA LEGISLATURE")
+    if idx > 0:
+        return text[idx:].lstrip()
+    return text
+
+
 def clean_bill_text(text: str) -> str:
     """Strip per-line numbering, page headers/footers, and repeated ALL-CAPS
     banner lines from extracted bill text, then collapse runs of blank lines.
@@ -374,6 +410,7 @@ def clean_bill_text(text: str) -> str:
     if not text:
         return ""
 
+    text = _strip_web_chrome(text)
     text = text.replace("\f", "\n")
     text = _AMEND_ARROW_RE.sub(" ", text)
     raw_lines = text.split("\n")

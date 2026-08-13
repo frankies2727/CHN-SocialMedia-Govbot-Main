@@ -167,7 +167,13 @@ LINK_ANCHOR = "Read the full bill"
 # abstract AND no full bill text to ground the rewrite, so title-only records
 # can't be hallucinated into something new.
 HEADLINE_THRESHOLD = 2
-HEADLINE_MAX_LEN = 70
+# Longest headline shown in the post head. The daily feed now posts a 2-post
+# thread, so the summary continues into the self-reply and no longer competes
+# with the headline for post-1 space — a full, complete headline should never be
+# chopped to "…". Kept a little above the prompt's ~80-char target so a slightly
+# long but complete model headline fits whole instead of being truncated
+# mid-phrase ("… List of Most Dangerous…").
+HEADLINE_MAX_LEN = 90
 
 
 # ---------------------------------------------------------------------------
@@ -303,6 +309,34 @@ _SUBSTITUTE_PREFIX_RE = re.compile(
 )
 
 
+# Some California records arrive with the legislature site's scraped boilerplate
+# fused onto the real title: the clean subject word, then the digest header with
+# NO separating space — "Employment.LEGISLATIVE COUNSEL'S DIGESTSB 1444, as
+# amended, Committee on Labor…", "Peace officers.LEGISLATIVE COUNSEL'S DIGESTSB
+# 938, as amended…". Shown raw, that whole wall of legalese becomes the post
+# headline. Cut it back to the clean leading subject at the "LEGISLATIVE
+# COUNSEL'S DIGEST" marker, and strip any leading "Bill Text - <id>" / trailing
+# "skip to content …" web chrome, so the headline path sees a short subject it
+# can build real copy around instead of the raw digest.
+_COUNSEL_DIGEST_RE = re.compile(
+    r"\s*LEGISLATIVE\s+COUNSEL['’]?S?\s+DIGEST.*$", re.IGNORECASE | re.DOTALL
+)
+_TITLE_CHROME_PREFIX_RE = re.compile(r"^\s*Bill\s+Text\s*[-–—]\s*\S+\s+", re.IGNORECASE)
+_TITLE_CHROME_TAIL_RE = re.compile(r"\s*skip to content.*$", re.IGNORECASE | re.DOTALL)
+
+
+def _sanitize_title(title: str) -> str:
+    """Strip scraped web/digest boilerplate a few states fuse onto the real
+    title, cutting it back to the clean leading subject. Never returns empty —
+    falls back to the original title when the cut would leave nothing."""
+    t = title or ""
+    t = _TITLE_CHROME_PREFIX_RE.sub("", t)
+    t = _TITLE_CHROME_TAIL_RE.sub("", t)
+    t = _COUNSEL_DIGEST_RE.sub("", t)
+    t = t.strip()
+    return t if t else (title or "")
+
+
 def _is_blob_title(title: str) -> bool:
     """True when the `title` field is actually a wall of legalese (the whole
     abstract) rather than a real short headline. Some states — Missouri among
@@ -322,7 +356,9 @@ def _is_blob_title(title: str) -> bool:
 # legalese and, at 250-ish characters, slips under the 300-char blob threshold,
 # so it must be caught separately and delegalesed before it can be shown raw.
 _LEGALESE_ACT_TITLE_RE = re.compile(
-    r"^\s*an\s+act\b.*\b(?:amending|providing for|relating to|to amend)\b",
+    r"^\s*an\s+act\b.*\b(?:amending|providing for|relating to|relative to|"
+    r"to amend|authorizing|to authorize|concerning|establishing|prohibiting|"
+    r"requiring|creating)\b",
     re.IGNORECASE | re.DOTALL,
 )
 
@@ -335,6 +371,42 @@ def _is_legalese_act_title(title: str) -> bool:
     if len(t) < 40:
         return False
     return bool(_LEGALESE_ACT_TITLE_RE.match(t))
+
+
+# A quoted short-title the bill gives itself — '"Affordable Power Purchase
+# Agreements Extension Act"' — is already a clean, plain-ish name. When a raw
+# title leads with one (New Jersey's '"<name> Act"; concerns …' form), it makes a
+# far better headline than the legalese tail that follows it.
+_QUOTED_ACT_NAME_RE = re.compile(r'["“”]([^"“”]{6,90}?(?:\bAct\b|\bLaw\b))["“”]')
+
+
+def _quoted_act_name(title: str) -> str:
+    """The bill's own quoted short-title ("… Act"/"… Law") if the title carries
+    one, else "". Used as a clean headline fallback for records whose title is a
+    quoted act name followed by a legalese description."""
+    m = _QUOTED_ACT_NAME_RE.search(title or "")
+    if not m:
+        return ""
+    return " ".join(m.group(1).split()).strip()
+
+
+# Enacting-clause connectors that mark a title as a bare legalese subject line
+# rather than a plain-English headline ("relative to …", "concerning …").
+_CONNECTOR_TITLE_RE = re.compile(r"^\s*(?:relative to|relating to|concerning)\b",
+                                 re.IGNORECASE)
+
+
+def _title_is_legalese(title: str) -> bool:
+    """True when a title should be delegalesed before it can stand as the post
+    headline: a bare "An Act …" enacting clause, a '"<name> Act"; concerns …'
+    quoted-name-plus-description (New Jersey), or a long "relative to …" /
+    "concerning …" subject line (New Hampshire)."""
+    t = (title or "").strip()
+    if _is_legalese_act_title(t):
+        return True
+    if _quoted_act_name(t) and ";" in t:
+        return True
+    return len(t) > 55 and bool(_CONNECTOR_TITLE_RE.match(t))
 
 
 def _is_vague_subject_title(title: str, subjects: str = "") -> bool:
@@ -363,6 +435,10 @@ def extract_fields(record: dict) -> dict | None:
     title = bill.get("title") or ""
     if not identifier or not title:
         return None
+    # Strip scraped web/digest boilerplate (California's "…LEGISLATIVE COUNSEL'S
+    # DIGEST…" wall, leginfo nav chrome) before anything downstream — display,
+    # headline generation, and the LLM prompt — ever sees the title.
+    title = _sanitize_title(title)
 
     state = detect_state(record)
     session = bill.get("legislative_session") or ""
@@ -461,10 +537,12 @@ def best_display_text(b: dict, headline: str = "") -> str:
     # title mid-clause and lose the action line in the process.
     if headline and len(title) > HEADLINE_THRESHOLD:
         return headline
-    # No headline, but a bare "An Act amending the act of …, known as …,
-    # providing for <purpose>" statute title should never show raw. Delegalese
-    # it to the bill's stated purpose; keep the raw title only if that fails.
-    if _is_legalese_act_title(title):
+    # No headline, but a bare legalese title should never show raw: an "An Act
+    # amending …, providing for <purpose>" enacting clause, a '"<name> Act";
+    # concerns …' quoted-name title (New Jersey), or a long "relative to …"
+    # subject line (New Hampshire). Delegalese it to the bill's own quoted name
+    # or stated purpose; keep the raw title only if that fails.
+    if _title_is_legalese(title):
         cleaned = _delegalese_headline(title)
         if cleaned:
             return cleaned
@@ -758,6 +836,15 @@ def _clean_summary(text: str) -> str:
     if text.startswith("```"):
         text = text.strip("`").strip()
     text = text.strip().strip('"').strip("'").strip()
+    # The model is asked for a JSON object; when its closing brace/quotes leak
+    # into the extracted string value the blurb ends with JSON punctuation
+    # (observed tail on NY S7189: '…takes effect immediately."}\''). A '}' never
+    # legitimately appears in a plain-English blurb, so cut from the first one,
+    # then peel any leftover stray quotes/braces/backticks off the end.
+    brace = text.find("}")
+    if brace != -1:
+        text = text[:brace].rstrip(" \t`{}\"'‘’“”")
+    text = text.strip()
     # Take only the first sentence/line if the model rambles.
     for sep in ("\n\n", "\n"):
         if sep in text:
@@ -1163,6 +1250,32 @@ def _is_citation_heavy(text: str, threshold: int = 2) -> bool:
     return len(_CITATION_MARKER_RE.findall(text or "")) >= threshold
 
 
+# A candidate blurb pulled from a bill's data tables (budget allowances, rate
+# schedules) is unreadable noise: pdftotext concatenates the columns into tokens
+# like "20194,184,333minusFCPBAminusSCPBA" (observed on NH HB1738's RGGI budget
+# table). Detect a blurb that is really a mangled table row so the deterministic
+# fallbacks drop it rather than posting the gibberish.
+_TABLE_GIBBERISH_RE = re.compile(r"\d\s*minus|minus[A-Za-z]|[A-Za-z]{0,5}\d{4,}[A-Za-z]{2,}")
+
+
+def _is_table_gibberish(text: str) -> bool:
+    """True when a candidate blurb is really a mangled data-table row (fused
+    digit/letter tokens, "minus"-glued figures) rather than readable prose."""
+    if not text:
+        return False
+    if _TABLE_GIBBERISH_RE.search(text):
+        return True
+    # A single long token mixing several digits and letters ("20194,184,333min…")
+    # is a collapsed table cell, never a real word.
+    for tok in text.split():
+        if len(tok) >= 12:
+            digits = sum(c.isdigit() for c in tok)
+            letters = sum(c.isalpha() for c in tok)
+            if digits >= 4 and letters >= 4:
+                return True
+    return False
+
+
 def _strip_inline_line_numbers(text: str) -> str:
     """Remove inline per-line numbering (see _INLINE_LINENO_RE). Only fires when
     the standalone 1–2 digit tokens are dense AND largely sequential — the
@@ -1228,8 +1341,9 @@ def _first_sentence(text: str) -> str:
             if re.match(r"\s*(?:this bill|the bill)\b", s, re.IGNORECASE):
                 return _smart_truncate(_operative_rephrase(s), 200)
     # A first sentence that's just statute citations reads as legalese; drop it
-    # so the caller ships a clean headline instead of a raw fragment.
-    if _is_citation_heavy(first):
+    # so the caller ships a clean headline instead of a raw fragment. Same for a
+    # mangled data-table row.
+    if _is_citation_heavy(first) or _is_table_gibberish(first):
         return ""
     return _smart_truncate(first, 200)
 
@@ -1604,8 +1718,8 @@ _RECITED_LONGTITLE_RE = re.compile(
 # <purpose>" enacting clause. Captured from the LAST such connector so a recited
 # act's many "providing for …" clauses don't win over the bill's own tail.
 _PROVIDING_FOR_RE = re.compile(
-    r"\b(?:providing for|relating to|prohibiting|authorizing|requiring|"
-    r"establishing|creating)\b\s+(.+)",
+    r"\b(?:providing for|relating to|relative to|concerning|concerns|"
+    r"prohibiting|authorizing|requiring|establishing|creating)\b\s+(.+)",
     re.IGNORECASE | re.DOTALL,
 )
 
@@ -1624,6 +1738,7 @@ _ARTIFACT_FRONTMATTER_RE = re.compile(
 #     Official Title: <...>
 #     Source: versions - <label>
 #     Media Type: <text/html|application/pdf>
+#     Visual Markup Detected: true -- this document likely contains redline …
 #     <blank>
 #     ==========...==========      (a rule of many '=')
 #     <blank>
@@ -1632,12 +1747,18 @@ _ARTIFACT_FRONTMATTER_RE = re.compile(
 # in, this header is pure noise to the model — and, worse, when the local LLM
 # returns an empty blurb the deterministic fallback (_summary_from_body /
 # _first_sentence) emits the header itself as the post body (observed: "Versions
-# - Introduced Version Media Type. Text/html === A3497 assembly, No."). Strip
-# every such block so no consumer — model, fallback, relevance gate, persisted
-# artifact — ever sees it.
+# - Introduced Version Media Type. Text/html === A3497 assembly, No.", and the
+# newer "… Current Version Media Type. Application/pdf Visual Markup Detected.").
+# The header always opens with "Title:" and runs to the "====" rule, but the set
+# of keys between them varies (govbot added the "Visual Markup Detected:" note),
+# so after the first known key we consume ANY further "Key: value" lines up to
+# the rule rather than an exact key whitelist — otherwise one unlisted key (the
+# Visual-Markup note) left the whole header, and its "Media Type:"/"Visual Markup
+# Detected:" text, leaking into the post. Strip every such block so no consumer —
+# model, fallback, relevance gate, persisted artifact — ever sees it.
 _EXTRACTION_HEADER_RE = re.compile(
-    r"(?im)^[ \t]*(?:Title|Official Title|Source|Media Type):[^\n]*\n"
-    r"(?:[ \t]*(?:Title|Official Title|Source|Media Type):[^\n]*\n)*"
+    r"(?im)^[ \t]*(?:Title|Official Title|Source|Media Type|Visual Markup Detected):[^\n]*\n"
+    r"(?:[ \t]*[A-Za-z][A-Za-z '-]{0,40}:[^\n]*\n)*"
     r"[ \t]*\n?[ \t]*={20,}[ \t]*\n+"
 )
 
@@ -1690,10 +1811,14 @@ def _bill_purpose(*texts: str) -> str:
             pass
         if not m:
             continue
-        # Stop at the first sentence end / enacting boilerplate.
+        # Stop at the first sentence end / enacting boilerplate, or at a repeated
+        # connector ("… and relative to …", "… and concerning …") so a title that
+        # strings two subjects together keeps just the first, primary one instead
+        # of trailing an awkward "and relative to …" into the headline.
         purpose = re.split(
             r"(?:\.\s|\.$|;|\bbe it enacted\b|\bthe general assembly\b|"
-            r"\bto read as follows\b|\bis amended\b)",
+            r"\bto read as follows\b|\bis amended\b|"
+            r"\band\s+relat(?:ive|ing)\s+to\b|\band\s+concerning\b)",
             m.group(1),
             maxsplit=1,
             flags=re.IGNORECASE,
@@ -1712,6 +1837,14 @@ def _delegalese_headline(title: str, full_text: str = "") -> str:
     bill's own 'providing for <purpose>' subject over the raw legalese title, so
     the post never leads with 'An Act amending the act of July 31, 1968
     (P.L.805, No.247), known as …'. Returns "" when nothing clean can be found."""
+    # The bill's own quoted short-title ("… Act"/"… Law"), when present, is the
+    # cleanest possible headline — use it before falling to the purpose clause.
+    name = _quoted_act_name(title)
+    if name:
+        headline = _smart_case(name)
+        if len(headline) > HEADLINE_MAX_LEN:
+            headline = _smart_truncate(headline, HEADLINE_MAX_LEN)
+        return headline.rstrip(".!?,; ")
     purpose = _bill_purpose(title, full_text)
     if not purpose:
         return ""
@@ -1783,6 +1916,9 @@ def _summary_from_body(prepared_body: str, max_chars: int = 240) -> str:
             continue
         if citation_re.match(s):
             continue
+        # A mangled data-table row (budget/rate schedule) is unreadable noise.
+        if _is_table_gibberish(core):
+            continue
         letters = [c for c in core if c.isalpha()]
         if letters and sum(1 for c in letters if c.isupper()) / len(letters) > 0.5:
             continue
@@ -1800,7 +1936,8 @@ def _summary_from_body(prepared_body: str, max_chars: int = 240) -> str:
     # A blurb dominated by statute citations / section markers reads as legalese,
     # not plain English — drop it so the post ships a clean headline rather than a
     # citation fragment ("Parental leave fund account (AS 23.10.705). Sec. 19. …").
-    if _is_citation_heavy(out):
+    # Same for a mangled data-table row (NH HB1738's RGGI budget figures).
+    if _is_citation_heavy(out) or _is_table_gibberish(out):
         return ""
     return _smart_truncate(out, max_chars)
 
