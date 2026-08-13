@@ -141,8 +141,20 @@
   #bsky-search:focus { outline:none; border-color:#7ab6f5;
     box-shadow:0 0 0 3px rgba(76,154,239,0.25); }
   .bsky-status { color:var(--muted); font-size:12.5px; white-space:nowrap; }
-  .bsky-feed { display:flex; flex-direction:column; gap:12px; max-height:720px; overflow-y:auto; padding-right:4px; }
+  .bsky-feed { display:flex; flex-direction:column; gap:14px; max-height:720px; overflow-y:auto; padding-right:4px; }
   .bpost { border:1px solid var(--border); border-radius:12px; background:var(--surface-2); padding:14px 16px; }
+  /* A posted bill is a 2-post thread: the main post (post 1) and its self-reply
+     (post 2). Group them so the reply sits indented beneath its parent, showing
+     the parent→child relationship visually. */
+  .bthread { display:flex; flex-direction:column; gap:8px; }
+  .bthread > .bpost.reply { margin-left:30px; background:var(--surface);
+    border-left:2px solid var(--acct-color,#4c9aef); border-top-left-radius:4px; position:relative; }
+  /* Connector elbow linking the reply back up to its parent post. */
+  .bthread > .bpost.reply::before { content:""; position:absolute; left:-16px; top:-11px;
+    width:14px; height:20px; border-left:2px solid var(--baseline);
+    border-bottom:2px solid var(--baseline); border-bottom-left-radius:8px; }
+  .breplytag { font-size:11.5px; color:var(--muted); text-transform:uppercase;
+    letter-spacing:0.05em; margin-bottom:7px; display:flex; align-items:center; gap:6px; }
   .bphead { display:flex; justify-content:space-between; gap:10px; margin-bottom:8px; align-items:baseline; }
   .bphead .bpacct { font-size:12.5px; color:var(--ink-2); font-weight:600; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
   .bphead .bpdate { font-size:12.5px; color:var(--muted); white-space:nowrap; flex:0 0 auto; }
@@ -338,9 +350,13 @@ async function fetchAuthor(handle, limit){
     .map(it=>{
       const p=it.post, r=p.record||{}, emb=p.embed||{};
       const ext=(emb["$type"]||"").includes("external") ? (emb.external||{}) : {};
+      // A self-reply (post 2 of the thread) carries reply.parent.uri pointing
+      // back at the main post (post 1); capture both so the feed can nest them.
+      const parentUri=(r.reply&&r.reply.parent&&r.reply.parent.uri)||"";
       return { handle:p.author.handle, author:p.author.displayName||p.author.handle,
         text:r.text||"", createdAt:r.createdAt||p.indexedAt||"",
         link:bskyPostLink(p.author.handle, p.uri),
+        uri:p.uri||"", parentUri,
         extUri:ext.uri||"", extTitle:ext.title||"", extDesc:ext.description||"" };
     });
   bskyCache.set(handle, posts);
@@ -373,27 +389,64 @@ function fmtStamp(iso){
   if(!d || isNaN(d)) return "";
   return d.toLocaleString(undefined,{month:"short",day:"numeric",year:"numeric",hour:"numeric",minute:"2-digit"});
 }
+// Group a flat post list into threads: each main post (post 1) with its
+// self-reply(ies) (post 2) nested under it. A reply is detected by its
+// parentUri pointing at another fetched post BY THE SAME AUTHOR; a reply whose
+// parent isn't in the set (scrolled past the fetch limit) falls back to standing
+// on its own. Roots are ordered newest-first; replies oldest-first under each.
+function threadPosts(posts){
+  const byUri=new Map();
+  posts.forEach(p=>{ if(p.uri) byUri.set(p.uri,p); });
+  const childrenOf=new Map(), roots=[];
+  posts.forEach(p=>{
+    const parent = p.parentUri && byUri.get(p.parentUri);
+    if(parent && parent.handle===p.handle){
+      if(!childrenOf.has(p.parentUri)) childrenOf.set(p.parentUri,[]);
+      childrenOf.get(p.parentUri).push(p);
+    } else {
+      roots.push(p);
+    }
+  });
+  childrenOf.forEach(list=>list.sort((a,b)=> a.createdAt<b.createdAt?-1:1));
+  roots.sort((a,b)=> a.createdAt<b.createdAt?1:-1);
+  return roots.map(root=>({root, replies: childrenOf.get(root.uri)||[]}));
+}
+function bpostCardHTML(p, isReply){
+  return (isReply?`<div class="breplytag">↳ reply</div>`:"")+
+    `<div class="bphead">`+
+      `<span class="bpacct">${isReply?"":esc(p.author)}</span>`+
+      `<span class="bpdate">${esc(fmtStamp(p.createdAt))}</span></div>`+
+    `<div class="bptext">${esc(p.text)}</div>`+
+    (p.extUri?`<div class="bpcard"><a href="${esc(p.extUri)}" target="_blank" rel="noopener">`+
+      `<div class="bt">🔗 ${esc(p.extTitle||"Read the full bill")}</div>`+
+      (p.extDesc?`<div class="bd">${esc(p.extDesc)}</div>`:"")+`</a></div>`:"")+
+    `<div class="bpfoot">`+
+      (p.extUri?`<a href="${esc(p.extUri)}" target="_blank" rel="noopener">Read the full bill</a>`:"")+
+      `<a href="${esc(p.link)}" target="_blank" rel="noopener">Open on Bluesky ↗</a>`+
+    `</div>`;
+}
 function renderBsky(){
   const feed=$("#bsky-feed"), status=$("#bsky-status");
-  let posts=BSKY_POSTS;
-  if(bskySearch) posts=posts.filter(p=>p.text.toLowerCase().includes(bskySearch));
-  const shown=posts.slice(0,80);
-  status.textContent = `${posts.length} post${posts.length===1?"":"s"}${bskySearch?" match":""}`;
+  let threads=threadPosts(BSKY_POSTS);
+  // Search matches at the THREAD level: a hit on either the main post or its
+  // reply keeps the whole thread, so a paired post is never split by filtering.
+  if(bskySearch) threads=threads.filter(t=>
+    t.root.text.toLowerCase().includes(bskySearch) ||
+    t.replies.some(r=>r.text.toLowerCase().includes(bskySearch)));
+  const shown=threads.slice(0,80);
+  const totalPosts=threads.reduce((n,t)=>n+1+t.replies.length,0);
+  status.textContent = `${totalPosts} post${totalPosts===1?"":"s"}${bskySearch?" match":""}`;
   feed.innerHTML="";
   if(!shown.length){ feed.innerHTML=`<div class="bsky-msg">No posts${bskySearch?" match that filter":""}.</div>`; return; }
-  shown.forEach(p=>{
-    const card=el("div",{class:"bpost"});
-    card.innerHTML =
-      `<div class="bphead"><span class="bpacct">${esc(p.author)}</span><span class="bpdate">${esc(fmtStamp(p.createdAt))}</span></div>`+
-      `<div class="bptext">${esc(p.text)}</div>`+
-      (p.extUri?`<div class="bpcard"><a href="${esc(p.extUri)}" target="_blank" rel="noopener">`+
-        `<div class="bt">🔗 ${esc(p.extTitle||"Read the full bill")}</div>`+
-        (p.extDesc?`<div class="bd">${esc(p.extDesc)}</div>`:"")+`</a></div>`:"")+
-      `<div class="bpfoot">`+
-        (p.extUri?`<a href="${esc(p.extUri)}" target="_blank" rel="noopener">Read the full bill</a>`:"")+
-        `<a href="${esc(p.link)}" target="_blank" rel="noopener">Open on Bluesky ↗</a>`+
-      `</div>`;
-    feed.appendChild(card);
+  shown.forEach(t=>{
+    const wrap=el("div",{class:"bthread"});
+    const main=el("div",{class:"bpost"}); main.innerHTML=bpostCardHTML(t.root,false);
+    wrap.appendChild(main);
+    t.replies.forEach(r=>{
+      const c=el("div",{class:"bpost reply"}); c.innerHTML=bpostCardHTML(r,true);
+      wrap.appendChild(c);
+    });
+    feed.appendChild(wrap);
   });
 }
 
