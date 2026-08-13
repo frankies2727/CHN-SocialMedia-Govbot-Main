@@ -90,6 +90,11 @@ CARD_SUMMARY_CHARS = int(os.environ.get("CARD_SUMMARY_CHARS", "240"))
 # word/clause boundary (never mid-word, never "…"). A good model headline (the
 # normal case, now that MN redline text is cleaned) is used as-is.
 CARD_HEADLINE_MAX = int(os.environ.get("CARD_HEADLINE_MAX", "78"))
+# Bill-selection nudge toward bills that have full PDF text. State recency is the
+# primary priority (its weight reaches ~181); this multiplies a full-text bill's
+# draw weight so it is preferred among states of comparable recency, WITHOUT ever
+# overriding a long-unposted state (weight 181 still beats a fresh state's ~3).
+IG_FULLTEXT_WEIGHT = float(os.environ.get("IG_FULLTEXT_WEIGHT", "3"))
 
 ROOT = Path(__file__).resolve().parent.parent
 JSONL_PATH = ROOT / "bills.jsonl"
@@ -855,12 +860,7 @@ def main() -> int:
             by_state[st] = b
     reps = list(by_state.values())
 
-    # Priority tiers, most-preferred first: descriptive + full text, then
-    # descriptive without full text, then stubs. State-recency weighting still
-    # applies WITHIN each tier (weighted_draw below), so "states not posted in a
-    # while" stays the primary priority and full text is the secondary one.
-    descriptive_full = [b for b in reps if has_desc(b) and has_full_text(b)]
-    descriptive_thin = [b for b in reps if has_desc(b) and not has_full_text(b)]
+    descriptive = [b for b in reps if has_desc(b)]
     stubs = [b for b in reps if not has_desc(b)]
 
     last_posted: dict[str, str] = state.get("state_last_posted", {})
@@ -875,7 +875,14 @@ def main() -> int:
                 days = (now - datetime.fromisoformat(ts)).days
             except ValueError:
                 days = 180
-        return min(max(days, 0), 180) + 1
+        # State recency is the primary priority (weight up to 181). Full text is
+        # a soft nudge, not an override: multiply, so a long-unposted state still
+        # outweighs a recently-posted full-text one, but among comparable-recency
+        # states the full-text bill is preferred.
+        weight = min(max(days, 0), 180) + 1
+        if has_full_text(b):
+            weight *= IG_FULLTEXT_WEIGHT
+        return weight
 
     def weighted_draw(pool: list[dict], k: int) -> list[dict]:
         pool = list(pool)
@@ -886,31 +893,24 @@ def main() -> int:
             picked.append(pool.pop(idx))
         return picked
 
-    # Fill the primary picks tier by tier: full-text descriptive bills first,
-    # then descriptive bills without full text, then stubs — each drawn with the
-    # state-recency weighting.
-    to_post: list[dict] = []
-    for tier in (descriptive_full, descriptive_thin, stubs):
-        if len(to_post) >= effective_limit:
-            break
+    to_post = weighted_draw(descriptive, effective_limit)
+    if len(to_post) < effective_limit:
         picked_ids = {b["dedup_key"] for b in to_post}
-        pool = [b for b in tier if b["dedup_key"] not in picked_ids]
-        to_post.extend(weighted_draw(pool, effective_limit - len(to_post)))
+        stub_pool = [b for b in stubs if b["dedup_key"] not in picked_ids]
+        to_post.extend(weighted_draw(stub_pool, effective_limit - len(to_post)))
 
-    # Backfill reserve: the rest of the candidate pool in the same tier order and
-    # weighted within each tier, so a bill the relevance gate skips is replaced by
-    # the next best candidate rather than shrinking the carousel. to_post (the
-    # state-spread picks) stays first.
+    # Backfill reserve: the rest of the candidate pool in weighted order, so a
+    # bill the relevance gate skips is replaced by the next best candidate rather
+    # than shrinking the carousel. to_post (the state-spread picks) stays first.
     picked_ids = {b["dedup_key"] for b in to_post}
-    reserve: list[dict] = []
-    for tier in (descriptive_full, descriptive_thin, stubs):
-        reserve += weighted_draw(
-            [b for b in tier if b["dedup_key"] not in picked_ids], 10**9)
+    reserve = weighted_draw([b for b in descriptive if b["dedup_key"] not in picked_ids], 10**9)
+    reserve += weighted_draw([b for b in stubs if b["dedup_key"] not in picked_ids], 10**9)
     ordered = to_post + reserve
 
     distinct_states = len({b["state"] or "?" for b in to_post})
-    print(f"Pool: {len(descriptive_full)} state(s) with full-text descriptive bills, "
-          f"{len(descriptive_thin)} descriptive without full text, {len(stubs)} stub-only.")
+    n_full = sum(1 for b in descriptive if has_full_text(b))
+    print(f"Pool: {len(descriptive)} state(s) with descriptive bills "
+          f"({n_full} with full text), {len(stubs)} stub-only.")
     print(f"Account has {remaining}/{RUN_POST_LIMIT} post(s) left this run; "
           f"will post up to {effective_limit}: {len(to_post)} primary picks + "
           f"{len(reserve)} in reserve for gate-skips (from {distinct_states} state(s)).")
