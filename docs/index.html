@@ -480,7 +480,9 @@ function feedCardHTML(r){
   const head=`<div class="fhead">`+
       `<span class="facct"><span class="dot" style="background:${t.color}"></span>`+
       `<span class="tp">${esc(t.emoji)} ${esc(t.name)}</span></span>`+
-      `<span class="fdate">Posted: ${esc(fmtDate(r.posted_date||r.date))}</span></div>`;
+      // Show the full post time in Central time (CST/CDT) when we know it (from
+      // the artifact's commit timestamp); fall back to the date alone otherwise.
+      `<span class="fdate">Posted: ${esc(r.posted_at?fmtStamp(r.posted_at):fmtDate(r.posted_date||r.date))}</span></div>`;
   // Posts made after the "save exactly as posted" change carry the verbatim
   // text + links — show them just like the live Bluesky cards.
   if(r.posted){

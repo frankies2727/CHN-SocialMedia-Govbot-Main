@@ -171,35 +171,40 @@ def feed_item(path: Path, folder: str, topic_key: str) -> dict | None:
     }
 
 
-def git_commit_dates() -> dict:
-    """Map each bills_raw/*.json path -> the date its file was committed
-    (YYYY-MM-DD) — i.e. roughly when the bill was actually posted. The bot
-    commits each post's artifact right after posting, so this orders the feed by
-    real post day rather than by the bill's (sometimes far-future) action date.
+ISO_DT_RE = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}")
+
+
+def git_commit_times() -> dict:
+    """Map each bills_raw/*.json path -> the full ISO-8601 timestamp its file was
+    committed (e.g. "2026-07-29T21:52:03+00:00") — i.e. roughly when the bill was
+    actually posted, since the bot commits each post's artifact right after
+    posting. Used to order the feed by real post time and to show a "Posted:"
+    timestamp (rendered in Central time by the dashboard) rather than the bill's
+    (sometimes far-future) action date.
 
     Returns {} on any failure; callers fall back to the action date. Works best
     with full git history (the Pages workflow checks out with fetch-depth: 0)."""
     try:
         out = subprocess.run(
-            ["git", "-C", str(REPO), "log", "--format=%cs", "--name-only",
+            ["git", "-C", str(REPO), "log", "--format=%cI", "--name-only",
              "--", ":(glob)topics/**/bills_raw/*.json"],
             capture_output=True, text=True, timeout=180, check=True,
         ).stdout
     except Exception:
         return {}
-    dates: dict = {}
+    times: dict = {}
     cur = ""
     for line in out.splitlines():
         line = line.strip()
         if not line:
             continue
-        if DATE_RE.match(line):
+        if ISO_DT_RE.match(line):
             cur = line
         elif cur and line.endswith(".json"):
             # git log is newest-first; overwriting leaves the oldest (adding)
-            # commit date, which is when the post first landed.
-            dates[line] = cur
-    return dates
+            # commit timestamp, which is when the post first landed.
+            times[line] = cur
+    return times
 
 
 def discover_platforms() -> list[str]:
@@ -222,7 +227,7 @@ def main() -> None:
             fallback_i += 1
         platforms.append({"key": folder, "name": name, "color": color})
 
-    commit_dates = git_commit_dates()
+    commit_times = git_commit_times()
 
     topics = []
     records: list[dict] = []
@@ -253,8 +258,14 @@ def main() -> None:
                     item = feed_item(raw_file, folder, topic_dir.name)
                     if item:
                         rel = str(raw_file.relative_to(REPO))
-                        # Post day = commit date of the artifact, else action date.
-                        item["posted_date"] = commit_dates.get(rel) or item["date"]
+                        # Post time = full commit timestamp of the artifact (when
+                        # the bot committed it, right after posting). posted_at is
+                        # the full ISO datetime the dashboard renders in Central
+                        # time; posted_date is its date part, used for sorting and
+                        # as a fallback to the action date when no commit time.
+                        iso = commit_times.get(rel) or ""
+                        item["posted_at"] = iso
+                        item["posted_date"] = (iso[:10] if iso else "") or item["date"]
                         feed.append(item)
 
     # Only keep topics that actually have posts; keep platform order as discovered.
