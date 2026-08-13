@@ -1652,7 +1652,12 @@ _AMENDATORY_RE = re.compile(
     r"\benact(?:ed)?\s+in\s+lieu\s+thereof\b|"
     r"\bamend(?:ed|ing)?\s+and\s+re-?enact(?:ed|ing)?\b|"
     r"\b(?:repeal|repealing|repealed)\b[^.]{0,160}?\b(?:re-?enact|reenact|reenacting|enacting)\b|"
-    r"\bto\s+amend\b[^.]{0,140}?\bby\s+(?:repealing|adding|amending)\b",
+    r"\bto\s+amend\b[^.]{0,140}?\bby\s+(?:repealing|adding|amending)\b|"
+    # New Jersey's amend-by-carrying-forward form: the enacting clause says it is
+    # "amending various parts of the statutory law" and each affected section is
+    # then reprinted whole under "N.J.S.… is amended to read as follows:".
+    r"\bamending\s+(?:various|multiple|certain|parts?\b)[^.]{0,60}?\bstatutory\s+law\b|"
+    r"\bis\s+amended\s+to\s+read\s+as\s+follows\b",
     re.IGNORECASE | re.DOTALL,
 )
 
@@ -1771,6 +1776,65 @@ def _strip_extraction_header(text: str) -> str:
     return _EXTRACTION_HEADER_RE.sub("", text).lstrip()
 
 
+# A bill that amends existing law by "repealing and re-enacting" a statute
+# section carries the ENTIRE section forward, mostly unchanged, and buries its
+# one real change deep in — or after — pages of recited statute. But legislatures
+# write a plain-English explainer for their own members that says exactly what
+# the bill does, and it sits OUTSIDE the operative text: New Jersey's "STATEMENT"
+# (at the very end), a "SYNOPSIS" line (near the top), or California's
+# "LEGISLATIVE COUNSEL'S DIGEST". Fed only the first N characters of the bill,
+# the model never reaches a trailing STATEMENT, so it summarizes the recited
+# boilerplate (school-board bidding rules) instead of the actual change
+# (extending clean-energy contracts) — the exact NJ S4162 failure. These pull
+# that explainer out so it can LEAD the window the model reads.
+_BILL_STATEMENT_RE = re.compile(
+    r"\bSTATEMENT\b\s+(This\s+(?:bill|act|amendment|resolution|supplement)\b.{40,3500})",
+    re.IGNORECASE | re.DOTALL,
+)
+_BILL_SYNOPSIS_RE = re.compile(
+    r"\bSYNOPSIS\b\s+(.{15,700}?)\s*(?:\bCURRENT\s+VERSION\s+OF\s+TEXT\b|\bAn\s+Act\b|$)",
+    re.IGNORECASE | re.DOTALL,
+)
+_BILL_DIGEST_RE = re.compile(
+    r"\bLEGISLATIVE\s+COUNSEL['’]?S?\s+DIGEST\b\s*(.{40,3000}?)"
+    r"(?:\bDigest\s+Key\b|\bBill\s+Text\b|\bWHEREAS\b|$)",
+    re.IGNORECASE | re.DOTALL,
+)
+
+
+def _extract_bill_explainer(text: str) -> str:
+    """The bill's own plain-English explainer written for legislators — New
+    Jersey's trailing "STATEMENT", a "SYNOPSIS" line, or California's
+    "LEGISLATIVE COUNSEL'S DIGEST" — collapsed to a single clean paragraph, or ""
+    when the bill carries none. This is the most reliable statement of what a
+    recitation-heavy amendatory bill actually changes."""
+    if not text:
+        return ""
+    for rx, cap in ((_BILL_STATEMENT_RE, 2200), (_BILL_SYNOPSIS_RE, 700),
+                    (_BILL_DIGEST_RE, 2200)):
+        m = rx.search(text)
+        if not m:
+            continue
+        explainer = " ".join(m.group(1).split()).strip()
+        # Illinois synopses open "AS INTRODUCED: <statute citations> Amends the …
+        # Act. <plain description>". Drop that citation preamble so the plain
+        # description leads instead of a wall of "35 ILCS 405/2 from Ch. 120 …".
+        explainer = re.sub(r"^AS\s+INTRODUCED:\s*", "", explainer, flags=re.IGNORECASE)
+        verb = re.search(
+            r"\b(?:Amends|Creates|Provides|Repeals|Adds|Establishes|Requires|"
+            r"Authorizes|Prohibits|Permits|Appropriates|Reenacts|Designates)\b",
+            explainer,
+        )
+        if verb and verb.start() > 0 and _is_citation_heavy(explainer[:verb.start()]):
+            explainer = explainer[verb.start():]
+        # Reject an explainer that is still a citation list or a mangled table —
+        # better no explainer than prepending legalese as the plain summary.
+        if len(explainer) < 25 or _is_citation_heavy(explainer) or _is_table_gibberish(explainer):
+            continue
+        return explainer[:cap]
+    return ""
+
+
 def _prepare_full_text_for_llm(text: str) -> str:
     """Reduce extracted bill text to the part that describes what THIS bill does.
 
@@ -1778,10 +1842,15 @@ def _prepare_full_text_for_llm(text: str) -> str:
     operative section — the new requirement, program, ban, or moratorium — leads
     the window the model actually reads, and scrubs the pdftotext arrow/front-
     matter artifacts in case the text came from an older extraction or cache.
-    Best-effort; returns the input lightly cleaned when no recitation is
+    When the bill carries its own plain-English explainer (a trailing STATEMENT,
+    a SYNOPSIS, or a digest — often far past the window the model reads), that is
+    lifted to the FRONT so the copy is grounded on what the bill actually does,
+    not on the recited statute it merely carries forward. Best-effort; returns
+    the input lightly cleaned when neither a recitation nor an explainer is
     present."""
     if not text:
         return ""
+    explainer = _extract_bill_explainer(text)
     cleaned = _ARTIFACT_ARROW_RE.sub(" ", text)
     cleaned = _ARTIFACT_FRONTMATTER_RE.sub("", cleaned)
     # Some sources (Alaska's HTML full text) weave per-line numbers through the
@@ -1789,6 +1858,12 @@ def _prepare_full_text_for_llm(text: str) -> str:
     # deterministic fallback reads "… to read: 18 (87) … 19 * Sec. 19 …".
     cleaned = _strip_inline_line_numbers(cleaned)
     cleaned = _RECITED_LONGTITLE_RE.sub("known by its short title", cleaned)
+    if explainer:
+        cleaned = (
+            "Plain-language summary of what this bill does "
+            f"(written by the bill's own drafters): {explainer}\n\n"
+            "Full bill text follows.\n\n" + cleaned
+        )
     return cleaned
 
 

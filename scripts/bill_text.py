@@ -367,39 +367,61 @@ _FRONT_MATTER_RE = re.compile(
 )
 
 
-# California's legislature site (leginfo.legislature.ca.gov) serves each bill as
-# an HTML page whose scraped text is prefixed with the site's navigation chrome:
-#   "Bill Text - SB-1444 Employment. skip to content home accessibility FAQ
-#    feedback sitemap login x Quick Search: Bill Number Bill Keyword Home Bill
-#    Information California Law Publications … My Subscriptions My Favorites …
-#    SHARE THIS: SB1444:v98#DOCUMENTBill Start … CALIFORNIA LEGISLATURE …"
-# Fed that verbatim, a small model summarizes the MENU ("skip to content home
-# accessibility faq feedback sitemap login …") instead of the bill — the exact
-# failure seen on CA HR-127 and CA SB-1444. The real document always begins at
-# the "#DOCUMENT" marker the page embeds; everything before it is chrome. Cut it
-# (plus the "Bill Start" label that immediately follows) so the extracted text
-# opens on the actual bill. Guarded by a chrome signature so it only fires on a
-# genuinely chrome-prefixed page, never on a bill that merely cites a website.
-_WEB_CHROME_SIG_RE = re.compile(r"skip to content|Quick Search:", re.IGNORECASE)
+# Some legislature sites serve a bill as an HTML page whose scraped text is
+# prefixed with the site's navigation chrome — a wall of menu items, search
+# boxes, and "share this" links — before the actual bill body. Fed that verbatim,
+# a small model summarizes the MENU instead of the bill. Two real examples:
+#
+#   California (leginfo): "Bill Text - SB-1444 Employment. skip to content home
+#     accessibility FAQ feedback sitemap login x Quick Search: … SHARE THIS:
+#     SB1444:v98#DOCUMENTBill Start … CALIFORNIA LEGISLATURE …"  → produced the
+#     CA HR-127 / SB-1444 / SB-938 failures.
+#   Minnesota (revisor/leg): "SF 4171 Introduction … Skip to main content Skip to
+#     footer Minnesota Legislature … Menu House … Committees … A bill for an act
+#     relating to … BE IT ENACTED …"  → 5 KB of menu before the bill.
+#
+# This isn't one site's quirk, so the fix is general: when a chrome signature
+# sits at the top, cut forward to where the bill body demonstrably begins. CA
+# embeds an explicit "#DOCUMENT" start marker; every other layout is cut to the
+# earliest universal enacting anchor ("A bill for an act", "Be it enacted", a
+# "<Chamber> Bill/Resolution No." caption, "CALIFORNIA LEGISLATURE", …). Guarded
+# by the chrome signature and an anchor match, so a bill with no chrome — or one
+# whose body start can't be located — is returned untouched rather than cut.
+_WEB_CHROME_SIG_RE = re.compile(
+    r"skip to (?:main )?content|skip to footer|Quick Search\s*:", re.IGNORECASE
+)
 _CA_DOCUMENT_MARKER_RE = re.compile(r"#DOCUMENT\s*(?:Bill\s*Start\s*)?", re.IGNORECASE)
+# Universal "the bill body starts here" anchors, kept in the output (cut BEFORE
+# them). Specific legislative phrases that a navigation menu never contains.
+_BILL_BODY_ANCHOR_RE = re.compile(
+    r"\bA\s+bill\s+for\s+an\s+act\b"
+    r"|\bBe\s+it\s+enacted\b"
+    r"|\bThe\s+people\s+of\s+the\s+State\s+of\b"
+    r"|\bCALIFORNIA\s+LEGISLATURE\b"
+    r"|\b(?:House|Senate|Assembly)\s+(?:Bill|Resolution|Joint\s+Resolution|"
+    r"Concurrent\s+Resolution)\s+No\.",
+    re.IGNORECASE,
+)
 
 
 def _strip_web_chrome(text: str) -> str:
     """Drop a leading block of legislature-website navigation chrome (menus,
     search boxes, "share this" links) that a naive HTML scrape leaves in front of
-    the bill body. Currently targets California's leginfo layout. Only fires when
-    a chrome signature sits at the very top AND a content anchor is found, so a
-    real bill is never truncated. Returns the input unchanged otherwise."""
+    the bill body. Only fires when a chrome signature sits at the very top AND a
+    content boundary is found, so a real bill is never truncated. Returns the
+    input unchanged otherwise."""
     if not text:
         return text
-    if not _WEB_CHROME_SIG_RE.search(text[:800]):
+    if not _WEB_CHROME_SIG_RE.search(text[:1200]):
         return text
+    # California embeds an explicit document-start marker; prefer it.
     m = _CA_DOCUMENT_MARKER_RE.search(text)
     if m:
         return text[m.end():].lstrip()
-    idx = text.find("CALIFORNIA LEGISLATURE")
-    if idx > 0:
-        return text[idx:].lstrip()
+    # Otherwise cut to the earliest enacting-clause anchor (kept in the output).
+    m = _BILL_BODY_ANCHOR_RE.search(text)
+    if m and m.start() > 0:
+        return text[m.start():].lstrip()
     return text
 
 
