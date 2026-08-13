@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6222",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Consumer protection: other"
+    ],
+    "title": "Consumer protection: other; cryptocurrency exchange kiosk regulation act; create. Creates new act.   TIE BAR WITH: HB 6223'26"
+  },
+  "id": "HB 6222",
+  "log": {
+    "action": {
+      "description": "bill electronically reproduced 07/16/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-29",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6222"
+        }
+      ]
+    },
+    "bill_id": "HB 6222"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6222/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6222/logs/20260729T000000Z_bill_electronically_reproduced_07162026.json"
+  },
+  "timestamp": "20260729T000000Z",
+  "posted_text": "💰 MI HB 6222 — Michigan Limits Crypto Kiosk Transactions to $500 Daily\n\nMichigan is regulating cryptocurrency exchange kiosks with the new ‘Cryptocurrency Exchange Kiosk Regulation Act’. The law limits transactions at these kiosks to $500 per day per person, requiring operators to implement ‘reasonable measures’ to prevent fraud and suspicious activity, including 24-hour hold periods for new user transactions. ...\n...",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6222",
+  "posted_url": "https://x.com/i/web/status/2087913301066104854"
+}
