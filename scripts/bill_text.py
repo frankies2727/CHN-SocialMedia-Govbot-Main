@@ -408,8 +408,27 @@ _FRONT_MATTER_RE = re.compile(
     r"^\s*(?:PRIOR\s+)?PRINTER'?S\s+NO\.?.*$"
     r"|^\s*Session\s+of\s*$"
     r"|^\s*Session\s+of\s+\d.*$"
-    r"|^\s*INTRODUCED\s+BY\b.*$",
+    r"|^\s*INTRODUCED\s+BY\b.*$"
+    # Maryland / general first-reading masthead lines.
+    r"|^\s*Introduced\s+and\s+read\s+first\s+time\b.*$"
+    r"|^\s*Assigned\s+to:\s*.*$",
     re.IGNORECASE,
+)
+
+# A bill's masthead often opens with a sponsor block that runs across several
+# lines before the bill's real text — Maryland's "By: Senators Hershey, Bailey,
+# … and West / Introduced and read first time: … / Assigned to: Rules / A BILL
+# ENTITLED / AN ACT concerning …". Left in, the summary becomes the sponsor list
+# (observed on MD SB2102: "Senators Hershey, … Introduced and read first time.").
+# Drop the whole span from a leading "By: Senators/Delegates/Representatives" up
+# to where the bill actually begins ("A BILL ENTITLED" / "AN ACT"). Bounded to a
+# short gap and anchored to that lookahead so it can only remove the masthead,
+# never body text (if the bill-start anchor isn't close after "By:", nothing is
+# stripped).
+_SPONSOR_FRONTMATTER_RE = re.compile(
+    r"\bBy:\s+(?:Senators?|Delegates?|Representatives?)\b.{0,400}?"
+    r"(?=\bA\s+BILL\s+ENTITLED\b|\bAN\s+ACT\b)",
+    re.IGNORECASE | re.DOTALL,
 )
 
 
@@ -486,6 +505,9 @@ def clean_bill_text(text: str) -> str:
     # single marker pair routinely straddles several lines.
     text = _MN_DELETED_RE.sub(" ", text)
     text = _MN_NEWTEXT_MARK_RE.sub(" ", text)
+    # Sponsor/first-reading masthead (spans lines) — drop it before the line split
+    # so the summary starts at the bill's actual purpose, not the sponsor list.
+    text = _SPONSOR_FRONTMATTER_RE.sub(" ", text)
     raw_lines = text.split("\n")
 
     # Count repeated short ALL-CAPS lines — these are running banners/headers

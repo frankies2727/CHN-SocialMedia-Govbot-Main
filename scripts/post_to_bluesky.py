@@ -323,6 +323,24 @@ _COUNSEL_DIGEST_RE = re.compile(
 )
 _TITLE_CHROME_PREFIX_RE = re.compile(r"^\s*Bill\s+Text\s*[-–—]\s*\S+\s+", re.IGNORECASE)
 _TITLE_CHROME_TAIL_RE = re.compile(r"\s*skip to content.*$", re.IGNORECASE | re.DOTALL)
+# An immediately-repeated word run — a scrape/data glitch that doubles a phrase in
+# a title ("Legislative and Congressional Redistricting and Legislative and
+# Congressional Redistricting and Apportionment Commission"). Requires ≥2 words
+# separated by whitespace, so a comma-separated repeat ("New York, New York") is
+# left alone.
+_REPEAT_PHRASE_RE = re.compile(r"\b(\w+(?:\s+\w+){1,}?)\s+\1\b", re.IGNORECASE)
+
+
+def _collapse_repeated_phrase(s: str) -> str:
+    """Collapse an immediately-repeated word run ("X Y X Y" -> "X Y"), iterating
+    to a fixed point so nested/overlapping repeats fully resolve."""
+    if not s:
+        return s
+    prev = None
+    while prev != s:
+        prev = s
+        s = _REPEAT_PHRASE_RE.sub(r"\1", s)
+    return s
 
 
 def _sanitize_title(title: str) -> str:
@@ -333,6 +351,7 @@ def _sanitize_title(title: str) -> str:
     t = _TITLE_CHROME_PREFIX_RE.sub("", t)
     t = _TITLE_CHROME_TAIL_RE.sub("", t)
     t = _COUNSEL_DIGEST_RE.sub("", t)
+    t = _collapse_repeated_phrase(t)
     t = t.strip()
     return t if t else (title or "")
 
@@ -520,6 +539,14 @@ _BOILERPLATE_TITLE_RE = re.compile(
 def best_display_text(b: dict, headline: str = "") -> str:
     title = (b["title"] or "").strip()
     abstract = (b["abstract"] or "").strip()
+    # A model-rewritten headline is a clean, short rephrase of the bill — prefer
+    # it over BOTH the raw title and the abstract fallbacks below. Otherwise a
+    # code/boilerplate-title state (e.g. Hawaii) shows its WHOLE abstract as the
+    # head, and the summary — a paraphrase of that same abstract — then repeats
+    # it, so the post says the same thing twice. The abstract/title fallbacks
+    # still apply when the model produced no headline.
+    if headline and len(title) > HEADLINE_THRESHOLD:
+        return headline
     if _looks_like_code_title(title) and abstract:
         return abstract
     # Blob titles are walls of legalese — never show them raw in the post
@@ -532,11 +559,7 @@ def best_display_text(b: dict, headline: str = "") -> str:
     # Long, semicolon-laden multi-clause titles — prefer a shorter abstract.
     if abstract and len(title) > 120 and ";" in title and len(abstract) < len(title):
         return abstract
-    # A model-rewritten headline replaces a long legalese title outright,
-    # since the trim cascade in compose_post would otherwise have to chop the
-    # title mid-clause and lose the action line in the process.
-    if headline and len(title) > HEADLINE_THRESHOLD:
-        return headline
+    # (A present model headline was already returned at the top of this function.)
     # No headline, but a bare legalese title should never show raw: an "An Act
     # amending …, providing for <purpose>" enacting clause, a '"<name> Act";
     # concerns …' quoted-name title (New Jersey), or a long "relative to …"
