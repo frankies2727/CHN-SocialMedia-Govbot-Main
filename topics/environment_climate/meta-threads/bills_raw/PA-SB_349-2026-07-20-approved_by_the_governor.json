@@ -1,0 +1,53 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 349",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending Title 27 (Environmental Resources) of the Pennsylvania Consolidated Statutes, in environmental protection, providing for decommissioning of solar energy facilities."
+  },
+  "id": "SB 349",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-20T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/sb349"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1329"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=62&rollcallid=2734&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=70&rollcallid=593&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=61"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=3&rollcallid=119&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=9&rollcallid=49&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "SB 349"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB349/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB349/logs/20260720T040000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260720T040000Z",
+  "posted_text": "☀️ Environment & Climate\nPA SB 349 — Decommissioning of solar energy facilities\n\nThis act establishes a framework for the decommissioning of solar energy facilities within Pennsylvania, primarily focusing on financial security and land restoration requirements. It mandates that solar energy facility operators provide financial assurance – typically through an escrow account, bond, or certificate of deposit – to cover the costs of decommissioning. ...\n...",
+  "posted_link": "https://www.palegis.us/legislation/bills/2025/sb349",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DcAGaDNHMQp"
+}

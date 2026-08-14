@@ -1,0 +1,48 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Requires that the Hawaii Teacher Standards Board submit three nominees for its Executive Director to the Board of Education.  Requires the Board of Education to appoint an Executive Director from the nominees on the list, subject to advice and consent of the Senate.  (CD1)",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB3262",
+    "legislative_session": "2026",
+    "subject": [
+      "Advice and Consent",
+      "Appointment",
+      "BOE",
+      "Executive Director",
+      "HTSB"
+    ],
+    "title": "RELATING TO EDUCATION."
+  },
+  "id": "SB3262",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-veto"
+      ],
+      "description": "Vetoed on 07/15/2026 - Returned from the Governor without approval (Gov. Msg. No. 1369).",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-15",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=3262&year=2026"
+        }
+      ]
+    },
+    "bill_id": "SB3262"
+  },
+  "sources": {
+    "bill": "hi-legislation/country:us/state:hi/sessions/2026/bills/SB3262/metadata.json",
+    "log": "hi-legislation/country:us/state:hi/sessions/2026/bills/SB3262/logs/20260715T000000Z_vetoed_on_07152026_returned_from_the_governor_without_approval_gov_msg_no_1369.json"
+  },
+  "timestamp": "20260715T000000Z",
+  "posted_text": "👩‍🏫 Education\nHI SB3262 — Requires that the Hawaii Teacher Standards Board submit three nominees for its Executive Director to the Board of Education.  Requires the Board of Education to appoint an Executive Director from the nominees on the list, subject to advice and consent of the Senate.  (CD1)\n\nThe Hawaii Teacher Standards Board must now submit three nominees for its Executive Director to the Board of Education. ...\n...",
+  "posted_link": "https://www.capitol.hawaii.gov/sessions/session2026/bills/SB3262_.HTM",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DcADuVanLXj"
+}
