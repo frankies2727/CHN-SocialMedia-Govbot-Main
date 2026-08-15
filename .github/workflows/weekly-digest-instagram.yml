@@ -27,9 +27,114 @@ defaults:
 # must name a valid topic, but the digest itself iterates over all of them.
 
 jobs:
-  digest:
+  # ---------------------------------------------------------------------------
+  # Shared setup, on its own runner. The govbot clone across 50+ states is the
+  # slow, disk-heavy half of this workflow. Doing it here, distilling it to a
+  # compact bills.jsonl (+ staged full-text bundle) and shipping that as an
+  # artifact means the digest job never holds the giant clone AND the Ollama
+  # model at once — and, more to the point, each half gets a full time budget of
+  # its own instead of the two sharing one. Mirrors post_to_x.yml.
+  # ---------------------------------------------------------------------------
+  prepare:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    # The digests always clone fresh (shared-cache is off, see below), so this
+    # job pays the full national clone every week. 120 min gives that ample room.
+    timeout-minutes: 120
+
+    env:
+      # Import bootstrap only: stage_bill_text.py needs a valid topic to import
+      # the shared modules, but it stages across every topics/ folder.
+      BOT_TOPIC: "lgbtq"
+
+    steps:
+      - name: Free disk space
+        # ubuntu-latest ships with ~14 GB free; govbot clones across 50+ states
+        # blow past that, which makes the runner crash with "No space left on
+        # device". Strip out preinstalled tooling we never use first.
+        uses: jlumbroso/free-disk-space@v1.3.1
+        with:
+          tool-cache: true
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          docker-images: true
+          swap-storage: false
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install Python deps
+        run: pip install -r requirements.txt
+
+      - name: Install govbot, fetch all supported states, dump JSONL
+        # Resilient install (retries the daily-republished upstream nightly).
+        # shared-cache is OFF: all four weekly digests run Friday with the same
+        # inputs, so with it on only the first would clone and the rest would
+        # reuse that dump and SKIP the clone — leaving no on-disk metadata or
+        # files/ dir for the staging step below to harvest. Cloning fresh keeps
+        # govbot's committed full text on disk so digest summaries stay grounded.
+        uses: ./.github/actions/govbot-bills
+        with:
+          shared-cache: "false"
+          # Full-action feed — same as the daily posters. Dump EVERY action, not
+          # just govbot's noteworthy ones, so a bill active only procedurally in
+          # the lookback window still reaches the digest. since-days (45) sits
+          # above the widest fallback window (30d) and, paired with --limit none,
+          # keeps the larger feed bounded and free of arbitrary per-state
+          # truncation. The digest's own topic match + 7/14/30d windows still
+          # rank highlights.
+          log-filter: "none"
+          log-limit: "none"
+          since-days: "45"
+
+      - name: Stage the full-text bundle
+        # govbot-bills only stages this itself when shared-cache is on, and the
+        # digests keep it off — so do it explicitly here. Copies each in-window
+        # bill's metadata.json + govbot's pre-extracted text out of the clone
+        # into one small tarball, which is what lets the digest job render
+        # grounded summaries without re-cloning. stage_bill_text.py already
+        # stages wide enough (45 days) to cover the digests' 30-day lookback.
+        # Non-fatal: an empty bundle just means summaries fall back to abstracts.
+        run: |
+          if python scripts/stage_bill_text.py shared_bill_text; then
+            echo "staged full text for $(find shared_bill_text -name metadata.json | wc -l) bill(s)."
+          else
+            echo "::warning::full-text staging failed; shipping an empty bundle (abstracts only)."
+            mkdir -p shared_bill_text
+          fi
+          tar -czf shared_bill_text.tar.gz shared_bill_text
+
+      - name: Upload the shared bill corpus
+        uses: actions/upload-artifact@v4
+        with:
+          name: bills-corpus
+          path: |
+            bills.jsonl
+            shared_bill_text.tar.gz
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 9
+
+  # ---------------------------------------------------------------------------
+  # Build and post. Downloads the corpus (no re-clone) and only installs Ollama
+  # locally, so this runner holds the compact corpus + the model, never the
+  # full clone.
+  # ---------------------------------------------------------------------------
+  digest:
+    needs: prepare
+    runs-on: ubuntu-latest
+    # No govbot clone here (the corpus is downloaded), so this is Ollama setup
+    # plus the digest's own LLM work — which on the free runner's CPU model is
+    # slow enough to have been squeezed by the old shared 60. 120 min gives the
+    # summaries room to finish.
+    timeout-minutes: 120
 
     env:
       LLM_MODEL: "gemma3:4b"
@@ -84,27 +189,29 @@ jobs:
       - name: Install Python deps
         run: pip install -r requirements.txt
 
-      - name: Install govbot, fetch all supported states, dump JSONL
-        # Resilient install (retries the daily-republished upstream nightly).
-        # shared-cache is OFF: all four weekly digests run Friday with the same
-        # log-limit (8200), so with it on only the first would clone and the rest
-        # would reuse that dump and SKIP the clone — leaving no on-disk metadata
-        # or files/ dir, forcing summarize()/shorten_title() to fall back to the
-        # bill abstract. Cloning fresh keeps govbot's committed full text on disk
-        # so digest summaries stay grounded. See .github/actions/govbot-bills.
-        uses: ./.github/actions/govbot-bills
+      - name: Download the shared bill corpus
+        # Lands bills.jsonl (+ shared_bill_text.tar.gz) in the repo root, exactly
+        # where the scripts expect them — no govbot clone needed in this job.
+        uses: actions/download-artifact@v4
         with:
-          shared-cache: "false"
-          # Full-action feed — same as the daily posters. Dump EVERY action, not
-          # just govbot's noteworthy ones, so a bill active only procedurally in
-          # the lookback window still reaches the digest. since-days (45) sits
-          # above the widest fallback window (30d) and, paired with --limit none,
-          # keeps the larger feed bounded and free of arbitrary per-state
-          # truncation (an 8200 per-state cap would truncate it hardest). The
-          # digest's own topic match + 7/14/30d windows still rank highlights.
-          log-filter: "none"
-          log-limit: "none"
-          since-days: "45"
+          name: bills-corpus
+          path: .
+
+      - name: Confirm corpus present and unpack staged bill text
+        # The posting step below sets GOVBOT_DATA_ROOT to this dir so
+        # bill_text.resolve_metadata_path finds the staged subset exactly as it
+        # would a full clone. A missing/empty tarball is non-fatal: the digest
+        # just falls back to abstracts.
+        run: |
+          test -f bills.jsonl && echo "bills.jsonl: $(wc -l < bills.jsonl) lines" \
+            || (echo "::error::bills.jsonl missing after download" && exit 1)
+          if [ -f shared_bill_text.tar.gz ]; then
+            tar -xzf shared_bill_text.tar.gz
+            n=$(find shared_bill_text -name metadata.json 2>/dev/null | wc -l)
+            echo "staged bill text: $n bill(s) with metadata unpacked."
+          else
+            echo "no staged bill text tarball; digest will use abstracts only."
+          fi
 
       - name: Cache Ollama model
         uses: actions/cache@v4
@@ -181,6 +288,10 @@ jobs:
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
           LLM_API_URL: "http://localhost:11434/api/chat"
+          # Point bill_text.resolve_metadata_path at the staged subset the
+          # prepare job shipped, so full bill text is used even though this job
+          # never cloned.
+          GOVBOT_DATA_ROOT: "${{ github.workspace }}/shared_bill_text"
         run: python scripts/weekly_digest_instagram.py
 
       - name: Commit Instagram digest artifacts
