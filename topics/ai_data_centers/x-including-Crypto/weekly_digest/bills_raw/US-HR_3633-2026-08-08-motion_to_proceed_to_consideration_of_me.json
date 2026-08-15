@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 3633",
+    "legislative_session": "119",
+    "title": "Digital Asset Market Clarity Act"
+  },
+  "id": "HR 3633",
+  "log": {
+    "action": {
+      "description": "Motion to proceed to consideration of measure made in Senate.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-08T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr3633.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/3633"
+        }
+      ]
+    },
+    "bill_id": "HR 3633"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR3633/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR3633/logs/20260808T040000Z_motion_to_proceed_to_consideration_of_measure_made_in_senate.json"
+  },
+  "timestamp": "20260808T040000Z"
+}
