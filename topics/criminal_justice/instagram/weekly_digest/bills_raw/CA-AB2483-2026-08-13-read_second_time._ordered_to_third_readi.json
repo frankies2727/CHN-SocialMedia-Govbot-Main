@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes in the Natural Resources Agency the Department of Forestry and Fire Protection, and requires the department to be responsible for, among other things, fire protection and prevention, as provided.\n\nExisting law establishes the California Conservation Camp program for the purpose of having inmates and wards work on projects supervised by the department. Existing law requires the department to utilize inmates and wards assigned to conservation camps in performing fire prevention, fire control, and other work at the department.\n\nThis bill would require, on and after July 1, 2027, the department to, in partnership with the Department of Corrections and Rehabilitation and the California Conservation Camp program, implement a standardized process to ensure that all eligible individuals who successfully complete training in a department firefighting training camp while incarcerated receive official written certification reflective of the training completed before their release, as specified.\n\nThis bill would require the department, on and after January 1, 2028, if a qualified formerly incarcerated individual, as defined, applies for a Fire Fighter 1 Classification position, or any successor classifications, and has the required training and meets the minimum qualifications for the position, to award hiring preference under Category Placement 2 to the qualified formerly incarcerated individual, as specified. The bill would require the department, on and after January 1, 2028, if a qualified formerly incarcerated individual applies for a Forestry Technician Classification position, or any successor classifications, to count the duration of specified training and fieldwork as an incarcerated hand crew member towards the minimum qualifications for the classification.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2483",
+    "legislative_session": "20252026",
+    "subject": [
+      "FormerlyIncarceratedFirefighterCertificationandEmploymentProgram",
+      "Wildlandfirefighters"
+    ],
+    "title": "Wildland firefighters: Formerly Incarcerated Firefighter Certification and Employment Program."
+  },
+  "id": "AB2483",
+  "log": {
+    "action": {
+      "classifications": [
+        "reading-1",
+        "reading-2",
+        "reading-3"
+      ],
+      "description": "Read second time. Ordered to third reading.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-13",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2483"
+        }
+      ]
+    },
+    "bill_id": "AB2483"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2483/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2483/logs/20260813T000000Z_read_second_time_ordered_to_third_reading.json"
+  },
+  "timestamp": "20260813T000000Z"
+}

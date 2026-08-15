@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10103",
+    "legislative_session": "119",
+    "title": "To direct the Secretary of Housing and Urban Development to establish a grant program to award grants to units of general local government to establish or expand eviction diversion programs, and for other purposes."
+  },
+  "id": "HR 10103",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Financial Services.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-13T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10103.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10103"
+        }
+      ]
+    },
+    "bill_id": "HR 10103"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10103/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10103/logs/20260813T040000Z_referred_to_the_house_committee_on_financial_services.json"
+  },
+  "timestamp": "20260813T040000Z"
+}
