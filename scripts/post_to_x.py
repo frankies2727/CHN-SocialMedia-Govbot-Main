@@ -52,7 +52,7 @@ from post_to_bluesky import (
 )
 
 # GitHub Actions pipes stdout, so Python block-buffers it. When a run is killed
-# mid-step (the 60-minute job cap), everything still sitting in that buffer is
+# mid-step (the Actions job cap), everything still sitting in that buffer is
 # lost: one cancelled run left 43 minutes of progress output unflushed and only
 # a single stderr line to debug from. Line-buffer so the log always shows where
 # a long run actually is. Done at import time so the credential banner below is
@@ -71,21 +71,25 @@ MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "32"))
 DRY_RUN = os.environ.get("DRY_RUN") == "1"
 
 # --- Run budget -------------------------------------------------------------
-# The workflow job that runs this script has a hard 60-minute Actions timeout,
-# and a single bill can legitimately spend a very long time in the local CPU
-# model: the relevance gate (RELEVANCE_GATE_TIMEOUT, 480s) plus up to three
-# post-copy attempts that can each make two calls (420+420, 180+180, 180+180 =
-# 1560s) — ~34 minutes for one bill. Those are sane *per-call* ceilings but a
-# ruinous *per-bill* one inside an hour-long job, and nothing bounded the run as
-# a whole. A cancelled run showed the failure mode end to end: two bills tweeted,
-# the third's tweet dropped by a transient connection reset, the loop moved on to
-# another reserve candidate, and Actions killed the job mid-summary — taking the
-# un-run "Commit X state changes" step, and with it the dedup record of the two
-# tweets that were already live, so they'd have been posted again next run.
+# Every workflow that runs this script has a hard Actions job timeout, and a
+# single bill can legitimately spend a very long time in the local CPU model:
+# the relevance gate (RELEVANCE_GATE_TIMEOUT, 480s) plus up to three post-copy
+# attempts that can each make two calls (420+420, 180+180, 180+180 = 1560s) —
+# ~34 minutes for one bill. Those are sane *per-call* ceilings but a ruinous
+# *per-bill* one, and nothing bounded the run as a whole. A cancelled run showed
+# the failure mode end to end: two bills tweeted, the third's tweet dropped by a
+# transient connection reset, the loop moved on to another reserve candidate,
+# and Actions killed the job mid-summary — taking the un-run "Commit X state
+# changes" step, and with it the dedup record of the two tweets that were
+# already live, so they'd have been posted again next run.
 #
 # The deadline lets the run land inside the job budget on its own terms: it stops
 # starting new bills once the budget is spent and falls through to the normal
 # state-save/exit path, so posted work is always recorded.
+#
+# The default suits the 60-minute single-bill workflows. The scheduled poster
+# gives itself a bigger job cap and sets POST_DEADLINE_MINUTES to match — keep
+# this under the job's timeout-minutes, with room for the state-commit step.
 POST_DEADLINE_SECONDS = int(os.environ.get("POST_DEADLINE_MINUTES", "40")) * 60
 _RUN_START = time.monotonic()
 
@@ -455,8 +459,8 @@ def compose_x_thread(b: dict, summary: str, headline: str = "") -> tuple[str, st
 def build_client() -> tweepy.Client:
     # wait_on_rate_limit is deliberately OFF. X's posting caps reset on a
     # 15-minute or 24-hour window, and tweepy implements the wait as a blocking
-    # sleep until the reset — inside a 60-minute job that means sleeping the job
-    # out and being cancelled with the run's state unwritten. A 429 is handled
+    # sleep until the reset — inside a time-capped job that means sleeping the
+    # job out and being cancelled with the state unwritten. A 429 is handled
     # explicitly instead (see post_tweet): stop the run, keep what we posted.
     return tweepy.Client(
         consumer_key=X_API_KEY,

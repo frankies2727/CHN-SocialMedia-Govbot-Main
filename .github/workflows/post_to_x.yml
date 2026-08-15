@@ -111,16 +111,26 @@ jobs:
     needs: prepare
     runs-on: ubuntu-latest
     # No govbot clone here (the corpus is downloaded), so this is just Ollama
-    # setup (~2 min) + posting. The posting script enforces its own 40-minute
-    # budget (POST_DEADLINE_MINUTES) and exits cleanly when it's spent, so this
-    # job cap is a backstop rather than the thing that ends a slow run — which
-    # is what it had become: a cancel here skips the state commit below.
-    timeout-minutes: 60
+    # setup (~5 min) + posting. Matched to prepare's 120 so a slow run has room:
+    # on the free runner's CPU model a single bill can spend tens of minutes
+    # between the relevance gate and the summary, and three of them no longer
+    # have to fit in an hour.
+    #
+    # This cap is a backstop, not the thing that ends a slow run. The script
+    # enforces POST_DEADLINE_MINUTES below and exits cleanly through its own
+    # save path when that is spent; being cancelled here instead skips the
+    # state commit, which is what turned one slow run into unrecorded tweets.
+    timeout-minutes: 120
     env:
       LLM_MODEL: "gemma3:4b"
       BOT_TOPIC: "ai_data_centers"
       POST_LIMIT: "3"
       DRY_RUN: "0"
+      # Kept well under the 120-minute job cap above: setup burns ~5 min before
+      # the script starts, and the commit step still has to run after it. The
+      # script's own default is deliberately lower (it also serves the 60-minute
+      # single-bill workflows), so the budget that goes with this cap is set here.
+      POST_DEADLINE_MINUTES: "90"
     steps:
       - name: Free disk space
         # The Ollama LLM (~3.3 GB) plus the full bill corpus in RAM need the
