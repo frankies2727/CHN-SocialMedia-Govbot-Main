@@ -18,6 +18,7 @@ from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
+import requests
 import tweepy
 import time
 
@@ -50,6 +51,15 @@ from post_to_bluesky import (
     CONT_PREFIX,
 )
 
+# GitHub Actions pipes stdout, so Python block-buffers it. When a run is killed
+# mid-step (the 60-minute job cap), everything still sitting in that buffer is
+# lost: one cancelled run left 43 minutes of progress output unflushed and only
+# a single stderr line to debug from. Line-buffer so the log always shows where
+# a long run actually is. Done at import time so the credential banner below is
+# covered too, and in the script rather than the workflow so every caller of
+# post_to_x.py gets it.
+sys.stdout.reconfigure(line_buffering=True)
+
 ROOT = Path(__file__).resolve().parent.parent
 JSONL_PATH = ROOT / "bills.jsonl"
 
@@ -59,6 +69,79 @@ STATE_FILE = TOPIC.x_state_file_path()
 POST_LIMIT = int(os.environ.get("POST_LIMIT", "3"))
 MAX_ACTION_AGE_DAYS = int(os.environ.get("MAX_ACTION_AGE_DAYS", "32"))
 DRY_RUN = os.environ.get("DRY_RUN") == "1"
+
+# --- Run budget -------------------------------------------------------------
+# The workflow job that runs this script has a hard 60-minute Actions timeout,
+# and a single bill can legitimately spend a very long time in the local CPU
+# model: the relevance gate (RELEVANCE_GATE_TIMEOUT, 480s) plus up to three
+# post-copy attempts that can each make two calls (420+420, 180+180, 180+180 =
+# 1560s) — ~34 minutes for one bill. Those are sane *per-call* ceilings but a
+# ruinous *per-bill* one inside an hour-long job, and nothing bounded the run as
+# a whole. A cancelled run showed the failure mode end to end: two bills tweeted,
+# the third's tweet dropped by a transient connection reset, the loop moved on to
+# another reserve candidate, and Actions killed the job mid-summary — taking the
+# un-run "Commit X state changes" step, and with it the dedup record of the two
+# tweets that were already live, so they'd have been posted again next run.
+#
+# The deadline lets the run land inside the job budget on its own terms: it stops
+# starting new bills once the budget is spent and falls through to the normal
+# state-save/exit path, so posted work is always recorded.
+POST_DEADLINE_SECONDS = int(os.environ.get("POST_DEADLINE_MINUTES", "40")) * 60
+_RUN_START = time.monotonic()
+
+# Below this there isn't enough time left for an LLM call to realistically
+# finish on the CPU model — we'd pay the wait and still take the fallback.
+MIN_LLM_BUDGET = 45
+
+# Ceilings as configured, captured before any clamping so _apply_llm_budget can
+# always re-derive from the intended value rather than from a previous clamp.
+_LLM_TIMEOUT_DEFAULT = pb.LLM_TIMEOUT
+_LLM_RETRY_TIMEOUT_DEFAULT = pb.LLM_RETRY_TIMEOUT
+_RELEVANCE_GATE_TIMEOUT_DEFAULT = pb.RELEVANCE_GATE_TIMEOUT
+
+# How many extra candidates the run may fall through to when the relevance gate
+# skips a pick or a tweet fails. The reserve used to be the entire remaining
+# candidate pool (weighted_draw(..., 10**9)), and every fall-through costs a
+# fresh relevance-gate + post-copy round on the CPU model — so a run where
+# posting was broken would walk the whole pool through the model until Actions
+# killed it. A handful covers real gate skips; beyond that it's a systemic
+# failure the next scheduled run should pick up, not something to burn an hour on.
+RESERVE_LIMIT = int(os.environ.get("RESERVE_LIMIT", "8"))
+
+# Give up after this many failed tweets in a run. Distinct from the reserve cap:
+# repeated failures mean X is refusing us (bad credentials, suspended app), and
+# composing more posts just wastes the remaining budget.
+MAX_TWEET_FAILURES = int(os.environ.get("MAX_TWEET_FAILURES", "3"))
+
+# create_tweet retries for transient transport faults (see _create_tweet).
+TWEET_ATTEMPTS = int(os.environ.get("TWEET_ATTEMPTS", "3"))
+TWEET_RETRY_BACKOFF = int(os.environ.get("TWEET_RETRY_BACKOFF", "5"))
+
+
+def _seconds_left() -> float:
+    """Wall-clock seconds remaining in this run's self-imposed budget."""
+    return POST_DEADLINE_SECONDS - (time.monotonic() - _RUN_START)
+
+
+def _apply_llm_budget() -> bool:
+    """Clamp the shared LLM ceilings to the time actually left in this run.
+
+    post_to_bluesky's timeouts are module globals read at call time, so lowering
+    them here bounds every model call the rest of this run makes — the same hook
+    __main__ already uses for POST_COPY_MAX_CHARS. Re-clamping before each stage
+    means a run that is already late asks for less, takes the deterministic
+    fallback copy sooner, and still exits through the normal save path instead of
+    being cancelled with its state unwritten.
+
+    Returns False when too little time is left to be worth starting."""
+    left = _seconds_left()
+    if left < MIN_LLM_BUDGET:
+        return False
+    pb.LLM_TIMEOUT = int(min(_LLM_TIMEOUT_DEFAULT, left))
+    pb.LLM_RETRY_TIMEOUT = int(min(_LLM_RETRY_TIMEOUT_DEFAULT, left))
+    pb.RELEVANCE_GATE_TIMEOUT = int(min(_RELEVANCE_GATE_TIMEOUT_DEFAULT, left))
+    return True
+
 
 # Persistence knobs, independent of DRY_RUN. Default both ON so existing
 # schedules keep their dedup guarantees and raw-artifact trail. The
@@ -370,13 +453,74 @@ def compose_x_thread(b: dict, summary: str, headline: str = "") -> tuple[str, st
 # ---------------------------------------------------------------------------
 
 def build_client() -> tweepy.Client:
+    # wait_on_rate_limit is deliberately OFF. X's posting caps reset on a
+    # 15-minute or 24-hour window, and tweepy implements the wait as a blocking
+    # sleep until the reset — inside a 60-minute job that means sleeping the job
+    # out and being cancelled with the run's state unwritten. A 429 is handled
+    # explicitly instead (see post_tweet): stop the run, keep what we posted.
     return tweepy.Client(
         consumer_key=X_API_KEY,
         consumer_secret=X_API_SECRET,
         access_token=X_ACCESS_TOKEN,
         access_token_secret=X_ACCESS_TOKEN_SECRET,
-        wait_on_rate_limit=True,
+        wait_on_rate_limit=False,
     )
+
+
+class RateLimited(Exception):
+    """X refused the post because the account is over its posting cap."""
+
+
+class AlreadyPosted(Exception):
+    """A retried create_tweet came back as duplicate content, which means our
+    own earlier attempt did reach X — the connection dropped after the post was
+    accepted, losing only the response. The tweet is live; its ID is not."""
+
+
+# Transient transport faults, not refusals: the X edge closing a keep-alive
+# connection, a read timeout, a truncated response. A composed tweet was lost to
+# exactly one of these ("Connection aborted." / RemoteDisconnected) — and because
+# a failed tweet falls through to the next reserve candidate, that blip cost a
+# whole extra round of CPU-model work on top of the dropped post.
+_TRANSIENT_TWEET_ERRORS = (
+    requests.exceptions.ConnectionError,
+    requests.exceptions.Timeout,
+    requests.exceptions.ChunkedEncodingError,
+)
+
+# X's wording for a create_tweet refused because the same text is already up:
+# "You are not allowed to create a Tweet with duplicate content."
+_DUPLICATE_MARKERS = ("duplicate content", "duplicate tweet")
+
+
+def _create_tweet(client: tweepy.Client, **kwargs):
+    """client.create_tweet with bounded retries on transient transport faults.
+
+    Only transport-level errors are retried — an HTTP refusal from X (429/401/
+    403) is a verdict, not a blip, and is left to the caller.
+
+    Retrying a send is not automatically safe: RemoteDisconnected means the
+    response was lost, not that the request was. If the first attempt actually
+    landed, the retry is refused as duplicate content, and that refusal is the
+    proof — it's raised as AlreadyPosted so the caller records the bill as
+    posted instead of dropping it and re-posting on the next run."""
+    last_exc: Exception | None = None
+    for attempt in range(1, TWEET_ATTEMPTS + 1):
+        try:
+            return client.create_tweet(**kwargs)
+        except tweepy.Forbidden as e:
+            if attempt > 1 and any(m in str(e).lower() for m in _DUPLICATE_MARKERS):
+                raise AlreadyPosted(str(e)) from e
+            raise
+        except _TRANSIENT_TWEET_ERRORS as e:
+            last_exc = e
+            if attempt < TWEET_ATTEMPTS:
+                wait = TWEET_RETRY_BACKOFF * attempt
+                print(f"  ! transient X transport error ({e}); "
+                      f"retrying in {wait}s ({attempt}/{TWEET_ATTEMPTS - 1})",
+                      file=sys.stderr)
+                time.sleep(wait)
+    raise last_exc
 
 
 def post_tweet(client: tweepy.Client | None, text: str, reply_text: str = "",
@@ -386,7 +530,10 @@ def post_tweet(client: tweepy.Client | None, text: str, reply_text: str = "",
     action line, and the bill URL. Returns True iff the main tweet was posted —
     a failed reply is logged but does not flip the result, so the bill is still
     recorded as posted and only the 2nd post is missing from the thread (better
-    than re-posting the whole bill on the next run)."""
+    than re-posting the whole bill on the next run).
+
+    Raises RateLimited when X reports the account is over its posting cap, so
+    the caller can end the run instead of composing posts that cannot be sent."""
     if DRY_RUN or client is None:
         print(f"  [DRY RUN] skipping tweet ({x_weighted_len(text)} weighted chars)")
         if reply_text:
@@ -394,12 +541,26 @@ def post_tweet(client: tweepy.Client | None, text: str, reply_text: str = "",
                   f"({x_weighted_len(reply_text)} weighted chars)")
         return True
     try:
-        resp = client.create_tweet(text=text)
+        resp = _create_tweet(client, text=text)
         tweet_id = resp.data["id"]
         post_url = f"https://x.com/i/web/status/{tweet_id}"
         print(f"  posted: {post_url}")
         if record is not None:
             _stash_posted(record, post_url=post_url)
+    except AlreadyPosted:
+        # The tweet is live but its ID died with the dropped connection, so
+        # there's nothing to reply to and no permalink to stash. Reporting
+        # success is what keeps the bill in the state file — the alternative
+        # is tweeting it a second time on the next run.
+        print("  posted (recovered): a dropped connection hid the response; "
+              "X refused the retry as duplicate content, so the original is "
+              "live. No permalink or self-reply for this one.")
+        return True
+    except tweepy.TooManyRequests as e:
+        # Not retryable within this job: the cap resets on a 15-minute or
+        # 24-hour window. Bubble up so the run stops and saves.
+        print(f" ! X rate limit reached: {e}", file=sys.stderr)
+        raise RateLimited(str(e)) from e
     except Exception as e:
         print(f" ! tweet failed: {e}", file=sys.stderr)
         if hasattr(e, 'response') and e.response is not None:
@@ -407,7 +568,8 @@ def post_tweet(client: tweepy.Client | None, text: str, reply_text: str = "",
         return False
     if reply_text:
         try:
-            reply = client.create_tweet(text=reply_text, in_reply_to_tweet_id=tweet_id)
+            reply = _create_tweet(client, text=reply_text,
+                                  in_reply_to_tweet_id=tweet_id)
             reply_id = reply.data["id"]
             print(f"  ↳ reply: https://x.com/i/web/status/{reply_id}")
         except Exception as e:
@@ -496,7 +658,11 @@ def _post_forced_bill(records: list[dict], client: tweepy.Client | None) -> int:
         print(post2)
     print("---")
 
-    if not post_tweet(client, post1, reply_text=post2, record=b):
+    try:
+        if not post_tweet(client, post1, reply_text=post2, record=b):
+            return 1
+    except RateLimited:
+        print("  X is over its posting cap — nothing was posted.", file=sys.stderr)
         return 1
 
     if SAVE_RAW:
@@ -693,9 +859,15 @@ def main() -> int:
     # bill the relevance gate skips is replaced by the next best candidate rather
     # than shrinking the run. to_post stays first (it carries the bucket-balanced,
     # state-spread picks); the reserve only fills slots the gate frees up.
+    # Capped at RESERVE_LIMIT: each fall-through costs a full relevance-gate +
+    # post-copy round on the CPU model, so an unbounded reserve turns a broken
+    # posting path into an hour of model work and a cancelled job.
     picked_ids = {b["dedup_key"] for b in to_post}
-    reserve = weighted_draw([b for b in descriptive if b["dedup_key"] not in picked_ids], 10**9)
-    reserve += weighted_draw([b for b in stubs if b["dedup_key"] not in picked_ids], 10**9)
+    reserve = weighted_draw(
+        [b for b in descriptive if b["dedup_key"] not in picked_ids], RESERVE_LIMIT)
+    reserve += weighted_draw(
+        [b for b in stubs if b["dedup_key"] not in picked_ids],
+        max(0, RESERVE_LIMIT - len(reserve)))
     ordered = to_post + reserve
 
     distinct_states = len({b["state"] or "?" for b in to_post})
@@ -705,9 +877,28 @@ def main() -> int:
 
     client = None if DRY_RUN else build_client()
 
+    def _persist() -> None:
+        """Write the state file as it stands right now.
+
+        Called after every successful tweet, not just at the end of the run: a
+        tweet is live on X the moment it returns, and if the job dies before the
+        state file is written that bill loses its dedup record and gets posted a
+        second time on the next run. Saving as we go makes a timeout or crash
+        cost at most the run's remaining posts, never a duplicate."""
+        state["posted"] = sorted(seen)
+        state["state_last_posted"] = last_posted
+        state["last_run"] = datetime.now(timezone.utc).isoformat()
+        save_state(state)
+
     posted = 0
+    failures = 0
     for b in ordered:
         if posted >= POST_LIMIT:
+            break
+        if not _apply_llm_budget():
+            print(f"  ⏱ run budget spent ({POST_DEADLINE_SECONDS // 60} min) — "
+                  f"stopping after {posted} post(s); the remaining candidates "
+                  f"stay unposted and are picked up by the next run.")
             break
         ensure_english_fields(b)
         # Relevance gate: confirm the bill is genuinely on-topic before tweeting
@@ -717,6 +908,12 @@ def main() -> int:
             print(f"  ⤫ relevance gate: off-topic for '{TOPIC.name}', "
                   f"skipping {b['state'] or '?'} {b['identifier']}")
             continue
+        # Re-clamp: the gate above may have eaten a chunk of the budget, and the
+        # copy call is the expensive half (up to three attempts of two calls).
+        if not _apply_llm_budget():
+            print(f"  ⏱ run budget spent ({POST_DEADLINE_SECONDS // 60} min) — "
+                  f"stopping after {posted} post(s).")
+            break
         headline = shorten_title(b)
         # Fuller summary as a 2-post thread: post 1 = headline + summary lead;
         # self-reply = summary continuation + action line + bill URL.
@@ -731,7 +928,15 @@ def main() -> int:
             print(post2)
         print("---")
 
-        if post_tweet(client, post1, reply_text=post2, record=b):
+        try:
+            sent = post_tweet(client, post1, reply_text=post2, record=b)
+        except RateLimited:
+            print("  ⏹ X posting cap reached — ending the run with "
+                  f"{posted} post(s); the rest wait for the next run.",
+                  file=sys.stderr)
+            break
+
+        if sent:
             posted += 1
             if SAVE_STATE:
                 seen.add(b["dedup_key"])
@@ -742,6 +947,8 @@ def main() -> int:
                 seen.add(b["same_day_key"])
                 seen.update(same_day_siblings.get(b["same_day_key"], ()))
                 last_posted[b["state"] or "?"] = now.isoformat()
+                # Checkpoint immediately: the tweet is already live.
+                _persist()
             if SAVE_RAW:
                 try:
                     save_raw_record(b)
@@ -750,16 +957,23 @@ def main() -> int:
                     print(f"  ! raw-record save failed: {e}", file=sys.stderr)
 
             # ←←← THIS IS THE FIX FOR THE 403 "You are not permitted" error
-            time.sleep(27)   # X is very picky about rapid successive posts
+            if posted < POST_LIMIT:
+                time.sleep(27)   # X is very picky about rapid successive posts
+        else:
+            failures += 1
+            if failures >= MAX_TWEET_FAILURES:
+                print(f"  ⏹ {failures} tweet failures — X is refusing this "
+                      f"account; ending the run with {posted} post(s) rather "
+                      f"than composing posts that can't be sent.", file=sys.stderr)
+                break
 
     if not SAVE_RAW:
         print("  SAVE_RAW=0 — bills_raw artifacts not written.")
 
     if SAVE_STATE:
-        state["posted"] = sorted(seen)
-        state["state_last_posted"] = last_posted
-        state["last_run"] = datetime.now(timezone.utc).isoformat()
-        save_state(state)
+        # Always write once more, even when every post checkpointed already —
+        # this is what records last_run on a run that posted nothing.
+        _persist()
         print(f"\nDone. Posted {posted} update(s). State saved to "
               f"{STATE_FILE.relative_to(ROOT)}.")
     else:

@@ -111,7 +111,10 @@ jobs:
     needs: prepare
     runs-on: ubuntu-latest
     # No govbot clone here (the corpus is downloaded), so this is just Ollama
-    # setup (~2 min) + posting. 60 min is ample headroom.
+    # setup (~2 min) + posting. The posting script enforces its own 40-minute
+    # budget (POST_DEADLINE_MINUTES) and exits cleanly when it's spent, so this
+    # job cap is a backstop rather than the thing that ends a slow run — which
+    # is what it had become: a cancel here skips the state commit below.
     timeout-minutes: 60
     env:
       LLM_MODEL: "gemma3:4b"
@@ -260,7 +263,12 @@ jobs:
         run: python scripts/post_to_x.py
 
       - name: Commit X state changes
-        if: env.DRY_RUN != '1'
+        # always(), so this runs even when the posting step failed or was
+        # cancelled. Tweets go live one at a time and post_to_x.py checkpoints
+        # its state file after each one, so a run that dies partway still has
+        # real posts to record. Skipping the commit there is what turns a
+        # timeout into duplicate tweets on the next run.
+        if: ${{ always() && env.DRY_RUN != '1' }}
         run: |
           git config user.name  "govbot-x[bot]"
           git config user.email "govbot-x[bot]@users.noreply.github.com"
