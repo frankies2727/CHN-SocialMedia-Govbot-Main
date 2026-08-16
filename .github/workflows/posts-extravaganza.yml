@@ -89,6 +89,13 @@ jobs:
 
     env:
       LLM_MODEL: "gemma3:4b"
+      # Wall-clock budget for the script, well under this job's 60-minute cap.
+      # Per-call LLM ceilings are 27 min, so one stuck bill could otherwise
+      # want 108 min and get the job cancelled. Set low because this workflow
+      # loops several bills after its own clone, and its
+      # setup runs in the same job — so the clock is already part-spent when
+      # the script starts.
+      RUN_DEADLINE_MINUTES: "30"
       # The X feed is a single account (one set of X_* secrets) dedicated to one
       # topic, so the `topic` input is ignored for X and BOT_TOPIC is pinned
       # here instead. Mirrors weekly-digest-x.yml. Change if the X bot is ever

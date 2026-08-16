@@ -69,6 +69,13 @@ jobs:
     timeout-minutes: 60
     env:
       LLM_MODEL: "gemma3:4b"
+      # Wall-clock budget for the script, well under this job's 60-minute cap.
+      # Per-call LLM ceilings are 27 min, so one stuck bill could otherwise
+      # want 108 min and get the job cancelled. Set low because this workflow
+      # posts ONE forced bill, which normally needs under a minute of model time, and its
+      # setup runs in the same job — so the clock is already part-spent when
+      # the script starts.
+      RUN_DEADLINE_MINUTES: "20"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
