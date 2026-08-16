@@ -40,6 +40,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+from functools import lru_cache
 from pathlib import Path
 
 import requests
@@ -411,7 +412,19 @@ _FRONT_MATTER_RE = re.compile(
     r"|^\s*INTRODUCED\s+BY\b.*$"
     # Maryland / general first-reading masthead lines.
     r"|^\s*Introduced\s+and\s+read\s+first\s+time\b.*$"
-    r"|^\s*Assigned\s+to:\s*.*$",
+    r"|^\s*Assigned\s+to:\s*.*$"
+    # Delaware-style cover sheet: "SPONSOR: Sen. Mantzavinos / DELAWARE STATE
+    # SENATE / 153rd GENERAL ASSEMBLY / SENATE AMENDMENT NO. 1 / TO / SENATE
+    # SUBSTITUTE NO. 1 / FOR / SENATE BILL NO. 16". Each line is short and
+    # ALL-CAPS but none repeats, so the running-banner rule never sees them.
+    r"|^\s*SPONSORS?:\s*.*$"
+    r"|^\s*\d+(?:st|nd|rd|th)\s+GENERAL\s+ASSEMBLY\s*$"
+    r"|^\s*(?:HOUSE|SENATE)\s+(?:BILL|AMENDMENT|SUBSTITUTE|RESOLUTION)"
+    r"\s+NO\.\s*\d+\s*$"
+    # "DELAWARE STATE SENATE" and the bare "TO" / "FOR" connectors that sit
+    # between the cover sheet's stacked bill-number lines.
+    r"|^\s*[A-Z][A-Z ]{2,30}\s(?:STATE\s+)?(?:SENATE|HOUSE\s+OF\s+REPRESENTATIVES)\s*$"
+    r"|^\s*(?:TO|FOR)\s*$",
     re.IGNORECASE,
 )
 
@@ -453,7 +466,12 @@ _SPONSOR_FRONTMATTER_RE = re.compile(
 # by the chrome signature and an anchor match, so a bill with no chrome — or one
 # whose body start can't be located — is returned untouched rather than cut.
 _WEB_CHROME_SIG_RE = re.compile(
-    r"skip to (?:main )?content|skip to footer|Quick Search\s*:", re.IGNORECASE
+    # "menu Home …" is Alaska's (akleg.gov) nav bar, which carries no
+    # skip-to-content link: "Alaska State Legislature The Alaska State
+    # Legislature menu Home Senate Current Members Past Members …".
+    r"skip to (?:main )?content|skip to footer|Quick Search\s*:"
+    r"|\bmenu\s+Home\b",
+    re.IGNORECASE,
 )
 _CA_DOCUMENT_MARKER_RE = re.compile(r"#DOCUMENT\s*(?:Bill\s*Start\s*)?", re.IGNORECASE)
 # Universal "the bill body starts here" anchors, kept in the output (cut BEFORE
@@ -464,7 +482,10 @@ _BILL_BODY_ANCHOR_RE = re.compile(
     r"|\bThe\s+people\s+of\s+the\s+State\s+of\b"
     r"|\bCALIFORNIA\s+LEGISLATURE\b"
     r"|\b(?:House|Senate|Assembly)\s+(?:Bill|Resolution|Joint\s+Resolution|"
-    r"Concurrent\s+Resolution)\s+No\.",
+    r"Concurrent\s+Resolution)\s+No\."
+    # Alaska's bill-detail heading, which follows its nav bar and opens the
+    # bill's own title: "Enrolled HB 10: Relating to the Board of Regents …".
+    r"|\b(?:Enrolled|Engrossed|Introduced)\s+[A-Z]{2,4}\s?\d+:\s",
     re.IGNORECASE,
 )
 
@@ -490,6 +511,182 @@ def _strip_web_chrome(text: str) -> str:
     return text
 
 
+# ---------------------------------------------------------------------------
+# Document front matter (masthead / publisher metadata)
+# ---------------------------------------------------------------------------
+# Distinct from website chrome above: this is junk inside the *document* itself.
+# Nearly every legislature prints a masthead before the bill — chamber name,
+# bill number, sponsor list, printer's numbers, amendment stamps — and some
+# publishers prepend their own metadata block. Fed that verbatim, a small model
+# summarizes the masthead; worse, when the model call fails the deterministic
+# excerpt fallback quotes it straight into the post. Three real examples from
+# one weekly-digest run, each posted verbatim:
+#
+#   US HR 3633  "HR 3633 EH: … U.S. House of Representatives / text/xml / EN /
+#               Pursuant to Title 17 Section 105 of the United States Code, this
+#               file is not subject to copyright protection …"
+#   IL SB2981   "Full Text of SB2981 Illinois General Assembly ILGA.GOV …
+#               Introduced 1/27/2026, by Sen. Graciela Guzmán SYNOPSIS AS
+#               INTRODUCED:"
+#   CA AB2575   "Amended IN Senate June 18, 2026 Amended IN Senate June 11, 2026
+#               … CALIFORNIA LEGISLATURE— … Assembly Bill No. 2575Introduced by
+#               Assembly Member Ortega February 20, 2026"
+#
+# Rather than a rule per legislature, cut forward to where the bill's own
+# purpose demonstrably begins — the enacting clause or long title, phrases a
+# masthead never contains. Two guards keep this from ever eating real text:
+# the anchor must appear within _FRONTMATTER_MAX_SCAN of the top, and the span
+# being dropped must actually look like a masthead (see _looks_like_masthead),
+# so a bill whose body merely opens with one of these phrases is left alone.
+# Anchors are written with a (?<![A-Za-z]) lookbehind rather than \b, and
+# without a trailing \b, because PDF and XML extraction routinely glues the
+# masthead straight onto the anchor with no space: "…January 21, 2026An act to
+# add Chapter 13.6…" (CA SB903) and "…jurisdiction of the committee concernedA
+# BILLTo amend the Internal Revenue Code…" (US HR 10102). A \b on either side
+# fails on both — "6A" and "LLTo" carry no word boundary — which is exactly how
+# those two bills kept their mastheads while their siblings were cleaned.
+# Each entry is (pattern, keep_anchor): keep when the anchor reads as the start
+# of the sentence ("AN ACT To provide…", "A bill for an act relating to…"),
+# drop when it is a bare section label ("SYNOPSIS AS INTRODUCED:").
+_FRONTMATTER_ANCHORS = (
+    (re.compile(r"(?<![A-Za-z])AN\s+ACT", re.IGNORECASE), True),
+    (re.compile(r"(?<![A-Za-z])A\s+BILL\s+ENTITLED", re.IGNORECASE), True),
+    (re.compile(r"(?<![A-Za-z])A\s+BILL(?=\s*(?:TO|FOR)\b)", re.IGNORECASE), True),
+    (re.compile(r"(?<![A-Za-z])BE\s+IT\s+ENACTED", re.IGNORECASE), True),
+    # Section labels: the useful prose is what follows, so drop the label.
+    (re.compile(r"(?<![A-Za-z])SYNOPSIS(?:\s+AS\s+INTRODUCED)?:\s*", re.IGNORECASE), False),
+    # A federal bill that has not passed a chamber carries no "AN ACT"/"A BILL";
+    # its long title is a "To <verb> …" clause right after the bill number
+    # ("119TH CONGRESS / 2D SESSION / H. R. 9629 / To require an assessment…").
+    # Drop everything through the number so the text opens on that clause.
+    # The lookahead is case-SENSITIVE: a long title always opens with a capital
+    # "To …". Under IGNORECASE it also matched the lowercase "to" inside "To
+    # amend the Internal Revenue Code of 1986 to establish …", cutting the
+    # sentence in half and opening the post mid-clause. The referral line is
+    # bounded too, so a glued masthead can't run away with the match.
+    (re.compile(
+        r"(?:H\.\s?R\.|S\.|H\.\s?J\.\s?RES\.|S\.\s?J\.\s?RES\.)\s*\d+\s*"
+        r"(?:IN THE (?:HOUSE OF REPRESENTATIVES|SENATE)[^\n]{0,120})?\s*(?=(?-i:To)\s+[a-z])",
+        re.IGNORECASE), False),
+)
+
+# Extraction glues a masthead's last word straight onto the enacting phrase
+# ("…jurisdiction of the committee concernedA BILLTo amend…"), which defeats the
+# (?<![A-Za-z]) guard on every anchor above. Break the seam first so the anchors
+# see a real boundary. Runs after _US_BILL_GLUE_RE has split "A BILLTo".
+_GLUED_ANCHOR_RE = re.compile(r"(?<=[a-z])(?=(?:A\s+BILL|AN\s+ACT))")
+
+# Enacting-clause boilerplate. Every bill has one and none of them say anything
+# about the bill, but when the model call fails the excerpt fallback quotes
+# whatever leads the text — which is how a post opened "The People of the State
+# of New York, represented in Senate and Assembly, do enact as follows".
+# Bounded to the top of the document and to a short span so it can only match
+# the preamble itself, never a sentence of the bill.
+_ENACTING_CLAUSE_RE = re.compile(
+    r"^\s*(?:The\s+People\s+of\s+the\s+State\s+of|Be\s+it\s+enacted\s+by)"
+    r"[^.]{0,200}?do\s+enact\s+as\s+follows\s*:\s*",
+    re.IGNORECASE,
+)
+
+# The federal XML dump glues the enacting phrase to the long title, leaving
+# "A BILLTo amend …". Split it so the sentence reads normally once the masthead
+# above it is cut away.
+# No lookbehind and no trailing \b: the whole point is that both sides are glued
+# ("concernedA BILLTo amend"), so demanding a boundary on either side is exactly
+# what stops the rule from firing on the case it exists for.
+_US_BILL_GLUE_RE = re.compile(r"(A\s+BILL)(?=To\s+[a-z])")
+
+_FRONTMATTER_MAX_SCAN = 4000
+
+# Illinois opens its synopsis with a run of statute citations before any prose:
+# "New Act30 ILCS 105/5.1038 new    Creates the Climate Change Superfund Act."
+# They say nothing to a reader, and the sentence splitter downstream turns the
+# run into a stray "1038 new" leading the post. Drop the citations, keep the
+# prose. Anchored to the very start and required to begin with a citation, so
+# it can only ever trim this header.
+_IL_CITATION_RUN_RE = re.compile(
+    r"^(?=\s*(?:New\s+Act|\d+\s*ILCS))"
+    r"(?:\s*(?:New\s+Act|\d+\s*ILCS\s+[\d./A-Za-z-]+|new|rep\.|"
+    r"from\s+Ch\.\s*[\d.,\s-]*(?:par\.\s*[\d.,\s-]*)?))+\s*",
+    re.IGNORECASE,
+)
+
+
+# Phrases that occur only in a masthead or a publisher's metadata block, never
+# in the text of a bill. Their presence settles the question on its own — needed
+# because some front matter is itself wordy prose (the federal copyright notice
+# and the "Ms. Salinas introduced the following bill; which was referred to the
+# Committee on…" referral line together read like sentences, so the lowercase
+# ratio below cleared the bar and left US HR 10102's masthead in place).
+_DEFINITE_FRONTMATTER_RE = re.compile(
+    r"Pursuant to Title 17[,\s]+Section 105"
+    r"|introduced the following bill;\s*which was referred to"
+    r"|^text/xml\s*$"
+    r"|Full Text of\s+\S+\s+Illinois General Assembly"
+    r"|CALIFORNIA LEGISLATURE"
+    r"|Amended IN\s+(?:Senate|Assembly)",
+    re.IGNORECASE | re.MULTILINE,
+)
+
+
+def _looks_like_masthead(span: str) -> bool:
+    """True when ``span`` is masthead/metadata rather than the bill's own prose.
+
+    A masthead is dominated by capitalised chamber names, sponsor surnames, bill
+    numbers, dates and stamps; real bill text reads as sentences and so carries a
+    high proportion of lowercase words. Requiring this before cutting means a
+    bill that simply opens with an enacting clause keeps everything above it —
+    unless the span carries one of the give-away phrases above, which no bill
+    body contains."""
+    if _DEFINITE_FRONTMATTER_RE.search(span):
+        return True
+    words = span.split()
+    if not words:
+        return False
+    lower = sum(1 for w in words if w[:1].islower())
+    return (lower / len(words)) < 0.55
+
+
+def _strip_bill_frontmatter(text: str) -> str:
+    """Cut a leading masthead/publisher-metadata block, keeping the bill's own
+    purpose clause onward. Returns the input unchanged when no anchor is found
+    near the top or the span above it doesn't look like a masthead."""
+    if not text:
+        return text
+    cuts = []
+    for rx, keep_anchor in _FRONTMATTER_ANCHORS:
+        m = rx.search(text, 0, _FRONTMATTER_MAX_SCAN)
+        if m:
+            cuts.append(m.start() if keep_anchor else m.end())
+    if not cuts:
+        return text
+    best = min(cuts)
+    # A cut of 0 means the text already opens on the bill's purpose — there is no
+    # masthead left to remove. Returning here is what makes this idempotent, and
+    # idempotence is load-bearing: cached text is re-cleaned on every read, and
+    # bills whose body quotes a further "AN ACT" (Pennsylvania's "AN ACT /
+    # Amending the act of March 4, 1971 …, entitled "An act relating to …"") would
+    # otherwise be cut again at that inner phrase on each pass, walking the text
+    # forward and eating the bill a slice at a time.
+    if best == 0:
+        return text
+    if not _looks_like_masthead(text[:best]):
+        return text
+    return text[best:].lstrip()
+
+
+# California glues the "LEGISLATIVE COUNSEL'S DIGEST" section label and the
+# bill-citation line after it straight onto the previous sentence, so a summary
+# opened "…relating to health care services.LEGISLATIVE COUNSEL'S DIGESTAB 2575,
+# as amended, Ortega." Drop the label and that citation; the digest prose that
+# follows is the plain-English explainer worth keeping.
+_CA_COUNSEL_DIGEST_RE = re.compile(
+    r"LEGISLATIVE\s+COUNSEL'?S\s+DIGEST\s*"
+    r"(?:[A-Z]{1,3}\s?\d+,\s*as\s+(?:amended|introduced|added)[^.]*\.)?\s*",
+    re.IGNORECASE,
+)
+
+
 def clean_bill_text(text: str) -> str:
     """Strip per-line numbering, page headers/footers, and repeated ALL-CAPS
     banner lines from extracted bill text, then collapse runs of blank lines.
@@ -498,6 +695,12 @@ def clean_bill_text(text: str) -> str:
         return ""
 
     text = _strip_web_chrome(text)
+    text = _CA_COUNSEL_DIGEST_RE.sub(" ", text)
+    text = _US_BILL_GLUE_RE.sub(r"\1\n", text)
+    text = _GLUED_ANCHOR_RE.sub("\n", text)
+    text = _strip_bill_frontmatter(text)
+    text = _ENACTING_CLAUSE_RE.sub("", text, count=1)
+    text = _IL_CITATION_RUN_RE.sub("", text, count=1)
     text = text.replace("\f", "\n")
     text = _AMEND_ARROW_RE.sub(" ", text)
     # Minnesota redline markup — remove deleted spans whole, keep inserted text
@@ -565,6 +768,27 @@ def extract_bill_text(sources_bill: str, root: Path = ROOT) -> str | None:
     return text
 
 
+@lru_cache(maxsize=1)
+def _cleaner_fingerprint() -> str:
+    """Short hash of this module's source, used as the cache subdirectory.
+
+    The on-disk cache stores text that has ALREADY been cleaned, keyed on the
+    document URL alone — so it is content-addressed for the *document* but not
+    for the *cleaning code*. CI restores it from the newest previous run
+    (restore-keys: bill-text-cache-), so an entry written before a cleaning fix
+    kept serving its old dirty text to every later run, indefinitely: bills
+    cached with their site's navigation menu still in front of them went on
+    posting that menu long after the chrome stripper shipped, which is why
+    earlier post-quality fixes appeared to have no effect. Keying the cache on
+    the cleaning code's own hash retires exactly those entries whenever the
+    cleaning changes, with no version constant for anyone to remember to bump.
+    Falls back to a fixed name if the source can't be read."""
+    try:
+        return hashlib.sha256(Path(__file__).read_bytes()).hexdigest()[:12]
+    except OSError:
+        return "unknown"
+
+
 def extract_bill_text_verbose(sources_bill: str, root: Path = ROOT) -> tuple[str | None, str]:
     """Like ``extract_bill_text`` but also returns a short reason string so the
     caller can log why full text was or wasn't used. Reasons:
@@ -610,7 +834,7 @@ def extract_bill_text_verbose(sources_bill: str, root: Path = ROOT) -> tuple[str
         return _run_memo[url]
 
     cache_key = hashlib.sha256(url.encode("utf-8")).hexdigest()
-    cache_file = BILL_TEXT_CACHE_DIR / f"{cache_key}.txt"
+    cache_file = BILL_TEXT_CACHE_DIR / _cleaner_fingerprint() / f"{cache_key}.txt"
     if cache_file.is_file():
         try:
             cached = cache_file.read_text(encoding="utf-8")
@@ -656,7 +880,7 @@ def extract_bill_text_verbose(sources_bill: str, root: Path = ROOT) -> tuple[str
         return result
 
     try:
-        BILL_TEXT_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+        cache_file.parent.mkdir(parents=True, exist_ok=True)
         cache_file.write_text(text, encoding="utf-8")
     except OSError:
         pass

@@ -1954,6 +1954,21 @@ def _bill_purpose(*texts: str) -> str:
     return ""
 
 
+def _drop_unmatched_close(text: str) -> str:
+    """Trim a trailing ")" / "]" that has no opener in the text.
+
+    The purpose clause is cut out of the bill body, so it can start inside a
+    parenthesised heading and inherit only the closing half — US HR 10102's
+    fallback headline came out as "Tax on data center electricity consumption)".
+    A balanced pair is left alone."""
+    while text and text[-1] in ")]":
+        opener = "(" if text[-1] == ")" else "["
+        if text.count(opener) >= text.count(text[-1]):
+            break
+        text = text[:-1].rstrip(".!?,; ")
+    return text
+
+
 def _delegalese_headline(title: str, full_text: str = "") -> str:
     """A clean, plain-English headline derived deterministically from the bill —
     the safety net for when the model returns no usable headline. Prefers the
@@ -1974,7 +1989,7 @@ def _delegalese_headline(title: str, full_text: str = "") -> str:
     headline = _smart_case(purpose)
     if len(headline) > HEADLINE_MAX_LEN:
         headline = _smart_truncate(headline, HEADLINE_MAX_LEN)
-    return headline.rstrip(".!?,; ")
+    return _drop_unmatched_close(headline.rstrip(".!?,; "))
 
 
 # Acronyms kept uppercase when a fallback summary lowercases PA's shouting
