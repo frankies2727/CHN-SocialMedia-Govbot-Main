@@ -88,7 +88,7 @@ jobs:
     timeout-minutes: 60
 
     env:
-      LLM_MODEL: "gemma3:4b"
+      LLM_MODEL: "gemma3:12b"
       # The X feed is a single account (one set of X_* secrets) dedicated to one
       # topic, so the `topic` input is ignored for X and BOT_TOPIC is pinned
       # here instead. Mirrors weekly-digest-x.yml. Change if the X bot is ever
@@ -248,7 +248,7 @@ jobs:
           fi
           ollama list
           # Smoke-test the model, but DON'T pin it in memory (keep_alive:0 unloads
-          # it right after) — holding the 3.3GB model resident while the next step
+          # it right after) — holding the ~8GB model resident while the next step
           # loads the bill corpus into RAM can push the runner over its memory
           # limit. The first real summary reloads the model on demand.
           curl -fsS http://localhost:11434/api/generate \
