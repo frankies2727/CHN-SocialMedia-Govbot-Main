@@ -152,11 +152,15 @@ RELEVANCE_GATE_TIMEOUT = int(os.environ.get("RELEVANCE_GATE_TIMEOUT", "1620"))
 #
 # Everything the model handled well was under ~6k; everything over ~16k failed in
 # some way, and those failures ARE the bad posts — a model that returns empty or
-# garbled JSON falls through to the deterministic copy. Cap the window at
-# something a 4B model can actually use. _prepare_full_text_for_llm already puts
-# the operative section first, so the cap keeps the part that matters. Raise this
-# alongside any move to a larger model.
-POST_COPY_MAX_SOURCE_CHARS = int(os.environ.get("POST_COPY_MAX_SOURCE_CHARS", "6000"))
+# garbled JSON falls through to the deterministic copy.
+#
+# Set to 12,000: above the largest size that worked (5,681) and below the
+# smallest that failed (15,959). Nothing was measured in between, so this is the
+# untested middle of that gap, chosen deliberately to buy more context without
+# crossing a known failure point. If posts regress to definitions blurbs, raw
+# titles or citation soup, this is the first thing to put back to 6000. Raise it
+# further only alongside a larger model.
+POST_COPY_MAX_SOURCE_CHARS = int(os.environ.get("POST_COPY_MAX_SOURCE_CHARS", "12000"))
 
 
 # Section markers a bill uses to start a new provision. Preferred split points
