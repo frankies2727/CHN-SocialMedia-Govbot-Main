@@ -158,6 +158,106 @@ RELEVANCE_GATE_TIMEOUT = int(os.environ.get("RELEVANCE_GATE_TIMEOUT", "1620"))
 # alongside any move to a larger model.
 POST_COPY_MAX_SOURCE_CHARS = int(os.environ.get("POST_COPY_MAX_SOURCE_CHARS", "6000"))
 
+
+# Section markers a bill uses to start a new provision. Preferred split points
+# for _relevant_window, because a whole "Sec. 12. …" block is a self-contained
+# thought the model can summarize.
+_SECTION_SPLIT_RE = re.compile(r"(?=(?:Sec\.|SECTION|Section)\s+\d)")
+# A run of glossary entries — '"Advance" means …', '"Development area" means …'.
+_DEFINITION_RUN_RE = re.compile(r"[\"“][^\"”]{1,60}[\"”]\s+means\b", re.IGNORECASE)
+_SELECT_CHUNK_CHARS = 900
+
+
+def _segment_for_selection(text: str) -> list[str]:
+    """Cut bill text into passages worth scoring.
+
+    Splitting on blank lines does not work here: _clean_for_llm collapses the
+    body to a single line, so a 107,739-character bill arrives as ONE paragraph
+    and any blank-line split hands back the whole thing. Prefer the bill's own
+    "Sec. N." boundaries, and fall back to fixed windows cut at sentence ends."""
+    def _by_sentence(chunk: str) -> list[str]:
+        out, buf = [], ""
+        for sentence in re.split(r"(?<=[.;])\s+", chunk):
+            if buf and len(buf) + len(sentence) > _SELECT_CHUNK_CHARS:
+                out.append(buf.strip()); buf = ""
+            buf += sentence + " "
+        if buf.strip():
+            out.append(buf.strip())
+        return out
+
+    parts = [p for p in _SECTION_SPLIT_RE.split(text) if p.strip()]
+    if len(parts) <= 1:
+        return _by_sentence(text)
+    # A "Sec. N." block in a very long bill can itself be bigger than the whole
+    # budget — MI SB 1141's 107,739 characters split into just 7 sections, 5 of
+    # them oversized, so selection could only take or leave enormous blocks and
+    # left 1,200 characters of budget unspent. Sub-split those so the relevant
+    # provisions inside a huge section can be picked out.
+    segments: list[str] = []
+    for part in parts:
+        segments.extend(_by_sentence(part) if len(part) > _SELECT_CHUNK_CHARS * 2 else [part])
+    return segments
+
+
+def _relevant_window(text: str, budget: int, topic=None) -> str:
+    """Pick the ``budget`` characters of a long bill most worth showing the model.
+
+    Plain truncation is wrong for a long bill. MI SB 1141 is 107,739 characters
+    and opens on "Sec. 201. As used in this part: (a) 'Advance' means…", so the
+    first 6,000 characters are its glossary — the model was handed a dictionary
+    and asked what the bill does. The useful provisions sit thousands of
+    characters further in, and for a 100k bill they can sit anywhere.
+
+    So: always keep the opening (``_prepare_full_text_for_llm`` has already
+    lifted the bill's own plain-language explainer to the front when it has one,
+    and that is the single best thing to show), then spend the rest of the budget
+    on the paragraphs that actually mention the feed's subject, kept in document
+    order and separated by an ellipsis so the model can see the text is not
+    contiguous. Bills that fit the budget are returned untouched."""
+    text = text or ""
+    if len(text) <= budget:
+        return text
+    head_budget = min(budget // 3, 2000)
+    # …unless the opening is a definitions section, in which case keeping 2,000
+    # characters of it spends a third of the budget on a glossary. MI SB 1141
+    # (107,739 chars) opens on "Sec. 201. As used in this part: (a) 'Advance'
+    # means…" and has no drafter's explainer to front-load, so the head-keep was
+    # handing the model a dictionary. Keep just enough to establish what the
+    # section is, and spend the rest on provisions that say something.
+    if len(_DEFINITION_RUN_RE.findall(text[:head_budget])) >= 3:
+        head_budget = 300
+    head, rest = text[:head_budget], text[head_budget:]
+    remaining = budget - len(head)
+
+    rx = getattr(topic, "_keyword_re", None) if topic is not None else None
+    paras = _segment_for_selection(rest)
+    if rx is None or not paras:
+        return text[:budget]
+
+    # Score by distinct keyword hits per paragraph, normalised for length so a
+    # sprawling section can't crowd out several tight, on-point ones.
+    scored = []
+    for i, para in enumerate(paras):
+        hits = len(set(m.group(0).lower() for m in rx.finditer(para)))
+        if hits:
+            scored.append((hits / (1 + len(para) / 1500), i, para))
+    if not scored:
+        return text[:budget]
+
+    scored.sort(reverse=True)
+    chosen, used = [], 0
+    for _, i, para in scored:
+        if used + len(para) > remaining:
+            continue
+        chosen.append((i, para))
+        used += len(para)
+        if used >= remaining * 0.9:
+            break
+    if not chosen:
+        return text[:budget]
+    chosen.sort()
+    return head + "\n\n… \n\n" + "\n\n… \n\n".join(p for _, p in chosen)
+
 RUN_DEADLINE_MINUTES = float(os.environ.get("RUN_DEADLINE_MINUTES", "0") or 0)
 _RUN_START = time.monotonic()
 # Below this there is no point starting a call — it cannot finish, and the wait
@@ -2254,6 +2354,9 @@ def _post_copy(b: dict) -> dict:
     # instead of a wall of the amended statute's own boilerplate.
     if full_text:
         body = _clean_for_llm(_prepare_full_text_for_llm(full_text))
+        # For a bill longer than the budget, choose WHICH part the model reads
+        # rather than just taking the first slice (see _relevant_window).
+        body = _relevant_window(body, POST_COPY_MAX_SOURCE_CHARS, TOPIC)
         char_cap = POST_COPY_MAX_SOURCE_CHARS
     else:
         source = abstract if abstract_usable else title
