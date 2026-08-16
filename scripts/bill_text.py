@@ -651,8 +651,11 @@ def _strip_amend_preamble(text: str) -> str:
 # prose. Anchored to the very start and required to begin with a citation, so
 # it can only ever trim this header.
 _IL_CITATION_RUN_RE = re.compile(
-    r"^(?=\s*(?:New\s+Act|\d+\s*ILCS))"
-    r"(?:\s*(?:New\s+Act|\d+\s*ILCS\s+[\d./A-Za-z-]+|new|rep\.|"
+    # Lookahead allows a bare leading "ILCS ..." too: extraction sometimes eats
+    # the chapter number, leaving "ILCS 2610/12.8 new50 ILCS 205/25..." with no
+    # digits in front, which the digits-required form missed (IL HB1036).
+    r"^(?=\s*(?:New\s+Act|\d*\s*ILCS))"
+    r"(?:\s*(?:New\s+Act|\d*\s*ILCS\s+[\d./A-Za-z-]+|new|rep\.|"
     r"from\s+Ch\.\s*[\d.,\s-]*(?:par\.\s*[\d.,\s-]*)?))+\s*",
     re.IGNORECASE,
 )

@@ -134,6 +134,30 @@ RELEVANCE_GATE_TIMEOUT = int(os.environ.get("RELEVANCE_GATE_TIMEOUT", "1620"))
 # whereas a run that respects a deadline finishes early with fewer LLM-written
 # posts and still commits. Set it below the job's timeout-minutes, leaving room
 # for setup and the commit step.
+# How much bill text the copy call may show the model. This used to be the full
+# 18,000-char translation window, on the reasoning that whatever we translate the
+# summarizer should be able to see. That reasoning holds for a large model and
+# fails badly for a 4B one. From a single weekly-digest run, output quality split
+# cleanly on input size:
+#
+#   NC HB 562     3,856 chars   good
+#   NY S10680     4,461 chars   good
+#   AK HB10       5,456 chars   good
+#   CA AB2483     5,681 chars   good
+#   NY A10455    15,959 chars   invented an "Ithaca Traffic Safety Initiative"
+#   CA AB2575    17,834 chars   returned nothing usable twice -> definitions blurb
+#   IL SB2981    21,921 chars   one thin sentence
+#   IL HB1036    50,035 chars   returned nothing usable -> raw ILCS citations
+#   MI SB 1141  107,739 chars   summary only, no headline
+#
+# Everything the model handled well was under ~6k; everything over ~16k failed in
+# some way, and those failures ARE the bad posts — a model that returns empty or
+# garbled JSON falls through to the deterministic copy. Cap the window at
+# something a 4B model can actually use. _prepare_full_text_for_llm already puts
+# the operative section first, so the cap keeps the part that matters. Raise this
+# alongside any move to a larger model.
+POST_COPY_MAX_SOURCE_CHARS = int(os.environ.get("POST_COPY_MAX_SOURCE_CHARS", "6000"))
+
 RUN_DEADLINE_MINUTES = float(os.environ.get("RUN_DEADLINE_MINUTES", "0") or 0)
 _RUN_START = time.monotonic()
 # Below this there is no point starting a call — it cannot finish, and the wait
@@ -2230,11 +2254,7 @@ def _post_copy(b: dict) -> dict:
     # instead of a wall of the amended statute's own boilerplate.
     if full_text:
         body = _clean_for_llm(_prepare_full_text_for_llm(full_text))
-        # Read up to the full translated window (FULLTEXT_TRANSLATE_MAX_CHARS):
-        # whatever we translate to English, the summarizer should be able to see,
-        # so the operative provision is never cut off before the model reads it —
-        # including an amendatory bill's one new provision at the very end.
-        char_cap = FULLTEXT_TRANSLATE_MAX_CHARS
+        char_cap = POST_COPY_MAX_SOURCE_CHARS
     else:
         source = abstract if abstract_usable else title
         body = _omnibus_digest(source) or _clean_for_llm(source)
