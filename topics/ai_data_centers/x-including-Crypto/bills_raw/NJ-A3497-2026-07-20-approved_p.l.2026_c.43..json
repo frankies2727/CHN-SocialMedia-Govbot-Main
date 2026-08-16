@@ -1,0 +1,68 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A3497",
+    "legislative_session": "222",
+    "subject": [
+      "LANDLORD"
+    ],
+    "title": "Establishes \"Forbidding the Algorithmic Inflation of Rent (FAIR) Act.\" *"
+  },
+  "id": "A3497",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved P.L.2026, c.43.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-07-20T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3497"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3497"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3497"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3497"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3497"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3497"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3497"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3497"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3497"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3497"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "A3497"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A3497/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A3497/logs/20260720T040000Z_approved_pl2026_c43.json"
+  },
+  "timestamp": "20260720T040000Z",
+  "posted_text": "🤖 NJ A3497 — NJ Says No: New Bill Targets Rising Rental Prices\n\nNew Jersey is taking action against what it calls artificially inflated rental prices. This new ‘Fair Algorithm for Rent’ (FAIR) Act prohibits rental property owners from using software or data analytics services that coordinate pricing with other landlords, effectively preventing ‘conscious parallel pricing coordination. ...\n...",
+  "posted_link": "https://www.njleg.state.nj.us/bill-search/2026/A3497",
+  "posted_url": "https://x.com/i/web/status/2088990584048418971"
+}

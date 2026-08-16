@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6223",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Consumer protection: other",
+      "Consumer protection: unfair trade practices"
+    ],
+    "title": "Consumer protection: unfair trade practices; violation under Michigan consumer protection act for violations under the cryptocurrency exchange kiosk regulation act; provide for. Amends sec. 3 of 1976 PA 331 (MCL 445.903).   TIE BAR WITH: HB 6222'26"
+  },
+  "id": "HB 6223",
+  "log": {
+    "action": {
+      "description": "bill electronically reproduced 07/16/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-29",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6223"
+        }
+      ]
+    },
+    "bill_id": "HB 6223"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6223/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6223/logs/20260729T000000Z_bill_electronically_reproduced_07162026.json"
+  },
+  "timestamp": "20260729T000000Z",
+  "posted_text": "💰 MI HB 6223 — Consumer protection: unfair trade practices; violation under Michigan consumer protection act for violations under the cryptocurrency exchange kiosk regulation act; provide for. Amends sec. 3 of 1976 PA 331 (MCL 445.903).   TIE BAR WITH: HB 6222'26\n\nThis act amends the Michigan Consumer and Trade Freedom Act to expand consumer protections against deceptive and misleading business practices, particularly concerning sales and marketing. ...\n...",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6223",
+  "posted_url": "https://x.com/i/web/status/2088988947707756671"
+}
