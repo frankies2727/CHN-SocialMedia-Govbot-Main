@@ -23,19 +23,137 @@ defaults:
     shell: bash
 
 jobs:
-  digest:
+  # ---------------------------------------------------------------------------
+  # Shared setup, run ONCE. The govbot national clone + bills.jsonl dump is the
+  # slow, disk-heavy half of the pipeline and is identical for every shard, so
+  # it used to run once PER shard — duplicated work that also had to fit in the
+  # same 60-minute budget as the digests themselves. Do it once here, ship the
+  # corpus as an artifact, and let the digest shards download it instead of each
+  # re-cloning the country. Mirrors post_to_bluesky.yml.
+  # ---------------------------------------------------------------------------
+  prepare:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
-    # Split the 13 topics across two shards that run in parallel on separate
-    # runners. Each shard repeats the shared setup (govbot clone + Ollama) but
-    # only builds ~half the digests, keeping each job under the 60-minute budget.
+    # The digests always clone fresh (shared-cache is off, see below), so this
+    # job pays the full national clone every week. 120 min gives it ample room.
+    timeout-minutes: 120
+    steps:
+      - name: Free disk space
+        # ubuntu-latest ships with ~14 GB free; the govbot clone across 50+
+        # states blows past that ("No space left on device"). Strip out
+        # preinstalled tooling we never use before cloning.
+        uses: jlumbroso/free-disk-space@v1.3.1
+        with:
+          tool-cache: true
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          docker-images: true
+          swap-storage: false
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install Python deps
+        run: pip install -r requirements.txt
+
+      - name: Install govbot, fetch all supported states, dump JSONL
+        # Resilient install (retries the daily-republished upstream nightly).
+        # shared-cache is OFF: all four weekly digests run Friday with the same
+        # inputs, so with it on only the first would clone and the rest would
+        # reuse that dump and SKIP the clone — leaving no on-disk metadata or
+        # files/ dir for the staging step below to harvest. Cloning fresh keeps
+        # govbot's committed full text on disk so digest summaries stay grounded.
+        uses: ./.github/actions/govbot-bills
+        with:
+          shared-cache: "false"
+          # Full-action feed — same as the daily posters. Dump EVERY action, not
+          # just govbot's noteworthy ones, so a bill active only procedurally in
+          # the lookback window still reaches the digest. since-days (45) sits
+          # above the widest fallback window (30d) and, paired with --limit none,
+          # keeps the larger feed bounded and free of arbitrary per-state
+          # truncation. The digest's own topic match + 7/14/30d windows still
+          # rank highlights.
+          log-filter: "none"
+          log-limit: "none"
+          since-days: "45"
+
+      - name: Stage the full-text bundle
+        # govbot-bills only stages this itself when shared-cache is on, and the
+        # digests keep it off — so do it explicitly here. Copies each in-window
+        # bill's metadata.json + govbot's pre-extracted text out of the clone
+        # into one small tarball, which is what lets the shards render grounded
+        # summaries without re-cloning. stage_bill_text.py stages across every
+        # topic and 45 days back, covering the digests' 30-day lookback; it needs
+        # a BOT_TOPIC only to import the shared modules, so any topic will do.
+        # Non-fatal: an empty bundle just means summaries fall back to abstracts.
+        run: |
+          FIRST_TOPIC=""
+          for d in topics/*/; do
+            [ -f "$d/config.yml" ] && FIRST_TOPIC=$(basename "$d") && break
+          done
+          if BOT_TOPIC="$FIRST_TOPIC" python scripts/stage_bill_text.py shared_bill_text; then
+            echo "staged full text for $(find shared_bill_text -name metadata.json | wc -l) bill(s)."
+          else
+            echo "::warning::full-text staging failed; shipping an empty bundle (abstracts only)."
+            mkdir -p shared_bill_text
+          fi
+          tar -czf shared_bill_text.tar.gz shared_bill_text
+
+      - name: Upload the shared bill corpus
+        uses: actions/upload-artifact@v4
+        with:
+          name: bills-corpus
+          # bills.jsonl is the distilled national feed; shared_bill_text.tar.gz
+          # carries the per-bill metadata + pre-extracted full text so the shards
+          # can render full-text summaries without re-cloning.
+          path: |
+            bills.jsonl
+            shared_bill_text.tar.gz
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 9
+
+  # ---------------------------------------------------------------------------
+  # Build and post. Five shards run in parallel, each handling ~a fifth of the
+  # topics. They download the shared corpus (no re-clone) and only install
+  # Ollama locally (each runner needs its own model server; cache-backed).
+  # ---------------------------------------------------------------------------
+  digest:
+    needs: prepare
+    runs-on: ubuntu-latest
+    # No govbot clone here (the corpus is downloaded), so a shard is just Ollama
+    # setup (~2 min) + the digests themselves. Each digest runs several LLM
+    # summaries per topic on the free runner's CPU model, which is what pushed
+    # the old 2-shard, self-cloning job against its 60-minute budget. 120 min
+    # plus a fifth of the topics per shard leaves generous headroom.
+    timeout-minutes: 120
     strategy:
       fail-fast: false
       matrix:
-        shard: [0, 1]
+        shard: [0, 1, 2, 3, 4]
     env:
       LLM_MODEL: "gemma3:4b"
     steps:
+      - name: Free disk space
+        # The Ollama LLM (~3.3 GB) plus the bill corpus in RAM need the
+        # headroom; strip preinstalled tooling we never use.
+        uses: jlumbroso/free-disk-space@v1.3.1
+        with:
+          tool-cache: true
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          docker-images: true
+          swap-storage: false  # keep swap: the LLM + full bill corpus need the RAM headroom
+
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -46,34 +164,38 @@ jobs:
           cache: "pip"
 
       - name: Install poppler-utils (pdftotext)
-        # Lets scripts/bill_text.py extract full bill text from PDFs for the
-        # digest summaries; degrades gracefully to abstract-only if absent.
+        # pdftotext extracts full bill text from a bill's PDF when the staged
+        # bundle has metadata but no pre-extracted text. scripts/bill_text.py
+        # caches results in .bill_text_cache/.
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
 
       - name: Install Python deps
         run: pip install -r requirements.txt
 
-      - name: Install govbot, fetch all supported states, dump JSONL
-        # Resilient install (retries the daily-republished upstream nightly).
-        # shared-cache is OFF: all four weekly digests run Friday with the same
-        # log-limit (8200), so with it on only the first would clone and the rest
-        # would reuse that dump and SKIP the clone — leaving no on-disk metadata
-        # or files/ dir, forcing summarize()/shorten_title() to fall back to the
-        # bill abstract. Cloning fresh keeps govbot's committed full text on disk
-        # so digest summaries stay grounded. See .github/actions/govbot-bills.
-        uses: ./.github/actions/govbot-bills
+      - name: Download the shared bill corpus
+        # Lands bills.jsonl (+ shared_bill_text.tar.gz) in the repo root, exactly
+        # where the scripts expect them — no govbot clone needed in this job.
+        uses: actions/download-artifact@v4
         with:
-          shared-cache: "false"
-          # Full-action feed — same as the daily posters. Dump EVERY action, not
-          # just govbot's noteworthy ones, so a bill active only procedurally in
-          # the lookback window still reaches the digest. since-days (45) sits
-          # above the widest fallback window (30d) and, paired with --limit none,
-          # keeps the larger feed bounded and free of arbitrary per-state
-          # truncation (an 8200 per-state cap would truncate it hardest). The
-          # digest's own topic match + 7/14/30d windows still rank highlights.
-          log-filter: "none"
-          log-limit: "none"
-          since-days: "45"
+          name: bills-corpus
+          path: .
+
+      - name: Confirm corpus present and unpack staged bill text
+        # Unpack the per-bill metadata + pre-extracted full text staged by the
+        # prepare job. The digest step below sets GOVBOT_DATA_ROOT to this dir so
+        # bill_text.resolve_metadata_path finds the staged subset exactly as it
+        # would a full clone. A missing/empty tarball is non-fatal: the digests
+        # just fall back to abstracts.
+        run: |
+          test -f bills.jsonl && echo "bills.jsonl: $(wc -l < bills.jsonl) lines" \
+            || (echo "::error::bills.jsonl missing after download" && exit 1)
+          if [ -f shared_bill_text.tar.gz ]; then
+            tar -xzf shared_bill_text.tar.gz
+            n=$(find shared_bill_text -name metadata.json 2>/dev/null | wc -l)
+            echo "staged bill text: $n bill(s) with metadata unpacked."
+          else
+            echo "no staged bill text tarball; digests will use abstracts only."
+          fi
 
       - name: Cache Ollama model
         uses: actions/cache@v4
@@ -97,7 +219,7 @@ jobs:
         # the freshness window for weeks). The run-scoped key always saves a
         # fresh, grown cache; restore-keys pulls the most recent prior one, and
         # the shared prefix lets every poster reuse text any other already
-        # fetched. The shard suffix keeps the two parallel shards from racing on
+        # fetched. The shard suffix keeps the parallel shards from racing on
         # the same save key.
         uses: actions/cache@v4
         with:
@@ -150,13 +272,17 @@ jobs:
           DIGEST_LOOKBACK_DAYS: "7"
           DIGEST_MAX_HIGHLIGHTS: "6"
           DIGEST_PER_STATE_CAP: "2"
+          # Point bill_text.resolve_metadata_path at the staged subset the
+          # prepare job shipped (metadata.json + pre-extracted full text), so
+          # full bill text is used again even though the shard never cloned.
+          GOVBOT_DATA_ROOT: "${{ github.workspace }}/shared_bill_text"
         run: |
           shopt -s nullglob
           # Assign topics to this shard by their sorted position (topics/*/
           # globs alphabetically). index % NUM_SHARDS interleaves them into a
-          # balanced 7/6 split that auto-rebalances when topics are added.
+          # balanced split that auto-rebalances when topics are added.
           SHARD="${{ matrix.shard }}"
-          NUM_SHARDS=2
+          NUM_SHARDS=5
           i=0
           for topic_dir in topics/*/; do
             topic=$(basename "$topic_dir")
