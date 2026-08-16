@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1141",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Economic development: tax increment financing",
+      "History and arts: other"
+    ],
+    "title": "Economic development: tax increment financing; definition of tax increment revenues; exclude taxes levied under history museum authorities act. Amends secs. 201, 301, 402, 523, 603, 703 & 803 of 2018 PA 57 (MCL 125.4201 et seq.).   TIE BAR WITH: SB 1139'26,  SB 1140'26"
+  },
+  "id": "SB 1141",
+  "log": {
+    "action": {
+      "description": "SENATE CO-SPONSOR(S) NAMED: ROSEMARY BAYER",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-12",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1141"
+        }
+      ]
+    },
+    "bill_id": "SB 1141"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1141/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1141/logs/20260812T000000Z_senate_cosponsors_named_rosemary_bayer.json"
+  },
+  "timestamp": "20260812T000000Z"
+}

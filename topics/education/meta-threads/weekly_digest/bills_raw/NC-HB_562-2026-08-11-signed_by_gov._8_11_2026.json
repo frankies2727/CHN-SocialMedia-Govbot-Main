@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 562",
+    "legislative_session": "2025",
+    "subject": [
+      "ADMINISTRATIVE CODE; ADMINISTRATIVE RULES; APPROPRIATIONS; AUDITING & AUDITS; BUDGETING; CAPITAL SPENDING; COLLEGES & UNIVERSITIES; COMMISSIONS; COMMUNITY COLLEGES; COMMUNITY COLLEGES OFFICE; CONTROLLED SUBSTANCES; COUNCIL OF STATE; DEFINITIONS; DHHS; DISABLED PERSONS; EDUCATION; FUNDING; HEALTH SERVICES; HIGHER EDUCATION; INSURANCE",
+      "HEALTH; MEDICAID; MENTAL HEALTH; MHDDSAS COMN.; MINORS; PERSONNEL; PHYSICIANS; POVERTY; PROFESSIONAL EDUCATION; PUBLIC; PUBLIC OFFICIALS; SESSION LAWS; SOCIAL SERVICES; STATE AUDITOR; STATE EMPLOYEES; TITLE CHANGE; SUBSTANCE ABUSE; GOVERNMENT EMPLOYEES; LMES-MCOS; OPTHALMOLOGY & OPTHALMOLOGISTS"
+    ],
+    "title": "Budget Technical Corrections Modifications."
+  },
+  "id": "HB 562",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Gov. 8/11/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-08-11",
+      "session_id": "2025",
+      "sources": [
+        {
+          "url": "https://www.ncleg.gov/BillLookUp/2025/H562"
+        }
+      ]
+    },
+    "bill_id": "HB 562"
+  },
+  "sources": {
+    "bill": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB562/metadata.json",
+    "log": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB562/logs/20260811T000000Z_signed_by_gov_8112026.json"
+  },
+  "timestamp": "20260811T000000Z"
+}

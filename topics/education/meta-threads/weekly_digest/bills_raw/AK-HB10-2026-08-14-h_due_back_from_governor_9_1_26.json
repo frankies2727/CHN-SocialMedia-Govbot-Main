@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB10",
+    "legislative_session": "34",
+    "subject": [
+      "APPOINTMENTS",
+      "BOARDS & COMMISSIONS",
+      "EDUCATION",
+      "UNIVERSITIES"
+    ],
+    "title": "An Act relating to the Board of Regents of the University of Alaska; and providing for an effective date."
+  },
+  "id": "HB10",
+  "log": {
+    "action": {
+      "description": "(H) DUE BACK FROM GOVERNOR 9/1/26",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-14",
+      "session_id": "34",
+      "sources": [
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB10"
+        },
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB10#tab5_4"
+        }
+      ]
+    },
+    "bill_id": "HB10"
+  },
+  "sources": {
+    "bill": "ak-legislation/country:us/state:ak/sessions/34/bills/HB10/metadata.json",
+    "log": "ak-legislation/country:us/state:ak/sessions/34/bills/HB10/logs/20260814T000000Z_h_due_back_from_governor_9126.json"
+  },
+  "timestamp": "20260814T000000Z"
+}

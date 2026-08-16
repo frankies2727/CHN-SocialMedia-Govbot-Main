@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB1036",
+    "legislative_session": "104th",
+    "title": "LAW ENFORCEMENT CONDUCT"
+  },
+  "id": "HB1036",
+  "log": {
+    "action": {
+      "description": "Added Co-Sponsor Rep. Tony M. McCombie",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-13",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=1036&GAID=18&DocTypeID=HB&LegId=156714&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "HB1036"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/HB1036/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/HB1036/logs/20260813T000000Z_added_cosponsor_rep_tony_m_mccombie.json"
+  },
+  "timestamp": "20260813T000000Z"
+}

@@ -1,0 +1,49 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Relates to the handling of tips received through the office of the Medicaid inspector general's Medicaid fraud hotline; provides that the office of the Medicaid inspector general's Medicaid fraud hotline shall be the official Medicaid fraud hotline of the state of New York; directs the Medicaid inspector general to compile and provide to the governor, the temporary president of the senate, the speaker of the assembly, the minority leader of the senate, the minority leader of the assembly and the attorney general an annual report containing information on tips received through the Medicaid fraud hotline."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S10680",
+    "legislative_session": "2025-2026",
+    "title": "Relates to the handling of tips received through the office of the Medicaid inspector general's Medicaid fraud hotline"
+  },
+  "id": "S10680",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "REFERRED TO RULES",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-14",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "RULES"
+        }
+      ],
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10680?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/S10680"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=S10680&term=2025"
+        }
+      ]
+    },
+    "bill_id": "S10680"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S10680/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S10680/logs/20260814T000000Z_referred_to_rules.json"
+  },
+  "timestamp": "20260814T000000Z"
+}
