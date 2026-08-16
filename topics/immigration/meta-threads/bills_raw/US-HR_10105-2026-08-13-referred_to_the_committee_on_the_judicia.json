@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10105",
+    "legislative_session": "119",
+    "title": "To impose a cap on the price of items sold at the immigration detention facility commissary, and for other purposes."
+  },
+  "id": "HR 10105",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the Committee on the Judiciary, and in addition to the Committee on Homeland Security, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-13T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10105.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10105"
+        }
+      ]
+    },
+    "bill_id": "HR 10105"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10105/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10105/logs/20260813T040000Z_referred_to_the_committee_on_the_judiciary_and_in_addition_to_the_committee_on_homeland_security_for.json"
+  },
+  "timestamp": "20260813T040000Z",
+  "posted_text": "👮 Immigration\nUS HR 10105 — To impose a cap on the price of items sold at the immigration detention facility commissary, and for other purposes. ...\n...",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-bill/10105",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DcFMtuNCClu"
+}

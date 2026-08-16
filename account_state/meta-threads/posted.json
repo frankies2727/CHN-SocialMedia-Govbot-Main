@@ -138,6 +138,10 @@
     "MD|HB0862|2026-08-03|Overridden",
     "MD|SB2102|2026-08-03",
     "MD|SB2102|2026-08-03|First Reading Senate Rules",
+    "MI|HB 4207|2026-07-29",
+    "MI|HB 4207|2026-07-29|approved by the Governor 07/21/2026 02:1",
+    "MI|HB 4207|2026-07-29|assigned PA 53'26 with immediate effect",
+    "MI|HB 4207|2026-07-29|filed with Secretary of State 07/23/2026",
     "MI|HB 6158|2026-07-14",
     "MI|HB 6158|2026-07-14|bill electronically reproduced 07/03/202",
     "MI|HB 6222|2026-07-29",
@@ -194,6 +198,8 @@
     "NH|SB627|2026-06-23|Enrolled (in recess of) 06/04/2026  HJ 1",
     "NH|SB627|2026-06-23|Enrolled Adopted, VV, (In recess 06/04/2",
     "NH|SB652|2026-05-29|Signed by the Governor on 05/28/2026; Ch",
+    "NY|A745|2026-08-12",
+    "NY|A745|2026-08-12|ENACTING CLAUSE STRICKEN",
     "PA|HB 2455|2026-07-09",
     "PA|HB 2455|2026-07-09|Referred to Labor & Industry",
     "PA|HB 96|2026-07-12",
@@ -240,6 +246,8 @@
     "TN|SB 2177|2026-05-27|Effective date(s) 05/22/2026",
     "TN|SB 2177|2026-05-27|Pub. Ch. 1121",
     "TN|SB 2633|2026-05-27|Comp. became Pub. Ch. 1034",
+    "US|HR 10105|2026-08-13",
+    "US|HR 10105|2026-08-13|Referred to the Committee on the Judicia",
     "US|HR 9571|2026-07-02",
     "US|HR 9571|2026-07-02|Referred to the Committee on Education a",
     "US|HR 9603|2026-07-09",
@@ -264,7 +272,6 @@
     "|HRES 1409|2026-06-30|Submitted in House"
   ],
   "runs": {
-    "28379627643-1": 4,
     "28444204793-1": 4,
     "28520285759-1": 4,
     "28589765381-1": 4,
@@ -293,7 +300,8 @@
     "31237847175-1": 3,
     "31284577057-1": 3,
     "31548363815-1": 3,
-    "31755564401-1": 3
+    "31755564401-1": 3,
+    "31914985287-1": 3
   },
-  "last_run": "2026-08-14T01:10:11.167573+00:00"
+  "last_run": "2026-08-16T00:41:27.256768+00:00"
 }

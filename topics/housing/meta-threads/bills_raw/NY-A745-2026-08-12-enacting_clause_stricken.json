@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Relates to eliminating rent for homeless shelters; provides that a homeless individual or family applying for or receiving temporary housing assistance shall not be required to pay to any local or state government or agency or any provider, room and board or contribute any earned or unearned income, available benefits or resources to eliminate their need for temporary housing assistance or as a condition to receive temporary housing assistance from such provider."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A745",
+    "legislative_session": "2025-2026",
+    "title": "Eliminates rent for homeless shelters; repealer"
+  },
+  "id": "A745",
+  "log": {
+    "action": {
+      "description": "ENACTING CLAUSE STRICKEN",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-12",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A745?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/A745"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=A00745&term=2025"
+        }
+      ]
+    },
+    "bill_id": "A745"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A745/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A745/logs/20260812T000000Z_enacting_clause_stricken.json"
+  },
+  "timestamp": "20260812T000000Z",
+  "posted_text": "🔑 Housing\nNY A745 — NYC Shelters Get Rent-Free Status\n\nNew York is eliminating rent charges for homeless individuals and families receiving temporary housing assistance. The bill changes how temporary housing providers are monitored, requiring them to return any income collected from recipients and potentially imposing a $500 civil penalty for violations. ...\n...",
+  "posted_link": "https://www.nysenate.gov/legislation/bills/2025/A745",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DcFMh-PCFRf"
+}
