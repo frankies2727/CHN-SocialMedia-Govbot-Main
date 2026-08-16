@@ -1307,7 +1307,13 @@ _LEADING_ENUMERATOR_RE = re.compile(r"^(?:\(\s*[A-Za-z0-9]{1,4}\s*\)\s*|\d{1,3}\
 # several of them is dropped in favor of a clean bare headline.
 _CITATION_MARKER_RE = re.compile(
     r"\bAS\s+\d|\bSec\.|\bSection\s+\d|§|\bP\.?\s*L\.|\bNo\.\s*\d|"
-    r"\b\d+\.\d+(?:\.\d+)+|\(\s*[A-Za-z0-9]{1,3}\s*\)",
+    r"\b\d+\.\d+(?:\.\d+)+|\(\s*[A-Za-z0-9]{1,3}\s*\)|"
+    # State statute-code citations. Without these the guard missed IL HB1036's
+    # "8 new50 ilcs 205/2550 ilcs 705/6 from Ch." entirely — it carries none of
+    # the markers above, so a blurb made of nothing but code citations sailed
+    # through and posted as the summary.
+    r"\bILCS\b|\bMCL\b|\bRSMo\b|\bU\.?S\.?C\.?\b|\bRCW\b|"
+    r"\bfrom\s+Ch\.|\bCh\.\s*\d|\b\d+/\d+\b",
     re.IGNORECASE,
 )
 
@@ -2367,12 +2373,23 @@ def _post_copy(b: dict) -> dict:
         call_timeout = LLM_TIMEOUT if attempt == 0 else LLM_RETRY_TIMEOUT
         try:
             raw_headline, raw_summary = _call_llm(timeout=call_timeout)
-            if not raw_headline and not raw_summary:
-                raw_headline, raw_summary = _call_llm(
+            # Re-ask when EITHER field came back empty, not only when both did.
+            # A small model routinely fills one and drops the other, and an empty
+            # headline is not harmless: best_display_text then falls back to the
+            # raw legalese title, which is how MI SB 1141 posted the head
+            # "Economic development: tax increment financing; definition of tax
+            # increment revenues; exclude taxes levied under history museum
+            # authorities act." directly above a perfectly good model summary.
+            # Keep whichever field each response actually filled, so the retry
+            # can only add to what we have.
+            if not raw_headline or not raw_summary:
+                retry_headline, retry_summary = _call_llm(
                     "Return ONLY the JSON object {\"headline\": \"...\", "
                     "\"summary\": \"...\"} — both fields non-empty, plain English.",
                     timeout=call_timeout,
                 )
+                raw_headline = raw_headline or retry_headline
+                raw_summary = raw_summary or retry_summary
             last_exc = None
             break
         except Exception as e:
