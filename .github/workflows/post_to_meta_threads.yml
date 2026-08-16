@@ -173,7 +173,7 @@ jobs:
     timeout-minutes: 120
 
     env:
-      LLM_MODEL: "gemma3:12b"
+      LLM_MODEL: "gemma3:4b"
       DRY_RUN: "0"
       # Shared by every per-topic process so the per-run cap spans the whole loop
       # yet starts fresh next run.
@@ -181,7 +181,7 @@ jobs:
 
     steps:
       - name: Free disk space
-        # The Ollama LLM (~8 GB for gemma3:12b) plus the full bill corpus in RAM need the
+        # The Ollama LLM (~3.3 GB) plus the full bill corpus in RAM need the
         # headroom; strip preinstalled tooling we never use.
         uses: jlumbroso/free-disk-space@v1.3.1
         with:
@@ -297,7 +297,7 @@ jobs:
           fi
           ollama list
           # Smoke-test the model, but DON'T pin it in memory (keep_alive:0
-          # unloads it right after). Holding the ~8GB model resident while the
+          # unloads it right after). Holding the 3.3GB model resident while the
           # next step loads the full bill corpus into RAM pushed the 16GB runner
           # over its memory limit, freezing the VM until GitHub killed the job
           # mid-step ("runner has received a shutdown signal"). The first real

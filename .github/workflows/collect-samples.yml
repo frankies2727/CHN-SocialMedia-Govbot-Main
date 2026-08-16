@@ -107,11 +107,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     env:
-      LLM_MODEL: "gemma3:12b"
+      LLM_MODEL: "gemma3:4b"
     steps:
       - name: Free disk space
         # Only needed when composing/publishing, since that pulls the Ollama LLM
-        # (~8 GB for gemma3:12b) on top of the govbot clones. Strip out preinstalled tooling
+        # (~3.3 GB) on top of the govbot clones. Strip out preinstalled tooling
         # we never use to avoid "No space left on device".
         if: ${{ inputs.publish || inputs.dry_run }}
         uses: jlumbroso/free-disk-space@v1.3.1

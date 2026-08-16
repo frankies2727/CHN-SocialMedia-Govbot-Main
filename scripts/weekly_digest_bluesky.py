@@ -48,6 +48,14 @@ from post_to_bluesky import (
     MIN_SUMMARY_CHARS,
 )
 
+# GitHub Actions pipes stdout, so Python block-buffers it. A digest run that is
+# cancelled at the job cap loses everything still sitting in that buffer: one
+# cancelled run showed 68 minutes of silence before its first stderr line,
+# leaving no way to see which bill it was stuck on. Line-buffer so a long run
+# stays legible live.
+sys.stdout.reconfigure(line_buffering=True)
+
+
 ROOT = Path(__file__).resolve().parent.parent
 
 DIGEST_LOOKBACK_DAYS = int(os.environ.get("DIGEST_LOOKBACK_DAYS", "7"))

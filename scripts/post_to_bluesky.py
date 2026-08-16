@@ -94,21 +94,18 @@ BLUESKY_API = "https://bsky.social/xrpc"
 # same host (e.g. installed in the GitHub Actions step before this script runs)
 # and the model has been pulled with `ollama pull <LLM_MODEL>`.
 LLM_API_URL = os.environ.get("LLM_API_URL", "http://localhost:11434/api/chat")
-LLM_MODEL = os.environ.get("LLM_MODEL", "gemma3:12b")
-# Raised with the move from gemma3:4b to gemma3:12b. The 12b model is roughly
-# three times the compute per token, and on the free runner's CPU a summary over
-# a long bill can take several minutes. Left at 420 it would time out routinely
-# and drop to the deterministic fallback — the raw-legalese copy the bigger model
-# was adopted to avoid, so the upgrade would have made posts WORSE. The run-level
-# deadline is the real backstop (see post_to_x.POST_DEADLINE_MINUTES, which
-# clamps these ceilings to the time actually left), so a generous per-call
-# ceiling costs nothing when the model is healthy.
-LLM_TIMEOUT = int(os.environ.get("LLM_TIMEOUT", "900"))
+LLM_MODEL = os.environ.get("LLM_MODEL", "gemma3:4b")
+# Sized for gemma3:4b. Do not raise these without checking the model actually
+# finishes inside them: gemma3:12b (8.1 GB on a 16 GB runner) could not complete
+# a single summary in 900s — it thrashed swap — and each stuck bill then burned
+# 900+360+360s before falling back anyway. A ceiling only helps if the model can
+# finish under it; past that it just makes failure slower.
+LLM_TIMEOUT = int(os.environ.get("LLM_TIMEOUT", "420"))
 # On a timeout/transport error the post-copy call is retried (see _post_copy).
 # The retries use this shorter ceiling so a genuinely wedged model fails fast and
 # the run falls back to deterministic copy instead of burning the job's minute
 # budget — a warm model answers in seconds, so a short retry window is plenty.
-LLM_RETRY_TIMEOUT = int(os.environ.get("LLM_RETRY_TIMEOUT", "360"))
+LLM_RETRY_TIMEOUT = int(os.environ.get("LLM_RETRY_TIMEOUT", "180"))
 # How long Ollama keeps the model resident between requests. Without this it
 # defaults to 5 minutes, so a topic that spends several minutes downloading
 # PDFs between summaries can force a cold model reload mid-run. Pin it for the
@@ -126,7 +123,7 @@ RELEVANCE_GATE = (os.environ.get("RELEVANCE_GATE", "1").strip() != "0")
 # falling open (which lets the bill through unjudged). Overridable per run. Kept
 # above LLM_TIMEOUT (the copy call's ceiling) so the invariant holds after that
 # ceiling was raised.
-RELEVANCE_GATE_TIMEOUT = int(os.environ.get("RELEVANCE_GATE_TIMEOUT", "960"))
+RELEVANCE_GATE_TIMEOUT = int(os.environ.get("RELEVANCE_GATE_TIMEOUT", "480"))
 
 IMG_MAX_DOWNLOAD = 5 * 1024 * 1024
 IMG_TARGET_SIZE  = 900 * 1024
