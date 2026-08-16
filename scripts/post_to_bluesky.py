@@ -1346,6 +1346,37 @@ def _excerpt_summary(excerpt: str) -> str:
 _EXISTING_LAW_RE = re.compile(r"^\s*(?:existing law|current law|under existing law)\b",
                               re.IGNORECASE)
 
+# A definitions entry — '"Actuarial certification" means a written statement by a
+# member of the American Academy of Actuaries…' or "As used in this chapter:" —
+# explains a term, not what the bill does. Michigan and several other states open
+# their operative text with a definitions section, so the first real sentence of
+# the body is routinely a glossary line (MI HB 4207 posted exactly that).
+_DEFINITION_LEAD_RE = re.compile(
+    r"^\s*(?:as\s+used\s+in\s+this\b"
+    r"|[\"“][^\"”]{1,80}[\"”]\s+(?:means|includes|has\s+the\s+same\s+meaning)\b"
+    r"|the\s+following\s+(?:words|terms|definitions)\b"
+    # "For the purposes of this chapter, carrier … includes a health insurance
+    # company…" — the same glossary entry without the quote marks, which
+    # _clean_for_llm strips before this runs.
+    r"|for\s+the\s+purposes?\s+of\s+this\s+"
+    r"(?:act|chapter|section|part|article|subdivision|subsection)\b)",
+    re.IGNORECASE,
+)
+
+# What a blurb should actually contain: a duty or an effect. Used only inside a
+# definitions section — excluding glossary shapes one at a time was a losing
+# game, because MI HB 4207's section walked from a quoted "… means …" entry to
+# an unquoted "For the purposes of this chapter …" one to a bare list of Social
+# Security Act citations, each needing its own exclusion. Requiring a duty verb
+# instead means a section made entirely of definitions yields no summary, which
+# is the honest outcome. Deliberately narrow: verb forms only, so the
+# "authorized to do business in this state" inside a definition doesn't qualify.
+_OPERATIVE_SENTENCE_RE = re.compile(
+    r"\b(?:shall|must|may\s+not|requires?|prohibits?|establishes?|creates?"
+    r"|imposes?|repeals?|appropriates?|exempts?|authorizes|entitles?)\b",
+    re.IGNORECASE,
+)
+
 
 def _first_sentence(text: str) -> str:
     """First substantive sentence of a cleaned abstract — the non-LLM fallback
@@ -1367,6 +1398,29 @@ def _first_sentence(text: str) -> str:
         for s in sentences[1:]:
             if re.match(r"\s*(?:this bill|the bill)\b", s, re.IGNORECASE):
                 return _smart_truncate(_operative_rephrase(s), 200)
+    # Same idea for a glossary lead: walk past the definitions entries to the
+    # first sentence that states an obligation or effect. Bounded to a handful of
+    # sentences, and if the whole excerpt is definitions we keep the original
+    # lead rather than shipping nothing.
+    if _DEFINITION_LEAD_RE.match(first):
+        operative = ""
+        for s in sentences[1:8]:
+            cand = s.strip()
+            if not cand or _DEFINITION_LEAD_RE.match(cand):
+                continue
+            if _is_citation_heavy(cand) or _is_table_gibberish(cand):
+                continue
+            operative = cand
+            break
+        # Nothing but glossary entries in reach: ship no summary rather than a
+        # definition. A post reading "MI HB 4207 — Premiums for applicable health
+        # benefit plans" plus its action line says less but nothing misleading;
+        # led by '"Actuarial certification" means a written statement by a member
+        # of the American Academy of Actuaries…' it says nothing at more length.
+        # Same call the citation-heavy branch below makes.
+        if not operative:
+            return ""
+        first = operative
     # A first sentence that's just statute citations reads as legalese; drop it
     # so the caller ships a clean headline instead of a raw fragment. Same for a
     # mangled data-table row.
@@ -2034,6 +2088,10 @@ def _summary_from_body(prepared_body: str, max_chars: int = 240) -> str:
         re.IGNORECASE,
     )
     picked: list[str] = []
+    # Set once the section is recognised as a glossary, which switches the loop
+    # below from "skip known-bad shapes" to "require a duty verb".
+    glossary_section = False
+    first_seen = False
     # End a clause at sentence punctuation OR a ":" that introduces an
     # enumerated list ("… as follows:"), so the blurb stops at a clean boundary
     # rather than running the whole (a)/(1)/(2) list together.
@@ -2053,6 +2111,22 @@ def _summary_from_body(prepared_body: str, max_chars: int = 240) -> str:
         if len(core) < 30:
             continue
         if citation_re.match(s):
+            continue
+        # A glossary entry defines a term instead of saying what the bill does.
+        # Michigan and others open their operative text with a definitions
+        # section, so without this the blurb becomes '"Actuarial certification"
+        # means a written statement by a member of the American Academy of
+        # Actuaries…' (MI HB 4207). If the section is nothing but definitions,
+        # picked stays empty and the caller ships no summary block.
+        if not first_seen:
+            first_seen = True
+            glossary_section = bool(_DEFINITION_LEAD_RE.match(s))
+        if _DEFINITION_LEAD_RE.match(s):
+            continue
+        # Inside a definitions section, only a sentence that states a duty or an
+        # effect is worth quoting; anything else is more glossary or a citation
+        # list wearing a different shape.
+        if glossary_section and not _OPERATIVE_SENTENCE_RE.search(core):
             continue
         # A mangled data-table row (budget/rate schedule) is unreadable noise.
         if _is_table_gibberish(core):

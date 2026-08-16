@@ -598,6 +598,52 @@ _US_BILL_GLUE_RE = re.compile(r"(A\s+BILL)(?=To\s+[a-z])")
 
 _FRONTMATTER_MAX_SCAN = 4000
 
+# Michigan-style bills open with an amend-citation and nothing else:
+#
+#   A bill to amend 1956 PA 218, entitled "The insurance code of 1956," by
+#   amending section 3701 (MCL 500.3701), as amended by 2016 PA 276.
+#   the people of the state of michigan enact: Sec. 3701. As used in this chapter…
+#
+# The clause names the statute being edited but never says what the edit does,
+# so a post led by it reads "A bill to amend 1956 PA 218 … by amending section
+# 3701 (MCL 500.3701), as amended by 2016 PA 276" and tells a reader nothing
+# (MI HB 4207). Skip it and its enacting clause so both the model and the
+# deterministic fallback start on the bill's operative text.
+#
+# Only when the clause carries no purpose language of its own — Minnesota's
+# "A bill for an act relating to public safety; providing for local correctional
+# officers…" is the same shape but genuinely describes the bill, so it stays.
+# Quoted spans are removed before that test, because the quoted part is the
+# amended act's OLD title ("An act to provide for the granting of military
+# leaves…"), which describes the statute rather than this bill.
+_AMEND_PREAMBLE_RE = re.compile(
+    r"\A\s*A\s+bill\s+to\s+amend\b(?P<pre>.{0,700}?)"
+    r"(?:the\s+people\s+of\s+the\s+state\s+of\s+[A-Za-z ]{2,20}?\s+enact\s*:"
+    r"|be\s+it\s+enacted[^:]{0,160}:)\s*",
+    re.IGNORECASE | re.DOTALL,
+)
+_QUOTED_SPAN_RE = re.compile(r"[\"“][^\"”]{0,300}[\"”]")
+_PURPOSE_LANGUAGE_RE = re.compile(
+    r"\brelating to\b|\bproviding for\b|\bto provide\b|\bto require\b"
+    r"|\bto prohibit\b|\bto establish\b|\bto create\b|\bto authorize\b"
+    r"|\bto regulate\b|\bto repeal\b",
+    re.IGNORECASE,
+)
+
+
+def _strip_amend_preamble(text: str) -> str:
+    """Drop a content-free "A bill to amend <act>, by amending section N …"
+    preamble and the enacting clause after it. Returns the text unchanged when
+    the preamble describes the bill's purpose, or when dropping it would leave
+    nothing behind."""
+    m = _AMEND_PREAMBLE_RE.match(text)
+    if not m:
+        return text
+    if _PURPOSE_LANGUAGE_RE.search(_QUOTED_SPAN_RE.sub(" ", m.group("pre"))):
+        return text
+    rest = text[m.end():].lstrip()
+    return rest or text
+
 # Illinois opens its synopsis with a run of statute citations before any prose:
 # "New Act30 ILCS 105/5.1038 new    Creates the Climate Change Superfund Act."
 # They say nothing to a reader, and the sentence splitter downstream turns the
@@ -699,6 +745,7 @@ def clean_bill_text(text: str) -> str:
     text = _US_BILL_GLUE_RE.sub(r"\1\n", text)
     text = _GLUED_ANCHOR_RE.sub("\n", text)
     text = _strip_bill_frontmatter(text)
+    text = _strip_amend_preamble(text)
     text = _ENACTING_CLAUSE_RE.sub("", text, count=1)
     text = _IL_CITATION_RUN_RE.sub("", text, count=1)
     text = text.replace("\f", "\n")
