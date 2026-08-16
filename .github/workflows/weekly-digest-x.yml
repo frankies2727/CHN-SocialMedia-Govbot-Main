@@ -1,11 +1,20 @@
 name: govbot-x-weekly-digest
 
 on:
-  # Friday 21:30 UTC = ~4:30 pm ET (5:30 pm EDT) -- mirrors the Bluesky digest
-  # (which runs at 21:00) but a half-hour later so the two don't race the
-  # shared govbot fetch / Ollama install on the same runner pool.
+  # FRIDAY, first slot. X is a text-first news/politics feed, so the week-in-
+  # review lands best while the legislative week is still live news and the
+  # weekday desk audience is online — Friday mid-morning, before the afternoon
+  # drop-off. The visual feeds (Threads, Instagram) run Saturday instead.
+  #
+  # NOTE the lead time: cron fires the *workflow*, not the post. The prepare job
+  # clones 50+ states first, so the first post lands roughly 45-70 minutes later.
+  # 13:07 UTC therefore posts at ~14:00-14:20 UTC ≈ 10:00-10:20 AM ET. Adjust the
+  # cron by that lead, not by the time you want to see the post.
+  #
+  # GitHub cron is fixed UTC and ignores DST, so during EST this lands an hour
+  # earlier local. Odd minute dodges top-of-hour scheduler congestion.
   schedule:
-    - cron: "27 14 * * FRI"
+    - cron: "7 13 * * FRI"
   workflow_dispatch: {}
 
 permissions:

@@ -1,10 +1,21 @@
 name: govbot-meta-threads-weekly-digest
 
 on:
-  # Friday afternoon, staggered after the Bluesky (17:00) and X (14:27) digests
-  # so the three don't race the shared govbot fetch / Ollama install.
+  # SATURDAY, first slot. Threads is a leisure-scroll feed whose audience peaks
+  # on weekend mornings rather than during the working week, so the digest moved
+  # off Friday (where it competed with the X and Bluesky digests for both the
+  # runner pool and the reader's feed) to Saturday morning. It also clears the
+  # Saturday slot the daily Threads poster used to hold — that run now goes out
+  # Sunday, so the two never land on the same day.
+  #
+  # NOTE the lead time: cron fires the *workflow*, not the post. The prepare job
+  # clones 50+ states first, so the thread lands roughly 45-70 minutes later.
+  # 13:07 UTC therefore posts at ~14:00-14:20 UTC ≈ 10:00-10:20 AM ET.
+  #
+  # GitHub cron is fixed UTC and ignores DST, so during EST this lands an hour
+  # earlier local. Odd minute dodges top-of-hour scheduler congestion.
   schedule:
-    - cron: "27 15 * * FRI"
+    - cron: "7 13 * * SAT"
   workflow_dispatch: {}
 
 permissions:

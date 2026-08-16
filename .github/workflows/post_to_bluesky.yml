@@ -2,7 +2,10 @@ name: govbot-bluesky-post
 
 on:
   schedule:
-    # 3x a week on Mon/Wed/Fri (cron days 1,3,5) at 13:12 UTC ≈ 9:12 AM ET,
+    # 2x a week on Mon/Wed (cron days 1,3) at 13:12 UTC ≈ 9:12 AM ET.
+    # (This comment previously said Mon/Wed/Fri; the cron has only ever listed
+    # 1,3, so Friday was never actually scheduled. Add 5 to the day list if a
+    # third run is wanted — the Friday slot is free of daily posts.)
     # catching Bluesky's news/policy audience in the morning news cycle. GitHub
     # cron is fixed UTC and ignores DST, so during EST this lands an hour earlier
     # local. Odd minute (:12) dodges the top-of-hour scheduler congestion.

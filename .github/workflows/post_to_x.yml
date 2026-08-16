@@ -2,11 +2,19 @@ name: govbot-x-post-ai-data-centers-including-crypto
 
 on:
   schedule:
-    # 3x a week on Tue/Thu/Sat (cron days 2,4,6) at 12:27 UTC ≈ 8:27 AM ET,
-    # catching X's real-time news/politics audience in the early-morning feed.
+    # 3x a week on Tue/Thu/Sun (cron days 2,4,0) at 12:27 UTC. The third run
+    # moved off Saturday so it doesn't share a day with the weekend digests, and
+    # Sunday spreads the week more evenly (Tue/Thu/Sun) than Tue/Thu/Sat, which
+    # left a three-day gap over the weekend.
+    #
+    # NOTE the lead time: cron fires the *workflow*, not the post. The prepare
+    # job clones 50+ states first, so the first tweet lands roughly 45-90 minutes
+    # later — 12:27 UTC posts at ~13:15-14:00 UTC ≈ 9:15-10:00 AM ET, still
+    # inside X's morning news/politics window.
+    #
     # GitHub cron is fixed UTC and ignores DST, so during EST this lands an hour
     # earlier local. Odd minute (:27) dodges the top-of-hour scheduler congestion.
-    - cron: "27 12 * * 2,4,6"
+    - cron: "27 12 * * 2,4,0"
   workflow_dispatch:
 
 permissions:

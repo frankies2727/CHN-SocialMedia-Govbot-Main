@@ -1,10 +1,20 @@
 name: govbot-bluesky-weekly-digest
 
 on:
-  # Friday 21:00 UTC = ~4 pm ET (5 pm EDT) -- captures the legislative week
-  # and gives readers weekend content.
+  # FRIDAY, second slot (90 min after the X digest). Bluesky's audience skews
+  # news/policy and is most active during US working hours, so it pairs with X
+  # on Friday rather than with the weekend visual feeds. The 90-minute gap keeps
+  # two full 50-state clones off the runner pool at the same moment.
+  #
+  # NOTE the lead time: cron fires the *workflow*, not the post. The prepare job
+  # clones first, so posts land roughly 45-70 minutes later — 14:37 UTC posts at
+  # ~15:30-15:50 UTC ≈ 11:30-11:50 AM ET. This digest also fans out over five
+  # shards, so the last topic lands later than the first.
+  #
+  # GitHub cron is fixed UTC and ignores DST, so during EST this lands an hour
+  # earlier local. Odd minute dodges top-of-hour scheduler congestion.
   schedule:
-    - cron: "0 17 * * FRI"
+    - cron: "37 14 * * FRI"
   workflow_dispatch: {}
 
 permissions:

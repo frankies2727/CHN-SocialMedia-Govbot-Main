@@ -1,10 +1,21 @@
 name: govbot-instagram-weekly-digest
 
 on:
-  # Friday afternoon, staggered after the Bluesky (17:00), X (14:27), and Threads
-  # (15:27) digests so the four don't race the shared govbot fetch / Ollama install.
+  # SATURDAY, second slot (90 min after the Threads digest). The weekly carousel
+  # is the most visual thing this bot publishes, and Instagram's saving/sharing
+  # peaks late on a weekend morning — so it gets the best weekend slot rather
+  # than a Friday afternoon one. The 90-minute gap keeps two full 50-state clones
+  # off the runner pool at the same moment.
+  #
+  # NOTE the lead time: cron fires the *workflow*, not the post. The prepare job
+  # clones first, and the carousel additionally renders its cards, commits them,
+  # and waits for the CDN before publishing — so the post lands roughly an hour
+  # later. 14:37 UTC therefore posts at ~15:30-15:50 UTC ≈ 11:30-11:50 AM ET.
+  #
+  # GitHub cron is fixed UTC and ignores DST, so during EST this lands an hour
+  # earlier local. Odd minute dodges top-of-hour scheduler congestion.
   schedule:
-    - cron: "42 15 * * FRI"
+    - cron: "37 14 * * SAT"
   workflow_dispatch: {}
 
 permissions:
