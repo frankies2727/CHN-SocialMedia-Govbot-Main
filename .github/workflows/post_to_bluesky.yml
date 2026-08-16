@@ -143,6 +143,12 @@ jobs:
         shard: [0, 1, 2, 3, 4]
     env:
       LLM_MODEL: "gemma3:4b"
+      # Wall-clock budget for the script itself, under the 120-minute job cap
+      # above. Per-call LLM ceilings are 27 min, so without this one stuck bill
+      # could spend 108+ min and get the job CANCELLED — which skips the commit
+      # step. With it, the run clamps each call to the time left and finishes
+      # early with fewer LLM-written posts instead of being killed.
+      RUN_DEADLINE_MINUTES: "95"
     steps:
       - name: Free disk space
         # The Ollama LLM (~3.3 GB) plus the full bill corpus in RAM need the

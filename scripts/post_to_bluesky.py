@@ -95,17 +95,18 @@ BLUESKY_API = "https://bsky.social/xrpc"
 # and the model has been pulled with `ollama pull <LLM_MODEL>`.
 LLM_API_URL = os.environ.get("LLM_API_URL", "http://localhost:11434/api/chat")
 LLM_MODEL = os.environ.get("LLM_MODEL", "gemma3:4b")
-# Sized for gemma3:4b. Do not raise these without checking the model actually
-# finishes inside them: gemma3:12b (8.1 GB on a 16 GB runner) could not complete
-# a single summary in 900s — it thrashed swap — and each stuck bill then burned
-# 900+360+360s before falling back anyway. A ceiling only helps if the model can
-# finish under it; past that it just makes failure slower.
-LLM_TIMEOUT = int(os.environ.get("LLM_TIMEOUT", "420"))
+# Generous per-call ceilings (27 min) so a merely SLOW call — a loaded free
+# runner chewing through a long omnibus bill — is allowed to finish instead of
+# being cut off and dropped to the raw-text fallback. This is only safe because
+# of RUN_DEADLINE_MINUTES below: without a run-level budget these ceilings let a
+# single stuck bill spend 108+ minutes against a 120-minute job cap, which is how
+# the 12b experiment produced a cancelled digest that posted nothing.
+LLM_TIMEOUT = int(os.environ.get("LLM_TIMEOUT", "1620"))
 # On a timeout/transport error the post-copy call is retried (see _post_copy).
 # The retries use this shorter ceiling so a genuinely wedged model fails fast and
 # the run falls back to deterministic copy instead of burning the job's minute
 # budget — a warm model answers in seconds, so a short retry window is plenty.
-LLM_RETRY_TIMEOUT = int(os.environ.get("LLM_RETRY_TIMEOUT", "180"))
+LLM_RETRY_TIMEOUT = int(os.environ.get("LLM_RETRY_TIMEOUT", "1620"))
 # How long Ollama keeps the model resident between requests. Without this it
 # defaults to 5 minutes, so a topic that spends several minutes downloading
 # PDFs between summaries can force a cold model reload mid-run. Pin it for the
@@ -123,7 +124,36 @@ RELEVANCE_GATE = (os.environ.get("RELEVANCE_GATE", "1").strip() != "0")
 # falling open (which lets the bill through unjudged). Overridable per run. Kept
 # above LLM_TIMEOUT (the copy call's ceiling) so the invariant holds after that
 # ceiling was raised.
-RELEVANCE_GATE_TIMEOUT = int(os.environ.get("RELEVANCE_GATE_TIMEOUT", "480"))
+RELEVANCE_GATE_TIMEOUT = int(os.environ.get("RELEVANCE_GATE_TIMEOUT", "1620"))
+
+# Wall-clock budget for the whole run, in minutes; 0 (the default) means no
+# deadline. When set, EVERY LLM call's timeout is additionally clamped to the
+# time actually left, so a generous per-call ceiling can never push the job past
+# its Actions cap. That distinction matters: a run that overruns is CANCELLED by
+# GitHub mid-step, which skips the commit step and loses whatever it had done,
+# whereas a run that respects a deadline finishes early with fewer LLM-written
+# posts and still commits. Set it below the job's timeout-minutes, leaving room
+# for setup and the commit step.
+RUN_DEADLINE_MINUTES = float(os.environ.get("RUN_DEADLINE_MINUTES", "0") or 0)
+_RUN_START = time.monotonic()
+# Below this there is no point starting a call — it cannot finish, and the wait
+# buys nothing over going straight to the deterministic fallback.
+MIN_LLM_CALL_SECONDS = 20
+
+
+def run_seconds_left() -> float:
+    """Seconds remaining in the run's self-imposed budget (inf when unset)."""
+    if RUN_DEADLINE_MINUTES <= 0:
+        return float("inf")
+    return RUN_DEADLINE_MINUTES * 60 - (time.monotonic() - _RUN_START)
+
+
+def budgeted_timeout(timeout: int) -> int:
+    """Clamp one LLM call's timeout to the time left in the run."""
+    left = run_seconds_left()
+    if left == float("inf"):
+        return timeout
+    return max(MIN_LLM_CALL_SECONDS, min(timeout, int(left)))
 
 IMG_MAX_DOWNLOAD = 5 * 1024 * 1024
 IMG_TARGET_SIZE  = 900 * 1024
@@ -1480,7 +1510,7 @@ def _translate_to_english(text: str, num_predict: int = 400) -> str:
                 "keep_alive": LLM_KEEP_ALIVE,
                 "options": {"num_predict": num_predict, "temperature": 0.1},
             },
-            timeout=LLM_TIMEOUT,
+            timeout=budgeted_timeout(LLM_TIMEOUT),
         )
         if not r.ok:
             print(f"  ! translation {r.status_code}: {r.text[:200]}", file=sys.stderr)
@@ -2312,7 +2342,7 @@ def _post_copy(b: dict) -> dict:
                 "keep_alive": LLM_KEEP_ALIVE,
                 "options": {"num_predict": 320, "temperature": 0.4},
             },
-            timeout=timeout,
+            timeout=budgeted_timeout(timeout),
         )
         if not r.ok:
             print(f"  ! LLM post-copy {r.status_code}: {r.text[:300]}", file=sys.stderr)
@@ -2484,7 +2514,7 @@ def is_on_topic(b: dict, topic: "Topic | None" = None) -> bool:
                 "keep_alive": LLM_KEEP_ALIVE,
                 "options": {"num_predict": 80, "temperature": 0.2},
             },
-            timeout=RELEVANCE_GATE_TIMEOUT,
+            timeout=budgeted_timeout(RELEVANCE_GATE_TIMEOUT),
         )
         r.raise_for_status()
         data = r.json()

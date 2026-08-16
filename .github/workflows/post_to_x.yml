@@ -131,6 +131,12 @@ jobs:
     timeout-minutes: 120
     env:
       LLM_MODEL: "gemma3:4b"
+      # Wall-clock budget for the script itself, under the 120-minute job cap
+      # above. Per-call LLM ceilings are 27 min, so without this one stuck bill
+      # could spend 108+ min and get the job CANCELLED — which skips the commit
+      # step. With it, the run clamps each call to the time left and finishes
+      # early with fewer LLM-written posts instead of being killed.
+      RUN_DEADLINE_MINUTES: "95"
       BOT_TOPIC: "ai_data_centers"
       POST_LIMIT: "3"
       DRY_RUN: "0"
