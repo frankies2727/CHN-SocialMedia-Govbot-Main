@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 587",
+    "legislative_session": "2025-2026",
+    "title": "A Resolution recognizing July 25, 2026, as \"World IVF Day\" in Pennsylvania."
+  },
+  "id": "HR 587",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Health",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-20T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hr587"
+        }
+      ]
+    },
+    "bill_id": "HR 587"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HR587/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HR587/logs/20260720T040000Z_referred_to_health.json"
+  },
+  "timestamp": "20260720T040000Z",
+  "posted_text": "🤰 PA HR 587 — Pennsylvania to Honor the Birth of the First IVF Baby\n\nThe Pennsylvania House of Representatives is considering a resolution to recognize July 25, 2026, as ‘World IVF Day’ in Pennsylvania.\n\nThe resolution acknowledges the significant advancements in fertility medicine and the vital role of embryologists, highlighting the success of in vitro fertilization (IVF) – a process used to help individuals and couples with infertility issues conceive.\n\nIt notes that over 10 million babies have been born worldwide through IVF, and that the day marks the birthday of the first baby successfully born through this procedure, which can be costly and carries potential health risks.\n\nJuly 20, 2026: Referred to Health.\n\n🔗 Read the full bill: https://www.palegis.us/legislation/bills/2025/hr587\n\n#ReproductiveRights #Pennsylvania #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.palegis.us/legislation/bills/2025/hr587",
+  "posted_url": "https://www.instagram.com/p/DcJpH2KlNNr/"
+}

@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB193",
+    "legislative_session": "34",
+    "subject": [
+      "EMPLOYMENT",
+      "FAMILIES",
+      "LABOR",
+      "UNEMPLOYMENT",
+      "WAGES"
+    ],
+    "title": "An Act relating to minimum paid sick leave requirements; establishing a paid parental leave program; relating to employer surcharges; relating to the employment assistance and training program account; relating to unemployment benefits; relating to the collection of child support obligations; relating to employee unemployment tax credits; relating to employer contributions to unemployment; relating to the duties of the Department of Labor and Workforce Development; and providing for an effective date."
+  },
+  "id": "HB193",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-failure"
+      ],
+      "description": "(H) AM NO 8 FAILED Y17 N22 A1",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-22",
+      "session_id": "34",
+      "sources": [
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB193"
+        },
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB193#tab5_4"
+        }
+      ]
+    },
+    "bill_id": "HB193"
+  },
+  "sources": {
+    "bill": "ak-legislation/country:us/state:ak/sessions/34/bills/HB193/metadata.json",
+    "log": "ak-legislation/country:us/state:ak/sessions/34/bills/HB193/logs/20260722T000000Z_h_am_no_8_failed_y17_n22_a1.json"
+  },
+  "timestamp": "20260722T000000Z",
+  "posted_text": "💰 AK HB193 — Alaska Could Require Employers to Offer Paid Sick Time\n\nAlaska is considering a new law that would require employers with five or more employees to provide paid sick leave to their workers.\n\nEmployees would accrue at least one hour of paid sick time for every hour worked, up to a maximum of 40 hours per year, unless their employer sets a higher limit.\n\nThe rules would apply to all employees, including those exempt from overtime, and allow accrued sick time to roll over to the next year.\n\nThis new provision also addresses federal income tax withholding for paid parental leave benefits and adjusts unemployment benefit allowances for dependents.\n\nJuly 22, 2026: (h) Am No 8 Failed Y17 N22 A1.\n\n🔗 Read the full bill: https://www.akleg.gov/basis/Bill/Detail/34?Root=HB193\n\n#Taxation #Alaska #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB193",
+  "posted_url": "https://www.instagram.com/p/DcJp5S2FDsM/"
+}

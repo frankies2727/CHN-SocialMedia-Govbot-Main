@@ -1,0 +1,51 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Montaño of Boston, a petition (accompanied by bill, House, No. 2501) of Samantha Montaño relative to LGBTQ+ health disparities.  Public Health.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H2501",
+    "legislative_session": "194th",
+    "title": "An Act relative to LGBTQ+ health disparities"
+  },
+  "id": "H2501",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Committee recommended bill ought to pass and referred to the committee on House Ways and Means",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-31",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "the committee on House Ways and Means"
+        },
+        {
+          "entity_type": "organization",
+          "name": "committee on House Ways and Means"
+        }
+      ],
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/H2501"
+        }
+      ]
+    },
+    "bill_id": "H2501"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H2501/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H2501/logs/20260731T000000Z_committee_recommended_bill_ought_to_pass_and_referred_to_the_committee_on_house_ways_and_means.json"
+  },
+  "timestamp": "20260731T000000Z",
+  "posted_text": "🏳️‍🌈 MA H2501 — Massachusetts Aims to Tackle LGBTQ+ Health Gaps\n\nMassachusetts is taking a new step to address health disparities faced by LGBTQ+ individuals.\n\nThis bill directs the state’s health and human services agencies, along with the Department of Education and the Department of Higher Education, to voluntarily collect data on sexual orientation and gender identity from residents and students.\n\nThe goal is to identify and reduce these disparities in healthcare services.\n\nSpecifically, the bill requires agencies to gather this information during direct service provision and surveys, and to share aggregated, deidentified data annually with the Office of Health Equity.\n\nThis data will then be used to improve care coordination, quality improvement, and policy decisions, while safeguarding individual privacy.\n\nThe bill also mandates the development of training guidelines for staff working with LGBTQ+ individuals to ensure culturally competent care.\n\nJuly 31, 2026: Committee recommended bill ought to pass and referred to the committee on House Ways and Means.\n\n🔗 Read the full bill: https://malegislature.gov/Bills/194/H2501\n\n#LGBTQ #Massachusetts #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://malegislature.gov/Bills/194/H2501",
+  "posted_url": "https://www.instagram.com/p/DcJoZX_lALf/"
+}
