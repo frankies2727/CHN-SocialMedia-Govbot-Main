@@ -540,6 +540,21 @@ def _collapse_repeated_phrase(s: str) -> str:
     return s
 
 
+def _is_shouting(s: str) -> bool:
+    """True when a string is filed in capitals rather than written that way.
+
+    Several states file titles entirely uppercase — 374 of 2,663 archived bills,
+    Illinois and Delaware among them — and when the model produces no headline
+    that title becomes the post head verbatim, so a carousel card read "CLIMATE
+    CHANGE SUPERFUND". Deliberately narrow: only strings with real length and
+    almost no lowercase qualify, so a mixed-case title, or a short one that is
+    mostly an identifier, is left exactly as filed."""
+    letters = [c for c in s if c.isalpha()]
+    if len(letters) < 12:
+        return False
+    return sum(1 for c in letters if c.isupper()) / len(letters) > 0.9
+
+
 def _sanitize_title(title: str) -> str:
     """Strip scraped web/digest boilerplate a few states fuse onto the real
     title, cutting it back to the clean leading subject. Never returns empty —
@@ -551,6 +566,14 @@ def _sanitize_title(title: str) -> str:
     t = _COUNSEL_DIGEST_RE.sub("", t)
     t = _collapse_repeated_phrase(t)
     t = t.strip()
+    # Several states file their titles entirely in capitals — 374 of 2,663
+    # archived bills, Illinois and Delaware among them — and when no model
+    # headline is produced that title becomes the post head verbatim, so the
+    # carousel card read "CLIMATE CHANGE SUPERFUND". _smart_case only acts on a
+    # string that is actually shouting (>70% uppercase) and keeps known
+    # acronyms, so a normal mixed-case title passes through untouched.
+    if _is_shouting(t):
+        t = _smart_case(t)
     return t if t else (title or "")
 
 
@@ -853,6 +876,12 @@ def _strip_trailing_date(s: str, date_yyyy_mm_dd: str) -> str:
     return s
 
 
+_KNOWN_ACRONYMS = {
+    "US", "USA", "AI", "EPA", "FBI", "CIA", "DNA", "NASA", "IRS", "GDP",
+    "LLC", "PA", "ID", "TV", "CEO", "DUI", "DMV", "ICE", "LGBTQ",
+}
+
+
 def _smart_case(s: str) -> str:
     s = s.strip().rstrip(".")
     if not s:
@@ -860,9 +889,16 @@ def _smart_case(s: str) -> str:
     letters = [c for c in s if c.isalpha()]
     if letters and sum(1 for c in letters if c.isupper()) / len(letters) > 0.7:
         small = {"a","an","and","of","or","the","to","by","in","on","for","with","at"}
-        words = s.lower().split()
         out = []
-        for i, w in enumerate(words):
+        for i, raw in enumerate(s.split()):
+            # Keep genuine acronyms uppercase — title-casing the whole string
+            # turns "AI" into "Ai" and "DNA" into "Dna", which is worse than the
+            # shouting it fixes. Compare on the letters only, so "(AI)," matches.
+            bare = "".join(c for c in raw if c.isalpha())
+            if bare.upper() in _KNOWN_ACRONYMS:
+                out.append(raw.upper())
+                continue
+            w = raw.lower()
             out.append(w.capitalize() if (i == 0 or w not in small) else w)
         return " ".join(out)
     return s[0].upper() + s[1:] if s[0].isalpha() else s
@@ -2199,12 +2235,6 @@ def _delegalese_headline(title: str, full_text: str = "") -> str:
 # Acronyms kept uppercase when a fallback summary lowercases PA's shouting
 # inserted-text markers. Small, general-audience set; everything else is treated
 # as an amendment marker and lowercased.
-_KNOWN_ACRONYMS = {
-    "US", "USA", "AI", "EPA", "FBI", "CIA", "DNA", "NASA", "IRS", "GDP",
-    "LLC", "PA", "ID", "TV", "CEO", "DUI", "DMV", "ICE", "LGBTQ",
-}
-
-
 def _summary_from_body(prepared_body: str, max_chars: int = 240) -> str:
     """A plain-language blurb pulled straight from the operative bill text — the
     non-LLM fallback so a post with full text says something concrete rather than
@@ -2513,7 +2543,12 @@ def _post_copy(b: dict) -> dict:
             f"CURRENT STATUS: \"{action_desc}\". Unless that status says the bill "
             f"was enacted, signed into law, or took effect, it is a PROPOSAL that "
             f"may never pass — say what it WOULD do, and never state or imply it "
-            f"is already law.\n\n"
+            f"is already law. In particular the HEADLINE must not call it a law, "
+            f"an act in force, or a rule now in effect (no \"New Law\", "
+            f"\"NY Law:\", \"Now Requires\"): the first version of this rule "
+            f"only constrained the summary, and a card still went out headlined "
+            f"\"NY Law: Tips About Medicaid Fraud Now Go to Two Agencies\" for a "
+            f"bill whose status was \"REFERRED TO RULES\".\n\n"
         )
 
     # For blob bills the title is the same wall of legalese as the body, so don't
