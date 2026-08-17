@@ -2279,12 +2279,45 @@ def _parse_copy_json(text: str) -> tuple[str, str]:
                 obj = json.loads(m.group(0))
             except Exception:
                 obj = None
-    if not isinstance(obj, dict):
-        return "", ""
-    return (
-        str(obj.get("headline") or "").strip(),
-        str(obj.get("summary") or "").strip(),
-    )
+    if isinstance(obj, dict):
+        return (
+            str(obj.get("headline") or "").strip(),
+            str(obj.get("summary") or "").strip(),
+        )
+    return _salvage_copy_fields(text)
+
+
+def _salvage_copy_fields(text: str) -> tuple[str, str]:
+    """Last-resort field extraction when the reply is not parseable JSON.
+
+    A small model reliably produces the right CONTENT in a slightly broken
+    envelope, and throwing that away costs a whole post. Two shapes recur:
+
+      unescaped inner quotes — a bill whose own text quotes an act name comes
+      back as {"summary": "Creates the "Wellness and Oversight for Psychological
+      Resources Act" and requires..."}, which json.loads rejects outright. CA
+      SB903 posted a raw citation blurb for exactly this reason, twice, while
+      the model's actual answer was discarded;
+
+      truncation — output cut at the token limit mid-summary, so there is no
+      closing brace for the {.*} rescue above to match.
+
+    So locate the keys by index rather than parsing: take everything between a
+    field's opening quote and the next field's key (or the end for the last
+    one). Returns ("", "") when the keys aren't there at all."""
+    def _field(key: str, stop: str) -> str:
+        m = re.search(r'"%s"\s*:\s*"' % key, text)
+        if not m:
+            return ""
+        rest = text[m.end():]
+        end = re.search(stop, rest)
+        raw = rest[:end.start()] if end else rest
+        # Strip a trailing quote/brace left by the slice, and any escape slashes.
+        return raw.strip().rstrip("}").strip().rstrip('"').strip().replace('\\"', '"')
+
+    headline = _field("headline", r'"\s*,\s*"summary"\s*:')
+    summary = _field("summary", r'"\s*,\s*"headline"\s*:')
+    return headline, summary
 
 
 def _post_copy(b: dict) -> dict:
@@ -2445,13 +2478,28 @@ def _post_copy(b: dict) -> dict:
             f"the headline and summary on the specific provision(s) and text below.\n\n"
         )
 
+    # The bill's current stage. Without it the model narrates a proposal as
+    # settled law: US HR 10102 posted as "A new federal law will levy a 1-cent
+    # excise tax on the electricity used by data centers" while its own action
+    # line, in the same post, read "Referred to the Committee on Ways and Means".
+    # The status is already on the record, so hand it to the model too.
+    action_desc = (b.get("action_desc") or "").strip()
+    status_note = ""
+    if action_desc:
+        status_note = (
+            f"CURRENT STATUS: \"{action_desc}\". Unless that status says the bill "
+            f"was enacted, signed into law, or took effect, it is a PROPOSAL that "
+            f"may never pass — say what it WOULD do, and never state or imply it "
+            f"is already law.\n\n"
+        )
+
     # For blob bills the title is the same wall of legalese as the body, so don't
     # send it as a separate "Title:" line. A vague subject title is likewise
     # useless as an anchor, so omit it too.
     if blob or vague_title:
-        user_prompt = f"{amendatory_note}{vague_note}{purpose_note}{topic_anchor_note}{home_state_line}Bill text:\n{body[:char_cap]}"
+        user_prompt = f"{amendatory_note}{vague_note}{purpose_note}{topic_anchor_note}{status_note}{home_state_line}Bill text:\n{body[:char_cap]}"
     else:
-        user_prompt = f"{amendatory_note}{purpose_note}{topic_anchor_note}{home_state_line}Title: {title}\nBill text:\n{body[:char_cap]}"
+        user_prompt = f"{amendatory_note}{purpose_note}{topic_anchor_note}{status_note}{home_state_line}Title: {title}\nBill text:\n{body[:char_cap]}"
 
     system_prompt = TOPIC.post_copy_system_prompt(
         max_chars=POST_COPY_MAX_CHARS,
