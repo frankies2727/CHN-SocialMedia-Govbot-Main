@@ -185,6 +185,16 @@ RELEVANCE_GATE_TIMEOUT = int(os.environ.get("RELEVANCE_GATE_TIMEOUT", "1620"))
 # further only alongside a larger model.
 POST_COPY_MAX_SOURCE_CHARS = int(os.environ.get("POST_COPY_MAX_SOURCE_CHARS", "12000"))
 
+# Ceiling on the ENTIRE prompt (system + notes + bill text) sent for post copy.
+# This, not the source cap alone, is what gemma3:4b actually fails on — see the
+# measured table in _post_copy. 17,000 is the largest total observed to produce
+# a usable answer; the source cap above remains an upper bound for the bill-text
+# portion. Raise both together with a larger model.
+POST_COPY_MAX_PROMPT_CHARS = int(os.environ.get("POST_COPY_MAX_PROMPT_CHARS", "17000"))
+# Never starve the model of bill text: below this the prompt is all instruction
+# and no evidence, and a summary would have to be invented.
+MIN_BILL_TEXT_CHARS = 1500
+
 
 # Section markers a bill uses to start a new provision. Preferred split points
 # for _relevant_window, because a whole "Sec. 12. …" block is a self-contained
@@ -2551,18 +2561,41 @@ def _post_copy(b: dict) -> dict:
             f"bill whose status was \"REFERRED TO RULES\".\n\n"
         )
 
-    # For blob bills the title is the same wall of legalese as the body, so don't
-    # send it as a separate "Title:" line. A vague subject title is likewise
-    # useless as an anchor, so omit it too.
-    if blob or vague_title:
-        user_prompt = f"{amendatory_note}{vague_note}{purpose_note}{topic_anchor_note}{status_note}{home_state_line}Bill text:\n{body[:char_cap]}"
-    else:
-        user_prompt = f"{amendatory_note}{purpose_note}{topic_anchor_note}{status_note}{home_state_line}Title: {title}\nBill text:\n{body[:char_cap]}"
-
     system_prompt = TOPIC.post_copy_system_prompt(
         max_chars=POST_COPY_MAX_CHARS,
         amendatory=amendatory, home_state=state_name, federal=federal
     )
+
+    # For blob bills the title is the same wall of legalese as the body, so don't
+    # send it as a separate "Title:" line. A vague subject title is likewise
+    # useless as an anchor, so omit it too.
+    if blob or vague_title:
+        preamble = f"{amendatory_note}{vague_note}{purpose_note}{topic_anchor_note}{status_note}{home_state_line}Bill text:\n"
+    else:
+        preamble = f"{amendatory_note}{purpose_note}{topic_anchor_note}{status_note}{home_state_line}Title: {title}\nBill text:\n"
+
+    # Budget the bill text against the WHOLE prompt, not on its own. The system
+    # prompt is ~9,300 characters before a single line of bill text, and the
+    # notes above add more, so a fixed source cap silently becomes a much larger
+    # total. Measured on the nine bills of one Instagram digest, outcome split
+    # exactly on the total and not on the bill length:
+    #
+    #   NY S10680   14,266 total   model wrote the headline
+    #   AK HB10     15,378 total   model wrote the headline
+    #   CA AB2483   16,594 total   model wrote the headline
+    #   CA AB2575   17,036 total   model wrote the headline
+    #   IL SB2981   21,265 total   nothing usable -> raw title, one-line blurb
+    #   MI SB 1141  21,450 total   nothing usable -> raw title
+    #   NY A10455   21,772 total   nothing usable -> raw title
+    #
+    # CA AB2575 is 17,834 characters of bill text and worked; MI SB 1141 failed
+    # on the same 12,000-character window. The difference was the total. So take
+    # the total as the budget and give the bill text whatever is left, which also
+    # adapts when a topic's system prompt or the notes change length.
+    overhead = len(system_prompt) + len(preamble)
+    char_cap = max(MIN_BILL_TEXT_CHARS,
+                   min(char_cap, POST_COPY_MAX_PROMPT_CHARS - overhead))
+    user_prompt = preamble + body[:char_cap]
 
     def _call_llm(extra_system: str = "", timeout: int = LLM_TIMEOUT) -> tuple[str, str]:
         """One post-copy round-trip → (headline, summary). Raises on transport
