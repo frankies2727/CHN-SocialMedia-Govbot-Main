@@ -25,6 +25,7 @@ import time
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 from urllib.parse import urlparse, urljoin
 
 import requests
@@ -93,6 +94,28 @@ BLUESKY_API = "https://bsky.social/xrpc"
 # Local LLM via Ollama. Defaults assume `ollama serve` is running on the
 # same host (e.g. installed in the GitHub Actions step before this script runs)
 # and the model has been pulled with `ollama pull <LLM_MODEL>`.
+# Calendar day the digests reckon in. Actions runs on UTC, so an evening run in
+# the US is already "tomorrow" by UTC: the X weekly digest that fired 20:31 on
+# Sunday Chicago time was 01:31 Monday UTC, and labelled itself "Aug 11–Aug 17,
+# 2026" — a window a day ahead of the readers it was written for. ``today`` also
+# drives the 7-day lookback, so the drift shifted which bills were eligible, not
+# just the label. Reckon the day in the audience's timezone instead.
+GOVBOT_TZ = os.environ.get("GOVBOT_TZ", "America/Chicago")
+
+
+def local_today() -> datetime:
+    """Midnight today in GOVBOT_TZ, returned naive because the digests compare
+    it against naive action dates. Falls back to UTC if the zone can't be loaded
+    (a container without tzdata) rather than failing the run."""
+    now = datetime.now(timezone.utc)
+    try:
+        now = now.astimezone(ZoneInfo(GOVBOT_TZ))
+    except Exception as e:  # pragma: no cover - depends on system tzdata
+        print(f"  ! timezone {GOVBOT_TZ!r} unavailable ({e}); using UTC dates",
+              file=sys.stderr)
+    return now.replace(hour=0, minute=0, second=0, microsecond=0, tzinfo=None)
+
+
 LLM_API_URL = os.environ.get("LLM_API_URL", "http://localhost:11434/api/chat")
 LLM_MODEL = os.environ.get("LLM_MODEL", "gemma3:4b")
 # Generous per-call ceilings (27 min) so a merely SLOW call — a loaded free

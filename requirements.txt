@@ -3,3 +3,4 @@ Pillow
 PyYAML
 tweepy==4.14.0   # Best library for X posting
 PyNaCl           # Encrypts the refreshed Threads token for secret write-back
+tzdata          # zoneinfo needs an IANA database; ships one so the digests' Chicago dates don't depend on the runner image

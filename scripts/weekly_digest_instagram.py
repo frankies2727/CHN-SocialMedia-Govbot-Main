@@ -53,6 +53,7 @@ from PIL import Image
 import digest_multitopic as dm
 import post_to_bluesky as pb
 from post_to_bluesky import (
+    local_today,
     best_display_text,
     display_identifier,
     ensure_english_fields,
@@ -636,8 +637,9 @@ def main() -> int:
         print(f"ERROR: missing Instagram credentials: {', '.join(missing)}", file=sys.stderr)
         return 1
 
-    today = datetime.now(timezone.utc).replace(
-        hour=0, minute=0, second=0, microsecond=0, tzinfo=None)
+    # Chicago calendar day, not UTC: an evening US run is already tomorrow by
+    # UTC, which both mislabels the window and shifts the 7-day lookback.
+    today = local_today()
 
     picks, have_corpus = _select(today)
     if not picks:

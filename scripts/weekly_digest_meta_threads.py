@@ -47,6 +47,7 @@ import digest_multitopic as dm
 import post_to_bluesky as pb
 import post_to_meta_threads as pmt
 from post_to_bluesky import (
+    local_today,
     _FILENAME_UNSAFE_RE,
     _slug,
     ensure_english_fields,
@@ -304,8 +305,9 @@ def main() -> int:
     if not records:
         return 0
 
-    today = datetime.now(timezone.utc).replace(
-        hour=0, minute=0, second=0, microsecond=0, tzinfo=None)
+    # Chicago calendar day, not UTC: an evening US run is already tomorrow by
+    # UTC, which both mislabels the window and shifts the 7-day lookback.
+    today = local_today()
 
     # Extract every bill once, then build each topic's match list from the shared
     # dicts (a bill can match several topics; the round-robin dedups by bill).

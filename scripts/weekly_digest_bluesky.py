@@ -25,6 +25,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from post_to_bluesky import (
+    local_today,
     BlueskyClient,
     TOPIC,
     FETCH_OG_IMAGE,
@@ -468,7 +469,9 @@ def main() -> int:
     if not records:
         return 0
 
-    today = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0, tzinfo=None)
+    # Chicago calendar day, not UTC: an evening US run is already tomorrow by
+    # UTC, which both mislabels the window and shifts the 7-day lookback.
+    today = local_today()
 
     all_bills = collect_topic_bills(records)
     if not all_bills:
