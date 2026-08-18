@@ -185,7 +185,27 @@ jobs:
       - name: Install poppler-utils (pdftotext)
         # Lets scripts/bill_text.py extract full bill text from PDFs for the
         # digest summaries; degrades gracefully to abstract-only if absent.
-        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+        # Bounded and retried. On govbot-bluesky-post #93 two of five shards hung
+        # here for 102 minutes — a step that takes 6-13s on a healthy runner —
+        # until the 120-minute job cap killed them, losing both shards' posts.
+        # apt has no timeout of its own, so a slow mirror or a held dpkg lock
+        # stalls indefinitely; the script's own RUN_DEADLINE_MINUTES cannot help
+        # because Python never starts. timeout-minutes bounds the step, and
+        # `timeout` bounds each apt call so a retry can actually happen.
+        timeout-minutes: 6
+        run: |
+          for attempt in 1 2 3; do
+            if sudo timeout 90 apt-get update -qq \
+               && sudo timeout 90 apt-get install -y -qq poppler-utils; then
+              echo "poppler-utils ready (attempt $attempt)."
+              exit 0
+            fi
+            echo "apt attempt $attempt failed or timed out; retrying..."
+            sleep $(( attempt * 5 ))
+          done
+          # Non-fatal: bill_text falls back to the staged pre-extracted text and
+          # then to abstracts. A thinner post beats a two-hour hang.
+          echo "::warning::poppler-utils unavailable; PDF text extraction will fall back to abstracts."
 
       - name: Install Python deps
         run: pip install -r requirements.txt
