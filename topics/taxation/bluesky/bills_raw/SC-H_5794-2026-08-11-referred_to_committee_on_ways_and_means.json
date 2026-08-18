@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A Bill TO AMEND THE SOUTH CAROLINA CODE OF LAWS BY AMENDING SECTION 12-6-3380, RELATING TO THE INCOME TAX CREDIT FOR CHILD AND DEPENDENT CARE EXPENSES, SO AS TO MAKE THE CREDIT REFUNDABLE AND TO DELETE A PROVISION THAT OTHERWISE REDUCES THE AMOUNT OF THE CREDIT.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H 5794",
+    "legislative_session": "2025-2026",
+    "title": "Tax credit for child care expenses"
+  },
+  "id": "H 5794",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Committee on Ways and Means",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-11",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5794&session=126&summary=B"
+        }
+      ]
+    },
+    "bill_id": "H 5794"
+  },
+  "sources": {
+    "bill": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/H5794/metadata.json",
+    "log": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/H5794/logs/20260811T000000Z_referred_to_committee_on_ways_and_means.json"
+  },
+  "timestamp": "20260811T000000Z"
+}

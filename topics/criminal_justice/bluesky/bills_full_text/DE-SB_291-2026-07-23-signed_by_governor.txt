@@ -1,0 +1,32 @@
+AN ACT TO AMEND TITLE 11 OF THE DELAWARE CODE RELATING TO
+REPORTING AND REVIEW OF DEATHS OF INDIVIDUALS IN CUSTODY OF LAW
+ENFORCEMENT.
+
+Assumptions:
+1. This Act becomes effective upon signature by the Governor.
+2. This Act formalizes the requirement that law-enforcement agencies report when someone dies
+while in law-enforcement custody and establishes formal compliance reporting among applicable
+agencies.
+3. The Department of Health and Social Services, Division of Public Health (DPH), anticipates that, for
+further compliance, it would require the addition of an “in-custody” checkbox in its Delaware Vital
+Events Registration System (DelVERS) to allow for a Medical Examiner to specify whether a death
+occurred while the individual was in custody. Further, the addition of this field will ensure more
+accurate data collection and provide it to the Statistical Analysis Center.
+a. The DPH estimates a one-time implementation cost between $34,107 to $40,817 to complete
+this electronic system update.
+Cost:
+Fiscal Year 2027:
+Fiscal Year 2028:
+Fiscal Year 2029:
+
+One-Time Cost
+$34,107 – $40,817
+None
+None
+
+Prepared by Jason R. Smith
+Office of the Controller General
+
+2451530078
+
+Date: June 05, 2026

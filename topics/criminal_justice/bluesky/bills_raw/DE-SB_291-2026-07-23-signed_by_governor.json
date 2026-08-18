@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "In 2013, Congress enacted the Death in Custody Reporting Act of 2013, 34 U.S.C. § 60105, which requires states to report to the U.S. Department of Justice the deaths of individuals who die in the custody of law enforcement. Failure to comply may result in the reduction of certain federal grant funds.\r\n\r\nIn 2024, the Criminal Justice Council, which is responsible for ensuring Delaware's participation in the data collection required by the Death in Custody Reporting Act of 2013, arranged for the Statistical Analysis Center to serve as the Criminal Justice Center's agent to coordinate and manage the logistics of this data collection. The Criminal Justice Council and Statistical Analysis Center issued guidance to law enforcement on the requirements of the Death in Custody Reporting Act of 2013 and the process and procedures to be used to comply with these reporting requirements. \r\n\r\nThis Act codifies the process and procedures established by the Criminal Justice Council and Statistical Analysis Center related to the reporting required by the Death in Custody Reporting Act of 2013. In addition, this Act requires compliance reporting and provides that a law-enforcement agency that fails to comply with this Act is ineligible for certain funding until the agency complies with this Act.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 291",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 11 OF THE DELAWARE CODE RELATING TO REPORTING AND REVIEW OF DEATHS OF INDIVIDUALS IN CUSTODY OF LAW ENFORCEMENT."
+  },
+  "id": "SB 291",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-07-23",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143168"
+        }
+      ]
+    },
+    "bill_id": "SB 291"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB291/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB291/logs/20260723T000000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260723T000000Z"
+}
