@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 5382",
+    "legislative_session": "119",
+    "title": "A bill to require a report on the artificial intelligence power of the People's Republic of China."
+  },
+  "id": "S 5382",
+  "log": {
+    "action": {
+      "description": "Read twice and referred to the Committee on Foreign Relations.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-07T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s5382.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-bill/5382"
+        }
+      ]
+    },
+    "bill_id": "S 5382"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/S5382/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/S5382/logs/20260807T040000Z_read_twice_and_referred_to_the_committee_on_foreign_relations.json"
+  },
+  "timestamp": "20260807T040000Z",
+  "posted_text": "🧠 US S 5382 — A bill to require a report on the artificial intelligence power of the People's Republic of China. ...\n...",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/senate-bill/5382",
+  "posted_url": "https://x.com/i/web/status/2089710025044365646"
+}

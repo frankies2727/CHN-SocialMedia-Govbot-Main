@@ -1,0 +1,329 @@
+SENATE OF PUERTO RICO
+20th. Legislative
+3rd. Session
+Ordinary
+BILL NUMBER: 5731
+DATE:
+COMMITMENT REPORT
+POSITIVE
+OFABNIDE026
+SENATE OF PUERTO RICO
+The Committees of Government; and of Finance, Technology, e Artificial Intelligence,
+having studied and considered the project of the senate 731, recommend to this Upper
+body its approval with the minimum changes in the *.iril"d. ;i*d;;;; aaompafra. ALC/INCE DE II\MEDIDA
+Senate Bill 731 (hereinafter, p. del S. 731) has as its purpose
+to create the "Public Auction Law - with artificial intelligence and government support"; to that end, it will
+facilitate public and private auctions under the administration of the Genera_res de
+Ri5o (Asc), to provide the
+alert r" platform ]EDI in all
+!s.a.sencia1, departments, private and also ir"""-"",,,ri1"i", i"r
+government of puerto Rico; is " total pre-c r i l o " n i"J ;;;;;Hn of ,i"tema" of interigencia
+c a r r e ti a fi r c t ia rn l y R e m g o is d t e ro lo 3 p r { ib e l i l c e o ng d u e a r A ^e l . g a o " r g irn r* o , s u ; o fi , j J ar o l ' o G s l d M e i" b rr e lo r , e p s r* ; " ; ro i; , ; * de ; ; a # dq f u f i i s : ic " i6 j" n; Innovaci6n y Servicios ae fecnJfogia pffi yl"i*
+for noncompliance; and repeal discrepancies iJgabsi " * g * f , l . i" " t s o ; . establish sanctions
+MEASURE ANALYSIS
+
+Senate Bill 731, dated, intends to declare the public policy of the Government of Puerto Rico with respect to all private acquisition, contracting and subcontracting should be carried out through the Administration of Servicios Electronicos para el Comercio y la Industria (ASEC). It also calls for the use of the Joint E-procurement Digital Platform (JEDI) to be mandatory.
+
+Senate Bill S. 717
+Committees of Government; and Science, Technology, and Artificial Intelligence
+RESPONSE
+The Committees of Government and of Science, Technology and Artificial Intelligence of the Senate of Puerto Rico, as part of the study and evaluation of S. 717,
+held a public hearing on October 9, 2025, to which appeared: 1. Administration of General Services
+2. Office of Management and Budget
+3. Office of Financial Advising and Fiscal Agency
+The committees also received written comments from Puerto Rico
+Innovation and Technology Service and received the fiscal impact analysis conducted by the Legislative Assembly Budget Office.
+ADMINISTRATION OF GENERAL SERVICES
+The Administration of General Services endorses the measure. This
+instrumentality argues that the centralization of purchases to
+its digital platform, known as I.E. D.I. (Digital Procurement Intelligence), has proven to be a tool of unprecedented efficiency in
+the history of public administration in Puerto Rico. In its extensive exposition, the
+[SD detailed how the implementation of this system has achieved a reduction in
+the number of steps, consolidating the process from 2 to 4 persons, and decreasing
+the processing time from 72 days to just one day for contracts
+against.
+
+In addition to highlighting these impressive operational achievements, the agency dedicates a significant portion of its presentation to contrasting the 6th goal of its local platform with the repeated and immense failures associated with the prolonged and extremely costly implementation of the Oracle Cloud Enterprise Resource Planning (ERP) system, further stating that while the government has wasted hundreds of millions of dollars in Oracle modules that do not function fully, I.E.D.I. was implemented with a minimal investment of approximately $860,000 without incurring recurring licensing costs per user. ASG also presented the following recommendations for amendments, which we translated textually: 1. First, to erase the outdated language of the “substitute” title, “disciosiciOn”
+
+Commission on Government;';yffiy.ff#i yr#;:,:r1*fi:; Page 3
+“procurements.” This is due to the understanding that its application is applicable to all recognized procurement methods in our legal system. 2. Furthermore, we recommend that in all text of the bill, the term “J.E.D.I.” be substituted for “J.E.D.I.”, with periods between the letters, as it is an acronym for the E-procurement Digital Intelligence platform – its formal name. 3. In Article 3 of the legislative measure, we recommend adding an subsection (f), which includes the definition of “Procurement,” which should refer to all methods of acquisition of goods, works and non-professional services recognized in the Law 73-2079, paragraph 4. 4. In relation to Article 5 of the P. of S. 731, regarding “Integration Obligations,” we believe that Entities Exempt should not be excluded from the obligation to integrate into the J.E.D.I. platform. The objective of their integration is not to diminish the powers that are currently granted to them regarding their own purchases and auctions, as long as these do not conflict with prior procurements and contracts by the ASG. Rather, the goal is for transactions to be carried out within a single system with the uniformity and transparency that it provides. It should be noted that there is already an exempt entity with J.E.D.I. 2.0 and two additional entities are in the process of integrating. 5. With respect to the same Article 5, we understand that to provide for an orderly inclusion of the Entities Support, a request would be made to the ASG, which would be granted by the Administration.
+
+WHEREAS, this same manner, it is suggested to provide for the Administration of the ASG
+to be able to dispense to certain Entities Exempt, at the request of a substantiated
+- of these, of fulfilling with the period of X months of integration. 5' At its turn, we would consider it better to omit the list of Governmental Entities and Entities Exempt-and that the definition -;;;;;
+pertains to each category be delimited exclusively in the same law. 7&2019, as it occurs now. That applies equally, Etd' Excluded as they are the Legislative Assembly, the judicial power -;;;;;;,
+and the University of Puerto Rico. 7'
+In relation to Article 6 of the legislative measure, on “Implementation
+of Artificial Intelligence”, we recommend to include paragraph (f), which adds as
+one of the functionalities of the intelligence solution
+evaluation
+language and citation of performance -;;;;;;, " irrg"rl"i"
+. To support its argument, the ASG presented the following comparative analysis
+[::,1';;Tl,r"*r, and the system proposed r"t"rf,i* Resource pr"""te Ciul
+
+Act No. 5.737
+Committee on Economic Development, and Science, Technology, and Artificial Intelligence
+Page 4
+Record
+Jose J. Eller (ASG)
+Proposed
+Cumulative W. Ley 73 – Rodriguez & Sanolle comply fully with
+and
+Supplemental Legislative Configuration Code I. Uniform Code
+Public Transparency – Does not automate the public publication of documents on the system & official portals or databases.
+Procurement Methods – Identified in Law 73-2019: RFI, RFQ, and Auction. Configurable flows: Flexible by hierarchy and type – one-size-fits-all and type of purchase. Separation of Roles – Restrictive under structures by role, licenses, function, and agency public.
+License Costs: $3.52 – $8.00 per user; cost of licenses. Adaptability to changes – Decided by the ASG in regulatory timescales and support in real time for new systems (Oracle).
+Not available. Integration automatic with RI, RFI, RVO validation of validity and issuance of waivers. Manual dependency of automation and operation of the system. Designed for 18 entities and users, public authorities of Puerto Rico.
+
+The Office of Management and Budget, in conjunction with the Office of Financial Advising and the Fiscal Agency, do not endorse this measure. These entities are submitting a joint petition and rejecting the proposed legislation, arguing that it represents a duplication of efforts and is irreconcilable with public policy and fiscal mandates established by the Oversight and Financial Supervision Board under the framework of the PROMESA federal law.
+
+Senate Bill Positive Cotrjuttto regarding P. del S. 737
+Commission of Governance; and of Science, Technology and Artificial Intelligence
+Page 5
+These agencies explain that the Fiscal Certification Plan, specifically in its
+section 3.1.7.5, obligates the Government of Puerto Rico to implement an integrated
+Enterprise Resource Planning system, commonly known as ERP, in order to
+consolidate and centralize all financial administration functions, including
+the purchasing and contracting modules that this project intends to place under the
+exclusive domain of the General Services Administration. They argue that forcing the
+mandatory use and integration of the JEDI platform constitutes a redundant
+expenditure of public funds, a potential source of serious technological
+interoperability problems, and a setback in efforts to reclaim financial control,
+given that the Department of Finance has already allocated significant
+economic resources for the development of the purchasing modules within the
+Oracle ecosystem. In addition to their technological and governmental fiscal
+objections, they express a deep budgetary concern by pointing out that the
+legislative measure imposes new responsibilities without identifying a clear and
+recurring source of funding, violating the principle of fiscal neutrality.
+Nevertheless, the OPAL directly contradicts the thesis of the OGp and AAFAF.
+OFFICE OF THE ASSEMBLY BUDGET
+The OPAL contends that the approval of the bill would not entail adverse fiscal
+impact on the General Fund or the individual budgets of the relevant public
+instrumentalities.
+
+Bill BREI, Date: [Date Redacted], Chamber: Senate
+Resolution establishing general fiscal neutrality, stating that the principal provisions of the project reiterate and reaffirm the obligations, authorities, and mandates of centralization of purchases by the General Services Administration and that the certified current budget already provides necessary allocations to promote maintenance and ongoing improvements of the IEDL electronic platform. However, OPAL establishes the exception “…to the provisions contained in Article 6 of the test clause, which, due to the fiscal effect derived from the order to integrate, develop and implement artificial intelligence methods and models of… is currently quantifiable. This inability to project the economic cost of the algorithmic tools is due to the uncertainty surrounding these emerging technologies and the lack of information. Therefore, the implementation of real programming expenses for these automated platforms in government is impeded.
+
+PUERTO RICO INNOVATION AND TECHNOLOGY SERVICE
+
+Information Concerning Bill SBN el P. rlcl 5.711
+Commissions dc Gobiano; y tle Cicttcia, Terclogb e latdigencit Anifuial
+Page 6
+
+to obtain an integral overview of the administrative, budgetary, and technological feasibility of the proposed implementation. PRIS recognizes and applauds the good intentions of the Legislative Assembly of Puerto Rico to foster transparency, improve comprehension, and promote government efficiency through the adoption of cutting-edge technologies such as artificial intelligence and large language models. However, they conclude that the current text of the project suffers from multiple structural, legal, and technological deficiencies that prevent them from giving it their approval. In their analysis, they argue that the creation of a completely new and independent law is an inadequate and highly problematic legal avenue, as it directly conflicts with the provisions previously established in 73-2019, particularly with respect to the categorization, inclusion, and exclusion of various exempt entities, suggesting that any changes to procurement policy should be made through direct amendments to the existing organic law to avoid interpretative gaps. The agency clarifies that its statutory mandate is strictly limited to technological governance, regulatory review, and technical approval of information technology projects at the governmental level, and therefore rejects the project’s language that imposes on it the responsibility to coordinate or operate directly the implementation of artificial intelligence modules in conjunction with the Department of General Services.
+
+Finally, they reiterate the warnings raised by tax authorities regarding the imminent integration of acquisition systems with the Oracle Cloud Enterprise Resource Planning platform, warning that the strict eighteen-month deadline proposed for the total migration of agencies to the [EDI] platform could be unreasonable and incompatible with the State’s integrated technological architecture, and demanding that any algorithm or virtual assistant adopted pass through their rigorous cybersecurity, ethical, and algorithmic bias prevention filters.
+
+MUNICIPAL FINANCIAL IMPACT
+N
+Noncompliance with Article 1.00T of Act No. 10T:020:f,8t amended, known as the “Municipal Code of Puerto Rico,” the Informing Committees certify that P. of S. 731 does not impose an economic obligation in the municipal governments’ budgets.
+
+CONCLUSION
+The Government and Science, Technology & Intelligence Committees of the Puerto Rico Senate conducted an integral analysis of P. of S. 731, in light of the applicable, public policy regarding legal contracting, and the arguments presented by the presenting entities.
+
+S. 737
+Committees of Government; and of Science, Technology, and Artificial Intelligence
+Page 7
+
+artificial intelligence strengthens transparency, administrative efficiency and accountability in government management. The evidence presented by the Department of General Services demonstrates that the use of integrated technological systems allows processes to be expedited, standardized and the use of public resources to be optimized, which responds to an urgent need of contemporary public administration. At the same time, the Committees recognize the value of the observations formulated by the entities that expressed reservations, which provide substantial elements to guarantee normative coherence, technological compatibility and the sustainability of the measure. These considerations have been incorporated as part of the deliberative process, allowing the legislative piece to be strengthened and to address in a responsible manner the challenges identified. In light of the above, the Committees have introduced substantial amendments to the text of the project with the purpose of attending to the suggestions and concerns presented, harmonizing the measure with Law 2020, specifying the scope of the obligations imposed and clarifying the institutional roles in the implementation of technological components. Consequently, the Committees conclude that the p. of the S. 731, as amended, advances a public policy aimed at transforming and optimizing government contracting processes through the responsible incorporation of technology, in harmony with the principles of good public administration, normative uniformity and fiscal responsibility. AS SOON AS POSSIBLE, the Committees of Government;
+
+The Department of Science, Technology, and Artificial Intelligence of the Senate of Puerto Rico hereby presents to this Upper Body the Positive Joint Report on Senate Bill 731, recommending its approval with the amendments contained in the electronic appendix attached. RESPECTFULLY SUBMITTED. /Z* Ledesio Lopez Hon. Wilmer Rey Berreros President Commission of Government Commission of Science, Technology, and Artificial Intelligence
+
+cnologia e
+Senado de Puerto Rico Inteligencia Artificial
+Senado de Puerto Rico
+
+ENTIRILLADO ELECTRoNICO
+GOBIERNO DE PUERTO RICO
+ma. Asamblea 2 &. Sesi6n
+kgislativa Ordinaria
+SENADO DE PUERTO RICO
+P. del 5.731,
+de septiembre de20?j
+Presentado por el seflor Reyes Berios
+Referido a las Comisiones de Gobierno; y de Ciencia, Tecnologia e lnteligmcia Artifciat
+LEY
+Para crear la "l*y de subas+as Licitaciones priblicas con Inteligencia Artificial y
+@ de Puerto Rico"; a los fines de centralizar la
+totalidad de las compras, adquisiciones y subastas prlblicas bajo la Administraci6n
+de Servicios Generales del Gobierno de Puerto Rico (ASG), disponer la
+obligatoriedad de! uso de la plataforrra Wl toint f-procuremmt OiEta l*
+(LE.D.L) en
+i
+iee toda Entidad tal senin
+por la Lev 73-2019, en conocitla como lo "IEu de la
+la las del
+de Puerto Rico de 2019": establecer la incolporaci6n de sistemas de inteligencia
+artificial y modelos de lenguaje de gran tamafro (L lJll.g sup s1g@ en.!ngJu) en
+los procesos de adquisici6n; cre.u un Registro P(blico de Algoritmos; fijar los
+deberes de la ASG
+clel
+Innooation and Tech
+lecer
+sanciones por incumplimiento;
+v plra
+otros fines rehcionados.
+EXPOSICIdN DE MOTIVOS
+La
+contrataci6n priblica constituye una de las 6reas mis sensibles de
+ra
+administraci6n gubemamental, pues imprica el uso de fondos priblicos que pertenec.n
+al pueblo de Puerto Rico. La falta de transparencia, la dispersi6n de procesos y ra
+
+ausencia de uniformidad han resultado en un sistema fragmentado, vulnerable a la
+comrpci6n, con duplicidad de esfuerzos y limitaciones en la supervisi6n fiscal.
+L" Ly 7$2019, conocida como la 'ky de la Administraci6n de Servicios
+Generales para la Centralizaci6n de las Compras del Gobiemo de Puerto Rico dc 2019" .
+sent6 las bases para que la ASG asumiera un rol protag6nico en la organizaci6n de las
+adquisiciones y licitaciones piblicas. No obstante, los infomres y estadfuticas han
+demostrado que muchas agencias y corporaciones pfblicas continuaron operando fuera
+de didra centralizaci6n, con mrlltiples procesos paralelos que restan eficiencia y
+f omentan discrecionalidad.
+En la actualidad, Puerto Rico cuenta con la plataforrra FDI-IE.D.I $oint E-
+procurement Digital Intelligmce), creada para uniformar y digitalizar las subastas
+prlblicas. Esta herramienta ha probado ser ritil, Perc su implementaci6n ha sido parcial.
+Paralelamente, la evoluci6n de la inteligencia artificial y de los modelos de lmgrraje de
+gran tamafro ha kansformado las mejores pr6cticas m contrataci6n pfblica a nivel
+intemacional, perrritimdo detecci6n automdtica de anomalias, validaci6n de
+pron6sticos de demanda, y auditorias en tiemPo real.
+Es politica p(blica del Gobiemo de Puerto Rico avanzar hacia la completa
+centralizaci6n de todas las adquisiciones en la ASG, garantizando Proc€9os uniformes,
+$ eficientes y transparentes, apoyados por herramientas tecnol6gicas de fltima
+generaci6n. [a Presente ley consolida este marco @
+.
+DECR TASE POR LA ASAMBLEA LEGISIJ\TIVA DE PI.JERTO RICO:
+I
+Art(culo 1. - Tltr:lo
+Esta ley se conocer5 como La "l*y de snbastas Licitacioaes Priblicas con
+lnteligencia Artificial de Puerto Rico".
+Articulo 2.- Declaraci6n de politica prlblica
+
+I
+Se dedara polltica prlblica del Gobierno de Puerto Rico que toda adguisici6n,
+ctntrataci6n y subasta p(blica deberd llevarse a cabo a trav6s de la Administraci6n de
+Servicios C,enerales, mediante el uso obligatorio de la plataforma W_Ioint
+E_
+?toatraant Digital lntclligence 0.E.D.I). Asimismq se declara polltica prnbtca fommtar
+eI uso de sistemas de inteligmcia adficial y modelos de lenguaje de gan tamafro para
+garantizar mayor eficiencia, tmnsparcncia supervisi6n y rendici6n de cumtas en los
+procesos de compras gubemamentales.
+Ardculo 3. - Definiciones
+Para efuctos de esta ley, los siguientes tdrzrinos ten&rn el significado que se
+l0
+indica:
+a) Adn*t'straei6r de se-v:des Gen€rdes ( lcG): er8arisme 8ulenamental
+t2 eneartade de eenr^r,-aryr adt$r:^trar rae eernfras y eul."ta- del Gelieme de
+l3 Pue*e+iee,
+t4
+t6
+l8
+2t eentrataei&
+
+I U€e:
+d Ailminishaci^n ite Serubios C*nerales (ASG): orgnnismo gufurnanmtal mcargailo
+dc cattralizar ! ailminishar hs am?ras y subastas ilel Gobiemo ile Puerto Rbo
+b too toda m tal
+se?ufl ileftnidt en la lev 73-20L9. xmn conociill como It dc la
+Administracion ik Seruiciu Gorualu para la Centralizacion dz las del
+Gobiemo de Punto Rico de 2079".
+y w
+ct Intzligmcit Artificial oAt: cotiunto dt tacnicas dc ?rogramacihn alSoritmos
+pemriten a sistefios irrfofrrldlticos reutizrf threas qu* fiailiciofi$hflente fequiarcn
+l0 intelismcia hufiano.
+u
+u d\ Licitacihn: todas tos n itodas de adquisician de bienes. obfis seroicios no
+t2 orofuiodes reconocilta et la I4 73-2079. *Nn ammdada. conocida amo la "14 dc
+Gobierno de Puerto Rico de 2079".
+l5 e\ModclosilelnsuaieiteGrmTatufrofi,Ifil\:moileloscottlPutrciorulescaPacaile
+N l6 lmr
+su
+P E.D.I sts elec
+l8 E-w uur emmt D igit al IntelliS arc e.
+Articulo 4. - furisdicci6n exclusiva de la ASG
+confiere a la Administracidt ile
+la 79
+exclusiva para dirigir' administrar y adludicar la
+2l iurisdicci6n
+)) totalidad de Ios procesos de compras, adquisiciones y subastas priblicas' Ninguna
+
+I
+agencia, corporaci6n o instrummtalidad podrd efuhrar proesos de contrataci6n fuera
+dela plataiorura FB* I.E.Pf
+3@
+Articulo 5. -Obligaciones de integraci6n
+Todas las Entidades Gubemamentales del Gobiemo de puerto Rico deberdn
+integrarse a la plataforma FDIlEaLen un tdrmino no mayor de dieciocho (Ig) meses
+contados a partir de la vigencia de esta ley.
+E
+las Entidades €r$emasema+alee Gubernammtales sore todas las dependencias
+y departamentos de la Rama Eiecutivaademie g todas las crrporaciones pribticas del
+l0
+C'obiemo de Puerto Rjco, con excapci6n de las Entidades Exentas.
+I4
+l5 Gubenarental de Fernente -ara pne-te IUeq rlnteridad -ara re Eanzas pdbliee
+l6 *r"n"" n" ar"*" *., nrr"rn"n .**r*,*,r" ,*-"r**"
+U*" n" ,.
+"t n"
+l8
+l9
+2t
+aa
+
+I Ueee.
+' as Entidade, Gub€mam€ntCes €bqBa
+ia
+Transpe*^d6n; Pu€*ee Edilieios P{br:ee+ Tierra& TraruPerGad6n hEgxada'
+E
+r0 d€+/tt6siea;ske€ha&
+ll Ia ASG publicard y mantendra actualizado un registro oficial con todas las
+t2 entidades obligadas por esta ley.l
+Articuto 5. - lmplementaci6n de inteligmcia artificial
+La ASG, en coordinaci6n cor. eI Puerto Rico Innooatiot and Tednrologu Seruice
+(PRIIS),implementar6m6rdulosdeinteligenciaartificialymodelosdelerrguajedegran
+amairo en la platafowtal6Dlpanlo siguieile:
+t7 a) Validaci6n automitica de documentoo sometidos m subastas'
+b) DeEcci6n y aterta cle posibles irregularidades' anomallas y ftaude'
+l9 c) Generaci6n de pron6sticos de precios y demanda de bimes y servicios'
+d) Emisi6n de resrtmenes de expedientes y auditorlas en tieurpo real'
+2l e) Crcaci6n de asistmtes vfuhrale Para orisrtat a ticitadores y ploveedores'
+,,,| ft E del ile los I
+
+Ardculo 7. - Regisko Prlblico de Algoritmos
+a La AsG establecerd un Regisho pribrico de Algorituros donde conste la
+inforrraci6n bdsica de cada modelo de inteligencia artificial o LLM utilizado,
+incluymdo proveedor, versi6n, auditorfus de sesgo y par6metsos de transparcncia.
+Articulo 8. - Reglammtaci6n y capacitaci6n
+La ASG, en mordinaci6n con pRfIS, adoptar6 reglammtos para la
+implementaci6n de esta ley y desarrollari programas de capacitaci6n dirigidos ar
+personal de compras de todas las as€nda'r€efpofadsn€e mtidada gubernameatala,
+Ardculo 9. - Sanciones
+l0 El incumplimiento con las disposiciones de esta ley conlevar6 la nulidad de ros
+I contratos otorgados fuera de ryJE.DJ,
+las sanciones administrativas contra Ia
+entidad responsable en con ls ku 73-2019. sesin en la
+l3
+de la inistraci6n de la Cmtralizaci1n ile las Compras del
+hal,
+ile Puerto Rico de 9"
+@.
+l6 Articulo 10. - Informes
+t7
+La ASG rendirii un informe anual a Ia Asamblea tegislativa
+sobre el grado de
+l8
+cumplimiento de las y
+agencias ocrporaciones, ros ahorros gmerados,
+las
+l9 irregularidades
+detectadas y las mejoras implementadas
+mediante el uso de inteligmcia
+artificial.
+Articulo
+11. - Separabilidad
+si cualquier disposici6n de esta tey fuere declarada nula o inconstitucional por
+
+I un tribunal con jurisdicci6o las dem6s disposiciones mantendriin su plena vigencia.
+Artioilo 12. - Vigencia
+Esta ley entratd en vigor inmediatamente despues de su aprobaci6n. La
+transici6n completa deberd efectuarse en un t€rmino no mayor de dieciocho (18) meses.
+estableeide
