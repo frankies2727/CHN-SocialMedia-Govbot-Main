@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB2102",
+    "legislative_session": "2026",
+    "title": "Districting - Single-Member Districts and Legislative and Congressional Redistricting and Apportionment Convention"
+  },
+  "id": "HB2102",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "First Reading House Rules and Executive Nominations",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-03",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb2102?ys=2026RS"
+        }
+      ]
+    },
+    "bill_id": "HB2102"
+  },
+  "sources": {
+    "bill": "md-legislation/country:us/state:md/sessions/2026/bills/HB2102/metadata.json",
+    "log": "md-legislation/country:us/state:md/sessions/2026/bills/HB2102/logs/20260803T000000Z_first_reading_house_rules_and_executive_nominations.json"
+  },
+  "timestamp": "20260803T000000Z"
+}

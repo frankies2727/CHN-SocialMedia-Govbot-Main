@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes a minimum wage for all industries and imposes criminal penalties for violation of these wage provisions. Existing law authorizes the Labor Commissioner to collect due and unpaid wages or benefits on behalf of workers. Under existing law, the commissioner acts as trustee and deposits collected wages and benefits into the Industrial Relations Unpaid Wage Fund, which is continuously appropriated for the purpose of remitting the collected wages or benefits.\n\nThis bill would require the minimum hourly wage for an approved agricultural employee and corresponding employee, as defined, to be $19.75 per hour. Commencing January 1, 2027, and each January thereafter, the bill would require the above-described minimum hourly wage to be adjusted by an amount equal to the cost-of-living adjustment for social security benefits, as specified. By expanding the scope of a crime, the bill would impose a state-mandated local program. By increasing the revenue to the Industrial Relations Unpaid Wage Fund, a continuously appropriated fund, and expanding the purposes for which moneys in that fund may be used, the bill would make an appropriation.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2646",
+    "legislative_session": "20252026",
+    "subject": [
+      "Employment",
+      "agriculturalworkers",
+      "minimumwages"
+    ],
+    "title": "Employment: minimum wages: agricultural workers."
+  },
+  "id": "AB2646",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "description": "From committee: Do pass. (Ayes 4. Noes 2.) (August 13).",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-13",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2646"
+        }
+      ]
+    },
+    "bill_id": "AB2646"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2646/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2646/logs/20260813T000000Z_from_committee_do_pass_ayes_4_noes_2_august_13.json"
+  },
+  "timestamp": "20260813T000000Z"
+}
