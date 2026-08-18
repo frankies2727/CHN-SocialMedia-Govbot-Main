@@ -30,6 +30,7 @@ Powered by [chihacknight/govbot](https://github.com/chihacknight/govbot) for the
 - [The topics](#the-topics)
 - [Architecture](#architecture)
 - [How a post is made](#how-a-post-is-made)
+- [What the model actually reads](#what-the-model-actually-reads)
 - [Quick start](#quick-start)
 - [Adding a new topic](#adding-a-new-topic)
 - [The `config.yml` reference](#the-configyml-reference)
@@ -41,8 +42,6 @@ Powered by [chihacknight/govbot](https://github.com/chihacknight/govbot) for the
 - [Troubleshooting & gotchas](#troubleshooting--gotchas)
 - [Contributing](#contributing)
 - [Credits & license](#credits--license)
-
----
 
 ## What it does
 
@@ -91,24 +90,68 @@ Each folder is self-contained — its keywords, emoji rules, prompt focus, diges
 
 ## Architecture
 
+Every scheduled workflow runs as **two jobs**. The `govbot` clone across 50+ states
+is the slow, disk-heavy half (~40–60 min) and is identical for every topic, so it
+happens **once** in `prepare`, which ships a compact corpus as an artifact. The
+`post` job downloads that — it never clones — so one runner never holds the giant
+clone *and* the language model at the same time, and each half gets its own
+120-minute budget instead of the two sharing one.
+
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{
+  'background':'#0d1117','primaryColor':'#161b22','primaryTextColor':'#e6edf3',
+  'primaryBorderColor':'#8b949e','lineColor':'#8b949e','secondaryColor':'#1f2937',
+  'tertiaryColor':'#161b22','fontSize':'15px','clusterBkg':'#0d1117',
+  'clusterBorder':'#30363d','edgeLabelBackground':'#0d1117','textColor':'#e6edf3'}}}%%
 flowchart TD
-    subgraph Daily["⏰ Scheduled GitHub Actions workflow (2 parallel shards)"]
-        A[govbot clones 50+ states<br/>→ bills.jsonl] --> B[Install Ollama<br/>+ pull Gemma model]
-        B --> C{For each topic<br/>in topics/*/}
-        C --> D[Filter bills.jsonl<br/>against topic keywords]
-        D --> E[Freshness gate +<br/>same-day dedup]
-        E --> F[Download bill PDF<br/>→ extract full text]
-        F --> G[Local Gemma summary<br/>+ plain-English headline]
-        G --> H[(Post to topic's<br/>Bluesky / X account)]
-        H --> I[Commit bills_used.json<br/>+ raw artifacts back to repo]
+    subgraph PREP["🧱 job 1 · prepare — 120 min cap, runs once"]
+        A["govbot clones 50+ states"] --> B["dump bills.jsonl"]
+        B --> C["stage full-text bundle<br/>(metadata + extracted text)"]
+        C --> D[["upload artifact<br/>bills-corpus"]]
     end
+
+    D ==> E
+
+    subgraph POST["🚀 job 2 · post / digest — 120 min cap, 95 min script budget"]
+        E["download corpus<br/>(no re-clone)"] --> F["install Ollama<br/>+ gemma3:4b (cached)"]
+        F --> G["keyword filter<br/>+ freshness + dedup"]
+        G --> H["clean bill text<br/>(strip mastheads, chrome, citations)"]
+        H --> I["LLM relevance gate<br/>fails open"]
+        I --> J["select the on-topic window<br/>≤12k chars, ≤17k total prompt"]
+        J --> K["LLM headline + summary<br/>one JSON call, salvaged if malformed"]
+        K --> L["compose + publish"]
+        L --> M["commit dedup state<br/>+ raw artifacts"]
+    end
+
+    L --> N1["🦋 Bluesky<br/>per-topic accounts"]
+    L --> N2["✖️ X"]
+    L --> N3["🧵 Threads"]
+    L --> N4["📸 Instagram<br/>rendered cards"]
+
+    classDef prep fill:#132a3a,stroke:#3b82f6,stroke-width:1px,color:#e6edf3
+    classDef post fill:#14281d,stroke:#3fb950,stroke-width:1px,color:#e6edf3
+    classDef llm  fill:#2d2136,stroke:#a371f7,stroke-width:1px,color:#e6edf3
+    classDef out  fill:#3a2a13,stroke:#d29922,stroke-width:1px,color:#e6edf3
+    class A,B,C,D prep
+    class E,F,G,H,L,M post
+    class I,J,K llm
+    class N1,N2,N3,N4 out
 ```
 
-Two design choices make it cheap and scalable:
+Three design choices make it cheap and scalable:
 
-- **One fetch, many topics.** The slow `govbot` clone (~8 min) and the Ollama install/pull happen once per shard, then every topic reuses the same `bills.jsonl`. Topics are split across two parallel matrix shards (`index % 2`) that auto-rebalance as you add more.
-- **Secrets by convention.** The workflow exposes `toJSON(secrets)` as a single `ALL_SECRETS` env var, and each script looks up `BLUESKY_HANDLE_<TOPIC>` at runtime. Adding a topic never requires touching the workflow file.
+- **One fetch, many topics.** The clone and the Ollama install happen once per job,
+  then every topic reuses the same `bills.jsonl`. Bluesky's daily poster and weekly
+  digest fan out across **5 parallel shards** (`index % 5`) that auto-rebalance as
+  topics are added.
+- **Secrets by convention.** The workflow exposes `toJSON(secrets)` as a single
+  `ALL_SECRETS` env var, and each script looks up `BLUESKY_HANDLE_<TOPIC>` at
+  runtime. Adding a topic never requires touching the workflow file.
+- **The run bounds itself.** Each script gets a wall-clock budget
+  (`RUN_DEADLINE_MINUTES`, 95) under the job cap, and every model call is clamped
+  to the time remaining. A slow run finishes early with fewer posts instead of
+  being cancelled by Actions mid-step — a cancel skips the commit step, which is
+  how live posts once lost their dedup record and got published twice.
 
 ## How a post is made
 
@@ -126,10 +169,65 @@ For a single topic, `scripts/post_to_bluesky.py` (and its sibling `post_to_x.py`
 6. **Extracts the full bill text** from the bill's PDF (`scripts/bill_text.py` → `pdftotext`), degrading gracefully to abstract-only if the PDF or `pdftotext` is unavailable.
 7. **Confirms topic relevance with the local model** (the LLM relevance gate) — keyword matching is a cheap net that can let an omnibus/budget bill through on a single incidental subject tag (e.g. a whole state budget matching the AI/crypto feed because it lists "CRYPTOCURRENCY & NFTS" among hundreds of subjects). The model reads the actual bill text and drops it if it isn't genuinely about the topic. Fails **open** (any LLM/parse error keeps the bill), bypassed for force-posts, and toggleable with `RELEVANCE_GATE=0`.
 8. **Summarizes** via the local model — one neutral, plain-English sentence under ~160 characters, plus a short noun-phrase headline — picks a topical emoji, and composes a post that fits Bluesky's 300-grapheme limit.
-9. **Posts** with a rich external link card to the official legislature page (with a state-homepage fallback when no deep link is known).
-9. **Commits** the updated dedup state and raw artifacts back to the repo.
+10. **Posts** with a rich external link card to the official legislature page (with a state-homepage fallback when no deep link is known).
+11. **Commits** the updated dedup state and raw artifacts back to the repo — written **after every post**, not once at the end, so a run that dies partway can never republish a bill it already posted.
 
 The **weekly digest** (`scripts/weekly_digest_bluesky.py`) instead scores the week's actions by significance (signed → passed → vetoed → …), caps to `DIGEST_PER_STATE_CAP` bills per state to keep coverage broad, and posts a root summary plus up to `DIGEST_MAX_HIGHLIGHTS` threaded replies.
+
+## What the model actually reads
+
+The single biggest lever on post quality is **how much fits in one prompt**, and it
+is easy to get wrong because most of the prompt is not the bill.
+
+| part of the prompt | size | notes |
+| --- | --- | --- |
+| System prompt | **~9,300 chars** (~2,300 tokens) | Built per topic by `Topic.post_copy_system_prompt()` in `scripts/topic.py`. |
+| Per-bill notes | ~300–2,000 chars | Bill status, stated purpose, the provision that earned the topic match, home-state anchor. |
+| Bill text | whatever is left | Capped by `POST_COPY_MAX_SOURCE_CHARS` (12,000) **and** by what remains of the total. |
+| **Total ceiling** | **17,000 chars** | `POST_COPY_MAX_PROMPT_CHARS`. |
+
+That ~9,300-character system prompt is more than half the budget before a single
+word of legislation. It is long because nearly every rule in it is scar tissue
+from a real bad post — don't-manufacture-stakes, stay-non-partisan,
+describe-the-effect-not-the-edit, name-who-is-actually-affected each exist because
+something specific went out wrong. Roughly, by share:
+
+| section | share |
+| --- | --- |
+| Shared rules (jargon, acronyms, don't invent facts, formatting) | 22% |
+| Stay strictly non-partisan | 14% |
+| `headline` spec | 13% |
+| Never manufacture stakes | 12% |
+| `summary` spec | 10% |
+| Everything else (role, voice, status-quo, effect-not-edit, who's-affected) | 29% |
+
+**Why the total is what matters, not the bill length.** `gemma3:4b` does not error
+when a prompt is too big — it returns empty or unparseable JSON, and the post
+silently falls back to deterministic copy (a raw title, a definitions paragraph, a
+string of statute citations). Measured across one digest run:
+
+| total prompt | outcome |
+| --- | --- |
+| 14,266 – 17,036 chars | model wrote the headline and summary ✅ |
+| 21,265 – 21,772 chars | nothing usable → fallback copy ❌ |
+
+A 17,834-character bill worked; a bill capped to the same 12,000-character window
+failed. The difference was the **total**. So the bill text is budgeted as
+*total − system − notes*, floored at `MIN_BILL_TEXT_CHARS` (1,500) so the model is
+never handed instructions with no evidence.
+
+**For bills longer than the budget**, the window is *selected*, not truncated:
+`_prepare_full_text_for_llm` lifts the bill's own plain-language explainer to the
+front when it has one, and `_relevant_window` then spends the remaining budget on
+the passages that actually mention the feed's subject — scored with the topic's own
+keyword regex, kept in document order, joined with an ellipsis. On a 107,739-char
+Michigan bill this raised on-topic mentions inside the window from 25 to 62 and cut
+its glossary lines from 18 to 11.
+
+> **Raising these.** `POST_COPY_MAX_PROMPT_CHARS` is tuned to `gemma3:4b`. A larger
+> model is what makes a larger number readable — raising the ceiling alone
+> reproduces the fallback posts. `gemma3:12b` was tried and reverted: at 8.1 GB on a
+> 16 GB runner it thrashed swap and could not finish a single summary in 900 s.
 
 ## Quick start
 
@@ -263,11 +361,21 @@ All knobs are env vars (set defaults in the workflow `env:` blocks or override p
 | --- | --- | --- |
 | `BOT_TOPIC` | — (required) | Which `topics/<name>/` folder this run posts for. |
 | `POST_LIMIT` | `4` (X workflow sets `4`; Bluesky sets `2`) | Max posts per run **per topic** — flood protection. |
-| `MAX_ACTION_AGE_DAYS` | `32` (Bluesky), `62` (X) | Drop bill actions older than this so old news never posts as fresh. |
+| `MAX_ACTION_AGE_DAYS` | `32` | Drop bill actions older than this so old news never posts as fresh. |
 | `DRY_RUN` | `0` | `1` composes posts and prints them without publishing. State still updates so you can iterate. |
-| `LLM_MODEL` | `gemma3:4b` | Ollama model. `gemma3:1b` = faster, `gemma3:12b` = richer (slower pull + latency). |
+| `LLM_MODEL` | `gemma3:4b` | Ollama model. **`gemma3:12b` does not work on a free runner** — 8.1 GB on a 16 GB box, it thrashes swap and cannot finish a summary in 900 s. A ~4.7 GB middle model (`qwen2.5:7b`, `llama3.1:8b`) is the realistic upgrade; trial it on a manual dispatch first. |
 | `LLM_API_URL` | `http://localhost:11434/api/chat` | Ollama endpoint — point at any Ollama-compatible host. |
-| `LLM_TIMEOUT` | `180` | Per-request timeout (seconds). |
+| `LLM_TIMEOUT` | `1620` (27 min) | Per-call ceiling for headline+summary. Generous on purpose so a merely *slow* call finishes instead of dropping to fallback copy; `RUN_DEADLINE_MINUTES` is what keeps it safe. |
+| `LLM_RETRY_TIMEOUT` | `1620` | Ceiling for the two retries. |
+| `RELEVANCE_GATE_TIMEOUT` | `1620` | Ceiling for the on-topic check. |
+| `RELEVANCE_GATE` | `1` | `0` disables the LLM on-topic check (keyword matching only). |
+| `RUN_DEADLINE_MINUTES` | `0` (off); workflows set `95` | Wall-clock budget for the whole script. Every model call is clamped to the time left, so the run finishes early with fewer posts rather than being **cancelled** by Actions — a cancel skips the commit step and loses the run's state. |
+| `POST_COPY_MAX_PROMPT_CHARS` | `17000` | Ceiling on the **entire** prompt (system + notes + bill text). The real quality lever — see *What the model actually reads*. |
+| `POST_COPY_MAX_SOURCE_CHARS` | `12000` | Upper bound on the bill-text portion alone. |
+| `GOVBOT_TZ` | `America/Chicago` | Timezone the digests reckon their date range in. Actions runs on UTC, so without this an evening run labels itself with tomorrow's date. |
+| `POST_DEADLINE_MINUTES` | `40`; X workflow sets `90` | X poster's own run budget (predates `RUN_DEADLINE_MINUTES`; both clamp with `min()`). |
+| `RESERVE_LIMIT` | `8` | How many extra candidates the X poster may fall through to when the relevance gate skips a pick. |
+| `MAX_TWEET_FAILURES` / `TWEET_ATTEMPTS` | `3` / `3` | Give up after N failed posts; retry transport blips N times. |
 | `FETCH_OG_IMAGE` | `0` | `1` re-enables scraping `og:image` thumbnails for link cards. |
 | `SAVE_STATE` / `SAVE_RAW` | `1` / `1` | Toggle writing dedup state / raw artifacts (independent of `DRY_RUN`). |
 | `FORCE_STATE` / `FORCE_BILL_ID` / `FORCE_REPOST` | — | Force-post one specific bill, bypassing the keyword/freshness/dedup gates (used by the *specific-bill* workflows). |
@@ -305,21 +413,37 @@ A dry run prints the composed posts without hitting Bluesky/X. If Ollama isn't r
 
 | Workflow | Trigger | What it does |
 | --- | --- | --- |
-| `post_to_bluesky.yml` | Daily cron + manual | Fetch → filter → summarize → post **all topics** to Bluesky. Sharded ×2. |
-| `weekly-digest-bluesky.yml` | Fridays + manual | Threaded weekly digest per topic on Bluesky. Sharded ×2. |
-| `post_to_x.yml` | Daily cron + manual | Same pipeline, posting to an X account. |
-| `weekly-digest-x.yml` | Weekly + manual | Weekly digest threads on X. |
-| `post_to_meta_threads.yml` | Daily cron + manual | Same pipeline, posting to a Meta Threads account (dedicated to the `lgbtq` topic; 3 posts/run). |
-| `weekly-digest-meta-threads.yml` | Fridays + manual | Weekly digest thread on Threads (root + a self-contained reply per highlight). |
+| `post_to_bluesky.yml` | Mon/Wed + manual | Fetch → filter → summarize → post **all topics** to Bluesky. `prepare` + `post` **×5 shards**. |
+| `weekly-digest-bluesky.yml` | **Fri** + manual | Threaded weekly digest per topic on Bluesky. `prepare` + `digest` **×5 shards**. |
+| `post_to_x.yml` | Tue/Thu/Sun + manual | Same pipeline, posting to an X account. `prepare` + `post`. |
+| `weekly-digest-x.yml` | **Fri** + manual | Weekly digest thread on X. `prepare` + `digest`. |
+| `post_to_meta_threads.yml` | Tue/Thu/Sun + manual | Same pipeline, posting to a Meta Threads account (dedicated to the `lgbtq` topic; 3 posts/run). |
+| `weekly-digest-meta-threads.yml` | **Sat** + manual | Weekly digest thread on Threads (root + a self-contained reply per highlight). |
 | `meta-threads-refresh-token.yml` | Weekly + manual | Rolls the 60-day Threads token forward so it never lapses. |
-| `post_to_instagram.yml` | Daily cron + manual | Renders each bill to a card image, pushes it, then posts to a Meta Instagram Business account (dedicated to the `lgbtq` topic; 2 posts/run). |
+| `post_to_instagram.yml` | Mon/Wed + manual | Renders each bill to a card image, pushes it, then posts to a Meta Instagram Business account (dedicated to the `lgbtq` topic; 2 posts/run). |
 | `instagram-refresh-token.yml` | Weekly + manual | Rolls the 60-day Instagram token forward so it never lapses. |
 | `post_bluesky_specific_bill.yml` | Manual | Force-post one specific `state` + `bill_id` to a chosen topic's Bluesky account (with dry-run / repost toggles). |
 | `post_x_specific_bill.yml` | Manual | Same one-off force-post, for X. |
 | `collect-samples.yml` | Manual | Save a batch of full bill records into `samples/` (optionally compose/post them too). Useful for prompt-tuning and tests. |
 | `posts-extravaganza.yml` | Manual | On-demand **Extravaganza** thread with a `mode` knob: `state` posts a `🏛️ State Extravaganza!! 🧵` thread whose header leads with the picked state(s); `topic` posts a `🎯 Topic Extravaganza!! 🧵` thread whose header leads with the topic (nationwide by default). Both share the same knobs — pick the platform, the state(s), the topic(s) (space/comma list or `all`; ignored for X), the number of posts, and a lookback window (capped at 62 days) — and post **one thread per selected topic** (on Bluesky each goes to that topic's own account; on Threads/Instagram several threads to the one shared account), one threaded reply per bill like the weekly digest. On Instagram (no text threads) each is a **carousel**: a cover slide + one rendered bill card per highlight (max 10 slides). |
 
-All scheduled workflows start with a **free-disk-space** step — `govbot` cloning 50+ states plus the Ollama model would otherwise overflow the runner's ~14 GB and crash with *"No space left on device."* Ollama's binary and model are cached between runs to skip the ~600 MB + ~3.3 GB downloads.
+**When things run** (UTC cron; the digests reckon their date range in
+`GOVBOT_TZ`, default `America/Chicago`, so an evening run is not labelled as
+tomorrow):
+
+| day | what posts |
+| --- | --- |
+| Mon / Wed | Bluesky + Instagram daily |
+| Tue / Thu / **Sun** | X + Threads daily |
+| **Fri** | X digest, then Bluesky digest — text/news feeds while the week is live |
+| **Sat** | Threads digest, then Instagram digest — weekend-morning visual feeds |
+
+Note the lead time: cron starts the *workflow*, not the post. `prepare` clones
+first, so a post lands roughly **45–70 minutes after** the cron fires. Adjust a
+schedule by that lead, not by the time you want to see the post.
+
+Every job is capped at **120 minutes**, with the script holding a smaller
+wall-clock budget under it. All scheduled workflows start with a **free-disk-space** step — `govbot` cloning 50+ states plus the Ollama model would otherwise overflow the runner's ~14 GB and crash with *"No space left on device."* Ollama's binary and model are cached between runs to skip the ~600 MB + ~3.3 GB downloads.
 
 ## Repository layout
 
@@ -406,6 +530,11 @@ Persisting a refreshed token means updating the `THREADS_ACCESS_TOKEN` repo secr
 - **New topic missing from the manual workflow dropdown.** Run `python scripts/sync_topic_choices.py` and commit the updated YAMLs.
 - **Runner crashed with "No space left on device."** The free-disk-space step must run before the govbot clone; don't remove it.
 - **Threads: `"requires the threads_basic permission … or your user must be in the list of Threads testers."`** The account isn't enrolled as a tester. Add it under **App roles → Roles → Threads Testers**, accept the invite in Threads (*Settings → Website permissions*), then regenerate the token.
+- **A post is a raw legal title, a definitions paragraph, or a string of statute citations.** That is the deterministic fallback, which means the model returned nothing usable. Almost always the prompt was too big — check the bill's size and see *What the model actually reads*. `gemma3:4b` fails silently here; it does not error.
+- **A fix landed but posts didn't change.** `.bill_text_cache/` stores *already-cleaned* text keyed by document URL, and CI restores it from the newest prior run — so before the cache was keyed on the cleaning code's own hash, an entry written pre-fix served its stale text forever. That key now lives in the cache path; changing `scripts/bill_text.py` retires the entries it would have changed.
+- **A job was cancelled and posts got published twice.** A cancel skips the commit step, so the dedup record for posts that already went out is lost. Both guards are in place now — state is written after *every* post, and the commit step runs on `always()` — but if you add a workflow, keep both.
+- **The digest's date range is a day ahead.** `GOVBOT_TZ` reckons the digest day; UTC would call a 7 pm Chicago run "tomorrow".
+- **A weekly digest was cancelled at the job cap.** Check `RUN_DEADLINE_MINUTES` is set below `timeout-minutes` for that job. Without it a single stuck bill can want 108+ minutes against a 120-minute cap.
 - **Threads posts stopped after ~2 months.** The long-lived token expired. Make sure `meta-threads-refresh-token.yml` is enabled (and ideally set `THREADS_REFRESH_PAT`), or re-run the manual token exchange.
 
 ## Contributing
