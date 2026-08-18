@@ -178,11 +178,18 @@ jobs:
         # stalls indefinitely; the script's own RUN_DEADLINE_MINUTES cannot help
         # because Python never starts. timeout-minutes bounds the step, and
         # `timeout` bounds each apt call so a retry can actually happen.
-        timeout-minutes: 6
+        #
+        # NOTE the arithmetic: two attempts x (10 min update + 10 min install) is
+        # 40 minutes of possible work against a 27-minute step cap, so the cap is
+        # the binding limit and a second attempt can be cut short. That is the
+        # intended trade — patience for a merely slow mirror, with a hard stop
+        # well under the 120-minute job cap. Raise the cap to ~41 to let both
+        # attempts always run to completion.
+        timeout-minutes: 27
         run: |
-          for attempt in 1 2 3; do
-            if sudo timeout 90 apt-get update -qq \
-               && sudo timeout 90 apt-get install -y -qq poppler-utils; then
+          for attempt in 1 2; do
+            if sudo timeout 600 apt-get update -qq \
+               && sudo timeout 600 apt-get install -y -qq poppler-utils; then
               echo "poppler-utils ready (attempt $attempt)."
               exit 0
             fi
