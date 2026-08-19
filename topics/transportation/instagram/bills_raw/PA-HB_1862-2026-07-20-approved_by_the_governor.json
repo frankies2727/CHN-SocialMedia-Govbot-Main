@@ -1,0 +1,68 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1862",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending Titles 35 (Health and Safety), 42 (Judiciary and Judicial Procedure) and 75 (Vehicles) of the Pennsylvania Consolidated Statutes, in general provisions, further providing for definitions; in licensing of drivers, further providing for chemical testing to determine amount of alcohol or controlled substance and repealing provisions relating to ignition interlock limited license; in rules of the road in general, providing for private parking lots; in driving after imbibing alcohol or utilizing drugs, further providing for definitions, for grading, for penalties and for ignition interlock, providing for ignition interlock driver's license, for ignition interlock driver's license issued during suspension period and for online services for ignition interlock driver's license and further providing for prior offenses, for the offense of illegally operating a motor vehicle not equipped with ignition interlock and for requirements for driving under influence offenders; and making editorial changes."
+  },
+  "id": "HB 1862",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-20T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hb1862"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1343"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=67&rollcallid=2751&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=495"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=478"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=3&rollcallid=976&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=435"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=19&rollcallid=821&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=694"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=62&rollcallid=1363&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=38&rollcallid=1250&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=38&rollcallid=1249&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "HB 1862"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB1862/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB1862/logs/20260720T040000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260720T040000Z",
+  "posted_text": "🚗 PA HB 1862 — Pennsylvania Clarifies Rules for Ignition Interlock Licenses\n\nThis bill updates Pennsylvania’s laws surrounding ignition interlock devices.\n\nIt defines key terms related to these devices, including ‘blood draw services’ for paramedic assistance during legal blood draws, and clarifies notification requirements for employers when an employee has an ignition interlock requirement.\n\nThe bill also establishes fees for ignition interlock limited licenses ($65) and outlines procedures for appealing denials or recalls of those licenses.\n\nImportantly, it specifies that a person with an ignition interlock license may drive an employer-owned vehicle under certain conditions, and clarifies when a replacement driver’s license without the interlock designation can be issued upon completion of a suspension.\n\nJuly 20, 2026: Approved by the Governor.\n\n🔗 Read the full bill: https://www.palegis.us/legislation/bills/2025/hb1862\n\n#Transportation #Pennsylvania #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.palegis.us/legislation/bills/2025/hb1862",
+  "posted_url": "https://www.instagram.com/p/DcO0FxnGnc5/"
+}

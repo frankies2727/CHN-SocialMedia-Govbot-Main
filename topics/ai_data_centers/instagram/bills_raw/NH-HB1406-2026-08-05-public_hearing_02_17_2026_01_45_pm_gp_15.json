@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB1406",
+    "legislative_session": "2026",
+    "title": "relative to health carrier recordkeeping requirements in utilization review, including specifications regarding the use of artificial intelligence."
+  },
+  "id": "HB1406",
+  "log": {
+    "action": {
+      "description": "Public Hearing: 02/17/2026 01:45 pm GP 159",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-05",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=2183&inflect=2"
+        }
+      ]
+    },
+    "bill_id": "HB1406"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB1406/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB1406/logs/20260805T000000Z_public_hearing_02172026_0145_pm_gp_159.json"
+  },
+  "timestamp": "20260805T000000Z",
+  "posted_text": "🧠 NH HB1406 — NH Could Demand More AI Oversight in Healthcare Decisions\n\nNew Hampshire is considering changes to how healthcare providers use artificial intelligence.\n\nThis bill would require health carriers – the companies managing health plans – to keep detailed records of *exactly* how they're using AI in their decisions about coverage.\n\nSpecifically, they’d need to document which tasks AI is handling and ensure qualified healthcare professionals review key decisions made by the AI.\n\nThe bill also demands that health carriers record when AI is used in adverse determination cases, detailing the information reviewed and the clinical rationale behind the decision.\n\nImportantly, the bill shifts responsibility to health carriers for monitoring the AI systems used by contracted entities, ensuring they meet these new standards.\n\nThe changes would take effect on January 1, 2027.\n\nAug. 5, 2026: Public Hearing: 02/17/2026 01:45 pm GP 159.\n\n🔗 Read the full bill: https://gc.nh.gov/bill_Status/billinfo.aspx?id=2183&inflect=2\n\n#AIDataCentersCrypto #NewHampshire #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=2183&inflect=2",
+  "posted_url": "https://www.instagram.com/p/DcO03hnGiyS/"
+}

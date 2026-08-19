@@ -1,0 +1,63 @@
+HB1406-ASAMENDEDBYTHEHOUSE
+11Mar2026...0986h
+2026SESSION
+26-2971
+05/08
+HOUSEBILL
+ANACT relative to health carrier recordkeeping requirements in utilization review,
+includingspecificationsregardingtheuseofartificialintelligence.
+LaMontagne, Straf. 17; Rep. M. Pearson, Rock. 34; Rep. Tellez, Hills. 40; Rep.
+Salvi, Hills. 9; Rep. Manohar, Hills. 9; Rep. N. Murphy, Hills. 12; Sen. Long, Dist
+20;Sen.Birdsell,Dist19;Sen.Prentiss,Dist5
+COMMITTEE: CommerceandConsumerAffairs
+─────────────────────────────────────────────────────────────────
+AMENDEDANALYSIS
+Thisbill:
+I. Requires health carriers under the managed care law to maintain written records relative to
+theiruseofartificalintelligenceandprotocolsforensuringhumanreviewofcertaindeterminations.
+II. Requires health carriers tomake anyadversedeterminations relative toacovered individual
+and maintain records related to an adverse determination including whether artificial intelligence
+wasused.
+III. Establishes health carriers as responsible for the activities of entities which they have
+contractedwith,relativetosuchrequirements.
+---------------------------------------------------------------------------
+Explanation: Matteraddedtocurrentlawappearsinbolditalics.
+Matterremovedfromcurrentlawappears[inbracketsandstruckthrough.]
+Matterwhichiseither(a)allnewor(b)repealedandreenactedappearsinregulartype.
+
+HB1406-ASAMENDEDBYTHEHOUSE
+11Mar2026...0986h 26-2971
+05/08
+STATEOFNEWHAMPSHIRE
+IntheYearofOurLordTwoThousandTwenty-Six
+ANACT relative to health carrier recordkeeping requirements in utilization review,
+includingspecificationsregardingtheuseofartificialintelligence.
+BeitEnactedbytheSenateandHouseofRepresentativesinGeneralCourtconvened:
+1 New Subparagraph; Managed Care Law; Utilization Review; Standards and Procedures for
+Use of Artificial Intelligence. Amend RSA 420-J:6, I by inserting after subparagraph (d) the
+followingnewsubparagraph:
+(e) Each health carrier shall maintain written records related to the health carrier’s use
+ofalgorithms,artificialintelligence,orothermachinebasedsystems,includingbutnotlimitedto:
+(1) Whichfunctionsartificialintelligenceisusedfor;and
+(2) Protocols ensuring qualified human review of determinations affecting provider
+codingdecisions.
+2 New Paragraph; Managed Care Law; Utilization Review; Adverse Determinations;
+Contracting Liability. Amend RSA 420-J:6 by inserting after paragraph XI the following new
+paragraphs:
+XII. AdverseDeterminations.
+(a) All adverse determinations, including payment reductions and down coding, must be
+madebyaqualifiedhealthcareprovider.
+(b) The health carrier must provide written notice of the adverse determination to the
+coveredpersonandthecoveredperson'shealthcareproviderdetailingthereasonforthedecision.
+(c) Thehealthcarriershallmaintainrecordsincluding,butnotlimitedtothefollowing:
+(1) Theinformationsubmittedtothehealthcarrier;
+(2) Theinformationreviewedbythequalifiedhealthcareprovider;
+(3) Applicableclinicalguidelines;
+(4) Whetherartificialintelligencewasusedtoassistthereviewer;nd
+(5) Theclinicalrationaleforthedecision.
+XIII. Whenever a health carrier contracts to have another entity perform any functions,
+including use of artificial intelligence systems developed by another entity, related to utilization
+review,thecommissionershallholdthehealthcarrierresponsibleformonitoringtheactivitiesofthe
+entity with which it contracts and for ensuring that the requirements of this section and applicable
+rulesaremet.
+3 EffectiveDate. ThisactshalltakeeffectJanuary1,2027.
