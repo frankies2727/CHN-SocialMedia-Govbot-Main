@@ -81,7 +81,7 @@ emojis:
     match: ["abortion ban", "abortion rights", "heartbeat bill", "fetal heartbeat", "six-week ban", "trigger law", "gestational limit", "conscience clause", "parental consent", "judicial bypass", "fetal personhood", "shield law"]
   - emoji: "💊"
     match: ["contraception", "contraceptive", "contraceptive coverage", "birth control", "emergency contraception", "family planning", "sterilization"]
-  - emoji: "🤰"
+  - emoji: "❤️‍🩹"
     match: ["in vitro fertilization", "IVF", "fertility treatment", "assisted reproduction", "maternal health", "maternal mortality", "prenatal care", "postpartum care", "miscarriage", "stillbirth"]
   - emoji: "👩‍⚕️"
     match: ["doula", "midwife", "midwifery", "Planned Parenthood", "Title X", "crisis pregnancy center", "pregnancy resource center"]
