@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1408",
+    "legislative_session": "2025-2026",
+    "title": "An Act prohibiting certain nondisclosure agreements between public agencies and data centers."
+  },
+  "id": "SB 1408",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Communications & Technology",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-20T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/sb1408"
+        }
+      ]
+    },
+    "bill_id": "SB 1408"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB1408/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB1408/logs/20260720T040000Z_referred_to_communications_technology.json"
+  },
+  "timestamp": "20260720T040000Z"
+}

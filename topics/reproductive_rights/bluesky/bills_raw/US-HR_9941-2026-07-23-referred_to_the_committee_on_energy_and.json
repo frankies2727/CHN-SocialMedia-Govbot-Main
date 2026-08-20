@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 9941",
+    "legislative_session": "119",
+    "title": "Right to IVF Act of 2026"
+  },
+  "id": "HR 9941",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Veterans' Affairs, Armed Services, Education and Workforce, Ways and Means, and Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-23T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9941.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/9941"
+        }
+      ]
+    },
+    "bill_id": "HR 9941"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9941/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9941/logs/20260723T040000Z_referred_to_the_committee_on_energy_and_commerce_and_in_addition_to_the_committees_on_veterans_affai.json"
+  },
+  "timestamp": "20260723T040000Z"
+}
