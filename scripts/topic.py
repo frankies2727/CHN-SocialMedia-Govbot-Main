@@ -402,20 +402,6 @@ class Topic:
                 return True
         return False
 
-    def text_mentions_topic(self, text: str) -> bool:
-        """Does the bill's own document actually mention this feed's subject?
-
-        matches() can select a bill on its SUBJECT TAGS alone — two distinct
-        keywords anywhere in the tag list is enough. Those tags describe the
-        bill's FINAL form and a state omnibus carries dozens of unrelated ones
-        (NC HB 377 "2026 Court Changes." carries 63; a state budget carries 435),
-        so BAIL + PUBLIC DEFENDERS pulled an estates bill into the criminal-
-        justice feed, which then posted about electronic wills. The document is
-        the thing the summarizer actually reads, so it is the honest test: if it
-        names nothing from this topic, there is no on-topic provision to write
-        about. See is_on_topic() in post_to_bluesky.py for where this is applied."""
-        return bool(text) and bool(self._keyword_re.search(text))
-
     def matching_excerpt(self, b: dict, max_chars: int = 400, max_provisions: int = 2) -> str:
         """Return the abstract sentence(s) that earned this topic's match — the
         provision(s) whose keywords pulled the bill into the feed.
@@ -708,17 +694,6 @@ class Topic:
             f"removes a semicolon from a key section, adding that abortion does not include "
             f"contraceptives.' RIGHT: 'It spells out that the state's abortion ban does not "
             f"cover birth control or discarding unused embryos from fertility treatment.'\n\n"
-            f"A DATE BELONGS ONLY TO THE PROVISION THAT STATES IT: a bill's sections "
-            f"start on different days — one says 'This section becomes effective January "
-            f"1, 2026', the next says nothing and falls under a closing 'this act is "
-            f"effective when it becomes law'. Give a start date only when the text ties "
-            f"that date to the very provision you are describing; never carry one over "
-            f"from another section because it appeared nearby, and never use the bill's "
-            f"action date (already shown above your copy) as when a rule starts. If your "
-            f"provision names no date, say nothing about when it begins. WRONG: 'Starting "
-            f"January 1, 2026, the State Board can no longer…' when that date governs a "
-            f"different section about ballot fonts. RIGHT: the same sentence with no date. "
-            f"Dollar amounts, deadlines, and penalties follow the same rule.\n\n"
             f"NAME WHO IS ACTUALLY AFFECTED — DON'T BROADEN IT: say precisely who wins, "
             f"loses, pays, or benefits, exactly as the text states, and never inflate a "
             f"narrow group into 'everyone', 'residents', or 'you'. A tax credit for "
