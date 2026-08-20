@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10110",
+    "legislative_session": "119",
+    "title": "To require the disclosure of algorithmic price fixing in the housing rental market, and for other purposes."
+  },
+  "id": "HR 10110",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Energy and Commerce.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-17T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10110.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10110"
+        }
+      ]
+    },
+    "bill_id": "HR 10110"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10110/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10110/logs/20260817T040000Z_referred_to_the_house_committee_on_energy_and_commerce.json"
+  },
+  "timestamp": "20260817T040000Z",
+  "posted_text": "🤖 US HR 10110 — To require the disclosure of algorithmic price fixing in the housing rental market, and for other purposes. ...\n...",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-bill/10110",
+  "posted_url": "https://x.com/i/web/status/2090444931760546041"
+}

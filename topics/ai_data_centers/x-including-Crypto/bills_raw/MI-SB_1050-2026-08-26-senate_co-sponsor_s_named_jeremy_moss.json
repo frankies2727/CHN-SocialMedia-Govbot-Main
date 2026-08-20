@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1050",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Businesses: other"
+    ],
+    "title": "Businesses: other; community benefit agreements; require certain data centers to be subject to. Creates new act."
+  },
+  "id": "SB 1050",
+  "log": {
+    "action": {
+      "description": "SENATE CO-SPONSOR(S) NAMED: JEREMY MOSS",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-26",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1050"
+        }
+      ]
+    },
+    "bill_id": "SB 1050"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1050/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1050/logs/20260826T000000Z_senate_cosponsors_named_jeremy_moss.json"
+  },
+  "timestamp": "20260826T000000Z",
+  "posted_text": "🏢 MI SB 1050 — Data Centers Could Face New Community Rules in Michigan\n\nMichigan could require new data centers to negotiate agreements with local governments. This means if you're planning a data center, you’ll need to get approval from your county or city – and that approval will depend on whether the agreement benefits the local community, like funding local projects or addressing public health concerns. ...\n...",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1050",
+  "posted_url": "https://x.com/i/web/status/2090444591959068709"
+}
