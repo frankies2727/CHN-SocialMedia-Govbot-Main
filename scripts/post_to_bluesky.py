@@ -2769,6 +2769,39 @@ def is_on_topic(b: dict, topic: "Topic | None" = None) -> bool:
     # An amendment sheet isn't the bill body — don't judge relevance off it.
     if full_text and _is_amendment_doc(full_text):
         full_text = ""
+    # Ground the verdict in the DOCUMENT before spending an LLM call on it, but
+    # only when nothing stronger vouches for the bill. matches() treats a keyword
+    # in the TITLE as conclusive and that stays true here; what it also allows is
+    # a match on SUBJECT TAGS alone, and those tags describe the bill's final
+    # form. NC HB 377 ("2026 Court Changes.") carries 63 of them, so BAIL +
+    # PUBLIC DEFENDERS + INDIGENT DEFENSE claimed it for the criminal-justice
+    # feed — while the text on disk is an estates bill end to end, and the post
+    # that came out was about electronic wills. When the title is silent too,
+    # a substantial body that names nothing from this feed's subject has no
+    # on-topic provision to write about, whatever its tags say.
+    #
+    # Deliberately not left to the model: the gate is handed the same misleading
+    # title (a "criminal justice and policing" feed covers "courts", and the bill
+    # is literally called "2026 Court Changes"), so it has every reason to agree.
+    #
+    # Measured over the 654 archived bills that have real full text: 27 have no
+    # keyword anywhere in the document, but 19 of those DO have one in the title
+    # and are genuine (e.g. "Restores voting rights to individuals on probation
+    # and parole", whose body uses different wording) — hence the title guard.
+    # The remaining 8 are all mis-files, led by this bill and by a 435-tag state
+    # budget that landed in the housing feed.
+    if (
+        full_text
+        and len(full_text) >= MIN_BILL_TEXT_CHARS
+        and not t.text_mentions_topic(b.get("title") or "")
+        and not t.text_mentions_topic(full_text)
+    ):
+        print(f"  off-topic: {b.get('id')} — neither the title nor the bill text "
+              f"mentions {t.name}; it matched on subject tags alone. Skipping.",
+              file=sys.stderr)
+        b["_on_topic"] = False
+        return False
+
     source = full_text or (b.get("abstract") or "").strip()
     # Nothing substantive to read: the keyword match already vouched for the
     # bill and there's no text to contradict it, so keep it (don't gate).

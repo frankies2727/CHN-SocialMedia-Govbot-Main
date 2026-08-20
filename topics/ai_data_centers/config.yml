@@ -7,6 +7,9 @@
 
 name: ai_data_centers
 display_name: "AI, Data Centers & Crypto"
+# Compact label for the parallel-shard job names in the Bluesky workflows,
+# where one job runs 2-3 topics and "post (0)" alone says nothing about which.
+short_name: "AI & Crypto"
 prompt_topic: "artificial intelligence regulation, algorithmic accountability, deepfakes, automated decision-making, data center siting and energy use, and cryptocurrency / digital asset legislation"
 default_emoji: "🤖"
 

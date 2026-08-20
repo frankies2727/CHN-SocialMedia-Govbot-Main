@@ -3,6 +3,9 @@
 
 name: housing
 display_name: "Housing"
+# Compact label for the parallel-shard job names in the Bluesky workflows,
+# where one job runs 2-3 topics and "post (0)" alone says nothing about which.
+short_name: "Housing"
 prompt_topic: "housing policy, including affordable housing, tenant protections, zoning, homelessness, and home ownership"
 default_emoji: "🏠"
 

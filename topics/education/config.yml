@@ -3,6 +3,9 @@
 
 name: education
 display_name: "Education"
+# Compact label for the parallel-shard job names in the Bluesky workflows,
+# where one job runs 2-3 topics and "post (0)" alone says nothing about which.
+short_name: "Education"
 prompt_topic: "education policy, including K-12 schools, higher education, school funding, curriculum, and student rights"
 default_emoji: "🎓"
 

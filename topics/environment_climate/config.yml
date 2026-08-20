@@ -5,6 +5,9 @@
 
 name: environment_climate
 display_name: "Environment & Climate"
+# Compact label for the parallel-shard job names in the Bluesky workflows,
+# where one job runs 2-3 topics and "post (0)" alone says nothing about which.
+short_name: "Climate"
 prompt_topic: "environmental and climate policy, including greenhouse gas emissions, clean and renewable energy, conservation, pollution, water and air quality, and environmental justice"
 default_emoji: "🌎"
 

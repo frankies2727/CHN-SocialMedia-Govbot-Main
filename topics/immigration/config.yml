@@ -8,6 +8,9 @@
 
 name: immigration
 display_name: "Immigration"
+# Compact label for the parallel-shard job names in the Bluesky workflows,
+# where one job runs 2-3 topics and "post (0)" alone says nothing about which.
+short_name: "Immigration"
 prompt_topic: "immigration, asylum, refugee resettlement, and immigrant rights"
 default_emoji: "🛂"
 

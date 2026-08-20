@@ -3,6 +3,9 @@
 
 name: transportation
 display_name: "Transportation"
+# Compact label for the parallel-shard job names in the Bluesky workflows,
+# where one job runs 2-3 topics and "post (0)" alone says nothing about which.
+short_name: "Transit"
 prompt_topic: "transportation"
 default_emoji: "🚗"
 

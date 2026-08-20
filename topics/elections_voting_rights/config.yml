@@ -3,6 +3,9 @@
 
 name: elections_voting_rights
 display_name: "Elections & Voting Rights"
+# Compact label for the parallel-shard job names in the Bluesky workflows,
+# where one job runs 2-3 topics and "post (0)" alone says nothing about which.
+short_name: "Elections"
 prompt_topic: "elections and voting rights, including voter access, registration, mail-in and early voting, voter ID, redistricting, and election administration"
 default_emoji: "🗳️"
 

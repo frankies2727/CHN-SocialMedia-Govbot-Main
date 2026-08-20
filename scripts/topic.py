@@ -240,6 +240,12 @@ class Topic:
     # card_accent color. Set "card_spectrum: true" in config.yml; defaults off so
     # every other topic keeps its single-hue accent.
     card_spectrum: bool = False
+    # Compact label for the topic, used where a full display_name won't fit —
+    # currently the parallel-shard job names in the Bluesky workflows, where five
+    # jobs each run 2-3 topics and "post (0)" says nothing about what ran. Set
+    # "short_name" in config.yml; defaults to display_name so a new topic still
+    # labels itself, just more verbosely.
+    short_name: str = ""
     # Optional named keyword buckets used by the X poster to balance the daily
     # draw across sub-topics (e.g. ai_data_centers splits its keywords into
     # an "ai_data_centers" bucket and a "crypto" bucket so each X run posts at
@@ -276,6 +282,7 @@ class Topic:
             raise ValueError(f"Topic {name!r}: keywords list is empty.")
 
         display_name = data.get("display_name") or name.replace("_", " ").title()
+        short_name = (data.get("short_name") or "").strip() or display_name
         prompt_topic = data.get("prompt_topic") or display_name.lower()
         default_emoji = data.get("default_emoji") or "📜"
         emojis = list(data.get("emojis") or [])
@@ -328,6 +335,7 @@ class Topic:
         return cls(
             name=name,
             display_name=display_name,
+            short_name=short_name,
             prompt_topic=prompt_topic,
             default_emoji=default_emoji,
             keywords=keywords,
@@ -393,6 +401,20 @@ class Topic:
             if self._context_re.search(full) and self._keyword_re.search(full):
                 return True
         return False
+
+    def text_mentions_topic(self, text: str) -> bool:
+        """Does the bill's own document actually mention this feed's subject?
+
+        matches() can select a bill on its SUBJECT TAGS alone — two distinct
+        keywords anywhere in the tag list is enough. Those tags describe the
+        bill's FINAL form and a state omnibus carries dozens of unrelated ones
+        (NC HB 377 "2026 Court Changes." carries 63; a state budget carries 435),
+        so BAIL + PUBLIC DEFENDERS pulled an estates bill into the criminal-
+        justice feed, which then posted about electronic wills. The document is
+        the thing the summarizer actually reads, so it is the honest test: if it
+        names nothing from this topic, there is no on-topic provision to write
+        about. See is_on_topic() in post_to_bluesky.py for where this is applied."""
+        return bool(text) and bool(self._keyword_re.search(text))
 
     def matching_excerpt(self, b: dict, max_chars: int = 400, max_provisions: int = 2) -> str:
         """Return the abstract sentence(s) that earned this topic's match — the
@@ -686,6 +708,17 @@ class Topic:
             f"removes a semicolon from a key section, adding that abortion does not include "
             f"contraceptives.' RIGHT: 'It spells out that the state's abortion ban does not "
             f"cover birth control or discarding unused embryos from fertility treatment.'\n\n"
+            f"A DATE BELONGS ONLY TO THE PROVISION THAT STATES IT: a bill's sections "
+            f"start on different days — one says 'This section becomes effective January "
+            f"1, 2026', the next says nothing and falls under a closing 'this act is "
+            f"effective when it becomes law'. Give a start date only when the text ties "
+            f"that date to the very provision you are describing; never carry one over "
+            f"from another section because it appeared nearby, and never use the bill's "
+            f"action date (already shown above your copy) as when a rule starts. If your "
+            f"provision names no date, say nothing about when it begins. WRONG: 'Starting "
+            f"January 1, 2026, the State Board can no longer…' when that date governs a "
+            f"different section about ballot fonts. RIGHT: the same sentence with no date. "
+            f"Dollar amounts, deadlines, and penalties follow the same rule.\n\n"
             f"NAME WHO IS ACTUALLY AFFECTED — DON'T BROADEN IT: say precisely who wins, "
             f"loses, pays, or benefits, exactly as the text states, and never inflate a "
             f"narrow group into 'everyone', 'residents', or 'you'. A tax credit for "

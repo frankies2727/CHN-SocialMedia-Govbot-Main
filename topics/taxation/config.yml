@@ -3,6 +3,9 @@
 
 name: taxation
 display_name: "Taxation"
+# Compact label for the parallel-shard job names in the Bluesky workflows,
+# where one job runs 2-3 topics and "post (0)" alone says nothing about which.
+short_name: "Taxes"
 prompt_topic: "state and local taxation, including income, sales, property, and excise taxes, and tax credits or exemptions"
 default_emoji: "💰"
 

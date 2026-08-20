@@ -41,6 +41,9 @@ jobs:
     # 120 min gives that one cache-miss run per day ample headroom — same-day
     # re-runs hit the shared cache and finish in minutes.
     timeout-minutes: 120
+    outputs:
+      # Shard -> topic-label map, used to name the parallel jobs below.
+      matrix: ${{ steps.shards.outputs.matrix }}
     steps:
       - name: Free disk space
         # The govbot clone across 50+ states blows past the runner's ~14 GB free,
@@ -66,6 +69,14 @@ jobs:
 
       - name: Install Python deps
         run: pip install -r requirements.txt
+
+      - name: Work out which topics each shard will run
+        # Labels the five parallel jobs below with the topics they handle, so the
+        # Actions UI reads "post 1 · Justice, Housing, Taxes" instead of
+        # "post (1)". Cosmetic only: the posting step's own loop still decides
+        # what runs, and this mirrors its rule (glob order, index % NUM_SHARDS).
+        id: shards
+        run: echo "matrix=$(python scripts/shard_matrix.py 5)" >> "$GITHUB_OUTPUT"
 
       - name: Install govbot, fetch all supported states, dump JSONL
         # Resilient install (retries the daily-republished upstream nightly) plus
@@ -132,6 +143,8 @@ jobs:
   # ---------------------------------------------------------------------------
   post:
     needs: prepare
+    # e.g. "post 1 · Justice, Housing, Taxes" — see prepare's shards step.
+    name: post ${{ matrix.shard }} · ${{ matrix.label }}
     runs-on: ubuntu-latest
     # No govbot clone here (the corpus is downloaded), so a shard is just Ollama
     # setup (~2 min) + posting. Posting has spiked to ~35 min; keep generous
@@ -139,8 +152,7 @@ jobs:
     timeout-minutes: 120
     strategy:
       fail-fast: false
-      matrix:
-        shard: [0, 1, 2, 3, 4]
+      matrix: ${{ fromJson(needs.prepare.outputs.matrix) }}
     env:
       LLM_MODEL: "gemma3:4b"
       # Wall-clock budget for the script itself, under the 120-minute job cap

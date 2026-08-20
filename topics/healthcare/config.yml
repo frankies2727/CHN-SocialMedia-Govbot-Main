@@ -3,6 +3,9 @@
 
 name: healthcare
 display_name: "Healthcare"
+# Compact label for the parallel-shard job names in the Bluesky workflows,
+# where one job runs 2-3 topics and "post (0)" alone says nothing about which.
+short_name: "Health"
 prompt_topic: "healthcare policy, including health insurance, Medicaid, hospitals, prescription drugs, mental health, and public health"
 default_emoji: "🏥"
 

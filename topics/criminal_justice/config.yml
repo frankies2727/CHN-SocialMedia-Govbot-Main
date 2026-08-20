@@ -3,6 +3,9 @@
 
 name: criminal_justice
 display_name: "Criminal Justice & Policing"
+# Compact label for the parallel-shard job names in the Bluesky workflows,
+# where one job runs 2-3 topics and "post (0)" alone says nothing about which.
+short_name: "Justice"
 prompt_topic: "criminal justice and policing, including law enforcement, courts, sentencing, corrections, and reentry"
 default_emoji: "⚖️"
 

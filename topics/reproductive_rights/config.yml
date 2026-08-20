@@ -3,6 +3,9 @@
 
 name: reproductive_rights
 display_name: "Reproductive Rights"
+# Compact label for the parallel-shard job names in the Bluesky workflows,
+# where one job runs 2-3 topics and "post (0)" alone says nothing about which.
+short_name: "Repro Rights"
 prompt_topic: "reproductive rights, including abortion access, contraception, maternal health, and reproductive healthcare"
 default_emoji: "🩺"
 
