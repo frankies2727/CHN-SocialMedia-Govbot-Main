@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "AN ACT TO AMEND ACT 843 OF 1952, AS AMENDED, RELATING TO THE LEE COUNTY BOARD OF EDUCATION, SO AS TO CLARIFY THE METHOD BY WHICH PERSONS FILE TO BECOME A CANDIDATE FOR ELECTION TO THE BOARD, THE MANNER IN WHICH BOARD ELECTIONS ARE CONDUCTED, AND THE MANNER IN WHICH VACANCIES ON THE BOARD ARE FILLED; AND TO PROVIDE FOR THE ANNUAL COMPENSATION OF MEMBERS OF THE BOARD. - RATIFIED TITLE",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H 5653",
+    "legislative_session": "2025-2026",
+    "title": "Lee County School District Board of Trustees"
+  },
+  "id": "H 5653",
+  "log": {
+    "action": {
+      "description": "Act No. 270",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-08-19",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5653&session=126&summary=B"
+        }
+      ]
+    },
+    "bill_id": "H 5653"
+  },
+  "sources": {
+    "bill": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/H5653/metadata.json",
+    "log": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/H5653/logs/20260819T000000Z_act_no_270.json"
+  },
+  "timestamp": "20260819T000000Z"
+}

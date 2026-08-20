@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Substitute for House Bill No. 383 specifies by position title which Department of Transportation employees must be paid overtime after working 37.5 hours in a week beginning July 1, 2026.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 383",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 29 OF THE DELAWARE CODE RELATING TO PAY FOR DEPARTMENT OF TRANSPORTATION EMPLOYEES."
+  },
+  "id": "HB 383",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-08-17",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143265"
+        }
+      ]
+    },
+    "bill_id": "HB 383"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB383/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB383/logs/20260817T000000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260817T000000Z"
+}

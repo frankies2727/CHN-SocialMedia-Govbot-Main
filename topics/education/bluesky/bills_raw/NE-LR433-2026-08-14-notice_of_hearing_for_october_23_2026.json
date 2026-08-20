@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"legislature\"}",
+    "identifier": "LR433",
+    "legislative_session": "109",
+    "title": "Interim study to examine the necessity of a robust and well-integrated education and workforce system to support long-term economic growth that enables learners to move efficiently from education and training to employment in high-demand and high-wage occupations across the state"
+  },
+  "id": "LR433",
+  "log": {
+    "action": {
+      "description": "Notice of hearing for October 23, 2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-08-14",
+      "session_id": "109",
+      "sources": [
+        {
+          "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026"
+        },
+        {
+          "url": "https://nebraskalegislature.gov/bills/view_bill.php?DocumentID=65855"
+        }
+      ]
+    },
+    "bill_id": "LR433"
+  },
+  "sources": {
+    "bill": "ne-legislation/country:us/state:ne/sessions/109/bills/LR433/metadata.json",
+    "log": "ne-legislation/country:us/state:ne/sessions/109/bills/LR433/logs/20260814T000000Z_notice_of_hearing_for_october_23_2026.json"
+  },
+  "timestamp": "20260814T000000Z"
+}
