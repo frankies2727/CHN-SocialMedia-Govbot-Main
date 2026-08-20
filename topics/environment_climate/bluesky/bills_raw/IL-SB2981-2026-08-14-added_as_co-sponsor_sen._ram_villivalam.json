@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB2981",
+    "legislative_session": "104th",
+    "title": "CLIMATE CHANGE SUPERFUND"
+  },
+  "id": "SB2981",
+  "log": {
+    "action": {
+      "description": "Added as Co-Sponsor Sen. Ram Villivalam",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-14",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=2981&GAID=18&DocTypeID=SB&LegId=165475&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "SB2981"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/SB2981/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/SB2981/logs/20260814T000000Z_added_as_cosponsor_sen_ram_villivalam.json"
+  },
+  "timestamp": "20260814T000000Z"
+}

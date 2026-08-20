@@ -56,6 +56,8 @@
     "GA|SB 420|2026-07-01|Effective Date",
     "IA|SF 2447|2026-02-23|Committee report, approving bill.",
     "IA|SF 2490|2026-04-14|Committee report, approving bill.",
+    "IL|SB2981|2026-08-14",
+    "IL|SB2981|2026-08-14|Added as Co-Sponsor Sen. Ram Villivalam",
     "IL|SB3104|2026-07-02",
     "IL|SB3104|2026-07-02|Senate Floor Amendment No. 4 Pursuant to",
     "IL|SB3104|2026-07-02|Senate Floor Amendment No. 5 Pursuant to",
@@ -82,6 +84,8 @@
     "MA|S2570|2026-07-13",
     "MA|S2570|2026-07-13|Committee reported that the matter be pl",
     "MA|S2570|2026-07-13|Rules suspended",
+    "MA|S3052|2026-08-05",
+    "MA|S3052|2026-08-05|Signed by the Governor, Chapter 166 of t",
     "MA|S3137|2026-07-13",
     "MA|S3137|2026-07-13|Bill reported favorably by committee",
     "MA|S3137|2026-07-13|Read, rules suspended, read second and o",
@@ -202,11 +206,11 @@
     "WA|HB 2416|2026-03-25|Governor signed.",
     "WA|SB 6246|2026-03-12|Delivered to Governor."
   ],
-  "last_run": "2026-08-18T02:47:29.900279+00:00",
+  "last_run": "2026-08-20T18:50:42.435926+00:00",
   "state_last_posted": {
     "IA": "2026-06-03T11:47:38.067759+00:00",
     "MO": "2026-08-03T20:16:40.350564+00:00",
-    "MA": "2026-08-10T17:50:57.606729+00:00",
+    "MA": "2026-08-20T18:42:09.960832+00:00",
     "PR": "2026-07-06T11:43:56.844827+00:00",
     "CO": "2026-06-03T11:47:38.067759+00:00",
     "DE": "2026-07-24T15:20:00.892607+00:00",
@@ -227,7 +231,7 @@
     "NC": "2026-07-31T23:04:31.943501+00:00",
     "PA": "2026-08-08T00:32:06.403685+00:00",
     "LA": "2026-07-22T15:25:53.805297+00:00",
-    "IL": "2026-07-29T18:54:11.114435+00:00",
+    "IL": "2026-08-20T18:42:09.960832+00:00",
     "US": "2026-08-05T15:36:28.276738+00:00",
     "MI": "2026-08-10T17:50:57.606729+00:00"
   }

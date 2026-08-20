@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law defines \"sexual orientation change efforts\" as practices by mental health providers that seek to change an individual's sexual orientation, as specified. Existing law prohibits a mental health provider, as defined, from engaging in sexual orientation change efforts with a patient under 18 years of age, and provides that such efforts attempted by a mental health provider are considered unprofessional conduct and must subject the mental health provider to discipline by that provider's licensing entity.\n\nThis bill would define \"sexual orientation or gender identity change efforts\" as any practices of a licensed mental health provider that seek, during the provision of mental health services, to direct a patient toward a predetermined sexual orientation or gender identity, as specified, and would apply the prohibitions described above to such efforts. The bill would exclude specified practices, including age-appropriate interventions to address unlawful conduct or unsafe practices that do not seek to direct the patient toward a particular sexual orientation or gender identity, from this definition.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB934",
+    "legislative_session": "20252026",
+    "subject": [
+      "Sexualorientationorgenderidentitychangeefforts"
+    ],
+    "title": "Sexual orientation or gender identity change efforts."
+  },
+  "id": "SB934",
+  "log": {
+    "action": {
+      "description": "In Senate. Concurrence in Assembly amendments pending.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-19",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB934"
+        }
+      ]
+    },
+    "bill_id": "SB934"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB934/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB934/logs/20260819T000000Z_in_senate_concurrence_in_assembly_amendments_pending.json"
+  },
+  "timestamp": "20260819T000000Z"
+}

@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Senate, April 13, 2026 -- The committee on Environment and Natural Resources to whom was referred the petition (accompanied by bill, Senate, No. 2961) of Kelly A. Dooner and Justin Thurber (by vote of the town) for legislation to authorize the town of Dighton to use a portion of conservation land for public way purposes, report the accompanying bill (Senate, No. 3052).",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S3052",
+    "legislative_session": "194th",
+    "title": "An Act authorizing the town of Dighton to use a portion of conservation land for public way purposes."
+  },
+  "id": "S3052",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by the Governor, Chapter 166 of the Acts of 2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-08-05",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/S3052"
+        }
+      ]
+    },
+    "bill_id": "S3052"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/S3052/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/S3052/logs/20260805T000000Z_signed_by_the_governor_chapter_166_of_the_acts_of_2026.json"
+  },
+  "timestamp": "20260805T000000Z"
+}
