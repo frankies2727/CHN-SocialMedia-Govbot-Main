@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "A CONCURRENT RESOLUTION TO REQUEST THE DEPARTMENT OF TRANSPORTATION NAME THE PORTION OF UNITED STATES HIGHWAY 321 FROM ITS INTERSECTION WITH SOUTH CAROLINA HIGHWAY 161 TO ITS INTERSECTION WITH JIM MCCARTER ROAD IN YORK COUNTY \"SHERIFF BRUCE M. BRYANT HIGHWAY\" AND ERECT APPROPRIATE SIGNS OR MARKERS ALONG THIS PORTION OF HIGHWAY CONTAINING THESE WORDS.",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H 5791",
+    "legislative_session": "2025-2026",
+    "title": "Sheriff Bryant memorial road"
+  },
+  "id": "H 5791",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Committee on Invitations and Memorial Resolutions",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-11",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5791&session=126&summary=B"
+        }
+      ]
+    },
+    "bill_id": "H 5791"
+  },
+  "sources": {
+    "bill": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/H5791/metadata.json",
+    "log": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/H5791/logs/20260811T000000Z_referred_to_committee_on_invitations_and_memorial_resolutions.json"
+  },
+  "timestamp": "20260811T000000Z"
+}
