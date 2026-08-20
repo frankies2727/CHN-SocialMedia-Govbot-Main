@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act removes the Department of Education from the process related to funding for apprenticeships, as this is administered through the Department of Labor.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 263",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 19 OF THE DELAWARE CODE RELATING TO TRAINING AND APPRENTICESHIP PROGRAMS."
+  },
+  "id": "HB 263",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-07-23",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=142763"
+        }
+      ]
+    },
+    "bill_id": "HB 263"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB263/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB263/logs/20260723T000000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260723T000000Z"
+}

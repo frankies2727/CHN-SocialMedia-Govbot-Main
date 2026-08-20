@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 9812",
+    "legislative_session": "119",
+    "title": "Protecting Mail-In Voting Act of 2026"
+  },
+  "id": "HR 9812",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Oversight and Government Reform.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-21T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9812.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/9812"
+        }
+      ]
+    },
+    "bill_id": "HR 9812"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9812/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR9812/logs/20260721T040000Z_referred_to_the_house_committee_on_oversight_and_government_reform.json"
+  },
+  "timestamp": "20260721T040000Z"
+}

@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1048",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Public utilities: electric utilities"
+    ],
+    "title": "Public utilities: electric utilities; project labor agreements and prevailing wage and fringe benefit rates; require for certain data center contracts. Amends 1939 PA 3 (MCL 460.1 - 460.11) by adding sec. 10ii."
+  },
+  "id": "SB 1048",
+  "log": {
+    "action": {
+      "description": "SENATE CO-SPONSOR(S) NAMED: JEREMY MOSS",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-26",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1048"
+        }
+      ]
+    },
+    "bill_id": "SB 1048"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1048/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1048/logs/20260826T000000Z_senate_cosponsors_named_jeremy_moss.json"
+  },
+  "timestamp": "20260826T000000Z"
+}
