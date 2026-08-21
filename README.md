@@ -369,6 +369,9 @@ All knobs are env vars (set defaults in the workflow `env:` blocks or override p
 | `LLM_RETRY_TIMEOUT` | `1620` | Ceiling for the two retries. |
 | `RELEVANCE_GATE_TIMEOUT` | `1620` | Ceiling for the on-topic check. |
 | `RELEVANCE_GATE` | `1` | `0` disables the LLM on-topic check (keyword matching only). |
+| `BSKY_TIMEOUT` | `60` | Seconds to wait on any single Bluesky API call. Was 30, which dropped a finished post on run #95. |
+| `BSKY_ATTEMPTS` | `2` | Tries per Bluesky post (and per login). A retry first reads the account's repo and adopts the post if the failed attempt actually landed, so it can never double-post. |
+| `BSKY_RETRY_BACKOFF` | `5` | Seconds before a Bluesky retry, multiplied by the attempt number. |
 | `RUN_DEADLINE_MINUTES` | `0` (off); workflows set `95` | Wall-clock budget for the whole script. Every model call is clamped to the time left, so the run finishes early with fewer posts rather than being **cancelled** by Actions — a cancel skips the commit step and loses the run's state. |
 | `POST_COPY_MAX_PROMPT_CHARS` | `17000` | Ceiling on the **entire** prompt (system + notes + bill text). The real quality lever — see *What the model actually reads*. |
 | `POST_COPY_MAX_SOURCE_CHARS` | `12000` | Upper bound on the bill-text portion alone. |

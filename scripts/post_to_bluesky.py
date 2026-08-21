@@ -91,6 +91,18 @@ BSKY_PASSWORD = TOPIC.bluesky_password()
 
 BLUESKY_API = "https://bsky.social/xrpc"
 
+# How long to wait on any single Bluesky HTTP call, and how many times to try a
+# post. On govbot-bluesky-post #95 the immigration run wrote CA AB2624's copy in
+# full and then lost it to "Read timed out. (read timeout=30)" — one hiccup, one
+# post gone, and with only two candidate states there was no reserve to backfill
+# it. 60 seconds absorbs a slow moment; a second attempt covers the rest.
+BSKY_TIMEOUT = int(os.environ.get("BSKY_TIMEOUT", "60"))
+BSKY_ATTEMPTS = int(os.environ.get("BSKY_ATTEMPTS", "2"))
+BSKY_RETRY_BACKOFF = float(os.environ.get("BSKY_RETRY_BACKOFF", "5"))
+# Statuses worth a second try; a 4xx means the post itself is bad and a retry
+# would fail identically.
+_BSKY_RETRY_STATUS = {429, 500, 502, 503, 504}
+
 # Local LLM via Ollama. Defaults assume `ollama serve` is running on the
 # same host (e.g. installed in the GitHub Actions step before this script runs)
 # and the model has been pulled with `ollama pull <LLM_MODEL>`.
@@ -2844,12 +2856,28 @@ def shorten_title(b: dict) -> str:
 class BlueskyClient:
     def __init__(self, handle: str, password: str):
         self.session = requests.Session()
-        r = self.session.post(
-            f"{BLUESKY_API}/com.atproto.server.createSession",
-            json={"identifier": handle, "password": password},
-            timeout=30,
-        )
-        r.raise_for_status()
+        # Logging in twice is harmless, so this one can retry unconditionally —
+        # and a timeout here would otherwise kill the whole topic's run.
+        last_exc: Exception | None = None
+        r = None
+        for attempt in range(1, BSKY_ATTEMPTS + 1):
+            try:
+                r = self.session.post(
+                    f"{BLUESKY_API}/com.atproto.server.createSession",
+                    json={"identifier": handle, "password": password},
+                    timeout=BSKY_TIMEOUT,
+                )
+                r.raise_for_status()
+                break
+            except requests.RequestException as e:
+                last_exc = e
+                if attempt >= BSKY_ATTEMPTS:
+                    raise
+                print(f"  … Bluesky login attempt {attempt} failed ({e}); retrying",
+                      file=sys.stderr)
+                time.sleep(BSKY_RETRY_BACKOFF * attempt)
+        if r is None:                      # unreachable; keeps the type honest
+            raise last_exc or RuntimeError("Bluesky login failed")
         d = r.json()
         self.did = d["did"]
         self.session.headers["Authorization"] = f"Bearer {d['accessJwt']}"
@@ -2860,7 +2888,7 @@ class BlueskyClient:
                 f"{BLUESKY_API}/com.atproto.repo.uploadBlob",
                 data=data,
                 headers={"Content-Type": mime},
-                timeout=30,
+                timeout=BSKY_TIMEOUT,
             )
             r.raise_for_status()
             return r.json().get("blob")
@@ -2906,13 +2934,73 @@ class BlueskyClient:
                         "index": {"byteStart": start, "byteEnd": start + len(ub)},
                         "features": [{"$type": "app.bsky.richtext.facet#link", "uri": link_url}],
                     }]
-        r = self.session.post(
-            f"{BLUESKY_API}/com.atproto.repo.createRecord",
-            json={"repo": self.did, "collection": "app.bsky.feed.post", "record": record},
-            timeout=30,
-        )
-        r.raise_for_status()
-        return r.json()
+        return self._create_record(record)
+
+    def _recent_post(self, text: str) -> tuple[dict | None, bool]:
+        """Look for an already-created post with exactly this text.
+
+        Returns (match_or_None, checked_ok). A read timeout means the request
+        DID reach Bluesky — it may have written the record and merely lost the
+        response — and createRecord is not idempotent, so a blind retry would
+        double-post. Reads the account's own repo, which is a PDS call always
+        available on this session (no AppView round trip). If the check itself
+        fails, checked_ok is False and the caller must NOT retry: a silent
+        duplicate in the feed is worse than a missed post, and a missed bill is
+        not marked seen, so the next run picks it up anyway."""
+        try:
+            r = self.session.get(
+                f"{BLUESKY_API}/com.atproto.repo.listRecords",
+                params={"repo": self.did, "collection": "app.bsky.feed.post",
+                        "limit": 20},
+                timeout=BSKY_TIMEOUT,
+            )
+            r.raise_for_status()
+            for rec in (r.json().get("records") or []):
+                if ((rec.get("value") or {}).get("text") or "") == text:
+                    return {"uri": rec.get("uri", ""), "cid": rec.get("cid", "")}, True
+            return None, True
+        except Exception as e:
+            print(f"  ! could not check whether the post already landed: {e}",
+                  file=sys.stderr)
+            return None, False
+
+    def _create_record(self, record: dict) -> dict:
+        last_exc: Exception | None = None
+        for attempt in range(1, BSKY_ATTEMPTS + 1):
+            if attempt > 1:
+                existing, checked = self._recent_post(record.get("text", ""))
+                if existing:
+                    print(f"  (attempt {attempt - 1} landed after all — "
+                          f"adopting it instead of posting again)", file=sys.stderr)
+                    return existing
+                if not checked:
+                    break              # can't rule out a duplicate; give up
+            try:
+                r = self.session.post(
+                    f"{BLUESKY_API}/com.atproto.repo.createRecord",
+                    json={"repo": self.did, "collection": "app.bsky.feed.post",
+                          "record": record},
+                    timeout=BSKY_TIMEOUT,
+                )
+                if r.status_code in _BSKY_RETRY_STATUS and attempt < BSKY_ATTEMPTS:
+                    last_exc = requests.HTTPError(
+                        f"{r.status_code} {r.text[:200]}", response=r)
+                    print(f"  … Bluesky post attempt {attempt} got "
+                          f"{r.status_code}; retrying", file=sys.stderr)
+                    time.sleep(BSKY_RETRY_BACKOFF * attempt)
+                    continue
+                r.raise_for_status()
+                return r.json()
+            except requests.HTTPError:
+                raise                  # 4xx — the post is bad, not the network
+            except requests.RequestException as e:
+                last_exc = e
+                if attempt >= BSKY_ATTEMPTS:
+                    break
+                print(f"  … Bluesky post attempt {attempt} failed ({e}); retrying",
+                      file=sys.stderr)
+                time.sleep(BSKY_RETRY_BACKOFF * attempt)
+        raise last_exc or RuntimeError("Bluesky post failed")
 
 
 # ---------------------------------------------------------------------------
