@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law makes it a crime to engage in money laundering, defined as conducting a transaction involving a monetary instrument of specified value through a financial institution with the specific intent to promote or facilitate criminal activity or knowing that the monetary instrument represents the proceeds of or is derived from the proceeds of criminal activity. Existing law establishes the Restitution Fund, a continuously appropriated fund in the State Treasury, to provide funding to compensate victims of crime.\n\nThis bill would, until January 1, 2032, expand the crime of money laundering to include conducting a transaction involving a monetary instrument of specified value using digital assets, as defined. The bill would make other technical, nonsubstantive changes, as provided. By expanding the scope of a crime, this bill would impose a state-mandated local program.\n\nExisting law, the California Control of Profits of Organized Crime Act, establishes a procedure for the forfeiture of property and proceeds acquired through a pattern of criminal profiteering activity, as defined, upon the conviction of the underlying criminal offense, including money laundering, and requires the prosecuting agency to file a petition of forfeiture in conjunction with certain criminal proceedings. Existing law authorizes any person claiming an interest in property or proceeds subject to forfeiture to file with the superior court in which the forfeiture action is pending a verified claim stating their interest in the property or proceeds, as specified. \n\nThis bill would, until January 1, 2032, authorize a law enforcement officer or prosecuting agency, as defined, to obtain a search warrant to seize digital assets or wallets, accounts, or similar things containing digital assets (collectively \"digital assets\") upon a showing of probable cause that the digital assets contain proceeds of a crime or proceeds traceable to a crime or have been used to facilitate a crime. The bill would require the search warrant to specify any centralized exchanges, custodians of digital assets, addresses, or other locations from which the digital assets will be seized, to describe how the warrant will be served, and to specify the amount of digital assets to be seized, as specified. The bill would authorize, within 180 days of any seizure, a prosecuting agency to initiate a special proceeding to forfeit the seized digital assets, including providing notice to all readily ascertainable potential owners of the digital assets and anyone with a known security interest. The bill would require any person with a claim to the seized digital assets to file a verified claim under penalty of perjury and supported by admissible evidence within 30 days of the date of service of the notice from the prosecuting agency, as specified. By expanding the crime of perjury, the bill would impose a state-mandated local program. The bill would provide a process for a court to adjudicate and resolve these verified claims, as specified. The bill would require the court, after all the claims are resolved, to issue a final judgment forfeiting the remaining digital assets and would provide a process for a prosecuting agency to distribute the remaining digital assets to victims, as specified. The bill would require any digital assets not distributed to victims to be kept in the custody of law enforcement or prosecuting agency for a maximum of 3 years, after which the forfeited assets would be deposited into the Restitution Fund for the purpose of providing victim services.\n\nBy expanding the revenue sources of a continuously appropriated fund, and by expanding the purposes for which moneys in a continuously appropriated fund may be used, the bill would make an appropriation.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1208",
+    "legislative_session": "20252026",
+    "subject": [
+      "Moneylaundering",
+      "digitalassets"
+    ],
+    "title": "Money laundering: digital assets."
+  },
+  "id": "SB1208",
+  "log": {
+    "action": {
+      "classifications": [
+        "reading-1",
+        "reading-3"
+      ],
+      "description": "Ordered to third reading.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-20",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1208"
+        }
+      ]
+    },
+    "bill_id": "SB1208"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1208/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1208/logs/20260820T000000Z_ordered_to_third_reading.json"
+  },
+  "timestamp": "20260820T000000Z"
+}
