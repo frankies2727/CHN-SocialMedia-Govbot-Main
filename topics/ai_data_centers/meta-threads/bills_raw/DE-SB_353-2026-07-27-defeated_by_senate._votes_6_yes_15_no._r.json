@@ -1,0 +1,42 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act imposes a moratorium, through January 31, 2027, on all applications and permits related to the development of large-scale data centers in this State.\r\n\r\nThis Act requires a greater than majority vote for passage because § 1 of Article IX of the Delaware Constitution requires the affirmative vote of two-thirds of the members elected to each house of the General Assembly to amend a municipal charter, whether directly, by amendment to a specific municipality’s charter, or as in this Act, indirectly by a general law.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 353",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND THE LAWS OF DELAWARE RELATING TO A MORATORIUM ON DATA CENTER DEVELOPMENT."
+  },
+  "id": "SB 353",
+  "log": {
+    "action": {
+      "classifications": [
+        "failure"
+      ],
+      "description": "Defeated By Senate. Votes: 6 YES 15 NO. Reason Taken: Motion to Suspend Rules to Consider SB 353",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-27",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143681"
+        }
+      ]
+    },
+    "bill_id": "SB 353"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB353/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB353/logs/20260727T000000Z_defeated_by_senate_votes_6_yes_15_no_reason_taken_motion_to_suspend_rules_to_consider_sb_353.json"
+  },
+  "timestamp": "20260727T000000Z",
+  "posted_text": "🏢 AI, Data Centers & Crypto\nDE SB 353 — Delaware Pauses Plans for Massive Data Centers\n\nDelaware is putting a freeze on new data centers. This bill would block all applications and permit requests for large-scale data centers until January 31, 2027. The move is tied to a constitutional requirement – two-thirds of the state legislature must vote to allow for changes to local charters, like this one, making it harder to approve data center projects. ...\n...",
+  "posted_link": "https://legis.delaware.gov/BillDetail?LegislationId=143681",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DcSEInRCTlE"
+}

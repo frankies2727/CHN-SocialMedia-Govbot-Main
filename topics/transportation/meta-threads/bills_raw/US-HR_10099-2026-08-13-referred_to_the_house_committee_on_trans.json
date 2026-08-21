@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10099",
+    "legislative_session": "119",
+    "title": "To direct the Administrator of the Federal Motor Carrier Safety Administration to issue certain regulations to extend the time period for the waiver of the commercial driver's license skills test for certain members of the military, and for other purposes."
+  },
+  "id": "HR 10099",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Transportation and Infrastructure.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-13T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10099.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10099"
+        }
+      ]
+    },
+    "bill_id": "HR 10099"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10099/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10099/logs/20260813T040000Z_referred_to_the_house_committee_on_transportation_and_infrastructure.json"
+  },
+  "timestamp": "20260813T040000Z",
+  "posted_text": "🚗 Transportation\nUS HR 10099 — To direct the Administrator of the Federal Motor Carrier Safety Administration to issue certain regulations to extend the time period for the waiver of the commercial driver's license skills test for certain members of the military, and for other purposes. ...\n...",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-bill/10099",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DcSDkJMiV4G"
+}
