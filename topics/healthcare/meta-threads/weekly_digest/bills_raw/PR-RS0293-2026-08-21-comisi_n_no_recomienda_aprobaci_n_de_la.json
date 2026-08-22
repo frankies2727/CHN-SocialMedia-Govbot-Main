@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "RS0293",
+    "legislative_session": "2025-2028",
+    "title": "Para expresar el más categórico repudio del Senado de Puerto Rico al ataque de las fuerzas militares israelíes contra el Hospital Nasser de Gaza el 25 de agosto de 2025; exigir un cese al fuego inmediato, el levantamiento del bloqueo impuesto contra la población civil y la preservación de los derechos humanos en Gaza."
+  },
+  "id": "RS0293",
+  "log": {
+    "action": {
+      "description": "Comisión no recomienda aprobación de la medida",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-08-21T04:00:00+00:00",
+      "session_id": "2025-2028",
+      "sources": [
+        {
+          "url": "https://sutra.oslpr.org/medidas/158402"
+        }
+      ]
+    },
+    "bill_id": "RS0293"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RS0293/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RS0293/logs/20260821T040000Z_comisión_no_recomienda_aprobación_de_la_medida.json"
+  },
+  "timestamp": "20260821T040000Z"
+}

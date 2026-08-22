@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 377",
+    "legislative_session": "2025",
+    "subject": [
+      "ADOPTION; AOC; ARMED FORCES; ATTORNEYS; BAIL; CIVIL PROCEDURE; CONFIDENTIALITY; COURT CLERKS; COURT COSTS & FEES; COURTS; CRIMINAL PROCEDURE; CRIMINAL RECORDS; DEATH & DYING; DEBTOR & CREDITOR; DEEDS; DHHS; DISABLED PERSONS; DISTRICT COURT; DIVORCE; ELECTIONS; EMPLOYMENT; ESTATES; FEES; FINANCIAL SERVICES; GUARDIANSHIP; HOUSING; INDIGENTS; INFORMATION TECHNOLOGY; INTERNET; JUDGES; JUDICIAL DEPT.; JURIES; JUVENILE CODE; LANDLORD & TENANT; LANGUAGES; RENTALS & LEASING; MAGISTRATES; MARRIAGE & CIVIL UNIONS; MINORS; OCCUPATIONS; PERSONNEL; POLITICAL ACTIVITY; PRESENTED; PRIVACY; PUBLIC; PUBLIC DEFENDERS; RATIFIED; REAL ESTATE; SALARIES & BENEFITS; SOCIAL SERVICES; SUPREME COURT; SURETY & FIDELITY; TITLE CHANGE; TRUSTS; VETERANS; VETOED; WILLS; RECORDS; SUPERIOR COURT; INDIGENT DEFENSE SERVICES OFFICE; INTERPRETERS & TRANSLITERATORS; ELECTRONIC GOVERNMENT; CIVIL ACTIONS; CHIEF JUSTICE; FAMILY ISSUES; EXPUNCTIONS"
+    ],
+    "title": "2026 Court Changes."
+  },
+  "id": "HB 377",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-veto"
+      ],
+      "description": "Vetoed 08/17/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-08-17",
+      "session_id": "2025",
+      "sources": [
+        {
+          "url": "https://www.ncleg.gov/BillLookUp/2025/H377"
+        }
+      ]
+    },
+    "bill_id": "HB 377"
+  },
+  "sources": {
+    "bill": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB377/metadata.json",
+    "log": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB377/logs/20260817T000000Z_vetoed_08172026.json"
+  },
+  "timestamp": "20260817T000000Z"
+}

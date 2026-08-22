@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 8476",
+    "legislative_session": "119",
+    "title": "No Antisemitism in Education Act of 2026"
+  },
+  "id": "HR 8476",
+  "log": {
+    "action": {
+      "description": "Committee on the Judiciary discharged.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-20T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr8476.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/8476"
+        }
+      ]
+    },
+    "bill_id": "HR 8476"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR8476/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR8476/logs/20260820T040000Z_committee_on_the_judiciary_discharged.json"
+  },
+  "timestamp": "20260820T040000Z"
+}
