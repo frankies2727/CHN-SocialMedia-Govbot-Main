@@ -310,6 +310,59 @@ def _git(*args: str) -> subprocess.CompletedProcess:
     )
 
 
+# How many times to try pushing the card commit. Each retry rebases first, so
+# these are genuinely different attempts, not the same rejected push repeated.
+GIT_PUSH_ATTEMPTS = int(os.environ.get("GIT_PUSH_ATTEMPTS", "5"))
+
+
+def _current_branch() -> str:
+    name = (_git("rev-parse", "--abbrev-ref", "HEAD").stdout or "").strip()
+    if name and name != "HEAD":
+        return name
+    return (os.environ.get("GITHUB_REF_NAME") or "").strip()
+
+
+def _push_with_rebase(what: str = "cards") -> bool:
+    """Push the current branch, rebasing onto whatever landed since checkout.
+
+    A push rejected as non-fast-forward is DETERMINISTIC: the remote moved after
+    this job checked out, and repeating the same push cannot clear it. The old
+    loop did exactly that — four pushes, no fetch, 32 seconds apart — so on
+    govbot-instagram-weekly-digest #12 a fully rendered 10-slide carousel was
+    thrown away because the Threads digest had pushed 67 seconds after this job's
+    checkout and 46 minutes before it tried to publish. Refresh before each
+    retry, the way the workflows' own commit steps already do.
+
+    Card commits add new, uniquely-named files (state + bill id + action), so a
+    rebase is expected to be clean; an unexpected conflict is aborted rather than
+    left half-applied. Returns True once the push lands."""
+    branch = _current_branch()
+    for attempt in range(1, GIT_PUSH_ATTEMPTS + 1):
+        push = _git("push")
+        if push.returncode == 0:
+            if attempt > 1:
+                print(f"  pushed {what} on attempt {attempt}.")
+            return True
+        # Always log git's own reason — without it a rejected push is
+        # indistinguishable from an auth failure or a protected branch.
+        print(f" ! git push failed (attempt {attempt}/{GIT_PUSH_ATTEMPTS}): "
+              f"{(push.stderr or '').strip()}", file=sys.stderr)
+        if attempt == GIT_PUSH_ATTEMPTS:
+            break
+        if not branch:
+            print(" ! detached HEAD — nothing to rebase onto; not retrying.",
+                  file=sys.stderr)
+            break
+        pull = _git("pull", "--rebase", "--autostash", "origin", branch)
+        if pull.returncode != 0:
+            print(f" ! rebase onto origin/{branch} failed: "
+                  f"{(pull.stderr or '').strip()}", file=sys.stderr)
+            _git("rebase", "--abort")
+            break
+        time.sleep(2 * attempt)
+    return False
+
+
 def _repo_slug() -> str:
     if GITHUB_REPOSITORY:
         return GITHUB_REPOSITORY
@@ -335,13 +388,7 @@ def publish_cards(paths: list[Path]) -> str | None:
     if commit.returncode != 0:
         print(f" ! git commit failed: {commit.stderr}", file=sys.stderr)
         return None
-    for attempt in range(1, 5):
-        push = _git("push")
-        if push.returncode == 0:
-            break
-        print(f" ! git push failed (attempt {attempt}): {push.stderr}", file=sys.stderr)
-        time.sleep(2 ** attempt)
-    else:
+    if not _push_with_rebase("cards"):
         return None
     return _git("rev-parse", "HEAD").stdout.strip() or None
 

@@ -79,6 +79,7 @@ from post_to_instagram import (
     MIN_SUMMARY_CHARS,
     _artifact_basename,
     _git,
+    _push_with_rebase,
     _internal_error_subcode,
     _repo_slug,
     post_to_instagram,
@@ -354,12 +355,10 @@ def publish_digest_cards(paths: list[Path]) -> str | None:
     if commit.returncode != 0:
         print(f" ! git commit failed: {commit.stderr}", file=sys.stderr)
         return None
-    for attempt in range(1, 5):
-        if _git("push").returncode == 0:
-            break
-        print(f" ! git push failed (attempt {attempt})", file=sys.stderr)
-        time.sleep(2 ** attempt)
-    else:
+    # Shared with post_to_instagram.publish_cards: rebase between attempts, and
+    # log git's reason. This loop used to retry the same rejected push four
+    # times without fetching, which is what lost run #12's finished carousel.
+    if not _push_with_rebase("carousel cards"):
         return None
     return _git("rev-parse", "HEAD").stdout.strip() or None
 
