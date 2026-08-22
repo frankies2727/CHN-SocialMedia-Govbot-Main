@@ -1,21 +1,33 @@
 name: govbot-instagram-weekly-digest
 
 on:
-  # SATURDAY, second slot (90 min after the Threads digest). The weekly carousel
+  # SATURDAY, second slot — 3 hours after the Threads digest. The weekly carousel
   # is the most visual thing this bot publishes, and Instagram's saving/sharing
-  # peaks late on a weekend morning — so it gets the best weekend slot rather
-  # than a Friday afternoon one. The 90-minute gap keeps two full 50-state clones
-  # off the runner pool at the same moment.
+  # peaks around the middle of a weekend day, so it gets the best weekend slot
+  # rather than a Friday afternoon one.
+  #
+  # The gap was 90 minutes and that was not enough. On run #12 the Threads digest
+  # (13:07 cron) did not push its artifacts until 15:40 UTC — 2h33m after its
+  # cron, because GitHub's scheduler ran it late, prepare cloned 50+ states for
+  # ~45 min, and the digest job itself ran ~90 min. This job checked out main at
+  # 15:39:06, Threads pushed 67 seconds later, and 46 minutes after that the
+  # finished carousel could not be pushed and the whole run was thrown away.
+  # Three hours clears Threads' real end-to-end time with room to spare.
+  #
+  # This only reduces the odds. Daily posters and other bots also push to main,
+  # so the durable fix is publish_digest_cards rebasing before it retries a
+  # rejected push; the schedule just stops the two digests colliding by design.
   #
   # NOTE the lead time: cron fires the *workflow*, not the post. The prepare job
   # clones first, and the carousel additionally renders its cards, commits them,
-  # and waits for the CDN before publishing — so the post lands roughly an hour
-  # later. 14:37 UTC therefore posts at ~15:30-15:50 UTC ≈ 11:30-11:50 AM ET.
+  # and waits for the CDN before publishing — so the post lands roughly 90
+  # minutes later. 16:07 UTC therefore posts at ~17:40-18:00 UTC ≈ 1:40-2:00 PM
+  # ET, Saturday early afternoon.
   #
   # GitHub cron is fixed UTC and ignores DST, so during EST this lands an hour
   # earlier local. Odd minute dodges top-of-hour scheduler congestion.
   schedule:
-    - cron: "37 14 * * SAT"
+    - cron: "7 16 * * SAT"
   workflow_dispatch: {}
 
 permissions:
