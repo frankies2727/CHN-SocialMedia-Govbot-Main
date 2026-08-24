@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10119",
+    "legislative_session": "119",
+    "title": "To prohibit the preemption of State or local land-use, zoning, siting, or permitting authority for data centers on non-Federal land, and for other purposes."
+  },
+  "id": "HR 10119",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Energy and Commerce.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-20T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10119.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10119"
+        }
+      ]
+    },
+    "bill_id": "HR 10119"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10119/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10119/logs/20260820T040000Z_referred_to_the_house_committee_on_energy_and_commerce.json"
+  },
+  "timestamp": "20260820T040000Z"
+}

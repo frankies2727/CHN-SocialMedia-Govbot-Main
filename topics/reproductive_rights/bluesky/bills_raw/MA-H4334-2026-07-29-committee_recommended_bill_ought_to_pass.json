@@ -1,0 +1,42 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H4334",
+    "legislative_session": "194th",
+    "title": "An Act to increase access to nurse-midwifery services"
+  },
+  "id": "H4334",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Committee recommended bill ought to pass and referred to the committee on House Ways and Means",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-29",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "the committee on House Ways and Means"
+        },
+        {
+          "entity_type": "organization",
+          "name": "committee on House Ways and Means"
+        }
+      ],
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/H4334"
+        }
+      ]
+    },
+    "bill_id": "H4334"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4334/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H4334/logs/20260729T000000Z_committee_recommended_bill_ought_to_pass_and_referred_to_the_committee_on_house_ways_and_means.json"
+  },
+  "timestamp": "20260729T000000Z"
+}

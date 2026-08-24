@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB3852",
+    "legislative_session": "104th",
+    "title": "PARTIAL BIRTH ABORTION BAN"
+  },
+  "id": "HB3852",
+  "log": {
+    "action": {
+      "description": "Added Co-Sponsor Rep. Scott Doody",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-17",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=3852&GAID=18&DocTypeID=HB&LegId=162744&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "HB3852"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/HB3852/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/HB3852/logs/20260817T000000Z_added_cosponsor_rep_scott_doody.json"
+  },
+  "timestamp": "20260817T000000Z"
+}
