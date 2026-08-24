@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB3398",
+    "legislative_session": "104th",
+    "title": "CIV PRO-TENANTS IN COMMON"
+  },
+  "id": "SB3398",
+  "log": {
+    "action": {
+      "description": "Effective Date August 7, 2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-07",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=3398&GAID=18&DocTypeID=SB&LegId=166320&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "SB3398"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/SB3398/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/SB3398/logs/20260807T000000Z_effective_date_august_7_2026.json"
+  },
+  "timestamp": "20260807T000000Z",
+  "posted_text": "🔑 IL SB3398 — Could You Inherit Land and Claim Ownership\n\nIllinois could soon offer a new path for people inheriting land as tenants in common through intestate succession.\n\nThis bill would let someone claim full ownership of the property – excluding anyone else who might have a stake – if they meet specific requirements.\n\nYou’d need to show you’ve been living on the land, paying property taxes, and haven’t contributed to its upkeep for several years.\n\nImportantly, your household income would need to be under 80% of the area median income for the county where the land is located.\n\nBefore filing a claim, you’d have to send detailed notices to anyone who might have an ownership interest, publish a notice in a local newspaper, and file a declaration with the county recorder.\n\nThis process aims to clarify ownership in situations where land has been passed down through generations without a clear record of all current owners.\n\nThe law would take effect August 7, 2026.\n\nAug. 7, 2026: Effective Date.\n\n🔗 Read the full bill: https://ilga.gov/Legislation/BillStatus?DocNum=3398&GAID=18&DocTypeID=SB&LegId=166320&SessionID=114\n\n#Housing #Illinois #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://ilga.gov/Legislation/BillStatus?DocNum=3398&GAID=18&DocTypeID=SB&LegId=166320&SessionID=114",
+  "posted_url": "https://www.instagram.com/p/DcbtGrSm80l/"
+}

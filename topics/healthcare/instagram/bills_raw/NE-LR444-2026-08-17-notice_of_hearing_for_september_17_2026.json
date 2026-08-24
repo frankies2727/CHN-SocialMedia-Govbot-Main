@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"legislature\"}",
+    "identifier": "LR444",
+    "legislative_session": "109",
+    "title": "Interim study to examine cost models and payment models for determining behavioral health service rates in Nebraska"
+  },
+  "id": "LR444",
+  "log": {
+    "action": {
+      "description": "Notice of hearing for September 17, 2026 (cancel)",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-08-17",
+      "session_id": "109",
+      "sources": [
+        {
+          "url": "https://nebraskalegislature.gov/bills/search_by_date.php?SessionDay=2026"
+        },
+        {
+          "url": "https://nebraskalegislature.gov/bills/view_bill.php?DocumentID=65755"
+        }
+      ]
+    },
+    "bill_id": "LR444"
+  },
+  "sources": {
+    "bill": "ne-legislation/country:us/state:ne/sessions/109/bills/LR444/metadata.json",
+    "log": "ne-legislation/country:us/state:ne/sessions/109/bills/LR444/logs/20260817T000000Z_notice_of_hearing_for_september_17_2026_cancel.json"
+  },
+  "timestamp": "20260817T000000Z",
+  "posted_text": "🧠 NE LR444 — Nebraska to Study How Healthcare Costs Are Set for Mental Health\n\nNebraska lawmakers are launching an investigation into how rates are determined for behavioral health services.\n\nThe study will look at how other states handle these rates, examine changes brought about by Medicaid managed care, and consider what factors should be included when setting provider rates.\n\nThe Health and Human Services Committee will consult with agencies, the Legislative Fiscal Office, and experts to analyze current methods and propose recommendations for a more effective rate-setting process, including how often these analyses should be conducted.\n\nAug. 17, 2026: Notice of hearing for September 17, 2026 (cancel).\n\n🔗 Read the full bill: https://nebraskalegislature.gov/FloorDocs/109/PDF/Intro/LR444.pdf\n\n#Healthcare #Nebraska #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://nebraskalegislature.gov/FloorDocs/109/PDF/Intro/LR444.pdf",
+  "posted_url": "https://www.instagram.com/p/DcbsHGgG9qm/"
+}

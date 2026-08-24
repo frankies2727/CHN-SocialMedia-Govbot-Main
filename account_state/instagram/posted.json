@@ -111,6 +111,8 @@
     "IA|HF 2788|2026-04-29|Amendment H-8433 filed. H.J. 04/29.",
     "IL|HJRCA27|2026-07-01",
     "IL|HJRCA27|2026-07-01|Rule 19(b) / Re-referred to Rules Commit",
+    "IL|SB2981|2026-08-14",
+    "IL|SB2981|2026-08-14|Added as Co-Sponsor Sen. Ram Villivalam",
     "IL|SB3175|2026-07-09",
     "IL|SB3175|2026-07-09|Added as Co-Sponsor Sen. Dave Syverson",
     "IL|SB3336|2026-07-02",
@@ -118,6 +120,9 @@
     "IL|SB3341|2026-07-10",
     "IL|SB3341|2026-07-10|Effective Date January 1, 2027",
     "IL|SB3341|2026-07-10|Governor Approved",
+    "IL|SB3398|2026-08-07",
+    "IL|SB3398|2026-08-07|Effective Date August 7, 2026",
+    "IL|SB3398|2026-08-07|Governor Approved",
     "IL|SB3410|2026-07-02",
     "IL|SB3410|2026-07-02|Pursuant to Senate Rule 3-9(b) / Referre",
     "MA|H2501|2026-07-31",
@@ -154,6 +159,8 @@
     "MA|S652|2026-06-25|Read third",
     "MA|S652|2026-06-25|Taken out of the Orders of the Day",
     "MA|SD3273|2026-06-23|Discharged from committee and recommitte",
+    "MD|HB2102|2026-08-03",
+    "MD|HB2102|2026-08-03|First Reading House Rules and Executive ",
     "MI|HB 4350|2026-07-29",
     "MI|HB 4350|2026-07-29|approved by the Governor 07/21/2026 03:0",
     "MI|HB 4350|2026-07-29|assigned PA 86'26 with immediate effect",
@@ -231,6 +238,9 @@
     "NC|SB 153|2026-06-24",
     "NC|SB 153|2026-06-24|",
     "NC|SB 153|2026-06-24|Veto Overridden",
+    "NE|LR444|2026-08-17",
+    "NE|LR444|2026-08-17|Notice of hearing for September 17, 2026",
+    "NE|LR444|2026-08-17|Notice of hearing for September 18, 2026",
     "NH|HB1406|2026-08-05",
     "NH|HB1406|2026-08-05|Public Hearing: 02/17/2026 01:45 pm GP 1",
     "NH|SB438|2026-06-17",
@@ -334,7 +344,6 @@
     "|HR 9368|2026-06-24|Ordered to be Reported (Amended) by the "
   ],
   "runs": {
-    "28289807435-1": 4,
     "28308327199-1": 4,
     "28313703022-1": 4,
     "28323135470-1": 4,
@@ -363,7 +372,8 @@
     "31435588872-1": 4,
     "31623464716-1": 4,
     "32048252531-1": 4,
-    "32279015019-1": 4
+    "32279015019-1": 4,
+    "32754924562-1": 4
   },
-  "last_run": "2026-08-19T18:39:04.143968+00:00"
+  "last_run": "2026-08-24T18:27:33.599235+00:00"
 }

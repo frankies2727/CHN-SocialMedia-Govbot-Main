@@ -7,6 +7,9 @@
     "DE|SB 116|2026-06-30|Amendment HA 1 to SS 1 - Passed In House",
     "DE|SB 116|2026-06-30|Amendment HA 2 to SS 1 - Introduced and ",
     "DE|SB 116|2026-06-30|Amendment HA 2 to SS 1 - Passed In House",
+    "IL|SB3398|2026-08-07",
+    "IL|SB3398|2026-08-07|Effective Date August 7, 2026",
+    "IL|SB3398|2026-08-07|Governor Approved",
     "MA|H4186|2026-06-18|Read second and ordered to a third readi",
     "MN|SF 4171|2026-08-01",
     "MN|SF 4171|2026-08-01|Effective date 08/01/2026",
@@ -38,7 +41,8 @@
     "NH": "2026-07-11T12:53:45.151614+00:00",
     "US": "2026-07-27T18:49:47.618171+00:00",
     "NC": "2026-08-01T01:46:37.732951+00:00",
-    "MN": "2026-08-12T18:45:52.140775+00:00"
+    "MN": "2026-08-12T18:45:52.140775+00:00",
+    "IL": "2026-08-24T18:20:15.216271+00:00"
   },
-  "last_run": "2026-08-12T18:57:39.001886+00:00"
+  "last_run": "2026-08-24T18:27:33.600008+00:00"
 }

@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB2981",
+    "legislative_session": "104th",
+    "title": "CLIMATE CHANGE SUPERFUND"
+  },
+  "id": "SB2981",
+  "log": {
+    "action": {
+      "description": "Added as Co-Sponsor Sen. Ram Villivalam",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-14",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=2981&GAID=18&DocTypeID=SB&LegId=165475&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "SB2981"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/SB2981/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/SB2981/logs/20260814T000000Z_added_as_cosponsor_sen_ram_villivalam.json"
+  },
+  "timestamp": "20260814T000000Z",
+  "posted_text": "🌡️ IL SB2981 — Illinois Wants to Hold Fossil Fuels Accountable for Climate Damage\n\nIllinois is creating a ‘Climate Change Superfund’ to address the costs of adapting to climate change impacts.\n\nThe fund will be financed by large fossil fuel producers – companies like those responsible for over 70% of global greenhouse gas emissions since 1988 – who will be held liable for the costs of infrastructure projects like flood control, urban cooling, and water upgrades.\n\nThe Environmental Protection Agency will establish rules for how the fund operates, including determining liability and approving eligible spending, which will prioritize projects benefiting disadvantaged communities facing climate risks.\n\nThis means Illinois is aiming to ensure fossil fuel companies contribute to fixing the problems they’ve helped create.\n\nAug. 14, 2026: Added as Co-Sponsor Sen. Ram Villivalam.\n\n🔗 Read the full bill: https://ilga.gov/Legislation/BillStatus?DocNum=2981&GAID=18&DocTypeID=SB&LegId=165475&SessionID=114\n\n#EnvironmentClimate #Illinois #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://ilga.gov/Legislation/BillStatus?DocNum=2981&GAID=18&DocTypeID=SB&LegId=165475&SessionID=114",
+  "posted_url": "https://www.instagram.com/p/DcbrfCTm2zf/"
+}

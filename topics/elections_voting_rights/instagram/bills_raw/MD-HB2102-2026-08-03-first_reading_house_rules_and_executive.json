@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB2102",
+    "legislative_session": "2026",
+    "title": "Districting - Single-Member Districts and Legislative and Congressional Redistricting and Apportionment Convention"
+  },
+  "id": "HB2102",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "First Reading House Rules and Executive Nominations",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-03",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "http://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb2102?ys=2026RS"
+        }
+      ]
+    },
+    "bill_id": "HB2102"
+  },
+  "sources": {
+    "bill": "md-legislation/country:us/state:md/sessions/2026/bills/HB2102/metadata.json",
+    "log": "md-legislation/country:us/state:md/sessions/2026/bills/HB2102/logs/20260803T000000Z_first_reading_house_rules_and_executive_nominations.json"
+  },
+  "timestamp": "20260803T000000Z",
+  "posted_text": "🗺️ MD HB2102 — Maryland Could Split Into Districts of 3 Delegates\n\nMaryland could change how its House of Delegates is formed.\n\nThis bill proposes a new system where each House of Delegates district would be made up of three single-member districts.\n\nThe General Assembly would also need to create a convention to draw new district lines for both the House of Delegates and the U.S.\n\nCongressional districts, based on the decennial census.\n\nIf the convention approves a plan, it would automatically become law, but the General Assembly could challenge it in court if it doesn’t meet constitutional or legal requirements.\n\nThe Supreme Court of Maryland would have the power to review the districting process and ensure it aligns with the U.S.\n\nand Maryland Constitutions.\n\nAug. 3, 2026: First Reading House Rules and Executive Nominations.\n\n🔗 Read the full bill: https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb2102?ys=2026RS\n\n#ElectionsVotingRights #Maryland #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/hb2102?ys=2026RS",
+  "posted_url": "https://www.instagram.com/p/DcbqkxLm1zz/"
+}
