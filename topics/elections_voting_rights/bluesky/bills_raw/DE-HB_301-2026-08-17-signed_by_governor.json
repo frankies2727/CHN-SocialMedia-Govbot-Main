@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "House Substitute No. 1 for House Bill No. 301, like the original, updates the existing crime of “breach of peace or violence on election day.” Under this statute, it is unlawful to take the following actions on a day of election or early in-person voting or during the reading and counting of ballots with the intent to impede or interfere with the election: (1) The use of any violence or threats of violence at or near a polling place, a Department of Elections office, a meeting of the Board of Canvass, or any other place where votes are cast, stored, read, or counted; (2) A breach of peace at or near the same places; and (3) Hindering, controlling, coercing, or intimidating or attempting to hinder, control, coerce, or intimidate any qualified elector from exercising their right to vote. A violation of the statute is a class G felony.\r\nThis substitute differs from the original HB 301 in that it makes the intent to impede or interfere with the election an element of the crime for any of the prohibited acts. It also adds “any other place where votes are cast, stored, read, or counted” to the locations where the acts are prohibited. It adds the third act of “hindering, controlling, coercing or intimidating a voter\" from or in exercising their right to vote as a prohibited act.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 301",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 15 OF THE DELAWARE CODE RELATING TO ELECTIONS AND CRIMINAL OFFENSES."
+  },
+  "id": "HB 301",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-08-17",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=142996"
+        }
+      ]
+    },
+    "bill_id": "HB 301"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB301/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB301/logs/20260817T000000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260817T000000Z"
+}

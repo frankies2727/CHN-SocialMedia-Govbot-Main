@@ -1,0 +1,46 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes the Emergency Medical Services Authority and requires the authority to coordinate state activities concerning emergency medical services.\n\nExisting law grants the Division of Occupational Safety and Health, which is within the Department of Industrial Relations, jurisdiction over all employment and places of employment, and the power necessary to enforce and administer all occupational health and safety laws and standards. Existing law, the California Occupational Safety and Health Act of 1973 (OSHA) , requires employers to comply with certain safety and health standards, as specified, and charges the division with enforcement of the act. Under OSHA, certain violations of the act are punishable as a crime.\n\nExiting law requires the division, before December 1, 2027, to submit a draft rulemaking proposal to revise specified regulations on first aid materials and emergency medical services to require first aid materials in a workplace to include naloxone hydrochloride or another opioid antagonist approved by the United States Food and Drug Administration to reverse opioid overdose and instructions for using the opioid antagonist. Existing law requires the standards board to consider for adoption revised standards for the standards described above on or before December 1, 2028. \n\nThis bill would require an employer operating in this state that requires cardiopulmonary resuscitation (CPR) certification training of its employees to also require those employees, except as specified, to take an online video module training on the use of naloxone to increase the rate of opioid overdose reversals, as prescribed. The bill would require the Emergency Medical Services Authority to review and approve the online video module trainings to ensure that the training content meets certain minimum standards. The bill would require the Division of Occupational Safety and Health to enforce these provisions in accordance with the division's existing authority under OSHA. By expanding the scope of a crime under OSHA, the bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2150",
+    "legislative_session": "20252026",
+    "subject": [
+      "Employment",
+      "opioidoverdosereversals",
+      "trainingrequirements"
+    ],
+    "title": "Employment: training requirements: opioid overdose reversals."
+  },
+  "id": "AB2150",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "reading-1",
+        "reading-2",
+        "reading-3"
+      ],
+      "description": "Read third time and amended. Ordered to second reading.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-21",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2150"
+        }
+      ]
+    },
+    "bill_id": "AB2150"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2150/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2150/logs/20260821T000000Z_read_third_time_and_amended_ordered_to_second_reading.json"
+  },
+  "timestamp": "20260821T000000Z"
+}
