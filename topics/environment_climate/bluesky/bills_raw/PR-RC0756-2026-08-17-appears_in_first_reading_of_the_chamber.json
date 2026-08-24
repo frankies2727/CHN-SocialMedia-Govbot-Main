@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "RC0756",
+    "legislative_session": "2025-2028",
+    "title": "Para ordenar a la Comisión Recursos Naturales de la Cámara de Representantes de Puerto Rico realizar una investigación exhaustiva sobre las condiciones operacionales, ambientales, regulatorias y de salud pública relacionadas con el Vertedero Municipal de Toa Baja, operado por Landfill Technologies of Toa Baja, LLC; evaluar el cumplimiento de las leyes y reglamentos ambientales estatales y federales, incluyendo las condiciones impuestas por la Agencia Federal de Protección Ambiental (EPA), el Departamento de Recursos Naturales y Ambientales, la Oficina de Gerencia de Permisos y demás agencias con jurisdicción; investigar las alegadas emisiones de polvo fugitivo, material particulado, olores, lixiviados y cualquier otro contaminante ambiental que pudiera afectar a las comunidades aledañas, particularmente el sector Candelaria Arenas; determinar si las medidas de mitigación implementadas por el operador son suficientes para proteger la salud, la seguridad y el bienestar de los residentes; evaluar las actuaciones fiscalizadoras de las agencias concernidas; y para otros fines relacionados."
+  },
+  "id": "RC0756",
+  "log": {
+    "action": {
+      "classifications": [
+        "reading-1"
+      ],
+      "description": "Aparece en Primera Lectura de la Cámara",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-17T04:00:00+00:00",
+      "session_id": "2025-2028",
+      "sources": [
+        {
+          "url": "https://sutra.oslpr.org/medidas/161740"
+        }
+      ]
+    },
+    "bill_id": "RC0756"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RC0756/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RC0756/logs/20260817T040000Z_aparece_en_primera_lectura_de_la_cámara.json"
+  },
+  "timestamp": "20260817T040000Z"
+}
