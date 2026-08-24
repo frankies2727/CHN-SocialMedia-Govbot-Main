@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "AN ACT TO AMEND ACT 509 OF 1982, AS AMENDED, RELATING TO THE ELECTION OF TRUSTEES OF ANDERSON COUNTY SCHOOL DISTRICT 2, SO AS TO PROVIDE THAT SIX MEMBERS OF THE SEVEN-MEMBER GOVERNING BODY MUST BE ELECTED FROM SINGLE-MEMBER DISTRICTS. - RATIFIED TITLE",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 1162",
+    "legislative_session": "2025-2026",
+    "title": "Anderson County School District No. 2"
+  },
+  "id": "S 1162",
+  "log": {
+    "action": {
+      "description": "Act No. 266",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-08-19",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=1162&session=126&summary=B"
+        }
+      ]
+    },
+    "bill_id": "S 1162"
+  },
+  "sources": {
+    "bill": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/S1162/metadata.json",
+    "log": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/S1162/logs/20260819T000000Z_act_no_266.json"
+  },
+  "timestamp": "20260819T000000Z"
+}
