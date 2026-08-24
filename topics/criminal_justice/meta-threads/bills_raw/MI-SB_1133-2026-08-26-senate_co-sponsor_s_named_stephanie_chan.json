@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1133",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Retirement: defined benefit",
+      "Retirement: state police",
+      "State agencies (existing): technology, management, and budget"
+    ],
+    "title": "Retirement: state police; membership in the retirement system of certain law enforcement officers first hired after certain date; provide for, and allow for purchasing service credit for certain law enforcement officers' service under the state employees' retirement system. Amends secs. 3 & 4 of 1986 PA 182 (MCL 38.1603 & 38.1604).   TIE BAR WITH: SB 1134'26,  SB 1135'26"
+  },
+  "id": "SB 1133",
+  "log": {
+    "action": {
+      "description": "SENATE CO-SPONSOR(S) NAMED: STEPHANIE CHANG",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-26",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1133"
+        }
+      ]
+    },
+    "bill_id": "SB 1133"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1133/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1133/logs/20260826T000000Z_senate_cosponsors_named_stephanie_chang.json"
+  },
+  "timestamp": "20260826T000000Z",
+  "posted_text": "👮 Criminal Justice & Policing\nMI SB 1133 — Michigan State Police Retirees Could Get Bigger Checks\n\nThis bill would change how the state calculates the retirement allowance for Michigan State Police officers. Specifically, it adjusts the timeframe used to determine ‘final average compensation’ – the key figure used to calculate benefits. For officers hired after June 10, 2012, the bill expands the period considered to five years of salary, instead of the current two. ...\n...",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1133",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DcZyIU0FXdi"
+}
