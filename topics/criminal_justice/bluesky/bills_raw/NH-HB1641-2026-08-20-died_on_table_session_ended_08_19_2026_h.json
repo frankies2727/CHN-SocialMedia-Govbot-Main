@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB1641",
+    "legislative_session": "2026",
+    "title": "relative to petitions for certain orders of protection where the subject of the order is either released on bail or on probation."
+  },
+  "id": "HB1641",
+  "log": {
+    "action": {
+      "description": "Died on Table, Session ended 08/19/2026  HJ 16",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-20",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/advanced.aspx"
+        }
+      ]
+    },
+    "bill_id": "HB1641"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB1641/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB1641/logs/20260820T000000Z_died_on_table_session_ended_08192026_hj_16.json"
+  },
+  "timestamp": "20260820T000000Z"
+}

@@ -1,0 +1,90 @@
+HB1641-FN-ASINTRODUCED
+2026SESSION
+09/08
+1641-FN
+HOUSEBILL
+ANACT relative to petitions for certain orders of protection where the subject of the order
+iseitherreleasedonbailoronprobation.
+Johnson,Straf.11;Rep.Meuse,Rock.37;Rep.Newell,Ches.4;Rep.Scherr,Rock.
+26; Rep. Selig, Straf. 10; Rep. M. Smith, Straf. 10; Rep. Read, Rock. 10; Sen.
+Altschiller,Dist24
+COMMITTEE: CriminalJusticeandPublicSafety
+─────────────────────────────────────────────────────────────────
+ANALYSIS
+This bill requires the court clerk's office to transmit certain orders of protection to a prosecutor
+orprobationofficerwherethesubjectoftheorderiseitherreleasedonbailoronprobation.
+---------------------------------------------------------------------------
+Explanation: Matteraddedtocurrentlawappearsinbolditalics.
+Matterremovedfromcurrentlawappears[inbracketsandstruckthrough.]
+Matterwhichiseither(a)allnewor(b)repealedandreenactedappearsinregulartype.
+
+HB1641-FN-ASINTRODUCED
+09/08
+STATEOFNEWHAMPSHIRE
+IntheYearofOurLordTwoThousandTwenty-Six
+ANACT relative to petitions for certain orders of protection where the subject of the order
+iseitherreleasedonbailoronprobation.
+BeitEnactedbytheSenateandHouseofRepresentativesinGeneralCourtconvened:
+1 New Paragraph; Protection of Persons from Domestic Violence; Temporary Relief. Amend
+RSA173-B:4byinsertingafterparagraphIIthefollowingnewparagraph:
+III. The clerk’s office shall transmit any orders entered by the court pursuant to this section
+to the prosecutor and probation office, if such order is issued against a person who is currently
+subjecttoabailorderorprobation,within24hours,excludinganyweekendorholiday.
+2 NewParagraph;ProtectionofPersonsfromDomesticViolence;Relief. AmendRSA173-B:5by
+insertingafterparagraphXthefollowingnewparagraph:
+XI. The clerk’s office shall transmit any orders entered by the court pursuant to this section
+to the prosecutor and probation office, if such order is issued against a person who is currently
+subjecttoabailorderorprobation,within24hours,excludinganyweekendorholiday.
+3 New Paragraph; Stalking. Amend RSA 633:3-a by inserting after paragraph III-d the
+followingnewparagraph:
+III-e. The clerk’s officeshall transmit anyprotectiveorders entered bythecourt pursuant to
+this section to the prosecutor and probation office, if such order is issued against a person who is
+currentlysubjecttoabailorderorprobation,within24hours,excludinganyweekendorholiday.
+4 New Section; Restraining Orders. Amend RSA 491 by inserting after section 25 the following
+newsection:
+491:26 Transmission of Civil Restraining Orders. The clerk's office shall transmit any civil
+restraining order, either temporary or final, entered by the court pursuant to any authority to the
+prosecutor and probation office, if such order is issued against a person who is currently subject to a
+bailorderorprobation,within24hours,excludinganyweekendorholiday.
+5 EffectiveDate. ThisactshalltakeeffectJanuary1,2027.
+
+LBA
+12/8/25
+HB1641-FN-FISCALNOTE
+ASINTRODUCED
+ANACT relative to petitions for certain orders of protection where the subject of the order
+iseitherreleasedonbailoronprobation.
+FISCALIMPACT: Thisbilldoesnotprovidefunding,nordoesitauthorizenewpositions.
+Estimated State Impact
+FY2026 FY2027 FY2028 FY2029
+Revenue $0 $0 $0 $0
+RevenueFund(s) None
+$1,763,000to $3,397,000to $3,483,000to
+Expenditures* $0
+$2,000,000 $4,000,000 $4,000,000
+FundingSource(s) GeneralFund
+Appropriations* $0 $0 $0 $0
+FundingSource(s) None
+*Expenditure=Costofbill *Appropriation=Authorizedfundingtocovercostofbill
+METHODOLOGY:
+This bill requires the clerk’s office in every circuit and superior court to transmit domestic
+violence, stalking, and civil restraining orders to prosecutors and probation offices within 24
+hourswhenthedefendantissubjecttobailorprobation.
+The Judicial Branch states this bill will result in a significant increase in state General Fund
+expenditures beginning in FY 2027. The Branch explains that to meet the statutory
+requirement, each of the 43 court locations would need a dedicated full-time Court Operations
+Specialistresponsiblefordeterminingwhetherthesubjectofaprotectiveorderisonprobationor
+under bail conditions, including instances where bail or probation originate from other
+jurisdictions.
+The cost for a full-time Court Operations Specialist is $41,000 in FY 2027, $79,000 in FY 2028,
+and $81,000 in FY 2029. Because the bill takes effect January 1, 2027, FY 2027 reflects only a
+half-year cost. At 43 positions, total personnel expenditures areapproximately $1,763,000in FY
+2027, $3,397,000 in FY 2028, and $3,483,000 in FY 2029. The Branch notes that there may be
+additional software licensing costs related to conducting criminal records checks, but these
+wouldbeminimalrelativetopersonnelcosts.
+
+This bill does not authorize or fund the 43 requested positions. If the positions do end up being
+authorized, it is assumed the cost of the positions for FY 2028 and FY 2029 will be included in
+theBranch'sFY2028andFY2029operatingbudgetrequest.
+AGENCIESCONTACTED:
+JudicialBranch

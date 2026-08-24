@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10090",
+    "legislative_session": "119",
+    "title": "To amend the Internal Revenue Code of 1986 to impose an excise tax on certain institutions of higher education that allow male participation in female intercollegiate athletic programs or events."
+  },
+  "id": "HR 10090",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Ways and Means.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-13T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10090.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10090"
+        }
+      ]
+    },
+    "bill_id": "HR 10090"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10090/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10090/logs/20260813T040000Z_referred_to_the_house_committee_on_ways_and_means.json"
+  },
+  "timestamp": "20260813T040000Z"
+}
