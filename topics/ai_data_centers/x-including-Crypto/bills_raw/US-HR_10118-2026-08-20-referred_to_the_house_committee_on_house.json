@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10118",
+    "legislative_session": "119",
+    "title": "To prohibit Members of Congress from signing certain nondisclosure agreements related to data centers, and for other purposes."
+  },
+  "id": "HR 10118",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on House Administration.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-20T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10118.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10118"
+        }
+      ]
+    },
+    "bill_id": "HR 10118"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10118/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10118/logs/20260820T040000Z_referred_to_the_house_committee_on_house_administration.json"
+  },
+  "timestamp": "20260820T040000Z",
+  "posted_text": "🏢 US HR 10118 — To prohibit Members of Congress from signing certain nondisclosure agreements related to data centers, and for other purposes. ...\n...",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-bill/10118",
+  "posted_url": "https://x.com/i/web/status/2092255048554463348"
+}

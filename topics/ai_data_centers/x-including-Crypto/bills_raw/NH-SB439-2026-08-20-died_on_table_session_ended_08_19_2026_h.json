@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB439",
+    "legislative_session": "2026",
+    "title": "relative to municipal data center zoning."
+  },
+  "id": "SB439",
+  "log": {
+    "action": {
+      "description": "Died on Table, Session ended 08/19/2026  HJ 16",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-20",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/advanced.aspx"
+        }
+      ]
+    },
+    "bill_id": "SB439"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB439/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB439/logs/20260820T000000Z_died_on_table_session_ended_08192026_hj_16.json"
+  },
+  "timestamp": "20260820T000000Z",
+  "posted_text": "🏢 NH SB439 — New Hampshire Cities Can Now Control Data Center Construction\n\nThis bill lets New Hampshire cities and towns control where data centers are built. It defines a ‘data center’ as a facility storing and processing digital data, excluding smaller facilities tied to a property owner’s operations. Local zoning boards can permit data centers in commercial and industrial zones, but must create specific rules with local government approval. The changes will take effect 60 days after the bill’s passage. ...\n...",
+  "posted_link": "https://gc.nh.gov/bill_status/results.aspx?adv=2&txtbillno=SB439&txtsessionyear=2026",
+  "posted_url": "https://x.com/i/web/status/2092256043682378045"
+}
