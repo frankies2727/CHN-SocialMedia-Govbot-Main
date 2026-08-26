@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 5276",
+    "legislative_session": "119",
+    "title": "A bill to amend the Robert T. Stafford Disaster Relief and Emergency Assistance Act to adjust the time period for the eligibility of certain base and overtime wages associated with the repair, restoration, and replacement of damaged facilities."
+  },
+  "id": "S 5276",
+  "log": {
+    "action": {
+      "description": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-06T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s5276.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-bill/5276"
+        }
+      ]
+    },
+    "bill_id": "S 5276"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/S5276/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/S5276/logs/20260806T040000Z_read_twice_and_referred_to_the_committee_on_homeland_security_and_governmental_affairs.json"
+  },
+  "timestamp": "20260806T040000Z"
+}

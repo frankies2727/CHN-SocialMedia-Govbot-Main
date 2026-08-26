@@ -1,0 +1,41 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes the Emergency Medical Services Authority within the California Health and Human Services Agency, and requires the authority to coordinate state activities concerning emergency medical services.\n\nExisting law requires a public safety agency that provides \"911\" call processing services for emergency medical response, by January 1, 2027, to provide prearrival medical instructions to \"911\" callers requiring medical assistance, including, at a minimum, administration of naloxone for suspected narcotics overdoses. Existing law requires the authority to develop and adopt training, standards, and regulations for all prehospital emergency medical care personnel regarding the use and administration of naloxone hydrochloride and other opioid antagonists. Existing law makes any person who violates these provisions guilty of a misdemeanor.\n\nExisting law grants the Division of Occupational Safety and Health, which is within the Department of Industrial Relations, jurisdiction over all employment and places of employment, and the power necessary to enforce and administer all occupational health and safety laws and standards.\n\nExiting law requires the division, before December 1, 2027, to submit a draft rulemaking proposal to revise specified regulations on first aid materials and emergency medical services to require first aid materials in a workplace to include naloxone hydrochloride or another opioid antagonist approved by the United States Food and Drug Administration to reverse opioid overdose and instructions for using the opioid antagonist. Existing law requires the standards board to consider for adoption revised standards for the standards described above on or before December 1, 2028. \n\nThis bill would require an employer operating in this state that requires cardiopulmonary resuscitation (CPR) certification training of its employees to also require those employees, except as specified, to take an online video module training on the use of naloxone to increase the rate of opioid overdose reversals, as prescribed. Because a violation of this provision would be a crime, the bill would impose a state-mandated local program. The bill would require the Emergency Medical Services Authority to review and approve the online video module trainings to ensure that the training content meets certain minimum standards.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2150",
+    "legislative_session": "20252026",
+    "subject": [
+      "Emergencies",
+      "opioidoverdosereversals",
+      "personnel",
+      "trainingrequirements"
+    ],
+    "title": "Emergencies: personnel: training requirements: opioid overdose reversals."
+  },
+  "id": "AB2150",
+  "log": {
+    "action": {
+      "description": "In Assembly. Concurrence in Senate amendments pending.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-25",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2150"
+        }
+      ]
+    },
+    "bill_id": "AB2150"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2150/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2150/logs/20260825T000000Z_in_assembly_concurrence_in_senate_amendments_pending.json"
+  },
+  "timestamp": "20260825T000000Z"
+}
