@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H5569",
+    "legislative_session": "194th",
+    "title": "An Act relative to property tax classifications in the city of Watertown for fiscal year 2027 and subsequent fiscal years"
+  },
+  "id": "H5569",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by the Governor, Chapter 157 of the Acts of 2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-07-31",
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/H5569"
+        }
+      ]
+    },
+    "bill_id": "H5569"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H5569/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H5569/logs/20260731T000000Z_signed_by_the_governor_chapter_157_of_the_acts_of_2026.json"
+  },
+  "timestamp": "20260731T000000Z"
+}

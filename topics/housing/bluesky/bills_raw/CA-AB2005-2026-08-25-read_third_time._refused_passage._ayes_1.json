@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "(1) Under the Planning and Zoning Law, the legislative body of a city or county may adopt ordinances that, among other things, regulate the use of buildings, structures, and land, as provided. The Subdivision Map Act vests the authority to regulate and control the design and improvement of subdivisions in the legislative body of a local agency and sets forth procedures governing the local agency's processing, approval, conditional approval or disapproval, and filing of tentative, final, and parcel maps.\n\nExisting law requires a local agency to ministerially approve a parcel map for an urban lot split if the development or parcel meets specified requirements. Existing law requires the local agency to require an applicant for an urban lot split to sign an affidavit stating that the applicant intends to occupy one of the housing units as their principal residence for a minimum of 3 years from the date of the approval of the urban lot split. Existing law authorizes a local agency to adopt an ordinance to implement these provisions, as provided.\n\nThis bill would instead require the local agency to require an applicant to select one of 2 sets of owner-occupancy requirements. The first option would be for the applicant to sign, under penalty of perjury, the above-described affidavit stating that the applicant intends to occupy one of the housing units as their principal residence for a minimum of 3 years. The 2nd option would be for the applicant to sign an affidavit, under penalty of perjury, stating they intend to sell both parcels of an urban lot split after issuance of a certificate of occupancy within 3 years from the date of the approval of the urban lot split and to require, as a condition of sale to a home buyer, that one of the units on both parcels of an urban lot split remain owner occupied for 3 years, beginning on the date a parcel or unit is conveyed by the applicant to a home buyer. By expanding the scope of the crime of perjury and increasing the duties of local agencies, the bill would impose a state-mandated local program.\n\nThis bill would impose prescribed recording and notice requirements on this 2nd owner-occupancy requirement, as provided. The bill would provide that, for the purposes of either owner-occupancy requirement, an applicant may be the managing or authorized member, who is a natural person, of a limited liability company or the trustee or beneficiary of a living trust of a natural person, except that a managing or authorized member of a limited liability company shall not be an applicant if the parcel being subdivided is within the boundaries of the 2025 Palisades or Eaton Fires in the County of Los Angeles. The bill would provide that an applicant for an urban lot split who is a managing or authorized member of a limited liability company who violates these provisions would be liable for civil penalties.\n\nThis bill would additionally prohibit a local agency from adopting or imposing any requirement, process, practice, or procedure, or undertaking any course of conduct, that applies to a project solely or partially on the basis that the project is an urban lot split, including, but not limited to, restricting the eligibility of an applicant of an urban lot split.\n\n(2) Existing law requires that specified disclosures be made upon any transfer by sale, exchange, real property sales contract, lease with an option to purchase, any other option to purchase, or ground lease coupled with improvements, of any single-family residential property.\n\nThis bill would require the seller of an urban lot split subject to the second owner-occupancy requirement described above to disclose, in writing, any owner-occupancy requirement for three years after the conveyance of an urban lot split unit.\n\nThis bill would repeal its provisions on January 1, 2032.\n\n(3) This bill would make legislative findings and declarations as to the necessity of a special statute for the boundaries of the 2025 Palisades and Eaton Fires in the County of Los Angeles.\n\n(4) This bill would incorporate additional changes to Section 66411.7 of the Government Code proposed by AB 2601 to be operative only if this bill and AB 2601 are enacted and this bill is enacted last.\n\n (5) The California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for specified reasons.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2005",
+    "legislative_session": "20252026",
+    "subject": [
+      "Housingdevelopments",
+      "owner-occupancy",
+      "urbanlotsplit"
+    ],
+    "title": "Housing developments: urban lot split: owner-occupancy."
+  },
+  "id": "AB2005",
+  "log": {
+    "action": {
+      "classifications": [
+        "failure",
+        "reading-1",
+        "reading-3"
+      ],
+      "description": "Read third time. Refused passage. (Ayes 18. Noes 11.).",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-25",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2005"
+        }
+      ]
+    },
+    "bill_id": "AB2005"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2005/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2005/logs/20260825T000000Z_read_third_time_refused_passage_ayes_18_noes_11.json"
+  },
+  "timestamp": "20260825T000000Z"
+}
