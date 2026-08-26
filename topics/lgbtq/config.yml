@@ -10,7 +10,7 @@ display_name: "LGBTQ"
 # Compact label for the parallel-shard job names in the Bluesky workflows,
 # where one job runs 2-3 topics and "post (0)" alone says nothing about which.
 short_name: "LGBTQ"
-prompt_topic: "LGBTQ rights, including gender identity, sexual orientation, anti-discrimination protections, gender-affirming care, and transgender youth"
+prompt_topic: "LGBTQ rights, including gender identity, sexual orientation, anti-discrimination protections, gender-affirming care, and transgender youth — as well as legislation that defines sex in law or restricts transgender people's participation in sports, use of single-sex facilities, or access to transition-related care"
 default_emoji: "🏳️‍🌈"
 
 # Accent color for the Instagram bill-card (used as a fallback single-hue accent
@@ -102,6 +102,66 @@ keywords:
   - deadnaming
   - parental notification policy
 
+  # Sex-definition / legal-recognition bills. The current wave of state bills
+  # restricting transgender rights is written in euphemism and often never uses
+  # the word "transgender" — they define "sex" in law instead. These phrases are
+  # distinctive to that debate (they don't show up in unrelated bills), so they
+  # are safe as core single-hit keywords. The generic collision-prone versions
+  # ("definition of sex" — trips on "definition of sex offender"; "male and
+  # female") live in context_keywords below.
+  - biological sex
+  - biological male
+  - biological female
+  - biological woman
+  - biological women
+  - sex assigned at birth
+  - sex at birth
+  - women's bill of rights
+  - sex is binary
+  - immutable characteristic of sex
+
+  # Sports-participation bills, worded without "transgender". "athletic
+  # eligibility" alone is about grades/transfers/residency as often as sex, so
+  # it's a context keyword below; these phrases are specific to the sex-in-sports
+  # debate.
+  - female sports
+  - women's sports
+  - girls' sports
+  - sex-separated sports
+  - fairness in women's sports
+
+  # Single-sex facility (bathroom/locker-room) bills, worded without
+  # "transgender". The bare words "locker room" and "changing room" appear in
+  # school-construction and appropriations bills, so those are context keywords
+  # below; these phrases are specific to the sex-designation debate.
+  - sex-separated facilities
+  - single-sex facilities
+  - multiple occupancy restroom
+  - multiple-occupancy restroom
+
+  # Schools / speech / outing. "preferred pronoun" (singular) and "social
+  # transitioning" complement the plural/gerund forms already above. The bare
+  # "parental notification" collides with abortion-notification bills, so it's a
+  # context keyword; "parental notification policy" above stays core.
+  - preferred pronoun
+  - social transitioning
+  - forced outing
+
+  # Identity documents. "sex marker" complements "gender marker"; "change of
+  # sex" is the vital-records phrasing. Bare "amend birth certificate" (adoption,
+  # paternity, typo corrections) is a context keyword below.
+  - sex marker
+  - change of sex
+
+  # Transition-related care, worded clinically. These name specific treatments
+  # and are distinctive enough to stand alone (they don't appear in unrelated
+  # health bills the way bare "hormone therapy" can). Singulars complement the
+  # plurals already above.
+  - puberty blocker
+  - cross-sex hormone
+  - genital surgery
+  - chest masculinization
+
 # Broad terms that only count as a match alongside a core keyword above.
 context_keywords:
   - hate crime
@@ -129,18 +189,41 @@ context_keywords:
   - sexual orientation
   - gender identity
   - gender expression
+  # Broad terms from the sex-definition / trans-restriction bill wave that are
+  # too collision-prone to stand alone, so they only count when a core LGBTQ
+  # keyword co-occurs:
+  #   "male and female" — appears in countless unrelated bills (inmate housing,
+  #     equal pay, demographics).
+  #   "locker room" / "changing room" — school-construction and appropriations.
+  #   "athletic eligibility" — grades, transfers, residency for student athletes.
+  #   "intimate spaces" — model-bill euphemism, but too vague alone.
+  #   "compelled speech" — general First Amendment bills.
+  #   "parental notification" — collides with abortion parental-notification
+  #     bills (the specific "parental notification policy" stays core above).
+  #   "amend birth certificate" — adoption, paternity, and clerical corrections.
+  #   "definition of sex" / "define sex" — trip on "definition of sex offender".
+  - male and female
+  - locker room
+  - changing room
+  - athletic eligibility
+  - intimate spaces
+  - compelled speech
+  - parental notification
+  - amend birth certificate
+  - definition of sex
+  - define sex
 
 emojis:
   - emoji: "🏳️‍⚧️"
-    match: ["transgender", "nonbinary", "non-binary", "gender identity", "gender expression", "gender marker", "social transition"]
+    match: ["transgender", "nonbinary", "non-binary", "gender identity", "gender expression", "gender marker", "social transition", "biological sex", "biological male", "biological female", "biological woman", "sex assigned at birth", "sex at birth", "women's bill of rights", "sex is binary", "sex marker", "change of sex", "preferred pronoun", "forced outing"]
   - emoji: "🏥"
-    match: ["gender-affirming care", "gender affirming care", "gender-affirming treatment", "gender transition", "gender dysphoria", "sex reassignment", "puberty blockers", "hormone therapy", "transition-related care"]
+    match: ["gender-affirming care", "gender affirming care", "gender-affirming treatment", "gender transition", "gender dysphoria", "sex reassignment", "puberty blockers", "puberty blocker", "hormone therapy", "transition-related care", "cross-sex hormone", "genital surgery", "chest masculinization"]
   - emoji: "💍"
     match: ["same-sex marriage", "same sex marriage", "marriage equality", "civil union", "domestic partnership"]
   - emoji: "⚖️"
     match: ["anti-discrimination", "sexual orientation discrimination", "gender identity discrimination", "conversion therapy", "gay panic defense", "trans panic defense"]
   - emoji: "🏫"
-    match: ["transgender students", "transgender youth", "transgender minors", "bathroom bill", "restroom access", "parental notification policy", "transgender athlete", "transgender athletes"]
+    match: ["transgender students", "transgender youth", "transgender minors", "bathroom bill", "restroom access", "parental notification policy", "transgender athlete", "transgender athletes", "female sports", "women's sports", "girls' sports", "sex-separated sports", "fairness in women's sports", "single-sex facilities", "sex-separated facilities", "multiple occupancy restroom", "locker room", "changing room", "athletic eligibility"]
   - emoji: "🎭"
     match: ["drag performance", "drag show"]
 
