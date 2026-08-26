@@ -156,6 +156,20 @@ jobs:
           govbot logs --limit none --filter none > bills.jsonl
           echo "bills.jsonl is $(wc -l < bills.jsonl) lines"
 
+      - name: Cache extracted bill text
+        # bill_text.py caches PDF-extracted text in .bill_text_cache/, keyed by
+        # a hash of the document URL — content-addressed, so entries never go
+        # stale. Persisting it across runs lets a forced-bill re-post reuse text
+        # any earlier run (daily poster included) already fetched, skipping the
+        # PDF download + pdftotext. This flow doesn't shard, so the key has no
+        # shard suffix; restore-keys pulls the most recent prior cache.
+        uses: actions/cache@v4
+        with:
+          path: .bill_text_cache
+          key: bill-text-cache-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            bill-text-cache-
+
       - name: Cache Ollama model
         uses: actions/cache@v4
         with:
@@ -197,6 +211,13 @@ jobs:
             ollama pull "$LLM_MODEL"
           fi
           ollama list
+          # Smoke-test the model, but DON'T pin it in memory (keep_alive:0
+          # unloads it right after) so the model isn't held resident while the
+          # next step loads the bill corpus into RAM. The first real summary
+          # reloads it on demand.
+          curl -fsS http://localhost:11434/api/generate \
+            -d "{\"model\":\"$LLM_MODEL\",\"prompt\":\"ok\",\"stream\":false,\"keep_alive\":\"0\"}" \
+            > /dev/null 2>&1 || echo "  (warm-up failed; model will load on first summary)"
 
       - name: Post specific bill to X
         env:

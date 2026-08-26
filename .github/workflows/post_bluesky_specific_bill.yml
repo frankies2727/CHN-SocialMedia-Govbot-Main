@@ -86,6 +86,38 @@ jobs:
           python-version: "3.12"
           cache: "pip"
 
+      - name: Install poppler-utils (pdftotext)
+        # Lets scripts/bill_text.py extract full bill text from the bill's PDF
+        # for the Bluesky summary; degrades gracefully to abstract-only if absent.
+        # Bounded and retried. On govbot-bluesky-post #93 two of five shards hung
+        # here for 102 minutes — a step that takes 6-13s on a healthy runner —
+        # until the 120-minute job cap killed them, losing both shards' posts.
+        # apt has no timeout of its own, so a slow mirror or a held dpkg lock
+        # stalls indefinitely; the script's own RUN_DEADLINE_MINUTES cannot help
+        # because Python never starts. timeout-minutes bounds the step, and
+        # `timeout` bounds each apt call so a retry can actually happen.
+        #
+        # NOTE the arithmetic: two attempts x (10 min update + 10 min install) is
+        # 40 minutes of possible work against a 27-minute step cap, so the cap is
+        # the binding limit and a second attempt can be cut short. That is the
+        # intended trade — patience for a merely slow mirror, with a hard stop
+        # well under the 120-minute job cap. Raise the cap to ~41 to let both
+        # attempts always run to completion.
+        timeout-minutes: 27
+        run: |
+          for attempt in 1 2; do
+            if sudo timeout 600 apt-get update -qq \
+               && sudo timeout 600 apt-get install -y -qq poppler-utils; then
+              echo "poppler-utils ready (attempt $attempt)."
+              exit 0
+            fi
+            echo "apt attempt $attempt failed or timed out; retrying..."
+            sleep $(( attempt * 5 ))
+          done
+          # Non-fatal: bill_text falls back to the staged pre-extracted text and
+          # then to abstracts. A thinner post beats a two-hour hang.
+          echo "::warning::poppler-utils unavailable; PDF text extraction will fall back to abstracts."
+
       - name: Install Python deps
         run: pip install -r requirements.txt
 
@@ -123,6 +155,20 @@ jobs:
           # turns the filter off; --limit none returns the full history.
           govbot logs --limit none --filter none > bills.jsonl
           echo "bills.jsonl is $(wc -l < bills.jsonl) lines"
+
+      - name: Cache extracted bill text
+        # bill_text.py caches PDF-extracted text in .bill_text_cache/, keyed by
+        # a hash of the document URL — content-addressed, so entries never go
+        # stale. Persisting it across runs lets a forced-bill re-post reuse text
+        # any earlier run (daily poster included) already fetched, skipping the
+        # PDF download + pdftotext. This flow doesn't shard, so the key has no
+        # shard suffix; restore-keys pulls the most recent prior cache.
+        uses: actions/cache@v4
+        with:
+          path: .bill_text_cache
+          key: bill-text-cache-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            bill-text-cache-
 
       - name: Cache Ollama model
         uses: actions/cache@v4
@@ -165,6 +211,13 @@ jobs:
             ollama pull "$LLM_MODEL"
           fi
           ollama list
+          # Smoke-test the model, but DON'T pin it in memory (keep_alive:0
+          # unloads it right after) so the model isn't held resident while the
+          # next step loads the bill corpus into RAM. The first real summary
+          # reloads it on demand.
+          curl -fsS http://localhost:11434/api/generate \
+            -d "{\"model\":\"$LLM_MODEL\",\"prompt\":\"ok\",\"stream\":false,\"keep_alive\":\"0\"}" \
+            > /dev/null 2>&1 || echo "  (warm-up failed; model will load on first summary)"
 
       - name: Post specific bill to Bluesky
         env:
