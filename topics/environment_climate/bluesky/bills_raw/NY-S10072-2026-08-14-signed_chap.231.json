@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Extends the authority of the department of environmental conservation to manage winter flounder to 12/31/2029."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S10072",
+    "legislative_session": "2025-2026",
+    "title": "Extends the authority of the department of environmental conservation to manage winter flounder"
+  },
+  "id": "S10072",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "SIGNED CHAP.231",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-14",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10072?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/S10072"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=S10072&term=2025"
+        }
+      ]
+    },
+    "bill_id": "S10072"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S10072/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S10072/logs/20260814T000000Z_signed_chap231.json"
+  },
+  "timestamp": "20260814T000000Z"
+}
