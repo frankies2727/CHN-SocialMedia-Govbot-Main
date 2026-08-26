@@ -67,6 +67,48 @@ keywords:
   - mixed status family
   - in-state tuition
 
+  # Enforcement / removal — the current vocabulary of stepped-up immigration
+  # enforcement. These phrases are specific to immigration; the bare,
+  # collision-prone words ("alien", "detainer") are demoted to context below.
+  # (Phrases containing a word that is ALREADY core — "immigration raid",
+  # "illegal immigration", "mass deportation" — are deliberately NOT listed:
+  # "immigration"/"deportation" already match them on their own.)
+  - illegal alien
+  - illegal aliens
+  - criminal alien
+  - unauthorized alien
+  - expedited removal
+  - final order of removal
+  - ICE detainer
+  - secure communities
+  - workplace raid
+
+  # Legal status / programs / relief
+  - birthright citizenship
+  - temporary protected status
+  - humanitarian parole
+  - adjustment of status
+  - withholding of removal
+  - unaccompanied minor
+  - unaccompanied minors
+  - unaccompanied children
+  - public charge
+  - chain migration
+  - guest worker
+  - sanctuary policy
+  - H-1B
+  - H-2A
+  - H-2B
+
+  # Documents / IDs (immigration-specific)
+  - individual taxpayer identification number
+  - ITIN
+  - driver privilege card
+  - consular identification
+
+  # Immigrant legal-defense / fraud (the topic covers immigrant rights)
+  - notario fraud
+
 # Broad terms that only count as a match alongside a core keyword above.
 # "language access"/"LEP" describe a service population that also covers
 # labor bills about interpreters — they only signal immigration alongside a
@@ -88,20 +130,39 @@ context_keywords:
   # unambiguous forms "immigration and customs enforcement" and "ICE detention"
   # stay as core keywords above and still match on their own.
   - ICE
+  # More broad terms from the enforcement/status vocabulary that are too
+  # collision-prone to stand alone, so they only count alongside a core term:
+  #   "alien" — space aliens, alien property, alienation of affection.
+  #   "parole" — criminal-justice parole ("humanitarian parole" stays core).
+  #   "detainer" — a criminal detainer ("ICE detainer" stays core).
+  #   "lawful presence"/"unlawful presence" — licensing/eligibility boilerplate.
+  #   "driver's license"/"driver license" — the vast majority of DMV bills
+  #     aren't about immigration status ("driver privilege card" stays core).
+  #   "know your rights" — also tenant/consumer/labor materials.
+  #   "TPS" — collides with unrelated acronyms; "temporary protected status" is core.
+  - alien
+  - parole
+  - detainer
+  - lawful presence
+  - unlawful presence
+  - driver's license
+  - driver license
+  - know your rights
+  - TPS
 
 emojis:
   - emoji: "🌎"
-    match: ["refugee", "asylum", "asylee"]
+    match: ["refugee", "asylum", "asylee", "temporary protected status", "humanitarian parole", "withholding of removal", "unaccompanied minor", "unaccompanied children"]
   - emoji: "🆔"
-    match: ["green card", "visa", "permanent resident", "naturalization", "citizenship", "work authorization", "work permit"]
+    match: ["green card", "visa", "permanent resident", "naturalization", "citizenship", "work authorization", "work permit", "birthright citizenship", "adjustment of status", "public charge", "chain migration", "guest worker", "individual taxpayer identification number", "ITIN", "driver privilege card", "consular identification"]
   - emoji: "🚧"
     match: ["border", "border patrol", "borderlands"]
   - emoji: "🏛️"
-    match: ["sanctuary city", "sanctuary cities", "sanctuary state", "sanctuary jurisdiction"]
+    match: ["sanctuary city", "sanctuary cities", "sanctuary state", "sanctuary jurisdiction", "sanctuary policy"]
   - emoji: "🎓"
     match: ["dreamer", "DACA", "in-state tuition"]
   - emoji: "👮"
-    match: ["ICE", "deportation", "deport", "removal proceedings", "detention", "detainee"]
+    match: ["ICE", "deportation", "deport", "removal proceedings", "detention", "detainee", "detainer", "ICE detainer", "expedited removal", "final order of removal", "secure communities", "workplace raid", "illegal alien", "criminal alien", "unauthorized alien"]
   - emoji: "🗣️"
     match: ["language access", "LEP", "limited english proficient"]
 
