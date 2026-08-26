@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "AN ACT TO AMEND ACT 172 OF 1995, RELATING TO THE KERSHAW COUNTY TRANSPORTATION COMMITTEE, SO AS TO PROVIDE THAT EACH MEMBER OF THE KERSHAW COUNTY TRANSPORTATION COMMITTEE SHALL RECEIVE NINETY DOLLARS FOR EACH MEETING AT WHICH HE IS IN ATTENDANCE AND THAT THE CHAIRMAN SHALL RECEIVE ONE HUNDRED SEVENTY-FIVE DOLLARS, AND TO PROVIDE THAT SUCH PAYMENTS SHALL NOT OCCUR MORE THAN EIGHTEEN TIMES EACH FISCAL YEAR. - RATIFIED TITLE",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 586",
+    "legislative_session": "2025-2026",
+    "title": "Kershaw County Transportation Committee"
+  },
+  "id": "S 586",
+  "log": {
+    "action": {
+      "description": "Act No. 269",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-08-19",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=586&session=126&summary=B"
+        }
+      ]
+    },
+    "bill_id": "S 586"
+  },
+  "sources": {
+    "bill": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/S586/metadata.json",
+    "log": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/S586/logs/20260819T000000Z_act_no_269.json"
+  },
+  "timestamp": "20260819T000000Z"
+}

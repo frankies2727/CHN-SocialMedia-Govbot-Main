@@ -74,6 +74,9 @@
     "CA|SB126|2026-06-26|From committee with author's amendments.",
     "CA|SB126|2026-07-02",
     "CA|SB126|2026-07-02|Re-referred to Com. on BUDGET pursuant t",
+    "CA|SB1323|2026-08-25",
+    "CA|SB1323|2026-08-25|",
+    "CA|SB1323|2026-08-25|In Senate. Concurrence in Assembly amend",
     "CA|SB135|2026-06-29|",
     "CA|SB135|2026-06-29|Assembly Rule 63 suspended.",
     "CA|SB135|2026-06-29|Assembly amendments concurred in. (Ayes ",
@@ -229,6 +232,10 @@
     "US|S 5325|2026-08-06|Read twice and referred to the Committee",
     "US|S 5371|2026-08-07",
     "US|S 5371|2026-08-07|Read twice and referred to the Committee",
+    "US|S 850|2026-08-10",
+    "US|S 850|2026-08-10|Held at the desk.",
+    "US|S 850|2026-08-10|Message on Senate action sent to the Hou",
+    "US|S 850|2026-08-10|Received in the House.",
     "VT|S 44|2025-05-23|Senate Message: Signed by Governor May 2",
     "WA|HB 2105|2026-03-12|Delivered to Governor.",
     "WA|HB 2105|2026-03-12|Speaker signed.",
@@ -274,7 +281,7 @@
     "|HRES 1409|2026-06-30|Referred to the House Committee on Overs",
     "|HRES 1409|2026-06-30|Submitted in House"
   ],
-  "last_run": "2026-08-24T22:06:25.331283+00:00",
+  "last_run": "2026-08-26T16:09:09.054679+00:00",
   "state_last_posted": {
     "VT": "2026-05-16T02:59:09.026935+00:00",
     "AK": "2026-05-16T02:59:09.026935+00:00",
@@ -290,7 +297,7 @@
     "WA": "2026-06-17T11:42:09.679093+00:00",
     "DE": "2026-07-02T10:18:57.623593+00:00",
     "MO": "2026-06-19T11:23:55.551242+00:00",
-    "CA": "2026-08-24T21:57:46.525083+00:00",
+    "CA": "2026-08-26T16:02:25.258260+00:00",
     "FL": "2026-06-18T13:38:20.220344+00:00",
     "TN": "2026-05-20T15:40:25.661860+00:00",
     "AL": "2026-06-16T12:01:24.706349+00:00",
@@ -299,6 +306,6 @@
     "PA": "2026-07-20T10:23:45.046537+00:00",
     "?": "2026-07-24T15:24:13.106444+00:00",
     "NC": "2026-07-21T09:53:32.997247+00:00",
-    "US": "2026-08-20T18:55:29.922715+00:00"
+    "US": "2026-08-26T16:02:25.258260+00:00"
   }
 }

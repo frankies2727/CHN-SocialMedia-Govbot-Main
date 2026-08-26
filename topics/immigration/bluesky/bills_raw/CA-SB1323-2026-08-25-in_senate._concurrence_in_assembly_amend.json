@@ -1,0 +1,40 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law requires a health care provider entity, as defined, to designate areas where a patient is receiving treatment or care, or where a patient is discussing protected health information, as nonpublic, in order to enhance privacy available to facility users and promote a safe environment conducive to the facility's mission and patient care. Unless required by state or federal law, existing law prohibits a health care provider entity and its personnel from allowing any person access to the nonpublic areas of the facility for immigration enforcement purposes, unless that person has a valid judicial warrant or court order that specifically grants access to the nonpublic areas of the facility.\n\nExisting law requires a health care provider entity to inform staff and relevant volunteers on how to respond to requests relating to immigration enforcement that grants access to health care provider entity sites or to patients.\n\nThis bill would also require a health care provider entity to inform staff and relevant volunteers on how to respond to requests by a person who is in custody by immigration enforcement to notify a family member or designated support person about their current location.\n\nExisting law requires a health care provider entity, to the extent possible, to establish or amend procedures for monitoring, documenting, and receiving visitors to health care provider entities consistent with the above-described and related provisions. Under existing law, a health care provider entity is encouraged to post a \"notice to authorities\" at facility entrances that states that no person will be permitted to access nonpublic areas of a facility for immigration enforcement purposes unless required by state or federal law or pursuant to a valid physical judicial warrant or court order.\n\nThis bill would instead require the health care provider entity to establish or amend those procedures, without the qualification that the process be to the extent possible. The bill would also require, instead of encouraging, the entity to post the above-described notice, at the facility's main public entrances, as defined.\n\nThe bill would repeal these changes on January 1, 2030.\n\nTo the extent that the bill would create new duties for health care provider entities administered by a county, city, or other local public jurisdiction, the bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1323",
+    "legislative_session": "20252026",
+    "subject": [
+      "Healthcareproviders",
+      "immigrationenforcement",
+      "patientaccess"
+    ],
+    "title": "Health care providers: patient access: immigration enforcement."
+  },
+  "id": "SB1323",
+  "log": {
+    "action": {
+      "description": "In Senate. Concurrence in Assembly amendments pending.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-25",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1323"
+        }
+      ]
+    },
+    "bill_id": "SB1323"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1323/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1323/logs/20260825T000000Z_in_senate_concurrence_in_assembly_amendments_pending.json"
+  },
+  "timestamp": "20260825T000000Z"
+}

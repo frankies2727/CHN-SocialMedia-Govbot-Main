@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 0001",
+    "legislative_session": "114",
+    "subject": [
+      "Education"
+    ],
+    "title": "Education - As introduced, enacts the \"Education Freedom Act of 2025.\" - Amends TCA Title 4, Chapter 49 and Title 49."
+  },
+  "id": "SB 0001",
+  "log": {
+    "action": {
+      "classifications": [
+        "receipt"
+      ],
+      "description": "Engrossed; ready for transmission to House",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-07-30",
+      "session_id": "114",
+      "sources": [
+        {
+          "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=SB0001&ga=114"
+        }
+      ]
+    },
+    "bill_id": "SB 0001"
+  },
+  "sources": {
+    "bill": "tn-legislation/country:us/state:tn/sessions/114/bills/SB0001/metadata.json",
+    "log": "tn-legislation/country:us/state:tn/sessions/114/bills/SB0001/logs/20260730T000000Z_engrossed_ready_for_transmission_to_house.json"
+  },
+  "timestamp": "20260730T000000Z"
+}
