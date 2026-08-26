@@ -1,0 +1,46 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Relates to the dissemination of information pertaining to individuals suffering from Alzheimer's disease and other forms of dementia through the NY Connects: Choices for Long Term Care program."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A4195",
+    "legislative_session": "2025-2026",
+    "title": "Relates to the dissemination of information pertaining to Alzheimer's disease and other forms of dementia through the NY Connects: Choices for Long Term Care program"
+  },
+  "id": "A4195",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "SIGNED CHAP.234",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-19",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A4195?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/A4195"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=A04195&term=2025"
+        }
+      ]
+    },
+    "bill_id": "A4195"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A4195/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A4195/logs/20260819T000000Z_signed_chap234.json"
+  },
+  "timestamp": "20260819T000000Z",
+  "posted_text": "🏥 Healthcare\nNY A4195 — NY Creates New Program to Help Families Find Dementia Care\n\nNew York is launching a new program called NY Connects to help families and caregivers find information and support for Alzheimer's disease and other forms of dementia. The program will provide objective details about long-term care options, including home and community-based services, to consumers, caregivers, and their families. ...\n...",
+  "posted_link": "https://www.nysenate.gov/legislation/bills/2025/A4195",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/Dce-B8vkRwG"
+}

@@ -1,0 +1,47 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Except as provided, the California Constitution requires that all property be taxed in proportion to its full value and assessed at the same percentage of fair market value. The tax imposed pursuant to these provisions is commonly referred to as an ad valorem property tax. Existing property tax law, in accordance with the California Constitution, provides for a \"welfare exemption\" for property used exclusively for religious, hospital, scientific, or charitable purposes and that is owned or operated by certain types of nonprofit entities, if any of certain qualifying criteria are met, including that the owner of the property receives low-income housing tax credits pursuant to specified provisions of the Internal Revenue Code. Under existing property tax law, property that meets these requirements that is used exclusively for rental housing and related facilities is entitled to a partial exemption, equal to that percentage of the value of the property that is equal to the percentage that the number of units serving lower income households represents of the total number of residential units, in any year that any of certain criteria apply.\n\nExisting property tax law, for the 2018–19 fiscal year through the 2027–28 fiscal year, in the case of an owner of property who is eligible for the federal low-income housing tax credit, requires that a unit continue to be treated as occupied by a lower income household if the occupants were lower income households on the lien date in the fiscal year in which occupancy of the unit commenced and the unit continues to be rent restricted, notwithstanding an increase in the income of the occupants of the unit to 140% of area median income. \n\nThis bill would extend the above-described provision through the 2028–29 fiscal year.\n\n Existing property tax law establishes procedures for claiming the welfare exemption, including requiring the annual filing of a claim for the exemption with the county assessor, as provided.\n\nThis bill would authorize the county assessor to accept electronic signatures for materials necessary to claim, maintain, or otherwise receive the welfare exemption. The bill would require the county board of supervisors to, if necessary and in collaboration with the county assessor, adopt any ordinances or resolutions to implement the electronic portal and submission authorization. The bill would require, as provided, every county to release all forms related to the annual recertification of tenant income necessary to receive the welfare exemption by November 15 of each calendar year prior to the due date for the forms.\n\nBy imposing additional duties on counties, the bill would impose a state-mandated local program.\n\nThis bill would incorporate additional changes to Section 214 of the Revenue and Taxation Code proposed by Assembly Bill 1294 to be operative only if this bill and Assembly Bill 1294 are enacted and this bill is enacted last.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2089",
+    "legislative_session": "20252026",
+    "subject": [
+      "Propertytaxation",
+      "welfareexemption"
+    ],
+    "title": "Property taxation: welfare exemption."
+  },
+  "id": "AB2089",
+  "log": {
+    "action": {
+      "classifications": [
+        "reading-1",
+        "reading-2",
+        "reading-3"
+      ],
+      "description": "Read second time. Ordered to third reading.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-24",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2089"
+        }
+      ]
+    },
+    "bill_id": "AB2089"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2089/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2089/logs/20260824T000000Z_read_second_time_ordered_to_third_reading.json"
+  },
+  "timestamp": "20260824T000000Z",
+  "posted_text": "🏘️ Housing\nCA AB2089 — California Could Make It Easier to Get Rental Housing Tax Breaks\n\nCalifornia is extending the rules for property tax exemptions for affordable rental housing. This means county assessors can now accept electronic signatures for claims, making it easier for property owners receiving low-income housing tax credits to qualify for a partial property tax break. ...\n...",
+  "posted_link": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2089",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/Dce-3nSEYVp"
+}

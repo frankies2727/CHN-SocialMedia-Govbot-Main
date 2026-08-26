@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 6893",
+    "legislative_session": "119",
+    "title": "Chesapeake Bay Watershed Advancement for Training, Education, Restoration, and Science (WATERS) Act"
+  },
+  "id": "HR 6893",
+  "log": {
+    "action": {
+      "description": "Reported (Amended) by the Committee on Natural Resources. H. Rept. 119-763.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-20T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr6893.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/6893"
+        }
+      ]
+    },
+    "bill_id": "HR 6893"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR6893/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR6893/logs/20260820T040000Z_reported_amended_by_the_committee_on_natural_resources_h_rept_119763.json"
+  },
+  "timestamp": "20260820T040000Z",
+  "posted_text": "💧 Environment & Climate\nUS HR 6893 — Congress Wants to Boost Chesapeake Bay Restoration Efforts\n\nCongress is aiming to strengthen the National Oceanic and Atmospheric Administration’s work protecting the Chesapeake Bay. This bill updates the existing Chesapeake Bay Office, directing it to be the main voice for NOAA in the Bay watershed. It shifts the Office’s focus to include things like coastal hazards and climate change, alongside traditional restoration efforts. ...\n...",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-bill/6893",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/Dce9YGQETEI"
+}
