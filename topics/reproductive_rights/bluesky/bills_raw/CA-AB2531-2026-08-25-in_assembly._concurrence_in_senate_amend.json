@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes the California Reproductive and TGI Health Equity Program within the Department of Health Care Access and Information for the purpose of ensuring abortion, contraception, and gender-affirming care are affordable for and accessible to all patients, regardless of their ability to pay, and to provide financial support for safety net providers of these services to offset the costs of providing uncompensated care to patients with low incomes who would otherwise lack access to care. Existing law authorizes a Medi-Cal enrolled provider to apply for a grant, and a continuation award after the initial grant, if they agree to provide abortion, contraception, and gender-affirming care services in accordance with specified requirements, including that the services are provided at no cost or a reduced cost to individuals with a household income at or below 400% of the federal poverty level who are uninsured or have health care coverage that does not include both abortion and contraception or does not include gender-affirming care and are not otherwise eligible to receive both abortion and contraception care at no cost through the Medi-Cal and Family PACT programs or receive gender-affirming care at no cost through the Medi-Cal program.\n\nThis bill would additionally authorize a Medi-Cal enrolled provider to apply for a grant or a continuation of a grant if they provide the above-described services to patients who are veterans, as defined, who are uninsured or have health care coverage that does not include both abortion and contraception and are not otherwise eligible to receive both abortion and contraception care at no cost through the Medi-Cal and Family PACT programs. The bill would make other conforming changes and would make related findings and declarations.\n\nExisting law establishes the Department of Veterans Affairs and vests the department with specified duties related to veterans in the state, including the development of a transition program to assist veterans in successfully transitioning from military to civilian life by providing information related to, among other things, health care programs and services.\n\nThis bill would require the Department of Veterans Affairs to publish a link to the State Department of Public Health's abortion information internet website on the women veterans resources page of its internet website.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2531",
+    "legislative_session": "20252026",
+    "subject": [
+      "Publichealth",
+      "abortionservices"
+    ],
+    "title": "Public health: abortion services."
+  },
+  "id": "AB2531",
+  "log": {
+    "action": {
+      "description": "In Assembly. Concurrence in Senate amendments pending.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-25",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2531"
+        }
+      ]
+    },
+    "bill_id": "AB2531"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2531/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2531/logs/20260825T000000Z_in_assembly_concurrence_in_senate_amendments_pending.json"
+  },
+  "timestamp": "20260825T000000Z"
+}
