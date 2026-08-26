@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 5283",
+    "legislative_session": "119",
+    "title": "A bill to end preventable maternal mortality, severe maternal morbidity, and maternal health disparities in the United States, and for other purposes."
+  },
+  "id": "S 5283",
+  "log": {
+    "action": {
+      "description": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-06T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s5283.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-bill/5283"
+        }
+      ]
+    },
+    "bill_id": "S 5283"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/S5283/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/S5283/logs/20260806T040000Z_read_twice_and_referred_to_the_committee_on_health_education_labor_and_pensions.json"
+  },
+  "timestamp": "20260806T040000Z",
+  "posted_text": "❤️‍🩹 US S 5283 — A bill to end preventable maternal mortality, severe maternal morbidity, and maternal health disparities in the United States, and for other purposes.\n\nAug. 6, 2026: Read twice and referred to the Committee on Health, Education, Labor, and Pensions.\n\n🔗 Read the full bill: https://www.congress.gov/bill/119th-congress/senate-bill/5283\n\n#ReproductiveRights #USCongress #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/senate-bill/5283",
+  "posted_url": "https://www.instagram.com/p/DchBJuPmi31/"
+}

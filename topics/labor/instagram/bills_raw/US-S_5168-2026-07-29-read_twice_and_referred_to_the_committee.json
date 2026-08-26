@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 5168",
+    "legislative_session": "119",
+    "title": "Comprehensive Paid Leave for Federal Employees Act"
+  },
+  "id": "S 5168",
+  "log": {
+    "action": {
+      "description": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-07-29T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s5168.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-bill/5168"
+        }
+      ]
+    },
+    "bill_id": "S 5168"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/S5168/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/S5168/logs/20260729T040000Z_read_twice_and_referred_to_the_committee_on_homeland_security_and_governmental_affairs.json"
+  },
+  "timestamp": "20260729T040000Z",
+  "posted_text": "🗓️ US S 5168 — Federal Workers Get 26 Weeks of Paid Leave\n\nExpands paid family and medical leave for federal employees.\n\nIt increases leave time to 26 administrative workweeks plus any additional period used under specific subsections, covering events like birth, adoption, or caring for a sick family member.\n\nThe bill also adjusts existing provisions of the Family and Medical Leave Act (FMLA) to include employees of the Government Accountability Office, the Library of Congress, the United States Postal Service, and the Postal Regulatory Commission, granting them the same enhanced leave benefits.\n\nSpecifically, it modifies eligibility rules, extends the maximum leave period, and clarifies how leave time interacts with other existing provisions of law.\n\nJuly 29, 2026: Read twice and referred to the Committee on Homeland Security and Governmental Affairs.\n\n🔗 Read the full bill: https://www.congress.gov/bill/119th-congress/senate-bill/5168\n\n#LaborWorkersRights #USCongress #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/senate-bill/5168",
+  "posted_url": "https://www.instagram.com/p/DchANK0Gsop/"
+}

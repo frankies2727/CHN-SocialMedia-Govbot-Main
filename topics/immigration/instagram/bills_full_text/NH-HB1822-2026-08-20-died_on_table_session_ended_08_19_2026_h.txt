@@ -1,0 +1,91 @@
+HB1822-FN-ASINTRODUCED
+2026SESSION
+09/06
+1822-FN
+HOUSEBILL
+ANACT relativetoreportingofcivilimmigrationdetentionsbystate,county,andlocallaw
+enforcementandcorrectionalfacilities.
+Rock. 37; Rep. Muns, Rock. 29; Rep. A. Murray, Hills. 20; Rep. Scherr, Rock. 26;
+Rep. Turer, Rock. 6; Rep. Weinstein, Rock. 10; Sen. Fenton, Dist 10; Sen. Long,
+Dist20
+COMMITTEE: CriminalJusticeandPublicSafety
+─────────────────────────────────────────────────────────────────
+ANALYSIS
+This bill requires semi-annual reporting regarding the number of individuals detained for civil
+immigrationviolationsbyanystate,county,orlocallawenforcementorcorrectionalfacility.
+---------------------------------------------------------------------------
+Explanation: Matteraddedtocurrentlawappearsinbolditalics.
+Matterremovedfromcurrentlawappears[inbracketsandstruckthrough.]
+Matterwhichiseither(a)allnewor(b)repealedandreenactedappearsinregulartype.
+
+HB1822-FN-ASINTRODUCED
+09/06
+STATEOFNEWHAMPSHIRE
+IntheYearofOurLordTwoThousandTwenty-Six
+ANACT relativetoreportingofcivilimmigrationdetentionsbystate,county,andlocallaw
+enforcementandcorrectionalfacilities.
+BeitEnactedbytheSenateandHouseofRepresentativesinGeneralCourtconvened:
+1 New Section; Civil Immigration Detentions; Reporting. Amend RSA 106-R by inserting after
+section3thefollowingnewsection:
+106-R:3-a Reporting of Civil Immigration Detentions by State and Local Law Enforcement and
+CorrectionalFacilities.
+I. Any state or county correctional facility that has detained a person for a civil immigration
+violation for any period of time (including pursuant to an immigration detainer, federal 287(g)
+program, RSA 30-B:1, III, or RSA 106-R:3, I) shall semi-annually submit a report to the attorney
+general indicating the number of people it has detained for such civil immigration violations in the
+preceding6monthsandthelengthofeachsuchdetention. Thefirstreportfromsuchstateorcounty
+correctionalfacilitiesshallbesubmittedonorbeforeDecember31,2026.
+II. Any state, county, or local law enforcement agency that has detained a person for a civil
+immigration violation for any period of time (including pursuant to an immigration detainer, a
+federal 287(g) program, or RSA 106-R:3, I) shall semi-annually submit a report to the attorney
+general indicating the number of people it has detained for such civil immigration violations in the
+preceding 6 months and the length of each such detention. The first report from such state or local
+lawenforcementagenciesshallbesubmittedonorbeforeDecember31,2026.
+III. The attorney general or their designee shall submit a semi-annual report to the
+governor, senate president, and speaker of the house of representatives summarizing the
+information received under this section from any state or county correctional facility or state or local
+law enforcement agency. The first report from the attorney general shall be submitted on or before
+February1,2027.
+2 EffectiveDate. Thisactshalltakeeffectuponitspassage.
+
+LBA
+Revised12/30/25
+HB1822-FN-FISCALNOTE
+ASINTRODUCED
+ANACT relativetoreportingofcivilimmigrationdetentionsbystate,county,andlocallaw
+enforcementandcorrectionalfacilities.
+FISCALIMPACT: Thisbilldoesnotprovidefunding,nordoesitauthorizenewpositions.
+Estimated State Impact
+FY2026 FY2027 FY2028 FY2029
+Revenue $0 $0 $0 $0
+RevenueFund(s) None
+Expenditures* $0 $50,505 $48,959 $50,825
+FundingSource(s) GeneralFund
+Appropriations* $0 $0 $0 $0
+FundingSource(s) None
+*Expenditure=Costofbill *Appropriation=Authorizedfundingtocovercostofbill
+METHODOLOGY:
+This bill requires semi-annual reporting, starting December 31, 2025, regarding the number of
+individuals detained for civil immigration violations by any state, county, or local law
+enforcement or correctional facility to the Attorney General. The Attorney General must then
+submit a semi-annual summary report, by February 1, 2027, to the Governor, Senate President,
+andSpeakeroftheHouseofRepresentatives.
+The Department of Justice states this bill will require the Attorney General to collect and
+compilesemi-annualdetentionreportsfromallstate,county,andlocalagenciesandtopreparea
+statewide summary report. To complete these tasks, the Department states it would need a
+part-time Investigative Paralegal (23-2010 PARALGLS-LGL ASSTS-5 SOC23-05) at a cost of
+$50,505 in FY 2027 (including salary, benefits and operational costs), $48,959 in FY 2028, and
+$50,825 in FY 2029, to organize data submissions, manage reporting cycles, and prepare semi-
+annual summaries. However, this bill does not provide funding, nor does it authorize the
+Department'srequestedposition. Ifthepositionweretobeauthorizeditisassumedthecostsfor
+FY 2028 and FY 2029 would be included in the Department's FY 2028 and FY 2029 budget
+request.
+
+The Department of Corrections states this bill will not impact the Department because it does
+not detain individuals for civil immigration violations. Only individuals adjudicated for criminal
+offensesareincarceratedinStatecorrectionalfacilities.
+TheNewHampshireAssociationofCountiesstatesthisbillwouldrequiresemi-annualreporting
+for civil immigration violation. The Association notes the nominal costs could be absorbed into
+countiesbudgets.
+AGENCIESCONTACTED:
+DepartmentofJustice,DepartmentofCorrections,andNewHampshireAssociationofCounties

@@ -14,6 +14,9 @@
     "CA|AB172|2026-06-26|From committee chair, with author's amen",
     "CA|AB1843|2026-06-25|From committee: Do pass and re-refer to ",
     "CA|AB1876|2026-06-24|From committee: Do pass and re-refer to ",
+    "CA|AB1876|2026-08-25",
+    "CA|AB1876|2026-08-25|",
+    "CA|AB1876|2026-08-25|In Assembly. Ordered to Engrossing and E",
     "CA|AB1882|2026-07-02",
     "CA|AB1882|2026-07-02|From committee: Do pass and re-refer to ",
     "CA|AB1927|2026-06-25|Read second time and amended. Re-referre",
@@ -243,6 +246,8 @@
     "NE|LR444|2026-08-17|Notice of hearing for September 18, 2026",
     "NH|HB1406|2026-08-05",
     "NH|HB1406|2026-08-05|Public Hearing: 02/17/2026 01:45 pm GP 1",
+    "NH|HB1822|2026-08-20",
+    "NH|HB1822|2026-08-20|Died on Table, Session ended 08/19/2026 ",
     "NH|SB438|2026-06-17",
     "NH|SB438|2026-06-17|Enrolled (in recess of) 06/04/2026  HJ 1",
     "NH|SB438|2026-06-17|Enrolled Adopted, VV, (In recess 06/04/2",
@@ -339,12 +344,15 @@
     "US|HR 9619|2026-07-09|Referred to the House Committee on Energ",
     "US|HR 9890|2026-07-22",
     "US|HR 9890|2026-07-22|Referred to the House Committee on House",
+    "US|S 5168|2026-07-29",
+    "US|S 5168|2026-07-29|Read twice and referred to the Committee",
+    "US|S 5283|2026-08-06",
+    "US|S 5283|2026-08-06|Read twice and referred to the Committee",
     "|HR 9368|2026-06-24",
     "|HR 9368|2026-06-24|Committee Consideration and Mark-up Sess",
     "|HR 9368|2026-06-24|Ordered to be Reported (Amended) by the "
   ],
   "runs": {
-    "28308327199-1": 4,
     "28313703022-1": 4,
     "28323135470-1": 4,
     "28381726126-1": 4,
@@ -373,7 +381,8 @@
     "31623464716-1": 4,
     "32048252531-1": 4,
     "32279015019-1": 4,
-    "32754924562-1": 4
+    "32754924562-1": 4,
+    "32999229710-1": 4
   },
-  "last_run": "2026-08-24T18:27:33.599235+00:00"
+  "last_run": "2026-08-26T19:58:56.355526+00:00"
 }

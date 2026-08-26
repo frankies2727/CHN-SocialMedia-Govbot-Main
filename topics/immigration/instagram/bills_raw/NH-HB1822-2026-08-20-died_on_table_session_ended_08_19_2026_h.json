@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB1822",
+    "legislative_session": "2026",
+    "title": "relative to reporting of civil immigration detentions by state, county, and local law enforcement and correctional facilities."
+  },
+  "id": "HB1822",
+  "log": {
+    "action": {
+      "description": "Died on Table, Session ended 08/19/2026  HJ 16",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-20",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/advanced.aspx"
+        }
+      ]
+    },
+    "bill_id": "HB1822"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB1822/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB1822/logs/20260820T000000Z_died_on_table_session_ended_08192026_hj_16.json"
+  },
+  "timestamp": "20260820T000000Z",
+  "posted_text": "👮 NH HB1822 — NH Wants to Know: How Many People Are Held for Immigration Cases\n\nNew Hampshire is asking state, county, and local law enforcement – and the facilities where they hold people – to start tracking and reporting how many individuals are detained for civil immigration violations.\n\nStarting December 31, 2026, these agencies will need to submit semi-annual reports to the Attorney General, detailing the number of people detained and the length of their stays.\n\nThe Attorney General will then compile this data into a statewide report and share it with the Governor, Senate President, and Speaker of the House.\n\nThis reporting requirement is estimated to cost the Department of Justice around $50,505 annually to hire a part-time investigative paralegal to manage the data collection and reporting process.\n\nWhile the bill itself doesn’t provide funding, it highlights a potential need for staff support to ensure accurate tracking of civil immigration detentions across the state.\n\nAug. 20, 2026: Died on Table, Session ended 08/19/2026  HJ 16.\n\n🔗 Read the full bill: https://gc.nh.gov/bill_status/results.aspx?adv=2&txtbillno=HB1822&txtsessionyear=2026\n\n#Immigration #NewHampshire #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://gc.nh.gov/bill_status/results.aspx?adv=2&txtbillno=HB1822&txtsessionyear=2026",
+  "posted_url": "https://www.instagram.com/p/Dcg_W1Pmhbm/"
+}
