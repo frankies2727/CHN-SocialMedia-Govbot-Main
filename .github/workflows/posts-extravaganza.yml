@@ -150,10 +150,19 @@ jobs:
             # leaves no on-disk metadata/files and forces summarize() back to the
             # abstract. Cloning fresh keeps govbot's committed full text on disk.
             echo "shared_cache=false" >> "$GITHUB_OUTPUT"
-            # A national pull stays bounded + relevance-filtered like the digests,
-            # so an all-states run doesn't dump millions of unfiltered records.
-            echo "log_limit=8200" >> "$GITHUB_OUTPUT"
-            echo "log_filter=" >> "$GITHUB_OUTPUT"
+            # Bound a national pull by DATE, not by a per-state record cap. A
+            # per-state '--limit' (the old 8200) truncates the highest-volume
+            # state (California) to some arbitrary 8200 of its records, and with
+            # no date order that subset drops the most RECENT bills — so CA's
+            # current activity vanished from every topic while small states were
+            # unaffected. The composite action documents 'since-days' as the fix:
+            # keep every action within the window (filter OFF, no cap) so nothing
+            # recent is pre-dropped, exactly like the daily poster (none/none +
+            # since-days). 65d covers the extravaganza's 62-day lookback cap with
+            # a small margin.
+            echo "log_limit=none" >> "$GITHUB_OUTPUT"
+            echo "log_filter=none" >> "$GITHUB_OUTPUT"
+            echo "since_days=65" >> "$GITHUB_OUTPUT"
           else
             echo "clone_target=$states" >> "$GITHUB_OUTPUT"
             echo "shared_cache=false" >> "$GITHUB_OUTPUT"   # an ad-hoc state subset shouldn't be cached/reused
@@ -162,6 +171,7 @@ jobs:
             # 62-day filters then decide, so nothing topical gets pre-dropped.
             echo "log_limit=none" >> "$GITHUB_OUTPUT"
             echo "log_filter=none" >> "$GITHUB_OUTPUT"
+            echo "since_days=" >> "$GITHUB_OUTPUT"
           fi
 
           # Resolve the topic list the post step loops over. X is a single
@@ -231,6 +241,7 @@ jobs:
           shared-cache: ${{ steps.cfg.outputs.shared_cache }}
           log-limit: ${{ steps.cfg.outputs.log_limit }}
           log-filter: ${{ steps.cfg.outputs.log_filter }}
+          since-days: ${{ steps.cfg.outputs.since_days }}
 
       - name: Cache Ollama model
         uses: actions/cache@v4
