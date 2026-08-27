@@ -89,24 +89,77 @@ keywords:
   - domestic workers
   - day laborer
   - apprenticeship
+  - home care worker
+  - home health worker
+  - direct care worker
+  - warehouse worker
+  - temp worker
+  - temporary worker
+  - staffing agency
+  - app-based driver
+  - rideshare driver
+
+  # Wages / pay — additions. Phrases whose words aren't already core.
+  - salary history
+  - one fair wage
+  - severance pay
+
+  # Leave / benefits — the acronym forms and terms not already covered.
+  - FMLA
+  - PFML
+  - bereavement leave
+  - earned sick time
+
+  # Unions / collective action — post-Janus and current organizing vocabulary.
+  - union dues
+  - agency fee
+  - fair share fee
+  - captive audience meeting
+  - sectoral bargaining
+  - labor organization
+  - work stoppage
+
+  # Workplace safety — the agency acronym and terms not already covered.
+  - OSHA
+  - workplace violence
+  - heat stress
+
+  # Classification / protections / hiring
+  - ABC test
+  - joint employer
+  - ban the box
+  - mass layoff
+  - WARN Act
+  - warehouse quota
+  - non-disparagement
+
+# Broad terms that only count as a match alongside a core keyword above.
+context_keywords:
+  # "salary range" is routine in appropriations and job-classification bills
+  # (every new position lists one); it only signals labor policy alongside a
+  # core term. "Janus" is also a surname and a fund-family name, so it only
+  # counts next to a real labor keyword (public-sector union bills cite the
+  # Janus decision).
+  - salary range
+  - Janus
 
 emojis:
   - emoji: "💵"
-    match: ["minimum wage", "prevailing wage", "living wage", "wage theft", "unpaid wages", "overtime", "tipped wage", "tip credit", "pay transparency", "equal pay", "pay equity"]
+    match: ["minimum wage", "prevailing wage", "living wage", "wage theft", "unpaid wages", "overtime", "tipped wage", "tip credit", "pay transparency", "equal pay", "pay equity", "salary history", "one fair wage", "severance pay"]
   - emoji: "🤝"
-    match: ["labor union", "labor unions", "collective bargaining", "right to work", "right-to-work", "card check", "union election", "public sector union", "project labor agreement"]
+    match: ["labor union", "labor unions", "collective bargaining", "right to work", "right-to-work", "card check", "union election", "public sector union", "project labor agreement", "union dues", "agency fee", "fair share fee", "captive audience meeting", "sectoral bargaining", "labor organization", "Janus"]
   - emoji: "✊"
-    match: ["strike", "picketing"]
+    match: ["strike", "picketing", "work stoppage"]
   - emoji: "🦺"
-    match: ["workplace safety", "occupational safety", "occupational health", "heat illness", "workplace injury"]
+    match: ["workplace safety", "occupational safety", "occupational health", "heat illness", "workplace injury", "OSHA", "workplace violence", "heat stress"]
   - emoji: "🗓️"
-    match: ["paid sick leave", "paid family leave", "paid medical leave", "family and medical leave", "paid leave", "predictive scheduling", "fair workweek"]
+    match: ["paid sick leave", "paid family leave", "paid medical leave", "family and medical leave", "paid leave", "predictive scheduling", "fair workweek", "FMLA", "PFML", "bereavement leave", "earned sick time"]
   - emoji: "📋"
-    match: ["gig worker", "gig workers", "gig economy", "independent contractor", "worker misclassification", "employee classification", "non-compete", "noncompete"]
+    match: ["gig worker", "gig workers", "gig economy", "independent contractor", "worker misclassification", "employee classification", "non-compete", "noncompete", "ABC test", "joint employer", "ban the box", "mass layoff", "WARN Act", "warehouse quota", "non-disparagement", "temp worker", "temporary worker", "staffing agency", "app-based driver", "rideshare driver"]
   - emoji: "⚖️"
     match: ["whistleblower protection", "workplace retaliation", "wrongful termination", "at-will employment", "workplace harassment", "workplace discrimination"]
   - emoji: "🧑‍🌾"
-    match: ["child labor", "farmworker", "farmworkers", "domestic worker", "domestic workers", "day laborer", "apprenticeship"]
+    match: ["child labor", "farmworker", "farmworkers", "domestic worker", "domestic workers", "day laborer", "apprenticeship", "home care worker", "home health worker", "direct care worker", "warehouse worker"]
 
 digest:
   thread_title: "🛠️ Labor & Workers' Rights Bills Weekly Digest"
