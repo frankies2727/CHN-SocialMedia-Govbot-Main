@@ -70,22 +70,53 @@ keywords:
   - midwife
   - midwifery
 
+  # Abortion law / court vocabulary. Distinctive multi-word phrases; the bare
+  # collision-prone forms ("Roe" = fish eggs / a surname, "Dobbs"/"Comstock" =
+  # surnames, "personhood" = corporate personhood, "embryo" = research/ag) are
+  # context_keywords below. Phrases containing "abortion" (late-term abortion,
+  # chemical abortion, etc.) are omitted — "abortion" already matches them.
+  - Roe v. Wade
+  - dilation and evacuation
+  - fetal viability
+  - unborn child
+  - abortifacient
+  - reproductive coercion
+  - pregnancy termination
+  - fetal anomaly
+
+  # Fertility / pregnancy — procedures and conditions not already covered.
+  - vasectomy
+  - tubal ligation
+  - ectopic pregnancy
+  - fetal tissue
+  - surrogacy
+  - frozen embryo
+
 # Context keywords are too broad to stand alone — they only count as a match
 # when a core keyword above also appears. "parental consent" lives here
 # because non-reproductive bills (e.g. KS SB372's app-store age verification)
 # also require parental consent.
 context_keywords:
   - parental consent
+  # Court/framing terms that collide with surnames, fish eggs (roe), corporate
+  # personhood, and embryo research/agriculture — they only count alongside a
+  # core reproductive keyword (a bill citing "Roe" or "Dobbs" or debating
+  # "embryo" personhood will also carry "abortion", "IVF", etc.).
+  - Roe
+  - Dobbs
+  - Comstock
+  - personhood
+  - embryo
 
 emojis:
   - emoji: "🏥"
-    match: ["abortion clinic", "abortion provider", "medication abortion", "abortion pill", "mifepristone", "misoprostol", "telehealth abortion"]
+    match: ["abortion clinic", "abortion provider", "medication abortion", "abortion pill", "mifepristone", "misoprostol", "telehealth abortion", "dilation and evacuation", "pregnancy termination", "ectopic pregnancy"]
   - emoji: "⚖️"
-    match: ["abortion ban", "abortion rights", "heartbeat bill", "fetal heartbeat", "six-week ban", "trigger law", "gestational limit", "conscience clause", "parental consent", "judicial bypass", "fetal personhood", "shield law"]
+    match: ["abortion ban", "abortion rights", "heartbeat bill", "fetal heartbeat", "six-week ban", "trigger law", "gestational limit", "conscience clause", "parental consent", "judicial bypass", "fetal personhood", "shield law", "Roe v. Wade", "Roe", "Dobbs", "Comstock", "fetal viability", "unborn child", "personhood", "fetal anomaly", "reproductive coercion"]
   - emoji: "💊"
-    match: ["contraception", "contraceptive", "contraceptive coverage", "birth control", "emergency contraception", "family planning", "sterilization"]
+    match: ["contraception", "contraceptive", "contraceptive coverage", "birth control", "emergency contraception", "family planning", "sterilization", "abortifacient"]
   - emoji: "❤️‍🩹"
-    match: ["in vitro fertilization", "IVF", "fertility treatment", "assisted reproduction", "maternal health", "maternal mortality", "prenatal care", "postpartum care", "miscarriage", "stillbirth"]
+    match: ["in vitro fertilization", "IVF", "fertility treatment", "assisted reproduction", "maternal health", "maternal mortality", "prenatal care", "postpartum care", "miscarriage", "stillbirth", "frozen embryo", "embryo", "surrogacy", "vasectomy", "tubal ligation", "fetal tissue"]
   - emoji: "👩‍⚕️"
     match: ["doula", "midwife", "midwifery", "Planned Parenthood", "Title X", "crisis pregnancy center", "pregnancy resource center"]
 
