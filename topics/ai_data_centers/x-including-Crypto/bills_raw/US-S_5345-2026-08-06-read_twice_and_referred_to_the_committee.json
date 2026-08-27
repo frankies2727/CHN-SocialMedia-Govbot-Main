@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 5345",
+    "legislative_session": "119",
+    "title": "A bill to provide for the delivery of artificial intelligence functional bills of materials, and for other purposes."
+  },
+  "id": "S 5345",
+  "log": {
+    "action": {
+      "description": "Read twice and referred to the Committee on Armed Services.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-06T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s5345.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-bill/5345"
+        }
+      ]
+    },
+    "bill_id": "S 5345"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/S5345/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/S5345/logs/20260806T040000Z_read_twice_and_referred_to_the_committee_on_armed_services.json"
+  },
+  "timestamp": "20260806T040000Z",
+  "posted_text": "🧠 US S 5345 — A bill to provide for the delivery of artificial intelligence functional bills of materials, and for other purposes. ...\n...",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/senate-bill/5345",
+  "posted_url": "https://x.com/i/web/status/2093039756162515213"
+}

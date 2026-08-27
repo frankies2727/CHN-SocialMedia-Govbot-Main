@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Relating to prohibiting agencies from entering nondisclosure agreements concerning data centers and industrial projects; to provide a penalty; to provide an effective date; and to provide an expiration date.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 2406",
+    "legislative_session": "69",
+    "title": "A BILL for an Act to create and enact chapter 44-04.1 of the North Dakota Century Code, relating to prohibiting agencies from entering nondisclosure agreements concerning data centers and industrial projects; to provide a penalty; to provide an effective date; and to provide an expiration date."
+  },
+  "id": "SB 2406",
+  "log": {
+    "action": {
+      "description": "Committee Hearing 10:30",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-02",
+      "session_id": "69",
+      "sources": [
+        {
+          "note": "HTML bill detail page",
+          "url": "https://ndlegis.gov/assembly/69-2025/special-2/bill-overview/bo2406.html"
+        },
+        {
+          "note": "JSON page of session bills",
+          "url": "https://ndlegis.gov/api/assembly/69-2025/data/bills.json"
+        }
+      ]
+    },
+    "bill_id": "SB 2406"
+  },
+  "sources": {
+    "bill": "nd-legislation/country:us/state:nd/sessions/69/bills/SB2406/metadata.json",
+    "log": "nd-legislation/country:us/state:nd/sessions/69/bills/SB2406/logs/20260902T000000Z_committee_hearing_1030.json"
+  },
+  "timestamp": "20260902T000000Z",
+  "posted_text": "🏢 ND SB 2406 — North Dakota Could Block New Data Centers – Here’s Why\n\nNorth Dakota is considering a law that would stop state agencies from locking up information about new data centers and industrial projects. Currently, developers can sign agreements with the state that keep details about projects – like energy use or water needs – secret. This bill would prevent agencies from entering these kinds of nondisclosure agreements, meaning developers would have to share information with the public. ...\n...",
+  "posted_link": "https://www.ndlegis.gov/assembly/69-2025/special/bill-overview/bo2406.html",
+  "posted_url": "https://x.com/i/web/status/2093039417359311075"
+}

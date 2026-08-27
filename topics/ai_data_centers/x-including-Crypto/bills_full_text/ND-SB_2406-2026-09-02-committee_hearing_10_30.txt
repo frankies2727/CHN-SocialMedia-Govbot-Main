@@ -1,0 +1,74 @@
+A BILL for an Act to create and enact chapter 44-04.1 of the North Dakota Century Code,
+relating to prohibiting agencies from entering nondisclosure agreements concerning data
+centers and industrial projects; to provide a penalty; to provide an effective date; and to provide
+an expiration date.
+BE IT ENACTED BY THE LEGISLATIVE ASSEMBLY OF NORTH DAKOTA:
+SECTION 1. Chapter 44-04.1 of the North Dakota Century Code is created and enacted as
+follows:
+44-04.1-01. Definitions.
+As used in this chapter:
+1. "Agency" means the state or a political subdivision or a person or contractor acting on
+behalf of or an employee or an elected or appointed official acting in an official
+capacity of the state or a political subdivision.
+2. "Data center" means a facility constructed primarily for the storage, management, and
+processing of digital data, which houses computer and network systems, including
+associated components such as servers, network equipment and appliances,
+telecommunications systems, internet-related equipment and services, data
+communications connections, environmental control systems, fire protection systems,
+security systems, and other equipment and infrastructure necessary to support the
+operation of the facility.
+3. "Developer" means a person that proposes, owns, operates, or seeks approval for a
+data center or industrial project.
+4. "Industrial project" means a project relating to the development of a business, industry,
+utility, or infrastructure.
+Page No. 1 25.1425.02000
+
+Sixty-ninth
+Legislative Assembly
+5. "Nondisclosure agreement" means an agreement, provision, clause, or contractual
+term that has the purpose or effect of:
+a. Restricting an agency from disclosing information about a potential data center or
+industrial project to a member of the public, including information about the
+location, siting, construction, modification, expansion, energy demand and type,
+water usage, utility interconnection, and other potential community and
+environmental impacts;
+b. Designating the construction, proposed construction, modification, expansion, or
+other information concerning a data center or industrial project as confidential;
+c. Prohibiting an agency from disclosing, discussing, describing, or commenting on
+the proposed construction, modification, or expansion of a data center or
+industrial project; or
+d. Requiring an agency to obtain advance approval from a developer before
+disclosing information about a data center or industrial project.
+44-04.1-02. Prohibition on nondisclosure agreements.
+1. An agency may not enter a nondisclosure agreement with a developer regarding an
+operating data center or industrial project, a proposed data center or industrial project,
+a data center or industrial project for which the developer is seeking approval from the
+agency, or a data center or industrial project under construction.
+2. If a developer has entered a nondisclosure agreement in violation of this chapter, an
+agency may not approve, issue, or grant a license, permit, certification, zoning
+approval, tax incentive, or other authorization for the data center or industrial project.
+3. A nondisclosure agreement entered in violation of this chapter is void and
+unenforceable.
+44-04.1-03. Public records.
+1. This chapter does not limit or diminish the public's right of access to records of an
+agency under section 44 - 04 - 18 .
+2. This chapter does not modify, expand, or create an exemption from disclosure under
+section 44 - 04 - 18.4 .
+Page No. 2 25.1425.02000
+
+Sixty-ninth
+Legislative Assembly
+44-04.1-04. Application requirements - Enforcement - Penalty.
+1. As part of an application submitted to an agency, a developer shall declare under
+penalty of perjury the developer has not entered a nondisclosure agreement in
+violation of this chapter.
+2. A violation of this section constitutes grounds for suspension, revocation, or rescission
+of a permit or approval issued by an agency.
+3. An agency that violates this chapter is subject to a civil penalty not to exceed one
+thousand dollars for each violation. The attorney general or the state's attorney of the
+county in which the violation occurred may bring an action to recover the civil penalty.
+SECTION 2. EFFECTIVE DATE. This Act becomes effective upon its filing with the
+secretary of state.
+SECTION 3. EXPIRATION DATE. This Act is effective through June 30, 2027, and after that
+date is ineffective.
+Page No. 3 25.1425.02000
