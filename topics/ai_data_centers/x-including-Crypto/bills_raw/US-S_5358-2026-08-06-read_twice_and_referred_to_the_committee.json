@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 5358",
+    "legislative_session": "119",
+    "title": "A bill to amend the Financial Stability Act of 2010 to provide the Financial Stability Oversight Council with duties regarding artificial intelligence in the financial sector, and for other purposes."
+  },
+  "id": "S 5358",
+  "log": {
+    "action": {
+      "description": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-06T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s5358.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-bill/5358"
+        }
+      ]
+    },
+    "bill_id": "S 5358"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/S5358/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/S5358/logs/20260806T040000Z_read_twice_and_referred_to_the_committee_on_banking_housing_and_urban_affairs.json"
+  },
+  "timestamp": "20260806T040000Z",
+  "posted_text": "🧠 US S 5358 — A bill to amend the Financial Stability Act of 2010 to provide the Financial Stability Oversight Council with duties regarding artificial intelligence in the financial sector, and for other purposes. ...\n...",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/senate-bill/5358",
+  "posted_url": "https://x.com/i/web/status/2093106476537479191"
+}
