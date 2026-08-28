@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 850",
+    "legislative_session": "119",
+    "title": "Northern Border Security Enhancement and Review Act"
+  },
+  "id": "S 850",
+  "log": {
+    "action": {
+      "description": "Message on Senate action sent to the House.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-10T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s850.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-bill/850"
+        }
+      ]
+    },
+    "bill_id": "S 850"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/S850/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/S850/logs/20260810T040000Z_message_on_senate_action_sent_to_the_house.json"
+  },
+  "timestamp": "20260810T040000Z",
+  "posted_text": "🚧 Immigration\nUS S 850 — Border Threat Analysis Gets a Fresh Look\n\nThis bill changes how Homeland Security assesses threats along the Northern Border. It requires the agency to update its threat analysis every three years, and to review apprehensions at the sector level every year. ...\n...",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/senate-bill/850",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/Dck3PORIM_3"
+}
