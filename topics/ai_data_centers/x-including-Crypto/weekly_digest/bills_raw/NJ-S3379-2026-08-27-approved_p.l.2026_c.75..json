@@ -1,0 +1,68 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S3379",
+    "legislative_session": "222",
+    "subject": [
+      "PUBLIC UTIL"
+    ],
+    "title": "Requires data center owners and operators to submit semi-annual water and energy usage reports to BPU."
+  },
+  "id": "S3379",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved P.L.2026, c.75.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-08-27T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3379"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3379"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3379"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3379"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3379"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3379"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3379"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3379"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3379"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3379"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3379"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "S3379"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S3379/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S3379/logs/20260827T040000Z_approved_pl2026_c75.json"
+  },
+  "timestamp": "20260827T040000Z"
+}

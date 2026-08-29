@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6251",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Businesses: other",
+      "Energy: other"
+    ],
+    "title": "Businesses: other; energy infrastructure and thermal management evaluation requirements for certain data centers; provide for."
+  },
+  "id": "HB 6251",
+  "log": {
+    "action": {
+      "description": "bill electronically reproduced 08/26/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-27",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6251"
+        }
+      ]
+    },
+    "bill_id": "HB 6251"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6251/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6251/logs/20260827T000000Z_bill_electronically_reproduced_08262026.json"
+  },
+  "timestamp": "20260827T000000Z"
+}
