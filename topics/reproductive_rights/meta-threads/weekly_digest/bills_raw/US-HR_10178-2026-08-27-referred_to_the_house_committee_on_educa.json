@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10178",
+    "legislative_session": "119",
+    "title": "To amend the General Education Provisions Act to require certain local educational agencies to notify parents before distributing or disseminating information about abortion or abortion-related services to students, and for other purposes."
+  },
+  "id": "HR 10178",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Education and Workforce.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-27T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10178.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10178"
+        }
+      ]
+    },
+    "bill_id": "HR 10178"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10178/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10178/logs/20260827T040000Z_referred_to_the_house_committee_on_education_and_workforce.json"
+  },
+  "timestamp": "20260827T040000Z"
+}
