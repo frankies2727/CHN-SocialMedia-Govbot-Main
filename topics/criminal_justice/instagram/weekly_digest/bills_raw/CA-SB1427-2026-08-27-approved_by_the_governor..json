@@ -1,0 +1,41 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "(1) Existing law, beginning January 1, 2027, in any county in which the offices of sheriff and the coroner are combined, prohibits the sheriff-coroner from determining the circumstances, manner, and cause of death, as provided, for an in-custody death, as defined. Existing law instead requires the sheriff-coroner to contract with specified entities to determine the circumstances, manner, and cause of death. Existing law requires the county board of supervisors to annually enter into a service agreement or service agreements with those entities.\n\nThis bill would remove the requirement that those service agreements be entered into annually.\n\n(2) Existing law, when a defendant is returned to court after specified proceedings to restore competency and it appears the defendant is gravely disabled, requires the court to initiate specified conservatorship proceedings. Existing law defines gravely disabled for these purposes as meaning a condition in which a person, as a result of specified disorders, is unable to provide for their basic personal needs for food, clothing, shelter, personal safety, or necessary medical care, or a condition in which the person has been found mentally incompetent and specified facts exist, including that the person is unable to understand the nature and purpose of the proceedings taken against them and to assist counsel in the conduct of their defense in a rational manner.\n\nThis bill would clarify that gravely disabled includes meeting either or both of these definitions of gravely disabled.\n\n(3) Existing law sets forth the grounds and procedures for the issuance of a search warrant. Existing law defines a search warrant to refer to an order in writing, in the name of the people, signed by a magistrate, directed to a peace officer, commanding that peace officer to search for a person or persons, a thing or things, or personal property, and, in the case of a thing or things, or personal property, bring the thing or things, or the personal property, before the magistrate.\n\nExisting law prohibits a foreign corporation from transacting intrastate business without a certificate of qualification from the Secretary of State, and requires a statement filed for a certificate of qualification to include, among other things, an agent for service of process within the state. Existing law defines a foreign corporation for these purposes as any corporation that is qualified to do business within the state, as specified. Existing law defines \"properly served\" for these purposes as, among other things, a search warrant that has been delivered by hand, or by any other means specified by the recipient of the search warrant, as specified.\n\nThis bill would broaden the foreign corporation definition to include a corporation that transacts intrastate business, except a California corporation. The bill would also broaden the \"properly served\" definition to include, for recipients not qualified to do business in this state, any means reasonably calculated to give actual notice.\n\n(4) Existing law requires the sheriff or city municipal police department, when determining whether a non-California resident is qualified for a license to carry a firearm capable of being concealed on the person, to conduct an in-person or virtual interview of the applicant, unless the application is for a renewal of that license.\n\nThis bill would require that interview for all applicants, unless the application is for a renewal of that license. By increasing duties on local governments, this bill would impose a state-mandated local program.\n\n(5) Existing law makes it a crime, with exceptions, for a person to knowingly bring or send into, or to knowingly assist in bringing into, or sending into, any county juvenile hall, ranch, camp, or forestry camp, or for a person who is confined in any of those institutions to possess, a prohibited controlled substance, a firearm, weapon, or explosive of any kind, a tear gas or tear gas weapon, or an alcoholic beverage, as specified. Existing law requires the posting of a sign at the entrance of those institutions specifying the prohibited conduct and the penalties.\n\nThis bill would clarify that those provisions also apply to a secure youth treatment facility within a juvenile hall.\n\n(6) Existing law authorizes any county or court to implement a \"comprehensive collection program\" as a separate revenue collection activity, and requires the program to meet certain criteria, one of which is that the program engages in specified activities in collecting fines or penalties accepting payment of delinquent debt by credit card. Existing law requires the Judicial Council to make an annual report to the Department of Finance and the Joint Legislative Budget Committee regarding, among other items, the total amount of revenue collected in the prior fiscal year by each court and county from criminal fines and fees related to infractions and misdemeanors. Existing law requires the Judicial Council to separately list information regarding fines and fees assessed in a year before the current reporting year that had outstanding balances in the current reporting year. \n\nThis bill would additionally require that the program be administered by a county and superior court working in cooperation, as specified, and would authorize the program to contract with one or more specified entities. The bill would authorize the program to accept electronic payment of debt by credit or debit card, electronic funds transfer, or other online payment method accepted by the program. The bill would also make conforming changes to provisions regarding the report by the Judicial Council regarding the revenue collected from criminal fines and fees. The bill would require the Judicial Council to separately list information regarding fines and fees assessed, without limitation to the year before the current reporting year, that had outstanding balances in the current reporting year.\n\n(7) The California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1427",
+    "legislative_session": "20252026",
+    "subject": [
+      "Publicsafetyomnibus"
+    ],
+    "title": "Public safety omnibus."
+  },
+  "id": "SB1427",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-08-27",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1427"
+        }
+      ]
+    },
+    "bill_id": "SB1427"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1427/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1427/logs/20260827T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260827T000000Z"
+}
