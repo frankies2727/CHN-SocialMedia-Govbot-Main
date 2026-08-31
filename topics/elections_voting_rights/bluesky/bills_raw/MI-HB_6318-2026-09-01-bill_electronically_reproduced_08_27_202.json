@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6318",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Elections: voters"
+    ],
+    "title": "Elections: voters; denying the right to vote on the basis of sex; prohibit."
+  },
+  "id": "HB 6318",
+  "log": {
+    "action": {
+      "description": "bill electronically reproduced 08/27/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-01",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6318"
+        }
+      ]
+    },
+    "bill_id": "HB 6318"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6318/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6318/logs/20260901T000000Z_bill_electronically_reproduced_08272026.json"
+  },
+  "timestamp": "20260901T000000Z"
+}

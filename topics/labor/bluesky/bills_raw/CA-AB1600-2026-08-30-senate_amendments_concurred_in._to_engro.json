@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law defines \"disadvantaged communities\" and requires the California Environmental Protection Agency to identify disadvantaged communities for investment opportunities from the Greenhouse Gas Reduction Fund and for other purposes.\n\nThis bill would require the agency to do specified things regarding farmworker communities for purposes of identifying disadvantaged communities including, among other things, assessing whether designating farmworker communities as disadvantaged communities would increase those communities' access to investment opportunities and identifying potential barriers faced by low-income farmworker communities in accessing investment opportunities, as specified. The bill would require the agency to make its findings publicly available on its internet website and consider those findings when identifying disadvantaged communities. The bill would require the agency and the Office of Environmental Health Hazard Assessment to develop and implement a strategy for engaging with farmworker communities on environmental, health, and socioeconomic burdens, as provided.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1600",
+    "legislative_session": "20252026",
+    "subject": [
+      "Disadvantagedcommunities",
+      "farmworkercommunities"
+    ],
+    "title": "Disadvantaged communities: farmworker communities."
+  },
+  "id": "AB1600",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "description": "Senate amendments concurred in. To Engrossing and Enrolling.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-30",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1600"
+        }
+      ]
+    },
+    "bill_id": "AB1600"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1600/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1600/logs/20260830T000000Z_senate_amendments_concurred_in_to_engrossing_and_enrolling.json"
+  },
+  "timestamp": "20260830T000000Z"
+}
