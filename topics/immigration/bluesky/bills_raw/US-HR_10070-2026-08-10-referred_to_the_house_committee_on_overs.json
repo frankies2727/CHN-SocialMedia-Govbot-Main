@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10070",
+    "legislative_session": "119",
+    "title": "To amend title 5, United States Code, to expand the eligibility of border patrol agents for certain overtime pay, and for other purposes."
+  },
+  "id": "HR 10070",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Oversight and Government Reform.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-10T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10070.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10070"
+        }
+      ]
+    },
+    "bill_id": "HR 10070"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10070/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10070/logs/20260810T040000Z_referred_to_the_house_committee_on_oversight_and_government_reform.json"
+  },
+  "timestamp": "20260810T040000Z"
+}

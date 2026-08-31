@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law requires, until July 1, 2027, the Attorney General, or their designee, to engage in reviews of county, local, or private locked detention facilities in which noncitizens are being housed or detained for purposes of civil immigration proceedings in California, and, on or before March 1, 2019, to conduct a review of these facilities, as specified, including a review of the circumstances of apprehension and transfer. Existing law also requires the Department of Justice to provide, during the budget process, updates and information to the Legislature and the Governor, concerning the reviews, as provided and pursuant to a specified date. Existing law requires the comprehensive report to be completed by March 1, 2019, and to be posted on the Attorney General's internet website and made available to the public, as provided. Existing law makes these provisions inoperative on July 1, 2027, and repeals those provisions January 1, 2028. \n\nThis bill would delete all dates specified above, including inoperative and repeal provisions, thereby indefinitely extending those provisions, and would delete the requirement for the review to include an individual's circumstances of apprehension and transfer. The bill would also make nonsubstantive changes.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1399",
+    "legislative_session": "20252026",
+    "subject": [
+      "Lockeddetentionfacilities",
+      "civilimmigration",
+      "reviews"
+    ],
+    "title": "Locked detention facilities: civil immigration: reviews."
+  },
+  "id": "SB1399",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "In Senate. Ordered to engrossing and enrolling.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-30",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1399"
+        }
+      ]
+    },
+    "bill_id": "SB1399"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1399/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1399/logs/20260830T000000Z_in_senate_ordered_to_engrossing_and_enrolling.json"
+  },
+  "timestamp": "20260830T000000Z"
+}
