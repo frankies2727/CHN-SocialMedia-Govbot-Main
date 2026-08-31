@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB552",
+    "legislative_session": "2026",
+    "title": "permitting classification of individuals based on biological sex under certain limited circumstances."
+  },
+  "id": "SB552",
+  "log": {
+    "action": {
+      "description": "Notwithstanding the Governor's Veto, Shall SB 552 Become Law: RC 16Y-8N, Veto Overridden by necessary two-thirds vote; 08/19/2026;  SJ 15",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-19",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=1340&inflect=2"
+        }
+      ]
+    },
+    "bill_id": "SB552"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB552/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB552/logs/20260819T000000Z_notwithstanding_the_governors_veto_shall_sb_552_become_law_rc_16y8n_veto_overridden_by_necessary_two.json"
+  },
+  "timestamp": "20260819T000000Z"
+}
