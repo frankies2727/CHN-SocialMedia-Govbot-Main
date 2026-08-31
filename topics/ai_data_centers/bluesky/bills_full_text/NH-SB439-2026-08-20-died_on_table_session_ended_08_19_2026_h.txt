@@ -1,0 +1,38 @@
+SB439-ASAMENDEDBYTHESENATE
+01/29/2026 0176s
+2026SESSION
+26-2236
+06/09
+SENATEBILL
+ANACT relativetomunicipaldatacenterzoning.
+COMMITTEE: ElectionLawandMunicipalAffairs
+─────────────────────────────────────────────────────────────────
+ANALYSIS
+Thisbillauthorizesmunicipalitiestoregulatedatacentersincommercialandindustrialzones.
+---------------------------------------------------------------------------
+Explanation: Matteraddedtocurrentlawappearsinbolditalics.
+Matterremovedfromcurrentlawappears[inbracketsandstruckthrough.]
+Matterwhichiseither(a)allnewor(b)repealedandreenactedappearsinregulartype.
+
+SB439-ASAMENDEDBYTHESENATE
+01/29/2026 0176s 26-2236
+06/09
+STATEOFNEWHAMPSHIRE
+IntheYearofOurLordTwoThousandTwenty-Six
+ANACT relativetomunicipaldatacenterzoning.
+BeitEnactedbytheSenateandHouseofRepresentativesinGeneralCourtconvened:
+1 New Subdivision; Data Centers. Amend RSA 674 by inserting after section 80 the following
+newsubdivision:
+DataCenters
+674:81 Definition. In this subdivision, “data center” means a facility used primarily for the
+storage, processing, management, and transmission of digital data. “Data center” does not include a
+facilitythatdoesnotexceed25percentofthegrossfloorareaofallon-sitebuildings,isusedtoserve
+the enterprise functions of the on-site property owner, and is not used to lease data services to third
+parties.
+674:82 ZoningAuthoritytoPermitDataCenters.
+I. Data centers are allowed within zoning districts designated for commercial or industrial
+useandsubjecttotheprovisionsoflocallanduseregulations.
+674:83 Rulemaking.
+The planning board, with the approval of the local legislative body, may adopt regulations as
+necessary.
+2 EffectiveDate. Thisactshalltakeeffect60daysafteritspassage.
