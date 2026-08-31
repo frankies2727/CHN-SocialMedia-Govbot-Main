@@ -1,0 +1,49 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Includes certain violations involving physical, psychological, or emotional harm to a child as qualifying offenses for the purpose of imposing bail."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S10679",
+    "legislative_session": "2025-2026",
+    "title": "Includes certain violations involving children as qualifying offenses for the purpose of imposing bail"
+  },
+  "id": "S10679",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "REFERRED TO RULES",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-14",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "RULES"
+        }
+      ],
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10679?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/S10679"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=S10679&term=2025"
+        }
+      ]
+    },
+    "bill_id": "S10679"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S10679/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S10679/logs/20260814T000000Z_referred_to_rules.json"
+  },
+  "timestamp": "20260814T000000Z"
+}

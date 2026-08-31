@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Authorizes the Hicksville Water District to receive retroactive real property tax exempt status."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S10095",
+    "legislative_session": "2025-2026",
+    "title": "Authorizes the Hicksville Water District to receive retroactive real property tax exempt status"
+  },
+  "id": "S10095",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "SIGNED CHAP.264",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-21",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10095?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/S10095"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=S10095&term=2025"
+        }
+      ]
+    },
+    "bill_id": "S10095"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S10095/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S10095/logs/20260821T000000Z_signed_chap264.json"
+  },
+  "timestamp": "20260821T000000Z"
+}
