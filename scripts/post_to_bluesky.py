@@ -4098,7 +4098,8 @@ def link_for(b: dict) -> str:
 MIN_SUMMARY_CHARS = 60
 
 
-def summary_budget(b: dict, headline: str, head_cap: int | None = None) -> int:
+def summary_budget(b: dict, headline: str, head_cap: int | None = None,
+                   omit_display: bool = False) -> int:
     """Character budget available for the summary block in a Bluesky post,
     given the head (emoji + state + id + display), the action line, and the
     bill link that share the post. Returned so the caller can ask the LLM for
@@ -4111,15 +4112,24 @@ def summary_budget(b: dict, headline: str, head_cap: int | None = None) -> int:
     digest passes it so a long raw legalese title (when no headline rewrite is
     available) doesn't starve the summary out of the post — the caller pairs
     this with compose_post(prefer_summary=True), which trims that long title to
-    fit rather than dropping the summary."""
+    fit rather than dropping the summary.
+
+    omit_display drops the bill title from the head entirely, so the whole head
+    is just "<emoji> <state> <id>" and the plain-English summary gets the room
+    the title would have taken. Paired with compose_post(omit_display=True) by
+    the weekly digest, which leads with a layman's description instead of the
+    legalese title."""
     emoji = TOPIC.emoji_for(b)
     state_label = b["state"] or "?"
     ident_disp = display_identifier(b["state"], b["identifier"])
-    display = best_display_text(b, headline=headline).strip()
-    if head_cap is not None and len(display) > head_cap:
-        display = display[:head_cap]
-    prefix = f"{emoji} {state_label} {ident_disp} — "
-    head_len = len(prefix) + len(display)
+    if omit_display:
+        head_len = len(f"{emoji} {state_label} {ident_disp}")
+    else:
+        display = best_display_text(b, headline=headline).strip()
+        if head_cap is not None and len(display) > head_cap:
+            display = display[:head_cap]
+        prefix = f"{emoji} {state_label} {ident_disp} — "
+        head_len = len(prefix) + len(display)
     action_line = format_action_line(b["action_desc"], b["action_date"])
     action_block_len = len(f"\n\n{action_line}") if action_line else 0
     link = link_for(b)
@@ -4130,7 +4140,14 @@ def summary_budget(b: dict, headline: str, head_cap: int | None = None) -> int:
 
 
 def compose_post(b: dict, summary: str, headline: str = "",
-                 prefer_summary: bool = False) -> tuple[str, str, str, str]:
+                 prefer_summary: bool = False,
+                 omit_display: bool = False) -> tuple[str, str, str, str]:
+    """Build a Bluesky post (text, link, embed_title, embed_desc) for a bill.
+
+    omit_display drops the bill title from the head so the head is just
+    "<emoji> <state> <id>" and the plain-English summary alone describes the
+    bill. Used by the weekly digest, which wants a layman's-terms line about
+    what the bill does rather than its legalese title."""
     emoji = TOPIC.emoji_for(b)
     link = link_for(b)
     link_block = f"\n\n{LINK_PREFIX}{LINK_ANCHOR}" if link else ""
@@ -4139,24 +4156,31 @@ def compose_post(b: dict, summary: str, headline: str = "",
     ident_disp = display_identifier(b["state"], b["identifier"])
     display = best_display_text(b, headline=headline).strip()
     summary = (summary or "").strip()
-    # Drop a leading act name from the summary when it just echoes the headline
-    # ("AI Non-Sentience Act…" appearing in both lines).
-    summary = _strip_act_name_echo(summary, display)
-    # Drop a whole leading sentence that paraphrases the headline ("Missouri
-    # will designate March first as Dr. Mun Choi Day" under a headline that
-    # already says exactly that), keeping the substantive follow-on sentence.
-    summary = _strip_headline_echo(summary, display)
+    if not omit_display:
+        # Drop a leading act name from the summary when it just echoes the
+        # headline ("AI Non-Sentience Act…" appearing in both lines).
+        summary = _strip_act_name_echo(summary, display)
+        # Drop a whole leading sentence that paraphrases the headline ("Missouri
+        # will designate March first as Dr. Mun Choi Day" under a headline that
+        # already says exactly that), keeping the substantive follow-on sentence.
+        summary = _strip_headline_echo(summary, display)
 
+    # With the title omitted the summary is the only description, so keep it in
+    # full; otherwise drop it only when it merely restates the title.
     summary_block = (
         f"\n\n{summary}"
-        if summary and _normalize(summary) != _normalize(display)
+        if summary and (omit_display or _normalize(summary) != _normalize(display))
         else ""
     )
     action_line = format_action_line(b["action_desc"], b["action_date"])
     action_block = f"\n\n{action_line}" if action_line else ""
 
-    prefix_len = len(emoji) + len(f" {state_label} {ident_disp} — ")
-    head = f"{emoji} {state_label} {ident_disp} — {display}"
+    if omit_display:
+        prefix_len = len(f"{emoji} {state_label} {ident_disp}")
+        head = f"{emoji} {state_label} {ident_disp}"
+    else:
+        prefix_len = len(emoji) + len(f" {state_label} {ident_disp} — ")
+        head = f"{emoji} {state_label} {ident_disp} — {display}"
 
     def assemble(h, s, a, l):
         return h + s + a + l
@@ -4167,7 +4191,7 @@ def compose_post(b: dict, summary: str, headline: str = "",
     # so when a long raw legalese title (no headline rewrite available) would
     # overflow, trim that title first and keep the summary intact. Residual
     # overflow then falls through to the normal cascade below.
-    if prefer_summary and len(text) > MAX_POST and summary_block:
+    if prefer_summary and not omit_display and len(text) > MAX_POST and summary_block:
         avail = MAX_POST - len(link_block) - len(summary_block) - len(action_block) \
                 - prefix_len - 1
         display = _smart_truncate(display, avail + 1) if avail > 0 else ""
@@ -4186,7 +4210,7 @@ def compose_post(b: dict, summary: str, headline: str = "",
             summary_block = ""
         text = assemble(head, summary_block, action_block, link_block)
 
-    if len(text) > MAX_POST:
+    if len(text) > MAX_POST and not omit_display:
         avail = MAX_POST - len(link_block) - len(summary_block) - len(action_block) \
                 - prefix_len - 1
         if avail > 0:

@@ -306,13 +306,17 @@ def compose_threads_thread(b: dict, summary: str, headline: str = "",
         s_head = keep
     post1 = head + (f"\n\n{s_head}" if s_head else "")
 
-    # Post 2: continuation + action line (URL rides as link_attachment).
+    # Post 2: continuation + action line + a "Link to the bill:" closing line.
+    # The bill URL itself is NOT in the text — it rides as a link_attachment
+    # preview card below post 2 — so the last sentence just points at it.
     action_line = format_action_line(b["action_desc"], b["action_date"])
     action_block = f"\n\n{action_line}" if action_line else ""
-    cont_budget = MAX_THREADS - len(action_block) - 2 - prefix_cost
+    link_line = "Link to the bill:" if url else ""
+    link_block = f"\n\n{link_line}" if link_line else ""
+    cont_budget = MAX_THREADS - len(action_block) - len(link_block) - 2 - prefix_cost
     if s_tail and len(s_tail) > cont_budget:
         s_tail = _smart_truncate(s_tail, max(0, cont_budget))
-    post2 = f"{s_tail}{action_block}" if s_tail else action_line
+    post2 = f"{s_tail}{action_block}{link_block}" if s_tail else f"{action_line}{link_block}"
     post2 = post2.strip()
 
     # Continuation cues — only when there is a post 2 to point readers to.

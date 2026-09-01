@@ -65,14 +65,6 @@ DIGEST_PER_STATE_CAP = int(os.environ.get("DIGEST_PER_STATE_CAP", "2"))
 DIGEST_LANDSCAPE_CARDS = int(os.environ.get("DIGEST_LANDSCAPE_CARDS", "3"))
 DRY_RUN = os.environ.get("DRY_RUN") == "1"
 
-# When a bill has no usable headline rewrite, its raw legalese title is the
-# post head. Cap the head length used for summary budgeting so that title
-# can't starve the plain-English summary out of the card; compose_post then
-# trims the over-long title to fit (see prefer_summary). 60 chars keeps the
-# summary above MIN_SUMMARY_CHARS even alongside a long action line, while
-# still leaving enough of the title to identify the bill.
-DIGEST_HEAD_CAP = int(os.environ.get("DIGEST_HEAD_CAP", "60"))
-
 # The weekly digest is STRICTLY the last 7 days — a single window, no widening.
 # When nothing moved in those 7 days the digest posts a short "no activity this
 # week" note (with the date range) instead of reaching further back. Kept as a
@@ -432,16 +424,16 @@ def _build_highlight_replies(client: BlueskyClient | None,
     replies: list[tuple[str, str, str, str, dict | None]] = []
     for b in highlights:
         ensure_english_fields(b)
-        # Rewrite the bill's legalese title into a plain-English headline first
-        # (same as the daily poster and the X digest), then budget the summary
-        # against that head. When no headline is available, cap the budgeting
-        # head so a long raw title can't starve the summary; prefer_summary
-        # then keeps the layman summary and trims the title instead.
+        # The weekly digest leads each highlight with a plain-English, layman's
+        # description of what the bill does instead of its legalese title. We
+        # still rewrite the title into a headline (used only as embed metadata /
+        # summary grounding), but omit_display drops it from the post head so the
+        # summary alone describes the bill and gets the full character budget.
         headline = shorten_title(b)
-        budget = summary_budget(b, headline, head_cap=DIGEST_HEAD_CAP)
+        budget = summary_budget(b, headline, omit_display=True)
         summary = summarize(b, max_chars=budget) if budget >= MIN_SUMMARY_CHARS else ""
         text, link, ec_title, ec_desc = compose_post(
-            b, summary, headline=headline, prefer_summary=True)
+            b, summary, headline=headline, omit_display=True)
 
         thumb_blob = None
         if link and FETCH_OG_IMAGE:
