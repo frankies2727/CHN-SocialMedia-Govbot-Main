@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10169",
+    "legislative_session": "119",
+    "title": "To prohibit the provision of federal financial benefit for the construction, expansion, or substantial rehabilitation of data centers on prime farmland and other certain farmland."
+  },
+  "id": "HR 10169",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Energy and Commerce.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-27T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10169.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10169"
+        }
+      ]
+    },
+    "bill_id": "HR 10169"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10169/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10169/logs/20260827T040000Z_referred_to_the_house_committee_on_energy_and_commerce.json"
+  },
+  "timestamp": "20260827T040000Z",
+  "posted_text": "🏢 US HR 10169 — To prohibit the provision of federal financial benefit for the construction, expansion, or substantial rehabilitation of data centers on prime farmland and other certain farmland. ...\n...",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-bill/10169",
+  "posted_url": "https://x.com/i/web/status/2094841888243085498"
+}
