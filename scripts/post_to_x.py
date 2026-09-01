@@ -435,9 +435,11 @@ def compose_x_thread(b: dict, summary: str, headline: str = "") -> tuple[str, st
         s_head = keep
     post1 = head + (f"\n\n{s_head}" if s_head else "")
 
-    # Post 2: continuation + action line + bill URL.
+    # Post 2: continuation + action line + bill URL. The URL is labelled with
+    # a "Link to the bill:" lead-in so it reads as a call to action; X still
+    # renders the raw URL as a clickable t.co link.
     action_line = format_action_line(b["action_desc"], b["action_date"])
-    url_block = f"\n\n{url}" if url else ""
+    url_block = f"\n\nLink to the bill: {url}" if url else ""
     action_block = f"\n\n{action_line}" if action_line else ""
     cont_budget = MAX_TWEET - x_weighted_len(action_block) - x_weighted_len(url_block) - 2 - prefix_cost
     if s_tail and x_weighted_len(s_tail) > cont_budget:
