@@ -1,0 +1,71 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A4531",
+    "legislative_session": "222",
+    "subject": [
+      "MOTOR VEHICL"
+    ],
+    "title": "Establishes alternative compliance standards for development of electric vehicle supply equipment and Make-Ready parking spaces based on charging capacity."
+  },
+  "id": "A4531",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved P.L.2026, c.79.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-08-27T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A4531"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A4531"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A4531"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A4531"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A4531"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A4531"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A4531"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A4531"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A4531"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A4531"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A4531"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "A4531"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A4531/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A4531/logs/20260827T040000Z_approved_pl2026_c79.json"
+  },
+  "timestamp": "20260827T040000Z",
+  "posted_text": "🔌 NJ A4531 — NJ Could Let Total Charging Capacity Count for EV Stations\n\nNew Jersey is considering a change to how electric vehicle charging infrastructure is built.\n\nCurrently, developers must install a certain number of parking spaces with EVSE.\n\nThis bill would allow developers to comply by meeting a minimum total electric vehicle charging capacity, as determined by statewide standards.\n\nThe bill defines ‘Charging capacity’ as the total rated electrical output in kilowatts available for EV charging.\n\nIt would establish rules for how this capacity is measured, including standards for different types of EVSE and accessibility requirements.\n\nDevelopers could also receive parking space credits if they meet these standards, up to a 10% reduction in required parking spaces.\n\nThis change would apply only to how compliance is measured, not to minimum parking requirements.\n\nAug. 27, 2026: Approved P.L.2026, c.79.\n\n🔗 Read the full bill: https://www.njleg.state.nj.us/bill-search/2026/A4531\n\n#Transportation #NewJersey #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.njleg.state.nj.us/bill-search/2026/A4531",
+  "posted_url": "https://www.instagram.com/p/DcuSXD8Cc7B/"
+}

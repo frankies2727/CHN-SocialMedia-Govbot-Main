@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 309",
+    "legislative_session": "119",
+    "title": "National Law Enforcement Officers Remembrance, Support, and Community Outreach Act"
+  },
+  "id": "HR 309",
+  "log": {
+    "action": {
+      "description": "Reported (Amended) by the Committee on Natural Resources. H. Rept. 119-757.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-20T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr309.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/309"
+        }
+      ]
+    },
+    "bill_id": "HR 309"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR309/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR309/logs/20260820T040000Z_reported_amended_by_the_committee_on_natural_resources_h_rept_119757.json"
+  },
+  "timestamp": "20260820T040000Z",
+  "posted_text": "👮 US HR 309 — Congress Wants to Boost the Museum Honoring Fallen Officers\n\nThe National Law Enforcement Officers Remembrance, Support, and Community Outreach Act would allow the Department of the Interior to provide grants to the National Law Enforcement Museum.\n\nSpecifically, the museum would receive funding to operate and improve its programs focused on honoring officers who die in the line of duty, educating the public about law enforcement’s role, and promoting officer safety and wellness.\n\nThe bill also recognizes the ongoing challenges facing law enforcement, including rising resignations and staffing shortages, highlighting the need for increased public support and understanding of the vital work law enforcement officers do.\n\nAug. 20, 2026: Reported (Amended) by the Committee on Natural Resources. H. Rept. 119-757.\n\n🔗 Read the full bill: https://www.congress.gov/bill/119th-congress/house-bill/309\n\n#CriminalJusticePolicing #USCongress #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-bill/309",
+  "posted_url": "https://www.instagram.com/p/DcuVr5pCbzm/"
+}
