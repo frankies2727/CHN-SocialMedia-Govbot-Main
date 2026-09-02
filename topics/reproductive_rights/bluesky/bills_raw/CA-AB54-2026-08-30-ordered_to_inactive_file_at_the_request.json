@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law sets forth provisions, under the California Constitution, regarding the fundamental right to choose to have an abortion. Existing law, the Reproductive Privacy Act, prohibits the state from denying or interfering with a pregnant person's right to choose or obtain an abortion prior to viability of the fetus, or when the abortion is necessary to protect the life or health of the pregnant person.\n\nThis bill, the Access to Safe Abortion Care Act, would make legislative findings about medication abortion, with a focus on use of the drugs mifepristone and misoprostol. Under the bill, the Legislature would reaffirm that it has been, and would continue to be, lawful to cause the delivery of, or mail, ship, take, receive, or otherwise transport, any drug, medicine, or instrument that can be designed or adapted to produce an abortion that is lawful in the State of California.\n\n The bill would set forth provisions regarding the lack of civil or criminal liability, or professional disciplinary action, for accessing or administering brand name or generic mifepristone or any drug used for medication abortion that is lawful under the laws of the state, on or after January 1, 2020, with this provision applied retroactively, as specified.\n\nThe bill would make its provisions severable.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB54",
+    "legislative_session": "20252026",
+    "subject": [
+      "AccesstoSafeAbortionCareAct"
+    ],
+    "title": "Access to Safe Abortion Care Act."
+  },
+  "id": "AB54",
+  "log": {
+    "action": {
+      "description": "Ordered to inactive file at the request of Senator McNerney.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-30",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB54"
+        }
+      ]
+    },
+    "bill_id": "AB54"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB54/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB54/logs/20260830T000000Z_ordered_to_inactive_file_at_the_request_of_senator_mcnerney.json"
+  },
+  "timestamp": "20260830T000000Z"
+}
