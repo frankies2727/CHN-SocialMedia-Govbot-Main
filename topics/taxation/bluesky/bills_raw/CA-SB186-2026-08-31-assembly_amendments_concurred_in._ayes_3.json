@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "(1) The Personal Income Tax Law and the Corporation Tax Law authorize various credits against the taxes imposed by those laws, including various motion picture credits, commonly referred to as motion picture credit 1.0, 2.0, 3.0, and 4.0, and the certified studio credit, to be allocated by the California Film Commission in differing amounts equal to specified percentages of the qualified expenditures of a qualified motion picture in this state. Existing law allows those credits to be sold if they are allocated to independent films, as defined. Existing law allows those credits to be carried forward for 9 years in the case that the credit exceeds the tax owed, as provided. Existing law allows a qualified taxpayer to elect to be paid a refund equal to 90% of the total refundable amount, as specified, over a period of 5 years if the amount allowable as a credit under motion picture credit 4.0 exceeds the qualified taxpayer's tax liability for the taxable year, and allows the excess to be carried over, as specified. Existing law allows these refunds from the Tax Relief and Refund Account, which is a continuously appropriated fund. \n\nThis bill would expand the carry forward provisions of motion picture credit 2.0 and 3.0 to 15 years. The bill would require the qualified taxpayer, or a related company, as specified, to be an active participant, as defined, to carry the credit forward for any of the 10th through the 15th years, inclusive. The bill would also increase the total refundable amount under motion picture credit 4.0 from 90% to 95%, and would make the refund payable over 2 years instead of over 5 years. By increasing the amounts refunded from a continuously appropriated fund, the bill would make an appropriation. \n\n(2) Existing law, for taxable years beginning on or after January 1, 2024, and before January 1, 2030, limits the total tax reduction by all business credits, as defined, to $5,000,000 per taxable year, except as specified. Existing law, for taxable years beginning on or after January 1, 2030, similarly applies a business credit limit of 70% of the total taxes imposed or $5,000,000, whichever is greater, except as specified. \n\nThis bill would, for taxable years beginning on or after January 1, 2027, exempt credits that have been sold from the business credit limit described above.\n\n(3) This bill would make legislative findings and declarations related to a gift of public funds.\n\n(4) This bill would declare that it is to take effect immediately as a bill providing for appropriations related to the Budget Bill.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB186",
+    "legislative_session": "20252026",
+    "subject": [
+      "Incometaxes",
+      "filmtaxcredits"
+    ],
+    "title": "Income taxes: film tax credits."
+  },
+  "id": "SB186",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "description": "Assembly amendments concurred in. (Ayes 32. Noes 7.) Ordered to engrossing and enrolling.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-31",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB186"
+        }
+      ]
+    },
+    "bill_id": "SB186"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB186/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB186/logs/20260831T000000Z_assembly_amendments_concurred_in_ayes_32_noes_7_ordered_to_engrossing_and_enrolling.json"
+  },
+  "timestamp": "20260831T000000Z"
+}

@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "PC1409",
+    "legislative_session": "2025-2028",
+    "title": "Para enmendar los Artículos 1, 2, 3, 4 y 5 de la Ley Núm. 51 de 29 de mayo de 1970, según enmendada, conocida como “Ley de Animales de Asistencia para Personas con Impedimentos”; y añadir nuevos Artículos 6, 7, 8, 9 y 10 a dicha Ley; a los fines de actualizar y fortalecer los derechos de acceso de las personas con impedimento que utilizan animales de asistencia; armonizar sus disposiciones con los estándares federales aplicables, incluyendo la Americans with Disabilities Act (ADA); eliminar la exigencia de tarjeta, documento, chapa, registro u otro comprobante como condición de acceso; ampliar el ámbito de protección para incluir transportación mediante plataformas digitales, lugar de empleo e instituciones educativas; establecer derechos específicos de vivienda para personas con impedimento que utilizan animales de asistencia; establecer un mecanismo de querellas, fiscalización, multas y sanciones disuasivas; designar las agencias responsables de hacer cumplir la Ley; disponer capacitación periódica al personal que interactúa con el público; aclarar que nada en esta Ley menoscaba los derechos reconocidos bajo la Fair Housing Act, la Sección 504 y otras leyes federales especiales; y para otros fines relacionados."
+  },
+  "id": "PC1409",
+  "log": {
+    "action": {
+      "classifications": [
+        "reading-1"
+      ],
+      "description": "Aparece en Primera Lectura de la Cámara",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-01T04:00:00+00:00",
+      "session_id": "2025-2028",
+      "sources": [
+        {
+          "url": "https://sutra.oslpr.org/medidas/162044"
+        }
+      ]
+    },
+    "bill_id": "PC1409"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PC1409/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PC1409/logs/20260901T040000Z_aparece_en_primera_lectura_de_la_cámara.json"
+  },
+  "timestamp": "20260901T040000Z"
+}

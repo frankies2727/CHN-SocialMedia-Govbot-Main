@@ -1,0 +1,48 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Mr. Collins, a petition (accompanied by bill, Senate, No. 3017) of Nick Collins (with the approval of the mayor and city council) for legislation to direct the city of Boston police department to waive the maximum age requirement for police officers for Elijah George Osborne.  Public Service.  [Local approval received.]",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S3017",
+    "legislative_session": "194th",
+    "title": "An Act directing the city of Boston police department to waive the maximum age requirement for police officers for Elijah George Osborne"
+  },
+  "id": "S3017",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Read; and referred to the committee on House Steering, Policy and Scheduling",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-06",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "the committee on House Steering, Policy and Scheduling"
+        },
+        {
+          "entity_type": "organization",
+          "name": "committee on House Steering, Policy and Scheduling"
+        }
+      ],
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/S3017"
+        }
+      ]
+    },
+    "bill_id": "S3017"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/S3017/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/S3017/logs/20260806T000000Z_read_and_referred_to_the_committee_on_house_steering_policy_and_scheduling.json"
+  },
+  "timestamp": "20260806T000000Z"
+}
