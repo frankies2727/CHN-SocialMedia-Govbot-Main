@@ -1,0 +1,42 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act clarifies portions of Chapter 84 of Title 21 of the Delaware Code pertaining to new recreational vehicle, vessel, or new recreational trailer manufacturer-dealer agreements. The Act includes the following provisions:\r\n\r\nDefinitions.\r\nThe Act amends § 8401 of Title 21 and clarifies the definitions of \"new recreational trailer\" and \"new recreational vehicle\" and adds definitions of \"all-terrain vehicle,\" \"off-highway vehicle,\" \"side-by-side vehicle,\" and \"vessel.\"\r\n\r\nWritten agreements.\r\nManufacturers are required to specify in writing to their new recreational vehicle dealers licensed in the state the dealers' obligations for pre-delivery preparation, manufacturer-sponsored maintenance programs, manufacturer extended warranty, certified pre-owned warranty, manufacturer-issued service contracts, parts exchange programs, recall, and warranted service on the dealers' products. In addition, manufacturers must compensate their new recreational vehicle dealers for these services and provide the dealers with a schedule of compensation and the time allowances for the performance of the work and services.\r\n\r\nTermination, cancellation, nonrenewal, or alteration of a dealership.\r\nIn the event a new recreational vehicle dealer terminates, cancels, or fails to renew a manufacturer-dealer agreement for good cause, and the manufacturer fails to cure the deficiencies, at the new recreational vehicle dealer's election and within 45 days of the termination, cancellation, or nonrenewal, the manufacturer must, in addition to its existing obligations, compensate the dealer for any transporting, handling, packing, storing, and loading of any returned parts, tools, and equipment.\r\n\r\nWarranty obligations.\r\nWith respect to parts reimbursement, reasonable compensation to a new recreational vehicle dealer may not be less than the rate charged by the dealer for like services to nonwarranty customers for nonwarranty parts, service, or actual wholesale cost, plus a minimum 40% handling and the cost of any freight to return the warranty parts to the warrantor. A new recreational vehicle dealer must notify the warrantor within 180 days if it is unable to perform any warranty repairs.\r\n\r\nIn addition, a schedule of compensation for warranty services must include reasonable compensation for diagnostic work, parts, repair service, and labor. Time allowances for the diagnosis and performance of warranty work and services must be reasonable and adequate. With respect to manufacturer-sponsored maintenance programs, manufacturer extended warranty, certified pre-owned warranty, manufacturer-issued service contracts, parts exchange programs, recall and warranty parts, and labor reimbursement, reasonable compensation may not be less than the rate charged by the dealer for like service to non-warranty customers for nonwarranty parts, services, and repairs. If a manufacturer furnishes a part of a component to a dealer at no or a reduced cost, the manufacturer must compensate the dealer in the same manner as warranty parts compensation, less the dealer cost for the part or component as listed in the manufacturer's price schedule.\r\n\r\nAssociation standing. \r\nAn association that has at least 4 recreational vehicle dealers as members, substantially all of whom are new recreational vehicle dealers within the State, and that represents the collective interests of its members, has standing to file a petition or civil action against a manufacturer regulated under this chapter for itself or on behalf of any or all of its members. Such an association also has standing to intervene in an action against a manufacturer regulated under this chapter previously filed by an individual member or members of the association to enforce the provisions of this chapter. \r\n\r\nThis Act also makes technical corrections to conform existing law to the standards of the Delaware Legislative Drafting Manual.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 286",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 21 OF THE DELAWARE CODE RELATING TO COMMERCE AND TRADE."
+  },
+  "id": "SB 286",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-08-20",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143129"
+        }
+      ]
+    },
+    "bill_id": "SB 286"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB286/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB286/logs/20260820T000000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260820T000000Z",
+  "posted_text": "🚆 Transportation\nDE SB 286 — Delaware Changes Rules for RV Dealer Part Repairs\n\nWhen you buy a new recreational vehicle, you could get your money back. Delaware is clarifying how new RV dealers can repurchase vehicles within 12 months of a dealer agreement ending, if the vehicle hasn't been used, altered, or damaged. ...\n...",
+  "posted_link": "https://legis.delaware.gov/BillDetail?LegislationId=143129",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DcxKwmFFdKR"
+}
