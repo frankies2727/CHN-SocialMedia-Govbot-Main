@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SF 3887",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Commerce and Commerce Department",
+      "Government-Local",
+      "Insurance-Health"
+    ],
+    "title": "Watershed districts, watershed management organizations, and towns permission to self-insure for certain employee health benefits"
+  },
+  "id": "SF 3887",
+  "log": {
+    "action": {
+      "description": "Effective date 08/01/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-01",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/3887?list=open&body=Senate"
+        }
+      ]
+    },
+    "bill_id": "SF 3887"
+  },
+  "sources": {
+    "bill": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF3887/metadata.json",
+    "log": "mn-legislation/country:us/state:mn/sessions/2025-2026/bills/SF3887/logs/20260801T000000Z_effective_date_08012026.json"
+  },
+  "timestamp": "20260801T000000Z",
+  "posted_text": "💧 MN SF 3887 — Local Governments Could Now Self-Insure for Employee Health Benefits\n\nMinnesota local governments – including watershed districts and towns – could soon have more options for employee health coverage.\n\nThis bill would allow these entities with over 100 employees to establish self-insurance plans for benefits like long-term disability, but not life insurance.\n\nThe plans would need to meet state Department of Commerce standards and be certified before implementation.\n\nImportantly, the bill also outlines a process for consulting with exclusive employee representatives if a local government considers dissolving a self-insurance trust fund, ensuring continued coverage for employees.\n\nThis change would primarily affect local government employees and the agencies that provide them with health benefits.\n\nAug. 1, 2026: Effective date.\n\n🔗 Read the full bill: https://www.revisor.mn.gov/bills/bill.php?b=Senate&f=SF3887&ssn=0&y=2025\n\n#EnvironmentClimate #Minnesota #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.revisor.mn.gov/bills/bill.php?b=Senate&f=SF3887&ssn=0&y=2025",
+  "posted_url": "https://www.instagram.com/p/DczHcFpnTJT/"
+}

@@ -1,0 +1,48 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "By Representative Decker of Cambridge, a petition (accompanied by bill, House, No. 213) of Marjorie C. Decker relative to ensuring access to behavioral health services for children involved with state agencies.  Children, Families and Persons with Disabilities.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "H213",
+    "legislative_session": "194th",
+    "title": "An Act ensuring access to behavioral health services for children involved with state agencies"
+  },
+  "id": "H213",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage-favorable",
+        "referral-committee"
+      ],
+      "description": "Bill reported favorably by committee and referred to the committees on Rules of the two branches, acting concurrently",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-06",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "the committees on Rules of the two branches, acting concurrently"
+        }
+      ],
+      "session_id": "194th",
+      "sources": [
+        {
+          "url": "https://malegislature.gov/Bills/194/H213"
+        }
+      ]
+    },
+    "bill_id": "H213"
+  },
+  "sources": {
+    "bill": "ma-legislation/country:us/state:ma/sessions/194th/bills/H213/metadata.json",
+    "log": "ma-legislation/country:us/state:ma/sessions/194th/bills/H213/logs/20260806T000000Z_bill_reported_favorably_by_committee_and_referred_to_the_committees_on_rules_of_the_two_branches_act.json"
+  },
+  "timestamp": "20260806T000000Z",
+  "posted_text": "🧠 MA H213 — Kids in State Care Need More Mental Health Support\n\nMassachusetts is working to make sure children involved with state agencies get the behavioral health services they need.\n\nThis bill changes how the Department of Mental Health operates, requiring them to take responsibility for specialized mental health services for these kids, including inpatient care, mobile crisis support, and youth crisis stabilization.\n\nThe bill also directs the Department of Public Health and Mental Health to develop a model emergency response plan for congregate care settings, outlining clear protocols for crisis intervention and staff training, including de-escalation strategies and culturally competent care.\n\nFurthermore, it mandates data collection on readmission denials by foster care programs and requires the Department of Children and Families to create a comprehensive plan to expand access to behavioral health services for children in their care.\n\nAug. 6, 2026: Bill reported favorably by committee and referred to the committees on Rules of the two branches, acting concurrently.\n\n🔗 Read the full bill: https://malegislature.gov/Bills/194/H213\n\n#Healthcare #Massachusetts #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://malegislature.gov/Bills/194/H213",
+  "posted_url": "https://www.instagram.com/p/DczIdeAHSWJ/"
+}

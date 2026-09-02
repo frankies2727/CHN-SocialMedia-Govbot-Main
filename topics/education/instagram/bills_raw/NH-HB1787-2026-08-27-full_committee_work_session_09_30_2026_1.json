@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB1787",
+    "legislative_session": "2026",
+    "title": "modifying the statewide education property tax."
+  },
+  "id": "HB1787",
+  "log": {
+    "action": {
+      "description": "Full Committee Work Session: 09/30/2026 10:00 am GP 234",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-27",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=2284&inflect=2"
+        }
+      ]
+    },
+    "bill_id": "HB1787"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB1787/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB1787/logs/20260827T000000Z_full_committee_work_session_09302026_1000_am_gp_234.json"
+  },
+  "timestamp": "20260827T000000Z",
+  "posted_text": "🎓 NH HB1787 — NH Changes How School Funding Works\n\nNew Hampshire is adjusting how state money supports public schools.\n\nStarting July 1, 2027, the state will collect and send all statewide education property tax revenue to the state treasurer for deposit into the Education Trust Fund.\n\nThe Department of Revenue Administration will then distribute this money to municipalities, based on a set rate, to cover education grants and homeowners property tax relief.\n\nThe rate will increase annually, and the commissioner will set it to the nearest half-cent needed to meet the revenue goal.\n\nAdditionally, a new committee will study the low- and moderate-income homeowners property tax relief program, and the Department of Education will determine education grants based on a municipality’s adequacy, extraordinary need, and fiscal capacity disparity aid.\n\nThe maximum tax relief available to any individual claimant will not exceed $1,100 annually.\n\nAug. 27, 2026: Full Committee Work Session: 09/30/2026 10:00 am GP 234.\n\n🔗 Read the full bill: https://gc.nh.gov/bill_Status/billinfo.aspx?id=2284&inflect=2\n\n#Education #NewHampshire #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=2284&inflect=2",
+  "posted_url": "https://www.instagram.com/p/DczGIeOnXn3/"
+}
