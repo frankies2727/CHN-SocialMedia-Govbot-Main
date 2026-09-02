@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law describes the California Interscholastic Federation (CIF) as a voluntary organization that consists of school and school-related personnel with responsibility for administering interscholastic athletic activities in secondary schools, and sets forth the Legislature's intent regarding the CIF's implementation of certain policies. Existing law requires the CIF, in consultation with the State Department of Education, to develop guidelines, procedures, and safety standards for the prevention and management of exertional heat illness.\n\nThis bill would require, on or before July 1, 2027, and annually thereafter, the CIF to review and update as necessary the guidelines, procedures, and safety standards, with special consideration for regions of the state with higher average temperatures.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2503",
+    "legislative_session": "20252026",
+    "subject": [
+      "CaliforniaInterscholasticFederation",
+      "guidelines",
+      "heatillness",
+      "pupilhealth"
+    ],
+    "title": "California Interscholastic Federation: pupil health: heat illness: guidelines."
+  },
+  "id": "AB2503",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-08-31",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2503"
+        }
+      ]
+    },
+    "bill_id": "AB2503"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2503/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2503/logs/20260831T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260831T000000Z"
+}

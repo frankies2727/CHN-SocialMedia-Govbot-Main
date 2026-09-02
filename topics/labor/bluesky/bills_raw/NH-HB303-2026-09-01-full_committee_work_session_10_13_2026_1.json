@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB303",
+    "legislative_session": "2026",
+    "title": "relative to requiring the department of labor review and adopt workers' occupational safety requirements that are similar to OSHA standards."
+  },
+  "id": "HB303",
+  "log": {
+    "action": {
+      "description": "Full Committee Work Session: 10/13/2026 10:00 am GP 229",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-01",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/advanced.aspx"
+        }
+      ]
+    },
+    "bill_id": "HB303"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB303/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB303/logs/20260901T000000Z_full_committee_work_session_10132026_1000_am_gp_229.json"
+  },
+  "timestamp": "20260901T000000Z"
+}
