@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB2026",
+    "legislative_session": "2026",
+    "title": "relative to the state 10-year transportation improvement plan; relative to toll rate adjustments and periodic toll reviews for the New Hampshire turnpike system to support the 2027-2036 ten-year transportation plan; and relative to reconstruction of the Gregg Mill Road Bridge in the town of New Boston."
+  },
+  "id": "HB2026",
+  "log": {
+    "action": {
+      "description": "Enacted in accordance with Article 44 PartII of the N.H. Constitution without the signature of the governor. Chapter 343;I. sec 4 eff 12/1/26  II. Sec 3 & 5 eff 1/1/27  III. Rem eff 8/19/26",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-21",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=2465&inflect=2"
+        }
+      ]
+    },
+    "bill_id": "HB2026"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB2026/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB2026/logs/20260821T000000Z_enacted_in_accordance_with_article_44_partii_of_the_nh_constitution_without_the_signature_of_the_gov.json"
+  },
+  "timestamp": "20260821T000000Z"
+}

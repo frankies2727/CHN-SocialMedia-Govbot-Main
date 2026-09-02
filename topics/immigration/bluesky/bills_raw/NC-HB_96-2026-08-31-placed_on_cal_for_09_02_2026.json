@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 96",
+    "legislative_session": "2025",
+    "subject": [
+      "AGRICULTURE; AGRICULTURE DEPT.; ANIMALS; AOC; BOARDS; COMMERCE; COURTS; CRIMES; DEBTOR & CREDITOR; DEEDS; DOMESTIC ANIMALS; EMERGENCY SERVICES; JUDICIAL DEPT.; LANDOWNERS; LAW ENFORCEMENT; LAW ENFORCEMENT OFFICERS; LIENS; LOCAL GOVERNMENT; PERSONNEL; PRESENTED; PROPERTY; PUBLIC; RATIFIED; REAL ESTATE; RETAILING; TRESPASSING; VETOED; LIABILITY; AGRICULTURE BOARD; ANIMAL WELFARE; LOCAL ORDINANCES"
+    ],
+    "title": "Expedited Removal of Unauthorized Persons."
+  },
+  "id": "HB 96",
+  "log": {
+    "action": {
+      "description": "Placed On Cal For 09/02/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-31",
+      "session_id": "2025",
+      "sources": [
+        {
+          "url": "https://www.ncleg.gov/BillLookUp/2025/H96"
+        }
+      ]
+    },
+    "bill_id": "HB 96"
+  },
+  "sources": {
+    "bill": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB96/metadata.json",
+    "log": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB96/logs/20260831T000000Z_placed_on_cal_for_09022026.json"
+  },
+  "timestamp": "20260831T000000Z"
+}
