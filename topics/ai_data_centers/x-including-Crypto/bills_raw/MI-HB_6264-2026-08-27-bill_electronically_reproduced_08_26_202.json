@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6264",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Businesses: other",
+      "Energy: other"
+    ],
+    "title": "Businesses: other; clean and renewable energy requirements for data centers; provide for."
+  },
+  "id": "HB 6264",
+  "log": {
+    "action": {
+      "description": "bill electronically reproduced 08/26/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-27",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6264"
+        }
+      ]
+    },
+    "bill_id": "HB 6264"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6264/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6264/logs/20260827T000000Z_bill_electronically_reproduced_08262026.json"
+  },
+  "timestamp": "20260827T000000Z",
+  "posted_text": "🏢 MI HB 6264 — Data Centers Face New Energy Rules in Michigan\n\nMichigan is setting new standards for data centers, requiring all facilities to use 100% clean or renewable energy by 2040. This means data center owners and operators must secure energy through methods like on-site generation, power purchase agreements, or approved contracts, with the Michigan Public Service Commission overseeing these efforts. Failure to comply could result in civil fines of up to $10,000 per day. ...\n...",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6264",
+  "posted_url": "https://x.com/i/web/status/2095566451658592611"
+}
