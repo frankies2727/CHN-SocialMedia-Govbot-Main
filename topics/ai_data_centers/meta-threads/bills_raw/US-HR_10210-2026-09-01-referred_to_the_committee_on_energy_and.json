@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10210",
+    "legislative_session": "119",
+    "title": "Doctors Not AI Act of 2026"
+  },
+  "id": "HR 10210",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Ways and Means, and Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-01T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10210.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10210"
+        }
+      ]
+    },
+    "bill_id": "HR 10210"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10210/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10210/logs/20260901T040000Z_referred_to_the_committee_on_energy_and_commerce_and_in_addition_to_the_committees_on_ways_and_means.json"
+  },
+  "timestamp": "20260901T040000Z",
+  "posted_text": "⚖️ AI, Data Centers & Crypto\nUS HR 10210 — Doctors Decide: AI Won't Rule Your Health Coverage\n\nThis bill sets a clear line: artificial intelligence can't make the final call on your health insurance claims. It defines ‘artificial intelligence system’ to include things like algorithms and predictive models, and it mandates that any adverse benefit determination – whether it’s about coverage for a treatment or service – must be made by a licensed healthcare professional. ...\n...",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-bill/10210",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/Dc2QQ3mgDsw"
+}

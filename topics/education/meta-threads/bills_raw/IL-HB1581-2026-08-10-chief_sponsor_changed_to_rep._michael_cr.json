@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB1581",
+    "legislative_session": "104th",
+    "title": "EQUITABLE UNIVERSITY FUNDING"
+  },
+  "id": "HB1581",
+  "log": {
+    "action": {
+      "description": "Chief Sponsor Changed to Rep. Michael Crawford",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-10",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=1581&GAID=18&DocTypeID=HB&LegId=157693&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "HB1581"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/HB1581/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/HB1581/logs/20260810T000000Z_chief_sponsor_changed_to_rep_michael_crawford.json"
+  },
+  "timestamp": "20260810T000000Z",
+  "posted_text": "🎓 Education\nIL HB1581 — Illinois Could Shift Millions to Public Universities\n\nIllinois universities could get a boost under this bill. It aims to fix historic funding gaps that leave underserved students behind, particularly at schools like Chicago State University and Eastern Illinois University. The bill would create a ‘dollar gap formula’ to distribute funds based on each university’s need, with adjustments for things like lab space and medical programs. ...\n...",
+  "posted_link": "https://ilga.gov/Legislation/BillStatus?DocNum=1581&GAID=18&DocTypeID=HB&LegId=157693&SessionID=114",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/Dc2SQrcgPbj"
+}
