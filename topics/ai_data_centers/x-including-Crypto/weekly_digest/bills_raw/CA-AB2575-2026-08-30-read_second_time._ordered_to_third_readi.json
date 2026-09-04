@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law charges the Labor Commissioner with enforcement of various labor laws, including investigation of employee complaints.\n\nThis bill would declare it is the policy of the state that a worker providing direct patient care be free to use their professional judgment to make assessments and decisions within their scope of practice as appropriate for their patients. The bill would prohibit an employer from retaliating or discriminating against a worker providing patient care, as specified. The bill would authorize a worker who is subject to retaliation or discrimination in violation of these provisions to file a complaint with the Labor Commissioner against an employer. The bill would require the Labor Commissioner to enforce these provisions, as specified.\n\nExisting law provides that everyone is responsible not only for the result of their willful acts, but also for an injury occasioned to another by their want of ordinary care or skill in the management of their property or person. Existing law prohibits a defendant who developed, modified, or used artificial intelligence, as defined, from asserting a defense that the artificial intelligence autonomously caused the harm to the plaintiff.\n\nThis bill would prohibit a defendant who developed, modified, selected, or deployed a clinical decision support system that is alleged to have harmed the plaintiff from asserting a defense that the failure of a licensed health care professional or other health care worker to override an output of the clinical decision support system is a superseding cause severing the defendant's liability for the alleged harm.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2575",
+    "legislative_session": "20252026",
+    "subject": [
+      "Healthcareservices",
+      "artificialintelligence"
+    ],
+    "title": "Health care services: artificial intelligence."
+  },
+  "id": "AB2575",
+  "log": {
+    "action": {
+      "classifications": [
+        "reading-1",
+        "reading-2",
+        "reading-3"
+      ],
+      "description": "Read second time. Ordered to third reading.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-30",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2575"
+        }
+      ]
+    },
+    "bill_id": "AB2575"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2575/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2575/logs/20260830T000000Z_read_second_time_ordered_to_third_reading.json"
+  },
+  "timestamp": "20260830T000000Z"
+}

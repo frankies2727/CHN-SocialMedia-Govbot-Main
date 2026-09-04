@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "The California Fair Employment and Housing Act establishes the Civil Rights Department within the Business, Consumer Services, and Housing Agency and requires the department to, among other things, bring civil actions to enforce the act.\n\nExisting law requires, on or before September 1, 2024, the Department of Technology to conduct, in coordination with other interagency bodies as it deems appropriate, a comprehensive inventory of all high-risk automated decision systems that have been proposed for use, development, or procurement by, or are being used, developed, or procured by, any state agency.\n\nThis bill would generally regulate the development and deployment of an automated decision system (ADS) used to make consequential decisions, as defined. The bill would define \"automated decision system\" to mean a computational process derived from machine learning, statistical modeling, data analytics, or artificial intelligence that issues simplified output, including a score, classification, or recommendation, that is designed or used to assist or replace human discretionary decisionmaking and materially impacts natural persons.\n\nThis bill would require a developer of a covered ADS, as defined, to take certain actions, including providing a potential deployer instructions explaining how the covered ADS should be used by the deployer to make or facilitate a consequential decision.\n\nThis bill would require a deployer of a covered ADS to take certain actions, including provide certain disclosures to a subject of a consequential decision made or facilitated by the covered ADS that results in an adverse outcome, as defined, and provide the subject with an opportunity to appeal the outcome of the consequential decision, as prescribed.\n\nThis bill would authorize the Attorney General to bring a specified civil action for noncompliance.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1018",
+    "legislative_session": "20252026",
+    "subject": [
+      "Automateddecisionsystems"
+    ],
+    "title": "Automated decision systems."
+  },
+  "id": "AB1018",
+  "log": {
+    "action": {
+      "classifications": [
+        "reading-1",
+        "reading-2",
+        "reading-3"
+      ],
+      "description": "Read second time. Ordered to third reading.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-30",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1018"
+        }
+      ]
+    },
+    "bill_id": "AB1018"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1018/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1018/logs/20260830T000000Z_read_second_time_ordered_to_third_reading.json"
+  },
+  "timestamp": "20260830T000000Z"
+}

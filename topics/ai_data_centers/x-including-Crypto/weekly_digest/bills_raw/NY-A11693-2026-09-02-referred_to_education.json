@@ -1,0 +1,49 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Provides that each school district, charter school, and board of cooperative educational services shall adopt and implement a written policy governing the use of humanoid robots in schools and that such policy shall prohibit the use of an artificial intelligence-enabled humanoid robot in an instructional capacity; defines terms."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A11693",
+    "legislative_session": "2025-2026",
+    "title": "Relates to humanoid robots and artificial intelligence avatars in instructional settings"
+  },
+  "id": "A11693",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "REFERRED TO EDUCATION",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-02",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "EDUCATION"
+        }
+      ],
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11693?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/A11693"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=A11693&term=2025"
+        }
+      ]
+    },
+    "bill_id": "A11693"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11693/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11693/logs/20260902T000000Z_referred_to_education.json"
+  },
+  "timestamp": "20260902T000000Z"
+}

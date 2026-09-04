@@ -1,0 +1,23 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Relating to prohibiting agencies from entering nondisclosure agreements concerning data centers and industrial projects; to provide a penalty; to provide an effective date; and to provide an expiration date.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 2406",
+    "legislative_session": "69",
+    "title": "A BILL for an Act to create and enact chapter 44-04.1 of the North Dakota Century Code, relating to prohibiting agencies from entering nondisclosure agreements concerning data centers and industrial projects; to provide a penalty; to provide an effective date; and to provide an expiration date."
+  },
+  "id": "SB 2406",
+  "log": {
+    "bill_id": "SB 2406"
+  },
+  "sources": {
+    "bill": "nd-legislation/country:us/state:nd/sessions/69/bills/SB2406/metadata.json",
+    "log": "nd-legislation/country:us/state:nd/sessions/69/bills/SB2406/logs/20260903T171000Z_vote_event_fail.json"
+  },
+  "timestamp": "20260903T171000Z"
+}
