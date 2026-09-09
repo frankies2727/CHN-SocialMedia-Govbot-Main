@@ -1,0 +1,49 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Requires the office of renewable energy siting and electric transmission function in line with the state's commitment to environmental conservation including but not limited to the state's thirty by thirty conservation goal, open space conservation plan, and forest preserves."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A11687",
+    "legislative_session": "2025-2026",
+    "title": "Requires the office of renewable energy siting and electric transmission function in line with the state's commitment to environmental conservation"
+  },
+  "id": "A11687",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "REFERRED TO ENERGY",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-02",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "ENERGY"
+        }
+      ],
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11687?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/A11687"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=A11687&term=2025"
+        }
+      ]
+    },
+    "bill_id": "A11687"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11687/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11687/logs/20260902T000000Z_referred_to_energy.json"
+  },
+  "timestamp": "20260902T000000Z"
+}
