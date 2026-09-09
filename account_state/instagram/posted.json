@@ -5,6 +5,10 @@
     "AK|HB193|2026-07-22|(H) AM NO 8 FAILED Y17 N22 A1",
     "AK|HB79|2026-07-03",
     "AK|HB79|2026-07-03|(H) VETOED BY GOVERNOR 6/24/26",
+    "AK|SB86|2026-09-08",
+    "AK|SB86|2026-09-08|(H) FN(S) ATTACHED TO APPROP. BILL HB 26",
+    "AK|SB86|2026-09-08|(H) FN2: (CED)",
+    "AK|SB86|2026-09-08|(H) LEG FINANCE APPROPRIATION MESSAGE 9/",
     "CA|AB126|2026-07-09",
     "CA|AB126|2026-07-09|Approved by the Governor.",
     "CA|AB135|2026-06-26|From committee chair, with author's amen",
@@ -50,6 +54,10 @@
     "CA|SB135|2026-06-29|Withdrawn from committee pursuant to Ass",
     "CA|SB135|2026-07-13",
     "CA|SB135|2026-07-13|Approved by the Governor.",
+    "CA|SB1392|2026-08-31",
+    "CA|SB1392|2026-08-31|",
+    "CA|SB1392|2026-08-31|Assembly amendments concurred in. (Ayes ",
+    "CA|SB1392|2026-08-31|In Senate. Concurrence in Assembly amend",
     "CA|SB171|2026-06-30|Enrolled and presented to the Governor a",
     "CA|SB574|2026-07-06",
     "CA|SB574|2026-07-06|From committee: Do pass and re-refer to ",
@@ -112,6 +120,8 @@
     "GA|SB 552|2026-07-01|Effective Date",
     "IA|HF 2788|2026-04-29|Amendment H-8432 filed. H.J. 04/29.",
     "IA|HF 2788|2026-04-29|Amendment H-8433 filed. H.J. 04/29.",
+    "IL|HB3852|2026-08-17",
+    "IL|HB3852|2026-08-17|Added Co-Sponsor Rep. Scott Doody",
     "IL|HJRCA27|2026-07-01",
     "IL|HJRCA27|2026-07-01|Rule 19(b) / Re-referred to Rules Commit",
     "IL|SB2981|2026-08-14",
@@ -199,6 +209,9 @@
     "MI|SB 0616|2026-07-03|returned to Senate",
     "MI|SB 1050|2026-07-01",
     "MI|SB 1050|2026-07-01|SENATE CO-SPONSOR(S) NAMED: SEAN MCCANN",
+    "MI|SB 1141|2026-09-09",
+    "MI|SB 1141|2026-09-09|SENATE CO-SPONSOR(S) NAMED: MARY CAVANAG",
+    "MI|SB 1141|2026-09-09|SENATE CO-SPONSOR(S) NAMED: SEAN MCCANN",
     "MN|HF 3769|2026-08-01",
     "MN|HF 3769|2026-08-01|Effective date 08/01/2026",
     "MN|HF 4133|2027-01-01",
@@ -384,7 +397,6 @@
     "|HR 9368|2026-06-24|Ordered to be Reported (Amended) by the "
   ],
   "runs": {
-    "28447975676-1": 4,
     "28522715109-1": 4,
     "28593260569-1": 4,
     "28663360279-1": 4,
@@ -413,7 +425,8 @@
     "32999229710-1": 4,
     "33442218792-1": 4,
     "33673563904-1": 4,
-    "34158181974-1": 4
+    "34158181974-1": 4,
+    "34395179196-1": 4
   },
-  "last_run": "2026-09-07T21:25:29.456155+00:00"
+  "last_run": "2026-09-09T20:58:04.073669+00:00"
 }

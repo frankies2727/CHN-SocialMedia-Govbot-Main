@@ -1,0 +1,48 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes a motor vehicle inspection and maintenance (smog check) program that is administered by the Department of Consumer Affairs. The smog check program requires inspection of motor vehicles upon initial registration, biennially upon renewal of registration, upon transfer of ownership, and in certain other circumstances. Existing law requires all motor vehicles to biennially obtain a certificate of compliance or noncompliance, as provided. Existing law exempts specified vehicles from obtaining the certificate of compliance or noncompliance, including, among others, all motor vehicles manufactured before the 1976 model year. Existing law also exempts from a specified portion of the smog test, both biennially and at transfer, a collector motor vehicle that is insured as a collector motor vehicle, is at least 35 model years old, complies with the exhaust emissions standards for that motor vehicle's class and model year as prescribed by the department, and passes a functional inspection of the fuel cap and a visual inspection for liquid fuel leaks. Existing law defines collector motor vehicle for this purpose to mean a motor vehicle owned by a collector, as defined, used primarily in shows, parades, charitable functions, and historical exhibitions for display, maintenance, preservation, and not used primarily for transportation.\n\nThis bill would expand the definition of a collector motor vehicle to include a motor vehicle that is at least 35 model years old and complies with certain regulations that are required to be adopted by the Bureau of Automotive Repair, as specified. The bill would, beginning January 1, 2028, exempt specified collector motor vehicles manufactured before the 1981 model year from the requirement to obtain a certificate of compliance or noncompliance upon initial registration, biennially upon renewal of registration, or upon transfer of ownership. The bill would extend the applicability of this exemption by one model year each year until the final extension takes effect on and after January 1, 2033, that would exempt specified collector motor vehicles manufactured before the 1986 model year from the requirement to obtain the certificate of compliance or noncompliance. The bill would be known, and may be cited, as Jay Leno's Law.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1392",
+    "legislative_session": "20252026",
+    "subject": [
+      "Smogcheck",
+      "collectormotorvehicles",
+      "exemption"
+    ],
+    "title": "Smog check: exemption: collector motor vehicles."
+  },
+  "id": "SB1392",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "description": "Assembly amendments concurred in. (Ayes 30. Noes 4.) Ordered to engrossing and enrolling.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-31",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1392"
+        }
+      ]
+    },
+    "bill_id": "SB1392"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1392/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1392/logs/20260831T000000Z_assembly_amendments_concurred_in_ayes_30_noes_4_ordered_to_engrossing_and_enrolling.json"
+  },
+  "timestamp": "20260831T000000Z",
+  "posted_text": "🚗 CA SB1392 — California Could Let Older Cars Skip Smog Checks\n\nCalifornia is considering a change that would let older collector vehicles – those at least 35 model years old – avoid the state’s biennial smog check.\n\nThe bill would expand the definition of a ‘collector motor vehicle’ to include cars meeting specific age and emissions standards, as long as they’re insured or determined to be driven fewer than 1,000 miles per year.\n\nStarting in 2028, this exemption would extend to vehicles manufactured before 1986, potentially saving collectors money and hassle.\n\nAug. 31, 2026: Assembly amendments concurred in. (Ayes 30. Noes 4.) Ordered to engrossing and enrolling.\n\n🔗 Read the full bill: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1392\n\n#Transportation #California #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1392",
+  "posted_url": "https://www.instagram.com/p/DdFKKeIIO1q/"
+}

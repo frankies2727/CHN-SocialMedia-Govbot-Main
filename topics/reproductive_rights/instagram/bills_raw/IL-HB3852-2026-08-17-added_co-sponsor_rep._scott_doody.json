@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB3852",
+    "legislative_session": "104th",
+    "title": "PARTIAL BIRTH ABORTION BAN"
+  },
+  "id": "HB3852",
+  "log": {
+    "action": {
+      "description": "Added Co-Sponsor Rep. Scott Doody",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-17",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=3852&GAID=18&DocTypeID=HB&LegId=162744&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "HB3852"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/HB3852/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/HB3852/logs/20260817T000000Z_added_cosponsor_rep_scott_doody.json"
+  },
+  "timestamp": "20260817T000000Z",
+  "posted_text": "⚖️ IL HB3852 — Illinois Considers Ban on Partial Birth Abortion\n\nIllinois is taking a step to clarify its stance on abortion access.\n\nThis bill aims to prohibit ‘partial-birth abortion’ – a procedure critics describe as inhumane – by setting strict requirements for any such abortion, including needing a physician referral, ensuring a viable fetus isn’t involved, and prioritizing the mother’s health.\n\nThe bill draws on the federal Partial-Birth Abortion Ban Act, which was upheld by the Supreme Court in 2007, and cites evidence showing that partial-birth abortions pose significant risks to women’s health and that the procedure isn't medically necessary.\n\nIt also seeks to reinforce the distinction between abortion and infanticide, reflecting concerns about the potential for causing fetal pain.\n\nAug. 17, 2026: Added Co-Sponsor Rep. Scott Doody.\n\n🔗 Read the full bill: https://ilga.gov/Legislation/BillStatus?DocNum=3852&GAID=18&DocTypeID=HB&LegId=162744&SessionID=114\n\n#ReproductiveRights #Illinois #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://ilga.gov/Legislation/BillStatus?DocNum=3852&GAID=18&DocTypeID=HB&LegId=162744&SessionID=114",
+  "posted_url": "https://www.instagram.com/p/DdFIbhKoOF5/"
+}
