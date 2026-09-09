@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10297",
+    "legislative_session": "119",
+    "title": "To require the Secretary of Homeland Security to designate El Salvador for temporary protected status."
+  },
+  "id": "HR 10297",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on the Judiciary.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-03T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10297.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10297"
+        }
+      ]
+    },
+    "bill_id": "HR 10297"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10297/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10297/logs/20260903T040000Z_referred_to_the_house_committee_on_the_judiciary.json"
+  },
+  "timestamp": "20260903T040000Z"
+}

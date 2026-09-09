@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act requires the Department of Health and Social Services, in conjunction with the Department of Education, to develop or obtain informational materials concerning menstrual disorders to be provided upon request to school districts for purposes of educating students about menstrual disorders and their symptoms, and to ensure at least every 2 years the effectiveness of the information, that the information is up-to-date, and that any electronic links provided to access information and links contained therein are valid. The materials and information must be made available on a website maintained by the Department. Schools must, at a minimum, put posters containing the URL to the website maintained by the Department where the materials and information can be found, and may also distribute materials and information directly or provide students with flyers containing URLs, QR codes, or other links from which the students may access the information.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 223",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 16 OF THE DELAWARE CODE RELATING TO INFORMATIONAL MATERIALS CONCERNING MENSTRUAL DISORDERS."
+  },
+  "id": "HB 223",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-08-31",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=142599"
+        }
+      ]
+    },
+    "bill_id": "HB 223"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB223/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB223/logs/20260831T000000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260831T000000Z"
+}
