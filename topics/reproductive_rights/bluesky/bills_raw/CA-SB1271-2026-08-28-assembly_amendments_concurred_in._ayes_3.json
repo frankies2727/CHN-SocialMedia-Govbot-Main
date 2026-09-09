@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the Licensed Midwifery Practice Act of 1993, provides for the licensure of midwives by the Medical Board of California. Existing law requires specified boards, including the Medical Board of California, to request certain workforce data from their licensees, including midwives, for future workforce planning at least biennially or at the time of electronic license renewal, as applicable. Existing law establishes the Department of Health Care Access and Information, and requires the board to provide the individual licensee and registrant data it collects to the department, as specified.\n\nThis bill would additionally require the board to request certain information from a licensed midwife related to their availability to serve as a clinical preceptor for student midwives enrolled in a midwifery education program, as specified. The bill would require the board to quarterly provide that information to the department for the purpose of statewide midwifery workforce planning, analysis, and public reporting. The bill would require the department to submit a report to the Legislature, on or before June 30, 2029, detailing the department's findings based on that information. The bill would require the board and department to maintain the confidentiality of information collected or provided, as specified. The bill would make these provisions inoperative on June 30, 2029, and would repeal them as of January 1, 2030.\n\nExisting constitutional provisions require that a statute that limits the right of access to the meetings of public bodies or the writings of public officials and agencies be adopted with findings demonstrating the interest protected by the limitation and the need for protecting that interest.\n\nThis bill would make legislative findings to that effect.\n\nThis bill would incorporate additional changes to Section 502 of the Business and Professions Code proposed by AB 1811 to be operative only if this bill and AB 1811 are enacted and this bill is enacted last.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1271",
+    "legislative_session": "20252026",
+    "subject": [
+      "Midwifery",
+      "availabilitytobeaclinicalpreceptorship",
+      "workforcedata"
+    ],
+    "title": "Midwifery: workforce data: availability to be a clinical preceptorship."
+  },
+  "id": "SB1271",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "description": "Assembly amendments concurred in. (Ayes 39. Noes 0.) Ordered to engrossing and enrolling.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-28",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1271"
+        }
+      ]
+    },
+    "bill_id": "SB1271"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1271/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1271/logs/20260828T000000Z_assembly_amendments_concurred_in_ayes_39_noes_0_ordered_to_engrossing_and_enrolling.json"
+  },
+  "timestamp": "20260828T000000Z"
+}
