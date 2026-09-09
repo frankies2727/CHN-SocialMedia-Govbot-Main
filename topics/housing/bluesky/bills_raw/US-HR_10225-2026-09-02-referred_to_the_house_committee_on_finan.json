@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10225",
+    "legislative_session": "119",
+    "title": "No Federal Taxpayer-Funded Housing for Illegal Aliens Act of 2026"
+  },
+  "id": "HR 10225",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Financial Services.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-02T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10225.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10225"
+        }
+      ]
+    },
+    "bill_id": "HR 10225"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10225/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10225/logs/20260902T040000Z_referred_to_the_house_committee_on_financial_services.json"
+  },
+  "timestamp": "20260902T040000Z"
+}

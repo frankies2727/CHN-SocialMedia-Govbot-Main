@@ -1,0 +1,548 @@
+A BILL TO BE ENTITLED
+AN ACT TO ENACT THE NORTH CAROLINA UNIFORM ELECTRONIC WILLS ACT; TO
+MAKE UPDATES TO THE ELECTIVE SHARE STATUTES; TO UPDATE STATUTES
+RELATING TO TRUST ADMINISTRATION; AND TO MAKE REVISIONS TO THE
+YEAR'S ALLOWANCE STATUTES, AS RECOMMENDED BY THE ESTATE
+PLANNING AND FIDUCIARY LAW SECTION OF THE NORTH CAROLINA BAR
+ASSOCIATION.
+The General Assembly of North Carolina enacts:
+PART I. NC UNIFORM ELECTRONIC WILLS ACT
+SECTION 1.1. Chapter 31 of the General Statutes is amended by adding a new
+Article to read:
+"Article 11.
+"North Carolina Uniform Electronic Wills Act.
+"§ 31-71. Short title.
+This Article may be cited as the "North Carolina Uniform Electronic Wills Act."
+"§ 31-72. Definitions.
+In this Article, the following definitions apply:
+(1) Electronic. – Relating to technology having electrical, digital, magnetic,
+wireless, optical, electromagnetic, or similar capabilities.
+(2) Reserved for future codification purposes.
+(3) Electronic will. – A will executed electronically in compliance with
+G.S. 31-74(a) or an attested written will that has been stored in electronic form
+in compliance with G.S. 31-79.
+(4) Record. – Information that is inscribed on a tangible medium or that is stored
+in an electronic or other medium and is retrievable in perceivable form.
+(5) Sign. – With present intent to authenticate or adopt a record, to do either of
+the following:
+a. To execute or adopt a tangible symbol.
+b. To affix to or logically associate with the record an electronic symbol
+or process.
+(6) State. – Consists of the following:
+a. A state of the United States, the District of Columbia, Puerto Rico, the
+United States Virgin Islands, or any territory or insular possession
+subject to the jurisdiction of the United States.
+*DRH30184-MQ-88*
+
+General Assembly Of North Carolina Session 2025
+b. An Indian tribe or band or Alaskan native village that is recognized by
+federal law or formally acknowledged by an entity listed in
+sub-subdivision a. of this subdivision.
+"§ 31-73. Law applicable to electronic will; principles of equity.
+An electronic will is a will for all purposes of the law of this State. The law of this State
+applicable to wills and principles of equity applies to an electronic will, except as modified by
+this Article.
+"§ 31-74. Execution of electronic will.
+(a) An electronic will shall be executed in accordance with all of the following:
+(1) Recorded in electronic form and readable as text at the time of signing.
+(2) Signed by the testator.
+(3) Attested by at least two competent witnesses as provided by G.S. 31-3.3.
+(b) The validity of a will executed electronically but not in compliance with subsection
+(a) of this section is governed by G.S. 31-46.
+"§ 31-75. Revocation.
+(a) An electronic will may revoke all or part of a previous will.
+(b) All or part of an electronic will may be revoked in either of the following ways:
+(1) In the manner provided by G.S. 31-5.1(1).
+(2) By a physical act, if it is established by a preponderance of the evidence that
+the testator, with the intent of revoking all or part of the electronic will,
+performed the act or directed another individual who performed the act in the
+testator's physical presence.
+"§ 31-76. Electronic will attested and made self-proved at time of execution.
+(a) An electronic will may be self-proved by acknowledgment of the testator and
+affidavits of the witnesses as provided by G.S. 31-11.6, so long as the acknowledgment of the
+testator and the affidavits of the witnesses are made simultaneously with the execution of the
+electronic will.
+(b) A signature physically or electronically affixed to an acknowledgment or affidavit
+that is affixed to or logically associated with an electronic will is deemed a signature of the
+electronic will.
+"§ 31-77. Certification of paper copy.
+(a) An individual may create a certified paper copy of an electronic will by certifying that
+a paper copy of the electronic will is a complete, true, and accurate copy of the electronic will.
+The certification shall be in the form of an affidavit sworn to or affirmed before an officer
+authorized to administer oaths. If the electronic will is made self-proved, the certified paper copy
+of the will shall include the affidavits. The certified paper copy of the electronic will may be
+created at any time after the electronic will is executed.
+(b) A certified paper copy of an electronic will, but not the electronic will itself, may be
+probated under G.S. 28A-2A-8(a1).
+"§ 31-78. Uniformity of application and construction.
+In applying and construing this Article, consideration must be given to the need to promote
+uniformity of the law with respect to its subject matter among states that enact the Uniform
+Electronic Wills Act.
+"§ 31-79. Conversion of attested written will to electronic will.
+(a) At any time during the life of the testator, the testator, or another person at the
+testator's direction, may convert an attested written will to an electronic will by storing the
+attested written will as an electronic record. The electronic record shall include a certification,
+signed by the person who has converted the attested written will to an electronic will, in the form
+of an affidavit sworn to or affirmed before an officer authorized to administer oaths, that the
+electronic form of the attested written will is a complete, true, and accurate copy of the attested
+written will. If the person converting the attested written will to an electronic will is not the
+Page 2 DRH30184-MQ-88
+
+General Assembly Of North Carolina Session 2025
+testator, the certification shall also contain a statement that the testator expressly authorized the
+conversion of the attested written will to an electronic will.
+(b) If the attested written will is lost or destroyed after being converted to an electronic
+will, the loss or destruction shall not be deemed a revocation of the attested written will, nor shall
+it be deemed a presumption of revocation of the attested written will."
+SECTION 1.2. G.S. 28A-2A-8 reads as rewritten:
+"§ 28A-2A-8. Manner of probate of attested written will.will or certified paper copy of
+electronic will.
+(a) An attested written will, executed as provided by G.S. 31-3.3, may be probated in the
+following manner:any of the following ways:
+(1) Upon the testimony of at least two of the attesting witnesses; orwitnesses.
+(2) If the testimony of only one attesting witness is available, then with all of the
+following:
+a. Upon the The testimony of such witness, andthe witness.
+b. Upon proof Proof of the handwriting of at least one of the attesting
+witnesses who is dead or whose testimony is otherwise unavailable,
+andunavailable.
+c. Upon proof Proof of the handwriting of the testator, unless he the
+testator signed by his mark, andthe testator's mark.
+d. Upon proof Proof of such other circumstances as will that satisfy the
+clerk of the superior court as to the genuineness and due execution of
+the will; orwill.
+(3) If the testimony of none of the attesting witnesses is available, then with both
+of the following:
+a. Upon proof Proof of the handwriting of at least two of the attesting
+witnesses whose testimony is unavailable, andunavailable.
+b. Upon compliance Compliance with paragraphs sub-subdivisions c.
+and d. of subsection (a)(2) of this section; orsubdivision (a)(2) of this
+section.
+(4) Upon a showing that the will has been made self-proved in accordance with
+the provisions of G.S. 31-11.6.
+(a1) A certified paper copy of an electronic will created under G.S. 31-77(a) may be
+probated in any of the following ways:
+(1) Upon the testimony of at least two of the attesting witnesses.
+(2) If the testimony of only one attesting witness is available, then with both of
+the following:
+a. The testimony of the witness.
+b. Proof of other circumstances that satisfy the clerk of the superior court
+as to the genuineness and due execution of the will.
+(3) If the testimony of none of the attesting witnesses is available, then upon
+compliance with sub-subdivision b. of subdivision (2) of this subsection.
+(4) Upon a showing that the will has been made self-proved in accordance with
+G.S. 31-76.
+(b) Due execution of a will may be established, where if the evidence required by
+subsection (a) subsections (a) and (a1) of this section is unavoidably lacking or inadequate, by
+testimony of other competent witnesses as to the requisite facts.
+(c) The testimony of a witness is unavailable within the meaning of this section when the
+witness is dead, out of the State, not to be found within the State, incompetent, physically unable
+to testify testify, or refuses to testify."
+SECTION 1.3. G.S. 28A-2B-1 reads as rewritten:
+"§ 28A-2B-1. Establishment before death that a will or codicil is valid.
+DRH30184-MQ-88 Page 3
+
+General Assembly Of North Carolina Session 2025
+(a) Any petitioner who is a resident of North Carolina and who has executed a will or
+codicil may file a petition seeking a judicial declaration that the will or codicil is valid.
+(b) The petition shall be filed with the clerk of superior court and the matter shall proceed
+as a contested estate proceeding governed by Article 2 of Chapter 28A of the General Statutes.
+At the hearing before the clerk of superior court, the petitioner shall produce the original will or
+codicil or, if electronic, a certified paper copy of it and any other evidence necessary to establish
+that the will or codicil would be admitted to probate if the petitioner were deceased.
+If an interested party contests the validity of the will or codicil, that person shall file a written
+challenge to the will or codicil before the hearing or make an objection to the validity of the will
+or codicil at the hearing. Upon the filing of a challenge or the raising of an issue contesting the
+validity of the will or codicil, the clerk shall transfer the cause to the superior court. The matter
+shall be heard as if it were a caveat proceeding, and the court shall make a determination as to
+the validity of the will or codicil and enter judgment accordingly.
+If no interested party contests the validity of the will or codicil and if the clerk of superior
+court determines that the will or codicil would be admitted to probate if the petitioner were
+deceased, the clerk of superior court shall enter an order adjudging the will or codicil to be valid.
+(c) Failure to use the procedure authorized by this Article shall does not have any
+evidentiary or procedural effect on any future probate proceedings.
+(d) For purposes of this Article only, a "petitioner" is a person who requests a judicial
+declaration that confirms the validity of that person's will or codicil."
+SECTION 1.4. G.S. 28A-2B-3 reads as rewritten:
+"§ 28A-2B-3. Contents of petition for will validity.
+(a) Petition. – A petition requesting an order declaring that a petitioner's will or codicil is
+valid shall be verified and shall contain the following information:
+…
+(5) A statement identifying the petitioner, petitioner and all persons believed by
+the petitioner to have an interest in the proceeding, including, for any
+interested parties who are minors, information regarding the minor's
+appropriate representative.
+(b) The petitioner shall file a copy of the will or codicil with the petition and petition. At
+the hearing provided in G.S. 28A-2B-1(b), the petitioner shall tender the original will or codicil
+at the hearing as provided in G.S. 28A-2B-1(b). or, if electronic, a certified paper copy of it. If
+an order is entered declaring the will or codicil to be valid, the court shall affix a certificate of
+validity to the will or codicil."
+SECTION 1.5. G.S. 31-3.1 reads as rewritten:
+"§ 31-3.1. Will invalid unless statutory requirements complied with.
+No will is valid unless it complies with the requirements prescribed therefor by this Article.of
+this Chapter."
+SECTION 1.6. G.S. 31-3.2 reads as rewritten:
+"§ 31-3.2. Kinds of wills.
+(a) Personal property and real property may be devised by any of the following:
+(1) An attested written will which that complies with the requirements of G.S.
+31-3.3, orG.S. 31-3.3.
+(2) A holographic will which that complies with the requirements of G.S. 31-3.4.
+(3) An electronic will that complies with the requirements of G.S. 31-74(a).
+(b) Personal property may also be devised by a nuncupative will which that complies
+with the requirements of G.S. 31-3.5."
+SECTION 1.7. G.S. 31-11 reads as rewritten:
+"§ 31-11. Depositories in offices of clerks of superior court where living persons may file
+wills.
+Page 4 DRH30184-MQ-88
+
+General Assembly Of North Carolina Session 2025
+The clerk of the superior court in each county of North Carolina shall be required to keep a
+receptacle or depository in which any person who desires to do so may file that person's will for
+safekeeping; and the for safekeeping that person's original will or, if electronic, a certified paper
+copy of it. The clerk shall, upon written request of the testator, or the duly authorized agent or
+attorney for the testator, permit said the will or testament to be withdrawn from said the
+depository or receptacle at any time prior to the death of the testator: Provided, that the testator.
+The contents of said the will shall not be made public or open to the inspection of anyone other
+than the testator or the testator's duly authorized agent until such time as the said will shall be
+offered for probate.the death of the testator."
+SECTION 1.8. The Revisor of Statutes shall cause to be printed, as annotations to
+the published General Statutes, all relevant portions of the Official Comments to the Uniform
+Electronic Wills Act and all explanatory comments of the drafters of this act as the Revisor may
+deem appropriate.
+SECTION 1.9. This Part becomes effective January 1, 2026, and applies to
+electronic wills executed on or after that date, and it further applies to attested written wills
+converted to electronic wills on or after that date, regardless of the date of execution of the
+attested written will.
+PART II. UPDATES TO ELECTIVE SHARE STATUTES
+SECTION 2.1. G.S. 30-3.3A reads as rewritten:
+"§ 30-3.3A. Valuation of property.
+…
+(e) Partial or Contingent Interest Property. – The valuation of partial and contingent
+property interests, outright or in trust, which are limited to commence or terminate upon the death
+of one or more persons, upon the expiration of a period of time, or upon the occurrence of one or
+more contingencies, shall be determined by computations based upon the mortality and annuity
+tables set forth in G.S. 8-46 and G.S. 8-47, and by using a presumed rate of return of six percent
+(6%) of the value of the underlying property in which those interests are limited, unless upon
+good cause shown by one of the parties, the clerk determines that the use of such tables or rate
+of return is not appropriate, then the value of such interests shall be determined under subsection
+(f) of this section. However, in valuing partial and contingent interests passing to the surviving
+spouse, the following special rules apply:
+(1) The value of the beneficial interest of a spouse shall be the entire fair market
+value of any property held in trust if the decedent was the settlor of the trust,
+if the trust is held for the exclusive benefit of the surviving spouse during the
+surviving spouse's lifetime, and if the terms of the trust substantially meet the
+following requirements:requirements in form and content:
+a. During At all times during the lifetime of the surviving spouse, the
+trust is controlled by (i) one or more nonadverse trustees.trustees,
+including successor trustees, (ii) the surviving spouse as trustee, or (iii)
+one or more nonadverse trustees and the surviving spouse as
+co-trustees, including successor trustees.
+b. The trustee shall distribute to or for the benefit of the surviving spouse
+either (i) the entire net income of the trust at least annually or (ii) the
+income of the trust in such amounts and at such times as the trustee, in
+its discretion, determines necessary for the health, maintenance, and
+support of the surviving spouse.
+c. The trustee shall distribute to or for the benefit of the surviving spouse
+out of the principal of the trust such amounts and at such times as the
+trustee, in its discretion, determines necessary for the health,
+maintenance, and support of the surviving spouse.
+DRH30184-MQ-88 Page 5
+
+General Assembly Of North Carolina Session 2025
+d. In exercising discretion, the trustee
+(1a) Notwithstanding any requirements in subdivision (1) of this subsection to the
+contrary, the terms of the trust may be authorized authorize or required require
+the trustee, in exercising discretion, to take into consideration all other income
+assets income, assets, and other means of support available to the surviving
+spouse.
+(1b) A trust fails to meet the requirements of sub-subdivisions b. and c. of
+subdivision (1) of this subsection if the terms of the trust do not state the
+requirement that the trustee shall distribute the income and principal as
+provided in those sub-subdivisions using the terms "shall," "is required to," or
+other equivalent term or terms directing the trustee to distribute the income
+and principal. Nothing in this subdivision shall affect the ability of the trustee
+to exercise the discretion provided in sub-subdivisions b. and c. of subdivision
+(1) of this subsection with respect to the timing and amount of distributions
+necessary for the health, maintenance, and support of the surviving spouse.
+(2) To the extent that the partial or contingent interest is dependent upon the
+occurrence of any contingency that is not subject to the control of the
+surviving spouse and that is not subject to valuation by reference to the
+mortality and annuity tables set forth in G.S. 8-46 and G.S. 8-47, the
+contingency will be conclusively presumed to result in the lowest possible
+value passing to the surviving spouse. However, a life estate or income interest
+that will terminate upon the surviving spouse's death or remarriage will be
+valued without regard to the possibility of termination upon remarriage.
+…."
+SECTION 2.2. G.S. 30-3.4 reads as rewritten:
+"§ 30-3.4. Procedure for determining the elective share.
+(a) Exercisable Only During Lifetime. – The right of the surviving spouse to file a claim
+for an elective share must be exercised during the lifetime of the surviving spouse, by the
+surviving spouse, by the surviving spouse's agent if the surviving spouse's power of attorney
+expressly authorizes the agent to do so or to generally engage in estate, trusts, and other beneficial
+interests, or, with approval of court, by the guardian of the surviving spouse's estate or general
+guardian. If a surviving spouse dies before the claim for an elective share has been settled, the
+surviving spouse's personal representative shall succeed to the surviving spouse's rights to an
+elective share.
+(b) Time Limitations. – A claim for an elective share must be made within six months
+after the issuance of letters testamentary or letters of administration in connection with the will
+or intestate proceeding with respect to which the surviving spouse claims the elective share by
+(i) filing a verified petition with the clerk of superior court of the county in which the primary
+administration of the decedent's estate lies,and (ii) mailing or delivering a copy of that petition
+to the personal representative of the decedent's estate. lies. A surviving spouse's incapacity shall
+not toll the six-month period of limitations.
+…
+(e1) Procedure. – An elective share proceeding shall be an estate proceeding and shall be
+conducted in accordance with the procedures of Article 2 of Chapter 28A of the General Statutes.
+The verified petition shall be filed by the clerk upon payment of the costs assessed in
+G.S. 7A-307. An elective share proceeding shall be an estate proceeding and shall be conducted
+in accordance with the procedures of Article 2 of Chapter 28A of the General Statutes, except as
+modified or supplemented by the following:
+(1) Upon the filing of the verified petition, the petition shall be served upon the
+personal representative in accordance with G.S. 1A-1, Rule 4 of the Rules of
+Civil Procedure, without issuance of a summons. The petition shall also be
+Page 6 DRH30184-MQ-88
+
+General Assembly Of North Carolina Session 2025
+served on all responsible persons as those persons become known to the
+petitioner in accordance with G.S. 1A-1, Rule 4 of the Rules of Civil
+Procedure, without issuance of a summons. The failure to serve the petition
+for elective share on the personal representative or any other person within the
+six-month period described in subsection (b) of this section shall not render
+the claim for elective share as being untimely filed.
+(2) After service under subdivision (1) of this subsection, the petitioner, the
+personal representative, or any other party may cause notice of a hearing
+before the clerk to be served upon all parties in accordance with G.S. 1A-1,
+Rule 5 of the Rules of Civil Procedure. At the hearing, the clerk may set
+deadlines as to the gathering and sharing of information concerning total net
+assets and may determine any other relevant procedural matters.
+(3) Within 30 days following the entry of an order resulting from the hearing
+described in subdivision (2) of this subsection, any party who was present at
+the hearing may file a responsive pleading to the petition; provided, however,
+that failure to respond to any averment or claim in the petition shall not be
+deemed an admission of that averment or claim. An extension of time to file
+a responsive pleading to the petition may be granted as provided by G.S. 1A-1,
+Rule 6 of the Rules of Civil Procedure.
+…."
+SECTION 2.3. This Part becomes effective January 1, 2026, and applies to claims
+for elective share filed on or after that date.
+PART III. TRUST ADMINISTRATION/CONTEST UPDATES
+SECTION 3.1. G.S. 36C-6-604 reads as rewritten:
+"§ 36C-6-604. Limitation on action contesting validity of revocable trust; distribution of
+trust property.
+(a) A person may commence a judicial proceeding to contest the validity of a trust that
+was revocable at the settlor's death within the earlier of:of the following:
+(1) Three years after the settlor's death; ordeath.
+(2) 120 days after the trustee sent the person a copy of the trust instrument and
+written notice pursuant to G.S. 1A-1, Rule 4 of the Rules of Civil Procedure,
+informing the person of the trust's existence, of the trustee's name and address,
+and of the time allowed for commencing a proceeding.
+(b) Upon the death of the settlor of a trust that was revocable at the settlor's death, the
+trustee may proceed to administer the trust and distribute the trust property in accordance with
+the terms of the trust. The trustee is trust and shall not be subject to liability for doing so unless:so,
+except that the trustee shall not distribute trust property to any beneficiary in contravention of the
+rights of any person who may be affected by the outcome of a pending or possible judicial
+proceeding if, at the time the distribution is made, any of the following apply:
+(1) The trustee knows of a pending judicial proceeding contesting the validity of
+all or part of the terms of the trust; trust or contesting the identity of the
+beneficiaries eligible to receive distributions therefrom.
+(2) A potential contestant has notified the trustee in writing of a possible judicial
+proceeding to contest the trust, validity of all or part of the terms of the trust
+or to contest the identity of the beneficiaries eligible to receive distribution
+therefrom, and a judicial proceeding is commenced within 60 days after the
+contestant sent the notification.
+(b1) Any distribution in contravention of the provisions of subsection (b) of this section
+shall constitute a breach of trust by the trustee. Upon motion of a party and after notice to
+interested parties, a court, on good cause shown, may make an exception to the provisions of
+DRH30184-MQ-88 Page 7
+
+General Assembly Of North Carolina Session 2025
+subsection (b) of this section and authorize the trustee to distribute trust assets to a beneficiary,
+subject to any conditions the court, in the court's discretion, may impose, including the posting
+of a bond by the beneficiary.
+(c) A beneficiary of a trust that is determined to have been invalid invalid, or whose
+interest in a trust has been determined to be invalid, is liable to return any distribution received.
+If the beneficiary refuses to return the distribution after being ordered by the court, the beneficiary
+shall be liable for all costs incurred for recovery of the distribution, including attorneys' fees."
+SECTION 3.2. This Part becomes effective January 1, 2026, and applies to settlors
+dying on or after that date.
+PART IV. REVISIONS TO YEAR'S ALLOWANCE STATUTES
+SECTION 4.1. G.S. 30-15 reads as rewritten:
+"§ 30-15. When spouse entitled to allowance.
+(a) Every surviving spouse of a decedent, whether or not the surviving spouse has
+petitioned for an elective share, shall be entitled to receive an allowance having the value of sixty
+thousand dollars ($60,000) for the surviving spouse's support for one year after the death of the
+deceased spouse unless the spouse is barred from seeking an allowance under G.S. 31A-1 or
+another applicable law. The spouse's allowance shall be in addition to the spouse's share of the
+decedent's estate if the decedent died intestate but shall be charged against the spouse's share of
+the decedent's estate if the decedent died testate.
+(b) The right of a surviving spouse to file a claim for an allowance must be exercised
+during the lifetime of the surviving spouse by (i) the surviving spouse, (ii) the surviving spouse's
+agent under a durable power of attorney, or (iii), with approval of the court, by the guardian of
+the surviving spouse's estate or general guardian. A claim for an allowance must be made by
+filing a verified petition with the clerk of court of the county in which venue would be proper
+under G.S. 28A-3-1. There is no time limitation on bringing a claim for an allowance except that,
+if a personal representative has been appointed for the decedent's estate, the claim must be made
+within six months after the issuance of letters testamentary or letters of administration. In
+addition, if a personal representative has been appointed for the decedent's estate, a copy of the
+verified petition must be personally delivered or sent by first-class mail by the petitioner to the
+personal representative.
+(c) If the surviving spouse dies after the petition is filed but before the claim for an
+allowance has been fully satisfied, any deficiency judgment existing at the time of the surviving
+spouse's death shall not expire.
+(d) The spouse's allowance shall be exempt from any lien by judgment or execution
+against the property of the decedent or any other claim made against or owed by the decedent's
+estate. The spouse's allowance takes priority over any child's allowance under
+G.S. 30-17.G.S. 30-17, except as set forth in subsection (e) of this section.
+(e) If a surviving spouse entitled to an allowance fails to file a petition for an allowance
+within six months after the date of death of the decedent and an eligible person files a petition
+for a child's allowance in accordance with G.S. 30-17 before the spouse files a petition for an
+allowance, then the spouse's priority to receive the allowance prior to the child named in the
+petition is waived and the clerk may proceed to assign the full child's allowance to the eligible
+child named in the petition. If a petition for the spousal allowance is filed jointly with a petition
+for a child's allowance, then the spouse retains the right to receive the allowance prior to the child
+named in the petition. The waiver described in this subsection shall not affect the spouse's right
+to an allowance, only the spouse's priority to receive an allowance over any child's allowance
+under G.S. 30-17.
+(f) A proceeding for a spouse's allowance shall be an estate proceeding governed by the
+provisions of Article 2 of Chapter 28 of the General Statutes."
+SECTION 4.2. G.S. 30-17 reads as rewritten:
+Page 8 DRH30184-MQ-88
+
+General Assembly Of North Carolina Session 2025
+"§ 30-17. When children entitled to an allowance.
+(a) Every child of a decedent who is under the age of 21 years at the time of the decedent's
+death, including an adopted child or a child in utero, and every child who is under the age of 21
+years at the time of the decedent's death with whom the decedent stood in loco parentis at the
+time of death, shall be entitled to receive an allowance having a value of ten thousand dollars
+($10,000) for the child's support for one year after the death of the decedent. The allowance shall
+be in addition to the child's share of the decedent's estate regardless of whether the decedent died
+testate or intestate.
+(b) The right of a child to file a claim for an allowance must be exercised during the
+lifetime of the child by the person with priority to file on behalf of the child as provided in
+subsection (c) of this section. A claim for an allowance must be made by filing a verified petition
+with the clerk of court of the county in which venue would be proper under G.S. 28A-3-1. There
+is no time limitation on bringing a claim for an allowance except that, if a personal representative
+has been appointed for the decedent's estate, the claim must be made within six months after the
+issuance of letters testamentary or letters of administration. In addition, if a personal
+representative has been appointed for the decedent's estate, a copy of the verified petition must
+be personally delivered or sent by first-class mail by the petitioner to the personal representative.
+(c) The person entitled to file a petition on behalf of the child for a child's allowance shall
+be in the following order of priority:
+(1) The child, if the child is at least 18 years old or an emancipated minor at the
+time of the filing of the petition.
+(1)(2) The general guardian or guardian of the estate of the child, if any.
+(2)(3) The surviving parent of the child if the child resides with the surviving parent.
+(3)(4) The person with whom the child resides.
+If the clerk of court determines that no person entitled to file a petition pursuant to this
+subsection is a fit or suitable individual, the clerk, upon the clerk's own motion, may appoint
+another individual if the clerk determines that individual better represents the best interests of the
+child as the representative.
+(d) The child's allowance shall be exempt from any lien by judgment or execution against
+the property of the decedent or any other claim made against or owed by the decedent's estate
+except that the spouse's allowance under G.S. 30-15 shall take priority over any child's allowance.
+A child's allowance shall only be awarded after the full spouse's allowance under G.S. 30-15 has
+been awarded.
+(e) A proceeding for a child's allowance shall be an estate proceeding governed by the
+provisions of Article 2 of Chapter 28 of the General Statutes."
+SECTION 4.3. G.S. 30-20 reads as rewritten:
+"§ 30-20. Procedure for assignment; order of clerk.
+(a) The clerk of court shall first ascertain if the surviving spouse is entitled to an
+allowance according to the provisions of this Article, and, if so, enter an order setting forth the
+personal property of the estate to be awarded to the surviving spouse. Once the spouse's
+allowance has been awarded, the clerk of court shall next ascertain if any children of the decedent
+are entitled to an allowance according to the provisions of this Article, and, if so, enter an order
+setting forth the personal property of the estate to be awarded for the child's allowance. If a
+personal representative has been appointed for the decedent's estate, the clerk of court shall
+provide a copy of any order awarding an allowance to the personal representative of the
+decedent's estate.
+(b) If the personal property of the estate is insufficient to satisfy the allowances awarded,
+the clerk of the superior court shall enter judgment against the decedent's estate for the amount
+of the deficiency. If a personal representative has been appointed for the decedent's estate, the
+deficiency shall be satisfied by the personal representative when a sufficiency of such assets shall
+come into the possession of the personal representative.
+DRH30184-MQ-88 Page 9
+
+General Assembly Of North Carolina Session 2025
+(c) The clerk of court may, on the clerk's own motion, determine that a hearing is
+necessary to determine whether a year's allowance should be awarded pursuant to the provisions
+of this Article and, if so, what personal property should be awarded. If the clerk of court makes
+such a determination, the clerk shall direct the petitioner to commence a contested estate
+proceeding pursuant to G.S. 30-23 in order to determine the year's allowance."
+SECTION 4.4. G.S. 30-23.1 reads as rewritten:
+"§ 30-23.1. Contested proceeding regarding allowance.
+(a) If no contested estate proceeding under G.S. 30-20(c) was commenced by the
+petitioner or by order of the clerk joining respondents to the proceeding to determine an award
+of an allowance under this Article, any person with standing, including the personal
+representative of the decedent's estate, may bring a proceeding to challenge the award of a spousal
+allowance or a child's allowance, including, but not limited to, a proceeding to challenge the
+validity of an award of a year's allowance, a proceeding to challenge the amount of a year's
+allowance awarded, and a proceeding to challenge the assets awarded as part of a year's
+allowance. If a contested estate proceeding was commenced under G.S. 30-20(c), by the
+petitioner or by order of the clerk joining the respondents to the proceeding to determine an award
+of an allowance under this Article, then any person with standing, including the personal
+representative of the decedent's estate, who was not a party to the contested estate proceeding
+may bring a proceeding in accordance with this section.
+(b) Any proceeding to challenge the award of the allowance brought pursuant to this
+section shall be conducted as an estate proceeding in accordance with the provisions of Article 2
+of Chapter 28A of the General Statutes and must be brought within one year of the date the order
+awarding the year's allowance was entered."
+SECTION 4.5. G.S. 28A-25-6 reads as rewritten:
+"§ 28A-25-6. Payment to clerk of money owed decedent.
+(a) As an alternative to the small estate settlement procedures of this Article, any person
+indebted to a decedent may satisfy such indebtedness by paying the amount of the debt to the
+clerk of the superior court of the county of the domicile of the decedent if all of the following
+conditions are met:
+(1) No administrator has been appointed.
+(2) Except as otherwise provided in G.S. 90-210.64(d), the amount owed by such
+person does not exceed five thousand dollars ($5,000).
+(3) Except as otherwise provided in G.S. 90-210.64(d), the sum tendered to the
+clerk would not make the aggregate sum which has come into the clerk's hands
+belonging to the decedent exceed five thousand dollars ($5,000).
+(b) Such payments may not be made to the clerk if the total amount paid or tendered with
+respect to any one decedent would exceed five thousand dollars ($5,000), even though
+disbursements have been made so that the aggregate amount in the clerk's hands at any one time
+would not exceed five thousand dollars ($5,000).
+(c) If the sum tendered pursuant to this section would make the aggregate sum coming
+into the clerk's hands with respect to any one decedent exceed five thousand dollars ($5,000) the
+clerk shall appoint an administrator, or the sum may be administered under the preceding sections
+of this Article.
+(d) If it appears to the clerk after making a preliminary survey that disbursements
+pursuant to this section would not exhaust funds received pursuant to this section, the clerk may,
+in the clerk's discretion, appoint an administrator, or the funds may be administered under the
+preceding sections of this Article.
+(e) The receipt from the clerk of the superior court of a payment purporting to be made
+pursuant to this section is a full release to the debtor for the payment so made.
+Page 10 DRH30184-MQ-88
+
+General Assembly Of North Carolina Session 2025
+(f) If no administrator has been appointed, the clerk of superior court shall, upon motion
+of the clerk or upon the application of an interested party, disburse the money received under this
+section for the following purposes and in the following order:
+(1) To pay the surviving spouse's year's allowance and children's year's allowance
+assigned in accordance with law.law, except that if (i) it has been greater than
+six months since the date of death of the decedent and (ii) there has been no
+petition filed and assignment of a spouse's or child's year's allowance, the clerk
+may disburse the money received under this section in accordance with the
+other provisions of this subsection.
+(2), (3) Repealed by Session Laws 1981, c. 383, s. 3.
+(4) All other claims shall be disbursed according to the order set out in
+G.S. 28A-19-6.
+Notwithstanding the foregoing provisions of this subsection, the clerk shall pay, out of funds
+provided the deceased pursuant to G.S. 111-18 and Part 3 of Article 2 of Chapter 108A of the
+General Statutes of North Carolina, Statutes, any lawful claims for care provided by an adult care
+home to the deceased, incurred not more than 90 days prior to the deceased's death. After the
+death of a spouse who died intestate the decedent and after the disbursements have been made in
+accordance with this subsection, the balance in the clerk's hands belonging to the estate of the
+decedent shall be paid to the surviving spouse, and if there is no surviving spouse, the clerk shall
+pay it to the heirs or beneficiaries in proportion to their respective interests.
+(g) The clerk shall not be required to publish notice to creditors.
+(h) Whenever an administrator is appointed after a clerk of superior court has received
+any money pursuant to this section, the clerk shall pay to the administrator all funds which have
+not been disbursed. The clerk shall receive no commissions for payments made to the
+administrator, and the administrator shall receive no commissions for receiving such payments."
+SECTION 4.6. This Part becomes effective January 1, 2026, and applies to petitions
+filed on or after that date.
+PART V. EFFECTIVE DATE
+SECTION 5.1. Except as otherwise provided in this act, this act is effective when it
+becomes law.
+DRH30184-MQ-88 Page 11

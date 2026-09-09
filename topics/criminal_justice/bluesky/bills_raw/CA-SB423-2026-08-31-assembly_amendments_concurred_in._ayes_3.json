@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the California Public Records Act, requires each state or local agency, upon a request for a copy of records that reasonably describes an identifiable record or records, to make the records promptly available to any person upon payment of fees covering direct costs of duplication, or a statutory fee if applicable, except with respect to public records exempt from disclosure by express provisions of law. Existing law requires, upon request, an exact copy to be provided unless it is impracticable to do so.\n\nThis bill would specify that a recording of a call or a written communication that is maintained by a state or local agency that reports or describes an incident, as defined, occurring at a private detention facility, and specified records relating to that call or communication in the possession of a law enforcement agency, are not confidential, and would require an agency to disclose those records upon request to any member of the public. By requiring agencies to disclose certain records to the public, the bill would increase the duties of local officials and create a state-mandated local program.\n\nExisting law specifies that, except as provided, the act does not require the disclosure of records of complaints to, or investigations conducted by, or records of intelligence information or security procedures of, the office of the Attorney General and the Department of Justice, the Office of Emergency Services and any state or local police agency, or any investigatory or security files compiled by any other state or local police agency, or any investigatory or security files compiled by any other state or local agency for correctional, law enforcement, or licensing purposes.\n\nThis bill would also except the above-described requirements relating to records relating to private detention facilities from that provision, but would specify that those requirements do not apply to the office of the Attorney General, the Department of Justice, the Department of Consumer Affairs, or any state entity within the Department of Consumer Affairs, as specified.\n\nThe California Constitution requires local agencies, for the purpose of ensuring public access to the meetings of public bodies and the writings of public officials and agencies, to comply with a statutory enactment that amends or enacts laws relating to public records or open meetings and contains findings demonstrating that the enactment furthers the constitutional requirements relating to this purpose.\n\nThis bill would make legislative findings to that effect.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB423",
+    "legislative_session": "20252026",
+    "subject": [
+      "CaliforniaPublicRecordsAct",
+      "privatedetentionfacilities"
+    ],
+    "title": "California Public Records Act: private detention facilities."
+  },
+  "id": "SB423",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "description": "Assembly amendments concurred in. (Ayes 30. Noes 10.) Ordered to engrossing and enrolling.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-31",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB423"
+        }
+      ]
+    },
+    "bill_id": "SB423"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB423/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB423/logs/20260831T000000Z_assembly_amendments_concurred_in_ayes_30_noes_10_ordered_to_engrossing_and_enrolling.json"
+  },
+  "timestamp": "20260831T000000Z"
+}

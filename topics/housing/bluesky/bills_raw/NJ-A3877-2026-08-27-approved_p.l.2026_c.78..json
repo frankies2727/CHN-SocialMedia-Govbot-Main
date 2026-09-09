@@ -1,0 +1,72 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A3877",
+    "legislative_session": "222",
+    "subject": [
+      "HOUSING",
+      "MUNICIPALITI"
+    ],
+    "title": "Establishes certain State funding preferences for municipalities that enhance opportunities to develop housing."
+  },
+  "id": "A3877",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved P.L.2026, c.78.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-08-27T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3877"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3877"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3877"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3877"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3877"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3877"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3877"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3877"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3877"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3877"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3877"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3877"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "A3877"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A3877/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A3877/logs/20260827T040000Z_approved_pl2026_c78.json"
+  },
+  "timestamp": "20260827T040000Z"
+}
