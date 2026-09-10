@@ -1,0 +1,48 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB86",
+    "legislative_session": "34",
+    "subject": [
+      "AUDITS",
+      "BUSINESS",
+      "COMPACTS",
+      "CREDIT",
+      "DISCLOSURE",
+      "ECONOMIC DEVELOPMENT",
+      "FINANCE",
+      "FINANCIAL INSTITUTIONS",
+      "INVESTMENTS",
+      "LICENSING",
+      "PROPERTY"
+    ],
+    "title": "An Act relating to the business of money transmission; relating to licenses for money transmission, licensure requirements, and registration through a nationwide multistate licensing system; relating to the use of virtual currency for money transmission; relating to authorized delegates of a licensee; relating to acquisition of control of a license; relating to record retention and reporting requirements; authorizing the Department of Commerce, Community, and Economic Development to cooperate with other states in the regulation of money transmission; relating to permissible investments; relating to violations and enforcement of money transmission laws; relating to exemptions to money transmission licensure requirements; relating to payroll processing services; relating to currency exchange licenses; relating to abandoned virtual currency; amending Rules 79 and 82, Alaska Rules of Civil Procedure; and providing for an effective date."
+  },
+  "id": "SB86",
+  "log": {
+    "action": {
+      "description": "(H) LEG FINANCE APPROPRIATION MESSAGE 9/8/26",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-08",
+      "session_id": "34",
+      "sources": [
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB86"
+        },
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB86#tab5_4"
+        }
+      ]
+    },
+    "bill_id": "SB86"
+  },
+  "sources": {
+    "bill": "ak-legislation/country:us/state:ak/sessions/34/bills/SB86/metadata.json",
+    "log": "ak-legislation/country:us/state:ak/sessions/34/bills/SB86/logs/20260908T000000Z_h_leg_finance_appropriation_message_9826.json"
+  },
+  "timestamp": "20260908T000000Z",
+  "posted_text": "💰 AK SB86 — Alaska Updates Rules for Money Transfers & Crypto\n\nAlaska is modernizing its rules for money transmission and virtual currency businesses. This new legislation will update licensing requirements, specifically addressing how businesses can handle virtual currency transactions. It mandates disclosures for customers using money transmission services, including details about fees, risks associated with virtual currency, and how to dispute errors. ...\n...",
+  "posted_link": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB86",
+  "posted_url": "https://x.com/i/web/status/2098102268130365900"
+}
