@@ -1,0 +1,162 @@
+2026SESSION
+07/08
+1800-FN
+HOUSEBILL
+ANACT relativetostatewideeducationpropertytaxes.
+M.Smith,Straf.10
+COMMITTEE: WaysandMeans
+─────────────────────────────────────────────────────────────────
+ANALYSIS
+Thisbill:
+I. Raisesthestatewideeducationpropertytax.
+II. Createstaxcreditagainstthestatewideeducationpropertytax.
+III. Has the department of revenue administration distribute education property taxes to
+municipalities.
+IV. Changesthemeaningofthecostofanadequateeducation.
+V. Repealsstatutespertainingtoextraordinaryneedgrants.
+---------------------------------------------------------------------------
+Explanation: Matteraddedtocurrentlawappearsinbolditalics.
+Matterremovedfromcurrentlawappears[inbracketsandstruckthrough.]
+Matterwhichiseither(a)allnewor(b)repealedandreenactedappearsinregulartype.
+
+07/08
+STATEOFNEWHAMPSHIRE
+IntheYearofOurLordTwoThousandTwenty-Six
+ANACT relativetostatewideeducationpropertytaxes.
+BeitEnactedbytheSenateandHouseofRepresentativesinGeneralCourtconvened:
+1 Taxation; Apportionment, Assessment and Abatement of Taxes; Education Tax. Amend RSA
+76:3toreadasfollows:
+76:3 Education Tax. Beginning July 1, [2005] 2027, and every fiscal year thereafter, the
+commissioner of the department of revenue administration shall set the education tax rate at a level
+sufficient to generate revenue, based on the local real property tax assessment, of
+[$363,000,000] $5 per $1,000 of valuation when imposed on all persons and property taxable
+pursuant to RSA 76:8, except property subject to tax under RSA 82 and RSA 83-F. The education
+property tax rate shall be effective for the following fiscal year. The rate shall be set to the nearest
+1/2centnecessarytogeneratetherevenuerequiredinthissection.
+2 Taxation; Apportionment, Assessment and Abatement of Taxes; Commissioner's Warrant.
+AmendRSA76:8,II-IIItoreadasfollows:
+II. The commissioner shall issue a warrant under the commissioner's hand and official seal
+for the amount computed in paragraph I to the selectmen or assessors of each municipality by
+December 15 directing them to assess such sum and pay it to the [municipality for the use of the]
+department of revenue administration, to be remitted for distribution to municipalities for
+use in their local school district or districts. Such sums shall be assessed at such times as may
+beprescribedforothertaxesassessedbysuchselectmenorassessorsofthemunicipality.
+II-a. At the time the warrant is issued pursuant to paragraph II, the commissioner shall
+report to the governor, the speaker of the house of representatives, the president of the senate, and
+the commissioner of education, a statement of the education tax warrants to be issued for the tax
+yearcommencingApril1ofthesucceedingyear.
+III. Municipalities are authorized to assess additional local property taxes necessary to
+fund school district [appropriations] budgets not sufficiently funded by the education tax, by
+distributionsfromtheeducationtrustfundunderRSA198:39,orbyotherrevenuesources.
+IV. Notwithstanding any other provision of law to the contrary, the following
+creditsshallbeavailableagainstthetaximposedunderthissection:
+(a) Twentypercentoftheassessedvalueofaperson'sprimaryresidence.
+(b) Ten percent for persons having no children enrolled in their local public
+schoolsystem.
+(c) Tenpercentforpersonsovertheageof65.
+
+-Page2-
+3 Education; Adequate Public Education; Cost of an Adequate Education. Amend RSA 193-E:2-
+btoreadasfollows:
+193-E:2-b [CostofanAdequateEducation]ExcellenceinEducationGrant.
+I. The [general court shall use the definition of theopportunity for an adequate education in
+RSA 193-E:2-a to determine the resources necessary to provide essential programs, considering
+educational needs. The general court shall make an initial determination of the necessary specific
+resourceelements tobeincluded intheopportunityfor anadequateeducation.] following amounts
+shall constitute the cost of an excellence in education grant and determine the resources
+necessary to provide the essential programs, considering educational needs, of an
+excellenceineducationgrant:
+(a) $10,000perenrolledstudent;and
+(b) $4,000perenrolledstudentqualifyingforafreeorreduced-pricemeal.
+II. The required revenue amount under this section shall be increased annually at
+arateof2percent.
+[II.] III. The general court shall create a process for the periodic determination of the
+specific resource elements essential toproviding the substantiveeducational content of an [adequate
+education] excellence in education grant. This review should occur no less frequently than every
+10years.
+4 Repeals. Thefollowingarerepealed:
+I. RSA198:40-f,relativetoextraordinaryneedgrants.
+II. RSA198:41,I(c),relativetocalculationsusedtodetermineeducationgrants.
+5 EffectiveDate. ThisactshalltakeeffectJuly1,2027.
+
+LBA
+Revised6/1/26
+HB1800-FN-FISCALNOTE
+ASINTRODUCED
+ANACT relativetostatewideeducationpropertytaxes.
+FISCALIMPACT:
+Estimated State Impact
+FY2026 FY2027 FY2028 FY2029
+Revenue $0 $0 IndeterminableIncrease
+RevenueFund(s) EducationTrustFund
+Expenditures* $0 $350,000 IndeterminableIncrease
+FundingSource(s) GeneralFundandEducationTrustFund
+Appropriations* $0 $0 $0 $0
+FundingSource(s) None
+*Expenditure=Costofbill *Appropriation=Authorizedfundingtocovercostofbill
+Estimated Political Subdivision Impact
+FY2026 FY2027 FY2028 FY2029
+LocalRevenue $0 $0 IndeterminableIncrease
+LocalExpenditures $0 $0 $0 $0
+The Office of Legislative Budget Assistant is unable to provide a complete fiscal note for this bill
+as it is awaiting information from the Department of Education. The Department was initially
+contacted on 11/03/25 for a fiscal note worksheet, with follow-up contact made on 12/05/25 and
+05/19/26. Whencompleted,thefiscalnotewillbeforwardedtotheClerk'sOffice.
+METHODOLOGY:
+Thisbill:
+ Eliminates the statewide education property tax (SWEPT) revenue target and set
+SWEPT at $5 per $1,000 of “local real property tax assessed value when imposed on all
+personsandpropertytaxablepursuanttoRSA76:8…”
+o The Department of Revenue Administration (DRA) states it is uncertain how it
+would implement this language, since it contains both local assessed value and
+equalized assessed value in its description. The DRA assumes that equalized
+value is intended, since the purpose of equalization is to ensure that rates are
+proportionateasconstitutionallyrequiredforastate-imposedtax.
+
+ Requires SWEPT to be paid to DRA for distribution to municipalities for use in their
+localschooldistrictordistricts.
+o The DRA states it is unsure how it would comply with this obligation as there is
+no distribution formula contained in the proposed legislation. Additionally,
+distributions are usually managed by the treasurer. DRA assumes that no
+change in distribution is intended and that it (or the treasurer) would simply
+distribute to each municipality the amount of SWEPT it collected and remitted.
+DRA also assumes that the ETF would be used for purposes of depositing and
+thenredistributingSWEPTfunds.
+ Creates three “credits” against SWEPT that DRA states it does not understand how to
+implement. From their description, DRA states these “credits” would be more properly
+considered exemptions. Additionally, percentage credits create a recursive calculation
+loopwhentaxratesareset,sotheycannotbeused. TheDRAstatestherearealsomany
+questions that surround these exemptions, such as how primary residence status or
+having no enrolled children would be determined. These exemptions need to be
+administered at the local level and reported toDRA annually. The DRA would also need
+authority to create forms and rules to implement these provisions and would need to
+modify its municipal tax rate setting portal to accommodate the additional information
+andcalculationsneeded.
+ Amendsprovisionsrelatedtostateeducationgrants.
+The Department of Revenue Administration states the fiscal impact of the proposed legislation
+using DRA’s assumptions would be an indeterminable increase in funds deposited to the ETF
+and a corresponding increase in ETF expenditures beginning in FY 2028. Under current law,
+eachmunicipalitycollectsSWEPTonbehalfof thestatetotalingapproximately$363millionand
+retains the SWEPT locally to fund the State’s portion of education funding. Although the
+SWEPT is locally retained, the total amount of SWEPT collected by the municipalities is still
+recognizedbytheStateasrevenue totheEducationTrustFund(ETF). Theproposed legislation
+would change this methodology, sothat all SWEPT revenue is paid toDRA(and deposited to the
+ETF) as state revenue beginning in FY 2028, then paid back to the municipalities from the ETF.
+The accounting for SWEPT revenue would not change but the amount would. The bill would
+increase the $363 million to an amount that is indeterminable because DRA is unable to predict
+what equalized property values will be in future years. However, DRA is able to estimate an
+amount based upon its most current equalized value study and SWEPT warrant amounts. For
+tax year 2026, total equalized value not including utilities (as of 4/1/2024) was $353.5 billion. At
+
+$5 per $1,000 of value, SWEPT would generate approximately $1.77 billion. This incremental
+increase between that estimated amount and $363 million would be reflected as increased
+revenue to the ETF and increased ETF expenditures had the proposed legislation been in effect
+andapplicabletopropertytaxyear2026.
+The DRA believes that it could administer the proposed legislation without any new positions.
+However,therewouldbeanindeterminablecostassociatedwithdevelopingformsandmodifying
+systems as described including a) implementing the electronic filing and payment mechanism
+that would be required to facilitate payment of the SWEPT over to DRA and b) modifying DRA’s
+municipal tax rate setting portal to accommodate the new exemptions. The DRA estimates a
+costof$350,000forthesetwoprojectstobeincurredinFY2027.
+AGENCIESCONTACTED:
+DepartmentofEducationandDepartmentofRevenueAdministration

@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB1800",
+    "legislative_session": "2026",
+    "title": "relative to statewide education property taxes."
+  },
+  "id": "HB1800",
+  "log": {
+    "action": {
+      "description": "Full Committee Work Session: 09/30/2026 10:00 am GP 234",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-27",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=2434&inflect=2"
+        }
+      ]
+    },
+    "bill_id": "HB1800"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB1800/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB1800/logs/20260827T000000Z_full_committee_work_session_09302026_1000_am_gp_234.json"
+  },
+  "timestamp": "20260827T000000Z",
+  "posted_text": "🏠 Taxation\nNH HB1800 — NH Changes Education Funding: Property Tax Shift Coming\n\nNew Hampshire is moving to a new system for funding public education. This bill eliminates the existing statewide education property tax target, setting the rate at $5 per $1,000 of local real property tax assessed value. The Department of Revenue Administration will then distribute these funds to municipalities for use in their local school districts. ...\n...",
+  "posted_link": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=2434&inflect=2",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DdITVa9GHyY"
+}
