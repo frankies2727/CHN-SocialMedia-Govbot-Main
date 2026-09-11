@@ -1,0 +1,41 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law requires, on or before September 1, 2024, the Department of Technology, within the Government Operations Agency, to conduct, in coordination with other interagency bodies as it deems appropriate, a comprehensive inventory of all high-risk automated decision systems that have been proposed for use, development, or procurement by, or are being used, developed, or procured by, any state agency. Existing law requires the department to annually submit a report of that comprehensive inventory to the Assembly Committee on Privacy and Consumer Protection and the Senate Committee on Governmental Organization.\n\nExisting law, the Transparency in Frontier Artificial Intelligence Act, among other things related to ensuring the safety of certain artificial intelligence models, requires a large frontier developer to write, implement, and clearly and conspicuously publish on its internet website a frontier AI framework that applies to the large frontier developer's frontier models and describes how the large frontier developer approaches, among other things, incorporating national standards, international standards, and industry-consensus best practices into its frontier AI framework.\n\nThis bill would require, on or before January 1, 2028, the Government Operations Agency to take certain actions related to the selection and regulation of certain entities, defined as \"independent verification organizations,\" designated by the agency as having demonstrated expertise in assessing the risks posed by an AI system or model and identifying the metrics and methodologies that form the basis for that assessment. The bill would require the agency to convene working groups to solicit stakeholder input in the identification of standards and the development and revision of procedures and criteria, as specified. The bill would require the agency to provide a report to the Legislature on the findings of the working groups and would require a designated IVO to submit annually, and no sooner than 12 months after initial designation as an IVO, to the agency and Legislature a report, as specified.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB813",
+    "legislative_session": "20252026",
+    "subject": [
+      "Independentverificationorganizations"
+    ],
+    "title": "Independent verification organizations."
+  },
+  "id": "SB813",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-09",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB813"
+        }
+      ]
+    },
+    "bill_id": "SB813"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB813/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB813/logs/20260909T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260909T000000Z"
+}

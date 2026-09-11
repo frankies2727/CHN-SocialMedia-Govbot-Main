@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1179",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Energy: other"
+    ],
+    "title": "Energy: other; reporting requirements for data centers; provide for. Creates new act."
+  },
+  "id": "SB 1179",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "REFERRED TO COMMITTEE ON ENERGY AND ENVIRONMENT",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-10",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1179"
+        }
+      ]
+    },
+    "bill_id": "SB 1179"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1179/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1179/logs/20260910T000000Z_referred_to_committee_on_energy_and_environment.json"
+  },
+  "timestamp": "20260910T000000Z"
+}
