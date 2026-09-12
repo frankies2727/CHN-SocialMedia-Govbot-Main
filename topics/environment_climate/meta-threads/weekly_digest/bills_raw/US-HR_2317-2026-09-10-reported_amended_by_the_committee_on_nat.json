@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 2317",
+    "legislative_session": "119",
+    "title": "Northern Nevada Economic Development and Conservation Act of 2026"
+  },
+  "id": "HR 2317",
+  "log": {
+    "action": {
+      "description": "Reported (Amended) by the Committee on Natural Resources. H. Rept. 119-811, Part I.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-10T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr2317.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/2317"
+        }
+      ]
+    },
+    "bill_id": "HR 2317"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR2317/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR2317/logs/20260910T040000Z_reported_amended_by_the_committee_on_natural_resources_h_rept_119811_part_i.json"
+  },
+  "timestamp": "20260910T040000Z"
+}

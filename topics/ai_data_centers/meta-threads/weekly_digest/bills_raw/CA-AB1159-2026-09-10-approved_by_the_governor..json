@@ -1,0 +1,41 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the K–12 Pupil Online Personal Information Protection Act (KOPIPA) , generally protects the personal information of a student enrolled in a K–12 course of instruction, defined as a \"pupil,\" by prescribing requirements and prohibitions applicable to an operator of an internet website, online service, online application, or mobile application with actual knowledge that the site, service, or application is used primarily for K–12 school purposes and was designed and marketed for K–12 school purposes.\n\nExisting law, the Early Learning Personal Information Protection Act (ELPIPA) , generally protects the personal information of a child enrolled in a preschool or prekindergarten course of instruction, defined as a \"pupil,\" by prescribing requirements and prohibitions applicable to an operator of an internet website, online service, online application, or mobile application with actual knowledge that the site, service, or application is used primarily for preschool or prekindergarten purposes and was designed and marketed for preschool and prekindergarten purposes.\n\nThis bill would instead apply the provisions of KOPIPA and ELPIPA to an operator, or an entity working on behalf of the operator, of an internet website, online service, online application, or mobile application with actual knowledge that the site, service, or application is used for the applicable school purposes and was designed or marketed for those purposes, as specified. The bill would, among other changes to KOPIPA and ELPIPA related to protecting the personal information of students, prohibit an operator from using covered information, as defined, including persistent unique identifiers, created or gathered by the operator's site, service, or application to train a generative artificial intelligence system or service or develop an artificial intelligence system.\n\nThis bill would also enact the Higher Education Student Information Protection Act (HESIPA) , which would generally protect the personal information of a student enrolled in a higher education institution, as defined, in a similar manner as KOPIPA and ELPIPA. The bill would make HESIPA operative on July 1, 2027.\n\nThis bill would authorize a pupil or student actually harmed by noncompliance with KOPIPA, ELPIPA, or HESIPA to bring a civil action against the noncompliant operator, as prescribed, and would require a person bringing that action to furnish a copy of the complaint to the Attorney General within 10 days after filing the action.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1159",
+    "legislative_session": "20252026",
+    "subject": [
+      "Studentpersonalinformation"
+    ],
+    "title": "Student personal information."
+  },
+  "id": "AB1159",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-10",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1159"
+        }
+      ]
+    },
+    "bill_id": "AB1159"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1159/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1159/logs/20260910T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260910T000000Z"
+}

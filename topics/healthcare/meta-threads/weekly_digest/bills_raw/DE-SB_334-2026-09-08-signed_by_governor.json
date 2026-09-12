@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "The Health Care Professional Access Act requires carriers to participate in uniform processes with specific timetables to create speed-to-market for health care professionals. Currently, health care professionals may be employed for 6 months or more with no ability to collect insurer reimbursement due to lengthy carrier credentialing process. Ensuring uniformity across carriers, as well as relevant procedural standards, will help attract and retain health care professionals in our state, enable movement between practices and the creation of new ones, and ensure nondiscrimination in credentialing decisions. \r\n\r\n\r\nUnder this Act, credentialing processes are limited to 45 days. This Act additionally provides for provisional credentialing, whereby reimbursement ability is provided even more quickly for certain health care professionals, including FQHCs, and in designated shortage areas which currently include mental health professionals statewide and primary and dental care in Kent and Sussex Counties, or is offered if timelines are not met. Oversight of compliance with this Act falls to the applicable regulatory agency. The Act also ensures specific processes and health care professional rights during a carrier’s intent to terminate a credential. \r\n\r\n\r\nMore than 30 states have credentialing standards in law, with additional jurisdictions considering relevant legislation. Components of this legislation are derived from the National Association of Insurance Commissioners’ Health Care Professional Credentialing Verification Model Act.\r\n\r\nThis substitute differs from the original in that it does the following:\r\n- Clarifies that it applies to those carriers that require credentialing and does not require carriers to create a credentialing process if they do not already do so;\r\n- Clarifies the process for credentialing of health care professionals whose primary or home state is not Delaware and prefer to use the credentialing process in their primary or home state;\r\n- Allows a carrier to require earlier recredentialing to address activity that could disqualify a health care professional from credentialing;\r\n- Allows for certain electronic delivery of recredentialing notices;\r\n- Simplifies the language for the basis to deny, suspend, nonrenew, or terminate a health care professional’s to align with NCQA standards; \r\n- Clarifies that the penalties and remedies in this Act are in addition to those already otherwise available; and\r\n- Makes technical changes to information about CAQH.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 334",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLES 18 AND 29 OF THE DELAWARE CODE RELATING TO HEALTH CARE."
+  },
+  "id": "SB 334",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-09-08",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143516"
+        }
+      ]
+    },
+    "bill_id": "SB 334"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB334/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB334/logs/20260908T000000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260908T000000Z"
+}
