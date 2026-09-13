@@ -432,8 +432,26 @@ def _build_highlight_replies(client: BlueskyClient | None,
         headline = shorten_title(b)
         budget = summary_budget(b, headline, omit_display=True)
         summary = summarize(b, max_chars=budget) if budget >= MIN_SUMMARY_CHARS else ""
-        text, link, ec_title, ec_desc = compose_post(
-            b, summary, headline=headline, omit_display=True)
+
+        # omit_display=True makes the summary the ONLY description of the bill in
+        # the reply. That's the intent when a plain-English summary exists, but
+        # some bills can't be grounded into one — most often a freshly introduced
+        # federal bill that ships only a legalese title, with no abstract and no
+        # extractable PDF text yet (e.g. "US HR 10316 — Referred to the Committee
+        # on Financial Services"). There summarize() returns "", and omitting the
+        # title would leave the reply as just "<emoji> <state> <id>" + the action
+        # line: it says what happened but never what the bill IS. When there's no
+        # summary, keep the title/headline in the head instead (exactly what the
+        # daily post does via best_display_text), so every highlight still
+        # describes its bill. prefer_summary trims a long legalese title to fit
+        # rather than dropping it.
+        if summary:
+            text, link, ec_title, ec_desc = compose_post(
+                b, summary, headline=headline, omit_display=True)
+        else:
+            text, link, ec_title, ec_desc = compose_post(
+                b, summary, headline=headline, omit_display=False,
+                prefer_summary=True)
 
         thumb_blob = None
         if link and FETCH_OG_IMAGE:
