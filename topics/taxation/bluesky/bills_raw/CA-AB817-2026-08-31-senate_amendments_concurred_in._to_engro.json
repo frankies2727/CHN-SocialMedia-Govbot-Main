@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the Permit Streamlining Act, establishes requirements for the review and approval of applications for development projects, as defined, by public agencies, including requiring that a public agency that is the lead agency for the development project approve or disapprove the project within certain time periods, as specified.\n\nThis bill would prohibit a city, county, or city and county from approving a building permit for cold storage facilities, as defined, unless the owner of the cold storage facility, or the lessee or operator of the cold storage facility, as specified, establishes a contingency fund, as defined, to be used upon declared national, state, or local emergencies in certain circumstances. Until July 1, 2028, the bill would limit the definition of cold storage facilities for purposes of these provisions to facilities located within the geographic boundaries of the Boyle Heights Community Plan. The bill would require an owner of a cold storage facility to provide evidence of the contingency fund at the discretion of the city, county, or city and county, as specified, and authorize an owner to require the lessee or operator of the cold storage facility to establish and maintain the contingency fund. The bill would require a cold storage facility to use the contingency fund for, among other things, providing support during the declared state of emergency or local emergency for affected communities, as specified. By imposing additional requirements on cities and counties, the bill would impose a state-mandated local program.\n\nThe Personal Income Tax Law and the Corporation Tax Law, in modified conformity with federal income tax law, generally define \"gross income\" for purposes of the taxes imposed by those laws as income from whatever source derived, except as specifically excluded, and provide various exclusions from gross income.\n\nThis bill would, for taxable years beginning on or after January 1, 2027, and before January 1, 2032, exclude from gross income any amount received by a qualified taxpayer, as defined, in settlement for claims relating to the 2026 Boyle Heights fire incident, as defined.\n\nExisting law requires that any bill introduced on or after January 1, 2020, that would authorize certain tax expenditures, as defined, contain, among other things, specific goals that the tax expenditure or exemption will achieve, detailed performance indicators, and data collection requirements.\n\nThis bill would include additional information required for any bill authorizing a new tax expenditure.\n\nThe bill would include findings that specified changes proposed by this bill address a matter of statewide concern rather than a municipal affair and, therefore, apply to all cities, including charter cities.\n\nThis bill would make legislative findings and declarations as to the necessity of a special statute for the Boyle Heights community.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB817",
+    "legislative_session": "20252026",
+    "subject": [
+      "Coldstoragefacilities"
+    ],
+    "title": "Cold storage facilities."
+  },
+  "id": "AB817",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "description": "Senate amendments concurred in. To Engrossing and Enrolling.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-31",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB817"
+        }
+      ]
+    },
+    "bill_id": "AB817"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB817/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB817/logs/20260831T000000Z_senate_amendments_concurred_in_to_engrossing_and_enrolling.json"
+  },
+  "timestamp": "20260831T000000Z"
+}

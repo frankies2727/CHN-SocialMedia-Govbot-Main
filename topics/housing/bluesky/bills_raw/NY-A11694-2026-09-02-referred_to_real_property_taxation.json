@@ -1,0 +1,49 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Establishes a tax rebate program for rent-stabilized housing that targets buildings with individually occupied rent-stabilized apartments where the property tax burden significantly exceeds rental income."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A11694",
+    "legislative_session": "2025-2026",
+    "title": "Establishes a tax rebate program for rent-stabilized housing"
+  },
+  "id": "A11694",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "REFERRED TO REAL PROPERTY TAXATION",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-02",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "REAL PROPERTY TAXATION"
+        }
+      ],
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11694?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/A11694"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=A11694&term=2025"
+        }
+      ]
+    },
+    "bill_id": "A11694"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11694/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11694/logs/20260902T000000Z_referred_to_real_property_taxation.json"
+  },
+  "timestamp": "20260902T000000Z"
+}
