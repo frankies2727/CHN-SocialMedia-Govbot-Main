@@ -1,0 +1,42 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, with certain exceptions, prohibits recreational use in which there is bodily contact with water in a reservoir in which water is stored for domestic use, and establishes water standards for those exempted reservoirs.\n\nThis bill would create an exception from the above-described prohibition for recreation in which there is bodily contact with water by a participant in the Salinas Reservoir if the water subsequently receives complete water treatment in compliance with all applicable regulations of the State Water Resources Control Board before being used for domestic purposes, the San Luis Obispo County Flood Control and Water Conservation District conducts a prescribed monitoring program, and the reservoir is operated in compliance with regulations of the board. The bill would require, 2 years after approval of the changed use of the reservoir to a body contact reservoir by the board's Division of Drinking Water, and biennially thereafter, the San Luis Obispo County Flood Control and Water Conservation District to file with the Legislature and the board a report on the recreational uses at the Salinas Reservoir and the water treatment program for that reservoir, as specified. By imposing a new requirement on the San Luis Obispo County Flood Control and Water Conservation District, the bill would impose a state-mandated local program. The bill would repeal its provisions as of January 1, 2032.\n\nThis bill would make legislative findings and declarations as to the necessity of a special statute for the Salinas Reservoir.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1253",
+    "legislative_session": "20252026",
+    "subject": [
+      "SalinasReservoir",
+      "recreationaluse"
+    ],
+    "title": "Salinas Reservoir: recreational use."
+  },
+  "id": "SB1253",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-08-31",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1253"
+        }
+      ]
+    },
+    "bill_id": "SB1253"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1253/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1253/logs/20260831T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260831T000000Z"
+}
