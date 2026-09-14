@@ -1,0 +1,80 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S3183",
+    "legislative_session": "222",
+    "subject": [
+      "ENERGY"
+    ],
+    "title": "Modifies various provisions of State's renewable energy incentive programs; requires electric public utilities to consider interconnection applications for certain solar projects.*"
+  },
+  "id": "S3183",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved P.L.2026, c.84.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-09-09T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3183"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3183"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3183"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3183"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3183"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3183"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3183"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3183"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3183"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3183"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3183"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3183"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3183"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3183"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "S3183"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S3183/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S3183/logs/20260909T040000Z_approved_pl2026_c84.json"
+  },
+  "timestamp": "20260909T040000Z",
+  "posted_text": "⚡ NJ S3183 — NJ Could Now Let Solar Farms on Brownfields Get Power to the Grid Faster\n\nNew Jersey is setting a 33-month deadline for solar projects on landfills, brownfields, contaminated sites, or mining sites to get connected to the electric grid, automatically extending the timeline if the utility causes delays.\n\nElectric public utilities will be required to accept interconnection applications for community solar or remote net metering facilities on lines 34.5 kilovolts or less.\n\nThis change also clarifies that projects on these sites can participate in various state solar incentive programs.\n\nSept. 9, 2026: Approved P.L.2026, c.84.\n\n🔗 Read the full bill: https://www.njleg.state.nj.us/bill-search/2026/S3183\n\n#EnvironmentClimate #NewJersey #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.njleg.state.nj.us/bill-search/2026/S3183",
+  "posted_url": "https://www.instagram.com/p/DdSJUvzIPzs/"
+}

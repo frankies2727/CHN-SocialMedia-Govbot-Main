@@ -1,0 +1,52 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Requires the board of elections to publish notice of a polling place location change thirty days before the change or on the earliest known date of such change in the event of an emergency; provides for the use of electronic mail to notify voters of polling place location changes."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A11708",
+    "legislative_session": "2025-2026",
+    "title": "Relates to providing notice of polling place location changes"
+  },
+  "id": "A11708",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "REFERRED TO ELECTION LAW",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-02",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "ELECTION LAW"
+        }
+      ],
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11708?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/A11708"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=A11708&term=2025"
+        }
+      ]
+    },
+    "bill_id": "A11708"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11708/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11708/logs/20260902T000000Z_referred_to_election_law.json"
+  },
+  "timestamp": "20260902T000000Z",
+  "posted_text": "🗳️ NY A11708 — You'll Get a Mailer About Your Polling Place Changes\n\nNew York will require boards of elections to send voters a written notice by mail at least 60 days before an election or registration day if they change a polling place.\n\nThe board must also post the change on its website within 30 days.\n\nIf the board has a voter’s email address, it can send a separate electronic notice, but this won’t replace the required mailer.\n\nThe law also says the board must use an alternative form of notice if mailing isn’t possible, and provides a way for the board to quickly post changes if a polling place becomes unusable unexpectedly.\n\nSept. 2, 2026: Referred to Election Law.\n\n🔗 Read the full bill: https://www.nysenate.gov/legislation/bills/2025/A11708\n\n#ElectionsVotingRights #NewYork #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.nysenate.gov/legislation/bills/2025/A11708",
+  "posted_url": "https://www.instagram.com/p/DdSIhhvIDO1/"
+}

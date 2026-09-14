@@ -1,0 +1,46 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law requires the governing board of a school district that maintains one or more schools containing any of grades 7 to 12, inclusive, to establish a policy regarding participation in extracurricular and cocurricular activities by pupils in those grades as a condition for the receipt of specified school funding allocations.\n\nThis bill, commencing with the 2027–28 school year, would prohibit a school district, county office of education, or charter school from excluding a pupil from participating in any extracurricular activity, including sports and clubs, due to the pupil not having or using addictive feeds, as defined.\n\nExisting law provides that parents and guardians of children enrolled in public schools have the right and should have the opportunity, as mutually supportive and respectful partners in the education of their children within the public schools, to be informed by the school, and to participate in the education of their children, as specified, including by, among other things, to be notified on a timely basis if their child is absent from school without permission.\n\nThis bill, commencing with the 2027–28 school year, would prohibit a school district, county office of education, or charter school from using addictive feeds, as defined, as the only means of contacting pupils or pupils' parents or guardians.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB302",
+    "legislative_session": "20252026",
+    "subject": [
+      "Pupilandparentalcommunication",
+      "addictivefeeds",
+      "extracurricularactivities"
+    ],
+    "title": "Pupil and parental communication: extracurricular activities: addictive feeds."
+  },
+  "id": "AB302",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-10",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB302"
+        }
+      ]
+    },
+    "bill_id": "AB302"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB302/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB302/logs/20260910T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260910T000000Z",
+  "posted_text": "🏫 CA AB302 — California Schools Can't Bar Kids From Clubs & Sports Over 'Addictive Feeds\n\nCalifornia schools can’t exclude students from extracurricular activities like sports and clubs because they don’t use certain types of online content – what the bill calls ‘addictive feeds.’ Starting in 2027-28, districts, county offices, and charter schools must allow students to participate regardless of their online habits.\n\nThe bill aims to protect students from being sidelined due to concerns about excessive use of social media or other personalized online platforms.\n\nIt clarifies what constitutes an ‘addictive feed’ – focusing on content recommendations driven by user data – and encourages schools to inform students and parents about these rights.\n\nSept. 10, 2026: Approved by the Governor.\n\n🔗 Read the full bill: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB302\n\n#Education #California #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB302",
+  "posted_url": "https://www.instagram.com/p/DdSH9vooDc0/"
+}
