@@ -1,0 +1,67 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB239",
+    "legislative_session": "34",
+    "subject": [
+      "BOARDS & COMMISSIONS",
+      "BUSINESS",
+      "CHILD ABUSE",
+      "CIVIL PROCEDURE",
+      "COURT RULES",
+      "COURTS",
+      "CRIMES",
+      "CRIMINAL PROCEDURE",
+      "DEATH",
+      "DISCLOSURE",
+      "DOMESTIC VIOLENCE",
+      "DRUGS",
+      "EMPLOYMENT",
+      "HEARINGS",
+      "INTERNET",
+      "JUDGES",
+      "LAW ENFORCEMENT",
+      "LIABILITY",
+      "MARIJUANA",
+      "MEDICAL CARE",
+      "MINORS",
+      "MOTOR VEHICLES",
+      "PORNOGRAPHY",
+      "POSTAL SERVICE",
+      "PRIVACY",
+      "PROPERTY",
+      "PUBLIC RECORDS",
+      "PUBLIC SAFETY",
+      "SAFETY",
+      "SALES",
+      "SCIENCE & TECHNOLOGY",
+      "SENTENCING",
+      "VICTIMS RIGHTS"
+    ],
+    "title": "An Act relating to crime and criminal procedure; relating to civil claims by victims of sexual abuse of a minor; relating to homicide; relating to assault; relating to sexual assault; relating to stalking; relating to sexual abuse of a minor; relating to enticement and unlawful exploitation of a minor; relating to cruelty to animals; relating to endangering the welfare of a child; relating to indecent exposure; relating to theft; relating to generated obscene child sexual abuse material; relating to sending an explicit image of a minor; relating to solicitation or production of an indecent picture of a minor; relating to distribution of indecent material to minors; relating to prostitution; relating to the Controlled Substances Advisory Committee; relating to the testimony of children in criminal proceedings; relating to sentencing; relating to sexual assault examination kits; restricting the release of certain records of convictions; relating to teaching certificates; relating to the definition of 'victim counseling center' for disclosure of certain communications concerning sexual assault or domestic violence; relating to motor vehicle offenses; relating to the board of parole; relating to parole; relating to medical release for service of sentence by electronic monitoring; relating to licensing of school bus drivers; creating and relating to the address confidentiality program; and providing for an effective date."
+  },
+  "id": "HB239",
+  "log": {
+    "action": {
+      "description": "(S) LEG FINANCE APPROPRIATION MESSAGE 9/8/26",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-08",
+      "session_id": "34",
+      "sources": [
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB239"
+        },
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB239#tab5_4"
+        }
+      ]
+    },
+    "bill_id": "HB239"
+  },
+  "sources": {
+    "bill": "ak-legislation/country:us/state:ak/sessions/34/bills/HB239/metadata.json",
+    "log": "ak-legislation/country:us/state:ak/sessions/34/bills/HB239/logs/20260908T000000Z_s_leg_finance_appropriation_message_9826.json"
+  },
+  "timestamp": "20260908T000000Z"
+}

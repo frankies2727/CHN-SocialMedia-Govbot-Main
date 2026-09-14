@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10330",
+    "legislative_session": "119",
+    "title": "Higher Education Oversight for Nonprofits Ensuring Standards and Transparency Act"
+  },
+  "id": "HR 10330",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Ways and Means.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-10T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10330.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10330"
+        }
+      ]
+    },
+    "bill_id": "HR 10330"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10330/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10330/logs/20260910T040000Z_referred_to_the_house_committee_on_ways_and_means.json"
+  },
+  "timestamp": "20260910T040000Z"
+}
