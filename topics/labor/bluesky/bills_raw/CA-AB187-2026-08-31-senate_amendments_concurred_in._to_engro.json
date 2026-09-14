@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "(1) Existing law generally grants public employees the right to join employee organizations and to be represented by those organizations in their employment relations. Existing law requires specified public employers to provide exclusive employee representatives access to new employee orientations, as prescribed.\n\nExisting law entitles an exclusive representative, if the public employer has not conducted an in-person new employee orientation within 30 days of a newly hired employee's start date, and the new employee is working in person, to schedule an in-person meeting at the worksite during employment hours, as prescribed, during which newly hired employees are required to have the opportunity to attend and be relieved of other duties for the purpose of attending the meeting. These in-person meeting requirements are repealed as of June 30, 2027.\n\nUnder this bill, such an in-person meeting would satisfy the requirements of existing law for the purpose of providing mandatory access to the employees' new employee orientation and onboarding process. The bill would also remove the repeal for the in-person meeting requirements, thereby making those requirements operative indefinitely. By extending the operation of duties for various local agencies, this bill would impose a state-mandated local program.\n\n(2) Existing law authorizes the Department of Human Resources to self-fund or self-insure a benefit program under its administration when it is cost effective to do so. Existing law authorizes the department to administer the self-funded or self-insured benefit program directly or to contract with a third-party administrator. Existing law creates the State Employees' Self-Funded Benefit Fund, which is a continuously appropriated fund, created in the State Treasury, for use by the department to make benefit payments and pay related administrative costs.\n\nThis bill would authorize any contract entered into pursuant to these provisions to provide for a claims fund reserve account to be maintained with respect to the benefit program for the purpose of administering benefit programs, including deducting contracted benefit program expenses. The bill authorizes the account to be used for, among other things, defraying increases in future premiums. The bill would authorize an account that is established for these purposes to be created outside of the centralized State Treasury System utilizing the taxpayer identification number of a contracted carrier, subject to meeting specified criteria, including that deposited funds are segregated and clearly identifiable. By authorizing new uses of a continuously appropriated fund, this bill would make an appropriation.\n\n(3) Existing law authorizes the state, through the Department of Human Resources, the Trustees of the California State University, or the Regents of the University of California, to contract with carriers for dental care plans for employees, annuitants, and eligible family members. Existing law prohibits a dental care plan contract from being entered into unless funds are appropriated by the Legislature for this purpose. Existing law provides that if a dental care plan is self-funded, funds used for that plan will be considered continuously appropriated.\n\nThis bill would authorize any contract entered into pursuant to these provisions to provide for a claims fund reserve account to be maintained with respect to the benefit program for purposes of administering benefit programs, including deducting contracted benefit program expenses. The bill would authorize an account that is established for these purposes to be created outside of the centralized State Treasury System utilizing the taxpayer identification number of a contracted carrier, subject to meeting specified criteria, including that deposited funds are segregated and clearly identifiable.\n\n(4) The Public Employees' Retirement Law (PERL) creates the Public Employees' Retirement System (PERS) to provide a defined benefit to its members based on age at retirement, service credit, and compensation, as specified. PERL excludes from membership an employee whose appointment or employment contract does not fix a term of full-time, continuous employment in excess of 6 months, unless that person comes within specific exceptions. Among those exceptions, PERL includes an exception for a person who is a member of certain enumerated state boards and elects to become a member.\n\nThis bill would expand this exception to additionally include the board members of the Alcoholic Beverage Control Appeals Board and the Central Valley Flood Protection Board, as specified, thereby allowing their membership in PERS if they elect to do so. The bill would also specify how these board members would have their service credit in PERS calculated, including for service prior to January 1, 2027.\n\nThis bill would make nonsubstantive changes to existing law.\n\n(5) Existing law establishes labor provisions specifically applicable to sheepherders, including authorizing an employer of a sheepherder to pay a specified monthly minimum wage as an alternative to paying the minimum wage for all hours worked to sheepherders employed on a regularly scheduled 24-hour shift on a 7-days-per-week \"on-call\" basis. Existing law provides that an employer, or any other person acting on behalf of the employer, who violates or causes to be violated those provisions is subject to a civil penalty of $100 for each underpaid employee for each pay period during which the employee was underpaid, plus an amount sufficient to recover the unpaid wages for an initial violation and $250 for any subsequent violation.\n\nThis bill would, until January 1, 2029, establish similar labor protections for goat herders, as defined, relating to wages, meal and rest periods, lodging, and other conditions of employment and require every employer of goat herders, except as specified, to post a copy of these provisions, and the provisions applicable to sheepherders, in an area frequented by goat herders where it may be easily read during the workday in a language understood by the goat herder.\n\n(6) The California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.\n\n(7) This bill would declare that it is to take effect immediately as a bill providing for appropriations related to the Budget Bill.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB187",
+    "legislative_session": "20252026",
+    "subject": [
+      "Employment"
+    ],
+    "title": "Employment."
+  },
+  "id": "AB187",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "description": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 76. Noes 0.).",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-31",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB187"
+        }
+      ]
+    },
+    "bill_id": "AB187"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB187/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB187/logs/20260831T000000Z_senate_amendments_concurred_in_to_engrossing_and_enrolling_ayes_76_noes_0.json"
+  },
+  "timestamp": "20260831T000000Z"
+}

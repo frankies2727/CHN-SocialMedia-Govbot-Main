@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6313",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Employment security: administration"
+    ],
+    "title": "Employment security: administration; unemployment insurance agency reporting requirements on shared-work plans; modify to include benefit error rate."
+  },
+  "id": "HB 6313",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "referred to Committee on Economic Competitiveness",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-27",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6313"
+        }
+      ]
+    },
+    "bill_id": "HB 6313"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6313/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6313/logs/20260827T000000Z_referred_to_committee_on_economic_competitiveness.json"
+  },
+  "timestamp": "20260827T000000Z"
+}
