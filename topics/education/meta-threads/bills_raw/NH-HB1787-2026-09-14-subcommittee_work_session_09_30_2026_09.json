@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB1787",
+    "legislative_session": "2026",
+    "title": "modifying the statewide education property tax."
+  },
+  "id": "HB1787",
+  "log": {
+    "action": {
+      "description": "Subcommittee Work Session: 09/30/2026 09:30 am GP 228",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-14",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=2284&inflect=2"
+        }
+      ]
+    },
+    "bill_id": "HB1787"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB1787/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB1787/logs/20260914T000000Z_subcommittee_work_session_09302026_0930_am_gp_228.json"
+  },
+  "timestamp": "20260914T000000Z",
+  "posted_text": "🎓 Education\nNH HB1787 — NH Changes How School Taxes Fund Education\n\nNew Hampshire will now collect and remit statewide education property tax revenues directly to the state treasurer for deposit into the Education Trust Fund. ...\n...",
+  "posted_link": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=2284&inflect=2",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DdVNrDiFLKM"
+}
