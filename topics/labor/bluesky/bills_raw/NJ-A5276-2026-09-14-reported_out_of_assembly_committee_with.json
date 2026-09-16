@@ -1,0 +1,42 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A5276",
+    "legislative_session": "222",
+    "subject": [
+      "FIREFIGHTERS",
+      "POLICE"
+    ],
+    "title": "Clarifies overtime compensation requirements for certain public employees engaged in law enforcement and fire protection activities."
+  },
+  "id": "A5276",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Reported out of Assembly Committee with Amendments and Referred to Assembly Appropriations Committee",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-14T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5276"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5276"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "A5276"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A5276/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A5276/logs/20260914T040000Z_reported_out_of_assembly_committee_with_amendments_and_referred_to_assembly_appropriations_committee.json"
+  },
+  "timestamp": "20260914T040000Z"
+}

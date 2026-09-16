@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law requires an elections official, upon receiving a vote by mail ballot, to compare the signature on the identification envelope with either the signature appearing on the voter's affidavit or signature appearing on a form that is part of the voter's registration record. Existing law requires an elections official, if it is determined that the signatures do not compare, to notify the voter of the opportunity to verify the voter's signature. Under existing law, if an elections official has a telephone number or email address on file for a voter whose signature does not compare, the elections official is required to notify the voter by telephone, text message, or email, as specified. Existing law requires a county elections official to establish a free access system that allows a vote by mail voter to learn if the voter's vote by mail ballot was counted, as specified. Existing law requires the Secretary of State to maintain a system to allow a vote by mail voter to track the voter's vote by mail ballot through the mail system, as specified.\n\nThis bill would require the Secretary of State to implement and make available to county elections officials a system that allows voters to access electronic signature curing, as defined. The bill would require the Secretary of State to make available on its internet website specified data regarding voters' use of the system.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2604",
+    "legislative_session": "20252026",
+    "subject": [
+      "Elections",
+      "ballotcuring"
+    ],
+    "title": "Elections: ballot curing."
+  },
+  "id": "AB2604",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "committee-passage",
+        "committee-passage-favorable"
+      ],
+      "description": "Senate amendments concurred in. To Engrossing and Enrolling. (Ayes 59. Noes 19.).",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-30",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2604"
+        }
+      ]
+    },
+    "bill_id": "AB2604"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2604/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2604/logs/20260830T000000Z_senate_amendments_concurred_in_to_engrossing_and_enrolling_ayes_59_noes_19.json"
+  },
+  "timestamp": "20260830T000000Z"
+}
