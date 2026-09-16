@@ -1,0 +1,42 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law makes it a crime, punishable by not more than one year in county jail, to manufacture or cause to be manufactured, import into the state for sale, keep for sale, offer or expose for sale, give, or lend an unsafe handgun. Existing law establishes certain exemptions to this prohibition, including, among others, exemptions for sales to specified law enforcement agencies and other specified government agencies for use by specified employees and sales to specified peace officers.\n\nExisting law specifies that the sale of an unsafe handgun to certain specified entities, including county probation departments, and members of those entities, is only authorized if the handgun is to be used as a service weapon by a peace officer who has successfully completed the basic course prescribed by the Commission on Peace Officer Standards and Training (POST) and who qualifies with the handgun, as specified, at least every 6 months. Existing law also provides that this training requirement may be satisfied by completion of the firearm portion of a training course prescribed by POST, if that training was completed before January 1, 2021.\n\nThis bill would instead authorize a peace officer employed by a county probation department and using an unsafe handgun as a service weapon to satisfy the above-described training requirement by completion of the firearm portion of a training course prescribed by POST and who qualifies with the handgun, as specified, at least every 3 months.\n\nExisting law imposes certain vehicle storage requirements on specified persons who obtain an unsafe handgun, including sworn members of a county probation department who have completed the basic course or, prior to January 1, 2021, completed the firearm portion of a training course described above. A violation of those provisions is a crime.\n\nBecause the bill would expand the application of the crime described above to sworn members of a county probation department who have completed the firearm portion of a training course, this bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1615",
+    "legislative_session": "20252026",
+    "subject": [
+      "Firearms",
+      "unsafehandguns"
+    ],
+    "title": "Firearms: unsafe handguns."
+  },
+  "id": "AB1615",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-15",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1615"
+        }
+      ]
+    },
+    "bill_id": "AB1615"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1615/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1615/logs/20260915T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260915T000000Z"
+}

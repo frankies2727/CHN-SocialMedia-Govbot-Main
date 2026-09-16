@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act requires that when all or part of the tenant’s rent is paid from a state fund for reentry services, a landlord must assist the tenant in completing a discharge plan to attempt to provide a warm handoff before terminating the tenant’s lease. This Act also closes a loophole in existing law that allows unlicensed or uncertified operators of residential housing to claim exemption from the Residential Landlord-Tenant Code, including the procedural requirements for an eviction. \r\n\r\nExisting laws prohibit someone from losing their housing without notice because\r\n•\tA landlord must comply with the notice and judicial procedure under the Residential Landlord-Tenant Code, Part III, Title 25.\r\n•\tLicensed health care providers must provide discharge planning before an individual is required to leave a residential treatment program under § 1127, § 5161, and § 3004J of Title 16.\r\n•\tCertified recovery homes must make a reasonable effort to connect a resident with appropriate services when terminating the resident’s admission agreement under § 2206A of Title 16.\r\n\r\nSection 1 of this Act closes a loophole in current law that allows some landlords to claim their tenants are excluded under § 5102(1) of Title 25 from the protections required before eviction under the Residential Landlord-Tenant Code without being required to provide discharge planning or connecting the resident with appropriate services. This Act revises 3 of the exclusions by using the modern terms and where possible, the applicable licensing law for this State, to prevent housing providers from claiming exclusion from the Residential Landlord-Tenant Code even if the provider is not licensed or certified to provide services. This Act does not apply to or revise the exclusions to the Residential Landlord-Tenant Code under paragraphs (4) through (6) of § 5102 of Title 25, including the existing exclusion for certified recovery houses.\r\n\r\nSection 2 of this Act creates new requirements under § 5512A of Title 25 if all or part of a tenant’s rent is paid using money from a State reentry fund. Before or with the first payment, the person responsible for payments from the fund must provide the landlord with an explanation of these requirements, contact information, and the model discharge plan. The Department of Health and Social Services (DHSS), in consultation with the Department of Justice (DOJ), must create a model discharge plan. Then, before terminating the tenant’s lease, the landlord must assist the individual in creating a discharge plan that includes shelter or housing and provide notice that the tenant’s lease is being terminated as follows:\r\n•\tTo the person making rent payments from the fund.\r\n•\tIf the landlord knows that the tenant is under the supervision of the Department of Correction, to the Department of Correction and the local law enforcement agency.\r\n\r\nIf a landlord fails to comply with the discharge planning and notice requirements, the landlord is debarred from receiving payments from any State reentry fund for 1 year. If the landlord is receiving payments from a State reentry fund for any other tenants, those tenants are not responsible for the share of the rent that was paid by the fund and have the option to do any of the following:\r\n•\tContinue the tenancy without payments from the fund. If the tenant chooses to continue their tenancy, the amount of their rent becomes the tenant’s share of the rent, calculated by subtracting the amount paid by the fund from the total rent under the rental agreement.\r\n•\tTerminate the lease immediately.\r\n•\tTerminate the lease with 30 to 60 days notice.\r\n\r\nThese requirements are enforceable by the Department of Justice and also by the Justice of the Peace Court, because the contents of an eviction complaint must include a brief statement of compliance with the requirements under § 5512A(c) and copies of all required notices.\r\n\r\nSection 3 of this Act is a technical clarification to clarify that “this Code” and “Landlord-Tenant Code” both refer to the Residential Landlord-Tenant Code under Part III of this title. Both “this Code” and “Landlord-Tenant Code” are used throughout Chapter 51 through Chapter 59 of Title 25 as abbreviations of the Residential Landlord-Tenant Code and under § 101 of Title 1, “this Code” could also refer to the entire Delaware Code.\r\n\r\nSection 4 of this Act makes the new requirements for reentry funds under § 5512A of Title 25 applicable to the rental of single rooms in owner-occupied buildings under § 5512 of Title 25. Section 4 also reorganizes the existing language in § 5512 because as 1 sentence, the current language is difficult to understand.\r\n\r\nThis Act takes effect 6 months after enactment to provide time for DHSS and DOJ to develop the model discharge plan and for agencies, including the Department of Correction and local law enforcement agencies, to develop policies and procedures necessary to implement and respond to notification under these requirements. The new requirements under § 5512A of Title 25 apply to rental agreements entered into on or after the effective date of this Act.\r\n\r\nThis Act also makes technical corrections to conform existing law to the standards of the Delaware Legislative Drafting Manual.\r\n\r\nThis Act is known as “The Grace Peterson Act”.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 292",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 25 OF THE DELAWARE CODE RELATING TO THE LANDLORD-TENANT CODE."
+  },
+  "id": "SB 292",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-09-09",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143172"
+        }
+      ]
+    },
+    "bill_id": "SB 292"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB292/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB292/logs/20260909T000000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260909T000000Z"
+}

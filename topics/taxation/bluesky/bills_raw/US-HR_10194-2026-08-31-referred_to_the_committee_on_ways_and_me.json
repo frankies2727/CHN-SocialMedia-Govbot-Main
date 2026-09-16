@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10194",
+    "legislative_session": "119",
+    "title": "To amend the National Labor Relations Act and the Internal Revenue Code of 1986 to limit access of employers to Federal funds and tax credits while engaged in a lock-out of employees."
+  },
+  "id": "HR 10194",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the Committee on Ways and Means, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-31T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10194.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10194"
+        }
+      ]
+    },
+    "bill_id": "HR 10194"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10194/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10194/logs/20260831T040000Z_referred_to_the_committee_on_ways_and_means_and_in_addition_to_the_committee_on_education_and_workfo.json"
+  },
+  "timestamp": "20260831T040000Z"
+}

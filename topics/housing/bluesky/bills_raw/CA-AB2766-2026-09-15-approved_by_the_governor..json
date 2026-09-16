@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes the California Community Colleges, under the administration of the Board of Governors of the California Community Colleges, the California State University, under the administration of the Trustees of the California State University, and the University of California, under the administration of the Regents of the University of California, as the 3 segments of public postsecondary education in the state.\n\nExisting law, the NextUp program, authorizes the office of the Chancellor of the California Community Colleges to enter into agreements with community college districts to provide, and allocate to selected community colleges within a community college district, funds for services in support of postsecondary education for foster youth. Existing law requires a student participant in the program to be a current or former foster youth whose dependency was established or continued by a court on or after the youth's 13th birthday and who is no older than 25 years of age at the commencement of the academic year in which the student first enrolls in the program.\n\n Existing law requires the California State University and each community college district, and requests the University of California, with respect to each campus in their respective jurisdictions that administers a priority enrollment system, to grant priority in that system to, among others, foster youth and former foster youth whose dependency was established or continued by a court on or after the youth's 13th birthday and who is no older than 25 years of age at the commencement of the academic year.\n\nThis bill would extend the requirement and request for priority enrollment to current or former foster youth whose dependency was established or continued by a court on or after the youth's 13th birthday and who is older than 25 years of age so long as they are enrolled in the NextUp program.\n\nExisting law requests campuses of the California Community Colleges, requires campuses of the California State University, and, subject to the Regents of the University of California's agreement by resolution, requires University of California campuses, that maintain student housing facilities, to: (1) give priority for student housing to current and former foster youth and current and former homeless youth, and (2) as to campuses that maintain student housing facilities open for occupation during school breaks, or on a year-round basis, give first priority to current and former foster youth and current and former homeless youth for residence in housing facilities that are open for uninterrupted year-round occupation and next give priority to current and former foster youth and current and former homeless youth for housing that is open for occupation during the most days in the calendar year.\n\nThis bill would require, instead of request, campuses of the California Community Colleges to give this priority for student housing to current and former foster youth and current and former homeless youth. The bill would require campuses of the California Community Colleges and campuses of the California State University, and, subject to the Regents of the University of California's agreement by resolution, require University of California campuses, that maintain student housing facilities, to, among other things: (1) include, in their student housing applications, questions designed to identify students who may be eligible for priority student housing as current and former foster youth and current and former homeless youth, (2) defer or waive the collection of housing-related costs, as defined, for those students granted this priority, and (3) post on its internet website information describing priority housing benefits and the eligibility criteria for those benefits, as specified.\n\nBy adding to the duties of community colleges that maintain student housing facilities, this bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2766",
+    "legislative_session": "20252026",
+    "subject": [
+      "Publicpostsecondaryeducation",
+      "fosteryouthandhomelessyouth",
+      "studenthousing"
+    ],
+    "title": "Public postsecondary education: student housing: foster youth and homeless youth."
+  },
+  "id": "AB2766",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-15",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2766"
+        }
+      ]
+    },
+    "bill_id": "AB2766"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2766/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2766/logs/20260915T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260915T000000Z"
+}
