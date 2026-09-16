@@ -1,0 +1,42 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act restricts State and local law-enforcement from cooperating with federal agencies conducting civil immigration enforcement activities at child-serving entities, institutions of higher education, places of worship, or health-care facilities except in exigent circumstances.\r\nThis Act is a substitute for and differs from House Bill No. 94 and House Substitute 1 for House Bill No. 94 by simply prohibiting direct participation by law-enforcement in civil enforcement proceedings unless an exigent circumstance exists, rather than requiring the permission of the Attorney General. If law-enforcement does participate in such an activity because of an exigent circumstance, a report must be submitted to the Police Officer Standards and Training Commission and the Department of Safety and Homeland Security within 48 hours. These reports are to be aggregated in a biannual report and delivered to the General Assembly.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 94",
+    "legislative_session": "153",
+    "title": "AN ACT AMENDING TITLES 10 AND 11 OF THE DELAWARE CODE RELATING TO LAW ENFORCEMENT COOPERATION IN FEDERAL IMMIGRATION ENFORCEMENT."
+  },
+  "id": "HB 94",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-09-03",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143081"
+        }
+      ]
+    },
+    "bill_id": "HB 94"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB94/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB94/logs/20260903T000000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260903T000000Z",
+  "posted_text": "🆔 DE HB 94 — Delaware Limits State Police Cooperation with Federal Immigration Raids\n\nDelaware is setting rules to restrict how its law enforcement agencies work with federal officials on immigration enforcement.\n\nThis new law will limit State Police and local police cooperation with federal agencies when conducting civil immigration raids at places like children’s centers, colleges, churches, or hospitals – unless there’s an immediate danger to public safety.\n\nOfficers can’t directly assist with arrests or searches without an ‘exigent circumstance.’ If they do, they must quickly report the details to the Police Officer Standards and Training Commission and the Department of Safety and Homeland Security, providing information about the activity and those involved.\n\nThis measure aims to protect vulnerable populations from unwarranted federal immigration enforcement actions.” hot 1600 characters\n\nSept. 3, 2026: Signed by Governor.\n\n🔗 Read the full bill: https://legis.delaware.gov/BillDetail?LegislationId=143081\n\n#Immigration #Delaware #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://legis.delaware.gov/BillDetail?LegislationId=143081",
+  "posted_url": "https://www.instagram.com/p/DdXMbzOn0Lp/"
+}

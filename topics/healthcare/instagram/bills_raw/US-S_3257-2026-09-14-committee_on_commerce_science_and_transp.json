@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 3257",
+    "legislative_session": "119",
+    "title": "Mental Health in Aviation Act of 2025"
+  },
+  "id": "S 3257",
+  "log": {
+    "action": {
+      "description": "Committee on Commerce, Science, and Transportation. Reported by Senator Cruz with an amendment in the nature of a substitute. With written report No. 119-139.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-14T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s3257.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-bill/3257"
+        }
+      ]
+    },
+    "bill_id": "S 3257"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/S3257/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/S3257/logs/20260914T040000Z_committee_on_commerce_science_and_transportation_reported_by_senator_cruz_with_an_amendment_in_the_n.json"
+  },
+  "timestamp": "20260914T040000Z",
+  "posted_text": "🧠 US S 3257 — Congress Wants to Make Air Travel Healthier\n\nThe Mental Health in Aviation Act of 2025 directs the FAA to update regulations and guidance to encourage pilots and air traffic controllers to seek mental health support and disclose conditions.\n\nIt also requires the FAA to consult with aviation and medical communities, including air traffic controllers and medical examiners, to review recommendations from a rulemaking committee and improve the special issuance process for mental health-related certifications.\n\nThe bill allocates funds for expanding the Office of Aerospace Medicine's capacity to handle these requests and supports a public awareness campaign to reduce stigma around seeking mental healthcare within the aviation industry.\n\nSept. 14, 2026: Committee on Commerce, Science, and Transportation. Reported by Senator Cruz with an amendment in the nature of a substitute. With written report No. 119-139.\n\n🔗 Read the full bill: https://www.congress.gov/bill/119th-congress/senate-bill/3257\n\n#Healthcare #USCongress #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/senate-bill/3257",
+  "posted_url": "https://www.instagram.com/p/DdXKpgKn6Wq/"
+}

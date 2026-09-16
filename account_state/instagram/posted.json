@@ -91,6 +91,8 @@
     "DE|HB 368|2026-06-24",
     "DE|HB 368|2026-06-24|Reported Out of Committee (Judiciary) in",
     "DE|HB 462|2026-06-25|Reported Out of Committee (Finance) in S",
+    "DE|HB 94|2026-09-03",
+    "DE|HB 94|2026-09-03|Signed by Governor",
     "DE|HJR 13|2026-06-30",
     "DE|HJR 13|2026-06-30|",
     "DE|HJR 13|2026-06-30|Reported Out of Committee (Executive) in",
@@ -292,6 +294,8 @@
     "NE|LR444|2026-08-17|Notice of hearing for September 18, 2026",
     "NH|HB1406|2026-08-05",
     "NH|HB1406|2026-08-05|Public Hearing: 02/17/2026 01:45 pm GP 1",
+    "NH|HB1612|2026-08-20",
+    "NH|HB1612|2026-08-20|Died on Table, Session ended 08/19/2026 ",
     "NH|HB1787|2026-08-27",
     "NH|HB1787|2026-08-27|Executive Session: 09/30/2026 10:30 am G",
     "NH|HB1787|2026-08-27|Full Committee Work Session: 09/30/2026 ",
@@ -332,6 +336,8 @@
     "NY|A11708|2026-09-02|REFERRED TO ELECTION LAW",
     "NY|A7215|2026-07-01",
     "NY|A7215|2026-07-01|PRINT NUMBER 7215B",
+    "NY|S10085|2026-09-10",
+    "NY|S10085|2026-09-10|SIGNED CHAP.295",
     "NY|S7445|2026-07-10",
     "NY|S7445|2026-07-10|PRINT NUMBER 7445A",
     "PA|HB 1505|2026-07-12",
@@ -414,6 +420,9 @@
     "US|HR 9619|2026-07-09|Referred to the House Committee on Energ",
     "US|HR 9890|2026-07-22",
     "US|HR 9890|2026-07-22|Referred to the House Committee on House",
+    "US|S 3257|2026-09-14",
+    "US|S 3257|2026-09-14|Committee on Commerce, Science, and Tran",
+    "US|S 3257|2026-09-14|Placed on Senate Legislative Calendar un",
     "US|S 5168|2026-07-29",
     "US|S 5168|2026-07-29|Read twice and referred to the Committee",
     "US|S 5283|2026-08-06",
@@ -423,7 +432,6 @@
     "|HR 9368|2026-06-24|Ordered to be Reported (Amended) by the "
   ],
   "runs": {
-    "28593260569-1": 4,
     "28663360279-1": 4,
     "28706690567-1": 4,
     "29096395078-1": 4,
@@ -452,7 +460,8 @@
     "33673563904-1": 4,
     "34158181974-1": 4,
     "34395179196-1": 4,
-    "34893321340-1": 4
+    "34893321340-1": 4,
+    "35141993627-1": 4
   },
-  "last_run": "2026-09-14T21:53:03.741138+00:00"
+  "last_run": "2026-09-16T21:04:28.190421+00:00"
 }
