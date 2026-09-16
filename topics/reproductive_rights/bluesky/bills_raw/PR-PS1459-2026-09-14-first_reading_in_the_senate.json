@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "PS1459",
+    "legislative_session": "2025-2028",
+    "title": "Para enmendar el inciso (a) del Artículo 2 y el inciso (g) del Artículo 3 de la Ley 156-2006,\nsegún enmendada, denominada “Ley de Acompañamiento durante el Trabajo de\nParto, Nacimiento y Post-parto”, a los fines de esclarecer que durante el trabajo de\nparto, en las salas de preparto, en el parto y postparto, la persona parturienta tiene\nderecho a estar acompañada de la doula o persona adiestrada en medidas de\ncomodidad de su elección, además de los familiares o amigos que escoja libremente;\ny para decretar otras disposiciones complementarias."
+  },
+  "id": "PS1459",
+  "log": {
+    "action": {
+      "classifications": [
+        "reading-1"
+      ],
+      "description": "Aparece en Primera Lectura del Senado",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-14T04:00:00+00:00",
+      "session_id": "2025-2028",
+      "sources": [
+        {
+          "url": "https://sutra.oslpr.org/medidas/162115"
+        }
+      ]
+    },
+    "bill_id": "PS1459"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PS1459/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PS1459/logs/20260914T040000Z_aparece_en_primera_lectura_del_senado.json"
+  },
+  "timestamp": "20260914T040000Z"
+}

@@ -56,6 +56,9 @@
     "CA|SB1302|2026-06-30|From committee: Do pass as amended and r",
     "CA|SB1302|2026-07-01",
     "CA|SB1302|2026-07-01|Read second time and amended. Re-referre",
+    "CA|SB1302|2026-08-27",
+    "CA|SB1302|2026-08-27|",
+    "CA|SB1302|2026-08-27|Assembly amendments concurred in. (Ayes ",
     "CA|SB164|2026-06-26|From committee with author's amendments.",
     "CA|SB164|2026-06-29",
     "CA|SB164|2026-06-29|Amendments by Assembly Member Patterson ",
@@ -188,6 +191,9 @@
     "NJ|S2994|2026-06-08|",
     "PA|HR 587|2026-07-20",
     "PA|HR 587|2026-07-20|Referred to Health",
+    "PR|PS1459|2026-09-14",
+    "PR|PS1459|2026-09-14|Aparece en Primera Lectura del Senado",
+    "PR|PS1459|2026-09-14|Referido a Comisi\u00f3n(es)",
     "RI|SB2358|2026-05-28|05/28/2026 Committee recommended measure",
     "TN|SB 0003|2026-07-30",
     "TN|SB 0003|2026-07-30|Engrossed; ready for transmission to Hou",
@@ -205,11 +211,11 @@
     "|S 4922|2026-06-24",
     "|S 4922|2026-06-24|Read twice and referred to the Committee"
   ],
-  "last_run": "2026-09-14T19:45:46.004590+00:00",
+  "last_run": "2026-09-16T19:27:02.782696+00:00",
   "state_last_posted": {
     "KS": "2026-06-18T11:29:15.082773+00:00",
     "FL": "2026-06-18T11:29:15.082773+00:00",
-    "CA": "2026-09-14T19:40:18.293077+00:00",
+    "CA": "2026-09-16T19:06:33.969056+00:00",
     "DE": "2026-06-20T10:14:34.093362+00:00",
     "MA": "2026-08-24T21:53:41.835425+00:00",
     "MO": "2026-07-22T15:33:16.628783+00:00",
@@ -225,6 +231,7 @@
     "?": "2026-07-22T15:33:16.628783+00:00",
     "US": "2026-08-31T21:05:58.306487+00:00",
     "PA": "2026-08-10T18:08:03.958652+00:00",
-    "TN": "2026-08-12T15:12:21.398585+00:00"
+    "TN": "2026-08-12T15:12:21.398585+00:00",
+    "PR": "2026-09-16T19:06:33.969056+00:00"
   }
 }
