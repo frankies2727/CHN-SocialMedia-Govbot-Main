@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1046",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Natural resources: Great Lakes",
+      "Water supply: conservation"
+    ],
+    "title": "Water supply: conservation; permit for water used for consumptive use purposes; provide for. Amends secs. 32705, 32708a, 32713 & 32723 of 1994 PA 451 (MCL 324.32705 et seq.) & adds sec. 32723a."
+  },
+  "id": "SB 1046",
+  "log": {
+    "action": {
+      "description": "SENATE CO-SPONSOR(S) NAMED: VERONICA KLINEFELT",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-10",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1046"
+        }
+      ]
+    },
+    "bill_id": "SB 1046"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1046/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1046/logs/20260910T000000Z_senate_cosponsors_named_veronica_klinefelt.json"
+  },
+  "timestamp": "20260910T000000Z"
+}
