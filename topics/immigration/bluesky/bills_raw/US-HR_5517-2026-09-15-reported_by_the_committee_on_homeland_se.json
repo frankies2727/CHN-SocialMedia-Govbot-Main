@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 5517",
+    "legislative_session": "119",
+    "title": "Northern Border Security Enhancement and Review Act"
+  },
+  "id": "HR 5517",
+  "log": {
+    "action": {
+      "description": "Reported by the Committee on Homeland Security. H. Rept. 119-830.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-15T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr5517.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/5517"
+        }
+      ]
+    },
+    "bill_id": "HR 5517"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR5517/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR5517/logs/20260915T040000Z_reported_by_the_committee_on_homeland_security_h_rept_119830.json"
+  },
+  "timestamp": "20260915T040000Z"
+}

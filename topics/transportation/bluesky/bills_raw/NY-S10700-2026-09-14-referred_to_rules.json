@@ -1,0 +1,49 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Regulates the sale of E-motos and electric off-highway motorcycles; requires sellers of E-motos and electric off-highway motorcycles to post a certain notice; prohibits deceptive marketing practices with regard to E-motos and electric off-highway motorcycles."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S10700",
+    "legislative_session": "2025-2026",
+    "title": "Regulates the sale and marketing of E-motos and electric off-highway motorcycles"
+  },
+  "id": "S10700",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "REFERRED TO RULES",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-14",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "RULES"
+        }
+      ],
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10700?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/S10700"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=S10700&term=2025"
+        }
+      ]
+    },
+    "bill_id": "S10700"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S10700/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S10700/logs/20260914T000000Z_referred_to_rules.json"
+  },
+  "timestamp": "20260914T000000Z"
+}

@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": ", PURSUANT TO THE PROVISIONS OF ARTICLE 1, CHAPTER 23, TITLE 1 OF THE SOUTH CAROLINA CODE OF LAWS. - RATIFIED TITLE",
+        "note": "description"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 1062",
+    "legislative_session": "2025-2026",
+    "title": "A JOINT RESOLUTION TO APPROVE REGULATIONS OF THE STATE COMMISSION ON HIGHER EDUCATION, RELATING TO DETERMINATION OF RATES OF TUITION AND FEES, DESIGNATED AS"
+  },
+  "id": "S 1062",
+  "log": {
+    "action": {
+      "description": "Act No. 271",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-08-19",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=1062&session=126&summary=B"
+        }
+      ]
+    },
+    "bill_id": "S 1062"
+  },
+  "sources": {
+    "bill": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/S1062/metadata.json",
+    "log": "sc-legislation/country:us/state:sc/sessions/2025-2026/bills/S1062/logs/20260819T000000Z_act_no_271.json"
+  },
+  "timestamp": "20260819T000000Z"
+}

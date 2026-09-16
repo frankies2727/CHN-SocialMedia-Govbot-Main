@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "RCC0206",
+    "legislative_session": "2025-2028",
+    "title": "Para ordenar a la Autoridad de Carreteras y Transportación de Puerto Rico (ACT) a confeccionar un inventario de todas las vallas publicitarias (“billboards”) en Puerto Rico, disponiéndose que el Departamento de Transportación y Obras Públicas (DTOP) y la Oficina de Gerencia de Permisos (OGPe) tendrán el deber ministerial de brindar toda asistencia, información y colaboración que le sea requerida por la ACT; dicho inventario deberá detallar si los rótulos cuentan con permisos de construcción y de uso vigentes, si fueron erigidos sin permiso, y si se encuentran en posible violación del Highway Beautification Act de 1965 o de cualquier otra ley o reglamento federal aplicable; y para otros fines relacionados."
+  },
+  "id": "RCC0206",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Remitido a Comisión de Calendarios de la Cámara",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-14T04:00:00+00:00",
+      "session_id": "2025-2028",
+      "sources": [
+        {
+          "url": "https://sutra.oslpr.org/medidas/158637"
+        }
+      ]
+    },
+    "bill_id": "RCC0206"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RCC0206/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RCC0206/logs/20260914T040000Z_remitido_a_comisión_de_calendarios_de_la_cámara.json"
+  },
+  "timestamp": "20260914T040000Z"
+}

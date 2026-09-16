@@ -1,0 +1,42 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A5107",
+    "legislative_session": "222",
+    "subject": [
+      "HUMAN SVCS",
+      "STATE GOVT"
+    ],
+    "title": "Requires DHS to conduct review of reimbursement rates paid by State's child care assistance program to certain child care providers."
+  },
+  "id": "A5107",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported out of Assembly Committee, 2nd Reading",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-14T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5107"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5107"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "A5107"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A5107/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A5107/logs/20260914T040000Z_reported_out_of_assembly_committee_2nd_reading.json"
+  },
+  "timestamp": "20260914T040000Z"
+}
