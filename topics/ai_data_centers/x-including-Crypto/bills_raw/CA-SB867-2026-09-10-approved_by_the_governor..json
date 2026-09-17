@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law regulates the sale, manufacture, and exchange of toys in the state and prohibits the manufacture, sale, or exchange, possession with intent to sell or exchange, and exposition or offer for sale or exchange to a retailer a toy that is contaminated with a toxic substance, as provided. Violation of these provisions is punishable as a misdemeanor.\n\nExisting law requires an operator of a companion chatbot platform, as defined, to issue a clear and conspicuous notification indicating that the companion chatbot is artificially generated and not human if a reasonable person interacting with a companion chatbot would be misled to believe that the person is interacting with a human. For these purposes, existing law defines a \"companion chatbot\" to mean an artificial intelligence system with a natural language interface that provides adaptive, human-like responses to user inputs and is capable of meeting a user's social needs, including by exhibiting anthropomorphic features and being able to sustain a relationship across multiple interactions. Existing law also requires an operator to take certain actions with respect to a user the operator knows is a minor, including to disclose to the user that the user is interacting with artificial intelligence. Violation of these provisions is subject to civil liability.\n\nThis bill would, until January 1, 2031, prohibit the manufacture, sale, exchange, possession with intent to sell or exchange, and exposition or offer for sale or exchange to a retailer a toy, as defined, that includes a companion chatbot, and would make violations of the bill subject to the same civil liability as violations of the provisions applicable to operators of companion chatbots in the above-described paragraph.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB867",
+    "legislative_session": "20252026",
+    "subject": [
+      "Toys",
+      "companionchatbots"
+    ],
+    "title": "Toys: companion chatbots."
+  },
+  "id": "SB867",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-10",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB867"
+        }
+      ]
+    },
+    "bill_id": "SB867"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB867/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB867/logs/20260910T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260910T000000Z",
+  "posted_text": "🧠 CA SB867 — California Could Limit Chatbots in Toys\n\nCalifornia is considering a new rule that would ban the sale of toys that use companion chatbots – AI systems designed to mimic human conversation – until January 1, 2031. The bill aims to protect kids by requiring companies to clearly label these chatbots as artificial and prevent them from misleading users into thinking they’re talking to a real person. ...\n...",
+  "posted_link": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB867",
+  "posted_url": "https://x.com/i/web/status/2100658339117933021"
+}
