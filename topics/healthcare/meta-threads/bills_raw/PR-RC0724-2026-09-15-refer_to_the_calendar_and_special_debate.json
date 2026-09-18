@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "RC0724",
+    "legislative_session": "2025-2028",
+    "title": "Para ordenar a la Comisión de Salud de la Cámara de Representantes de Puerto Rico realizar una investigación exhaustiva y detallada sobre la crisis estructural y de personal en las Salas de Emergencia de la Isla, los tiempos de espera prolongados, el cumplimiento de la ley federal EMTALA, los protocolos de ‘triage’ ESI, el manejo inicial del dolor de los pacientes, la escasez crítica de personal médico, el impacto de la población de la tercera edad en las salas de emergencia, el financiamiento insuficiente del sistema de salud mediante el block grant de Medicaid, los cierres y desvíos hospitalarios, y todas las medidas necesarias para garantizar una atención oportuna, digna y efectiva en las emergencias médicas de la población puertorriqueña y de aquellos que nos visitan."
+  },
+  "id": "RC0724",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Remitido a Comisión de Calendarios y Reglas Especiales de Debate de la Cámara",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-15T04:00:00+00:00",
+      "session_id": "2025-2028",
+      "sources": [
+        {
+          "url": "https://sutra.oslpr.org/medidas/161480"
+        }
+      ]
+    },
+    "bill_id": "RC0724"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RC0724/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RC0724/logs/20260915T040000Z_remitido_a_comisión_de_calendarios_y_reglas_especiales_de_debate_de_la_cámara.json"
+  },
+  "timestamp": "20260915T040000Z",
+  "posted_text": "🩺 Healthcare\nPR RC0724 — Puerto Rico Wants Answers on Emergency Room Care\n\nThe Health Commission of Puerto Rico is launching a full investigation into the struggles facing the island’s emergency rooms. The inquiry will specifically examine long wait times, whether hospitals are following federal rules for treating patients, and the lack of doctors and funding. ...\n...",
+  "posted_link": "https://sutra.oslpr.org/medidas/161480",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DdaVc0VlMVI"
+}

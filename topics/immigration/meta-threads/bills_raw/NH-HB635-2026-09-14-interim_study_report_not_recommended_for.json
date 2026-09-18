@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB635",
+    "legislative_session": "2026",
+    "title": "relative to taxing non-profit entities who settle illegal immigrants as for-profit entities."
+  },
+  "id": "HB635",
+  "log": {
+    "action": {
+      "description": "Interim Study Report: Not Recommended for Future Legislation  09/02/2026 (Vote 18-0; )",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-14",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/advanced.aspx"
+        }
+      ]
+    },
+    "bill_id": "HB635"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB635/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB635/logs/20260914T000000Z_interim_study_report_not_recommended_for_future_legislation_09022026_vote_180.json"
+  },
+  "timestamp": "20260914T000000Z",
+  "posted_text": "🛂 Immigration\nNH HB635 — NH Could Tax Nonprofits Helping Illegal Immigrants\n\nNew Hampshire could start taxing non-profit organizations that assist in settling undocumented immigrants. The bill would redefine ‘business enterprise’ to include nonprofits involved in providing housing, financial aid, or legal assistance to individuals without legal immigration status. ...\n...",
+  "posted_link": "https://gc.nh.gov/bill_status/results.aspx?adv=2&txtbillno=HB635&txtsessionyear=2026",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DdaXiJzm-US"
+}
