@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 5418",
+    "legislative_session": "119",
+    "title": "A bill to amend the Internal Revenue Code of 1986 to exclude data centers from the definition of qualified opportunity zone businesses."
+  },
+  "id": "S 5418",
+  "log": {
+    "action": {
+      "description": "Read twice and referred to the Committee on Finance.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-16T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s5418.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-bill/5418"
+        }
+      ]
+    },
+    "bill_id": "S 5418"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/S5418/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/S5418/logs/20260916T040000Z_read_twice_and_referred_to_the_committee_on_finance.json"
+  },
+  "timestamp": "20260916T040000Z"
+}
