@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 3657",
+    "legislative_session": "119",
+    "title": "Hydropower Licensing Transparency Act"
+  },
+  "id": "HR 3657",
+  "log": {
+    "action": {
+      "description": "Passed Senate without amendment by Unanimous Consent.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-16T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr3657.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/3657"
+        }
+      ]
+    },
+    "bill_id": "HR 3657"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR3657/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR3657/logs/20260916T040000Z_passed_senate_without_amendment_by_unanimous_consent.json"
+  },
+  "timestamp": "20260916T040000Z"
+}

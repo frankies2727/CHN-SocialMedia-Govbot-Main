@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "The Department of Health and Social Services (DHSS), through the Division of Services for Aging and Adults with Physical Disabilities (DSAAPD), operates the Delaware Hospital for the Chronically Ill (DHCI), a Long-Term Care (LTC) facility in Smyrna, Delaware. DHCI is a facility of last resort for Delawareans that require a skilled nursing facility level of care and have no viable options for private nursing facility care.  \r\nThe Delaware Hospital for the Chronically Ill’s name no longer reflects the dignity of all residents who live there. The existing statute uses outdated and offensive language, often referring to residents as “inmates.” It does not align with current policies and procedures around operation and maintenance of DHCI or the skilled care, screening, and admission of its residents, nor does it recognize DHCI’s role as a skilled nursing facility that maintains a five-star rating from the Centers for Medicare and Medicaid Services (CMS). \r\n\r\nThis bill provides a technical update to reflect DHCI’s current practices, policies and procedures as a LTC facility of last resort. It strikes outdated language and aligns the statute with current DHCI, state, CMS practices and requirements. \r\n\r\nFinally, this bill renames the Delaware Hospital for the Chronically Ill to the Eleanor Cain Center. It will be named in honor of Eleanor Lee Cain, who served as the DSAAPD director from 1973 to 2001 and was a champion for older adults.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 281",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 31 AND TITLE 29 OF THE DELAWARE CODE RELATING TO TECHNICAL UPDATES FOR THE DELAWARE HOSPITAL FOR THE CHRONICALLY ILL."
+  },
+  "id": "SB 281",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-09-17",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143113"
+        }
+      ]
+    },
+    "bill_id": "SB 281"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB281/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB281/logs/20260917T000000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260917T000000Z"
+}

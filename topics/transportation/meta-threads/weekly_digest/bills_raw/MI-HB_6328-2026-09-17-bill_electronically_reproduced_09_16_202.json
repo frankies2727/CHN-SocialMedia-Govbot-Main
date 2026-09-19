@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6328",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "State agencies (existing): state",
+      "State: identification cards",
+      "Traffic control: driver license"
+    ],
+    "title": "Traffic control: driver license; citizenship mark; require. Amends sec. 4 of 2008 PA 23 (MCL 28.304).   TIE BAR WITH: HB 6329'26,  HB 6330'26"
+  },
+  "id": "HB 6328",
+  "log": {
+    "action": {
+      "description": "bill electronically reproduced 09/16/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-17",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6328"
+        }
+      ]
+    },
+    "bill_id": "HB 6328"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6328/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6328/logs/20260917T000000Z_bill_electronically_reproduced_09162026.json"
+  },
+  "timestamp": "20260917T000000Z"
+}
