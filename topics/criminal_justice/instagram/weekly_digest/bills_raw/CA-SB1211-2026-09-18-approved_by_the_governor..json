@@ -1,0 +1,42 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law provides for the prosecution of crimes by the district attorney of each county. Existing law establishes procedures for litigating claims of factual innocence based on newly discovered evidence, including a motion for a new trial or a writ of habeas corpus. \n\nThis bill would, if the district attorney accepts a case for postconviction review, as defined, authorize the district attorney to file a notice with the court notifying the court of the intent to investigate a claim of factual innocence. The bill would, upon the filing of the above-described notice, deem the case to be treated as if it were an open case for the purposes of investigating a claim of factual innocence. The bill would provide the district attorney with the power to issue subpoenas, compel the production of document and testimony, and file necessary motions to investigate claims, as specified. The bill would also require all materials obtained by the district attorney to be subject to a protective order, as specified, and to be disclosed to the petitioner or the petitioner's counsel within 60 days of the termination of the investigation.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1211",
+    "legislative_session": "20252026",
+    "subject": [
+      "Criminalprocedure",
+      "postconvictioninvestigation"
+    ],
+    "title": "Criminal procedure: postconviction investigation."
+  },
+  "id": "SB1211",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-18",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1211"
+        }
+      ]
+    },
+    "bill_id": "SB1211"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1211/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1211/logs/20260918T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260918T000000Z"
+}
