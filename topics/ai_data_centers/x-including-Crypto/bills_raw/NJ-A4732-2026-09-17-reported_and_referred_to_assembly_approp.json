@@ -1,0 +1,47 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A4732",
+    "legislative_session": "222",
+    "subject": [
+      "SCI AND TECH"
+    ],
+    "title": "Requires artificial intelligence companion operators to provide notifications that users are not communicating with human."
+  },
+  "id": "A4732",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Reported and Referred to Assembly Appropriations Committee",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-17T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A4732"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A4732"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A4732"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "A4732"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A4732/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A4732/logs/20260917T040000Z_reported_and_referred_to_assembly_appropriations_committee.json"
+  },
+  "timestamp": "20260917T040000Z",
+  "posted_text": "🧠 NJ A4732 — AI Companions Must Warn You It's Not Human\n\nNew Jersey is considering a rule that would require operators of artificial intelligence companion models – systems designed to mimic human relationships – to clearly notify users that they aren’t talking to a real person. The AI must provide this warning at the start of each interaction and repeat it every three hours. Companies violating this rule could face a $15,000 penalty. ...\n...",
+  "posted_link": "https://www.njleg.state.nj.us/bill-search/2026/A4732",
+  "posted_url": "https://x.com/i/web/status/2101723315866075616"
+}
