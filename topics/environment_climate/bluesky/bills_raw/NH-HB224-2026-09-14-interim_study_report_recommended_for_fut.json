@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB224",
+    "legislative_session": "2026",
+    "title": "relative to rebates to ratepayers from the renewable energy fund."
+  },
+  "id": "HB224",
+  "log": {
+    "action": {
+      "description": "Interim Study Report: Recommended for Future Legislation  09/02/2026 (Vote 11-7; )",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-14",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/advanced.aspx"
+        }
+      ]
+    },
+    "bill_id": "HB224"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB224/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB224/logs/20260914T000000Z_interim_study_report_recommended_for_future_legislation_09022026_vote_117.json"
+  },
+  "timestamp": "20260914T000000Z"
+}

@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SRES 868",
+    "legislative_session": "119",
+    "title": "A resolution recognizing September 20, 2026, as \"National LGBTQ+ Servicemembers and Veterans Day\"."
+  },
+  "id": "SRES 868",
+  "log": {
+    "action": {
+      "description": "Referred to the Committee on Veterans' Affairs.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-17T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/sres/BILLSTATUS-119sres868.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-resolution/868"
+        }
+      ]
+    },
+    "bill_id": "SRES 868"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/SRES868/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/SRES868/logs/20260917T040000Z_referred_to_the_committee_on_veterans_affairs.json"
+  },
+  "timestamp": "20260917T040000Z"
+}

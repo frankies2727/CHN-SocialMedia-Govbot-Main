@@ -151,6 +151,9 @@
     "US|HRES 1405|2026-06-30",
     "US|HRES 1405|2026-06-30|Referred to the House Committee on the J",
     "US|HRES 1405|2026-06-30|Submitted in House",
+    "US|SRES 868|2026-09-17",
+    "US|SRES 868|2026-09-17|Referred to the Committee on Veterans' A",
+    "US|SRES 868|2026-09-17|Submitted in Senate",
     "WA|SB 6081|2026-01-23|Executive action taken in the Senate Com",
     "WA|SB 6081|2026-01-23|Minority; do not pass.",
     "WA|SB 6081|2026-01-23|Minority; without recommendation.",
@@ -180,7 +183,7 @@
     "|SRES 789|2026-06-24|Referred to the Committee on the Judicia",
     "|SRES 789|2026-06-24|Submitted in Senate"
   ],
-  "last_run": "2026-09-16T19:10:02.478546+00:00",
+  "last_run": "2026-09-21T20:19:01.193468+00:00",
   "state_last_posted": {
     "WA": "2026-05-24T21:01:19.732360+00:00",
     "MO": "2026-06-14T16:01:24.801978+00:00",
@@ -196,6 +199,6 @@
     "NY": "2026-07-20T10:21:21.719626+00:00",
     "?": "2026-07-22T15:36:07.925056+00:00",
     "IL": "2026-07-29T19:01:40.266172+00:00",
-    "US": "2026-09-14T19:40:33.911996+00:00"
+    "US": "2026-09-21T20:18:31.342643+00:00"
   }
 }
