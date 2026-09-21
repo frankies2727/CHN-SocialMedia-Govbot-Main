@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A1545",
+    "legislative_session": "222",
+    "subject": [
+      "TRANSPORT"
+    ],
+    "title": "Concerns parking violations that obstruct NJT bus operations and bicycle lanes in certain circumstances."
+  },
+  "id": "A1545",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported out of Assembly Committee with Amendments, 2nd Reading",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-17T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A1545"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A1545"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A1545"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "A1545"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A1545/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A1545/logs/20260917T040000Z_reported_out_of_assembly_committee_with_amendments_2nd_reading.json"
+  },
+  "timestamp": "20260917T040000Z"
+}
