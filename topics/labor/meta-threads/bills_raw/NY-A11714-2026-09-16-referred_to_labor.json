@@ -1,0 +1,52 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Imposes an increased percentage of interest from 1.5% to 3%, or up to 5% for a pattern or practice of non-payment, and other civil penalties on certain employers or their workers compensation insurance carriers for non-payment of a bill for medical care or supplies."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A11714",
+    "legislative_session": "2025-2026",
+    "title": "Imposes higher percentage of interest and other civil penalties on certain employers or their workers compensation insurance carriers for non-payment of a bill for medical care or supplies"
+  },
+  "id": "A11714",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "REFERRED TO LABOR",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-16",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "LABOR"
+        }
+      ],
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11714?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/A11714"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=A11714&term=2025"
+        }
+      ]
+    },
+    "bill_id": "A11714"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11714/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11714/logs/20260916T000000Z_referred_to_labor.json"
+  },
+  "timestamp": "20260916T000000Z",
+  "posted_text": "🛠️ Labor & Workers' Rights\nNY A11714 — NY Employers Could Face Huge Fines for Delayed Medical Bills\n\nNew York is increasing penalties for employers and their worker’s compensation insurance carriers who fail to pay medical bills promptly. If a bill isn’t paid within 45 days of being delivered, the medical provider can ask the state board to step in and cover the cost. ...\n...",
+  "posted_link": "https://www.nysenate.gov/legislation/bills/2025/A11714",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DdiCWNPDuTF"
+}

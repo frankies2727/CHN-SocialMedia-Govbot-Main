@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "PS1459",
+    "legislative_session": "2025-2028",
+    "title": "Para enmendar el inciso (a) del Artículo 2 y el inciso (g) del Artículo 3 de la Ley 156-2006,\nsegún enmendada, denominada “Ley de Acompañamiento durante el Trabajo de\nParto, Nacimiento y Post-parto”, a los fines de esclarecer que durante el trabajo de\nparto, en las salas de preparto, en el parto y postparto, la persona parturienta tiene\nderecho a estar acompañada de la doula o persona adiestrada en medidas de\ncomodidad de su elección, además de los familiares o amigos que escoja libremente;\ny para decretar otras disposiciones complementarias."
+  },
+  "id": "PS1459",
+  "log": {
+    "action": {
+      "classifications": [
+        "withdrawal"
+      ],
+      "description": "Retirada por su Autor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-16T04:00:00+00:00",
+      "session_id": "2025-2028",
+      "sources": [
+        {
+          "url": "https://sutra.oslpr.org/medidas/162115"
+        }
+      ]
+    },
+    "bill_id": "PS1459"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PS1459/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PS1459/logs/20260916T040000Z_retirada_por_su_autor.json"
+  },
+  "timestamp": "20260916T040000Z",
+  "posted_text": "👩‍⚕️ Reproductive Rights\nPR PS1459 — Puerto Rico Clarifies Rights to Doulas During Labor\n\nPuerto Rico is expanding a woman’s right to have a doula or trained support person with her during labor, birth, and postpartum care. This change clarifies that the ‘Law of Accompaniment during Labor, Birth, and Postpartum’ allows for multiple companions, including doulas, alongside family and friends – even during a cesarean section. ...\n...",
+  "posted_link": "https://sutra.oslpr.org/medidas/162115",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DdiEc6cG8sA"
+}
