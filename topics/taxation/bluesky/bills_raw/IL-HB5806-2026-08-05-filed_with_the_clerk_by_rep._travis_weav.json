@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB5806",
+    "legislative_session": "104th",
+    "title": "SOCIAL MEDIA TAX-REPEAL"
+  },
+  "id": "HB5806",
+  "log": {
+    "action": {
+      "classifications": [
+        "filing"
+      ],
+      "description": "Filed with the Clerk by Rep. Travis Weaver",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-05",
+      "session_id": "104th",
+      "sources": [
+        {
+          "url": "https://ilga.gov/Legislation/BillStatus?DocNum=5806&GAID=18&DocTypeID=HB&LegId=168834&SessionID=114"
+        }
+      ]
+    },
+    "bill_id": "HB5806"
+  },
+  "sources": {
+    "bill": "il-legislation/country:us/state:il/sessions/104th/bills/HB5806/metadata.json",
+    "log": "il-legislation/country:us/state:il/sessions/104th/bills/HB5806/logs/20260805T000000Z_filed_with_the_clerk_by_rep_travis_weaver.json"
+  },
+  "timestamp": "20260805T000000Z"
+}
