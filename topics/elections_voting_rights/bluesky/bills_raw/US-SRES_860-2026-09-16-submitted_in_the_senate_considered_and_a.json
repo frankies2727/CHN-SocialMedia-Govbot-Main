@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SRES 860",
+    "legislative_session": "119",
+    "title": "A resolution recognizing September 15, 2026, as \"National Voter Registration Day\"."
+  },
+  "id": "SRES 860",
+  "log": {
+    "action": {
+      "description": "Submitted in the Senate, considered, and agreed to without amendment by Unanimous Consent.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-16T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/sres/BILLSTATUS-119sres860.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-resolution/860"
+        }
+      ]
+    },
+    "bill_id": "SRES 860"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/SRES860/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/SRES860/logs/20260916T040000Z_submitted_in_the_senate_considered_and_agreed_to_without_amendment_by_unanimous_consent.json"
+  },
+  "timestamp": "20260916T040000Z"
+}

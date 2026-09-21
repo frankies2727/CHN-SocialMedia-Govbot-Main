@@ -1,0 +1,41 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law provides that no later than 29 days before the day of an election, a voter using a vote by mail ballot may, before the polls close, vote the ballot at the office of the elections official or a satellite location. Existing law provides that a voter may vote their vote by mail ballot, without the identification envelope, in person at the office of the county elections official, a satellite location, the polling place designated for the voter's home precinct, or a vote center, as specified. Existing law provides that for a statewide election, a county that does not conduct an all-mailed ballot election must provide at least one early voting location for at least 6 hours on the Saturday before election day. Existing law requires the Secretary of State to prepare and publish the state voter information guide containing specified information.\n\nThis bill would require the Secretary of State to promulgate, and post on its internet website, regulations setting forth specified procedures that would allow a voter to vote their vote by mail ballot in person, including procedures to check in a voter, procedures to verify that the voter's vote by mail ballot is the correct ballot, procedures to ensure the secrecy of the voter's ballot, and procedures to ensure that a voter does not submit more than one vote by mail ballot without the identification envelope. The bill would require the Secretary of State, in promulgating these regulations, to take into consideration different voting technologies and systems used in other counties, and to consult with county registrars of voters and other election stakeholders. The bill would require the Secretary of State to include information about these vote by mail and early voting procedures in the state voter information guide.\n\nBy imposing new duties on county elections officials, this bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that, if the Commission on State Mandates determines that the bill contains costs mandated by the state, reimbursement for those costs shall be made pursuant to the statutory provisions noted above.\n\nThis bill would declare that it is to take effect immediately as an urgency statute.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1420",
+    "legislative_session": "20252026",
+    "subject": [
+      "Votebymailballotsandearlyvoting"
+    ],
+    "title": "Vote by mail ballots and early voting."
+  },
+  "id": "SB1420",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-19",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1420"
+        }
+      ]
+    },
+    "bill_id": "SB1420"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1420/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1420/logs/20260919T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260919T000000Z"
+}
