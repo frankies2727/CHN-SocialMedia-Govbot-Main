@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Relating to the scheduling of kratom alkaloids and kratom alkaloid derivatives as a schedule I controlled substance; to amend and reenact section 19‑03.1‑22.3 and subsection 7 of section 19‑03.1‑23 of the North Dakota Century Code, relating to penalties for the use and possession of kratom alkaloids and kratom alkaloid derivatives; to provide a penalty; and to provide an effective date.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 2408",
+    "legislative_session": "69",
+    "title": "A BILL for an Act to create and enact subdivision lll of subsection 3 of section 19-03.1-05 of the North Dakota Century Code, relating to the scheduling of kratom alkaloids and kratom alkaloid derivatives as a schedule I controlled substance; to amend and reenact section 19-03.1-22.3 and subsection 7 of section 19-03.1-23 of the North Dakota Century Code, relating to penalties for the use and possession of kratom alkaloids and kratom alkaloid derivatives; to provide a penalty; and to provide an effective date."
+  },
+  "id": "SB 2408",
+  "log": {
+    "action": {
+      "classifications": [
+        "reading-2"
+      ],
+      "description": "Second reading, failed to pass, yeas 46 nays 47",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-04",
+      "session_id": "69",
+      "sources": [
+        {
+          "note": "HTML bill detail page",
+          "url": "https://ndlegis.gov/assembly/69-2025/special-2/bill-overview/bo2408.html"
+        },
+        {
+          "note": "JSON page of session bills",
+          "url": "https://ndlegis.gov/api/assembly/69-2025/data/bills.json"
+        }
+      ]
+    },
+    "bill_id": "SB 2408"
+  },
+  "sources": {
+    "bill": "nd-legislation/country:us/state:nd/sessions/69/bills/SB2408/metadata.json",
+    "log": "nd-legislation/country:us/state:nd/sessions/69/bills/SB2408/logs/20260904T000000Z_second_reading_failed_to_pass_yeas_46_nays_47.json"
+  },
+  "timestamp": "20260904T000000Z"
+}

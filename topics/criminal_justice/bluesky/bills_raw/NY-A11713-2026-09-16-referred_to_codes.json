@@ -1,0 +1,49 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Includes certain violations involving physical, psychological, or emotional harm to a child as qualifying offenses for the purpose of imposing bail."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A11713",
+    "legislative_session": "2025-2026",
+    "title": "Includes certain violations involving children as qualifying offenses for the purpose of imposing bail"
+  },
+  "id": "A11713",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "REFERRED TO CODES",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-16",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "CODES"
+        }
+      ],
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11713?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/A11713"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=A11713&term=2025"
+        }
+      ]
+    },
+    "bill_id": "A11713"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11713/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11713/logs/20260916T000000Z_referred_to_codes.json"
+  },
+  "timestamp": "20260916T000000Z"
+}

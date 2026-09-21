@@ -1,0 +1,72 @@
+HB1612-FN-ASINTRODUCED
+2026SESSION
+07/06
+1612-FN
+HOUSEBILL
+ANACT relative to the use of price-fixing websites, algorithms, or other software by
+landlords.
+Hills.41
+COMMITTEE: Housing
+─────────────────────────────────────────────────────────────────
+ANALYSIS
+This bill makes the use of price-fixing software by landlords a violation of the consumer
+protection act and requires the department of justice to investigate complaints of the use of price-
+fixingsoftwarebylandlords.
+---------------------------------------------------------------------------
+Explanation: Matteraddedtocurrentlawappearsinbolditalics.
+Matterremovedfromcurrentlawappears[inbracketsandstruckthrough.]
+Matterwhichiseither(a)allnewor(b)repealedandreenactedappearsinregulartype.
+
+HB1612-FN-ASINTRODUCED
+07/06
+STATEOFNEWHAMPSHIRE
+IntheYearofOurLordTwoThousandTwenty-Six
+ANACT relative to the use of price-fixing websites, algorithms, or other software by
+landlords.
+BeitEnactedbytheSenateandHouseofRepresentativesinGeneralCourtconvened:
+1 New Subdivision; Rental Property Price Fixing. Amend RSA 358-A by inserting after section
+13thefollowingnewsubdivision:
+RentalPropertyPriceFixing
+358-A:14 PropertyPriceFixingSoftware.
+I. The use of any type of price-fixing software by any landlord shall constitute an unfair
+methodofcompetitionandadeceptiveactorpracticeinviolationofthischapter.
+II. Any person who suspects that a landlord has engaged, or is engaged in, the use of any
+type of price-fixing software may file a consumer complaint with the department of justice's
+consumerprotectionandantitrustbureau.
+III. The consumer protection and antitrust bureau shall investigate complaints of the use of
+price-fixingsoftwarebylandlordspursuanttoparagraphII.
+2 EffectiveDate. ThisactshalltakeeffectJanuary1,2027.
+
+LBA
+12/8/25
+HB1612-FN-FISCALNOTE
+ASINTRODUCED
+ANACT relative to the use of price-fixing websites, algorithms, or other software by
+landlords.
+FISCALIMPACT: Thisbilldoesnotprovidefunding,nordoesitauthorizenewpositions.
+Estimated State Impact
+FY2026 FY2027 FY2028 FY2029
+Revenue $0 $0 $0 $0
+RevenueFund(s) None
+Expenditures* $0 $72,000 $138,000 $140,000
+FundingSource(s) ConsumerProtectionFund
+Appropriations* $0 $0 $0 $0
+FundingSource(s) None
+*Expenditure=Costofbill *Appropriation=Authorizedfundingtocovercostofbill
+METHODOLOGY:
+This bill makes the use of price-fixing websites, algorithms, or other software by landlords a
+violation of the Consumer Protection Act and requires the Department of Justice’s Consumer
+ProtectionandAntitrustBureautoinvestigatecomplaintsallegingsuchconduct.
+The Department of Justice states this bill will result in an indeterminable increase in state
+expenditures beginning in FY 2027. The bill expands the Bureau’s responsibilities by requiring
+investigation and enforcement of a new category of unfair or deceptive practices under RSA 358-
+A. The Department anticipates an increase in the number of consumer complaints and
+investigationsbutcannotestimatethevolume. Toadministerthesecomplaints,theDepartment
+states it would require one additional full-time unclassified attorney. The cost of this position is
+$72,000inFY2027,reflectingonlyahalf-yearofexpensesbecausethebilliseffectiveJanuary1,
+2027. Thefull-yearcostis$138,000inFY2028and$140,000inFY2029.
+This bill does not authorize nor fund the requested position. However, if the position is
+authorized, it is assumed the costs for FY 2028 and FY 2029 would be included in the
+Department’sFY2028andFY2029operatingbudgetrequest.
+AGENCIESCONTACTED:
+DepartmentofJustice

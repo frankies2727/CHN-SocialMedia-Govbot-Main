@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, including, but not limited to, property tax law, the Sales and Use Tax Law, the Personal Income Tax Law, the Corporation Tax Law, the Motor Vehicle Fuel Tax Law, the law governing the taxation of insurers, the Use Fuel Tax Law, and the Diesel Fuel Tax Law, provides for tax expenditures, including exemptions, deductions, exclusions, and credits against the taxes imposed by those laws. \n\nThe bill would require the Legislative Analyst's Office (LAO) to comprehensively assess the major tax expenditures, as defined, of the state, write and publish a report on each major tax expenditure, and make a recommendation to the Legislature based on each report. In this regard, the bill would require LAO, as part of the comprehensive assessments, to identify any savings that the Legislature can realize by reducing or limiting the major tax expenditures, and require them to consider certain criteria when finalizing each report, including the extent to which the major tax expenditure is a cost-effective use of resources compared to other options to address the same purpose, intent, or goal.\n\nThe bill would require LAO to complete and publish on its internet website its first report on a major tax expenditure by January 1, 2028, and to complete and publish on its internet website each subsequent report on a major tax expenditure annually in a sequence determined by the office thereafter until the fifth and final report is submitted on January 1, 2032. The bill would require the Senate Committee on Revenue and Taxation and the Assembly Committee on Revenue and Taxation, to hold a joint public hearing on these reports by each August 15 of the second year of the legislative session, as specified. To the extent that LAO needs access to taxpayer data and information, the bill would require the Franchise Tax Board, the California Department of Tax and Fee Administration, and the Employment Development Department to ensure that relevant anonymized taxpayer data is made available and ensure that appropriate levels of data security and privacy protections are in place for transferred or sensitive data. The bill would repeal its provisions on January 1, 2033.\n\nThe bill would make findings and declarations relating to these provisions.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1349",
+    "legislative_session": "20252026",
+    "subject": [
+      "LegislativeAnalyst'sOffice",
+      "Taxation",
+      "assessment,report,andrecommendation",
+      "taxexpenditures"
+    ],
+    "title": "Taxation: tax expenditures: Legislative Analyst's Office: assessment, report, and recommendation."
+  },
+  "id": "SB1349",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-20",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1349"
+        }
+      ]
+    },
+    "bill_id": "SB1349"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1349/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1349/logs/20260920T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260920T000000Z"
+}

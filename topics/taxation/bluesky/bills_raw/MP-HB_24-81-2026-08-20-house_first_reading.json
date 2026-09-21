@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 24-81",
+    "legislative_session": "24",
+    "title": "To establish a Non-Profit Organization Tax Credit to incentivize individual and corporate contributions, promote philanthropic engagement, and ensure the long-term viability of organizations that provide essential services and enhance the quality of life for the people of the CNMI."
+  },
+  "id": "HB 24-81",
+  "log": {
+    "action": {
+      "classifications": [
+        "reading-1"
+      ],
+      "description": "House First Reading",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-20",
+      "session_id": "24",
+      "sources": [
+        {
+          "url": "https://cnmileg.net/leg_sts.asp?legID=20039&secID=1"
+        }
+      ]
+    },
+    "bill_id": "HB 24-81"
+  },
+  "sources": {
+    "bill": "mp-legislation/country:us/state:mp/sessions/24/bills/HB24-81/metadata.json",
+    "log": "mp-legislation/country:us/state:mp/sessions/24/bills/HB24-81/logs/20260820T000000Z_house_first_reading.json"
+  },
+  "timestamp": "20260820T000000Z"
+}
