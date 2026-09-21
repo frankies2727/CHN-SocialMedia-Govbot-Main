@@ -1,0 +1,46 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes the California Community Colleges, administered by the Board of Governors of the California Community Colleges, as one of the segments of public postsecondary education in the state. Existing law requires the board to appoint a chief executive officer, known as the Chancellor of the California Community Colleges. Existing law establishes community college districts throughout the state, under the administration of community college district governing boards, and authorizes these districts to provide instruction at the community college campuses they operate.\n\nThis bill, upon appropriation, would require the chancellor's office to implement the Future of Creative Industries Pilot Program, commencing on or before July 1, 2028, and to select up to 10 community colleges to participate in the pilot program, as specified. The bill would require the chancellor's office, on or before January 1, 2032, to submit a report to the Legislature evaluating the effectiveness of the pilot program, as provided. The bill would repeal this pilot program on January 1, 2033.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2504",
+    "legislative_session": "20252026",
+    "subject": [
+      "Communitycolleges",
+      "artificialintelligence",
+      "pilotprogram"
+    ],
+    "title": "Community colleges: artificial intelligence: pilot program."
+  },
+  "id": "AB2504",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-18",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2504"
+        }
+      ]
+    },
+    "bill_id": "AB2504"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2504/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2504/logs/20260918T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260918T000000Z",
+  "posted_text": "🧠 CA AB2504 — California Community Colleges Test AI Skills\n\nCalifornia’s community colleges are getting a pilot program to explore how artificial intelligence can help workers in creative industries like film and music.\n\nStarting in 2028, up to 10 community colleges will participate, offering reskilling and upskilling opportunities for workers facing potential job displacement due to AI.\n\nThe program, funded by a state appropriation, will run for 10 years, culminating in a report to the legislature in 2032 evaluating its success.\n\nThe program will focus on supporting workers in areas like sound engineering and concept art, and ensuring partnerships with labor unions and industry representatives shape the curriculum.\n\nThe pilot program will officially end on January 1, 2033.”\n\nSept. 18, 2026: Approved by the Governor.\n\n🔗 Read the full bill: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2504\n\n#AIDataCentersCrypto #California #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2504",
+  "posted_url": "https://www.instagram.com/p/DdkMTh8iWgb/"
+}

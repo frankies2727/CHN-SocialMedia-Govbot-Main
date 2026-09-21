@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 24-81",
+    "legislative_session": "24",
+    "title": "To establish a Non-Profit Organization Tax Credit to incentivize individual and corporate contributions, promote philanthropic engagement, and ensure the long-term viability of organizations that provide essential services and enhance the quality of life for the people of the CNMI."
+  },
+  "id": "HB 24-81",
+  "log": {
+    "action": {
+      "classifications": [
+        "reading-2"
+      ],
+      "description": "Senate Final Reading",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-08-25",
+      "session_id": "24",
+      "sources": [
+        {
+          "url": "https://cnmileg.net/leg_sts.asp?legID=20039&secID=1"
+        }
+      ]
+    },
+    "bill_id": "HB 24-81"
+  },
+  "sources": {
+    "bill": "mp-legislation/country:us/state:mp/sessions/24/bills/HB24-81/metadata.json",
+    "log": "mp-legislation/country:us/state:mp/sessions/24/bills/HB24-81/logs/20260825T000000Z_senate_final_reading.json"
+  },
+  "timestamp": "20260825T000000Z",
+  "posted_text": "💰 MP HB 24-81 — CNMI Businesses Could Get Tax Breaks for Charity Donations\n\nThe Northern Mariana Islands are considering a new tax credit to boost donations to local non-profits.\n\nBusinesses can claim a 50% tax credit, up to $5,000 for companies and $2,500 for individuals, on qualifying contributions to registered non-profits within the CNMI.\n\nTo qualify, organizations must be recognized by the IRS as 501(c)(3) charities and registered with the CNMI government.\n\nBusinesses must file detailed reports with the Division of Revenue and Taxation, and non-profits must provide donors with receipts.\n\nThe total amount of credits available is capped annually, and unused credits can be carried forward for up to five years.\n\nAug. 25, 2026: Senate Final Reading.\n\n🔗 Read the full bill: https://cnmileg.net/leg_sts.asp?legID=20039&secID=1\n\n#Taxation #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://cnmileg.net/leg_sts.asp?legID=20039&secID=1",
+  "posted_url": "https://www.instagram.com/p/DdkKFV9CQNn/"
+}

@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "PS1459",
+    "legislative_session": "2025-2028",
+    "title": "Para enmendar el inciso (a) del Artículo 2 y el inciso (g) del Artículo 3 de la Ley 156-2006,\nsegún enmendada, denominada “Ley de Acompañamiento durante el Trabajo de\nParto, Nacimiento y Post-parto”, a los fines de esclarecer que durante el trabajo de\nparto, en las salas de preparto, en el parto y postparto, la persona parturienta tiene\nderecho a estar acompañada de la doula o persona adiestrada en medidas de\ncomodidad de su elección, además de los familiares o amigos que escoja libremente;\ny para decretar otras disposiciones complementarias."
+  },
+  "id": "PS1459",
+  "log": {
+    "action": {
+      "classifications": [
+        "withdrawal"
+      ],
+      "description": "Retirada por su Autor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-16T04:00:00+00:00",
+      "session_id": "2025-2028",
+      "sources": [
+        {
+          "url": "https://sutra.oslpr.org/medidas/162115"
+        }
+      ]
+    },
+    "bill_id": "PS1459"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PS1459/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PS1459/logs/20260916T040000Z_retirada_por_su_autor.json"
+  },
+  "timestamp": "20260916T040000Z",
+  "posted_text": "👩‍⚕️ PR PS1459 — Puerto Rico Clarifies Women’s Rights During Labor & Birth\n\nPuerto Rico is strengthening protections for pregnant women during labor and childbirth.\n\nThis bill changes the law to explicitly state that women have the right to be accompanied during labor, birth, and postpartum by a doula or trained person of their choice, in addition to family and friends.\n\nPreviously, the law limited accompaniment to one person, leading to restrictive interpretations.\n\nThe amendment clarifies that this right extends to all stages of labor, including cesarean sections, and that women have the ultimate authority to decide whether or not to have a companion present.\n\nHospitals must still follow reasonable rules, but they must align with the spirit of this new law.\n\nSept. 16, 2026: Retirada por su Autor.\n\n🔗 Read the full bill: https://sutra.oslpr.org/medidas/162115\n\n#ReproductiveRights #PuertoRico #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://sutra.oslpr.org/medidas/162115",
+  "posted_url": "https://www.instagram.com/p/DdkJSLliTvp/"
+}
