@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law vests the Public Utilities Commission with regulatory authority over public utilities. Existing law authorizes the commission to fix the rates and charges for every public utility and requires that those rates and charges be just and reasonable.\n\nThis bill would require the commission to assess opportunities for rate structures to ensure data centers pay a reasonable share of their costs associated with transmission and distribution needs, ensure that data centers pay for their proportionate share of load increases and procurements needed to reliably serve their loads while maintaining consistency with the applicable integrated resource planning requirements, and alleviate cost pressures on residential ratepayers.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1168",
+    "legislative_session": "20252026",
+    "subject": [
+      "Datacenters",
+      "ratestructures"
+    ],
+    "title": "Data centers: rate structures."
+  },
+  "id": "SB1168",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-21",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1168"
+        }
+      ]
+    },
+    "bill_id": "SB1168"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1168/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1168/logs/20260921T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260921T000000Z",
+  "posted_text": "🏢 CA SB1168 — California Data Centers Could Face New Rate Hikes\n\nCalifornia’s Public Utilities Commission will now review data center energy costs to ensure they contribute fairly to the state’s rising electricity rates. The bill directs the commission to explore rate structures that cover data centers’ share of transmission and distribution costs, especially considering the impact of wildfire risks and the state’s clean energy transition. ...\n...",
+  "posted_link": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1168",
+  "posted_url": "https://x.com/i/web/status/2102476906281009310"
+}
