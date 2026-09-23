@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 0885",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Criminal procedure: indigent defense",
+      "State agencies (existing): licensing and regulatory affairs"
+    ],
+    "title": "Criminal procedure: indigent defense; parent and child legal representation commission; create. Creates new act."
+  },
+  "id": "SB 0885",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "referred to Committee on Judiciary",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-15",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-0885"
+        }
+      ]
+    },
+    "bill_id": "SB 0885"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0885/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0885/logs/20260915T000000Z_referred_to_committee_on_judiciary.json"
+  },
+  "timestamp": "20260915T000000Z"
+}

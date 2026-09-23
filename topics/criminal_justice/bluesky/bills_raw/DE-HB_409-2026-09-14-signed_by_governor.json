@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This adds knowingly “operating”, “conducting”, or “advertising” prostitution businesses as acts that constitute promoting prostitution in the second degree under under § 1352 of Title 11. This Act also defines “illicit massage establishment” and clarifies that a person may be guilty of promoting prostitution in the second degree under § 1352 of Title 11 for managing, supervising, and controlling an illicit massage establishment. Likewise, under this Act, a person may be guilty of promoting prostitution in the second degree for operating, conducting, or advertising an illicit massage establishment. \r\n\r\nThis Act defines “illicit massage establishment” as an establishment that facilitates prostitution using the cover of either of the following: \r\n(1) A massage establishment, as defined in § 5302 of Title 24.\r\n(2) A place where the practice of massage and bodywork, as defined in § 5302 of Title 24, is offered.\r\n\r\nThis Act’s definition is based on those used by national and state human trafficking prevention organizations. \r\n\r\nLaw enforcement has noted a trend where an illicit massage establishment is shut down only to be reopened again by the same operators. By ensuring it is clear that promoting prostitution in the second degree is an available offense to charge, this Act intends to dissuade the operation and reopening of illicit massage establishments. \r\n\r\nThis Act updates internal references elsewhere in the Code to account for the addition of subsections in § 1352 to remove the undesignated paragraph. This Act also makes technical corrections to conform existing law to the standards of the Delaware Legislative Drafting Manual.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 409",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 11 OF THE DELAWARE CODE RELATING TO PROSTITUTION."
+  },
+  "id": "HB 409",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-09-14",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143243"
+        }
+      ]
+    },
+    "bill_id": "HB 409"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB409/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB409/logs/20260914T000000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260914T000000Z"
+}

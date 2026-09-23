@@ -1,0 +1,42 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SCR14",
+    "legislative_session": "34",
+    "subject": [
+      "FAMILIES",
+      "HOUSING",
+      "LANDLORD & TENANT",
+      "MUNICIPALITIES",
+      "PROPERTY",
+      "TAXATION",
+      "TOURISM",
+      "UNIFORM RULES"
+    ],
+    "title": "Suspending Rules 24(c), 35, 41(b), and 42(e), Uniform Rules of the Alaska State Legislature, concerning House Bill No. 13, relating to optional municipal property tax exemptions for certain long-term rental units, certain mobile home parks, real property rented to low-income families, real property owned and occupied as a permanent place of abode, and real property owned by first-time homebuyers."
+  },
+  "id": "SCR14",
+  "log": {
+    "action": {
+      "description": "(S) PERMANENTLY FILED 9/22 LEGIS RESOLVE 58",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-22",
+      "session_id": "34",
+      "sources": [
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SCR14"
+        },
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SCR14#tab5_4"
+        }
+      ]
+    },
+    "bill_id": "SCR14"
+  },
+  "sources": {
+    "bill": "ak-legislation/country:us/state:ak/sessions/34/bills/SCR14/metadata.json",
+    "log": "ak-legislation/country:us/state:ak/sessions/34/bills/SCR14/logs/20260922T000000Z_s_permanently_filed_922_legis_resolve_58.json"
+  },
+  "timestamp": "20260922T000000Z"
+}

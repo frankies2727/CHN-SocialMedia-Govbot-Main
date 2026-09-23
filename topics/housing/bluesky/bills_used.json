@@ -1,6 +1,8 @@
 {
   "posted": [
     "AK|HB174|2025-07-30|(H) 12:05 P.M. 6/17/25 Transmitted to Go",
+    "AK|SCR24|2026-09-22",
+    "AK|SCR24|2026-09-22|(S) PERMANENTLY FILED 9/22 LEGIS RESOLVE",
     "AL|HB404|2026-03-18|Reported Out of Committee House of Origi",
     "AL|HB404|2026-03-19|Read for the Second Time and placed on t",
     "AL|HB404|2026-03-31|County and Municipal Government  Engross",
@@ -260,6 +262,9 @@
     "MI|SB 0022|2026-07-03|AMENDMENT(S) DEFEATED",
     "MI|SB 1051|2026-08-26",
     "MI|SB 1051|2026-08-26|SENATE CO-SPONSOR(S) NAMED: JEREMY MOSS",
+    "MI|SB 1124|2026-09-30",
+    "MI|SB 1124|2026-09-30|REFERRED TO COMMITTEE OF THE WHOLE",
+    "MI|SB 1124|2026-09-30|REPORTED FAVORABLY WITHOUT AMENDMENT 9/2",
     "MN|HF 3425|2026-03-05|Committee report, to adopt",
     "MN|HF 3425|2026-03-05|Second reading",
     "MN|HF 3437|2026-08-01",
@@ -443,11 +448,11 @@
     "|HR 9573|2026-07-02",
     "|HR 9573|2026-07-02|Referred to the House Committee on Ways "
   ],
-  "last_run": "2026-09-21T20:42:05.582076+00:00",
+  "last_run": "2026-09-23T19:18:31.392903+00:00",
   "state_last_posted": {
     "MS": "2026-06-16T12:04:58.783194+00:00",
     "PA": "2026-08-08T00:41:08.428059+00:00",
-    "AK": "2026-05-16T04:27:30.223995+00:00",
+    "AK": "2026-09-23T19:06:52.807634+00:00",
     "VT": "2026-05-16T04:27:30.223995+00:00",
     "GA": "2026-06-10T11:14:42.591437+00:00",
     "WA": "2026-06-20T10:08:27.556711+00:00",
@@ -470,7 +475,7 @@
     "?": "2026-07-20T10:17:55.275218+00:00",
     "SC": "2026-07-22T15:30:28.334409+00:00",
     "OH": "2026-07-22T15:30:28.334409+00:00",
-    "MI": "2026-09-07T19:18:56.796630+00:00",
+    "MI": "2026-09-23T19:06:52.807634+00:00",
     "NY": "2026-09-14T19:44:51.232593+00:00",
     "US": "2026-09-14T19:44:51.232593+00:00",
     "NE": "2026-09-07T19:18:56.796630+00:00"

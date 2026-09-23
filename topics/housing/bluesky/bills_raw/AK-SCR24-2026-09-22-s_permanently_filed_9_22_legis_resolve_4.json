@@ -1,0 +1,46 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SCR24",
+    "legislative_session": "34",
+    "subject": [
+      "BUILDINGS",
+      "BUSINESS",
+      "CONSTRUCTION",
+      "ECONOMIC DEVELOPMENT",
+      "FINANCIAL INSTITUTIONS",
+      "FUNDS",
+      "HOUSING",
+      "LAND",
+      "LEASES",
+      "LOANS",
+      "PUBLIC CORPORATIONS",
+      "UNIFORM RULES"
+    ],
+    "title": "Suspending Rules 24(c), 35, 41(b), and 42(e), Uniform Rules of the Alaska State Legislature, concerning House Bill No. 184, relating to financing by the Alaska Industrial Development and Export Authority for workforce housing development projects."
+  },
+  "id": "SCR24",
+  "log": {
+    "action": {
+      "description": "(S) PERMANENTLY FILED 9/22 LEGIS RESOLVE 40",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-22",
+      "session_id": "34",
+      "sources": [
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SCR24"
+        },
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SCR24#tab5_4"
+        }
+      ]
+    },
+    "bill_id": "SCR24"
+  },
+  "sources": {
+    "bill": "ak-legislation/country:us/state:ak/sessions/34/bills/SCR24/metadata.json",
+    "log": "ak-legislation/country:us/state:ak/sessions/34/bills/SCR24/logs/20260922T000000Z_s_permanently_filed_922_legis_resolve_40.json"
+  },
+  "timestamp": "20260922T000000Z"
+}
