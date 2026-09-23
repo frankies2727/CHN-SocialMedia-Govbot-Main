@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "RCC0206",
+    "legislative_session": "2025-2028",
+    "title": "Para ordenar a la Autoridad de Carreteras y Transportación de Puerto Rico (ACT) a confeccionar un inventario de todas las vallas publicitarias (“billboards”) en Puerto Rico, disponiéndose que el Departamento de Transportación y Obras Públicas (DTOP) y la Oficina de Gerencia de Permisos (OGPe) tendrán el deber ministerial de brindar toda asistencia, información y colaboración que le sea requerida por la ACT; dicho inventario deberá detallar si los rótulos cuentan con permisos de construcción y de uso vigentes, si fueron erigidos sin permiso, y si se encuentran en posible violación del Highway Beautification Act de 1965 o de cualquier otra ley o reglamento federal aplicable; y para otros fines relacionados."
+  },
+  "id": "RCC0206",
+  "log": {
+    "action": {
+      "description": "En el Calendario de Ordenes Especiales de la Cámara",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-21T04:00:00+00:00",
+      "session_id": "2025-2028",
+      "sources": [
+        {
+          "url": "https://sutra.oslpr.org/medidas/158637"
+        }
+      ]
+    },
+    "bill_id": "RCC0206"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RCC0206/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/RCC0206/logs/20260921T040000Z_en_el_calendario_de_ordenes_especiales_de_la_cámara.json"
+  },
+  "timestamp": "20260921T040000Z",
+  "posted_text": "🛣️ Transportation\nPR RCC0206 — Puerto Rico Changes Rules for Local Business Grants\n\nThe Puerto Rico House of Representatives approved a measure that will alter the process for distributing grants to local businesses. The vote resulted in 47 representatives voting in favor, 1 against, and 5 absent. The measure will change how local businesses can apply for and receive funding, but the specific details of the changes are not outlined in this report. ...\n...",
+  "posted_link": "https://sutra.oslpr.org/medidas/158637",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DdnPRUvFLf3"
+}

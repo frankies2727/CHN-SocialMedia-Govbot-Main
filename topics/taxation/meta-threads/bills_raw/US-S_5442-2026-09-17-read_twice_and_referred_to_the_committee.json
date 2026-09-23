@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 5442",
+    "legislative_session": "119",
+    "title": "A bill to amend the Congressional Budget Act of 1974 to provide that any estimate prepared by the Congressional Budget Office or the Joint Committee on Taxation shall include costs relating to servicing the public debt, and for other purposes."
+  },
+  "id": "S 5442",
+  "log": {
+    "action": {
+      "description": "Read twice and referred to the Committee on the Budget.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-17T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s5442.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-bill/5442"
+        }
+      ]
+    },
+    "bill_id": "S 5442"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/S5442/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/S5442/logs/20260917T040000Z_read_twice_and_referred_to_the_committee_on_the_budget.json"
+  },
+  "timestamp": "20260917T040000Z",
+  "posted_text": "💰 Taxation\nUS S 5442 — A bill to amend the Congressional Budget Act of 1974 to provide that any estimate prepared by the Congressional Budget Office or the Joint Committee on Taxation shall include costs relating to servicing the public debt, and for other purposes. ...\n...",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/senate-bill/5442",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DdnOWU8FNdj"
+}

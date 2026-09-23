@@ -27,6 +27,11 @@
     "NC|HB 1094|2026-07-07|Signed by Gov. 7/7/2026",
     "NH|SB627|2026-06-23|Enrolled (in recess of) 06/04/2026  HJ 1",
     "NH|SB627|2026-06-23|Enrolled Adopted, VV, (In recess 06/04/2",
+    "PR|RCC0206|2026-09-21",
+    "PR|RCC0206|2026-09-21|Aprobado con enmiendas del informe",
+    "PR|RCC0206|2026-09-21|Aprobado con enmiendas en sala",
+    "PR|RCC0206|2026-09-21|En el Calendario de Ordenes Especiales d",
+    "PR|RCC0206|2026-09-21|Texto de Aprobaci\u00f3n Final enviado al Sen",
     "RI|HB8593|2026-06-23|06/23/2026 Signed by Governor",
     "SC|S 586|2026-08-19",
     "SC|S 586|2026-08-19|Act No. 269",
@@ -45,7 +50,8 @@
     "NC": "2026-08-05T00:52:40.179452+00:00",
     "MD": "2026-08-12T00:41:07.323012+00:00",
     "US": "2026-08-21T00:31:12.538298+00:00",
-    "SC": "2026-09-14T01:54:03.702757+00:00"
+    "SC": "2026-09-14T01:54:03.702757+00:00",
+    "PR": "2026-09-23T02:22:33.557379+00:00"
   },
-  "last_run": "2026-09-14T01:58:17.065010+00:00"
+  "last_run": "2026-09-23T02:29:24.470648+00:00"
 }
