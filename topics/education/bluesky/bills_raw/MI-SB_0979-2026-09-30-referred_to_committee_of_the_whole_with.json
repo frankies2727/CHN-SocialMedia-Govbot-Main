@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 0979",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Retirement: other"
+    ],
+    "title": "Retirement: other; continuing education requirements for trustees; provide for. Amends sec. 13 of 1965 PA 314 (MCL 38.1133)."
+  },
+  "id": "SB 0979",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "REFERRED TO COMMITTEE OF THE WHOLE WITH SUBSTITUTE (S-1)",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-30",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-0979"
+        }
+      ]
+    },
+    "bill_id": "SB 0979"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0979/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0979/logs/20260930T000000Z_referred_to_committee_of_the_whole_with_substitute_s1.json"
+  },
+  "timestamp": "20260930T000000Z"
+}
