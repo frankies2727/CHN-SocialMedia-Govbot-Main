@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HJR W",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Constitutional amendments: state",
+      "Elections: candidates"
+    ],
+    "title": "Elections: candidates; eligibility of an independent citizens redistricting commissioner to run for office; modify.  Amends sec. 6, art. IV of the state constitution."
+  },
+  "id": "HJR W",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "reported with recommendation without amendment",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-22",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HJR-W"
+        }
+      ]
+    },
+    "bill_id": "HJR W"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HJRW/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HJRW/logs/20260922T000000Z_reported_with_recommendation_without_amendment.json"
+  },
+  "timestamp": "20260922T000000Z"
+}

@@ -70,6 +70,8 @@
     "CA|SB1360|2026-08-31",
     "CA|SB1360|2026-08-31|",
     "CA|SB1360|2026-08-31|Assembly amendments concurred in. (Ayes ",
+    "CA|SB1360|2026-09-19",
+    "CA|SB1360|2026-09-19|Approved by the Governor.",
     "CA|SB1414|2026-05-27|In Assembly. Read first time. Held at De",
     "CA|SB1414|2026-06-17|",
     "CA|SB1414|2026-06-17|From committee: Do pass as amended and r",
@@ -232,6 +234,9 @@
     "MI|HB 6318|2026-08-27|referred to Committee on Election Integr",
     "MI|HB 6318|2026-09-01",
     "MI|HB 6318|2026-09-01|bill electronically reproduced 08/27/202",
+    "MI|HJR W|2026-09-22",
+    "MI|HJR W|2026-09-22|referred to second reading",
+    "MI|HJR W|2026-09-22|reported with recommendation without ame",
     "MN|HF 3363|2026-03-09|Committee report, to adopt as amended an",
     "MN|HF 4240|2026-03-23|Committee report, to adopt as amended an",
     "MN|SF 1804|2026-02-17|Author stricken Mitchell",
@@ -323,13 +328,13 @@
     "|S 4884|2026-06-24",
     "|S 4884|2026-06-24|Read twice and referred to the Committee"
   ],
-  "last_run": "2026-09-21T20:15:59.050548+00:00",
+  "last_run": "2026-09-23T18:57:48.195881+00:00",
   "state_last_posted": {
     "MO": "2026-06-17T11:35:37.227681+00:00",
     "GA": "2026-06-24T10:24:44.602616+00:00",
     "NJ": "2026-07-10T10:10:02.120292+00:00",
     "MN": "2026-06-02T11:21:45.549047+00:00",
-    "CA": "2026-09-21T20:09:49.707991+00:00",
+    "CA": "2026-09-23T18:46:01.168223+00:00",
     "KS": "2026-06-15T13:03:54.499519+00:00",
     "AL": "2026-06-20T10:00:35.397762+00:00",
     "FL": "2026-06-17T11:35:37.227681+00:00",
@@ -345,7 +350,7 @@
     "IL": "2026-07-29T18:51:38.282191+00:00",
     "US": "2026-09-21T20:09:49.707991+00:00",
     "MD": "2026-08-18T02:30:51.076270+00:00",
-    "MI": "2026-09-02T18:20:26.073812+00:00",
+    "MI": "2026-09-23T18:46:01.168223+00:00",
     "NY": "2026-09-07T19:05:39.555869+00:00"
   }
 }

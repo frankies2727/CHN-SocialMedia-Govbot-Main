@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 4646",
+    "legislative_session": "119",
+    "title": "Whistleblower Protection Act of 2025"
+  },
+  "id": "HR 4646",
+  "log": {
+    "action": {
+      "description": "Received in the Senate and Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-16T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr4646.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/4646"
+        }
+      ]
+    },
+    "bill_id": "HR 4646"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR4646/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR4646/logs/20260916T040000Z_received_in_the_senate_and_read_twice_and_referred_to_the_committee_on_banking_housing_and_urban_aff.json"
+  },
+  "timestamp": "20260916T040000Z"
+}
