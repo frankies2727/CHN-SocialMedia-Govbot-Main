@@ -1,0 +1,52 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Includes certain violations involving physical, psychological, or emotional harm to a child as qualifying offenses for the purpose of imposing bail."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A11713",
+    "legislative_session": "2025-2026",
+    "title": "Includes certain violations involving children as qualifying offenses for the purpose of imposing bail"
+  },
+  "id": "A11713",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "REFERRED TO CODES",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-16",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "CODES"
+        }
+      ],
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11713?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/A11713"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=A11713&term=2025"
+        }
+      ]
+    },
+    "bill_id": "A11713"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11713/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11713/logs/20260916T000000Z_referred_to_codes.json"
+  },
+  "timestamp": "20260916T000000Z",
+  "posted_text": "💰 NY A11713 — Could You Be Released on Own Recognizance in a Crime Against a Child\n\nThis bill could change how a judge decides whether to release someone accused of harming a child.\n\nCurrently, prosecutors have to show a clear reason why a defendant committed a crime and any related crimes.\n\nThis bill would allow a judge to consider whether the crime – like theft or assault – was minor and not part of a larger criminal plan, potentially leading to release on own recognizance or with non-monetary conditions.\n\nSpecifically, the bill expands the types of crimes considered, including criminal possession of a firearm and causing physical, psychological, or emotional harm to a child under 18.\n\nIt also affects cases where a defendant is released on recognizance or a desk appearance ticket for a separate, related offense.\n\nSept. 16, 2026: Referred to Codes.\n\n🔗 Read the full bill: https://www.nysenate.gov/legislation/bills/2025/A11713\n\n#CriminalJusticePolicing #NewYork #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.nysenate.gov/legislation/bills/2025/A11713",
+  "posted_url": "https://www.instagram.com/p/DdpPOVYmyZj/"
+}

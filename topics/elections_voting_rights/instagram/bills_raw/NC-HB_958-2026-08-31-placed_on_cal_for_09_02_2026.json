@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 958",
+    "legislative_session": "2025",
+    "subject": [
+      "ARMED FORCES; AUDITING & AUDITS; BOARDS; CAMPAIGN FINANCE; CENSUS; CITIZENSHIP; COLLEGES & UNIVERSITIES; COMMUNITY COLLEGES; COMMUNITY COLLEGES BOARD; COUNCIL OF STATE; COUNTIES; COURTS; CRIMES; DATA & RECORDS SYSTEMS; DMV; DRIVERS LICENSES; EDUCATION; ELECTIONS; ELECTIONS BOARDS; ELECTIONS",
+      "STATE BOARD OF; EMERGING TECHNOLOGIES; EMPLOYMENT; HIGHER EDUCATION; ID SYSTEMS; INFORMATION TECHNOLOGY; LICENSES & PERMITS; LOBBYING; LOCAL GOVERNMENT; MORATORIUMS; MOTOR VEHICLES; NOTIFICATION; PACS; PERSONNEL; PILOT PROGRAMS; POLITICAL ACTIVITY; POLITICAL PARTIES; PRESENTED; PUBLIC; PUBLIC OFFICIALS; RATIFIED; REFERENDUM & INITIATIVE; REPORTING; REPORTS; SALARIES & BENEFITS; STEM; SESSION LAWS; STATE AUDITOR; STATE EMPLOYEES; STUDIES; VETOED; VOTER REGISTRATION; WAKE COUNTY; RECORDS; SUPERIOR COURT; GOVERNMENT EMPLOYEES; PRIMARIES; BALLOTS & BALLOT ISSUES; ARTIFICIAL INTELLIGENCE"
+    ],
+    "title": "Election Law Changes."
+  },
+  "id": "HB 958",
+  "log": {
+    "action": {
+      "description": "Placed On Cal For 09/02/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-31",
+      "session_id": "2025",
+      "sources": [
+        {
+          "url": "https://www.ncleg.gov/BillLookUp/2025/H958"
+        }
+      ]
+    },
+    "bill_id": "HB 958"
+  },
+  "sources": {
+    "bill": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB958/metadata.json",
+    "log": "nc-legislation/country:us/state:nc/sessions/2025/bills/HB958/logs/20260831T000000Z_placed_on_cal_for_09022026.json"
+  },
+  "timestamp": "20260831T000000Z",
+  "posted_text": "📝 NC HB 958 — NC Changes Rules on Voter Ballots & Early Voting\n\nNorth Carolina is updating its election rules.\n\nThe state board can’t use its role to push voters toward a specific political party.\n\nIf a voter’s registration challenge is upheld, their registration and any associated ballot will be canceled or corrected.\n\nFor early voting, counties must offer at least one site for every 30,000 registered voters, prioritizing geographic diversity.\n\nCounties can propose early voting plans, but the State Board can step in if a plan disproportionately favors a party or group.\n\nThe state will conduct a sample hand-to-eye count of paper ballots in every county, and the State Board Auditor will select the sample precincts for each election.\n\nFinally, absentee ballots will only be counted if two individuals witness their casting, and cure documentation must be received by the county board no later than 5:00 P.M.\n\non the third business day after the election.\n\nAug. 31, 2026: Placed On Cal For 09/02/2026.\n\n🔗 Read the full bill: https://www.ncleg.gov/BillLookUp/2025/HB958\n\n#ElectionsVotingRights #NorthCarolina #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.ncleg.gov/BillLookUp/2025/HB958",
+  "posted_url": "https://www.instagram.com/p/DdpQ6X-Afj3/"
+}
