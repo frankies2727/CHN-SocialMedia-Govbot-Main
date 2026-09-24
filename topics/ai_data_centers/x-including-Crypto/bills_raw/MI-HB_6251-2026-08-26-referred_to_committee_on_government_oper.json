@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6251",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Businesses: other",
+      "Energy: other"
+    ],
+    "title": "Businesses: other; energy infrastructure and thermal management evaluation requirements for certain data centers; provide for."
+  },
+  "id": "HB 6251",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "referred to Committee on Government Operations",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-08-26",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6251"
+        }
+      ]
+    },
+    "bill_id": "HB 6251"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6251/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6251/logs/20260826T000000Z_referred_to_committee_on_government_operations.json"
+  },
+  "timestamp": "20260826T000000Z",
+  "posted_text": "🏢 MI HB 6251 — Michigan Could Slow Down New Data Centers\n\nMichigan could require developers of large data centers to submit detailed energy and thermal management plans before construction begins. This new law would apply to data centers with a combined electrical load of 25 megawatts or more, or those expanding to meet that threshold. ...\n...",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6251",
+  "posted_url": "https://x.com/i/web/status/2103190653874114782"
+}

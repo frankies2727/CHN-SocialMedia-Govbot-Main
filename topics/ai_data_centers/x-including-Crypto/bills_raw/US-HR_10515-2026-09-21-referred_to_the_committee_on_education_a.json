@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10515",
+    "legislative_session": "119",
+    "title": "To establish a human-centered Federal framework for artificial intelligence in education and the workforce, promote the ethical and responsible teaching and learning of artificial intelligence, provide for equitable access to artificial intelligence-ready workforce development, safeguard student and worker data privacy, and for other purposes."
+  },
+  "id": "HR 10515",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the Committee on Education and Workforce, and in addition to the Committees on Science, Space, and Technology, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-21T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10515.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10515"
+        }
+      ]
+    },
+    "bill_id": "HR 10515"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10515/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10515/logs/20260921T040000Z_referred_to_the_committee_on_education_and_workforce_and_in_addition_to_the_committees_on_science_sp.json"
+  },
+  "timestamp": "20260921T040000Z",
+  "posted_text": "🧠 US HR 10515 — AI in Schools & Jobs: Congress Wants a New Plan\n\nCongress is proposing a national framework for how artificial intelligence is used in education and the workplace. The bill aims to teach students and workers about AI ethically, ensure everyone has access to training in AI skills, and protect personal data. It’s a first step toward shaping how AI impacts jobs and learning across the country. ...\n...",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-bill/10515",
+  "posted_url": "https://x.com/i/web/status/2103191481569759711"
+}

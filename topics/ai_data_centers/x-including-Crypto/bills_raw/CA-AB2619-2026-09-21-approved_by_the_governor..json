@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "(1) Existing law authorizes the legislative body of an incorporated city and the county board of supervisors to license businesses carried on within their respective jurisdictions and to set license fees, as specified.\n\nThis bill would require a person who owns or operates a data center, prior to applying to a city or a county for an initial business license, equivalent instrument, or permit, to provide its water supplier, under penalty of perjury, a good faith estimate of the expected water use, the anticipated source of water, and the data center's projected water use volume for the maximum day, maximum month, and average year. When applying to a city or county for an initial business license, the bill would require a person who owns or operates a data center to report, under penalty of perjury, on the application, a good faith estimate of the expected water use, the anticipated source of water, and the data center's projected water use volume for the maximum day, maximum month, and average year. When applying to a city or county for a renewal of a business license, equivalent instrument, or permit, the bill would require a person who owns or operates a data center to report, under penalty of perjury, on the application, the data center's annual water use for the preceding calendar year, including total water and direct water use, as prescribed. By expanding the crime of perjury, the bill would impose a state-mandated local program. The bill would define terms for purposes of these provisions.\n\n(2) Existing law, the Urban Water Management Planning Act, requires every public and private urban water supplier that directly or indirectly provides water for municipal purposes to prepare and adopt an urban water management plan. Existing law requires an urban retail water supplier to quantify past, current, and projected water use, identifying the uses among water use sectors, including, among others, commercial, agricultural, and industrial. Existing law requires every urban water supplier to prepare and adopt a water shortage contingency plan as part of its urban water management plan. Existing law requires the water shortage contingency plan to include the procedures used in conducting an annual water supply and demand assessment, including the key data inputs and assessment methodology used to evaluate the urban water supplier's water supply reliability for the current year and one dry year. Those key data inputs and assessment methodology used to evaluate water supply reliability include, among other things, current year unconstrained demand, considering certain factors.\n\nThis bill would specify that the current year unconstrained demand includes, but is not limited to, the unconstrained demand of data centers, irrigation, and other large water users.\n\n(3) The bill would include findings that changes proposed by this bill address a matter of statewide concern rather than a municipal affair and, therefore, apply to all cities, including charter cities.\n\n(4) The California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2619",
+    "legislative_session": "20252026",
+    "subject": [
+      "Waterresources",
+      "datacenters"
+    ],
+    "title": "Water resources: data centers."
+  },
+  "id": "AB2619",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-21",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2619"
+        }
+      ]
+    },
+    "bill_id": "AB2619"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2619/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2619/logs/20260921T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260921T000000Z",
+  "posted_text": "🏢 CA AB2619 — Data Centers Could Now Need to Reveal Water Use to California Cities\n\nCalifornia data centers could soon be required to provide detailed water usage reports to local cities and counties. This bill would mandate that data center operators, before getting a business license, estimate their water needs and source, and then report annual water use – including direct and indirect consumption – to local authorities. ...\n...",
+  "posted_link": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2619",
+  "posted_url": "https://x.com/i/web/status/2103192971294228965"
+}
