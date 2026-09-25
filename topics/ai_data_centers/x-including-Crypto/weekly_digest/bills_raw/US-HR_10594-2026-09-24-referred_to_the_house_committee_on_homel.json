@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10594",
+    "legislative_session": "119",
+    "title": "To require the Secretary of Homeland Security to carry out prize competitions to advance the science of interpretability and to develop adversarial robustness with respect to artificial intelligence products, and for other purposes."
+  },
+  "id": "HR 10594",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Homeland Security.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-24T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10594.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10594"
+        }
+      ]
+    },
+    "bill_id": "HR 10594"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10594/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10594/logs/20260924T040000Z_referred_to_the_house_committee_on_homeland_security.json"
+  },
+  "timestamp": "20260924T040000Z"
+}

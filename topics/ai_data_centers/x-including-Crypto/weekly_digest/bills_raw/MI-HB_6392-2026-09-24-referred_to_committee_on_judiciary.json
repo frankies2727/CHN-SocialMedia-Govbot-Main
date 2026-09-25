@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6392",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Torts: defenses",
+      "Torts: liability",
+      "Torts: other"
+    ],
+    "title": "Torts: liability; liability for artificial intelligence misidentification; establish. Amends 1961 PA 236 (MCL 600.101 - 600.9947) by adding sec. 2980."
+  },
+  "id": "HB 6392",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "referred to Committee on Judiciary",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-24",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6392"
+        }
+      ]
+    },
+    "bill_id": "HB 6392"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6392/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6392/logs/20260924T000000Z_referred_to_committee_on_judiciary.json"
+  },
+  "timestamp": "20260924T000000Z"
+}

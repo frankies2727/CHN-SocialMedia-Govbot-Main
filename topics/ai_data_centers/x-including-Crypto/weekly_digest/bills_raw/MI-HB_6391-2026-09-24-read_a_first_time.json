@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6391",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Businesses: other",
+      "Land use: zoning and growth management"
+    ],
+    "title": "Businesses: other; siting requirements for certain data centers; provide for. Creates new act.   TIE BAR WITH: HB 6388'26"
+  },
+  "id": "HB 6391",
+  "log": {
+    "action": {
+      "classifications": [
+        "reading-1"
+      ],
+      "description": "read a first time",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-24",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6391"
+        }
+      ]
+    },
+    "bill_id": "HB 6391"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6391/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6391/logs/20260924T000000Z_read_a_first_time.json"
+  },
+  "timestamp": "20260924T000000Z"
+}
