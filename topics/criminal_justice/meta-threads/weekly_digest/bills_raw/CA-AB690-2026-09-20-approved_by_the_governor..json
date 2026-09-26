@@ -1,0 +1,42 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law grants a defendant the right to counsel in a noncapital case, and requires a defendant to be represented by counsel in a capital case. Existing law requires specified assigned counsel to receive a reasonable sum for compensation and for necessary expenses, as determined by the court, to be paid out of the general fund of the county.\n\nThis bill would, commencing with contracts or memoranda of understanding for indigent defense services entered into after January 1, 2028, revise the process and require a county or court, when contracting for the provision or administration of indigent defense services, to include certain elements in the contract or other agreement for indigent services, as specified. The bill would prohibit a county or court from entering into flat fee contracts, as defined, or per case compensation contracts in cases involving the death penalty or the potential sentence of life without the possibility of parole. The bill would require the structure of the contract for indigent defense services to ensure that attorneys have the resources and time necessary to provide competent legal representation. The bill would require counties that contract with a private entity or law firm to provide indigent defense services to provide all those contracts to the Office of the State Public Defender every 2 years.\n\nThe bill would make related findings and declarations.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB690",
+    "legislative_session": "20252026",
+    "subject": [
+      "Criminalprocedure",
+      "indigentdefensecompensation"
+    ],
+    "title": "Criminal procedure: indigent defense compensation."
+  },
+  "id": "AB690",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-20",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB690"
+        }
+      ]
+    },
+    "bill_id": "AB690"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB690/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB690/logs/20260920T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260920T000000Z"
+}

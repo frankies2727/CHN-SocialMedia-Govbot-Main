@@ -1,0 +1,20 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A5151",
+    "legislative_session": "222",
+    "subject": [
+      "TRANSPORT"
+    ],
+    "title": "Prohibits surcharge on transportation network company riders for certain paratransit service."
+  },
+  "id": "A5151",
+  "log": {
+    "bill_id": "A5151"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A5151/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A5151/logs/20260924T040000Z.vote_event.pass.lower.json"
+  },
+  "timestamp": "20260924T040000Z.vote"
+}
