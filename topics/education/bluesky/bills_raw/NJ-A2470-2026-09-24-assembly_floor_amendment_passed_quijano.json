@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A2470",
+    "legislative_session": "222",
+    "subject": [
+      "EDUC FINANCE"
+    ],
+    "title": "Revises high school student financial aid application requirements."
+  },
+  "id": "A2470",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage"
+      ],
+      "description": "Assembly Floor Amendment Passed (Quijano) (Voice)",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-24T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A2470"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A2470"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A2470"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "A2470"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A2470/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A2470/logs/20260924T040000Z_assembly_floor_amendment_passed_quijano_voice.json"
+  },
+  "timestamp": "20260924T040000Z"
+}

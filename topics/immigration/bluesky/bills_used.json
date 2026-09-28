@@ -70,6 +70,9 @@
     "CA|SB1103|2026-07-02|From committee: Do pass as amended and r",
     "CA|SB1103|2026-07-02|Read second time and amended. Re-referre",
     "CA|SB1194|2026-06-16|",
+    "CA|SB1194|2026-09-27",
+    "CA|SB1194|2026-09-27|In Senate. Consideration of Governor's v",
+    "CA|SB1194|2026-09-27|Vetoed by the Governor.",
     "CA|SB1257|2026-05-26|In Assembly. Read first time. Held at De",
     "CA|SB1257|2026-07-01",
     "CA|SB1257|2026-07-01|From committee: Do pass and re-refer to ",
@@ -262,6 +265,8 @@
     "US|S 5371|2026-08-07|Read twice and referred to the Committee",
     "US|S 5427|2026-09-17",
     "US|S 5427|2026-09-17|Read twice and referred to the Committee",
+    "US|S 5485|2026-09-23",
+    "US|S 5485|2026-09-23|Read twice and referred to the Committee",
     "US|S 850|2026-08-10",
     "US|S 850|2026-08-10|Held at the desk.",
     "US|S 850|2026-08-10|Message on Senate action sent to the Hou",
@@ -311,7 +316,7 @@
     "|HRES 1409|2026-06-30|Referred to the House Committee on Overs",
     "|HRES 1409|2026-06-30|Submitted in House"
   ],
-  "last_run": "2026-09-23T18:57:33.619658+00:00",
+  "last_run": "2026-09-28T21:22:10.750732+00:00",
   "state_last_posted": {
     "VT": "2026-05-16T02:59:09.026935+00:00",
     "AK": "2026-05-16T02:59:09.026935+00:00",
@@ -327,7 +332,7 @@
     "WA": "2026-06-17T11:42:09.679093+00:00",
     "DE": "2026-09-09T18:16:48.306106+00:00",
     "MO": "2026-06-19T11:23:55.551242+00:00",
-    "CA": "2026-09-21T20:25:12.034796+00:00",
+    "CA": "2026-09-28T21:16:53.951743+00:00",
     "FL": "2026-06-18T13:38:20.220344+00:00",
     "TN": "2026-05-20T15:40:25.661860+00:00",
     "AL": "2026-06-16T12:01:24.706349+00:00",
@@ -336,6 +341,6 @@
     "PA": "2026-07-20T10:23:45.046537+00:00",
     "?": "2026-07-24T15:24:13.106444+00:00",
     "NC": "2026-09-02T18:37:32.981836+00:00",
-    "US": "2026-09-23T18:57:07.239183+00:00"
+    "US": "2026-09-28T21:16:53.951743+00:00"
   }
 }

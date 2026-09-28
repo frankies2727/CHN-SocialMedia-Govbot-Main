@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This Act seeks to address the undue burden placed on individuals who are required to surrender their driver's license due to a medical condition. Under current law, individuals must physically surrender their license, often during already traumatic circumstances, and are then, in some cases, required to purchase a separate identification card to maintain a valid form of ID during the suspension period. This Act allows a medically disqualified individual to retain the individual's physical driver’s license for identification purposes by signing an affidavit acknowledging the individual is prohibited from operating a motor vehicle. This approach balances public safety with compassion, streamlines administrative processes, and eliminates unnecessary costs for affected individuals.\r\n\r\nThis Act also makes technical corrections to existing law to conform to the standards of the Delaware Legislative Drafting Manual.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 388",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 21 OF THE DELAWARE CODE RELATING TO THE LOSS OF DRIVERS' LICENSES DUE TO MEDICAL ISSUES."
+  },
+  "id": "HB 388",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-09-08",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143186"
+        }
+      ]
+    },
+    "bill_id": "HB 388"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/HB388/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/HB388/logs/20260908T000000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260908T000000Z"
+}

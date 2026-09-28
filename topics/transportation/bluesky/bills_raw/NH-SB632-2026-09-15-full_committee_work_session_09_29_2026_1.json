@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB632",
+    "legislative_session": "2026",
+    "title": "relative to a certain highway sign in Concord."
+  },
+  "id": "SB632",
+  "log": {
+    "action": {
+      "description": "Full Committee Work Session: 09/29/2026 10:00 am GP 228",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-15",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=1272&inflect=2"
+        }
+      ]
+    },
+    "bill_id": "SB632"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB632/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/SB632/logs/20260915T000000Z_full_committee_work_session_09292026_1000_am_gp_228.json"
+  },
+  "timestamp": "20260915T000000Z"
+}
