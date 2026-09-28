@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10561",
+    "legislative_session": "119",
+    "title": "To amend the Workforce Innovation and Opportunity Act to address the economic and workforce impacts of substance use disorder."
+  },
+  "id": "HR 10561",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Education and Workforce.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-24T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10561.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10561"
+        }
+      ]
+    },
+    "bill_id": "HR 10561"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10561/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10561/logs/20260924T040000Z_referred_to_the_house_committee_on_education_and_workforce.json"
+  },
+  "timestamp": "20260924T040000Z",
+  "posted_text": "🧠 Healthcare\nUS HR 10561 — To amend the Workforce Innovation and Opportunity Act to address the economic and workforce impacts of substance use disorder. ...\n...",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-bill/10561",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/Dd0IhSKDuX6"
+}

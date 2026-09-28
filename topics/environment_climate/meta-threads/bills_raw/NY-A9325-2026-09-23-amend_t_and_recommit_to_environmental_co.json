@@ -1,0 +1,47 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Establishes a wastewater infrastructure and drinking water program for the purpose of making payments toward the replacement and rehabilitation of existing local municipally-owned and funded drinking water, storm water and sanitary sewer systems; makes an appropriation therefor of $5,000,000."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A9325",
+    "legislative_session": "2025-2026",
+    "title": "Relates to the wastewater infrastructure and drinking water program; appropriation"
+  },
+  "id": "A9325",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "referral-committee"
+      ],
+      "description": "AMEND (T) AND RECOMMIT TO ENVIRONMENTAL CONSERVATION",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-23",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A9325?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/A9325"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=A09325&term=2025"
+        }
+      ]
+    },
+    "bill_id": "A9325"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A9325/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A9325/logs/20260923T000000Z_amend_t_and_recommit_to_environmental_conservation.json"
+  },
+  "timestamp": "20260923T000000Z",
+  "posted_text": "💧 Environment & Climate\nNY A9325 — NY Establishes $5M Program for Water Systems\n\nNew York is creating a $5 million program to help local governments replace and rehabilitate drinking water, storm water, and sanitary sewer systems. The program will offer grants for initial planning of Clean Water State Revolving Fund projects and can be used for engineering reports, environmental reviews, and upgrades to systems addressing issues like nutrient removal or failing septic systems. ...\n...",
+  "posted_link": "https://www.nysenate.gov/legislation/bills/2025/A9325",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/Dd0ITeXDttm"
+}
