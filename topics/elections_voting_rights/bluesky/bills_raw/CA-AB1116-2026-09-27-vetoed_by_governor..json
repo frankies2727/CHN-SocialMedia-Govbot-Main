@@ -1,0 +1,42 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law authorizes a person who is qualified to register to vote and who has a valid California driver's license or state identification card to submit an affidavit of voter registration electronically on the Secretary of State's internet website. Existing law requires this affidavit to contain a statement that the county elections official must compare the affiant's signature on the identification envelope for the return of a vote by mail ballot with the signatures appearing in the voter's registration record, including the signature appearing on the applicant's driver's license or state identification card. The Secretary of State must require a person who submits such an affidavit to submit, among other things, the number from their California driver's license or state identification card.\n\nThis bill would additionally authorize a person who is qualified to register to vote to submit an affidavit of voter registration on the Secretary of State's internet website even if the person has not been issued a California driver's license or state identification card, as long as the person provides the last four digits of their social security number with their affidavit. The bill would require the Secretary of State to develop a method to collect an electronic image of the applicant's signature, and would require this collection method to be accessible to people with disabilities. The bill would additionally authorize a county elections official to compare the affiant's signature on the identification envelope for the return of a vote by mail ballot with this electronic image of the affiant's signature. The bill would authorize the Secretary of State to authenticate the identity of an applicant who electronically submits an affidavit of voter registration without providing a California driver's license or state identification card by verifying the last 4 digits of the applicant's social security number, the applicant's full name, and the applicant's date of birth. The bill would specify that its provisions become operative on January 1, 2029.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1116",
+    "legislative_session": "20252026",
+    "subject": [
+      "Elections",
+      "voterregistration"
+    ],
+    "title": "Elections: voter registration."
+  },
+  "id": "AB1116",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-veto"
+      ],
+      "description": "Vetoed by Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-27",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1116"
+        }
+      ]
+    },
+    "bill_id": "AB1116"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1116/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1116/logs/20260927T000000Z_vetoed_by_governor.json"
+  },
+  "timestamp": "20260927T000000Z"
+}
