@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10534",
+    "legislative_session": "119",
+    "title": "To preserve and protect multifamily housing properties assisted by the Secretary of Housing and Urban Development."
+  },
+  "id": "HR 10534",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Financial Services.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-24T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10534.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10534"
+        }
+      ]
+    },
+    "bill_id": "HR 10534"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10534/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10534/logs/20260924T040000Z_referred_to_the_house_committee_on_financial_services.json"
+  },
+  "timestamp": "20260924T040000Z"
+}

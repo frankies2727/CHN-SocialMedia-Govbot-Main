@@ -1,0 +1,49 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Requires notice of applications for major capital improvement rent increases to include a statement on the first page explaining in plain language the tenant's right to answer or reply and how a tenant may request an extension of time to submit such answer or reply."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A11710",
+    "legislative_session": "2025-2026",
+    "title": "Relates to notice of applications for major capital improvement rent increases"
+  },
+  "id": "A11710",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "REFERRED TO HOUSING",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-16",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "HOUSING"
+        }
+      ],
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11710?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/A11710"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=A11710&term=2025"
+        }
+      ]
+    },
+    "bill_id": "A11710"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11710/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11710/logs/20260916T000000Z_referred_to_housing.json"
+  },
+  "timestamp": "20260916T000000Z"
+}

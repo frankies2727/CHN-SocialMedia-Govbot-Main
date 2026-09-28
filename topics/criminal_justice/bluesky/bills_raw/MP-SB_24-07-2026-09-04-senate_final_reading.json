@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 24-07",
+    "legislative_session": "24",
+    "title": "Establish Police Reserve Unit within DPS"
+  },
+  "id": "SB 24-07",
+  "log": {
+    "action": {
+      "classifications": [
+        "reading-2"
+      ],
+      "description": "Senate Final Reading",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-04",
+      "session_id": "24",
+      "sources": [
+        {
+          "url": "https://cnmileg.net/leg_sts.asp?legID=19798&secID=2"
+        }
+      ]
+    },
+    "bill_id": "SB 24-07"
+  },
+  "sources": {
+    "bill": "mp-legislation/country:us/state:mp/sessions/24/bills/SB24-07/metadata.json",
+    "log": "mp-legislation/country:us/state:mp/sessions/24/bills/SB24-07/logs/20260904T000000Z_senate_final_reading.json"
+  },
+  "timestamp": "20260904T000000Z"
+}
