@@ -1,0 +1,49 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Provides that a communication or attorney work product otherwise protected by the attorney-client privilege or which otherwise shall not be obtainable by another party shall not lose its privileged or unobtainable character solely as a result of it being produced by, transmitted to, processed by, stored on, or otherwise facilitated through an artificial intelligence technology; requires authorization from the client to utilize artificial intelligence."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A11723",
+    "legislative_session": "2025-2026",
+    "title": "Relates to the use of artificial intelligence and attorney-client privilege and work product"
+  },
+  "id": "A11723",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "REFERRED TO JUDICIARY",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-16",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "JUDICIARY"
+        }
+      ],
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11723?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/A11723"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=A11723&term=2025"
+        }
+      ]
+    },
+    "bill_id": "A11723"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11723/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11723/logs/20260916T000000Z_referred_to_judiciary.json"
+  },
+  "timestamp": "20260916T000000Z"
+}

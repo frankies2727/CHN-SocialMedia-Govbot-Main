@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10600",
+    "legislative_session": "119",
+    "title": "To amend the Foreign Assistance Act of 1961 to authorize the use of Federal foreign assistance funds for comprehensive reproductive health care services, and for other purposes."
+  },
+  "id": "HR 10600",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Foreign Affairs.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-24T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10600.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10600"
+        }
+      ]
+    },
+    "bill_id": "HR 10600"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10600/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10600/logs/20260924T040000Z_referred_to_the_house_committee_on_foreign_affairs.json"
+  },
+  "timestamp": "20260924T040000Z"
+}
