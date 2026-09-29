@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6391",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Businesses: other",
+      "Land use: zoning and growth management"
+    ],
+    "title": "Businesses: other; siting requirements for certain data centers; provide for. Creates new act.   TIE BAR WITH: HB 6388'26"
+  },
+  "id": "HB 6391",
+  "log": {
+    "action": {
+      "description": "bill electronically reproduced 09/24/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-29",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6391"
+        }
+      ]
+    },
+    "bill_id": "HB 6391"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6391/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6391/logs/20260929T000000Z_bill_electronically_reproduced_09242026.json"
+  },
+  "timestamp": "20260929T000000Z",
+  "posted_text": "🏢 MI HB 6391 — New Rules Could Slow Down Data Center Construction in Michigan\n\nMichigan is creating a new process for building large data centers. This bill, dubbed the \"Data Center Siting and Community Protection Act,\" requires developers to get a ‘site certificate’ from each local government – county, city, or township – where they want to build. To get this certificate, companies must conduct detailed impact assessments, including studies of water, wetlands, farmland, and potential effects on local emergency services. ...\n...",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6391",
+  "posted_url": "https://x.com/i/web/status/2105010382754697246"
+}
