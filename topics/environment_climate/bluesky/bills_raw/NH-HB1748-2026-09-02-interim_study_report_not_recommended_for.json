@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB1748",
+    "legislative_session": "2026",
+    "title": "establishing the New Hampshire energy efficiency and resource development authority."
+  },
+  "id": "HB1748",
+  "log": {
+    "action": {
+      "description": "Interim Study Report: Not Recommended for Future Legislation  06/02/2026 (Vote 14-0; RC)",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-02",
+      "session_id": "2026",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/bill_Status/billinfo.aspx?id=1535&inflect=2"
+        }
+      ]
+    },
+    "bill_id": "HB1748"
+  },
+  "sources": {
+    "bill": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB1748/metadata.json",
+    "log": "nh-legislation/country:us/state:nh/sessions/2026/bills/HB1748/logs/20260902T000000Z_interim_study_report_not_recommended_for_future_legislation_06022026_vote_140_rc.json"
+  },
+  "timestamp": "20260902T000000Z"
+}

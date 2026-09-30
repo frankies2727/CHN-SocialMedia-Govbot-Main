@@ -1,0 +1,847 @@
+2026SESSION
+06/08
+1748-FN
+HOUSEBILL
+ANACT establishing the New Hampshire energy efficiency and resource development
+authority.
+COMMITTEE: Science,TechnologyandEnergy
+─────────────────────────────────────────────────────────────────
+ANALYSIS
+ThisbillestablishestheNewHampshireenergyefficiencyandresourcedevelopmentauthority.
+---------------------------------------------------------------------------
+Explanation: Matteraddedtocurrentlawappearsinbolditalics.
+Matterremovedfromcurrentlawappears[inbracketsandstruckthrough.]
+Matterwhichiseither(a)allnewor(b)repealedandreenactedappearsinregulartype.
+
+06/08
+STATEOFNEWHAMPSHIRE
+IntheYearofOurLordTwoThousandTwenty-Six
+ANACT establishing the New Hampshire energy efficiency and resource development
+authority.
+BeitEnactedbytheSenateandHouseofRepresentativesinGeneralCourtconvened:
+1 New Chapter; New Hampshire Energy Efficiency and Resource Development Authority.
+AmendRSAbyinsertingafterchapter362-Ithefollowingnewchapter:
+CHAPTER362-J
+NEWHAMPSHIREENERGYEFFICIENCYANDRESOURCEDEVELOPMENTAUTHORITY
+362-J:1 Purpose. The New Hampshire energy efficiency and resource development authority is
+established for the purposes of developing, planning, coordinating, and implementing energy
+efficiency programs and to provide for the preservation, establishment, and redevelopment of
+nuclearpowergenerationandrelatedindustriesinthestateto:
+I. Provide uniform, integrated planning, program design, and administration of energy
+efficiency programs pursuant to this chapter and any other provisions of law administered by the
+authority;
+II. Reduce energy costs, improve economic security, and benefit the state and local
+economies. The authority shall administer energy efficiency programs consistent with applicable
+requirements of this chapter and other law to help individuals and businesses meet their energy
+needsatthelowestcostandgenerallytoimprovetheeconomicsecurityofthestateby:
+(a) Reducing the cost of energy to residents by reducing the amount of energy necessary
+forthemtoobtainacomparablelevelofbenefit;
+(b) Maximizing the use of energy efficiency measures, including measures that improve
+the energy efficiency of energy-using systems, such as heating and cooling systems, and system
+upgradestoenergy-efficientsystemsthatrelyonaffordableenergyresources;
+(c) Reducingeconomicinsecurityfromtheinefficientuseoffossilandrenewablefuels;
+(d) Fostering growth and stability in New Hampshire industries that deliver energy
+efficiencyproductsandservices;
+(e) Enhancing heating improvements for households through implementation of
+efficiency programs, including affordable heating systems that will produce comfort, improve indoor
+air quality, reduce energy costs for those households, and reduce the need for future fuel assistance;
+and
+(f) Simplifying and enhancing consumer access to technical assistance and financial
+incentives relating to energy efficiency by merging or coordinating dispersed programs under a
+singleadministrativeunitpossessingindependentmanagementandexpertise.
+
+-Page2-
+III. Actively promote investment in energy efficiency measures and systems that use energy
+resourcesthatreduceoverallenergycostsforconsumersintheservicearea;and
+IV. Actively promote investment in and development of nuclear power generation and
+relatedindustriesandeducationalprogramswithinthestateto:
+(a) Create or preserve educational and employment opportunities in the fields of energy
+economics,mathematics,nuclearscience,technology,engineering,andmanufacturing;
+(b) Increase social and economic welfare of the state by diversifying non-fossil fuel and
+non-greenhousegasemittinggenerationtechnologieswithinthestate;and
+(c) Increase the economic welfare of the state by encouraging the development of highly
+dependablebaseloadgenerationtechnologiesthatattractdata-drivenindustryandjobs.
+362-J:2 Definitions. In this chapter, "authority" shall mean the New Hampshire energy
+efficiencyandresourcedevelopmentauthority.
+362-J:3 Establishment. There is hereby established the New Hampshire energy efficiency and
+resourcedevelopmentauthority, whichshallbeabodycorporateandpoliticalhavingadistinctlegal
+existenceseparatefrom thestateand not constitutingadepartment of stategovernment, havingthe
+powersandjurisdictionenumeratedinthischapterandsuchotherandadditionalpowersasshallbe
+conferred upon it by the legislature. The authority is hereby deemed to be a public instrumentality
+,and the exercise by the authority of the powers conferred upon it by the legislature shall be deemed
+and held to be the performance of public and essential governmental functions of the state. The
+authorityshallbeanonprofitcorporationorganizedunderRSA292.
+362-J:4 Board of Directors; Organization. The authority shall be governed by a board of 10
+directors.
+I. The10directorsshallinclude:
+(a) Thecommissionerofthedepartmentofenergyordesignee.
+(b) Thechairofthepublicutilitiescommissionordesignee.
+(c) Theconsumeradvocateordesignee.
+(d) Thecommissionerofthedepartmentofbusinessandeconomicaffairsordesignee.
+(e) TheexecutivedirectoroftheNewHampshirebusinessfinanceauthorityordesignee.
+(f) Thestatetreasurerordesignee.
+(g) Four public members appointed by the governor and confirmed by the executive
+council.
+II. Appointed members of the board of directors shall serve for 4-year terms. If a vacancy
+occurs among the appointed members of the board of directors, a new person shall be appointed,
+reviewed, and confirmed for a new 4-year term. A member of the board of directors may be
+reappointed.
+III. An appointed member of the board of directors may be removed at any time by the
+governorandcouncilforinefficiency,neglectofduty,ormalfeasanceinoffice.
+
+-Page3-
+IV. Members of the board of directors shall receive no compensation for their services but
+shall be reimbursed, or their agency shall be reimbursed, for actual and necessary expenses,
+includingtravelexpensesincurredinperformingtheirduties.
+V. Upon appointment of the members of the board of directors and annually thereafter, the
+members shall elect, from among the members, a chairman and a vice-chairman and shall designate
+oremployasecretary-treasurerwhoneednotbeamemberoftheboard.
+VI. The secretary-treasurer shall keep a record of the proceedings of the authority and the
+board of directors and shall be the custodian of all books, documents, and papers filed with the
+board,theminutebooksoftheboard,andtheauthority’sofficialseal.
+VII. A majority of the directors shall constitute a quorum; however, no power of the
+authority shall be exercised without a majority vote of the full board of directors except that the
+board may elect an executive committee of not fewer than 5 directors who, in intervals between
+meetings of the board, may transact such business of the authority as a majority of the full board
+mayauthorizefromtimetotime.
+362-J:5 Administration of the Authority. The authority shall employ an executive director,
+legal,financial,andtechnicalexperts,andotherpersonsasitmayrequire.
+I. The board shall use a full and competitive search process to select a qualified full-time
+executivedirector. Theexecutivedirectorshallserveatthepleasureoftheboard.
+II. Thedirector:
+(a) Servesasthepresidentoftheauthorityandastheliaisonbetweentheboardandany
+state agency, committee of the legislature having jurisdiction over energy matters, the governor’s
+office,andtheexecutivecouncil.
+(b) Isresponsiblefor:
+(1) Establishingtheofficesoftheauthority;
+(2) Hiringandorganizingstafffortheauthorityanddeterminingtheirqualifications
+andduties;
+(3) Managing the authority’s programs, services, staff, contracts, funding and
+finances,andperformingotherdutiesastheboardconsidersappropriate,and
+(4) May delegate to employees of the authority any powers and duties that the
+executivedirectorconsidersproper.
+362-J:6 Powers. The authority shall have all the powers and privileges normally accorded a
+corporation under RSA Chapter 292 and necessary to protect the interests of energy customers and
+the authority and to perform its purposes under this chapter, except that the authority may not
+perform any activity prohibited by this chapter or borrow money except as provided in RSA 362-C:8,
+VI.
+362-J:7 Energy Efficiency Service Area Limited. The authority shall provide energy efficiency
+services only to distribution customers of retail electric and natural gas public utilities, as public
+
+-Page4-
+utilities are defined in RSA 362:2, and the New Hampshire electric cooperative, except for funding
+projects by local governments that have their own municipal utilities to the extent that funds are
+allocated to the authority by the department of energy pursuant to RSA 125-O:23, III for that
+purpose.
+362-J:8 Funding.
+I. The authority’s energy efficiency budget shall be funded through the system benefits
+chargeestablishedinRSA374-F:3;theenergyefficiencyfundestablishedpursuanttoRSA125-O:23;
+revenues available from wholesale energy and ancillary services markets operated by ISO-NE; local
+gas distribution adjustment charges, funds granted or subcontracted by state or federal agencies,
+interest, and return on investments; and the authority’s resource development budget shall be
+fundedthroughloanand bondrevenues, guaranteefund deposits,funds grantedor subcontracted by
+state or federal agencies, interest, and return on investment. The authority may apply for and may
+receivegrantsfrommunicipal,state,federal,andprivatesourcesiftheboardofdirectorsdetermines
+that receipt of those funds is consistent with the purposes of this chapter. The authority shall
+deposit and maintain any funds it receives in a banking institution or institutions approved by the
+state treasurer for that purpose. Once received by the authority, funds shall not require governor
+andexecutivecouncilapprovalforexpenditureexceptasspecificallyprovidedinthischapter.
+II. The energy efficiency portions of the system benefits charge and the local distribution
+adjustment charge shall be set at the level existing on the date energy efficiency program
+management transfers from the utilities to the authority, such date to be determined by the
+department of energy. The energy efficiency portion of the system benefits charge and local
+distribution adjustment charges shall adjust annually beginning the following January 1 and shall
+be calculated using the most recently available 3-year average of the consumer price index (CPI-W)
+as published by the Bureau of Labor Statistics of the United States Department of Labor as
+determined and verified by thedepartment of energy. Upon noticefrom the department of energy of
+a change in the system benefits charge or local distribution adjustment charges, utilities subject to
+public utilities commission rate regulation shall submit tariff amendments to the commission
+altering solely the system benefits charge and local distribution adjustment charge as described,
+which, if accurate, the commission shall permit to go into effect within 30 days without notice or
+hearing. Retail electric and natural gas public utilities, as public utilities are defined in RSA 362:2,
+and the New Hampshire electric cooperative shall pay over to the authority no less frequently than
+monthly the energy efficiency portions of the system benefits charge and local distribution
+adjustmentchargecollectedfromtheircustomers.
+III. Any funds generated by the sale of energy efficiency resources into ISO-New England
+markets, including the forward capacity market by retail electric and natural gas utilities, as public
+utilities are defined in RSA 362:2, and the New Hampshire electric cooperative shall be paid over to
+theauthorityupontheirreceipt.
+
+-Page5-
+IV. The department of energy shall grant to the authorityregional greenhouse gas initiative
+auctionfundsreceivedbythestateinaccordancewithRSA125-O:23.
+V. Any state entity may grant, subgrant, or subcontract funds to, or contract with, the
+authority for the purposes of this chapter and may do so without conducting a competitive
+solicitation.
+VI. Any gift received by the authority for the purposes of this chapter shall be considered a
+gifttothecorporationandnotagifttothestate.
+VII. The authority is authorized to accept suchmoneys as may beappropriated from time to
+time by the legislature to organize and for carrying out its corporate purpose. The authority shall
+repay the state all sums that are appropriated to the authority for organizational purposes in 5
+annualinstallments,beginningwiththefifthyearafterthereceiptofsuchfunds.
+VIII. The authority shall have the discretion to utilize funds generated or received as it
+determineswiththefollowingrestrictions:
+(a) No more than 10 percent of funds received annually by the authority may be used to
+fundtheauthority’scostsofadministeringtheauthorityanditsprograms.
+(b) No less than $400,000 of system benefits charge funds collected annually shall be
+usedtopromulgatethebenefitsofenergyefficiency.
+(c) No less than 20 percent of system benefits charge and local distribution adjustment
+chargefundscollectedannuallyshallbeexpendedonlow-incomeenergyefficiencyprograms.
+(d) No less than 15 percent of funds allocated by the department of energy annually
+pursuanttoRSA125-O:23,IIIshallbeexpendedonlow-incomeenergyefficiencyprograms.
+(e) No less than $2,000,000 per calendar year of funds allocated by the department of
+energyannuallypursuanttoRSA125-O:23,IIImaybeexpendedformunicipalandlocalgovernment
+energy efficiency projects, including projects by local governments that have their own municipal
+utilities.
+(f) Any of the funds described in (a)-(f) that remain at the end of the calendar year shall
+rolloverandbeaddedtothenewcalendaryearfundaccount.
+(g) The revenues received by and due to the authority from any and all sources under
+this chapter shall be retained by the authority and shall be used in such manner as may be
+determined by the authority consistent with the provisions of this chapter. The authority may
+expendsaidfundsinconnectionwithtransactionsandprojectsconsummatedorreasonablyexpected
+tobeconsummatedundertheprovisionsofthischapterasitshalldetermineinitssolediscretion. It
+is the intent of the legislature that the authority be self-funding and that payment of its operating
+expensesshallnotrequirestateappropriationexceptasprovidedinRSA362-C:8,VI.
+362-J:9 Exemption from Public Meeting Laws and Administrative Procedure Act; Rulemaking
+Authority. The authority shall be exempt from the provisions of RSA Chapter 91-A and RSA
+Chapter 541-A but may adopt rules in accordance with its own procedures to facilitate, implement,
+
+-Page6-
+andcarryoutthepowers,duties,andpurposesoftheauthorityenumeratedinthischapterand such
+otherandadditionalpowersandpurposesasshallbeconferreduponit.
+362-J:10 Relation to Other Agencies. The financial and administrative operations of the
+authorityshallbeexemptfromtherulesofanydepartment,commission,board,bureau,oragencyof
+thestateexcepttotheextentandinthemannerprovidedinthischapter. Unlessastateagencyisa
+party, purchases made by and contracts entered into by the authority shall be made or let without
+regardtoanyprovisionoflawormanualofproceduresapplicabletotheacceptanceorexpenditureof
+statefunds.
+362-J:11 GeneralDuties.
+I. The authority shall develop and implement electric and natural gas energy efficiency
+programstohelpreduceenergycostsforelectricityandnaturalgasconsumersintheserviceareaby
+the maximum amount possible. The authority shall establish and, on a schedule determined by the
+authority, revise objectives and an overall energy strategy for energy efficiency programs. Programs
+implemented by the authority must be consistent with the objectives and an overall strategy
+developedbytheauthority,becosteffective,andbeapprovedbytheboard. Theauthorityshallseek
+to encourage efficiency in electricity and natural gas use, provide incentives for the development of
+new, energy-efficient business activity, and take into account the costs and benefits of energy
+efficiency to existing business activity in the service area. The authority shall consider, without
+limitation,programsthat:
+(a) Increaseconsumerawarenessofcost-effectiveoptionsforconservingenergy;
+(b) Create more favorable market conditions for the increased use of energy-efficient
+productsandservices;
+(c) Promote sustainable economic development in industries that provide energy
+efficiencyproductsandservices;
+(d) Reduce the price of electricity and natural gas over time for all consumers by
+reducing or shifting demand for electricity or balancing load, including by the implementation of
+beneficialelectrificationandenergystoragesystems;and
+(e) Reduce total energy costs for electricity and natural gas consumers in the service
+areabyincreasingtheefficiencywithwhichenergyisconsumed.
+II. The authority shall develop quantifiable performance metrics for all energy efficiency
+programs it administers, and to which it will hold accountable all recipients of funding and
+recipients of funds used to deliver energy and energy efficiency programs administered or funded by
+the authority. Such performance metrics may include, but are not limited to, reduced energy
+consumption; increased use of alternative energy resources; reduced heating cost; reduced capacity
+demand for natural gas, electricity, and fossil fuels; reduced carbon dioxide emissions, program, and
+overhead costs and cost-effectiveness, the number of new jobs created by the award of authority
+
+-Page7-
+funds;thenumberofenergyefficiencytrainingsorcertificationcoursescompletedandtheamountof
+salesgenerated.
+III. In cooperation and partnership with the retail electric and gas distribution public
+utilities, as public utilities are defined in RSA 362:2 and the New Hampshire electric cooperative,
+the authority shall develop and provide information on its programs and other options to promote
+energyefficiencytoenergyconsumers.
+IV. The authority shall develop, and the board shall vote on, a detailed, triennial plan that
+includesthequantifiableperformancemetricsdevelopedunder RSA362-C:11,II. Thetriennial plan
+must provide integrated planning, program design, and implementation strategies for all energy
+efficiency administered by the authority. The triennial plan must include provisions for the
+application of appropriate program funds to support workforce development efforts that are
+consistent with and promote the purposes of the authority. The plan must take into consideration
+the comprehensive state energy strategy developed pursuant to RSA 12-P:7-a. The plan must
+include, but is not limited to, efficiency program budget allocations, objectives, targets, performance
+metrics, program designs, program implementation strategies, timelines, and other relevant
+information.
+(a) The triennial plan must be developed by the authority in consultation with entities
+and agencies engaged in delivering efficiency programs in the service area. The triennial plan must
+target the maximum achievable cost-effective energy efficiency savings achievable given available
+funds and the percentage funding necessary to be given to low-income customers to enable them to
+obtain the benefits of energy efficiency, the costs and benefits of such programs, and the basis and
+supportforsuchidentifiedcostsandbenefits.
+(1) Retail electric and natural gas public utilities, as public utilities are defined in
+RSA 362:2 and the New Hampshire electric cooperative shall furnish data to the authority that the
+authority requests under this section to develop and implement the triennial plan or conduct the
+evaluation of all cost-effective potential for electrical and natural gas energy efficiency savings
+subject to such confidential treatment as a utility may request and the board determines
+appropriate. The costs of providing the data are deemed reasonable and prudent expenses of
+utilitiesthatarerateregulatedbythepublicutilitiescommissionandarerecoverableinrates.
+(2) Unless prohibited by federal law, the department of energy and the department
+of health and human services shall furnish to the authority data pertaining to the identity, location,
+and contact information, but not including income or asset information, of households that qualify
+for low-income programs, as determined necessary by the authority to develop and implement the
+triennial plan and to evaluate program effectiveness. Data received pursuant to this subparagraph
+isdeemedconfidential.
+(b) Indevelopingthetriennialplan,thestaffoftheauthorityshallconsulttheboardand
+providetheopportunityfortheboardtoprovideinputondraftsoftheplan.
+
+-Page8-
+(c) In developing the triennial plan, the authority shall provide the joint standing
+committees of the legislature having jurisdiction over energy matters an opportunity to provide
+inputontheplan,whichmayoccuratthesametimetheauthorityconsultswithotherentitiesinthe
+developmentoftheplan.
+(d) The board shall review and approve the triennial plan by affirmative vote of a
+majority of a quorum of the board members upon a finding that the plan is consistent with the
+statutory authority for each source of funds that will be used to implement the plan, advances
+energy efficiency, reflects the best practices of program administration, and is consistent with the
+provisions of this section. The board may approve the entire plan or approve portions of the plan
+andrejectothers.
+(e) The board shall determine the period to be covered by the triennial plan except that
+the period of the plan may not interfere with the delivery of any existing contracts to provide energy
+efficiency services that were previously procured pursuant to efficiency programs administered by
+thepublicutilitiescommission.
+(f) It is an objective of the triennial plan to design, coordinate, and integrate sustained
+energy efficiency programs that are available to all electricity and gas consumers within the service
+areaoftheauthority. Theplanmustsetforththecostsandbenefitsoftheauthority’sprogramsthat
+advancethepurposeofthischapter.
+(g) Within 90days of completionof the annual report under RSA362-J:15, the executive
+director shall submit to the board an annual update plan describing any significant changes to the
+triennial plan related to program budget allocations, goals, targets, performance metrics, program
+designs, implementation strategies, timelines, and other relevant information for the year ahead for
+all funds administered and managed by the authority. The executive director or any contractor,
+grantee, or agency delivering programs may not execute any significant changes until the changes
+areapprovedbytheboard.
+(h) Approved triennial annual update plans must be provided to the department of
+energy, public utilities commission, and the joint standing committees of the Legislature having
+jurisdictionoverenergymatters.
+V. The authority shall promote the implementation of generation III-plus and generation IV
+nuclear generation in the state, including but not limited to public outreach, workforce education
+programming, feasibility studies, component manufacturing, assembly, and construction and
+operation.
+362-J:12 Implementation of Energy Efficiency Programs. The authority may arrange the
+delivery of energy efficiency programs by contracting with service providers. The authority shall
+selectserviceprovidersinaccordancewiththissection.
+I. Theauthorityshallselectserviceprovidersthroughacompetitivebiddingprocess.
+
+-Page9-
+II. To the extent practicable, the authority shall encourage the development of resources,
+infrastructure,andskillswithinthestatebygivingpreferencetoin-stateserviceproviders.
+III. Notwithstanding RSA 362-C:12, I, the authority may select a service provider for one or
+more energy efficiency programs, including low-income programs, without employing a competitive
+biddingprocessiftheauthoritydeterminesthattheselectionoftheserviceproviderwillpromotethe
+efficientandeffectivedeliveryofenergyefficiencyprogramsandisconsistentwiththeobjectivesand
+overallstrategyoftheenergyefficiencyprograms.
+362-J:13 Independent Analysis of Energy Efficiency Programs. The authority shall arrange for
+an independent evaluation of each major energy efficiency program implemented under this section.
+Each major program must be evaluated at least once every 5 years. The evaluation must include an
+accounting audit of the program and an evaluation of the program’s effectiveness in meeting the
+goalsof this chapter. Theevaluations must beconducted byacompetent professional withexpertise
+in energy efficiency matters, including the management of cost-effective energy efficiency programs.
+The authority shall include the results of all evaluations conducted under this section in the annual
+report submitted pursuant to RSA 362-C:15. For purposes of this section, “major program” means a
+programwithanannualbudgetofmorethan$500,000.
+362-J:14 Financial Audits. The authority shall cause its accounts to be audited by an
+independent certified public accountant selected by the authority at least annually. The authority
+shall submit acopy of the most recent audit as part of the annual report submitted pursuant to RSA
+362-C:15.
+362-J:15 ReportingRequirements. Theauthorityshallprovideaboard-approvedreportbyApril
+1 of each year to the governor, department of energy, public utilities commission, the joint standing
+committees of the legislature having jurisdiction over energy matters, and the state treasurer. The
+reportmustinclude:
+I. A description of actions taken by the authority pursuant to this chapter, including
+descriptions of all energy efficiency programs and resource development initiatives implemented
+during the prior 12 months and all programs and initiatives that the authority plans to implement
+duringthenext12months.
+II. A description of how the authority determines the cost-effectiveness of each energy
+efficiency program and its assessment of the cost-effectiveness of energy efficiency programs
+implementedduringtheprior12months.
+III. Anaccountingof:
+(a) Fundsreceivedbysourceduringtheprior12months;
+(b) Fundsexpendedonadministrationduringtheprior12months;
+(c) Funds expended by energy efficiency programs and resource development initiatives
+duringtheprior12months;
+(d) Aprojectionoffundstobereceivedandfundstobeexpendedforthenext12months;
+
+-Page10-
+(e) An accounting of electric and gas efficiency gained during the prior 12 months and to
+date in terms of kilowatt hours and British thermal units per year and in terms of the performance
+of the authority in meeting the objectives, targets, and performance metrics approved by the board
+andcontainedinthetriennialplanandanyplanupdates;
+(f) An accounting of jobs created or saved by industry type in the prior 12 months and
+therelatedwagesandbenefitslevels;and
+(g) Anyrecommendationsforchangestothelawsrelatingtoenergyefficiency.
+362-J:16 Revolving Loan Programs. The authority may establish one or more revolving loan
+programstopromotethepurposesofthischapterandallocatefundingasappropriate.
+I. Loan programs shall be appropriately targeted consistent with the requirements
+governing the use of source funds and in accordance with the provisions of this chapter. The
+authorityshallkeepseparateaccountsandrecordsforeachloanprogram.
+II. The authority shall credit all repayment of loans, including interest, penalties, and other
+feesandrelatedchargestothespecificloanprogramaccounttowhichitrelates.
+III. Money allocated to a revolving loan program that is not needed to meet the current
+obligations of that program should be invested in a manner approved by the state treasurer.
+Interest received on that investment must be credited to that specific revolving loan program
+account.
+IV. Loans shall be made on terms and conditions as the authority shall deem necessary or
+desirable, including, without limitation, provisions requiring that collateral be pledged to secure the
+loan, restrictions on the use of loan proceeds, restrictions on the use, operation, or transferability of
+any project financed or assisted by the loan, controls on the requisition of loan proceeds, appropriate
+events of default, provisions for payment to the authority of origination fees, late charges and
+additionalinterest onoverduepayments of principal, interest or other charges, appropriatefinancial
+covenants,andprovisionsfortheestablishmentofreservesfortheprojectortheloan.
+V. At the end of each calendar year, all unencumbered balances in a specific loan program
+account must be carried forward to be used to support that revolving loan program until that loan
+programisdiscontinued.
+362-J:17 GuaranteeofLoansforNuclearGeneration-RelatedIndustryDevelopment.
+I. Upon recommendation of the authority for the proper implementation of the declared
+purposes of this chapter, the governor and council may award a state guarantee of the principal of,
+interest on, and related reasonable collection expenses and costs of any loan made by a private
+financial institution for the development of any nuclear generation business or any business in the
+state that solely supports the nuclear generation business, including nuclear design-build firms,
+nuclear generation facility component construction firms, that is or will be operating in the state,
+providedthatthebusinessisalsoreceivingfundingfromtheUnitedStatesDepartmentofEnergyin
+theformofaloan,loanguarantee,grant,voucherorsimilarforthesameorrelatedprojectthatisor
+
+-Page11-
+will be operating in the state. Such guarantee may be up to 90 percent of the portion of the loan not
+guaranteed by another entity, or $20,000,000, whichever is less. The authority may execute and
+deliver any agreement or document required by the United States Department of Energy to
+implement the guarantee program authorized in this section. The full faith and credit of the state
+may be pledged for any such guarantee. In addition, the guarantee shall also include interest and
+relatedreasonablecollectionexpensesandcosts.
+II. The state's guarantee of a loan under this section shall be evidenced by a guarantee
+agreement entered into by the state, the lending financial institution, and the borrower. Such
+guarantee agreement shall contain such terms and conditions as the authority and the governor and
+council may impose, including, without limitation, restrictions on the use of loan proceeds,
+restrictions on the use and operation of any project financed or assisted by the loan, appropriate
+controls on the requisition of loan proceeds by the borrower, provisions for the state to demand
+acceleration of the payment of the loan in the event of a default by the borrower, provisions for
+payment to the authority of guarantee fees and reimbursement of costs and expenses, provisions for
+reimbursement of the state if the state is required to honor the guarantee, appropriate financial
+covenants, and provisions for the establishment of reserves. In addition, as a condition of awarding
+any guarantee, the state shall be subrogated to all of the rights and security of the lending financial
+institution to the extent it honors the guarantee. Any guarantee agreement authorized in
+accordance with this section shall be executed on behalf of the state by the executive director of the
+authority. Thegovernor, withtheadviceand consentof thecouncil,is authorized todraw awarrant
+for such sum as may be necessary out of money in the state treasury not otherwise appropriated, for
+thepurposeofhonoringanyguaranteeawardedunderthissection.
+III. The sum of the guarantees issued to any one borrower by both the authority and other
+entities shall not exceed $222,222,222 of principal. The total principal amount of any loan or loans
+guaranteed under this section made to one borrower to finance working capital shall not exceed
+$2,000,000. In addition, the guarantee shall also include interest and related reasonable collection
+costsandexpenses.
+IV. The amount of any guarantee awarded under this section shall be reduced in proportion
+toanyreductionintheprincipalbalanceoftheloan.
+V. Before awarding any state guarantee of a loan under this section, the governor and
+council,afterahearing,shallhavemadethefollowingfindings:
+(a) The award of the state guarantee will contribute significantly to the success of the
+loanissuanceandtheauthority'sprogramsunderthischapter.
+(b) Reasonableandappropriatemeasureshavebeentakentominimizetheriskoflossto
+the state and to ensure that any private benefit from the award of the guarantee shall be only
+incidentaltothepublicpurposeservedthereby.
+
+-Page12-
+(c) Any hearing held under this section shall be for the information of the governor and
+council and shall not be treated as determining the rights, duties, or privileges of any entity or
+person. The governor and executive council shall not be required to conduct adjudicative
+proceedingsunderRSA541inconnectionwithanyactiontakenunderthissection.
+362-J:18 Guarantee Fund Established. In order to provide additional security to the state for
+any loan guarantees made under RSA 362-C:17 and bond guarantees under RSA 362-C:22, there is
+herebyestablishedaloanguaranteereservefund,whichshallbeheldbytheauthorityapartfromall
+of its other funds, and which shall be deemed irrevocably pledged to secure all loans guaranteed
+under RSA 362-C:17 and RSA 362-C:22. Whenever a loan guarantee is awarded under RSA 362-
+C:17, the authority, the borrower, the lending financial institution, any purchaser of the loans, or
+any appropriate combination of them shall deposit in such fund an amount equal to not less than 10
+percent of the guaranteed portion of the principal of the loan or loans. If a state guarantee is called
+upon to be honored, the authority, upon direction of its treasurer, shall draw upon such fund for the
+purpose of honoring such guarantee, and only when amounts in the fund are exhausted shall the
+governor be called upon to draw a warrant pursuant to RSA 362-C:17, II or RSA 362-C:22, I.
+Interest earned on amounts invested in the fund shall be accumulated therein or paid to the
+authorityuponitsdirection. Ifearningsarepaidtotheauthority,theymaybeusedbytheauthority
+to fund the guarantee fund. The authority may enter into such trust agreements, depository
+agreements, or other arrangements with one or more financial institutions approved by the state
+treasurerinordertocarryoutthepurposesofthissection.
+362-J:19 LoansforNuclearandNuclear-RelatedIndustryDevelopment.
+I. The authority may lend money to a business in the state that solely supports the nuclear
+generation business, including nuclear design-build firms, nuclear generation facility component
+construction firms, and the like, that is or will be operating in the state. Any such loan shall be on
+such terms and conditions as prescribed by the authority and shall be evidenced by a promissory
+notegivenbythebusinesstotheauthority. Inaddition, priortomakinganyloan,theauthorityand
+the business shall enter into a loan agreement specifying the terms and conditions of the loan. Any
+loan agreement shall specify the terms of repayment of the loan, provide for the payment of an
+appropriate interest rate, and obligate the business to pay all the costs and expenses of upkeep,
+maintenance, and operation of the project being financed. A loan agreement may also provide such
+terms and conditions as the authority shall deem necessary or desirable, including, without
+limitation, provisions requiring that collateral be pledged to secure the loan, restrictions on the use
+ofloanproceeds,restrictionsontheuseandoperationofanyprojectfinancedorassistedbytheloan,
+controls on the requisition of loan proceeds, appropriate events of default, provisions for payment to
+the authority of origination fees, late charges and additional interest on overdue payments of
+principal, interest or other charges, appropriate financial covenants, and provisions for the
+establishmentofreservesfortheprojectortheloan.
+
+-Page13-
+II. Anyloanmadeunderthissectionshallmeetthefollowingminimumrequirements:
+(a) The total principal amount of any loan or loans made to one borrower under this
+sectionshallnotexceed$2,000,000.
+(b) The final maturity date of any loan or loans, including renewals, shall not be later
+thanthelaterof3yearsfromthedatetheloanismade.
+III. The authority shall not make any loan or enter into any loan agreement under this
+section unless, after a hearing, the governor and council have made the findings specified in RSA
+162-A:18.
+362-J:20 IssuanceofBonds.
+I. The authority may issue bonds pursuant to this section which shall be obligations of the
+authority and not general obligations of the state, except as provided in RSA 162-A:17. Such bonds
+maybeissued from time totimeconsistent withthe purposes and provisions of this chapter to make
+loans to businesses under RSA 362-C:17, to make contributions to the loan guarantee fund under
+RSA 362-C:18, to pay or refund any bonds issued pursuant to this section or interest thereon, or to
+pay the costs and expenses of the authority. The principal of, and premium, if any, and interest on
+all bonds shall be payable solely by the authority in accordance with the provisions of this chapter.
+The bonds shall be issued by the authority in such amounts as the board shall determine, not
+exceeding in the aggregate at any time $25,000,000. Bonds of each issue shall be dated, shall bear
+interest at such rate or rates, including rates variable from time to time as determined by such
+index, banker's loan rate, or other method as may be determined by the authority, and shall mature
+at such time or times as may be determined by the authority, except that no bonds shall mature
+more than 30 years from their date of issue. Bonds may be made redeemable before maturity either
+at the option of the authority or at the option of the holder, or upon the occurrence of specified
+events, at suchprice or prices and under such terms and conditions as may be fixed by the authority
+prior to the issuance of the bonds. The authority shall determine the form and details of the bond.
+Thebondsmaybesoldinsuchmanner,eitheratpublicorprivatesale,forsuchprice,atsuchrateor
+ratesofinterest,oratsuchdiscountinlieuofinterestastheauthoritymaydetermine.
+II. Every bond shall be signed on behalf of the authority by 2 persons designated by the
+authority. One person shall be a member of the board who is also the chairperson of the board, or
+the vice chairperson of the board, or the treasurer of the authority. The other person shall be any
+member of the board or the executive director of the authority. The signatures may be manual or
+facsimile, but at least one signature on every bond shall be manual, unless the bond bears a manual
+authentication or certification by a bank, trust company, or other financial institution, in which case
+both signatures on behalf of the authority may be facsimile. Interest coupons, if any, shall bear the
+facsimile signature of one of the persons signing the bond on behalf of the authority. Bonds shall
+also bear the seal of the authority or a facsimile of the seal. Bonds executed as provided in this
+
+-Page14-
+paragraph shall be valid notwithstanding that any or all of the persons whose signatures appear on
+thebondshallhaveceasedtoholdofficebeforedeliveryofandpaymentforthebond.
+III. Any bonds issued under this chapter may be issued pursuant to and entitled to the
+benefits of a security document between the authority and a corporate trustee, which may be any
+trust company or bank having the powers of a trust company within or without the state, or by a
+security document directly between the authority and the purchasers of the bonds. Such security
+document shall be in such form and executed in such manner as may be determined by the board.
+Such security document may include the mortgage, pledge, or grant of a security interest in any
+property of the authority and may pledge or assign, in whole or in part, the revenues held or to be
+receivedbytheauthority,anycontract orotherrights toreceivetherevenues,whetherthenexisting
+or thereafter coming into existence and whether then held or thereafter acquired by the authority,
+and any proceeds thereof. Such security documents may contain provisions for protecting and
+enforcingtherights,security,andremediesofthebondholdersasmay,inthediscretionoftheboard,
+be reasonable and proper and not in violation of law. Such security documents may include
+provisions defining defaults and providing for remedies in the event of defaults, which may include
+the acceleration of maturities and the enforcement of any mortgage, pledge or security interest, and
+covenants setting forth the duties of, and limitations on, the authority in relation to the custody,
+safeguarding, investment, and application of moneys, the issue of additional or refunding bonds, the
+fixing,revisionandcollectionoffeesandotherrevenues,theuseofbondproceeds,theestablishment
+of reserves, the acquisition of any property or interest therein or undertaking of any project, any
+contracts relating thereto and subsequent amendments of such provisions and contracts. It shall be
+lawful for any bank or trust company to act as a depository or trustee of the proceeds of bonds,
+revenues, or other moneys under a security document and to furnish such indemnification or to
+pledge such securities and issue such letters or lines of credit or credit facilities as may be required
+by the authority acting under the paragraph. Any such security document may set forth the rights
+and remedies of bondholders and of the trustee and may restrict the individual right of action by
+bondholders.
+IV. Any bonds issued under authority of this chapter may be issued pursuant to lines of
+credit or other banking arrangements under such terms and conditions not inconsistent with this
+chapter, and under such agreements with the purchasers or makers thereof, as the board may
+determine to be in the best interests of the authority. In addition to other security provided herein
+or otherwise by law, bonds issued by the authority under this section may be secured, in whole or in
+part, by insurance or by letters or lines of credit or other credit facilities issued to the authority by
+any bank, trust company, or other financial institution, within or without the state, and the
+authoritymaymake anypledge, mortgage, assignment, or security interest inrespect of its property
+and revenues as security for the reimbursement by the authority to the issuers of such letters or
+linesofcredit,insuranceorcreditfacilities,oranypaymentsmadethereunder.
+
+-Page15-
+V. Anymortgage,pledge,orsecurityinterestmadebytheauthorityunderthischaptershall
+be valid and binding and shall be deemed continuously perfected for the purposes of RSA 382-A and
+all other laws from the time when the mortgage, pledge, or security interest is made. The property
+or revenues so mortgaged, pledged, or subjected to a security interest then held or thereafter
+acquired or received by the authority shall immediately be subject to the lien of such mortgage,
+pledge, or security interest without any physical delivery or segregation thereof or further act. The
+lien of such mortgage, pledge, or security interest shall be valid and binding against all parties
+having claims of any kind in tort, contract, or otherwise against the authority, irrespective of
+whether such parties have notice thereof. No such property or revenues may be used in a manner
+inconsistent with the terms governing such mortgage, pledge, or security interest. Any agreement
+by which a pledge or security interest in personal property is created under this chapter shall be
+filed or recorded in the records of the secretary of state. Any mortgage or other agreement by which
+a security interest in real property is created under this chapter shall be filed with the register of
+deedsforthecountyinwhichsuchpropertyislocated.
+VI. Any owner of a bond issued under the provisions of this section and any trustee under a
+securitydocument securing thesame, except tothe extent therights given inthis paragraph may be
+restricted by such security document, may bring suit upon the bonds and may, either at law or in
+equity, by suit, action, mandamus, or other proceeding for legal or equitable relief, protect and
+enforce any and all rights under the laws of the state granted hereunder or under such security
+document, and mayenforce and compel performanceof all duties required bythis chapter or by such
+securitydocumenttobeperformedbytheauthorityorbyanydirectororofficeroftheauthority.
+VII. The authority may issue refunding bonds for the purpose of paying any bonds issued
+under the provisions of this section at or prior to maturity or upon acceleration or redemption.
+Refundingbonds maybeissued atsuchtimes prior tothematurityor redemptionof thebonds being
+refunded as the board may determine. The refunding bonds may be issued in sufficient amounts to
+pay or provide the principal of the bonds being refunded, together with any redemption premium
+thereon,anyinterestaccruedortoaccruetothedateofpaymentofsuchbonds,theexpensesofissue
+of the refunding bonds, the expenses of redeeming the bonds being refunded, and such reserves for
+debt service or other expenses from the proceeds of such refunding bonds as may be required by a
+security document securing the bonds. The authorization and issue of refunding bonds, the
+maturities and other details thereof, the security therefor, the rights of the holders thereof, and the
+rights, duties, and obligations of the authority in respect to the same shall be governed by the
+provisions of this chapter relating to the issue of bonds other than refunding bonds insofar as the
+samemaybeapplicable.
+VIII. Any debt service fund or debt service reserve fund established in connection with the
+issuance of bonds under this chapter shall be kept separate from other moneys of the authority. All
+proceeds of any bonds issued under this chapter, together with the income derived therefrom, shall
+
+-Page16-
+beexpended without further authorizationor appropriationas provided for inthesecuritydocument
+withrespecttosuchbonds.
+IX. Moneysinanyfundoraccountcreatedundertheprovisionsofthissection,subjecttothe
+terms and provisions of any security document applicable thereto, may be invested. Except as
+otherwise provided by any such security document, obligations so purchased as an investment of
+moneyinsaidfundoraccountshallbedeemedatalltimestobepartofsaidfundoraccount,andthe
+interestthereonandanyprofitarisingfromthesalethereofshallbecreditedtosaidfundoraccount,
+andanylossresultingfromtheirsaleshallbechargedtosaidfundoraccount,respectively.
+X. The state does hereby pledge to and agree with the holders of bonds issued under this
+chapter that the state shall not limit or alter the rights hereby vested in the authority to fulfill the
+terms of any agreements made with the holders of such bonds or in any way impair the rights and
+remedies of such holders until such bonds, together with the interest on them, with the interest on
+any unpaid installments of interest, and all costs and expenses in connection with any action or
+proceedingbyoronbehalfofsuchholders,arefullymetanddischarged. Theauthorityisauthorized
+toincludethispledgeandagreementofthestateinanyagreementwiththeholdersofsuchbonds.
+XI. Notwithstandinganyoftheprovisionsofthischapteroranyrecitalsinanybonds issued
+underthissection,allsuchbondsshallbedeemedtobeinvestmentsecuritiesunderRSA382-A.
+362-J:21 Eligible Investments. Bonds issued under the provisions of this chapter are hereby
+made securities in which all public officers, agencies and authorities of the state and of its political
+subdivisions, insurance companies, investment companies, executors, administrators, trustees, and
+other fiduciaries may properly and legally invest funds, including capital in their control or
+belonging to them. Such bonds are hereby made securities that may properly and legally be
+deposited with and received by any state or municipal officer or any agency, authority or political
+subdivision of the state for any purpose for which the deposit of bonds or obligations of the state or
+anypoliticalsubdivisionisnowormayhereafterbeauthorizedbylaw.
+362-J:22 StateBondGuarantee.
+I. Inview ofthegeneralpublic benefits expectedtobederived fromtheauthority's activities
+under this chapter and their contribution to the social welfare and economic prosperity of the state,
+the governor and council may award an unconditional state guarantee of the principal and interest
+thereonof bonds issued under this chapter. The full faithand creditof thestateshall bepledged for
+anysuchguaranteesofprincipalandinterest,butthetotaloutstandingamountofbondsguaranteed
+by the state under this section shall not exceed in the aggregate at any time $25,000,000 plus
+interest. The governor, with the advice and consent of the council, is authorized to draw a warrant
+for such a sum out of any money in the treasury not otherwise appropriated for the purpose of
+honoring any guarantee awarded under this section. The state's guarantee shall be evidenced on
+eachguaranteedbondbyanendorsementsignedbythestatetreasurerinsubstantiallythefollowing
+form: the state of New Hampshire hereby unconditionally guarantees the payment of the whole of
+
+-Page17-
+theprincipalandinterestthereonofthewithinbond,andfortheperformanceofsuchguarantee,the
+fullfaithandcreditofthestatearepledged.
+II. No state guarantee shall be awarded under this section unless the guaranteed bonds are
+secured by, among other things, a 10 percent cash reserve. In connection with the award of a state
+guarantee, the governor and council may impose such other terms and conditions as they may deem
+appropriate concerning the bonds, the use of any property or revenues of the authority, and
+reimbursement to the state if any state funds are used to honor the guarantee. Such terms and
+conditions may be contained in an agreement between the state and the authority, to be executed on
+behalf of the state by the governor and the state treasurer and on behalf of the authority by its
+chairperson,vicechairperson,orexecutivedirector.
+III. Before awarding any state guarantee of bonds under this section, the governor and
+council,afterahearing,shallhavemadethefollowingfindings:
+(a) The award of the state guarantee will contribute significantly to the success of the
+bondissueandtheauthority'sprogramsunderthischapter.
+(b) Reasonableandappropriatemeasureshavebeentakentominimizetheriskoflossto
+the state and to ensure that any private benefit from the award of the guarantee shall be only
+incidentaltothepublicpurposeservedthereby.
+(c) Any hearing held under this section shall be for the information of the governor and
+council and shall not be treated as determining the rights, duties, or privileges of any entity or
+person. The governor and executive council shall not be required to conduct adjudicative
+proceedingsunderRSA541inconnectionwithanyactiontakenunderthissection.
+IV. The signature of the state treasurer on an endorsement of a state guarantee may be
+manualorfacsimile.
+362-J:23 Energy Efficiency Workforce Development. The authority may utilize administrative,
+program, or other funds to develop and support a workforce capable of providing energy efficiency
+services. Tothisend,theauthoritymaybyruleestablishcertificationstandardsforenergyauditors,
+installers of energy efficiency measures, or other service providers that provide services under
+programsadministeredbytheauthority.
+I. To the extent that funds and resources allow, the authority may establish training
+programs for installers of energy equipment that most effectively meet the needs of the public. The
+authority:
+(a) May develop separate programs for different energy technologies or services when
+the authority determines that the skills or training for the installation of those technologies or
+servicesmeritthedistinction;
+(b) May offer training programs to code enforcement officers, inspectors, or other
+professionalsinvolvedindesigning,marketing,regulating,oreducatingaboutenergyequipment;
+
+-Page18-
+(c) May offer training programs to contractors or other professionals involved in
+designing, installing, or constructing energy efficiency, weatherization, or other building
+performancemeasuresforhomesandbusinesses;
+(d) Shall confer with relevant professional licensing boards when it develops the course
+contentandrequirements;
+(e) Shalldeterminethecontentofthetraining,thehoursrequiredforcoursecompletion,
+andthemannerinwhichapplicantsmustdemonstrateproficiencyinenergyequipmentinstallation;
+(f) May issue a certificate of completion to individuals who meet the requirements the
+authorityhasestablished;
+(g) May establish reasonable course fees. All fees must be paid to the authority to be
+usedforthepurposesofthischapter;
+(h) Shall determine terms for the expiration and renewal of an applicant’s certificate of
+completion;and
+(i) A certificate of completion issued by the authority does not exempt the holder from
+anyapplicablelicensingrequirementsforactivitiesinvolvedininstallingenergyequipment.
+II. To the extent that funds and resources allow, the authority shall set standards for
+training programs for energy auditors that most effectively meet the needs of the public and that
+satisfy the requirements of funding sources. For the purposes of this section, an energy auditor is a
+personwhoistrainedtoprepareareportthatdelineatestheenergyconsumptioncharacteristicsofa
+building, identifies appropriate energy efficiency operations and maintenance procedures, and
+recommendsappropriateenergyefficiencymeasures. Theauthority:
+(a) May develop separate programs for audits of different building types and functions
+when the authority determines that the skills or training needed to perform these audits merit the
+distinction;
+(b) Shalldeterminethecontentofthetraining,thehoursrequiredforcoursecompletion,
+andthemannerinwhichapplicantsmustdemonstrateproficiencyinenergyauditing;
+(c) Shall issue a certificate of completion to individuals who meet the requirements the
+authorityhasestablished;
+(d) Mayestablishreasonablecoursefees.Allfeescollectedbytheauthoritymustbeused
+forthepurposesofthissection;
+(e) Shall determine terms for the expiration and renewal of an applicant’s certificate of
+completion;
+(f) Shall determine an appropriate means of maintaining recognition of the training
+receivedbypersonsholdingacertification;
+(g) Shall work with state agencies and other interested parties to establish certification
+standardsforenergyauditorswhoperformworkunderprogramsadministeredbytheauthority;and
+
+-Page19-
+(h) Shallrecognizeotherestablishedtrainingprogramsthatoffercertificationconsistent
+withtheauthority’senergyauditortrainingstandards.
+362-J:24 Nuclear Industry Workforce Development. The authority may utilize administrative,
+program,orotherfundstodevelopandsupportaworkforcecapableofsupportinggenerationIII-plus
+andgenerationIVnucleargenerationandrelatedindustriesinthestate,includingbutnotlimitedto
+advanced nuclear reactors as defined in 42 U.S.C. Section 16271 as amended from time to time. To
+the extent funds permit, the authority shall coordinate with industry, the community college system
+of New Hampshire, the university system of New Hampshire, and private schools of higher
+education, including trade schools, as those private schools are willing to create educational and
+training programs that will prepare students for energy economics, mathematics, nuclear science,
+technology,engineering,andmanufacturingcareersinthestate.
+362-J:25 Coordination With Other Entities. Consistent with the requirements of this chapter
+and other applicable laws, the state agencies and authorities that relate to the purposes of this
+chapter shall coordinate with the activities and programs of the authority in order to align such
+activities and maximize benefits to New Hampshire energy customers, residents, businesses, and
+students. For purposes of this section, state agencies and authorities required to coordinate their
+activities with the authority’s programs include but are not limited to the department of energy
+office of energy and innovation and weatherization assistance program, the business finance
+authority energy conservation loan program, the department of business and economic affairs, the
+New Hampshire bureau of vocational rehabilitation, the community college system of New
+Hampshire,andtheuniversitysystemofNewHampshire.
+362-J:26 Conflicts of Interest; Financial Disclosure Statements. Notwithstanding any other
+provision of law to the contrary, all members of the board of directors, the executive director, and
+any officer of the corporation shall be subject to the disclosure and penalty requirements of RSA
+Chapter 15-A. Neither appointed members of the board of directors nor officers or employees of the
+authority shall be subject to RSA Chapter 15-B or RSA 21-G:21 through RSA 21-G:27 by virtue of
+relationshipwiththeauthority.
+362-J:27 FalseStatements. Inadditiontoanyother remedyinlaw or equity, theauthoritymay
+prohibit a personor entity from applying to theauthority or its subgrantees or any entity contracted
+to perform program administration on behalf of the authority for any loan or other program benefit
+or incentive under this chapter, and may withhold all or the balance of the same, if the authority
+determines that such person or entity knowingly made a false statement, or knowingly
+misrepresented or failed to state a material fact necessary in order to make a statement not
+misleading in light of the circumstances under which the statement was made, in any document or
+otherpresentationsubmittedtotheauthority,itssubgrantee,orcontractedprogramadministrator.
+362-J:28 Transition of Energy Efficiency Programming. The commissioner of the department of
+energy shall decide whether and when the authority is fully formed and capable of performing its
+
+-Page20-
+duties under this chapter and sufficient communication and cooperation has been established
+between the authority and the utilities. The commissioner of the department of energy shall set a
+date for the transition of energy efficiency programming responsibilities described in this chapter
+from the utilities to the authority. The authority shall first implement what remains of the most
+recenttriennialplanandanyupdateapprovedbythepublicutilitiescommission,withoutalteration,
+beforeimplementingitsownprograms.
+2 EffectiveDate. ThisactshalltakeeffectJanuary1,2027.
+
+LBA
+Revised1/5/26
+HB1748-FN-FISCALNOTE
+ASINTRODUCED
+ANACT establishing the New Hampshire energy efficiency and resource development
+authority.
+FISCALIMPACT: Thisbilldoesnotprovidefunding,nordoesitauthorizenewpositions.
+Estimated State Impact
+FY2026 FY2027 FY2028 FY2029
+Revenue $0 $0 $0 $0
+RevenueFund(s) None
+Indeterminable Indeterminable Indeterminable
+(GeneralFund (GeneralFund (GeneralFund
+andEnergy andEnergy andEnergy
+Expenditures* $0 EfficiencyFund) EfficiencyFund) EfficiencyFund)
+$121,000 $125,000
+$1,000(Utility
+(Utility (Utility
+Assessments)
+Assessments) Assessments)
+FundingSource(s) GeneralFund,EnergyEfficiencyFundandUtilityAssessments
+Appropriations* $0 $0 $0 $0
+FundingSource(s) None
+*Expenditure=Costofbill *Appropriation=Authorizedfundingtocovercostofbill
+Estimated Political Subdivision Impact
+FY2026 FY2027 FY2028 FY2029
+CountyRevenue $0 $0 $0 $0
+CountyExpenditures $0 $0 $0 $0
+LocalRevenue $0 Indeterminable Indeterminable Indeterminable
+LocalExpenditures $0 Indeterminable Indeterminable Indeterminable
+METHODOLOGY:
+ThisbillestablishestheNewHampshireEnergyEfficiencyandResourceDevelopmentAuthority
+todevelop, plan, coordinate, and implement statewideenergy efficiencyprograms and to support
+the preservation, establishment, and redevelopment of nuclear power generation and related
+industries. The bill creates a ten member board of directors, authorizes the Authority to
+administer energy efficiency programs currently funded through system benefits charges and
+other sources, permits the Authority to establish revolving loan programs and, authorizes state
+
+guaranteedloansandbondsfornuclearrelateddevelopment. Thebillalsorequirescertainstate
+agenciestoprovidedatatosupportlowincomeenergyefficiencyprogramadministration.
+The Department of Energy states this bill would require additional administrative resources to
+support the creation and transition of energy efficiency programs from regulated utilities to the
+newly established authority. To ensure a smooth transition, the Department estimates it would
+require one full time temporary position (13-1190 MISC BUS OPS SPECS-7 SOC13-07) to begin
+July 1, 2026, prior to the January 1, 2027 effective date of the bill, in order to support start up
+activities, coordination with utilities, development of data reporting processes, and preparation
+for the transfer of program responsibilities. The Department estimates the cost associated with
+this position would be $121,000 in FY 2027 and $125,000 in FY 2028, funded through utility
+assessments. The cost in FY 2029 would be $1,000 for close out activities. The bill does not
+authorizeorfundthisposition.
+TheDepartmentofEnergyalsonotesadditionalcostsrelatedtoproducingreportsandmodifying
+existing software systems to provide low income customer data to the authority, as required by
+the bill. The cost of these system changes is currently unknown. All administrative costs
+associated with the authority would be subject to the statutory cap limiting administrative
+expenditures to no more than 10 percent of annual program funds. The Department further
+states if the authority’s administrative costs exceed the combined administrative costs and
+performance incentives currently incurred by the utilities, fewer funds would be available for
+energy efficiency programs. This could result in higher utility costs for the State as a customer;
+however,thefiscalimpactisindeterminable.
+The Treasury Department states this bill would establish a new Authority with the ability to
+issue loans, provide loan guarantees, and issue bonds supported by a state guarantee. The
+Department notes that the State Treasurer or designee would serve as a member of the
+Authority’s board of directors. The Department indicates there is no immediate fiscal impact to
+theStateunderthebill. However,theauthorizationofstateguaranteedloansandbondscreates
+a contingent liability for the State if guarantees are called. The State may be responsible for up
+to $20,000,000 per loan guarantee and up to $25,000,000 plus interest for bonds guaranteed
+underthebill. TheDepartmentfurthernotesthattheseguaranteeswouldaffecttheState’sdebt
+limit calculation under RSA 6-C, because guaranteed debt is included in authorized and
+unissueddebt.
+The Department of Health and Human Services states this bill requires that certain household
+data be furnished to the Authority related to low income energy efficiency program eligibility.
+The Department explains that federal law prohibits the disclosure of information related to
+SNAP, Medicaid, TANF, childcare scholarship programs, and related assistance programs, and
+
+that state law restricts disclosure of information related to state supplemental cash assistance
+programs. Because the requested data cannot be shared due to federal confidentiality
+requirements, the Department states it does not expect to provide the information contemplated
+by the bill. As a result, the Department does not anticipate any impact on State revenues or
+expenditures
+The Public Utilities Commission states it lacks sufficient data to estimate the revenues or
+expenditures associated with the creation and operation of the New Hampshire Energy
+EfficiencyandResourceDevelopmentAuthority.
+This bill could have a fiscal impact on municipal revenues and expenditures to the extent
+municipalitiesgrant fundstotheAuthorityorreceivefundingfor energyefficiencyprojects. The
+fiscal impact on local revenues and expenditures is indeterminable because it is not possible to
+determine which municipalities would choose to provide funding or participate in projects
+administeredbytheNewHampshireEnergyEfficiencyandResourceDevelopmentAuthority.
+AGENCIESCONTACTED:
+Department of Energy, Treasury Department, Public Utilities Commission, and Department of
+HealthandHumanServices
