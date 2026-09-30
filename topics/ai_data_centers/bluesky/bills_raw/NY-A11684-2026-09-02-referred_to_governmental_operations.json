@@ -1,0 +1,49 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Enacts the \"compulsory artificial narrative disclosure for official rhetoric (CANDOR) act\" in relation to requiring any member of the senate or assembly that rises to speak, read a statement, or enter comments into the official legislative record to verbally state a standard disclosure prior to delivering such remarks if such remarks were drafted in whole or in part by artificial intelligence or generative artificial intelligence."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A11684",
+    "legislative_session": "2025-2026",
+    "title": "Relates to the disclosure of artificial intelligence use in floor statements and debate by members of the legislature"
+  },
+  "id": "A11684",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "REFERRED TO GOVERNMENTAL OPERATIONS",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-02",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "GOVERNMENTAL OPERATIONS"
+        }
+      ],
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A11684?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/A11684"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=A11684&term=2025"
+        }
+      ]
+    },
+    "bill_id": "A11684"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11684/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A11684/logs/20260902T000000Z_referred_to_governmental_operations.json"
+  },
+  "timestamp": "20260902T000000Z"
+}

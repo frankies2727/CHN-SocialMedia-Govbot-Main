@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10559",
+    "legislative_session": "119",
+    "title": "To amend the Public Health Service Act to authorize grants to eligible health centers to provide patient access to long-acting reversible contraception, and for other purposes."
+  },
+  "id": "HR 10559",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Energy and Commerce.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-24T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10559.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10559"
+        }
+      ]
+    },
+    "bill_id": "HR 10559"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10559/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10559/logs/20260924T040000Z_referred_to_the_house_committee_on_energy_and_commerce.json"
+  },
+  "timestamp": "20260924T040000Z"
+}
