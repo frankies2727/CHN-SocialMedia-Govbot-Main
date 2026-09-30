@@ -1,0 +1,42 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law, the California Occupational Safety and Health Act of 1973, exists for the purpose of assuring safe and healthful working conditions for all California workers by authorizing the enforcement of effective standards, assisting and encouraging employers to maintain safe and healthful working conditions, and providing for research, information, education, training, and enforcement in the field of occupational safety and health. Existing law establishes the Occupational Safety and Health Standards Board within the Department of Industrial Relations for the adoption of occupational safety and health standards and establishes the Division of Occupational Safety and Health in that department for the enforcement of those occupational safety and health standards, as prescribed. \n\nThis bill would require the division, on or before January 1, 2030, to propose to the standards board, for its consideration and possible adoption, a standard that protects the health and safety of employees who risk high or prolonged exposure to transboundary pollution, as defined, in outdoor occupational environments, as specified. The bill would require the division to consider identifying an exposure threshold for hydrogen sulfide at which acute or chronic health effects occur to reference in the standards and may consider exposure thresholds for other relevant pollutants. The bill would authorize the division to develop the standard in consultation with other specified groups. The bill would authorize the standards board to adopt emergency regulations to implement these provisions.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1046",
+    "legislative_session": "20252026",
+    "subject": [
+      "Occupationalsafety",
+      "transboundarypollution"
+    ],
+    "title": "Occupational safety: transboundary pollution."
+  },
+  "id": "SB1046",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-27",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1046"
+        }
+      ]
+    },
+    "bill_id": "SB1046"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1046/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1046/logs/20260927T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260927T000000Z"
+}
