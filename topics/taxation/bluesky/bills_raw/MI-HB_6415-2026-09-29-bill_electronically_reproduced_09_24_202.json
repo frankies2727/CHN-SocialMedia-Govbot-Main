@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6415",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Economic development: Michigan strategic fund",
+      "Use tax: exemptions"
+    ],
+    "title": "Use tax: exemptions; sharing of information regarding certain exemptions; provide for. Amends sec. 4cc of 1937 PA 94 (MCL 205.94cc)."
+  },
+  "id": "HB 6415",
+  "log": {
+    "action": {
+      "description": "bill electronically reproduced 09/24/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-29",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6415"
+        }
+      ]
+    },
+    "bill_id": "HB 6415"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6415/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6415/logs/20260929T000000Z_bill_electronically_reproduced_09242026.json"
+  },
+  "timestamp": "20260929T000000Z"
+}

@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Relates to the determination of salary base for members of the New York city police pension fund; provides that the salary base for members of the New York city police pension fund whose employment with the police department of the city of New York commenced on or after July 1, 2000 shall be determined in the same manner as members whose employment commenced prior to such date."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S7808",
+    "legislative_session": "2025-2026",
+    "title": "Relates to the determination of salary base for members of the New York city police pension fund"
+  },
+  "id": "S7808",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "SIGNED CHAP.312",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-28",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S7808?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/S7808"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=S07808&term=2025"
+        }
+      ]
+    },
+    "bill_id": "S7808"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S7808/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S7808/logs/20260928T000000Z_signed_chap312.json"
+  },
+  "timestamp": "20260928T000000Z"
+}

@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10613",
+    "legislative_session": "119",
+    "title": "To amend the Internal Revenue Code of 1986 to allow for a credit against tax for rent paid on the personal residence of the taxpayer."
+  },
+  "id": "HR 10613",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Ways and Means.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-24T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10613.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10613"
+        }
+      ]
+    },
+    "bill_id": "HR 10613"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10613/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10613/logs/20260924T040000Z_referred_to_the_house_committee_on_ways_and_means.json"
+  },
+  "timestamp": "20260924T040000Z"
+}

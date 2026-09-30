@@ -1,0 +1,62 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S4420",
+    "legislative_session": "222",
+    "subject": [
+      "MUNICIPALITI"
+    ],
+    "title": "Authorizes regional rehabilitation and reentry center authority to determine county proportional share assessment for budget purposes."
+  },
+  "id": "S4420",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved P.L., 2026. c.96.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-09-28T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4420"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4420"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4420"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4420"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4420"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4420"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4420"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4420"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4420"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "S4420"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S4420/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S4420/logs/20260928T040000Z_approved_pl_2026_c96.json"
+  },
+  "timestamp": "20260928T040000Z"
+}

@@ -1,0 +1,146 @@
+STATE OF NEW YORK
+________________________________________________________________________
+7808--A
+2025-2026 Regular Sessions
+IN SENATE
+May 9, 2025
+___________
+and when printed to be committed to the Committee on Civil Service and
+Pensions -- recommitted to the Committee on Civil Service and Pensions
+in accordance with Senate Rule 6, sec. 8 -- committee discharged, bill
+amended, ordered reprinted as amended and recommitted to said commit-
+tee
+AN ACT to amend the retirement and social security law, in relation to
+determination of salary base for members of the New York city police
+pension fund
+The People of the State of New York, represented in Senate and Assem-
+bly, do enact as follows:
+Section 1. Section 443 of the retirement and social security law is
+amended by adding a new subdivision i to read as follows:
+i. Notwithstanding any general, special or local law, charter, admin-
+istrative code, agreement, resolution or rule or regulation to the
+contrary, the salary base for members of the New York city police
+pension fund whose employment with the police department of the city of
+New York commenced on or after the first of July, two thousand to whom
+this article otherwise applies shall be determined in the same manner as
+the salary base for members of the New York city police pension fund
+whose employment with the police department of the city of New York
+commenced before the first of July, two thousand.
+§ 2. This act shall take effect immediately and shall apply to members
+of the New York city police pension fund who retire on or after such
+effective date.
+FISCAL NOTE.--Pursuant to Legislative Law, Section 50:
+SUMMARY: This proposed legislation would change the salary base for
+Tier 2 members of the New York City Police Pension Fund (POLICE) who
+were hired on or after July 1, 2000 to be the greater of final salary or
+a three-year average.
+EXPLANATION--Matter in italics (underscored) is new; matter in brackets
+[ ] is old law to be omitted.
+LBD03630-04-6
+
+S. 7808--A 2
+EXPECTED INCREASE (DECREASE) IN EMPLOYER CONTRIBUTIONS
+by Fiscal Year for the first 25 years ($ in Millions)
+Year POLICE
+6.1
+6.0
+5.9
+5.8
+0.6
+0.5
+0.5
+0.4
+0.3
+0.3
+0.2
+0.2
+0.2
+0.1
+0.1
+0.1
+0.1
+0.1
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+Employer Contribution impact beyond Fiscal Year 2051 is not shown.
+The entire increase in employer contributions will be allocated to New
+York City.
+PRESENT VALUE OF BENEFITS: The Present Value of Benefits is the
+discounted expected value of benefits paid to current members if all
+assumptions are met, including future service accrual and pay increases.
+Future new hires are not included in this present value.
+INITIAL INCREASE (DECREASE) IN ACTUARIAL PRESENT VALUES
+as of June 30, 2025 ($ in Millions)
+Present Value (PV) POLICE
+(1) PV of Employer Contributions: 21.6
+(2) PV of Employee Contributions: 0.0
+Total PV of Benefits (1) + (2): 21.6
+UNFUNDED ACCRUED LIABILITY (UAL): Actuarial Accrued Liabilities are
+the portion of the Present Value of Benefits allocated to past service.
+Changes in UAL were amortized over the expected remaining working life-
+time of those impacted using level dollar payments.
+AMORTIZATION OF UNFUNDED ACCRUED LIABILITY
+POLICE
+Increase (Decrease) in UAL: 16.5 M
+Number of Payments: 4
+Amortization Payment: 5.0 M
+
+S. 7808--A 3
+CENSUS DATA: The estimates presented herein are based on preliminary
+census data collected as of June 30, 2025. The census data for the
+impacted population (active members hired on or after July 1, 2000) is
+summarized below.
+POLICE
+Active Members
+- Number Count: 9,007
+- Average Age: 44.7
+- Average Service: 19.0
+- Average Salary: 170,900
+IMPACT ON MEMBER BENEFITS: Pension benefits are primarily derived as a
+percentage of salary base. For Tier 2 POLICE members hired prior to July
+1, 2000, the salary base is equal to the greater of:
+(1) the pensionable earnings in the final 12 months of service, or
+(2) the average pensionable earnings earned in any consecutive three
+years of service.
+For Tier 2 POLICE members hired on or after July 1, 2000, the salary
+base is equal to the pensionable earnings earned in the final 12 months
+of service only.
+Under the proposed legislation, the salary base shall be determined
+the same for Tier 2 POLICE members hired on or after July 1, 2000, as it
+is for Tier 2 members hired prior to July 1, 2000.
+Note, pensionable earnings in the final 12 months or the highest three
+consecutive years are subject to certain limits.
+ASSUMPTIONS AND METHODS: The estimates presented herein have been
+calculated based on the Revised 2021 Actuarial Assumptions and Methods
+of the impacted retirement systems. In addition, Final Average Salary
+was assumed to increase by 0.25% based on an analysis of historical
+salary and overtime.
+RISK AND UNCERTAINTY: The costs presented in this Fiscal Note depend
+highly on the actuarial assumptions, methods, and models used, demo-
+graphics of the impacted population, and other factors such as invest-
+ment, contribution, and other risks. If actual experience deviates from
+actuarial assumptions, the actual costs could differ from those
+presented herein. Quantifying these risks is beyond the scope of this
+Fiscal Note.
+This Fiscal Note is intended to measure pension-related impacts and
+does not include other potential costs (e.g., administrative and Other
+Postemployment Benefits). This Fiscal Note does not reflect any chapter
+laws that may have been enacted during the current legislative session.
+STATEMENT OF ACTUARIAL OPINION: Marek Tyszkiewicz and Gregory Zelikov-
+sky are members of the Society of Actuaries and the American Academy of
+Actuaries. We are members of NYCERS, but do not believe it impairs our
+objectivity, and we meet the Qualification Standards of the American
+Academy of Actuaries to render the actuarial opinion contained herein.
+To the best of our knowledge, the results contained herein have been
+prepared in accordance with generally accepted actuarial principles and
+procedures and with the Actuarial Standards of Practice issued by the
+Actuarial Standards Board.
+FISCAL NOTE IDENTIFICATION: This Fiscal Note 2026-13 dated February
+10, 2026 was prepared by the Chief Actuary for the New York City Retire-
+ment Systems and Pension Funds and is intended for use only during the
+Legislative Session.
