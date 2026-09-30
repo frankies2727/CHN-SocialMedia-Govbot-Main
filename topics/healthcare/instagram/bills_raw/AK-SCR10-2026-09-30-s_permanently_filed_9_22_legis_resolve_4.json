@@ -1,0 +1,46 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SCR10",
+    "legislative_session": "34",
+    "subject": [
+      "COURT RULES",
+      "COURTS",
+      "FAMILIES",
+      "FOSTER CARE",
+      "HOSPITALS",
+      "MENTAL HEALTH",
+      "MINORS",
+      "RESIDENTIAL CARE",
+      "UNIFORM RULES"
+    ],
+    "title": "Suspending Rules 24(c), 35, 41(b), and 42(e), Uniform Rules of the Alaska State Legislature, concerning House Bill No. 36, relating to the placement of foster children in psychiatric hospitals; relating to the care of children in state custody placed in residential facilities outside the state; and amending Rule 12.1(b), Alaska Child in Need of Aid Rules of Procedure."
+  },
+  "id": "SCR10",
+  "log": {
+    "action": {
+      "description": "(S) PERMANENTLY FILED 9/22 LEGIS RESOLVE 42",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-30",
+      "session_id": "34",
+      "sources": [
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SCR10"
+        },
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SCR10#tab5_4"
+        }
+      ]
+    },
+    "bill_id": "SCR10"
+  },
+  "sources": {
+    "bill": "ak-legislation/country:us/state:ak/sessions/34/bills/SCR10/metadata.json",
+    "log": "ak-legislation/country:us/state:ak/sessions/34/bills/SCR10/logs/20260930T000000Z_s_permanently_filed_922_legis_resolve_42.json"
+  },
+  "timestamp": "20260930T000000Z",
+  "posted_text": "🏥 AK SCR10 — House Bill No. 36 Changes Foster Care Rules\n\nThis resolution suspends specific rules of the Alaska State Legislature regarding changes to bill titles.\n\nIt’s done to allow for adjustments to House Bill No. 36, which focuses on how the state places foster children in psychiatric hospitals and oversees children in state custody when they’re treated in residential facilities outside of Alaska.\n\nThe bill also includes changes to the procedures for children in need of aid.\n\nSept. 30, 2026: (s) Permanently Filed 9/22 Legis Resolve 42.\n\n🔗 Read the full bill: https://www.akleg.gov/basis/Bill/Detail/34?Root=SCR10\n\n#Healthcare #Alaska #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SCR10",
+  "posted_url": "https://www.instagram.com/p/Dd7XGM7G8MJ/"
+}
