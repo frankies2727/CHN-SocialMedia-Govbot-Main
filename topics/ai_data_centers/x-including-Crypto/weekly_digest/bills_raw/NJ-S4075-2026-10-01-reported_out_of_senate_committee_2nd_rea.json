@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S4075",
+    "legislative_session": "222",
+    "subject": [
+      "SCI AND TECH"
+    ],
+    "title": "Regulates use of artificial intelligence-based systems for electronic monitoring regarding employment and public services."
+  },
+  "id": "S4075",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported out of Senate Committee, 2nd Reading",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-01T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4075"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4075"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4075"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "S4075"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S4075/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S4075/logs/20261001T040000Z_reported_out_of_senate_committee_2nd_reading.json"
+  },
+  "timestamp": "20261001T040000Z"
+}
