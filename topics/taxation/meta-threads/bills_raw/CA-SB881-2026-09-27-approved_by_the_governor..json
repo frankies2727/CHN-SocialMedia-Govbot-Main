@@ -1,0 +1,47 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "(1) The Personal Income Tax Law and the Corporation Tax Law allow various credits against the taxes imposed by those laws, including, for taxable years beginning on or after January 1, 2017, and before January 1, 2027, a credit for qualified taxpayers in an amount equal to 15% of the qualified value of fresh fruits or vegetables and specified raw agricultural products or processed foods donated to a food bank.\n\nThis bill would extend the authorization for those tax credits for taxable years beginning before January 1, 2032.\n\nExisting law requires any bill authorizing a new tax expenditure to contain, among other things, specific goals that the tax expenditure will achieve, detailed performance indicators, and data collection requirements. For purposes of complying with these requirements, existing law requires the Franchise Tax Board to submit a report to the Legislature regarding the utilization of the above-described credit on or before December 1 of each year until January 1, 2026.\n\nThis bill would extend that reporting requirement to January 1, 2031. The bill would make related findings and declarations.\n\n(2) Existing law authorizes individuals to contribute amounts in excess of their personal income tax liability for the support of specified funds, including the Emergency Food for Families Voluntary Tax Contribution Fund. Under existing law, the provisions governing that voluntary contribution fund are in effect until January 1, 2026, and are repealed as of December 1 of that year.\n\nThis bill would extend the provisions that apply to the Emergency Food for Families Voluntary Tax Contribution Fund until January 1, 2033, as provided. The bill would additionally make a nonsubstantive change reflective of existing law. By extending the term of a continuously appropriated fund, the bill would make an appropriation.\n\n(3) This bill would declare that it is to take effect immediately as an urgency statute.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB881",
+    "legislative_session": "20252026",
+    "subject": [
+      "Incometaxation",
+      "credits",
+      "foodbankdonations",
+      "voluntarycontributions"
+    ],
+    "title": "Income taxation: credits: voluntary contributions: food bank donations."
+  },
+  "id": "SB881",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-27",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB881"
+        }
+      ]
+    },
+    "bill_id": "SB881"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB881/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB881/logs/20260927T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260927T000000Z",
+  "posted_text": "🧾 Taxation\nCA SB881 — California Could Let You Claim Tax Credits for Food Bank Donations\n\nCalifornia is considering a change that would let you claim a 15% tax credit for donating fresh fruits, vegetables, and other food items to California food banks through 2031. This bill extends existing rules that allow individuals to donate more than their tax liability to support food banks. The credit could be carried over for up to six years if it exceeds your tax bill. ...\n...",
+  "posted_link": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB881",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/Dd-hWM_ER5V"
+}
