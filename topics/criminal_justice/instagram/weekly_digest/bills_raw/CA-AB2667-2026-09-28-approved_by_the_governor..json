@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "(1) Existing law authorizes certain entities to operate household hazardous waste collection facilities, as defined, including permanent and temporary household hazardous waste collection facilities, under permits issued by the Department of Toxic Substances Control. Existing law requires hazardous waste transported to a household hazardous waste collection facility to be transported by specified entities, and imposes conditions on the acceptance of hazardous waste by a household hazardous waste collection facility, including, among others, that the hazardous waste not exceed certain weight requirements. Existing law requires a person engaged in the transportation of hazardous waste to be registered with the department and to have a manifest while transporting the hazardous waste, except if the transport is from specified facilities or programs. A violation of the hazardous waste control laws is a crime.\n\nThis bill would require, until January 1, 2030, the department to evaluate opportunities to increase safety and convenience related to the management and disposal of vape pens confiscated from students by a school, as provided, and identify any recommendations that require future legislative action. The bill would exempt from the above-described registration and manifest provisions a school transporting vape pens and devices confiscated from students.\n\nThe bill would also impose the above-described conditions relating to the transport of hazardous waste on a public agency, contractor of a public agency, or a registered hazardous waste transporter, transporting vape pens and devices from schools, as provided. The bill would require any vape pens and devices to be transported in closed containers clearly bearing the school's Environmental Protection Agency identification number. The bill would specify conditions that apply for purposes of determining how many vape pens and devices may be accepted by a household hazardous waste collection facility without exceeding the specified weight limits. Because a violation of these provisions would be a crime, the bill would impose a state-mandated local program.\n\n(2) Existing law requires all cartridges for electronic cigarettes and solutions for filling or refilling an electronic cigarette to be in child-resistant packaging.\n\nThis bill would prohibit a person from marketing, promoting, labeling, branding, advertising, distributing, offering for sale, or selling a vape product in this state by (A) imitating a product that is not a vape product to conceal the nature of the vape product from parents, teachers, or other adults, or (B) including interactive videogame capabilities within a vape product, as provided.\n\nThis bill would authorize a city, a county, a city and county, or the state to enforce the above-described prohibitions and to impose civil liability on a person or entity, or distributor, in violation of the prohibitions in specified fine amounts, including $1,000 for the first violation, or for a distributor, $50,000 per violation. The bill would require any civil penalties collected to be paid to whichever office brought the action, and would authorize the Attorney General to expend any penalties it collects, upon appropriation by the Legislature, to enforce the prohibitions. The bill would specify that any remedies provided pursuant to these provisions are not exclusive and are in addition to the remedies that may be available pursuant to specified provisions relating to unfair competition. The bill would make any person who violates the prohibitions guilty of an infraction punishable by a fine of not more than $500. By creating a new crime, the bill would impose a state-mandated local program.\n\n(3) Existing law, the Cigarette and Tobacco Products Licensing Act of 2003, provides for the licensure and regulation of manufacturers, distributors, wholesalers, importers, and retailers of cigarette or tobacco products. Existing law, except as specified, prohibits a tobacco retailer, or any of the tobacco retailer's agents or employees, from selling, offering for sale, or possessing with the intent to sell or offer for sale, a flavored tobacco product or a tobacco product flavor enhancer. Existing law authorizes the California Department of Tax and Fee Administration or a law enforcement agency, upon discovery that a retailer possesses, stores, owns, or has made a retail sale of flavored tobacco products or tobacco product flavor enhancers in violation of that prohibition to seize the flavored tobacco products or tobacco product flavor enhancers at the retail location or any other person's location. Existing law deems those seized flavored tobacco products or tobacco product flavor enhancers as forfeited to the state, and requires the department to issue a civil penalty against the retailer, as provided. Existing law also requires the department to suspend or revoke the license of a retailer upon a 2nd or 3rd seizure and forfeiture, as provided.\n\nThis bill would apply those same seizure, forfeiture, and civil penalty provisions to a retailer who possesses, stores, owns, or has made a retail sale of vape products, as defined, in violation of the prohibitions related to a vape product described in paragraph (2) , above.\n\nExisting law authorizes a peace officer or department employee granted limited peace officer status, as provided, upon presenting appropriate credentials, to enter any place at which cigarettes or tobacco products are sold, produced, or stored or at any site where evidence of a violation of specified laws relating to cigarette or tobacco products may be discovered, and to conduct inspections in accordance with specified requirements.\n\nThis bill would also authorize those inspections at any place where there is evidence of a violation of the prohibitions related to a vape product described in paragraph (2) , above.\n\n(4) This bill would incorporate additional changes to Section 22974.2 of the Business and Professions Code proposed by AB 762 to be operative only if this bill and AB 762 are enacted and this bill is enacted last.\n\n(5) The California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2667",
+    "legislative_session": "20252026",
+    "subject": [
+      "Vapeproducts",
+      "advertising",
+      "householdhazardouswaste"
+    ],
+    "title": "Vape products: household hazardous waste: advertising."
+  },
+  "id": "AB2667",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-28",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2667"
+        }
+      ]
+    },
+    "bill_id": "AB2667"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2667/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2667/logs/20260928T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260928T000000Z"
+}

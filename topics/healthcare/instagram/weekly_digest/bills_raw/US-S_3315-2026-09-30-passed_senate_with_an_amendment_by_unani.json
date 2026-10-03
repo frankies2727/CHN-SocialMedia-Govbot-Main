@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 3315",
+    "legislative_session": "119",
+    "title": "Health Care Cybersecurity and Resiliency Act of 2026"
+  },
+  "id": "S 3315",
+  "log": {
+    "action": {
+      "description": "Passed Senate with an amendment by Unanimous Consent. (text: CR S5234-5236)",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-30T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s3315.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-bill/3315"
+        }
+      ]
+    },
+    "bill_id": "S 3315"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/S3315/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/S3315/logs/20260930T040000Z_passed_senate_with_an_amendment_by_unanimous_consent_text_cr_s52345236.json"
+  },
+  "timestamp": "20260930T040000Z"
+}
