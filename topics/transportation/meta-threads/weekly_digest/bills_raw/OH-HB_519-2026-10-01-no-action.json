@@ -1,0 +1,27 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "To amend section 2923.24 of the Revised Code to prohibit possession of an electronic device under circumstances indicating an intent to steal a motor vehicle.",
+        "note": "long title"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 519",
+    "legislative_session": "136",
+    "subject": [
+      "Crime and Punishment",
+      "Crimes, Corrections, and Law Enforcement"
+    ],
+    "title": "Prohibit specified actions with intent to steal a motor vehicle"
+  },
+  "id": "HB 519",
+  "log": {
+    "bill_id": "HB 519"
+  },
+  "sources": {
+    "bill": "oh-legislation/country:us/state:oh/sessions/136/bills/HB519/metadata.json",
+    "log": "oh-legislation/country:us/state:oh/sessions/136/bills/HB519/logs/20261001T002506Z.vote_event.pass.lower.json"
+  },
+  "timestamp": "20261001T002506Z.vote"
+}

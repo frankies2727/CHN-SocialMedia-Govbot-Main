@@ -1,0 +1,21 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S1831",
+    "legislative_session": "222",
+    "subject": [
+      "COMMERCE",
+      "HUMAN SVCS"
+    ],
+    "title": "Establishes Statewide youth apprenticeship program; appropriates $25 million annually."
+  },
+  "id": "S1831",
+  "log": {
+    "bill_id": "S1831"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S1831/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S1831/logs/20261001T040000Z.vote_event.pass.upper.json"
+  },
+  "timestamp": "20261001T040000Z.vote"
+}

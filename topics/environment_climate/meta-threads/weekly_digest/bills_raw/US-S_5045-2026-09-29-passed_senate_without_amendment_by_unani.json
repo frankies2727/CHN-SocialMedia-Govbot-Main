@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 5045",
+    "legislative_session": "119",
+    "title": "Wildfire Emissions Prevention Act of 2026"
+  },
+  "id": "S 5045",
+  "log": {
+    "action": {
+      "description": "Passed Senate without amendment by Unanimous Consent. (consideration: CR S5148-5150; text: CR S5149-5150)",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-29T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s5045.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-bill/5045"
+        }
+      ]
+    },
+    "bill_id": "S 5045"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/S5045/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/S5045/logs/20260929T040000Z_passed_senate_without_amendment_by_unanimous_consent_consideration_cr_s51485150_text_cr_s51495150.json"
+  },
+  "timestamp": "20260929T040000Z"
+}

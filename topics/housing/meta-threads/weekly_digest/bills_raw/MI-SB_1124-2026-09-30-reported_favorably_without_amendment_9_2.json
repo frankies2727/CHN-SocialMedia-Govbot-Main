@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1124",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Children: other"
+    ],
+    "title": "Children: other; limited emancipation of a minor who is homeless; provide for. Creates new act."
+  },
+  "id": "SB 1124",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "REPORTED FAVORABLY WITHOUT AMENDMENT 9/22/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-30",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1124"
+        }
+      ]
+    },
+    "bill_id": "SB 1124"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1124/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1124/logs/20260930T000000Z_reported_favorably_without_amendment_9222026.json"
+  },
+  "timestamp": "20260930T000000Z"
+}
