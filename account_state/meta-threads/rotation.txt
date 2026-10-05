@@ -1,1 +1,1 @@
-ai_data_centers
+elections_voting_rights

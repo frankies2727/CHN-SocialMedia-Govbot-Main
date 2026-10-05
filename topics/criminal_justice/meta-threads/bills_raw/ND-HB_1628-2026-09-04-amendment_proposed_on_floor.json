@@ -1,0 +1,46 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Relating to criminal history record checks, the scheduling of kratom alkaloid derivatives as a schedule I controlled substance, and the regulation of kratom products; to amend and reenact sections 12.1‑31‑03 and 19‑03.1‑22.3, and subsection 7 of section 19‑03.1‑23 of the North Dakota Century Code, relating to penalties for the use and possession of kratom alkaloid derivatives and the sale of kratom to individuals under twenty‑one years of age; to provide a penalty; to provide an appropriation; and to provide an effective date.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1628",
+    "legislative_session": "69",
+    "title": "AN ACT to create and enact a new subdivision to subsection 2 of section 12-60-24, subdivision lll of subsection 3 of section 19-03.1-05, and chapter 51-38 of the North Dakota Century Code, relating to criminal history record checks, the scheduling of kratom alkaloid derivatives as a schedule I controlled substance, and the regulation of kratom products; to amend and reenact sections 12.1-31-03 and 19-03.1-22.3, and subsection 7 of section 19-03.1-23 of the North Dakota Century Code, relating to penalties for the use and possession of kratom alkaloid derivatives and the sale of kratom to individuals under twenty-one years of age; to provide a penalty; to provide an appropriation; and to provide an effective date."
+  },
+  "id": "HB 1628",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-introduction"
+      ],
+      "description": "Amendment proposed on floor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-04",
+      "session_id": "69",
+      "sources": [
+        {
+          "note": "HTML bill detail page",
+          "url": "https://ndlegis.gov/assembly/69-2025/special-2/bill-overview/bo1628.html"
+        },
+        {
+          "note": "JSON page of session bills",
+          "url": "https://ndlegis.gov/api/assembly/69-2025/data/bills.json"
+        }
+      ]
+    },
+    "bill_id": "HB 1628"
+  },
+  "sources": {
+    "bill": "nd-legislation/country:us/state:nd/sessions/69/bills/HB1628/metadata.json",
+    "log": "nd-legislation/country:us/state:nd/sessions/69/bills/HB1628/logs/20260904T000000Z_amendment_proposed_on_floor.json"
+  },
+  "timestamp": "20260904T000000Z",
+  "posted_text": "⚖️ Criminal Justice & Policing\nND HB 1628 — North Dakota Bans Kratom Sales to Teens\n\nNorth Dakota is now prohibiting the sale of kratom to anyone under 21. Anyone selling or offering kratom to a minor faces a fine. Teens 14 and older who possess or use kratom can be cited for an infraction. Law enforcement can conduct compliance surveys with permission from a parent or guardian and under the supervision of an officer. ...\n...",
+  "posted_link": "https://www.ndlegis.gov/assembly/69-2025/special/bill-overview/bo1628.html",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DeGMI73Dhoz"
+}

@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HJRES 218",
+    "legislative_session": "119",
+    "title": "Proposing an amendment to the Constitution of the United States to abolish the electoral college and to provide for the direct election of the President and Vice President of the United States."
+  },
+  "id": "HJRES 218",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on the Judiciary.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-01T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hjres/BILLSTATUS-119hjres218.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-joint-resolution/218"
+        }
+      ]
+    },
+    "bill_id": "HJRES 218"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HJRES218/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HJRES218/logs/20261001T040000Z_referred_to_the_house_committee_on_the_judiciary.json"
+  },
+  "timestamp": "20261001T040000Z",
+  "posted_text": "🎓 Education\nUS HJRES 218 — Proposing an amendment to the Constitution of the United States to abolish the electoral college and to provide for the direct election of the President and Vice President of the United States. ...\n...",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/218",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DeGMdfiDgDi"
+}
