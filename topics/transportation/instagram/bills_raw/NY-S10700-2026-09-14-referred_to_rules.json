@@ -1,0 +1,52 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Regulates the sale of E-motos and electric off-highway motorcycles; requires sellers of E-motos and electric off-highway motorcycles to post a certain notice; prohibits deceptive marketing practices with regard to E-motos and electric off-highway motorcycles."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S10700",
+    "legislative_session": "2025-2026",
+    "title": "Regulates the sale and marketing of E-motos and electric off-highway motorcycles"
+  },
+  "id": "S10700",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "REFERRED TO RULES",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-14",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "RULES"
+        }
+      ],
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10700?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/S10700"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=S10700&term=2025"
+        }
+      ]
+    },
+    "bill_id": "S10700"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S10700/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S10700/logs/20260914T000000Z_referred_to_rules.json"
+  },
+  "timestamp": "20260914T000000Z",
+  "posted_text": "🛣️ NY S10700 — New York Says: No Selling E-Motos on the Road\n\nNew York is stepping up to regulate the sale and marketing of electric off-highway motorcycles – nicknamed ‘E-motos’ – and electric off-highway motorcycles.\n\nStarting now, only authorized ATV dealers physically located in New York can sell these vehicles, and online retailers are banned from selling them within the state.\n\nIf you try to buy an E-moto or electric off-highway motorcycle from an online retailer in New York, or if a dealer tries to sell you one without registering it with the DMV, you could face a fine.\n\nDealers must also post a clear warning about the legal restrictions on riding these vehicles on public roads.\n\nThe state can also fine anyone found to be making false or misleading claims about these vehicles, with penalties up to $1,000 for each violation.\n\nSept. 14, 2026: Referred to Rules.\n\n🔗 Read the full bill: https://www.nysenate.gov/legislation/bills/2025/S10700\n\n#Transportation #NewYork #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.nysenate.gov/legislation/bills/2025/S10700",
+  "posted_url": "https://www.instagram.com/p/DeIdvVTmQJE/"
+}

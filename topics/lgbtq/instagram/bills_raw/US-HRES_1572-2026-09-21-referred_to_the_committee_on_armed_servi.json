@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HRES 1572",
+    "legislative_session": "119",
+    "title": "Encouraging the recognition of a \"National LGBTQ+ Servicemembers and Veterans Day\"."
+  },
+  "id": "HRES 1572",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the Committee on Armed Services, and in addition to the Committee on Veterans' Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-21T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hres/BILLSTATUS-119hres1572.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-resolution/1572"
+        }
+      ]
+    },
+    "bill_id": "HRES 1572"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HRES1572/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HRES1572/logs/20260921T040000Z_referred_to_the_committee_on_armed_services_and_in_addition_to_the_committee_on_veterans_affairs_for.json"
+  },
+  "timestamp": "20260921T040000Z",
+  "posted_text": "🏳️‍🌈 US HRES 1572 — Congress Honors LGBTQ+ Veterans, Reopens Old Battles\n\nCongress is considering a resolution to recognize a National LGBTQ+ Servicemembers and Veterans Day, acknowledging the historical discrimination faced by LGBTQ+ individuals in the Armed Forces.\n\nThe resolution specifically highlights past policies like ‘Don’t Ask, Don’t Tell’ and bans on transgender service members, which led to thousands of discharges based on sexual orientation or gender identity.\n\nIt also references recent actions, including a 2025 executive order reinstating a ban on transgender service members and a Department of Defense decision to halt gender-affirming care for veterans.\n\nThe resolution underscores ongoing challenges for LGBTQ+ veterans seeking equitable treatment and benefits, signaling a renewed focus on this complex and sensitive issue.\n\nSept. 21, 2026: Referred to the Committee on Armed Services.\n\n🔗 Read the full bill: https://www.congress.gov/bill/119th-congress/house-resolution/1572\n\n#LGBTQ #USCongress #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-resolution/1572",
+  "posted_url": "https://www.instagram.com/p/DeIb3yTD7pF/"
+}

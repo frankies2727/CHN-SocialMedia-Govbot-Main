@@ -1,0 +1,47 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S2046",
+    "legislative_session": "222",
+    "subject": [
+      "WAGES"
+    ],
+    "title": "Establishes protected leave under \"Family Leave Act\" and family temporary disability leave benefits for bereavement for death of child, miscarriage, stillbirth, and certain other circumstances."
+  },
+  "id": "S2046",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported out of Senate Committee with Amendments, 2nd Reading",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-01T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S2046"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S2046"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S2046"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "S2046"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S2046/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S2046/logs/20261001T040000Z_reported_out_of_senate_committee_with_amendments_2nd_reading.json"
+  },
+  "timestamp": "20261001T040000Z",
+  "posted_text": "❤️‍🩹 NJ S2046 — NJ Expands Bereavement Leave for Parents\n\nNew Jersey is clarifying employee leave rights.\n\nThis bill adds bereavement leave to the existing Family Leave Act, allowing employees to take time off to grieve the death of a child, or to cope with miscarriage, stillbirth, or termination of a pregnancy for medical reasons.\n\nIt covers situations where the employee is a biological parent, or a parent through a gestational carrier agreement.\n\nThe bill also extends temporary disability leave benefits to cover these same circumstances, ensuring employees can access needed support during these difficult times.\n\nOct. 1, 2026: Reported out of Senate Committee with Amendments, 2nd Reading.\n\n🔗 Read the full bill: https://www.njleg.state.nj.us/bill-search/2026/S2046\n\n#ReproductiveRights #NewJersey #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.njleg.state.nj.us/bill-search/2026/S2046",
+  "posted_url": "https://www.instagram.com/p/DeIce6Dj8oT/"
+}
