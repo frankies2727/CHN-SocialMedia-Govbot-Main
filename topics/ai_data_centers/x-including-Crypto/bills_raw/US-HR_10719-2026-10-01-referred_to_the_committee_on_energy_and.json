@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10719",
+    "legislative_session": "119",
+    "title": "To establish age-appropriate design standards and safety safeguards for artificial intelligence chatbots accessed by minors, and for other purposes."
+  },
+  "id": "HR 10719",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Science, Space, and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-01T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10719.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10719"
+        }
+      ]
+    },
+    "bill_id": "HR 10719"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10719/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10719/logs/20261001T040000Z_referred_to_the_committee_on_energy_and_commerce_and_in_addition_to_the_committee_on_science_space_a.json"
+  },
+  "timestamp": "20261001T040000Z",
+  "posted_text": "🧠 US HR 10719 — To establish age-appropriate design standards and safety safeguards for artificial intelligence chatbots accessed by minors, and for other purposes. ...\n...",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-bill/10719",
+  "posted_url": "https://x.com/i/web/status/2107554498424234213"
+}
