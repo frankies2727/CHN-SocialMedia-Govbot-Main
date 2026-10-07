@@ -1,0 +1,42 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "This bill creates a special license plate for Delaware State University to support student access, academic excellence, and university programs that advance the institution’s mission.",
+        "note": "synopsis"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 305",
+    "legislative_session": "153",
+    "title": "AN ACT TO AMEND TITLE 21 OF THE DELAWARE CODE RELATING TO SPECIAL LICENSE PLATES."
+  },
+  "id": "SB 305",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-09-14",
+      "session_id": "153",
+      "sources": [
+        {
+          "note": "text/html",
+          "url": "https://legis.delaware.gov/BillDetail?LegislationId=143230"
+        }
+      ]
+    },
+    "bill_id": "SB 305"
+  },
+  "sources": {
+    "bill": "de-legislation/country:us/state:de/sessions/153/bills/SB305/metadata.json",
+    "log": "de-legislation/country:us/state:de/sessions/153/bills/SB305/logs/20260914T000000Z_signed_by_governor.json"
+  },
+  "timestamp": "20260914T000000Z",
+  "posted_text": "🎓 DE SB 305 — Delaware State U Fans: New License Plates Coming\n\nDelaware State University supporters, your car can now show your pride!\n\nThis bill creates a special license plate specifically for the university, aiming to boost student access, improve academic programs, and support the university’s overall mission.\n\nOwners of eligible vehicles – primarily private passenger cars and trucks under 26,000 pounds – can apply to the Division of Motor Vehicles for these plates.\n\nA one-time fee of $65, including a $15 administrative fee, will be required to obtain the plate, with the remaining funds dedicated to supporting Delaware State University’s financial aid and academic programs.\n\nThe plates will feature the university’s colors and design, and the committee may change the wording to drop the phrase 'The First State' and replace it with the university's name.\n\nSept. 14, 2026: Signed by Governor.\n\n🔗 Read the full bill: https://legis.delaware.gov/BillDetail?LegislationId=143230\n\n#Education #Delaware #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://legis.delaware.gov/BillDetail?LegislationId=143230",
+  "posted_url": "https://www.instagram.com/p/DeNcpnxGaP3/"
+}

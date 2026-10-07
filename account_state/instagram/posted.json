@@ -56,6 +56,8 @@
     "CA|AB2504|2026-09-18|Approved by the Governor.",
     "CA|AB2559|2026-07-16",
     "CA|AB2559|2026-07-16|Approved by the Governor.",
+    "CA|AB2604|2026-09-27",
+    "CA|AB2604|2026-09-27|Approved by the Governor.",
     "CA|AB302|2026-09-10",
     "CA|AB302|2026-09-10|Approved by the Governor.",
     "CA|ACA22|2026-06-25|",
@@ -138,6 +140,8 @@
     "DE|SB 300|2026-06-25|Amendment HA 7 to SS 1 - Stricken in Hou",
     "DE|SB 300|2026-06-25|Amendment HA 8 to SS 1 - Stricken in Hou",
     "DE|SB 300|2026-06-25|Amendment HA 9 to SS 1 - Stricken in Hou",
+    "DE|SB 305|2026-09-14",
+    "DE|SB 305|2026-09-14|Signed by Governor",
     "DE|SB 353|2026-07-27",
     "DE|SB 353|2026-07-27|",
     "DE|SB 353|2026-07-27|Defeated By Senate. Votes: 6 YES 15 NO. ",
@@ -365,6 +369,8 @@
     "NY|A11713|2026-09-16|REFERRED TO CODES",
     "NY|A11714|2026-09-16",
     "NY|A11714|2026-09-16|REFERRED TO LABOR",
+    "NY|A11723|2026-09-16",
+    "NY|A11723|2026-09-16|REFERRED TO JUDICIARY",
     "NY|A7215|2026-07-01",
     "NY|A7215|2026-07-01|PRINT NUMBER 7215B",
     "NY|S10085|2026-09-10",
@@ -373,6 +379,8 @@
     "NY|S10700|2026-09-14|REFERRED TO RULES",
     "NY|S7445|2026-07-10",
     "NY|S7445|2026-07-10|PRINT NUMBER 7445A",
+    "OH|HB 630|2026-09-30",
+    "OH|HB 630|2026-09-30|Referred to committee",
     "PA|HB 1505|2026-07-12",
     "PA|HB 1505|2026-07-12|",
     "PA|HB 1505|2026-07-12|Act No. 20 of 2026",
@@ -470,7 +478,6 @@
     "|HR 9368|2026-06-24|Ordered to be Reported (Amended) by the "
   ],
   "runs": {
-    "29165311440-1": 4,
     "29192797422-1": 4,
     "29254501935-1": 4,
     "29334094316-1": 4,
@@ -499,7 +506,8 @@
     "35651718026-1": 4,
     "35911646988-1": 4,
     "36776308085-1": 4,
-    "37385284124-1": 4
+    "37385284124-1": 4,
+    "37690087611-1": 4
   },
-  "last_run": "2026-10-06T00:10:27.696810+00:00"
+  "last_run": "2026-10-07T22:40:36.986051+00:00"
 }

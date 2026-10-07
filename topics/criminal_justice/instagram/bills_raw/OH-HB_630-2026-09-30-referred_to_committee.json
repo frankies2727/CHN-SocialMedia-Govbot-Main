@@ -1,0 +1,62 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "To amend section 4513.34 of the Revised Code regarding police escorts for farm equipment and vehicles that haul agricultural equipment and produce.",
+        "note": "long title"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 630",
+    "legislative_session": "136",
+    "subject": [
+      "Agriculture",
+      "Crimes, Corrections, and Law Enforcement",
+      "Law Enforcement",
+      "Transportation"
+    ],
+    "title": "Regards police escorts for farm equipment, agricultural vehicles"
+  },
+  "id": "HB 630",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to committee",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-30T04:00:00+00:00",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Senate Armed Services, Veterans Affairs and Public Safety Committee"
+        }
+      ],
+      "session_id": "136",
+      "sources": [
+        {
+          "url": "https://www.legislature.ohio.gov/legislation/136/hb630"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb630/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb630/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb630/"
+        }
+      ]
+    },
+    "bill_id": "HB 630"
+  },
+  "sources": {
+    "bill": "oh-legislation/country:us/state:oh/sessions/136/bills/HB630/metadata.json",
+    "log": "oh-legislation/country:us/state:oh/sessions/136/bills/HB630/logs/20260930T040000Z_referred_to_committee.json"
+  },
+  "timestamp": "20260930T040000Z",
+  "posted_text": "👮 OH HB 630 — Ohio Farmers Could Get Easier Access to Big Equipment on Roads\n\nThis bill would let farmers get special permits to move large farm equipment on Ohio’s highways, even if it exceeds normal size or weight limits.\n\nThe key change?\n\nIf a farmer gets a permit for a trip under ten miles on a regular state route – not an interstate – they won’t need a police escort.\n\nThe bill lays out the rules for applying for these permits, including fees and how they’ll be enforced, focusing on limits for weight and axle loads.\n\nIf a farmer damages a road while using the permit, they could be required to pay the department of transportation to cover the cost.\n\nSept. 30, 2026: Referred to committee.\n\n🔗 Read the full bill: https://www.legislature.ohio.gov/legislation/136/hb630\n\n#CriminalJusticePolicing #Ohio #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.legislature.ohio.gov/legislation/136/hb630",
+  "posted_url": "https://www.instagram.com/p/DeNcI8dGW9V/"
+}
