@@ -1,0 +1,41 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1190",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Energy: alternative sources",
+      "Environmental protection: air pollution",
+      "Environmental protection: pollution prevention",
+      "State agencies (existing): environment, Great Lakes, and energy"
+    ],
+    "title": "Environmental protection: air pollution; low-carbon fuel standard; provide for. Creates new act."
+  },
+  "id": "SB 1190",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "REFERRED TO COMMITTEE ON ENERGY AND ENVIRONMENT",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-01",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1190"
+        }
+      ]
+    },
+    "bill_id": "SB 1190"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1190/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1190/logs/20261001T000000Z_referred_to_committee_on_energy_and_environment.json"
+  },
+  "timestamp": "20261001T000000Z",
+  "posted_text": "🌫️ Environment & Climate\nMI SB 1190 — Michigan Eyes Lower-Carbon Fuels, Sets 2035 Goal\n\nMichigan is considering a new standard to cut the greenhouse gas emissions from transportation fuels. By 2035, the state aims to reduce the carbon intensity of all fuels – including gasoline, diesel, and aviation fuel – by at least 35% compared to 2019 levels. ...\n...",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1190",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DeLZG_rG1LC"
+}

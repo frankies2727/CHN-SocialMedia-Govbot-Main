@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6400",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Law enforcement: background check",
+      "Mental health: facilities"
+    ],
+    "title": "Mental health: facilities; criminal history check for employment in a psychiatric facility; modify. Amends sec. 134a of 1974 PA 258 (MCL 330.1134a).   TIE BAR WITH: HB 6401'26,  HB 6402'26"
+  },
+  "id": "HB 6400",
+  "log": {
+    "action": {
+      "description": "bill electronically reproduced 09/24/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-29",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6400"
+        }
+      ]
+    },
+    "bill_id": "HB 6400"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6400/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6400/logs/20260929T000000Z_bill_electronically_reproduced_09242026.json"
+  },
+  "timestamp": "20260929T000000Z",
+  "posted_text": "🧠 Healthcare\nMI HB 6400 — Michigan Could Bar Some Workers From Mental Health Facilities\n\nThis bill would change how psychiatric facilities and other healthcare facilities hire staff. It says a facility can't hire someone with a history of certain serious crimes – including violent felonies, abuse, or crimes involving prescription drugs – unless 10 years have passed since they completed their sentence, parole, and probation. ...\n...",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6400",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DeLZuTZG12Q"
+}
