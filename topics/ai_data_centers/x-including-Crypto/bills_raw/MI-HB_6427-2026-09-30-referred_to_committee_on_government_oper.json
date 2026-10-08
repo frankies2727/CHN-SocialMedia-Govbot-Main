@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6427",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Businesses: other",
+      "Local government: other"
+    ],
+    "title": "Businesses: other; Michigan zoning enabling act; make subject to the data center local decision protection act. Amends secs. 205 & 606 of 2006 PA 110 (MCL 125.3205 & 125.3606).   TIE BAR WITH: HB 6426'26"
+  },
+  "id": "HB 6427",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "referred to Committee on Government Operations",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-30",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6427"
+        }
+      ]
+    },
+    "bill_id": "HB 6427"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6427/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6427/logs/20260930T000000Z_referred_to_committee_on_government_operations.json"
+  },
+  "timestamp": "20260930T000000Z",
+  "posted_text": "🏢 MI HB 6427 — Data Centers Get a Shield in Michigan Zoning\n\nMichigan is considering a change to how zoning decisions are made, specifically protecting data centers. This bill links zoning ordinances to several key state acts – including those related to electric transmission lines, renewable energy, and wireless communications – and establishes a process for challenging zoning decisions about property used for natural resource extraction. ...\n...",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6427",
+  "posted_url": "https://x.com/i/web/status/2108285104053219435"
+}
