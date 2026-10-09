@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "PC1451",
+    "legislative_session": "2025-2028",
+    "title": "Para añadir un inciso (i) en la Sección 6 de la Ley Núm. 16 de 5 de agosto de 1975, según enmendada, conocida como la “Ley de Seguridad y Salud en el Trabajo de Puerto Rico” (PR OSHA), a los fines de establecer que todo patrono, público y privado, ofrezcan una orientación formal a todo empleado sobre sus derechos adquiridos bajo dicha ley durante el proceso de contratación o inducción; y para otros fines relacionados."
+  },
+  "id": "PC1451",
+  "log": {
+    "action": {
+      "classifications": [
+        "reading-1"
+      ],
+      "description": "Aparece en Primera Lectura de la Cámara",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-24T04:00:00+00:00",
+      "session_id": "2025-2028",
+      "sources": [
+        {
+          "url": "https://sutra.oslpr.org/medidas/162332"
+        }
+      ]
+    },
+    "bill_id": "PC1451"
+  },
+  "sources": {
+    "bill": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PC1451/metadata.json",
+    "log": "pr-legislation/country:us/state:pr/sessions/2025-2028/bills/PC1451/logs/20260924T040000Z_aparece_en_primera_lectura_de_la_cámara.json"
+  },
+  "timestamp": "20260924T040000Z",
+  "posted_text": "🦺 Labor & Workers' Rights\nPR PC1451 — New Rule: Employers Must Teach You Your Rights\n\nPuerto Rico is making it official: every employer, whether they're a business or a government agency, now has to give new hires a formal overview of their rights under Puerto Rico's Occupational Safety and Health Law. This orientation must happen during the hiring or onboarding process, ensuring employees understand their protections and how to access them. ...\n...",
+  "posted_link": "https://sutra.oslpr.org/medidas/162332",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DeQmHo-jcQR"
+}
