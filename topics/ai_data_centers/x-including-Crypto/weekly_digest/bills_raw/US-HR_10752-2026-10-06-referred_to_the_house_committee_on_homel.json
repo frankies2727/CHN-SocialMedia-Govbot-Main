@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10752",
+    "legislative_session": "119",
+    "title": "To establish in the Cybersecurity and Infrastructure Security Agency of the Department of Homeland Security a task force on artificial intelligence, and for other purposes."
+  },
+  "id": "HR 10752",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Homeland Security.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-06T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10752.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10752"
+        }
+      ]
+    },
+    "bill_id": "HR 10752"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10752/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10752/logs/20261006T040000Z_referred_to_the_house_committee_on_homeland_security.json"
+  },
+  "timestamp": "20261006T040000Z"
+}
