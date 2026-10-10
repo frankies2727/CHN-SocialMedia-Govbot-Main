@@ -1,0 +1,46 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S3978",
+    "legislative_session": "222",
+    "subject": [
+      "CHILDREN",
+      "HUMAN SVCS",
+      "MEDICAID"
+    ],
+    "title": "Establishes minimum Medicaid and NJ FamilyCare pediatric special care nursing facility reimbursement rates."
+  },
+  "id": "S3978",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported out of Senate Committee, 2nd Reading",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-05T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3978"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3978"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S3978"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "S3978"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S3978/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S3978/logs/20261005T040000Z_reported_out_of_senate_committee_2nd_reading.json"
+  },
+  "timestamp": "20261005T040000Z"
+}

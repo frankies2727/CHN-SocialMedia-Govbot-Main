@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1198",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Criminal procedure: sentencing guidelines",
+      "Elections: offenses",
+      "Elections: polling places",
+      "Military affairs: other"
+    ],
+    "title": "Criminal procedure: sentencing guidelines; sentencing guidelines for certain Michigan election law violations dealing with the unauthorized presence or conduct by military officers at an election; provide for. Amends sec. 11d, ch. XVII of 1927 PA 175 (MCL 777.11d).  TIE BAR WITH: SB 1197'26"
+  },
+  "id": "SB 1198",
+  "log": {
+    "action": {
+      "description": "SENATE CO-SPONSOR(S) NAMED: SUE SHINK",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-06",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1198"
+        }
+      ]
+    },
+    "bill_id": "SB 1198"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1198/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1198/logs/20261006T000000Z_senate_cosponsors_named_sue_shink.json"
+  },
+  "timestamp": "20261006T000000Z"
+}

@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10768",
+    "legislative_session": "119",
+    "title": "To establish the Office of Artificial Intelligence and Emerging Technology Threats within the Executive Office of the President, and for other purposes."
+  },
+  "id": "HR 10768",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Energy and Commerce.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-09T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10768.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10768"
+        }
+      ]
+    },
+    "bill_id": "HR 10768"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10768/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10768/logs/20261009T040000Z_referred_to_the_house_committee_on_energy_and_commerce.json"
+  },
+  "timestamp": "20261009T040000Z"
+}

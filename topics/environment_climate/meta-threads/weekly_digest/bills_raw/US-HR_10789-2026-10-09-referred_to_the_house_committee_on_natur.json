@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10789",
+    "legislative_session": "119",
+    "title": "To establish a moratorium on oil and gas production and exploration activities in the Eglin Gulf Test and Training Range, and for other purposes."
+  },
+  "id": "HR 10789",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Natural Resources.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-09T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10789.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10789"
+        }
+      ]
+    },
+    "bill_id": "HR 10789"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10789/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10789/logs/20261009T040000Z_referred_to_the_house_committee_on_natural_resources.json"
+  },
+  "timestamp": "20261009T040000Z"
+}
