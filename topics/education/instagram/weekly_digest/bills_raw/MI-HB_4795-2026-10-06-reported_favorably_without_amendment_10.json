@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 4795",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Education: board members",
+      "Education: intermediate school districts",
+      "Elections: school"
+    ],
+    "title": "Elections: school; requirement for intermediate school board members to file an acceptance of office; eliminate. Amends sec. 861 of 1976 PA 451 (MCL 380.861).   TIE BAR WITH: HB 4793'25"
+  },
+  "id": "HB 4795",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "REPORTED FAVORABLY WITHOUT AMENDMENT 10/1/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-06",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-HB-4795"
+        }
+      ]
+    },
+    "bill_id": "HB 4795"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB4795/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB4795/logs/20261006T000000Z_reported_favorably_without_amendment_1012026.json"
+  },
+  "timestamp": "20261006T000000Z"
+}
