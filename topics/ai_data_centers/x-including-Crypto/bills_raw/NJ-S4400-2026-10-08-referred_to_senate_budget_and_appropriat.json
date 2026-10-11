@@ -1,0 +1,47 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S4400",
+    "legislative_session": "222",
+    "subject": [
+      "ENVIRONMENT"
+    ],
+    "title": "Requires DEP to conduct study of short and long term effects of water use by large-scale data centers."
+  },
+  "id": "S4400",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Senate Budget and Appropriations Committee",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-08T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4400"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4400"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4400"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "S4400"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S4400/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S4400/logs/20261008T040000Z_referred_to_senate_budget_and_appropriations_committee.json"
+  },
+  "timestamp": "20261008T040000Z",
+  "posted_text": "🏢 NJ S4400 — NJ Wants to Know: How Data Centers Are Using Your Water\n\nNew Jersey is asking the DEP to investigate the impact of large-scale data centers on the state’s water resources. This bill directs the Department of Environmental Protection to study how these facilities – which use massive amounts of water for cooling – affect drinking water, wastewater systems, and the environment. ...\n...",
+  "posted_link": "https://www.njleg.state.nj.us/bill-search/2026/S4400",
+  "posted_url": "https://x.com/i/web/status/2109352872915751402"
+}

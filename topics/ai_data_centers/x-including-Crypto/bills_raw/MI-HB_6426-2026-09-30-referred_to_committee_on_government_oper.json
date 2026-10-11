@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6426",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Businesses: other",
+      "Local government: other"
+    ],
+    "title": "Businesses: other; data center local decision protection act; create. Creates new act.   TIE BAR WITH: HB 6427'26"
+  },
+  "id": "HB 6426",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "referred to Committee on Government Operations",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-30",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6426"
+        }
+      ]
+    },
+    "bill_id": "HB 6426"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6426/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6426/logs/20260930T000000Z_referred_to_committee_on_government_operations.json"
+  },
+  "timestamp": "20260930T000000Z",
+  "posted_text": "🏢 MI HB 6426 — Data Centers Could Hit Pause in Michigan\n\nLarge data centers with a projected energy load of 25 megawatts or more, or those expanding to that level, will face stricter local review in Michigan. This bill establishes key definitions – like ‘large-scale data center’ and ‘local decision’ – and sets a process for developers seeking approval. ...\n...",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6426",
+  "posted_url": "https://x.com/i/web/status/2109358807348310017"
+}
