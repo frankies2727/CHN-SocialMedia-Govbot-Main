@@ -47,6 +47,9 @@
     "NH|SB552|2026-08-19|Without Objection the Senate will take u",
     "US|HR 10319|2026-09-08",
     "US|HR 10319|2026-09-08|Referred to the House Committee on Overs",
+    "US|HRES 1572|2026-09-21",
+    "US|HRES 1572|2026-09-21|Referred to the Committee on Armed Servi",
+    "US|HRES 1572|2026-09-21|Submitted in House",
     "US|SRES 868|2026-09-17",
     "US|SRES 868|2026-09-17|Referred to the Committee on Veterans' A",
     "US|SRES 868|2026-09-17|Submitted in Senate"
@@ -58,7 +61,7 @@
     "NH": "2026-08-28T07:55:54.459745+00:00",
     "NC": "2026-07-16T19:07:02.826477+00:00",
     "MA": "2026-08-19T00:29:21.641059+00:00",
-    "US": "2026-09-21T02:02:07.626367+00:00"
+    "US": "2026-10-12T03:05:02.511375+00:00"
   },
-  "last_run": "2026-09-30T04:18:08.574180+00:00"
+  "last_run": "2026-10-12T03:09:02.246475+00:00"
 }
