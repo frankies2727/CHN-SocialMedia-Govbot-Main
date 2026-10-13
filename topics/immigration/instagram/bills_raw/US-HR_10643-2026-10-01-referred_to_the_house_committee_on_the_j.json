@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10643",
+    "legislative_session": "119",
+    "title": "H–1B Visa Fraud Crackdown Act"
+  },
+  "id": "HR 10643",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on the Judiciary.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-01T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10643.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10643"
+        }
+      ]
+    },
+    "bill_id": "HR 10643"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10643/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10643/logs/20261001T040000Z_referred_to_the_house_committee_on_the_judiciary.json"
+  },
+  "timestamp": "20261001T040000Z",
+  "posted_text": "🆔 US HR 10643 — H-1B Visa Penalties Jump to $100K and 5 Years\n\nThis bill raises the potential penalties for serious violations of the H-1B visa program.\n\nSpecifically, it increases the maximum fine for certain violations from $5,000 to $100,000 and the maximum prison sentence from at least 2 years to at least 5 years.\n\nAdditionally, the bill increases the fines for document fraud, raising the minimum penalty from $250 to $1,000 and the maximum from $2,000 to $10,000.\n\nThe penalties for document fraud also increase to a minimum of $20,000 and a maximum of $50,000, with potential prison sentences extended from at least 3 years to at least 10 years.\n\nOct. 1, 2026: Referred to the House Committee on the Judiciary.\n\n🔗 Read the full bill: https://www.congress.gov/bill/119th-congress/house-bill/10643\n\n#Immigration #USCongress #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-bill/10643",
+  "posted_url": "https://www.instagram.com/p/DeagRKYnYoa/"
+}

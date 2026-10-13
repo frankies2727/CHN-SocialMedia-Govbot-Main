@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 5045",
+    "legislative_session": "119",
+    "title": "Wildfire Emissions Prevention Act of 2026"
+  },
+  "id": "S 5045",
+  "log": {
+    "action": {
+      "description": "Message on Senate action sent to the House.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-05T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s5045.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-bill/5045"
+        }
+      ]
+    },
+    "bill_id": "S 5045"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/S5045/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/S5045/logs/20261005T040000Z_message_on_senate_action_sent_to_the_house.json"
+  },
+  "timestamp": "20261005T040000Z",
+  "posted_text": "🔥 US S 5045 — Wildfires Could Now Trigger Air Quality Alerts\n\nThis bill updates the Clean Air Act to clarify how air quality monitoring data is handled when prescribed fires cause smoke.\n\nIt defines ‘exceptional events’ – events like prescribed fires – that could trigger air quality alerts.\n\nThe Administrator will revise regulations to reduce the burden on states to demonstrate an exceptional event, clarify the role of prescribed fires, and establish a process for reviewing state petitions regarding exceptional events.\n\nThe bill also creates a ‘Smoke Ready Communities’ program, offering competitive grants to states, tribes, and other entities to assess and mitigate wildfire smoke hazards in buildings, particularly schools.\n\nOct. 5, 2026: Message on Senate action sent to the House.\n\n🔗 Read the full bill: https://www.congress.gov/bill/119th-congress/senate-bill/5045\n\n#EnvironmentClimate #USCongress #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/senate-bill/5045",
+  "posted_url": "https://www.instagram.com/p/DeaeC7zHVms/"
+}

@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 5500",
+    "legislative_session": "119",
+    "title": "Affordable Housing Preservation and Protection Act of 2026"
+  },
+  "id": "S 5500",
+  "log": {
+    "action": {
+      "description": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-24T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s5500.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-bill/5500"
+        }
+      ]
+    },
+    "bill_id": "S 5500"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/S5500/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/S5500/logs/20260924T040000Z_read_twice_and_referred_to_the_committee_on_banking_housing_and_urban_affairs.json"
+  },
+  "timestamp": "20260924T040000Z",
+  "posted_text": "🏘️ US S 5500 — Congress Eyes Help for Aging Apartment Buildings\n\nCongress is considering a bill to offer financial support to apartment buildings assisted by the Department of Housing and Urban Development.\n\nThis bill would provide loans – potentially forgivable – to owners and purchasers of ‘distressed’ multifamily housing projects that face issues like safety or accessibility problems.\n\nThe goal is to ensure these buildings remain affordable housing options for low- and moderate-income residents.\n\nTo qualify, property owners would need to agree to extend affordable housing use agreements and accept renewal of rental assistance contracts.\n\nThe loans would carry a 1% interest rate and a repayment period tied to the affordability of the project.\n\nThe Secretary could also waive certain restrictions or forgive portions of the loan if it determined doing so would preserve affordability.\n\nThis bill aims to prevent the loss of affordable housing units by addressing critical maintenance needs and supporting long-term affordability.”\n\nSept. 24, 2026: Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.\n\n🔗 Read the full bill: https://www.congress.gov/bill/119th-congress/senate-bill/5500\n\n#Housing #USCongress #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/senate-bill/5500",
+  "posted_url": "https://www.instagram.com/p/Deafm1FHXG5/"
+}

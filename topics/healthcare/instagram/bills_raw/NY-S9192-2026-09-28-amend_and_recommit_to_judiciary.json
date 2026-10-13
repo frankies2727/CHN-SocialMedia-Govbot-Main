@@ -1,0 +1,47 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Provides that it is unlawful for any person to directly or indirectly own, operate, or control the whole or any part of a health insurance company and a health care provider; requires divestment within three years; prohibits health insurance companies and health care providers found in violation of such provisions from receiving payment from certain state programs."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S9192",
+    "legislative_session": "2025-2026",
+    "title": "Relates to health insurance and provider divestment"
+  },
+  "id": "S9192",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "referral-committee"
+      ],
+      "description": "AMEND AND RECOMMIT TO JUDICIARY",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-28",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S9192?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/S9192"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=S09192&term=2025"
+        }
+      ]
+    },
+    "bill_id": "S9192"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S9192/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S9192/logs/20260928T000000Z_amend_and_recommit_to_judiciary.json"
+  },
+  "timestamp": "20260928T000000Z",
+  "posted_text": "💵 NY S9192 — NY Could Block Payments to Health Insurers & Hospitals\n\nNew York could prevent health insurance companies and healthcare providers from owning each other.\n\nThe law defines ‘indirect control’ – basically, if one company can influence the other – and says it’s illegal to own both.\n\nWithin three years of this law taking effect, companies found to be in violation would have to sell off their ownership.\n\nThe Attorney General could then fine them up to $10,000 a day, and companies found in violation would be barred from receiving payments under New York’s social services programs until the violation is fixed.\n\nSept. 28, 2026: Amend and Recommit to Judiciary.\n\n🔗 Read the full bill: https://www.nysenate.gov/legislation/bills/2025/S9192\n\n#Healthcare #NewYork #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.nysenate.gov/legislation/bills/2025/S9192",
+  "posted_url": "https://www.instagram.com/p/DeaevSSHavD/"
+}
