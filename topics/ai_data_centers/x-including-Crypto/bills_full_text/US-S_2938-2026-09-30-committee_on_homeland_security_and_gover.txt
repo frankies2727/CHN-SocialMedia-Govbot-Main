@@ -1,0 +1,239 @@
+A BILL
+To require the Secretary of Energy to establish the Advanced Artificial
+Intelligence Evaluation Program, and for other purposes.
+
+1.
+Short title
+This Act may be cited as the Artificial Intelligence Risk Evaluation Act of 2025.
+
+2.
+Sense of Congress; purposes
+
+(a)
+Sense of Congress
+It is the sense of Congress that rapidly advancing artificial intelligence capabilities present both opportunities and significant risks to national security, public safety, economic competitiveness, civil liberties, and healthy labor and other markets, and that, as artificial intelligence advances toward human-level capabilities in virtually all domains, the United States must establish a secure testing and evaluation program to generate data-driven options for managing emerging risks.
+
+(b)
+Purposes
+The purposes of the program established under this Act are to provide Congress with the empirical data, lessons, and insights necessary for Federal oversight of artificial intelligence to ensure that regulatory decisions are made on the basis of empirical testing, and to enable Congress to safeguard American citizens.
+
+3.
+Definitions
+In this Act:  (1) Advanced artificial intelligence system  (A) In general Subject to subparagraph (B), the term advanced artificial intelligence system means an artificial intelligence system that was trained using a quantity of computing power greater than 1026 integer or floating-point operations.
+
+(B)
+Alternate meaning
+The Secretary may, by a rule, propose a new definition of the term advanced artificial intelligence system to replace the definition in subparagraph (A), which new definition shall not go into effect until the Secretary submits the rule to Congress and a joint resolution approving the rule is enacted into law.
+
+(2)
+Adverse AI incident
+The term adverse AI incident means an incident relating to an artificial intelligence system that involves—
+
+(A)
+a loss-of-control scenario;   (B) a risk of weaponization by a foreign adversary, a foreign terrorist organization, or another adversary of the United States Government;
+
+(C)
+a threat to the safety or reliability of critical infrastructure (as defined in subsection (e) of the Critical Infrastructures Protection Act of 2001 (42 U.S.C. 5195c(e)));
+
+(D)
+a significant erosion of civil liberties, economic competition, and healthy labor markets;
+
+(E)
+scheming behavior; or   (F) an attempt to carry out an incident described in subparagraphs (A) through (E).
+
+(3)
+Artificial intelligence; AI
+The term artificial intelligence or AI means technology that enables a device or software—
+
+(A)
+to make—for a given set of human-defined objectives—predictions, recommendations, or decisions influencing real or virtual environments; and
+
+(B)
+to use machine and human-based inputs—
+
+(i)
+to perceive real and virtual environments;   (ii) to abstract such perceptions into models through analysis in an automated manner; and
+
+(iii)
+to use model inference to formulate options for information or action.
+
+(4)
+Artificial intelligence system;
+AI system
+The term artificial intelligence system or AI system means a particular model, program, or tool within the field of artificial intelligence.
+
+(5)
+Artificial superintelligence
+
+(A)
+In general
+The term artificial superintelligence means artificial intelligence that exhibits, or can easily be modified to exhibit, all of the characteristics described in subparagraph (B).
+
+(B)
+Characteristics described
+The characteristics referred to in subparagraph (A) are the following:
+
+(i)
+The AI can enable a device or software to operate autonomously and effectively for long stretches of time in open-ended environments and in pursuit of broad objectives.
+
+(ii)
+The AI can enable a device or software to match or exceed human cognitive performance and capabilities across most domains or tasks, including those related to decisionmaking, learning, and adaptive behaviors.
+
+(iii)
+The AI can enable a device or software to potentially exhibit the capacity to independently modify or enhance its own functions in ways that could plausibly circumvent human control or oversight, posing substantial and unprecedented risks to humanity.
+
+(6)
+Computing power
+The term computing power means the processing power and other electronic resources used to train, validate, deploy, and run AI algorithms and models.
+
+(7)
+Covered advanced artificial intelligence system developer
+The term covered advanced artificial intelligence system developer means a person that designs, codes, produces, owns, or substantially modifies an advanced artificial intelligence system for use in interstate or foreign commerce, including by taking steps to initiate a training run of the advanced artificial intelligence system.
+
+(8)
+Deploy
+The term deploy means an action taken by a covered advanced artificial intelligence system developer to release, sell, or otherwise provide access to an advanced artificial intelligence system outside the custody of the developer, including by releasing an open-source advanced artificial intelligence system.
+
+(9)
+Foreign adversary
+The term foreign adversary means a foreign adversary (as defined in section 791.2 of title 15, Code of Federal Regulations) (or successor regulations) that is included on the list in section 791.4(a) of that title (or successor regulations).
+
+(10)
+Foreign terrorist organization
+The term foreign terrorist organization means a foreign entity designated as a foreign terrorist organization by the Secretary of State under section 219 of the Immigration and Nationality Act (8 U.S.C. 1189).
+
+(11)
+Interstate or foreign commerce
+The term interstate or foreign commerce has the meaning given the term in section 921(a) of title 18, United States Code.
+
+(12)
+Loss-of-control scenario
+The term loss-of-control scenario means a scenario in which an artificial intelligence system—
+
+(A)
+behaves contrary to its instruction or programming by human designers or operators;
+
+(B)
+deviates from rules established by human designers or operators;   (C) alters operational rules or safety constraints without authorization;
+
+(D)
+operates beyond the scope intended by human designers or operators;   (E) pursues goals that are different from those intended by human designers or operators;
+
+(F)
+subverts oversight or shutdown mechanisms; or   (G) otherwise behaves in an unpredictable manner so as to be harmful to humanity.
+
+(13)
+Program
+The term program means the Advanced Artificial Intelligence Evaluation Program established under section 5.
+
+(14)
+Scheming behavior
+The term scheming behavior means behavior by an AI system to deceive human designers or operators, including by—
+
+(A)
+hiding its true capabilities and objectives; or
+
+(B)
+attempting to subvert oversight mechanisms or shutdown mechanisms.
+
+(15)
+Secretary
+The term Secretary means the Secretary of Energy.    4. Obligation to participate; enforcement and penalties  (a) In general Each covered advanced artificial intelligence system developer shall—
+
+(1)
+participate in the program; and   (2) provide to the Secretary, on request, materials and information necessary to carry out the program, which may include, with respect to the advanced artificial intelligence system of the covered advanced artificial intelligence system developer—
+
+(A)
+the underlying code of the advanced artificial intelligence system;
+
+(B)
+data used to train the advanced artificial intelligence system;   (C) model weights or other adjustable parameters for the advanced artificial intelligence system;
+
+(D)
+the interface engine or other implementation of the advanced artificial intelligence system; and
+
+(E)
+detailed information regarding the training, model architecture, or other aspects of the advanced artificial intelligence system.
+
+(b)
+Prohibition on deployment
+No person may deploy an advanced artificial intelligence system for use in interstate or foreign commerce unless that person is in compliance with subsection (a).
+
+(c)
+Penalty
+A person that violates subsection (a) or (b) shall be fined not less than $1,000,000 per day of the violation.
+
+5.
+Advanced Artificial Intelligence Evaluation Program
+
+(a)
+In general
+Not later than 90 days after the date of enactment of this Act, the Secretary shall establish an Advanced Artificial Intelligence Evaluation Program within the Department of Energy.
+
+(b)
+Activities
+The program shall—  (1) offer standardized and classified testing and evaluation of advanced AI systems to systematically collect data on the likelihood of adverse AI incidents for a given advanced AI system;
+
+(2)
+implement testing protocols that match or exceed anticipated real-world AI jailbreaking techniques, including adversarial testing by red teams with expertise comparable to sophisticated malicious actors;
+
+(3)
+to the extent feasible, establish and facilitate classified, independent third-party assessments and blind model evaluations to maintain transparency and reliability;
+
+(4)
+provide participating entities with a formal report based on testing outcomes that clearly identifies evaluated risks and safety measures;
+
+(5)
+develop recommended containment protocols, contingency planning, and mitigation strategies informed by testing data to address identified risks;
+
+(6)
+inform the creation of evidence-based standards, regulatory options, guidelines, and governance mechanisms based on data collected from testing and evaluations;
+
+(7)
+assist Congress in determining the potential for controlled AI systems to reach artificial superintelligence, exceed human oversight or operational control, or pose existential threats to humanity by providing comprehensive empirical evaluations and risk assessments; and
+
+(8)
+develop proposed options for regulatory or governmental oversight, including potential nationalization or other strategic measures, for preventing or managing the development of artificial superintelligence if artificial superintelligence seems likely to arise.
+
+(c)
+Plan for permanent framework
+
+(1)
+In general
+Not later than 360 days after the date of enactment of this Act, the Secretary shall submit to Congress a detailed recommendation for Federal oversight of advanced artificial intelligence systems, drawing directly upon insights, empirical data, and lessons learned from the program.
+
+(2)
+Contents
+The plan submitted under paragraph (1) shall—
+
+(A)
+summarize and analyze outcomes from testing, identifying key trends, capabilities, potential risks, and system behaviors such as weaponization potential, self-replication capabilities, scheming behaviors, autonomous decisionmaking, and automated AI development capabilities;
+
+(B)
+recommend evidence-based standards, certification procedures, licensing requirements, and regulatory oversight structures specifically informed by testing and evaluation data, ensuring alignment between identified risks and regulatory responses;
+
+(C)
+outline proposals for automated and continuous monitoring of AI hardware usage, computational resource inputs, and cloud-computing deployments based on observed relationships between those factors and AI system performance or emergent capabilities;
+
+(D)
+propose adaptive governance strategies that account for ongoing improvements in algorithmic efficiency and system capabilities, ensuring that regulatory frameworks remain relevant and effective as AI technology advances;
+
+(E)
+suggest revisions with respect to Federal oversight or resourcing, such as a new office within an existing agency, a new agency, or additional funding, that may be necessary to develop and administer a permanent framework for oversight of advanced artificial intelligence systems; and
+
+(F)
+provide comprehensive evaluations regarding the potential for tested AI systems to exceed human oversight, approach artificial superintelligence, threaten economic competition (including in labor markets), undermine civil liberties, and pose existential risks to humanity, including clearly articulated options for regulatory or governmental oversight measures to address scenarios of imminent concern identified through testing.
+
+(3)
+Updates
+Not less frequently than once every year for the duration of the program, the Secretary shall—
+
+(A)
+update the plan submitted under paragraph (1) with new insights, data, and lessons from the program; and
+
+(B)
+submit the updated plan to Congress.
+
+(d)
+Sunset
+The program shall terminate on the date that is 7 years after the date of enactment of this Act, unless renewed by Congress.

@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6388",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Businesses: other",
+      "Land use: zoning and growth management"
+    ],
+    "title": "Businesses: other; Michigan zoning enabling act; make subject to the data center siting and community protection act. Amends sec. 205 of 2006 PA 110 (MCL 125.3205).   TIE BAR WITH: HB 6391'26"
+  },
+  "id": "HB 6388",
+  "log": {
+    "action": {
+      "description": "bill electronically reproduced 09/24/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-29",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6388"
+        }
+      ]
+    },
+    "bill_id": "HB 6388"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6388/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6388/logs/20260929T000000Z_bill_electronically_reproduced_09242026.json"
+  },
+  "timestamp": "20260929T000000Z",
+  "posted_text": "🏢 MI HB 6388 — Michigan Zoning Changes: Data Centers & Mining Now in the Mix\n\nMichigan is updating its zoning rules to align with several key state acts, including those governing electric transmission lines, renewable energy, and small wireless facilities. Critically, this bill now requires that any zoning decisions regarding resource extraction – like mining – consider factors like property values, traffic safety, and public health. ...\n...",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6388",
+  "posted_url": "https://x.com/i/web/status/2110106149496168748"
+}

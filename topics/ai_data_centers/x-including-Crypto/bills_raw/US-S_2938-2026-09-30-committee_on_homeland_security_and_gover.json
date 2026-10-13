@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 2938",
+    "legislative_session": "119",
+    "title": "Artificial Intelligence Risk Evaluation Act of 2025"
+  },
+  "id": "S 2938",
+  "log": {
+    "action": {
+      "description": "Committee on Homeland Security and Governmental Affairs. Hearings held.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-30T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s2938.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-bill/2938"
+        }
+      ]
+    },
+    "bill_id": "S 2938"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/S2938/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/S2938/logs/20260930T040000Z_committee_on_homeland_security_and_governmental_affairs_hearings_held.json"
+  },
+  "timestamp": "20260930T040000Z",
+  "posted_text": "🧠 US S 2938 — Congress Wants to Test AI Risks – Here’s What Changes\n\nCongress is setting up a program to evaluate the risks posed by advanced artificial intelligence. This bill requires companies developing ‘advanced AI systems’ – defined as those using more than 1026 calculations – to participate in this program. Developers must share their code, training data, and system parameters with the Energy Secretary. ...\n...",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/senate-bill/2938",
+  "posted_url": "https://x.com/i/web/status/2110104871584006656"
+}
