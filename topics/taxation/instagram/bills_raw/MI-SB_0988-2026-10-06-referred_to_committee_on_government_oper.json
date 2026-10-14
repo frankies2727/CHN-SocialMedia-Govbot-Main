@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 0988",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Property tax: tax tribunal"
+    ],
+    "title": "Property tax: tax tribunal; number of days to appeal a claim for poverty exemption; modify. Amends sec. 53c of 1893 PA 206 (MCL 211.53c)."
+  },
+  "id": "SB 0988",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "referred to Committee on Government Operations",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-06",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-0988"
+        }
+      ]
+    },
+    "bill_id": "SB 0988"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0988/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0988/logs/20261006T000000Z_referred_to_committee_on_government_operations.json"
+  },
+  "timestamp": "20261006T000000Z",
+  "posted_text": "🏠 MI SB 0988 — You Have 35 Days to Fight a Poverty Tax Exemption\n\nIf the county board of review denies your claim for a poverty tax exemption, you can now appeal directly to the Michigan Tax Tribunal.\n\nThe key change?\n\nYou have 35 days from the denial date – not 30 – to file your appeal.\n\nThe bill clarifies that if you send your appeal by mail, the deadline is extended by the date the postmark is dated.\n\nOct. 6, 2026: Referred to Committee on Government Operations.\n\n🔗 Read the full bill: https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-0988\n\n#Taxation #Michigan #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-0988",
+  "posted_url": "https://www.instagram.com/p/DefWwo2myDW/"
+}
