@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HJR 24-18",
+    "legislative_session": "24",
+    "title": "To approve the Governor’s request to exempt and fill essential, vacant personnel positions within the Department of Corrections, pursuant to Public Law 24-20, Section 602(a)."
+  },
+  "id": "HJR 24-18",
+  "log": {
+    "action": {
+      "classifications": [
+        "reading-2"
+      ],
+      "description": "House Final Reading",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-25",
+      "session_id": "24",
+      "sources": [
+        {
+          "url": "https://cnmileg.net/leg_sts.asp?legID=20148&secID=1"
+        }
+      ]
+    },
+    "bill_id": "HJR 24-18"
+  },
+  "sources": {
+    "bill": "mp-legislation/country:us/state:mp/sessions/24/bills/HJR24-18/metadata.json",
+    "log": "mp-legislation/country:us/state:mp/sessions/24/bills/HJR24-18/logs/20260925T000000Z_house_final_reading.json"
+  },
+  "timestamp": "20260925T000000Z",
+  "posted_text": "🔒 Criminal Justice & Policing\nMP HJR 24-18 — Northern Marianas OKs Extra Corrections Staff\n\nThe Northern Mariana Islands Legislature approved 21 new personnel positions within the Department of Corrections. This action allows the Governor to fill essential, vacant roles as outlined in Public Law 24-20, which froze new positions across the Executive Branch. ...\n...",
+  "posted_link": "https://cnmileg.net/leg_sts.asp?legID=20148&secID=1",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DedXN07m7jg"
+}
