@@ -1,0 +1,60 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "To amend sections 5104.042, 5104.30, 5104.32, and 5104.34 and to enact section 109.44 of the Revised Code and to amend Sections 423.10, as subsequently amended, and 423.105 of H.B. 96 of the 136th General Assembly to revise the law governing the publicly funded child care program, modify an appropriation for the Child Care Cred Program, and to make an appropriation for a data analytics project.",
+        "note": "long title"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 647",
+    "legislative_session": "136",
+    "subject": [
+      "Child Care",
+      "Health and Human Services"
+    ],
+    "title": "Regards publicly funded child care, the Child Care Cred Program"
+  },
+  "id": "HB 647",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to committee",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-30T04:00:00+00:00",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Senate Finance Committee"
+        }
+      ],
+      "session_id": "136",
+      "sources": [
+        {
+          "url": "https://www.legislature.ohio.gov/legislation/136/hb647"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb647/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb647/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb647/"
+        }
+      ]
+    },
+    "bill_id": "HB 647"
+  },
+  "sources": {
+    "bill": "oh-legislation/country:us/state:oh/sessions/136/bills/HB647/metadata.json",
+    "log": "oh-legislation/country:us/state:oh/sessions/136/bills/HB647/logs/20260930T040000Z_referred_to_committee.json"
+  },
+  "timestamp": "20260930T040000Z",
+  "posted_text": "🧒 Education\nOH HB 647 — Ohio Could Investigate Fraud in Child Care Program\n\nOhio could see the Attorney General investigate potential fraud or misuse of public funds within the state’s publicly funded child care program. The bill outlines the Attorney General’s power to investigate and prosecute criminal or civil violations related to the program, potentially leading to referrals to a grand jury or direct legal action. ...\n...",
+  "posted_link": "https://www.legislature.ohio.gov/legislation/136/hb647",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/Deia1v5lY83"
+}
