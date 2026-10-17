@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SRES 950",
+    "legislative_session": "119",
+    "title": "A resolution designating the week of September 14 through September 18, 2026, as \"National Clean Energy Week\"."
+  },
+  "id": "SRES 950",
+  "log": {
+    "action": {
+      "description": "Under authority of the order of the Senate of September 30, 2026, ordered referred to the Committee on the Judiciary.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-15T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/sres/BILLSTATUS-119sres950.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-resolution/950"
+        }
+      ]
+    },
+    "bill_id": "SRES 950"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/SRES950/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/SRES950/logs/20261015T040000Z_under_authority_of_the_order_of_the_senate_of_september_30_2026_ordered_referred_to_the_committee_on.json"
+  },
+  "timestamp": "20261015T040000Z"
+}

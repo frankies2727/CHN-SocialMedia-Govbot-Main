@@ -1,0 +1,22 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A1429",
+    "legislative_session": "222",
+    "subject": [
+      "SCH BOARDS",
+      "TEACHERS",
+      "VETERANS"
+    ],
+    "title": "Permits board of education to employ certain veterans in coaching positions in school district's interscholastic athletic program."
+  },
+  "id": "A1429",
+  "log": {
+    "bill_id": "A1429"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A1429/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A1429/logs/20261015T040000Z.vote_event.pass.lower.json"
+  },
+  "timestamp": "20261015T040000Z.vote"
+}
