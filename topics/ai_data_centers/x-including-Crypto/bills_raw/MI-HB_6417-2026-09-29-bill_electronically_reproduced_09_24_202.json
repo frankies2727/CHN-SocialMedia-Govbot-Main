@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6417",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Communications: artificial intelligence",
+      "Labor: other",
+      "State agencies (existing): labor and economic opportunity"
+    ],
+    "title": "Labor: other; community and worker economic transition activities; provide to workers who have employment tied to an industry affected by the adoption or implementation of artificial intelligence. Amends sec. 5 of 2023 PA 232 (MCL 408.915)."
+  },
+  "id": "HB 6417",
+  "log": {
+    "action": {
+      "description": "bill electronically reproduced 09/24/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-29",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6417"
+        }
+      ]
+    },
+    "bill_id": "HB 6417"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6417/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6417/logs/20260929T000000Z_bill_electronically_reproduced_09242026.json"
+  },
+  "timestamp": "20260929T000000Z",
+  "posted_text": "🧠 MI HB 6417 — Michigan Creates Office to Help Workers Hit by AI\n\nMichigan is creating a new office to support workers displaced by industries affected by artificial intelligence. This office will focus on helping workers in sectors like fossil fuels, vehicles, and construction who have lost jobs since September 2020 or will lose them by January 1, 2040. ...\n...",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6417",
+  "posted_url": "https://x.com/i/web/status/2111868082461286624"
+}
