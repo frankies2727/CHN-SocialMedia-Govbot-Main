@@ -1,0 +1,53 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "To amend section 5751.98 and to enact sections 3333.46 and 5751.55 of the Revised Code to enact the Joining-Opportunities Business and Schools (JOBS) Act to authorize and offer tax incentives for qualified education partnerships between institutions of higher education and private employers.",
+        "note": "long title"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 462",
+    "legislative_session": "136",
+    "subject": [
+      "Economic Development",
+      "Education",
+      "Higher Education",
+      "Taxation"
+    ],
+    "title": "Enact the Joining-Opportunities Business and Schools (JOBS) Act"
+  },
+  "id": "SB 462",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to committee",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-30T04:00:00+00:00",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Senate Ways and Means Committee"
+        }
+      ],
+      "session_id": "136",
+      "sources": [
+        {
+          "url": "https://www.legislature.ohio.gov/legislation/136/sb462"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb462/"
+        }
+      ]
+    },
+    "bill_id": "SB 462"
+  },
+  "sources": {
+    "bill": "oh-legislation/country:us/state:oh/sessions/136/bills/SB462/metadata.json",
+    "log": "oh-legislation/country:us/state:oh/sessions/136/bills/SB462/logs/20260930T040000Z_referred_to_committee.json"
+  },
+  "timestamp": "20260930T040000Z"
+}
