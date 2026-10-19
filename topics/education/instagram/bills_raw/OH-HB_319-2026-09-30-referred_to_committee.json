@@ -1,0 +1,61 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "To enact section 3333.89 of the Revised Code to enact the Clinical Teaching Subsidy Reform Act regarding the state university clinical teaching subsidy.",
+        "note": "long title"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 319",
+    "legislative_session": "136",
+    "subject": [
+      "Education",
+      "Finance and Appropriations",
+      "Higher Education"
+    ],
+    "title": "Enact the Clinical Teaching Subsidy Reform Act"
+  },
+  "id": "HB 319",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to committee",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-30T04:00:00+00:00",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Senate Higher Education Committee"
+        }
+      ],
+      "session_id": "136",
+      "sources": [
+        {
+          "url": "https://www.legislature.ohio.gov/legislation/136/hb319"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb319/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb319/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb319/"
+        }
+      ]
+    },
+    "bill_id": "HB 319"
+  },
+  "sources": {
+    "bill": "oh-legislation/country:us/state:oh/sessions/136/bills/HB319/metadata.json",
+    "log": "oh-legislation/country:us/state:oh/sessions/136/bills/HB319/logs/20260930T040000Z_referred_to_committee.json"
+  },
+  "timestamp": "20260930T040000Z",
+  "posted_text": "🎓 OH HB 319 — Ohio Funds State Medical Schools' Clinical Training\n\nOhio is setting aside money to help its state-run medical schools train doctors.\n\nThe Clinical Teaching Subsidy Reform Act will distribute funds annually to the Ohio State University, University of Cincinnati, Ohio University, Wright State, Northeast Ohio Medical University, and University of Toledo colleges of medicine.\n\nThe money will be split based on how many students are training at each school and how well each school is contributing to training physicians who stay and practice in Ohio.\n\nMedical schools will have to report how they use the funds and provide data on student residency outcomes, ensuring the state’s investment supports the creation of doctors within Ohio.\n\nSept. 30, 2026: Referred to committee.\n\n🔗 Read the full bill: https://www.legislature.ohio.gov/legislation/136/hb319\n\n#Education #Ohio #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.legislature.ohio.gov/legislation/136/hb319",
+  "posted_url": "https://www.instagram.com/p/DesUpj2iYS0/"
+}

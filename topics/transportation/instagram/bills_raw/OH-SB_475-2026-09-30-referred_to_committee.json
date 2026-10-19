@@ -1,0 +1,56 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "To amend sections 5735.50 and 5735.99 of the Revised Code to temporarily reduce certain motor fuel taxes, to levy a temporary retail tax on certain motor fuel, to require gas stations to provide itemized receipts to customers, to make appropriations to supplement the loss of motor fuel tax revenues and to make payments to gas stations, and to declare an emergency.",
+        "note": "long title"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 475",
+    "legislative_session": "136",
+    "subject": [
+      "Commerce",
+      "Finance and Appropriations",
+      "Taxation",
+      "Transportation"
+    ],
+    "title": "Temporarily reduce motor fuel taxes; levy a temporary tax"
+  },
+  "id": "SB 475",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to committee",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-30T04:00:00+00:00",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Senate General Government Committee"
+        }
+      ],
+      "session_id": "136",
+      "sources": [
+        {
+          "url": "https://www.legislature.ohio.gov/legislation/136/sb475"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb475/"
+        }
+      ]
+    },
+    "bill_id": "SB 475"
+  },
+  "sources": {
+    "bill": "oh-legislation/country:us/state:oh/sessions/136/bills/SB475/metadata.json",
+    "log": "oh-legislation/country:us/state:oh/sessions/136/bills/SB475/logs/20260930T040000Z_referred_to_committee.json"
+  },
+  "timestamp": "20260930T040000Z",
+  "posted_text": "🚗 OH SB 475 — Ohio Gas Stations Get New Rules: Itemized Receipts Now Required\n\nOhio is changing how gas is sold.\n\nThis bill will require gas stations to give you itemized receipts showing exactly how much you're paying in federal and state motor fuel taxes.\n\nGas stations will also have to post a clear table showing these tax rates.\n\nPlus, the state will make payments to gas stations to cover any loss of revenue from the temporary reduction in motor fuel taxes.\n\nThis change is designed to ensure transparency and provide a way for the state to make up for lower tax collections.\n\nSept. 30, 2026: Referred to committee.\n\n🔗 Read the full bill: https://www.legislature.ohio.gov/legislation/136/sb475\n\n#Transportation #Ohio #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.legislature.ohio.gov/legislation/136/sb475",
+  "posted_url": "https://www.instagram.com/p/DesSLVBj42d/"
+}

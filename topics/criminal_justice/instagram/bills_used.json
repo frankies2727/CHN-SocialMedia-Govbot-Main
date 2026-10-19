@@ -21,6 +21,8 @@
     "AK|HB239|2026-09-08|(H) LEG FINANCE APPROPRIATION MESSAGE 9/",
     "AK|HB239|2026-09-08|(S) LEG FINANCE APPROPRIATION MESSAGE 9/",
     "CA|AB1927|2026-06-25|Read second time and amended. Re-referre",
+    "CA|AB2244|2026-09-28",
+    "CA|AB2244|2026-09-28|Approved by the Governor.",
     "DE|SB 300|2026-06-25|",
     "DE|SB 300|2026-06-25|Amendment HA 1 to SS 1 - Stricken in Hou",
     "DE|SB 300|2026-06-25|Amendment HA 10 to SS 1 - Stricken in Ho",
@@ -61,7 +63,7 @@
     "US|HR 309|2026-08-20|Reported (Amended) by the Committee on N"
   ],
   "state_last_posted": {
-    "CA": "2026-06-27T04:29:52.741125+00:00",
+    "CA": "2026-10-19T22:11:17.073396+00:00",
     "DE": "2026-06-28T02:36:46.602944+00:00",
     "MO": "2026-07-13T13:47:11.639429+00:00",
     "NY": "2026-09-23T21:00:58.039960+00:00",
@@ -73,5 +75,5 @@
     "AK": "2026-09-14T21:27:47.810012+00:00",
     "OH": "2026-10-07T22:29:38.742318+00:00"
   },
-  "last_run": "2026-10-07T22:32:44.201468+00:00"
+  "last_run": "2026-10-19T22:16:36.288182+00:00"
 }

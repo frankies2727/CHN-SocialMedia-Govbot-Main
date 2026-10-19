@@ -52,6 +52,8 @@
     "CA|AB1930|2026-07-02",
     "CA|AB1930|2026-07-02|Read second time and amended. Re-referre",
     "CA|AB1988|2026-06-26|In committee: Set, final hearing. Hearin",
+    "CA|AB2244|2026-09-28",
+    "CA|AB2244|2026-09-28|Approved by the Governor.",
     "CA|AB2504|2026-09-18",
     "CA|AB2504|2026-09-18|Approved by the Governor.",
     "CA|AB2559|2026-07-16",
@@ -369,6 +371,10 @@
     "NJ|S3183|2026-09-09|Approved P.L.2026, c.84.",
     "NJ|S4390|2026-08-27",
     "NJ|S4390|2026-08-27|Approved P.L.2026, c.77.",
+    "NJ|S4400|2026-10-08",
+    "NJ|S4400|2026-10-08|",
+    "NJ|S4400|2026-10-08|Referred to Senate Budget and Appropriat",
+    "NJ|S4400|2026-10-08|Reported out of Senate Committee, 2nd Re",
     "NY|A10341|2026-07-06",
     "NY|A10341|2026-07-06|APPROVAL MEMO.1",
     "NY|A10341|2026-07-06|SIGNED CHAP.164",
@@ -393,8 +399,12 @@
     "NY|S9192|2026-09-28",
     "NY|S9192|2026-09-28|AMEND AND RECOMMIT TO JUDICIARY",
     "NY|S9192|2026-09-28|PRINT NUMBER 9192A",
+    "OH|HB 319|2026-09-30",
+    "OH|HB 319|2026-09-30|Referred to committee",
     "OH|HB 630|2026-09-30",
     "OH|HB 630|2026-09-30|Referred to committee",
+    "OH|SB 475|2026-09-30",
+    "OH|SB 475|2026-09-30|Referred to committee",
     "PA|HB 1505|2026-07-12",
     "PA|HB 1505|2026-07-12|",
     "PA|HB 1505|2026-07-12|Act No. 20 of 2026",
@@ -500,7 +510,6 @@
     "|HR 9368|2026-06-24|Ordered to be Reported (Amended) by the "
   ],
   "runs": {
-    "29334094316-1": 4,
     "29746436665-1": 4,
     "29832725730-1": 4,
     "29944172071-1": 4,
@@ -529,7 +538,8 @@
     "37385284124-1": 4,
     "37690087611-1": 4,
     "38320810205-1": 4,
-    "38630979550-1": 4
+    "38630979550-1": 4,
+    "39325762957-1": 4
   },
-  "last_run": "2026-10-14T21:32:02.654220+00:00"
+  "last_run": "2026-10-19T22:23:44.195882+00:00"
 }
