@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 5689",
+    "legislative_session": "119",
+    "title": "A bill to prohibit Federal and State incentives for the development or commercial operations of data centers."
+  },
+  "id": "S 5689",
+  "log": {
+    "action": {
+      "description": "Under authority of the order of the Senate of September 30, 2026, ordered read twice and referred to the Committee on Finance.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-15T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s5689.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-bill/5689"
+        }
+      ]
+    },
+    "bill_id": "S 5689"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/S5689/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/S5689/logs/20261015T040000Z_under_authority_of_the_order_of_the_senate_of_september_30_2026_ordered_read_twice_and_referred_to_t.json"
+  },
+  "timestamp": "20261015T040000Z"
+}
