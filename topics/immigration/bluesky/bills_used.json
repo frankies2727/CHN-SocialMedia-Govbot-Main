@@ -253,6 +253,8 @@
     "US|HR 10341|2026-09-10|Referred to the House Committee on the J",
     "US|HR 10503|2026-09-17",
     "US|HR 10503|2026-09-17|Referred to the Committee on the Judicia",
+    "US|HR 10800|2026-10-13",
+    "US|HR 10800|2026-10-13|Referred to the House Committee on the J",
     "US|HR 5517|2026-09-15",
     "US|HR 5517|2026-09-15|Placed on the Union Calendar, Calendar N",
     "US|HR 5517|2026-09-15|Reported by the Committee on Homeland Se",
@@ -320,7 +322,7 @@
     "|HRES 1409|2026-06-30|Referred to the House Committee on Overs",
     "|HRES 1409|2026-06-30|Submitted in House"
   ],
-  "last_run": "2026-09-30T19:37:47.072035+00:00",
+  "last_run": "2026-10-19T03:40:55.584312+00:00",
   "state_last_posted": {
     "VT": "2026-05-16T02:59:09.026935+00:00",
     "AK": "2026-05-16T02:59:09.026935+00:00",
@@ -345,6 +347,6 @@
     "PA": "2026-07-20T10:23:45.046537+00:00",
     "?": "2026-07-24T15:24:13.106444+00:00",
     "NC": "2026-09-02T18:37:32.981836+00:00",
-    "US": "2026-09-30T19:33:40.745544+00:00"
+    "US": "2026-10-19T03:40:28.907920+00:00"
   }
 }

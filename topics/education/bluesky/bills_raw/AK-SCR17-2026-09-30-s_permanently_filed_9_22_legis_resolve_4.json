@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SCR17",
+    "legislative_session": "34",
+    "subject": [
+      "EDUCATION",
+      "PROCLAMATIONS",
+      "SCHOOL DISTRICTS",
+      "SCHOOLS",
+      "UNORGANIZED BOROUGH"
+    ],
+    "title": "Recognizing the 50th anniversary of the state's regional educational attendance areas; and celebrating the enduring contributions of the state's regional educational attendance areas to public education, local leadership, and community life in rural areas of the state."
+  },
+  "id": "SCR17",
+  "log": {
+    "action": {
+      "description": "(S) PERMANENTLY FILED 9/22 LEGIS RESOLVE 48",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-30",
+      "session_id": "34",
+      "sources": [
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SCR17"
+        },
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SCR17#tab5_4"
+        }
+      ]
+    },
+    "bill_id": "SCR17"
+  },
+  "sources": {
+    "bill": "ak-legislation/country:us/state:ak/sessions/34/bills/SCR17/metadata.json",
+    "log": "ak-legislation/country:us/state:ak/sessions/34/bills/SCR17/logs/20260930T000000Z_s_permanently_filed_922_legis_resolve_48.json"
+  },
+  "timestamp": "20260930T000000Z"
+}

@@ -1,0 +1,61 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "To amend sections 3304.23, 4507.06, 4507.13, 4507.51, and 4507.52 and to enact sections 313.133, 3701.1311, 3705.081, 3902.65, and 5164.11 of the Revised Code regarding sudden unexpected death in epilepsy and to allow a person with epilepsy to enroll in the Disability Database and have an epilepsy designation on the person's driver's license or state ID.",
+        "note": "long title"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 758",
+    "legislative_session": "136",
+    "subject": [
+      "Commerce",
+      "Drivers' Licenses",
+      "Health Care",
+      "Health and Human Services",
+      "Insurance",
+      "Transportation"
+    ],
+    "title": "Regards SUDEP, epilepsy license designation, disability database"
+  },
+  "id": "HB 758",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to committee",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-30T04:00:00+00:00",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Senate Health Committee"
+        }
+      ],
+      "session_id": "136",
+      "sources": [
+        {
+          "url": "https://www.legislature.ohio.gov/legislation/136/hb758"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb758/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb758/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb758/"
+        }
+      ]
+    },
+    "bill_id": "HB 758"
+  },
+  "sources": {
+    "bill": "oh-legislation/country:us/state:oh/sessions/136/bills/HB758/metadata.json",
+    "log": "oh-legislation/country:us/state:oh/sessions/136/bills/HB758/logs/20260930T040000Z_referred_to_committee.json"
+  },
+  "timestamp": "20260930T040000Z"
+}
