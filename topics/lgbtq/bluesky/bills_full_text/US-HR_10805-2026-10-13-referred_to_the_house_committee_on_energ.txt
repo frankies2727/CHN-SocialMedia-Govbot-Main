@@ -1,0 +1,9 @@
+A BILL
+To amend the Communications Act of 1934 to prohibit schools and public libraries that receive universal service support from blocking internet access to lesbian, gay, bisexual, transgender, and queer resources, and for other purposes.
+1.Short titleThis Act may be cited as the Don’t Block LGBTQ Act of 2026. 2.Access to LGBTQ resources under universal service schools and libraries program (a)In generalSection 254(h) of the Communications Act of 1934 (47 U.S.C. 254(h)) is amended—
+(1)by redesignating paragraph (7) as paragraph (8); (2)by inserting after paragraph (6) the following:
+
+(7)Access to LGBTQ resourcesNotwithstanding subsection (l)(2), an elementary school, secondary school, or public library may not receive services at discount rates under paragraph (1)(B) if such school or library (under an internet safety policy with respect to which certification is required under this subsection or otherwise) blocks internet access to lesbian, gay, bisexual, transgender, and queer resources.; and (3)in paragraph (8) (as redesignated), by adding at the end the following:
+
+(J)Lesbian, gay, bisexual, transgender, and queer resourcesThe term lesbian, gay, bisexual, transgender, and queer resources means information that is related to homosexuality, bisexuality, transgender identity, transgender status, gender nonconformity, gender expansive, gender identity, sexual orientation, or related topics, except that such term does not include a visual depiction described in paragraph (5)(B)(i) or (6)(B)(i).. (b)Conforming amendments to Communications Act of 1934 (1)Section 254Section 254(h)(4) of the Communications Act of 1934 (47 U.S.C. 254(h)(4)) is amended by striking paragraph (7)(A) and inserting paragraph (8)(A).
+(2)Section 271Section 271(g)(2) of the Communications Act of 1934 (47 U.S.C. 271(g)(2)) is amended by striking section 254(h)(5) and inserting section 254(h)(8).

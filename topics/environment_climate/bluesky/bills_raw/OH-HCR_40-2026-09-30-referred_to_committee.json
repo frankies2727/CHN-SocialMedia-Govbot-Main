@@ -1,0 +1,57 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "To urge the Congress of the United States to enact the Ohio River Restoration Program Act to bring clean water, enhanced fish and aquatic wildlife, economic benefits, expanded recreation opportunities, and public health protections to Ohio.",
+        "note": "long title"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HCR 40",
+    "legislative_session": "136",
+    "subject": [
+      "Air and Water Pollution Control",
+      "Environment and Natural Resources"
+    ],
+    "title": "Urge Congress to enact the Ohio River Restoration Program Act"
+  },
+  "id": "HCR 40",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to committee",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-30T04:00:00+00:00",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Senate Agriculture and Natural Resources Committee"
+        }
+      ],
+      "session_id": "136",
+      "sources": [
+        {
+          "url": "https://www.legislature.ohio.gov/legislation/136/hcr40"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hcr40/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hcr40/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hcr40/"
+        }
+      ]
+    },
+    "bill_id": "HCR 40"
+  },
+  "sources": {
+    "bill": "oh-legislation/country:us/state:oh/sessions/136/bills/HCR40/metadata.json",
+    "log": "oh-legislation/country:us/state:oh/sessions/136/bills/HCR40/logs/20260930T040000Z_referred_to_committee.json"
+  },
+  "timestamp": "20260930T040000Z"
+}
