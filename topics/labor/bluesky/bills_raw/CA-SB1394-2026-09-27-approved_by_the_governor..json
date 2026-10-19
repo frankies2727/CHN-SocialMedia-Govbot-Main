@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law designates specific days as holidays in this state. Existing law designates holidays on which community colleges and public schools are authorized to close pursuant to a memorandum of understanding between the governing board and represented employees, including Cesar Chavez Day on March 31. Existing law entitles state employees, with specified exceptions, and authorizes certain community college and public school employees, to be given time off with pay for specified holidays, as specified. Existing law redesignates March 31 as Farmworkers Day instead of Cesar Chavez Day, and requires the Governor to annually proclaim March 31 as Farmworkers Day.\n\nThis bill would remove the designation of March 31 as Cesar Chavez Day for purposes of holidays on which community colleges and public schools are authorized to close, and instead authorize community colleges and public schools to close on April 10, known as Farmworkers Day, as specified. The bill would revise the provisions related to state employees, certain community college employees, and public school employees to instead apply to Farmworkers Day, as specified. The bill would also make conforming changes to designate April 10 as Farmworkers Day, and require the Governor to annually proclaim April 10 as Farmworkers Day.\n\nExisting law designates August 26 as California Farmworker Day, and requires the Governor to annually proclaim August 26 as California Farmworker Day.\n\nThis bill would repeal the provisions relating to California Farmworker Day.\n\nThis bill would incorporate additional changes to Sections 45203, 79020, and 88203 of the Education Code proposed by AB 2017 to be operative only if this bill and AB 2017 are enacted and this bill is enacted last. The bill also would incorporate additional changes to Section 6700 of the Government Code proposed by AB 2017 and AB 2294 to be operative only if this bill and either or both of those bills are enacted and this bill is enacted last. The bill further would incorporate additional changes to Sections 19853 and 19853.1 of the Government Code proposed by AB 1841 and AB 2017 to be operative only if this bill and either or both of those bills are enacted and this bill is enacted last.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1394",
+    "legislative_session": "20252026",
+    "subject": [
+      "CesarChavezDay",
+      "FarmworkersDay",
+      "Stateholidays"
+    ],
+    "title": "State holidays: Cesar Chavez Day: Farmworkers Day."
+  },
+  "id": "SB1394",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-27",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1394"
+        }
+      ]
+    },
+    "bill_id": "SB1394"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1394/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1394/logs/20260927T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260927T000000Z"
+}
