@@ -1,0 +1,49 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Authorizes the taxation of state land in the county of Westchester."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S10705",
+    "legislative_session": "2025-2026",
+    "title": "Authorizes the taxation of state land in the county of Westchester"
+  },
+  "id": "S10705",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "REFERRED TO RULES",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-23",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "RULES"
+        }
+      ],
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/S10705?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/S10705"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=S10705&term=2025"
+        }
+      ]
+    },
+    "bill_id": "S10705"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S10705/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/S10705/logs/20260923T000000Z_referred_to_rules.json"
+  },
+  "timestamp": "20260923T000000Z"
+}

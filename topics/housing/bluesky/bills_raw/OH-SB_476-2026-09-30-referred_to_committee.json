@@ -1,0 +1,51 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "To amend sections 5311.03, 5311.08, 5311.081, 5311.09, 5311.22, 5312.03, 5312.04, 5312.06, 5312.08, and 5312.11 and to enact sections 5311.082, 5311.083, 5311.28, 5311.30, 5311.31, 5311.32, 5311.33, 5311.34, 5311.35, 5312.041, 5312.042, 5312.17, 5312.18, 5312.19, 5312.20, 5312.21, 5312.22, and 5312.23 of the Revised Code to make changes to the Ohio Planned Community and Condominium Law.",
+        "note": "long title"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 476",
+    "legislative_session": "136",
+    "subject": [
+      "Condominiums and Homeowner Associations",
+      "Housing and Real Property"
+    ],
+    "title": "Revise Ohio Planned Community and Condominium Law"
+  },
+  "id": "SB 476",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to committee",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-30T04:00:00+00:00",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Senate Judiciary Committee"
+        }
+      ],
+      "session_id": "136",
+      "sources": [
+        {
+          "url": "https://www.legislature.ohio.gov/legislation/136/sb476"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb476/"
+        }
+      ]
+    },
+    "bill_id": "SB 476"
+  },
+  "sources": {
+    "bill": "oh-legislation/country:us/state:oh/sessions/136/bills/SB476/metadata.json",
+    "log": "oh-legislation/country:us/state:oh/sessions/136/bills/SB476/logs/20260930T040000Z_referred_to_committee.json"
+  },
+  "timestamp": "20260930T040000Z"
+}

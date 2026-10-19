@@ -1,0 +1,59 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "To amend section 4513.34 of the Revised Code regarding police escorts for farm equipment and vehicles that haul agricultural equipment and produce.",
+        "note": "long title"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 630",
+    "legislative_session": "136",
+    "subject": [
+      "Agriculture",
+      "Crimes, Corrections, and Law Enforcement",
+      "Law Enforcement",
+      "Transportation"
+    ],
+    "title": "Regards police escorts for farm equipment, agricultural vehicles"
+  },
+  "id": "HB 630",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to committee",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-30T04:00:00+00:00",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Senate Armed Services, Veterans Affairs and Public Safety Committee"
+        }
+      ],
+      "session_id": "136",
+      "sources": [
+        {
+          "url": "https://www.legislature.ohio.gov/legislation/136/hb630"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb630/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb630/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb630/"
+        }
+      ]
+    },
+    "bill_id": "HB 630"
+  },
+  "sources": {
+    "bill": "oh-legislation/country:us/state:oh/sessions/136/bills/HB630/metadata.json",
+    "log": "oh-legislation/country:us/state:oh/sessions/136/bills/HB630/logs/20260930T040000Z_referred_to_committee.json"
+  },
+  "timestamp": "20260930T040000Z"
+}
