@@ -1,0 +1,54 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "To amend sections 5747.98 and 5751.98 and to enact sections 5747.053 and 5751.55 of the Revised Code to authorize a refundable tax credit for compensation paid to skilled trades instructors.",
+        "note": "long title"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 464",
+    "legislative_session": "136",
+    "subject": [
+      "Commerce",
+      "Education",
+      "Employment",
+      "Taxation",
+      "Wage and Hour"
+    ],
+    "title": "Allow a tax credit for compensation to skilled trades instructors"
+  },
+  "id": "SB 464",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to committee",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-30T04:00:00+00:00",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Senate Ways and Means Committee"
+        }
+      ],
+      "session_id": "136",
+      "sources": [
+        {
+          "url": "https://www.legislature.ohio.gov/legislation/136/sb464"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb464/"
+        }
+      ]
+    },
+    "bill_id": "SB 464"
+  },
+  "sources": {
+    "bill": "oh-legislation/country:us/state:oh/sessions/136/bills/SB464/metadata.json",
+    "log": "oh-legislation/country:us/state:oh/sessions/136/bills/SB464/logs/20260930T040000Z_referred_to_committee.json"
+  },
+  "timestamp": "20260930T040000Z"
+}

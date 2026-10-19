@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 4307",
+    "legislative_session": "119",
+    "title": "Enhancing Detection of Human Trafficking Act"
+  },
+  "id": "HR 4307",
+  "log": {
+    "action": {
+      "description": "Message on Senate action sent to the House.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-14T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr4307.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/4307"
+        }
+      ]
+    },
+    "bill_id": "HR 4307"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR4307/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR4307/logs/20261014T040000Z_message_on_senate_action_sent_to_the_house.json"
+  },
+  "timestamp": "20261014T040000Z"
+}

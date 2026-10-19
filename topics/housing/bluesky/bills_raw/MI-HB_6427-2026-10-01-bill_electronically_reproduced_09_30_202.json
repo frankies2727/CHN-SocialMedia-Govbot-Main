@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6427",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Businesses: other",
+      "Local government: other"
+    ],
+    "title": "Businesses: other; Michigan zoning enabling act; make subject to the data center local decision protection act. Amends secs. 205 & 606 of 2006 PA 110 (MCL 125.3205 & 125.3606).   TIE BAR WITH: HB 6426'26"
+  },
+  "id": "HB 6427",
+  "log": {
+    "action": {
+      "description": "bill electronically reproduced 09/30/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-01",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6427"
+        }
+      ]
+    },
+    "bill_id": "HB 6427"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6427/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6427/logs/20261001T000000Z_bill_electronically_reproduced_09302026.json"
+  },
+  "timestamp": "20261001T000000Z"
+}
