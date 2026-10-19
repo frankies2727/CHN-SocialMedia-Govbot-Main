@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1213",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Labor: fair employment practices",
+      "Labor: health and safety",
+      "Labor: hours and wages",
+      "Labor: leave",
+      "State agencies (existing): labor and economic opportunity"
+    ],
+    "title": "Labor: leave; family and medical leave insurance benefits; provide for. Creates new act."
+  },
+  "id": "SB 1213",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "REFERRED TO COMMITTEE ON HOUSING AND HUMAN SERVICES",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-14",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1213"
+        }
+      ]
+    },
+    "bill_id": "SB 1213"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1213/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1213/logs/20261014T000000Z_referred_to_committee_on_housing_and_human_services.json"
+  },
+  "timestamp": "20261014T000000Z"
+}
