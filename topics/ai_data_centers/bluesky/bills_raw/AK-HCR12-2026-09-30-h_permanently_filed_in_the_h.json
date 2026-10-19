@@ -1,0 +1,46 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HCR12",
+    "legislative_session": "34",
+    "subject": [
+      "CAMPAIGNS",
+      "COMMUNICATIONS",
+      "CRIMES",
+      "DISCLOSURE",
+      "ELECTIONS",
+      "HIGHWAYS",
+      "MEDIA",
+      "MINORS",
+      "MUNICIPALITIES",
+      "RESIDENCY",
+      "UNIFORM RULES",
+      "VOTING"
+    ],
+    "title": "Suspending Rules 24(c), 35, 41(b), and 42(e), Uniform Rules of the Alaska State Legislature, concerning Senate Bill No. 64, relating to elections; relating to voters; relating to voting; relating to voter registration; relating to election administration; relating to the Alaska Public Offices Commission; relating to campaign contributions; relating to the crimes of unlawful interference with voting in the first degree, unlawful interference with an election, and election official misconduct; relating to synthetic media in electioneering communications; relating to campaign signs; relating to voter registration on permanent fund dividend applications; relating to the Redistricting Board; and relating to the duties of the commissioner of revenue."
+  },
+  "id": "HCR12",
+  "log": {
+    "action": {
+      "description": "(H) PERMANENTLY FILED IN THE (H)",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-30",
+      "session_id": "34",
+      "sources": [
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HCR12"
+        },
+        {
+          "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HCR12#tab5_4"
+        }
+      ]
+    },
+    "bill_id": "HCR12"
+  },
+  "sources": {
+    "bill": "ak-legislation/country:us/state:ak/sessions/34/bills/HCR12/metadata.json",
+    "log": "ak-legislation/country:us/state:ak/sessions/34/bills/HCR12/logs/20260930T000000Z_h_permanently_filed_in_the_h.json"
+  },
+  "timestamp": "20260930T000000Z"
+}
