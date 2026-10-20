@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A3076",
+    "legislative_session": "222",
+    "subject": [
+      "POLICE",
+      "SCI AND TECH"
+    ],
+    "title": "Requires AG to study use of artificial intelligence for certain law enforcement purposes and issue report."
+  },
+  "id": "A3076",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported out of Assembly Committee, 2nd Reading",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-19T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3076"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3076"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "A3076"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A3076/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A3076/logs/20261019T040000Z_reported_out_of_assembly_committee_2nd_reading.json"
+  },
+  "timestamp": "20261019T040000Z",
+  "posted_text": "🧠 NJ A3076 — NJ Investigates AI in Police Reports\n\nThe state is asking the Attorney General to study how artificial intelligence is currently being used by law enforcement to create police reports. The AG will need to assess the technology’s feasibility and summarize existing use across New Jersey. They’ll also have to recommend a statewide policy – requiring officers to double-check AI-generated reports for accuracy – and must deliver this report within six months of the bill becoming law. ...\n...",
+  "posted_link": "https://www.njleg.state.nj.us/bill-search/2026/A3076",
+  "posted_url": "https://x.com/i/web/status/2112608227225477234"
+}
