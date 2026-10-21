@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1134",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Retirement: defined benefit",
+      "Retirement: state employees",
+      "Retirement: state police",
+      "State agencies (existing): technology, management, and budget"
+    ],
+    "title": "Retirement: state employees; election process to transfer certain law enforcement officers to the Michigan state police retirement system; provide for. Amends sec. 55 of 1943 PA 240 (MCL 38.55) & adds secs. 50b, 50c, 50d, 64a, 64b & 64c.   TIE BAR WITH: SB 1133'26,  SB 1135'26"
+  },
+  "id": "SB 1134",
+  "log": {
+    "action": {
+      "description": "SENATE CO-SPONSOR(S) NAMED: ROSEMARY BAYER MALLORY MCMORROW JEREMY MOSS",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-14",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1134"
+        }
+      ]
+    },
+    "bill_id": "SB 1134"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1134/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1134/logs/20261014T000000Z_senate_cosponsors_named_rosemary_bayer_mallory_mcmorrow_jeremy_moss.json"
+  },
+  "timestamp": "20261014T000000Z"
+}

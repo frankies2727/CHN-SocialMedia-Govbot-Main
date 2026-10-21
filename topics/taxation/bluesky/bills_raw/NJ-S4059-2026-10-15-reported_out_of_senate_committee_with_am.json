@@ -1,0 +1,41 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S4059",
+    "legislative_session": "222",
+    "subject": [
+      "TAXATION"
+    ],
+    "title": "Permits Division of Taxation to share certain tax data with New Jersey Innovation Authority and New Jersey Secure Choice Savings Board."
+  },
+  "id": "S4059",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported out of Senate Committee with Amendments, 2nd Reading",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-15T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4059"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4059"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "S4059"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S4059/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S4059/logs/20261015T040000Z_reported_out_of_senate_committee_with_amendments_2nd_reading.json"
+  },
+  "timestamp": "20261015T040000Z"
+}

@@ -254,6 +254,8 @@
     "MI|SB 0885|2026-09-15",
     "MI|SB 0885|2026-09-15|read a first time",
     "MI|SB 0885|2026-09-15|referred to Committee on Judiciary",
+    "MI|SB 1134|2026-10-14",
+    "MI|SB 1134|2026-10-14|SENATE CO-SPONSOR(S) NAMED: ROSEMARY BAY",
     "MI|SB 1135|2026-09-09",
     "MI|SB 1135|2026-09-09|SENATE CO-SPONSOR(S) NAMED: MARY CAVANAG",
     "MI|SB 1135|2026-09-09|SENATE CO-SPONSOR(S) NAMED: SEAN MCCANN",
@@ -299,6 +301,8 @@
     "MO|SB 905|2026-05-14|S Bills with H Amendments",
     "MO|SB 999|2026-05-28|Delivered to Governor",
     "MO|SB 999|2026-05-28|Reported Duly Enrolled Rules, Joint Rule",
+    "MP|HJR 24-18|2026-09-25",
+    "MP|HJR 24-18|2026-09-25|House Final Reading",
     "MP|SB 24-07|2026-09-04",
     "MP|SB 24-07|2026-09-04|Senate Final Reading",
     "MS|HB102|2026-02-03|Died In Committee",
@@ -424,7 +428,7 @@
     "WA|SB 6080|2026-03-12|By resolution, returned to Senate Rules ",
     "WY|HB0327|2025-03-04|H:Died in Committee Returned Bill Pursua"
   ],
-  "last_run": "2026-10-19T19:40:15.786712+00:00",
+  "last_run": "2026-10-21T19:02:07.376163+00:00",
   "state_last_posted": {
     "DE": "2026-09-23T18:47:23.224011+00:00",
     "AK": "2026-09-14T19:28:07.178136+00:00",
@@ -448,12 +452,12 @@
     "LA": "2026-07-20T10:13:43.448731+00:00",
     "NC": "2026-09-09T18:01:08.256115+00:00",
     "NY": "2026-09-30T19:23:57.570391+00:00",
-    "MI": "2026-09-23T18:47:23.224011+00:00",
+    "MI": "2026-10-21T18:50:06.612012+00:00",
     "IL": "2026-09-02T18:22:04.368677+00:00",
     "PA": "2026-07-31T18:37:27.291148+00:00",
     "US": "2026-10-19T19:30:18.498126+00:00",
     "ND": "2026-09-21T20:10:58.989418+00:00",
-    "MP": "2026-09-28T21:01:50.872280+00:00",
+    "MP": "2026-10-21T18:50:06.612012+00:00",
     "OH": "2026-10-19T03:28:00.435170+00:00"
   }
 }
