@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 0265",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "State agencies (existing): transportation",
+      "Transportation: funds"
+    ],
+    "title": "Transportation: funds; maintenance of nonmotorized transportation infrastructure; provide for. Amends sec. 10k of 1951 PA 51 (MCL 247.660k)."
+  },
+  "id": "SB 0265",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "REPORTED BY COMMITTEE OF THE WHOLE FAVORABLY WITHOUT AMENDMENT(S)",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-14",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0265"
+        }
+      ]
+    },
+    "bill_id": "SB 0265"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0265/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0265/logs/20261014T000000Z_reported_by_committee_of_the_whole_favorably_without_amendments.json"
+  },
+  "timestamp": "20261014T000000Z"
+}

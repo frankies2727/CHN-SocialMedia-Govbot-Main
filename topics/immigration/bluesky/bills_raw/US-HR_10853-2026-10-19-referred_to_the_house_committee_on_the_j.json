@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10853",
+    "legislative_session": "119",
+    "title": "To require the Secretary of Homeland Security to designate Yemen for temporary protected status."
+  },
+  "id": "HR 10853",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on the Judiciary.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-19T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10853.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10853"
+        }
+      ]
+    },
+    "bill_id": "HR 10853"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10853/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10853/logs/20261019T040000Z_referred_to_the_house_committee_on_the_judiciary.json"
+  },
+  "timestamp": "20261019T040000Z"
+}
