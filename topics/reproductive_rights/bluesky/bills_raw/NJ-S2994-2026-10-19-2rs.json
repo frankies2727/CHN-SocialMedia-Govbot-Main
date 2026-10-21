@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S2994",
+    "legislative_session": "222",
+    "subject": [
+      "HEALTH PROF"
+    ],
+    "title": "Establishes \"Midwifery Licensing Act.\" *"
+  },
+  "id": "S2994",
+  "log": {
+    "action": {
+      "description": "2RS",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-19T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S2994"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S2994"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S2994"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S2994"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "S2994"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S2994/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S2994/logs/20261019T040000Z_2rs.json"
+  },
+  "timestamp": "20261019T040000Z"
+}
