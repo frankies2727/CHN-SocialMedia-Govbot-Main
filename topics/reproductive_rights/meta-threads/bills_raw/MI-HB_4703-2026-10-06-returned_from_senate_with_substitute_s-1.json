@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 4703",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Insurance: health benefits",
+      "Insurance: health insurers"
+    ],
+    "title": "Insurance: health insurers; coverage for group prenatal care services; require. Amends 1956 PA 218 (MCL 500.100 - 500.8302) by adding sec. 3406ss."
+  },
+  "id": "HB 4703",
+  "log": {
+    "action": {
+      "description": "returned from Senate with substitute (S-1) with immediate effect and title amendment",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-06",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-HB-4703"
+        }
+      ]
+    },
+    "bill_id": "HB 4703"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB4703/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB4703/logs/20261006T000000Z_returned_from_senate_with_substitute_s1_with_immediate_effect_and_title_amendment.json"
+  },
+  "timestamp": "20261006T000000Z",
+  "posted_text": "❤️‍🩹 Reproductive Rights\nMI HB 4703 — Michigan Insurers Must Cover Group Prenatal Care\n\nHealth insurers operating in Michigan will now be required to cover group prenatal care services for patients enrolled in group health insurance policies. The bill defines 'group prenatal care services' as up to 12 prenatal visits in a group setting of at least three people, based on an evidence-based model. ...\n...",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-HB-4703",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DevXBtpDZR4"
+}

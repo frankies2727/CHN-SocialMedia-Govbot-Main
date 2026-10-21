@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law makes it an unlawful employment practice for an employer to refuse to grant a request by any employee to take up to 5 days of bereavement leave upon the death of a family member, as defined, to refuse to hire, or to discharge, demote, fine, suspend, expel, or discriminate against, an individual because of the individual's exercise of the right to bereavement leave or because of the individual's giving information or testimony as to their own or another person's bereavement leave, or to interfere with, restrain, or deny the exercise of, or the attempt to exercise, any of these rights, as specified.\n\nThis bill would include a designated person identified by the employee, as specified, in the definition of \"family member\" and authorize an employer to limit an employee to one designated person per 12-month period for purposes of these provisions relating to bereavement leave.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1149",
+    "legislative_session": "20252026",
+    "subject": [
+      "Employees",
+      "bereavementleave"
+    ],
+    "title": "Employees: bereavement leave."
+  },
+  "id": "SB1149",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-27",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1149"
+        }
+      ]
+    },
+    "bill_id": "SB1149"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1149/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1149/logs/20260927T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260927T000000Z",
+  "posted_text": "🗓️ Labor & Workers' Rights\nCA SB1149 — California Employers Can Now Limit Bereavement Leave to One Person Per Year\n\nCalifornia employers can now limit an employee’s bereavement leave to one ‘designated person’ – someone they choose – for every 12-month period. Previously, employees could take leave for the death of a spouse, child, parent, sibling, grandparent, grandchild, or domestic partner. ...\n...",
+  "posted_link": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1149",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DevVrtaDSj_"
+}
