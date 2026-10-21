@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A5383",
+    "legislative_session": "222",
+    "subject": [
+      "AFFORD HOUS"
+    ],
+    "title": "Requires DEP to modify certain timelines and requirements for certain approvals associated with development of affordable housing projects."
+  },
+  "id": "A5383",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Reported and Referred to Assembly Environment and Solid Waste Committee",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-05T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5383"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5383"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "A5383"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A5383/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A5383/logs/20261005T040000Z_reported_and_referred_to_assembly_environment_and_solid_waste_committee.json"
+  },
+  "timestamp": "20261005T040000Z",
+  "posted_text": "🏘️ NJ A5383 — NJ Could Speed Up Approvals for Affordable Housing Projects\n\nNew Jersey is aiming to make it easier to build affordable housing.\n\nThis bill would change how the Department of Environmental Protection (department) handles approvals for these projects.\n\nSpecifically, it cuts down review times for things like water quality plans and wetland approvals, aiming to get projects built faster.\n\nThe department will also update its rules and post them online to reflect these changes.\n\nOct. 5, 2026: Reported and Referred to Assembly Environment and Solid Waste Committee.\n\n🔗 Read the full bill: https://www.njleg.state.nj.us/bill-search/2026/A5383\n\n#Housing #NewJersey #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.njleg.state.nj.us/bill-search/2026/A5383",
+  "posted_url": "https://www.instagram.com/p/DexXxOqkhkH/"
+}

@@ -237,6 +237,8 @@
     "MI|HB 6158|2026-07-14|bill electronically reproduced 07/03/202",
     "MI|HB 6318|2026-09-01",
     "MI|HB 6318|2026-09-01|bill electronically reproduced 08/27/202",
+    "MI|HB 6431|2026-10-21",
+    "MI|HB 6431|2026-10-21|bill electronically reproduced 10/14/202",
     "MI|SB 0415|2026-07-03",
     "MI|SB 0415|2026-07-03|",
     "MI|SB 0415|2026-07-03|FULL TITLE AGREED TO",
@@ -262,6 +264,9 @@
     "MI|SB 1141|2026-09-09",
     "MI|SB 1141|2026-09-09|SENATE CO-SPONSOR(S) NAMED: MARY CAVANAG",
     "MI|SB 1141|2026-09-09|SENATE CO-SPONSOR(S) NAMED: SEAN MCCANN",
+    "MI|SB 1199|2026-10-06",
+    "MI|SB 1199|2026-10-06|SENATE CO-SPONSOR(S) NAMED: MALLORY MCMO",
+    "MI|SB 1199|2026-10-06|SENATE CO-SPONSOR(S) NAMED: SUE SHINK",
     "MN|HF 3769|2026-08-01",
     "MN|HF 3769|2026-08-01|Effective date 08/01/2026",
     "MN|HF 4133|2027-01-01",
@@ -359,6 +364,9 @@
     "NJ|A4014|2026-08-11|Approved P.L.2026, c.72.",
     "NJ|A4531|2026-08-27",
     "NJ|A4531|2026-08-27|Approved P.L.2026, c.79.",
+    "NJ|A5383|2026-10-05",
+    "NJ|A5383|2026-10-05|",
+    "NJ|A5383|2026-10-05|Reported and Referred to Assembly Enviro",
     "NJ|S1831|2026-10-01",
     "NJ|S1831|2026-10-01|",
     "NJ|S1831|2026-10-01|Referred to Senate Budget and Appropriat",
@@ -439,6 +447,9 @@
     "PA|SB 146|2026-07-12|Signed in Senate",
     "PA|SB 599|2026-06-30",
     "PA|SB 599|2026-06-30|Removed from table",
+    "PR|PC1450|2026-09-28",
+    "PR|PC1450|2026-09-28|Aparece en Primera Lectura del Senado",
+    "PR|PC1450|2026-09-28|Referido a Comisi\u00f3n(es)",
     "PR|PS0731|2026-08-17",
     "PR|PS0731|2026-08-17|Comisi\u00f3n no recomienda aprobaci\u00f3n de la ",
     "PR|PS0731|2026-08-17|Reuni\u00f3n Ejecutiva: Oficina de la Comisi\u00f3",
@@ -510,7 +521,6 @@
     "|HR 9368|2026-06-24|Ordered to be Reported (Amended) by the "
   ],
   "runs": {
-    "29746436665-1": 4,
     "29832725730-1": 4,
     "29944172071-1": 4,
     "30115439532-1": 4,
@@ -539,7 +549,8 @@
     "37690087611-1": 4,
     "38320810205-1": 4,
     "38630979550-1": 4,
-    "39325762957-1": 4
+    "39325762957-1": 4,
+    "39669396960-1": 4
   },
-  "last_run": "2026-10-19T22:23:44.195882+00:00"
+  "last_run": "2026-10-21T21:27:10.917140+00:00"
 }

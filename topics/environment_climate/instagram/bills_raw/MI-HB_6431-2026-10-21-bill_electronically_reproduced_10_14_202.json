@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6431",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Natural resources: floodplains"
+    ],
+    "title": "Natural resources: floodplains; predisaster flood resilience grant program; establish. Amends 1994 PA 451 (MCL 324.101 - 324.90106) by adding secs. 33709, 33710 & 33711."
+  },
+  "id": "HB 6431",
+  "log": {
+    "action": {
+      "description": "bill electronically reproduced 10/14/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-21",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6431"
+        }
+      ]
+    },
+    "bill_id": "HB 6431"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6431/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6431/logs/20261021T000000Z_bill_electronically_reproduced_10142026.json"
+  },
+  "timestamp": "20261021T000000Z",
+  "posted_text": "🌊 MI HB 6431 — Michigan Cities Can Get Cash to Fight Floods\n\nMichigan cities and tribes could get grants to tackle flood risks.\n\nThis bill creates a new program, the Predisaster Flood Resilience Grant Program, run by the Department of Environment, Great Lakes, and Energy.\n\nEligible applicants – including local governments and tribes – can apply for funding to assess flood vulnerabilities, restore wetlands, and implement projects like culvert inventories and hydrological studies.\n\nGrants can cover up to 75% of project costs, up to $300,000 or $250,000 respectively, and must be used within two years of receiving the funds.\n\nApplicants must demonstrate how they’ll fund the remaining project costs and provide a detailed project report within 90 days of completion.\n\nThe Department will also create rules for reviewing grant applications, considering factors like past disaster declarations and flood damage.\n\nOct. 21, 2026: Bill electronically reproduced 10/14/2026.\n\n🔗 Read the full bill: https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6431\n\n#EnvironmentClimate #Michigan #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6431",
+  "posted_url": "https://www.instagram.com/p/DexWfBUki-6/"
+}

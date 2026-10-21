@@ -1,0 +1,37 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1199",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Campaign finance: advertising",
+      "Campaign finance: public disclosure",
+      "Communications: social media"
+    ],
+    "title": "Campaign finance: public disclosure; disclosure of payments for social media posts; require, and require certain information be included in social media posts. Amends secs. 12 & 43 of 1976 PA 388 (MCL 169.212 & 169.243) & adds sec. 59a."
+  },
+  "id": "SB 1199",
+  "log": {
+    "action": {
+      "description": "SENATE CO-SPONSOR(S) NAMED: MALLORY MCMORROW",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-06",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1199"
+        }
+      ]
+    },
+    "bill_id": "SB 1199"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1199/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1199/logs/20261006T000000Z_senate_cosponsors_named_mallory_mcmorrow.json"
+  },
+  "timestamp": "20261006T000000Z",
+  "posted_text": "💰 MI SB 1199 — Michigan Wants You to Know: Social Media Ads for Campaigns Must Be Clear\n\nMichigan is changing how political campaigns use social media.\n\nStarting April 1st, any money spent on a social media post supporting or opposing a candidate or ballot question must be clearly disclosed.\n\nCommittees and independent contractors using social media to advertise need to include their name and address in the post itself, or with a clear disclaimer.\n\nThe post must also meet specific requirements depending on the type of media – at least 4 seconds for video, large lettering for graphics, and a clear audio statement.\n\nViolations can result in fines of up to $1,000 for first offenses and $1,000 per violation for repeat offenses.\n\nThis new rule applies to committees, agents, and independent contractors, but doesn’t affect regular news publications or satirical content.\n\nOct. 6, 2026: Senate Co-sponsor(s) Named: Mallory Mcmorrow.\n\n🔗 Read the full bill: https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1199\n\n#ElectionsVotingRights #Michigan #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1199",
+  "posted_url": "https://www.instagram.com/p/DexV1yTEhlW/"
+}
