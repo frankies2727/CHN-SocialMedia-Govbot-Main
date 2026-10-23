@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A2329",
+    "legislative_session": "222",
+    "subject": [
+      "PUBLIC TRANS"
+    ],
+    "title": "Establishes \"NJpass Program\" to provide discounted fares to eligible organizations; establishes \"GO NJ Transit Card Program\" to develop transit cards that can be used to purchase any NJT service."
+  },
+  "id": "A2329",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Reported and Referred to Assembly Appropriations Committee",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-15T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A2329"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A2329"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "A2329"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A2329/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A2329/logs/20261015T040000Z_reported_and_referred_to_assembly_appropriations_committee.json"
+  },
+  "timestamp": "20261015T040000Z",
+  "posted_text": "🚌 Transportation\nNJ A2329 — NJ Could Offer Big Discounts on Transit for Training Programs\n\nNew Jersey is considering a new program called the ‘NJpass Program’ to give discounted New Jersey Transit fares to organizations that train people – like apprenticeship programs and workforce development centers. The NJ Transit Corporation would partner with these organizations to offer discounted tickets to their ‘approved classes. ...\n...",
+  "posted_link": "https://www.njleg.state.nj.us/bill-search/2026/A2329",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/De0fO45Ff9r"
+}

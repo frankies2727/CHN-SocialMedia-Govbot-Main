@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 0980",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Consumer protection: other"
+    ],
+    "title": "Consumer protection: other; cryptocurrency kiosks; prohibit the installation and operation of. Creates new act."
+  },
+  "id": "SB 0980",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "REPORTED FAVORABLY WITHOUT AMENDMENT 10/14/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-27",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-0980"
+        }
+      ]
+    },
+    "bill_id": "SB 0980"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0980/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0980/logs/20261027T000000Z_reported_favorably_without_amendment_10142026.json"
+  },
+  "timestamp": "20261027T000000Z",
+  "posted_text": "💰 AI, Data Centers & Crypto\nMI SB 0980 — Michigan to Block New Crypto Kiosk Installations\n\nMichigan is stepping in to stop the setup and operation of cryptocurrency kiosks. The bill defines key terms like 'cryptocurrency' and 'cryptocurrency kiosk' – essentially electronic terminals for buying and selling digital currency – and prohibits anyone from installing or running them. ...\n...",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-0980",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/De0f4XmFLRJ"
+}
