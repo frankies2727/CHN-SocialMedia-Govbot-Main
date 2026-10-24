@@ -199,43 +199,104 @@ def find_extracted_text_file(metadata_path: Path) -> Path | None:
     return candidates[0]
 
 
-def find_document_link(metadata_path: Path) -> tuple[str, str] | None:
-    """Parse a bill ``metadata.json`` and return ``(url, media_type)`` for the
-    best document link: a PDF if present, otherwise the first HTML link.
-    Returns ``None`` on any parse error or when no usable link exists."""
+def _read_metadata(metadata_path: Path) -> dict | None:
     import json
     try:
         meta = json.loads(metadata_path.read_text(encoding="utf-8"))
     except (OSError, ValueError):
         return None
-    if not isinstance(meta, dict):
-        return None
+    return meta if isinstance(meta, dict) else None
 
+
+def _best_link(container: dict) -> tuple[str, str] | None:
+    """A container's document link: its PDF if it has one, else its first HTML link."""
     pdf_link: tuple[str, str] | None = None
     html_link: tuple[str, str] | None = None
-
-    # OCD data carries document links under versions[] (bill text) and
-    # sometimes documents[] (fiscal notes, analyses). Prefer versions, but
-    # fall back to documents so HTML/PDF bodies stored there still resolve.
-    containers = (meta.get("versions") or []) + (meta.get("documents") or [])
-    for container in containers:
-        if not isinstance(container, dict):
+    for link in (container.get("links") or []):
+        if not isinstance(link, dict):
             continue
-        for link in (container.get("links") or []):
-            if not isinstance(link, dict):
-                continue
-            url = (link.get("url") or "").strip()
-            if not url:
-                continue
-            mtype = (link.get("media_type") or "").strip().lower()
-            if mtype == "application/pdf" or url.lower().endswith(".pdf"):
-                if pdf_link is None:
-                    pdf_link = (url, "application/pdf")
-            elif (mtype in ("text/html", "application/xhtml+xml")
-                  or url.lower().endswith((".htm", ".html"))) and html_link is None:
-                html_link = (url, "text/html")
-
+        url = (link.get("url") or "").strip()
+        if not url:
+            continue
+        mtype = (link.get("media_type") or "").strip().lower()
+        if mtype == "application/pdf" or url.lower().endswith(".pdf"):
+            if pdf_link is None:
+                pdf_link = (url, "application/pdf")
+        elif (mtype in ("text/html", "application/xhtml+xml")
+              or url.lower().endswith((".htm", ".html"))) and html_link is None:
+            html_link = (url, "text/html")
     return pdf_link or html_link
+
+
+def find_document_link(metadata_path: Path) -> tuple[str, str] | None:
+    """Parse a bill ``metadata.json`` and return ``(url, media_type)`` for the
+    bill's **newest** text: of the ``versions[]`` that carry a usable link, the
+    one with the latest ``date`` (an undated version counts as oldest), its PDF
+    if it has one, else its HTML. A bill that was amended — or gutted and
+    refilled with a different bill, as California's SB 259 was in August 2026 —
+    is what the newest version says, not what it said when introduced. Falls
+    back to ``documents[]`` (fiscal notes, analyses) when no version has a
+    link. Returns ``None`` on any parse error or when no usable link exists."""
+    meta = _read_metadata(metadata_path)
+    if meta is None:
+        return None
+
+    newest: tuple[str, tuple[str, str]] | None = None  # (date, link)
+    for i, v in enumerate(meta.get("versions") or []):
+        if not isinstance(v, dict):
+            continue
+        link = _best_link(v)
+        if link is None:
+            continue
+        # Same date (or no date at all): the later entry wins, as states list
+        # versions in order.
+        key = f"{(v.get('date') or '0000-00-00')[:10]}|{i:06d}"
+        if newest is None or key > newest[0]:
+            newest = (key, link)
+    if newest is not None:
+        return newest[1]
+
+    for d in (meta.get("documents") or []):
+        if isinstance(d, dict):
+            link = _best_link(d)
+            if link is not None:
+                return link
+    return None
+
+
+_HEADER_TITLE_RE = re.compile(r"^Title:\s*(.*)$", re.MULTILINE)
+_BILL_ID_PREFIX_RE = re.compile(
+    r"^(?:bill\s+text\s*[-–—:]\s*)?(?:[a-z]{1,4}\s*[-–—]?\s*\d+[a-z]?\s*[-–—:.]?\s*)?", re.IGNORECASE)
+_WORD_RE = re.compile(r"[a-z0-9]+")
+
+
+def _title_words(title: str) -> set[str]:
+    """The words of a title that carry meaning: lowercased, the leading bill
+    number and "Bill Text -" chrome dropped, two-letter filler left out."""
+    t = _BILL_ID_PREFIX_RE.sub("", title.strip(), count=1).lower()
+    return {w for w in _WORD_RE.findall(t) if len(w) > 2 and w not in _TITLE_FILLER}
+
+
+_TITLE_FILLER = {"the", "and", "for", "act", "bill", "relating", "concerning", "amend", "amending", "provide", "providing"}
+
+
+def extracted_text_is_stale(extracted_text: str, meta_title: str) -> bool:
+    """True when a pre-extracted text file is about a different bill than the
+    metadata now describes. The file was saved when govbot first saw the bill;
+    its ``Title:`` header names the bill as it was then. When a legislature
+    guts a bill and refills it with new content (California's SB 259 went
+    from the "Fair Online Pricing Act" to "Elections: vote by mail ballots"),
+    the metadata title moves on but the file doesn't, and summarizing it
+    describes a bill that no longer exists. Compared by meaningful words:
+    stale when fewer than half of the current title's words appear in the
+    file's title. No header, or no words to compare, is never stale."""
+    m = _HEADER_TITLE_RE.search(extracted_text[:2000])
+    if not m or not meta_title:
+        return False
+    now, then = _title_words(meta_title), _title_words(m.group(1))
+    if not now or not then:
+        return False
+    return len(now & then) < max(1, len(now) / 2)
 
 
 def has_local_full_text(sources_bill: str, root: Path = ROOT) -> bool:
@@ -846,7 +907,8 @@ def extract_bill_text_verbose(sources_bill: str, root: Path = ROOT) -> tuple[str
     ``metadata-not-found`` | ``no-document-link`` | ``download-failed`` |
     ``pdftotext-missing`` | ``extract-failed`` | ``empty-after-clean``. Uses an
     in-process memo plus an on-disk content-addressed cache keyed on the
-    document URL."""
+    document URL. A pre-extracted file whose title no longer matches the
+    bill's (gutted and refilled) is skipped in favour of the newest version."""
     if not sources_bill:
         return None, "no-sources-path"
 
@@ -868,12 +930,21 @@ def extract_bill_text_verbose(sources_bill: str, root: Path = ROOT) -> tuple[str
             raw_extracted = extracted_path.read_text(encoding="utf-8", errors="replace")
         except OSError:
             raw_extracted = ""
-        text_extracted = clean_bill_text(raw_extracted)
-        if text_extracted:
-            result = (text_extracted, "ok-extracted-file")
-            _run_memo[memo_key] = result
-            return result
-        # Empty extracted file → fall back to the download path below.
+        # A file saved before the bill was gutted and refilled describes the
+        # old bill: don't summarize it. The newest version is read instead,
+        # and if that can't be fetched the caller uses the (current) abstract
+        # rather than this stale text.
+        meta = _read_metadata(metadata_path) or {}
+        if raw_extracted and extracted_text_is_stale(raw_extracted, str(meta.get("title") or "")):
+            print(f"  TEXT: pre-extracted file is for an earlier version of the bill "
+                  f"({extracted_path.name}); reading the newest version instead", file=sys.stderr)
+        else:
+            text_extracted = clean_bill_text(raw_extracted)
+            if text_extracted:
+                result = (text_extracted, "ok-extracted-file")
+                _run_memo[memo_key] = result
+                return result
+            # Empty extracted file → fall back to the download path below.
 
     link = find_document_link(metadata_path)
     if link is None:
