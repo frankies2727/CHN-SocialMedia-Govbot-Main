@@ -1,0 +1,42 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A1912",
+    "legislative_session": "222",
+    "subject": [
+      "MENTAL HEALT",
+      "VETERANS"
+    ],
+    "title": "Establishes and allocates funds for program to provide mental health services to veterans; appropriates $2 million."
+  },
+  "id": "A1912",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Reported and Referred to Assembly Appropriations Committee",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-22T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A1912"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A1912"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "A1912"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A1912/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A1912/logs/20261022T040000Z_reported_and_referred_to_assembly_appropriations_committee.json"
+  },
+  "timestamp": "20261022T040000Z"
+}
