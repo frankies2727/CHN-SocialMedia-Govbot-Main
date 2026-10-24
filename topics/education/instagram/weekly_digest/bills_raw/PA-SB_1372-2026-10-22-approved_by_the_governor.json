@@ -1,0 +1,68 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1372",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending the act of June 13, 1967 (P.L.31, No.21), known as the Human Services Code, in general powers and duties of the Department of Human Services, providing for annual report of children facilities and payments; and, in departmental powers and duties as to licensing, further providing for right to enter and inspect and providing for carbon monoxide alarm standards in child care centers and family child care homes."
+  },
+  "id": "SB 1372",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-22T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/sb1372"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=611"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1592"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=62&rollcallid=3134&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=17&rollcallid=1186&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=48&rollcallid=3025&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=48&rollcallid=3024&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=469"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=462"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=461"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=460"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=3&rollcallid=898&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=33&rollcallid=850&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "SB 1372"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB1372/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB1372/logs/20261022T040000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20261022T040000Z"
+}

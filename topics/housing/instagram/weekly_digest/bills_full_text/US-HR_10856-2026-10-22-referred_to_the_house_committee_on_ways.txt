@@ -1,0 +1,31 @@
+A BILL
+To amend the Internal Revenue Code of 1986 to prevent certain alien individuals from occupying low-income units of qualified low-income housing projects.
+1.Short title
+This Act may be cited as the LIHTC Security Act.
+2.Certain alien individuals prevented from occupying low-income units of qualified low-income housing projects
+(a)In generalSection 42(c) of the Internal Revenue Code of 1986 is amended by adding at the end the following new paragraph:  (3)Occupancy requirement with respect to certain alien individuals (A)In generalNo credit shall be determined under subsection (a) with respect to any qualified low-income building for any taxable year unless, during the calendar year preceding the calendar year in which, or with which, such taxable year begins, all relevant low-income units of such building meet the occupancy requirement described in subparagraph (B) determined, with respect to each such unit, as of the beginning any lease term of such unit that begins in or with such calendar year.
+(B)Occupancy requirementA unit meets the occupancy requirement of this subparagraph if no occupant of such unit is an alien individual who is not described in one of the paragraphs of section 214(a) of the Housing and Community Development Act of 1980. (C)Relevant low-income unitFor purposes of this paragraph, the term relevant low-income unit means, with respect to any qualified low-income building, each low-income unit of such building taken into account in determining the applicable fraction with respect to such building under paragraph (1).
+(D)State election to reduce housing credit dollar amount in lieu of occupancy requirementSubparagraph (A) shall not apply to any qualified low-income building for any taxable year if the State in which such building is located does not have an election in effect under section 42(h)(3)(J)(ii) for the calendar year in which, or with which, such taxable year begins. (E)Transition rule (i)In generalIn the case of any transition-eligible building for any taxable year beginning before January 1, 2031, subparagraph (A) shall be applied by substituting 75 percent of such units for all of such units.
+(ii)Transition-eligible buildingFor purposes of this subparagraph, the term transition-eligible building means any qualified low-income building if— (I)the housing credit dollar amount allocated to such building reduced the housing credit dollar amount of the allocating agency for a calendar year before 2027, or
+(II)section 42(h)(1) does not apply to any portion of the eligible basis of such building by reason of having been financed with the proceeds of an obligation issued before January 1, 2027..  (b) State election To reduce housing credit dollar amount in lieu of occupancy requirement Section 42(h)(3) of such Code is amended by adding at the end the following new subparagraph:
+
+(J)
+Reduction of housing credit dollar amount
+
+(i)
+In general
+In the case of any calendar year with respect to which an election under clause (ii) is not in effect with respect to any State, each of the dollar amounts in effect under clauses (I) and (II) of subparagraph (C)(ii) for such calendar year with respect to such State (after any increase under subparagraphs (H) and (I)) shall be reduced by multiplying such dollar amount by 0.95.
+
+(ii)
+Election
+Clause (i) shall not apply with respect to any State for any calendar year if such State elects the application of this clause for such calendar year. Such election shall be made at such time and in such manner as the Secretary may provide, except that such election shall apply for the calendar year for which made and each subsequent calendar year unless revoked with the consent of the Secretary.
+
+(iii)
+Certain occupancy requirements made applicable based on State
+election
+For application of certain requirements to qualified low-income buildings located in States with an election in effect under clause (ii), see subsection (c)(3).
+
+.
+
+(c)Effective date
+(1)Occupancy requirementThe amendment made by subsection (a) shall apply to taxable years beginning after December 31, 2027. (2)State election to reduce housing credit dollar amount in lieu of occupancy requirementThe amendment made by subsection (b) shall apply to calendar years beginning after December 31, 2027.

@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6431",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Natural resources: floodplains"
+    ],
+    "title": "Natural resources: floodplains; predisaster flood resilience grant program; establish. Amends 1994 PA 451 (MCL 324.101 - 324.90106) by adding secs. 33709, 33710 & 33711."
+  },
+  "id": "HB 6431",
+  "log": {
+    "action": {
+      "description": "bill electronically reproduced 10/14/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-21",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6431"
+        }
+      ]
+    },
+    "bill_id": "HB 6431"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6431/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6431/logs/20261021T000000Z_bill_electronically_reproduced_10142026.json"
+  },
+  "timestamp": "20261021T000000Z"
+}
