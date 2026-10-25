@@ -1,0 +1,41 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 630",
+    "legislative_session": "2025-2026",
+    "title": "A Resolution directing the Legislative Budget and Finance Committee to conduct a study on data center decommissioning in Pennsylvania and provide recommendations."
+  },
+  "id": "HR 630",
+  "log": {
+    "action": {
+      "description": "Amended",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-20T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hr630"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1548"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1547"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=69&rollcallid=2911&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "HR 630"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HR630/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HR630/logs/20261020T040000Z_amended.json"
+  },
+  "timestamp": "20261020T040000Z",
+  "posted_text": "🏢 PA HR 630 — PA Wants to Know: How Much Do Data Centers Cost to Shut Down\n\nPennsylvania is asking a key committee to investigate the costs and risks associated with data center decommissioning. The resolution directs the Legislative Budget and Finance Committee to study how data centers are eventually shut down – including equipment removal, data sanitization, and environmental disposal – and whether municipalities are footing the bill. ...\n...",
+  "posted_link": "https://www.palegis.us/legislation/bills/2025/hr630",
+  "posted_url": "https://x.com/i/web/status/2114409185219940362"
+}
