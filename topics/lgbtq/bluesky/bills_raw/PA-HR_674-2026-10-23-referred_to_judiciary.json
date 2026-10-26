@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 674",
+    "legislative_session": "2025-2026",
+    "title": "A Resolution recognizing November 20, 2026, as \"Transgender Day of Remembrance\" in Pennsylvania."
+  },
+  "id": "HR 674",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Judiciary",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-23T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hr674"
+        }
+      ]
+    },
+    "bill_id": "HR 674"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HR674/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HR674/logs/20261023T040000Z_referred_to_judiciary.json"
+  },
+  "timestamp": "20261023T040000Z"
+}

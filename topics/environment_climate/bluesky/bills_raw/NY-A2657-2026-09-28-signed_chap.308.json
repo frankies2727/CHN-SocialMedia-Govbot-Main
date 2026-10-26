@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Establishes the electric landscaping equipment rebate program to reduce greenhouse gas emissions, improve air quality, and reduce noise pollution by promoting the adoption of quieter, zero-emission landscaping equipment; provides for rebates at the point of sale for applicants purchasing or leasing certain equipment; provides for the repeal of such provisions upon expiration thereof."
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A2657",
+    "legislative_session": "2025-2026",
+    "title": "Establishes the electric landscaping equipment rebate program; provides for the repeal of such provisions upon expiration thereof"
+  },
+  "id": "A2657",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "SIGNED CHAP.308",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-28",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislation.nysenate.gov/api/3/bills/2025-2026/A2657?summary=&detail="
+        },
+        {
+          "url": "http://www.nysenate.gov/legislation/bills/2025/A2657"
+        },
+        {
+          "url": "https://nyassembly.gov/leg/?bn=A02657&term=2025"
+        }
+      ]
+    },
+    "bill_id": "A2657"
+  },
+  "sources": {
+    "bill": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A2657/metadata.json",
+    "log": "ny-legislation/country:us/state:ny/sessions/2025-2026/bills/A2657/logs/20260928T000000Z_signed_chap308.json"
+  },
+  "timestamp": "20260928T000000Z"
+}

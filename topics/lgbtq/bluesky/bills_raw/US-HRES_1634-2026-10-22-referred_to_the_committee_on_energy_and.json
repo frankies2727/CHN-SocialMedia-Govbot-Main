@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HRES 1634",
+    "legislative_session": "119",
+    "title": "Expressing support for the recognition of October 26, 2026, as Intersex Awareness Day, and supporting the goals and ideals of Intersex Awareness Day."
+  },
+  "id": "HRES 1634",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-22T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hres/BILLSTATUS-119hres1634.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-resolution/1634"
+        }
+      ]
+    },
+    "bill_id": "HRES 1634"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HRES1634/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HRES1634/logs/20261022T040000Z_referred_to_the_committee_on_energy_and_commerce_and_in_addition_to_the_committee_on_education_and_w.json"
+  },
+  "timestamp": "20261022T040000Z"
+}
