@@ -211,6 +211,10 @@
     "NJ|S2994|2026-10-19|2RS",
     "PA|HR 587|2026-07-20",
     "PA|HR 587|2026-07-20|Referred to Health",
+    "PA|SB 965|2026-10-19",
+    "PA|SB 965|2026-10-19|",
+    "PA|SB 965|2026-10-19|First consideration",
+    "PA|SB 965|2026-10-19|Reported as committed",
     "PR|PS1459|2026-09-14",
     "PR|PS1459|2026-09-14|Aparece en Primera Lectura del Senado",
     "PR|PS1459|2026-09-14|Referido a Comisi\u00f3n(es)",
@@ -235,6 +239,8 @@
     "US|HRES 1548|2026-09-16|Submitted in House",
     "US|S 5283|2026-08-06",
     "US|S 5283|2026-08-06|Read twice and referred to the Committee",
+    "US|S 5515|2026-09-24",
+    "US|S 5515|2026-09-24|Read twice and referred to the Committee",
     "WA|SB 5917|2026-02-10|1st substitute bill substituted (HS 26).",
     "WA|SB 6182|2026-02-09|Minority; do not pass.",
     "WA|SB 6182|2026-03-13|Delivered to Governor.",
@@ -243,7 +249,7 @@
     "|S 4922|2026-06-24",
     "|S 4922|2026-06-24|Read twice and referred to the Committee"
   ],
-  "last_run": "2026-10-21T19:02:16.602127+00:00",
+  "last_run": "2026-10-26T20:11:14.263134+00:00",
   "state_last_posted": {
     "KS": "2026-06-18T11:29:15.082773+00:00",
     "FL": "2026-06-18T11:29:15.082773+00:00",
@@ -261,8 +267,8 @@
     "MI": "2026-10-19T03:38:13.187485+00:00",
     "IL": "2026-08-24T21:53:41.835425+00:00",
     "?": "2026-07-22T15:33:16.628783+00:00",
-    "US": "2026-10-19T19:32:23.574758+00:00",
-    "PA": "2026-08-10T18:08:03.958652+00:00",
+    "US": "2026-10-26T20:05:01.335301+00:00",
+    "PA": "2026-10-26T20:05:01.335301+00:00",
     "TN": "2026-08-12T15:12:21.398585+00:00",
     "PR": "2026-09-23T18:59:07.451937+00:00"
   }

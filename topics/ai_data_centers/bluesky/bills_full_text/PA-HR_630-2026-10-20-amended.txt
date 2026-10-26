@@ -1,0 +1,152 @@
+THE GENERAL ASSEMBLY OF PENNSYLVANIA
+
+HOUSE RESOLUTION
+No. 630
+
+HOWARD, GUZMAN, SANCHEZ, SHUSTERMAN, DONAHUE AND PASHINSKI,
+SEPTEMBER 23, 2026
+REFERRED TO COMMITTEE ON ENERGY, SEPTEMBER 24, 2026
+A RESOLUTION
+
+Directing the Legislative Budget and Finance Committee to
+conduct a study on data center decommissioning in
+Pennsylvania and provide recommendations.
+WHEREAS, Data centers are rooms, buildings or facilities that
+
+serve to contain and house essential applications and data for
+
+the information technology economy, which allows individuals to
+
+access various digital services and applications on the
+
+Internet; and
+
+WHEREAS, Data centers have become increasingly important to
+
+meeting society's Internet demands, much of which is due to the
+
+growth of artificial intelligence services; and
+
+WHEREAS, Pennsylvania is currently home to 174 data centers,
+
+with the greater Pittsburgh area serving as home to 36 data
+
+centers, more than any other market in the Commonwealth; and
+
+WHEREAS, While many data centers in the United States were
+
+built recently, all data centers eventually reach the end of
+
+their operational cycle, at which point these facilities must be
+
+decommissioned, a critical process for data centers; and
+
+WHEREAS, The decommissioning process for data centers
+
+includes tasks such as removing all equipment, sanitization of
+
+data to prevent data recovery, environmental disposal of
+
+hardware and resale of reusable assets; and
+
+WHEREAS, If this process is not done properly and carefully,
+
+it can lead to issues such as data breaches and environmental
+
+hazards; and
+
+WHEREAS, Some local government units in Pennsylvania have
+
+enacted ordinances to require data center owners to provide
+
+decommissioning plans and financial assurance for their
+
+decommissioning process prior to beginning construction for the
+
+data center, but no Statewide requirement for such plans or
+
+assurances currently exists; and
+
+WHEREAS, This creates a risk that municipalities and
+
+taxpayers could be forced to pay for the decommissioning of data
+
+centers if their local government units do not require
+
+decommissioning plans and financial assurances before a data
+
+center begins operation; and
+
+WHEREAS, It is in the public interest that Pennsylvania
+
+residents realize the benefits of data centers without being
+
+left to implement and pay for their eventual decommissioning;
+
+therefore be it
+
+RESOLVED, That the House of Representatives direct the
+
+Legislative Budget and Finance Committee to conduct a study on
+
+data center decommissioning in Pennsylvania and provide
+
+recommendations; and be it further
+
+RESOLVED, That the Legislative Budget and Finance Committee,
+in conducting the study, examine:
+(1)
+
+the costs typically required to decommission a data
+
+center, both in the Commonwealth and the United States;
+
+20260HR0630PN3916
+
+(2)
+
+ordinances enacted in this Commonwealth and other
+
+states that require a decommissioning plan and ongoing
+
+financial assurance for a data center prior to the
+
+commencement of construction or operation of the data center;
+
+(3)
+
+ordinances enacted in this Commonwealth and other
+
+states regarding the decommissioning of warehouses and
+
+similar structures or any decommissioning plan or financial
+
+assurance requirements for the decommissioning of such
+
+structures;
+
+(4)
+
+cases in which individuals apart from a data center
+
+owner or operator have been made to cover the costs of data
+
+center decommissioning in this Commonwealth, if applicable;
+
+and
+
+(5)
+
+expected decommissioning dates of data centers
+
+currently operating in this Commonwealth;
+and be it further
+RESOLVED, That the Legislative Budget and Finance Committee
+
+issue a report with its findings and recommendations to the
+
+General Assembly within three months of the adoption of this
+
+resolution.
+
+20260HR0630PN3916

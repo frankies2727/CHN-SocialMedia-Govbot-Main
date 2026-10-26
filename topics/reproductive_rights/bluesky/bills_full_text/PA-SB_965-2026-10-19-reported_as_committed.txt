@@ -1,0 +1,525 @@
+AN ACT
+
+Amending Title 35 (Health and Safety) of the Pennsylvania
+Consolidated Statutes, providing for Maternal Health
+Monitoring Pilot Program.
+The General Assembly of the Commonwealth of Pennsylvania
+hereby enacts as follows:
+Section 1.
+
+Title 35 of the Pennsylvania Consolidated
+
+Statutes is amended by adding a chapter to read:
+
+CHAPTER 54A
+
+MATERNAL HEALTH MONITORING PILOT PROGRAM
+
+Sec.
+
+54A01.
+
+Definitions.
+
+54A02.
+
+Establishment of pilot program.
+
+54A03.
+
+Administration of pilot program.
+
+54A04.
+
+Remote patient monitoring for maternal hypertension and
+
+maternal diabetes requirements.
+
+54A05.
+
+Duties of each managed care organization.
+
+54A06.
+
+Implementation of program in counties.
+
+54A07.
+
+Fee payment for administration of pilot program.
+
+54A08.
+
+Operation of pilot program.
+
+54A09.
+
+Report.
+
+54A10.
+
+Expiration of authority.
+
+§ 54A01.
+
+Definitions.
+
+The following words and phrases when used in this chapter
+
+shall have the meanings given to them in this section unless the
+
+context clearly indicates otherwise:
+
+"Clinical team."
+
+A group made up of nurses and dietitians
+
+who:
+
+(1)
+
+Monitor eligible participants' measurements.
+
+(2)
+
+Provide nutrition guidance.
+
+(3)
+
+Provide diabetes and hypertension condition
+
+management counseling.
+
+(4)
+
+Provide pregnancy and postpartum advice.
+
+"Department."
+
+"Eligible participant."
+
+The Department of Health of the Commonwealth.
+A patient who is:
+
+(1)
+
+a recipient of medical assistance;
+
+(2)
+
+a member of a participating managed care
+
+organization; and
+(3)
+
+pregnant.
+
+"Escalation pathway."
+
+An agreement between the participating
+
+managed care organizations and the selected vendor on a process
+
+to follow when an eligible participant's measurements are
+
+concerning and warrant further review and investigation.
+
+"Health care provider."
+
+An obstetrician or maternal fetal
+
+medicine physician who:
+
+(1)
+
+is licensed in this Commonwealth;
+
+(2)
+
+is in-network of the participating managed care
+
+organization; and
+(3)
+
+is caring for an eligible participant during
+
+pregnancy.
+
+"Maternity care desert."
+
+An area that does not have any of
+
+the following:
+
+(1)
+
+A hospital providing obstetric care.
+
+(2)
+
+A birth center.
+
+(3)
+
+An obstetrician gynecologist.
+
+(4)
+
+A certified nurse midwife.
+
+"Participating managed care organizations."
+
+The managed care
+
+organizations selected by the department under section 54A03
+
+(relating to administration of pilot program).
+
+"Pilot program."
+
+The Maternal Health Monitoring Pilot
+
+Program established under section 54A02 (relating to
+
+establishment of pilot program).
+
+"Remote patient monitoring for maternal hypertension and
+
+maternal diabetes."
+
+that meets all of the following criteria:
+
+(1)
+
+Technology provided by the selected vendor
+
+The technology collects health data from an eligible
+
+participant and electronically transmits that information
+
+securely for interpretation and recommendation.
+
+(2)
+
+The technology uses a device that meets all of the
+
+following criteria:
+
+(i)
+
+The device is compliant with 42 U.S.C. Ch. 7
+
+Subch. XI Pt. C (relating to administrative
+
+simplification).
+
+(ii)
+
+The device is authorized by the United States
+
+Food and Drug Administration.
+
+(3)
+
+The technology monitors health data, including blood
+
+pressure, weight, blood glucose levels or other physiologic
+
+health data as determined by the eligible participant's
+
+health care provider.
+
+(4)
+
+The technology is capable of transmitting health
+
+data through cellular networks.
+(5)
+
+The technology is preprogrammed, specific to each
+
+participant and functions directly out of the box for the
+
+participant.
+
+"Selected vendor."
+
+The technology company selected by the
+
+department to contract with the participating managed care
+
+organizations in administering the pilot program.
+
+"Technology."
+
+Cellular connected devices that deliver remote
+
+patient monitoring for maternal hypertension and maternal
+
+diabetes such as blood pressure monitors, blood glucose meters
+
+and scales.
+
+§ 54A02.
+
+Establishment of pilot program.
+
+For fiscal years 2026-2027 and 2027-2028, the Maternal Health
+
+Monitoring Pilot Program is established within the department to
+
+offer eligible participants improved maternal health care
+
+through remote patient monitoring for maternal hypertension and
+
+maternal diabetes.
+
+§ 54A03.
+
+Administration of pilot program.
+
+The department shall select one or more managed care
+
+organizations and one selected vendor to administer the pilot
+
+program in a manner determined by the department.
+
+§ 54A04.
+
+Remote patient monitoring for maternal hypertension
+
+and maternal diabetes requirements.
+The selected vendor shall meet the following requirements
+
+when offering remote patient monitoring for maternal
+
+hypertension and maternal diabetes to an eligible participant
+
+under the pilot program:
+
+(1)
+
+Ensure that remote patient monitoring for maternal
+
+hypertension and maternal diabetes is possible during
+
+pregnancy and for up to three months postpartum.
+(2)
+
+Ensure that remote patient monitoring devices are
+
+delivered to the eligible participant.
+(3)
+
+Ensure that the eligible participant has a process
+
+to be trained on how to use the remote patient monitoring
+
+devices.
+
+(4)
+
+following:
+
+(i)
+
+Employ a clinical team that is capable of the
+
+Monitoring and reviewing participants' health
+
+data.
+
+(ii)
+
+Creating an escalation pathway with the
+
+participating managed care organizations if the eligible
+
+participant's remote patient monitoring readings, in
+
+conjunction with the eligible participant's symptoms,
+
+require additional medical attention.
+
+(iii)
+
+Providing health coaching to participants,
+
+including nutrition, condition management and healthy
+
+behavior modification.
+
+(5)
+
+Assign a program manager to support implementation
+
+and administration of the pilot program and to coordinate
+
+efforts with the participating managed care organizations and
+
+department.
+
+§ 54A05.
+
+Duties of each managed care organization.
+
+Each participating managed care organization shall:
+(1)
+
+Contract directly with the selected vendor to offer
+
+remote patient monitoring for maternal hypertension and
+
+maternal diabetes to eligible participants.
+
+(2)
+
+Ensure that eligible patients have access to the
+
+pilot program.
+§ 54A06.
+
+Implementation of program in counties.
+
+The department shall implement the pilot program in as many
+
+counties as necessary to ensure participation of no more than
+
+eligible participants. The following shall apply:
+
+(1)
+
+The department shall implement the pilot program in
+
+at least one county with a maternity care desert.
+
+(2)
+
+The department shall implement the pilot program in
+
+at least one rural county, as defined by the Center for Rural
+
+Pennsylvania.
+
+§ 54A07.
+
+Fee payment for administration of pilot program.
+
+(a)
+
+Fee payment.--The department shall pay a fee, totaling
+
+no more than $600,000 in the aggregate, to the participating
+
+managed care organizations to administer the pilot program.
+
+(b)
+
+Use of fee.--The participating managed care organization
+
+shall use the fee payment under subsection (a) to cover the
+
+costs of the following:
+
+(1)
+
+contracting with the selected vendor under section
+
+54A03 (relating to administration of pilot program); and
+
+(2)
+
+§ 54A08.
+
+(a)
+
+administering the pilot program.
+
+Operation of pilot program.
+Number of participants.--The department shall ensure
+
+that the pilot program has no more than 300 eligible
+
+participants.
+
+(b)
+
+Date of operation.--The pilot program shall be
+
+operational no later than 180 days after the contract date
+
+between the participating managed care organizations and the
+
+selected vendor under section 54A03 (relating to administration
+
+of pilot program).
+
+§ 54A09.
+
+Report.
+
+No later than 24 months after the expiration of the pilot
+
+program, the department shall collaborate with the participating
+
+managed care organizations and any other relevant stakeholders
+
+to develop a report evaluating the outcomes of the pilot
+
+program, including cost savings, impact on morbidity rates and
+
+recommendations regarding whether the pilot program should be
+
+expanded throughout this Commonwealth. The department shall
+
+submit the report to all of the following:
+
+(1)
+
+The Governor.
+
+(2)
+
+The President pro tempore of the Senate.
+
+(3)
+
+The Speaker of the House of Representatives.
+
+(4)
+
+The chairperson and minority chairperson of the
+
+Appropriations Committee of the Senate.
+(5)
+
+The chairperson and minority chairperson of the
+
+Appropriations Committee of the House of Representatives.
+(6)
+
+The chairperson and minority chairperson of the
+
+Health and Human Services Committee of the Senate.
+(7)
+
+The chairperson and minority chairperson of the
+
+Health Committee of the House of Representatives.
+(8)
+
+The chairperson and minority chairperson of the
+
+Human Services Committee of the House of Representatives.
+§ 54A10.
+
+Expiration of authority.
+
+The department's authority to implement the pilot program
+
+shall expire two years after the date that the pilot program is
+
+operational.
+
+Section 2.
+
+This act shall take effect in 60 days.

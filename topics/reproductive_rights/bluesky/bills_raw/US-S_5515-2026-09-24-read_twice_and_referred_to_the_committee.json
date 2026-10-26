@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S 5515",
+    "legislative_session": "119",
+    "title": "A bill to improve Federal efforts with respect to the prevention of maternal mortality, and for other purposes."
+  },
+  "id": "S 5515",
+  "log": {
+    "action": {
+      "description": "Read twice and referred to the Committee on Finance. (text: CR S4998-5003)",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-24T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s5515.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/senate-bill/5515"
+        }
+      ]
+    },
+    "bill_id": "S 5515"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/S5515/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/S5515/logs/20260924T040000Z_read_twice_and_referred_to_the_committee_on_finance_text_cr_s49985003.json"
+  },
+  "timestamp": "20260924T040000Z"
+}

@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 630",
+    "legislative_session": "2025-2026",
+    "title": "A Resolution directing the Legislative Budget and Finance Committee to conduct a study on data center decommissioning in Pennsylvania and provide recommendations."
+  },
+  "id": "HR 630",
+  "log": {
+    "action": {
+      "description": "Amended",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-20T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hr630"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1548"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1547"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=69&rollcallid=2911&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "HR 630"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HR630/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HR630/logs/20261020T040000Z_amended.json"
+  },
+  "timestamp": "20261020T040000Z"
+}
