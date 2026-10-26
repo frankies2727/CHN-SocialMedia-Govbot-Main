@@ -28,7 +28,10 @@
     "US|HR 10070|2026-08-10",
     "US|HR 10070|2026-08-10|Referred to the House Committee on Overs",
     "US|HR 10643|2026-10-01",
-    "US|HR 10643|2026-10-01|Referred to the House Committee on the J"
+    "US|HR 10643|2026-10-01|Referred to the House Committee on the J",
+    "US|HRES 1596|2026-10-01",
+    "US|HRES 1596|2026-10-01|Referred to the House Committee on Rules",
+    "US|HRES 1596|2026-10-01|Submitted in House"
   ],
   "state_last_posted": {
     "MA": "2026-06-28T02:24:37.116902+00:00",
@@ -37,8 +40,8 @@
     "CA": "2026-09-30T22:09:40.636125+00:00",
     "NC": "2026-09-07T21:03:45.563699+00:00",
     "MI": "2026-08-07T18:05:37.784999+00:00",
-    "US": "2026-10-13T00:14:36.731186+00:00",
+    "US": "2026-10-26T21:57:54.276781+00:00",
     "NH": "2026-08-26T19:36:59.753166+00:00"
   },
-  "last_run": "2026-10-13T00:18:54.973302+00:00"
+  "last_run": "2026-10-26T22:02:33.110568+00:00"
 }

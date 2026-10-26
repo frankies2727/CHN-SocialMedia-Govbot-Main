@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HRES 1596",
+    "legislative_session": "119",
+    "title": "Providing for consideration of the bill (H.R. 9899) to designate Afghanistan under section 244 of the Immigration and Nationality Act to permit nationals of Afghanistan to be eligible for temporary protected status under such section, and for other purposes."
+  },
+  "id": "HRES 1596",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Rules.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-01T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hres/BILLSTATUS-119hres1596.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-resolution/1596"
+        }
+      ]
+    },
+    "bill_id": "HRES 1596"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HRES1596/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HRES1596/logs/20261001T040000Z_referred_to_the_house_committee_on_rules.json"
+  },
+  "timestamp": "20261001T040000Z",
+  "posted_text": "🌎 US HRES 1596 — House to Debate Bill to Protect Afghan Nationals\n\nThe House will vote on a resolution to allow Afghan nationals to apply for temporary protected status.\n\nThis means that if the resolution passes, the House will then debate and vote on a specific bill (H.R.\n\n9899) that would designate Afghanistan for this temporary protection under a law called section 244 of the Immigration and Nationality Act.\n\nThe resolution sets specific rules for the debate, including limiting debate time and allowing only certain motions to be raised.\n\nThe House will transmit a message to the Senate once the bill is passed.\n\nOct. 1, 2026: Referred to the House Committee on Rules.\n\n🔗 Read the full bill: https://www.congress.gov/bill/119th-congress/house-resolution/1596\n\n#Immigration #USCongress #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-resolution/1596",
+  "posted_url": "https://www.instagram.com/p/De-TymGlXzQ/"
+}

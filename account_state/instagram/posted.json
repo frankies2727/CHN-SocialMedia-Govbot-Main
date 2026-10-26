@@ -78,6 +78,8 @@
     "CA|SB1119|2026-07-02",
     "CA|SB1119|2026-07-02|Coauthors revised.",
     "CA|SB1119|2026-07-02|From committee: Do pass and re-refer to ",
+    "CA|SB1149|2026-09-27",
+    "CA|SB1149|2026-09-27|Approved by the Governor.",
     "CA|SB1164|2026-06-24|From committee with author's amendments.",
     "CA|SB1271|2026-09-27",
     "CA|SB1271|2026-09-27|Approved by the Governor.",
@@ -229,6 +231,9 @@
     "MI|HB 4350|2026-07-29|approved by the Governor 07/21/2026 03:0",
     "MI|HB 4350|2026-07-29|assigned PA 86'26 with immediate effect",
     "MI|HB 4350|2026-07-29|filed with Secretary of State 07/27/2026",
+    "MI|HB 4703|2026-10-06",
+    "MI|HB 4703|2026-10-06|laid over one day under the rules",
+    "MI|HB 4703|2026-10-06|returned from Senate with substitute (S-",
     "MI|HB 5232|2026-07-29",
     "MI|HB 5232|2026-07-29|approved by the Governor 07/21/2026 02:2",
     "MI|HB 5232|2026-07-29|assigned PA 57'26 with immediate effect",
@@ -434,6 +439,8 @@
     "PA|HB 2455|2026-07-09|Referred to Labor & Industry",
     "PA|HR 587|2026-07-20",
     "PA|HR 587|2026-07-20|Referred to Health",
+    "PA|HR 674|2026-10-23",
+    "PA|HR 674|2026-10-23|Referred to Judiciary",
     "PA|SB 1345|2026-07-12",
     "PA|SB 1345|2026-07-12|Second consideration",
     "PA|SB 146|2026-07-12",
@@ -503,6 +510,9 @@
     "US|HRES 1572|2026-09-21",
     "US|HRES 1572|2026-09-21|Referred to the Committee on Armed Servi",
     "US|HRES 1572|2026-09-21|Submitted in House",
+    "US|HRES 1596|2026-10-01",
+    "US|HRES 1596|2026-10-01|Referred to the House Committee on Rules",
+    "US|HRES 1596|2026-10-01|Submitted in House",
     "US|S 3257|2026-09-14",
     "US|S 3257|2026-09-14|Committee on Commerce, Science, and Tran",
     "US|S 3257|2026-09-14|Placed on Senate Legislative Calendar un",
@@ -521,7 +531,6 @@
     "|HR 9368|2026-06-24|Ordered to be Reported (Amended) by the "
   ],
   "runs": {
-    "29832725730-1": 4,
     "29944172071-1": 4,
     "30115439532-1": 4,
     "30292542060-1": 4,
@@ -550,7 +559,8 @@
     "38320810205-1": 4,
     "38630979550-1": 4,
     "39325762957-1": 4,
-    "39669396960-1": 4
+    "39669396960-1": 4,
+    "40402069998-1": 4
   },
-  "last_run": "2026-10-21T21:27:10.917140+00:00"
+  "last_run": "2026-10-26T22:17:26.053649+00:00"
 }

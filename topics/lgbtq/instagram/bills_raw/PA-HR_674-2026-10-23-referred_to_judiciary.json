@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 674",
+    "legislative_session": "2025-2026",
+    "title": "A Resolution recognizing November 20, 2026, as \"Transgender Day of Remembrance\" in Pennsylvania."
+  },
+  "id": "HR 674",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Judiciary",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-23T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hr674"
+        }
+      ]
+    },
+    "bill_id": "HR 674"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HR674/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HR674/logs/20261023T040000Z_referred_to_judiciary.json"
+  },
+  "timestamp": "20261023T040000Z",
+  "posted_text": "🏳️‍⚧️ PA HR 674 — Pennsylvania Acknowledges Transgender Day of Remembrance\n\nThe House of Representatives will formally recognize November 20, 2026, as Transgender Day of Remembrance in Pennsylvania.\n\nThe resolution cites ongoing violence against transgender people, noting that they are over four times more likely to experience violent crime than cisgender individuals and that at least 32 transgender people were killed by violence in 2024, including some in Pennsylvania.\n\nIt also points out that Pennsylvania law still allows for the controversial 'LGBTQ+ panic' defense, which shields assailants from full prosecution.\n\nThe resolution calls for creating a Commonwealth where transgender Pennsylvanians can live safely and authentically, free from violence, and encourages education to combat prejudice and protect LGBTQ+ Pennsylvanians.\n\nOct. 23, 2026: Referred to Judiciary.\n\n🔗 Read the full bill: https://www.palegis.us/legislation/bills/2025/hr674\n\n#LGBTQ #Pennsylvania #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.palegis.us/legislation/bills/2025/hr674",
+  "posted_url": "https://www.instagram.com/p/De-VVnzlWdb/"
+}
