@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law establishes in the Labor and Workforce Development Agency the Department of Industrial Relations. Existing law requires the department, upon appropriation by the Legislature, to establish a Women in Construction Priority Unit to, among other things, provide resources for employers and project owners, including public agencies, to improve construction worksite culture, address barriers to employment, and develop training and materials for workforce pipeline professionals specific to women and nonbinary individuals in construction.\n\nThis bill would, upon appropriation by the Legislature, require the department to establish, through the Division of Apprenticeship Standards, the Equal Representation in Construction Apprenticeships Grant Program, and would state the goals of the program, including, among other things, providing women, nonbinary individuals, and underrepresented populations with opportunities to train for a construction career with greater access to preapprenticeship and apprenticeship programs that are registered with the division. The bill would authorize the department to issue rules, regulations, guidelines, policies, or procedures necessary to implement the bill's provisions described above.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1980",
+    "legislative_session": "20252026",
+    "subject": [
+      "EqualRepresentationinConstructionApprenticeshipsGrantProgram",
+      "Labor",
+      "apprenticeship"
+    ],
+    "title": "Labor: apprenticeship: Equal Representation in Construction Apprenticeships Grant Program."
+  },
+  "id": "AB1980",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-27",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1980"
+        }
+      ]
+    },
+    "bill_id": "AB1980"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1980/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1980/logs/20260927T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260927T000000Z"
+}
