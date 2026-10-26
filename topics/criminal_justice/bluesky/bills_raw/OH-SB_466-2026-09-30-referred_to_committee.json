@@ -1,0 +1,55 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "To amend section 2967.194 of the Revised Code to increase the availability of sentence reduction credit a prisoner may receive for successfully participating in specified programs.",
+        "note": "long title"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 466",
+    "legislative_session": "136",
+    "subject": [
+      "Courts",
+      "Courts and Civil Law",
+      "Crime and Punishment",
+      "Crimes, Corrections, and Law Enforcement",
+      "Prisons and Jails",
+      "Sentencing"
+    ],
+    "title": "Increase sentence reduction credit a prisoner may receive"
+  },
+  "id": "SB 466",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to committee",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-09-30T04:00:00+00:00",
+      "related_entities": [
+        {
+          "entity_type": "organization",
+          "name": "Senate Judiciary Committee"
+        }
+      ],
+      "session_id": "136",
+      "sources": [
+        {
+          "url": "https://www.legislature.ohio.gov/legislation/136/sb466"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb466/"
+        }
+      ]
+    },
+    "bill_id": "SB 466"
+  },
+  "sources": {
+    "bill": "oh-legislation/country:us/state:oh/sessions/136/bills/SB466/metadata.json",
+    "log": "oh-legislation/country:us/state:oh/sessions/136/bills/SB466/logs/20260930T040000Z_referred_to_committee.json"
+  },
+  "timestamp": "20260930T040000Z"
+}
