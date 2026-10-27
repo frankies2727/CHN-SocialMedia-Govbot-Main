@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10905",
+    "legislative_session": "119",
+    "title": "To prohibit individualized pricing, dynamic pricing, and pricing based on facial recognition technology at large retail food stores and their online platforms, and for other purposes."
+  },
+  "id": "HR 10905",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Energy and Commerce.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-22T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10905.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10905"
+        }
+      ]
+    },
+    "bill_id": "HR 10905"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10905/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10905/logs/20261022T040000Z_referred_to_the_house_committee_on_energy_and_commerce.json"
+  },
+  "timestamp": "20261022T040000Z",
+  "posted_text": "👁️ US HR 10905 — To prohibit individualized pricing, dynamic pricing, and pricing based on facial recognition technology at large retail food stores and their online platforms, and for other purposes. ...\n...",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-bill/10905",
+  "posted_url": "https://x.com/i/web/status/2115160739916972279"
+}
