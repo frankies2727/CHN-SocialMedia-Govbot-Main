@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 4703",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Insurance: health benefits",
+      "Insurance: health insurers"
+    ],
+    "title": "Insurance: health insurers; coverage for group prenatal care services; require. Amends 1956 PA 218 (MCL 500.100 - 500.8302) by adding sec. 3406ss."
+  },
+  "id": "HB 4703",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "REPORTED BY COMMITTEE OF THE WHOLE FAVORABLY WITHOUT AMENDMENT(S)",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-01",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-HB-4703"
+        }
+      ]
+    },
+    "bill_id": "HB 4703"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB4703/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB4703/logs/20261001T000000Z_reported_by_committee_of_the_whole_favorably_without_amendments.json"
+  },
+  "timestamp": "20261001T000000Z"
+}
