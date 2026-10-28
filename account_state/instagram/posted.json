@@ -52,6 +52,8 @@
     "CA|AB1930|2026-07-02",
     "CA|AB1930|2026-07-02|Read second time and amended. Re-referre",
     "CA|AB1988|2026-06-26|In committee: Set, final hearing. Hearin",
+    "CA|AB2059|2026-09-27",
+    "CA|AB2059|2026-09-27|Approved by the Governor.",
     "CA|AB2244|2026-09-28",
     "CA|AB2244|2026-09-28|Approved by the Governor.",
     "CA|AB2504|2026-09-18",
@@ -261,6 +263,9 @@
     "MI|SB 0616|2026-07-03|inserted full title",
     "MI|SB 0616|2026-07-03|read a third time",
     "MI|SB 0616|2026-07-03|returned to Senate",
+    "MI|SB 0980|2026-10-27",
+    "MI|SB 0980|2026-10-27|REFERRED TO COMMITTEE OF THE WHOLE",
+    "MI|SB 0980|2026-10-27|REPORTED FAVORABLY WITHOUT AMENDMENT 10/",
     "MI|SB 0988|2026-10-06",
     "MI|SB 0988|2026-10-06|read a first time",
     "MI|SB 0988|2026-10-06|referred to Committee on Government Oper",
@@ -452,6 +457,9 @@
     "PA|SB 146|2026-07-12|Senate concurred in House amendments",
     "PA|SB 146|2026-07-12|Signed in House",
     "PA|SB 146|2026-07-12|Signed in Senate",
+    "PA|SB 418|2026-10-22",
+    "PA|SB 418|2026-10-22|Act No. 95 of 2026",
+    "PA|SB 418|2026-10-22|Approved by the Governor",
     "PA|SB 599|2026-06-30",
     "PA|SB 599|2026-06-30|Removed from table",
     "PR|PC1450|2026-09-28",
@@ -498,6 +506,8 @@
     "US|HR 10070|2026-08-10|Referred to the House Committee on Overs",
     "US|HR 10643|2026-10-01",
     "US|HR 10643|2026-10-01|Referred to the House Committee on the J",
+    "US|HR 10877|2026-10-22",
+    "US|HR 10877|2026-10-22|Referred to the House Committee on Ways ",
     "US|HR 309|2026-08-20",
     "US|HR 309|2026-08-20|Placed on the Union Calendar, Calendar N",
     "US|HR 309|2026-08-20|Reported (Amended) by the Committee on N",
@@ -531,7 +541,6 @@
     "|HR 9368|2026-06-24|Ordered to be Reported (Amended) by the "
   ],
   "runs": {
-    "29944172071-1": 4,
     "30115439532-1": 4,
     "30292542060-1": 4,
     "30477259728-1": 4,
@@ -560,7 +569,8 @@
     "38630979550-1": 4,
     "39325762957-1": 4,
     "39669396960-1": 4,
-    "40402069998-1": 4
+    "40402069998-1": 4,
+    "40770761954-1": 4
   },
-  "last_run": "2026-10-26T22:17:26.053649+00:00"
+  "last_run": "2026-10-28T22:23:30.972807+00:00"
 }

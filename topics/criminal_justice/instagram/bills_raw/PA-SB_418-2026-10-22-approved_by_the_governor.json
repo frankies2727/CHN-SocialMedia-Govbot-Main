@@ -1,0 +1,53 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 418",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending Titles 16 (Counties) and 53 (Municipalities Generally) of the Pennsylvania Consolidated Statutes, in district attorney, assistants and detectives, further providing for filling of vacancies; in general provisions relating to home rule and optional plan government, further providing for limitation on municipal powers; and, in general provisions common to optional plans, further providing for manner of filling vacancies in office."
+  },
+  "id": "SB 418",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-22T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/sb418"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1528"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=62&rollcallid=3082&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=60&rollcallid=1429&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=239"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=3&rollcallid=477&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=15&rollcallid=461&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "SB 418"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB418/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB418/logs/20261022T040000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20261022T040000Z",
+  "posted_text": "⚖️ PA SB 418 — Pennsylvania Filling Vacancies in District Attorney Offices\n\nPennsylvania is changing how district attorneys are appointed when a position is vacant.\n\nCurrently, the first assistant district attorney can fill the role temporarily, but this bill updates the process.\n\nIf the first assistant doesn’t want to serve or doesn’t meet the qualifications, the judges of the court of common pleas will appoint someone new who does.\n\nThis change applies specifically to counties with populations of 2nd, 3rd, 4th, 5th, 6th, 7th, or 8th class.\n\nThe bill also adjusts rules for filling vacancies in the offices of municipal treasurers, controllers, mayors, and county sheriffs, giving municipal councils 30 days to fill a vacancy and setting a process for court appointment if a decision can’t be made within that time.\n\nOct. 22, 2026: Approved by the Governor.\n\n🔗 Read the full bill: https://www.palegis.us/legislation/bills/2025/sb418\n\n#CriminalJusticePolicing #Pennsylvania #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.palegis.us/legislation/bills/2025/sb418",
+  "posted_url": "https://www.instagram.com/p/DfDfx4NAXmb/"
+}

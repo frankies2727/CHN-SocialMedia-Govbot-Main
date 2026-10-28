@@ -1,0 +1,47 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "The California Environmental Quality Act (CEQA) requires a lead agency, as defined, to prepare, or cause to be prepared, and certify the completion of an environmental impact report on a project that it proposes to carry out or approve that may have a significant effect on the environment or to adopt a negative declaration if it finds that the project will not have that effect. CEQA also requires a lead agency to prepare a mitigated negative declaration for a project that may have a significant effect on the environment if revisions in the project would avoid or mitigate that effect and there is no substantial evidence that the project, as revised, would have a significant effect on the environment.\n\nCEQA requires the Office of Land Use and Climate Innovation to prepare, develop, and transmit to the Secretary of the Natural Resources Agency for certification and adoption proposed revisions to the CEQA implementation guidelines to establish criteria for determining the significance of transportation impacts of projects within transit priority areas, and requires the criteria to promote the reduction of greenhouse gas emissions, the development of multimodal transportation networks, and a diversity of land uses. CEQA requires the office to recommend potential metrics, including, among other metrics, vehicle miles traveled, to measure these transportation impacts.\n\nThis bill would require the Department of Transportation, in consultation with specified entities, to, on or before December 31, 2030, develop guidance on vehicle-miles-travel mitigation measures for transportation projects in nonmetropolitan counties, as provided. The bill would require the department to publish the guidance on its internet website and add the guidance as an addendum to the Transportation Analysis Framework and the Transportation Analysis under CEQA. The bill would specify that a transportation project for which the lead agency has issued a notice of preparation for the project's environmental impact report on or before December 31, 2031 is presumed to have a less than significant transportation impact as determined by the vehicle-miles-traveled metric if at least 70% of the project lies within one or more nonmetropolitan counties. Because the bill would impose additional duties on a lead agency in its analysis of significant transportation impacts, this bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB2059",
+    "legislative_session": "20252026",
+    "subject": [
+      "CaliforniaEnvironmentalQualityAct",
+      "mitigation",
+      "transportationimpacts",
+      "vehiclemilestraveled"
+    ],
+    "title": "California Environmental Quality Act: transportation impacts: vehicle miles traveled: mitigation."
+  },
+  "id": "AB2059",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-27",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2059"
+        }
+      ]
+    },
+    "bill_id": "AB2059"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2059/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB2059/logs/20260927T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260927T000000Z",
+  "posted_text": "🚌 CA AB2059 — California’s CEQA Could Limit Road Project Costs\n\n(CEQA) is about to get a key update.\n\nThis bill sets a limit of 5% on the cost of mitigation measures for transportation projects determined to have significant impacts based on vehicle miles traveled (VMT).\n\nEssentially, if a road project’s impact, as measured by how many extra miles drivers will travel, triggers CEQA’s requirements for reducing traffic, the project can’t spend more than 5% of its total cost on those fixes.\n\nThe bill also establishes that projects located in nonmetropolitan counties – those with populations under 200,000 – are presumed to have a less than significant transportation impact if at least 80% of the project area is within one of these counties.\n\nThis change could impact the cost and feasibility of transportation projects across the state, particularly in rural areas.\n\nThe bill also creates a state-mandated local program.\n\nSept. 27, 2026: Approved by the Governor.\n\n🔗 Read the full bill: https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2059\n\n#Transportation #California #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2059",
+  "posted_url": "https://www.instagram.com/p/DfDeqlzATJn/"
+}

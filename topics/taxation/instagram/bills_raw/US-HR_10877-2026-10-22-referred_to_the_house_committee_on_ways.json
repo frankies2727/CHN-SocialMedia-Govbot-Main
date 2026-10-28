@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10877",
+    "legislative_session": "119",
+    "title": "To amend the Internal Revenue Code of 1986 establish a credit against the excise tax on beer for brewers that donate spent grain for local agricultural use."
+  },
+  "id": "HR 10877",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Ways and Means.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-22T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10877.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10877"
+        }
+      ]
+    },
+    "bill_id": "HR 10877"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10877/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10877/logs/20261022T040000Z_referred_to_the_house_committee_on_ways_and_means.json"
+  },
+  "timestamp": "20261022T040000Z",
+  "posted_text": "💰 US HR 10877 — To amend the Internal Revenue Code of 1986 establish a credit against the excise tax on beer for brewers that donate spent grain for local agricultural use.\n\nOct. 22, 2026: Referred to the House Committee on Ways and Means.\n\n🔗 Read the full bill: https://www.congress.gov/bill/119th-congress/house-bill/10877\n\n#Taxation #USCongress #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-bill/10877",
+  "posted_url": "https://www.instagram.com/p/DfDeDZwAad6/"
+}
