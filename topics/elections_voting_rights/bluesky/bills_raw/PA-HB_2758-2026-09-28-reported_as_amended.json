@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2758",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending the act of June 3, 1937 (P.L.1333, No.320), known as the Pennsylvania Election Code, in preparation for and conduct of primaries and elections, further providing for peace officers, no police officer to be within one hundred feet of polling place, exceptions, presence of soldiers prohibited; and, in penalties, further providing for police officers at polling places."
+  },
+  "id": "HB 2758",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage",
+        "committee-passage"
+      ],
+      "description": "Reported as amended",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-28T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hb2758"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=60&rollcallid=2769&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=60&rollcallid=2768&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "HB 2758"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB2758/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB2758/logs/20260928T040000Z_reported_as_amended.json"
+  },
+  "timestamp": "20260928T040000Z"
+}
