@@ -1,0 +1,45 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "Existing law defines a request regarding resuscitative measures to mean a written document, signed by an individual with capacity or legally recognized health care decisionmaker and the individual's physician that directs a health care provider regarding resuscitative measures, as prescribed. Existing law includes a prehospital \"do not resuscitate\" form, as developed by the Emergency Medical Services Authority or other substantially similar form, and Physician Orders for Life Sustaining Treatment form (POLST form) , as approved by the Emergency Medical Services Authority as requests regarding resuscitative measures.\n\nThis bill would replace the term \"Physician Orders for Life Sustaining Treatment\" with \"POLST,\" or \"Portable Orders Listing Scope of Treatment.\" The bill would authorize a request regarding resuscitative measures to be entered into by an individual with capacity or a health care agent, conservator with health care decisionmaking authority, or surrogate, as defined, and a physician, nurse practitioner, or physician assistant, as specified. The bill would specify that a request regarding resuscitative measures is entirely voluntary and the provision of care or admission to a facility cannot be conditioned on completion of or refusal to complete a POLST or prehospital \"do not resuscitate\" order.\n\n Existing law prescribes requirements for forms for requests regarding resuscitative measures, including, among other things, that the form be signed by the executing parties.\n\nThe bill would specify that an electronic signature, as defined, is sufficient for any signature required for a request regarding resuscitative measures.\n\nUnder this bill, a request regarding resuscitative measures executed in another state or jurisdiction that complies with the laws of that state or jurisdiction or the laws of California is considered valid and enforceable in California to the same extent as a request regarding resuscitative measures validly executed in California. The bill would specify that, in the absence of knowledge to the contrary, a physician or other health care provider may presume that a request regarding resuscitative measures, whether executed in another state or jurisdiction or in California, is valid and unrevoked.\n\nThe bill would make conforming changes.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB1088",
+    "legislative_session": "20252026",
+    "subject": [
+      "Healthcaredecisions",
+      "life-sustainingtreatment"
+    ],
+    "title": "Health care decisions: life-sustaining treatment."
+  },
+  "id": "SB1088",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-27",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1088"
+        }
+      ]
+    },
+    "bill_id": "SB1088"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1088/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/SB1088/logs/20260927T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260927T000000Z",
+  "posted_text": "🏥 Healthcare\nCA SB1088 — California Changes How Doctors Respond to Life-Saving Needs\n\nCalifornia is updating how doctors handle requests for life-sustaining treatment. This bill clarifies that a ‘POLST’ form – a written document directing healthcare providers about resuscitative measures – can now be created by a wider range of healthcare professionals, including nurse practitioners and physician assistants, alongside a patient’s doctor. ...\n...",
+  "posted_link": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1088",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DfBc9PcDpx_"
+}

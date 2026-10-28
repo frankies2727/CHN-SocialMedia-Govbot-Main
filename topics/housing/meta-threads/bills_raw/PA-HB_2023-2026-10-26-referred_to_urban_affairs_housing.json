@@ -1,0 +1,50 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2023",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending the act of April 6, 1951 (P.L.69, No.20), known as The Landlord and Tenant Act of 1951, in recovery of possession, further providing for hearing, judgment, writ of possession and payment of rent by tenant."
+  },
+  "id": "HB 2023",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Urban Affairs & Housing",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-26T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hb2023"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1522"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=62&rollcallid=3074&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1480"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1479"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=64&rollcallid=1611&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "HB 2023"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB2023/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB2023/logs/20261026T040000Z_referred_to_urban_affairs_housing.json"
+  },
+  "timestamp": "20261026T040000Z",
+  "posted_text": "🔑 Housing\nPA HB 2023 — Landlord Can Delay Eviction in Extreme Weather\n\nPennsylvania courts could temporarily pause eviction notices if extreme weather conditions – like freezing temperatures, winter storms, hurricanes, or excessive heat – threaten a tenant’s property. This would give the landlord and tenant up to five days to complete the eviction once the weather improves. ...\n...",
+  "posted_link": "https://www.palegis.us/legislation/bills/2025/hb2023",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DfBdoIsDhww"
+}
