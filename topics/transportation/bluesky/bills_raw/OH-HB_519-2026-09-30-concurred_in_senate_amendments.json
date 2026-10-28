@@ -1,0 +1,66 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "To amend section 2923.24 of the Revised Code to prohibit possession of an electronic device under circumstances indicating an intent to steal a motor vehicle.",
+        "note": "long title"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 519",
+    "legislative_session": "136",
+    "subject": [
+      "Crime and Punishment",
+      "Crimes, Corrections, and Law Enforcement"
+    ],
+    "title": "Prohibit specified actions with intent to steal a motor vehicle"
+  },
+  "id": "HB 519",
+  "log": {
+    "action": {
+      "classifications": [
+        "amendment-passage"
+      ],
+      "description": "Concurred in Senate amendments",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-09-30T04:00:00+00:00",
+      "session_id": "136",
+      "sources": [
+        {
+          "url": "https://www.legislature.ohio.gov/legislation/136/hb519"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb519/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb519/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb519/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb519/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb519/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb519/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb519/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb519/"
+        }
+      ]
+    },
+    "bill_id": "HB 519"
+  },
+  "sources": {
+    "bill": "oh-legislation/country:us/state:oh/sessions/136/bills/HB519/metadata.json",
+    "log": "oh-legislation/country:us/state:oh/sessions/136/bills/HB519/logs/20260930T040000Z_concurred_in_senate_amendments.json"
+  },
+  "timestamp": "20260930T040000Z"
+}

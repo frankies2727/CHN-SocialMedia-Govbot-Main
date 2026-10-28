@@ -223,6 +223,9 @@
     "PA|HR 165|2026-06-26|Removed from table",
     "PA|HR 673|2026-10-23",
     "PA|HR 673|2026-10-23|Referred to Intergovernmental Affairs & ",
+    "PA|SB 1217|2026-10-22",
+    "PA|SB 1217|2026-10-22|Act No. 107 of 2026",
+    "PA|SB 1217|2026-10-22|Approved by the Governor",
     "RI|HR8616|2026-06-04|06/04/2026 House read and passed",
     "RI|SB3116|2026-05-27|05/27/2026 Placed on Senate Calendar  (0",
     "RI|SB3116|2026-06-03|",
@@ -255,6 +258,8 @@
     "US|HR 10341|2026-09-10|Referred to the House Committee on the J",
     "US|HR 10503|2026-09-17",
     "US|HR 10503|2026-09-17|Referred to the Committee on the Judicia",
+    "US|HR 10786|2026-10-09",
+    "US|HR 10786|2026-10-09|Referred to the House Committee on Educa",
     "US|HR 10799|2026-10-13",
     "US|HR 10799|2026-10-13|Referred to the House Committee on the J",
     "US|HR 10800|2026-10-13",
@@ -330,7 +335,7 @@
     "|HRES 1409|2026-06-30|Referred to the House Committee on Overs",
     "|HRES 1409|2026-06-30|Submitted in House"
   ],
-  "last_run": "2026-10-26T20:06:47.275925+00:00",
+  "last_run": "2026-10-28T19:51:17.590638+00:00",
   "state_last_posted": {
     "VT": "2026-05-16T02:59:09.026935+00:00",
     "AK": "2026-05-16T02:59:09.026935+00:00",
@@ -352,9 +357,9 @@
     "AL": "2026-06-16T12:01:24.706349+00:00",
     "RI": "2026-06-28T10:00:04.896943+00:00",
     "NH": "2026-09-16T19:10:57.848364+00:00",
-    "PA": "2026-10-26T20:04:07.610624+00:00",
+    "PA": "2026-10-28T19:46:23.747176+00:00",
     "?": "2026-07-24T15:24:13.106444+00:00",
     "NC": "2026-09-02T18:37:32.981836+00:00",
-    "US": "2026-10-26T20:04:07.610624+00:00"
+    "US": "2026-10-28T19:46:23.747176+00:00"
   }
 }

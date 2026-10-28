@@ -1,0 +1,33 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6428",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Traffic control: other",
+      "Transportation: other"
+    ],
+    "title": "Transportation: other; size, weight, and load requirements; modify. Amends sec. 722 of 1949 PA 300 (MCL 257.722)."
+  },
+  "id": "HB 6428",
+  "log": {
+    "action": {
+      "description": "bill electronically reproduced 10/06/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-07",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6428"
+        }
+      ]
+    },
+    "bill_id": "HB 6428"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6428/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6428/logs/20261007T000000Z_bill_electronically_reproduced_10062026.json"
+  },
+  "timestamp": "20261007T000000Z"
+}

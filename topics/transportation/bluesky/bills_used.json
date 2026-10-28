@@ -294,6 +294,8 @@
     "MI|HB 6310|2026-09-01|bill electronically reproduced 08/27/202",
     "MI|HB 6332|2026-09-23",
     "MI|HB 6332|2026-09-23|bill electronically reproduced 09/22/202",
+    "MI|HB 6428|2026-10-07",
+    "MI|HB 6428|2026-10-07|bill electronically reproduced 10/06/202",
     "MI|SB 0174|2025-05-13|AMENDMENT(S) DEFEATED",
     "MI|SB 0174|2025-05-13|PLACED ON IMMEDIATE PASSAGE",
     "MI|SB 0174|2025-05-13|RULES SUSPENDED",
@@ -483,6 +485,11 @@
     "OH|HB 50|2025-07-01|Signed By The Governor",
     "OH|HB 50|2025-09-30|Effective",
     "OH|HB 50|2025-09-30|Effective 9/30/25",
+    "OH|HB 519|2026-09-30",
+    "OH|HB 519|2026-09-30|",
+    "OH|HB 519|2026-09-30|Concurred in Senate amendments",
+    "OH|HB 519|2026-09-30|Re-referred",
+    "OH|HB 519|2026-09-30|Reported - Substitute",
     "OH|HB 758|2026-09-30",
     "OH|HB 758|2026-09-30|Referred to committee",
     "OK|HB2160|2025-05-29|Becomes law without Governor's signature",
@@ -610,7 +617,7 @@
     "|HR 5109|2026-06-24|Ordered to be Reported by the Yeas and N",
     "|HR 5109|2026-06-24|Subcommittee on Transportation and Marit"
   ],
-  "last_run": "2026-10-26T20:14:05.730748+00:00",
+  "last_run": "2026-10-28T20:01:15.565099+00:00",
   "state_last_posted": {
     "IL": "2026-08-31T21:06:41.766233+00:00",
     "SC": "2026-08-26T16:10:17.605040+00:00",
@@ -638,11 +645,11 @@
     "?": "2026-07-20T10:26:01.686835+00:00",
     "PA": "2026-10-26T20:07:26.192901+00:00",
     "AK": "2026-09-23T18:58:49.442122+00:00",
-    "MI": "2026-10-21T19:05:55.537551+00:00",
+    "MI": "2026-10-28T19:52:05.642179+00:00",
     "LA": "2026-07-24T15:30:59.309423+00:00",
     "NY": "2026-09-30T19:38:46.257745+00:00",
     "US": "2026-10-19T19:42:39.293631+00:00",
     "MD": "2026-08-12T15:43:28.102470+00:00",
-    "OH": "2026-10-19T03:41:55.949979+00:00"
+    "OH": "2026-10-28T19:52:05.642179+00:00"
   }
 }
