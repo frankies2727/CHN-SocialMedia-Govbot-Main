@@ -1,0 +1,43 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "The Planning and Zoning Law requires each planning agency to prepare and the legislative body of each county and city to adopt a comprehensive, long-term general plan for the physical development of the county or city, and specified land outside its boundaries, that contains specified mandatory elements, including an environmental justice element, or related goals, policies, and objectives integrated in other elements, that identifies disadvantaged communities, as defined, within the area covered by the general plan of the city, county, or city and county, if the city, county, or city and county has a disadvantaged community, as specified. The law requires a city, county, or city and county subject to these provisions to adopt or review the environmental justice element, or the environmental justice goals, policies, and objectives in other elements, upon the adoption of the next revision of two or more elements concurrently on or after January 1, 2018.\n\nThis bill would require a city, county, or city and county to meaningfully involve disadvantaged communities in the development, adoption, and implementation of the environmental justice element, or the related goals, policies, and objectives integrated in other elements, using methods that are designed to effectively involve disadvantaged communities based on local conditions and circumstances, as specified. The bill would require a city, county, or city and county subject to these provisions to adopt or review the environmental justice element, or the environmental justice goals, policies, and objectives in other elements, upon the earliest of the adoption or next revision of two or more elements concurrently on or after January 1, 2018, or June 30, 2031, except as specified. By increasing the duties on local governments, this bill would impose a state-mandated local program.\n\nThe California Constitution requires the state to reimburse local agencies and school districts for certain costs mandated by the state. Statutory provisions establish procedures for making that reimbursement.\n\nThis bill would provide that no reimbursement is required by this act for a specified reason.",
+        "note": "summary"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "AB1457",
+    "legislative_session": "20252026",
+    "subject": [
+      "Generalplan",
+      "disadvantagedcommunities",
+      "environmentaljusticeelement"
+    ],
+    "title": "General plan: environmental justice element: disadvantaged communities."
+  },
+  "id": "AB1457",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-09-27",
+      "session_id": "20252026",
+      "sources": [
+        {
+          "url": "http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1457"
+        }
+      ]
+    },
+    "bill_id": "AB1457"
+  },
+  "sources": {
+    "bill": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1457/metadata.json",
+    "log": "ca-legislation/country:us/state:ca/sessions/20252026/bills/AB1457/logs/20260927T000000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20260927T000000Z"
+}
