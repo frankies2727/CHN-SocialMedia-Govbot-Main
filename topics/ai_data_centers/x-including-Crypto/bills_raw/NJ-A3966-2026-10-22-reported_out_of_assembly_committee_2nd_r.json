@@ -1,0 +1,47 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A3966",
+    "legislative_session": "222",
+    "subject": [
+      "ENVIRONMENT"
+    ],
+    "title": "Requires DEP to conduct study of short and long term effects of water use by large-scale data centers."
+  },
+  "id": "A3966",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported out of Assembly Committee, 2nd Reading",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-22T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3966"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3966"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3966"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "A3966"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A3966/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A3966/logs/20261022T040000Z_reported_out_of_assembly_committee_2nd_reading.json"
+  },
+  "timestamp": "20261022T040000Z",
+  "posted_text": "🏢 NJ A3966 — Big Tech's Water Use Could Change How NJ Uses Its Resources\n\nNew Jersey data centers are guzzling water – and this bill wants to find out exactly how. The Department of Environmental Protection (DEP) will launch a study to examine the short- and long-term impacts of water use by large-scale data centers, looking at everything from cooling systems and operational costs to potential strain on public water supplies. The study will consider existing data centers *and* any planned new facilities. ...\n...",
+  "posted_link": "https://www.njleg.state.nj.us/bill-search/2026/A3966",
+  "posted_url": "https://x.com/i/web/status/2115886805178278070"
+}
