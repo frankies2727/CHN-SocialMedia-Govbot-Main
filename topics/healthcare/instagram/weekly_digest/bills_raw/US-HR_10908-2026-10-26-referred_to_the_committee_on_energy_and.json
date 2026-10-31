@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10908",
+    "legislative_session": "119",
+    "title": "To implement Universal Savings Accounts and expand transparency, competition, and patient rights in health care."
+  },
+  "id": "HR 10908",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-26T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10908.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10908"
+        }
+      ]
+    },
+    "bill_id": "HR 10908"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10908/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10908/logs/20261026T040000Z_referred_to_the_committee_on_energy_and_commerce_and_in_addition_to_the_committee_on_ways_and_means_.json"
+  },
+  "timestamp": "20261026T040000Z"
+}
