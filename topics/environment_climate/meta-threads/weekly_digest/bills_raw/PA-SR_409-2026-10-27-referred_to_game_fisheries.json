@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SR 409",
+    "legislative_session": "2025-2026",
+    "title": "A Resolution urging the Pennsylvania Fish and Boat Commission to evaluate and approve the addition of the American Paddlefish to the Species by Watershed Approved for Open System Propagation and Introductions list."
+  },
+  "id": "SR 409",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Game & Fisheries",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-27T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/sr409"
+        }
+      ]
+    },
+    "bill_id": "SR 409"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SR409/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SR409/logs/20261027T040000Z_referred_to_game_fisheries.json"
+  },
+  "timestamp": "20261027T040000Z"
+}

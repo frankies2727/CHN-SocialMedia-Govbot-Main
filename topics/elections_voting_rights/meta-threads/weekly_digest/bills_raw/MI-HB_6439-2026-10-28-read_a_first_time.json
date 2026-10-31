@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6439",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Campaign finance: advertising"
+    ],
+    "title": "Campaign finance: advertising; transparency requirements for paid political advertisements; provide for. Amends sec. 15 of 1976 PA 388 (MCL 169.215) & adds sec. 59a."
+  },
+  "id": "HB 6439",
+  "log": {
+    "action": {
+      "classifications": [
+        "reading-1"
+      ],
+      "description": "read a first time",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-28",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6439"
+        }
+      ]
+    },
+    "bill_id": "HB 6439"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6439/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6439/logs/20261028T000000Z_read_a_first_time.json"
+  },
+  "timestamp": "20261028T000000Z"
+}

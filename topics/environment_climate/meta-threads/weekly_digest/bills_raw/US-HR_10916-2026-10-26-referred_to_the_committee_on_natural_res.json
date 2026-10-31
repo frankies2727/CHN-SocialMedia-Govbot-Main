@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10916",
+    "legislative_session": "119",
+    "title": "To require the Secretary of Agriculture and the Secretary of the Interior to jointly develop a strategy to increase the use of aquatic restoration and conservation activities in wildfire risk mitigation and post-fire recovery efforts, and for other purposes."
+  },
+  "id": "HR 10916",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the Committee on Natural Resources, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-26T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10916.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10916"
+        }
+      ]
+    },
+    "bill_id": "HR 10916"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10916/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10916/logs/20261026T040000Z_referred_to_the_committee_on_natural_resources_and_in_addition_to_the_committee_on_agriculture_for_a.json"
+  },
+  "timestamp": "20261026T040000Z"
+}
