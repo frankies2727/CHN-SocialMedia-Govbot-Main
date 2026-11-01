@@ -1,0 +1,53 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1925",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending Titles 35 (Health and Safety), 40 (Insurance) and 67 (Public Welfare) of the Pennsylvania Consolidated Statutes, providing for artificial intelligence in facilities, for artificial intelligence use by insurers and for artificial intelligence use by MA or CHIP managed care plans; imposing duties on the Department of Health, the Insurance Department and the Department of Human Services; and imposing penalties."
+  },
+  "id": "HB 1925",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Institutional Sustainability & Innovation",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-14T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hb1925"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1415"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=62&rollcallid=2914&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1386"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=68&rollcallid=2129&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=68&rollcallid=2128&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=68&rollcallid=2127&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "HB 1925"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB1925/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB1925/logs/20261014T040000Z_referred_to_institutional_sustainability_innovation.json"
+  },
+  "timestamp": "20261014T040000Z",
+  "posted_text": "🧠 PA HB 1925 — PA Law: AI Could Change How Your Health Insurance Decisions Are Made\n\nPennsylvania is taking a step toward regulating how artificial intelligence is used in healthcare. This bill sets rules for insurers and managed care plans – like MA and CHIP – when they use AI to review your health care claims. It requires insurers to show exactly how their AI systems work, including the data they use, and ensures human doctors still have the final say in decisions about your coverage. ...\n...",
+  "posted_link": "https://www.palegis.us/legislation/bills/2025/hb1925",
+  "posted_url": "https://x.com/i/web/status/2116966846167732594"
+}
