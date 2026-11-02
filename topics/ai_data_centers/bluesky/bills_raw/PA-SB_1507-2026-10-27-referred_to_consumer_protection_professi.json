@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1507",
+    "legislative_session": "2025-2026",
+    "title": "An Act providing for prohibited conduct involving algorithmic pricing structures and artificial intelligence, for enforcement by Attorney General and for civil remedies; and imposing criminal penalties."
+  },
+  "id": "SB 1507",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Consumer Protection & Professional Licensure",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-27T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/sb1507"
+        }
+      ]
+    },
+    "bill_id": "SB 1507"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB1507/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB1507/logs/20261027T040000Z_referred_to_consumer_protection_professional_licensure.json"
+  },
+  "timestamp": "20261027T040000Z"
+}
