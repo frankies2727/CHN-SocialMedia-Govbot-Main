@@ -1,0 +1,41 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A5599",
+    "legislative_session": "222",
+    "subject": [
+      "HIGHER ED"
+    ],
+    "title": "Requires Campus Sexual Assault Commission to host certain educational events; requires Office of Secretary of Higher Education to build capacity for coordinated community response to campus sexual assault."
+  },
+  "id": "A5599",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Reported and Referred to Assembly Appropriations Committee",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-22T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5599"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5599"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "A5599"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A5599/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A5599/logs/20261022T040000Z_reported_and_referred_to_assembly_appropriations_committee.json"
+  },
+  "timestamp": "20261022T040000Z"
+}
