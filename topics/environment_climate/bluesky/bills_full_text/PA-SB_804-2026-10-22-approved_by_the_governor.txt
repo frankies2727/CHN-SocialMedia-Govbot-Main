@@ -1,0 +1,432 @@
+AN ACT
+
+Amending Title 35 (Health and Safety) of the Pennsylvania
+Consolidated Statutes, providing for medical devices.
+The General Assembly of the Commonwealth of Pennsylvania
+hereby enacts as follows:
+Section 1.
+
+Title 35 of the Pennsylvania Consolidated
+
+Statutes is amended by adding a chapter to read:
+
+CHAPTER 58A
+
+MEDICAL DEVICES
+
+Subchapter
+
+A.
+
+Preliminary Provisions (Reserved)
+
+B.
+
+Prohibited Chemicals in Medical Devices
+
+SUBCHAPTER A
+
+PRELIMINARY PROVISIONS
+
+(Reserved)
+
+SUBCHAPTER B
+
+PROHIBITED CHEMICALS IN MEDICAL DEVICES
+
+Sec.
+
+58A11.
+
+Scope of subchapter.
+
+58A12.
+
+Legislative findings and declarations.
+
+58A13.
+
+Definitions.
+
+58A14.
+
+Prohibitions.
+
+58A15.
+
+Notice.
+
+§ 58A11.
+
+This subchapter relates to prohibited chemicals in medical
+
+devices.
+
+§ 58A12.
+
+Scope of subchapter.
+
+Legislative findings and declarations.
+
+The General Assembly finds and declares as follows:
+(1)
+
+DEHP and other ortho-phthalates are toxic chemicals
+
+and used primarily to produce flexibility in plastics, mainly
+
+polyvinyl chloride.
+
+(2)
+
+DEHP is the most common plasticizer used in medical
+
+devices, including intravenous solution containers, which are
+
+also known as IV bags, and intravenous tubing.
+
+(3)
+
+Over the course of its shelf life, DEHP leaches from
+
+plastic containers such as medical devices into a simulant.
+(4)
+
+DEHP is classified as an endocrine-disrupting
+
+compound because it can:
+
+(i)
+
+animals.
+
+(ii)
+
+Interfere with the hormonal system in humans and
+
+Mimic or block the actions of hormones, leading
+
+to adverse effects on reproductive health, development
+
+and metabolism.
+
+(5)
+
+Studies have suggested a potential link between DEHP
+
+exposure and certain types of cancer, including breast,
+
+liver, lung and testicular cancer.
+
+(6)
+
+The United States Environmental Protection Agency
+
+has determined that DEHP is a probable human carcinogen.
+
+(7)
+
+DEHP exposure:
+(i)
+
+Has been associated with adverse effects on
+
+reproductive organs and fertility.
+
+(ii)
+
+Can disrupt normal reproductive development,
+
+reduce sperm quality and affect hormone levels in both
+
+males and females.
+
+(8)
+
+DEHP is metabolized in the liver and can accumulate
+
+in the body over time. Prolonged exposure to high levels of
+
+DEHP has been shown to cause liver and kidney damage in
+
+animal studies.
+
+(9)
+
+Inhalation or ingestion of DEHP can cause
+
+respiratory irritation and allergic reactions in some
+
+individuals, particularly those with preexisting respiratory
+
+conditions or sensitivities.
+
+(10)
+
+The leaching of DEHP from medical devices at
+
+varying concentrations has been linked to multidrug
+
+resistance in breast cancer cells, inhibiting the
+
+effectiveness of breast cancer drugs. This phenomenon has
+
+been observed at both high and low concentrations of DEHP,
+
+highlighting the potential impact of DEHP leaching on cancer
+
+treatment outcomes.
+
+(11)
+
+Exposure to DEHP has been linked to multidrug
+
+resistance in triple-negative breast cancer cells, inhibiting
+
+the apoptosis mechanism induced by breast cancer drugs, such
+
+as tamoxifen, and increasing cell proliferation.
+
+(12)
+
+DEHP has been suggested to serve as a mitogenic
+
+factor for estrogen receptor-positive breast cancer cells,
+
+potentially making them multidrug resistant.
+
+§ 58A13.
+
+Definitions.
+
+The following words and phrases when used in this subchapter
+
+shall have the meanings given to them in this section unless the
+
+context clearly indicates otherwise:
+
+"DEHP."
+
+Di(2-ethylhexyl) phthalate (Chemical Abstracts
+
+Service Registry Number 117-81-7).
+
+"Health care practitioner."
+
+An individual who is authorized
+
+to practice some component of the healing arts by a license,
+
+permit, certificate or registration issued by a Commonwealth
+
+licensing agency or board.
+
+"Intentionally added DEHP."
+(1)
+
+Either of the following:
+
+DEHP that a manufacturer has intentionally added to
+
+a product and that has a functional or technical effect on
+
+the product.
+
+(2)
+
+DEHP that is an intentional breakdown product of an
+
+added chemical.
+
+"Intravenous solution container."
+
+A container used to house
+
+medicine, fluid or nutrition therapy that is intravenously
+
+delivered to a patient in a hospital, outpatient facility or
+
+other health care facility.
+
+"Intravenous tubing."
+
+Tubing used to administer fluids,
+
+medication or nutrients directly to an individual.
+"Ortho-phthalate."
+
+A class of chemicals that are esters of
+
+ortho-phthalic acid, including DEHP or any of the following:
+(1)
+
+Benzyl butyl phthalate (BBP) (Chemical Abstracts
+
+Service Registry Number 85-68-7).
+(2)
+
+Dibutyl phthalate (DBP) (Chemical Abstracts Service
+
+Registry Number 84-74-2).
+(3)
+
+Dicyclohexyl phthalate (DCHP) (Chemical Abstracts
+
+Service Registry Number 84-61-7).
+(4)
+
+Diethyl phthalate (DEP) (Chemical Abstracts Service
+
+Registry Number 84-66-2).
+
+(5)
+
+Service Registry Number 84-69-5).
+
+(6)
+
+(7)
+
+(8)
+
+(9)
+
+Di-n-octyl phthalate (DNOP) (Chemical Abstracts
+
+Service Registry Number 117-84-0).
+
+Di-n-hexyl phthalate (DnHP) (Chemical Abstracts
+
+Service Registry Number 84-75-3).
+
+Diisononyl phthalate (DINP) (Chemical Abstracts
+
+Service Registry Number 28553-12-0).
+
+Diisodecyl phthalate (DIDP) (Chemical Abstracts
+
+Service Registry Number 26761-40-0).
+
+Diisobutyl phthalate (DIBP) (Chemical Abstracts
+
+(10)
+
+Di-n-pentyl phthalate (DnPP) (Chemical Abstracts
+
+Service Registry Number 131-18-0).
+
+(11)
+
+Diisoheptyl phthalate (DIHP) (Chemical Abstracts
+
+Service Registry Number 71888-89-6).
+
+"Patient."
+
+An individual who is under the medical care of a
+
+health care practitioner, in addition to the following, as
+
+applicable:
+
+(1)
+
+the individual is under 18 years of age.
+
+(2)
+
+The health care agent, as defined in 20 Pa.C.S. §
+
+(relating to definitions), of the individual.
+
+The parent or legal guardian of the individual if
+
+(3)
+
+The health care representative, as defined in 20
+
+Pa.C.S. § 5422, of the individual.
+
+(4)
+
+The guardian of the individual if the individual is
+
+deemed an incapacitated person in accordance with 20 Pa.C.S.
+
+Ch. 55 (relating to incapacitated persons).
+
+§ 58A14.
+
+(a)
+
+Prohibitions.
+Intravenous solution containers.--Beginning January 1,
+
+2027, a person may not manufacture, sell or distribute
+
+intravenous solution containers made with intentionally added
+
+DEHP.
+
+(b)
+
+Intravenous tubing.-(1)
+
+Beginning January 1, 2027, a person may not
+
+manufacture, sell or distribute intravenous tubing made with
+
+intentionally added DEHP for use in neonatal intensive care
+
+units or for the purpose of nutrition infusions or oncology
+
+treatment infusions.
+
+(2)
+
+Beginning January 1, 2032, a person may not
+
+manufacture, sell or distribute intravenous tubing made with
+
+intentionally added DEHP.
+
+(c)
+
+Replacement.--A person may not replace DEHP with another
+
+ortho-phthalate in a new or revised medical device.
+
+§ 58A15.
+
+(a)
+
+Notice.
+Requirement.--A health care practitioner shall notify a
+
+patient prior to use of an intravenous solution container or
+
+intravenous tubing that contains DEHP or other ortho-phthalate
+
+in the course of treatment.
+
+(b)
+
+Contents.--Notice under subsection (a) shall include, at
+
+a minimum, information relating to:
+(1)
+
+The risks associated with exposure to DEHP and other
+
+ortho-phthalates.
+(2)
+
+The patient's right to request an intravenous
+
+solution container or intravenous tubing that is free from
+
+DEHP and other ortho-phthalates.
+
+Section 2.
+
+This act shall take effect in 90 days.

@@ -1,0 +1,65 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 804",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending Title 35 (Health and Safety) of the Pennsylvania Consolidated Statutes, providing for medical devices; in Commonwealth services, further providing for assistance to fire companies and EMS companies and for State Fire Commissioner and providing for protection against PFAS chemicals and for firefighting protective equipment; in grants to fire companies and emergency medical services companies, further providing for award of grants; and imposing penalties."
+  },
+  "id": "SB 804",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-22T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/sb804"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=606"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1575"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=62&rollcallid=3124&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=17&rollcallid=1181&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1553"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1552"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=55&rollcallid=3018&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=343"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=3&rollcallid=691&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=72&rollcallid=528&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=72&rollcallid=529&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "SB 804"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB804/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB804/logs/20261022T040000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20261022T040000Z"
+}
