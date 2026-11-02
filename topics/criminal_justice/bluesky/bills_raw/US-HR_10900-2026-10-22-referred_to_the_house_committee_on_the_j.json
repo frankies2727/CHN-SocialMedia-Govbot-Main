@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10900",
+    "legislative_session": "119",
+    "title": "To require States and units of local government that receive funds under the Byrne grant program or the COPS grant program to submit a report to the Attorney General related to the use of automated license plate readers by State and local law enforcement officers, and for other purposes."
+  },
+  "id": "HR 10900",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on the Judiciary.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-22T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10900.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10900"
+        }
+      ]
+    },
+    "bill_id": "HR 10900"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10900/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10900/logs/20261022T040000Z_referred_to_the_house_committee_on_the_judiciary.json"
+  },
+  "timestamp": "20261022T040000Z"
+}

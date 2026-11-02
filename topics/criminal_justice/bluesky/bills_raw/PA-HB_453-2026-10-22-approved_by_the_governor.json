@@ -1,0 +1,59 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 453",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending Title 35 (Health and Safety) of the Pennsylvania Consolidated Statutes, in 911 emergency communication services, further providing for definitions, for telecommunications management, for counties, for Pennsylvania State Police, for addressing authorities, for next generation 911 call delivery, for fund, for payment, collection and remittance of surcharge by sellers of prepaid wireless telecommunications service, for telephone records, for penalty, for immunity, for ALI database maintenance, for industry standards, for MLTS signaling and for limitation of liability; in general provisions, relating to emergency management services further providing for definitions; in Commonwealth services, further providing for definitions relating to intrastate mutual aid; in emergency responder mental wellness and stress management, further providing for definitions; providing for law enforcement officer benefits for surviving family members; in emergency medical services system, further providing for basic life support ambulances; and making editorial changes."
+  },
+  "id": "HB 453",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Approved by the Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-22T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hb453"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1609"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=67&rollcallid=3111&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=580"
+        },
+        {
+          "url": "https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=561"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=3&rollcallid=1136&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/senate/committees/roll-call-votes/vote-list/vote-summary?committeecode=21&rollcallid=728&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=101"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=62&rollcallid=274&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=42&rollcallid=83&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "HB 453"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB453/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB453/logs/20261022T040000Z_approved_by_the_governor.json"
+  },
+  "timestamp": "20261022T040000Z"
+}
