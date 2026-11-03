@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10648",
+    "legislative_session": "119",
+    "title": "Veterans’ Mental Health Access Act"
+  },
+  "id": "HR 10648",
+  "log": {
+    "action": {
+      "description": "Referred to the Subcommittee on Health.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-14T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10648.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10648"
+        }
+      ]
+    },
+    "bill_id": "HR 10648"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10648/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10648/logs/20261014T040000Z_referred_to_the_subcommittee_on_health.json"
+  },
+  "timestamp": "20261014T040000Z",
+  "posted_text": "🧠 US HR 10648 — VA Promises 24-Hour Mental Health Treatment\n\nThis bill directs the Department of Veterans Affairs to provide inpatient mental health treatment to veterans through the Veterans Community Care Program.\n\nThe VA must offer care within 24 hours of a veteran requesting it or a doctor prescribing it.\n\nThe VA will also track and report on wait times for this care every six months, publishing the data on its website.\n\nOct. 14, 2026: Referred to the Subcommittee on Health.\n\n🔗 Read the full bill: https://www.congress.gov/bill/119th-congress/house-bill/10648\n\n#Healthcare #USCongress #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-bill/10648",
+  "posted_url": "https://www.instagram.com/p/DfQr4OYDf7p/"
+}

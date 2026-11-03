@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HRES 1630",
+    "legislative_session": "119",
+    "title": "Expressing the importance of raising awareness of opportunity youth and the necessity of investing in and supporting reconnection to education and career pathways across the United States."
+  },
+  "id": "HRES 1630",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the Committee on Education and Workforce, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-19T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hres/BILLSTATUS-119hres1630.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-resolution/1630"
+        }
+      ]
+    },
+    "bill_id": "HRES 1630"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HRES1630/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HRES1630/logs/20261019T040000Z_referred_to_the_committee_on_education_and_workforce_and_in_addition_to_the_committee_on_energy_and_.json"
+  },
+  "timestamp": "20261019T040000Z",
+  "posted_text": "🎓 US HRES 1630 — Congress Wants to See More Support for Struggling Young Workers\n\nThis House Resolution urges the federal government to recognize the challenges faced by ‘opportunity youth’ – young people ages 16 to 24 who are disconnected from education and work – and to invest in programs that help them reconnect to education and career pathways.\n\nThe resolution highlights that millions of young Americans face significant barriers to success, including homelessness and aging out of foster care, and that those who remain connected to workforce development programs earn significantly more and have better health outcomes.\n\nIt calls on federal agencies to prioritize these young people in grant programs and to develop clear career pathways with supportive services, estimating that connecting these young people could generate over $55 billion in additional revenue for the government.\n\nOct. 19, 2026: Referred to the Committee on Education and Workforce.\n\n🔗 Read the full bill: https://www.congress.gov/bill/119th-congress/house-resolution/1630\n\n#Education #USCongress #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-resolution/1630",
+  "posted_url": "https://www.instagram.com/p/DfQpx5ejXRC/"
+}
