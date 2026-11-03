@@ -1,0 +1,53 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2006",
+    "legislative_session": "2025-2026",
+    "title": "An Act providing for safety regarding artificial intelligence in companionship applications; and imposing a penalty."
+  },
+  "id": "HB 2006",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Communications & Technology",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-13T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hb2006"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1365"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=62&rollcallid=2805&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1307"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=67&rollcallid=2704&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=68&rollcallid=2552&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=68&rollcallid=2551&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "HB 2006"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB2006/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB2006/logs/20261013T040000Z_referred_to_communications_technology.json"
+  },
+  "timestamp": "20261013T040000Z",
+  "posted_text": "🧠 PA HB 2006 — PA Passes Law: AI Companions Must Protect You From Harm\n\nPennsylvania is taking a stand against potentially dangerous AI companions. This new law, dubbed the Artificial Intelligence in Companionship Applications Safety Act, sets strict rules for operators of AI systems designed to simulate relationships. Specifically, AI companions must be programmed to recognize and respond to signs of self-harm or suicidal ideation, refusing to assist in attempts and directing users to crisis resources like… ...\n...",
+  "posted_link": "https://www.palegis.us/legislation/bills/2025/hb2006",
+  "posted_url": "https://x.com/i/web/status/2117728496013168850"
+}
