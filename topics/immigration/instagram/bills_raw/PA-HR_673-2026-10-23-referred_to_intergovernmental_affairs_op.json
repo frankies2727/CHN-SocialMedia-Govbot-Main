@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 673",
+    "legislative_session": "2025-2026",
+    "title": "A Resolution directing the Joint State Government Commission to conduct a study on the feasibility, community impact and process for converting immigrant detention centers operating in this Commonwealth into community-centered projects, with fair, transparent and rigorous local stakeholder participation as a condition for eligibility for State transition grant funds."
+  },
+  "id": "HR 673",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Intergovernmental Affairs & Operations",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-23T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hr673"
+        }
+      ]
+    },
+    "bill_id": "HR 673"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HR673/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HR673/logs/20261023T040000Z_referred_to_intergovernmental_affairs_operations.json"
+  },
+  "timestamp": "20261023T040000Z",
+  "posted_text": "👮 PA HR 673 — Pennsylvania Wants to Rethink Immigration Detention\n\nThis bill directs Pennsylvania to study how to transform immigration detention centers into community-focused projects.\n\nThe goal is to address growing concerns about deaths in detention, negative impacts on local communities, and declining trust in government.\n\nThe Joint State Government Commission will investigate feasibility, community impact, and a transparent process involving residents, organizations, and local businesses.\n\nThe study will assess best practices from other states, develop a framework for community-centered conversion, and recommend eligibility criteria for state grant funds to support redevelopment.\n\nThe Commission will consult with a wide range of stakeholders, including immigrant rights groups and academic experts, and must deliver a report with draft proposals within 12 months.\n\nOct. 23, 2026: Referred to Intergovernmental Affairs & Operations.\n\n🔗 Read the full bill: https://www.palegis.us/legislation/bills/2025/hr673\n\n#Immigration #Pennsylvania #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.palegis.us/legislation/bills/2025/hr673",
+  "posted_url": "https://www.instagram.com/p/DfVmnYEGJA6/"
+}

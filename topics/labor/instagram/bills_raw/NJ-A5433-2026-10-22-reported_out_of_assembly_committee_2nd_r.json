@@ -1,0 +1,49 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A5433",
+    "legislative_session": "222",
+    "subject": [
+      "HEALTH",
+      "PUB EMPLOYEE",
+      "PUB SAFETY"
+    ],
+    "title": "Consolidates administration of \"New Jersey Public Employees' Occupational Safety and Health Act\" under DOLWD."
+  },
+  "id": "A5433",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported out of Assembly Committee, 2nd Reading",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-22T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5433"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5433"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5433"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "A5433"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A5433/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A5433/logs/20261022T040000Z_reported_out_of_assembly_committee_2nd_reading.json"
+  },
+  "timestamp": "20261022T040000Z",
+  "posted_text": "🦺 NJ A5433 — NJ Workers' Safety: State Oversight Shifts to DOLWD\n\nNew Jersey is moving the administration of its public employee workplace safety program to the Department of Labor and Workforce Development (DOLWD).\n\nThis means inspections, investigations, and related activities under the ‘New Jersey Public Employees’ Occupational Safety and Health Act’ will now be handled by the DOLWD, along with the resources needed to carry out these duties.\n\nThe bill also establishes an advisory board and outlines a plan for developing and enforcing safety standards in collaboration with the Department of Health and other agencies.\n\nThis shift aims to streamline oversight and ensure compliance with federal standards under the Occupational Safety and Health Act of 1970.\n\nOct. 22, 2026: Reported out of Assembly Committee, 2nd Reading.\n\n🔗 Read the full bill: https://www.njleg.state.nj.us/bill-search/2026/A5433\n\n#LaborWorkersRights #NewJersey #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.njleg.state.nj.us/bill-search/2026/A5433",
+  "posted_url": "https://www.instagram.com/p/DfVnrhGmAJg/"
+}

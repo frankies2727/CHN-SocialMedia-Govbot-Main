@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6438",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Agriculture: other",
+      "Individual income tax: credit"
+    ],
+    "title": "Individual income tax: credit; credit for owners of agricultural assets who sell or rent agricultural assets to beginning farmers; provide for. Amends 1967 PA 281 (MCL 206.1 - 206.847) by adding sec. 281.   TIE BAR WITH: HB 6437'26"
+  },
+  "id": "HB 6438",
+  "log": {
+    "action": {
+      "description": "bill electronically reproduced 10/21/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-28",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6438"
+        }
+      ]
+    },
+    "bill_id": "HB 6438"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6438/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6438/logs/20261028T000000Z_bill_electronically_reproduced_10212026.json"
+  },
+  "timestamp": "20261028T000000Z",
+  "posted_text": "🔑 MI HB 6438 — Michigan Farmers Get a Tax Break on Land Deals\n\nMichigan is offering a tax credit to farmers who buy or rent land from new farmers.\n\nIf you're a farmer selling land or renting it out under a specific agreement, you could get a credit up to the amount on your certificate from the Department of Agriculture and Rural Development.\n\nTo claim this, you’ll need a certificate and proof the agreement was active during the tax year.\n\nIf you’re part of a farming business, you can carry over any unused credit for up to five years.\n\nOct. 28, 2026: Bill electronically reproduced 10/21/2026.\n\n🔗 Read the full bill: https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6438\n\n#Housing #Michigan #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6438",
+  "posted_url": "https://www.instagram.com/p/DfVl32eGPS7/"
+}

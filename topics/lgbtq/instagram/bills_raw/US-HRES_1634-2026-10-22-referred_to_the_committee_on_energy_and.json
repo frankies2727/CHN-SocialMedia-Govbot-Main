@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HRES 1634",
+    "legislative_session": "119",
+    "title": "Expressing support for the recognition of October 26, 2026, as Intersex Awareness Day, and supporting the goals and ideals of Intersex Awareness Day."
+  },
+  "id": "HRES 1634",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-22T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hres/BILLSTATUS-119hres1634.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-resolution/1634"
+        }
+      ]
+    },
+    "bill_id": "HRES 1634"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HRES1634/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HRES1634/logs/20261022T040000Z_referred_to_the_committee_on_energy_and_commerce_and_in_addition_to_the_committee_on_education_and_w.json"
+  },
+  "timestamp": "20261022T040000Z",
+  "posted_text": "🏳️‍🌈 US HRES 1634 — Congress Aims to Recognize Intersex Awareness Day\n\nCongress is considering a resolution to formally support the recognition of October 26th as Intersex Awareness Day.\n\nThe resolution highlights concerns about early, non-consensual medical interventions performed on intersex babies and young children, often involving irreversible surgeries and genital mutilation.\n\nIt cites evidence from former Surgeons General and medical organizations like the American Academy of Family Physicians and the World Professional Association for Transgender Health, which recommend delaying such surgeries until the child can provide informed consent.\n\nThe resolution also references a 2023 American Bar Association resolution opposing medical interventions on minors with intersex traits without their consent, emphasizing the importance of bodily autonomy and self-determination for intersex individuals.\n\nOct. 22, 2026: Referred to the Committee on Energy and Commerce.\n\n🔗 Read the full bill: https://www.congress.gov/bill/119th-congress/house-resolution/1634\n\n#LGBTQ #USCongress #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-resolution/1634",
+  "posted_url": "https://www.instagram.com/p/DfVokTamB0C/"
+}
