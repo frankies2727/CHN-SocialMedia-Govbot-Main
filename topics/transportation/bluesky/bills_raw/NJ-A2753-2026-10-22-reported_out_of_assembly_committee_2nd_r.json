@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A2753",
+    "legislative_session": "222",
+    "subject": [
+      "HIGHWAYS"
+    ],
+    "title": "Requires Department of Agriculture to publish information on highway safety for motorists passing farm equipment on public highways; includes safely sharing roadway with farm equipment in driver education courses and certain informational brochures."
+  },
+  "id": "A2753",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported out of Assembly Committee, 2nd Reading",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-22T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A2753"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A2753"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A2753"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "A2753"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A2753/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A2753/logs/20261022T040000Z_reported_out_of_assembly_committee_2nd_reading.json"
+  },
+  "timestamp": "20261022T040000Z"
+}
