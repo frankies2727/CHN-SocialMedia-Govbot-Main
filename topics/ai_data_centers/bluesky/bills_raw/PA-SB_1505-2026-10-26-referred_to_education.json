@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1505",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending the act of March 10, 1949 (P.L.30, No.14), known as the Public School Code of 1949, in school safety and security, providing for prohibition of artificial intelligence for school-based mental health and counseling."
+  },
+  "id": "SB 1505",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Education",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-26T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/sb1505"
+        }
+      ]
+    },
+    "bill_id": "SB 1505"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB1505/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB1505/logs/20261026T040000Z_referred_to_education.json"
+  },
+  "timestamp": "20261026T040000Z"
+}
