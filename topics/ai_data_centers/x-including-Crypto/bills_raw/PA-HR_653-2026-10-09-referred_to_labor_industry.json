@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 653",
+    "legislative_session": "2025-2026",
+    "title": "A Resolution directing the Joint State Government Commission to conduct a study and issue a report on the data that needs to be collected to evaluate the impact of artificial intelligence on the workforce."
+  },
+  "id": "HR 653",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Labor & Industry",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-09T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hr653"
+        }
+      ]
+    },
+    "bill_id": "HR 653"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HR653/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HR653/logs/20261009T040000Z_referred_to_labor_industry.json"
+  },
+  "timestamp": "20261009T040000Z",
+  "posted_text": "🧠 PA HR 653 — PA Wants to Know: How AI Impacts Your Job\n\nPennsylvania is asking for answers about how artificial intelligence is changing the workforce. This resolution directs the Joint State Government Commission to study the potential impacts of AI on jobs, wages, and the state's economy. The commission will investigate everything from AI's use in hiring to its effect on productivity, and even how other states and countries are tracking these changes. ...\n...",
+  "posted_link": "https://www.palegis.us/legislation/bills/2025/hr653",
+  "posted_url": "https://x.com/i/web/status/2118447812216045967"
+}
