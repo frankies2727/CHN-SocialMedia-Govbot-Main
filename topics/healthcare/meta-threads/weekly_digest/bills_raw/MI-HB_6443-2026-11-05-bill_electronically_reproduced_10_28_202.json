@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6443",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Health facilities: hospitals"
+    ],
+    "title": "Health facilities: hospitals; emergency medical screening and stabilizing treatment; require hospitals to provide. Amends 1978 PA 368 (MCL 333.1101 - 333.25211) by adding secs. 17028, 17528, 21528, 21528a, 21528b, 21528c & 21528d."
+  },
+  "id": "HB 6443",
+  "log": {
+    "action": {
+      "description": "bill electronically reproduced 10/28/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-11-05",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6443"
+        }
+      ]
+    },
+    "bill_id": "HB 6443"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6443/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6443/logs/20261105T000000Z_bill_electronically_reproduced_10282026.json"
+  },
+  "timestamp": "20261105T000000Z"
+}
