@@ -1,0 +1,24 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S4304",
+    "legislative_session": "222",
+    "subject": [
+      "LAND USE",
+      "MUNICIPALITI"
+    ],
+    "title": "Prohibits agreements intended to conceal certain information concerning development of data centers under MLUL."
+  },
+  "id": "S4304",
+  "log": {
+    "bill_id": "S4304"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S4304/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S4304/logs/20261022T040000Z.vote_event.pass.upper.json"
+  },
+  "timestamp": "20261022T040000Z.vote",
+  "posted_text": "🏢 NJ S4304 — Data Centers Face New Scrutiny: NJ Limits Secret Deals\n\nNew Jersey is cracking down on data center development. This bill stops developers from using non-disclosure agreements with local officials and property sellers – deals that could hide crucial information about these facilities. If a developer tries to use such an agreement, it’s automatically against public policy and won’t get them approval for a new site plan or subdivision. ...\n...",
+  "posted_link": "https://www.njleg.state.nj.us/bill-search/2026/S4304",
+  "posted_url": "https://x.com/i/web/status/2119508543074390221"
+}

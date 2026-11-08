@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2666",
+    "legislative_session": "2025-2026",
+    "title": "An Act providing for limitations on the use of user data in the creation of artificial intelligence simulations and for private right of action; and imposing penalties."
+  },
+  "id": "HB 2666",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported as committed",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-07T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hb2666"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=68&rollcallid=3012&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "HB 2666"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB2666/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB2666/logs/20261007T040000Z_reported_as_committed.json"
+  },
+  "timestamp": "20261007T040000Z",
+  "posted_text": "🧠 PA HB 2666 — Your Digital Self: New Rules to Protect You After You're Gone\n\nPennsylvania is stepping up to protect your digital identity. This new law, the Digital Afterlife Consent and AI Identity Protection Act, says digital platforms can’t automatically create AI simulations of you after you die or go silent online – unless you give clear, separate consent. You decide what content can be used, for how long, and whether private messages can be included. ...\n...",
+  "posted_link": "https://www.palegis.us/legislation/bills/2025/hb2666",
+  "posted_url": "https://x.com/i/web/status/2119507397886742949"
+}
