@@ -1,0 +1,50 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A5404",
+    "legislative_session": "222",
+    "subject": [
+      "HEALTH PROF"
+    ],
+    "title": "Establishes \"Midwifery Licensing Act.\""
+  },
+  "id": "A5404",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported out of Assembly Committee with Amendments, 2nd Reading",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-22T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5404"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5404"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5404"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5404"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "A5404"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A5404/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A5404/logs/20261022T040000Z_reported_out_of_assembly_committee_with_amendments_2nd_reading.json"
+  },
+  "timestamp": "20261022T040000Z",
+  "posted_text": "👩‍⚕️ NJ A5404 — New Jersey Creates a Board to Regulate Midwives\n\nNew Jersey is establishing a new system for overseeing midwives.\n\nCurrently, the State Board of Medical Examiners regulates midwives, but this bill creates a dedicated State Board of Midwifery to oversee certified midwives (CMs), certified nurse midwives (CNMs), and certified professional midwives (CPMs).\n\nThe board will set standards for licensure, require continuing education, and oversee the approval of midwifery education programs.\n\nImportantly, the board can also grant licenses to existing midwives currently licensed by the State Board of Medical Examiners, streamlining the process for these professionals.\n\nOct. 22, 2026: Reported out of Assembly Committee with Amendments, 2nd Reading.\n\n🔗 Read the full bill: https://www.njleg.state.nj.us/bill-search/2026/A5404\n\n#ReproductiveRights #NewJersey #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.njleg.state.nj.us/bill-search/2026/A5404",
+  "posted_url": "https://www.instagram.com/p/DfithP4Ft-_/"
+}

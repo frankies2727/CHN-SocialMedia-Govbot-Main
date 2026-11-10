@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2877",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending the act of March 4, 1971 (P.L.6, No.2), known as the Tax Reform Code of 1971, establishing the Returning Heroes Employment Tax Credit."
+  },
+  "id": "HB 2877",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Finance",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-21T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hb2877"
+        }
+      ]
+    },
+    "bill_id": "HB 2877"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB2877/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB2877/logs/20261021T040000Z_referred_to_finance.json"
+  },
+  "timestamp": "20261021T040000Z",
+  "posted_text": "💰 PA HB 2877 — PA Offers $2,000 Boost for Returning Veterans' Taxes\n\nPennsylvania is launching a new tax credit for veterans – the Returning Heroes Employment Tax Credit – designed to help them manage their tax liability.\n\nEligible taxpayers, including businesses and S corporations, can claim a credit of up to $2,000 against their qualified tax liability.\n\nThe credit applies to veterans certified by the Department of Labor and Industry, and can be carried over to future years for a maximum of 15 years.\n\nThe program is capped at $20 million annually and will be allocated on a first-come, first-served basis.\n\nThis credit is particularly beneficial for shareholders of S corporations and owners of pass-through entities, allowing them to receive a portion of the credit based on their share of the business's income.\n\nOct. 21, 2026: Referred to Finance.\n\n🔗 Read the full bill: https://www.palegis.us/legislation/bills/2025/hb2877\n\n#Taxation #Pennsylvania #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.palegis.us/legislation/bills/2025/hb2877",
+  "posted_url": "https://www.instagram.com/p/DfiuVLuGmi3/"
+}

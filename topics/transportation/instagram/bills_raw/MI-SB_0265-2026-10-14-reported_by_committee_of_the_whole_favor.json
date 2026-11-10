@@ -1,0 +1,39 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 0265",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "State agencies (existing): transportation",
+      "Transportation: funds"
+    ],
+    "title": "Transportation: funds; maintenance of nonmotorized transportation infrastructure; provide for. Amends sec. 10k of 1951 PA 51 (MCL 247.660k)."
+  },
+  "id": "SB 0265",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "REPORTED BY COMMITTEE OF THE WHOLE FAVORABLY WITHOUT AMENDMENT(S)",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-14",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0265"
+        }
+      ]
+    },
+    "bill_id": "SB 0265"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0265/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0265/logs/20261014T000000Z_reported_by_committee_of_the_whole_favorably_without_amendments.json"
+  },
+  "timestamp": "20261014T000000Z",
+  "posted_text": "🚗 MI SB 0265 — Michigan Could Spend 1% of Funds on Bike Paths\n\nThis bill would require Michigan to set aside at least 1% of the Michigan transportation fund for building and maintaining nonmotorized transportation infrastructure – like bike paths and sidewalks – in cities and villages.\n\nCounties would also need to create a 5-year plan outlining how they’d spend this money, consulting with the state transportation department and local governments.\n\nThe bill allows for flexibility if the cost of adding new facilities is too high or if existing facilities are sufficient, but encourages local governments to prioritize nonmotorized transportation projects when planning road construction or upgrades.\n\nOct. 14, 2026: Reported by Committee of the Whole Favorably Without Amendment(s).\n\n🔗 Read the full bill: https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0265\n\n#Transportation #Michigan #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2025-SB-0265",
+  "posted_url": "https://www.instagram.com/p/DfivDNvlsTJ/"
+}

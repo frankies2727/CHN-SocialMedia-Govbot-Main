@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1507",
+    "legislative_session": "2025-2026",
+    "title": "An Act providing for prohibited conduct involving algorithmic pricing structures and artificial intelligence, for enforcement by Attorney General and for civil remedies; and imposing criminal penalties."
+  },
+  "id": "SB 1507",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Consumer Protection & Professional Licensure",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-27T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/sb1507"
+        }
+      ]
+    },
+    "bill_id": "SB 1507"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB1507/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB1507/logs/20261027T040000Z_referred_to_consumer_protection_professional_licensure.json"
+  },
+  "timestamp": "20261027T040000Z",
+  "posted_text": "🧠 PA SB 1507 — PA Bill Could Crack Down on AI Price Fixing\n\nPennsylvania is considering a law to stop businesses from using artificial intelligence to unfairly set prices.\n\nThis new ‘Collusive Algorithms Act’ would make it illegal to distribute or develop algorithmic pricing structures – like those powered by AI – that use competitor data to manipulate prices in markets within the state.\n\nThe Attorney General would be able to investigate and prosecute violations, with potential fines reaching up to $100 million for distributing a collusive structure.\n\nThe law specifically targets ‘common artificial intelligence’ and ‘proprietary artificial intelligence’ that could be used to share competitor data and create artificially high prices, even if the companies don’t intentionally try to collude.\n\nThis could impact businesses using AI for pricing recommendations or decisions in Pennsylvania.\n\nOct. 27, 2026: Referred to Consumer Protection & Professional Licensure.\n\n🔗 Read the full bill: https://www.palegis.us/legislation/bills/2025/sb1507\n\n#AIDataCentersCrypto #Pennsylvania #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.palegis.us/legislation/bills/2025/sb1507",
+  "posted_url": "https://www.instagram.com/p/Dfiv3ZNltAr/"
+}
