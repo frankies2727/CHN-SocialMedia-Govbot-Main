@@ -1,0 +1,6500 @@
+A bill to amend 1994 PA 451, entitled
+"Natural resources and environmental protection act,"
+by amending sections 11502, 11503, 11504, 11506, 11509, 11512,
+11518, 11523, 11523a, 11523b, 11525, 11525a, 11525b, 11533, and
+11550 (MCL 324.11502, 324.11503, 324.11504, 324.11506, 324.11509,
+324.11512, 324.11518, 324.11523, 324.11523a, 324.11523b, 324.11525,
+324.11525a, 324.11525b, 324.11533, and 324.11550), sections 11502
+and 11503 as amended by 2022 PA 243, sections 11504 and 11506 as
+amended by 2022 PA 244, sections 11509, 11512, and 11518 as amended
+by 2022 PA 245, sections 11523, 11523a, 11523b, 11525, and 11525b
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+as amended by 2022 PA 246, section 11525a as amended by 2023 PA
+140, section 11533 as amended by 2022 PA 247, and section 11550 as
+amended by 2022 PA 248, and by adding subpart 12; and to repeal
+acts and parts of acts.
+THE PEOPLE OF THE STATE OF MICHIGAN ENACT:
+
+Sec. 11502. (1) "Agreement" means a written contract.
+
+(2) "Agronomic rate" means a rate that meets both of the
+
+following requirements:
+
+(a) Is generally recognized by the agricultural community or
+
+is calculated for a particular area of land to improve the physical
+
+nature of soil, such as structure, tilth, water retention, pH, or
+
+porosity, or to provide macronutrients or micronutrients in an
+
+amount not materially in excess of that needed by the crop, forest,
+
+or vegetation grown on the land.
+
+(b) Takes into account and minimizes runoff of beneficial use
+
+by-products to surface water or neighboring properties, the
+
+percolation of excess nutrients beyond the root zone, and the
+
+liberation of metals from the soil into groundwater.
+
+(3) "Anaerobic digester" means a facility that uses
+
+microorganisms to break down biodegradable material in the absence
+
+of oxygen, producing methane and an organic product.
+
+(4) "Animal bedding" means a mixture of manure and wood chips,
+
+sawdust, shredded paper or cardboard, hay, straw, or other similar
+
+fibrous materials normally used for bedding animals.
+
+(5) "Ashes" means the residue from the burning of wood, scrap
+
+wood, tires, biomass, wastewater sludge, fossil fuels including
+
+coal or coke, or other combustible materials.
+
+(6) "Benchmark recycling standards" means all of the following
+requirements:
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(a) By January 1, 2026, at least not less than 90% of single-
+
+family dwellings in urban areas as identified by the most recent
+
+federal decennial census and, by January 1, 2028, at least not less
+
+than 90% of single-family dwellings in municipalities with more
+
+than 5,000 residents have access to curbside recycling that meets
+
+all of the following criteria:
+
+(i) One or more recyclable materials, as determined by the
+
+county's material management plan, that are typically collected
+
+through curbside recycling programs, are collected at least twice
+
+per month.
+
+(ii) If recyclable materials are not collected separately, the
+
+mixed load is delivered to a solid waste processing and transfer
+
+facility and the recyclable materials are separated from material
+
+to be sent to a solid waste disposal area.
+
+(iii) Recyclable materials collected are delivered to a
+
+materials recovery facility that complies with part 115 or are
+
+managed appropriately at an out-of-state recycling facility.
+
+(iv) The curbside recycling is provided by the municipality or
+
+the resident has access to curbside recycling by the resident's
+
+chosen hauler.
+
+(b) By January 1, 2032, the following additional criteria:
+
+(i) In counties with a population of less than 100,000, there
+
+is at least 1 drop-off location for each 10,000 residents without
+
+access to curbside recycling at their the residents' dwelling, and
+
+the drop-off location is available at least not less than 24 hours
+
+per month.
+
+(ii) In counties with a population of 100,000 or more, there is
+
+at least 1 drop-off location for each 50,000 residents without
+
+access to curbside recycling at their the residents' dwelling, and
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+the drop-off location is available at least not less than 24 hours
+
+per month.
+
+(7) "Beneficial use 1" means use as aggregate, road material,
+
+or building material that in ultimate use is or will be bonded or
+
+encapsulated by cement, limes, or asphalt.
+
+(8) "Beneficial use 2" means use as any of the following:
+
+(a) Construction fill at nonresidential property that meets
+
+all of the following requirements:
+
+(i) Is placed at least not less than 4 feet above the seasonal
+groundwater table.
+
+(ii) Does not come into contact with a surface water body.
+
+(iii) Is covered by concrete, asphalt pavement, or other
+
+material approved by the department.
+
+(iv) Does not exceed 4 feet in thickness, except for areas
+
+where exceedances are incidental to variations in the existing
+
+topography. This subparagraph does not apply to construction fill
+
+placed underneath a building or other structure.
+
+(b) Road base or soil stabilizer that does not exceed 4 feet
+
+in thickness except for areas where exceedances are incidental to
+
+variations in existing topography, is placed at least not less than
+
+feet above the seasonal groundwater table, does not come into
+
+contact with a surface water body, and is covered by concrete,
+
+asphalt pavement, or other material approved by the department.
+
+(c) Road shoulder material that does not exceed 4 feet in
+
+thickness except for areas where exceedances are incidental to
+
+variations in existing topography, is placed at least not less than
+
+feet above the seasonal groundwater table, does not come into
+
+contact with a surface water body, is sloped, and is covered by
+
+asphalt pavement, concrete, 6 inches of gravel, or other material
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+approved by the department.
+
+(9) "Beneficial use 3" means applied to land as a fertilizer
+
+or soil conditioner under part 85 or a liming material under 1955
+
+PA 162, MCL 290.531 to 290.538, if all of the following
+
+requirements are met:
+
+(a) The material is applied at an agronomic rate consistent
+with GAAMPS.
+
+(b) The use, placement, or storage at the location of use does
+not do any of the following:
+
+(i) Violate part 55 or create a nuisance.
+
+(ii) Cause groundwater to no longer be fit for 1 or more
+
+protected uses as defined in R 323.2202 of the MAC.
+
+(iii) Cause a violation of a part 31 surface water quality
+standard.
+
+(10) "Beneficial use 4" means any of the following uses:
+
+(a) To stabilize, neutralize, solidify, or otherwise treat
+
+waste for ultimate disposal at a facility licensed under this part
+
+or part 111.
+
+(b) To treat wastewater, wastewater treatment sludge, or
+
+wastewater sludge in compliance with part 31 or the federal water
+
+pollution control act, 33 USC 1251 to 1388, 1389, at a private or
+
+publicly owned wastewater treatment plant.
+
+(c) To stabilize, neutralize, solidify, cap, or otherwise
+
+remediate hazardous substances or contaminants as part of a
+
+response activity in compliance with part 201, part 213, or the
+
+comprehensive environmental response, compensation and liability
+
+act of 1980, 42 USC 9601 to 9657, 9675, or a corrective action in
+
+compliance with part 111 or the solid waste disposal act, 42 USC
+
+to 6992k.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(d) As construction material at a landfill licensed under this
+part.
+
+(e) As alternate daily cover at a licensed landfill in
+
+compliance with an operational plan approved pursuant to in
+
+accordance with R 299.4429 of the MAC.
+
+(11) "Beneficial use 5" means blended with inert materials or
+with compost and used to manufacture soil.
+
+(12) "Beneficial use 6" means the use of coal combustion
+residuals that meets all of the following requirements:
+
+(a) Provides a functional benefit.
+
+(b) Is a substitute for the use of a virgin material,
+
+conserving natural resources that would need to be obtained through
+
+practices such as extraction.
+
+(c) Complies with relevant product specifications and
+
+regulatory standards or design standards, when available, and if
+
+relevant design standards are not available, the coal combustion
+
+residuals are not used in excessive quantities.
+
+(d) If the unencapsulated use involves 12,400 or more tons on
+
+the land in non-roadway applications, the user demonstrates and
+
+documents either of the following:
+
+(i) That environmental releases to groundwater, surface water,
+
+soil, and air are comparable to or lower than those from analogous
+
+products made without coal combustion residuals.
+
+(ii) That environmental releases to groundwater, surface water,
+
+soil, and air are at or below relevant regulatory and health-based
+
+benchmarks for human and ecological receptors during use.
+
+(13) (12) "Beneficial use by-product" means the following
+
+materials if the materials are stored for beneficial use or are
+
+used beneficially as specified and the requirements of section
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+11551(1) are met:
+
+(a) Coal bottom ash or wood ash used for beneficial use 3. or
+
+wood ash or coal ash, except for segregated flue gas
+
+desulfurization material, used for beneficial use 1, 2, or 4.
+
+(b) Coal bottom ash or wood ash, except for segregated flue
+
+gas desulfurization material, used for beneficial use 1, 2, or 4.
+
+(c) Coal fly ash used for beneficial use 2 at a nonresidential
+
+property, if the coal fly ash is any of the following:
+
+(i) Class C fly ash under ASTM C618-12A, "Standard
+
+Specification for Coal Fly Ash and Raw or Calcined Natural Pozzolan
+
+for Use in Concrete" by ASTM International.
+
+(ii) Class F fly ash under ASTM C618-12A, "Standard
+
+Specification for Coal Fly Ash and Raw or Calcined Natural Pozzolan
+
+for Use in Concrete" by ASTM International, if the class F fly ash
+
+forms a pozzolanic-stabilized mixture by being blended with lime,
+
+Portland cement, or cement kiln dust.
+
+(iii) A combination of class C fly ash and class F fly ash under
+
+ASTM C618-12A, "Standard Specification for Coal Fly Ash and Raw or
+
+Calcined Natural Pozzolan for Use in Concrete" by ASTM
+
+International, if that combination forms a pozzolanic-stabilized
+
+mixture by being blended with lime, Portland cement, or cement kiln
+
+dust and is used as a road base, soil stabilizer, or road shoulder
+
+material under beneficial use 2.
+
+(d) (b) Pulp and paper mill ash used for beneficial use 1, 2,
+3, or 4.
+
+(e) (c) Mixed wood ash used for beneficial use 1, 2, 3, or 4.
+
+(f) (d) Cement kiln dust used as a flue gas scrubbing reagent
+
+or for beneficial use 1, 2, 3, or 4.
+
+(g) (e) Lime kiln dust used as a flue gas scrubbing reagent or
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+for beneficial use 1, 2, 3, or 4.
+
+(h) (f) Stamp sands used for beneficial use 1 or 2.
+
+(i) (g) Foundry sand from ferrous or aluminum foundries used
+
+for beneficial use 1, 2, 3, 4, or 5.
+
+(j) (h) Pulp and paper mill material, other than the
+following, used for beneficial use 3:
+
+(i) Rejects, from screens, cleaners, and mills dispersion
+
+equipment, containing more than de minimis amounts of plastic.
+
+(ii) Scrap paper.
+
+(k) (i) Spent media from sandblasting, with uncontaminated
+
+sand, newly manufactured, unpainted steel used for beneficial use 1
+
+or 2.
+
+(l) (j) Dewatered concrete grinding slurry from public
+
+transportation agency road projects used for beneficial use 1, 2,
+
+3, or 4.
+
+(m) (k) Lime softening residuals from the treatment and
+
+conditioning of water for domestic use or from a community water
+
+supply used for beneficial use 3 or 4.
+
+(n) (l) Soil washed or otherwise removed from sugar beets that
+is used for beneficial use 3.
+
+(o) (m) Segregated flue gas desulfurization material used for
+beneficial use 1 or 3.
+
+(p) (n) Materials and uses approved by the department under
+
+section 11553(3) or (4). Approval of materials and uses by the
+
+department under section 11553(3) or (4) does not require the use
+
+of those materials by any governmental entity or any other person.
+
+(14) (13) "Beverage container" means an airtight metal, glass,
+
+paper, or plastic container, or a container composed of a
+
+combination of these materials, which, at the time of sale,
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+contains 1 gallon or less of any of the following:
+
+(a) A soft drink, soda water, carbonated natural or mineral
+water, or other nonalcoholic carbonated drink.
+
+(b) A beer, ale, or other malt drink of whatever alcoholic
+content.
+
+(c) A mixed wine drink or a mixed spirit drink.
+
+(15) (14) "Biosolids" means a solid, semisolid, or liquid that
+
+has been treated to meet the requirements of R 323.2414 of the MAC.
+
+Biosolids include, but are not limited to, scum or solids removed
+
+in a primary, secondary, or advanced wastewater treatment process
+
+and a derivative of the removed scum or solids.
+
+(16) (15) "Bond" means a financial instrument guaranteeing
+
+performance, including a surety bond from a surety company
+
+authorized to transact business in this state, a certificate of
+
+deposit, a cash bond, an irrevocable letter of credit, an insurance
+
+policy, a trust fund, an escrow account, or a combination of any of
+
+these instruments in favor of the department.
+
+(17) (16) "Captive facility" means a landfill or coal ash
+
+combustion residuals impoundment that accepts for disposal, and
+
+accepted for disposal during the previous calendar year, only
+
+nonhazardous industrial waste generated only by the owner of the
+
+landfill or coal ash combustion residuals impoundment.
+
+(18) (17) "Captive type III landfill" means a type III
+landfill that meets either of the following requirements:
+
+(a) Accepts for disposal only nonhazardous industrial waste
+generated only by the owner of the landfill.
+
+(b) Is a nonhazardous industrial waste landfill described in
+section 11525(4)(a), (b), or (c).
+
+(19) (18) "Cement kiln dust" means particulate matter
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+collected in air emission control devices serving Portland cement
+
+kilns.
+
+(20) (19) "Certificate of deposit" means a certificate of
+deposit that meets all of the following requirements:
+
+(a) Is negotiable.
+
+(b) Is held by a bank or other financial institution regulated
+
+and examined by a state or federal agency.
+
+(c) Is fully insured by an agency of the United States
+government.
+
+(d) Is in the sole name of the department.
+
+(e) Has a maturity date of not less than 1 year.
+
+(f) Is renewed not later than 60 days before the maturity
+
+date.
+
+(21) (20) "Certified health department" means a city, county,
+or district department of health certified under section 11507a.
+
+(22) (21) "Chemical recycling" means a manufacturing process
+
+for the conversion of source separated post-use polymers into basic
+
+raw materials, feedstocks, chemicals, and other products through
+
+processes that include pyrolysis (catalytic and noncatalytic),
+
+gasification, depolymerization, hydrogenation, solvolysis, and
+
+other similar chemical technologies. The recycled products produced
+
+include, but are not limited to, monomers, oligomers, plastics,
+
+plastic and chemical feedstocks, basic and unfinished chemicals,
+
+waxes, lubricants, coatings, and adhesives. For the purposes of
+
+part 115, chemical recycling does not include incineration of
+
+plastics, waste-to-energy processes, or activities performed at a
+
+facility excluded from the definition of materials management
+
+facility by section 11504(25). Products sold as fuel are not
+
+recycled products. For purposes of part 115, chemical recycling is
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+not solid waste management, solid waste processing, waste
+
+diversion, resource recovery, municipal solid waste incineration or
+
+combustion, the conversion of waste to energy, or identification,
+
+separation, or sorting of recyclable materials through mechanical
+
+processes.
+
+(23) (22) "Chemical recycling facility" means a manufacturing
+
+facility that receives, stores, and, using chemical recycling,
+
+converts post-use polymers. A chemical recycling facility is a
+
+manufacturing facility subject to applicable requirements of this
+
+act and rules promulgated under this act concerning air, water,
+
+waste, and land use or any other applicable regulation. A chemical
+
+recycling facility is not a solid waste processing plant, solid
+
+waste transfer facility, waste diversion center, resource recovery
+
+facility, or municipal solid waste incinerator.
+
+(24) (23) "Class 1 compostable material" means any of the
+following:
+
+(a) Yard waste.
+
+(b) Wood.
+
+(c) Food waste.
+
+(d) Paper products.
+
+(e) Manure or animal bedding.
+
+(f) Anaerobic digester digestate that does not contain free
+
+liquids.
+
+(g) Compostable products.
+
+(h) Dead animals unless infectious or managed under 1982 PA
+
+239, MCL 287.651 to 287.683.
+
+(i) Spent grain from breweries.
+
+(j) Paunch.
+
+(k) Food processing residuals.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(l) Aquatic plants.
+
+(m) Any other material, including, but not limited to, fat,
+
+oil, or grease, that the department classifies as class 1
+
+compostable material under section 11562 or that is approved as
+
+part of a large composting facility operations plan.
+
+(n) A mixture of any of these materials.
+
+(25) (24) "Class 1 composting facility" means a composting
+
+facility where only class 1 compostable material is composted.
+
+(26) (25) "Class 2 compostable material" means mixed municipal
+
+solid waste, biosolids, state or federal controlled substances, and
+
+all other compostable material that is not listed or approved as a
+
+class 1 compostable material.
+
+(27) (26) "Class 2 composting facility" means a composting
+
+facility where class 2 compostable material or a combination of
+
+class 2 compostable material and class 1 compostable material is
+
+composted.
+
+(27) "Coal ash", subject to subsection (28), means any of the
+following:
+
+(a) Material recovered from systems for the control of air
+
+pollution from, or the noncombusted residue remaining after, the
+
+combustion of coal or coal coke, including, but not limited to,
+
+coal bottom ash, fly ash, boiler slag, flue gas desulfurization
+
+materials, or fluidized-bed combustion ash.
+
+(b) Residuals removed from coal ash impoundments.
+
+(28) For beneficial use 2, coal ash does not include coal fly
+
+ash except for the following if used at nonresidential property:
+
+(a) Class C fly ash under ASTM C618-12A, "Standard
+
+Specification for Coal Fly Ash and Raw or Calcined Natural Pozzolan
+
+for Use in Concrete", by ASTM International.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(b) Class F fly ash under ASTM C618-12A, if that fly ash forms
+
+a pozzolanic-stabilized mixture by being blended with lime,
+
+Portland cement, or cement kiln dust.
+
+(c) A combination of class C fly ash and class F fly ash under
+
+ASTM C618-12A if that combination forms a pozzolanic-stabilized
+
+mixture by being blended with lime, Portland cement, or cement kiln
+
+dust and is used as a road base, soil stabilizer, or road shoulder
+
+material under beneficial use 2.
+
+(29) "Coal ash impoundment" means a natural topographic
+
+depression, man-made excavation, or diked area that is designed to
+
+hold and, after October 14, 2015, accepted an accumulation of coal
+
+ash and liquids or other materials approved by the department for
+
+treatment, storage, or disposal and did not receive department
+
+approval of its closure. A coal ash impoundment in existence before
+
+October 14, 2015 that receives waste after December 28, 2018, and
+
+that does not have a permit pursuant to part 31, is considered an
+
+open dump beginning December 28, 2020 unless the owner or operator
+
+has completed closure of the coal ash impoundment under section
+
+11519b or obtained an operating license for the coal ash
+
+impoundment. Coal ash impoundment includes an existing coal ash
+
+impoundment.
+
+(30) "Coal ash landfill" means a landfill that is used for the
+
+disposal of coal ash and may also be used for the disposal of inert
+
+materials and construction material used for purposes of meeting
+
+the definition of beneficial use 4, or other materials approved by
+
+the department.
+
+(28) "Coal ash" means fly ash, bottom ash, boiler slag, flue
+
+gas desulfurization materials, and other residual materials
+
+generated from the combustion of coal that are not coal combustion
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+residuals.
+
+(29) (31) "Coal bottom ash" means ash particles from the
+
+combustion of coal that are too large to be carried in flue gases
+
+and that collect on furnace walls or at the bottom of the furnace.
+
+(30) "Coal combustion residuals" means fly ash, bottom ash,
+
+boiler slag, and flue gas desulfurization materials generated from
+
+burning coal for the purpose of generating electricity by electric
+
+utilities and independent power producers.
+
+(31) "Coal combustion residuals impoundment" means a natural
+
+topographic depression, man-made excavation, or diked area,
+
+designed to hold an accumulation of coal combustion residuals and
+
+liquids, and the unit treats, stores, or disposes of coal
+
+combustion residuals.
+
+(32) "Coal combustion residuals landfill" means an area of
+
+land or an excavation that contains coal combustion residuals and
+
+is not a coal combustion residuals impoundment, an underground
+
+injection well, a salt dome formation, a salt bed formation, an
+
+underground or surface coal mine, or a cave. A coal combustion
+
+residuals landfill includes, but is not limited to, sand and gravel
+
+pits and quarries that receive coal combustion residuals, coal
+
+combustion residuals piles, and any practice that does not meet the
+
+definition of a beneficial use of coal combustion residuals.
+
+(33) "Coal combustion residuals management unit" means an area
+
+of land where any noncontainerized accumulation of coal combustion
+
+residuals is received, placed, or otherwise managed, that is not a
+
+regulated coal combustion residuals unit. This includes, but is not
+
+limited to, inactive coal combustion residuals landfills and coal
+
+combustion residuals units that closed before October 19, 2015. It
+
+does not include roadbeds and associated embankments in which coal
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+combustion residuals are used unless the facility or the department
+
+determines that the roadbed is causing or contributing to a
+
+statistically significant level above applicable groundwater
+
+protection standards.
+
+(34) "Coal combustion residuals pile" means any
+
+noncontainerized accumulation of solid, nonflowing coal combustion
+
+residuals that is placed on the land. A coal combustion residuals
+
+pile does not include coal combustion residuals that are
+
+beneficially used off-site.
+
+(35) (32) "Collection center" means a tract of land, building,
+
+unit, or appurtenance or combination thereof that is used to
+
+collect junk motor vehicles and farm implements under section
+
+11530.
+
+(36) (33) "Commercial waste", subject to subsection (34),
+
+(37), means solid waste generated by nonmanufacturing activities,
+
+including, but not limited to, solid waste from any of the
+
+following:
+
+(a) Stores.
+
+(b) Offices.
+
+(c) Restaurants.
+
+(d) Warehouses.
+
+(e) Multifamily dwellings.
+
+(f) Hotels and motels.
+
+(g) Bunkhouses.
+
+(h) Ranger stations.
+
+(i) Crew quarters.
+
+(j) Campgrounds.
+
+(k) Picnic grounds.
+
+(l) Day use recreation areas.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(m) Hospitals.
+
+(n) Schools.
+
+(37) (34) Commercial waste does not include household waste,
+
+hazardous waste, or industrial waste.
+
+(38) (35) "Compost additive" means any of the following
+
+materials if added to finished compost to improve the quality of
+
+the finished compost:
+
+(a) Products designed to enhance finished compost.
+
+(b) Sugar beet limes.
+
+(c) Wood ash.
+
+(d) Drywall.
+
+(e) Synthetic gypsum.
+
+(f) Other materials approved by the department.
+
+(39) (36) "Compostable material" means organic material that
+
+can be converted to finished compost. Compostable material
+
+comprises class 1 compostable material and class 2 compostable
+
+material.
+
+(40) (37) "Compostable products" means utensils, food service
+
+containers, and other packaging and products that are certified by
+
+the Biodegradable Products Institute or an equivalent, recognized,
+
+third-party, independent verification body, as meeting either of
+
+the following requirements:
+
+(a) ASTM D6400, "Standard Specification for Labeling of
+
+Plastics Designed to Be Aerobically Composted in Municipal or
+
+Industrial Facilities", by ASTM International.
+
+(b) ASTM D6868, "Standard Specification for Labeling of End
+
+Items that Incorporate Plastics and Polymers as Coatings or
+
+Additives with Paper and Other Substrates Designed to Be
+
+Aerobically Composted in Municipal or Industrial Facilities", by
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+ASTM International.
+
+(41) (38) "Composting" means a process of biological
+
+decomposition of class 1 compostable material or class 2
+
+compostable material that meets the following requirements:
+
+(a) Is carried out as provided in either of the following:
+
+(i) In a system using vermiculture.
+
+(ii) Under controlled aerobic conditions using mechanical
+
+handling techniques such as physical turning, windrowing, or
+
+aeration or using other management techniques approved by the
+
+department. For the purposes of this subparagraph, aerobic
+
+conditions may include the presence of insignificant anaerobic
+
+zones within the composting material.
+
+(b) Stabilizes the organic fraction into a material that can
+
+be stored, handled, and used easily, safely, and in an
+
+environmentally acceptable manner.
+
+(42) (39) "Composting facility" means a facility where
+
+composting occurs. However, composting facility does not include a
+
+site where only composting described in section 11555(1)(a), (b),
+
+or (e) occurs.
+
+(43) (40) "Consistency review" means evaluation of the
+
+administrative and technical components of an application for a
+
+permit or license or evaluation of operating conditions in the
+
+course of inspection, for the purpose of determining consistency
+
+with the requirements of part 115 and approved plans and
+
+specifications.
+
+(44) (41) "Corrective action" means the investigation,
+
+assessment, cleanup, removal, containment, isolation, treatment, or
+
+monitoring of constituents, as defined in a materials management
+
+facility's approved hydrogeological monitoring plan, released into
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+the environment from a materials management facility, or the taking
+
+of other actions related to the release as may be necessary to
+
+prevent, minimize, or mitigate injury to the public health, safety,
+
+or welfare, the environment, or natural resources that is
+
+consistent with the regulations promulgated under subtitle D of the
+
+solid waste disposal act, 42 USC 6941 to 6949a. , and regulations
+
+promulgated thereunder.
+
+(45) (42) "County approval agency" or "CAA" means the county
+
+board of commissioners, the municipalities in the county, or the
+
+regional planning agency, whichever submits a notice of intent to
+
+prepare a materials management plan under section 11571.
+
+(46) (43) "County board of commissioners" means the county
+
+board of commissioners or the elected county executive, as
+
+appropriate.
+
+(47) (44) "Custodial care" includes all of the following:
+
+(a) Preventing deep-rooted vegetation from establishing on the
+
+final cover.
+
+(b) Repairing erosion damage on the final cover.
+
+(c) Maintaining stormwater controls.
+
+(d) Maintaining limited access to the site.
+
+Sec. 11503. (1) "De minimis" refers to a small amount of
+
+material or number of items, as applicable, incidentally commingled
+
+with inert material for beneficial use by-products or with source
+
+separated material or incidentally disposed of with other solid
+
+waste.
+
+(2) "Department", subject to section 11554, means the
+department of environment, Great Lakes, and energy.
+
+(3) "Depolymerization" means a manufacturing process in which
+post-use polymers are broken into smaller molecules such as
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+monomers and oligomers or raw, intermediate, or final products,
+
+plastic and chemical feedstocks, basic and unfinished chemicals,
+
+waxes, lubricants, or coatings.
+
+(4) "Designated planning agency" or "DPA" means the planning
+
+agency designated under section 11571(10). Designated planning
+
+agency does not mean a regional planning agency unless the county
+
+approval agency identifies the regional planning agency as the DPA.
+
+(5) "Director" means the director of the department.
+
+(6) "Discharge" includes, but is not limited to, spilling,
+
+leaking, pumping, pouring, emitting, emptying, discharging,
+
+injecting, escaping, leaching, dumping, or disposing of a substance
+
+into the environment that is or may become injurious to the
+
+environment, natural resources, or the public health, safety, or
+
+welfare.
+
+(7) "Disposal area", subject to section 11555(6), means 1 or
+
+more of the following that accepts solid waste at a location as
+
+defined by the boundary identified in its construction permit, in
+
+engineering plans approved by the department, or in a notification
+
+or registration:
+
+(a) A solid waste processing and transfer facility.
+
+(b) A municipal solid waste incinerator.
+
+(c) A landfill.
+
+(d) A coal ash combustion residuals impoundment.
+
+(e) A coal combustion residuals landfill.
+
+(f) (e) Any other solid waste handling or disposal facility
+
+utilized in the disposal of solid waste, as determined by the
+
+department.
+
+(8) "Diverted waste" means waste that meets all of the
+following requirements:
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(a) Is generated by households, businesses, or governmental
+entities.
+
+(b) Can lawfully be disposed of at a licensed landfill or
+municipal solid waste incinerator.
+
+(c) Is separated from other waste.
+
+(d) Is 1 or more of the following:
+
+(i) Hazardous material.
+
+(ii) Liquid waste.
+
+(iii) Pharmaceuticals.
+
+(iv) Electronics.
+
+(v) Batteries.
+
+(vi) Light bulbs.
+
+(vii) Pesticides.
+
+(viii) Thermostats, switches, thermometers, or other devices
+
+that contain elemental mercury.
+
+(ix) Sharps.
+
+(x) Other waste approved by the department that can be readily
+
+separated from solid waste for diversion to preferred methods of
+
+management and disposal.
+
+(9) "Enforceable mechanism" means a legal method that
+
+authorizes this state, a county, a municipality, or another person
+
+to take action to guarantee compliance with a materials management
+
+plan. Enforceable mechanisms include agreements, laws, ordinances,
+
+rules, and regulations.
+
+(10) "EPA" means the United States Environmental Protection
+Agency.
+
+(11) "Escrow account" means an account that is managed by a
+
+bank or other financial institution whose account operations are
+
+regulated and examined by a federal or state agency and that
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+complies with section 11523b.
+
+(12) "Existing coal ash combustion residuals impoundment"
+
+means a coal ash combustion residuals impoundment that received
+
+coal ash combustion residuals before December 28, 2018, and that,
+
+as of that date, had not initiated elements of closure that include
+
+dewatering, stabilizing residuals, or placement of an engineered
+
+cover or otherwise closed pursuant to in accordance with its part
+
+permit or pursuant to in accordance with R 299.4309 of the MAC
+
+and , therefore, is capable of receiving coal ash combustion
+
+residuals in the future. A coal ash impoundment that has initiated
+
+closure is considered an open dump unless the owner or operator has
+
+completed closure of the coal ash impoundment under section 11519b
+
+or obtained an operating license for the coal ash impoundment by
+
+December 28, 2020.
+
+(13) "Existing coal ash landfill" means a coal ash landfill to
+which either of the following applies:
+
+(a) The landfill received coal ash both before and after
+October 19, 2015.
+
+(b) Construction of the landfill commenced before October 19,
+
+2015, and the landfill received coal ash on or after October 19,
+
+2015. For the purposes of this subdivision, construction of a
+
+landfill commenced before October 19, 2015 if both of the following
+
+requirements were met before that date:
+
+(i) The owner or operator obtained the federal, state, and
+
+local approvals or permits necessary to begin physical
+
+construction.
+
+(ii) A continuous, on-site physical construction program began.
+
+(13) (14) "Existing disposal area" means any of the following:
+
+(a) A disposal area that has in effect a construction permit
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+under this part.
+
+(b) A disposal area that had engineering plans approved by the
+director before January 11, 1979.
+
+(c) An industrial waste landfill that was authorized to
+
+operate by the director or by court order before October 9, 1993.
+
+(d) An industrial waste pile that was located at the site of
+
+generation on October 9, 1993.
+
+(e) An existing coal ash combustion residuals impoundment.
+
+(14) (15) "Existing landfill unit" or "existing unit" means
+
+any landfill unit that received solid waste on or before October 9,
+
+1993.
+
+(15) (16) "Farm" means that term as defined in section 2 of
+the Michigan right to farm act, 1981 PA 93, MCL 286.472.
+
+(16) (17) "Farm operation" means that term as defined in
+
+section 2 of the Michigan right to farm act, 1981 PA 93, MCL
+
+286.472.
+
+(17) (18) "Fats, oils, or greases" means organic polar
+compounds that meet all of the following requirements:
+
+(a) Contain multiple carbon chain triglyceride molecules.
+
+(b) Are derived from animal or plant sources.
+
+(c) Are generated at food manufacturing and food service
+
+establishments.
+
+(d) Are generated by-products from food preparation
+activities.
+
+(18) (19) "Financial assurance" means the mechanisms used to
+
+demonstrate that the funds necessary to meet the cost of closure,
+
+postclosure maintenance and monitoring, and corrective action will
+
+be available to the department whenever they the funds are needed
+
+for those purposes.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(19) (20) "Financial test" means a corporate or local
+
+government financial test or guarantee approved under subtitle D of
+
+the solid waste disposal act, 42 USC 6941 to 6949a and regulations
+
+promulgated thereunder. under subtitle D of the solid waste
+
+disposal act, 42 USC 6941 to 6949a. An owner or operator may use a
+
+single financial test for more than 1 facility. Information
+
+submitted to the department to document compliance with the
+
+financial test shall must include a list showing the name and
+
+address of each facility and the amount of funds assured by the
+
+financial test for each facility. For purposes of the financial
+
+test, the owner or operator shall aggregate the sum of the closure,
+
+postclosure, and corrective action costs it seeks to assure with
+
+any other environmental obligations assured by a financial test
+
+under state or federal law.
+
+(20) (21) "Finished compost" means organic matter that meets
+all of the following requirements:
+
+(a) Has undergone biological decomposition and has been
+
+stabilized to a degree that is beneficial to plant growth without
+
+creating a nuisance.
+
+(b) Is used or sold for use as a soil amendment, fertilizer,
+topsoil blend, growing medium amendment, or other similar use.
+
+(c) With any compost additives, does not contain more than 1%,
+
+by weight, of foreign matter that will remain on a 4-millimeter
+
+screen or more than a de minimis amount of viable weed seeds.
+
+(21) (22) "Flue gas desulfurization material" means the
+
+material recovered from air pollution control systems that capture
+
+sulfur dioxide from the combustion of wood, coal, or fossil fuels,
+
+or other combustible materials, if the other combustible materials
+
+constitute less than 50% by weight of the total material combusted
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+and the department determines in writing that the other combustible
+
+materials do not materially affect the character of the residue.
+
+Flue gas desulfurization material includes, but is not limited to,
+
+synthetic gypsum.
+
+(22) (23) "Food processing residuals" means any of the
+following:
+
+(a) Residuals of fruits, vegetables, aquatic plants, or field
+
+crops, including such the residuals generated by a brewery or
+
+distillery.
+
+(b) Otherwise unusable parts of fruits, vegetables, aquatic
+
+plants, or field crops from the processing thereof.of the fruits,
+
+vegetables, aquatic plants, or field crops.
+
+(c) Otherwise unusable food products that do not meet size,
+
+quality, or other product specifications and that were intended for
+
+human or animal consumption.
+
+(23) (24) "Food waste" means an accumulation of animal or
+
+vegetable matter that was used or intended for human or animal food
+
+or that results from the preparation, use, cooking, dealing in, or
+
+storing of animal or vegetable matter for human or animal food if
+
+the accumulation is or is intended to be discarded. Food waste does
+
+not include fats, oils, or greases.
+
+(24) (25) "Foreign matter" means organic and inorganic
+
+constituents, other than sticks and stones, that will not readily
+
+decompose during composting and do not aid in producing compost,
+
+including glass, textiles, rubber, metal, ceramics, noncompostable
+
+plastic, and painted, laminated, or treated wood.
+
+(25) (26) "Foundry sand" means silica sand used in the metal
+
+casting process, including binding material or carbonaceous
+
+additives, from ferrous or nonferrous foundries.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(26) (27) "Functional stability" means the stage at which a
+
+landfill does not pose a significant risk to the environment,
+
+natural resources, or the public health, safety, or welfare at a
+
+point of exposure, in the absence of active control systems.
+
+(27) (28) "GAAMPS" means generally accepted agricultural and
+
+management practices under as that term is defined in section 2 of
+
+the Michigan right to farm act, 1981 PA 93, MCL 286.471 to
+
+286.474.286.472.
+
+(28) (29) "Gasification" means a manufacturing process in
+
+which post-use polymers are heated in an oxygen-controlled
+
+atmosphere and converted to syngas (carbon monoxide (CO) and
+
+hydrogen (H2)) and the syngas is converted into valuable raw
+
+materials or intermediate or final products, including, but not
+
+limited to, plastic monomers, chemicals, waxes, lubricants,
+
+coatings, and plastic and chemical feedstocks.
+
+(29) (30) "General permit" means a permit that does both of
+the following:
+
+(a) Covers a category of activities that the department
+
+determines will not negatively impact public health, safety, or
+
+welfare and will not have more than minimal short-term adverse
+
+impacts on the environment or natural resources.
+
+(b) Includes requirements for a site plan, an operations plan,
+a facility final closure plan, and financial assurance.
+
+(30) (31) "General use compost" means finished compost that is
+produced from 1 of the following:
+
+(a) Class 1 compostable material.
+
+(b) Class 2 compostable material, including any combination of
+
+class 1 compostable material and class 2 compostable material, that
+
+meets the requirements listed in section 11553(5).
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+Sec. 11504. (1) "Hauler" means a person who that owns or
+operates a managed materials transporting unit.
+
+(2) "Host community approval" means an agreement, resolution,
+
+letter, or other document indicating that the governing body of the
+
+municipality where the materials management facility is proposed to
+
+be located has reviewed and approved the development of that
+
+specific facility.
+
+(3) "Household waste" means solid waste that is generated from
+
+single-family dwellings. Household waste does not include
+
+commercial waste, industrial waste, hazardous waste, or
+
+construction and demolition waste.
+
+(4) "Hydrogenation" means the chemical reaction between
+
+molecular hydrogen and an element or compound, ordinarily in the
+
+presence of a catalyst.
+
+(5) "Industrial waste" means solid waste that is generated by
+
+manufacturing or industrial processes at an industrial site and
+
+that is not a hazardous waste regulated under part 111.
+
+(6) "Industrial waste landfill" means a landfill that is used
+for the disposal of any of the following, as applicable:
+
+(a) Industrial waste that has been characterized for hazard
+and that has been determined to be nonhazardous under part 111.
+
+(b) If the landfill is an existing disposal area, nonhazardous
+solid waste that originates from an industrial site.
+
+(7) "Inert material" means any of the following:
+
+(a) Rock.
+
+(b) Trees, stumps, and other similar land-clearing debris, if
+
+all of the following conditions are met:
+
+(i) The debris is buried on the site of origin or another site,
+with the approval of the owner of the site.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(ii) The debris is not buried in a wetland or floodplain.
+
+(iii) The debris is placed at least not less than 3 feet above
+
+the groundwater table as observed at the time of placement.
+
+(iv) The placement of the debris does not violate federal,
+state, or local law or create a nuisance.
+
+(c) Uncontaminated excavated soil or dredged sediment.
+
+Excavated soil or dredged sediment is considered uncontaminated if
+
+it does not contain more than de minimis amounts of solid waste and
+
+any of the following apply:
+
+(i) The soil or sediment is not contaminated by a hazardous
+
+substance as a result of human activity. Soil or sediment that
+
+naturally contains elevated levels of hazardous substances above
+
+unrestricted residential or any other part 201 generic soil cleanup
+
+criteria is not considered contaminated for purposes of this
+
+subdivision. A soil or sediment analysis is not required under this
+
+subparagraph if, based on past land use, there is no reason to
+
+believe that the soil or sediment is contaminated.
+
+(ii) For any hazardous substance that could reasonably be
+
+expected to be present as a result of past land use and human
+
+activity, the soil or sediment does not exceed the background
+
+concentration, as that term is defined in section 20101.
+
+(iii) For any hazardous substance that could reasonably be
+
+expected to be present as a result of past land use and human
+
+activity, the soil or sediment falls below part 201 generic
+
+residential soil direct contact cleanup criteria and hazardous
+
+substances in leachate from the soil or sediment, using, at the
+
+option of the generator, EPA method 1311, "Toxicity Characteristic
+
+Leaching Procedure", EPA method 1312, "Synthetic Precipitation
+
+Leaching Procedure", or any other leaching protocol approved by the
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+department, fall falls below part 201 generic residential health
+
+based groundwater drinking water values or criteria, and the soil
+
+or sediment would not cause a violation of any surface water
+
+quality standard established under part 31 at the area of
+
+placement, disposal, or use.
+
+(d) Excavated soil from a site of environmental contamination,
+
+corrective action, or response activity if the soil is not a listed
+
+hazardous waste under part 111 and if hazardous substances in the
+
+soil do not exceed generic soil cleanup criteria for unrestricted
+
+residential use as that term is defined in section 20101 or
+
+background concentration as that term is defined in section 20101,
+
+as applicable.
+
+(e) Construction brick, masonry, pavement, or broken concrete
+
+that is reused for fill, rip rap, slope stabilization, or other
+
+construction, if all of the following conditions are met:
+
+(i) The use of the material does not violate section 3108, part
+301, or part 303.
+
+(ii) The material is not materially contaminated. Typical
+
+surface oil staining on pavement or concrete from driveways,
+
+roadways, or parking lots is not material contamination. Material
+
+covered in whole or in part with paint that contains more than 0.5%
+
+lead is materially contaminated.
+
+(iii) The material does not include exposed reinforcing bars.
+
+(f) Portland cement clinker produced by a cement kiln using
+
+wood, fossil fuels, or solid waste as a fuel or feedstock, but not
+
+including cement kiln dust generated in the process.
+
+(g) Asphalt pavement or concrete pavement that meets all of
+the following requirements:
+
+(i) Has been removed from a public right-of-way.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(ii) Has been stockpiled or crushed for reuse as aggregate
+material.
+
+(iii) Does not include exposed reinforcement bars.
+
+(h) Cuttings, drilling materials, and fluids used to drill or
+
+complete a well installed pursuant to in accordance with part 127
+
+of the public health code, 1978 PA 368, MCL 333.12701 to 333.12771,
+
+if the location of the well is not a facility under part 201.
+
+(i) Any material determined by the department under section
+
+11553(5) or (6) to be an inert material, either for general use or
+
+for a particular use.
+
+(8) "Innovative technology facility" means a materials
+
+management facility that converts solid waste into energy or a
+
+usable product and that is not a materials recovery facility, a
+
+composting facility, or an anaerobic digester.
+
+(9) "Insurance" means insurance that conforms to the
+
+requirements of 40 CFR 258.74(d) and is provided by an insurer that
+
+has a certificate of authority from the director of insurance and
+
+financial services to sell this line of coverage. An applicant for
+
+an operating license or general permit shall submit evidence of the
+
+required coverage by submitting both of the following to the
+
+department:
+
+(a) A certificate of insurance that uses wording approved by
+the department.
+
+(b) A certified true and complete copy of the insurance
+policy.
+
+(10) "Landfill" means a type II landfill or type III landfill.
+
+(11) "Landfill care fund" means a landfill care fund required
+
+by section 11525d(2).
+
+(12) "Landfill care fund bond" means a surety bond, an
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+irrevocable letter of credit, or a combination of these instruments
+
+in favor of the department used to establish a landfill care fund.
+
+(13) "Landfill unit" means any type II or type III landfill,
+
+or lateral expansion of the landfill, or a combination of more than
+
+of these landfills, including both new and existing units.
+
+(14) (13) "Large", in reference to a composting facility,
+means a composting facility to which both of the following apply:
+
+(a) The site at any time contains more than 500 cubic yards of
+compostable material.
+
+(b) The site does not qualify as a small or medium composting
+facility.
+
+(15) (14) "Lateral expansion" means a horizontal expansion of
+the solid waste boundary of any of the following:
+
+(a) A landfill, other than a coal ash combustion residuals
+
+landfill, if the expansion is beyond the limit established in a
+
+construction permit or engineering plans approved by the department
+
+or a certified health department before January 11, 1979.
+
+(b) A coal ash combustion residuals landfill, if either of the
+following applies:
+
+(i) The expansion is beyond the limit established in a
+construction permit issued after December 28, 2018.
+
+(ii) The expansion is made after October 19, 2015, and is a
+
+horizontal expansion of the outermost boundary, as defined by a
+
+construction certification or operating license, of an existing
+
+coal ash combustion residuals landfill.
+
+(c) A coal ash combustion residuals impoundment, if the
+
+expansion is beyond the limit established in a construction permit
+
+or the horizontal limits of coal ash combustion residuals in place
+
+on or before October 14, 19, 2015.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(16) "Legacy coal combustion residuals impoundment" means a
+
+coal combustion residuals impoundment that no longer receives coal
+
+combustion residuals but contained both coal combustion residuals
+
+and liquids on or after October 19, 2015, and that is located at an
+
+inactive electric utility or independent power producer.
+
+(17) (15) "Letter of credit" means an irrevocable letter of
+credit that complies with 40 CFR 258.74(c).
+
+(18) (16) "License" means an operating license.
+
+(19) (17) "Lime kiln dust" means particulate matter collected
+
+in air emission control devices serving lime kilns.
+
+(20) (18) "Local health officer" means a local health officer
+
+that term as defined in section 1105 of the public health code,
+
+PA 368, MCL 333.1105, to which the department delegates
+
+certain duties under part 115.
+
+(21) (19) "Low-hazard industrial waste" means industrial
+
+material that has a low potential for groundwater contamination
+
+when managed in compliance with part 115. All of the following
+
+materials are low-hazard industrial wastes:
+
+(a) Coal ash and wood ash.
+
+(b) Cement kiln dust.
+
+(c) Pulp and paper mill material.
+
+(d) Scrap wood.
+
+(e) Sludge from the treatment and conditioning of water for
+
+domestic use.
+
+(f) Residue from the thermal treatment of petroleum
+contaminated soil, media, or debris.
+
+(g) Sludge from the treatment and conditioning of water from a
+
+community water supply.
+
+(h) Foundry sand.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(i) Mixed wood ash, scrap wood ash, and pulp and paper mill
+ash.
+
+(j) Street cleanings.
+
+(k) Asphalt shingles.
+
+(l) New construction or production scrap drywall.
+
+(m) Chipped or shredded tires.
+
+(n) Copper slag.
+
+(o) Copper stamp sands.
+
+(p) Dredge material from nonremedial activities.
+
+(q) Flue gas desulfurization material.
+
+(r) Dewatered grinding slurry generated from public
+
+transportation agency road projects.
+
+(s) Any material determined by the department under section
+11553(7) to be a low-hazard industrial waste.
+
+(20) "Low-hazard-potential coal ash impoundment" means a coal
+
+ash impoundment that is a diked surface impoundment, the failure or
+
+mis-operation of which is expected to result in no loss of human
+
+life and low economic or environmental losses principally limited
+
+to the impoundment owner's property.
+
+(22) (21) "MAC" means the Michigan Administrative Code.
+
+(23) (22) "Managed material" means solid waste, diverted
+
+waste, or recyclable material. Managed material does not include a
+
+material or product that contains iron, steel, or nonferrous metals
+
+and that is directed to or received by a scrap processor as defined
+
+in section 3 of the scrap metal regulatory act, 2008 PA 429, MCL
+
+445.423, or by a reuser of these the metals.
+
+(24) (23) "Managed materials transporting unit" means a
+
+container, which may be an integral part of a truck or other piece
+
+of equipment, used for the transportation of managed materials.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(25) (24) "Materials management facility" or, unless the
+
+context implies a different meaning, "facility" means any of the
+
+following, subject to subsection (25):(26):
+
+(a) A disposal area.
+
+(b) A materials utilization facility.
+
+(c) A waste diversion center.
+
+(26) (25) Materials management facility or facility does not
+
+include a person, utilizing machinery and equipment and operating
+
+from a fixed location, whose principal business is the processing
+
+and manufacturing of iron, steel, or nonferrous metals into
+
+prepared grades of products suitable for consumption, reuse, or
+
+additional processing.
+
+(27) (26) "Materials management goals" means goals identified
+in the MMP pursuant to in accordance with section 11578(1)(a).
+
+(28) (27) "Materials management plan" or "MMP" means a plan
+required under section 11571.
+
+(29) (28) "Materials recovery facility", subject to subsection
+
+(29), (30), means a facility that meets both of the following
+
+requirements:
+
+(a) Receives primarily source separated material and sorts,
+
+bales, or processes the source separated material for reuse,
+
+recycling, or utilization as a raw material or new product.
+
+(b) On an annual basis, does not receive an amount of solid
+
+waste equal to or more than 15% of the total weight of material
+
+received by the facility unless the materials recovery facility is
+
+making reasonable effort and has an education program to reduce the
+
+amount of solid waste. Material disposed of as a result of
+
+recycling market fluctuations is not included in the 15%
+
+calculation.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(30) (29) Materials recovery facility does not include any of
+the following:
+
+(a) A retail, commercial, or industrial establishment that
+
+bales for off-site shipment managed material that it generates.
+
+(b) A retail establishment that collects returnable beverage
+containers under 1976 IL 1, MCL 445.571 to 445.576.
+
+(c) A beverage distributor, or its the beverage distributor's
+
+agent, that manages returnable beverage containers under 1976 IL 1,
+
+MCL 445.571 to 445.576.
+
+(d) A facility or area used for reuse, recycling, or storage
+
+of recyclable materials solely generated by an industrial facility.
+
+(e) A facility that is an end user or secondary processor and
+
+that uses as fuel or otherwise, processes, or stores material
+
+generated by industrial facilities.
+
+(f) A facility that primarily manages material that was
+
+previously sorted or processed.
+
+(g) An anaerobic digester.
+
+(31) (30) "Materials utilization" means recycling, composting,
+
+or converting material into energy rather than disposing of the
+
+material.
+
+(32) (31) "Materials utilization facility" means a facility
+that is any of the following:
+
+(a) A materials recovery facility.
+
+(b) A composting facility.
+
+(c) An anaerobic digester, except at a manufacturing facility
+
+that generates its own feedstock.
+
+(d) An innovative technology facility.
+
+(33) (32) "Medical waste" means that term as it is defined in
+
+section 13805 of the public health code, 1978 PA 368, MCL
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+333.13805.
+
+(34) (33) "Medium", in reference to a composting facility,
+
+means a composting facility to which all of the following apply:
+
+(a) The site at any time contains more than 500 cubic yards of
+compostable material.
+
+(b) The site does not qualify as a small composting facility.
+
+(c) The site does not at any time contain more than 10,000
+
+cubic yards of compostable material.
+
+(d) The site does not at any time contain more than 10% by
+volume of class 1 compostable material other than yard waste.
+
+(e) Unless approved by the department, the site does not at
+
+any time on any acre contain more than 5,000 cubic yards of
+
+compostable material, finished product, compost additives, or
+
+screening rejects.
+
+(35) (34) "Mixed wood ash" means the material recovered from
+
+air pollution control systems for, or the noncombusted residue
+
+remaining after, the combustion of any combination of wood, scrap
+
+wood, railroad ties, or tires, if railroad ties composed less than
+
+35% by weight of the total combusted material and tires composed
+
+less than 10% by weight of the total combusted material.
+
+(36) (35) "Municipal solid waste" means household waste,
+
+commercial waste, waste generated by other nonindustrial locations,
+
+waste that has characteristics similar to that generated at a
+
+household or commercial business, or any combination
+
+Municipal solid waste does not include municipal wastewater
+
+treatment sludges, industrial process wastes, automobile bodies,
+
+combustion ash, or construction and demolition debris.
+
+thereof.
+
+(37) (36) "Municipal solid waste incinerator" means an
+incinerator that is owned or operated by any person, and that meets
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+all of the following requirements:
+
+(a) The incinerator receives solid waste from off site off-
+
+site and burns only waste from single-family and multifamily
+
+dwellings, hotels, motels, and other residential sources, or such
+
+the waste together with solid waste from commercial, institutional,
+
+municipal, county, or industrial sources that, if disposed of,
+
+would not be required to be placed in a disposal facility licensed
+
+under part 111.
+
+(b) The incinerator has established contractual requirements
+
+or other notification or inspection procedures sufficient to ensure
+
+that the incinerator receives and burns only waste referred to in
+
+subdivision (a).
+
+(c) The incinerator meets the requirements of part 115.
+
+(d) The incinerator is not an industrial furnace as that term
+
+is defined in 40 CFR 260.10.
+
+(e) The incinerator is not an incinerator that receives and
+
+burns only medical waste or only waste produced at 1 or more
+
+hospitals.
+
+(38) (37) "Municipal solid waste incinerator ash" means the
+
+substances remaining after combustion in a municipal solid waste
+
+incinerator.
+
+(39) (38) "Municipal solid waste recycling rate" means the
+
+amount of municipal solid waste recycled or composted, divided by
+
+the amount of municipal solid waste recycled, composted,
+
+landfilled, or incinerated.
+
+(40) (39) "New coal ash combustion residuals impoundment"
+
+means a coal ash combustion residuals impoundment that first
+
+receives coal ash combustion residuals after December 28, 2018.
+
+(41) (40) "New disposal area" means a disposal area that
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+requires a construction permit under this part and includes all of
+
+the following:
+
+(a) A disposal area, other than an existing disposal area,
+that is proposed for construction.
+
+(b) For a landfill, a lateral expansion, vertical expansion,
+
+or other expansion that results in an increase in the landfill's
+
+design capacity.
+
+(c) A new coal ash combustion residuals impoundment, or a
+
+lateral expansion of a coal ash combustion residuals impoundment
+
+beyond the placement of waste as of October 14, 2015.
+
+(d) For a disposal area other than a landfill or coal ash
+
+combustion residuals impoundment, an enlargement in capacity beyond
+
+that indicated in the construction permit or in engineering plans
+
+approved before January 11, 1979.
+
+(e) For any existing disposal area, an alteration of the
+
+disposal area to a different disposal area type than was specified
+
+in the previous construction permit application or in engineering
+
+plans that were approved by the director or his or her the
+
+director's designee before January 11, 1979.
+
+(42) (41) "Nonresidential property" means property not used or
+intended to be used for any of the following:
+
+(a) A child day care center.
+
+(b) An elementary school.
+
+(c) An elder care and assisted living center.
+
+(d) A nursing home.
+
+(e) A single-family or multifamily dwelling unless the
+
+dwelling is part of a mixed use development and all dwelling units
+
+and associated outdoor residential use areas are located above the
+
+ground floor.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(43) (42) "Operate" includes, but is not limited to,
+conducting, managing, and maintaining.
+
+(44) (43) "Part 115" means this part and rules promulgated
+under this part.
+
+(45) (44) "Perpetual care fund" means a trust fund, escrow
+
+account, or perpetual care fund bond required by section 11525(2).
+
+(46) (45) "Perpetual care fund bond" means a surety bond, an
+
+irrevocable letter of credit, or a combination of these instruments
+
+in favor of the department used to establish a perpetual care fund.
+
+(47) (46) "Planning area" means the geographic area to which a
+
+materials management plan applies.
+
+(48) (47) "Planning committee" means a committee appointed
+under section 11572.
+
+(49) (48) "Post-use polymer" means a plastic to which all of
+the following apply:
+
+(a) It has been source separated.
+
+(b) It has been sorted from solid waste and other regulated
+
+waste but may contain residual amounts of solid waste.
+
+(c) It is not mixed with solid waste or hazardous waste onsite or during conversion at a chemical recycling facility.
+
+(d) It is converted at a chemical recycling facility or,
+
+subject to applicable speculative accumulation time frames, stored
+
+at a chemical recycling facility before conversion.
+
+(50) (49) "Preexisting unit" means a landfill unit that is or
+
+was licensed under part 115 but has not received waste after
+
+October 9, 1993.
+
+(51) (50) "Pulp and paper mill ash" means the material
+
+recovered from air pollution control systems for, or the
+
+noncombusted residue remaining after, the combustion of any
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+combination of coal, wood, pulp and paper mill material, wood or
+
+biomass fuel pellets, scrap wood, railroad ties, or tires, in a
+
+boiler, power plant, or furnace at a pulp and paper mill, if
+
+railroad ties composed less than 35% by weight of the total
+
+combusted material and tires composed less than 10% by weight of
+
+the total combusted material.
+
+(52) (51) "Pulp and paper mill material" means all of the
+
+following materials if generated at a facility that produces pulp
+
+or paper:
+
+(a) Wastewater treatment sludge, including wood fibers,
+minerals, and microbial biomass.
+
+(b) Rejects from screens, cleaners, and mills.
+
+(c) Bark, wood fiber, and chips.
+
+(d) Scrap paper.
+
+(e) Causticizing residues, including lime mud and grit and
+
+green liquor dregs.
+
+(f) Any material that the department determines has
+
+characteristics that are similar to any of the materials listed in
+
+subdivisions (a) to (e).
+
+(53) (52) "Pyrolysis" means a manufacturing process in which
+
+post-use polymers are heated in the absence of oxygen until melted
+
+and thermally decomposed, and then are cooled, condensed, and
+
+converted into valuable raw materials and intermediate and final
+
+products, including, but not limited to, plastic monomers,
+
+chemicals, waxes, lubricants, and plastic and chemical feedstocks
+
+that have economic utility as raw materials and products.
+
+Sec. 11506. (1) "Solid waste" means food waste, rubbish,
+
+ashes, incinerator ash, incinerator residue, street cleanings,
+
+municipal and industrial sludges, solid commercial waste, solid
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+industrial waste, and animal waste. However, solid waste does not
+
+include any of the following:
+
+(a) Human body waste.
+
+(b) Medical waste.
+
+(c) Manure or animal bedding generated in the production of
+
+livestock and poultry, if managed in compliance with the
+
+appropriate GAAMPS.
+
+(d) Liquid waste.
+
+(e) Scrap metal, as that term is defined in section 3 of the
+
+scrap metal regulatory act, 2008 PA 429, MCL 445.423, directed to a
+
+scrap processor as that term is defined in that section 3 of the
+
+scrap metal regulatory act, 2008 PA 429, MCL 445.423, or to a
+
+reuser of scrap metal.
+
+(f) Slag or slag products directed to a slag processor or to a
+reuser of slag or slag products.
+
+(g) Sludges and ashes managed as recycled or nondetrimental
+
+materials appropriate for agricultural or silvicultural use
+
+pursuant to in accordance with a plan approved by the department.
+
+(h) The following materials that are used as animal feed, or
+
+are applied on, or are composted and applied on, farmland or
+
+forestland for an agricultural or silvicultural purpose at an
+
+agronomic rate consistent with GAAMPS:
+
+(i) Food processing residuals and food waste.
+
+(ii) Precipitated calcium carbonate from sugar beet processing.
+
+(iii) Wood ashes resulting solely from a source that burns only
+
+wood that is untreated and inert.
+
+(iv) Lime from kraft pulping processes generated before
+bleaching.
+
+(v) Aquatic plants.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(i) Materials approved for emergency disposal by the
+department.
+
+(j) Source separated materials.
+
+(k) Coal ash, combustion residuals, when used under any of the
+
+following circumstances:
+
+(i) As a component of concrete, grout, mortar, or casting
+
+molds, if the coal ash does combustion residuals do not have more
+
+than 6% unburned carbon.
+
+(ii) As a raw material in asphalt for road construction, if the
+
+coal ash does combustion residuals do not have more than 12%
+
+unburned carbon and passes Michigan test method for pass the water
+
+asphalt preferential test, MTM 101, as set forth in the state
+
+transportation department's manual for the Michigan test methods
+
+(MTM).
+
+(iii) As aggregate, road material, or building material that in
+
+ultimate use is or will be stabilized or bonded by cement, limes,
+
+or asphalt, or itself act as a bonding agent. To be considered to
+
+act as a bonding agent, the coal ash combustion residuals must have
+
+at least not less than 10% available lime.
+
+(iv) As a road base or construction fill that is placed at
+
+least 4 feet above the seasonal groundwater table and covered with
+
+asphalt, concrete, or other material approved by the department.
+
+(l) Inert material.
+
+(m) Soil that is washed or otherwise removed from sugar beets,
+
+has not more than 55% moisture content, and is registered as a soil
+
+conditioner under part 85. Any testing required to become
+
+registered under part 85 is the responsibility of the generator.
+
+(n) Soil that is relocated under section 20120c.
+
+(o) Diverted waste that is managed through a waste diversion
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+center.
+
+(p) Beneficial use by-products.
+
+(q) Coal bottom ash, if substantially free of fly ash or
+
+economizer ash, when used as cold weather road abrasive.
+
+(r) Stamp sands when used as cold weather road abrasive in the
+Upper Peninsula by any of the following:
+
+(i) A public road agency.
+
+(ii) Any other person pursuant to a plan approved by a public
+
+road agency.
+
+(s) Any material that is reclaimed or reused in the process
+that generated it.
+
+(t) Any secondary material that, as specified in or determined
+
+pursuant to under 40 CFR part 241, is not a solid waste when
+
+combusted.
+
+(u) Post-use polymers.
+
+(v) Other wastes regulated by statute.
+
+(2) "Solid waste management fund" means the solid waste
+
+management fund created in section 11550.
+
+(3) "Solid waste processing and transfer facility" means a
+
+tract of land, a building or unit and any appurtenances of a
+
+building or unit, a container, or any combination of these that is
+
+used or intended for use in the handling, storage, transfer, or
+
+processing of solid waste, and is not located at the site of
+
+generation or the site of disposal of the solid waste.
+
+(4) "Solvolysis" means a manufacturing process in which post-
+
+use polymers are purified with the aid of solvents, while heated at
+
+low temperatures or pressurized, or both, to make useful products
+
+while allowing additives and contaminants to be removed. The
+
+products of solvolysis include, but are not limited to, monomers,
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+intermediates, and valuable chemicals and raw materials. Solvolysis
+
+includes, but is not limited to, the following:
+
+(a) Hydrolysis.
+
+(b) Aminolysis.
+
+(c) Ammonolysis.
+
+(d) Methanolysis.
+
+(e) Glycolysis.
+
+(5) "Source reduction" means any practice that reduces or
+
+eliminates the generation of waste at the source.
+
+(6) "Source separated material" means any of the following
+
+materials if separated at the source of generation or at a
+
+materials management facility that complies with part 115 and if
+
+not speculatively accumulated:
+
+(a) Glass, metal, wood, paper products, plastics, rubber,
+
+textiles, food waste, electronics, latex paint, yard waste, or any
+
+other material approved by the department that is used for
+
+conversion into raw materials or intermediate or new products. For
+
+the purposes of this subdivision, raw materials or intermediate or
+
+new products include, but are not limited to, compost, biogas from
+
+anaerobic digestion, synthesis gas from gasification or pyrolysis,
+
+or other fuel. This subdivision does not prohibit material from
+
+being classified as a renewable energy resource as that term is
+
+defined in section 11 of the clean and renewable energy and energy
+
+waste reduction act, 2008 PA 295, MCL 460.1011.
+
+(b) Scrap wood and railroad ties used to fuel an industrial
+
+boiler, kiln, power plant, or furnace, subject to part 55, for
+
+production of new wood products, or for other uses approved by the
+
+department.
+
+(c) Chipped or whole tires used to fuel an industrial boiler,
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+kiln, power plant, or furnace, subject to part 55, or for other
+
+uses approved by the department. This subdivision does not prohibit
+
+material from being classified as a renewable energy resource as
+
+that term is defined in section 11 of the clean and renewable
+
+energy and energy waste reduction act, 2008 PA 295, MCL 460.1011.
+
+(d) Recovered paint solids if used to fuel an industrial
+
+boiler, kiln, power plant, gasification plant, or furnace, subject
+
+to part 55; if bonded with cement or asphalt; or if used for other
+
+uses approved by the department.
+
+(e) Gypsum drywall generated from the production of wallboard
+
+used for stock returned to the production process or for other uses
+
+approved by the department.
+
+(f) Flue gas desulfurization gypsum used for production of
+
+cement or wallboard or other uses approved by the department.
+
+(g) Asphalt shingles that meet both of the following
+
+requirements:
+
+(i) Do not contain asbestos, rolled roofing, wood, nails, or
+tar paper.
+
+(ii) Are used as described in any of the following:
+
+(A) As a component in hot mix asphalt, warm mix asphalt, or
+
+cold patch asphalt.
+
+(B) To fuel an industrial boiler, kiln, power plant, or
+furnace, subject to part 55.
+
+(C) Mixed with recycled asphalt pavement at a maximum of 1 to
+
+ratio by volume to produce a base that is covered by concrete or
+
+asphalt paving.
+
+(D) Other uses approved by the department.
+
+(h) Municipal solid waste incinerator ash that meets criteria
+
+specified by the department and that is used as daily cover at a
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+disposal facility licensed pursuant to under part 115.
+
+(i) Utility poles or pole segments reused as poles, posts, or
+similar uses approved by the department in writing.
+
+(j) Railroad ties reused in landscaping, embankments, or
+similar uses approved by the department in writing.
+
+(k) Any materials and uses approved by the department under
+section 11553(8).
+
+(l) Leaves that are ground or mixed with ground wood and sold
+
+as mulch for landscaping purposes if the volumes so managed are
+
+reported to the department in the manner provided in section 11560.
+
+(m) Any material determined by the department in writing
+
+before September 16, 2014 to be a source separated material.
+
+(n) Yard waste that is land applied on a farm in a manner
+consistent with GAAMPS.
+
+(o) Yard waste, class 1 compostable material, and class 2
+
+compostable material that are delivered to an anaerobic digester
+
+authorized by the department under part 115 to receive the
+
+material.
+
+(p) Recyclable materials.
+
+(7) "Stamp sands" means finely grained crushed rock resulting
+
+from mining, milling, or smelting of copper ore and includes native
+
+substances contained within the crushed rock and any ancillary
+
+material associated with the crushed rock.
+
+(8) "Treated wood" means wood or wood product that has been
+treated with 1 or more of the following:
+
+(a) Chromated copper arsenate (CCA).
+
+(b) Ammoniacal copper quat (ACQ).
+
+(c) Ammoniacal copper zinc arsenate (ACZA).
+
+(d) Any other chemical designated in rules promulgated by the
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+department.
+
+(9) "Trust fund" means a fund held by a trustee who has the
+
+authority to act as a trustee and whose trust operations are
+
+regulated and examined by a federal or state agency.
+
+(10) "Type I public water supply", "type IIa public water
+
+supply", "type IIb public water supply", and "type III public water
+
+supply" mean those terms , respectively, as described in R
+
+325.10502 of the MAC.
+
+(11) "Type II landfill" means a landfill that receives
+
+household waste or municipal solid waste incinerator ash, or both,
+
+and that may also receive other types of solid waste, such as any
+
+of the following:
+
+(a) Construction and demolition waste.
+
+(b) Sewage sludge.
+
+(c) Commercial waste.
+
+(d) Nonhazardous sludge.
+
+(e) Hazardous waste from conditionally exempt small quantity
+
+generators.
+
+(f) Industrial waste.
+
+(12) "Type III landfill" means a landfill that is not a type
+
+II landfill or hazardous waste landfill. Type III landfill includes
+
+all of the following:
+
+(a) A construction and demolition waste landfill.
+
+(b) An industrial waste landfill.
+
+(c) A low hazard industrial waste landfill.
+
+(d) A surface impoundment authorized as an industrial waste
+
+landfill.
+
+(e) A landfill that accepts only waste other than household
+
+waste, municipal solid waste incinerator ash, or hazardous waste
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+from conditionally exempt small quantity generators.
+
+(f) A coal ash combustion residuals landfill.
+
+(g) Any coal ash combustion residuals landfill or coal
+
+combustion residuals impoundment, including, but not limited to,
+
+all of the following:
+
+(i) An existing coal ash combustion residuals impoundment that
+is closed as a landfill pursuant to under R 299.4309 of the MAC.
+
+(ii) An existing coal ash combustion residuals impoundment
+
+where coal ash combustion residuals will remain after closure and
+
+that will be closed as a landfill pursuant to R 299.4309 of the
+
+MAC.in accordance with 40 CFR 257.100 to 103, as a landfill, or
+
+under an equivalent standard under this part.
+
+(13) "Vermiculture" means the controlled and managed process
+
+by which live worms degrade organic materials into worm castings or
+
+worm humus.
+
+(14) "Waste diversion center" means property or a building, or
+
+a portion of property or a building, designated for the purpose of
+
+receiving or collecting diverted wastes and not used for
+
+residential purposes.
+
+(15) "Wood" means trees, branches and associated leaves, bark,
+
+lumber, pallets, wood chips, sawdust, or other wood or wood product
+
+but does not include scrap wood, treated wood, painted wood or
+
+painted wood product, or any wood or wood product that has been
+
+contaminated during manufacture or use.
+
+(16) "Wood ash" means any type of ash or slag resulting from
+the burning of wood.
+
+(17) "Yard waste" means leaves, grass clippings, vegetable or
+
+other garden debris, shrubbery, or brush or tree trimmings, less
+
+than 4 feet in length and 2 inches in diameter, that can be
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+converted to compost. Yard waste does not include stumps,
+
+agricultural wastes, animal waste, roots, sewage sludge, Christmas
+
+trees or wreaths, food waste, or screened finished compost made
+
+from yard waste.
+
+Sec. 11509. (1) This section and sections 11510 to 11512 apply
+to disposal areas other than the following:
+
+(a) A solid waste processing and transfer facility described
+in section 11513(1) or (2).
+
+(b) An incinerator that does not comply with the construction
+
+permit and operating license requirements of this subpart, as
+
+allowed under section 11540.
+
+(c) A coal combustion residuals landfill or coal combustion
+residuals impoundment permitted under section 11592.
+
+(2) A person shall not establish a disposal area except as
+
+authorized by a construction permit issued by the department
+
+pursuant to under part 13. A person proposing the establishment of
+
+a disposal area shall submit the application for a construction
+
+permit to the appropriate local health officer. However, if the
+
+disposal area is located in a county or city that does not have a
+
+certified health department, the application shall must be
+
+submitted directly to the department. An application for a
+
+construction permit shall must be accompanied by engineering plans.
+
+(3) An application for a construction permit for a landfill
+
+shall must be accompanied by an application fee in the following
+
+amount:
+
+(a) For a new landfill, the following:
+
+(i) For a type II landfill, $3,000.00.
+
+(ii) Except as provided in subparagraph (iii), for an industrial
+
+waste landfill, $2,000.00.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(iii) For a type III landfill limited to low hazard industrial
+waste, $1,500.00.
+
+(b) For a lateral expansion of a landfill, the following:
+
+(i) For a type II landfill, $2,000.00.
+
+(ii) Except as provided in subparagraph (iii), for an industrial
+
+waste landfill, $1,500.00.
+
+(iii) For a type III landfill limited to low hazard industrial
+
+waste, construction and demolition waste, or other nonindustrial
+
+waste, $1,000.00.
+
+(c) For a vertical expansion of an existing landfill, the
+following:
+
+(i) For a type II landfill, $1,500.00.
+
+(ii) Except as provided in subparagraph (iii), for an industrial
+
+waste landfill, $1,000.00.
+
+(iii) For an industrial waste landfill limited to low hazard
+
+industrial waste, construction and demolition waste, or other
+
+nonindustrial waste, $500.00.
+
+(d) For a new coal ash impoundment, $1,000.00.
+
+(e) For a lateral or vertical expansion of a coal ash
+
+impoundment, $750.00.
+
+(4) An application for a construction permit for a disposal
+
+area that is not a landfill shall must be accompanied by an
+
+application fee in the following amount:
+
+(a) For a new disposal area for municipal solid waste, or a
+
+combination of municipal solid waste and waste listed in
+
+subdivision (b), $2,000.00.
+
+(b) For a new disposal area for industrial waste, or
+construction and demolition waste, $1,000.00.
+
+(c) For the expansion of an existing disposal area for any
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+type of waste, $500.00.
+
+(5) If an application is returned to the applicant as
+
+administratively incomplete, the applicant may, within not later
+
+than 1 year after the application is returned, resubmit the
+
+application, together with the additional information as needed to
+
+address the reasons for being incomplete, without paying an
+
+additional application fee. If a permit is denied or an application
+
+is withdrawn, an applicant for a construction permit, within not
+
+later than 1 year after the permit denial or application
+
+withdrawal, may resubmit the application, together with the
+
+additional information as needed to address the reasons for denial
+
+or withdrawal, without paying an additional application fee.
+
+(6) Subject to section 11510(2)(d), an application for a
+
+modification to a construction permit or for renewal of a
+
+construction permit that has expired shall must be accompanied by a
+
+fee of $500.00.
+
+(7) A person may apply for a single permit to construct more
+
+than 1 type of disposal area at the same facility. A person who
+
+that applies to permit more than 1 type of disposal area at the
+
+same facility shall pay a fee equal to the sum of the applicable
+
+fees listed in this section for each type of disposal area.
+
+(8) The department shall deposit permit application fees
+
+collected under this section in the solid waste staff account of
+
+the solid waste management fund.
+
+(9) The department shall not approve an application for a
+
+construction permit for a new type II landfill that is not
+
+contiguous to an already permitted type II landfill or for a new
+
+municipal solid waste incinerator unless the approval is requested
+
+by the county board of commissioners and the department determines
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+that the landfill or incinerator is needed for the planning area.
+
+The county board of commissioners' request shall must include a
+
+demonstration that materials utilization options have been
+
+exhausted. The department's determination of need shall must be
+
+based on public health, solid waste disposal capacity, and economic
+
+issues that would arise without the new site.
+
+(10) As used in this section, "contiguous" means either of the
+following:
+
+(a) On the same property. The property may be divided by
+either of the following:
+
+(i) The boundary of a local unit of government.
+
+(ii) A public or private right-of-way if access to and from the
+
+right-of-way for each piece of the property is opposite the access
+
+for the other piece of the property so that movement between the 2
+
+pieces of the property is by crossing the right-of-way.
+
+(b) On 2 or more properties owned by the same person if the
+
+properties are connected by a right-of-way that the owner controls
+
+and to which the public does not have access.
+
+Sec. 11512. (1) This section applies to disposal areas as
+provided in section 11509(1).
+
+(2) A person shall not dispose of solid waste at a disposal
+
+area unless the disposal area is licensed under this section.
+
+However, a A person authorized by state law or rules promulgated by
+
+the department to do so dispose of the solid waste at the site of
+
+generation may dispose of the solid waste at the site of
+
+generation. Waste placement in existing landfill units shall must
+
+be consistent with past operating practices or modified practices
+
+to ensure good management.
+
+(3) Except as otherwise provided in this section, a person
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+shall not conduct, manage, maintain, or operate a disposal area
+
+except as authorized by an operating license issued by the
+
+department pursuant to under part 13. The owner or operator of the
+
+disposal area shall submit a license application to the department
+
+through a certified health department. Existing coal ash
+
+impoundments are exempt from the licensing requirements of this
+
+part through December 28, 2020. If the disposal area is located in
+
+a county or city that does not have a certified health department,
+
+the application shall must be made directly to the department. A
+
+person authorized by part 115 to operate more than 1 type of
+
+disposal area at the same facility may apply for a single license.
+
+(4) An applicant for a license for a type II or type III
+
+landfill shall submit evidence of financial assurance that meets
+
+the requirements of section 11523a, the maximum waste slope in the
+
+active portion, an estimate of remaining permitted capacity, and
+
+documentation of the amount of waste received at the disposal area
+
+during the previous license period or expected to be received,
+
+whichever is greater.
+
+(5) An application for a license for a disposal area other
+
+than an existing coal ash impoundment shall must include a
+
+certification under the seal of a licensed professional engineer
+
+verifying that the construction of the disposal area has proceeded
+
+according to the approved plans. An applicant for a license for an
+
+existing coal ash impoundment shall submit with the application
+
+documentation in the applicant's possession or control regarding
+
+the construction of the impoundment. If construction of a portion
+
+of a landfill is not complete, the owner or operator shall submit
+
+additional construction certification of that portion of the
+
+landfill under section 11516(3).
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(6) An applicant for an operating license, within not later
+
+than 6 months after a license denial, may resubmit the application,
+
+together with additional information or corrections as are
+
+necessary to address the reason for denial, without being required
+
+to pay an additional application fee.
+
+(7) To conduct tests and assess operational capabilities, the
+
+owner or operator of a municipal solid waste incinerator that is
+
+designed to burn at a temperature in excess of 2500 degrees
+
+Fahrenheit may operate the incinerator without an operating
+
+license, upon on notice to the department, for a period not to
+
+exceed 60 days.
+
+(8) The Subject to subsection (9), an application for a type
+
+II landfill operating license shall must be accompanied by the
+
+following fee for the 5-year term of the operating license: ,
+
+subject to subsection (9):
+
+(a) Landfills receiving less than 100 tons per day, $500.00.
+
+(b) Landfills receiving 100 tons per day or more, but less
+
+than 250 tons per day, $1,500.00.
+
+(c) Landfills receiving 250 tons per day or more, but less
+than 500 tons per day, $4,000.00.
+
+(d) Landfills receiving 500 tons per day or more, but less
+than 1,000 tons per day, $6,500.00.
+
+(e) Landfills receiving 1,000 tons per day or more, but less
+than 1,500 tons per day, $12,500.00.
+
+(f) Landfills receiving 1,500 tons per day or more, but less
+than 3,000 tons per day, $22,500.00.
+
+(g) Landfills receiving more than 3,000 tons per day,
+$33,000.00.
+
+(9) Type II landfill application fees shall must be based on
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+the average amount of waste in tons projected to be received daily
+
+during the license period. Application fees for license renewals
+
+shall must be based on the average amount of waste received daily
+
+in the previous calendar year based on a 365-day calendar year.
+
+Application fees shall must be adjusted in the following
+
+circumstances:
+
+(a) If a landfill accepts more than the amount of waste on
+
+which the application fee was based, a supplemental fee equal to
+
+the difference shall must be submitted with the next license
+
+application.
+
+(b) If a landfill accepts less than the amount of waste on
+
+which the application fee was based, the department shall credit
+
+the applicant an amount equal to the difference with the next
+
+license application.
+
+(c) A landfill used exclusively for municipal solid waste
+
+incinerator ash that measures waste by volume rather than weight
+
+shall must pay a fee based on 1 cubic yard per ton.
+
+(10) The operating license application for a type III landfill
+shall must be accompanied by a fee of $5,000.00.
+
+(11) An application for an operating license for a coal ash
+
+landfill shall be accompanied by a fee of $13,000.00. By the
+
+anniversary of the issuance of the operating license, while the
+
+operating license remains in effect, the coal ash landfill owner or
+
+operator shall pay the department a fee of $13,000.00. If the
+
+anniversary of the issuance of the operating license falls on a
+
+legal holiday, the annual fee shall be paid by the next business
+
+day.
+
+(12) An application for an operating license by a coal ash
+
+impoundment shall be accompanied by a fee of $13,000.00. On the
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+anniversary of the issuance of the operating license, while the
+
+operating license remains in effect, the coal ash impoundment owner
+
+or operator shall pay the department a fee of $13,000.00. If the
+
+anniversary of the issuance of the operating license falls on a
+
+legal holiday, the annual fee shall be paid on the next business
+
+day.
+
+(13) The department shall deposit the fees collected under
+
+subsections (11) and (12) in the coal ash care fund created in
+
+section 11550.
+
+(14) Upon receipt of a license application for either a coal
+
+ash impoundment or a coal ash landfill, the department shall do all
+
+of the following:
+
+(a) Immediately send notice to the clerk of the municipality
+
+where the disposal area is located and the designated regional
+
+solid waste management planning agency.
+
+(b) Publish a notice in a newspaper having major circulation
+in the vicinity of the disposal area.
+
+(15) The notices under subsection (14) shall meet all of the
+following requirements:
+
+(a) Include a map indicating the location of the disposal area
+and a description of the disposal area.
+
+(b) Specify the location where the complete application
+package may be reviewed and where copies may be obtained.
+
+(c) Indicate that the department will accept comments for 45
+days after the date of publication of the notice.
+
+(d) Indicate that the department shall hold a public meeting
+
+in the area of the disposal area if, within 15 days after the date
+
+of publication of the notice, any of the following occur:
+
+(i) A written request for a public meeting is submitted to the
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+department by the applicant or a municipality.
+
+(ii) The department determines that there is a significant
+
+public interest in or known public controversy over the application
+
+or that for any other reason a public meeting is appropriate.
+
+(16) A public meeting referred to in subsection (15)(d) shall
+
+be held after the department makes a preliminary review of the
+
+application and all pertinent data and before an operating license
+
+is issued or denied. During its review, the department shall
+
+consider input provided at the public meeting.
+
+(11) (17) If an application is returned to the applicant as
+
+administratively incomplete, the department shall refund the entire
+
+fee. An applicant for a license, within not later than 12 months
+
+after a license denial or withdrawal of a license application, may
+
+resubmit the application with the additional information as needed
+
+to address the reasons for denial, without being required to pay an
+
+additional application fee.
+
+(12) (18) The operating license application for a solid waste
+
+processing and transfer facility that manages more than 200 cubic
+
+yards at any time, or other disposal area that is not a landfill or
+
+surface impoundment shall must be accompanied by a fee of
+
+$1,000.00.
+
+(13) (19) Except as provided in subsection (13), the The
+
+department shall deposit operating license application fees
+
+collected under this section in the perpetual care account of the
+
+solid waste management fund.
+
+(14) (20) A person who that applies for an operating license
+
+for more than 1 type of disposal area at the same facility shall
+
+pay a fee equal to the sum of the applicable application fees
+
+listed in this section.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(15) (21) The department shall not license a landfill or coal
+
+ash impoundment unless the landfill or coal ash impoundment has an
+
+approved hydrogeologic monitoring program and the owner or operator
+
+has provided the department with the monitoring results. The
+
+department shall use this information in conjunction with other
+
+information required by part 115 to determine a course of action
+
+regarding licensing of the facility consistent with section 4005 of
+
+subtitle D of the solid waste disposal act, 42 USC 6945, and with
+
+part 115. In deciding a course of action, the department shall
+
+consider, at a minimum, the environment, natural resources, the
+
+public health, safety, and welfare, and other public or private
+
+alternatives. If a landfill or coal ash impoundment violates part
+
+115, the department may do any of the following:
+
+(a) Revoke the landfill's or coal ash impoundment's license.
+
+(b) If the disposal area is a coal ash impoundment that has
+
+not been previously licensed under this part, deny a license.
+
+(c) Issue a timetable or schedule of corrective action,
+
+including a sequence of actions or operations, that leads to
+
+compliance with part 115 within a reasonable time period but not
+
+more than 1 year.
+
+(16) (22) A type II landfill does not require a separate solid
+
+waste processing and transfer facility permit or license to
+
+solidify industrial waste sludges on-site if that activity meets
+
+all of the following requirements:
+
+(a) Occurs in containers or tanks as specified in part 121.
+
+(b) Complies with part 55.
+
+(c) Is approved by the department as part of the facility's
+
+operations plan.
+
+(17) (23) An existing industrial waste landfill may accept any
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+of the following:
+
+(a) Industrial waste.
+
+(b) Solid waste that originates from an industrial site and is
+
+not a hazardous waste regulated under part 111.
+
+(18) (24) The owner or operator of a landfill shall annually
+
+submit a report to the department and the county and municipality
+
+in which the landfill is located that specifies the tonnage and
+
+type of solid waste received by the landfill during the year
+
+itemized, to the extent possible, by county, state, or country of
+
+origin and the amount of remaining disposal capacity at the
+
+landfill. Remaining disposal capacity shall must be calculated as
+
+the permitted capacity less waste in place for any area that has
+
+been constructed and is not yet closed plus the permitted capacity
+
+for each area that has a permit for construction under part 115 but
+
+has not yet been constructed. The report shall must be submitted
+
+within not later than 45 days after the end of each state fiscal
+
+year. By January 31 of each year, the department shall submit to
+
+the legislature a report summarizing the information obtained under
+
+this subsection.
+
+(19) (25) The owner or operator of a licensed processing and
+
+transfer facility, within not later than 45 days after the end of
+
+each state fiscal year, shall submit to the department on a form
+
+and in a medium provided by the department, a report on the amount
+
+of materials managed at the facility during that state fiscal year.
+
+Sec. 11518. (1) When a landfill cell is first licensed, an
+
+instrument that imposes a restrictive covenant upon on the land
+
+involved shall must be executed by all of the owners of the land
+
+and the department. If the land is owned by this state, the state
+
+administrative board shall execute the covenant on behalf of this
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+state. The department or a local health officer shall file the
+
+instrument imposing the restrictive covenant for record in the
+
+office of the register of deeds of the county, or counties, in
+
+which the land is located. The covenant shall must state that the
+
+land described in the covenant will be used as a landfill and that
+
+neither the property owners, their the property owners' servants,
+
+agents, or employees, nor any of their the property owners' heirs,
+
+successors, lessees, or assigns shall, without authorization from
+
+the department, engage in filling, grading, excavating, drilling,
+
+or mining on the property during the first 50 years following
+
+approval by the department of the landfill's closure certification
+
+under section 11523a. In giving authorization, the department shall
+
+consider the original design, type of operation, material
+
+deposited, and the stage of decomposition of the fill. The
+
+department may grant an exemption from this section if the land
+
+involved is federally owned or if agreements existing between the
+
+landowner and the licensee on January 11, 1979 are not
+
+renegotiable.
+
+(2) Part 115 does not prohibit the department from conveying,
+
+leasing, or permitting the use of state land for a disposal area or
+
+a resource materials recovery facility as provided by applicable
+
+state law.
+
+(3) When a disposal area that is a coal ash combustion
+
+residuals impoundment is first licensed under this part, an
+
+instrument that imposes a restrictive covenant upon on the land
+
+involved shall must be executed by all of the owners of the land
+
+and the department. If the land is owned by this state, the state
+
+administrative board shall execute the covenant on behalf of this
+
+state. The department or a local health officer shall file the
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+instrument imposing the restrictive covenant for record in the
+
+office of the register of deeds of the county, or counties, the
+
+land is located. The covenant shall must state that the land
+
+described in the covenant will be used as a coal ash combustion
+
+residuals impoundment and that neither the property owners, their
+
+the property owners' servants, agents, or employees, nor any of
+
+their the property owners' heirs, successors, lessees, or assigns
+
+shall, without authorization from the department, engage in
+
+filling, grading, excavating, drilling, or mining on the property
+
+during the first 50 years following completion of the impoundment.
+
+In giving authorization, the department shall consider the original
+
+design, type of operation, material deposited, and any removal of
+
+the materials as part of the closure of the impoundment.
+
+(4) An industrial waste landfill may accept industrial waste
+
+of different types and from different generators, but shall must
+
+not accept hazardous waste generated by conditionally exempt small
+
+quantity generators.
+
+Sec. 11523. (1) The department shall not issue a license to
+
+operate a disposal area until the applicant has filed, as a part of
+
+the application for a license, evidence of the following financial
+
+assurance, as applicable:
+
+(a) Subject to section 11523b, financial assurance for a
+
+landfill described in this subdivision shall must be a bond in an
+
+amount equal to $20,000.00 per acre of licensed landfill within the
+
+solid waste boundary. However, the total amount of the bond shall
+
+must not be less than $20,000.00 or more than $2,000,000.00. Each
+
+bond shall must provide assurance for the maintenance of the
+
+landfill site or a portion thereof of the landfill site for a
+
+period of 30 years beginning when the department approved a closure
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+certification as described in section 11523a(5)(b) for the landfill
+
+or portion thereof, of the landfill, respectively. In addition to
+
+this bond, the owner or operator of a landfill described in this
+
+subdivision shall maintain a perpetual care fund. All of the
+
+following landfills are subject to this subdivision, unless the
+
+owner or operator of the landfill, by written notice to the
+
+department, elects to provide financial assurance under subdivision
+
+(b):
+
+(i) A preexisting unit at a type II landfill.
+
+(ii) A type II landfill that stopped receiving waste and was
+
+certified as closed before April 9, 1997.
+
+(iii) A type III landfill that stopped receiving waste before
+
+the effective date of the amendatory act that added this
+
+subparagraph.March 29, 2023.
+
+(iv) A type III landfill that received waste on or after the
+
+effective date of the amendatory act that added this subparagraph.
+
+However, beginning March 29, 2023. Beginning 2 years after the
+
+effective date of the amendatory act that added this subparagraph,
+
+upon March 29, 2023, on the issuance of a new license for such a
+
+the landfill, the landfill is not subject to this subdivision but
+
+is subject to subdivision (b).
+
+(b) Financial assurance for a type II or type III landfill
+
+that is an existing unit not subject to subdivision (a) or a new
+
+unit or for a landfill, otherwise subject to subdivision (a), whose
+
+owner or operator elects to be subject to this subdivision shall
+
+must be a bond in an amount equal to the cost, in current dollars,
+
+of hiring a third party to conduct closure, postclosure maintenance
+
+and monitoring, and, if necessary, corrective action. A license
+
+application for a type II landfill that is subject to this
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+subdivision shall must demonstrate financial assurance in
+
+compliance with section 11523a. A license application for a type
+
+III landfill shall must demonstrate financial assurance in
+
+compliance with section 11523a if the application is filed on or
+
+after the date 2 years after the effective date of the amendatory
+
+act that added subsection (2).March 29, 2023.
+
+(c) Financial assurance for an existing coal ash combustion
+
+residuals impoundment shall must be a bond in an amount equal to
+
+$20,000.00 per acre within the impoundment boundary. However, the
+
+total amount of the bond shall must not be less than $20,000.00 or
+
+more than $1,000,000.00. The bond shall must provide assurance for
+
+the maintenance of the coal ash combustion residuals impoundment or
+
+a portion thereof of the coal combustion residuals impoundment for
+
+a period of 30 years after the coal ash combustion residuals
+
+impoundment or any approved portion is completed. In addition to
+
+the bond, the owner or operator of an existing coal ash combustion
+
+residuals impoundment shall maintain a perpetual care fund. For
+
+applications for a license to operate submitted to the department
+
+after December 28, 2020, an applicant that demonstrates that it the
+
+applicant meets the requirements of R 299.9709 of the MAC may
+
+utilize the financial test under that rule for an amount not
+
+exceeding 95% of the closure, postclosure, and corrective action
+
+cost estimate.
+
+(d) Financial assurance established for a licensed solid waste
+
+processing and transfer facility or incinerator shall must be a
+
+bond in the amount of $20,000.00. The financial assurance shall
+
+must be maintained in effect for 2 years after the disposal area is
+
+closed.
+
+(2) The department shall not issue an approval under a general
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+permit for a materials utilization facility unless the applicant
+
+has filed, as a part of the application for the approval, evidence
+
+of the following financial assurance, as applicable:
+
+(a) Financial assurance established for a materials recovery
+
+facility or anaerobic digester that requires a general permit shall
+
+must be a bond in the amount of $20,000.00. The bond shall must be
+
+maintained in effect until the facility has ceased accepting
+
+material, all managed material has been removed from the site, and
+
+the facility's closure certification has been approved by the
+
+department as described in section 11525b(4)(a).
+
+(b) Financial assurance established for a composting facility
+
+with a general permit shall must be a bond in the amount of
+
+$20,000.00. The financial assurance shall must be maintained in
+
+effect until the facility has ceased accepting compostable
+
+materials, any finished or partially finished compost has been
+
+removed from the site, and the facility's closure certification has
+
+been approved by the department as described in section
+
+11525b(4)(a).
+
+(c) An innovative technology facility shall submit to the
+
+department a detailed written estimate, in current dollars, of the
+
+cost for the owner or operator to hire a third party to close the
+
+facility, including the cost to dispose of any remaining waste
+
+material, or otherwise contain and control any remaining waste
+
+residues. The department shall approve, approve with modifications,
+
+or disapprove the closure cost estimate in writing. The financial
+
+assurance shall must be a bond in the amount of the approved
+
+closure cost estimate. The bond shall must be maintained in effect
+
+until the facility has ceased accepting material, all managed
+
+material has been removed from the site, and the facility's closure
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+certification has been approved by the department as described in
+
+section 11525b(4)(a).
+
+(3) An owner or operator of a materials management facility
+
+who elects to post cash as a bond shall accrue interest on that
+
+bond quarterly at the annual rate of 6%, except that the interest
+
+rate payable to an owner or operator shall must not exceed the rate
+
+of interest accrued on the state common cash fund for the quarter
+
+in which an accrual is determined. Interest shall must be paid to
+
+the owner or operator upon on release of the bond by the
+
+department. Any interest greater than 6% shall must be deposited in
+
+the state treasury to the credit of the general fund. An owner or
+
+operator who uses a certificate of deposit as a bond shall must
+
+receive any accrued interest on that certificate of deposit upon on
+
+release of the bond by the department.
+
+(4) An owner or operator of a disposal area that is not a
+
+landfill may, beginning 2 years after closure of the disposal area,
+
+request that the department terminate the bond required under this
+
+section. Within Not later than 60 days after the request is made,
+
+the department shall approve or deny the request in writing. The
+
+department shall approve the request if all waste and waste
+
+residues have been removed from the disposal area and closure has
+
+been certified by a licensed professional engineer and approved by
+
+the department.
+
+(5) If the owner or operator violates the closure and
+
+postclosure monitoring and maintenance requirements of part 115,
+
+the department may utilize a bond required under this section for
+
+the closure and postclosure monitoring and maintenance of a
+
+disposal area to the extent necessary to correct the violations. At
+
+least Not less than 7 days before utilizing the bond, the
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+department shall issue a notice of violation or other order that
+
+alleges violation of part 115 and shall provide the owner or
+
+operator an opportunity for a hearing. This subsection does not
+
+apply to a perpetual care fund.
+
+(6) The terms of a surety bond, irrevocable letter of credit,
+
+insurance policy, or perpetual care fund bond shall must require
+
+the issuing institution to notify both the department and the owner
+
+or operator at least not less than 120 days before the expiration
+
+date or cancellation of the bond. If the owner or operator does not
+
+extend the effective date of the bond, or establish alternate
+
+financial assurance within not later than 90 days after receipt of
+
+an expiration or cancellation notice from the issuing institution,
+
+both of the following apply:
+
+(a) The department may draw on the bond.
+
+(b) In the case of a perpetual care fund bond, the issuing
+
+institution shall deposit the proceeds into the standby trust fund
+
+or escrow account unless the department agrees to the expiration or
+
+cancellation of the perpetual care fund bond.
+
+(7) The department shall not issue a construction permit or a
+
+new license to operate a disposal area to an applicant that is the
+
+subject of a bankruptcy action commenced under title 11 of the
+
+United States Code, 11 USC 101 to 1532, or any successor statute.
+
+(8) An owner or operator of a landfill that utilizes a
+
+financial test as financial assurance for the landfill may utilize
+
+a financial test for other types of materials management facilities
+
+that are located on the permitted landfill site.
+
+(9) The department may utilize a bond required under this
+
+section for a facility subject to approval under a general permit
+
+for bringing the facility into compliance with part 115, including,
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+but not limited to, removing managed material from the facility,
+
+cleanup at the facility, and fire suppression or other emergency
+
+response at the facility, including reimbursement to any local unit
+
+of government that incurred emergency response costs. Not less than
+
+days before utilizing the bond, the department shall issue a
+
+notice of violation or order that alleges violation of part 115 and
+
+shall provide the owner or operator an opportunity for a hearing.
+
+(10) Before closure of a landfill, if money is disbursed from
+
+the perpetual care fund, the department may require a corresponding
+
+increase in the amount of a required bond if necessary to meet the
+
+requirements of this section.
+
+(11) If an owner or operator of a disposal area fulfills the
+
+financial assurance requirements of part 115 by obtaining a bond,
+
+including, but not limited to, a perpetual care fund bond, and the
+
+surety company, insurer, trustee, bank, or financial or other
+
+institution that issued or holds the bond becomes the subject of a
+
+bankruptcy action commenced under title 11 of the United States
+
+Code, 11 USC 101 to 1532, or any successor statute or has its
+
+authority to issue or hold the bond suspended or revoked, the owner
+
+or operator shall, within not later than 60 days after receiving
+
+notice of that event, establish alternate financial assurance under
+
+part 115.
+
+(12) Owners or operators may demonstrate all or a portion of
+
+required financial assurance for 2 or more materials management
+
+facilities that are not landfills with a risk pooling financial
+
+mechanism approved by the department that meets all of the
+
+following requirements:
+
+(a) The mechanism is administered by a surety company,
+insurer, surety, bank, or other financial institution that has
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+authority to issue such a the mechanism and is regulated and
+
+examined by a state or federal agency.
+
+(b) The mechanism is irrevocable and renews automatically
+
+unless, not less than 120 days before the automatic renewal date,
+
+the insurer, surety, bank, or other financial institution notifies
+
+the department and the owners or operators of the covered
+
+facilities that the mechanism will not be renewed, and the
+
+department agrees in writing to termination of the mechanism.
+
+(c) The amount of financial assurance available for any single
+
+covered facility is not less than would be available for that
+
+facility if it the facility was covered alone under a bond.
+
+(d) The addition or deletion of facilities covered under the
+mechanism requires written agreement of the director.
+
+(13) The department shall access and use funds under a
+
+mechanism approved under subsection (12) subject to the provisions
+
+for bonds under subsection (9).
+
+Sec. 11523a. (1) The department shall not issue a license to
+
+operate a landfill that is subject to section 11523(1)(b) unless
+
+the applicant demonstrates that the combination of the landfill
+
+care fund and the financial capability of the applicant as
+
+evidenced by a financial test provides financial assurance in an
+
+amount not less than that the amount required by this section. An
+
+applicant may utilize a financial test for an amount not more than
+
+70% of the closure, postclosure, and corrective action cost
+
+estimate. For applications for a license to operate submitted on or
+
+after the date 2 years after the effective date of the amendatory
+
+act that added subsection (3)(c), March 29, 2023, an applicant may
+
+utilize use a financial test for an amount more than 70% but not
+
+more than 95% of the closure, postclosure, and corrective action
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+cost estimate if the owner or operator demonstrates that the owner
+
+or operator passes a financial test under and otherwise meets the
+
+requirements of R 299.9709 of the MAC.
+
+(2) An applicant may demonstrate compliance with this section
+
+by submitting to the department evidence that the applicant has
+
+financial assurance for any existing unit or new unit in an amount
+
+equal to or more than the sum of the following standardized costs:
+
+(a) A standard closure cost estimate. The standard closure
+
+cost estimate shall must be based upon on the sum of the following
+
+costs in 2018 dollars, adjusted for inflation and partial closures,
+
+if any, as specified in subsections (4) and (5):
+
+(i) A base cost of $40,000.00 per acre to construct a compacted
+soil final cover using on-site material.
+
+(ii) A supplemental cost of $40,000.00 per acre, to install a
+
+synthetic cover liner, if required by rules under this part.
+
+(iii) A supplemental cost of $10,000.00 per acre, if low
+
+permeability soil must be transported from off-site to construct
+
+the final cover or if a bentonite geocomposite liner is used
+
+instead of low permeability soil in a composite cover.
+
+(iv) A supplemental cost of $9,000.00 per acre, to construct a
+
+passive gas collection system in the final cover or a supplemental
+
+cost of $15,000.00 per acre for an active gas collection and
+
+control system, for those areas without a gas collection and
+
+control system already installed.
+
+(b) A standard postclosure cost estimate. The standard
+
+postclosure cost estimate shall must be based upon on the sum of
+
+the following costs, adjusted for inflation as specified in section
+
+11525(3):
+
+(i) A final cover maintenance cost of $400.00 per acre per
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+year.
+
+(ii) A leachate disposal cost of $400.00 per acre per year.
+
+(iii) A leachate transportation cost of $4,000.00 per acre per
+
+year, if leachate is required to be transported off-site for
+
+treatment.
+
+(iv) An active gas collection and control system monitoring and
+
+maintenance cost of $900.00 per acre per year for active gas
+
+collection and control systems subject to the requirements of
+
+standards of performance for new stationary sources, 40 CFR part
+
+60.monthly wellhead monitoring under part 55, 40 CFR part 60, 40
+
+CFR part 62, or 40 CFR part 63.
+
+(v) An active gas collection and control system maintenance
+
+cost of $500.00 per acre per year for landfills not subject to the
+
+requirements of standards of performance for new stationary
+
+sources, 40 CFR part 60.monthly wellhead monitoring under part 55,
+
+CFR part 60, 40 CFR part 62, or 40 CFR part 63.
+
+(vi) A passive gas collection system maintenance cost of $35.00
+per acre per year.
+
+(vii) A groundwater monitoring cost of $2,000.00 per monitoring
+well per year.
+
+(viii) A gas monitoring cost of $200.00 per monitoring point per
+
+year, for monitoring points used to detect landfill gas at or
+
+beyond the facility property boundary.
+
+(c) A corrective action cost estimate, if any. The corrective
+
+action cost estimate shall must be a detailed written estimate, in
+
+current dollars, of the cost of hiring a third party to perform
+
+corrective action in compliance with part 115.
+
+(3) Instead of using some or all of the standardized costs
+
+specified in subsection (2), an applicant may use the site-specific
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+costs of closure or postclosure maintenance and monitoring. A site-
+
+specific cost estimate shall must be a written estimate, in current
+
+dollars, of the cost of hiring a third party to perform the
+
+activity. For the purposes of this subsection, a parent corporation
+
+or a subsidiary of the owner or operator is not a third party.
+
+Site-specific cost estimates shall must comply with the following,
+
+as applicable:
+
+(a) For closure, be based on the cost to close the largest
+
+area of the landfill requiring a final cover at any time during the
+
+active life, when the extent and manner of its the landfill's
+
+operation would make closure the most expensive, in compliance with
+
+the approved closure plan. The closure cost estimate shall must not
+
+incorporate any salvage value from the sale of structures, land,
+
+equipment, or other assets associated with the facility at the time
+
+of final closure.
+
+(b) For postclosure, be based on the cost at any given time to
+
+conduct postclosure maintenance and monitoring in compliance with
+
+the approved postclosure plan for the next 30 years of the
+
+postclosure period, or for the remainder of the postclosure period
+
+if the remainder is less than 30 years. However, the applicant
+
+shall submit to the department an estimate of the postclosure
+
+maintenance and monitoring cost for the entire postclosure period.
+
+(c) For costs for operation and maintenance of an on-site
+
+wastewater treatment facility managing leachate at a landfill that
+
+are substituted for the standardized leachate disposal and
+
+transportation costs of this section, be based on an engineering
+
+evaluation of total wastewater flow and include utilities,
+
+staffing, and incidental costs to maintain and ensure compliance
+
+with all applicable permits.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(4) The owner or operator of a landfill subject to this
+
+section shall, during the active life of the landfill and during
+
+the postclosure care period, annually adjust the financial
+
+assurance cost estimates and corresponding amount of financial
+
+assurance for inflation. The standard closure cost estimate and
+
+corrective action cost estimate shall must be adjusted for
+
+inflation by multiplying the cost estimate by an inflation factor
+
+derived from the most recent United States Department of the
+
+Interior, Bureau of Reclamation Composite Index published by the
+
+United States Department of Commerce or another index that is more
+
+representative of the costs of closure and postclosure monitoring
+
+and maintenance as approved by the department. The owner or
+
+operator shall document the adjustment on a form consistent with
+
+part 115 as provided or approved by the department and shall place
+
+the documentation in the operating record of the facility.
+
+(5) The owner or operator of a landfill subject to this
+
+section may request that the department authorize a reduction in
+
+the approved cost estimates and corresponding financial assurance
+
+for the landfill. Within Not later than 60 days after receiving the
+
+financial assurance reduction request under this subdivision, the
+
+department shall approve or deny the request in writing. A denial
+
+shall must state the reasons for the denial. A financial assurance
+
+reduction request shall must certify completion of any of the
+
+following activities:
+
+(a) Partial closure of the landfill. The current closure cost
+
+estimate for partially closed portions of a landfill unit may be
+
+reduced by 80%, if the maximum waste slope on the unclosed portions
+
+of the unit does not exceed 25%. The percentage of the cost
+
+estimate reduction approved by the department for the partially
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+closed portion shall must be reduced 1% for every 1% increase in
+
+the slope of waste over 25% in the active portion. An owner or
+
+operator requesting a reduction in financial assurance for partial
+
+closure shall submit with the request a certification under the
+
+seal of a licensed professional engineer of both of the following:
+
+(i) That a portion of the licensed landfill unit has reached
+
+final grades and has had a final cover installed in compliance with
+
+the approved closure plan and part 115.
+
+(ii) The maximum slope of waste in the active portion of the
+landfill unit at the time of partial closure.
+
+(b) Final closure of the landfill. An owner or operator
+
+requesting a cost estimate reduction for final closure shall submit
+
+with the request a certification under the seal of a licensed
+
+professional engineer that closure of that landfill unit has been
+
+fully completed in compliance with the approved closure plan for
+
+the landfill. Within Not later than 60 days of after receiving a
+
+certification under this subdivision, the department shall perform
+
+a consistency review of the submitted certification and do 1 of the
+
+following:
+
+(i) Approve the certification and notify the owner or operator
+that the closure cost estimate may be reduced to zero.
+
+(ii) Disapprove the certification and provide the owner or
+
+operator with a detailed written statement of the reasons the
+
+department has determined that closure certification has not been
+
+conducted in compliance with part 115 or an approved closure plan.
+
+(c) Postclosure maintenance and monitoring. A landfill owner
+
+or operator may request a reduction in the postclosure cost
+
+estimate and corresponding financial assurance for 1 year or more
+
+of postclosure maintenance and monitoring if final closure of a
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+landfill unit has been completed and the landfill has been
+
+monitored and maintained in compliance with the approved
+
+postclosure plan. Within Not later than 60 days after receiving a
+
+cost estimate reduction request, the department shall grant written
+
+approval or issue a written denial stating the reason for denial.
+
+If the department grants the request, the owner or operator may
+
+reduce the postclosure cost estimate to reflect the number of years
+
+remaining in the postclosure period. The department shall deny the
+
+request if the owner or operator has not performed the specific
+
+tasks consistent with part 115 and an approved postclosure plan.
+
+The department shall not grant a request under this subdivision to
+
+reduce the postclosure cost estimate and the corresponding
+
+financial assurance to below the maximum required perpetual care
+
+fund amount specified in section 11525(3) unless the owner or
+
+operator has demonstrated within the past 5-year period that the
+
+landfill is on target to achieve functional stability as described
+
+in section 11517 within the time remaining in the postclosure
+
+period.
+
+(6) The owner or operator of a landfill subject to this
+
+section may request a reduction in the amount of 1 or more of the
+
+financial assurance mechanisms in place. If the combined value of
+
+the remaining financial assurance mechanisms equals the amount
+
+required under this section, the department shall approve the
+
+request.
+
+Sec. 11523b. (1) The owner or operator of a landfill or coal
+
+ash combustion residuals impoundment may establish a trust fund or
+
+escrow account to fulfill the requirements of sections 11523 and
+
+11523a.
+
+(2) All earnings and interest from a trust fund or escrow
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+account shall must be credited to the fund or account. However, the
+
+The custodian may be compensated for reasonable fees and costs for
+
+the custodian's responsibilities as custodian. The custodian shall
+
+ensure the filing of all required tax returns for which the trust
+
+fund or escrow account is liable and shall disburse funds from
+
+earnings to pay taxes owed by the trust fund or escrow account,
+
+without permission of the department.
+
+(3) The custodian shall annually, 30 days preceding the
+
+anniversary date of establishment of the fund, furnish to the owner
+
+or operator and to the department a statement confirming the value
+
+of the fund or account as of the end of the month immediately
+
+preceding the submittal of the report.
+
+(4) The owner or operator may request that the department
+
+authorize the release of funds from a trust fund or escrow account.
+
+The department shall grant the request if the owner or operator
+
+demonstrates that the value of the fund or account exceeds the
+
+owner's or operator's financial assurance obligation. A payment or
+
+disbursement from the fund or account shall must not be made
+
+without the prior written approval of the department.
+
+(5) The owner or operator shall receive all interest or
+
+earnings from a trust fund or escrow account upon its the trust
+
+fund's or escrow account's termination.
+
+(6) If an owner or operator of a disposal area fulfills the
+
+financial assurance requirements of part 115 by establishing a
+
+trust fund or escrow account and the custodian has its the
+
+custodian's authority to act as a custodian suspended or revoked,
+
+the owner or operator shall, within not later than 60 days after
+
+receiving notice of the suspension or revocation, establish
+
+alternative financial assurance under part 115.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(7) As used in this section, "custodian" means the trustee of
+a trust fund or escrow agent of an escrow account.
+
+Sec. 11525. (1) This section does not apply to a landfill
+unless the landfill is subject to section 11523(1)(a).
+
+(2) The owner or operator of a landfill or coal ash combustion
+
+residuals impoundment shall establish and maintain a perpetual care
+
+fund for a period of 30 years after final closure of the landfill
+
+or coal ash combustion residuals impoundment as specified in this
+
+section. A perpetual care fund may be established as a trust fund,
+
+an escrow account, or a perpetual care fund bond and may be used to
+
+demonstrate financial assurance for a landfill or coal ash
+
+combustion residuals impoundment.
+
+(3) Except as otherwise provided in this section, the owner or
+
+operator of a landfill shall increase the amount of the perpetual
+
+care fund 75 cents for each ton or portion of a ton of solid waste,
+
+other than materials described in subsection (4), that is disposed
+
+of in the landfill until the fund reaches the maximum required fund
+
+amount. As of July 1, 2018, the maximum required fund amount for a
+
+landfill or coal ash combustion residuals impoundment is
+
+$2,257,000.00. The department shall annually adjust this amount for
+
+inflation by multiplying the amount by an inflation factor derived
+
+from the most recent United States Department of the Interior,
+
+Bureau of Reclamation Composite Index published by the United
+
+States Department of Commerce or another index more representative
+
+of the costs of closure and postclosure monitoring and maintenance
+
+as approved by the department. The department shall round the
+
+resulting amount to the nearest thousand dollars. Increases to the
+
+amount of a perpetual care fund required under this subsection
+
+shall must be calculated based on solid waste disposed of in the
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+landfill as of the end of the state fiscal year and shall must be
+
+made within not later than 30 days after the end of each state
+
+fiscal year.
+
+(4) The owner or operator of a landfill or coal ash combustion
+
+residuals impoundment shall increase the amount of the perpetual
+
+care fund 7.5 cents for each ton or portion of a ton of the
+
+following that are disposed of after December 28, 2018 until the
+
+fund reaches the maximum required fund amount under subsection (3):
+
+(a) Coal ash, wood ash, cement kiln dust, or a combination
+
+thereof that is disposed of in the landfill or coal ash combustion
+
+residuals impoundment if the disposal area is used only for the
+
+disposal of these materials or these materials are permanently
+
+segregated in the disposal area.
+
+(b) Wastewater treatment sludge or sediments from wood pulp or
+
+paper producing industries that is disposed of in a landfill if the
+
+landfill is used only for the disposal of these materials or these
+
+materials are permanently segregated in the landfill.
+
+(c) Foundry sand or other material that is approved by the
+
+department for use as daily cover at a landfill if it is an
+
+operating landfill, foundry sand that is disposed of in a landfill
+
+if the landfill is used only for the disposal of foundry sand, or
+
+foundry sand that is permanently segregated in a landfill.
+
+(5) The owner or operator of a landfill that is used only for
+
+the disposal of a mixture of 2 or more of the materials described
+
+in subsection (4)(a) to (c) or in which a mixture of 2 or more of
+
+these materials are permanently segregated shall increase the
+
+amount of the perpetual care fund 7.5 cents for each ton or portion
+
+of a ton of these materials that are disposed of in the landfill.
+
+(6) The amount of a perpetual care fund is not required to be
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+increased for materials that are regulated under part 631.
+
+(7) The owner or operator of a landfill may increase the
+
+amount of the perpetual care fund above the amount otherwise
+
+required by this section at his or her the owner's or operator's
+
+discretion.
+
+(8) The custodian of a perpetual care fund trust fund or
+
+escrow account shall be a bank or other financial institution that
+
+has the authority to act as a custodian and whose account
+
+operations are regulated and examined by a federal or state agency.
+
+Until the perpetual care fund trust fund or escrow account reaches
+
+the maximum required fund amount, the custodian of the perpetual
+
+care fund trust fund or escrow account shall credit any interest
+
+and earnings of the perpetual care fund trust fund or escrow
+
+account to the perpetual care fund trust fund or escrow account.
+
+After the perpetual care fund trust fund or escrow account reaches
+
+the maximum required fund amount, any interest and earnings shall
+
+must be distributed as directed by the owner or operator. The
+
+custodian may be compensated from the fund for reasonable fees and
+
+costs incurred in discharging the custodian's responsibilities. The
+
+custodian of a perpetual care fund trust fund or escrow account
+
+shall make an accounting to the department within not later than 30
+
+days following after the close of each state fiscal year.
+
+(9) The custodian of a perpetual care fund shall not disburse
+
+any funds to the owner or operator of a landfill or coal ash
+
+combustion residuals impoundment for the purposes of the perpetual
+
+care fund except upon on the prior written approval of the
+
+department. However, the The custodian shall ensure the filing of
+
+all required tax returns for which the perpetual care fund is
+
+liable and shall disburse funds to pay taxes owed by the perpetual
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+care fund without permission of the department. The owner or
+
+operator of the landfill or coal ash combustion residuals
+
+impoundment shall provide notice of requests for disbursement and
+
+the department's denials and approvals to the custodian of the
+
+perpetual care fund. The owner or operator of a landfill or coal
+
+ash combustion residuals impoundment may request disbursement of
+
+funds from a perpetual care fund if the amount of money in the fund
+
+exceeds the maximum required fund amount under subsection (3),
+
+unless a disbursement for that reason has been approved by the
+
+department within the preceding 180 days. The department shall
+
+approve the disbursement if the total amount of financial assurance
+
+maintained meets the requirements of section 11523(1)(a) or (c), as
+
+applicable.
+
+(10) If the owner or operator of a landfill or coal ash
+
+combustion residuals impoundment fails to conduct closure,
+
+postclosure monitoring and maintenance, or corrective action as
+
+necessary to protect the environment, natural resources, or the
+
+public health, safety, or welfare, or fails to request the
+
+disbursement of money from a perpetual care fund when necessary to
+
+protect the environment, natural resources, or the public health,
+
+safety, or welfare, or fails to pay the solid waste management
+
+program administration fee or the surcharge required under section
+
+11525a, then the department may draw on the perpetual care fund and
+
+may expend the money for closure, postclosure monitoring and
+
+maintenance, and corrective action or for payment of the fee or
+
+surcharge, as necessary. The department may also draw on a
+
+perpetual care fund for administrative costs associated with
+
+actions taken under this subsection.
+
+(11) Upon On approval by the department of a request to
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+terminate financial assurance for a landfill or coal ash combustion
+
+residuals impoundment under section 11525b, any money in the
+
+perpetual care fund for that landfill or coal ash combustion
+
+residuals impoundment shall may be disbursed by the custodian to
+
+the owner of the landfill or coal ash combustion residuals
+
+impoundment unless an agreement between the owner and the operator
+
+provides otherwise.
+
+(12) The owner of a landfill or coal ash combustion residuals
+
+impoundment shall provide notice to the custodian of the perpetual
+
+care fund for that landfill or coal ash combustion residuals
+
+impoundment if there is a change of ownership of the landfill. The
+
+custodian shall maintain records of ownership of a landfill or coal
+
+ash combustion residuals impoundment during the period of existence
+
+of the perpetual care fund.
+
+(13) This section does not relieve an owner or operator of a
+
+landfill or coal ash combustion residuals impoundment of any
+
+liability that the owner or operator may have under part 115 or as
+
+otherwise provided by law.
+
+(14) This section does not create a cause of action at law or
+
+in equity against a custodian of a perpetual care fund other than
+
+for errors or omissions related to investments, accountings,
+
+disbursements, filings of required tax returns, and maintenance of
+
+records required by this section or the applicable perpetual care
+
+fund.
+
+(15) A perpetual care fund that is established as a trust fund
+
+or escrow account may be replaced with a perpetual care fund that
+
+is established as a perpetual care fund bond that complies with
+
+this section. Upon such replacement, If replaced, the department
+
+shall authorize the custodian of the trust fund or escrow account
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+to disburse the money in the trust fund or escrow account to the
+
+owner of the landfill or coal ash combustion residuals impoundment
+
+unless an agreement between the owner and operator specifies
+
+otherwise.
+
+(16) An owner or operator of a landfill or coal ash combustion
+
+residuals impoundment that uses a perpetual care fund bond to
+
+satisfy the requirements of this section shall also establish a
+
+standby trust fund or escrow account. All payments made under the
+
+terms of the perpetual care fund bond shall must be deposited by
+
+the custodian directly into the standby trust fund or escrow
+
+account in compliance with instructions from the department. The
+
+standby trust fund or escrow account must meet the requirements for
+
+a trust fund or escrow account established as a perpetual care fund
+
+under subsection (2), except that until the standby trust fund or
+
+escrow account is funded pursuant to in accordance with the
+
+requirements of this subsection, the following are not required:
+
+(a) Payments into the standby trust fund or escrow account as
+specified in subsection (3).
+
+(b) Annual accountings as required in subsection (8).
+
+(17) As used in this section, "custodian" means the trustee or
+
+escrow agent of any of the following:
+
+(a) A perpetual care fund that is established as a trust fund
+or escrow account.
+
+(b) A standby trust fund or escrow account for a perpetual
+care fund bond.
+
+Sec. 11525a. (1) The owner or operator of a landfill or coal
+
+ash combustion residuals impoundment shall pay a surcharge as
+
+follows:
+
+(a) Except as provided in subdivision (b), for a landfill or
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+coal ash combustion residuals impoundment that is not a captive
+
+facility, 36 cents for each ton or portion of a ton of solid waste
+
+or municipal solid waste incinerator ash that is disposed of in the
+
+landfill or coal ash combustion residuals impoundment before
+
+October 1, 2027.
+
+(b) For a landfill or coal ash combustion residuals
+
+impoundment that is not a captive facility, 12 cents per ton or
+
+portion of a ton of foundry sand, slag from metal melting, baghouse
+
+dust, furnace refractory brick, pulp and paper mill material, paper
+
+mill ash, wood ash, coal bottom ash, mixed wood ash, fly ash, flue
+
+gas desulfurization sludge, contaminated soil, cement kiln dust,
+
+lime kiln dust, and other industrial waste that weighs at least 1
+
+ton per cubic yard, as determined by the generator.
+
+(c) For a type III landfill or coal ash combustion residuals
+
+impoundment that is a captive facility and annually receives the
+
+following amount of waste, the following annual corresponding
+
+surcharge for each state fiscal year, based on the amount of waste
+
+received during that fiscal year:
+
+(i) 100,000 or more tons of waste, $3,000.00.
+
+(ii) 75,000 or more but less than 100,000 tons of waste,
+
+$2,500.00.
+
+(iii) 50,000 or more but less than 75,000 tons of waste,
+$2,000.00.
+
+(iv) 25,000 or more but less than 50,000 tons of waste,
+$1,000.00.
+
+(v) Less than 25,000 tons of waste, $500.00.
+
+(2) Within Not later than 30 days after the end of each
+
+quarter of a state fiscal year, the owner or operator of a landfill
+
+or coal ash combustion residuals impoundment that is not a captive
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+facility shall pay the surcharge under subsection (1)(a) for waste
+
+received during that quarter of the state fiscal year. Within Not
+
+later than 30 days after the end of a state fiscal year, the owner
+
+or operator of a type III landfill or coal ash combustion residuals
+
+impoundment that is a captive facility shall pay the surcharge
+
+under subsection (1)(b) (1)(c) for waste received during that state
+
+fiscal year.
+
+(3) If the owner or operator of a landfill or coal ash
+
+combustion residuals impoundment is required to pay the surcharge
+
+under subsection (1), the owner or operator shall pass through and
+
+collect the surcharge from any person that generated the solid
+
+waste or arranged for its delivery to the hauler or solid waste
+
+processing and transfer facility, notwithstanding the provisions of
+
+any agreement to the contrary or the absence of any agreement.
+
+(4) Surcharges collected under this section must be forwarded
+
+to the state treasurer for deposit in the solid waste staff account
+
+of the solid waste management fund.
+
+Sec. 11525b. (1) The owner or operator of a materials
+
+utilization facility for which financial assurance is required
+
+under section 11523 or of a disposal area shall provide continuous
+
+financial assurance coverage until released from these requirements
+
+by the department as provided in under part 115.
+
+(2) Upon On transfer of a materials utilization facility for
+
+which financial assurance is required under section 11523 or of a
+
+disposal area, the former owner or operator shall continue to
+
+maintain financial assurance until the financial assurance is
+
+replaced by the new owner or operator or until the materials
+
+utilization facility or disposal area is released from the
+
+financial assurance obligation at the end of the postclosure
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+period.
+
+(3) If the owner or operator of a landfill or coal ash
+
+combustion residuals impoundment has completed postclosure
+
+maintenance and monitoring in compliance with part 115 and the
+
+approved postclosure plan, the owner or operator may request that
+
+termination of the financial assurance required by sections 11523
+
+and 11523a. be terminated. The person requesting termination of
+
+financial assurance shall submit to the department a statement that
+
+the landfill or coal ash combustion residuals impoundment has been
+
+monitored and maintained in compliance with part 115 and the
+
+approved postclosure plan for the postclosure period specified in
+
+section 11523 and shall certify that the landfill or coal ash
+
+combustion residuals impoundment is not subject to corrective
+
+action under section 11512(21). Within Not later than 60 days after
+
+receiving a statement under this subsection, the department shall
+
+perform a consistency review of the submitted statement and do 1 of
+
+the following:
+
+(a) Approve the statement, notify the owner or operator that
+
+the owner or operator is no longer required to maintain financial
+
+assurance, return or release all financial assurance mechanisms,
+
+and, if the perpetual care fund was established as a trust fund or
+
+escrow account, notify the custodian of the perpetual care fund to
+
+disburse money from the fund as provided in section 11525(11).
+
+(b) Disapprove the statement and provide the owner or operator
+
+with a detailed written explanation of the reasons why the
+
+department has determined that postclosure maintenance and
+
+monitoring and corrective action, if any, have not been conducted
+
+in compliance with part 115 or the approved postclosure plan.
+
+(4) The owner or operator of a materials utilization facility
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+required to provide financial assurance under section 11523(2) may
+
+request that the financial assurance be terminated. The person
+
+requesting termination of financial assurance shall submit to the
+
+department a statement that the facility has been maintained in
+
+compliance with part 115 and that all managed material has been
+
+removed from the facility. Within Not later than 60 days after
+
+receiving a statement under this subsection, the department shall
+
+perform a consistency review of the statement and do 1 of the
+
+following:
+
+(a) Approve the statement, notify the owner or operator that
+
+the owner or operator is no longer required to maintain financial
+
+assurance, and return or release all financial assurance
+
+mechanisms.
+
+(b) Disapprove the statement and provide the owner or operator
+
+with a detailed written explanation of the reasons why the
+
+department has determined that all managed material has not been
+
+removed from the facility or that the facility has not been
+
+maintained in compliance with part 115.
+
+Sec. 11533. The department may promulgate rules to implement
+
+this part. The rules may include, but are not limited to, standards
+
+for any of the following:
+
+(a) Hydrogeologic investigations.
+
+(b) Monitoring.
+
+(c) Liner materials.
+
+(d) Leachate collection and treatment, if applicable.
+
+(e) Groundwater separation distances.
+
+(f) Environmental assessments.
+
+(g) Gas control.
+
+(h) Soil erosion.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(i) Sedimentation control.
+
+(j) Groundwater and surface water quality.
+
+(k) Noise.
+
+(l) Air pollution odors.
+
+(m) The use of floodplains and wetlands.
+
+(n) Managed materials transporting units.
+
+(o) Grants.
+
+(p) Materials management planning.
+
+(q) Closure and postclosure.
+
+Sec. 11550. (1) The solid waste management fund is created
+
+within in the state treasury.
+
+(2) The state treasurer may receive money shall deposit money
+
+and other assets received from any source for deposit into in the
+
+fund. The state treasurer shall direct the investment of money in
+
+the fund . The state treasurer shall and credit to the fund
+
+interest and earnings from fund the investments to the fund.
+
+(3) The department shall be is the administrator of the fund
+for auditing purposes.audits of the fund.
+
+(4) (2) Money in the solid waste management fund at the close
+
+of the fiscal year shall must remain in the fund and shall must not
+
+lapse to the general fund.
+
+(5) (3) The state treasurer shall establish, within in the
+
+solid waste management fund, a solid waste staff account and a
+
+perpetual care account.
+
+(6) (4) Subject to subsection (5), (7), money shall must be
+
+expended from the solid waste staff account, upon on appropriation,
+
+only for the following purposes:
+
+(a) Preparing generally applicable guidance regarding the
+materials management facility program or its the program's
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+implementation or enforcement.
+
+(b) Reviewing and acting on any notification, registration,
+
+application for approval under a general permit, application for a
+
+permit or license, permit or license revision, or permit or license
+
+renewal under part 115, including the cost of public notice and
+
+public hearings.
+
+(c) Providing an advisory analysis under section 11510(1).
+
+(d) General administrative costs of running the permit,
+
+license, registration, and notification program under part 115,
+
+including permit, license, registration, and notification tracking
+
+and data entry.
+
+(e) Inspection of materials management facilities and open
+dumps.
+
+(f) Implementing and enforcing the conditions of any permit,
+
+license, approval under a general permit, registration, or order
+
+under part 115.
+
+(g) Groundwater monitoring audits at disposal areas that are
+
+or have been licensed under this part or at any other materials
+
+management facility that requires groundwater monitoring because of
+
+a release or suspected release.
+
+(h) Reviewing and acting upon on corrective action plans for
+
+materials management facilities, if required under part 115.
+
+(i) Review of certifications of closure under part 115.
+
+(j) Postclosure maintenance and monitoring inspections and
+
+review under part 115.
+
+(k) Review of bonds and financial assurance documentation at
+materials management facilities, if required under part 115.
+
+(l) Materials management planning.
+
+(m) Materials utilization education and outreach.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(n) Development of a materials utilization and recycled
+materials market directory.
+
+(o) Administration of grants and loans under part 115 for
+
+planning, market development and recycling infrastructure,
+
+outreach, and education.
+
+(p) Up to Not more than 1 full-time equivalent employee for
+
+the Michigan economic development corporation to address recycled
+
+materials market development.
+
+(7) (5) Money shall must be expended from the perpetual care
+
+account, upon on appropriation, only for the following activities
+
+at materials management facilities for which the requirements of
+
+section 11508(1)(a) are or were met and for which fees have been
+
+collected and deposited into the perpetual care account:
+
+(a) To conduct postclosure maintenance and monitoring if the
+owner or operator is no longer required to do so.
+
+(b) To conduct closure, postclosure maintenance and
+
+monitoring, and necessary corrective action if the owner or
+
+operator has failed to do so. Money shall must be expended from the
+
+account only after funds from any other financial assurance
+
+mechanisms held by the owner or operator have been expended and the
+
+department has made reasonable efforts to obtain funding from other
+
+sources.
+
+(8) (6) Subject to appropriations, the department shall
+provide grants for the following purposes:
+
+(a) The recycling markets program established under subsection
+(7).(9).
+
+(b) The local recycling innovation program established under
+subsection (8).(10).
+
+(c) The recycling access and voluntary participation program
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+established under subsection (9).(11).
+
+(9) (7) The department shall establish a recycling markets
+
+program. The program shall must provide grants or loans for
+
+acquiring equipment or technology, for research and development, or
+
+for associated activities to provide for new or increased use of
+
+recycled materials or to support the development of recycling
+
+markets. Local units of government and nonprofit and for-profit
+
+entities are eligible for funding under the program. The funding is
+
+not limited to entities in counties with approved materials
+
+management plans. In addition to any other reporting requirements
+
+established by the department, grant recipients under the program
+
+shall provide information on the materials managed.
+
+(10) (8) The department shall establish a local recycling
+
+innovation program. The program shall provide grants or loans for
+
+developing local recycling infrastructure, for recycling education
+
+campaigns for residents and businesses, technology, or other
+
+activities that result in increasing recycling access, quality, or
+
+participation, for reducing waste, or for sustainable materials
+
+management. Local units of government and nonprofit and for-profit
+
+entities are eligible for funding under the program. The funding is
+
+not limited to entities in counties with approved materials
+
+management plans. In addition to any other reporting requirements
+
+established by the department, grant recipients under the program
+
+shall provide the department information on the materials managed.
+
+(11) (9) The department shall establish a recycling access and
+
+voluntary participation program. The program shall must provide
+
+grants or loans to assist local units of government in implementing
+
+best materials utilization practices or identifying ways to
+
+innovate and to collaborate with other local units and the private
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+sector. To be eligible for a grant, a local unit of government must
+
+be a county that meets, or a municipality located within a county
+
+that meets, both of the following requirements:
+
+(a) Has a materials management plan.
+
+(b) Has documented progress toward meeting or has met its
+
+benchmark recycling standards and ultimately the municipal solid
+
+waste recycling rate goal under section 11507.
+
+(12) (10) The department shall publish and make available to
+
+grant and loan applicants criteria upon on which the grants and
+
+loans will be made.
+
+(13) (11) By March 1 annually, the department shall prepare
+
+and submit to the governor, the legislature, the chairs of the
+
+standing committees of the senate and house of representatives with
+
+primary responsibility for issues related to natural resources and
+
+the environment, and the chairs of the subcommittees of the senate
+
+and house appropriations committees with primary responsibility for
+
+appropriations to the department a report that details the
+
+activities of the previous fiscal year funded by the staff account
+
+of the solid waste management fund. This report shall must include,
+
+at a minimum, all of the following information as they apply
+
+applicable to the department:
+
+(a) The number of full-time equated positions performing solid
+
+waste management authorization, compliance, and enforcement
+
+activities.
+
+(b) All of the following information related to the
+
+construction permit applications received under section 11509:
+
+(i) The number of applications received by the department,
+
+reported as the number of applications determined to be
+
+administratively incomplete and the number determined to be
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+administratively complete.
+
+(ii) The number of applications determined to be
+
+administratively complete for which a final action was taken by the
+
+department. The number of final actions shall must be reported as
+
+the number of applications approved, the number of applications
+
+denied, and the number of applications withdrawn by the applicant.
+
+(iii) The percentage and number of applications determined to be
+
+administratively complete for which a final decision was made
+
+within the period required by part 13.
+
+(c) All of the following information related to the operating
+license applications received under section 11512:
+
+(i) The number of applications received by the department,
+
+reported as the number of applications determined to be
+
+administratively incomplete and the number determined to be
+
+administratively complete.
+
+(ii) The number of applications determined to be
+
+administratively complete for which a final action was taken by the
+
+department. The number of final actions shall must be reported as
+
+the number of applications approved, the number of applications
+
+denied, and the number of applications withdrawn by the applicant.
+
+(iii) The percentage and number of applications determined to be
+
+administratively complete for which a final decision was made
+
+within the period required by part 13.
+
+(d) The number of inspections conducted at licensed disposal
+
+areas as required by section 11519 and the number of inspections
+
+conducted at materials utilization facilities as required by
+
+section 11526.
+
+(e) The number of letters of warning sent to licensed disposal
+areas.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(f) The number of contested case hearings and civil actions
+
+initiated and completed, the number of voluntary consent orders and
+
+administrative orders entered or issued, and the amount of fines
+
+and penalties collected through such the actions or orders.
+
+(g) For each enforcement action that includes a penalty, a
+
+description of the corrective actions required by the enforcement
+
+action.
+
+(h) The number of solid waste complaints received,
+
+investigated, resolved, and not resolved by the department.
+
+(i) The amount of revenue in the staff account of the solid
+
+waste management fund and the amount of revenue in the coal ash
+
+combustion residuals care fund at the end of the fiscal year.
+
+(14) (12) The coal ash combustion residuals care fund is
+
+created within in the state treasury. The state treasurer may
+
+receive money from any source for deposit into the fund. The state
+
+treasurer shall direct the investment of the fund. The state
+
+treasurer shall credit to the fund interest and earnings from fund
+
+investments.
+
+(15) (13) Money shall must be expended from the coal ash
+
+combustion residuals care fund, upon on appropriation, only for the
+
+following purposes relating to coal ash combustion residuals
+
+impoundments and coal ash combustion residuals landfills:
+
+(a) Preparing generally applicable guidance regarding the
+
+solid waste permit and license program or its the program's
+
+implementation or enforcement.
+
+(b) Reviewing and acting on any application for a permit or
+
+license, permit or license revision, or permit or license renewal,
+
+including the cost of public notice and public hearings.
+
+(c) Performing an advisory analysis under section 11510(1).
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(d) General administrative costs of running the permit and
+
+license program, including permit and license tracking and data
+
+entry.
+
+(e) Inspection of licensed disposal areas and open dumps.
+
+(f) Implementing and enforcing the conditions of any permit or
+
+license.
+
+(g) Groundwater monitoring audits at disposal areas that are
+or have been licensed under this part.
+
+(h) Reviewing and acting upon on corrective action plans for
+disposal areas that are or have been licensed under this part.
+
+(i) Review of certifications of closure.
+
+(j) Postclosure maintenance and monitoring inspections and
+
+review.
+
+(k) Review of bonds and financial assurance documentation at
+disposal areas that are or have been licensed under this part.
+
+SUBPART 12
+
+COAL COMBUSTION RESIDUALS
+
+Sec. 11590. (1) This subpart, including, but not limited to,
+
+permitting and licensing requirements, applies to all of the
+
+following:
+
+(a) Coal combustion residuals landfills.
+
+(b) Coal combustion residuals impoundments.
+
+(c) Lateral expansions of coal combustion residuals landfills
+
+or coal combustion residuals impoundments that engage in solid
+
+waste management of coal combustion residuals generated from the
+
+combustion of coal at an electric utility or independent power
+
+producer.
+
+(d) Unless otherwise provided in this subpart, off-site
+disposal areas of an electric utility or independent power
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+producer. This subpart also applies to any practice that is not a
+
+beneficial use of coal combustion residuals.
+
+(e) Inactive coal combustion residuals impoundments at active
+
+electric utilities and independent power producers, regardless of
+
+how electricity is currently being generated at the facility.
+
+(f) Coal combustion residuals management units at active
+
+facilities or facilities with a legacy coal combustion residuals
+
+impoundment.
+
+(g) Electric utilities and independent power producers that
+
+ceased producing electricity before October 19, 2015 and have a
+
+legacy coal combustion residuals impoundment on-site.
+
+(2) This subpart does not apply to any of the following:
+
+(a) Waste, including, but not limited to, fly ash, bottom ash,
+
+boiler slag, and flue gas desulfurization materials generated at
+
+facilities that are not part of an electric utility or an
+
+independent power producer, such as a manufacturing facility,
+
+university, or hospital.
+
+(b) Waste, including, but not limited to, fly ash, bottom ash,
+
+boiler slag, and flue gas desulfurization materials generated
+
+primarily from the combustion of fuels, including, but not limited
+
+to, fossil fuels, other than coal, for the purpose of generating
+
+electricity, unless the fuel burned consists of more than 50% coal
+
+on a total heat input or mass input basis, whichever results in the
+
+greater mass feed rate of coal.
+
+(c) Any beneficial use of coal combustion residuals.
+
+(d) Coal combustion residuals placement at active or abandoned
+
+underground or surface coal mines.
+
+(e) Municipal solid waste landfills that accept coal
+combustion residuals.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+Sec. 11592. (1) A person shall not establish a coal combustion
+
+residuals landfill or coal combustion residuals impoundment except
+
+as authorized by a construction permit issued by the department
+
+under part 13. A person proposing the establishment of a coal
+
+combustion residuals landfill or surface impoundment shall submit
+
+an application for a construction permit to the department.
+
+(2) An application for a construction permit for a coal
+
+combustion residuals landfill or coal combustion residuals
+
+impoundment must be accompanied by all of the following:
+
+(a) Engineering plans.
+
+(b) An application fee in the following amount:
+
+(i) For a coal combustion residuals landfill, $1,000.00.
+
+(ii) For a coal combustion residuals impoundment, $1,000.00.
+
+(iii) For a lateral or vertical expansion of a coal combustion
+
+residuals impoundment, $750.00.
+
+(3) If the department returns an application to the applicant
+
+as administratively incomplete, the applicant may, not later than 1
+
+year after the application is returned, resubmit the application
+
+with the additional information needed to address the reasons for
+
+being incomplete, without paying an additional application fee.
+
+(4) If the department denies a permit or an applicant
+
+withdraws an application, not later than 1 year after the permit
+
+denial or application withdrawal, the applicant may resubmit the
+
+application with the additional information needed to address the
+
+reasons for the denial or withdrawal, without paying an additional
+
+application fee.
+
+(5) Subject to section 11510(2)(d), an application for a
+
+modification to a construction permit or for renewal of a
+
+construction permit that has expired must be accompanied by a fee
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+of $500.00.
+
+(6) A person may apply for a single permit to construct more
+
+than 1 type of disposal area at the same facility. A person that
+
+applies to permit more than 1 type of disposal area at the same
+
+facility shall pay a fee equal to the sum of the applicable fees
+
+listed in this section for each type of disposal area.
+
+(7) The department shall deposit permit application fees
+
+collected under this section in the solid waste staff account of
+
+the solid waste management fund.
+
+Sec. 11594. (1) Before submitting a construction permit
+
+application under section 11592 for a new coal combustion residuals
+
+disposal area, a person shall request the department to provide an
+
+advisory analysis of the proposed coal combustion residuals
+
+disposal area. Not less than 15 days after the request, and
+
+notwithstanding an advisory analysis result, the person may file an
+
+application for a construction permit. If a construction permit
+
+application is not filed within 2 years of issuance of the advisory
+
+analysis, a new advisory analysis is required.
+
+(2) On receipt of a construction permit application, the
+department shall do all of the following:
+
+(a) Immediately notify all of the following:
+
+(i) The clerk of the municipality in which the proposed
+
+disposal area is located.
+
+(ii) The local soil erosion and sedimentation control agency
+under part 93.
+
+(iii) Each division in the department and the department of
+
+natural resources that has responsibilities regarding the
+
+management of land, air, or water.
+
+(iv) The regional planning agency.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(v) The designated planning agency for the planning area.
+
+(b) Publish a notice in a newspaper or by electronic media
+
+with significant circulation or viewership in the vicinity of the
+
+proposed disposal area. The notice must contain all of the
+
+following:
+
+(i) A map indicating the location of the proposed disposal
+area.
+
+(ii) A description of the proposed disposal area.
+
+(iii) The location where an individual may review or obtain
+
+copies of the complete application.
+
+(iv) An indication that the department will hold a public
+
+hearing in the area of the proposed coal combustion residuals
+
+disposal area if an applicant, a municipality, or a designated
+
+planning agency submits a written request not later than 30 days
+
+after the date of publication of the notice, or by a petition
+
+submitted to the department containing a number of signatures equal
+
+to not less than 10% of the number of registered voters who voted
+
+in the last gubernatorial election of the municipality where the
+
+proposed disposal area is to be located. The petition must be
+
+validated by the clerk of the municipality.
+
+(c) Hold a public hearing after the department preliminarily
+
+reviews the application regarding the proposed disposal area and
+
+all pertinent data and before a construction permit is issued or
+
+denied.
+
+(d) Conduct a consistency review of the proposed disposal
+
+area, including, but not limited to, the application regarding the
+
+proposed disposal area to determine if the proposed disposal area
+
+complies with part 115. The review must be conducted by individuals
+
+qualified in hydrogeology and, if the proposed disposal area is a
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+landfill, landfill engineering. The department shall not issue a
+
+construction permit unless the individuals conducting the review
+
+acknowledge that the application regarding the proposed disposal
+
+area complies with the requirements of part 115. An expansion of a
+
+disposal area, an enlargement in the capacity of a disposal area, a
+
+change in the solid waste boundary or a disposal area, or an
+
+alteration of a coal combustion residuals disposal area to a
+
+different type of coal combustion residuals disposal area than had
+
+been specified in a previous construction permit application
+
+constitutes a new proposal for which a new construction permit,
+
+rather than a modification of a construction permit, is required.
+
+The upgrading of a coal combustion residuals disposal area type
+
+required by the department to comply with part 115 or to comply
+
+with a consent order does not require a new construction permit.
+
+(e) Notify the Michigan aeronautics commission if the proposed
+
+disposal area is a coal combustion residuals landfill or coal
+
+combustion residuals impoundment that is a new site or a lateral
+
+expansion or vertical expansion of an existing unit proposed to be
+
+located not less than 5 miles from a runway or a proposed runway
+
+extension contained in a plan approved by the Michigan aeronautics
+
+commission of an airport licensed and regulated by the Michigan
+
+aeronautics commission. The department shall make a copy of the
+
+application regarding the proposed disposal area available to the
+
+Michigan aeronautics commission. If, not more than 60 days after
+
+receiving notification from the department, the Michigan
+
+aeronautics commission informs the department that operation of the
+
+proposed disposal area would present a potential hazard to air
+
+navigation along with the basis for its findings, the department
+
+may either recommend appropriate changes to the location,
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+construction, or operation of the proposed disposal area or deny
+
+the application regarding the proposed disposal area. The
+
+department shall give an applicant an opportunity to rebut a
+
+finding of the Michigan aeronautics commission that the operation
+
+of a proposed disposal area would present a potential hazard to air
+
+navigation.
+
+(3) The Michigan aeronautics commission shall notify the
+
+department and the owner or operator of a coal combustion residuals
+
+landfill or coal combustion residuals impoundment if the Michigan
+
+aeronautics commission is considering approving a plan that would
+
+provide for a runway or the extension of a runway within 5 miles of
+
+the coal combustion residuals landfill or coal combustion residuals
+
+impoundment.
+
+(4) Before making a final decision regarding a new coal
+
+combustion residuals construction permit, the department shall
+
+publish a notice in a newspaper or by electronic media having
+
+significant circulation in the vicinity of the proposed disposal
+
+area. The notice must contain all of the following:
+
+(a) A map indicating the location of the proposed disposal
+area.
+
+(b) A description of the proposed disposal area.
+
+(c) A description of the department's draft decision and the
+
+location where an individual may review or obtain copies of the
+
+draft decision.
+
+(d) An indication that the department will hold a public
+
+hearing in the area of the proposed coal combustion residuals
+
+disposal area if an applicant, a municipality, or a designated
+
+planning agency submits a written request not later than 30 days
+
+after the date of publication of the notice, or by a petition
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+submitted to the department containing a number of signatures equal
+
+to not less than 10% of the number of registered voters who voted
+
+in the last gubernatorial election of the municipality where the
+
+proposed disposal area is to be located. The petition must be
+
+validated by the clerk of the municipality.
+
+(5) The department shall hold the public hearing as described
+
+in subsection (4) and all pertinent data received must be evaluated
+
+before a construction permit is issued or denied.
+
+(6) The department shall notify the clerk of the municipality
+
+in which the disposal area is proposed to be located and the
+
+applicant of the department's approval or denial of an application
+
+for a construction permit under section 11592 not less than 10 days
+
+after the final decision is made.
+
+Sec. 11596. (1) This section applies to coal combustion
+residuals disposal areas under section 11592.
+
+(2) A person shall not dispose of coal combustion residuals
+
+waste at a coal combustion residuals disposal area unless the coal
+
+combustion residuals disposal area is licensed under this section.
+
+Waste placement in existing units must be consistent with past
+
+operating practices or modified practices to ensure good
+
+management.
+
+(3) Except as otherwise provided in this section, a person
+
+shall not conduct, manage, maintain, or operate a coal combustion
+
+residuals disposal area except as authorized by an operating
+
+license issued by the department under part 13. The owner or
+
+operator of the disposal area shall submit a license application to
+
+the department. The application must be made directly to the
+
+department. A person authorized by part 115 to operate more than 1
+
+type of coal combustion residuals disposal area at the same
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+facility may apply for a single license.
+
+(4) An applicant for a license for a coal combustion residuals
+
+landfill or coal combustion residuals impoundment shall submit
+
+evidence of financial assurance that meets the requirements of
+
+section 11523 or 11523a, the maximum waste slope in the active
+
+portion, an estimate of remaining permitted capacity, and
+
+documentation of the amount of waste received at the disposal area
+
+during the previous license period or expected to be received,
+
+whichever is greater.
+
+(5) An application for a license for a coal combustion
+
+residuals disposal area other than an existing coal combustion
+
+residuals impoundment must include a certification under the seal
+
+of a licensed professional engineer verifying that the construction
+
+of the coal combustion residuals disposal area has proceeded
+
+according to the approved plans. An applicant for a license for an
+
+existing coal combustion residuals impoundment shall submit with
+
+the application documentation in the applicant's possession or
+
+control regarding the construction of the coal combustion residuals
+
+impoundment. If construction of a portion of a coal combustion
+
+residuals landfill or coal combustion residuals impoundment is not
+
+complete, the owner or operator shall submit additional
+
+construction certification of that portion of the coal combustion
+
+residuals landfill or coal combustion residuals impoundment under
+
+section 11516(3).
+
+(6) An applicant for an operating license, not later than 6
+
+months after a license denial, may resubmit an application with
+
+additional information or corrections as are necessary to address
+
+the reason for denial, without being required to pay an additional
+
+application fee.
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(7) An application for an operating license for a coal
+
+combustion residuals landfill must be accompanied by a fee of
+
+$13,000.00. By the anniversary of the issuance of the operating
+
+license, while the operating license remains in effect, the coal
+
+combustion residuals landfill owner or operator shall pay the
+
+department a fee of $13,000.00. If the anniversary of the issuance
+
+of the operating license falls on a legal holiday, the annual fee
+
+must be paid by the next business day.
+
+(8) An application for an operating license for a coal
+
+combustion residuals impoundment must be accompanied by a fee of
+
+$13,000.00. By the anniversary of the issuance of the operating
+
+license, while the operating license remains in effect, the coal
+
+combustion residuals impoundment owner or operator shall pay the
+
+department a fee of $13,000.00. If the anniversary of the issuance
+
+of the operating license falls on a legal holiday, the annual fee
+
+must be paid by the next business day.
+
+(9) The department shall deposit the fees collected under
+
+subsections (7) and (8) in the solid waste staff account of the
+
+solid waste management fund.
+
+(10) On receipt of a license application for either a coal
+
+combustion residuals impoundment or a coal combustion residuals
+
+landfill, the department shall do all of the following:
+
+(a) Immediately notify all of the following:
+
+(i) The clerk of the municipality in which the proposed
+
+disposal area is located.
+
+(ii) The regional solid waste management planning agency.
+
+(b) Publish a notice in a newspaper or by electronic media
+
+with significant circulation or viewership in the vicinity of the
+
+proposed disposal area. The notice must contain all of the
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+following:
+
+(i) A map indicating the location of the proposed disposal
+area.
+
+(ii) A description of the proposed disposal area.
+
+(iii) The location where an individual may review or obtain
+
+copies of the complete license application.
+
+(iv) An indication that the department will accept comments for
+
+not less than 45 days after the date of publication of the notice.
+
+(v) An indication that the department will hold a public
+
+meeting in the area of the disposal area if, not later than 15 days
+
+after the date of publication of the notice, any of the following
+
+occur:
+
+(A) An applicant or municipality submits a written request for
+a public meeting to the department.
+
+(B) The department determines that there is a significant
+
+public interest in or known public controversy over the application
+
+or that for any other reason a public meeting is appropriate.
+
+(11) A public meeting referred to in subsection (10)(b) must
+
+be held after the department makes a preliminary review of the
+
+application and all pertinent data and before a preliminary
+
+decision on the operating license has been made. During the
+
+department's review, the department shall consider input provided
+
+at the public meeting.
+
+(12) Before issuing a final decision on a license for a coal
+
+combustion residuals landfill or coal combustion residuals
+
+impoundment, the department shall publish a notice in a newspaper
+
+or by electronic media having significant circulation in the
+
+vicinity of the proposed disposal area. The notice must contain all
+
+of the following:
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+(a) A map indicating the location of the proposed disposal
+area.
+
+(b) A description of the proposed disposal area.
+
+(c) A description of the department's draft decision and the
+
+location where an individual may review or obtain copies of the
+
+draft decision.
+
+(d) An indication that the department will accept comments for
+days after the date of the notice's publication.
+
+(e) An indication that the department will hold a public
+
+meeting in the area of the disposal area if, not later than 15 days
+
+after the date of publication of the notice, any of the following
+
+occur:
+
+(i) An applicant or a municipality submits a written request
+for a public meeting to the department.
+
+(ii) The department determines that there is a significant
+
+public interest in or known public controversy over the application
+
+or that for any other reason a public meeting is appropriate.
+
+(13) If the department returns an application to the applicant
+
+as administratively incomplete, the department shall refund the
+
+entire application fee. An applicant for a license, not later than
+
+months after a license denial or withdrawal of a license
+
+application, may resubmit the application with the additional
+
+information as needed to address the reasons for denial, without
+
+being required to pay an additional application fee.
+
+(14) A person that applies for a license for more than 1 type
+
+of coal combustion residuals disposal area at the same facility
+
+shall pay a fee equal to the sum of the applicable application fees
+
+listed in this section.
+
+(15) The department shall not license a coal combustion
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+residuals landfill or coal combustion residuals impoundment unless
+
+the coal combustion residuals landfill or coal combustion residuals
+
+impoundment has an approved hydrogeologic monitoring program and
+
+the owner or operator has provided the department with the
+
+monitoring results. The groundwater monitoring portion of the
+
+hydrogeological monitoring program must include sampling and
+
+analytical methods that are appropriate for groundwater sampling
+
+and that accurately measure hazardous constituents and other
+
+monitoring parameters in groundwater samples. Groundwater samples
+
+must not be field filtered before laboratory analysis. The
+
+department shall use this information in conjunction with other
+
+information required by part 115 to determine a course of action
+
+regarding the licensing of the facility consistent with section
+
+of subtitle D of the solid waste disposal act, 42 USC 6945,
+
+and with part 115. In deciding a course of action, the department
+
+shall consider, at a minimum, the environment, natural resources,
+
+the public health, safety, and welfare, and other public or private
+
+alternatives.
+
+(16) If a coal combustion residuals landfill or coal
+
+combustion residuals impoundment violates part 115, the department
+
+may do any of the following:
+
+(a) Revoke the coal combustion residuals landfill's or coal
+combustion residuals impoundment's license.
+
+(b) If the coal combustion residuals disposal area is a coal
+
+combustion residuals impoundment that has not been previously
+
+licensed under this part, deny a license.
+
+(c) Issue a timetable or schedule of corrective action,
+
+including a sequence of actions or operations, that leads to
+
+compliance with part 115 within a reasonable time period but not
+
+WAM
+
+H07301'26_HB6429_INTR_1
+
+ax346e
+
+more than 1 year.
+
+(17) The owner or operator of a coal combustion residuals
+
+landfill shall annually submit a report to the department and the
+
+county and municipality in which the landfill is located that
+
+specifies the tonnage and type of coal combustion residuals waste
+
+received by the landfill during the year itemized, to the extent
+
+possible, by county, state, or country of origin and the amount of
+
+remaining disposal capacity at the coal combustion residuals
+
+landfill. Remaining disposal capacity must be calculated as the
+
+permitted capacity less waste in place for any area that has been
+
+constructed and is not yet closed plus the permitted capacity for
+
+each area that has a permit for construction under part 115 but has
+
+not yet been constructed. The report must be submitted not later
+
+than 45 days after the end of each state fiscal year. By January 31
+
+of each year, the department shall submit to the legislature a
+
+report summarizing the information obtained under this subsection.
+
+Enacting section 1. Sections 11511a, 11512a, 11519a, 11519b,
+
+and 11519c of the natural resources and environmental protection
+
+act, 1994 PA 451, MCL 324.11511a, 324.11512a, 324.11519a,
+
+324.11519b, and 324.11519c, are repealed.
+
+WAM
+
+Final Page
+H07301'26_HB6429_INTR_1
+
+ax346e
