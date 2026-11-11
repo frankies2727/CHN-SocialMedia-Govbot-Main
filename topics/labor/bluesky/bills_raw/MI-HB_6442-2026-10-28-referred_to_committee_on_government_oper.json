@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6442",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Labor: health and safety"
+    ],
+    "title": "Labor: health and safety; occupational health standards related to exposure to work in hot environments; require director to promulgate. Amends 1974 PA 154 (MCL 408.1001 - 408.1094) by adding sec. 14s."
+  },
+  "id": "HB 6442",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "referred to Committee on Government Operations",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-28",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6442"
+        }
+      ]
+    },
+    "bill_id": "HB 6442"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6442/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6442/logs/20261028T000000Z_referred_to_committee_on_government_operations.json"
+  },
+  "timestamp": "20261028T000000Z"
+}
