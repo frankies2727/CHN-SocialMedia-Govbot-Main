@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 4307",
+    "legislative_session": "119",
+    "title": "Enhancing Detection of Human Trafficking Act"
+  },
+  "id": "HR 4307",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-signature"
+      ],
+      "description": "Signed by President.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-10-20T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr4307.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/4307"
+        }
+      ]
+    },
+    "bill_id": "HR 4307"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR4307/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR4307/logs/20261020T040000Z_signed_by_president.json"
+  },
+  "timestamp": "20261020T040000Z"
+}
