@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10895",
+    "legislative_session": "119",
+    "title": "To direct the Secretary of Education to establish a Civic Education and Service Learning Grant Program, and for other purposes."
+  },
+  "id": "HR 10895",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the Committee on Education and Workforce, and in addition to the Committee on House Administration, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-22T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10895.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10895"
+        }
+      ]
+    },
+    "bill_id": "HR 10895"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10895/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10895/logs/20261022T040000Z_referred_to_the_committee_on_education_and_workforce_and_in_addition_to_the_committee_on_house_admin.json"
+  },
+  "timestamp": "20261022T040000Z"
+}

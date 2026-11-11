@@ -1,0 +1,50 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S693",
+    "legislative_session": "222",
+    "subject": [
+      "MUNICIPALITI"
+    ],
+    "title": "Prohibits municipalities from requiring certain plan approval related to addition of up to five van accessible parking spaces to existing parking facilities."
+  },
+  "id": "S693",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported out of Assembly Committee, 2nd Reading",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-15T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S693"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S693"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S693"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S693"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S693"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "S693"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S693/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S693/logs/20261015T040000Z_reported_out_of_assembly_committee_2nd_reading.json"
+  },
+  "timestamp": "20261015T040000Z"
+}

@@ -1,0 +1,50 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1633",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending Title 75 (Vehicles) of the Pennsylvania Consolidated Statutes, in general provisions, further providing for definitions; in licensing of drivers, further providing for examination of applicant for driver's license; in special vehicles and pedestrians, providing for electric scooters and for shared electric scooters; and imposing penalties."
+  },
+  "id": "HB 1633",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Transportation",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-26T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hb1633"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1562"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=62&rollcallid=3102&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1517"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1516"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=38&rollcallid=2938&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=38&rollcallid=2937&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "HB 1633"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB1633/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB1633/logs/20261026T040000Z_referred_to_transportation.json"
+  },
+  "timestamp": "20261026T040000Z"
+}
