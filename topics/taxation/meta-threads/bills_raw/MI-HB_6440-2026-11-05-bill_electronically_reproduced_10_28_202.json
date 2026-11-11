@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6440",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Marihuana: taxation"
+    ],
+    "title": "Marihuana: taxation; additional excise tax on wholesale marihuana; suspend for a period of time Amends sec. 5 of 2025 PA 23 (MCL 205.905)."
+  },
+  "id": "HB 6440",
+  "log": {
+    "action": {
+      "description": "bill electronically reproduced 10/28/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-11-05",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6440"
+        }
+      ]
+    },
+    "bill_id": "HB 6440"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6440/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6440/logs/20261105T000000Z_bill_electronically_reproduced_10282026.json"
+  },
+  "timestamp": "20261105T000000Z",
+  "posted_text": "💰 Taxation\nMI HB 6440 — Michigan to Temporarily Pause Marijuana Sales Tax\n\nMichigan is suspending the new 24% excise tax on wholesale marijuana sales for one year. This tax, set to begin January 1, 2026, would have applied to sales from marijuana businesses to retail licenses and between provisioning centers and retail licenses. The suspension will last until one year after the law adding this tax takes effect. ...\n...",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6440",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DfljKFPkdtw"
+}

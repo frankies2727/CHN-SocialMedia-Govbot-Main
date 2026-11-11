@@ -200,6 +200,8 @@
     "MI|HB 6222|2026-07-29|bill electronically reproduced 07/16/202",
     "MI|HB 6400|2026-09-29",
     "MI|HB 6400|2026-09-29|bill electronically reproduced 09/24/202",
+    "MI|HB 6440|2026-11-05",
+    "MI|HB 6440|2026-11-05|bill electronically reproduced 10/28/202",
     "MI|HB 6442|2026-11-05",
     "MI|HB 6442|2026-11-05|bill electronically reproduced 10/28/202",
     "MI|SB 0301|2026-07-03",
@@ -410,6 +412,10 @@
     "PA|SB 599|2026-06-30|Removed from table",
     "PA|SB 599|2026-10-20",
     "PA|SB 599|2026-10-20|Laid on the table (Pursuant to Senate Ru",
+    "PA|SB 965|2026-10-19",
+    "PA|SB 965|2026-10-19|",
+    "PA|SB 965|2026-10-19|First consideration",
+    "PA|SB 965|2026-10-19|Reported as committed",
     "PR|PC1062|2026-07-14",
     "PR|PC1062|2026-07-14|Enviado a la Gobernadora",
     "PR|PC1451|2026-09-24",
@@ -507,6 +513,9 @@
     "US|HRES 1572|2026-09-21",
     "US|HRES 1572|2026-09-21|Referred to the Committee on Armed Servi",
     "US|HRES 1572|2026-09-21|Submitted in House",
+    "US|HRES 1634|2026-10-22",
+    "US|HRES 1634|2026-10-22|Referred to the Committee on Energy and ",
+    "US|HRES 1634|2026-10-22|Submitted in House",
     "US|HRES 1637|2026-10-22",
     "US|HRES 1637|2026-10-22|Referred to the House Committee on Educa",
     "US|HRES 1637|2026-10-22|Submitted in House",
@@ -539,7 +548,6 @@
     "|HRES 1409|2026-06-30|Submitted in House"
   ],
   "runs": {
-    "33577672597-1": 3,
     "33823919242-1": 3,
     "34071598037-1": 3,
     "34298371754-1": 3,
@@ -568,7 +576,8 @@
     "41378000862-1": 3,
     "41764264906-1": 3,
     "42156471441-1": 3,
-    "42552094319-1": 3
+    "42552094319-1": 3,
+    "42948220899-1": 3
   },
-  "last_run": "2026-11-09T03:40:00.081841+00:00"
+  "last_run": "2026-11-11T03:47:20.994582+00:00"
 }
