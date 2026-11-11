@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10917",
+    "legislative_session": "119",
+    "title": "To direct the Secretary of Agriculture to select and implement landscape-scale forest restoration projects, to assist communities in increasing their resilience to wildfire, and for other purposes."
+  },
+  "id": "HR 10917",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the Committee on Agriculture, and in addition to the Committees on Natural Resources, Energy and Commerce, and Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-26T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10917.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10917"
+        }
+      ]
+    },
+    "bill_id": "HR 10917"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10917/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10917/logs/20261026T040000Z_referred_to_the_committee_on_agriculture_and_in_addition_to_the_committees_on_natural_resources_ener.json"
+  },
+  "timestamp": "20261026T040000Z"
+}
