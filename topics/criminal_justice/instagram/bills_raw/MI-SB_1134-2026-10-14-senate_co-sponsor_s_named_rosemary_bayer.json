@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1134",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Retirement: defined benefit",
+      "Retirement: state employees",
+      "Retirement: state police",
+      "State agencies (existing): technology, management, and budget"
+    ],
+    "title": "Retirement: state employees; election process to transfer certain law enforcement officers to the Michigan state police retirement system; provide for. Amends sec. 55 of 1943 PA 240 (MCL 38.55) & adds secs. 50b, 50c, 50d, 64a, 64b & 64c.   TIE BAR WITH: SB 1133'26,  SB 1135'26"
+  },
+  "id": "SB 1134",
+  "log": {
+    "action": {
+      "description": "SENATE CO-SPONSOR(S) NAMED: ROSEMARY BAYER MALLORY MCMORROW JEREMY MOSS",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-14",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1134"
+        }
+      ]
+    },
+    "bill_id": "SB 1134"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1134/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB1134/logs/20261014T000000Z_senate_cosponsors_named_rosemary_bayer_mallory_mcmorrow_jeremy_moss.json"
+  },
+  "timestamp": "20261014T000000Z",
+  "posted_text": "👮 MI SB 1134 — Michigan State Troopers Could Switch Retirement Systems – Here's How It Works\n\nStarting June 5, 2027, eligible Michigan law enforcement officers – specifically corrections officers, conservation officers, and state police officers – have the option to switch from their current retirement system to the Michigan State Police Retirement System.\n\nThis means you could potentially join the state police system, but you have to act fast!\n\nYou’ll need to submit a written election between August 2, 2027, and October 15, 2027, and if you don’t, you’ll remain in your current retirement plan.\n\nThe switch is permanent, taking effect January 1, 2028, and it’s tied to specific roles like corrections officers, conservation officers, and state police motor carrier officers.\n\nNotably, if you're married at the time of the election, your spouse’s signature is required, though the retirement board can waive this if obtaining the signature isn’t possible due to unusual circumstances.\n\nOct. 14, 2026: Senate Co-sponsor(s) Named: Rosemary Bayer Mallory Mcmorrow Jeremy Moss.\n\n🔗 Read the full bill: https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1134\n\n#CriminalJusticePolicing #Michigan #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-1134",
+  "posted_url": "https://www.instagram.com/p/DfntriCD6NM/"
+}

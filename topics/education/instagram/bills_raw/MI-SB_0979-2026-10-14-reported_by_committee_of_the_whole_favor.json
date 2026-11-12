@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 0979",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Retirement: other"
+    ],
+    "title": "Retirement: other; continuing education requirements for trustees; provide for. Amends sec. 13 of 1965 PA 314 (MCL 38.1133)."
+  },
+  "id": "SB 0979",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "REPORTED BY COMMITTEE OF THE WHOLE FAVORABLY WITH SUBSTITUTE S-1",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-14",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-0979"
+        }
+      ]
+    },
+    "bill_id": "SB 0979"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0979/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/SB0979/logs/20261014T000000Z_reported_by_committee_of_the_whole_favorably_with_substitute_s1.json"
+  },
+  "timestamp": "20261014T000000Z",
+  "posted_text": "🎓 MI SB 0979 — Michigan Retirement Funds: New Rules for Trustees’ Training & Spending\n\nMichigan is setting new standards for how its public retirement systems manage investments and train their trustees.\n\nThis bill establishes that the state treasurer is the primary investment fiduciary for several large retirement systems, including those for state employees, judges, and public school employees.\n\nIt mandates that trustees receive at least 8 hours of professional training every two years, covering ethics, investment strategies, and travel expenses.\n\nThe systems must publish detailed annual reports outlining their investments, spending, and performance, including information on fees, administrative costs, and actuarial valuations.\n\nImportantly, the bill limits annual spending on trustee training and travel to $150,000 or $12,000 per board member, adjusting for inflation.\n\nFinally, it requires compliance with the Divestment from Terror Act for specific retirement plans.\n\nOct. 14, 2026: Reported by Committee of the Whole Favorably with Substitute S-1.\n\n🔗 Read the full bill: https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-0979\n\n#Education #Michigan #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-SB-0979",
+  "posted_url": "https://www.instagram.com/p/DfnuZ3hmrMx/"
+}
