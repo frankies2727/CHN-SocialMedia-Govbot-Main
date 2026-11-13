@@ -1,0 +1,38 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 10902",
+    "legislative_session": "119",
+    "title": "To reduce crime on public transportation, and for other purposes."
+  },
+  "id": "HR 10902",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to the House Committee on Transportation and Infrastructure.",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-22T04:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10902.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/10902"
+        }
+      ]
+    },
+    "bill_id": "HR 10902"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10902/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR10902/logs/20261022T040000Z_referred_to_the_house_committee_on_transportation_and_infrastructure.json"
+  },
+  "timestamp": "20261022T040000Z",
+  "posted_text": "🚗 Transportation\nUS HR 10902 — To reduce crime on public transportation, and for other purposes. ...\n...",
+  "posted_link": "https://www.congress.gov/bill/119th-congress/house-bill/10902",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/Dfqt8EGjhsF"
+}

@@ -1,0 +1,495 @@
+AN ACT
+
+Providing for prohibited conduct involving algorithmic pricing
+structures and artificial intelligence, for enforcement by
+Attorney General and for civil remedies; and imposing
+criminal penalties.
+
+The General Assembly of the Commonwealth of Pennsylvania
+
+hereby enacts as follows:
+
+Section 1.
+
+Short title.
+
+This act shall be known and may be cited as the Collusive
+
+Algorithms Act.
+
+Section 2.
+
+Findings and declarations.
+
+The General Assembly finds and declares as follows:
+(1)
+
+Businesses operating in this Commonwealth
+
+increasingly use artificial intelligence and algorithmic
+
+pricing structures to recommend or set prices and commercial
+
+terms.
+
+(2)
+
+The use of the same artificial intelligence or
+
+algorithmic pricing structure by multiple businesses may
+
+result in artificially high prices that harm consumers in
+
+this Commonwealth, regardless of whether the businesses
+
+knowingly or unknowingly produce the result and whether the
+
+result occurs by design or otherwise.
+
+(3)
+
+Certain artificial intelligence and algorithmic
+
+pricing structures that recommend or set prices are designed
+
+to share nonpublic competitor data and may use the data to
+
+recommend or set artificially high prices in markets
+
+affecting this Commonwealth, producing results similar to
+
+collusion under Federal law.
+
+(4)
+
+Even if not designed to share nonpublic competitor
+
+data, common artificial intelligence may create cybersecurity
+
+risks because a user may unknowingly disclose nonpublic
+
+business data that other artificial intelligence may use to
+
+recommend or set prices in the same industry, including
+
+prices affecting consumers in this Commonwealth, producing
+
+collusion-like results.
+
+Section 3.
+
+Definitions.
+
+The following words and phrases when used in this act shall
+
+have the meanings given to them in this section unless the
+
+context clearly indicates otherwise:
+
+"Algorithmic pricing structure."
+
+A computational process,
+
+including a process derived from machine learning or another
+
+artificial intelligence technique, that processes data to
+
+recommend or set a price or commercial term in this
+
+Commonwealth.
+
+"Artificial intelligence."
+
+A machine-based system that, for
+
+a given set of human-defined objectives, can make predictions,
+
+recommendations or decisions influencing real or virtual
+
+environments through all of the following:
+
+(1)
+
+Perceiving real or virtual environments.
+
+(2)
+
+Abstracting perceptions into models through
+
+automated analysis.
+
+(3)
+
+Using model inference to formulate options for
+
+information or action based on the outcomes under paragraphs
+
+(1) and (2).
+
+"Collusive algorithmic pricing structure."
+
+An algorithmic
+
+pricing structure that uses or incorporates nonpublic competitor
+
+data or was trained using nonpublic competitor data to recommend
+
+or set a price or commercial term in a relevant antitrust
+
+market.
+
+"Common artificial intelligence."
+
+not used exclusively by one person.
+
+"Competitor data."
+
+Artificial intelligence
+
+Information regarding a person's
+
+business, including product pricing, commercial terms or market
+
+share.
+
+"Federal antitrust law."
+
+(1)
+
+seq.).
+
+(2)
+
+seq.).
+
+(3)
+
+All of the following:
+
+The Sherman Act (26 Stat. 209, 15 U.S.C. § 1 et
+
+The Clayton Act (38 Stat. 730, 15 U.S.C. § 12 et
+
+The Federal Trade Commission Act (38 Stat. 717, 15
+
+U.S.C. § 41 et seq.).
+
+"Nonpublic competitor data."
+
+Nonpublic data that is based on
+
+or derived from competitor data of another person that competes
+
+in the relevant antitrust market or is otherwise provided by
+
+that person. The term includes aggregated data but does not
+
+include information distributed, reported or otherwise
+
+communicated in a manner that does not reveal underlying
+
+competitor data, including a narrative industry report, news
+
+report, business commentary or generalized industry survey
+
+result.
+"Nonpublic data."
+
+Information not widely available or
+
+readily accessible to the public, including information
+
+regarding prices, commercial terms and related goods or
+
+services, regardless of whether the information is attributable
+
+to a specific competitor or anonymized. The term includes
+
+public-facing data made available subject to terms of service
+
+that prohibit use of the data.
+
+"Proprietary artificial intelligence."
+
+intelligence used exclusively by one person.
+
+"Relevant antitrust market."
+
+Artificial
+
+A market identified in
+
+accordance with section 4.3, entitled "Market Definition," of
+
+the 2023 Merger Guidelines jointly issued by the United States
+
+Department of Justice and Federal Trade Commission on December
+
+18, 2023.
+
+Section 4.
+
+(a)
+
+Prohibited algorithmic pricing practices.
+
+Prohibited conduct.--A person may not take any of the
+
+following actions:
+
+(1)
+
+for use in a relevant antitrust market.
+
+Distribute a collusive algorithmic pricing structure
+
+(2)
+
+Develop for distribution a collusive algorithmic
+
+pricing structure for use in a relevant antitrust market.
+
+(3)
+
+Use a collusive algorithmic pricing structure to
+
+recommend a price or commercial term in a relevant antitrust
+
+market.
+
+(4)
+
+Use common artificial intelligence to set a price
+
+for a good or service offered or sold in this Commonwealth.
+
+(b)
+
+Exception.--Subsection (a)(3) does not apply if
+
+substantial evidence establishes that the person did not know
+
+that the collusive algorithmic pricing structure used or
+
+incorporated nonpublic competitor data or was trained using
+
+nonpublic competitor data.
+
+(c)
+
+Criminal penalties.-(1)
+
+A person that violates subsection (a)(1) commits a
+
+felony of the first degree and shall, upon conviction, be
+
+sentenced to pay a fine of not more than $1,000,000 for each
+
+distribution of a collusive algorithmic pricing structure.
+
+(2)
+
+A person that violates subsection (a)(2) commits a
+
+felony of the second degree and shall, upon conviction, be
+
+sentenced to pay a fine of not more than $100,000,000 for
+
+each collusive algorithmic pricing structure developed for
+
+distribution.
+
+(3)
+
+A person that violates subsection (a)(3) commits a
+
+felony of the second degree and shall, upon conviction, be
+
+sentenced to pay a fine of not more than $100,000 for each
+
+pricing decision or recommendation made through use of the
+
+collusive algorithmic pricing structure.
+
+(4)
+
+A person that violates subsection (a)(4) commits a
+
+misdemeanor of the second degree and shall, upon conviction,
+
+be sentenced to pay a fine of not more than $5,000 for each
+
+pricing decision or recommendation made through use of the
+
+common artificial intelligence.
+
+Section 5.
+
+(a)
+
+Enforcement by Attorney General.
+
+Criminal enforcement.--The Attorney General may
+
+investigate and prosecute a violation under section 4.
+(b)
+
+Injunctive relief.--If the Attorney General has reason
+
+to believe that a person is engaging in or is about to engage in
+
+conduct prohibited under section 4 and that proceedings would be
+
+in the public interest, the Attorney General may bring an action
+
+in the name of the Commonwealth to restrain the conduct by
+
+temporary or permanent injunction.
+
+Section 6.
+
+Restitution.
+
+Upon issuance of a permanent injunction under section 5(b),
+
+the court may order the defendant, under terms and conditions
+
+established by the court, to restore to a person in interest
+
+money or property, real or personal, acquired by means of a
+
+violation of this act.
+
+Section 7.
+
+(a)
+
+Assurances of voluntary compliance.
+
+Authority.--In administering this act, the Attorney
+
+General may accept an assurance of voluntary compliance from a
+
+person that has engaged or is about to engage in conduct that
+
+the Attorney General considers to violate this act.
+
+(b)
+
+Contents.--An assurance of voluntary compliance may
+
+include a stipulation for a voluntary payment by the alleged
+
+violator, including restitution to consumers of money, property
+
+or other things received from the consumers in connection with a
+
+violation of this act.
+
+(c)
+
+Form and effect.--An assurance of voluntary compliance
+
+shall be in writing and filed with a court of competent
+
+jurisdiction. The assurance shall not constitute an admission of
+
+a violation for any purpose.
+
+(d)
+
+Reopening.--The Attorney General may reopen a matter
+
+closed by an assurance of voluntary compliance at any time for
+
+further proceedings in the public interest under this act.
+
+Section 8.
+
+(a)
+
+Private actions.
+
+Cause of action.--A person that purchases goods or
+
+services and suffers an ascertainable loss of money or property,
+
+real or personal, as a result of a violation under section 4 may
+
+bring a private action in a court of competent jurisdiction
+
+against the person that committed the violation.
+
+(b)
+
+Damages and relief.--In a private action under
+
+subsection (a), a court of competent jurisdiction may award
+
+damages and relief as follows:
+
+(1)
+
+Actual damages arising from the violation or $1,000,
+
+whichever is greater. The court may, in its discretion, award
+
+up to three times the actual damages sustained, but not less
+
+than $1,000.
+
+(2)
+
+Reasonable attorney fees and court costs.
+
+(3)
+
+Additional relief the court deems necessary and
+
+proper.
+
+Section 9.
+
+Regulations.
+
+The Attorney General may promulgate regulations as necessary
+
+to administer and enforce this act.
+
+Section 10.
+
+Construction.
+
+Nothing in this act shall be construed to:
+(1)
+
+Limit or preclude an action or remedy available
+
+under Federal antitrust law.
+(2)
+
+Except as provided under section 4(a)(4), prohibit
+
+the use of an algorithmic pricing structure or proprietary
+
+artificial intelligence that does not use or incorporate
+
+nonpublic competitor data and was not trained using nonpublic
+
+competitor data.
+
+(3)
+
+Except as provided under section 4(a)(4), prohibit
+
+an algorithmic pricing structure or proprietary artificial
+
+intelligence from using a factor other than nonpublic data to
+
+recommend or set a price or commercial term.
+
+Section 11.
+
+Effective date.
+
+This act shall take effect immediately.
