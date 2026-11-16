@@ -1,0 +1,44 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A5598",
+    "legislative_session": "222",
+    "subject": [
+      "HIGHER ED"
+    ],
+    "title": "Expands duties of Campus Sexual Assault Commission; requires Secretary of Higher Education and institutions of higher education to designate certain safety-related liaisons."
+  },
+  "id": "A5598",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Reported out of Assembly Committee with Amendments and Referred to Assembly Appropriations Committee",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-22T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5598"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A5598"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "A5598"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A5598/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A5598/logs/20261022T040000Z_reported_out_of_assembly_committee_with_amendments_and_referred_to_assembly_appropriations_committee.json"
+  },
+  "timestamp": "20261022T040000Z",
+  "posted_text": "🎓 Education\nNJ A5598 — NJ Colleges Get New Tools to Fight Sexual Assault\n\nNew Jersey colleges will now have a dedicated coordinator and campus liaisons to help prevent and respond to sexual assault. The bill requires the Campus Sexual Assault Commission to facilitate communication between schools and community groups, offer technical assistance via webinars, and maintain a central website with best practices. ...\n...",
+  "posted_link": "https://www.njleg.state.nj.us/bill-search/2026/A5598",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DfyaFKSkUig"
+}
