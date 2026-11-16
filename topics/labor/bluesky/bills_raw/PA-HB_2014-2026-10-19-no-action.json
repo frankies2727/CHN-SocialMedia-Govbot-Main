@@ -1,0 +1,17 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2014",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending the the act of October 24, 2012 (P.L.1209, No.151), known as the Child Labor Act, further providing for minors serving in volunteer emergency service organizations."
+  },
+  "id": "HB 2014",
+  "log": {
+    "bill_id": "HB 2014"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB2014/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB2014/logs/20261019T204700Z.vote_event.pass.upper.json"
+  },
+  "timestamp": "20261019T204700Z.vote"
+}
