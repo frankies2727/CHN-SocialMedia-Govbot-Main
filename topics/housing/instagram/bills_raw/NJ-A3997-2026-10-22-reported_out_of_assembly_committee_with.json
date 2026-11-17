@@ -1,0 +1,50 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "A3997",
+    "legislative_session": "222",
+    "subject": [
+      "LANDLORD"
+    ],
+    "title": "Prohibits class action waivers in residential rental agreements for claims arising from violations of rent control laws."
+  },
+  "id": "A3997",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported out of Assembly Committee with Amendments, 2nd Reading",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-22T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3997"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3997"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3997"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/A3997"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "A3997"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/A3997/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/A3997/logs/20261022T040000Z_reported_out_of_assembly_committee_with_amendments_2nd_reading.json"
+  },
+  "timestamp": "20261022T040000Z",
+  "posted_text": "🔑 NJ A3997 — NJ Protects Tenants: Class Action Waivers in Rentals Now Illegal\n\nNew Jersey is banning class action waivers in residential rental agreements when rent control laws are violated.\n\nThis means landlords can’t include clauses in leases that prevent tenants from joining together in a lawsuit over unfair rent increases or other violations.\n\nIf a landlord tries to use such a waiver, it’s considered proof of a violation of the state’s consumer fraud act, and tenants can seek damages, an injunction, and attorney’s fees.\n\nThe law takes effect immediately and applies to all rental agreements currently in place, including those with violations that occurred before the law is enacted.\n\nThis change is designed to ensure tenants have access to collective legal remedies when rent control laws are broken.\n\nOct. 22, 2026: Reported out of Assembly Committee with Amendments, 2nd Reading.\n\n🔗 Read the full bill: https://www.njleg.state.nj.us/bill-search/2026/A3997\n\n#Housing #NewJersey #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.njleg.state.nj.us/bill-search/2026/A3997",
+  "posted_url": "https://www.instagram.com/p/Df0v0hCkWut/"
+}
