@@ -1,0 +1,29 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 120",
+    "legislative_session": "2025-2026",
+    "title": "An Act providing for cannabis; regulating the personal use and possession of cannabis; establishing the Cannabis Control Board; providing for powers and duties of the Cannabis Control Board; establishing the Cannabis Regulation Fund; providing for disproportionately impacted area, for regulation of cannabis business establishments, for enforcement and immunities, for laboratory testing, for advertising, marketing, packaging and labeling and for preparation, destruction and regulation of cannabis, edible and infused products; imposing a sales tax and excise tax on cannabis, edible and infused products; establishing the Cannabis Regulation Fund; providing for cannabis clean slate and for miscellaneous provisions; imposing penalties; consolidating provisions relating to medical use of cannabis; transferring powers and duties of the Department of Health to the Cannabis Control Board; and making repeals."
+  },
+  "id": "SB 120",
+  "log": {
+    "action": {
+      "description": "Resolution to discharge committee from further consideration of this bill dropped from calendar",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-19T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/sb120"
+        }
+      ]
+    },
+    "bill_id": "SB 120"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB120/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB120/logs/20261019T040000Z_resolution_to_discharge_committee_from_further_consideration_of_this_bill_dropped_from_calendar.json"
+  },
+  "timestamp": "20261019T040000Z"
+}
