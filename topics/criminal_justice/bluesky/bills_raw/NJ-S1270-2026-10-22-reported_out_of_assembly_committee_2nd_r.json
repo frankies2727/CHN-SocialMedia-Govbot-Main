@@ -1,0 +1,67 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S1270",
+    "legislative_session": "222",
+    "subject": [
+      "CRIM PROCED",
+      "CRIMES",
+      "JUDICIARY"
+    ],
+    "title": "Eliminates statute of limitations for human trafficking and criminal sexual contact prosecutions and eliminates statute of limitations for civil cases arising from human trafficking.*"
+  },
+  "id": "S1270",
+  "log": {
+    "action": {
+      "classifications": [
+        "committee-passage"
+      ],
+      "description": "Reported out of Assembly Committee, 2nd Reading",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-22T04:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S1270"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S1270"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S1270"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S1270"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S1270"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S1270"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S1270"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S1270"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S1270"
+        },
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S1270"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "S1270"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S1270/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S1270/logs/20261022T040000Z_reported_out_of_assembly_committee_2nd_reading.json"
+  },
+  "timestamp": "20261022T040000Z"
+}

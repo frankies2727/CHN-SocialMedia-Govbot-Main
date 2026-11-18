@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6437",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Agriculture: other",
+      "Individual income tax: credit",
+      "Individual income tax: other"
+    ],
+    "title": "Individual income tax: other; beginning farmer tax credit program; create. Creates new act.   TIE BAR WITH: HB 6438'26"
+  },
+  "id": "HB 6437",
+  "log": {
+    "action": {
+      "description": "bill electronically reproduced 10/21/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-28",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6437"
+        }
+      ]
+    },
+    "bill_id": "HB 6437"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6437/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6437/logs/20261028T000000Z_bill_electronically_reproduced_10212026.json"
+  },
+  "timestamp": "20261028T000000Z"
+}
