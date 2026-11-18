@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2880",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending the act of July 31, 1968 (P.L.805, No.247), known as the Pennsylvania Municipalities Planning Code, in general provisions, further providing for definitions; in comprehensive plan, further providing for preparation of comprehensive plan; in subdivision and land development, further providing for contents of subdivision and land development ordinance; in zoning, further providing for ordinance provisions; and providing for renewable energy siting standards."
+  },
+  "id": "HB 2880",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Consumer Protection, Technology & Utilities",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-21T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hb2880"
+        }
+      ]
+    },
+    "bill_id": "HB 2880"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB2880/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB2880/logs/20261021T040000Z_referred_to_consumer_protection_technology_utilities.json"
+  },
+  "timestamp": "20261021T040000Z"
+}

@@ -1,0 +1,20 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S4729",
+    "legislative_session": "222",
+    "subject": [
+      "ENERGY"
+    ],
+    "title": "Modifies geographic restrictions for solar energy projects participating in community solar program."
+  },
+  "id": "S4729",
+  "log": {
+    "bill_id": "S4729"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S4729/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S4729/logs/20261022T040000Z.vote_event.pass.upper.json"
+  },
+  "timestamp": "20261022T040000Z.vote"
+}
