@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 1508",
+    "legislative_session": "2025-2026",
+    "title": "An Act amending Title 75 (Vehicles) of the Pennsylvania Consolidated Statutes, in preliminary provisions, further providing for definitions; in rules of the road in general, further providing for duty of driver in construction and maintenance areas or on highway safety corridors and for duty of driver in emergency response areas and in relation to disabled vehicles; and, in powers of department and local authorities, providing for emergency LED warning devices."
+  },
+  "id": "SB 1508",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Transportation",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-27T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/sb1508"
+        }
+      ]
+    },
+    "bill_id": "SB 1508"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB1508/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/SB1508/logs/20261027T040000Z_referred_to_transportation.json"
+  },
+  "timestamp": "20261027T040000Z",
+  "posted_text": "🛣️ PA SB 1508 — PA Bill Clarifies What Counts as a Traffic Warning Device\n\nPennsylvania is clarifying what constitutes an ‘official traffic-control device’ on the state’s highways.\n\nThis bill adds a specific definition of ‘Emergency LED warning devices’ – warning lights used by authorized personnel and emergency responders – and spells out how they can be used in construction, maintenance, and emergency response areas.\n\nIt outlines requirements for these devices, including their color, height, and visibility, and sets out penalties for drivers who fail to yield the right-of-way to vehicles using them.\n\nThe changes will take effect in 60 days.\n\nOct. 27, 2026: Referred to Transportation.\n\n🔗 Read the full bill: https://www.palegis.us/legislation/bills/2025/sb1508\n\n#Transportation #Pennsylvania #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.palegis.us/legislation/bills/2025/sb1508",
+  "posted_url": "https://www.instagram.com/p/Df5vZRvIMBu/"
+}
