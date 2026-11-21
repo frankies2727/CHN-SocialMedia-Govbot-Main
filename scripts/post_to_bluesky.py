@@ -2608,6 +2608,10 @@ def _post_copy(b: dict) -> dict:
     char_cap = max(MIN_BILL_TEXT_CHARS,
                    min(char_cap, POST_COPY_MAX_PROMPT_CHARS - overhead))
     user_prompt = preamble + body[:char_cap]
+    # Kept so the Instagram card text (post_to_instagram.card_text) can ask for
+    # its own short description from exactly the same grounded source, without
+    # repeating the selection above. Not used by any other platform.
+    b["_copy_user_prompt"] = user_prompt
 
     def _call_llm(extra_system: str = "", timeout: int = LLM_TIMEOUT) -> tuple[str, str]:
         """One post-copy round-trip → (headline, summary). Raises on transport
@@ -2678,6 +2682,9 @@ def _post_copy(b: dict) -> dict:
     if last_exc is not None:
         print(f"  ! post-copy generation failed after 3 attempts, using fallback: "
               f"{last_exc}", file=sys.stderr)
+        # Read by the Instagram card text, which then skips its own call to a
+        # model that just failed three times.
+        b["_copy_llm_failed"] = True
         # LLM unreachable: fall back to deterministic, non-legalese copy so the
         # post is still informative. Headline from the bill's stated purpose;
         # blurb from the on-topic provision, then the operative body, then the

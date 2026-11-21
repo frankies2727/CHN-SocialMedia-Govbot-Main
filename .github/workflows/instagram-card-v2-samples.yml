@@ -1,0 +1,39 @@
+name: instagram-card-v2-samples
+
+# Renders review samples of the daily Instagram card (v2) and uploads them as a
+# downloadable artifact, so a reviewer can see every topic and the edge cases
+# without anything being committed or posted. Offline: no model, no credentials.
+on:
+  pull_request:
+    paths:
+      - "scripts/render_bill_card.py"
+      - "scripts/render_bill_card_v2.py"
+      - "scripts/render_card_v2_samples.py"
+      - "scripts/test_render_bill_card_v2.py"
+      - "topics/*/config.yml"
+      - "assets/fonts/**"
+      - ".github/workflows/instagram-card-v2-samples.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  samples:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Timeline stage mapping tests
+        run: python3 scripts/test_render_bill_card_v2.py
+      - name: Render samples
+        run: python3 scripts/render_card_v2_samples.py card-v2-samples
+      - uses: actions/upload-artifact@v4
+        with:
+          name: instagram-card-v2-samples
+          path: card-v2-samples/
+          retention-days: 30

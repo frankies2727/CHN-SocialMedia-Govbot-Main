@@ -728,6 +728,46 @@ class Topic:
             f"summary with 'This bill', 'The bill', or 'The Act'."
         )
 
+    def card_text_system_prompt(self, home_state: str = "",
+                                federal: bool = False) -> str:
+        """Prompt for the Instagram v2 card's only text: a short plain-language
+        description of what the bill does. It is sent the same user message as
+        post_copy_system_prompt (the bill text and the notes _post_copy builds),
+        so the source selection is shared; only the output differs. The other
+        platforms' headline + summary are not affected."""
+        if federal:
+            place_rule = ("This is a federal bill in the U.S. Congress. Do not write "
+                          "'Congress', 'federal', 'U.S.' or 'United States': the card "
+                          "already says so. ")
+        elif home_state:
+            place_rule = (f"This is a {home_state} bill. Do not write '{home_state}' "
+                          f"or the name of any other state: the card already shows the "
+                          f"state. Start with what the bill does, for example 'Would "
+                          f"let…', 'Sets up…', 'Bans…'. ")
+        else:
+            place_rule = "Do not name the state: the card already shows it. "
+        return (
+            f"You write the text for an Instagram card about a US bill, for a civic "
+            f"account focused on {self.prompt_topic}. The reader is a regular person, "
+            f"not a lawyer. Read the bill text you are given and return a SINGLE JSON "
+            f'object and nothing else: {{"description": "..."}}\n\n'
+            f"\"description\": AT MOST TWO short sentences and no more than 30 words "
+            f"in total, saying what the bill does and who it affects, in plain everyday "
+            f"words. No legal jargon (say 'lets' not 'authorizes', 'bans' not "
+            f"'prohibits', 'sets aside money for' not 'appropriates'), no statute or "
+            f"section numbers, no bill number, no hashtags, no emoji, no quotes. "
+            f"{place_rule}"
+            f"The notes in the message may talk about a 'headline' and a 'summary'; "
+            f"apply them to this one description.\n\n"
+            f"Stay accurate and neutral: unless the bill's status says it was signed or "
+            f"enacted, it is a proposal, so say what it WOULD do. Never invent facts, "
+            f"numbers, dates or people that are not in the text. Do not take sides: "
+            f"when a measure states an opinion, report who holds it. Describe the "
+            f"change the bill makes, not existing law, and name exactly who is "
+            f"affected without widening it to 'everyone'. A small or technical bill "
+            f"gets a calm, plain line, never invented drama."
+        )
+
     def relevance_gate_system_prompt(self) -> str:
         """System prompt for the LLM relevance gate. Keyword matching selects a
         bill for this feed cheaply, but a whole-government budget/omnibus act can
@@ -821,7 +861,7 @@ class Topic:
     def instagram_bills_full_text_dir(self) -> Path:
         return TOPICS_DIR / self.name / self.instagram_subdir / "bills_full_text"
 
-    # Rendered PNG cards are committed here and served via raw.githubusercontent
+    # Rendered card images are committed here and served via raw.githubusercontent
     # so Instagram's Graph API can fetch them by public URL at publish time.
     def instagram_cards_dir(self) -> Path:
         return TOPICS_DIR / self.name / self.instagram_subdir / "cards"
