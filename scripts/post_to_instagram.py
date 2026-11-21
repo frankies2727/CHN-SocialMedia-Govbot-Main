@@ -13,7 +13,9 @@ Instagram has no text-only post type — every feed post needs an image, and the
 Graph API fetches that image from a *public URL* (you can't upload bytes like
 Bluesky's blob). So this poster adds two stages the others don't have:
 
-  1. Render each bill to a 1080x1350 PNG card (scripts/render_bill_card.py).
+  1. Render each bill to a card: by default the v2 design, a 1080x1350 (4:5)
+     JPEG (scripts/render_bill_card_v2.py); CARD_DESIGN=v1 brings back the old
+     1080x1080 PNG (scripts/render_bill_card.py).
   2. Commit + push those cards so they're reachable at a raw.githubusercontent
      URL, then poll the URL until it's live (the CDN can lag a few minutes)
      before asking Instagram to fetch it.
@@ -52,6 +54,7 @@ import requests
 from topic import load_active_topic
 from account_ledger import AccountLedger
 from render_bill_card import render_card
+from render_bill_card_v2 import STAGES, bill_stage, render_card_v2
 import bill_text
 import post_to_bluesky as pb
 from post_to_bluesky import (
@@ -126,10 +129,24 @@ DRY_RUN = os.environ.get("DRY_RUN") == "1"
 SAVE_STATE = os.environ.get("SAVE_STATE", "1") == "1"
 SAVE_RAW = os.environ.get("SAVE_RAW", "1") == "1"
 
-# The card ships in a light and a dark theme; each run randomly picks one so the
-# feed alternates between them. CARD_MODE can pin it ("light"/"dark") for testing.
+# Which daily card to render. "v2" (default) is the visual-first 4:5 design in
+# render_bill_card_v2.py: full-bleed topic colour, a short plain-language
+# description and a progress timeline. "v1" is the old 1:1 headline + summary
+# card, kept so a bad day can be rolled back by setting CARD_DESIGN=v1 (repo
+# variable or workflow env) without a code change. The weekly digest and the
+# Extravaganza carousels have their own renderers and ignore this.
+CARD_DESIGN = (os.environ.get("CARD_DESIGN") or "v2").strip().lower()
+if CARD_DESIGN not in ("v1", "v2"):
+    print(f"Unknown CARD_DESIGN={CARD_DESIGN!r}; using v2.", file=sys.stderr)
+    CARD_DESIGN = "v2"
+print(f"Card design for this run: {CARD_DESIGN}")
+# The v1 card ships in a light and a dark theme; each run randomly picks one so
+# the feed alternates. CARD_MODE can pin it ("light"/"dark") for testing.
 CARD_MODE = (os.environ.get("CARD_MODE") or random.choice(["light", "dark"])).strip().lower()
-print(f"Card theme for this run: {CARD_MODE}")
+if CARD_DESIGN == "v1":
+    print(f"Card theme for this run: {CARD_MODE}")
+# The v2 card's only text: at most two sentences and about this many words.
+CARD_TEXT_MAX_WORDS = int(os.environ.get("CARD_TEXT_MAX_WORDS", "32"))
 
 FORCE_STATE = (os.environ.get("FORCE_STATE") or "").strip().lower()
 FORCE_BILL_ID = (os.environ.get("FORCE_BILL_ID") or "").strip()
@@ -144,6 +161,7 @@ MIN_SUMMARY_CHARS = 80
 IG_API = "https://graph.instagram.com/v21.0"
 IG_TIMEOUT = int(os.environ.get("INSTAGRAM_TIMEOUT", "60"))
 IG_PUBLISH_RETRIES = 4
+IG_ALT_TEXT_MAX = 1000
 
 # media_publish sometimes returns an HTTP 400 "Generic Internal Error" while the
 # media was in fact created and published — a well-known Instagram false
@@ -285,11 +303,139 @@ def compose_instagram_caption(b: dict, summary: str, headline: str = "") -> tupl
 
 
 # ---------------------------------------------------------------------------
+# v2 card text: a separate, Instagram-only description
+# ---------------------------------------------------------------------------
+
+def _tidy_card_text(text: str, b: dict) -> str:
+    """At most two sentences and CARD_TEXT_MAX_WORDS words, without the bill
+    number. Drops the second sentence rather than cutting one in half; a single
+    sentence over the budget is kept whole (the renderer shrinks the type)."""
+    text = pb._clean_summary(text or "")
+    ident = (b.get("identifier") or "").strip()
+    if ident:
+        text = re.sub(re.escape(ident).replace(r"\ ", r"\s?"), "", text, flags=re.I)
+    text = " ".join(text.split()).strip(" ,;:-")
+    sentences = [x.strip() for x in _split_sentences(text) if x.strip()][:2]
+    while len(sentences) > 1 and len(" ".join(sentences).split()) > CARD_TEXT_MAX_WORDS:
+        sentences.pop()
+    out = " ".join(sentences).strip()
+    if out and out[-1] not in ".!?…":
+        out += "."
+    return out[:1].upper() + out[1:]
+
+
+def _card_text_llm(b: dict) -> str:
+    """One call for the description, sent the same user message _post_copy built
+    for the shared headline + summary (same bill text, notes and topic focus),
+    with the Instagram card prompt instead. "" when there is no grounded source
+    or the model can't be reached."""
+    user_prompt = b.get("_copy_user_prompt")
+    if not user_prompt or b.get("_copy_llm_failed"):
+        return ""
+    federal = (b.get("state") or "") == "US"
+    state_name = STATE_FULL_NAME.get(b.get("state") or "", b.get("state") or "")
+    system = TOPIC.card_text_system_prompt(home_state=state_name, federal=federal)
+    for attempt in range(2):
+        try:
+            r = requests.post(
+                pb.LLM_API_URL,
+                json={
+                    "model": pb.LLM_MODEL,
+                    "messages": [{"role": "system", "content": system},
+                                 {"role": "user", "content": user_prompt}],
+                    "stream": False,
+                    "format": "json",
+                    "keep_alive": pb.LLM_KEEP_ALIVE,
+                    "options": {"num_predict": 160, "temperature": 0.3},
+                },
+                timeout=pb.budgeted_timeout(pb.LLM_TIMEOUT if attempt == 0
+                                            else pb.LLM_RETRY_TIMEOUT),
+            )
+            r.raise_for_status()
+            data = r.json()
+            raw = (data.get("message") or {}).get("content") or data.get("response") or ""
+            try:
+                desc = str(json.loads(raw).get("description") or "")
+            except (ValueError, AttributeError):
+                m = re.search(r'"description"\s*:\s*"(.*)', raw, re.S)
+                desc = m.group(1) if m else ""
+            if desc.strip():
+                return desc
+        except Exception as e:
+            print(f"  ! card-text attempt {attempt + 1} failed: {e}", file=sys.stderr)
+    return ""
+
+
+def card_text(b: dict) -> str:
+    """The v2 card's description: two plain sentences, ~30 words, no bill
+    number or hashtags. The Bluesky/X/Threads copy is untouched; this is a
+    separate call. Falls back to the shared headline, then the start of the
+    shared summary, when the model gives nothing usable. Cached on the record."""
+    cached = b.get("_ig_card_text")
+    if cached is not None:
+        return cached
+    pb._post_copy(b)  # builds (or reuses) the shared source prompt
+    text = _tidy_card_text(_card_text_llm(b), b)
+    if not text:
+        copy = b.get("_post_copy") or {}
+        # The headline is the shared copy's plain-language line even when the
+        # model was down (_delegalese_headline); the fallback summary is often
+        # a fragment of statute text, so it only fills in when there's no
+        # headline.
+        text = (_tidy_card_text(copy.get("headline", ""), b)
+                or _tidy_card_text(copy.get("summary", ""), b)
+                or _tidy_card_text(_clip_clean(best_display_text(b), 200), b))
+    b["_ig_card_text"] = text
+    return text
+
+
+# ---------------------------------------------------------------------------
 # Card rendering + public hosting
 # ---------------------------------------------------------------------------
 
+# How many v2 cards this run drew a timeline stage for, and how many of those
+# fell back to "Introduced" because no rule recognised the action text.
+STAGE_STATS = {"cards": 0, "fallback": 0}
+
+
+def _log_stage(b: dict) -> None:
+    stage, rule = bill_stage(b)
+    STAGE_STATS["cards"] += 1
+    if not rule:
+        STAGE_STATS["fallback"] += 1
+    how = f"rule: {rule}" if rule else "no rule matched, fell back to Introduced"
+    print(f"  timeline stage: {STAGES[stage]} ({how}) from "
+          f"{(b.get('action_desc') or '').strip()[:90]!r}")
+
+
+def _log_stage_pool(bills: list[dict]) -> None:
+    """DRY_RUN only: how the timeline mapping does on this topic's whole pool of
+    new updates, not just the one or two that get posted."""
+    stages = [bill_stage(b) for b in bills]
+    misses = Counter((b.get("action_desc") or "").strip()[:70]
+                     for b, (_, rule) in zip(bills, stages) if not rule)
+    by_stage = Counter(STAGES[st] for st, _ in stages)
+    n = len(stages)
+    print(f"  [DRY RUN] timeline stages for {n} update(s): "
+          + ", ".join(f"{k}={v}" for k, v in by_stage.most_common()))
+    print(f"  [DRY RUN] fell back to Introduced (no rule matched): "
+          f"{sum(misses.values())} of {n} ({100 * sum(misses.values()) / n:.0f}%)")
+    for text, k in misses.most_common(8):
+        print(f"    {k}× {text!r}")
+
+
 def render_bill_card(b: dict, summary: str, headline: str) -> Path:
     out_dir = TOPIC.instagram_cards_dir()
+    if CARD_DESIGN == "v2":
+        _log_stage(b)
+        return render_card_v2(
+            b,
+            text=card_text(b),
+            emoji=TOPIC.default_emoji,
+            topic_label=TOPIC.display_name,
+            accent=TOPIC.card_accent,
+            out_path=out_dir / f"{_artifact_basename(b)}.jpg",
+        )
     out_path = out_dir / f"{_artifact_basename(b)}.png"
     return render_card(
         b,
@@ -419,23 +565,31 @@ def wait_for_url(url: str) -> bool:
 # Instagram publish (two-step container -> publish)
 # ---------------------------------------------------------------------------
 
-def _create_container(image_url: str, caption: str) -> str | None:
+def _create_container(image_url: str, caption: str, alt_text: str = "") -> str | None:
+    data = {
+        "image_url": image_url,
+        "caption": caption,
+        "access_token": INSTAGRAM_ACCESS_TOKEN,
+    }
+    # alt_text: "For image posts only. Alternative text, up to 1000 character"
+    # (IG User Media reference, added March 2025). The reference doesn't say
+    # whether graph.instagram.com (Instagram Login) accepts it, so a 400 that
+    # names it is retried once without it rather than losing the post.
+    if alt_text:
+        data["alt_text"] = alt_text[:IG_ALT_TEXT_MAX]
     try:
-        resp = requests.post(
-            f"{IG_API}/{INSTAGRAM_USER_ID}/media",
-            data={
-                "image_url": image_url,
-                "caption": caption,
-                "access_token": INSTAGRAM_ACCESS_TOKEN,
-            },
-            timeout=IG_TIMEOUT,
-        )
+        resp = requests.post(f"{IG_API}/{INSTAGRAM_USER_ID}/media",
+                             data=data, timeout=IG_TIMEOUT)
         resp.raise_for_status()
         return resp.json().get("id")
     except Exception as e:
+        resp = getattr(e, "response", None)
         print(f" ! container creation failed: {e}", file=sys.stderr)
-        if getattr(e, "response", None) is not None:
-            print(f"   Response body: {e.response.text}", file=sys.stderr)
+        if resp is not None:
+            print(f"   Response body: {resp.text}", file=sys.stderr)
+            if alt_text and resp.status_code == 400 and "alt_text" in resp.text:
+                print("   retrying without alt_text.", file=sys.stderr)
+                return _create_container(image_url, caption)
         return None
 
 
@@ -562,12 +716,14 @@ def _ig_latest_permalink(max_age_min: int = 20) -> str:
     return ""
 
 
-def post_to_instagram(image_url: str, caption: str, record: dict | None = None) -> bool:
+def post_to_instagram(image_url: str, caption: str, record: dict | None = None,
+                      alt_text: str = "") -> bool:
     if DRY_RUN:
         print(f"  [DRY RUN] skipping Instagram post ({len(caption)} chars)")
         print(f"  [DRY RUN] image_url: {image_url}")
+        print(f"  [DRY RUN] alt_text: {alt_text}")
         return True
-    creation_id = _create_container(image_url, caption)
+    creation_id = _create_container(image_url, caption, alt_text)
     if not creation_id:
         return False
     media_id = _publish_container(creation_id)
@@ -634,8 +790,19 @@ def _prepare(b: dict) -> dict:
     caption_summary = summarize(b, max_chars=IG_CAPTION_SUMMARY_CHARS)
     card_summary = summarize(b, max_chars=CARD_SUMMARY_CHARS)
     caption, url = compose_instagram_caption(b, caption_summary, headline=headline)
-    card_path = render_bill_card(b, card_summary, _card_headline(b, headline))
-    return {"bill": b, "caption": caption, "url": url, "card_path": card_path}
+    card_headline = _card_headline(b, headline)
+    card_path = render_bill_card(b, card_summary, card_headline)
+    described = card_text(b) if CARD_DESIGN == "v2" else card_headline
+    return {"bill": b, "caption": caption, "url": url, "card_path": card_path,
+            "alt_text": alt_text_for(b, described)}
+
+
+def alt_text_for(b: dict, description: str) -> str:
+    """Screen-reader text for the card: "{topic} bill {identifier} in {state}:
+    {description}"."""
+    state = STATE_FULL_NAME.get((b.get("state") or "").upper(), b.get("state") or "")
+    ident = display_identifier(b.get("state"), b.get("identifier") or "")
+    return f"{TOPIC.display_name} bill {ident} in {state}: {description}".strip()
 
 
 def _publish_prepared(items: list[dict]) -> str | None:
@@ -690,7 +857,8 @@ def _post_items(items: list[dict], sha: str, slug: str, state: dict, seen: set,
         prior = (ledger.posted_this_run() if ledger is not None else 0) + posted
         _anti_rapidfire_pause(prior)
         _stash_posted(b, text=it["caption"], link=it.get("url", ""))
-        if not post_to_instagram(image_url, it["caption"], record=b):
+        if not post_to_instagram(image_url, it["caption"], record=b,
+                                 alt_text=it.get("alt_text", "")):
             continue
         posted += 1
         if SAVE_STATE:
@@ -869,6 +1037,8 @@ def main() -> int:
     print(f"Found {len(candidates)} new {TOPIC.topic_phrase} bill update(s).")
     if not candidates:
         return 0
+    if DRY_RUN and CARD_DESIGN == "v2":
+        _log_stage_pool(candidates)
 
     state_counts = Counter(b["state"] or "?" for b in candidates)
     print(f"  by state: {', '.join(f'{s}={n}' for s, n in state_counts.most_common(15))}")
@@ -987,6 +1157,9 @@ def main() -> int:
 
     if not SAVE_RAW:
         print("  SAVE_RAW=0 — bills_raw artifacts not written.")
+    if STAGE_STATS["cards"]:
+        print(f"Timeline stage fell back to Introduced on {STAGE_STATS['fallback']} "
+              f"of {STAGE_STATS['cards']} card(s) rendered this run.")
     _persist(state, seen, posted)
     return 0
 
