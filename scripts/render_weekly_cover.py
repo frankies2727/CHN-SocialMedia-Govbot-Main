@@ -8,7 +8,7 @@ Layout (1080x1350, the same 4:5 as the v2 cards, so the carousel is one size):
   * Warm paper background, near-black ink, Govbot green for the date line.
   * Top strip: "NO. <week of the year>" on the right, then a thick + thin gold
     rule (the Govbot site's gold), like a newspaper masthead.
-  * Masthead: "Legislation Bills / on the Move" in big bold type, the date range
+  * Masthead: "Legislation Bills / on the Move / This Week" in big bold type, the date range
     under it.
   * "IN THIS ISSUE": one row per bill slide, in slide order, a table of contents:
     the topic's emoji in a circle of its colour, the topic name, and the state and
@@ -40,10 +40,11 @@ GREEN = (11, 125, 69)          # Govbot brand green (light theme), 5.2:1 on PAPE
 RULE = (27, 26, 23)
 FAINT = (214, 207, 192)        # row separators
 
-# Masthead title (two lines) and the gold of the masthead/footer rules: the
+# Masthead title (one entry per line) and the gold of the masthead/footer rules: the
 # Govbot site's gold, as on its "Govbot" wordmark and gold accents.
-TITLE = ("Legislation Bills", "on the Move")
+TITLE = ("Legislation Bills", "on the Move", "This Week")
 GOLD = (229, 185, 78)          # #E5B94E
+ROW_MIN = 58                   # shortest contents row, so emoji + text stay legible
 
 
 def _save(img: Image.Image, out_path: Path) -> Path:
@@ -55,7 +56,8 @@ def _save(img: Image.Image, out_path: Path) -> Path:
     return out_path
 
 
-def _masthead(d: ImageDraw.ImageDraw, date_label: str, issue_no: int | None) -> int:
+def _masthead(d: ImageDraw.ImageDraw, date_label: str, issue_no: int | None,
+              max_size: int = 132) -> int:
     """Top strip, rules, title and date line. Returns the y below them."""
     small = R._font(26, "bold")
     if issue_no:
@@ -66,11 +68,11 @@ def _masthead(d: ImageDraw.ImageDraw, date_label: str, issue_no: int | None) -> 
 
     lines = TITLE
     # The largest size (up to 132px) at which the longer line fits the width.
-    size = 132
+    size = max_size
     while size > 72 and max(d.textlength(t, font=R._font(size, "bold")) for t in lines) > W - 2 * PAD + 6:
         size -= 4
     tf = R._font(size, "bold")
-    y = 170 + (132 - size)          # a smaller title sits lower, so the date line stays put
+    y = 170
     for line in lines:
         d.text((PAD - 6, y), line, font=tf, fill=INK)
         y += size
@@ -125,7 +127,12 @@ def render_weekly_cover(entries: list[dict], *, date_label: str,
                         quiet: bool = False) -> Path:
     img = Image.new("RGB", (W, H), PAPER)
     d = ImageDraw.Draw(img)
-    y = _masthead(d, date_label, issue_no)
+    # On a busy week the title gives up some height so every contents row stays
+    # at least ROW_MIN tall: below the title come the date line and rule (114px)
+    # and the "IN THIS ISSUE" label (~90px); the footer starts at H - 180.
+    rows = min(len(entries), 9) if entries and not quiet else 0
+    room = (H - 180) - 170 - 114 - 90 - rows * ROW_MIN
+    y = _masthead(d, date_label, issue_no, max(72, min(132, room // len(TITLE))))
 
     if quiet or not entries:
         y += 90
