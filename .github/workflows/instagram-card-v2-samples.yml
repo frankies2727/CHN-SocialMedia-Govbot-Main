@@ -1,6 +1,7 @@
 name: instagram-card-v2-samples
 
-# Renders review samples of the daily Instagram card (v2) and uploads them as a
+# Renders review samples of the daily Instagram card (v2) and the weekly-digest
+# cover, and uploads them as a
 # downloadable artifact, so a reviewer can see every topic and the edge cases
 # without anything being committed or posted. Offline: no model, no credentials.
 on:
@@ -9,6 +10,8 @@ on:
       - "scripts/render_bill_card.py"
       - "scripts/render_bill_card_v2.py"
       - "scripts/render_card_v2_samples.py"
+      - "scripts/render_weekly_cover.py"
+      - "scripts/weekly_digest_instagram.py"
       - "scripts/test_render_bill_card_v2.py"
       - "topics/*/config.yml"
       - "assets/fonts/**"
@@ -32,6 +35,8 @@ jobs:
         run: python3 scripts/test_render_bill_card_v2.py
       - name: Render samples
         run: python3 scripts/render_card_v2_samples.py card-v2-samples
+      - name: Render weekly-digest cover samples (full, short, quiet week)
+        run: python3 scripts/render_weekly_cover.py card-v2-samples
       - uses: actions/upload-artifact@v4
         with:
           name: instagram-card-v2-samples
