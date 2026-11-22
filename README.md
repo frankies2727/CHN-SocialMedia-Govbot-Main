@@ -424,6 +424,7 @@ A dry run prints the composed posts without hitting Bluesky/X. If Ollama isn't r
 | `weekly-digest-meta-threads.yml` | **Sat** + manual | Weekly digest thread on Threads (root + a self-contained reply per highlight). |
 | `meta-threads-refresh-token.yml` | Weekly + manual | Rolls the 60-day Threads token forward so it never lapses. |
 | `post_to_instagram.yml` | Mon/Wed + manual | Renders each bill to a card image, pushes it, then posts to a Meta Instagram Business account (dedicated to the `lgbtq` topic; 2 posts/run). |
+| `weekly-digest-instagram.yml` | **Sat** + manual | Weekly Instagram carousel across all topics: a magazine-style "Statehouse Weekly" cover (issue number, dates, an "In this issue" list with each bill's slide number) followed by one v2 bill card per highlight. A week with no activity posts the cover alone, saying so. `CARD_DESIGN=v1` brings back the old square cover and cards. |
 | `instagram-refresh-token.yml` | Weekly + manual | Rolls the 60-day Instagram token forward so it never lapses. |
 | `post_bluesky_specific_bill.yml` | Manual | Force-post one specific `state` + `bill_id` to a chosen topic's Bluesky account (with dry-run / repost toggles). |
 | `post_x_specific_bill.yml` | Manual | Same one-off force-post, for X. |
@@ -465,7 +466,10 @@ scripts/
   post_to_x.py                 # shared X bot (reuses the Bluesky engine)
   post_to_meta_threads.py      # shared Threads bot (reuses the Bluesky engine)
   post_to_instagram.py         # shared Instagram bot (renders + posts card images)
-  render_bill_card.py          # Pillow renderer for the Instagram bill cards
+  render_bill_card.py          # Pillow renderer for the Instagram bill cards (v1)
+  render_bill_card_v2.py       # the v2 Instagram bill card (daily posts + weekly slides)
+  render_weekly_cover.py       # the Instagram weekly digest's "Statehouse Weekly" cover
+  weekly_digest_instagram.py   # Instagram weekly digest carousel builder
   weekly_digest_bluesky.py     # Bluesky weekly digest builder
   weekly_digest_x.py           # X weekly digest builder
   weekly_digest_meta_threads.py # Threads weekly digest builder

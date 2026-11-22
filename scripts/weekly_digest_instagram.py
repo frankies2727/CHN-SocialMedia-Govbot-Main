@@ -52,6 +52,7 @@ from PIL import Image
 
 import digest_multitopic as dm
 import post_to_bluesky as pb
+import post_to_instagram as pi
 from post_to_bluesky import (
     local_today,
     best_display_text,
@@ -65,6 +66,7 @@ from post_to_bluesky import (
     STATE_FULL_NAME,
 )
 from post_to_instagram import (
+    CARD_DESIGN,
     CARD_MODE,
     DRY_RUN,
     IG_API,
@@ -81,12 +83,16 @@ from post_to_instagram import (
     _git,
     _push_with_rebase,
     _internal_error_subcode,
+    _log_stage,
     _repo_slug,
+    card_text,
     post_to_instagram,
     raw_url_for,
     wait_for_url,
 )
 from render_bill_card import render_card, render_cover_card
+from render_bill_card_v2 import render_card_v2
+from render_weekly_cover import render_weekly_cover
 from topic import Topic
 from weekly_digest_bluesky import (
     DIGEST_LOOKBACK_DAYS,
@@ -150,6 +156,7 @@ COVER_SUBTITLE = os.environ.get(
 
 def _activate_topic(topic: Topic) -> None:
     pb.TOPIC = topic
+    pi.TOPIC = topic   # card_text() (the v2 card's description) reads this one
 
 
 # ---------------------------------------------------------------------------
@@ -176,16 +183,33 @@ def _prepare_item(b: dict) -> dict:
     _activate_topic(topic)
     ensure_english_fields(b)
     headline = shorten_title(b)
-    summary = summarize(b)
     display = best_display_text(b, headline=headline).strip()
     url = link_for(b)
 
     out_dir = topic.instagram_weekly_digest_cards_dir()
     out_dir.mkdir(parents=True, exist_ok=True)
+    if CARD_DESIGN == "v2":
+        # The same v2 card the daily poster draws (4:5 JPEG, full topic colour,
+        # plain two-sentence description, progress timeline), so a bill looks the
+        # same in the weekly carousel as it did in the feed.
+        _log_stage(b)
+        card_path = render_card_v2(
+            b,
+            text=card_text(b),
+            emoji=topic.emoji_for(b),
+            topic_label=topic.display_name,
+            accent=topic.card_accent,
+            out_path=out_dir / f"{_artifact_basename(b)}.jpg",
+        )
+        return {
+            "bill": b, "topic": topic, "topic_name": b["_topic_name"],
+            "headline": headline, "display": display, "url": url,
+            "card_path": card_path,
+        }
     card_path = _to_jpeg(render_card(
         b,
         headline=headline,
-        summary=summary,
+        summary=summarize(b),
         emoji=topic.emoji_for(b),
         topic_label=topic.display_name,
         accent=topic.card_accent,
@@ -261,6 +285,11 @@ def _date_range_label(today: datetime, window_days: int, landscape: bool) -> str
     return f"{_format_short(start)}–{_format_short(end)}, {end.year}"
 
 
+def _issue_no(today: datetime) -> int:
+    """The cover's issue number: the week of the year the digest closes on."""
+    return today.isocalendar()[1]
+
+
 def render_cover(items: list[dict], today: datetime, window_days: int,
                  landscape: bool) -> dict:
     """Render the carousel's intro slide (title, the kind of bills, date range)
@@ -273,6 +302,19 @@ def render_cover(items: list[dict], today: datetime, window_days: int,
     coverage = (f"{len(topics)} topic{'s' if len(topics) != 1 else ''} · "
                 f"{n_states} state{'s' if n_states != 1 else ''}")
     DIGEST_COVER_DIR.mkdir(parents=True, exist_ok=True)
+    if CARD_DESIGN == "v2":
+        entries = [{"emoji": it["topic"].emoji_for(it["bill"]),
+                    "topic": it["topic"].display_name,
+                    "accent": it["topic"].card_accent,
+                    "state": it["bill"]["state"],
+                    "identifier": display_identifier(it["bill"]["state"],
+                                                     it["bill"]["identifier"])}
+                   for it in items]
+        path = render_weekly_cover(
+            entries, date_label=_date_range_label(today, window_days, landscape),
+            issue_no=_issue_no(today), out_path=DIGEST_COVER_DIR / "cover.jpg")
+        return {"card_path": path, "topic_name": "cover",
+                "bill": {"state": "", "identifier": "(cover)"}}
     path = _to_jpeg(render_cover_card(
         title=COVER_TITLE,
         subtitle=COVER_SUBTITLE,
@@ -590,15 +632,20 @@ def _post_no_activity_cover(today: datetime) -> int:
     start = today - timedelta(days=DIGEST_LOOKBACK_DAYS - 1)
     range_str = f"{_format_short(start)}–{_format_short(end)}, {end.year}"
     DIGEST_COVER_DIR.mkdir(parents=True, exist_ok=True)
-    cover_path = _to_jpeg(render_cover_card(
-        title=COVER_TITLE,
-        subtitle="No statehouse activity this week",
-        including="",
-        date_label=range_str,
-        coverage_label="",
-        mode=CARD_MODE,
-        out_path=DIGEST_COVER_DIR / f"cover-{CARD_MODE}.png",
-    ))
+    if CARD_DESIGN == "v2":
+        cover_path = render_weekly_cover(
+            [], date_label=range_str, issue_no=_issue_no(today),
+            out_path=DIGEST_COVER_DIR / "cover.jpg", quiet=True)
+    else:
+        cover_path = _to_jpeg(render_cover_card(
+            title=COVER_TITLE,
+            subtitle="No statehouse activity this week",
+            including="",
+            date_label=range_str,
+            coverage_label="",
+            mode=CARD_MODE,
+            out_path=DIGEST_COVER_DIR / f"cover-{CARD_MODE}.png",
+        ))
     caption = (
         f"{DIGEST_TITLE}\n{range_str}\n\n"
         "No activity from statehouses across the country these past 7 days. "
