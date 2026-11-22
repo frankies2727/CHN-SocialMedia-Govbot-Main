@@ -6,14 +6,15 @@ full-bleed topic colour). The bill slides that follow it are v2 cards.
 
 Layout (1080x1350, the same 4:5 as the v2 cards, so the carousel is one size):
   * Warm paper background, near-black ink, Govbot green for the date line.
-  * Top strip: "NO. <week of the year>" on the right, then a thick + thin rule,
-    like a newspaper masthead.
-  * Masthead: a two-line title in big bold type (one of TITLES, rotating each
-    week so the cover doesn't read the same every Saturday), the date range under it.
+  * Top strip: "NO. <week of the year>" on the right, then a thick + thin gold
+    rule (the Govbot site's gold), like a newspaper masthead.
+  * Masthead: "Legislation Bills / on the Move" in big bold type, the date range
+    under it.
   * "IN THIS ISSUE": one row per bill slide, in slide order, a table of contents:
     the topic's emoji in a circle of its colour, the topic name, and the state and
     bill number.
-  * Footer: "Swipe for each bill" with a drawn arrow, and the GOVBOT wordmark.
+  * Footer: a gold rule, "Swipe for each bill" with a drawn arrow, and the GOVBOT
+    wordmark.
 A quiet week (nothing to feature) keeps the masthead and says so in big type.
 
 Public entry point:
@@ -39,22 +40,10 @@ GREEN = (11, 125, 69)          # Govbot brand green (light theme), 5.2:1 on PAPE
 RULE = (27, 26, 23)
 FAINT = (214, 207, 192)        # row separators
 
-# Masthead titles, two lines each. The cover picks one by issue number, so it
-# changes every week and repeats in a fixed order (same week -> same title).
-TITLES = [
-    ("Statehouse", "Weekly"),
-    ("This Week in", "the States"),
-    ("What Moved", "This Week"),
-    ("The Capitol", "Roundup"),
-    ("Your Weekly", "Law Brief"),
-    ("Bills on", "the Move"),
-    ("The 50-State", "Rundown"),
-    ("From the", "Statehouses"),
-]
-
-
-def title_for(issue_no: int | None) -> tuple[str, str]:
-    return TITLES[(issue_no or 0) % len(TITLES)]
+# Masthead title (two lines) and the gold of the masthead/footer rules: the
+# Govbot site's gold, as on its "Govbot" wordmark and gold accents.
+TITLE = ("Legislation Bills", "on the Move")
+GOLD = (229, 185, 78)          # #E5B94E
 
 
 def _save(img: Image.Image, out_path: Path) -> Path:
@@ -66,17 +55,16 @@ def _save(img: Image.Image, out_path: Path) -> Path:
     return out_path
 
 
-def _masthead(d: ImageDraw.ImageDraw, date_label: str, issue_no: int | None,
-              title: tuple[str, str] | None = None) -> int:
+def _masthead(d: ImageDraw.ImageDraw, date_label: str, issue_no: int | None) -> int:
     """Top strip, rules, title and date line. Returns the y below them."""
     small = R._font(26, "bold")
     if issue_no:
         no = f"NO. {issue_no}"
         R._draw_tracked(d, W - PAD - R._tracked_width(d, no, small, 6), PAD, no, small, INK, 6)
-    d.rectangle([PAD, 134, W - PAD, 140], fill=RULE)
-    d.rectangle([PAD, 148, W - PAD, 150], fill=RULE)
+    d.rectangle([PAD, 134, W - PAD, 140], fill=GOLD)
+    d.rectangle([PAD, 148, W - PAD, 150], fill=GOLD)
 
-    lines = title or title_for(issue_no)
+    lines = TITLE
     # The largest size (up to 132px) at which the longer line fits the width.
     size = 132
     while size > 72 and max(d.textlength(t, font=R._font(size, "bold")) for t in lines) > W - 2 * PAD + 6:
@@ -95,7 +83,7 @@ def _masthead(d: ImageDraw.ImageDraw, date_label: str, issue_no: int | None,
 
 
 def _footer(d: ImageDraw.ImageDraw, left: str) -> None:
-    d.rectangle([PAD, H - 150, W - PAD, H - 144], fill=RULE)
+    d.rectangle([PAD, H - 150, W - PAD, H - 144], fill=GOLD)
     if left:
         lf = R._font(32, "medium")
         d.text((PAD, H - 108), left, font=lf, fill=INK)
@@ -133,12 +121,11 @@ def _row(img, d, y: int, h: int, e: dict) -> None:
 
 def render_weekly_cover(entries: list[dict], *, date_label: str,
                         issue_no: int | None = None,
-                        title: tuple[str, str] | None = None,
                         out_path: str | Path = "weekly-cover.jpg",
                         quiet: bool = False) -> Path:
     img = Image.new("RGB", (W, H), PAPER)
     d = ImageDraw.Draw(img)
-    y = _masthead(d, date_label, issue_no, title)
+    y = _masthead(d, date_label, issue_no)
 
     if quiet or not entries:
         y += 90
@@ -186,6 +173,3 @@ if __name__ == "__main__":
                               out_path=out / "weekly-cover-3.jpg"))
     print(render_weekly_cover([], date_label="Nov 15–Nov 21, 2026", issue_no=47,
                               out_path=out / "weekly-cover-quiet.jpg", quiet=True))
-    for i, t in enumerate(TITLES):       # one cover per title, to compare them
-        render_weekly_cover(sample, date_label="Nov 15–Nov 21, 2026", issue_no=47,
-                            title=t, out_path=out / f"weekly-cover-title-{i + 1}.jpg")
