@@ -6,12 +6,13 @@ full-bleed topic colour). The bill slides that follow it are v2 cards.
 
 Layout (1080x1350, the same 4:5 as the v2 cards, so the carousel is one size):
   * Warm paper background, near-black ink, Govbot green for the date line.
-  * Top strip: "GOVBOT" on the left, "NO. <week of the year>" on the right, then
-    a thick + thin rule, like a newspaper masthead.
-  * Masthead: "Statehouse / Weekly" in big bold type, the date range under it.
-  * "IN THIS ISSUE": one row per bill slide, a table of contents: the topic's
-    emoji in a circle of its colour, the topic name, the state and bill number,
-    and the slide number it's on (the cover is slide 1).
+  * Top strip: "NO. <week of the year>" on the right, then a thick + thin rule,
+    like a newspaper masthead.
+  * Masthead: a two-line title in big bold type (one of TITLES, rotating each
+    week so the cover doesn't read the same every Saturday), the date range under it.
+  * "IN THIS ISSUE": one row per bill slide, in slide order, a table of contents:
+    the topic's emoji in a circle of its colour, the topic name, and the state and
+    bill number.
   * Footer: "Swipe for each bill" with a drawn arrow, and the GOVBOT wordmark.
 A quiet week (nothing to feature) keeps the masthead and says so in big type.
 
@@ -38,6 +39,23 @@ GREEN = (11, 125, 69)          # Govbot brand green (light theme), 5.2:1 on PAPE
 RULE = (27, 26, 23)
 FAINT = (214, 207, 192)        # row separators
 
+# Masthead titles, two lines each. The cover picks one by issue number, so it
+# changes every week and repeats in a fixed order (same week -> same title).
+TITLES = [
+    ("Statehouse", "Weekly"),
+    ("This Week in", "the States"),
+    ("What Moved", "This Week"),
+    ("The Capitol", "Roundup"),
+    ("Your Weekly", "Law Brief"),
+    ("Bills on", "the Move"),
+    ("The 50-State", "Rundown"),
+    ("From the", "Statehouses"),
+]
+
+
+def title_for(issue_no: int | None) -> tuple[str, str]:
+    return TITLES[(issue_no or 0) % len(TITLES)]
+
 
 def _save(img: Image.Image, out_path: Path) -> Path:
     out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -48,21 +66,26 @@ def _save(img: Image.Image, out_path: Path) -> Path:
     return out_path
 
 
-def _masthead(d: ImageDraw.ImageDraw, date_label: str, issue_no: int | None) -> int:
+def _masthead(d: ImageDraw.ImageDraw, date_label: str, issue_no: int | None,
+              title: tuple[str, str] | None = None) -> int:
     """Top strip, rules, title and date line. Returns the y below them."""
     small = R._font(26, "bold")
-    R._draw_tracked(d, PAD, PAD, "GOVBOT", small, INK, 6)
     if issue_no:
         no = f"NO. {issue_no}"
         R._draw_tracked(d, W - PAD - R._tracked_width(d, no, small, 6), PAD, no, small, INK, 6)
     d.rectangle([PAD, 134, W - PAD, 140], fill=RULE)
     d.rectangle([PAD, 148, W - PAD, 150], fill=RULE)
 
-    title = R._font(132, "bold")
-    y = 170
-    for word in ("Statehouse", "Weekly"):
-        d.text((PAD - 6, y), word, font=title, fill=INK)
-        y += 132
+    lines = title or title_for(issue_no)
+    # The largest size (up to 132px) at which the longer line fits the width.
+    size = 132
+    while size > 72 and max(d.textlength(t, font=R._font(size, "bold")) for t in lines) > W - 2 * PAD + 6:
+        size -= 4
+    tf = R._font(size, "bold")
+    y = 170 + (132 - size)          # a smaller title sits lower, so the date line stays put
+    for line in lines:
+        d.text((PAD - 6, y), line, font=tf, fill=INK)
+        y += size
     y += 48
     df = R._font(40, "medium")
     d.text((PAD, y), (date_label or "").upper(), font=df, fill=GREEN)
@@ -86,8 +109,8 @@ def _footer(d: ImageDraw.ImageDraw, left: str) -> None:
                     "GOVBOT", wf, INK, 7)
 
 
-def _row(img, d, y: int, h: int, n: int, e: dict) -> None:
-    """One contents row: emoji disc, topic, state + bill, slide number."""
+def _row(img, d, y: int, h: int, e: dict) -> None:
+    """One contents row: emoji disc, topic, and the state + bill at the right."""
     cy = y + h // 2
     r = min(34, h // 2 - 6)
     accent = tuple(e.get("accent") or GREEN)
@@ -96,19 +119,11 @@ def _row(img, d, y: int, h: int, n: int, e: dict) -> None:
     if emo:
         img.paste(emo, (round(PAD + r - emo.width / 2), round(cy - emo.height / 2)), emo)
 
-    num = str(n)
-    nf = R._font(30 if len(num) == 1 else 26, "bold")
-    nw = d.textlength(num, font=nf)
-    nr = 26
-    nx = W - PAD - nr
-    d.ellipse([nx - nr, cy - nr, nx + nr, cy + nr], outline=INK, width=3)
-    d.text((nx - nw / 2, cy - (19 if len(num) == 1 else 16)), num, font=nf, fill=INK)
-
     state = (e.get("state") or "").upper()
     meta = f"{R.STATE_FULL_NAME.get(state, state)} · {e.get('identifier', '')}"
     mf = R._font(28, "regular")
     mw = d.textlength(meta, font=mf)
-    mx = W - PAD - 2 * nr - 28 - mw
+    mx = W - PAD - mw
     tx = PAD + 2 * r + 26
     tf = R._font(34, "bold")
     topic = R._truncate(d, [e.get("topic") or ""], tf, 1, max(80, mx - tx - 24))[0]
@@ -118,11 +133,12 @@ def _row(img, d, y: int, h: int, n: int, e: dict) -> None:
 
 def render_weekly_cover(entries: list[dict], *, date_label: str,
                         issue_no: int | None = None,
+                        title: tuple[str, str] | None = None,
                         out_path: str | Path = "weekly-cover.jpg",
                         quiet: bool = False) -> Path:
     img = Image.new("RGB", (W, H), PAPER)
     d = ImageDraw.Draw(img)
-    y = _masthead(d, date_label, issue_no)
+    y = _masthead(d, date_label, issue_no, title)
 
     if quiet or not entries:
         y += 90
@@ -142,7 +158,7 @@ def render_weekly_cover(entries: list[dict], *, date_label: str,
     bottom = H - 150 - 30
     h = min(96, (bottom - y) // len(rows))
     for i, e in enumerate(rows):
-        _row(img, d, y, h, i + 2, e)       # the cover is slide 1
+        _row(img, d, y, h, e)
         y += h
         if i < len(rows) - 1:
             d.line([(PAD, y), (W - PAD, y)], fill=FAINT, width=2)
@@ -170,3 +186,6 @@ if __name__ == "__main__":
                               out_path=out / "weekly-cover-3.jpg"))
     print(render_weekly_cover([], date_label="Nov 15–Nov 21, 2026", issue_no=47,
                               out_path=out / "weekly-cover-quiet.jpg", quiet=True))
+    for i, t in enumerate(TITLES):       # one cover per title, to compare them
+        render_weekly_cover(sample, date_label="Nov 15–Nov 21, 2026", issue_no=47,
+                            title=t, out_path=out / f"weekly-cover-title-{i + 1}.jpg")
