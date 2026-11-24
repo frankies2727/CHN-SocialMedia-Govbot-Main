@@ -1,0 +1,138 @@
+A bill for an act     relating to public safety; clarifying certain grants from the Bureau of Criminal     Apprehension to local law enforcement as reimbursements; updating law related     to recording of crimes; establishing process for determining how certain criminal     records are ineligible for sealing; requiring court to provide orders for protection     for access by law enforcement; amending Minnesota Statutes 2024, sections     299C.05; 299C.065; 299C.46, subdivision 6; 609A.015, subdivision 5; Minnesota     Statutes 2025 Supplement, section 609.2334, subdivision 11; repealing Minnesota     Statutes 2024, section 299C.12.
+
+BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA:
+
+Section 1.
+Minnesota Statutes 2024, section 299C.05, is amended to read:
+
+299C.05 CRIME DATA COLLECTION.
+It shall be the duty of this division to collect, and preserve as a record of the bureau,     information concerning the number and nature of offenses known to have been committed     in the state, of the legal steps taken in connection therewith from the inception of the     complaint to the final discharge of the defendant, and such other information as may be     useful in the study of crime and the administration of justice.      The information shall be     provided in a form prescribed by the superintendent.      The information so collected and     preserved shall include such data as may be requested by the United States Department of     Justice, at Washington, under its national system of crime reporting. To the extent possible,     the superintendent must utilize a nationally recognized system or standard approved by the     Federal Bureau of Investigation to collect and preserve crime data.
+
+Sec. 2.
+Minnesota Statutes 2024, section 299C.065, is amended to read:
+
+299C.065 UNDERCOVER BUY FUND; WITNESS AND VICTIM PROTECTION.
+
+Subdivision 1.
+Reimbursements     .
+The commissioner of public safety shall make            reimbursements      to local officials for the following purposes:
+(1) the cooperative investigation of cross jurisdictional criminal activity relating to the     possession and sale of controlled substances;
+(2) receiving or selling stolen goods;
+(3) participating in gambling activities in violation of section  609.76 ;
+(4) violations of section  609.322  or any other state or federal law prohibiting the     recruitment, transportation, or use of juveniles for purposes of prostitution;
+(5) for partial reimbursement of local costs associated with unanticipated, intensive,     long-term, multijurisdictional criminal investigations that exhaust available local resources,     except that the commissioner may not reimburse the costs of a local investigation involving     a child who is reported to be missing and endangered unless the law enforcement agency     complies with section  299C.53  and the agency's own investigative policy; and
+(6) for partial reimbursement of local costs associated with criminal investigations into     the activities of violent criminal gangs and gang members.
+
+Subd. 1a.
+Witness and victim protection fund.
+(a) A witness and victim protection     fund is created under the administration of the commissioner of public safety. The     commissioner may make           reimbursements      to local officials to provide for the relocation     or other protection of a victim, witness, or potential witness who is involved in a criminal     prosecution and who the commissioner has reason to believe is or is likely to be the target     of a violent crime or a violation of section  609.498  or  609.713 , in connection with that     prosecution. The awarding of           reimbursements      under this subdivision is not limited     to the crimes and investigations described in subdivision 1.
+(b) The commissioner may award           reimbursements      for any of the following actions     in connection with the protection of a witness or victim under this subdivision:
+(1) to provide suitable documents to enable the person to establish a new identity or     otherwise protect the person;
+(2) to provide housing for the person;
+(3) to provide for the transportation of household furniture and other personal property     to the person's new residence;
+(4) to provide the person with a payment to meet basic living expenses for a time period     the commissioner deems necessary;
+(5) to assist the person in obtaining employment; and
+(6) to provide other services necessary to assist the person in becoming self-sustaining.
+
+Subd. 2.
+Application for           reimbursement     .
+A county sheriff or the chief     administrative officer of a municipal police department may apply to the commissioner of     public safety for a           reimbursement      for any of the purposes described in subdivision 1     or 1a, on forms and pursuant to procedures developed by the superintendent. For               reimbursements      under subdivision 1, the application shall describe the type of intended     criminal investigation, an estimate of the amount of money required, and any other     information the superintendent deems necessary.
+
+Subd. 3.
+Investigation report.
+A report shall be made to the commissioner at the     conclusion of an investigation for which a           reimbursement      was made under subdivision     1 stating (1) the number of persons arrested, (2) the nature of charges filed against them,     (3) the nature and value of controlled substances or contraband purchased or seized, (4) the     amount of money paid to informants during the investigation, and (5) a separate accounting     of the amount of money spent for expenses, other than "buy money," of bureau and local     law enforcement personnel during the investigation. The commissioner shall prepare and     submit to the chairs of the committees in the senate and house of representatives with     jurisdiction over criminal justice policy by January 1 of each even-numbered year a report     of investigations receiving           reimbursements      under subdivision 1.
+
+Subd. 3a.
+Accounting report.
+The head of a law enforcement agency that receives a            reimbursement      under subdivision 1a shall file a report with the commissioner at the     conclusion of the case detailing the specific purposes for which the money was spent. The     commissioner shall prepare and submit to the chairs of the committees in the senate and     house of representatives with jurisdiction over criminal justice policy by January 1 of each     even-numbered year a summary report of witness assistance services provided under this     section.
+
+Subd. 4.
+Data classification.
+An application to the commissioner for money is a     confidential record. Information within investigative files that identifies or could reasonably     be used to ascertain the identity of assisted witnesses, sources, or undercover investigators     is a confidential record. A report at the conclusion of an investigation is a public record,     except that information in a report pertaining to the identity or location of an assisted witness     is private data.
+
+Sec. 3.
+Minnesota Statutes 2024, section 299C.46, subdivision 6, is amended to read:
+
+Subd. 6.
+Orders for protection; no contact orders; harassment restraining orders.
+(a)     As used in this subdivision, "no contact orders" include orders issued as pretrial orders     under section  629.72, subdivision 2 , orders under section  629.75 , and orders issued as     probationary or sentencing orders at the time of disposition in a criminal domestic abuse     case.
+(b) The data communications network must include orders for protection issued under     section  518B.01       or 609.2334     , harassment restraining orders, and no contact orders issued     against adults and juveniles. A no contact order must be accompanied by a photograph of     the offender for the purpose of enforcement of the order, if a photograph is available and     verified by the court to be an image of the defendant.
+(c) Data from orders for protection, harassment restraining orders, or no contact orders     and data entered by law enforcement to assist in the enforcement of those orders are classified     as private data on individuals as defined in section  13.02, subdivision 12 . Data about the     offender can be shared with the victim for purposes of enforcement of the order.
+
+Sec. 4.
+Minnesota Statutes 2025 Supplement, section 609.2334, subdivision 11, is amended     to read:
+
+Subd. 11.
+Copy to law enforcement agency; lead investigative agency.
+Within 24     hours of issuance of an order or continuance of an order under this section, the court     administrator must forward the order for protection and any continuance of the order for     protection to the local law enforcement agency with jurisdiction over the residence of the     vulnerable adult and the lead investigative agency that received the report pursuant to     subdivision 6.      The court administrator shall make available to law enforcement officers in     Minnesota, through a system of verification, information as to the existence and status of     an order for protection issued under this section.      Section  518B.01, subdivision 13 ,               paragraphs (b) and (c), apply      to orders granted under this section.
+
+EFFECTIVE DATE.
+
+This section is effective January 1, 2027.
+
+Sec. 5.
+Minnesota Statutes 2024, section 609A.015, subdivision 5, is amended to read:
+
+Subd. 5.
+Bureau of Criminal Apprehension to identify eligible persons and grant     expungement relief.
+(a) The Bureau of Criminal Apprehension shall identify any records     that qualify for a grant of expungement relief pursuant to this subdivision or subdivision 1,     2, or 3. The Bureau of Criminal Apprehension shall make an initial determination of     eligibility within 30 days of the end of the applicable waiting period. If a record is not     eligible for a grant of expungement at the time of the initial determination, the Bureau of     Criminal Apprehension shall make subsequent eligibility determinations annually until the     record is eligible for a grant of expungement.
+(b) In making the determination under paragraph (a), the Bureau of Criminal     Apprehension shall identify individuals who are the subject of relevant records through the     use of fingerprints and thumbprints where fingerprints and thumbprints are available. Where     fingerprints and thumbprints are not available, the Bureau of Criminal Apprehension shall     identify individuals through the use of the person's name and date of birth. Records containing     the same name and date of birth shall be presumed to refer to the same individual unless     other evidence establishes, by a preponderance of the evidence, that they do not refer to the     same individual. The Bureau of Criminal Apprehension is not required to review any other     evidence in making a determination.
+(c) The Bureau of Criminal Apprehension shall grant expungement relief to qualifying     persons and seal its own records without requiring an application, petition, or motion.     Records shall be sealed 60 days after notice is sent to the judicial branch pursuant to     paragraph (e) unless an order of the judicial branch prohibits sealing the records or additional     information establishes that the records are not eligible for expungement.
+(d) Nonpublic criminal records maintained by the Bureau of Criminal Apprehension     and subject to a grant of expungement relief shall display a notation stating "expungement     relief granted pursuant to section  609A.015 ."
+(e) The Bureau of Criminal Apprehension shall inform the judicial branch of all cases     for which expungement relief was granted pursuant to this section. Notification may be     through electronic means and may be made in real time or in the form of a monthly report.     Upon receipt of notice, the judicial branch shall seal all records relating to an arrest,     indictment or information, trial, verdict, or dismissal and discharge for any case in which     expungement relief was granted and shall issue any order deemed necessary to achieve this     purpose.
+
+(f) If the Bureau of Criminal Apprehension subsequently determines that a sealed record     did not qualify for expungement relief under this section, the Bureau of Criminal     Apprehension shall unseal the record and notify the judicial branch. Upon notification, the     judicial branch shall unseal all records relating to an arrest, indictment or information, trial,     verdict, or dismissal and discharge. The Bureau of Criminal Apprehension shall make this     determination based only on a record stored in the Bureau of Criminal Apprehension's     criminal history system.
+
+(g)      The Bureau of Criminal Apprehension shall inform each law enforcement agency     that its records may be affected by a grant of expungement relief. Notification may be     through electronic means. Each notified law enforcement agency that receives a request to     produce records shall first determine if the records were subject to a grant of expungement     under this section. The law enforcement agency must not disclose records relating to an     arrest, indictment or information, trial, verdict, or dismissal and discharge for any case in     which expungement relief was granted and must maintain the data consistent with the     classification in paragraph           (h)     . This paragraph does not apply to requests from a criminal     justice agency as defined in section  609A.03, subdivision 7a , paragraph (f).
+(h)      Data on the person whose offense has been expunged under this subdivision,     including any notice sent pursuant to paragraph           (g)     , are private data on individuals as     defined in section  13.02, subdivision 12 .
+(i)      The prosecuting attorney shall notify the victim that an offense qualifies for     automatic expungement under this section in the manner provided in section  611A.03,     subdivisions 1  and 2.
+(j)      In any subsequent prosecution of a person granted expungement relief, the expunged     criminal record may be pleaded and has the same effect as if the relief had not been granted.
+(k)      The Bureau of Criminal Apprehension is directed to develop, modify, or update     a system to provide criminal justice agencies with uniform statewide access to criminal     records sealed by expungement.
+
+Sec. 6.       REPEALER.
+
+Minnesota Statutes 2024, section 299C.12,
+
+is repealed.
+
+APPENDIX
+Repealed Minnesota Statutes: H3827-1
+
+299C.12 RECORD KEPT BY PEACE OFFICER; REPORT.
+Every peace officer shall keep or cause to be kept a permanent written record, in such form as the superintendent may prescribe, of all felonies reported to or discovered by the officer within the officer's jurisdiction and of all warrants of arrest for felonies and search warrants issued to the officer in relation to the commission of felonies, and shall make or cause to be made to the sheriff of the county and the bureau reports of all such crimes, upon such forms as the superintendent may prescribe, including a statement of the facts and a description of the offender, so far as known, the offender's method of operation, the action taken by the officer, and such other information as the superintendent may require.
+
+About the Legislature
+
+Historical Information
+
+Employment/Internships
+
+Visiting the Capitol
+
+Accessibility
+
+Frequently Asked Questions
+
+Contact Your Legislator
+
+Who Represents Me?
+
+House Members
+Senators
+
+General Contact
+
+Contact a legislative librarian:
+(651) 296-8338  or  Email
+Phone Numbers
+Submit website comments
+
+Get Connected
+
+House News
+Senate News
+MyBills
+Email Updates & RSS Feeds
+
+Minnesota Office of the Revisor of Statutes, Centennial Office Building,
+3rd Floor, 658 Cedar Street, St. Paul, MN 55155

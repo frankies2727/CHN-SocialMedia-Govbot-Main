@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 6439",
+    "legislative_session": "2025-2026",
+    "subject": [
+      "Campaign finance: advertising"
+    ],
+    "title": "Campaign finance: advertising; transparency requirements for paid political advertisements; provide for. Amends sec. 15 of 1976 PA 388 (MCL 169.215) & adds sec. 59a."
+  },
+  "id": "HB 6439",
+  "log": {
+    "action": {
+      "description": "bill electronically reproduced 10/28/2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-11-05",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6439"
+        }
+      ]
+    },
+    "bill_id": "HB 6439"
+  },
+  "sources": {
+    "bill": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6439/metadata.json",
+    "log": "mi-legislation/country:us/state:mi/sessions/2025-2026/bills/HB6439/logs/20261105T000000Z_bill_electronically_reproduced_10282026.json"
+  },
+  "timestamp": "20261105T000000Z",
+  "posted_text": "💰 MI HB 6439 — Michigan Wants to Make Political Ads More Transparent\n\nMichigan is working to make sure paid political ads are clear about who’s paying for them.\n\nThe bill would require the Secretary of State to create systems for tracking and filing reports on these ads.\n\nIf you’re a campaign or organization running a paid advertisement, you’ll need to file detailed reports with the state.\n\nThe Secretary of State can also issue rulings to clarify how these rules apply, and there’s a process for filing complaints if you believe someone isn’t following the rules.\n\nThis means increased scrutiny for political advertising in Michigan.\n\nNov. 5, 2026: Bill electronically reproduced 10/28/2026.\n\n🔗 Read the full bill: https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6439\n\n#ElectionsVotingRights #Michigan #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-6439",
+  "posted_url": "https://www.instagram.com/p/DgHFCndERqd/"
+}

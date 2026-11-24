@@ -1,0 +1,50 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 2047",
+    "legislative_session": "2025-2026",
+    "title": "An Act establishing the Local News Fellowship Program; imposing duties on the State System of Higher Education; and providing for administration of the Local News Fellowship Program."
+  },
+  "id": "HB 2047",
+  "log": {
+    "action": {
+      "classifications": [
+        "referral-committee"
+      ],
+      "description": "Referred to Education",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-10-27T04:00:00+00:00",
+      "session_id": "2025-2026",
+      "sources": [
+        {
+          "url": "https://www.palegis.us/legislation/bills/2025/hb2047"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1573"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=62&rollcallid=3117&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1549"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=68&rollcallid=1671&sessYr=2025&sessInd=0"
+        },
+        {
+          "url": "https://www.palegis.us/house/committees/roll-call-votes/vote-list/vote-summary?committeecode=68&rollcallid=1670&sessYr=2025&sessInd=0"
+        }
+      ]
+    },
+    "bill_id": "HB 2047"
+  },
+  "sources": {
+    "bill": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB2047/metadata.json",
+    "log": "pa-legislation/country:us/state:pa/sessions/2025-2026/bills/HB2047/logs/20261027T040000Z_referred_to_education.json"
+  },
+  "timestamp": "20261027T040000Z",
+  "posted_text": "🎓 PA HB 2047 — PA Launches Fellowship to Boost Local News\n\nPennsylvania is creating a new program to support local journalism.\n\nThe Local News Fellowship Program will pay early-career journalists to work with community-based newsrooms across the state.\n\nThese ‘fellows’ will receive mentorship, training, and access to resources to strengthen civic engagement and reporting in areas with significant ‘civic information needs’ – including rural communities, communities of color, and areas with limited access to local news.\n\nThe State System of Higher Education will administer the program, assigning fellows to host newsrooms and tracking their impact through annual reports.\n\nThe program aims to bolster local newsrooms and improve access to information for Pennsylvania communities.\n\nOct. 27, 2026: Referred to Education.\n\n🔗 Read the full bill: https://www.palegis.us/legislation/bills/2025/hb2047\n\n#Education #Pennsylvania #Legislation #StateLegislature #CivicTech",
+  "posted_link": "https://www.palegis.us/legislation/bills/2025/hb2047",
+  "posted_url": "https://www.instagram.com/p/DgHD7xBkbG9/"
+}
