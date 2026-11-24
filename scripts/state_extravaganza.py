@@ -343,7 +343,8 @@ def run_threads(candidates: list[dict], scope: str, today: datetime,
     replies = build_highlight_replies(highlights)
     root_text = compose_root(scope, TOPIC.display_name, today, window,
                              MAX_THREADS, len)
-    post_digest_thread(root_text, replies)
+    if not post_digest_thread(root_text, replies):
+        return 1
     print(f"\nDone. Posted Threads {LABEL}: 1 root + "
           f"{len(replies)} bill post(s).")
     return 0
@@ -479,6 +480,7 @@ def run_instagram(candidates: list[dict], scope: str, today: datetime,
     import time
 
     import requests
+    from meta_errors import stop_if_token_rejected
     import render_bill_card as rbc
     from post_to_bluesky import (
         _slug,
@@ -578,6 +580,7 @@ def run_instagram(candidates: list[dict], scope: str, today: datetime,
             if child:
                 children.append(child)
         except Exception as e:
+            stop_if_token_rejected(getattr(e, "response", None), "INSTAGRAM_ACCESS_TOKEN")
             print(f" ! carousel child container failed: {e}", file=sys.stderr)
             if getattr(e, "response", None) is not None:
                 print(f"   Response body: {e.response.text}", file=sys.stderr)
@@ -597,6 +600,7 @@ def run_instagram(candidates: list[dict], scope: str, today: datetime,
         resp.raise_for_status()
         parent_id = resp.json().get("id")
     except Exception as e:
+        stop_if_token_rejected(getattr(e, "response", None), "INSTAGRAM_ACCESS_TOKEN")
         print(f" ! carousel container creation failed: {e}", file=sys.stderr)
         if getattr(e, "response", None) is not None:
             print(f"   Response body: {e.response.text}", file=sys.stderr)
@@ -617,6 +621,7 @@ def run_instagram(candidates: list[dict], scope: str, today: datetime,
             media_id = resp.json().get("id")
             break
         except Exception as e:
+            stop_if_token_rejected(getattr(e, "response", None), "INSTAGRAM_ACCESS_TOKEN")
             if attempt < IG_PUBLISH_RETRIES:
                 time.sleep(5 * attempt)  # carousel may still be assembling
                 continue

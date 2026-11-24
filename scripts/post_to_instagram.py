@@ -53,6 +53,7 @@ import requests
 
 from topic import load_active_topic
 from account_ledger import AccountLedger
+from meta_errors import stop_if_token_rejected
 from render_bill_card import render_card
 from render_bill_card_v2 import STAGES, bill_stage, render_card_v2
 import bill_text
@@ -584,6 +585,7 @@ def _create_container(image_url: str, caption: str, alt_text: str = "") -> str |
         return resp.json().get("id")
     except Exception as e:
         resp = getattr(e, "response", None)
+        stop_if_token_rejected(resp, "INSTAGRAM_ACCESS_TOKEN")
         print(f" ! container creation failed: {e}", file=sys.stderr)
         if resp is not None:
             print(f"   Response body: {resp.text}", file=sys.stderr)
@@ -617,6 +619,7 @@ def _publish_container(creation_id: str) -> str | None:
             return resp.json().get("id")
         except Exception as e:
             resp = getattr(e, "response", None)
+            stop_if_token_rejected(resp, "INSTAGRAM_ACCESS_TOKEN")
             subcode = _internal_error_subcode(resp)
             if subcode in IG_INTERNAL_ERROR_SUBCODES:
                 # False negative: the media was very likely published anyway.

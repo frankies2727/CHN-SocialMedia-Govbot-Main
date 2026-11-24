@@ -251,11 +251,12 @@ def _save_digest_raw_records(bills: list[dict]) -> None:
 # Posting
 # ---------------------------------------------------------------------------
 
-def post_digest_thread(root_text: str, replies: list[tuple[str, str]]) -> None:
+def post_digest_thread(root_text: str, replies: list[tuple[str, str]]) -> bool:
     """Post the root, then chain each (text, url) reply under the previous post
     via reply_to_id. A failed reply is logged and skipped; subsequent replies
     chain off the last post that DID land so one hiccup doesn't orphan the
-    thread (mirrors weekly_digest_x.post_thread)."""
+    thread (mirrors weekly_digest_x.post_thread). Returns False if the root
+    post failed (nothing went out), so callers can fail the run."""
     print(f"\n--- ROOT ({len(root_text)} chars) ---\n{root_text}\n---")
     if DRY_RUN:
         for i, (text, url) in enumerate(replies, 1):
@@ -263,12 +264,12 @@ def post_digest_thread(root_text: str, replies: list[tuple[str, str]]) -> None:
             if url:
                 print(f"  ↳ link_attachment: {url}")
             print("---")
-        return
+        return True
 
     root_id = publish_post(root_text)
     if not root_id:
         print(" ! root post failed; aborting thread.", file=sys.stderr)
-        return
+        return False
     print(f"  posted root (media id {root_id})")
     parent_id = root_id
 
@@ -284,6 +285,7 @@ def post_digest_thread(root_text: str, replies: list[tuple[str, str]]) -> None:
             print(f"  posted reply {i} (media id {media_id})")
         else:
             print(f"  ! reply {i} post failed; continuing.", file=sys.stderr)
+    return True
 
 
 # ---------------------------------------------------------------------------
@@ -349,7 +351,8 @@ def main() -> int:
         _save_digest_raw_records(highlights)
         replies = build_highlight_replies(highlights)
         root_text = compose_root(today, chosen_window)
-        post_digest_thread(root_text, replies)
+        if not post_digest_thread(root_text, replies):
+            return 1
         print(f"\nDone. Posted Threads thread: 1 root + {len(replies)} highlight(s) "
               f"across {len(topics_covered)} topic(s) (window={chosen_window}d).")
         return 0
@@ -358,7 +361,8 @@ def main() -> int:
     # saying so, with the date range. We deliberately do NOT widen the window or
     # fall back to a landscape thread: the weekly digest is strictly last 7 days.
     print("No activity in the past 7 days. Posting a no-activity note.")
-    post_digest_thread(compose_empty_root(today), [])
+    if not post_digest_thread(compose_empty_root(today), []):
+        return 1
     print("\nDone. Posted no-activity note.")
     return 0
 

@@ -410,6 +410,10 @@ jobs:
             if [ "$rc" -eq 42 ]; then
               echo "  account per-run cap reached — stopping the topic loop."
               break
+            elif [ "$rc" -eq 3 ]; then
+              echo "  Meta rejected the access token — stopping the topic loop."
+              echo "META_TOKEN_REJECTED=1" >> "$GITHUB_ENV"
+              break
             elif [ "$rc" -ne 0 ]; then
               echo "  $topic post failed, continuing with next topic"
             fi
@@ -446,3 +450,11 @@ jobs:
             git pull --rebase --autostash origin "${{ github.ref_name }}" || true
             sleep $(( attempt * 2 ))
           done
+
+      # A rejected token (meta_errors.py, exit 3) stops the topic loop early.
+      # Fail here, after the state commit, so the run shows red.
+      - name: Fail the run if Meta rejected the token
+        if: env.META_TOKEN_REJECTED == '1'
+        run: |
+          echo "::error::Meta rejected THREADS_ACCESS_TOKEN (revoked or expired). Generate a new token and save it in the THREADS_ACCESS_TOKEN secret; see 'Meta rejected …' under Troubleshooting in the README."
+          exit 1

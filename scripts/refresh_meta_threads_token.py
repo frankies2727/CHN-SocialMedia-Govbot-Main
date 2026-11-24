@@ -29,6 +29,8 @@ import sys
 
 import requests
 
+from meta_errors import stop_if_token_rejected
+
 REFRESH_URL = "https://graph.threads.net/refresh_access_token"
 TIMEOUT = 30
 SECRET_NAME = "THREADS_ACCESS_TOKEN"
@@ -93,9 +95,13 @@ def main() -> int:
     try:
         new_token, expires_in = refresh(token)
     except Exception as e:
-        print(f"ERROR: token refresh failed: {e}", file=sys.stderr)
-        if getattr(e, "response", None) is not None:
-            print(f"  Response body: {e.response.text}", file=sys.stderr)
+        resp = getattr(e, "response", None)
+        stop_if_token_rejected(resp, "THREADS_ACCESS_TOKEN")
+        # Not {e}: its text includes the request URL, which carries the token.
+        status = resp.status_code if resp is not None else type(e).__name__
+        print(f"ERROR: token refresh failed ({status}).", file=sys.stderr)
+        if resp is not None:
+            print(f"  Response body: {resp.text}", file=sys.stderr)
         return 1
 
     days = expires_in // 86400

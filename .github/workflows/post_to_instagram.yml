@@ -409,6 +409,11 @@ jobs:
             # tee keeps the live log while we scan the output for the post signal;
             # PIPESTATUS[0] is python's exit (pipefail-safe under the default -eo).
             BOT_TOPIC="$topic" python scripts/post_to_instagram.py 2>&1 | tee "$TOPIC_LOG" || rc="${PIPESTATUS[0]}"
+            if [ "$rc" -eq 3 ]; then
+              echo "  Meta rejected the access token — stopping the topic loop."
+              echo "META_TOKEN_REJECTED=1" >> "$GITHUB_ENV"
+              break
+            fi
             [ "$rc" -ne 0 ] && echo "  $topic exited $rc, continuing with next topic."
             # A real post prints "Done. Posted <N>=1 update(s)"; "Posted 0" (all
             # gate-skipped) and empty topics don't — so this advances the pointer
@@ -449,3 +454,11 @@ jobs:
             git pull --rebase --autostash origin "${{ github.ref_name }}" || true
             sleep $(( attempt * 2 ))
           done
+
+      # A rejected token (meta_errors.py, exit 3) stops the topic loop early.
+      # Fail here, after the state commit, so the run shows red.
+      - name: Fail the run if Meta rejected the token
+        if: env.META_TOKEN_REJECTED == '1'
+        run: |
+          echo "::error::Meta rejected INSTAGRAM_ACCESS_TOKEN (revoked or expired). Generate a new token and save it in the INSTAGRAM_ACCESS_TOKEN secret; see 'Meta rejected …' under Troubleshooting in the README."
+          exit 1
