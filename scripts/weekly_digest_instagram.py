@@ -94,6 +94,7 @@ from render_bill_card import render_card, render_cover_card
 from render_bill_card_v2 import render_card_v2
 from render_weekly_cover import render_weekly_cover
 from topic import Topic
+from meta_errors import stop_if_token_rejected
 from weekly_digest_bluesky import (
     DIGEST_LOOKBACK_DAYS,
     DIGEST_PER_STATE_CAP,
@@ -423,6 +424,7 @@ def _create_carousel_item(image_url: str) -> str | None:
         resp.raise_for_status()
         return resp.json().get("id")
     except Exception as e:
+        stop_if_token_rejected(getattr(e, "response", None), "INSTAGRAM_ACCESS_TOKEN")
         print(f" ! carousel item creation failed: {e}", file=sys.stderr)
         if getattr(e, "response", None) is not None:
             print(f"   Response body: {e.response.text}", file=sys.stderr)
@@ -444,6 +446,7 @@ def _create_carousel_container(children: list[str], caption: str) -> str | None:
         resp.raise_for_status()
         return resp.json().get("id")
     except Exception as e:
+        stop_if_token_rejected(getattr(e, "response", None), "INSTAGRAM_ACCESS_TOKEN")
         print(f" ! carousel container creation failed: {e}", file=sys.stderr)
         if getattr(e, "response", None) is not None:
             print(f"   Response body: {e.response.text}", file=sys.stderr)
@@ -462,6 +465,7 @@ def _publish_container(creation_id: str) -> str | None:
             return resp.json().get("id")
         except Exception as e:
             resp = getattr(e, "response", None)
+            stop_if_token_rejected(resp, "INSTAGRAM_ACCESS_TOKEN")
             subcode = _internal_error_subcode(resp)
             if subcode in IG_INTERNAL_ERROR_SUBCODES:
                 # Known Instagram false negative: media_publish returns a generic
@@ -497,7 +501,11 @@ def _container_status(container_id: str) -> str | None:
         resp.raise_for_status()
         return resp.json().get("status_code")
     except Exception as e:
-        print(f"  ! container status check failed: {e}", file=sys.stderr)
+        resp = getattr(e, "response", None)
+        stop_if_token_rejected(resp, "INSTAGRAM_ACCESS_TOKEN")
+        # Not {e}: for a GET its text includes the URL, token and all.
+        status = resp.status_code if resp is not None else type(e).__name__
+        print(f"  ! container status check failed ({status})", file=sys.stderr)
         return None
 
 

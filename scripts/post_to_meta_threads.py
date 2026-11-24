@@ -37,6 +37,7 @@ import requests
 
 from topic import load_active_topic
 from account_ledger import AccountLedger
+from meta_errors import stop_if_token_rejected
 import post_to_bluesky as pb
 from post_to_bluesky import (
     _FILENAME_UNSAFE_RE,
@@ -351,6 +352,7 @@ def _create_container(text: str, link_url: str = "", reply_to_id: str = "") -> s
         resp.raise_for_status()
         return resp.json().get("id")
     except Exception as e:
+        stop_if_token_rejected(getattr(e, "response", None), "THREADS_ACCESS_TOKEN")
         print(f" ! container creation failed: {e}", file=sys.stderr)
         if getattr(e, "response", None) is not None:
             print(f"   Response body: {e.response.text}", file=sys.stderr)
@@ -368,6 +370,7 @@ def _publish_container(creation_id: str) -> str | None:
             resp.raise_for_status()
             return resp.json().get("id")
         except Exception as e:
+            stop_if_token_rejected(getattr(e, "response", None), "THREADS_ACCESS_TOKEN")
             if attempt < THREADS_PUBLISH_RETRIES:
                 # Container may still be processing — back off and retry.
                 time.sleep(5 * attempt)

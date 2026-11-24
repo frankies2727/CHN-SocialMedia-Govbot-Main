@@ -336,8 +336,16 @@ jobs:
               continue
             fi
             echo "=== ${EXTRAVAGANZA_MODE:-state} Extravaganza: topic $topic (platform ${PLATFORM}) ==="
-            BOT_TOPIC="$topic" python scripts/state_extravaganza.py \
-              || { echo "  $topic failed, continuing with next topic"; rc=1; }
+            BOT_TOPIC="$topic" python scripts/state_extravaganza.py || {
+              rc=$?
+              # 3 = Meta rejected the access token (meta_errors.py): every
+              # remaining topic would fail the same way, so stop here.
+              if [ "$rc" -eq 3 ]; then
+                echo "::error::Meta rejected the access token; stopping. Save a new token in the secret; see 'Meta rejected …' under Troubleshooting in the README."
+                break
+              fi
+              echo "  $topic failed, continuing with next topic"
+            }
           done
           exit $rc
 

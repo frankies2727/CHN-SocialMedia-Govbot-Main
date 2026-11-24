@@ -267,7 +267,20 @@ In **Settings → Secrets and variables → Actions**, add credentials for each 
 | `THREADS_USER_ID` | The account's numeric Threads user id |
 | `THREADS_REFRESH_PAT` | *(optional)* A PAT with `secrets: write` so the weekly refresh workflow can persist the rolled-forward token |
 
-> **Getting the Threads token:** create a Meta app with the *"Access the Threads API"* use case, add the `threads_basic` + `threads_content_publish` permissions, add your Threads account under **App roles → Roles → Threads Testers** (and accept the invite inside Threads → *Settings → Website permissions*). Then generate a short-lived token in the **Graph API Explorer** and exchange it for a 60-day long-lived token via `GET https://graph.threads.net/access_token?grant_type=th_exchange_token&client_secret=…&access_token=…`. The `meta-threads-refresh-token` workflow keeps it from lapsing — see [Threads token refresh](#threads-token-refresh).
+**Getting the Threads token** (also how to replace one Meta revoked):
+
+1. At [developers.facebook.com](https://developers.facebook.com/apps), open your app (here *Govbot Threads*). First-time setup only: create it with the *"Access the Threads API"* use case and add the `threads_basic` and `threads_content_publish` permissions.
+2. Make sure your Threads account is a tester: **App roles → Roles → Add People → Threads Tester**. Accept the invite on threads.com under **Settings → Account → Website permissions**. If the account is already listed and accepted, skip this step.
+3. Get a token. In the app, open **Use cases → Access the Threads API → Customize → Settings** and click **Generate access token** next to your account. If that page has no generator, use the **Graph API Explorer** with your app selected instead.
+4. Turn it into a 60-day token. Find the **Threads app secret** under **App settings → Basic**, then run this in your own terminal (not in a shared chat or file):
+   `curl "https://graph.threads.net/access_token?grant_type=th_exchange_token&client_secret=THREADS_APP_SECRET&access_token=TOKEN_FROM_STEP_3"`
+   The reply's `access_token` is the long-lived token. Skip this step if step 3 already says the token lasts 60 days.
+5. Check it without posting:
+   `curl "https://graph.threads.net/v1.0/me?fields=id,username&access_token=LONG_LIVED_TOKEN"`
+   It should show your account's username, and `id` should equal the `THREADS_USER_ID` secret.
+6. In GitHub: **Settings → Secrets and variables → Actions → `THREADS_ACCESS_TOKEN` → Update secret**, and paste the long-lived token.
+
+The `meta-threads-refresh-token` workflow then keeps the token alive. Meta only refreshes a token that is at least 24 hours old, so let the weekly run pick it up rather than running it right away. See [Threads token refresh](#threads-token-refresh).
 
 **Instagram (Meta)** — a single dedicated Instagram **Business/Creator** account, two secrets:
 
@@ -542,6 +555,7 @@ Persisting a refreshed token means updating the `THREADS_ACCESS_TOKEN` repo secr
 - **A job was cancelled and posts got published twice.** A cancel skips the commit step, so the dedup record for posts that already went out is lost. Both guards are in place now — state is written after *every* post, and the commit step runs on `always()` — but if you add a workflow, keep both.
 - **The digest's date range is a day ahead.** `GOVBOT_TZ` reckons the digest day; UTC would call a 7 pm Chicago run "tomorrow".
 - **A weekly digest was cancelled at the job cap.** Check `RUN_DEADLINE_MINUTES` is set below `timeout-minutes` for that job. Without it a single stuck bill can want 108+ minutes against a 120-minute cap.
+- **A run failed with "Meta rejected THREADS_ACCESS_TOKEN" (or `INSTAGRAM_ACCESS_TOKEN`).** Meta answered with error 190: the token was revoked (for example after a password change or a Meta security check) or it expired. Refreshing can't bring it back. The scripts stop at the first such error and the run turns red, so nothing else is attempted. Generate a new token and save it in the secret (for Threads, follow *Getting the Threads token* above). Bills that failed to post aren't marked as used, so they go out on the next run if they're still fresh.
 - **Threads posts stopped after ~2 months.** The long-lived token expired. Make sure `meta-threads-refresh-token.yml` is enabled (and ideally set `THREADS_REFRESH_PAT`), or re-run the manual token exchange.
 
 ## Contributing
