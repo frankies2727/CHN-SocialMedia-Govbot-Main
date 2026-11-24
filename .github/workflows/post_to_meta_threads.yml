@@ -1,7 +1,11 @@
 name: govbot-meta-threads-post
 
 on:
-  schedule:
+  # STARTED ON TIME BY A CLAUDE SCHEDULED TASK (Tue/Thu/Sun 7:12 PM ET, America/New_York, so
+  # daylight saving no longer shifts it), which runs this workflow through
+  # workflow_dispatch. GitHub's own cron started these runs 3-11 hours late in
+  # Oct-Nov 2026, so the schedule below was removed; the notes about timing that
+  # follow describe the old UTC cron. Run by hand from Actions any time.
     # 3x a week on Tue/Thu/Sun (cron days 2,4,0) at 23:12 UTC ≈ 7:12 PM ET,
     # catching Threads' Meta audience in the evening wind-down scroll. The third
     # run moved off Saturday so it no longer shares a day with the Saturday
@@ -10,7 +14,6 @@ on:
     #
     # GitHub cron is fixed UTC and ignores DST, so during EST this lands an hour
     # earlier local. Odd minute (:12) dodges the top-of-hour scheduler congestion.
-    - cron: "12 23 * * 2,4,0"
   workflow_dispatch:
 
 permissions:

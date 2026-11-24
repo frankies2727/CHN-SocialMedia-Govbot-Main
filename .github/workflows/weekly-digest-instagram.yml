@@ -1,6 +1,11 @@
 name: govbot-instagram-weekly-digest
 
 on:
+  # STARTED ON TIME BY A CLAUDE SCHEDULED TASK (Sat 12:07 PM ET, America/New_York, so
+  # daylight saving no longer shifts it), which runs this workflow through
+  # workflow_dispatch. GitHub's own cron started these runs 3-11 hours late in
+  # Oct-Nov 2026, so the schedule below was removed; the notes about timing that
+  # follow describe the old UTC cron. Run by hand from Actions any time.
   # SATURDAY, second slot — 3 hours after the Threads digest. The weekly carousel
   # is the most visual thing this bot publishes, and Instagram's saving/sharing
   # peaks around the middle of a weekend day, so it gets the best weekend slot
@@ -26,8 +31,6 @@ on:
   #
   # GitHub cron is fixed UTC and ignores DST, so during EST this lands an hour
   # earlier local. Odd minute dodges top-of-hour scheduler congestion.
-  schedule:
-    - cron: "7 16 * * SAT"
   workflow_dispatch: {}
 
 permissions:
