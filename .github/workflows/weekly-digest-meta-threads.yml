@@ -1,6 +1,11 @@
 name: govbot-meta-threads-weekly-digest
 
 on:
+  # STARTED ON TIME BY A CLAUDE SCHEDULED TASK (Sat 9:07 AM ET, America/New_York, so
+  # daylight saving no longer shifts it), which runs this workflow through
+  # workflow_dispatch. GitHub's own cron started these runs 3-11 hours late in
+  # Oct-Nov 2026, so the schedule below was removed; the notes about timing that
+  # follow describe the old UTC cron. Run by hand from Actions any time.
   # SATURDAY, first slot. Threads is a leisure-scroll feed whose audience peaks
   # on weekend mornings rather than during the working week, so the digest moved
   # off Friday (where it competed with the X and Bluesky digests for both the
@@ -14,8 +19,6 @@ on:
   #
   # GitHub cron is fixed UTC and ignores DST, so during EST this lands an hour
   # earlier local. Odd minute dodges top-of-hour scheduler congestion.
-  schedule:
-    - cron: "7 13 * * SAT"
   workflow_dispatch: {}
 
 permissions:

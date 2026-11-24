@@ -1,7 +1,11 @@
 name: govbot-bluesky-post
 
 on:
-  schedule:
+  # STARTED ON TIME BY A CLAUDE SCHEDULED TASK (Mon/Wed 9:12 AM ET, America/New_York, so
+  # daylight saving no longer shifts it), which runs this workflow through
+  # workflow_dispatch. GitHub's own cron started these runs 3-11 hours late in
+  # Oct-Nov 2026, so the schedule below was removed; the notes about timing that
+  # follow describe the old UTC cron. Run by hand from Actions any time.
     # 2x a week on Mon/Wed (cron days 1,3) at 13:12 UTC ≈ 9:12 AM ET.
     # (This comment previously said Mon/Wed/Fri; the cron has only ever listed
     # 1,3, so Friday was never actually scheduled. Add 5 to the day list if a
@@ -9,7 +13,6 @@ on:
     # catching Bluesky's news/policy audience in the morning news cycle. GitHub
     # cron is fixed UTC and ignores DST, so during EST this lands an hour earlier
     # local. Odd minute (:12) dodges the top-of-hour scheduler congestion.
-    - cron: "12 13 * * 1,3"
   workflow_dispatch: {}
 
 permissions:

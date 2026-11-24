@@ -405,7 +405,7 @@ All knobs are env vars (set defaults in the workflow `env:` blocks or override p
 | `EXTRAVAGANZA_LOOKBACK_DAYS` | `62` | *(Extravaganza)* Recency window in days, **hard-capped at 62**. |
 | `EXTRAVAGANZA_PER_STATE_CAP` | `NUM_POSTS` | *(Extravaganza)* Max bills per state; defaults to no real cap so a single-state run can fill the thread. |
 
-The cron schedules live in the `on.schedule` block at the top of each workflow file (the daily posters default to early-morning UTC; the digests run weekly). Adjust them there.
+The posting and digest workflows have **no GitHub cron**: GitHub started them 3–11 hours late in Oct–Nov 2026, so Claude scheduled tasks (one per slot, in `America/New_York` time) start each one on time through `workflow_dispatch`. Change a time in those scheduled tasks, not in the workflow file. The token refreshes and the dashboard still use GitHub cron, where a delay doesn't matter.
 
 ## Local development
 
@@ -444,20 +444,20 @@ A dry run prints the composed posts without hitting Bluesky/X. If Ollama isn't r
 | `collect-samples.yml` | Manual | Save a batch of full bill records into `samples/` (optionally compose/post them too). Useful for prompt-tuning and tests. |
 | `posts-extravaganza.yml` | Manual | On-demand **Extravaganza** thread with a `mode` knob: `state` posts a `🏛️ State Extravaganza!! 🧵` thread whose header leads with the picked state(s); `topic` posts a `🎯 Topic Extravaganza!! 🧵` thread whose header leads with the topic (nationwide by default). Both share the same knobs — pick the platform, the state(s), the topic(s) (space/comma list or `all`; ignored for X), the number of posts, and a lookback window (capped at 62 days) — and post **one thread per selected topic** (on Bluesky each goes to that topic's own account; on Threads/Instagram several threads to the one shared account), one threaded reply per bill like the weekly digest. On Instagram (no text threads) each is a **carousel**: a cover slide + one rendered bill card per highlight (max 10 slides). |
 
-**When things run** (UTC cron; the digests reckon their date range in
+**When things run** (Eastern time, started by Claude scheduled tasks; the digests reckon their date range in
 `GOVBOT_TZ`, default `America/Chicago`, so an evening run is not labelled as
 tomorrow):
 
-| day | what posts |
+| day | what posts (workflow start, ET) |
 | --- | --- |
-| Mon / Wed | Bluesky + Instagram daily |
-| Tue / Thu / **Sun** | X + Threads daily |
-| **Fri** | X digest, then Bluesky digest — text/news feeds while the week is live |
-| **Sat** | Threads digest, then Instagram digest — weekend-morning visual feeds |
+| Mon / Wed | Bluesky 9:12 AM · Instagram 12:42 PM |
+| Tue / Thu / **Sun** | X 8:27 AM · Threads 7:12 PM |
+| **Fri** | X digest 9:07 AM, then Bluesky digest 10:37 AM — text/news feeds while the week is live |
+| **Sat** | Threads digest 9:07 AM, then Instagram digest 12:07 PM — weekend visual feeds |
 
-Note the lead time: cron starts the *workflow*, not the post. `prepare` clones
-first, so a post lands roughly **45–70 minutes after** the cron fires. Adjust a
-schedule by that lead, not by the time you want to see the post.
+Note the lead time: the scheduled task starts the *workflow*, not the post. `prepare` clones
+first, so a post lands roughly **45–90 minutes after** the start. Adjust a
+time by that lead, not by the time you want to see the post.
 
 Every job is capped at **120 minutes**, with the script holding a smaller
 wall-clock budget under it. All scheduled workflows start with a **free-disk-space** step — `govbot` cloning 50+ states plus the Ollama model would otherwise overflow the runner's ~14 GB and crash with *"No space left on device."* Ollama's binary and model are cached between runs to skip the ~600 MB + ~3.3 GB downloads.
