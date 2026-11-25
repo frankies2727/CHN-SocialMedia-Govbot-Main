@@ -1,0 +1,48 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "To enact section 2921.26 of the Revised Code to prohibit unlawful dissemination of a peace officer's personally identifying information.",
+        "note": "long title"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1033",
+    "legislative_session": "136",
+    "subject": [
+      "Crime and Punishment",
+      "Crimes, Corrections, and Law Enforcement",
+      "Law Enforcement",
+      "Public Records",
+      "State and Local Government"
+    ],
+    "title": "Prohibit unlawful dissemination of peace officer's personal info"
+  },
+  "id": "HB 1033",
+  "log": {
+    "action": {
+      "classifications": [
+        "introduction"
+      ],
+      "description": "Introduced",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-28T04:00:00+00:00",
+      "session_id": "136",
+      "sources": [
+        {
+          "url": "https://www.legislature.ohio.gov/legislation/136/hb1033"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb1033/"
+        }
+      ]
+    },
+    "bill_id": "HB 1033"
+  },
+  "sources": {
+    "bill": "oh-legislation/country:us/state:oh/sessions/136/bills/HB1033/metadata.json",
+    "log": "oh-legislation/country:us/state:oh/sessions/136/bills/HB1033/logs/20261028T040000Z.classification.introduction.lower.json"
+  },
+  "timestamp": "20261028T040000Z"
+}
