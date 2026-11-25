@@ -1,0 +1,280 @@
+AN ACT
+
+Amending the act of March 10, 1949 (P.L.30, No.14), entitled "An
+act relating to the public school system, including certain
+provisions applicable as well to private and parochial
+schools; amending, revising, consolidating and changing the
+laws relating thereto," in school safety and security,
+providing for prohibition of artificial intelligence for
+school-based mental health and counseling.
+The General Assembly of the Commonwealth of Pennsylvania
+hereby enacts as follows:
+Section 1.
+
+The act of March 10, 1949 (P.L.30, No.14), known
+
+as the Public School Code of 1949, is amended by adding a
+
+section to read:
+
+Section 1323-B.
+
+Prohibition of artificial intelligence for
+
+school-based mental health and counseling.
+(a)
+
+Prohibition.--Except as otherwise provided in this
+
+section, a school entity may not utilize artificial
+
+intelligence, artificial intelligence chatbots or generative
+
+artificial intelligence, including synthetic content, to provide
+
+a service or experience to a student that would constitute the
+
+practice of a school-based mental health professional.
+
+(b)
+
+Certain limitations on contract.--An artificial
+
+intelligence supplier shall not enter into a contract with a
+
+school entity to provide an artificial intelligence system,
+
+artificial intelligence technology or any generative artificial
+
+intelligence, including synthetic content, that is programmed to
+
+provide a service or experience to a student that would
+
+constitute the practice of a school-based mental health
+
+professional.
+
+(c)
+
+Prohibited uses.--A school entity may not use or provide
+
+the use of an artificial intelligence mental health system to:
+
+(1)
+
+Diagnose the mental health condition of a student.
+
+(2)
+
+Provide psychological or behavioral therapy or
+
+counseling to a student.
+
+(3)
+
+therapeutic intervention to a student.
+
+Provide individualized mental health treatment or
+
+(4)
+
+Determine or recommend an individualized mental
+
+health diagnosis or treatment plan to a student.
+
+(5)
+
+Represent, expressly or by implication, that the
+
+artificial intelligence system is a school psychologist,
+
+school counselor or school social worker.
+
+(6)
+
+Represent, expressly or by implication, that the
+
+artificial intelligence system can substitute for a school
+
+psychologist, school counselor or school social worker.
+
+(7)
+
+Provide a service to a student that would constitute
+
+mental health therapy, psychological therapy or
+
+individualized mental health treatment.
+
+(d)
+
+Construction.--Nothing in this section shall be
+
+construed to:
+(1)
+
+prohibit a school-based mental health professional
+
+employed by a school entity from using artificial
+
+intelligence to perform tasks for administrative support,
+
+subject to the requirements of 20 U.S.C. § 1232g (relating to
+
+family educational and privacy rights); or
+
+(2)
+
+supersede or preempt any provisions of a collective
+
+bargaining agreement negotiated by a school entity and an
+
+exclusive representative of the employees in accordance with
+
+the act of July 23, 1970 (P.L.563, No.195), known as the
+
+Public Employe Relations Act.
+
+(e)
+
+Definitions.--As used in this section, the following
+
+words and phrases shall have the meanings given to them in this
+
+subsection unless the context clearly indicates otherwise:
+
+"Artificial intelligence."
+(1)
+
+All of the following:
+
+A machine-based system that can, for a given set of
+
+human-defined objectives, make predictions, recommendations
+
+or decisions influencing real or virtual environments,
+
+including the ability to:
+
+(i)
+
+perceive real and virtual environments;
+
+(ii)
+
+abstract perceptions made under subparagraph
+
+(i) into models through analysis in an automated manner;
+
+and
+
+(iii)
+
+use model inference to formulate options for
+
+information or action based on outcomes under
+
+subparagraphs (i) and (ii).
+
+(2)
+
+intelligence.
+
+"Artificial intelligence chatbot" or "AI chatbot."
+
+Artificial intelligence technology that uses generative
+
+artificial intelligence to simulate or engage in an interactive
+
+conversation with a user. The term does not include artificial
+
+intelligence technology that provides only scripted, prewritten
+
+The term includes generative artificial
+
+or predetermined output.
+"Artificial intelligence technology."
+
+A computer system,
+
+application or other product that uses or incorporates one or
+
+more forms of artificial intelligence.
+
+"Generative artificial intelligence."
+
+The class of
+
+artificial intelligence models that emulate the structure and
+
+characteristics of input data in order to generate synthetic
+
+content.
+
+"Operator."
+
+An individual or entity, including a
+
+corporation, partnership, limited liability company, business
+
+trust, estate, foundation, association, organization or trust,
+
+or an agent or subsidiary thereof, that offers the use of or
+
+provides an AI chatbot to a consumer, if the AI chatbot is
+
+bought from or otherwise provided by a supplier.
+
+"School-based mental health professional."
+
+An individual who
+
+is certified under Article XI and satisfies the department's
+
+requirements for public school employment. The term includes a
+
+school counselor, school social worker or school psychologist as
+
+prescribed in 22 Pa. Code § 49.11(b) (relating to general) or
+
+49.101 (relating to general).
+
+"School entity."
+
+A school district, area career and
+
+technical school, intermediate unit, cyber charter school,
+
+charter school or regional charter school.
+
+"Supplier."
+
+(1)
+
+As follows:
+
+A seller, lessor, assignor, developer, creator,
+
+offeror, broker or other person that regularly solicits,
+
+engages in or enforces transactions with a consumer regarding
+
+an AI chatbot, whether or not the person deals directly with
+
+the consumer.
+
+(2)
+
+The term includes an operator.
+
+"Synthetic content."
+
+Information, including images, videos,
+
+audio clips or text, that has been modified or generated by
+
+algorithms, including by artificial intelligence.
+
+Section 2.
+
+This act shall take effect in 60 days.
