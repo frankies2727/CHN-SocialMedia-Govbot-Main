@@ -1,0 +1,51 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "To enact section 2921.26 of the Revised Code to prohibit unlawful dissemination of a peace officer's personally identifying information.",
+        "note": "long title"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1033",
+    "legislative_session": "136",
+    "subject": [
+      "Crime and Punishment",
+      "Crimes, Corrections, and Law Enforcement",
+      "Law Enforcement",
+      "Public Records",
+      "State and Local Government"
+    ],
+    "title": "Prohibit unlawful dissemination of peace officer's personal info"
+  },
+  "id": "HB 1033",
+  "log": {
+    "action": {
+      "classifications": [
+        "introduction"
+      ],
+      "description": "Introduced",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-28T04:00:00+00:00",
+      "session_id": "136",
+      "sources": [
+        {
+          "url": "https://www.legislature.ohio.gov/legislation/136/hb1033"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb1033/"
+        }
+      ]
+    },
+    "bill_id": "HB 1033"
+  },
+  "sources": {
+    "bill": "oh-legislation/country:us/state:oh/sessions/136/bills/HB1033/metadata.json",
+    "log": "oh-legislation/country:us/state:oh/sessions/136/bills/HB1033/logs/20261028T040000Z.classification.introduction.lower.json"
+  },
+  "timestamp": "20261028T040000Z",
+  "posted_text": "👮 Criminal Justice & Policing\nOH HB 1033 — Ohio Could Make It a Crime to Post Police Info Online\n\nOhio is considering a law that would make it a felony to intentionally post a peace officer’s personal information online. The bill would target those who share details like social security numbers, addresses, or financial information with the intent to harm, harass, or cause significant economic or emotional distress to the officer or their family. ...\n...",
+  "posted_link": "https://www.legislature.ohio.gov/legislation/136/hb1033",
+  "posted_url": "https://www.threads.com/@legislationtracker.govbot/post/DgJSYU8G3gr"
+}
