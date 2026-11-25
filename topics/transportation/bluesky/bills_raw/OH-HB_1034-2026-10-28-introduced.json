@@ -1,0 +1,53 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "To amend sections 3942.01, 3942.02, and 4511.34 and to enact sections 4511.206, 4511.207, 4511.208, 4511.209, 4511.2010, and 4511.2011 of the Revised Code to authorize the operation of autonomous vehicles on public roads and highways.",
+        "note": "long title"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 1034",
+    "legislative_session": "136",
+    "subject": [
+      "Commerce",
+      "Highways, Roads, and Bridges",
+      "Insurance",
+      "Motor Vehicles",
+      "Public Safety",
+      "Technology",
+      "Traffic Offenses",
+      "Transportation",
+      "Vehicle Equipment",
+      "Vehicle Registration and Titling"
+    ],
+    "title": "Authorize operation of autonomous vehicles on public roads"
+  },
+  "id": "HB 1034",
+  "log": {
+    "action": {
+      "classifications": [
+        "introduction"
+      ],
+      "description": "Introduced",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-10-28T04:00:00+00:00",
+      "session_id": "136",
+      "sources": [
+        {
+          "url": "https://www.legislature.ohio.gov/legislation/136/hb1034"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb1034/"
+        }
+      ]
+    },
+    "bill_id": "HB 1034"
+  },
+  "sources": {
+    "bill": "oh-legislation/country:us/state:oh/sessions/136/bills/HB1034/metadata.json",
+    "log": "oh-legislation/country:us/state:oh/sessions/136/bills/HB1034/logs/20261028T040000Z.classification.introduction.lower.json"
+  },
+  "timestamp": "20261028T040000Z"
+}
