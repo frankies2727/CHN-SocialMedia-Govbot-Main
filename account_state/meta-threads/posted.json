@@ -202,12 +202,18 @@
     "MI|HB 6400|2026-09-29|bill electronically reproduced 09/24/202",
     "MI|HB 6438|2026-10-28",
     "MI|HB 6438|2026-10-28|bill electronically reproduced 10/21/202",
+    "MI|HB 6439|2026-10-28",
+    "MI|HB 6439|2026-10-28|introduced by Representative Rep. Reggie",
+    "MI|HB 6439|2026-10-28|read a first time",
+    "MI|HB 6439|2026-10-28|referred to Committee on Election Integr",
     "MI|HB 6439|2026-11-05",
     "MI|HB 6439|2026-11-05|bill electronically reproduced 10/28/202",
     "MI|HB 6440|2026-11-05",
     "MI|HB 6440|2026-11-05|bill electronically reproduced 10/28/202",
     "MI|HB 6442|2026-11-05",
     "MI|HB 6442|2026-11-05|bill electronically reproduced 10/28/202",
+    "MI|HB 6443|2026-11-05",
+    "MI|HB 6443|2026-11-05|bill electronically reproduced 10/28/202",
     "MI|SB 0301|2026-07-03",
     "MI|SB 0301|2026-07-03|FULL TITLE AGREED TO",
     "MI|SB 0301|2026-07-03|GIVEN IMMEDIATE EFFECT",
@@ -534,6 +540,9 @@
     "US|HR 10902|2026-10-22|Referred to the House Committee on Trans",
     "US|HR 10916|2026-10-26",
     "US|HR 10916|2026-10-26|Referred to the Committee on Natural Res",
+    "US|HR 10917|2026-10-26",
+    "US|HR 10917|2026-10-26|Introduced in House",
+    "US|HR 10917|2026-10-26|Referred to the Committee on Agriculture",
     "US|HR 6893|2026-08-20",
     "US|HR 6893|2026-08-20|Placed on the Union Calendar, Calendar N",
     "US|HR 6893|2026-08-20|Reported (Amended) by the Committee on N",
@@ -581,7 +590,6 @@
     "|HRES 1409|2026-06-30|Submitted in House"
   ],
   "runs": {
-    "35043947522-1": 3,
     "35294671140-1": 3,
     "35549658049-1": 3,
     "35806528009-1": 3,
@@ -610,7 +618,8 @@
     "43793843518-1": 3,
     "44236429271-1": 3,
     "44671214792-1": 3,
-    "45516230107-1": 3
+    "45516230107-1": 3,
+    "45915396748-1": 3
   },
-  "last_run": "2026-11-25T00:59:38.562137+00:00"
+  "last_run": "2026-11-27T00:49:44.014507+00:00"
 }
