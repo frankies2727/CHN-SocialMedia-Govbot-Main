@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"legislature\"}",
+    "identifier": "LC2224",
+    "legislative_session": "2027",
+    "subject": [
+      "Landlord and Tenant"
+    ],
+    "title": "Generally revise landlord and tenant laws"
+  },
+  "id": "LC2224",
+  "log": {
+    "action": {
+      "description": "(LC) Drafter Assigned",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-11-27T15:26:22+00:00",
+      "session_id": "2027",
+      "sources": [
+        {
+          "url": "https://bills.legmt.gov/#/lc/bill/3/LC2224"
+        }
+      ]
+    },
+    "bill_id": "LC2224"
+  },
+  "sources": {
+    "bill": "mt-2027/country:us/state:mt/sessions/2027/bills/LC2224/metadata.json",
+    "log": "mt-2027/country:us/state:mt/sessions/2027/bills/LC2224/action_logs.jsonl#20261127T152622Z_lc_drafter_assigned"
+  },
+  "timestamp": "20261127T152622Z"
+}

@@ -1,0 +1,51 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "To amend sections 3314.03, 3326.11, and 3328.24 and to enact section 3313.475 of the Revised Code to prohibit diversity, equity, and inclusion in public schools.",
+        "note": "long title"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "SB 113",
+    "legislative_session": "136",
+    "subject": [
+      "Education",
+      "Primary and Secondary Education"
+    ],
+    "title": "Prohibit diversity, equity, and inclusion in public schools"
+  },
+  "id": "SB 113",
+  "log": {
+    "action": {
+      "classifications": [
+        "introduction"
+      ],
+      "description": "Introduced",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-11-24T05:00:00+00:00",
+      "session_id": "136",
+      "sources": [
+        {
+          "url": "https://www.legislature.ohio.gov/legislation/136/sb113"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb113/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb113/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb113/"
+        }
+      ]
+    },
+    "bill_id": "SB 113"
+  },
+  "sources": {
+    "bill": "oh-legislation/country:us/state:oh/sessions/136/bills/SB113/metadata.json",
+    "log": "oh-legislation/country:us/state:oh/sessions/136/bills/SB113/action_logs.jsonl#20261124T050000Z.classification.introduction.lower"
+  },
+  "timestamp": "20261124T050000Z"
+}

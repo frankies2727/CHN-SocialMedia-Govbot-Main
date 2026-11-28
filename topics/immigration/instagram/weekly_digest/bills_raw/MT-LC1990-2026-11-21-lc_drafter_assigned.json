@@ -1,0 +1,34 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"legislature\"}",
+    "identifier": "LC1990",
+    "legislative_session": "2027",
+    "subject": [
+      "Federal Government",
+      "Law Enforcement",
+      "Local Government"
+    ],
+    "title": "Require local government cooperation with federal civil immigration"
+  },
+  "id": "LC1990",
+  "log": {
+    "action": {
+      "description": "(LC) Drafter Assigned",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-11-21T15:08:19+00:00",
+      "session_id": "2027",
+      "sources": [
+        {
+          "url": "https://bills.legmt.gov/#/lc/bill/3/LC1990"
+        }
+      ]
+    },
+    "bill_id": "LC1990"
+  },
+  "sources": {
+    "bill": "mt-2027/country:us/state:mt/sessions/2027/bills/LC1990/metadata.json",
+    "log": "mt-2027/country:us/state:mt/sessions/2027/bills/LC1990/action_logs.jsonl#20261121T150819Z_lc_drafter_assigned"
+  },
+  "timestamp": "20261121T150819Z"
+}
