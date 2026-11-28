@@ -1,0 +1,59 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "To amend sections 4507.05, 4507.071, 4507.21, and 4508.02 and to enact section 4508.041 of the Revised Code to make changes to driver education requirements.",
+        "note": "long title"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 463",
+    "legislative_session": "136",
+    "subject": [
+      "Drivers' Licenses",
+      "Motor Vehicles",
+      "Public Safety",
+      "Transportation"
+    ],
+    "title": "Revise driver education requirements"
+  },
+  "id": "HB 463",
+  "log": {
+    "action": {
+      "classifications": [
+        "introduction"
+      ],
+      "description": "Introduced",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-11-24T05:00:00+00:00",
+      "session_id": "136",
+      "sources": [
+        {
+          "url": "https://www.legislature.ohio.gov/legislation/136/hb463"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb463/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb463/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb463/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb463/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb463/"
+        }
+      ]
+    },
+    "bill_id": "HB 463"
+  },
+  "sources": {
+    "bill": "oh-legislation/country:us/state:oh/sessions/136/bills/HB463/metadata.json",
+    "log": "oh-legislation/country:us/state:oh/sessions/136/bills/HB463/action_logs.jsonl#20261124T050000Z.classification.introduction.upper"
+  },
+  "timestamp": "20261124T050000Z"
+}

@@ -1,0 +1,32 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"legislature\"}",
+    "identifier": "B26-0835",
+    "legislative_session": "26",
+    "title": "Supporting Survivors of Domestic Violence and Abuse Amendment Act of 2026"
+  },
+  "id": "B26-0835",
+  "log": {
+    "action": {
+      "description": "Committee Mark-up of B26-0835 by the Judiciary and Public Safety Committee",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-11-23T05:00:00+00:00",
+      "session_id": "26",
+      "sources": [
+        {
+          "url": "https://lims.dccouncil.gov/api/v2/PublicData/BulkData/1/26"
+        },
+        {
+          "url": "https://lims.dccouncil.gov/Legislation/B26-0835"
+        }
+      ]
+    },
+    "bill_id": "B26-0835"
+  },
+  "sources": {
+    "bill": "dc-legislation/country:us/state:dc/sessions/26/bills/B26-0835/metadata.json",
+    "log": "dc-legislation/country:us/state:dc/sessions/26/bills/B26-0835/action_logs.jsonl#20261123T050000Z_committee_markup_of_b260835_by_the_judiciary_and_public_safety_committee"
+  },
+  "timestamp": "20261123T050000Z"
+}

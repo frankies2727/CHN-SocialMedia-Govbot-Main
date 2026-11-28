@@ -1,0 +1,40 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"upper\"}",
+    "identifier": "S4958",
+    "legislative_session": "222",
+    "subject": [
+      "POLICE",
+      "SCI AND TECH"
+    ],
+    "title": "Requires AG to study law enforcement use of facial recognition technology and issue report with recommendations for Statewide policy."
+  },
+  "id": "S4958",
+  "log": {
+    "action": {
+      "classifications": [
+        "introduction",
+        "referral-committee"
+      ],
+      "description": "Introduced in the Senate, Referred to Senate Law and Public Safety Committee",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"upper\"}",
+      "occurred_at": "2026-11-23T05:00:00+00:00",
+      "session_id": "222",
+      "sources": [
+        {
+          "url": "https://www.njleg.state.nj.us/bill-search/2026/S4958"
+        },
+        {
+          "url": "https://pub.njleg.state.nj.us/leg-databases/"
+        }
+      ]
+    },
+    "bill_id": "S4958"
+  },
+  "sources": {
+    "bill": "nj-legislation/country:us/state:nj/sessions/222/bills/S4958/metadata.json",
+    "log": "nj-legislation/country:us/state:nj/sessions/222/bills/S4958/action_logs.jsonl#20261123T050000Z.classification.introduction.upper"
+  },
+  "timestamp": "20261123T050000Z"
+}

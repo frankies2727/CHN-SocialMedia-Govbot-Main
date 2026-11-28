@@ -1,0 +1,36 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"legislature\"}",
+    "identifier": "B26-0707",
+    "legislative_session": "26",
+    "title": "Rodent Education and Management Yields (\"REMY\") Results Amendment Act of 2026"
+  },
+  "id": "B26-0707",
+  "log": {
+    "action": {
+      "classifications": [
+        "executive-receipt",
+        "receipt"
+      ],
+      "description": "Transmitted to Mayor, Response Due on Dec 09, 2026",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"executive\"}",
+      "occurred_at": "2026-11-24T05:00:00+00:00",
+      "session_id": "26",
+      "sources": [
+        {
+          "url": "https://lims.dccouncil.gov/api/v2/PublicData/BulkData/1/26"
+        },
+        {
+          "url": "https://lims.dccouncil.gov/Legislation/B26-0707"
+        }
+      ]
+    },
+    "bill_id": "B26-0707"
+  },
+  "sources": {
+    "bill": "dc-legislation/country:us/state:dc/sessions/26/bills/B26-0707/metadata.json",
+    "log": "dc-legislation/country:us/state:dc/sessions/26/bills/B26-0707/action_logs.jsonl#20261124T050000Z.classification.executive-receipt.executive"
+  },
+  "timestamp": "20261124T050000Z"
+}

@@ -1,0 +1,60 @@
+{
+  "bill": {
+    "abstracts": [
+      {
+        "abstract": "To amend section 341.25 of the Revised Code to expand the allowable uses of profits from jail commissary funds.",
+        "note": "long title"
+      }
+    ],
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HB 397",
+    "legislative_session": "136",
+    "subject": [
+      "Crimes, Corrections, and Law Enforcement",
+      "Prisons and Jails"
+    ],
+    "title": "Expand allowable uses of profits from jail commissary funds"
+  },
+  "id": "HB 397",
+  "log": {
+    "action": {
+      "classifications": [
+        "became-law"
+      ],
+      "description": "Signed By The Governor",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"legislature\"}",
+      "occurred_at": "2026-11-24T05:00:00+00:00",
+      "session_id": "136",
+      "sources": [
+        {
+          "url": "https://www.legislature.ohio.gov/legislation/136/hb397"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb397/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb397/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb397/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb397/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb397/"
+        },
+        {
+          "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb397/"
+        }
+      ]
+    },
+    "bill_id": "HB 397"
+  },
+  "sources": {
+    "bill": "oh-legislation/country:us/state:oh/sessions/136/bills/HB397/metadata.json",
+    "log": "oh-legislation/country:us/state:oh/sessions/136/bills/HB397/action_logs.jsonl#20261124T050000Z.classification.became-law.legislature"
+  },
+  "timestamp": "20261124T050000Z"
+}

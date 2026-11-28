@@ -1,0 +1,35 @@
+{
+  "bill": {
+    "from_organization": "~{\"classification\": \"lower\"}",
+    "identifier": "HR 11152",
+    "legislative_session": "119",
+    "title": "ERISA Health Plan Anti-Kickback Act"
+  },
+  "id": "HR 11152",
+  "log": {
+    "action": {
+      "classifications": [
+        "introduction"
+      ],
+      "description": "Introduced in House",
+      "entity_type": "bill",
+      "jurisdiction_id": "~{\"classification\": \"lower\"}",
+      "occurred_at": "2026-11-24T05:00:00+00:00",
+      "session_id": "119",
+      "sources": [
+        {
+          "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr11152.xml"
+        },
+        {
+          "url": "https://congress.gov/bill/119th-congress/house-bill/11152"
+        }
+      ]
+    },
+    "bill_id": "HR 11152"
+  },
+  "sources": {
+    "bill": "usa-legislation/country:us/state:usa/sessions/119/bills/HR11152/metadata.json",
+    "log": "usa-legislation/country:us/state:usa/sessions/119/bills/HR11152/action_logs.jsonl#20261124T050000Z.classification.introduction.lower"
+  },
+  "timestamp": "20261124T050000Z"
+}
